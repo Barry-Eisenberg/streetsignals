@@ -1,7 +1,19 @@
+"""
+Street Signals — daily aggregation pipeline.
+
+Strategy:
+  - Pull RSS from regulator feeds (priority 1) then fintech/crypto news (priority 2).
+  - Sources processed in priority order so the most authoritative source wins
+    when the same story appears in multiple feeds.
+  - Deduplicate within a run by normalised URL and 8-word title fingerprint.
+  - Accumulate into auto_data.json with a 12-month rolling window, capped at
+    MAX_AUTO_SIGNALS entries (newest-first). data.json is never modified.
+"""
+
 import json
 import re
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.error import URLError, HTTPError
@@ -15,6 +27,23 @@ SOURCES_PATH = ROOT / "sources.json"
 
 USER_AGENT = "street-signals-updater/1.0"
 FETCH_TIMEOUT = 20
+MAX_AUTO_SIGNALS = 500   # hard cap on accumulated auto signals
+ROLLING_DAYS = 365       # prune entries older than this
+MIN_DESC_LENGTH = 40     # reject items with very thin descriptions
+
+# Tracking query params to strip from URLs before dedup
+_TRACKING_PARAMS = re.compile(
+    r"[?&](utm_[a-z_]+|ref|source|medium|campaign|cid|gclid|fbclid)=[^&]*",
+    re.IGNORECASE,
+)
+
+# Words ignored when building a title fingerprint
+_STOPWORDS = {
+    "the", "a", "an", "of", "in", "on", "to", "for", "and", "with",
+    "is", "its", "as", "at", "by", "from", "new", "says", "report",
+    "how", "why", "what", "this", "that", "are", "has", "have", "been",
+    "will", "was", "not", "but", "be", "it", "or", "if", "up",
+}
 
 INST_TYPE_MAP = {
     "global_banks": "Global Banks",
@@ -27,21 +56,23 @@ INST_TYPE_MAP = {
 }
 
 TOPIC_KEYWORDS = [
-    "token",
-    "tokeniz",
-    "blockchain",
-    "distributed ledger",
-    "dlt",
-    "digital asset",
-    "stablecoin",
-    "cbdc",
-    "crypto",
-    "on-chain",
-    "onchain",
-    "settlement",
+    "token", "tokeniz",
+    "blockchain", "distributed ledger", "dlt",
+    "digital asset", "digital securities", "digital bond", "digital fund",
+    "stablecoin", "stable coin",
+    "cbdc", "central bank digital",
+    "crypto", "cryptocurrency",
+    "on-chain", "onchain",
+    "settlement", "clearing",
     "interoperability",
+    "real world asset", "rwa",
+    "defi", "decentralized finance",
+    "deposit token",
+    "smart contract",
 ]
 
+
+# ── I/O helpers ──────────────────────────────────────────────────────────────
 
 def load_json(path, default):
     if not path.exists():
@@ -66,6 +97,24 @@ def clean_text(value):
     value = re.sub(r"<[^>]+>", " ", value or "")
     value = re.sub(r"\s+", " ", value).strip()
     return value
+
+
+def normalize_url(url):
+    """Strip tracking query params; lowercase scheme+host."""
+    url = url.strip()
+    url = _TRACKING_PARAMS.sub("", url)
+    url = url.rstrip("?&")
+    m = re.match(r"(https?://[^/?#]+)(.*)", url, re.IGNORECASE)
+    if m:
+        url = m.group(1).lower() + m.group(2)
+    return url
+
+
+def title_fingerprint(title):
+    """8-word normalised fingerprint for cross-source dedup."""
+    words = re.sub(r"[^a-z0-9\s]", "", (title or "").lower()).split()
+    meaningful = [w for w in words if w not in _STOPWORDS and len(w) > 2]
+    return " ".join(meaningful[:8])
 
 
 def safe_iso_date(value):
@@ -182,13 +231,13 @@ def parse_rss_items(xml_text):
     except ET.ParseError:
         return []
 
-    # RSS
+    # RSS 2.0
     items = root.findall(".//item")
     if items:
         output = []
         for item in items:
             title = clean_text((item.findtext("title") or "").strip())
-            link = (item.findtext("link") or "").strip()
+            link = normalize_url((item.findtext("link") or "").strip())
             desc = clean_text(item.findtext("description") or "")
             pub_date = item.findtext("pubDate") or ""
             output.append({"title": title, "link": link, "description": desc, "published": safe_iso_date(pub_date)})
@@ -201,7 +250,7 @@ def parse_rss_items(xml_text):
     for entry in entries:
         title = clean_text(entry.findtext("a:title", default="", namespaces=ns))
         link_el = entry.find("a:link", ns)
-        link = (link_el.get("href") if link_el is not None else "") or ""
+        link = normalize_url((link_el.get("href") if link_el is not None else "") or "")
         desc = clean_text(entry.findtext("a:summary", default="", namespaces=ns) or entry.findtext("a:content", default="", namespaces=ns))
         pub_date = entry.findtext("a:updated", default="", namespaces=ns)
         output.append({"title": title, "link": link, "description": desc, "published": safe_iso_date(pub_date)})
@@ -213,19 +262,48 @@ def relevant_topic(text):
     return any(k in t for k in TOPIC_KEYWORDS)
 
 
-def fetch_auto_signals(config, manual_data):
-    seen_urls = {s.get("source_url", "") for s in manual_data if s.get("source_url")}
-    signals = []
+# ── Signal classification ────────────────────────────────────────────────────
 
-    for source in config.get("rss_sources", []):
-        if not source.get("enabled", True):
-            continue
 
+def _build_seen_sets(signals):
+    """Return (seen_urls, seen_fingerprints) from a list of signal records."""
+    seen_urls = set()
+    seen_fps = set()
+    for s in signals:
+        url = s.get("source_url", "")
+        if url:
+            seen_urls.add(normalize_url(url))
+        fp = title_fingerprint(s.get("initiative", ""))
+        if fp:
+            seen_fps.add(fp)
+    return seen_urls, seen_fps
+
+
+def fetch_auto_signals(config, manual_data, existing_auto):
+    """
+    Fetch all enabled RSS sources and return only signals not already in
+    manual_data or existing_auto.
+
+    Sources are sorted by 'priority' (ascending) so authoritative feeds
+    (regulators, priority 1) are processed before news aggregators (priority 2).
+    When the same story appears in multiple feeds, the first (highest-priority)
+    version wins and the later duplicate is skipped via title fingerprint.
+    """
+    seen_urls, seen_fps = _build_seen_sets(manual_data + existing_auto)
+    new_signals = []
+
+    sources = sorted(
+        [s for s in config.get("rss_sources", []) if s.get("enabled", True)],
+        key=lambda s: (s.get("priority", 99), s.get("name", "")),
+    )
+
+    for source in sources:
+        name = source.get("name", source.get("url", "unknown"))
         try:
             xml_text = fetch_text(source["url"])
             items = parse_rss_items(xml_text)
         except (URLError, HTTPError, TimeoutError, ValueError) as ex:
-            print(f"WARN: failed RSS source {source.get('name', source.get('url'))}: {ex}")
+            print(f"WARN [{name}]: {ex}")
             continue
 
         max_items = int(source.get("max_items", 25))
@@ -233,31 +311,51 @@ def fetch_auto_signals(config, manual_data):
         for item in items:
             if picked >= max_items:
                 break
-            if not item["link"] or item["link"] in seen_urls:
+
+            url = item["link"]
+            if not url or url in seen_urls:
                 continue
 
-            combined_text = f"{item['title']} {item['description']}"
-            if not relevant_topic(combined_text):
+            fp = title_fingerprint(item["title"])
+            if fp and fp in seen_fps:
+                continue  # duplicate story from lower-priority source
+
+            combined = f"{item['title']} {item['description']}"
+            if not relevant_topic(combined):
+                continue
+
+            if len(item["description"]) < MIN_DESC_LENGTH:
                 continue
 
             signal = {
-                "institution": source.get("institution", source.get("name", "External Source")),
+                "institution": source.get("institution", name),
                 "initiative": item["title"],
                 "description": item["description"],
                 "date": item["published"],
-                "source_url": item["link"],
+                "source_url": url,
                 "category": source.get("category", "ecosystem"),
-                "source_name": source.get("name", "RSS"),
+                "source_name": name,
                 "auto_generated": True,
             }
             enrich(signal)
-            signals.append(signal)
-            seen_urls.add(item["link"])
+            new_signals.append(signal)
+            seen_urls.add(url)
+            if fp:
+                seen_fps.add(fp)
             picked += 1
 
-    # Keep stable output order: newest first
-    signals.sort(key=lambda s: s.get("date", "1900-01-01"), reverse=True)
-    return signals
+        if picked:
+            print(f"  [{name}] {picked} new signal(s)")
+
+    return new_signals
+
+
+def prune_and_cap(signals, rolling_days=ROLLING_DAYS, cap=MAX_AUTO_SIGNALS):
+    """Remove signals older than rolling_days and enforce hard cap (newest first)."""
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=rolling_days)).date().isoformat()
+    fresh = [s for s in signals if s.get("date", "1900-01-01") >= cutoff]
+    fresh.sort(key=lambda s: s.get("date", "1900-01-01"), reverse=True)
+    return fresh[:cap]
 
 
 def fetch_nextfi_briefs(config, current_briefs):
@@ -330,18 +428,30 @@ def fetch_nextfi_briefs(config, current_briefs):
 
 def main():
     manual_data = load_json(DATA_PATH, [])
+    existing_auto = load_json(AUTO_DATA_PATH, [])
     current_briefs = load_json(INTEL_BRIEFS_PATH, [])
     config = load_json(SOURCES_PATH, {})
 
-    auto_signals = fetch_auto_signals(config, manual_data)
+    print(f"Loaded: {len(manual_data)} manual, {len(existing_auto)} existing auto signals")
+    print("Fetching RSS sources...")
+
+    # Fetch new signals — only items not already in manual or existing auto
+    new_signals = fetch_auto_signals(config, manual_data, existing_auto)
+
+    # Merge new signals with existing accumulator, prune to rolling window, cap
+    merged = new_signals + existing_auto
+    merged = prune_and_cap(merged)
+
+    # Update intel briefs
     intel_briefs = fetch_nextfi_briefs(config, current_briefs)
 
-    save_json(AUTO_DATA_PATH, auto_signals)
+    save_json(AUTO_DATA_PATH, merged)
     save_json(INTEL_BRIEFS_PATH, intel_briefs)
 
-    print(f"Manual signals: {len(manual_data)}")
-    print(f"Auto signals: {len(auto_signals)}")
-    print(f"Intel briefs: {len(intel_briefs)}")
+    print(f"\nDone.")
+    print(f"  Manual signals : {len(manual_data)}")
+    print(f"  Auto signals   : {len(merged)} total ({len(new_signals)} new this run)")
+    print(f"  Intel briefs   : {len(intel_briefs)}")
 
 
 if __name__ == "__main__":

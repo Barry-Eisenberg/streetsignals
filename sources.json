@@ -5,7 +5,116 @@
   },
   "rss_sources": [
     {
+      "enabled": false,
+      "priority": 1,
+      "name": "BIS — CPMI Publications",
+      "url": "https://www.bis.org/rss/cpmi_rss.xml",
+      "institution": "BIS",
+      "category": "regulators",
+      "max_items": 20
+    },
+    {
+      "enabled": false,
+      "priority": 1,
+      "name": "BIS — Working Papers",
+      "url": "https://www.bis.org/rss/bppaper_rss.xml",
+      "institution": "BIS",
+      "category": "regulators",
+      "max_items": 15
+    },
+    {
+      "enabled": false,
+      "priority": 1,
+      "name": "BIS — Financial Stability",
+      "url": "https://www.bis.org/rss/fsi_rss.xml",
+      "institution": "BIS",
+      "category": "regulators",
+      "max_items": 15
+    },
+    {
       "enabled": true,
+      "priority": 1,
+      "name": "Federal Reserve — Press Releases",
+      "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "institution": "Federal Reserve",
+      "category": "regulators",
+      "max_items": 20
+    },
+    {
+      "enabled": true,
+      "priority": 1,
+      "name": "ECB — Press Releases",
+      "url": "https://www.ecb.europa.eu/rss/press.html",
+      "institution": "ECB",
+      "category": "regulators",
+      "max_items": 20
+    },
+    {
+      "enabled": false,
+      "priority": 1,
+      "name": "CFTC — Press Releases",
+      "url": "https://www.cftc.gov/rss/pressreleases.xml",
+      "institution": "CFTC",
+      "category": "regulators",
+      "max_items": 15
+    },
+    {
+      "enabled": true,
+      "priority": 1,
+      "name": "FCA — News",
+      "url": "https://www.fca.org.uk/news/rss.xml",
+      "institution": "FCA",
+      "category": "regulators",
+      "max_items": 15
+    },
+    {
+      "enabled": true,
+      "priority": 1,
+      "name": "ESMA — News",
+      "url": "https://www.esma.europa.eu/rss.xml",
+      "institution": "ESMA",
+      "category": "regulators",
+      "max_items": 15
+    },
+    {
+      "enabled": true,
+      "priority": 1,
+      "name": "FSB — Publications",
+      "url": "https://www.fsb.org/feed/",
+      "institution": "FSB",
+      "category": "regulators",
+      "max_items": 15
+    },
+    {
+      "enabled": true,
+      "priority": 2,
+      "name": "Ledger Insights",
+      "url": "https://www.ledgerinsights.com/feed/",
+      "institution": "Ledger Insights",
+      "category": "ecosystem",
+      "max_items": 30
+    },
+    {
+      "enabled": true,
+      "priority": 2,
+      "name": "The Block",
+      "url": "https://www.theblock.co/rss.xml",
+      "institution": "The Block",
+      "category": "ecosystem",
+      "max_items": 25
+    },
+    {
+      "enabled": true,
+      "priority": 2,
+      "name": "Finextra",
+      "url": "https://www.finextra.com/rss/headlines.aspx",
+      "institution": "Finextra",
+      "category": "ecosystem",
+      "max_items": 25
+    },
+    {
+      "enabled": true,
+      "priority": 2,
       "name": "CoinDesk",
       "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
       "institution": "CoinDesk",
@@ -13,12 +122,13 @@
       "max_items": 25
     },
     {
-      "enabled": false,
-      "name": "BIS Press Releases",
-      "url": "https://www.bis.org/rss/pressreleases.rss",
-      "institution": "BIS",
-      "category": "regulators",
-      "max_items": 25
+      "enabled": true,
+      "priority": 2,
+      "name": "CoinGeek",
+      "url": "https://coingeek.com/feed/",
+      "institution": "CoinGeek",
+      "category": "ecosystem",
+      "max_items": 20
     }
   ]
 }
