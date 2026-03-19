@@ -799,7 +799,7 @@
   width: 100%;
 }
 .chart-container.fmi-chart-container {
-  height: 700px;
+  height: 640px;
 }
 
 .additional-analytics-toggle {
@@ -1546,7 +1546,7 @@
     grid-template-columns: 1fr;
   }
   .chart-container.fmi-chart-container {
-    height: 580px;
+    height: 540px;
   }
   .additional-analytics-btn {
     width: 100%;
