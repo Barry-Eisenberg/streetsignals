@@ -105,26 +105,6 @@ const INTEL_BRIEFS = [
   { title: "Growth in Digital Asset Posts on LinkedIn", desc: "Analysis of growth in digital asset-related LinkedIn posts, decomposed into tokenization/RWA, stablecoins, and FMI disintermediation.", source: "NextFi Advisors", url: "https://img1.wsimg.com/blobby/go/69c98e24-9280-42db-9e35-615f225a71b3/LinkedInAnalysis_19Feb2026_v.02.pdf" }
 ];
 
-const INTEL_FALLBACK_URL = 'https://nextfiadvisors.com/intelligence';
-
-async function openIntelBrief(event, briefUrl) {
-  event.preventDefault();
-
-  // Open a blank tab immediately to preserve user-initiated popup behavior.
-  const newTab = window.open('', '_blank', 'noopener,noreferrer');
-  if (!newTab) {
-    window.location.href = INTEL_FALLBACK_URL;
-    return;
-  }
-
-  try {
-    const response = await fetch(briefUrl, { method: 'HEAD', mode: 'cors', cache: 'no-store' });
-    newTab.location.href = response.ok ? briefUrl : INTEL_FALLBACK_URL;
-  } catch {
-    newTab.location.href = INTEL_FALLBACK_URL;
-  }
-}
-
 // ===== LOAD DATA =====
 let allSignals = [];
 let activeFilter = 'all';
@@ -672,7 +652,7 @@ function renderFilterPills() {
 // ===== INTEL BRIEFS =====
 function renderIntelBriefs() {
   document.getElementById('intelBriefs').innerHTML = INTEL_BRIEFS.map(b => `
-    <a href="${b.url}" onclick="openIntelBrief(event, '${b.url}')" class="intel-brief" style="text-decoration:none;">
+    <a href="${b.url}" target="_blank" rel="noopener noreferrer" class="intel-brief" style="text-decoration:none;">
       <div class="intel-brief-title">${b.title}</div>
       <div class="intel-brief-desc">${b.desc}</div>
       <div style="font-size:11px;color:var(--color-text-faint);margin-top:var(--space-2);">${b.source}</div>
