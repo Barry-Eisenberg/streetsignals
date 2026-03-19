@@ -91,7 +91,7 @@ const CATEGORIES = {
 };
 const TAG_LABELS = { global_banks: 'Banks', asset_management: 'Asset Mgmt', payments: 'Payments', exchanges_intermediaries: 'Exchanges', regulators: 'Regulators', ecosystem: 'Ecosystem' };
 
-const INTEL_BRIEFS = [
+const INTEL_BRIEFS_DEFAULT = [
   { title: "SWIFT's Shift to Blockchain Infrastructure", desc: "SWIFT's transition from blockchain experimentation to production-ready shared ledger infrastructure marks a structural turning point for global finance.", source: "NextFi Advisors", url: "https://img1.wsimg.com/blobby/go/69c98e24-9280-42db-9e35-615f225a71b3/SwiftShiftToBlockchain_Final_v.2.pdf" },
   { title: "DTCC vs SWIFT: Solving Interoperability", desc: "The world's most systemically important financial market intermediaries have released major reports highlighting network fragmentation as the single greatest barrier to digital asset adoption at scale.", source: "NextFi Advisors", url: "https://img1.wsimg.com/blobby/go/69c98e24-9280-42db-9e35-615f225a71b3/SWIFT%26DTCC_IntelligenceBrief_v.2.pdf" },
   { title: "SEC Provides Clarity on Tokenized Securities", desc: "On January 28, 2026, three SEC divisions issued a joint statement clarifying how federal securities laws apply to tokenized securities — a milestone removing a key barrier to institutional adoption.", source: "NextFi Advisors", url: "https://img1.wsimg.com/blobby/go/69c98e24-9280-42db-9e35-615f225a71b3/SEC-Letter%20on%20Tokenized%20Securities_18F-dc69886.pdf" },
@@ -105,41 +105,59 @@ const INTEL_BRIEFS = [
   { title: "Growth in Digital Asset Posts on LinkedIn", desc: "Analysis of growth in digital asset-related LinkedIn posts, decomposed into tokenization/RWA, stablecoins, and FMI disintermediation.", source: "NextFi Advisors", url: "https://img1.wsimg.com/blobby/go/69c98e24-9280-42db-9e35-615f225a71b3/LinkedInAnalysis_19Feb2026_v.02.pdf" }
 ];
 
+let INTEL_BRIEFS = [...INTEL_BRIEFS_DEFAULT];
+
 // ===== LOAD DATA =====
 let allSignals = [];
 let activeFilter = 'all';
 let searchQuery = '';
 let chartInstances = {};
 
-// Convert intelligence briefs into signal-compatible objects for inclusion in metrics
-const INTEL_AS_SIGNALS = INTEL_BRIEFS.map(b => ({
-  institution: 'NextFi Advisors',
-  institution_type: 'Intelligence & Research',
-  initiative: b.title,
-  description: b.desc,
-  signal_type: 'Intelligence Brief',
-  initiative_types: ['Digital Asset Strategy'],
-  fmi_areas: ['General Infrastructure'],
-  category: 'intel_briefs',
-  source_url: b.url,
-  year: '2025',
-  date: '2025-01-01',
-  _isBrief: true
-}));
+function mapIntelBriefsToSignals(briefs) {
+  return briefs.map(b => ({
+    institution: 'NextFi Advisors',
+    institution_type: 'Intelligence & Research',
+    initiative: b.title,
+    description: b.desc,
+    signal_type: 'Intelligence Brief',
+    initiative_types: ['Digital Asset Strategy'],
+    fmi_areas: ['General Infrastructure'],
+    category: 'intel_briefs',
+    source_url: b.url,
+    year: '2025',
+    date: '2025-01-01',
+    _isBrief: true
+  }));
+}
 
-fetch('./data.json')
-  .then(r => r.json())
-  .then(data => {
-    allSignals = [...data, ...INTEL_AS_SIGNALS].sort((a, b) => new Date(b.date || '2024-01-01') - new Date(a.date || '2024-01-01'));
-    renderKPIs();
-    renderDirectory();
-    buildCharts();
-    window._chartsReady = true;
-    renderFilterPills();
-    renderIntelBriefs();
-    renderSignals();
-    document.querySelectorAll('.reveal:not(.visible)').forEach(el => observer.observe(el));
-  });
+function loadJsonWithFallback(path, fallback) {
+  return fetch(path)
+    .then(r => (r.ok ? r.json() : fallback))
+    .catch(() => fallback);
+}
+
+Promise.all([
+  loadJsonWithFallback('./data.json', []),
+  loadJsonWithFallback('./auto_data.json', []),
+  loadJsonWithFallback('./intel_briefs.json', INTEL_BRIEFS_DEFAULT)
+]).then(([manualData, autoData, intelBriefs]) => {
+  const manualSignals = Array.isArray(manualData) ? manualData : [];
+  const generatedSignals = Array.isArray(autoData) ? autoData : [];
+  INTEL_BRIEFS = Array.isArray(intelBriefs) && intelBriefs.length ? intelBriefs : [...INTEL_BRIEFS_DEFAULT];
+
+  const intelAsSignals = mapIntelBriefsToSignals(INTEL_BRIEFS);
+  const mergedSignals = [...manualSignals, ...generatedSignals, ...intelAsSignals];
+  allSignals = mergedSignals.sort((a, b) => new Date(b.date || '2024-01-01') - new Date(a.date || '2024-01-01'));
+
+  renderKPIs();
+  renderDirectory();
+  buildCharts();
+  window._chartsReady = true;
+  renderFilterPills();
+  renderIntelBriefs();
+  renderSignals();
+  document.querySelectorAll('.reveal:not(.visible)').forEach(el => observer.observe(el));
+});
 
 // ===== KPIs =====
 let activeKPI = null;
@@ -651,6 +669,9 @@ function renderFilterPills() {
 
 // ===== INTEL BRIEFS =====
 function renderIntelBriefs() {
+  const countEl = document.getElementById('intelBriefCount');
+  if (countEl) countEl.textContent = `${INTEL_BRIEFS.length} briefs`;
+
   document.getElementById('intelBriefs').innerHTML = INTEL_BRIEFS.map(b => `
     <a href="${b.url}" target="_blank" rel="noopener noreferrer" class="intel-brief" style="text-decoration:none;">
       <div class="intel-brief-title">${b.title}</div>

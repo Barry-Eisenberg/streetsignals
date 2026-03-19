@@ -1,0 +1,24 @@
+{
+  "nextfi_intelligence": {
+    "enabled": true,
+    "url": "https://nextfiadvisors.com/intelligence"
+  },
+  "rss_sources": [
+    {
+      "enabled": true,
+      "name": "CoinDesk",
+      "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "institution": "CoinDesk",
+      "category": "ecosystem",
+      "max_items": 25
+    },
+    {
+      "enabled": false,
+      "name": "BIS Press Releases",
+      "url": "https://www.bis.org/rss/pressreleases.rss",
+      "institution": "BIS",
+      "category": "regulators",
+      "max_items": 25
+    }
+  ]
+}
