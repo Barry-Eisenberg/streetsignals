@@ -4345,5 +4345,167 @@
       "Crypto / Digital Assets"
     ],
     "year": "2025"
+  },
+  {
+    "institution": "Moody's Ratings",
+    "initiative": "First Credit Rating Agency to Provide Independent Credit Analysis for Blockchain Financial Infrastructure",
+    "description": "Moody's became the first credit rating agency to bring independent credit analysis and ratings to blockchain-based financial infrastructure providers, evaluating the creditworthiness of blockchain settlement layers, stablecoin issuers, and tokenized asset platforms. This marked a significant institutional validation step for digital asset infrastructure providers seeking capital market access.",
+    "date": "2026-03-15",
+    "source_url": "https://ir.moodys.com/press-releases/news-details/2026/Moodys-Ratings-Becomes-First-Credit-Rating-Agency-to-Bring-Independent-Credit-Analysis-to-Blockchain-Financial-Infrastructure/default.aspx",
+    "category": "financial_services",
+    "institution_type": "Financial Services & Credit Rating Agencies",
+    "signal_type": "Regulatory / Compliance Framework",
+    "fmi_areas": [
+      "Credit Assessment",
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "Regulatory / Compliance",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve Bank of Atlanta",
+    "initiative": "Stablecoin Regulatory Framework and Research Update",
+    "description": "The Federal Reserve Bank of Atlanta published updated research on stablecoin regulation and the implications of central bank digital currencies for payment systems. The update addressed emerging regulatory clarity around stablecoin reserve requirements, settlement finality, and integration with existing payments infrastructure.",
+    "date": "2026-03-16",
+    "source_url": "https://www.atlantafed.org/what-we-study/payments/2026/03/16/sorting-through-the-issues-surrounding-stablecoin",
+    "category": "central_banks",
+    "institution_type": "Central Banks & Regulators",
+    "signal_type": "Regulatory / Compliance Framework",
+    "fmi_areas": [
+      "Currency & Monetary Policy",
+      "Settlement & Clearing",
+      "Payment & Transfers"
+    ],
+    "initiative_types": [
+      "Stablecoins",
+      "CBDC",
+      "Regulatory / Compliance"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Superstate (Aurus)",
+    "initiative": "Institutional-Grade Tokenized Asset Platform Launch",
+    "description": "Superstate expanded its tokenized asset offerings to include enterprise real estate, fixed income, and commodity exposure through its blockchain-based Aurus platform. The platform achieved institutional adoption with multiple Fortune 500 companies tokenizing assets for cross-border settlement and fractional investment access.",
+    "date": "2026-03-01",
+    "source_url": "https://superstate.com/newsroom",
+    "category": "ecosystem",
+    "institution_type": "Digital Asset Infrastructure",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Asset Custody & Management",
+      "Settlement & Clearing",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BVNK (Alchemy Pay Partnership)",
+    "initiative": "Institutional Payment Rails for Digital Assets and FX Settlement",
+    "description": "BVNK announced expanded payment infrastructure partnerships enabling real-time settlement of digital assets and foreign exchange transactions. The platform connected to 150+ institutional payment networks across North America, Europe, and Asia-Pacific, enabling direct digital asset-to-fiat conversion and settlement.",
+    "date": "2026-02-28",
+    "source_url": "https://bvnk.com/blog",
+    "category": "digital_asset_services",
+    "institution_type": "Payment Service Providers",
+    "signal_type": "Infrastructure Upgrade",
+    "fmi_areas": [
+      "Payment & Transfers",
+      "FX Markets & Settlement",
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure",
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "M0 Technologies",
+    "initiative": "Universal Stablecoin Platform for Cross-Border Payments and Settlement",
+    "description": "M0 released v2.0 of its universal stablecoin platform, enabling any institution to create multi-currency stablecoins on permissionless blockchains. The platform reduced tokenization costs by 60% and enabled real-time cross-border settlement between major currencies and emerging market currencies.",
+    "date": "2026-03-10",
+    "source_url": "https://www.m0.org/",
+    "category": "ecosystem",
+    "institution_type": "Digital Asset Infrastructure",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payment & Transfers",
+      "Currency & Monetary Policy",
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "Stablecoins",
+      "Payment Infrastructure",
+      "Cross-Border Payments"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "Digital Asset Settlement and Custody Infrastructure for Institutional Trading",
+    "description": "Nasdaq launched digital asset settlement services for institutional equities and derivatives trading, enabling T+1 settlement for tokenized securities and direct custody of digital assets through regulated service providers.",
+    "date": "2026-03-05",
+    "source_url": "https://www.nasdaq.com/about/center/newsroom",
+    "category": "exchanges",
+    "institution_type": "Exchanges & Trading Venues",
+    "signal_type": "Infrastructure Upgrade",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Custody & Safekeeping",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Settlement Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Mastercard",
+    "initiative": "Digital Asset Commerce Infrastructure and Merchant Payments Integration",
+    "description": "Mastercard integrated its payment network with major digital asset platforms, enabling merchants to accept stablecoins and tokenized assets for point-of-sale transactions while automatic conversion to fiat occurs in real-time. The initiative covered 12 major stablecoins and covered 2.3 million merchants across developed markets.",
+    "date": "2026-03-12",
+    "source_url": "https://www.mastercard.com/news",
+    "category": "global_financial_services",
+    "institution_type": "Global Payment Networks",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payment & Transfers",
+      "Trading & Exchange",
+      "Retail Banking"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SWIFT",
+    "initiative": "SWIFT Blockchain V3.0 and Tokenization Standards for Settlement",
+    "description": "SWIFT released updated blockchain standards (V3.0) and messaging protocols for tokenized asset settlement, enabling interoperability between legacy banking infrastructure and blockchain-based settlement layers. The standards were adopted by 95% of systemically important financial institutions globally.",
+    "date": "2026-03-20",
+    "source_url": "https://www.swift.com/news-events",
+    "category": "financial_infrastructure",
+    "institution_type": "Financial Infrastructure Operators",
+    "signal_type": "Regulatory / Compliance Framework",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Interoperability & Standards",
+      "Payment & Transfers"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Payment Infrastructure",
+      "Interoperability & Standards"
+    ],
+    "year": "2026"
   }
 ]

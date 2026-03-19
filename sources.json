@@ -130,6 +130,87 @@
       "institution": "CoinGeek",
       "category": "ecosystem",
       "max_items": 20
+    },
+    {
+      "enabled": true,
+      "priority": 2,
+      "name": "Chainalysis — Blog",
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "institution": "Chainalysis",
+      "category": "ecosystem",
+      "max_items": 20
+    },
+    {
+      "enabled": true,
+      "priority": 2,
+      "name": "Tokenization Insight — News",
+      "url": "https://www.tokenizationinsight.com/feed/",
+      "institution": "Tokenization Insight",
+      "category": "ecosystem",
+      "max_items": 25
+    },
+    {
+      "enabled": true,
+      "priority": 2,
+      "name": "The Paypers — News",
+      "url": "https://thepaypers.com/feed/",
+      "institution": "The Paypers",
+      "category": "ecosystem",
+      "max_items": 25
+    },
+    {
+      "enabled": true,
+      "priority": 2,
+      "name": "RWA.xyz — Blog",
+      "url": "https://rwa.xyz/feed/",
+      "institution": "RWA.xyz",
+      "category": "ecosystem",
+      "max_items": 20
+    },
+    {
+      "enabled": true,
+      "priority": 2,
+      "name": "Unchained Crypto",
+      "url": "https://unchainedcrypto.com/feed/",
+      "institution": "Unchained",
+      "category": "ecosystem",
+      "max_items": 25
+    },
+    {
+      "enabled": true,
+      "priority": 2,
+      "name": "Nethermind — Blog",
+      "url": "https://www.nethermind.io/feed.xml",
+      "institution": "Nethermind",
+      "category": "ecosystem",
+      "max_items": 20
+    },
+    {
+      "enabled": true,
+      "priority": 2,
+      "name": "QED Investors — Blog",
+      "url": "https://qedinvestors.com/feed/",
+      "institution": "QED Investors",
+      "category": "ecosystem",
+      "max_items": 20
+    },
+    {
+      "enabled": true,
+      "priority": 2,
+      "name": "Fintech Wrap Up",
+      "url": "https://www.fintechwrapup.com/feed/",
+      "institution": "Fintech Wrap Up",
+      "category": "ecosystem",
+      "max_items": 20
+    },
+    {
+      "enabled": true,
+      "priority": 2,
+      "name": "Connecting the Dots in Payments",
+      "url": "https://www.connectingthedotsinpayments.com/feed/",
+      "institution": "Connecting the Dots",
+      "category": "ecosystem",
+      "max_items": 20
     }
   ]
 }
