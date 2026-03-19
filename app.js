@@ -134,6 +134,7 @@ let INTEL_BRIEFS = [...INTEL_BRIEFS_DEFAULT];
 let allSignals = [];
 let activeFilter = 'all';
 let searchQuery = '';
+let matrixFilter = null;
 let chartInstances = {};
 
 function mapIntelBriefsToSignals(briefs) {
@@ -647,7 +648,11 @@ function buildHeatmap(colors) {
     const rowTotal = row.reduce((s, v) => s + v, 0);
     html += `<tr><td class="heatmap-row-label">${shortNames[i]}</td>`;
     row.forEach((val, ci) => {
-      html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)}" title="${instTypes[i]} × ${initTypes[ci]}: ${val}">${val || '–'}</td>`;
+      if (val > 0) {
+        html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)};cursor:pointer" title="${instTypes[i]} × ${initTypes[ci]}: ${val} (click to view signals)" onclick="navigateToMatrixSelection('${instTypes[i]}','${initTypes[ci]}')">${val}</td>`;
+      } else {
+        html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)}" title="${instTypes[i]} × ${initTypes[ci]}: 0">–</td>`;
+      }
     });
     html += `<td class="heatmap-cell heatmap-total-cell">${rowTotal}</td>`;
     html += '</tr>';
@@ -665,6 +670,7 @@ function buildHeatmap(colors) {
 
 // ===== SEARCH =====
 document.getElementById('searchInput')?.addEventListener('input', (e) => {
+  matrixFilter = null;
   searchQuery = e.target.value.toLowerCase().trim();
   renderSignals();
   updateResetBars();
@@ -685,6 +691,7 @@ function renderFilterPills() {
     btn.addEventListener('click', () => {
       container.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
+      matrixFilter = null;
       activeFilter = btn.dataset.filter;
       renderSignals();
       updateResetBars();
@@ -712,6 +719,12 @@ function renderSignals() {
   const noResults = document.getElementById('noResults');
   let filtered = allSignals.filter(s => !s._isBrief);
   if (activeFilter !== 'all') filtered = filtered.filter(s => s.category === activeFilter);
+  if (matrixFilter) {
+    filtered = filtered.filter(s =>
+      s.institution_type === matrixFilter.institutionType &&
+      (s.initiative_types || []).includes(matrixFilter.initiativeType)
+    );
+  }
   if (searchQuery) filtered = filtered.filter(s => `${s.institution} ${s.initiative} ${s.description} ${s.category}`.toLowerCase().includes(searchQuery));
 
   if (filtered.length === 0) { container.innerHTML = ''; noResults.style.display = 'block'; return; }
@@ -949,6 +962,7 @@ function navigateToSignal(query, catKey) {
   }
 
   // 2. If catKey provided, activate that filter pill
+  matrixFilter = null;
   if (catKey) {
     activeFilter = catKey;
     const pills = document.querySelectorAll('.filter-pill');
@@ -986,6 +1000,54 @@ function navigateToSignal(query, catKey) {
   updateResetBars();
 }
 
+function categoryForInstitutionType(instType) {
+  const map = {
+    'Global Banks': 'global_banks',
+    'Asset & Investment Management': 'asset_management',
+    'Payments Providers': 'payments',
+    'Exchanges & Central Intermediaries': 'exchanges_intermediaries',
+    'Regulatory Agencies': 'regulators',
+    'Infrastructure & Technology': 'ecosystem',
+    'Intelligence & Research': 'intel_briefs'
+  };
+  return map[instType] || 'all';
+}
+
+function navigateToMatrixSelection(institutionType, initiativeType) {
+  // 1. Open the signal library if closed
+  const libSection = document.querySelector('.signal-library-section');
+  const libBody = document.getElementById('libraryBody');
+  if (!libSection.classList.contains('open')) {
+    libSection.classList.add('open');
+    libBody.style.display = 'block';
+  }
+
+  // 2. Apply matrix filter and category pill
+  matrixFilter = { institutionType, initiativeType };
+  const catKey = categoryForInstitutionType(institutionType);
+  activeFilter = catKey;
+
+  const pills = document.querySelectorAll('.filter-pill');
+  pills.forEach(p => {
+    p.classList.remove('active');
+    if (p.dataset.filter === catKey) p.classList.add('active');
+  });
+
+  // 3. Clear free-text search to avoid accidental over-filtering
+  searchQuery = '';
+  const searchInput = document.getElementById('searchInput');
+  if (searchInput) searchInput.value = '';
+
+  // 4. Render and open all visible sections
+  renderSignals();
+  setTimeout(() => {
+    document.querySelectorAll('.category-section').forEach(s => s.classList.add('cat-open'));
+    libSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, 100);
+
+  updateResetBars();
+}
+
 // ===== GLOBAL RESET FILTERS =====
 function resetAllFilters() {
   // Reset directory search
@@ -1000,6 +1062,7 @@ function resetAllFilters() {
 
   // Reset signal library search
   searchQuery = '';
+  matrixFilter = null;
   const searchInput = document.getElementById('searchInput');
   if (searchInput) searchInput.value = '';
 
@@ -1031,7 +1094,7 @@ function resetAllFilters() {
 
 function updateResetBars() {
   const hasDirectoryFilter = dirSearch !== '' || dirSort !== 'signals';
-  const hasLibraryFilter = searchQuery !== '' || activeFilter !== 'all';
+  const hasLibraryFilter = searchQuery !== '' || activeFilter !== 'all' || matrixFilter !== null;
   const hasAnyFilter = hasDirectoryFilter || hasLibraryFilter;
 
   const dirReset = document.getElementById('resetDirectoryFilters');
