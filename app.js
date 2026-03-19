@@ -51,6 +51,17 @@ document.querySelectorAll('a[href="#signal-library"], a[href="#intelligence"]').
   });
 });
 
+// ===== ADDITIONAL ANALYTICS TOGGLE =====
+document.getElementById('additionalAnalyticsToggle')?.addEventListener('click', () => {
+  const btn = document.getElementById('additionalAnalyticsToggle');
+  const body = document.getElementById('additionalAnalyticsBody');
+  if (!btn || !body) return;
+
+  const isOpen = body.classList.toggle('open');
+  btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  btn.textContent = isOpen ? 'Hide Additional Analytics' : 'Show Additional Analytics';
+});
+
 // ===== HEADER SCROLL =====
 window.addEventListener('scroll', () => {
   const header = document.getElementById('header');
@@ -79,15 +90,32 @@ const INSTITUTION_TYPE_NORMALIZATION = {
   'Payment Service Providers': 'Payments Providers'
 };
 
+const FMI_AREA_NORMALIZATION = {
+  'Payment & Transfers': 'Payments & Transfers',
+  'FX Markets & Settlement': 'Settlement & Clearing',
+  'Currency & Monetary Policy': 'Regulation & Compliance',
+  'Custody & Safekeeping': 'Custody & Asset Management',
+  'Asset Custody & Management': 'Custody & Asset Management',
+  'Credit Assessment': 'Other Infrastructure',
+  'Retail Banking': 'Other Infrastructure'
+};
+
 function normalizeInstitutionType(type) {
   if (!type) return 'Infrastructure & Technology';
   return INSTITUTION_TYPE_NORMALIZATION[type] || type;
 }
 
+function normalizeFmiAreas(areas) {
+  if (!Array.isArray(areas) || areas.length === 0) return ['General Infrastructure'];
+  const normalized = areas.map(a => FMI_AREA_NORMALIZATION[a] || a);
+  return [...new Set(normalized)];
+}
+
 function normalizeSignal(signal) {
   return {
     ...signal,
-    institution_type: normalizeInstitutionType(signal.institution_type)
+    institution_type: normalizeInstitutionType(signal.institution_type),
+    fmi_areas: normalizeFmiAreas(signal.fmi_areas)
   };
 }
 
@@ -500,7 +528,15 @@ function buildFMIChart(colors, textColor, gridColor) {
   chartInstances.fmi = new Chart(document.getElementById('fmiChart'), {
     type: 'bar',
     data: {
-      labels: sorted.map(s => s[0].replace('Regulation & Compliance', 'Regulation').replace('Digital Currency & Stablecoins', 'Digital Currency').replace('Interoperability & Standards', 'Interoperability').replace('Collateral & Lending', 'Collateral').replace('Trading & Exchange', 'Trading')),
+      labels: sorted.map(s => s[0]
+        .replace('Regulation & Compliance', 'Regulation')
+        .replace('Digital Currency & Stablecoins', 'Digital Currency')
+        .replace('Interoperability & Standards', 'Interoperability')
+        .replace('Collateral & Lending', 'Collateral')
+        .replace('Trading & Exchange', 'Trading')
+        .replace('Custody & Asset Management', 'Custody & Asset Mgmt')
+        .replace('Tokenization & Issuance', 'Tokenization')
+        .replace('Other Infrastructure', 'Other Infra')),
       datasets: [{
         data: sorted.map(s => s[1]),
         backgroundColor: sorted.map((_, i) => fmiColors[i % fmiColors.length]),

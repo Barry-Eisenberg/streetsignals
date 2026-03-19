@@ -129,7 +129,7 @@
           <h3>Financial Market Infrastructure Areas</h3>
           <p>Which parts of FMI are being rebuilt on DLT — <strong>click a bar to drill down, then click the breakdown to navigate to the directory</strong></p>
         </div>
-        <div class="chart-container" style="height: 460px;">
+        <div class="chart-container fmi-chart-container">
           <canvas id="fmiChart"></canvas>
         </div>
         <div id="fmiDrilldown" class="drilldown-panel" style="display:none;"></div>
@@ -147,7 +147,20 @@
       </div>
     </div>
 
-    <!-- Row 3: Timeline (full width) -->
+    <!-- Row 3: Initiative Classification (full width) -->
+    <div class="chart-row chart-row-single reveal">
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>Digital Asset Initiative Classification</h3>
+          <p>Type of blockchain / digital asset initiative</p>
+        </div>
+        <div class="chart-container" style="height: 420px;">
+          <canvas id="initiativeTypeChart"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 4: Timeline (full width) -->
     <div class="chart-row chart-row-single reveal">
       <div class="chart-card">
         <div class="chart-card-header">
@@ -160,37 +173,31 @@
       </div>
     </div>
 
-    <!-- Row 4: Institution Type + Signal Type -->
-    <div class="chart-row reveal">
-      <div class="chart-card">
-        <div class="chart-card-header">
-          <h3>By Institution Type</h3>
-          <p>Distribution across financial sector</p>
-        </div>
-        <div class="chart-container" style="height: 400px;">
-          <canvas id="instTypeChart"></canvas>
-        </div>
-      </div>
-      <div class="chart-card">
-        <div class="chart-card-header">
-          <h3>By Signal Type</h3>
-          <p>Nature of institutional announcements</p>
-        </div>
-        <div class="chart-container" style="height: 400px;">
-          <canvas id="signalTypeChart"></canvas>
-        </div>
-      </div>
+    <!-- Row 5: Additional Analytics (collapsible) -->
+    <div class="additional-analytics-toggle reveal">
+      <button id="additionalAnalyticsToggle" class="additional-analytics-btn" type="button" aria-expanded="false" aria-controls="additionalAnalyticsBody">
+        Show Additional Analytics
+      </button>
     </div>
-
-    <!-- Row 5: Initiative Classification (full width) -->
-    <div class="chart-row chart-row-single reveal">
-      <div class="chart-card">
-        <div class="chart-card-header">
-          <h3>Digital Asset Initiative Classification</h3>
-          <p>Type of blockchain / digital asset initiative</p>
+    <div id="additionalAnalyticsBody" class="additional-analytics-body">
+      <div class="chart-row">
+        <div class="chart-card">
+          <div class="chart-card-header">
+            <h3>By Institution Type</h3>
+            <p>Distribution across financial sector</p>
+          </div>
+          <div class="chart-container" style="height: 400px;">
+            <canvas id="instTypeChart"></canvas>
+          </div>
         </div>
-        <div class="chart-container" style="height: 420px;">
-          <canvas id="initiativeTypeChart"></canvas>
+        <div class="chart-card">
+          <div class="chart-card-header">
+            <h3>By Signal Type</h3>
+            <p>Nature of institutional announcements</p>
+          </div>
+          <div class="chart-container" style="height: 400px;">
+            <canvas id="signalTypeChart"></canvas>
+          </div>
         </div>
       </div>
     </div>
