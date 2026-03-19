@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+        Created with Perplexity Computer
+        https://www.perplexity.ai/computer
+-->
+<meta name="generator" content="Perplexity Computer">
+<meta name="author" content="Perplexity Computer">
+<meta property="og:see_also" content="https://www.perplexity.ai/computer">
+<link rel="author" href="https://www.perplexity.ai/computer">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signals from the Street — DLT &amp; Digital Asset Intelligence</title>
+<meta name="description" content="Tracking how global financial institutions are moving toward blockchain-based infrastructure for digital asset transactions, tokenized securities, and stablecoins.">
+
+<link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<link rel="stylesheet" href="./base.css">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="header-inner">
+    <div class="header-brand">
+      <a href="#" class="logo">
+        <svg class="logo-icon" viewBox="0 0 36 36" fill="none" aria-label="Signals from the Street logo">
+          <rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="1.5" fill="none"/>
+          <path d="M10 24V18" stroke="var(--color-banks)" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M15 24V14" stroke="var(--color-asset-mgmt)" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M20 24V16" stroke="var(--color-payments)" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M25 24V10" stroke="var(--color-exchanges)" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="10" cy="18" r="2" fill="var(--color-banks)"/>
+          <circle cx="15" cy="14" r="2" fill="var(--color-asset-mgmt)"/>
+          <circle cx="20" cy="16" r="2" fill="var(--color-payments)"/>
+          <circle cx="25" cy="10" r="2" fill="var(--color-exchanges)"/>
+        </svg>
+        <div class="logo-text">Signals <span>from the Street</span></div>
+      </a>
+      <span class="header-divider"></span>
+      <a href="https://nextfiadvisors.com" target="_blank" rel="noopener noreferrer" class="header-nextfi">
+        <span class="header-nextfi-label">Market Intelligence by</span>
+        <img src="./nextfi-logo.png" alt="NextFi Advisors" class="header-nextfi-logo">
+      </a>
+    </div>
+    <div class="header-right">
+      <nav class="header-nav" id="headerNav">
+        <a href="#directory">Institutional Initiatives</a>
+        <a href="#analytics">Analytics</a>
+        <a href="#signal-library">Signal Library</a>
+      </nav>
+      <button class="theme-toggle" data-theme-toggle aria-label="Switch theme">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      </button>
+      <button class="mobile-menu-btn" aria-label="Toggle menu" id="mobileMenuBtn">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- HERO (compact) -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-content reveal">
+      <div class="hero-badge"><span class="pulse"></span> Live Intelligence Feed</div>
+      <h1>The Institutional Migration to <span class="accent">Blockchain Infrastructure</span></h1>
+      <p class="hero-description">Quantifying how the world's largest financial institutions, exchanges, central intermediaries, and regulators are building the next generation of financial market infrastructure on distributed ledger technology.</p>
+    </div>
+  </div>
+</section>
+
+<!-- KPI STRIP -->
+<div class="container">
+  <div class="kpi-strip reveal" id="kpiStrip"></div>
+  <div class="kpi-breakdown-panel" id="kpiBreakdown" style="display:none;"></div>
+</div>
+
+<!-- INSTITUTION DIRECTORY -->
+<section class="directory-section" id="directory">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="section-title">Institutional Initiative Directory</h2>
+      <p class="section-subtitle">Every named institution and its digital asset initiatives — organized by sector, quantified across all dimensions</p>
+    </div>
+    <div class="reset-filters-bar" id="resetDirectoryFilters" onclick="resetAllFilters()">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+      <span>Reset all filters</span>
+    </div>
+    <div class="directory-controls reveal">
+      <div class="directory-search-box">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input type="text" id="directorySearch" placeholder="Filter institutions...">
+      </div>
+      <div class="directory-sort">
+        <label>Sort by</label>
+        <select id="directorySort">
+          <option value="signals">Signal Count</option>
+          <option value="name">Name (A→Z)</option>
+        </select>
+      </div>
+    </div>
+    <div id="directoryContainer" class="reveal"></div>
+  </div>
+</section>
+
+<!-- ANALYTICS DASHBOARD -->
+<section class="analytics-section" id="analytics">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="section-title">Signal Analytics</h2>
+      <p class="section-subtitle">Quantified breakdown of all institutional signals and intelligence briefs across dimensions</p>
+    </div>
+
+    <!-- Row 1: FMI Areas (full width, top position) -->
+    <div class="chart-row chart-row-single reveal">
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>Financial Market Infrastructure Areas</h3>
+          <p>Which parts of FMI are being rebuilt on DLT — <strong>click a bar to drill down, then click the breakdown to navigate to the directory</strong></p>
+        </div>
+        <div class="chart-container" style="height: 460px;">
+          <canvas id="fmiChart"></canvas>
+        </div>
+        <div id="fmiDrilldown" class="drilldown-panel" style="display:none;"></div>
+      </div>
+    </div>
+
+    <!-- Row 2: Heatmap (full width) -->
+    <div class="chart-row chart-row-single reveal">
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>Institution × Initiative Matrix</h3>
+          <p>Cross-tabulation showing where each sector is investing</p>
+        </div>
+        <div class="heatmap-container" id="heatmapContainer"></div>
+      </div>
+    </div>
+
+    <!-- Row 3: Timeline (full width) -->
+    <div class="chart-row chart-row-single reveal">
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>Signal Momentum by Year</h3>
+          <p>Stacked by institution type — showing accelerating institutional adoption</p>
+        </div>
+        <div class="chart-container" style="height: 420px;">
+          <canvas id="timelineChart"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 4: Institution Type + Signal Type -->
+    <div class="chart-row reveal">
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>By Institution Type</h3>
+          <p>Distribution across financial sector</p>
+        </div>
+        <div class="chart-container" style="height: 400px;">
+          <canvas id="instTypeChart"></canvas>
+        </div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>By Signal Type</h3>
+          <p>Nature of institutional announcements</p>
+        </div>
+        <div class="chart-container" style="height: 400px;">
+          <canvas id="signalTypeChart"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 5: Initiative Classification (full width) -->
+    <div class="chart-row chart-row-single reveal">
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>Digital Asset Initiative Classification</h3>
+          <p>Type of blockchain / digital asset initiative</p>
+        </div>
+        <div class="chart-container" style="height: 420px;">
+          <canvas id="initiativeTypeChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SIGNAL LIBRARY (Appendix — collapsible) -->
+<section class="signal-library-section" id="signal-library">
+  <div class="container">
+    <div class="library-header reveal" id="libraryToggle">
+      <div class="library-header-left">
+        <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        <div>
+          <h2 class="section-title">Signal Library</h2>
+          <p class="section-subtitle">Browse all signals organized by institution category, plus NextFi Intelligence Briefs</p>
+        </div>
+      </div>
+      <div class="library-header-right">
+        <span class="library-expand-hint" id="libraryHint">Click to expand</span>
+        <svg class="library-chevron" id="libraryChevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+      </div>
+    </div>
+
+    <div class="library-body" id="libraryBody" style="display:none;">
+      <!-- RESET BAR -->
+      <div class="reset-filters-bar" id="resetLibraryFilters" onclick="resetAllFilters()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+        <span>Reset all filters</span>
+      </div>
+      <!-- FILTER CONTROLS -->
+      <div class="controls" id="controls">
+        <div class="search-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="text" id="searchInput" placeholder="Search institutions, initiatives, topics...">
+        </div>
+        <div class="filter-pills" id="filterPills"></div>
+      </div>
+
+      <!-- SIGNAL SECTIONS -->
+      <div id="signalSections"></div>
+
+      <!-- NO RESULTS -->
+      <div class="no-results" id="noResults" style="display: none;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <h3>No signals found</h3>
+        <p>Try adjusting your search or filter criteria.</p>
+      </div>
+
+      <!-- INTELLIGENCE BRIEFS (collapsible) -->
+      <section class="personal-section intel-section" id="intelligence">
+        <div class="intel-toggle" onclick="this.parentElement.classList.toggle('intel-open')">
+          <div class="personal-header">
+            <div class="personal-avatar">NF</div>
+            <div class="personal-info">
+              <h2>NextFi Intelligence Briefs</h2>
+              <p>Research and analysis from Barry Eisenberg &mdash; NextFi Advisors</p>
+              <div class="personal-links">
+                <a href="https://www.linkedin.com/in/barry-eisenberg/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.47 2H3.53a1.45 1.45 0 0 0-1.47 1.43v17.14A1.45 1.45 0 0 0 3.53 22h16.94a1.45 1.45 0 0 0 1.47-1.43V3.43A1.45 1.45 0 0 0 20.47 2ZM8.09 18.74h-3v-9h3ZM6.59 8.48a1.56 1.56 0 1 1 0-3.12 1.56 1.56 0 1 1 0 3.12Zm12.32 10.26h-3v-4.83c0-1.21-.43-2-1.52-2A1.65 1.65 0 0 0 12.85 13a2 2 0 0 0-.1.73v5h-3v-9h3V11a3 3 0 0 1 2.71-1.5c2 0 3.45 1.29 3.45 4.06Z"/></svg>
+                  LinkedIn
+                </a>
+                <a href="https://nextfiadvisors.com/intelligence" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  NextFi Advisors
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="intel-toggle-right">
+            <span class="intel-brief-count" id="intelBriefCount">11 briefs</span>
+            <svg class="intel-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </div>
+        </div>
+        <div class="intel-body" id="intelBody" style="display:none;">
+          <div class="intel-briefs" id="intelBriefs"></div>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <svg class="logo-icon" viewBox="0 0 36 36" fill="none" aria-label="Signals from the Street logo">
+            <rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="1.5" fill="none"/>
+            <path d="M10 24V18" stroke="var(--color-banks)" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M15 24V14" stroke="var(--color-asset-mgmt)" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M20 24V16" stroke="var(--color-payments)" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M25 24V10" stroke="var(--color-exchanges)" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="10" cy="18" r="2" fill="var(--color-banks)"/>
+            <circle cx="15" cy="14" r="2" fill="var(--color-asset-mgmt)"/>
+            <circle cx="20" cy="16" r="2" fill="var(--color-payments)"/>
+            <circle cx="25" cy="10" r="2" fill="var(--color-exchanges)"/>
+          </svg>
+          <div class="logo-text">Signals <span>from the Street</span></div>
+        </a>
+        <p>Comprehensive intelligence tracking the institutional migration to blockchain-based financial market infrastructure. Curated by Barry Eisenberg.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Sections</h4>
+        <a href="#directory">Institutional Initiative Directory</a>
+        <a href="#analytics">Signal Analytics</a>
+        <a href="#signal-library">Signal Library</a>
+        <a href="#intelligence">Intelligence Briefs</a>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <a href="https://nextfiadvisors.com/intelligence" target="_blank" rel="noopener noreferrer">NextFi Advisors</a>
+        <a href="https://www.linkedin.com/in/barry-eisenberg/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Barry Eisenberg. All rights reserved.</span>
+      <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">Created with Perplexity Computer</a>
+    </div>
+  </div>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>
