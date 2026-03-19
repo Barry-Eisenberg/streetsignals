@@ -5,28 +5,28 @@
   },
   "rss_sources": [
     {
-      "enabled": false,
+      "enabled": true,
       "priority": 1,
-      "name": "BIS — CPMI Publications",
-      "url": "https://www.bis.org/rss/cpmi_rss.xml",
+      "name": "BIS — Press Releases",
+      "url": "https://www.bis.org/doclist/all_pressrels.rss",
       "institution": "BIS",
       "category": "regulators",
       "max_items": 20
     },
     {
-      "enabled": false,
+      "enabled": true,
       "priority": 1,
-      "name": "BIS — Working Papers",
-      "url": "https://www.bis.org/rss/bppaper_rss.xml",
+      "name": "BIS — Research Papers",
+      "url": "https://www.bis.org/doclist/bis_fsi_publs.rss",
       "institution": "BIS",
       "category": "regulators",
       "max_items": 15
     },
     {
-      "enabled": false,
+      "enabled": true,
       "priority": 1,
-      "name": "BIS — Financial Stability",
-      "url": "https://www.bis.org/rss/fsi_rss.xml",
+      "name": "BIS — Central Banker Speeches",
+      "url": "https://www.bis.org/doclist/cbspeeches.rss",
       "institution": "BIS",
       "category": "regulators",
       "max_items": 15
@@ -56,7 +56,8 @@
       "url": "https://www.cftc.gov/rss/pressreleases.xml",
       "institution": "CFTC",
       "category": "regulators",
-      "max_items": 15
+      "max_items": 15,
+      "_comment": "CFTC does not publish a public RSS feed; use email subscriptions or web scraping instead"
     },
     {
       "enabled": true,

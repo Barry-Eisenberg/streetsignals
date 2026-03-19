@@ -244,17 +244,39 @@ def parse_rss_items(xml_text):
         return output
 
     # Atom
-    ns = {"a": "http://www.w3.org/2005/Atom"}
-    entries = root.findall(".//a:entry", ns)
-    output = []
-    for entry in entries:
-        title = clean_text(entry.findtext("a:title", default="", namespaces=ns))
-        link_el = entry.find("a:link", ns)
-        link = normalize_url((link_el.get("href") if link_el is not None else "") or "")
-        desc = clean_text(entry.findtext("a:summary", default="", namespaces=ns) or entry.findtext("a:content", default="", namespaces=ns))
-        pub_date = entry.findtext("a:updated", default="", namespaces=ns)
-        output.append({"title": title, "link": link, "description": desc, "published": safe_iso_date(pub_date)})
-    return output
+    ns_atom = {"a": "http://www.w3.org/2005/Atom"}
+    entries = root.findall(".//a:entry", ns_atom)
+    if entries:
+        output = []
+        for entry in entries:
+            title = clean_text(entry.findtext("a:title", default="", namespaces=ns_atom))
+            link_el = entry.find("a:link", ns_atom)
+            link = normalize_url((link_el.get("href") if link_el is not None else "") or "")
+            desc = clean_text(entry.findtext("a:summary", default="", namespaces=ns_atom) or entry.findtext("a:content", default="", namespaces=ns_atom))
+            pub_date = entry.findtext("a:updated", default="", namespaces=ns_atom)
+            output.append({"title": title, "link": link, "description": desc, "published": safe_iso_date(pub_date)})
+        return output
+
+    # RSS 1.0 (RDF)
+    ns_rdf = {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "": "http://purl.org/rss/1.0/",
+        "content": "http://purl.org/rss/1.0/modules/content/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+    }
+    items_rdf = root.findall(".//{http://purl.org/rss/1.0/}item")
+    if items_rdf:
+        output = []
+        for item in items_rdf:
+            title = clean_text(item.findtext("{http://purl.org/rss/1.0/}title", default=""))
+            link = normalize_url(item.findtext("{http://purl.org/rss/1.0/}link", default=""))
+            desc = clean_text(item.findtext("{http://purl.org/rss/1.0/modules/content/}encoded", default="") or 
+                            item.findtext("{http://purl.org/rss/1.0/}description", default=""))
+            pub_date = item.findtext("{http://purl.org/dc/elements/1.1/}date", default="")
+            output.append({"title": title, "link": link, "description": desc, "published": safe_iso_date(pub_date)})
+        return output
+
+    return []
 
 
 def relevant_topic(text):

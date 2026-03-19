@@ -1,5 +1,162 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "XRP treasury firm Evernorth discloses $233.7 million impairment on holdings in SPAC filing",
+    "description": "The company reported a $233.7 million digital asset impairment for 2025, reflecting the gap between purchase prices and lower market values.",
+    "date": "2026-03-19",
+    "source_url": "https://www.coindesk.com/business/2026/03/19/xrp-treasury-firm-evernorth-discloses-usd233-7-million-impairment-on-holdings-in-spac-filing",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Coinbase faces a multibillion-dollar threat from D.C. but a 'rewards' loophole could protect its stablecoin revenue",
+    "description": "The proposed rules could ban yield on stablecoins like USDC, though analysts say the exchange may adapt.",
+    "date": "2026-03-19",
+    "source_url": "https://www.coindesk.com/policy/2026/03/19/coinbase-faces-a-multibillion-dollar-threat-from-d-c-but-a-rewards-loophole-could-protect-its-stablecoin-revenue",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin’s biggest DeFi drawback under attack as OpNet unlocks smart contracts on mainnet",
+    "description": "Bitcoin’s biggest limitation is being challenged as OpNet brings native, yield-generating DeFi directly to the Bitcoin mainnet.",
+    "date": "2026-03-19",
+    "source_url": "https://www.coindesk.com/markets/2026/03/19/bitcoin-s-biggest-defi-drawback-under-attack-as-opnet-unlocks-smart-contracts-on-mainnet",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "US crypto market structure passage: April, May, August or never?",
+    "description": "U.S. crypto bill CLARITY nears deal amid SEC-CFTC shift, ethics clashes, and global scam crackdown; timeline tight as politics and rules collide. The post US crypto market structure passage: April, May, August or never? appeared first on CoinGeek .",
+    "date": "2026-03-19",
+    "source_url": "https://coingeek.com/us-crypto-market-structure-passage-april-may-august-or-never/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "How Technology Can Improve Financial Wellbeing Around the World",
+    "description": "Whilst in Miami, attending Communify Intelligence Experience, Helen Murdoch, CEO, DoughPro spoke with FinextraTV to provide an up-to-date definition of financial wellbeing, and the key obstacles to that existence. Murdoch contextualised the scope of the problem currently, and explained how Gen Z are one of the most indebted generations, with the same problem being felt across the world. She explained that many, following geopolitical shifts and staggered salaries, can be prone to financial nihilism. Solving this fundamental problem, Murdoch points to technology's role in education and social media's role in spreading awareness and burying the pre-existing misinformation.",
+    "date": "2026-03-19",
+    "source_url": "https://www.finextra.com/videoarticle/3467/how-technology-can-improve-financial-wellbeing-around-the-world",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Apex Group unit Tokeny taps Polygon for its interoperable tokenization platform T-REX Ledger",
+    "description": "The Polygon-based T-REX Ledger will serve as the official reference chain for permissioned ERC-3643 tokens.",
+    "date": "2026-03-19",
+    "source_url": "https://www.theblock.co/post/394284/apex-group-taps-polygon-trex-ledger",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Crypto hacks average $25 million as largest exploits skew industry losses: Immunefi",
+    "description": "Crypto hacks have become more uneven, with smaller typical losses but increasingly massive exploits that often kneecap projects.",
+    "date": "2026-03-19",
+    "source_url": "https://www.theblock.co/post/394147/crypto-hacks-average-25-million-largest-exploits-skew-industry-losses-immunefi",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Animoca Brands invests in AVAX token, aims to expand Avalanche in Asia and Middle East",
+    "description": "Animoca Brands has made an investment in the AVAX token and entered a strategic partnership with Ava Labs to grow the Avalanche ecosystem.",
+    "date": "2026-03-19",
+    "source_url": "https://www.theblock.co/post/394236/animoca-brands-invests-avax-token-expand-avalanche-asia-middle-east",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA",
     "initiative": "ESMA sets out actions to simplify the retail investor journey and make investing more accessible",
     "description": "ESMA sets out actions to simplify the retail investor journey and make investing more accessible 12 March 2026 Investor protection Press Releases The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published its takeaways from the 2025 Call for Evidence (CfE) on the retail investor journey. Taking into account the input from stakeholders, ESMA outlines a number of actions and operational improvements it will take forward to make it easier for retail investors to access suitable investment opportunities.&nbsp; &nbsp; ESMA will focus on three areas: streamlining disclosure requirements and tackling information overload for investors; reducing complexity in suitability and appropriateness assessments; simplifying MiFID II requirements on sustainability preferences. As part of this follow up work, consumer testing will be used to inform and validate&nbsp; improvements to disclosures and digital investor journeys, including for mobile-first users. Verena Ross, ESMA Chair, said:&nbsp; “Enhancing the investor journey is one of ESMA’s flagship projects to facilitate simplification and reduce burden for participants in financial markets. ESMA will take forward concrete work to make it easier for retail investors to participate in the EU capital markets.&nbsp; This work must remain a priority and requires ESMA to work in a joint effort with market participants, the European Commission, co ‑ legislators and national governments to improve retail investor access.” Responses indicate that retail investors encounter multiple regulatory and non‑regulatory barriers when starting to invest. There is therefore not one magic solution to make the EU’s capital markets more accessible. Stakeholders highlighted the following aspects to be addressed: Disclosures:&nbsp; too long, too complex, not digital-first. Stakeholders support the need for appropriate disclosures but find them not sufficiently effective due to volume, complexity, and fragmentation of information. They call for clearer and layered information, delivered in mobile-friendly formats. Suitability and appropriateness assessments: valuable but heavy. Stakeholders value the investor protection benefits of suitability and appropriateness requirements, but ask for simplification and proportionality, particularly for simple products and those distributed through digital channels. Many also consider the integration of sustainability preferences as being overly complex.&nbsp; Beyond regulation: trust, costs, and taxes matter.&nbsp; Respondents also highlighted several non-regulatory obstacles to investing: lack of trust, high fees and limited comparability of products, low financial literacy and cultural factors, and complex taxation, especially for cross-border investments. Next steps&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The report will guide ESMA’s future technical advice on MiFID II delegated acts and potential updates to its guidelines, ensuring alignment with the final outcome of the Retail Investment Strategy (RIS). &nbsp; Further information: Iris Hude Communications Officer press@esma.europa.eu 12/03/2026 ESMA35-243228190-7410 Report on the retail investor journey: understanding retail participation in capital markets 12/03/2026 ESMA35-243228190-8126 ESMA sets out actions to simplify the retail investor journey and make investing more accessible - Press release",
@@ -880,6 +1037,66 @@
     "year": "2026"
   },
   {
+    "institution": "BIS",
+    "initiative": "Cross-border payment technologies: innovations and challenges",
+    "description": "Cross-border payments (XBP), particularly remittances and retail transactions, remain more costly, slower, less accessible, and less transparent than domestic payments. The continued inefficient XBP arrangements, in contrast to progress made in domestic payments using new technologies and innovative models, reflect that private actors alone cannot overcome the many market failures that hinder XBP. The most binding constraint concerns the limited interoperability which relates to the multi-sided market frictions in XBP and the institutional differences between countries.",
+    "date": "2026-03-11",
+    "source_url": "https://www.bis.org/publ/bppdf/bispap167.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Tokenomics and blockchain fragmentation",
+    "description": "by Hyun Song Shin Money is a coordination device underpinned by strong network effects: the more others accept a form of money, the more I wish to adopt it too. The decentralisation agenda of public permissionless blockchains undercuts these network effects and leads to fragmentation of the monetary landscape.",
+    "date": "2026-03-10",
+    "source_url": "https://www.bis.org/publ/work1335.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Governors and Heads of Supervision welcome progress to implement Basel III and discuss elements of the Basel Committee's work programme",
+    "description": "Group of Central Bank Governors and Heads of Supervision (GHOS) welcome the progress to fully implement Basel III. GHOS endorsed targeted reviews of the Committee's prudential standards for cryptoassets and global systemically important banks.",
+    "date": "2026-03-09",
+    "source_url": "https://www.bis.org/press/p260309.htm",
+    "category": "regulators",
+    "source_name": "BIS — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Agencies clarify the capital treatment of tokenized securities",
     "description": "Agencies clarify the capital treatment of tokenized securities",
@@ -895,6 +1112,30 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "From cash to crypto: towards a consistent regulatory approach to illicit payments",
+    "description": "The rapid evolution of cryptoassets, including stablecoins, and retail central bank digital currency (CBDC) has led to changes in regulatory frameworks to incorporate them. The expansion of options beyond bank deposits and cash calls for a holistic analysis of the effectiveness of anti-money laundering (AML) and combating the financing of terrorism (CFT) regimes across different payment instruments.",
+    "date": "2026-03-03",
+    "source_url": "https://www.bis.org/publ/bppdf/bispap166.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "CBDC",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
     ],
     "year": "2026"
   },
@@ -932,6 +1173,26 @@
     "signal_type": "Strategic Partnership",
     "fmi_areas": [
       "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Basel Committee discusses recent market developments and targeted review of cryptoasset standard",
+    "description": "Discusses vulnerabilities in government bond-backed repo markets. Discusses progress of a targeted review of the prudential standard for banks' cryptoasset exposures. Announces date and location of the International Conference of Banking Supervisors.",
+    "date": "2026-02-25",
+    "source_url": "https://www.bis.org/press/p260225.htm",
+    "category": "regulators",
+    "source_name": "BIS — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Interoperability & Standards"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
@@ -1046,6 +1307,27 @@
     "year": "2026"
   },
   {
+    "institution": "BIS",
+    "initiative": "Adoption and welfare effects of payment innovations: the case of digital wallets in Peru",
+    "description": "by Arturo Andia, José Aurazo, Marcelo Paliza Digital wallets like Yape and Plin have gained widespread popularity in Peru, allowing users to make instant payments through quick response (QR) codes or mobile phone numbers. This paper examines the drivers of their adoption and their impact on everyday life. Using market share data for six digital payment instruments and cash from January 2019 to April 2024, we estimate the demand for payment instruments and find that features such as lower fees, 24/7 immediate payments, QR code payments, and interoperability with point-of-sale (POS) terminals are key to their success. Our estimates suggest that a PEN 0.01 (USD 0.003) increase in payer fees would reduce the market share of the digital wallets by 0.31 percentage points (pp), while debit cards and cash would gain usage. Simulations further indicate that removing 24/7 immediate transfers would reduce digital wallet usage by 15.75 pp, discontinuing POS payments by 26.01 pp, and eliminating QR code functionality by 4.45 pp. Furthermore, our findings suggest that the adoption of digital wallets has contributed to a sustained increase in consumer welfare per transaction among banked individuals over time.",
+    "date": "2026-02-09",
+    "source_url": "https://www.bis.org/publ/work1329.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Interoperability & Standards",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "From ISO 20022 to Stablecoins: Regulation Predictions for 2026",
     "description": "In this Finextra special edition of Predict 2026, Dominique Dierks, Senior Content Manager, Finextra, discusses the regulatory landscape heading into 2026. Dierks provides updates on the previously slow industry progress on ISO 20022 migration, the uncertainty created by US deregulation efforts. Dierks equally provides her predictions for what the most important regulatory changes will be focused on in 2026, featured are stablecoins, digital assets and quantum.",
@@ -1063,6 +1345,46 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Dollarisation waves: new evidence from a comprehensive international bond database",
+    "description": "We investigate how the US dollar's prominence in the denomination of international debt securities has evolved in recent decades, using a comprehensive global data set with far more extensive coverage than data sets used in prior literature. We find no monotonic dollarisation or de-dollarisation trend; instead, the dollar's share exhibits a wavelike pattern. We document three dollarisation waves since the 1960s. The last wave, following the global financial crisis, lifted the dollar's share nearly back to its level at the euro's launch in 2000. Our findings are robust to composition and currency valuation effects as well as alternative data definitions.",
+    "date": "2026-01-22",
+    "source_url": "https://www.bis.org/publ/bppdf/bispap165.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "BIS statement of commitment to the FX Global Code",
+    "description": "The Bank for International Settlements has reviewed the content of the FX Global Code and acknowledges that the Code represents a set of principles generally recognised as good practice in the wholesale foreign exchange (FX) market.",
+    "date": "2026-01-15",
+    "source_url": "https://www.bis.org/press/p260115.htm",
+    "category": "regulators",
+    "source_name": "BIS — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
     ],
     "year": "2026"
   },
@@ -1207,5 +1529,108 @@
       "Payment Infrastructure"
     ],
     "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Basel Committee continues to prioritise Basel III implementation, approves final principles on third-party risks and agrees to expedite targeted review of cryptoasset standard",
+    "description": "The Basel Committee on Banking Supervision met in Mexico City on 18 and 19 November 2025 to discuss a range of initiatives. It prioritises the full implementation of Basel III, approved third-party risk principles and will review elements of its cryptoasset standard.",
+    "date": "2025-11-19",
+    "source_url": "https://www.bis.org/press/p251119.htm",
+    "category": "regulators",
+    "source_name": "BIS — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2025"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Appointment: BIS Global Economy Meeting and Economic Consultative Committee Chair",
+    "description": "The Board of Directors of the Bank for International Settlements (BIS) has today announced that Christine Lagarde, President of the European Central Bank, will succeed Jerome H Powell, Chair of the Board of Governors of the Federal Reserve System, as Chair of the Global Economy Meeting (GEM) and Economic Consultative Committee (ECC) from May 2026.",
+    "date": "2025-11-12",
+    "source_url": "https://www.bis.org/press/p251112.htm",
+    "category": "regulators",
+    "source_name": "BIS — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2025"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "BIS, South African Reserve Bank announce winners of G20 TechSprint",
+    "description": "The Bank for International Settlements (BIS) and the South African Reserve Bank (SARB), under the South African G20 Presidency, today announced the winners of the G20 TechSprint 2025 challenge on trust and integrity in finance.",
+    "date": "2025-11-11",
+    "source_url": "https://www.bis.org/press/p251111.htm",
+    "category": "regulators",
+    "source_name": "BIS — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2025"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Basel Committee shares report on interconnections between banks and non-bank financial intermediaries",
+    "description": "The report reflects the findings of an analysis conducted as part of the Committee's forward-looking work to identify and analyse risks and vulnerabilities to the banking system. The report identifies the services banks and non-bank financial intermediaries (NBFIs) provide to each other and the trends shaping the relationship between them. The Committee will continue to monitor and investigate the interconnections between banks and NBFIs with a particular focus on synthetic risk transfers.",
+    "date": "2025-07-10",
+    "source_url": "https://www.bis.org/press/p250710.htm",
+    "category": "regulators",
+    "source_name": "BIS — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Tokenization & Issuance",
+      "Collateral & Lending",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2025"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Next-generation monetary and financial system takes shape, based on a tokenised unified ledger: BIS",
+    "description": "Building on the proposal for a unified ledger, the \"trilogy\" of tokenised central bank reserves, commercial bank money and government bonds is the next logical step to deliver profound change for the financial system. Tokenisation can enhance efficiency and open new possibilities in cross-border payments, securities markets and beyond, while maintaining the key principles of sound money: singleness, elasticity and integrity. Stablecoins as a form of sound money fall short, and without regulation pose a risk to financial stability and monetary sovereignty.",
+    "date": "2025-06-24",
+    "source_url": "https://www.bis.org/press/p250624.htm",
+    "category": "regulators",
+    "source_name": "BIS — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Tokenization & Issuance",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2025"
   }
 ]
