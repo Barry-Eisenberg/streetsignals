@@ -92,18 +92,38 @@ const CATEGORIES = {
 const TAG_LABELS = { global_banks: 'Banks', asset_management: 'Asset Mgmt', payments: 'Payments', exchanges_intermediaries: 'Exchanges', regulators: 'Regulators', ecosystem: 'Ecosystem' };
 
 const INTEL_BRIEFS = [
-  { title: "SWIFT's Shift to Blockchain Infrastructure", desc: "SWIFT's transition from blockchain experimentation to production-ready shared ledger infrastructure marks a structural turning point for global finance.", source: "NextFi Advisors", url: "https://nextfiadvisors.com/intelligence" },
-  { title: "DTCC vs SWIFT: Solving Interoperability", desc: "The world's most systemically important financial market intermediaries have released major reports highlighting network fragmentation as the single greatest barrier to digital asset adoption at scale.", source: "NextFi Advisors", url: "https://nextfiadvisors.com/intelligence" },
-  { title: "SEC Provides Clarity on Tokenized Securities", desc: "On January 28, 2026, three SEC divisions issued a joint statement clarifying how federal securities laws apply to tokenized securities — a milestone removing a key barrier to institutional adoption.", source: "NextFi Advisors", url: "https://beglobaladvisors.substack.com/p/sec-provides-clarity-on-tokenized" },
-  { title: "Private Credit Tokenization: The Next Frontier in RWA", desc: "The private credit market exceeding $2.5 trillion is rapidly emerging as a credible infrastructure play for tokenization.", source: "NextFi Advisors", url: "https://substack.com/home/post/p-189041296" },
-  { title: "The Convergence Economy", desc: "Two cost inputs — cognitive labor and transaction coordination — are being compressed by AI and programmable settlement infrastructure, generating a structural economic surplus.", source: "NextFi Advisors", url: "https://open.substack.com/pub/beglobaladvisors/p/the-convergence-how-ai-and-crypto" },
-  { title: "Strategic Imperative of Stablecoins for Cross-Border Payments", desc: "JPMorgan, Visa, Mastercard, and regional banks are making stablecoin capabilities central to competitive positioning.", source: "NextFi Advisors", url: "https://nextfiadvisors.com/intelligence" },
-  { title: "Three Trends, One Infrastructure Stack", desc: "The IMF's research confirms stablecoins and tokenization are a transmission channel with measurable effects on traditional finance.", source: "NextFi Advisors", url: "https://nextfiadvisors.com/intelligence" },
-  { title: "The Hidden Plumbing of Stablecoins", desc: "U.S. dollar stablecoins have crossed into mainstream financial infrastructure, but the GENIUS Act solves only part of the stability problem.", source: "NextFi Advisors", url: "https://nextfiadvisors.com/intelligence" },
-  { title: "Nine Strategic Imperatives of the Convergence Economy", desc: "Nine strategic imperatives for navigating the convergence of AI, tokenization, and programmable settlement.", source: "NextFi Advisors", url: "https://nextfiadvisors.com/intelligence" },
-  { title: "x402: The Payment Infrastructure of Agentic AI", desc: "As AI agents execute financial transactions autonomously, the x402 protocol represents a fundamental shift in how value moves across the internet.", source: "NextFi Advisors", url: "https://nextfiadvisors.com/intelligence" },
-  { title: "Growth in Digital Asset Posts on LinkedIn", desc: "Analysis of growth in digital asset-related LinkedIn posts, decomposed into tokenization/RWA, stablecoins, and FMI disintermediation.", source: "NextFi Advisors", url: "https://nextfiadvisors.com/intelligence" }
+  { title: "SWIFT's Shift to Blockchain Infrastructure", desc: "SWIFT's transition from blockchain experimentation to production-ready shared ledger infrastructure marks a structural turning point for global finance.", source: "NextFi Advisors", url: "https://img1.wsimg.com/blobby/go/69c98e24-9280-42db-9e35-615f225a71b3/SwiftShiftToBlockchain_Final_v.2.pdf" },
+  { title: "DTCC vs SWIFT: Solving Interoperability", desc: "The world's most systemically important financial market intermediaries have released major reports highlighting network fragmentation as the single greatest barrier to digital asset adoption at scale.", source: "NextFi Advisors", url: "https://img1.wsimg.com/blobby/go/69c98e24-9280-42db-9e35-615f225a71b3/SWIFT%26DTCC_IntelligenceBrief_v.2.pdf" },
+  { title: "SEC Provides Clarity on Tokenized Securities", desc: "On January 28, 2026, three SEC divisions issued a joint statement clarifying how federal securities laws apply to tokenized securities — a milestone removing a key barrier to institutional adoption.", source: "NextFi Advisors", url: "https://img1.wsimg.com/blobby/go/69c98e24-9280-42db-9e35-615f225a71b3/SEC-Letter%20on%20Tokenized%20Securities_18F-dc69886.pdf" },
+  { title: "Private Credit Tokenization: The Next Frontier in RWA", desc: "The private credit market exceeding $2.5 trillion is rapidly emerging as a credible infrastructure play for tokenization.", source: "NextFi Advisors", url: "https://img1.wsimg.com/blobby/go/69c98e24-9280-42db-9e35-615f225a71b3/BEGA_PrivateCreditRWA_Brief_24Feb26_v2.pdf" },
+  { title: "The Convergence Economy", desc: "Two cost inputs — cognitive labor and transaction coordination — are being compressed by AI and programmable settlement infrastructure, generating a structural economic surplus.", source: "NextFi Advisors", url: "https://img1.wsimg.com/blobby/go/69c98e24-9280-42db-9e35-615f225a71b3/ConvergenceEconomy_March2026_Final.pdf" },
+  { title: "Strategic Imperative of Stablecoins for Cross-Border Payments", desc: "JPMorgan, Visa, Mastercard, and regional banks are making stablecoin capabilities central to competitive positioning.", source: "NextFi Advisors", url: "https://img1.wsimg.com/blobby/go/69c98e24-9280-42db-9e35-615f225a71b3/BEGA_StablecoinsCross-Border%20Payments_24Feb202.pdf" },
+  { title: "Three Trends, One Infrastructure Stack", desc: "The IMF's research confirms stablecoins and tokenization are a transmission channel with measurable effects on traditional finance.", source: "NextFi Advisors", url: "https://img1.wsimg.com/blobby/go/69c98e24-9280-42db-9e35-615f225a71b3/BEGA_Stablecoin_Convergence_Brief_Mar2-33d2759.pdf" },
+  { title: "The Hidden Plumbing of Stablecoins", desc: "U.S. dollar stablecoins have crossed into mainstream financial infrastructure, but the GENIUS Act solves only part of the stability problem.", source: "NextFi Advisors", url: "https://img1.wsimg.com/blobby/go/69c98e24-9280-42db-9e35-615f225a71b3/Hidden_Plumbing_Stablecoins_19Feb2026.pdf" },
+  { title: "Nine Strategic Imperatives of the Convergence Economy", desc: "Nine strategic imperatives for navigating the convergence of AI, tokenization, and programmable settlement.", source: "NextFi Advisors", url: "https://img1.wsimg.com/blobby/go/69c98e24-9280-42db-9e35-615f225a71b3/convergence_carousel_light.pdf" },
+  { title: "x402: The Payment Infrastructure of Agentic AI", desc: "As AI agents execute financial transactions autonomously, the x402 protocol represents a fundamental shift in how value moves across the internet.", source: "NextFi Advisors", url: "https://img1.wsimg.com/blobby/go/69c98e24-9280-42db-9e35-615f225a71b3/x402%20Protocol%20(4).pdf" },
+  { title: "Growth in Digital Asset Posts on LinkedIn", desc: "Analysis of growth in digital asset-related LinkedIn posts, decomposed into tokenization/RWA, stablecoins, and FMI disintermediation.", source: "NextFi Advisors", url: "https://img1.wsimg.com/blobby/go/69c98e24-9280-42db-9e35-615f225a71b3/LinkedInAnalysis_19Feb2026_v.02.pdf" }
 ];
+
+const INTEL_FALLBACK_URL = 'https://nextfiadvisors.com/intelligence';
+
+async function openIntelBrief(event, briefUrl) {
+  event.preventDefault();
+
+  // Open a blank tab immediately to preserve user-initiated popup behavior.
+  const newTab = window.open('', '_blank', 'noopener,noreferrer');
+  if (!newTab) {
+    window.location.href = INTEL_FALLBACK_URL;
+    return;
+  }
+
+  try {
+    const response = await fetch(briefUrl, { method: 'HEAD', mode: 'cors', cache: 'no-store' });
+    newTab.location.href = response.ok ? briefUrl : INTEL_FALLBACK_URL;
+  } catch {
+    newTab.location.href = INTEL_FALLBACK_URL;
+  }
+}
 
 // ===== LOAD DATA =====
 let allSignals = [];
@@ -652,7 +672,7 @@ function renderFilterPills() {
 // ===== INTEL BRIEFS =====
 function renderIntelBriefs() {
   document.getElementById('intelBriefs').innerHTML = INTEL_BRIEFS.map(b => `
-    <a href="${b.url}" target="_blank" rel="noopener noreferrer" class="intel-brief" style="text-decoration:none;">
+    <a href="${b.url}" onclick="openIntelBrief(event, '${b.url}')" class="intel-brief" style="text-decoration:none;">
       <div class="intel-brief-title">${b.title}</div>
       <div class="intel-brief-desc">${b.desc}</div>
       <div style="font-size:11px;color:var(--color-text-faint);margin-top:var(--space-2);">${b.source}</div>
