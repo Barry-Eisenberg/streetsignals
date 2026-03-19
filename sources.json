@@ -141,13 +141,14 @@
       "max_items": 20
     },
     {
-      "enabled": true,
+      "enabled": false,
       "priority": 2,
       "name": "Tokenization Insight — News",
       "url": "https://www.tokenizationinsight.com/feed/",
       "institution": "Tokenization Insight",
       "category": "ecosystem",
-      "max_items": 25
+      "max_items": 25,
+      "_comment": "Disabled: feed URL currently returns HTTP 404"
     },
     {
       "enabled": true,
@@ -159,13 +160,14 @@
       "max_items": 25
     },
     {
-      "enabled": true,
+      "enabled": false,
       "priority": 2,
       "name": "RWA.xyz — Blog",
       "url": "https://rwa.xyz/feed/",
       "institution": "RWA.xyz",
       "category": "ecosystem",
-      "max_items": 20
+      "max_items": 20,
+      "_comment": "Disabled: feed URL currently returns HTTP 404"
     },
     {
       "enabled": true,
@@ -177,22 +179,24 @@
       "max_items": 25
     },
     {
-      "enabled": true,
+      "enabled": false,
       "priority": 2,
       "name": "Nethermind — Blog",
       "url": "https://www.nethermind.io/feed.xml",
       "institution": "Nethermind",
       "category": "ecosystem",
-      "max_items": 20
+      "max_items": 20,
+      "_comment": "Disabled: feed URL currently returns HTTP 404"
     },
     {
-      "enabled": true,
+      "enabled": false,
       "priority": 2,
       "name": "QED Investors — Blog",
       "url": "https://qedinvestors.com/feed/",
       "institution": "QED Investors",
       "category": "ecosystem",
-      "max_items": 20
+      "max_items": 20,
+      "_comment": "Disabled: feed URL currently returns HTTP 404"
     },
     {
       "enabled": true,

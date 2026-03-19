@@ -68,6 +68,29 @@ document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 function getCSS(prop) {
   return getComputedStyle(document.documentElement).getPropertyValue(prop).trim();
 }
+
+const INSTITUTION_TYPE_NORMALIZATION = {
+  'Central Banks & Regulators': 'Regulatory Agencies',
+  'Digital Asset Infrastructure': 'Infrastructure & Technology',
+  'Exchanges & Trading Venues': 'Exchanges & Central Intermediaries',
+  'Financial Infrastructure Operators': 'Infrastructure & Technology',
+  'Financial Services & Credit Rating Agencies': 'Infrastructure & Technology',
+  'Global Payment Networks': 'Payments Providers',
+  'Payment Service Providers': 'Payments Providers'
+};
+
+function normalizeInstitutionType(type) {
+  if (!type) return 'Infrastructure & Technology';
+  return INSTITUTION_TYPE_NORMALIZATION[type] || type;
+}
+
+function normalizeSignal(signal) {
+  return {
+    ...signal,
+    institution_type: normalizeInstitutionType(signal.institution_type)
+  };
+}
+
 function getCatColors() {
   return {
     'Global Banks': getCSS('--color-banks'),
@@ -147,7 +170,9 @@ Promise.all([
 
   const intelAsSignals = mapIntelBriefsToSignals(INTEL_BRIEFS);
   const mergedSignals = [...manualSignals, ...generatedSignals, ...intelAsSignals];
-  allSignals = mergedSignals.sort((a, b) => new Date(b.date || '2024-01-01') - new Date(a.date || '2024-01-01'));
+  allSignals = mergedSignals
+    .map(normalizeSignal)
+    .sort((a, b) => new Date(b.date || '2024-01-01') - new Date(a.date || '2024-01-01'));
 
   renderKPIs();
   renderDirectory();
