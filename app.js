@@ -540,7 +540,7 @@ function buildFMIChart(colors, textColor, gridColor) {
       datasets: [{
         data: sorted.map(s => s[1]),
         backgroundColor: sorted.map((_, i) => fmiColors[i % fmiColors.length]),
-        borderRadius: 4, borderSkipped: false, barThickness: 28,
+        borderRadius: 4, borderSkipped: false, barThickness: 22,
       }]
     },
     options: {
