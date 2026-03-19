@@ -717,6 +717,7 @@ function renderIntelBriefs() {
 function renderSignals() {
   const container = document.getElementById('signalSections');
   const noResults = document.getElementById('noResults');
+  renderMatrixFilterChip();
   let filtered = allSignals.filter(s => !s._isBrief);
   if (activeFilter !== 'all') filtered = filtered.filter(s => s.category === activeFilter);
   if (matrixFilter) {
@@ -1046,6 +1047,35 @@ function navigateToMatrixSelection(institutionType, initiativeType) {
   }, 100);
 
   updateResetBars();
+}
+
+function clearMatrixFilter() {
+  matrixFilter = null;
+  renderSignals();
+  updateResetBars();
+}
+
+function renderMatrixFilterChip() {
+  const chip = document.getElementById('matrixFilterChip');
+  const label = document.getElementById('matrixFilterChipLabel');
+  if (!chip || !label) return;
+
+  if (!matrixFilter) {
+    chip.style.display = 'none';
+    return;
+  }
+
+  const shortInst = matrixFilter.institutionType
+    .replace('Asset & Investment Management', 'Asset Mgmt')
+    .replace('Exchanges & Central Intermediaries', 'Exchanges')
+    .replace('Infrastructure & Technology', 'Infra & Tech');
+  const shortInit = matrixFilter.initiativeType
+    .replace('Tokenized Securities / RWA', 'Tokenized Securities/RWA')
+    .replace('DLT / Blockchain Infrastructure', 'DLT/Blockchain Infra')
+    .replace('Stablecoins & Deposit Tokens', 'Stablecoins');
+
+  label.textContent = `Matrix filter: ${shortInst} x ${shortInit}`;
+  chip.style.display = 'inline-flex';
 }
 
 // ===== GLOBAL RESET FILTERS =====
