@@ -56,19 +56,44 @@ INST_TYPE_MAP = {
 }
 
 TOPIC_KEYWORDS = [
-    "token", "tokeniz",
+    # Tokenization & Digital Assets
+    "token", "tokeniz", "digitalis",
     "blockchain", "distributed ledger", "dlt",
-    "digital asset", "digital securities", "digital bond", "digital fund",
-    "stablecoin", "stable coin",
-    "cbdc", "central bank digital",
-    "crypto", "cryptocurrency",
-    "on-chain", "onchain",
-    "settlement", "clearing",
-    "interoperability",
-    "real world asset", "rwa",
-    "defi", "decentralized finance",
-    "deposit token",
-    "smart contract",
+    "digital asset", "digital securities", "digital bond", "digital fund", "digital security",
+    "stablecoin", "stable coin", "regulated stablecoin",
+    "cbdc", "central bank digital", "digital euro", "digital pound", "digital currency",
+    "crypto", "cryptocurrency", "bitcoin", "ethereum",
+    "rwa", "real world asset", "real-world asset", "asset tokenization",
+    
+    # Infrastructure & Settlement
+    "on-chain", "onchain", "blockchain settlement",
+    "settlement", "clearing", "post-trade",
+    "pvp", "payment versus payment",
+    "t+0", "atomic settlement",
+    "interoperability", "cross-chain", "crosschain", "multi-chain", "bridge",
+    
+    # Payments & Cross-Border
+    "payment", "cross-border", "cross-currency", "remittance",
+    "swift", "fast", "fedwire", "sepa", "fx transfer",
+    "liquidity", "liquidity pool",
+    
+    # Finance & Markets
+    "defi", "decentralized finance", "lending", "borrowing",
+    "deposit token", "tokenized deposit", "secured token",
+    "custody", "custodian", "safekeeping", "prime broker",
+    "collateral", "repo", "repurchase",
+    "trading", "exchange", "marketplace", "otc", "derivatives",
+    "securities", "investment", "fund", "etf", "index",
+    
+    # Regulation & Compliance
+    "regulat", "compliance", "kyc", "aml", "governance",
+    "framework", "legislation", "act", "supervision",
+    "license", "charter", "permit", "authorization",
+    "mou", "memorandum of understanding", "agreement",
+    
+    # Smart Contracts & Tech
+    "smart contract", "smart_contract",
+    "dapp", "protocol", "web3", "ai agent", "machine payment",
 ]
 
 
