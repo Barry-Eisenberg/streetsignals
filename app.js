@@ -188,6 +188,10 @@ function loadJsonWithFallback(path, fallback) {
     .catch(() => fallback);
 }
 
+function getOperationalSignals() {
+  return allSignals.filter(s => !s._isBrief);
+}
+
 Promise.all([
   loadJsonWithFallback('./data.json', []),
   loadJsonWithFallback('./auto_data.json', []),
@@ -218,19 +222,20 @@ let activeKPI = null;
 
 function renderKPIs() {
   const el = document.getElementById('kpiStrip');
-  const institutions = new Set(allSignals.map(s => s.institution));
-  const y25 = allSignals.filter(s => s.year === '2025').length;
-  const y24 = allSignals.filter(s => s.year === '2024').length;
+  const signals = getOperationalSignals();
+  const institutions = new Set(signals.map(s => s.institution));
+  const y25 = signals.filter(s => s.year === '2025').length;
+  const y24 = signals.filter(s => s.year === '2024').length;
   const growth = y24 > 0 ? Math.round(((y25 - y24) / y24) * 100) : 0;
-  const productLaunches = allSignals.filter(s => s.signal_type === 'Product Launch').length;
-  const pctLaunches = Math.round((productLaunches / allSignals.length) * 100);
+  const productLaunches = signals.filter(s => s.signal_type === 'Product Launch').length;
+  const pctLaunches = signals.length ? Math.round((productLaunches / signals.length) * 100) : 0;
 
   const kpis = [
-    { id: 'signals', value: allSignals.length, label: 'Total Signals', color: 'var(--color-primary)' },
+    { id: 'signals', value: signals.length, label: 'Total Signals', color: 'var(--color-primary)' },
     { id: 'institutions', value: institutions.size, label: 'Institutions', color: 'var(--color-primary)' },
     { id: 'growth', value: `${growth}%`, label: 'YoY Growth (2024→25)', color: 'var(--color-success)', delta: '↑ Accelerating' },
     { id: 'launches', value: productLaunches, label: 'Product Launches', color: 'var(--color-payments)', delta: `${pctLaunches}% of all signals` },
-    { id: 'sectors', value: '7', label: 'Sector Categories', color: 'var(--color-primary)' },
+    { id: 'sectors', value: '6', label: 'Sector Categories', color: 'var(--color-primary)' },
     { id: 'countries', value: '40+', label: 'Countries', color: 'var(--color-primary)' }
   ];
 
@@ -265,14 +270,15 @@ function closeKPIBreakdown() {
 function showKPIBreakdown(kpiId) {
   activeKPI = kpiId;
   const panel = document.getElementById('kpiBreakdown');
+  const signals = getOperationalSignals();
   let html = '';
 
   if (kpiId === 'signals') {
     const byType = {};
-    allSignals.forEach(s => { byType[s.institution_type] = (byType[s.institution_type] || 0) + 1; });
+    signals.forEach(s => { byType[s.institution_type] = (byType[s.institution_type] || 0) + 1; });
     const sorted = Object.entries(byType).sort((a,b) => b[1] - a[1]);
     const max = sorted[0]?.[1] || 1;
-    html = `<div class="kpi-breakdown-header"><h3>${allSignals.length} Signals by Institution Type</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
+    html = `<div class="kpi-breakdown-header"><h3>${signals.length} Signals by Institution Type</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
     html += '<div class="kpi-breakdown-grid">';
     sorted.forEach(([type, count]) => {
       html += `<a href="#directory" class="kpi-breakdown-item"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
@@ -282,13 +288,13 @@ function showKPIBreakdown(kpiId) {
 
   } else if (kpiId === 'institutions') {
     const instByType = {};
-    allSignals.forEach(s => {
+    signals.forEach(s => {
       if (!instByType[s.institution_type]) instByType[s.institution_type] = new Set();
       instByType[s.institution_type].add(s.institution);
     });
     const sorted = Object.entries(instByType).map(([t, s]) => [t, s.size]).sort((a,b) => b[1] - a[1]);
     const max = sorted[0]?.[1] || 1;
-    html = `<div class="kpi-breakdown-header"><h3>${new Set(allSignals.map(s=>s.institution)).size} Institutions by Sector</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
+    html = `<div class="kpi-breakdown-header"><h3>${new Set(signals.map(s=>s.institution)).size} Institutions by Sector</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
     html += '<div class="kpi-breakdown-grid">';
     sorted.forEach(([type, count]) => {
       html += `<a href="#directory" class="kpi-breakdown-item"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
@@ -298,7 +304,7 @@ function showKPIBreakdown(kpiId) {
 
   } else if (kpiId === 'growth') {
     const byYear = {};
-    allSignals.forEach(s => { byYear[s.year] = (byYear[s.year] || 0) + 1; });
+    signals.forEach(s => { byYear[s.year] = (byYear[s.year] || 0) + 1; });
     const years = Object.entries(byYear).sort((a,b) => a[0].localeCompare(b[0]));
     const max = Math.max(...years.map(y => y[1]));
     html = `<div class="kpi-breakdown-header"><h3>Signal Growth Over Time</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
@@ -315,7 +321,7 @@ function showKPIBreakdown(kpiId) {
 
   } else if (kpiId === 'launches') {
     const byType = {};
-    allSignals.forEach(s => { byType[s.signal_type] = (byType[s.signal_type] || 0) + 1; });
+    signals.forEach(s => { byType[s.signal_type] = (byType[s.signal_type] || 0) + 1; });
     const sorted = Object.entries(byType).sort((a,b) => b[1] - a[1]);
     const max = sorted[0]?.[1] || 1;
     html = `<div class="kpi-breakdown-header"><h3>All Signal Types</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
@@ -327,13 +333,13 @@ function showKPIBreakdown(kpiId) {
     html += '<a href="#analytics" class="kpi-breakdown-link">View signal type chart ↓</a>';
 
   } else if (kpiId === 'sectors') {
-    const catMap = { 'Global Banks':'global_banks', 'Asset & Investment Management':'asset_management', 'Payments Providers':'payments', 'Exchanges & Central Intermediaries':'exchanges_intermediaries', 'Regulatory Agencies':'regulators', 'Infrastructure & Technology':'ecosystem', 'Intelligence & Research':'intel_briefs' };
-    const colorMap = { 'Global Banks':'var(--color-banks)', 'Asset & Investment Management':'var(--color-asset-mgmt)', 'Payments Providers':'var(--color-payments)', 'Exchanges & Central Intermediaries':'var(--color-exchanges)', 'Regulatory Agencies':'var(--color-regulators)', 'Infrastructure & Technology':'var(--color-ecosystem)', 'Intelligence & Research':'#c084fc' };
-    html = `<div class="kpi-breakdown-header"><h3>7 Sector Categories</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
+    const catMap = { 'Global Banks':'global_banks', 'Asset & Investment Management':'asset_management', 'Payments Providers':'payments', 'Exchanges & Central Intermediaries':'exchanges_intermediaries', 'Regulatory Agencies':'regulators', 'Infrastructure & Technology':'ecosystem' };
+    const colorMap = { 'Global Banks':'var(--color-banks)', 'Asset & Investment Management':'var(--color-asset-mgmt)', 'Payments Providers':'var(--color-payments)', 'Exchanges & Central Intermediaries':'var(--color-exchanges)', 'Regulatory Agencies':'var(--color-regulators)', 'Infrastructure & Technology':'var(--color-ecosystem)' };
+    html = `<div class="kpi-breakdown-header"><h3>6 Sector Categories</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
     html += '<div class="kpi-breakdown-grid">';
     Object.entries(catMap).forEach(([type, anchor]) => {
-      const count = allSignals.filter(s => s.institution_type === type).length;
-      const instCount = new Set(allSignals.filter(s => s.institution_type === type).map(s => s.institution)).size;
+      const count = signals.filter(s => s.institution_type === type).length;
+      const instCount = new Set(signals.filter(s => s.institution_type === type).map(s => s.institution)).size;
       html += `<a href="#directory" class="kpi-breakdown-item" style="border-left:3px solid ${colorMap[type]}"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-value">${count} signals · ${instCount} firms</span></a>`;
     });
     html += '</div>';
@@ -376,14 +382,15 @@ function buildCharts() {
 
 // 1. TIMELINE (stacked bar) — all years from data
 function buildTimelineChart(colors, textColor, gridColor) {
+  const signals = getOperationalSignals();
   // Dynamically collect all years present in data, sorted
   const yearSet = new Set();
-  allSignals.forEach(s => { if (s.year) yearSet.add(s.year); });
+  signals.forEach(s => { if (s.year) yearSet.add(s.year); });
   const years = [...yearSet].sort();
-  const types = Object.keys(colors);
+  const types = Object.keys(colors).filter(t => t !== 'Intelligence & Research');
   const datasets = types.map(type => ({
     label: type.replace('Asset & Investment Management', 'Asset Mgmt').replace('Exchanges & Central Intermediaries', 'Exchanges').replace('Infrastructure & Technology', 'Infrastructure'),
-    data: years.map(y => allSignals.filter(s => s.year === y && s.institution_type === type).length),
+    data: years.map(y => signals.filter(s => s.year === y && s.institution_type === type).length),
     backgroundColor: colors[type],
     borderRadius: 4,
     borderSkipped: false,
@@ -417,8 +424,9 @@ function buildTimelineChart(colors, textColor, gridColor) {
 
 // 2. INSTITUTION TYPE (doughnut)
 function buildInstTypeChart(colors, textColor) {
+  const signals = getOperationalSignals();
   const counts = {};
-  allSignals.forEach(s => { counts[s.institution_type] = (counts[s.institution_type] || 0) + 1; });
+  signals.forEach(s => { counts[s.institution_type] = (counts[s.institution_type] || 0) + 1; });
   const labels = Object.keys(counts);
   const data = labels.map(l => counts[l]);
   const bgColors = labels.map(l => colors[l]);
@@ -434,7 +442,7 @@ function buildInstTypeChart(colors, textColor) {
       cutout: '55%',
       plugins: {
         legend: { position: 'right', labels: { boxWidth: 10, padding: 8, font: { size: 11 } } },
-        tooltip: { callbacks: { label: ctx => `${ctx.label}: ${ctx.raw} signals (${Math.round(ctx.raw/allSignals.length*100)}%)` } }
+        tooltip: { callbacks: { label: ctx => `${ctx.label}: ${ctx.raw} signals (${Math.round(ctx.raw/signals.length*100)}%)` } }
       }
     }
   });
@@ -442,8 +450,9 @@ function buildInstTypeChart(colors, textColor) {
 
 // 3. SIGNAL TYPE (horizontal bar)
 function buildSignalTypeChart(textColor, gridColor) {
+  const signals = getOperationalSignals();
   const counts = {};
-  allSignals.forEach(s => { counts[s.signal_type] = (counts[s.signal_type] || 0) + 1; });
+  signals.forEach(s => { counts[s.signal_type] = (counts[s.signal_type] || 0) + 1; });
   const sorted = Object.entries(counts).sort((a,b) => b[1] - a[1]);
   const signalColors = [
     getCSS('--color-primary'), getCSS('--color-regulators'), getCSS('--color-payments'),
@@ -467,7 +476,7 @@ function buildSignalTypeChart(textColor, gridColor) {
       layout: { padding: { left: 4 } },
       plugins: {
         legend: { display: false },
-        tooltip: { callbacks: { label: ctx => `${ctx.raw} signals (${Math.round(ctx.raw/allSignals.length*100)}%)` } }
+        tooltip: { callbacks: { label: ctx => `${ctx.raw} signals (${Math.round(ctx.raw/signals.length*100)}%)` } }
       },
       scales: {
         x: { grid: { color: gridColor }, ticks: { font: { size: 11 } } },
@@ -479,8 +488,9 @@ function buildSignalTypeChart(textColor, gridColor) {
 
 // 4. INITIATIVE TYPE (horizontal bar)
 function buildInitiativeTypeChart(textColor, gridColor) {
+  const signals = getOperationalSignals();
   const counts = {};
-  allSignals.forEach(s => { (s.initiative_types || []).forEach(t => { counts[t] = (counts[t] || 0) + 1; }); });
+  signals.forEach(s => { (s.initiative_types || []).forEach(t => { counts[t] = (counts[t] || 0) + 1; }); });
   const sorted = Object.entries(counts).sort((a,b) => b[1] - a[1]);
   const initColors = [
     getCSS('--color-banks'), getCSS('--color-exchanges'), getCSS('--color-asset-mgmt'),
@@ -516,8 +526,9 @@ function buildInitiativeTypeChart(textColor, gridColor) {
 
 // 5. FMI AREAS (horizontal bar with drilldown)
 function buildFMIChart(colors, textColor, gridColor) {
+  const signals = getOperationalSignals();
   const counts = {};
-  allSignals.forEach(s => { (s.fmi_areas || []).forEach(a => { counts[a] = (counts[a] || 0) + 1; }); });
+  signals.forEach(s => { (s.fmi_areas || []).forEach(a => { counts[a] = (counts[a] || 0) + 1; }); });
   const sorted = Object.entries(counts).sort((a,b) => b[1] - a[1]).filter(([k]) => k !== 'General Infrastructure');
   const fmiColors = [
     getCSS('--color-primary'), getCSS('--color-regulators'), getCSS('--color-payments'),
@@ -568,7 +579,7 @@ function buildFMIChart(colors, textColor, gridColor) {
 
 function showFMIDrilldown(fmiArea, colors) {
   const panel = document.getElementById('fmiDrilldown');
-  const relevant = allSignals.filter(s => (s.fmi_areas || []).includes(fmiArea));
+  const relevant = getOperationalSignals().filter(s => (s.fmi_areas || []).includes(fmiArea));
   const byType = {};
   relevant.forEach(s => { byType[s.institution_type] = (byType[s.institution_type] || 0) + 1; });
   const sorted = Object.entries(byType).sort((a,b) => b[1] - a[1]);
@@ -581,8 +592,7 @@ function showFMIDrilldown(fmiArea, colors) {
     'Payments Providers': 'payments',
     'Exchanges & Central Intermediaries': 'exchanges_intermediaries',
     'Regulatory Agencies': 'regulators',
-    'Infrastructure & Technology': 'ecosystem',
-    'Intelligence & Research': 'intel_briefs'
+    'Infrastructure & Technology': 'ecosystem'
   };
 
   panel.style.display = 'block';
@@ -639,8 +649,9 @@ function navigateToDirectorySection(catKey) {
 // 6. HEATMAP
 function buildHeatmap(colors) {
   const container = document.getElementById('heatmapContainer');
-  const instTypes = ['Global Banks', 'Asset & Investment Management', 'Payments Providers', 'Exchanges & Central Intermediaries', 'Regulatory Agencies', 'Infrastructure & Technology', 'Intelligence & Research'];
-  const shortNames = ['Banks', 'Asset Mgmt', 'Payments', 'Exchanges', 'Regulators', 'Infra/Tech', 'Intel/Research'];
+  const signals = getOperationalSignals();
+  const instTypes = ['Global Banks', 'Asset & Investment Management', 'Payments Providers', 'Exchanges & Central Intermediaries', 'Regulatory Agencies', 'Infrastructure & Technology'];
+  const shortNames = ['Banks', 'Asset Mgmt', 'Payments', 'Exchanges', 'Regulators', 'Infra/Tech'];
   const initTypes = ['Tokenized Securities / RWA', 'DLT / Blockchain Infrastructure', 'Crypto / Digital Assets', 'Payment Infrastructure', 'Stablecoins & Deposit Tokens', 'CBDC', 'DeFi', 'Digital Asset Strategy'];
   const shortInit = ['Tokenized Securities', 'DLT / Blockchain', 'Crypto / Digital Assets', 'Payment Infra', 'Stablecoins', 'CBDC', 'DeFi', 'Digital Strategy'];
 
@@ -650,7 +661,7 @@ function buildHeatmap(colors) {
   instTypes.forEach(inst => {
     const row = [];
     initTypes.forEach(init => {
-      const count = allSignals.filter(s => s.institution_type === inst && (s.initiative_types || []).includes(init)).length;
+      const count = signals.filter(s => s.institution_type === inst && (s.initiative_types || []).includes(init)).length;
       row.push(count);
       if (count > maxVal) maxVal = count;
     });
@@ -675,7 +686,7 @@ function buildHeatmap(colors) {
   // Calculate column totals
   const colTotals = initTypes.map((_, ci) => matrix.reduce((sum, row) => sum + row[ci], 0));
   // Use unique signals for grand total to avoid double-counting multi-tagged initiatives.
-  const grandTotal = allSignals.filter(s => instTypes.includes(s.institution_type)).length;
+  const grandTotal = signals.length;
 
   let html = '<table class="heatmap-table"><thead><tr><th></th>';
   shortInit.forEach(h => { html += `<th class="heatmap-col-header">${h}</th>`; });
@@ -839,6 +850,7 @@ let dirSort = 'signals';
 function renderDirectory() {
   const container = document.getElementById('directoryContainer');
   if (!container) return;
+  const signals = getOperationalSignals();
 
   const colorMap = {
     'Global Banks': 'var(--color-banks)',
@@ -846,15 +858,13 @@ function renderDirectory() {
     'Payments Providers': 'var(--color-payments)',
     'Exchanges & Central Intermediaries': 'var(--color-exchanges)',
     'Regulatory Agencies': 'var(--color-regulators)',
-    'Infrastructure & Technology': 'var(--color-ecosystem)',
-    'Intelligence & Research': '#c084fc'
+    'Infrastructure & Technology': 'var(--color-ecosystem)'
   };
-  const catOrder = ['Global Banks', 'Asset & Investment Management', 'Payments Providers', 'Exchanges & Central Intermediaries', 'Regulatory Agencies', 'Infrastructure & Technology', 'Intelligence & Research'];
-  const catAnchors = { 'Global Banks':'global_banks', 'Asset & Investment Management':'asset_management', 'Payments Providers':'payments', 'Exchanges & Central Intermediaries':'exchanges_intermediaries', 'Regulatory Agencies':'regulators', 'Infrastructure & Technology':'ecosystem', 'Intelligence & Research':'intel_briefs' };
+  const catOrder = ['Global Banks', 'Asset & Investment Management', 'Payments Providers', 'Exchanges & Central Intermediaries', 'Regulatory Agencies', 'Infrastructure & Technology'];
 
   // Build institution data
   const instMap = {};
-  allSignals.forEach(s => {
+  signals.forEach(s => {
     const key = s.institution;
     if (!instMap[key]) {
       instMap[key] = {
@@ -933,7 +943,7 @@ function renderDirectory() {
     html += `<th>Institution</th><th class="num">Signals</th><th>Signal Types</th><th>Initiative Classification</th><th>FMI Areas</th>`;
     html += `</tr></thead><tbody>`;
 
-    const catKeyMap = { 'Global Banks':'global_banks', 'Asset & Investment Management':'asset_management', 'Payments Providers':'payments', 'Exchanges & Central Intermediaries':'exchanges_intermediaries', 'Regulatory Agencies':'regulators', 'Infrastructure & Technology':'ecosystem', 'Intelligence & Research':'intel_briefs' };
+    const catKeyMap = { 'Global Banks':'global_banks', 'Asset & Investment Management':'asset_management', 'Payments Providers':'payments', 'Exchanges & Central Intermediaries':'exchanges_intermediaries', 'Regulatory Agencies':'regulators', 'Infrastructure & Technology':'ecosystem' };
     const thisCatKey = catKeyMap[cat] || '';
 
     insts.forEach(inst => {
