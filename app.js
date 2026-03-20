@@ -53,6 +53,20 @@ document.getElementById('initiativeSchemaToggle')?.addEventListener('click', () 
     body.style.display = 'block';
   }
 });
+
+document.getElementById('fmiSchemaToggle')?.addEventListener('click', () => {
+  const section = document.querySelector('.fmi-schema-section');
+  const body = document.getElementById('fmiSchemaBody');
+  if (!section || !body) return;
+
+  if (section.classList.contains('open')) {
+    section.classList.remove('open');
+    body.style.display = 'none';
+  } else {
+    section.classList.add('open');
+    body.style.display = 'block';
+  }
+});
 // Auto-expand when navigating via anchor link
 document.querySelectorAll('a[href="#signal-library"], a[href="#intelligence"]').forEach(link => {
   link.addEventListener('click', (e) => {
@@ -185,6 +199,45 @@ function normalizeInitiativeTypes(types) {
   return [...new Set(normalized)];
 }
 
+const FMI_SCHEMA = [
+  {
+    name: 'Tokenization & Issuance',
+    description: 'Creation and lifecycle management of tokenized financial instruments and issuance workflows.'
+  },
+  {
+    name: 'Custody & Asset Management',
+    description: 'Safekeeping, asset servicing, and investment operations for digital and tokenized assets.'
+  },
+  {
+    name: 'Trading & Exchange',
+    description: 'Primary and secondary market trading venues, liquidity provision, and execution infrastructure.'
+  },
+  {
+    name: 'Settlement & Clearing',
+    description: 'Post-trade confirmation, clearing processes, settlement finality, and related risk controls.'
+  },
+  {
+    name: 'Payments & Transfers',
+    description: 'Domestic and cross-border value movement, treasury payments, and transaction orchestration rails.'
+  },
+  {
+    name: 'Collateral & Lending',
+    description: 'Collateral mobility, secured lending infrastructure, and programmable credit-market workflows.'
+  },
+  {
+    name: 'Interoperability & Standards',
+    description: 'Connectivity and standards across messaging, ledgers, networks, and institutional participants.'
+  },
+  {
+    name: 'Digital Currency & Stablecoins',
+    description: 'Stablecoin, deposit token, and other digital money instruments used in institutional flows.'
+  },
+  {
+    name: 'Regulation & Compliance',
+    description: 'Policy, supervision, and compliance controls governing digital asset market infrastructure.'
+  }
+];
+
 function normalizeInstitutionType(type) {
   if (!type) return 'Infrastructure & Technology';
   return INSTITUTION_TYPE_NORMALIZATION[type] || type;
@@ -306,6 +359,7 @@ Promise.all([
   renderFilterPills();
   renderIntelBriefs();
   renderInitiativeSchema();
+  renderFmiSchema();
   renderSignals();
   document.querySelectorAll('.reveal:not(.visible)').forEach(el => observer.observe(el));
 });
@@ -680,6 +734,38 @@ function renderInitiativeSchema() {
           <div class="initiative-schema-meta">Group: ${item.group || 'Unspecified'}</div>
         </article>
       `).join('')}
+    </div>
+  `;
+}
+
+function renderFmiSchema() {
+  const container = document.getElementById('fmiSchemaContent');
+  if (!container) return;
+
+  const decisionLogic = [
+    'What FMI function is directly being transformed?',
+    'Does the signal primarily impact issuance, trading, settlement, custody, payments, or compliance?',
+    'If the signal spans multiple functions, store all applicable FMI areas in order of operational impact.',
+    'If no direct FMI function is changed, classify as Other Infrastructure and flag for analyst review.'
+  ];
+
+  container.innerHTML = `
+    <div class="initiative-schema-grid">
+      ${FMI_SCHEMA.map(item => `
+        <article class="initiative-schema-card">
+          <div class="initiative-schema-card-top">
+            <h3>${item.name}</h3>
+            <span class="initiative-schema-pill analytics">FMI Domain</span>
+          </div>
+          <p>${item.description}</p>
+        </article>
+      `).join('')}
+    </div>
+    <div class="fmi-decision-logic">
+      <h4>Decision Logic</h4>
+      <ol>
+        ${decisionLogic.map(step => `<li>${step}</li>`).join('')}
+      </ol>
     </div>
   `;
 }
