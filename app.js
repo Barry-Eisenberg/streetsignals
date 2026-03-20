@@ -674,7 +674,8 @@ function buildHeatmap(colors) {
 
   // Calculate column totals
   const colTotals = initTypes.map((_, ci) => matrix.reduce((sum, row) => sum + row[ci], 0));
-  const grandTotal = colTotals.reduce((s, v) => s + v, 0);
+  // Use unique signals for grand total to avoid double-counting multi-tagged initiatives.
+  const grandTotal = allSignals.filter(s => instTypes.includes(s.institution_type)).length;
 
   let html = '<table class="heatmap-table"><thead><tr><th></th>';
   shortInit.forEach(h => { html += `<th class="heatmap-col-header">${h}</th>`; });
