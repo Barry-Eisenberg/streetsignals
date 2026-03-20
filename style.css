@@ -800,6 +800,7 @@
   font-weight: 700;
   color: var(--color-text);
   margin-top: 0;
+  max-width: none;
 }
 .chart-container {
   position: relative;
