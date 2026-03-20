@@ -163,17 +163,15 @@ document.getElementById('fmiSchemaToggle')?.addEventListener('click', () => {
   toggleCollapsible('.fmi-schema-section', 'fmiSchemaBody');
   trackSectionToggle('FMI Schema', isOpen);
 });
-// Auto-expand when navigating via anchor link
-document.querySelectorAll('a[href="#signal-library"], a[href="#directory"], a[href="#analytics"], a[href="#methodology"], a[href="#intelligence"]').forEach(link => {
-  link.addEventListener('click', (e) => {
-    const href = link.getAttribute('href');
-    if (href === '#signal-library' || href === '#intelligence') {
-      openCollapsible('.signal-library-section', 'libraryBody');
-    }
-    if (href === '#directory') openCollapsible('#directory', 'directoryBody');
-    if (href === '#analytics') openCollapsible('#analytics', 'analyticsBody');
-    if (href === '#methodology') openCollapsible('#methodology', 'methodologyBody');
-  });
+// Auto-expand when navigating via anchor link (event delegation covers dynamically created links too)
+document.addEventListener('click', (e) => {
+  const link = e.target.closest('a[href]');
+  if (!link) return;
+  const href = link.getAttribute('href');
+  if (href === '#signal-library' || href === '#intelligence') openCollapsible('.signal-library-section', 'libraryBody');
+  if (href === '#directory') openCollapsible('#directory', 'directoryBody');
+  if (href === '#analytics') openCollapsible('#analytics', 'analyticsBody');
+  if (href === '#methodology') openCollapsible('#methodology', 'methodologyBody');
 });
 
 // ===== ADDITIONAL ANALYTICS TOGGLE =====
@@ -561,7 +559,7 @@ function showKPIBreakdown(kpiId, activeCard) {
     html = `<div class="kpi-breakdown-header"><h3>${signals.length} Signals by Institution Type</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
     html += '<div class="kpi-breakdown-grid">';
     sorted.forEach(([type, count]) => {
-      html += `<a href="#directory" class="kpi-breakdown-item"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
+      html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="navigateToCatalogueByType('${type.replace(/'/g, "\\'")}')"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
     });
     html += '</div>';
     html += '<a href="#analytics" class="kpi-breakdown-link">View detailed analytics ↓</a>';
@@ -574,10 +572,12 @@ function showKPIBreakdown(kpiId, activeCard) {
     });
     const sorted = Object.entries(instByType).map(([t, s]) => [t, s.size]).sort((a,b) => b[1] - a[1]);
     const max = sorted[0]?.[1] || 1;
+    const instCatKeyMap = { 'Global Banks':'global_banks', 'Asset & Investment Management':'asset_management', 'Payments Providers':'payments', 'Exchanges & Central Intermediaries':'exchanges_intermediaries', 'Regulatory Agencies':'regulators', 'Infrastructure & Technology':'ecosystem', 'Intelligence & Research':'intel_briefs' };
     html = `<div class="kpi-breakdown-header"><h3>${new Set(signals.map(s=>s.institution)).size} Institutions by Sector</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
     html += '<div class="kpi-breakdown-grid">';
     sorted.forEach(([type, count]) => {
-      html += `<a href="#directory" class="kpi-breakdown-item"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
+      const ck = instCatKeyMap[type] || 'all';
+      html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="navigateToDirectorySection('${ck}')"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
     });
     html += '</div>';
     html += '<a href="#directory" class="kpi-breakdown-link">See full Institution Directory ↓</a>';
@@ -609,7 +609,7 @@ function showKPIBreakdown(kpiId, activeCard) {
       html += '<div class="kpi-breakdown-grid">';
       sorted.forEach(([type, count]) => {
         const label = type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech');
-        html += `<a href="#signal-library" class="kpi-breakdown-item"><span class="bd-label">${label}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
+        html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="navigateToCatalogueByType('${type.replace(/'/g, "\\'")}')"><span class="bd-label">${label}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
       });
       html += '</div>';
     }
@@ -653,7 +653,7 @@ function showKPIBreakdown(kpiId, activeCard) {
     Object.entries(catMap).forEach(([type, anchor]) => {
       const count = signals.filter(s => s.institution_type === type).length;
       const instCount = new Set(signals.filter(s => s.institution_type === type).map(s => s.institution)).size;
-      html += `<a href="#directory" class="kpi-breakdown-item" style="border-left:3px solid ${colorMap[type]}"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-value">${count} signals · ${instCount} firms</span></a>`;
+      html += `<a href="javascript:void(0)" class="kpi-breakdown-item" style="border-left:3px solid ${colorMap[type]}" onclick="navigateToDirectorySection('${anchor}')"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-value">${count} signals · ${instCount} firms</span></a>`;
     });
     html += '</div>';
 
@@ -1004,6 +1004,13 @@ function navigateToDirectorySection(catKey) {
   const dirSection = document.getElementById('directory');
   if (!dirSection) return;
 
+  // Open the directory section if collapsed
+  const dirBody = document.getElementById('directoryBody');
+  if (!dirSection.classList.contains('open')) {
+    dirSection.classList.add('open');
+    if (dirBody) dirBody.style.display = 'block';
+  }
+
   // Find the matching directory category and open it
   const allDirCats = document.querySelectorAll('#directoryContainer .dir-category');
   // Map catKey to the institution type name for matching
@@ -1028,6 +1035,19 @@ function navigateToDirectorySection(catKey) {
       }, 100);
     }
   });
+}
+
+function navigateToCatalogueByType(institutionType) {
+  const catKeyMap = {
+    'Global Banks': 'global_banks',
+    'Asset & Investment Management': 'asset_management',
+    'Payments Providers': 'payments',
+    'Exchanges & Central Intermediaries': 'exchanges_intermediaries',
+    'Regulatory Agencies': 'regulators',
+    'Infrastructure & Technology': 'ecosystem',
+    'Intelligence & Research': 'intel_briefs'
+  };
+  navigateToSignal('', catKeyMap[institutionType] || 'all');
 }
 
 // 6. HEATMAP
