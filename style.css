@@ -171,6 +171,7 @@
   top: 0;
   z-index: 50;
   background: oklch(from var(--color-bg) l c h / 0.92);
+  -webkit-backdrop-filter: blur(16px);
   backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--color-divider);
   transition: box-shadow 0.3s ease;
@@ -449,6 +450,7 @@
 /* ===== KPI BREAKDOWN PANEL ===== */
 .kpi-card {
   cursor: pointer;
+  -webkit-user-select: none;
   user-select: none;
 }
 .kpi-card.active {
@@ -612,6 +614,7 @@
   background: var(--color-surface-offset);
   border-radius: var(--radius-md);
   cursor: pointer;
+  -webkit-user-select: none;
   user-select: none;
   transition: background var(--transition-interactive);
 }
@@ -1063,6 +1066,7 @@
   border: 1px solid var(--color-border);
   border-radius: var(--radius-xl);
   cursor: pointer;
+  -webkit-user-select: none;
   user-select: none;
   transition: border-color var(--transition-interactive), box-shadow var(--transition-interactive);
 }
@@ -1208,6 +1212,7 @@
   border: 1px solid var(--color-border);
   border-radius: var(--radius-xl);
   cursor: pointer;
+  -webkit-user-select: none;
   user-select: none;
   transition: border-color var(--transition-interactive), box-shadow var(--transition-interactive);
 }
@@ -1385,6 +1390,7 @@
   background: var(--color-surface-offset);
   border-radius: var(--radius-md);
   cursor: pointer;
+  -webkit-user-select: none;
   user-select: none;
   transition: background var(--transition-interactive);
 }
