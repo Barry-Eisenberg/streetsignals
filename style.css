@@ -794,6 +794,13 @@
   color: var(--color-text-muted);
   margin-top: var(--space-1);
 }
+.chart-card-header .matrix-lead {
+  font-family: var(--font-display);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-top: 0;
+}
 .chart-container {
   position: relative;
   width: 100%;
