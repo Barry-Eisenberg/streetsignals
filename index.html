@@ -52,8 +52,8 @@
     <div class="header-right">
       <nav class="header-nav" id="headerNav">
         <a href="#directory">Institutional Initiatives</a>
+        <a href="#signal-library">Signal Catalogue</a>
         <a href="#analytics">Analytics</a>
-        <a href="#signal-library">Signal Library</a>
       </nav>
       <button class="theme-toggle" data-theme-toggle aria-label="Switch theme">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
@@ -107,6 +107,85 @@
       </div>
     </div>
     <div id="directoryContainer" class="reveal"></div>
+  </div>
+</section>
+
+<!-- SIGNAL LIBRARY (Appendix — collapsible) -->
+<section class="signal-library-section open" id="signal-library">
+  <div class="container">
+    <div class="library-header reveal" id="libraryToggle">
+      <div class="library-header-left">
+        <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        <div>
+          <h2 class="section-title">Signal Library</h2>
+          <p class="section-subtitle">Browse all signals organized by institution category, plus NextFi Intelligence Briefs</p>
+        </div>
+      </div>
+      <div class="library-header-right">
+        <span class="library-expand-hint" id="libraryHint">Click to expand</span>
+        <svg class="library-chevron" id="libraryChevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+      </div>
+    </div>
+
+    <div class="library-body" id="libraryBody" style="display:block;">
+      <!-- RESET BAR -->
+      <div class="reset-filters-bar" id="resetLibraryFilters" onclick="resetAllFilters()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+        <span>Reset all filters</span>
+      </div>
+      <!-- FILTER CONTROLS -->
+      <div class="controls" id="controls">
+        <div class="search-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="text" id="searchInput" placeholder="Search institutions, initiatives, topics...">
+        </div>
+        <div class="filter-pills" id="filterPills"></div>
+      </div>
+      <div class="matrix-filter-chip" id="matrixFilterChip" style="display:none;">
+        <span class="matrix-filter-chip-label" id="matrixFilterChipLabel"></span>
+        <button type="button" class="matrix-filter-chip-clear" onclick="clearMatrixFilter()">Clear</button>
+      </div>
+
+      <!-- SIGNAL SECTIONS -->
+      <div id="signalSections"></div>
+
+      <!-- NO RESULTS -->
+      <div class="no-results" id="noResults" style="display: none;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <h3>No signals found</h3>
+        <p>Try adjusting your search or filter criteria.</p>
+      </div>
+
+      <!-- INTELLIGENCE BRIEFS (collapsible) -->
+      <section class="personal-section intel-section" id="intelligence">
+        <div class="intel-toggle" onclick="this.parentElement.classList.toggle('intel-open')">
+          <div class="personal-header">
+            <div class="personal-avatar">NF</div>
+            <div class="personal-info">
+              <h2>NextFi Intelligence Briefs</h2>
+              <p>Research and analysis from Barry Eisenberg &mdash; NextFi Advisors</p>
+              <div class="personal-links">
+                <a href="https://www.linkedin.com/in/barry-eisenberg/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.47 2H3.53a1.45 1.45 0 0 0-1.47 1.43v17.14A1.45 1.45 0 0 0 3.53 22h16.94a1.45 1.45 0 0 0 1.47-1.43V3.43A1.45 1.45 0 0 0 20.47 2ZM8.09 18.74h-3v-9h3ZM6.59 8.48a1.56 1.56 0 1 1 0-3.12 1.56 1.56 0 1 1 0 3.12Zm12.32 10.26h-3v-4.83c0-1.21-.43-2-1.52-2A1.65 1.65 0 0 0 12.85 13a2 2 0 0 0-.1.73v5h-3v-9h3V11a3 3 0 0 1 2.71-1.5c2 0 3.45 1.29 3.45 4.06Z"/></svg>
+                  LinkedIn
+                </a>
+                <a href="https://nextfiadvisors.com/intelligence" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  NextFi Advisors
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="intel-toggle-right">
+            <span class="intel-brief-count" id="intelBriefCount">11 briefs</span>
+            <svg class="intel-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </div>
+        </div>
+        <div class="intel-body" id="intelBody" style="display:none;">
+          <div class="intel-briefs" id="intelBriefs"></div>
+        </div>
+      </section>
+    </div>
   </div>
 </section>
 
@@ -196,85 +275,6 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- SIGNAL LIBRARY (Appendix — collapsible) -->
-<section class="signal-library-section open" id="signal-library">
-  <div class="container">
-    <div class="library-header reveal" id="libraryToggle">
-      <div class="library-header-left">
-        <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-        <div>
-          <h2 class="section-title">Signal Library</h2>
-          <p class="section-subtitle">Browse all signals organized by institution category, plus NextFi Intelligence Briefs</p>
-        </div>
-      </div>
-      <div class="library-header-right">
-        <span class="library-expand-hint" id="libraryHint">Click to expand</span>
-        <svg class="library-chevron" id="libraryChevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-      </div>
-    </div>
-
-    <div class="library-body" id="libraryBody" style="display:block;">
-      <!-- RESET BAR -->
-      <div class="reset-filters-bar" id="resetLibraryFilters" onclick="resetAllFilters()">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
-        <span>Reset all filters</span>
-      </div>
-      <!-- FILTER CONTROLS -->
-      <div class="controls" id="controls">
-        <div class="search-box">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-          <input type="text" id="searchInput" placeholder="Search institutions, initiatives, topics...">
-        </div>
-        <div class="filter-pills" id="filterPills"></div>
-      </div>
-      <div class="matrix-filter-chip" id="matrixFilterChip" style="display:none;">
-        <span class="matrix-filter-chip-label" id="matrixFilterChipLabel"></span>
-        <button type="button" class="matrix-filter-chip-clear" onclick="clearMatrixFilter()">Clear</button>
-      </div>
-
-      <!-- SIGNAL SECTIONS -->
-      <div id="signalSections"></div>
-
-      <!-- NO RESULTS -->
-      <div class="no-results" id="noResults" style="display: none;">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-        <h3>No signals found</h3>
-        <p>Try adjusting your search or filter criteria.</p>
-      </div>
-
-      <!-- INTELLIGENCE BRIEFS (collapsible) -->
-      <section class="personal-section intel-section" id="intelligence">
-        <div class="intel-toggle" onclick="this.parentElement.classList.toggle('intel-open')">
-          <div class="personal-header">
-            <div class="personal-avatar">NF</div>
-            <div class="personal-info">
-              <h2>NextFi Intelligence Briefs</h2>
-              <p>Research and analysis from Barry Eisenberg &mdash; NextFi Advisors</p>
-              <div class="personal-links">
-                <a href="https://www.linkedin.com/in/barry-eisenberg/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.47 2H3.53a1.45 1.45 0 0 0-1.47 1.43v17.14A1.45 1.45 0 0 0 3.53 22h16.94a1.45 1.45 0 0 0 1.47-1.43V3.43A1.45 1.45 0 0 0 20.47 2ZM8.09 18.74h-3v-9h3ZM6.59 8.48a1.56 1.56 0 1 1 0-3.12 1.56 1.56 0 1 1 0 3.12Zm12.32 10.26h-3v-4.83c0-1.21-.43-2-1.52-2A1.65 1.65 0 0 0 12.85 13a2 2 0 0 0-.1.73v5h-3v-9h3V11a3 3 0 0 1 2.71-1.5c2 0 3.45 1.29 3.45 4.06Z"/></svg>
-                  LinkedIn
-                </a>
-                <a href="https://nextfiadvisors.com/intelligence" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                  NextFi Advisors
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="intel-toggle-right">
-            <span class="intel-brief-count" id="intelBriefCount">11 briefs</span>
-            <svg class="intel-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-          </div>
-        </div>
-        <div class="intel-body" id="intelBody" style="display:none;">
-          <div class="intel-briefs" id="intelBriefs"></div>
-        </div>
-      </section>
     </div>
   </div>
 </section>
