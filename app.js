@@ -227,21 +227,17 @@ function renderKPIs() {
   const productLaunches = signals.filter(s => s.signal_type === 'Product Launch').length;
   const pctLaunches = signals.length ? Math.round((productLaunches / signals.length) * 100) : 0;
 
-  const datedSignals = signals
-    .map(s => ({ signal: s, date: new Date(s.date || '') }))
-    .filter(x => !isNaN(x.date.getTime()));
-  const latestTimestamp = datedSignals.length ? Math.max(...datedSignals.map(x => x.date.getTime())) : null;
-  const latestDateKey = latestTimestamp ? new Date(latestTimestamp).toISOString().slice(0, 10) : null;
-  const dailyNewSignals = latestDateKey
-    ? datedSignals.filter(x => x.date.toISOString().slice(0, 10) === latestDateKey).length
-    : 0;
-  const latestDateLabel = latestTimestamp
-    ? new Date(latestTimestamp).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
-    : 'No date';
+  const todayKey = new Date().toISOString().slice(0, 10);
+  const dailyNewSignals = signals.filter(s => {
+    if (!s.date) return false;
+    const dt = new Date(s.date);
+    return !isNaN(dt.getTime()) && dt.toISOString().slice(0, 10) === todayKey;
+  }).length;
+  const todayLabel = new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 
   const kpis = [
     { id: 'signals', value: signals.length, label: 'Total Signals', color: 'var(--color-primary)' },
-    { id: 'daily_new', value: dailyNewSignals, label: 'New Signals (Daily)', color: 'var(--color-success)', delta: `Latest: ${latestDateLabel}` },
+    { id: 'daily_new', value: dailyNewSignals, label: 'New Signals (Today)', color: 'var(--color-success)', delta: `As of ${todayLabel}` },
     { id: 'institutions', value: institutions.size, label: 'Institutions', color: 'var(--color-primary)' },
     { id: 'sectors', value: '6', label: 'Sector Categories', color: 'var(--color-primary)' },
     { id: 'countries', value: '40+', label: 'Countries', color: 'var(--color-primary)' },
