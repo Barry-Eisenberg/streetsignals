@@ -464,6 +464,29 @@ Promise.all([
 // ===== KPIs =====
 let activeKPI = null;
 
+function isMobileKPIViewport() {
+  return window.innerWidth <= 768;
+}
+
+function positionKPIBreakdownPanel(activeCard) {
+  const panel = document.getElementById('kpiBreakdown');
+  const strip = document.getElementById('kpiStrip');
+  if (!panel || !strip || !strip.parentElement) return;
+
+  const container = strip.parentElement;
+
+  if (isMobileKPIViewport() && activeCard) {
+    panel.classList.add('kpi-breakdown-inline');
+    activeCard.insertAdjacentElement('afterend', panel);
+    return;
+  }
+
+  panel.classList.remove('kpi-breakdown-inline');
+  if (panel.parentElement !== container) {
+    container.appendChild(panel);
+  }
+}
+
 function renderKPIs() {
   const el = document.getElementById('kpiStrip');
   const signals = getOperationalSignals();
@@ -508,7 +531,7 @@ function renderKPIs() {
       if (activeKPI === kpiId) {
         closeKPIBreakdown();
       } else {
-        showKPIBreakdown(kpiId);
+        showKPIBreakdown(kpiId, card);
         el.querySelectorAll('.kpi-card').forEach(c => c.classList.remove('active'));
         card.classList.add('active');
       }
@@ -518,11 +541,13 @@ function renderKPIs() {
 
 function closeKPIBreakdown() {
   activeKPI = null;
-  document.getElementById('kpiBreakdown').style.display = 'none';
+  const panel = document.getElementById('kpiBreakdown');
+  if (panel) panel.style.display = 'none';
+  positionKPIBreakdownPanel(null);
   document.querySelectorAll('.kpi-card').forEach(c => c.classList.remove('active'));
 }
 
-function showKPIBreakdown(kpiId) {
+function showKPIBreakdown(kpiId, activeCard) {
   activeKPI = kpiId;
   const panel = document.getElementById('kpiBreakdown');
   const signals = getOperationalSignals();
@@ -640,8 +665,24 @@ function showKPIBreakdown(kpiId) {
   }
 
   panel.innerHTML = html;
+  positionKPIBreakdownPanel(activeCard);
   panel.style.display = 'block';
+
+  if (isMobileKPIViewport()) {
+    setTimeout(() => {
+      panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }, 60);
+  }
 }
+
+window.addEventListener('resize', () => {
+  const activeCard = document.querySelector('.kpi-card.active');
+  if (!activeKPI || !activeCard) {
+    positionKPIBreakdownPanel(null);
+    return;
+  }
+  positionKPIBreakdownPanel(activeCard);
+});
 
 // ===== CHARTS =====
 function destroyCharts() {
