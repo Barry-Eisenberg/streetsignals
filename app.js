@@ -27,10 +27,11 @@ document.getElementById('mobileMenuBtn')?.addEventListener('click', () => {
   document.getElementById('headerNav')?.classList.toggle('open');
 });
 
-// ===== SIGNAL LIBRARY TOGGLE =====
-document.getElementById('libraryToggle')?.addEventListener('click', () => {
-  const section = document.querySelector('.signal-library-section');
-  const body = document.getElementById('libraryBody');
+function toggleCollapsible(sectionSelector, bodyId) {
+  const section = document.querySelector(sectionSelector);
+  const body = document.getElementById(bodyId);
+  if (!section || !body) return;
+
   if (section.classList.contains('open')) {
     section.classList.remove('open');
     body.style.display = 'none';
@@ -38,44 +39,50 @@ document.getElementById('libraryToggle')?.addEventListener('click', () => {
     section.classList.add('open');
     body.style.display = 'block';
   }
+}
+
+function openCollapsible(sectionSelector, bodyId) {
+  const section = document.querySelector(sectionSelector);
+  const body = document.getElementById(bodyId);
+  if (!section || !body) return;
+  if (!section.classList.contains('open')) section.classList.add('open');
+  body.style.display = 'block';
+}
+
+// ===== SIGNAL LIBRARY TOGGLE =====
+document.getElementById('libraryToggle')?.addEventListener('click', () => {
+  toggleCollapsible('.signal-library-section', 'libraryBody');
+});
+
+document.getElementById('directoryToggle')?.addEventListener('click', () => {
+  toggleCollapsible('#directory', 'directoryBody');
+});
+
+document.getElementById('analyticsToggle')?.addEventListener('click', () => {
+  toggleCollapsible('#analytics', 'analyticsBody');
+});
+
+document.getElementById('methodologyToggle')?.addEventListener('click', () => {
+  toggleCollapsible('#methodology', 'methodologyBody');
 });
 
 document.getElementById('initiativeSchemaToggle')?.addEventListener('click', () => {
-  const section = document.querySelector('.initiative-schema-section');
-  const body = document.getElementById('initiativeSchemaBody');
-  if (!section || !body) return;
-
-  if (section.classList.contains('open')) {
-    section.classList.remove('open');
-    body.style.display = 'none';
-  } else {
-    section.classList.add('open');
-    body.style.display = 'block';
-  }
+  toggleCollapsible('.methodology-section .initiative-schema-section', 'initiativeSchemaBody');
 });
 
 document.getElementById('fmiSchemaToggle')?.addEventListener('click', () => {
-  const section = document.querySelector('.fmi-schema-section');
-  const body = document.getElementById('fmiSchemaBody');
-  if (!section || !body) return;
-
-  if (section.classList.contains('open')) {
-    section.classList.remove('open');
-    body.style.display = 'none';
-  } else {
-    section.classList.add('open');
-    body.style.display = 'block';
-  }
+  toggleCollapsible('.fmi-schema-section', 'fmiSchemaBody');
 });
 // Auto-expand when navigating via anchor link
-document.querySelectorAll('a[href="#signal-library"], a[href="#intelligence"]').forEach(link => {
+document.querySelectorAll('a[href="#signal-library"], a[href="#directory"], a[href="#analytics"], a[href="#methodology"], a[href="#intelligence"]').forEach(link => {
   link.addEventListener('click', (e) => {
-    const section = document.querySelector('.signal-library-section');
-    const body = document.getElementById('libraryBody');
-    if (!section.classList.contains('open')) {
-      section.classList.add('open');
-      body.style.display = 'block';
+    const href = link.getAttribute('href');
+    if (href === '#signal-library' || href === '#intelligence') {
+      openCollapsible('.signal-library-section', 'libraryBody');
     }
+    if (href === '#directory') openCollapsible('#directory', 'directoryBody');
+    if (href === '#analytics') openCollapsible('#analytics', 'analyticsBody');
+    if (href === '#methodology') openCollapsible('#methodology', 'methodologyBody');
   });
 });
 

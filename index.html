@@ -103,12 +103,23 @@
 </section>
 
 <!-- INSTITUTION DIRECTORY -->
-<section class="directory-section" id="directory">
+<section class="directory-section collapsible-section open" id="directory">
   <div class="container">
-    <div class="section-header reveal">
-      <h2 class="section-title">Institutional Initiative Directory</h2>
-      <p class="section-subtitle">Every named institution and its digital asset initiatives — organized by sector, quantified across all dimensions</p>
+    <div class="library-header reveal" id="directoryToggle">
+      <div class="library-header-left">
+        <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 7h18"/><path d="M3 12h18"/><path d="M3 17h18"/><circle cx="8" cy="7" r="1.5"/><circle cx="14" cy="12" r="1.5"/><circle cx="10" cy="17" r="1.5"/></svg>
+        <div>
+          <h2 class="section-title">Institutional Initiative Directory</h2>
+          <p class="section-subtitle">Every named institution and its digital asset initiatives — organized by sector, quantified across all dimensions</p>
+        </div>
+      </div>
+      <div class="library-header-right">
+        <span class="library-expand-hint">Click to expand</span>
+        <svg class="library-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+      </div>
     </div>
+
+    <div class="library-body" id="directoryBody" style="display:block;">
     <div class="reset-filters-bar" id="resetDirectoryFilters" onclick="resetAllFilters()">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
       <span>Reset all filters</span>
@@ -127,6 +138,7 @@
       </div>
     </div>
     <div id="directoryContainer" class="reveal"></div>
+    </div>
   </div>
 </section>
 
@@ -137,7 +149,7 @@
       <div class="library-header-left">
         <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
         <div>
-          <h2 class="section-title">Signal Library</h2>
+          <h2 class="section-title">Signal Catalogue</h2>
           <p class="section-subtitle">Browse operational signals by institution category, plus a separate section of NextFi's own market research and intelligence briefs.</p>
         </div>
       </div>
@@ -210,12 +222,23 @@
 </section>
 
 <!-- ANALYTICS DASHBOARD -->
-<section class="analytics-section" id="analytics">
+<section class="analytics-section collapsible-section open" id="analytics">
   <div class="container">
-    <div class="section-header reveal">
-      <h2 class="section-title">Signal Analytics</h2>
-      <p class="section-subtitle">Quantified breakdown of operational institutional signals across dimensions</p>
+    <div class="library-header reveal" id="analyticsToggle">
+      <div class="library-header-left">
+        <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-7"/><path d="M22 20v-3"/></svg>
+        <div>
+          <h2 class="section-title">Signal Charts</h2>
+          <p class="section-subtitle">Quantified breakdown of operational institutional signals across dimensions</p>
+        </div>
+      </div>
+      <div class="library-header-right">
+        <span class="library-expand-hint">Click to expand</span>
+        <svg class="library-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+      </div>
     </div>
+
+    <div class="library-body" id="analyticsBody" style="display:block;">
 
     <!-- Row 1: FMI Areas (full width) -->
     <div class="chart-row chart-row-single reveal">
@@ -285,16 +308,28 @@
         </div>
       </div>
     </div>
+    </div>
   </div>
 </section>
 
 <!-- METHODOLOGY -->
-<section class="methodology-section" id="methodology">
+<section class="methodology-section collapsible-section open" id="methodology">
   <div class="container">
-    <div class="section-header reveal">
-      <h2 class="section-title">Methodology</h2>
-      <p class="section-subtitle">Taxonomy and decision logic used to classify initiatives consistently across matrix, analytics, and signal-level views.</p>
+    <div class="library-header reveal" id="methodologyToggle">
+      <div class="library-header-left">
+        <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/><circle cx="9" cy="6" r="1.5"/><circle cx="15" cy="12" r="1.5"/><circle cx="11" cy="18" r="1.5"/></svg>
+        <div>
+          <h2 class="section-title">Methodology</h2>
+          <p class="section-subtitle">Taxonomy and decision logic used to classify initiatives consistently across matrix, charts, and signal-level views.</p>
+        </div>
+      </div>
+      <div class="library-header-right">
+        <span class="library-expand-hint">Click to expand</span>
+        <svg class="library-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+      </div>
     </div>
+
+    <div class="library-body" id="methodologyBody" style="display:block;">
 
     <section class="initiative-schema-section">
       <div class="initiative-schema-header reveal" id="initiativeSchemaToggle">
@@ -339,6 +374,7 @@
         <div id="fmiSchemaContent"></div>
       </div>
     </section>
+    </div>
   </div>
 </section>
 
@@ -366,8 +402,8 @@
       <div class="footer-col">
         <h4>Sections</h4>
         <a href="#directory">Institutional Initiative Directory</a>
-        <a href="#analytics">Signal Analytics</a>
-        <a href="#signal-library">Signal Library</a>
+        <a href="#analytics">Signal Charts</a>
+        <a href="#signal-library">Signal Catalogue</a>
         <a href="#methodology">Methodology</a>
         <a href="#intelligence">Intelligence Briefs</a>
       </div>

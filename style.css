@@ -1208,12 +1208,15 @@
   color: var(--color-text-faint);
   transition: transform 0.3s ease;
 }
+.collapsible-section.open .library-chevron,
 .signal-library-section.open .library-chevron {
   transform: rotate(180deg);
 }
+.collapsible-section.open .library-expand-hint,
 .signal-library-section.open .library-expand-hint {
   display: none;
 }
+.collapsible-section.open .library-header,
 .signal-library-section.open .library-header {
   border-radius: var(--radius-xl) var(--radius-xl) 0 0;
   border-bottom-color: var(--color-divider);
