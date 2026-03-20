@@ -247,7 +247,7 @@ function renderKPIs() {
     { id: 'institutions', value: institutions.size, label: 'Institutions', color: 'var(--color-primary)' },
     { id: 'sectors', value: '6', label: 'Sector Categories', color: 'var(--color-primary)' },
     { id: 'countries', value: '40+', label: 'Countries', color: 'var(--color-primary)' },
-    { id: 'launches', value: productLaunches, label: 'Product Launches', color: 'var(--color-payments)', delta: `${pctLaunches}% of all signals` }
+    { id: 'launches', value: productLaunches, label: 'Product Launches', color: 'var(--color-primary)', delta: `${pctLaunches}% of all signals` }
   ];
 
   el.innerHTML = kpis.map(k => `
