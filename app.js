@@ -243,7 +243,7 @@ function renderKPIs() {
 
   const kpis = [
     { id: 'signals', value: signals.length, label: 'Total Signals', color: 'var(--color-primary)' },
-    { id: 'daily_new', value: dailyNewSignals, label: 'New Signals (Today)', color: 'var(--color-success)', delta: `As of ${todayLabel}` },
+    { id: 'daily_new', value: dailyNewSignals, label: 'New Signals', color: 'var(--color-success)', delta: `As of ${todayLabel}` },
     { id: 'institutions', value: institutions.size, label: 'Institutions', color: 'var(--color-primary)' },
     { id: 'sectors', value: '6', label: 'Sector Categories', color: 'var(--color-primary)' },
     { id: 'countries', value: '40+', label: 'Countries', color: 'var(--color-primary)' },
