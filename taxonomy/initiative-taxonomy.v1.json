@@ -1,0 +1,131 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-03-20T00:00:00Z",
+  "canonicalInitiatives": [
+    {
+      "id": "init_tokenized_rwa",
+      "name": "Tokenized Securities / RWA",
+      "group": "Assets",
+      "description": "Traditional financial assets represented on blockchain rails.",
+      "isMatrixCategory": true,
+      "active": true
+    },
+    {
+      "id": "init_dlt_infra",
+      "name": "DLT / Blockchain Infrastructure",
+      "group": "Infrastructure",
+      "description": "Core ledger and platform infrastructure enabling digital asset use cases.",
+      "isMatrixCategory": true,
+      "active": true
+    },
+    {
+      "id": "init_crypto_assets",
+      "name": "Crypto / Digital Assets",
+      "group": "Assets",
+      "description": "Native digital asset activity and crypto market infrastructure.",
+      "isMatrixCategory": true,
+      "active": true
+    },
+    {
+      "id": "init_payment_infra",
+      "name": "Payment Infrastructure",
+      "group": "Payments",
+      "description": "Payment rail execution including domestic and cross-border flows.",
+      "isMatrixCategory": true,
+      "active": true
+    },
+    {
+      "id": "init_stablecoins",
+      "name": "Stablecoins & Deposit Tokens",
+      "group": "Payments",
+      "description": "Fiat-referenced digital money instruments and related workflows.",
+      "isMatrixCategory": true,
+      "active": true
+    },
+    {
+      "id": "init_cbdc",
+      "name": "CBDC",
+      "group": "Public Money",
+      "description": "Central bank digital currency pilots, policy, and implementations.",
+      "isMatrixCategory": true,
+      "active": true
+    },
+    {
+      "id": "init_defi",
+      "name": "DeFi",
+      "group": "Decentralized Markets",
+      "description": "Decentralized protocol-based financial activity.",
+      "isMatrixCategory": true,
+      "active": true
+    },
+    {
+      "id": "init_strategy",
+      "name": "Digital Asset Strategy",
+      "group": "Strategy",
+      "description": "Enterprise strategic posture, governance, and capability planning.",
+      "isMatrixCategory": true,
+      "active": true
+    },
+    {
+      "id": "init_interop",
+      "name": "Interoperability & Standards",
+      "group": "Infrastructure",
+      "description": "Standards and mechanisms connecting systems and ledgers.",
+      "isMatrixCategory": false,
+      "active": true
+    },
+    {
+      "id": "init_settlement",
+      "name": "Settlement Infrastructure",
+      "group": "Market Structure",
+      "description": "Clearing, settlement finality, collateral, and post-trade rails.",
+      "isMatrixCategory": false,
+      "active": true
+    },
+    {
+      "id": "init_reg_compliance",
+      "name": "Regulatory / Compliance",
+      "group": "Policy",
+      "description": "Regulatory frameworks, supervision, and compliance controls.",
+      "isMatrixCategory": false,
+      "active": true
+    }
+  ],
+  "aliasMap": [
+    {
+      "alias": "Cross-Border Payments",
+      "canonicalId": "init_payment_infra",
+      "mappingType": "synonym",
+      "confidence": 1,
+      "notes": "Roll into payment infrastructure for matrix consistency."
+    },
+    {
+      "alias": "Stablecoins",
+      "canonicalId": "init_stablecoins",
+      "mappingType": "synonym",
+      "confidence": 1,
+      "notes": "Unified stablecoin label."
+    },
+    {
+      "alias": "Interoperability & Standards",
+      "canonicalId": "init_interop",
+      "mappingType": "exact",
+      "confidence": 1,
+      "notes": "Keep as canonical."
+    },
+    {
+      "alias": "Settlement Infrastructure",
+      "canonicalId": "init_settlement",
+      "mappingType": "exact",
+      "confidence": 1,
+      "notes": "Keep as canonical."
+    },
+    {
+      "alias": "Regulatory / Compliance",
+      "canonicalId": "init_reg_compliance",
+      "mappingType": "exact",
+      "confidence": 1,
+      "notes": "Keep as canonical."
+    }
+  ]
+}

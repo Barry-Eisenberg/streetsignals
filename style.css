@@ -944,7 +944,7 @@
   text-align: center;
   padding: var(--space-2) var(--space-1);
   font-size: 10px;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 0.02em;
   color: var(--color-text);
   line-height: 1.3;
@@ -999,6 +999,133 @@
   background: var(--color-surface-offset) !important;
   border-left: 2px solid var(--color-divider);
   border-top: 2px solid var(--color-divider);
+}
+
+/* ===== INITIATIVE SCHEMA ===== */
+.initiative-schema-section {
+  padding: var(--space-6) 0 var(--space-4);
+  scroll-margin-top: var(--space-16);
+}
+.initiative-schema-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding: var(--space-5) var(--space-6);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  cursor: pointer;
+  user-select: none;
+  transition: border-color var(--transition-interactive), box-shadow var(--transition-interactive);
+}
+.initiative-schema-header:hover {
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-glow);
+}
+.initiative-schema-header-left {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+.initiative-schema-icon {
+  width: 28px;
+  height: 28px;
+  color: var(--color-primary);
+  flex-shrink: 0;
+}
+.initiative-schema-header-right {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+.initiative-schema-expand-hint {
+  font-size: var(--text-xs);
+  color: var(--color-text-faint);
+  font-weight: 500;
+}
+.initiative-schema-chevron {
+  width: 20px;
+  height: 20px;
+  color: var(--color-text-faint);
+  transition: transform 0.3s ease;
+}
+.initiative-schema-section.open .initiative-schema-chevron {
+  transform: rotate(180deg);
+}
+.initiative-schema-section.open .initiative-schema-expand-hint {
+  display: none;
+}
+.initiative-schema-section.open .initiative-schema-header {
+  border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+  border-bottom-color: var(--color-divider);
+}
+.initiative-schema-body {
+  display: none;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-top: none;
+  border-radius: 0 0 var(--radius-xl) var(--radius-xl);
+  padding: var(--space-6);
+  animation: librarySlideDown 0.35s ease;
+}
+.initiative-schema-intro {
+  margin-bottom: var(--space-5);
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+}
+.initiative-schema-intro p {
+  max-width: none;
+}
+.initiative-schema-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--space-4);
+}
+.initiative-schema-card {
+  background: var(--color-surface-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4);
+}
+.initiative-schema-card-top {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+}
+.initiative-schema-card h3 {
+  margin: 0;
+  font-size: var(--text-sm);
+  line-height: 1.4;
+}
+.initiative-schema-card p {
+  margin: 0 0 var(--space-3);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  max-width: none;
+}
+.initiative-schema-pill {
+  border-radius: var(--radius-pill);
+  padding: 4px 8px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.initiative-schema-pill.matrix {
+  background: rgba(0, 136, 170, 0.14);
+  color: var(--color-primary);
+}
+.initiative-schema-pill.analytics {
+  background: rgba(95, 99, 242, 0.14);
+  color: #5f63f2;
+}
+.initiative-schema-meta {
+  font-size: 11px;
+  color: var(--color-text-faint);
+  font-weight: 600;
 }
 
 /* ===== SIGNAL LIBRARY (Appendix) ===== */
@@ -1609,6 +1736,22 @@
   }
   .library-expand-hint {
     display: none;
+  }
+  .initiative-schema-header {
+    padding: var(--space-4);
+    gap: var(--space-3);
+  }
+  .initiative-schema-header-left {
+    gap: var(--space-3);
+  }
+  .initiative-schema-body {
+    padding: var(--space-4);
+  }
+  .initiative-schema-expand-hint {
+    display: none;
+  }
+  .initiative-schema-grid {
+    grid-template-columns: 1fr;
   }
   .hero h1 {
     font-size: var(--text-2xl);

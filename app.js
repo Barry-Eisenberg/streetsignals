@@ -39,6 +39,20 @@ document.getElementById('libraryToggle')?.addEventListener('click', () => {
     body.style.display = 'block';
   }
 });
+
+document.getElementById('initiativeSchemaToggle')?.addEventListener('click', () => {
+  const section = document.querySelector('.initiative-schema-section');
+  const body = document.getElementById('initiativeSchemaBody');
+  if (!section || !body) return;
+
+  if (section.classList.contains('open')) {
+    section.classList.remove('open');
+    body.style.display = 'none';
+  } else {
+    section.classList.add('open');
+    body.style.display = 'block';
+  }
+});
 // Auto-expand when navigating via anchor link
 document.querySelectorAll('a[href="#signal-library"], a[href="#intelligence"]').forEach(link => {
   link.addEventListener('click', (e) => {
@@ -100,6 +114,77 @@ const FMI_AREA_NORMALIZATION = {
   'Retail Banking': 'Other Infrastructure'
 };
 
+const DEFAULT_INITIATIVE_TAXONOMY = {
+  version: '1.0.0',
+  canonicalInitiatives: [
+    { id: 'init_tokenized_rwa', name: 'Tokenized Securities / RWA', isMatrixCategory: true },
+    { id: 'init_dlt_infra', name: 'DLT / Blockchain Infrastructure', isMatrixCategory: true },
+    { id: 'init_crypto_assets', name: 'Crypto / Digital Assets', isMatrixCategory: true },
+    { id: 'init_payment_infra', name: 'Payment Infrastructure', isMatrixCategory: true },
+    { id: 'init_stablecoins', name: 'Stablecoins & Deposit Tokens', isMatrixCategory: true },
+    { id: 'init_cbdc', name: 'CBDC', isMatrixCategory: true },
+    { id: 'init_defi', name: 'DeFi', isMatrixCategory: true },
+    { id: 'init_strategy', name: 'Digital Asset Strategy', isMatrixCategory: true },
+    { id: 'init_interop', name: 'Interoperability & Standards', isMatrixCategory: false },
+    { id: 'init_settlement', name: 'Settlement Infrastructure', isMatrixCategory: false },
+    { id: 'init_reg_compliance', name: 'Regulatory / Compliance', isMatrixCategory: false }
+  ],
+  aliasMap: [
+    { alias: 'Cross-Border Payments', canonicalId: 'init_payment_infra' },
+    { alias: 'Stablecoins', canonicalId: 'init_stablecoins' },
+    { alias: 'Interoperability & Standards', canonicalId: 'init_interop' },
+    { alias: 'Settlement Infrastructure', canonicalId: 'init_settlement' },
+    { alias: 'Regulatory / Compliance', canonicalId: 'init_reg_compliance' }
+  ]
+};
+
+const MATRIX_INITIATIVE_ORDER = [
+  'init_tokenized_rwa',
+  'init_dlt_infra',
+  'init_crypto_assets',
+  'init_payment_infra',
+  'init_stablecoins',
+  'init_cbdc',
+  'init_defi',
+  'init_strategy'
+];
+
+let initiativeTaxonomy = DEFAULT_INITIATIVE_TAXONOMY;
+let initiativeAliasMap = new Map();
+
+function buildInitiativeAliasMap(taxonomy) {
+  const map = new Map();
+  const canonicalById = new Map((taxonomy.canonicalInitiatives || []).map(i => [i.id, i.name]));
+
+  (taxonomy.canonicalInitiatives || []).forEach(i => {
+    map.set(i.name.toLowerCase(), i.name);
+  });
+
+  (taxonomy.aliasMap || []).forEach(entry => {
+    const canonicalName = canonicalById.get(entry.canonicalId);
+    if (!canonicalName) return;
+    map.set(String(entry.alias || '').toLowerCase(), canonicalName);
+  });
+
+  return map;
+}
+
+function getMatrixInitiatives() {
+  const canonicalById = new Map((initiativeTaxonomy.canonicalInitiatives || []).map(i => [i.id, i.name]));
+  return MATRIX_INITIATIVE_ORDER
+    .map(id => canonicalById.get(id))
+    .filter(Boolean);
+}
+
+function normalizeInitiativeTypes(types) {
+  if (!Array.isArray(types) || types.length === 0) return [];
+  const normalized = types
+    .map(t => String(t || '').trim())
+    .filter(Boolean)
+    .map(t => initiativeAliasMap.get(t.toLowerCase()) || t);
+  return [...new Set(normalized)];
+}
+
 function normalizeInstitutionType(type) {
   if (!type) return 'Infrastructure & Technology';
   return INSTITUTION_TYPE_NORMALIZATION[type] || type;
@@ -115,7 +200,8 @@ function normalizeSignal(signal) {
   return {
     ...signal,
     institution_type: normalizeInstitutionType(signal.institution_type),
-    fmi_areas: normalizeFmiAreas(signal.fmi_areas)
+    fmi_areas: normalizeFmiAreas(signal.fmi_areas),
+    initiative_types: normalizeInitiativeTypes(signal.initiative_types)
   };
 }
 
@@ -195,8 +281,14 @@ function getOperationalSignals() {
 Promise.all([
   loadJsonWithFallback('./data.json', []),
   loadJsonWithFallback('./auto_data.json', []),
-  loadJsonWithFallback('./intel_briefs.json', INTEL_BRIEFS_DEFAULT)
-]).then(([manualData, autoData, intelBriefs]) => {
+  loadJsonWithFallback('./intel_briefs.json', INTEL_BRIEFS_DEFAULT),
+  loadJsonWithFallback('./taxonomy/initiative-taxonomy.v1.json', DEFAULT_INITIATIVE_TAXONOMY)
+]).then(([manualData, autoData, intelBriefs, taxonomyData]) => {
+  if (taxonomyData && Array.isArray(taxonomyData.canonicalInitiatives) && Array.isArray(taxonomyData.aliasMap)) {
+    initiativeTaxonomy = taxonomyData;
+  }
+  initiativeAliasMap = buildInitiativeAliasMap(initiativeTaxonomy);
+
   const manualSignals = Array.isArray(manualData) ? manualData : [];
   const generatedSignals = Array.isArray(autoData) ? autoData : [];
   INTEL_BRIEFS = Array.isArray(intelBriefs) && intelBriefs.length ? intelBriefs : [...INTEL_BRIEFS_DEFAULT];
@@ -213,6 +305,7 @@ Promise.all([
   window._chartsReady = true;
   renderFilterPills();
   renderIntelBriefs();
+  renderInitiativeSchema();
   renderSignals();
   document.querySelectorAll('.reveal:not(.visible)').forEach(el => observer.observe(el));
 });
@@ -568,6 +661,29 @@ function buildInitiativeTypeChart(textColor, gridColor) {
   });
 }
 
+function renderInitiativeSchema() {
+  const container = document.getElementById('initiativeSchemaContent');
+  if (!container) return;
+
+  const initiatives = initiativeTaxonomy.canonicalInitiatives || [];
+  const matrixNames = new Set(getMatrixInitiatives());
+
+  container.innerHTML = `
+    <div class="initiative-schema-grid">
+      ${initiatives.map(item => `
+        <article class="initiative-schema-card">
+          <div class="initiative-schema-card-top">
+            <h3>${item.name}</h3>
+            <span class="initiative-schema-pill ${matrixNames.has(item.name) ? 'matrix' : 'analytics'}">${matrixNames.has(item.name) ? 'Matrix + Analytics' : 'Analytics'}</span>
+          </div>
+          <p>${item.description || 'No definition provided.'}</p>
+          <div class="initiative-schema-meta">Group: ${item.group || 'Unspecified'}</div>
+        </article>
+      `).join('')}
+    </div>
+  `;
+}
+
 // 5. FMI AREAS (horizontal bar with drilldown)
 function buildFMIChart(colors, textColor, gridColor) {
   const signals = getOperationalSignals();
@@ -696,8 +812,13 @@ function buildHeatmap(colors) {
   const signals = getOperationalSignals();
   const instTypes = ['Global Banks', 'Asset & Investment Management', 'Payments Providers', 'Exchanges & Central Intermediaries', 'Regulatory Agencies', 'Infrastructure & Technology'];
   const shortNames = ['Banks', 'Asset Mgmt', 'Payments', 'Exchanges', 'Regulators', 'Infra/Tech'];
-  const initTypes = ['Tokenized Securities / RWA', 'DLT / Blockchain Infrastructure', 'Crypto / Digital Assets', 'Payment Infrastructure', 'Stablecoins & Deposit Tokens', 'CBDC', 'DeFi', 'Digital Asset Strategy'];
-  const shortInit = ['Tokenized Securities', 'DLT / Blockchain', 'Crypto / Digital Assets', 'Payment Infra', 'Stablecoins', 'CBDC', 'DeFi', 'Digital Strategy'];
+  const initTypes = getMatrixInitiatives();
+  const shortInit = initTypes.map(name => name
+    .replace('Tokenized Securities / RWA', 'Tokenized Securities')
+    .replace('DLT / Blockchain Infrastructure', 'DLT / Blockchain')
+    .replace('Payment Infrastructure', 'Payment Infra')
+    .replace('Stablecoins & Deposit Tokens', 'Stablecoins')
+    .replace('Digital Asset Strategy', 'Digital Strategy'));
 
   // Build cross-tab
   const matrix = [];
