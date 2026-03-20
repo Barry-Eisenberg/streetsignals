@@ -1028,6 +1028,9 @@
   align-items: center;
   gap: var(--space-4);
 }
+.library-header-left .section-subtitle {
+  max-width: none;
+}
 .library-icon {
   width: 28px;
   height: 28px;
