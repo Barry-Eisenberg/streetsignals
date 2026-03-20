@@ -313,6 +313,39 @@ function showKPIBreakdown(kpiId) {
     html += '</div>';
     html += '<a href="#directory" class="kpi-breakdown-link">See full Institution Directory ↓</a>';
 
+  } else if (kpiId === 'daily_new') {
+    const today = new Date();
+    const todayKey = `${today.getUTCFullYear()}-${String(today.getUTCMonth() + 1).padStart(2, '0')}-${String(today.getUTCDate()).padStart(2, '0')}`;
+    const todayLabel = today.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    const todaysSignals = signals.filter(s => {
+      const raw = typeof s.date === 'string' ? s.date.trim() : '';
+      if (!raw) return false;
+      const isoPrefix = raw.slice(0, 10);
+      if (/^\d{4}-\d{2}-\d{2}$/.test(isoPrefix)) return isoPrefix === todayKey;
+      const dt = new Date(raw);
+      if (isNaN(dt.getTime())) return false;
+      const key = `${dt.getUTCFullYear()}-${String(dt.getUTCMonth() + 1).padStart(2, '0')}-${String(dt.getUTCDate()).padStart(2, '0')}`;
+      return key === todayKey;
+    });
+
+    html = `<div class="kpi-breakdown-header"><h3>New Signals on ${todayLabel}</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
+
+    if (todaysSignals.length === 0) {
+      html += '<div style="font-size:var(--text-xs);color:var(--color-text-muted);line-height:1.7;">No operational signals are dated for today yet.</div>';
+    } else {
+      const byType = {};
+      todaysSignals.forEach(s => { byType[s.institution_type] = (byType[s.institution_type] || 0) + 1; });
+      const sorted = Object.entries(byType).sort((a,b) => b[1] - a[1]);
+      const max = sorted[0]?.[1] || 1;
+      html += '<div class="kpi-breakdown-grid">';
+      sorted.forEach(([type, count]) => {
+        const label = type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech');
+        html += `<a href="#signal-library" class="kpi-breakdown-item"><span class="bd-label">${label}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
+      });
+      html += '</div>';
+    }
+    html += '<a href="#signal-library" class="kpi-breakdown-link">Open Signal Catalogue ↓</a>';
+
   } else if (kpiId === 'growth') {
     const byYear = {};
     signals.forEach(s => { byYear[s.year] = (byYear[s.year] || 0) + 1; });
