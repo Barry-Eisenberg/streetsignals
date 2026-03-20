@@ -49,29 +49,93 @@ function openCollapsible(sectionSelector, bodyId) {
   body.style.display = 'block';
 }
 
+// ===== ANALYTICS TRACKING =====
+function trackSectionToggle(sectionName, isOpen) {
+  if (window.trackEvent) {
+    window.trackEvent('section_toggle', {
+      section_name: sectionName,
+      action: isOpen ? 'expanded' : 'collapsed'
+    });
+  }
+}
+
+function trackMatrixCellClick(sector, initiative) {
+  if (window.trackEvent) {
+    window.trackEvent('matrix_cell_click', {
+      sector: sector,
+      initiative: initiative
+    });
+  }
+}
+
+function trackSearch(searchTerm, context) {
+  if (window.trackEvent) {
+    window.trackEvent('search', {
+      search_term: searchTerm,
+      context: context
+    });
+  }
+}
+
+function trackFilter(filterType, filterValue) {
+  if (window.trackEvent) {
+    window.trackEvent('filter_applied', {
+      filter_type: filterType,
+      filter_value: filterValue
+    });
+  }
+}
+
+function trackDrillDown(sourceSection, targetSection) {
+  if (window.trackEvent) {
+    window.trackEvent('drill_down', {
+      from: sourceSection,
+      to: targetSection
+    });
+  }
+}
+
 // ===== SIGNAL LIBRARY TOGGLE =====
 document.getElementById('libraryToggle')?.addEventListener('click', () => {
+  const section = document.querySelector('.signal-library-section');
+  const isOpen = !section?.classList.contains('open');
   toggleCollapsible('.signal-library-section', 'libraryBody');
+  trackSectionToggle('Signal Catalogue', isOpen);
 });
 
 document.getElementById('directoryToggle')?.addEventListener('click', () => {
+  const section = document.querySelector('#directory');
+  const isOpen = !section?.classList.contains('open');
   toggleCollapsible('#directory', 'directoryBody');
+  trackSectionToggle('Institutional Directory', isOpen);
 });
 
 document.getElementById('analyticsToggle')?.addEventListener('click', () => {
+  const section = document.querySelector('#analytics');
+  const isOpen = !section?.classList.contains('open');
   toggleCollapsible('#analytics', 'analyticsBody');
+  trackSectionToggle('Signal Charts', isOpen);
 });
 
 document.getElementById('methodologyToggle')?.addEventListener('click', () => {
+  const section = document.querySelector('#methodology');
+  const isOpen = !section?.classList.contains('open');
   toggleCollapsible('#methodology', 'methodologyBody');
+  trackSectionToggle('Methodology', isOpen);
 });
 
 document.getElementById('initiativeSchemaToggle')?.addEventListener('click', () => {
+  const section = document.querySelector('.methodology-section .initiative-schema-section');
+  const isOpen = !section?.classList.contains('open');
   toggleCollapsible('.methodology-section .initiative-schema-section', 'initiativeSchemaBody');
+  trackSectionToggle('Initiative Schema', isOpen);
 });
 
 document.getElementById('fmiSchemaToggle')?.addEventListener('click', () => {
+  const section = document.querySelector('.fmi-schema-section');
+  const isOpen = !section?.classList.contains('open');
   toggleCollapsible('.fmi-schema-section', 'fmiSchemaBody');
+  trackSectionToggle('FMI Schema', isOpen);
 });
 // Auto-expand when navigating via anchor link
 document.querySelectorAll('a[href="#signal-library"], a[href="#directory"], a[href="#analytics"], a[href="#methodology"], a[href="#intelligence"]').forEach(link => {
@@ -978,6 +1042,7 @@ function buildHeatmap(colors) {
 document.getElementById('searchInput')?.addEventListener('input', (e) => {
   matrixFilter = null;
   searchQuery = e.target.value.toLowerCase().trim();
+  if (searchQuery) trackSearch(searchQuery, 'Signal Catalogue');
   renderSignals();
   updateResetBars();
 });
@@ -999,6 +1064,7 @@ function renderFilterPills() {
       btn.classList.add('active');
       matrixFilter = null;
       activeFilter = btn.dataset.filter;
+      trackFilter('institution_category', btn.dataset.filter);
       renderSignals();
       updateResetBars();
     });
@@ -1248,11 +1314,13 @@ function renderDirectory() {
 // Directory search/sort handlers
 document.getElementById('directorySearch')?.addEventListener('input', (e) => {
   dirSearch = e.target.value.toLowerCase().trim();
+  if (dirSearch) trackSearch(dirSearch, 'Institutional Directory');
   renderDirectory();
   updateResetBars();
 });
 document.getElementById('directorySort')?.addEventListener('change', (e) => {
   dirSort = e.target.value;
+  trackFilter('directory_sort', dirSort);
   renderDirectory();
   updateResetBars();
 });
@@ -1320,6 +1388,10 @@ function categoryForInstitutionType(instType) {
 }
 
 function navigateToMatrixSelection(institutionType, initiativeType) {
+  // Track matrix cell click
+  trackMatrixCellClick(institutionType, initiativeType);
+  trackDrillDown('Initiative Matrix', 'Signal Catalogue');
+
   // 1. Open the signal library if closed
   const libSection = document.querySelector('.signal-library-section');
   const libBody = document.getElementById('libraryBody');
