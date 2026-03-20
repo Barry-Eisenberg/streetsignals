@@ -779,7 +779,7 @@ function renderSignals() {
     // Auto-open if filter is active for this category, else collapsed
     const isOpen = activeFilter === catKey;
     html += `
-      <section class="category-section cat-${catKey}${isOpen ? ' cat-open' : ''} reveal" id="${catKey}">
+      <section class="category-section cat-${catKey}${isOpen ? ' cat-open' : ''}" id="${catKey}">
         <div class="category-header" onclick="this.parentElement.classList.toggle('cat-open')">
           <div class="category-icon">${cat.icon}</div>
           <h2 class="category-title">${cat.name}</h2>
