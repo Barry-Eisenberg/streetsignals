@@ -23,8 +23,34 @@
 })();
 
 // ===== MOBILE MENU =====
-document.getElementById('mobileMenuBtn')?.addEventListener('click', () => {
-  document.getElementById('headerNav')?.classList.toggle('open');
+const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+const headerNav = document.getElementById('headerNav');
+
+mobileMenuBtn?.addEventListener('click', () => {
+  headerNav?.classList.toggle('open');
+});
+
+document.querySelectorAll('#headerNav a').forEach(link => {
+  link.addEventListener('click', () => {
+    headerNav?.classList.remove('open');
+  });
+});
+
+document.addEventListener('click', (event) => {
+  if (!headerNav || !mobileMenuBtn) return;
+  if (!headerNav.classList.contains('open')) return;
+
+  const clickInsideNav = headerNav.contains(event.target);
+  const clickToggle = mobileMenuBtn.contains(event.target);
+  if (!clickInsideNav && !clickToggle) {
+    headerNav.classList.remove('open');
+  }
+});
+
+window.addEventListener('resize', () => {
+  if (window.innerWidth > 768) {
+    headerNav?.classList.remove('open');
+  }
 });
 
 function toggleCollapsible(sectionSelector, bodyId) {
@@ -1262,7 +1288,7 @@ function renderDirectory() {
     html += `<svg class="dir-cat-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>`;
     html += `</div>`;
 
-    html += `<div class="dir-category-body"><div style="overflow-x:auto;">`;
+    html += `<div class="dir-category-body"><div class="directory-table-wrap">`;
     html += `<table class="dir-table"><thead><tr>`;
     html += `<th>Institution</th><th class="num">Signals</th><th>Signal Types</th><th>Initiative Classification</th><th>FMI Areas</th>`;
     html += `</tr></thead><tbody>`;

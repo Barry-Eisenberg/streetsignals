@@ -162,7 +162,7 @@
 .container {
   max-width: var(--content-wide);
   margin: 0 auto;
-  padding: 0 var(--space-6);
+  padding: 0 clamp(var(--space-3), 2.6vw, var(--space-6));
 }
 
 /* ===== HEADER ===== */
@@ -182,7 +182,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--space-4) var(--space-6);
+  gap: var(--space-3);
+  padding: var(--space-3) clamp(var(--space-3), 2.6vw, var(--space-6));
   max-width: var(--content-wide);
   margin: 0 auto;
 }
@@ -295,6 +296,9 @@
   color: var(--color-text-muted);
   text-decoration: none;
   padding: var(--space-2) var(--space-3);
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
   border-radius: var(--radius-md);
 }
 .header-nav a:hover {
@@ -304,6 +308,11 @@
 
 .theme-toggle {
   padding: var(--space-2);
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border-radius: var(--radius-md);
   color: var(--color-text-muted);
 }
@@ -316,6 +325,10 @@
 .mobile-menu-btn {
   display: none;
   padding: var(--space-2);
+  min-width: 44px;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
   color: var(--color-text-muted);
 }
 
@@ -637,6 +650,7 @@
 /* Directory table */
 .dir-table {
   width: 100%;
+  min-width: 880px;
   border-collapse: separate;
   border-spacing: 0;
   font-size: 12px;
@@ -653,6 +667,17 @@
   text-align: left;
   border-bottom: 2px solid var(--color-divider);
   white-space: nowrap;
+}
+.dir-table thead th:first-child,
+.dir-table tbody td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background: var(--color-surface);
+}
+.dir-table thead th:first-child {
+  z-index: 3;
+  background: var(--color-surface-offset);
 }
 .dir-table thead th.num {
   text-align: center;
@@ -805,6 +830,7 @@
 .chart-container {
   position: relative;
   width: 100%;
+  min-height: 300px;
 }
 .chart-container.fmi-chart-container {
   height: 480px;
@@ -913,10 +939,12 @@
 /* Heatmap */
 .heatmap-container {
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   padding-top: var(--space-2);
 }
 .heatmap-table {
   width: 100%;
+  min-width: 760px;
   font-size: 11px;
   border-collapse: separate;
   border-spacing: 3px;
@@ -972,6 +1000,10 @@
   color: var(--color-text);
   white-space: nowrap;
   padding-right: var(--space-3);
+  position: sticky;
+  left: 0;
+  z-index: 3;
+  background: var(--color-bg);
 }
 .heatmap-total-header {
   font-weight: 800;
@@ -1681,6 +1713,20 @@
   color: var(--color-primary);
 }
 
+.directory-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (hover: none) {
+  .heatmap-cell:hover {
+    transform: none;
+  }
+  .signal-card:hover {
+    transform: none;
+  }
+}
+
 /* ===== SCROLL REVEAL ===== */
 .reveal {
   opacity: 0;
@@ -1694,6 +1740,22 @@
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
+  .container {
+    padding: 0 var(--space-3);
+  }
+  .header-inner {
+    align-items: center;
+  }
+  .header-brand {
+    gap: var(--space-2);
+    min-width: 0;
+  }
+  .logo-text {
+    font-size: var(--text-base);
+  }
+  .header-nextfi-logo {
+    max-width: 82px;
+  }
   .header-nav {
     display: none;
   }
@@ -1709,7 +1771,18 @@
     right: 0;
     background: var(--color-surface);
     border-bottom: 1px solid var(--color-divider);
-    padding: var(--space-4) var(--space-6);
+    padding: var(--space-3);
+    max-height: min(65dvh, 520px);
+    overflow-y: auto;
+    box-shadow: var(--shadow-md);
+  }
+  .header-nav.open a {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .kpi-strip {
+    gap: var(--space-3);
+    padding: var(--space-4) 0;
   }
   .category-section.cat-open .signals-grid {
     grid-template-columns: 1fr;
@@ -1721,20 +1794,28 @@
     grid-template-columns: 1fr;
   }
   .chart-container.fmi-chart-container {
-    height: 400px;
+    height: 340px;
+  }
+  .chart-card {
+    padding: var(--space-4);
+  }
+  .chart-card-header h3 {
+    font-size: var(--text-sm);
   }
   .additional-analytics-btn {
     width: 100%;
     justify-content: center;
   }
-  .heatmap-table th.rotate {
-    height: 60px;
-    font-size: 9px;
+  .heatmap-table {
+    min-width: 680px;
   }
   .heatmap-col-header {
-    font-size: 8px;
-    min-width: 50px;
+    font-size: 9px;
+    min-width: 56px;
     padding: var(--space-1);
+  }
+  .heatmap-row-label {
+    font-size: 10px;
   }
   .footer-grid {
     grid-template-columns: 1fr;
@@ -1787,6 +1868,16 @@
   .hero h1 {
     font-size: var(--text-2xl);
   }
+  .hero-description {
+    font-size: var(--text-base);
+    line-height: 1.5;
+  }
+  .section-header {
+    margin-bottom: var(--space-5);
+  }
+  .section-title {
+    font-size: var(--text-lg);
+  }
   .personal-section {
     padding: var(--space-5);
   }
@@ -1800,14 +1891,74 @@
 }
 
 @media (max-width: 480px) {
-  .stats-bar {
-    grid-template-columns: repeat(2, 1fr);
+  .header-inner {
+    padding: var(--space-2) var(--space-3);
+  }
+  .logo-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .logo-text {
+    font-size: 0.98rem;
+  }
+  .hero {
+    padding-top: var(--space-6);
+  }
+  .kpi-strip {
+    grid-template-columns: 1fr;
+  }
+  .kpi-breakdown-panel {
+    padding: var(--space-4);
+  }
+  .kpi-breakdown-grid {
+    grid-template-columns: 1fr;
+  }
+  .library-header,
+  .initiative-schema-header {
+    align-items: flex-start;
+  }
+  .library-icon,
+  .initiative-schema-icon {
+    width: 22px;
+    height: 22px;
+  }
+  .chart-card {
+    padding: var(--space-3);
+  }
+  .chart-container {
+    min-height: 240px;
+  }
+  .chart-container.fmi-chart-container {
+    height: 290px;
+  }
+  .heatmap-table {
+    min-width: 620px;
+    border-spacing: 2px;
+  }
+  .dir-table {
+    min-width: 760px;
+  }
+  .matrix-filter-chip {
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+  .matrix-filter-chip-label {
+    width: 100%;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    gap: var(--space-2);
+    align-items: flex-start;
   }
   .filter-pills {
     overflow-x: auto;
     flex-wrap: nowrap;
     padding-bottom: var(--space-2);
     -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x proximity;
+  }
+  .filter-pill {
+    scroll-snap-align: start;
   }
 }
 
