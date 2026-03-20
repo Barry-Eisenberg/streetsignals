@@ -82,6 +82,25 @@
   <div class="kpi-breakdown-panel" id="kpiBreakdown" style="display:none;"></div>
 </div>
 
+<!-- MATRIX OVERVIEW -->
+<section class="analytics-section" id="matrix-overview">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="section-title">Institution x Initiative Matrix</h2>
+      <p class="section-subtitle">Comprehensive cross-tab of institutional signal concentration by initiative type</p>
+    </div>
+    <div class="chart-row chart-row-single reveal">
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>Institution x Initiative Matrix</h3>
+          <p>Single-view quantification across sectors and initiative categories — click a cell to drill into the Signal Catalogue</p>
+        </div>
+        <div class="heatmap-container" id="heatmapContainer"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- INSTITUTION DIRECTORY -->
 <section class="directory-section" id="directory">
   <div class="container">
@@ -197,18 +216,7 @@
       <p class="section-subtitle">Quantified breakdown of operational institutional signals across dimensions</p>
     </div>
 
-    <!-- Row 1: Heatmap (full width) -->
-    <div class="chart-row chart-row-single reveal">
-      <div class="chart-card">
-        <div class="chart-card-header">
-          <h3>Institution × Initiative Matrix</h3>
-          <p>Cross-tabulation showing where each sector is investing</p>
-        </div>
-        <div class="heatmap-container" id="heatmapContainer"></div>
-      </div>
-    </div>
-
-    <!-- Row 2: FMI Areas (full width) -->
+    <!-- Row 1: FMI Areas (full width) -->
     <div class="chart-row chart-row-single reveal">
       <div class="chart-card">
         <div class="chart-card-header">
@@ -222,7 +230,7 @@
       </div>
     </div>
 
-    <!-- Row 3: Initiative Classification (full width) -->
+    <!-- Row 2: Initiative Classification (full width) -->
     <div class="chart-row chart-row-single reveal">
       <div class="chart-card">
         <div class="chart-card-header">
@@ -235,7 +243,7 @@
       </div>
     </div>
 
-    <!-- Row 4: Timeline (full width) -->
+    <!-- Row 3: Timeline (full width) -->
     <div class="chart-row chart-row-single reveal">
       <div class="chart-card">
         <div class="chart-card-header">
@@ -248,7 +256,7 @@
       </div>
     </div>
 
-    <!-- Row 5: Additional Analytics (collapsible) -->
+    <!-- Row 4: Additional Analytics (collapsible) -->
     <div class="additional-analytics-toggle reveal">
       <button id="additionalAnalyticsToggle" class="additional-analytics-btn" type="button" aria-expanded="false" aria-controls="additionalAnalyticsBody">
         Show Additional Analytics
