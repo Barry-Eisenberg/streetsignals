@@ -227,11 +227,17 @@ function renderKPIs() {
   const productLaunches = signals.filter(s => s.signal_type === 'Product Launch').length;
   const pctLaunches = signals.length ? Math.round((productLaunches / signals.length) * 100) : 0;
 
-  const todayKey = new Date().toISOString().slice(0, 10);
+  const today = new Date();
+  const todayKey = `${today.getUTCFullYear()}-${String(today.getUTCMonth() + 1).padStart(2, '0')}-${String(today.getUTCDate()).padStart(2, '0')}`;
   const dailyNewSignals = signals.filter(s => {
-    if (!s.date) return false;
-    const dt = new Date(s.date);
-    return !isNaN(dt.getTime()) && dt.toISOString().slice(0, 10) === todayKey;
+    const raw = typeof s.date === 'string' ? s.date.trim() : '';
+    if (!raw) return false;
+    const isoPrefix = raw.slice(0, 10);
+    if (/^\d{4}-\d{2}-\d{2}$/.test(isoPrefix)) return isoPrefix === todayKey;
+    const dt = new Date(raw);
+    if (isNaN(dt.getTime())) return false;
+    const key = `${dt.getUTCFullYear()}-${String(dt.getUTCMonth() + 1).padStart(2, '0')}-${String(dt.getUTCDate()).padStart(2, '0')}`;
+    return key === todayKey;
   }).length;
   const todayLabel = new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 
