@@ -224,19 +224,28 @@ function renderKPIs() {
   const el = document.getElementById('kpiStrip');
   const signals = getOperationalSignals();
   const institutions = new Set(signals.map(s => s.institution));
-  const y25 = signals.filter(s => s.year === '2025').length;
-  const y24 = signals.filter(s => s.year === '2024').length;
-  const growth = y24 > 0 ? Math.round(((y25 - y24) / y24) * 100) : 0;
   const productLaunches = signals.filter(s => s.signal_type === 'Product Launch').length;
   const pctLaunches = signals.length ? Math.round((productLaunches / signals.length) * 100) : 0;
 
+  const datedSignals = signals
+    .map(s => ({ signal: s, date: new Date(s.date || '') }))
+    .filter(x => !isNaN(x.date.getTime()));
+  const latestTimestamp = datedSignals.length ? Math.max(...datedSignals.map(x => x.date.getTime())) : null;
+  const latestDateKey = latestTimestamp ? new Date(latestTimestamp).toISOString().slice(0, 10) : null;
+  const dailyNewSignals = latestDateKey
+    ? datedSignals.filter(x => x.date.toISOString().slice(0, 10) === latestDateKey).length
+    : 0;
+  const latestDateLabel = latestTimestamp
+    ? new Date(latestTimestamp).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+    : 'No date';
+
   const kpis = [
     { id: 'signals', value: signals.length, label: 'Total Signals', color: 'var(--color-primary)' },
+    { id: 'daily_new', value: dailyNewSignals, label: 'New Signals (Daily)', color: 'var(--color-success)', delta: `Latest: ${latestDateLabel}` },
     { id: 'institutions', value: institutions.size, label: 'Institutions', color: 'var(--color-primary)' },
-    { id: 'growth', value: `${growth}%`, label: 'YoY Growth (2024→25)', color: 'var(--color-success)', delta: '↑ Accelerating' },
-    { id: 'launches', value: productLaunches, label: 'Product Launches', color: 'var(--color-payments)', delta: `${pctLaunches}% of all signals` },
     { id: 'sectors', value: '6', label: 'Sector Categories', color: 'var(--color-primary)' },
-    { id: 'countries', value: '40+', label: 'Countries', color: 'var(--color-primary)' }
+    { id: 'countries', value: '40+', label: 'Countries', color: 'var(--color-primary)' },
+    { id: 'launches', value: productLaunches, label: 'Product Launches', color: 'var(--color-payments)', delta: `${pctLaunches}% of all signals` }
   ];
 
   el.innerHTML = kpis.map(k => `
