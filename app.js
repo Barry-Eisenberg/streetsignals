@@ -658,7 +658,7 @@ const IMPORTANCE_TIER_LABELS = {
 
 const PERSONA_OPTIONS = {
   all: {
-    label: 'All Teams',
+    label: 'All roles',
     primaryKeywords: [],
     secondaryKeywords: [],
     antiKeywords: [],
@@ -666,7 +666,7 @@ const PERSONA_OPTIONS = {
     preferredUseCases: []
   },
   treasury_payments: {
-    label: 'Treasury and Payments',
+    label: 'Fintech Product & Strategy',
     primaryKeywords: ['payment', 'payments', 'transfer', 'cross-border', 'stablecoin', 'deposit token', 'treasury', 'cash management'],
     secondaryKeywords: ['liquidity', 'settlement', 'rail', 'remittance', 'on-chain cash'],
     antiKeywords: ['enforcement', 'sandbox consultation'],
@@ -674,7 +674,7 @@ const PERSONA_OPTIONS = {
     preferredUseCases: ['stablecoin_rails', 'settlement_flow']
   },
   collateral_markets: {
-    label: 'Collateral and Markets',
+    label: 'Asset Managers / Institutional Investors',
     primaryKeywords: ['collateral', 'lending', 'repo', 'margin', 'settlement', 'clearing', 'tokenized securities', 'rwa', 'trading'],
     secondaryKeywords: ['custody', 'post-trade', 'liquidity', 'securities financing'],
     antiKeywords: ['retail wallet', 'consumer payment'],
@@ -682,7 +682,7 @@ const PERSONA_OPTIONS = {
     preferredUseCases: ['collateral_mobility', 'settlement_flow', 'tokenized_asset_ops']
   },
   risk_compliance: {
-    label: 'Risk and Compliance',
+    label: 'Policy / Risk / Regulatory',
     primaryKeywords: ['regulation', 'regulatory', 'compliance', 'supervis', 'policy', 'control', 'kyc', 'aml'],
     secondaryKeywords: ['governance', 'risk framework', 'reporting', 'monitoring', 'oversight'],
     antiKeywords: ['marketing launch', 'consumer campaign'],
@@ -690,7 +690,7 @@ const PERSONA_OPTIONS = {
     preferredUseCases: ['policy_controls']
   },
   infra_product: {
-    label: 'Infrastructure and Product',
+    label: 'Banks & FMIs / Operations & Infra',
     primaryKeywords: ['infrastructure', 'platform', 'interoperability', 'standard', 'network', 'custody', 'tokenization', 'integration'],
     secondaryKeywords: ['api', 'orchestration', 'workflow', 'upgrade', 'scalability'],
     antiKeywords: ['narrow policy statement'],
@@ -815,6 +815,29 @@ function getMarketSignalAssessment(signal) {
   };
 }
 
+function getPersonaDisplayTier(marketTier, personaScore) {
+  // Structural is universally important — never demoted by persona
+  if (marketTier === 'Structural') return 'Structural';
+  // Material: elevate to Structural on very high relevance; suppress to Context on low
+  if (marketTier === 'Material') {
+    if (personaScore >= 7.0) return 'Structural';
+    if (personaScore < 0.5)  return 'Context';
+    return 'Material';
+  }
+  // Context: elevate to Material on high relevance; suppress to Noise on negligible
+  if (marketTier === 'Context') {
+    if (personaScore >= 4.0) return 'Material';
+    if (personaScore < 0.2)  return 'Noise';
+    return 'Context';
+  }
+  // Noise: surface to Context only on very high relevance
+  if (marketTier === 'Noise') {
+    if (personaScore >= 6.0) return 'Context';
+    return 'Noise';
+  }
+  return marketTier;
+}
+
 function computePersonaAssessment(signal, personaKey = selectedPersona) {
   const marketAssessment = getMarketSignalAssessment(signal);
 
@@ -823,6 +846,7 @@ function computePersonaAssessment(signal, personaKey = selectedPersona) {
       ...marketAssessment,
       personaRelevance: 0,
       displayTier: marketAssessment.marketTier,
+      tierAdjusted: false,
       isPersonalized: false,
       assessmentType: 'market'
     };
@@ -831,12 +855,14 @@ function computePersonaAssessment(signal, personaKey = selectedPersona) {
   const personaDetails = getPersonaScoreDetails(signal, personaKey);
   const marketScore = marketAssessment.marketScore || 0.01;
   const personaScore = personaDetails.score || 0;
+  const displayTier = getPersonaDisplayTier(marketAssessment.marketTier, personaScore);
 
   return {
     ...marketAssessment,
     personaRelevance: personaScore,
     personaDetails: personaDetails,
-    displayTier: marketAssessment.marketTier,
+    displayTier,
+    tierAdjusted: displayTier !== marketAssessment.marketTier,
     personaWeight: personaScore / (marketScore + personaScore + 0.01),
     isPersonalized: personaScore > 0.1,
     assessmentType: 'persona'
@@ -876,39 +902,47 @@ function getUseCaseNarrative(useCase) {
 }
 
 function getPersonaAwareNarrative(signal, useCase, persona, stage) {
-  // Persona-specific narrative templates that emphasize what matters most to each audience
+  // Extract signal-specific context for interpolation
+  const inst = String(signal?.institution || 'this institution').trim();
+  const themes = Array.isArray(signal?.initiative_types) && signal.initiative_types.length > 0
+    ? signal.initiative_types
+    : Array.isArray(signal?.fmi_areas) && signal.fmi_areas.length > 0
+      ? signal.fmi_areas
+      : [String(signal?.signal_type || 'digital asset infrastructure').trim()];
+  const theme = themes[0] || 'digital asset infrastructure';
+
   const personas = {
     treasury_payments: {
-      stablecoin_rails: 'This advances deployable stablecoin and digital money payment infrastructure that treasury teams are evaluating for operational liquidity and cross-border cash movements.',
-      collateral_mobility: 'This signals emerging collateral mobilization workflows that could improve cash efficiency and reduce funding costs in institutional payment flows.',
-      settlement_flow: 'This points to faster settlement mechanics that directly reduce counterparty exposure and optimize working capital requirements for treasury operations.',
-      tokenized_asset_ops: 'This enables tokenized deposit instruments and programmable cash flows that could reshape how treasury manages institutional liquidity.',
-      policy_controls: 'This updates the policy framework governing when and how treasury operations can execute across digital asset payment rails.',
-      infrastructure_modernization: 'This modernizes underlying payment infrastructure that treasury integration teams must evaluate for operational deployment.'
+      stablecoin_rails: `${inst}'s real-money stablecoin or digital cash move is directly applicable to fintech payment rails and cross-border liquidity architecture.`,
+      collateral_mobility: `${inst}'s ${theme} work signals collateral and funding channels that fintech payment product teams need to evaluate for settlement efficiency.`,
+      settlement_flow: `${inst}'s settlement advance directly compresses counterparty exposure windows and optimizes working capital for fintech payment operators.`,
+      tokenized_asset_ops: `${inst}'s move into ${theme} creates programmable cash and deposit instrument infrastructure relevant to fintech product and treasury strategy.`,
+      policy_controls: `${inst}'s policy signal updates the compliance perimeter that fintech payment products must navigate to scale cross-border operations.`,
+      infrastructure_modernization: `${inst}'s ${theme} modernization shapes the integration standards and API infrastructure that fintech products are building on top of.`
     },
     collateral_markets: {
-      stablecoin_rails: 'This establishes digital money infrastructure that underpins faster collateral settlement and margin funding for market operations.',
-      collateral_mobility: 'This directly enables collateral modernization—faster repo workflows, margin optimization, and balance-sheet efficiency for market-making and trading.',
-      settlement_flow: 'This advances post-trade settlement infrastructure that reduces margin periods of risk and improves trading capital efficiency.',
-      tokenized_asset_ops: 'This enables tokenized securities and RWA infrastructure where collateral servicing and settlement can become programmable and efficient.',
-      policy_controls: 'This expands the policy perimeter for how collateral and market operations can interact with digital asset infrastructure.',
-      infrastructure_modernization: 'This modernizes market infrastructure—trading venues, settlement systems, and custody—that directly impacts trading operations and capital efficiency.'
+      stablecoin_rails: `${inst}'s digital cash infrastructure unlocks faster collateral settlement and margin funding capacity for asset managers and institutional investors.`,
+      collateral_mobility: `${inst}'s ${theme} advance directly expands collateral mobility, repo efficiency, and balance-sheet optimization for institutional portfolios.`,
+      settlement_flow: `${inst}'s settlement modernization shortens margin periods of risk and frees capital in institutional trading and asset management workflows.`,
+      tokenized_asset_ops: `${inst}'s ${theme} work enables tokenized securities and RWA infrastructure where asset managers can modernize collateral servicing and settlement.`,
+      policy_controls: `${inst}'s policy signal expands the framework within which asset managers can deploy and manage digital asset exposures compliantly.`,
+      infrastructure_modernization: `${inst}'s infrastructure advance improves the custody, venue, and settlement systems that institutional investors rely on for portfolio operations.`
     },
     risk_compliance: {
-      stablecoin_rails: 'This shapes the regulatory perimeter around stablecoin payment rails that compliance teams must monitor and control.',
-      collateral_mobility: 'This defines governance and control frameworks for collateral modernization that compliance teams must establish and oversee.',
-      settlement_flow: 'This updates settlement control requirements and regulatory expectations that compliance must embed in new infrastructure designs.',
-      tokenized_asset_ops: 'This establishes the compliance and custody control frameworks necessary for tokenized asset operations.',
-      policy_controls: 'This changes the regulatory and policy requirements that define where and how the institution can execute.',
-      infrastructure_modernization: 'This updates infrastructure controls and compliance overlays that risk and audit teams must evaluate for new technology architectures.'
+      stablecoin_rails: `${inst}'s stablecoin or digital money initiative defines the compliance perimeter and AML/KYC control requirements that risk and policy teams must codify.`,
+      collateral_mobility: `${inst}'s ${theme} advance requires governance and control framework updates for collateral workflows and counterparty risk management.`,
+      settlement_flow: `${inst}'s settlement change introduces new control and reporting obligations that compliance programs must embed in operational architecture.`,
+      tokenized_asset_ops: `${inst}'s ${theme} initiative sets custody, ownership, and compliance control precedents for tokenized asset operations that regulate the whole sector.`,
+      policy_controls: `${inst}'s regulatory signal directly updates the rules and oversight standards your compliance framework must align with to remain in scope.`,
+      infrastructure_modernization: `${inst}'s infrastructure change introduces new technology risk, audit scope, and resilience obligations for risk and compliance oversight.`
     },
     infra_product: {
-      stablecoin_rails: 'This shapes stablecoin infrastructure and payment rail architecture that product and technology teams are evaluating for institutional integration.',
-      collateral_mobility: 'This advances infrastructure enabling faster, more efficient collateral workflows and requires technology architecture updates.',
-      settlement_flow: 'This modernizes settlement infrastructure, messaging standards, and operational integration that technical teams must evaluate.',
-      tokenized_asset_ops: 'This evolves tokenized asset infrastructure—custody, issuance, and integration—that product teams need to operationalize.',
-      policy_controls: 'This updates technical and infrastructure requirements that policy changes impose on platform and systems architecture.',
-      infrastructure_modernization: 'This directly modernizes institutional digital infrastructure, integration pathways, and systems architecture that product teams are building.'
+      stablecoin_rails: `${inst}'s stablecoin infrastructure establishes the integration patterns and messaging standards for payment rails that banks and FMIs are building.`,
+      collateral_mobility: `${inst}'s ${theme} work shapes the interoperability standards and collateral workflow architecture that infrastructure and operations teams must support.`,
+      settlement_flow: `${inst}'s settlement infrastructure advance sets new norms for messaging, finality, and operational integration in institutional banking systems.`,
+      tokenized_asset_ops: `${inst}'s ${theme} initiative defines tokenization infrastructure standards—custody APIs, ledger integration, and asset servicing—that banks and FMIs are operationalizing.`,
+      policy_controls: `${inst}'s policy signal updates the compliance and infrastructure requirements that platform and operations architects must embed in system design.`,
+      infrastructure_modernization: `${inst}'s ${theme} advance directly shapes the next-generation integration architecture and interoperability standards that banks and FMIs are building today.`
     }
   };
 
@@ -2999,8 +3033,9 @@ function renderImportanceTierSelect() {
 }
 
 function syncPersonaSelect() {
-  const select = document.getElementById('personaSelect');
-  if (select) select.value = selectedPersona;
+  document.querySelectorAll('#personaSelectorGlobal button[data-persona]').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.persona === selectedPersona);
+  });
 }
 
 function renderCatalogueSortNote() {
@@ -3016,22 +3051,24 @@ function renderCatalogueSortNote() {
 }
 
 function renderPersonaSelect() {
-  const select = document.getElementById('personaSelect');
-  if (!select) return;
+  const container = document.getElementById('personaSelectorGlobal');
+  if (!container) return;
 
+  container.querySelectorAll('button[data-persona]').forEach(btn => {
+    btn.onclick = () => {
+      const mode = btn.dataset.persona || DEFAULT_PERSONA;
+      setPersona(mode);
+      trackFilter('audience_lens', selectedPersona);
+      renderCatalogueSortNote();
+      renderSignals();
+      renderDirectory();
+      renderCountryDirectory();
+      renderPopularityAnalysis();
+      updateResetBars();
+    };
+  });
   syncPersonaSelect();
   renderCatalogueSortNote();
-
-  select.onchange = (event) => {
-    const mode = String(event.target.value || DEFAULT_PERSONA).trim();
-    setPersona(mode);
-    trackFilter('audience_lens', selectedPersona);
-    renderSignals();
-    renderDirectory();
-    renderCountryDirectory();
-    renderPopularityAnalysis();
-    updateResetBars();
-  };
 }
 
 // ===== INTEL BRIEFS =====
@@ -3250,8 +3287,15 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
     ? `<div class="signal-momentum-debug">Momentum debug: recent=${momentum.recentCount ?? 0} | prior=${momentum.priorCount ?? 0} | delta=${momentum.delta ?? 0}</div>`
     : '';
   const lensLabel = getPersonaLabel(selectedPersona);
-  const lensDetails = getPersonaScoreDetails(signal, selectedPersona);
-  const lensRelevance = lensDetails.score;
+  const personaAssessment = computePersonaAssessment(signal, selectedPersona);
+  const lensDetails = personaAssessment.personaDetails || getPersonaScoreDetails(signal, selectedPersona);
+  const lensRelevance = personaAssessment.personaRelevance || lensDetails.score;
+  const personaDisplayTier = personaAssessment.displayTier;
+  const personaDisplayTierLabel = getImportanceTierLabel(personaDisplayTier);
+  const tierPriority = { Structural: 0, Material: 1, Context: 2, Noise: 3 };
+  const tierAdjustArrow = personaAssessment.tierAdjusted
+    ? (tierPriority[personaDisplayTier] < tierPriority[importance.tier] ? ' ↑' : ' ↓')
+    : '';
   const personaDebug = momentumDebugMode && selectedPersona !== DEFAULT_PERSONA
     ? `<div class="signal-lens-debug"><span class="signal-lens-debug-label">Lens debug (${escapeHtml(lensLabel)})</span><span class="signal-lens-debug-chip">u:${escapeHtml(lensDetails.useCase)}</span><span class="signal-lens-debug-chip signal-lens-debug-chip-pos">p:${lensDetails.primaryHits}</span><span class="signal-lens-debug-chip signal-lens-debug-chip-pos">s:${lensDetails.secondaryHits}</span><span class="signal-lens-debug-chip signal-lens-debug-chip-pos">a:${lensDetails.audienceHintHits}</span><span class="signal-lens-debug-chip">r:${lensDetails.recencyWeight.toFixed(2)}</span><span class="signal-lens-debug-chip signal-lens-debug-chip-pos">u+${lensDetails.useCaseBoost.toFixed(1)}</span><span class="signal-lens-debug-chip signal-lens-debug-chip-pos">i+${lensDetails.importanceBoost.toFixed(1)}</span><span class="signal-lens-debug-chip signal-lens-debug-chip-neg">x-${lensDetails.antiPenalty.toFixed(1)}</span><span class="signal-lens-debug-chip signal-lens-debug-chip-score">score:${lensRelevance.toFixed(2)}</span></div>`
     : '';
@@ -3261,11 +3305,11 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
   const tierComparisonRow = selectedPersona !== DEFAULT_PERSONA
     ? `<div class="signal-tier-comparison">
         <div class="signal-tier-comparison-item">
-          <span class="signal-tier-label">Display for ${escapeHtml(lensLabel)}:</span>
-          <span class="signal-tier-value">${displayTierLabel}</span>
+          <span class="signal-tier-label">For ${escapeHtml(lensLabel)}:</span>
+          <span class="signal-tier-value">${personaDisplayTierLabel}${tierAdjustArrow}</span>
         </div>
         <div class="signal-tier-comparison-item">
-          <span class="signal-tier-label">Market baseline:</span>
+          <span class="signal-tier-label">Market:</span>
           <span class="signal-tier-value">${displayTierLabel}</span>
         </div>
       </div>`

@@ -86,17 +86,33 @@
 <section class="hero">
   <div class="container">
     <div class="hero-content reveal">
-      <div class="hero-badge"><span class="pulse"></span> Live Intelligence Feed</div>
+      <div class="hero-badge"><span class="pulse"></span> Signal Strength: Structural · Material · Context</div>
       <h1>The Institutional Migration to <span class="accent">Blockchain Infrastructure</span></h1>
-      <p class="hero-description">Quantifying how the world's leading financial institutions, exchanges, central intermediaries, and regulators are building the next generation of financial market infrastructure on distributed ledger technology.</p>
+      <p class="hero-description">Street Signals filters hundreds of institutional digital-asset initiatives to highlight only the most consequential moves from global banks, asset managers, FMIs, and regulators.</p>
+      <p class="hero-description">Signals are scored for importance and trend context so you can see what's real, what's material, and what's likely durable over the next 3–5 years.</p>
+      <p class="hero-audience">For fintech product &amp; strategy leaders, asset managers, banks, FMIs, and policy / risk stakeholders.</p>
     </div>
   </div>
 </section>
 
 <!-- KPI STRIP -->
-<div class="container">
+<div class="container" style="display:none;">
   <div class="kpi-strip reveal" id="kpiStrip"></div>
   <div class="kpi-breakdown-panel" id="kpiBreakdown" style="display:none;"></div>
+</div>
+
+<!-- PERSONA SELECTOR -->
+<div class="persona-selector-section">
+  <div class="container">
+    <span class="persona-selector-label">View signals from the perspective of:</span>
+    <div class="persona-selector-global" id="personaSelectorGlobal">
+      <button class="persona-btn active" data-persona="all">All roles</button>
+      <button class="persona-btn" data-persona="treasury_payments">Fintech Product &amp; Strategy</button>
+      <button class="persona-btn" data-persona="collateral_markets">Asset Managers / Institutional Investors</button>
+      <button class="persona-btn" data-persona="infra_product">Banks &amp; FMIs / Operations &amp; Infra</button>
+      <button class="persona-btn" data-persona="risk_compliance">Policy / Risk / Regulatory</button>
+    </div>
+  </div>
 </div>
 
 <!-- SIGNAL LIBRARY (Appendix — collapsible) -->
@@ -145,16 +161,6 @@
             <option value="priority">Priority (System-Shaping + Directionally Important)</option>
             <option value="structural">System-Shaping Only</option>
             <option value="context">Background Signal Only</option>
-          </select>
-        </div>
-        <div class="signal-type-filter">
-          <label for="personaSelect">For Whom</label>
-          <select id="personaSelect">
-            <option value="all" selected>All Teams</option>
-            <option value="treasury_payments">Treasury and Payments</option>
-            <option value="collateral_markets">Collateral and Markets</option>
-            <option value="risk_compliance">Risk and Compliance</option>
-            <option value="infra_product">Infrastructure and Product</option>
           </select>
         </div>
         <div class="filter-pills-wrap">
