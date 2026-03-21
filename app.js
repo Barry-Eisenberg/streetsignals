@@ -1488,7 +1488,7 @@ function renderPopularityAnalysis() {
   const maxSourceScore = topSources[0]?.score || 1;
 
   summary.textContent = sourceEntries.length
-    ? 'Popularity score combines source prevalence, recency decay, and credibility tiers from sources.json.'
+    ? 'Using mappings from the sources.json file, signal strength combines source prevalence, recency decay, and credibility tiers.'
     : 'No source prevalence data available yet. You can seed baseline rankings via popularity.json.';
 
   topSignalsEl.innerHTML = topSignals.length
