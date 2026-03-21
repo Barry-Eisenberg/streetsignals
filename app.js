@@ -1489,7 +1489,6 @@ function renderPopularityAnalysis() {
   const maxSourceCount = Math.max(1, ...Object.values(sourceCounts));
   const cellDetails = {};
 
-  const matrix = instTypes.map(() => initTypes.map(() => 0));
   const strengthMatrix = instTypes.map(() => initTypes.map(() => 0));
   const countMatrix = instTypes.map(() => initTypes.map(() => 0));
   let maxVal = 0;
