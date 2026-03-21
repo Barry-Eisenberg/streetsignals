@@ -967,6 +967,7 @@ function loadAndRenderData() {
       .map(normalizeSignal)
       .sort((a, b) => new Date(b.date || '2024-01-01') - new Date(a.date || '2024-01-01'));
 
+    recomputeSignalImportanceScores();
     renderKPIs();
     renderDirectory();
     renderCountryDirectory();
