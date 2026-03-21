@@ -181,6 +181,13 @@ document.getElementById('fmiSchemaToggle')?.addEventListener('click', () => {
   toggleCollapsible('.fmi-schema-section', 'fmiSchemaBody');
   trackSectionToggle('FMI Schema', isOpen);
 });
+
+document.getElementById('signalTypeSchemaToggle')?.addEventListener('click', () => {
+  const section = document.querySelector('.signal-type-schema-section');
+  const isOpen = !section?.classList.contains('open');
+  toggleCollapsible('.signal-type-schema-section', 'signalTypeSchemaBody');
+  trackSectionToggle('Signal Type Schema', isOpen);
+});
 // Auto-expand when navigating via anchor link (event delegation covers dynamically created links too)
 document.addEventListener('click', (e) => {
   const link = e.target.closest('a[href]');
@@ -379,6 +386,20 @@ const SIGNAL_TYPE_GROUPS = [
     types: ['Research / Report']
   }
 ];
+
+const SIGNAL_TYPE_DESCRIPTIONS = {
+  'Product Launch': 'Public launch of a new platform feature, product rail, tokenized offering, or institutional capability.',
+  'Platform / Infrastructure': 'Core platform, network, custody, or settlement infrastructure build-out and modernization.',
+  'Infrastructure Upgrade': 'Material upgrade to existing infrastructure, controls, interoperability, or operational resiliency.',
+  'Pilot / Trial': 'Time-bound pilot, sandbox, or proof-of-concept before full production deployment.',
+  'Strategic Partnership': 'Formal partnership or alliance to co-develop, distribute, or operationalize initiatives.',
+  'Strategic Initiative': 'Institution-level strategy program, transformation mandate, or operating model shift.',
+  'Strategic Filing / Plan': 'Policy filing, formal roadmap, or institutionally disclosed implementation plan.',
+  'Investment / M&A': 'Strategic capital deployment, stake acquisition, merger, or acquisition tied to digital asset infrastructure.',
+  'Regulatory Action': 'Supervisory, policy, or enforcement action affecting institutional participation and market structure.',
+  'Regulatory / Compliance Framework': 'Compliance architecture, standards, or governance framework for regulated adoption.',
+  'Research / Report': 'Published research, market analysis, or institutional position paper with strategic implications.'
+};
 
 const DEPRECATED_SIGNAL_TYPES = new Set(['Intelligence Brief']);
 
@@ -625,6 +646,7 @@ Promise.all([
   renderIntelBriefs();
   renderInitiativeSchema();
   renderFmiSchema();
+  renderSignalTypeSchema();
   renderSignals();
   renderPopularityAnalysis();
   document.querySelectorAll('.reveal:not(.visible)').forEach(el => observer.observe(el));
@@ -1297,6 +1319,35 @@ function renderFmiSchema() {
       <ol>
         ${decisionLogic.map(step => `<li>${step}</li>`).join('')}
       </ol>
+    </div>
+  `;
+}
+
+function renderSignalTypeSchema() {
+  const container = document.getElementById('signalTypeSchemaContent');
+  if (!container) return;
+
+  const cards = SIGNAL_TYPE_GROUPS.flatMap(group =>
+    group.types
+      .filter(isVisibleSignalType)
+      .map(type => ({
+        type,
+        group: group.name,
+        description: SIGNAL_TYPE_DESCRIPTIONS[type] || 'Operational institutional signal classification.'
+      }))
+  );
+
+  container.innerHTML = `
+    <div class="initiative-schema-grid">
+      ${cards.map(item => `
+        <article class="initiative-schema-card">
+          <div class="initiative-schema-card-top">
+            <h3>${item.type}</h3>
+            <span class="initiative-schema-pill analytics">${item.group}</span>
+          </div>
+          <p>${item.description}</p>
+        </article>
+      `).join('')}
     </div>
   `;
 }
