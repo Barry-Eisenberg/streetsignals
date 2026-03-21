@@ -1453,6 +1453,13 @@ function renderPopularityAnalysis() {
     return n.toLocaleString('en-US', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
   };
 
+  const displayVal = (val) => {
+    if (signalScoringColorMode === 'percentile') return Math.round(getColorBasis(val) * 100);
+    return formatScore(val);
+  };
+
+  const displaySuffix = signalScoringColorMode === 'percentile' ? 'th percentile' : ' strength';
+
   const signals = getOperationalSignals();
   const instTypes = [
     'Global Banks',
@@ -1569,7 +1576,7 @@ function renderPopularityAnalysis() {
       const instArg = JSON.stringify(instTypes[i]);
       const initArg = JSON.stringify(initTypes[ci]);
       if (val > 0) {
-        html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)};cursor:pointer" title="${instTypes[i]} x ${initTypes[ci]}: ${formatScore(val)} strength (click for breakdown)" onclick='showSignalStrengthBreakdown(${instArg},${initArg})'>${formatScore(val)}</td>`;
+        html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)};cursor:pointer" title="${instTypes[i]} x ${initTypes[ci]}: ${displayVal(val)}${displaySuffix} (click for breakdown)" onclick='showSignalStrengthBreakdown(${instArg},${initArg})'>${displayVal(val)}</td>`;
       } else {
         html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)}" title="${instTypes[i]} x ${initTypes[ci]}: 0.0">-</td>`;
       }
