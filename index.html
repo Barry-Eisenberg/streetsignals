@@ -99,37 +99,61 @@
   <div class="kpi-breakdown-panel" id="kpiBreakdown" style="display:none;"></div>
 </div>
 
-<!-- SIGNAL STRENGTH -->
-<section class="analytics-section" id="signal-strength">
+
+<!-- SIGNAL STRENGTH (Collapsible) -->
+<section class="analytics-section collapsible-section" id="signal-strength">
   <div class="container">
-    <div class="section-header reveal">
-      <h2 class="section-title">Signal Strength</h2>
-      <p class="section-subtitle">Using mappings from the sources.json file, signal strength combines source prevalence, recency decay, and credibility tiers.</p>
-    </div>
-    <div class="chart-row chart-row-single reveal">
-      <div class="chart-card popularity-card">
-        <div class="chart-card-header">
-          <h3>Signal Strength</h3>
-          <p id="popularitySummary">Using mappings from the sources.json file, signal strength combines source prevalence, recency decay, and credibility tiers.</p>
-        </div>
-        <div class="popularity-grid">
-          <div class="popularity-col">
-            <h4>Top Signals</h4>
-            <ol class="pop-list" id="popularityTopSignals"></ol>
-          </div>
-          <div class="popularity-col">
-            <h4>Top Sources</h4>
-            <ol class="pop-list" id="popularityTopSources"></ol>
-          </div>
-          <div class="popularity-col">
-            <div class="popularity-col-header">
-              <h4>Top Sources by Sector</h4>
-              <select id="popularitySectorFilter" class="popularity-select" aria-label="Filter source popularity by sector"></select>
-            </div>
-            <ol class="pop-list" id="popularityTopSourcesBySector"></ol>
-          </div>
+    <div class="library-header reveal" id="signalStrengthToggle">
+      <div class="library-header-left">
+        <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="4"/><path d="M8 16V10"/><path d="M12 16V8"/><path d="M16 16V12"/></svg>
+        <div>
+          <h2 class="section-title">Signal Strength</h2>
+          <p class="section-subtitle">Using mappings from the sources.json file, signal strength combines source prevalence, recency decay, and credibility tiers.</p>
         </div>
       </div>
+      <div class="library-header-right">
+        <span class="library-expand-hint">Click to expand</span>
+        <svg class="library-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+      </div>
+    </div>
+
+    <div class="library-body" id="signalStrengthBody" style="display:none;">
+      <!-- Collapsible Signal Scoring subsection -->
+      <section class="analytics-section collapsible-section" id="signal-scoring">
+        <div class="signal-scoring-header reveal" id="signalScoringToggle">
+          <div class="signal-scoring-header-left">
+            <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V4"/><path d="M6 12h12"/></svg>
+            <h3 class="section-title">Signal Scoring</h3>
+          </div>
+          <div class="signal-scoring-header-right">
+            <span class="library-expand-hint">Click to expand</span>
+            <svg class="library-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </div>
+        </div>
+        <div class="signal-scoring-body" id="signalScoringBody" style="display:none;">
+          <div class="chart-row chart-row-single reveal">
+            <div class="chart-card popularity-card">
+              <div class="popularity-grid">
+                <div class="popularity-col">
+                  <h4>Top Signals</h4>
+                  <ol class="pop-list" id="popularityTopSignals"></ol>
+                </div>
+                <div class="popularity-col">
+                  <h4>Top Sources</h4>
+                  <ol class="pop-list" id="popularityTopSources"></ol>
+                </div>
+                <div class="popularity-col">
+                  <div class="popularity-col-header">
+                    <h4>Top Sources by Sector</h4>
+                    <select id="popularitySectorFilter" class="popularity-select" aria-label="Filter source popularity by sector"></select>
+                  </div>
+                  <ol class="pop-list" id="popularityTopSourcesBySector"></ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </div>
 </section>
