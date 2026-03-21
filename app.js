@@ -371,6 +371,32 @@ const FMI_SCHEMA = [
   }
 ];
 
+const SIGNAL_TYPE_GROUPS = [
+  {
+    name: 'Market Build',
+    types: ['Product Launch', 'Platform / Infrastructure', 'Infrastructure Upgrade', 'Pilot / Trial']
+  },
+  {
+    name: 'Strategy & Capital',
+    types: ['Strategic Partnership', 'Strategic Initiative', 'Strategic Filing / Plan', 'Investment / M&A']
+  },
+  {
+    name: 'Policy & Compliance',
+    types: ['Regulatory Action', 'Regulatory / Compliance Framework']
+  },
+  {
+    name: 'Intelligence',
+    types: ['Research / Report']
+  }
+];
+
+const DEPRECATED_SIGNAL_TYPES = new Set(['Intelligence Brief']);
+
+function isVisibleSignalType(type) {
+  const normalized = String(type || '').trim();
+  return normalized !== '' && !DEPRECATED_SIGNAL_TYPES.has(normalized);
+}
+
 function normalizeInstitutionType(type) {
   if (!type) return 'Infrastructure & Technology';
   return INSTITUTION_TYPE_NORMALIZATION[type] || type;
@@ -435,6 +461,7 @@ let allSignals = [];
 let activeFilter = 'all';
 let searchQuery = '';
 let matrixFilter = null;
+let signalTypeFilter = '';
 let chartInstances = {};
 let popularitySeed = null;
 let sourceCatalog = { byName: {}, byHost: {} };
@@ -604,6 +631,7 @@ Promise.all([
   buildCharts();
   window._chartsReady = true;
   renderFilterPills();
+  renderSignalTypeSelect();
   renderIntelBriefs();
   renderInitiativeSchema();
   renderFmiSchema();
@@ -766,8 +794,14 @@ function renderKPIs() {
       .map(s => s.trim())
       .filter(Boolean)
   );
-  const productLaunches = signals.filter(s => s.signal_type === 'Product Launch').length;
-  const pctLaunches = signals.length ? Math.round((productLaunches / signals.length) * 100) : 0;
+  const signalTypeCounts = {};
+  signals.forEach(s => {
+    const type = String(s.signal_type || '').trim();
+    if (!isVisibleSignalType(type)) return;
+    signalTypeCounts[type] = (signalTypeCounts[type] || 0) + 1;
+  });
+  const activeSignalTypes = Object.keys(signalTypeCounts).length;
+  const totalSignalTypes = [...new Set(SIGNAL_TYPE_GROUPS.flatMap(group => group.types))].length;
 
   const snapshot = getDailySignalSnapshot(signals);
   const snapshotDate = new Date(`${snapshot.effectiveDateKey}T00:00:00`);
@@ -775,13 +809,13 @@ function renderKPIs() {
   const snapshotContext = snapshot.effectiveDateKey === snapshot.todayKey ? `As of ${snapshotLabel}` : `As of ${snapshotLabel} (latest reporting date)`;
 
   const kpis = [
-    { id: 'signals', value: signals.length, label: 'Total Signals', color: 'var(--color-primary)' },
     { id: 'daily_new', value: snapshot.count, label: 'New Signals', color: 'var(--color-success)', delta: snapshotContext },
-    { id: 'sources', value: uniqueSources.size, label: 'Info Sources', color: 'var(--color-primary)' },
+    { id: 'signals', value: signals.length, label: 'Total Signals', color: 'var(--color-primary)' },
+    { id: 'signal_types', value: activeSignalTypes, label: 'Signal Types', color: 'var(--color-primary)', delta: `${activeSignalTypes} of ${totalSignalTypes} taxonomy types active` },
     { id: 'institutions', value: institutions.size, label: 'Institutions', color: 'var(--color-primary)' },
     { id: 'sectors', value: '6', label: 'Sector Categories', color: 'var(--color-primary)' },
-    { id: 'countries', value: '40+', label: 'Countries', color: 'var(--color-primary)' },
-    { id: 'launches', value: productLaunches, label: 'Product Launches', color: 'var(--color-primary)', delta: `${pctLaunches}% of all signals` }
+    { id: 'sources', value: uniqueSources.size, label: 'Info Sources', color: 'var(--color-primary)' },
+    { id: 'countries', value: '40+', label: 'Countries', color: 'var(--color-primary)' }
   ];
 
   el.innerHTML = kpis.map(k => `
@@ -910,6 +944,49 @@ function showKPIBreakdown(kpiId, activeCard) {
     const note26 = byYear['2026'] ? `<div style="font-size:11px;color:var(--color-text-muted);margin-top:var(--space-2);">2026 data is partial (through Q1) — ${byYear['2026']} signals already tracked</div>` : '';
     html += note26;
     html += '<a href="#analytics" class="kpi-breakdown-link">View timeline chart ↓</a>';
+
+  } else if (kpiId === 'regulatory') {
+    const regTypes = ['Regulatory Action', 'Regulatory / Compliance Framework'];
+    const regSignals = signals.filter(s => regTypes.includes(s.signal_type));
+    const byInst = {};
+    regSignals.forEach(s => { byInst[s.institution_type] = (byInst[s.institution_type] || 0) + 1; });
+    const sortedInst = Object.entries(byInst).sort((a,b) => b[1]-a[1]);
+    const max = sortedInst[0]?.[1] || 1;
+    html = `<div class="kpi-breakdown-header"><h3>${regSignals.length} Regulatory Signals</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
+    html += '<div class="kpi-breakdown-grid">';
+    sortedInst.forEach(([type, count]) => {
+      html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="drillDownKPIToSignalMatrixByInstitutionType('${type.replace(/'/g,"\\'")}')"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
+    });
+    html += '</div>';
+    html += '<a href="#signal-library" class="kpi-breakdown-link">Open Signal Catalogue ↓</a>';
+
+  } else if (kpiId === 'signal_types') {
+    const byType = {};
+    signals.forEach(s => {
+      const type = String(s.signal_type || '').trim();
+      if (!isVisibleSignalType(type)) return;
+      byType[type] = (byType[type] || 0) + 1;
+    });
+    const activeCount = Object.keys(byType).length;
+    const grouped = SIGNAL_TYPE_GROUPS.map(group => ({
+      name: group.name,
+      items: group.types.map(type => ({ type, count: byType[type] || 0 }))
+    }));
+
+    html = `<div class="kpi-breakdown-header"><h3>${activeCount} Active Signal Types</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
+    grouped.forEach(group => {
+      const groupTotal = group.items.reduce((sum, item) => sum + item.count, 0);
+      const max = Math.max(1, ...group.items.map(item => item.count));
+      html += `<div style="font-size:11px;font-weight:700;color:var(--color-text);margin:var(--space-3) 0 var(--space-2) 0;">${group.name} (${groupTotal})</div>`;
+      html += '<div class="kpi-breakdown-grid">';
+      group.items
+        .sort((a, b) => b.count - a.count)
+        .forEach(item => {
+          html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="navigateToCatalogueBySignalType('${item.type.replace(/'/g, "\\'")}')"><span class="bd-label">${item.type}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(item.count / max) * 100}%"></span></span><span class="bd-value">${item.count}</span></a>`;
+        });
+      html += '</div>';
+    });
+    html += '<a href="#analytics" class="kpi-breakdown-link">View signal type chart ↓</a>';
 
   } else if (kpiId === 'launches') {
     const byType = {};
@@ -1060,7 +1137,10 @@ function buildInstTypeChart(colors, textColor) {
 function buildSignalTypeChart(textColor, gridColor) {
   const signals = getOperationalSignals();
   const counts = {};
-  signals.forEach(s => { counts[s.signal_type] = (counts[s.signal_type] || 0) + 1; });
+  signals.forEach(s => {
+    if (!isVisibleSignalType(s.signal_type)) return;
+    counts[s.signal_type] = (counts[s.signal_type] || 0) + 1;
+  });
   const sorted = Object.entries(counts).sort((a,b) => b[1] - a[1]);
   const signalColors = [
     getCSS('--color-primary'), getCSS('--color-regulators'), getCSS('--color-payments'),
@@ -1408,6 +1488,8 @@ function buildHeatmap(colors) {
 // ===== SEARCH =====
 document.getElementById('searchInput')?.addEventListener('input', (e) => {
   matrixFilter = null;
+  signalTypeFilter = '';
+  syncSignalTypeSelect();
   searchQuery = e.target.value.toLowerCase().trim();
   if (searchQuery) trackSearch(searchQuery, 'Signal Catalogue');
   renderSignals();
@@ -1430,12 +1512,90 @@ function renderFilterPills() {
       container.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       matrixFilter = null;
+      signalTypeFilter = '';
+      syncSignalTypeSelect();
       activeFilter = btn.dataset.filter;
       trackFilter('institution_category', btn.dataset.filter);
       renderSignals();
       updateResetBars();
     });
   });
+}
+
+function syncSignalTypeSelect() {
+  const select = document.getElementById('signalTypeSelect');
+  if (select) select.value = signalTypeFilter;
+}
+
+function renderSignalTypeQuickChips() {
+  const container = document.getElementById('signalTypeQuickChips');
+  if (!container) return;
+
+  const counts = {};
+  getOperationalSignals().forEach(signal => {
+    const type = String(signal.signal_type || '').trim();
+    if (!isVisibleSignalType(type)) return;
+    counts[type] = (counts[type] || 0) + 1;
+  });
+
+  const topTypes = Object.entries(counts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 4);
+
+  if (!topTypes.length) {
+    container.innerHTML = '';
+    container.style.display = 'none';
+    return;
+  }
+
+  container.style.display = 'flex';
+  container.innerHTML = topTypes.map(([type, count]) => `
+    <button type="button" class="signal-type-quick-chip${signalTypeFilter === type ? ' is-active' : ''}" data-signal-type="${type.replace(/"/g, '&quot;')}">
+      ${type} (${count})
+    </button>
+  `).join('');
+
+  container.querySelectorAll('.signal-type-quick-chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      matrixFilter = null;
+      signalTypeFilter = btn.dataset.signalType || '';
+      syncSignalTypeSelect();
+      trackFilter('signal_type', signalTypeFilter);
+      renderSignals();
+      updateResetBars();
+    });
+  });
+}
+
+function renderSignalTypeSelect() {
+  const select = document.getElementById('signalTypeSelect');
+  if (!select) return;
+
+  const counts = {};
+  getOperationalSignals().forEach(signal => {
+    const type = String(signal.signal_type || '').trim();
+    if (!isVisibleSignalType(type)) return;
+    counts[type] = (counts[type] || 0) + 1;
+  });
+
+  const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+  let html = '<option value="">All Signal Types</option>';
+  sorted.forEach(([type, count]) => {
+    const safeType = type.replace(/"/g, '&quot;');
+    html += `<option value="${safeType}">${type} (${count})</option>`;
+  });
+  select.innerHTML = html;
+  syncSignalTypeSelect();
+
+  select.onchange = (event) => {
+    matrixFilter = null;
+    signalTypeFilter = String(event.target.value || '').trim();
+    if (signalTypeFilter) trackFilter('signal_type', signalTypeFilter);
+    renderSignals();
+    updateResetBars();
+  };
+
+  renderSignalTypeQuickChips();
 }
 
 // ===== INTEL BRIEFS =====
@@ -1457,6 +1617,7 @@ function renderSignals() {
   const container = document.getElementById('signalSections');
   const noResults = document.getElementById('noResults');
   renderMatrixFilterChip();
+  renderSignalTypeQuickChips();
   let filtered = allSignals.filter(s => !s._isBrief);
   if (activeFilter !== 'all') filtered = filtered.filter(s => s.category === activeFilter);
   if (matrixFilter) {
@@ -1466,7 +1627,10 @@ function renderSignals() {
       (s[dimField] || []).includes(matrixFilter.initiativeType)
     );
   }
-  if (searchQuery) filtered = filtered.filter(s => `${s.institution} ${s.initiative} ${s.description} ${s.category}`.toLowerCase().includes(searchQuery));
+  if (signalTypeFilter) {
+    filtered = filtered.filter(s => String(s.signal_type || '').trim() === signalTypeFilter);
+  }
+  if (searchQuery) filtered = filtered.filter(s => `${s.institution} ${s.initiative} ${s.description} ${s.category} ${s.signal_type || ''}`.toLowerCase().includes(searchQuery));
 
   if (filtered.length === 0) { container.innerHTML = ''; noResults.style.display = 'block'; return; }
   noResults.style.display = 'none';
@@ -1610,6 +1774,7 @@ function renderPopularityAnalysis() {
       cellDetails[key].push({
         institution: signal.institution,
         initiative: signal.initiative,
+        signalType: signal.signal_type,
         source: getSignalSourceName(signal),
         date: signal.date,
         score,
@@ -1743,6 +1908,14 @@ function showSignalStrengthBreakdown(institutionType, initiativeType) {
 
   const totalScore = items.reduce((sum, item) => sum + item.score, 0);
   const rawCount = items.length;
+  const signalTypeAgg = {};
+  items.forEach(item => {
+    const type = String(item.signalType || '').trim() || 'Unknown';
+    signalTypeAgg[type] = (signalTypeAgg[type] || 0) + 1;
+  });
+  const topSignalTypeEntry = Object.entries(signalTypeAgg).sort((a, b) => b[1] - a[1])[0] || ['Unknown', 0];
+  const topSignalType = topSignalTypeEntry[0];
+  const topSignalTypeCount = topSignalTypeEntry[1];
   const avgCredibility = items.reduce((sum, item) => sum + item.credibilityWeight, 0) / items.length;
   const avgRecency = items.reduce((sum, item) => sum + item.recencyWeight, 0) / items.length;
   const avgPrevalence = items.reduce((sum, item) => sum + item.prevalenceWeight, 0) / items.length;
@@ -1780,6 +1953,7 @@ function showSignalStrengthBreakdown(institutionType, initiativeType) {
       <button type="button" onclick='navigateToMatrixSelection(${navigateInstArg},${navigateInitArg})'>View Matching Signals</button>
     </div>
     <div class="signal-strength-breakdown-stats">
+      <div class="signal-strength-stat"><span class="signal-strength-stat-label">Signal Type (Top)</span><span class="signal-strength-stat-value">${escapeHtml(topSignalType)} (${topSignalTypeCount})</span></div>
       <div class="signal-strength-stat"><span class="signal-strength-stat-label">${primaryMetricLabel}</span><span class="signal-strength-stat-value">${primaryMetricValue}</span></div>
       <div class="signal-strength-stat"><span class="signal-strength-stat-label">Signals</span><span class="signal-strength-stat-value">${rawCount}</span></div>
       <div class="signal-strength-stat"><span class="signal-strength-stat-label">Weighted Strength</span><span class="signal-strength-stat-value">${totalScore.toFixed(1)}</span></div>
@@ -1844,12 +2018,12 @@ function showSignalDetail(signalData) {
     </div>
     <div class="signal-detail-content">
       <div class="signal-detail-row">
-        <span class="signal-detail-label">Description:</span>
-        <span class="signal-detail-value">${fullSignal.description || 'N/A'}</span>
-      </div>
-      <div class="signal-detail-row">
         <span class="signal-detail-label">Signal Type:</span>
         <span class="signal-detail-value">${fullSignal.signal_type || 'Unknown'}</span>
+      </div>
+      <div class="signal-detail-row">
+        <span class="signal-detail-label">Description:</span>
+        <span class="signal-detail-value">${fullSignal.description || 'N/A'}</span>
       </div>
       <div class="signal-detail-row">
         <span class="signal-detail-label">Source:</span>
@@ -2140,7 +2314,9 @@ function renderDirectory() {
     }
     const inst = instMap[key];
     inst.signals++;
-    inst.signalTypes[s.signal_type] = (inst.signalTypes[s.signal_type] || 0) + 1;
+    if (isVisibleSignalType(s.signal_type)) {
+      inst.signalTypes[s.signal_type] = (inst.signalTypes[s.signal_type] || 0) + 1;
+    }
     (s.initiative_types || []).forEach(t => inst.initiativeTypes.add(t));
     (s.fmi_areas || []).forEach(a => inst.fmiAreas.add(a));
   });
@@ -2275,6 +2451,8 @@ function navigateToSignal(query, catKey) {
 
   // 2. If catKey provided, activate that filter pill
   matrixFilter = null;
+  signalTypeFilter = '';
+  syncSignalTypeSelect();
   if (catKey) {
     activeFilter = catKey;
     const pills = document.querySelectorAll('.filter-pill');
@@ -2340,6 +2518,8 @@ function navigateToMatrixSelection(institutionType, initiativeType) {
 
   // 2. Apply matrix filter and category pill
   matrixFilter = { institutionType, initiativeType, dimension: signalScoringDimensionMode };
+  signalTypeFilter = '';
+  syncSignalTypeSelect();
   const catKey = categoryForInstitutionType(institutionType);
   activeFilter = catKey;
 
@@ -2364,8 +2544,46 @@ function navigateToMatrixSelection(institutionType, initiativeType) {
   updateResetBars();
 }
 
+function navigateToCatalogueBySignalType(signalType) {
+  const selectedType = String(signalType || '').trim();
+  if (!selectedType) return;
+
+  const libSection = document.querySelector('.signal-library-section');
+  const libBody = document.getElementById('libraryBody');
+  if (libSection && libBody && !libSection.classList.contains('open')) {
+    libSection.classList.add('open');
+    libBody.style.display = 'block';
+  }
+
+  matrixFilter = null;
+  signalTypeFilter = selectedType;
+  syncSignalTypeSelect();
+  searchQuery = '';
+  activeFilter = 'all';
+  const searchInput = document.getElementById('searchInput');
+  if (searchInput) searchInput.value = '';
+
+  const pills = document.querySelectorAll('.filter-pill');
+  pills.forEach(p => {
+    p.classList.remove('active');
+    if (p.dataset.filter === 'all') p.classList.add('active');
+  });
+
+  closeKPIBreakdown();
+  renderSignals();
+
+  setTimeout(() => {
+    document.querySelectorAll('.category-section').forEach(s => s.classList.add('cat-open'));
+    if (libSection) libSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, 100);
+
+  updateResetBars();
+}
+
 function clearMatrixFilter() {
   matrixFilter = null;
+  signalTypeFilter = '';
+  syncSignalTypeSelect();
   renderSignals();
   updateResetBars();
 }
@@ -2376,6 +2594,11 @@ function renderMatrixFilterChip() {
   if (!chip || !label) return;
 
   if (!matrixFilter) {
+    if (signalTypeFilter) {
+      label.textContent = `Signal type filter: ${signalTypeFilter}`;
+      chip.style.display = 'inline-flex';
+      return;
+    }
     chip.style.display = 'none';
     return;
   }
@@ -2408,6 +2631,8 @@ function resetAllFilters() {
   // Reset signal library search
   searchQuery = '';
   matrixFilter = null;
+  signalTypeFilter = '';
+  syncSignalTypeSelect();
   const searchInput = document.getElementById('searchInput');
   if (searchInput) searchInput.value = '';
 
@@ -2443,7 +2668,7 @@ function resetAllFilters() {
 
 function updateResetBars() {
   const hasDirectoryFilter = dirSearch !== '' || dirSort !== 'signals';
-  const hasLibraryFilter = searchQuery !== '' || activeFilter !== 'all' || matrixFilter !== null;
+  const hasLibraryFilter = searchQuery !== '' || activeFilter !== 'all' || matrixFilter !== null || signalTypeFilter !== '';
   const hasAnyFilter = hasDirectoryFilter || hasLibraryFilter;
 
   const dirReset = document.getElementById('resetDirectoryFilters');
