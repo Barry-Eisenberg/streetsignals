@@ -1612,46 +1612,6 @@ function syncSignalTypeSelect() {
   if (select) select.value = signalTypeFilter;
 }
 
-function renderSignalTypeQuickChips() {
-  const container = document.getElementById('signalTypeQuickChips');
-  if (!container) return;
-
-  const counts = {};
-  getOperationalSignals().forEach(signal => {
-    const type = String(signal.signal_type || '').trim();
-    if (!isVisibleSignalType(type)) return;
-    counts[type] = (counts[type] || 0) + 1;
-  });
-
-  const topTypes = Object.entries(counts)
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, 4);
-
-  if (!topTypes.length) {
-    container.innerHTML = '';
-    container.style.display = 'none';
-    return;
-  }
-
-  container.style.display = 'flex';
-  container.innerHTML = topTypes.map(([type, count]) => `
-    <button type="button" class="signal-type-quick-chip${signalTypeFilter === type ? ' is-active' : ''}" data-signal-type="${type.replace(/"/g, '&quot;')}">
-      ${type} (${count})
-    </button>
-  `).join('');
-
-  container.querySelectorAll('.signal-type-quick-chip').forEach(btn => {
-    btn.addEventListener('click', () => {
-      matrixFilter = null;
-      signalTypeFilter = btn.dataset.signalType || '';
-      syncSignalTypeSelect();
-      trackFilter('signal_type', signalTypeFilter);
-      renderSignals();
-      updateResetBars();
-    });
-  });
-}
-
 function renderSignalTypeSelect() {
   const select = document.getElementById('signalTypeSelect');
   if (!select) return;
@@ -1679,8 +1639,6 @@ function renderSignalTypeSelect() {
     renderSignals();
     updateResetBars();
   };
-
-  renderSignalTypeQuickChips();
 }
 
 // ===== INTEL BRIEFS =====
@@ -1702,7 +1660,6 @@ function renderSignals() {
   const container = document.getElementById('signalSections');
   const noResults = document.getElementById('noResults');
   renderMatrixFilterChip();
-  renderSignalTypeQuickChips();
   let filtered = allSignals.filter(s => !s._isBrief);
   if (activeFilter !== 'all') filtered = filtered.filter(s => s.category === activeFilter);
   if (matrixFilter) {
