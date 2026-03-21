@@ -988,12 +988,13 @@
   background: var(--color-primary-highlight);
   border-color: var(--color-primary);
 }
-.chart-card-header .matrix-lead {
+.matrix-lead {
   font-family: var(--font-display);
   font-size: var(--text-sm);
-  font-weight: 700;
-  color: var(--color-text);
+  font-weight: 400;
+  color: var(--color-text-muted);
   margin-top: 0;
+  margin-bottom: var(--space-3);
   max-width: none;
 }
 .chart-container {
@@ -1194,15 +1195,15 @@
 
 .signal-strength-matrix-header {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: var(--space-4);
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
 }
 .signal-strength-controls {
   display: flex;
   gap: var(--space-3);
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 .signal-strength-control-group {
   display: inline-flex;
@@ -1406,13 +1407,6 @@
 }
 
 @media (max-width: 900px) {
-  .signal-strength-matrix-header {
-    flex-direction: column;
-  }
-  .signal-strength-controls {
-    width: 100%;
-    justify-content: flex-start;
-  }
   .signal-strength-legend {
     grid-template-columns: 1fr;
   }
