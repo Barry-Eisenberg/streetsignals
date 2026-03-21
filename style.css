@@ -3031,6 +3031,109 @@
   text-decoration: underline;
 }
 
+.signal-detail-panel {
+  margin-top: var(--space-4);
+  padding: var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-offset);
+}
+
+.signal-detail-header {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  justify-content: space-between;
+  margin-bottom: var(--space-3);
+}
+
+.signal-detail-title h3 {
+  margin: 0;
+  font-size: var(--text-base);
+}
+
+.signal-detail-initiative {
+  margin: 4px 0 0;
+  color: var(--color-text-muted);
+  font-size: var(--text-xs);
+}
+
+.signal-detail-close {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  padding: 2px 8px;
+  font-size: var(--text-sm);
+  line-height: 1;
+}
+
+.signal-detail-close:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.signal-detail-content {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.signal-detail-row {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: var(--space-2);
+  font-size: var(--text-xs);
+}
+
+.signal-detail-label {
+  color: var(--color-text-faint);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.signal-detail-value {
+  color: var(--color-text);
+}
+
+.tier-badge {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--color-border);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.tier-badge.tier-structural {
+  border-color: rgba(0, 204, 136, 0.5);
+  background: rgba(0, 204, 136, 0.12);
+  color: var(--color-success);
+}
+
+.tier-badge.tier-tactical {
+  border-color: rgba(0, 212, 255, 0.5);
+  background: rgba(0, 212, 255, 0.12);
+  color: var(--color-primary);
+}
+
+.tier-badge.tier-noise {
+  border-color: rgba(255, 92, 138, 0.5);
+  background: rgba(255, 92, 138, 0.12);
+  color: var(--color-error);
+}
+
+@media (max-width: 700px) {
+  .signal-detail-row {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (hover: none) {
   .heatmap-cell:hover {
     transform: none;

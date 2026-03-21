@@ -49,6 +49,20 @@ python -m http.server 8000
 # Then visit http://localhost:8000
 ```
 
+### Pre-push Validation
+
+Run this before opening a PR or pushing UI interaction changes:
+
+```powershell
+./scripts/ui_regression_check.ps1
+```
+
+This validates:
+- No inline `onclick` handlers in `app.js` or `index.html`
+- No `javascript:void(0)` links in `app.js` or `index.html`
+- Freshness-date guard excludes future-dated source timestamps
+- Key delegated interaction hooks are present
+
 ## Data Updates
 
 To refresh signal data manually:
