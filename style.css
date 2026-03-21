@@ -39,6 +39,42 @@
 #signal-strength .signal-scoring-subsection .chart-row {
   margin-bottom: 0;
 }
+
+#signal-strength .source-quality-subsection {
+  margin-top: var(--space-5);
+}
+
+#signal-strength .source-quality-subsection .library-header {
+  padding: var(--space-4) var(--space-5);
+  background: var(--color-surface-offset);
+  border: 1px solid var(--color-divider);
+  border-radius: var(--radius-lg);
+}
+
+#signal-strength .source-quality-subsection .library-header:hover {
+  border-color: var(--color-primary);
+}
+
+#signal-strength .source-quality-subsection .library-icon {
+  width: 22px;
+  height: 22px;
+}
+
+#signal-strength .source-quality-subsection.open .library-header {
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+#signal-strength .source-quality-subsection .library-body {
+  border: 1px solid var(--color-divider);
+  border-top: none;
+  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+  background: var(--color-surface-2);
+  padding: var(--space-5);
+}
+
+#signal-strength .source-quality-subsection .chart-container {
+  min-height: 320px;
+}
 /* ===== DESIGN TOKENS ===== */
 :root {
   /* Type Scale */
