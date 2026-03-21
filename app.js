@@ -161,6 +161,26 @@ document.getElementById('signalScoringToggle')?.addEventListener('click', () => 
   trackSectionToggle('Signal Scoring', isOpen);
 });
 
+document.getElementById('signalVelocityToggle')?.addEventListener('click', () => {
+  const section = document.querySelector('#signal-velocity');
+  const isOpen = !section?.classList.contains('open');
+  toggleCollapsible('#signal-velocity', 'signalVelocityBody');
+  if (isOpen) {
+    setTimeout(renderSignalVelocityChart, 100);
+  }
+  trackSectionToggle('Signal Velocity', isOpen);
+});
+
+document.getElementById('tierBreakdownToggle')?.addEventListener('click', () => {
+  const section = document.querySelector('#tier-breakdown');
+  const isOpen = !section?.classList.contains('open');
+  toggleCollapsible('#tier-breakdown', 'tierBreakdownBody');
+  if (isOpen) {
+    setTimeout(renderTierBreakdownChart, 100);
+  }
+  trackSectionToggle('Tier Breakdown', isOpen);
+});
+
 document.getElementById('methodologyToggle')?.addEventListener('click', () => {
   const section = document.querySelector('#methodology');
   const isOpen = !section?.classList.contains('open');
@@ -551,6 +571,8 @@ Promise.all([
   renderFmiSchema();
   renderSignals();
   renderPopularityAnalysis();
+  renderSignalVelocityChart();
+  renderTierBreakdownChart();
   document.querySelectorAll('.reveal:not(.visible)').forEach(el => observer.observe(el));
 });
 
@@ -1457,7 +1479,10 @@ function renderPopularityAnalysis() {
         source,
         tier: meta.tier,
         score,
-        dateValue: new Date(signal.date || '1970-01-01').getTime() || 0
+        dateValue: new Date(signal.date || '1970-01-01').getTime() || 0,
+        date: signal.date,
+        institution: signal.institution,
+        initiative: signal.initiative
       };
     })
     .filter(item => item && item.score > 0)
@@ -1502,8 +1527,8 @@ function renderPopularityAnalysis() {
   const maxSourceScore = topSources[0]?.score || 1;
 
   topSignalsEl.innerHTML = topSignals.length
-    ? topSignals.map(item => `
-      <li class="pop-row">
+    ? topSignals.map((item, idx) => `
+      <li class="pop-row pop-row-clickable" data-signal='${JSON.stringify(item)}' data-index='${idx}' onclick="showSignalDetail(${JSON.stringify(item).replace(/'/g, "&apos;")})">
         <span class="pop-label">${item.label}</span>
         <span class="pop-bar"><span class="pop-bar-fill" style="width:${(item.score / maxSignalScore) * 100}%"></span></span>
         <span class="pop-value">${formatPopularityScore(item.score)}</span>
@@ -1536,6 +1561,206 @@ function renderPopularityAnalysis() {
 function formatDate(d) {
   if (!d) return '';
   try { const dt = new Date(d); return isNaN(dt.getTime()) ? d : dt.toLocaleDateString('en-US', { month: 'short', year: 'numeric' }); } catch { return d; }
+}
+
+// ===== SIGNAL DETAILS & ANALYSIS =====
+function showSignalDetail(signalData) {
+  const panel = document.getElementById('signalDetailPanel');
+  if (!panel) return;
+  
+  const daysAgo = Math.floor((Date.now() - (signalData.dateValue || 0)) / (1000 * 60 * 60 * 24));
+  const dateStr = daysAgo <= 365 ? `${daysAgo} days ago` : formatDate(signalData.dateValue ? new Date(signalData.dateValue) : null);
+  const recencyWeight = getRecencyWeight(signalData.date || new Date().toISOString().split('T')[0]);
+  
+  // Find full signal object for additional metadata
+  const fullSignal = getOperationalSignals().find(s => 
+    s.institution === signalData.institution && 
+    s.initiative === signalData.initiative && 
+    s.date === signalData.date
+  ) || { description: 'Signal details available', signal_type: 'Unknown' };
+  
+  const tierBadge = signalData.tier ? 
+    `<span class="tier-badge tier-${signalData.tier.toLowerCase()}">${signalData.tier}</span>` : '';
+  
+  panel.innerHTML = `
+    <div class="signal-detail-header">
+      <div class="signal-detail-title">
+        <h3>${signalData.institution}</h3>
+        <p class="signal-detail-initiative">${signalData.initiative}</p>
+      </div>
+      ${tierBadge}
+      <button class="signal-detail-close" onclick="closeSignalDetail()">✕</button>
+    </div>
+    <div class="signal-detail-content">
+      <div class="signal-detail-row">
+        <span class="signal-detail-label">Description:</span>
+        <span class="signal-detail-value">${fullSignal.description || 'N/A'}</span>
+      </div>
+      <div class="signal-detail-row">
+        <span class="signal-detail-label">Signal Type:</span>
+        <span class="signal-detail-value">${fullSignal.signal_type || 'Unknown'}</span>
+      </div>
+      <div class="signal-detail-row">
+        <span class="signal-detail-label">Source:</span>
+        <span class="signal-detail-value">${signalData.source || 'Unknown'}</span>
+      </div>
+      <div class="signal-detail-row">
+        <span class="signal-detail-label">Date:</span>
+        <span class="signal-detail-value">${formatDate(signalData.date || new Date())} (${dateStr})</span>
+      </div>
+      <div class="signal-detail-row">
+        <span class="signal-detail-label">Credibility Weight:</span>
+        <span class="signal-detail-value">${recencyWeight.toFixed(3)}x (tier: ${signalData.tier || 'Unclassified'}, recency adj.)</span>
+      </div>
+      <div class="signal-detail-row">
+        <span class="signal-detail-label">Score:</span>
+        <span class="signal-detail-value">${signalData.score.toFixed(2)}</span>
+      </div>
+    </div>
+  `;
+  panel.style.display = 'block';
+}
+
+function closeSignalDetail() {
+  const panel = document.getElementById('signalDetailPanel');
+  if (panel) panel.style.display = 'none';
+}
+
+function renderSignalVelocityChart() {
+  const ctx = document.getElementById('velocityChart');
+  if (!ctx) return;
+  
+  // Destroy existing chart if present
+  if (chartInstances.velocity) {
+    chartInstances.velocity.destroy();
+  }
+  
+  const signals = getOperationalSignals();
+  const monthCounts = {};
+  const now = new Date();
+  const monthsBack = 12;
+  
+  // Initialize all months
+  for (let i = monthsBack - 1; i >= 0; i--) {
+    const d = new Date(now);
+    d.setMonth(d.getMonth() - i);
+    const key = d.toISOString().substring(0, 7); // YYYY-MM format
+    monthCounts[key] = 0;
+  }
+  
+  // Count signals by month
+  signals.forEach(signal => {
+    if (signal.date) {
+      const key = signal.date.substring(0, 7);
+      if (key in monthCounts) {
+        monthCounts[key]++;
+      }
+    }
+  });
+  
+  const labels = Object.keys(monthCounts).sort();
+  const data = labels.map(label => monthCounts[label]);
+  
+  const txtColor = getComputedStyle(document.documentElement).getPropertyValue('--color-text').trim();
+  const primaryColor = getComputedStyle(document.documentElement).getPropertyValue('--color-primary').trim();
+  const surfaceOffset = getComputedStyle(document.documentElement).getPropertyValue('--color-surface-offset').trim();
+  
+  chartInstances.velocity = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: labels.map(m => {
+        const [year, month] = m.split('-');
+        return new Date(year, parseInt(month) - 1, 1).toLocaleDateString('en-US', { month: 'short', year: '2-digit' });
+      }),
+      datasets: [{
+        label: 'Signals',
+        data: data,
+        backgroundColor: primaryColor,
+        borderColor: primaryColor,
+        borderRadius: 4,
+        tension: 0.4
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: { display: false }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          ticks: { color: txtColor, font: { family: "'Satoshi', 'Inter', sans-serif", size: 12 } },
+          grid: { color: surfaceOffset }
+        },
+        x: {
+          ticks: { color: txtColor, font: { family: "'Satoshi', 'Inter', sans-serif", size: 12 } },
+          grid: { display: false }
+        }
+      }
+    }
+  });
+}
+
+function renderTierBreakdownChart() {
+  const ctx = document.getElementById('tierChart');
+  if (!ctx) return;
+  
+  // Destroy existing chart if present
+  if (chartInstances.tier) {
+    chartInstances.tier.destroy();
+  }
+  
+  const signals = getOperationalSignals();
+  const tierCounts = { 'Primary': 0, 'Secondary': 0, 'Tertiary': 0, 'Unclassified': 0 };
+  
+  signals.forEach(signal => {
+    const meta = resolveSourceMeta(signal);
+    const tier = meta.tier || 'Unclassified';
+    tierCounts[tier] = (tierCounts[tier] || 0) + 1;
+  });
+  
+  const labels = Object.keys(tierCounts);
+  const data = Object.values(tierCounts);
+  
+  // Map tiers to colors
+  const tierColors = {
+    'Primary': '#00d4ff',   // cyan/primary
+    'Secondary': '#7c5cff',  // purple
+    'Tertiary': '#00cc88',   // green
+    'Unclassified': '#888888'  // gray
+  };
+  
+  const txtColor = getComputedStyle(document.documentElement).getPropertyValue('--color-text').trim();
+  
+  chartInstances.tier = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels: labels,
+      datasets: [{
+        data: data,
+        backgroundColor: labels.map(l => tierColors[l] || '#999999'),
+        borderColor: 'transparent',
+        borderWidth: 0
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      cutout: '55%',
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            color: txtColor,
+            font: { family: "'Satoshi', 'Inter', sans-serif", size: 12 },
+            boxWidth: 12,
+            padding: 10
+          }
+        }
+      }
+    }
+  });
 }
 
 // ===== INSTITUTION DIRECTORY =====

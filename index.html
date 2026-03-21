@@ -136,6 +136,9 @@
     </div>
 
     <div class="library-body" id="signalStrengthBody" style="display:none;">
+      <!-- Signal Detail Panel (hidden until signal clicked) -->
+      <div class="signal-detail-panel" id="signalDetailPanel" style="display:none;"></div>
+
       <!-- Collapsible Signal Scoring subsection -->
       <section class="collapsible-section signal-scoring-subsection" id="signal-scoring">
         <div class="library-header reveal" id="signalScoringToggle">
@@ -169,6 +172,64 @@
                   </div>
                   <ol class="pop-list" id="popularityTopSourcesBySector"></ol>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Signal Velocity subsection -->
+      <section class="collapsible-section signal-velocity-subsection" id="signal-velocity">
+        <div class="library-header reveal" id="signalVelocityToggle">
+          <div class="library-header-left">
+            <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/><path d="M12 2v20"/></svg>
+            <div>
+              <h3 class="section-title">Signal Velocity</h3>
+            </div>
+          </div>
+          <div class="library-header-right">
+            <span class="library-expand-hint">Click to expand</span>
+            <svg class="library-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </div>
+        </div>
+        <div class="library-body" id="signalVelocityBody" style="display:none;">
+          <div class="chart-row chart-row-single reveal">
+            <div class="chart-card">
+              <div class="chart-card-header">
+                <h3>Signals Over Time</h3>
+                <p>Count of signals by month to track institutional activity momentum</p>
+              </div>
+              <div class="chart-container">
+                <canvas id="velocityChart"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tier Breakdown subsection -->
+      <section class="collapsible-section tier-breakdown-subsection" id="tier-breakdown">
+        <div class="library-header reveal" id="tierBreakdownToggle">
+          <div class="library-header-left">
+            <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2v20M2 12h20"/></svg>
+            <div>
+              <h3 class="section-title">Credibility Tier Breakdown</h3>
+            </div>
+          </div>
+          <div class="library-header-right">
+            <span class="library-expand-hint">Click to expand</span>
+            <svg class="library-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </div>
+        </div>
+        <div class="library-body" id="tierBreakdownBody" style="display:none;">
+          <div class="chart-row chart-row-single reveal">
+            <div class="chart-card">
+              <div class="chart-card-header">
+                <h3>Source Distribution by Tier</h3>
+                <p>Share of signals by source credibility tier (Primary, Secondary, Tertiary)</p>
+              </div>
+              <div class="chart-container tier-chart-container">
+                <canvas id="tierChart"></canvas>
               </div>
             </div>
           </div>
