@@ -1504,7 +1504,16 @@ function renderPopularityAnalysis() {
   const seedSources = Array.isArray(popularitySeed?.top_sources) ? popularitySeed.top_sources : [];
 
   const topSignals = signalEntries.length
-    ? signalEntries.slice(0, 10).map(item => ({ label: item.label, score: Number(item.score.toFixed(2)) }))
+    ? signalEntries.slice(0, 10).map(item => ({
+        label: item.label,
+        score: Number(item.score.toFixed(2)),
+        source: item.source,
+        tier: item.tier,
+        date: item.date,
+        dateValue: item.dateValue,
+        institution: item.institution,
+        initiative: item.initiative
+      }))
     : seedSignals.slice(0, 10);
 
   const topSources = sourceEntries.length
