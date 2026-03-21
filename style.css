@@ -4,40 +4,8 @@
   scroll-margin-top: var(--space-16);
 }
 
-#signal-strength .signal-scoring-subsection {
-  margin-top: var(--space-5);
-}
-
-#signal-strength .signal-scoring-subsection .library-header {
-  padding: var(--space-4) var(--space-5);
-  background: var(--color-surface-offset);
-  border: 1px solid var(--color-divider);
-  border-radius: var(--radius-lg);
-}
-
-#signal-strength .signal-scoring-subsection .library-header:hover {
-  border-color: var(--color-primary);
-}
-
-#signal-strength .signal-scoring-subsection .library-icon {
-  width: 22px;
-  height: 22px;
-}
-
-#signal-strength .signal-scoring-subsection.open .library-header {
-  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
-}
-
-#signal-strength .signal-scoring-subsection .library-body {
-  border: 1px solid var(--color-divider);
-  border-top: none;
-  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
-  background: var(--color-surface-2);
-  padding: var(--space-5);
-}
-
-#signal-strength .signal-scoring-subsection .chart-row {
-  margin-bottom: 0;
+.signal-matrix-section {
+  padding: var(--space-1) 0 var(--space-2);
 }
 
 #signal-strength .source-quality-subsection {
@@ -1222,6 +1190,18 @@
   gap: var(--space-2);
   margin-bottom: var(--space-3);
 }
+.signal-matrix-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.signal-matrix-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--color-text);
+}
 .signal-strength-controls {
   display: flex;
   gap: var(--space-3);
@@ -1398,10 +1378,40 @@
 .signal-strength-breakdown-table-card {
   margin-bottom: var(--space-3);
 }
+
+.sbd-table-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  cursor: pointer;
+  padding: var(--space-1) 0;
+}
+
+.sbd-chevron {
+  width: 18px;
+  height: 18px;
+  color: var(--color-text-faint);
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+.sbd-table-body {
+  display: none;
+}
+
+.signal-strength-breakdown-table-card.sbd-expanded .sbd-table-body {
+  display: block;
+}
+
+.signal-strength-breakdown-table-card.sbd-expanded .sbd-chevron {
+  transform: rotate(180deg);
+}
+
 .signal-strength-breakdown-table-summary {
   font-size: 11px;
   color: var(--color-text-muted);
-  margin-bottom: var(--space-2);
+  margin-bottom: 0;
 }
 .signal-strength-breakdown-table {
   width: 100%;
@@ -1811,6 +1821,12 @@
 
 .signal-scoring-clear:hover {
   background: rgba(0, 212, 255, 0.18);
+}
+
+.signal-scoring-clear.is-inactive {
+  opacity: 0.32;
+  cursor: default;
+  pointer-events: none;
 }
 
 .filter-pills-wrap {

@@ -154,12 +154,6 @@ document.getElementById('signalStrengthToggle')?.addEventListener('click', () =>
   trackSectionToggle('Signal Strength', isOpen);
 });
 
-document.getElementById('signalScoringToggle')?.addEventListener('click', () => {
-  const section = document.querySelector('#signal-scoring');
-  const isOpen = !section?.classList.contains('open');
-  toggleCollapsible('#signal-scoring', 'signalScoringBody');
-  trackSectionToggle('Signal Scoring', isOpen);
-});
 
 document.getElementById('methodologyToggle')?.addEventListener('click', () => {
   const section = document.querySelector('#methodology');
@@ -836,7 +830,8 @@ function renderSignalScoringFilterChip() {
 function renderSignalScoringClearFilterButton() {
   const btn = document.getElementById('signalScoringClearFilterBtn');
   if (!btn) return;
-  btn.style.display = signalScoringFilter ? 'inline-flex' : 'none';
+  btn.disabled = !signalScoringFilter;
+  btn.classList.toggle('is-inactive', !signalScoringFilter);
 }
 
 function clearSignalScoringFilter() {
@@ -871,15 +866,14 @@ function drillDownKPIToSignalMatrixByInstitutionType(institutionType, dateKey) {
   signalScoringMetricMode = 'count';
   closeKPIBreakdown();
   openCollapsible('#signal-strength', 'signalStrengthBody');
-  openCollapsible('#signal-scoring', 'signalScoringBody');
   renderPopularityAnalysis();
 
-  const target = document.getElementById('signal-scoring');
+  const target = document.getElementById('signal-strength');
   if (target) {
     setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 120);
   }
 
-  trackDrillDown('KPI Breakdown', 'Signal Intelligence Matrix');
+  trackDrillDown('KPI Breakdown', 'Signal Matrix');
 }
 
 function renderKPIs() {
@@ -2241,23 +2235,33 @@ function showSignalStrengthBreakdown(institutionType, initiativeType) {
     </div>
     <div class="signal-strength-breakdown-card signal-strength-breakdown-table-card">
       <h5>Top Contributing Signal Types</h5>
-      <div class="signal-strength-breakdown-table-summary">Totals: ${rawCount} signals · ${totalScore.toFixed(1)} score · ${allInstitutions.size} institutions</div>
-      <table class="signal-strength-breakdown-table">
-        <thead><tr><th>Signal Type</th><th>Sub-Type</th><th>Count</th><th>Score</th><th>Institutions</th></tr></thead>
-        <tbody>
-          ${signalTypeRows.map(row => `<tr><td>${escapeHtml(row.type)}</td><td>${escapeHtml(row.subtype)}</td><td>${row.count}</td><td>${row.score.toFixed(1)}</td><td>${row.institutions}</td></tr>`).join('')}
-        </tbody>
-      </table>
+      <div class="sbd-table-toggle" onclick="this.closest('.signal-strength-breakdown-table-card').classList.toggle('sbd-expanded')">
+        <div class="signal-strength-breakdown-table-summary">Totals: ${rawCount} signals · ${totalScore.toFixed(1)} score · ${allInstitutions.size} institutions</div>
+        <svg class="sbd-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+      </div>
+      <div class="sbd-table-body">
+        <table class="signal-strength-breakdown-table">
+          <thead><tr><th>Signal Type</th><th>Sub-Type</th><th>Count</th><th>Score</th><th>Institutions</th></tr></thead>
+          <tbody>
+            ${signalTypeRows.map(row => `<tr><td>${escapeHtml(row.type)}</td><td>${escapeHtml(row.subtype)}</td><td>${row.count}</td><td>${row.score.toFixed(1)}</td><td>${row.institutions}</td></tr>`).join('')}
+          </tbody>
+        </table>
+      </div>
     </div>
     <div class="signal-strength-breakdown-card signal-strength-breakdown-table-card">
       <h5>Top Contributing Sources</h5>
-      <div class="signal-strength-breakdown-table-summary">Totals: ${sourceRows.length} sources · ${rawCount} signals</div>
-      <table class="signal-strength-breakdown-table">
-        <thead><tr><th>Source</th><th>Count</th><th>Score</th><th>Avg Score</th><th>Institutions</th><th>Latest</th></tr></thead>
-        <tbody>
-          ${sourceRows.map(row => `<tr><td>${escapeHtml(row.source)}</td><td>${row.count}</td><td>${row.score.toFixed(1)}</td><td>${row.avgScore.toFixed(2)}</td><td>${row.institutions}</td><td>${escapeHtml(formatDate(row.latestDate || ''))}</td></tr>`).join('')}
-        </tbody>
-      </table>
+      <div class="sbd-table-toggle" onclick="this.closest('.signal-strength-breakdown-table-card').classList.toggle('sbd-expanded')">
+        <div class="signal-strength-breakdown-table-summary">Totals: ${sourceRows.length} sources · ${rawCount} signals</div>
+        <svg class="sbd-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+      </div>
+      <div class="sbd-table-body">
+        <table class="signal-strength-breakdown-table">
+          <thead><tr><th>Source</th><th>Count</th><th>Score</th><th>Avg Score</th><th>Institutions</th><th>Latest</th></tr></thead>
+          <tbody>
+            ${sourceRows.map(row => `<tr><td>${escapeHtml(row.source)}</td><td>${row.count}</td><td>${row.score.toFixed(1)}</td><td>${row.avgScore.toFixed(2)}</td><td>${row.institutions}</td><td>${escapeHtml(formatDate(row.latestDate || ''))}</td></tr>`).join('')}
+          </tbody>
+        </table>
+      </div>
     </div>
     <div class="signal-strength-breakdown-stats compact">
       <div class="signal-strength-stat compact"><span class="signal-strength-stat-label">${primaryMetricLabel}</span><span class="signal-strength-stat-value">${primaryMetricValue}</span></div>
@@ -2662,7 +2666,7 @@ function renderDirectory() {
     if (insts.length === 0) return;
     const totalSignals = insts.reduce((s, i) => s + i.signals, 0);
     const color = colorMap[cat];
-    const isOpen = false; // collapsed by default
+    const isOpen = !!(dirSearch || dirCountryFilter);
 
     html += `<div class="dir-category${isOpen ? ' open' : ''}">`;
     html += `<div class="dir-category-header" onclick="this.parentElement.classList.toggle('open')">`;

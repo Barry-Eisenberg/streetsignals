@@ -107,7 +107,7 @@
         <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="4"/><path d="M8 16V10"/><path d="M12 16V8"/><path d="M16 16V12"/></svg>
         <div>
           <h2 class="section-title">Signal Intelligence</h2>
-          <p class="section-subtitle">A consolidated view of where institutional activity is concentrated, how strong it is, and how credible the underlying source coverage appears across sectors.</p>
+          <p class="section-subtitle">A consolidated view of sector activity, signal intensity, and source coverage across institutional segments.</p>
         </div>
       </div>
       <div class="library-header-right">
@@ -117,58 +117,43 @@
     </div>
 
     <div class="library-body" id="signalStrengthBody" style="display:none;">
-
-      <!-- Collapsible Signal Strength Matrix subsection -->
-      <section class="collapsible-section signal-scoring-subsection" id="signal-scoring">
-        <div class="library-header reveal" id="signalScoringToggle">
-          <div class="library-header-left">
-            <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V4"/><path d="M6 12h12"/></svg>
-            <div>
-              <h3 class="section-title">Signal Intelligence Matrix</h3>
-            </div>
-          </div>
-          <div class="library-header-right">
-            <span class="library-expand-hint">Click to expand</span>
-            <svg class="library-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-          </div>
-        </div>
-        <div class="library-body" id="signalScoringBody" style="display:none;">
-          <div class="chart-row chart-row-single reveal">
-            <div class="chart-card">
-              <div class="signal-strength-matrix-header">
-                <p class="matrix-lead">This matrix displays the signal strength or count of both Initiative and FMI Areas by institution type. Use the toggles to change the view and click any cell to see detailed information on the signal score.</p>
-                <div class="signal-strength-controls">
-                  <div class="signal-strength-control-group" aria-label="Signal matrix dimension">
-                    <button type="button" id="signalDimInitiativeBtn" class="signal-strength-control is-active" onclick="setSignalScoringDimensionMode('initiative')">Initiatives</button>
-                    <button type="button" id="signalDimFmiBtn" class="signal-strength-control" onclick="setSignalScoringDimensionMode('fmi')">FMI Areas</button>
-                  </div>
-                  <div class="signal-strength-control-group" aria-label="Signal matrix metric mode">
-                    <button type="button" id="signalMetricStrengthBtn" class="signal-strength-control is-active" onclick="setSignalScoringMetricMode('strength')">Strength</button>
-                    <button type="button" id="signalMetricCountBtn" class="signal-strength-control" onclick="setSignalScoringMetricMode('count')">Raw Count</button>
-                  </div>
-                  <div class="signal-strength-control-group" aria-label="Signal matrix color mode">
-                    <button type="button" id="signalColorAbsoluteBtn" class="signal-strength-control is-active" onclick="setSignalScoringColorMode('absolute')">Absolute</button>
-                    <button type="button" id="signalColorPercentileBtn" class="signal-strength-control" onclick="setSignalScoringColorMode('percentile')">Percentile</button>
-                  </div>
-                  <button type="button" id="signalScoringClearFilterBtn" class="signal-strength-control signal-scoring-clear" onclick="clearSignalScoringFilter()" style="display:none;">Remove KPI Filter</button>
+      <div class="signal-matrix-section">
+        <div class="chart-row chart-row-single reveal">
+          <div class="chart-card">
+            <div class="signal-strength-matrix-header">
+              <div class="signal-matrix-copy">
+                <h3 class="signal-matrix-title">Signal Matrix</h3>
+                <p class="matrix-lead">Compare initiative and FMI area activity by institution type. Switch between weighted strength and raw count, then click any cell to inspect the underlying scorecard.</p>
+              </div>
+              <div class="signal-strength-controls">
+                <div class="signal-strength-control-group" aria-label="Signal matrix dimension">
+                  <button type="button" id="signalDimInitiativeBtn" class="signal-strength-control is-active" onclick="setSignalScoringDimensionMode('initiative')">Initiatives</button>
+                  <button type="button" id="signalDimFmiBtn" class="signal-strength-control" onclick="setSignalScoringDimensionMode('fmi')">FMI Areas</button>
                 </div>
+                <div class="signal-strength-control-group" aria-label="Signal matrix metric mode">
+                  <button type="button" id="signalMetricStrengthBtn" class="signal-strength-control is-active" onclick="setSignalScoringMetricMode('strength')">Strength</button>
+                  <button type="button" id="signalMetricCountBtn" class="signal-strength-control" onclick="setSignalScoringMetricMode('count')">Raw Count</button>
+                </div>
+                <div class="signal-strength-control-group" aria-label="Signal matrix color mode">
+                  <button type="button" id="signalColorAbsoluteBtn" class="signal-strength-control is-active" onclick="setSignalScoringColorMode('absolute')">Absolute</button>
+                  <button type="button" id="signalColorPercentileBtn" class="signal-strength-control" onclick="setSignalScoringColorMode('percentile')">Percentile</button>
+                </div>
+                <button type="button" id="signalScoringClearFilterBtn" class="signal-strength-control signal-scoring-clear" onclick="clearSignalScoringFilter()">Clear KPI Filter</button>
               </div>
-              <div class="matrix-filter-chip signal-scoring-filter-chip" id="signalScoringFilterChip" style="display:none;">
-                <span class="matrix-filter-chip-label" id="signalScoringFilterChipLabel"></span>
-                <button type="button" class="matrix-filter-chip-clear" onclick="clearSignalScoringFilter()">Clear</button>
-              </div>
-              <div class="heatmap-container" id="signalScoringMatrixContainer"></div>
-              <div class="signal-strength-legend" id="signalScoringLegend"></div>
-              <div class="signal-strength-breakdown" id="signalScoringBreakdown" style="display:none;"></div>
             </div>
+            <div class="matrix-filter-chip signal-scoring-filter-chip" id="signalScoringFilterChip" style="display:none;">
+              <span class="matrix-filter-chip-label" id="signalScoringFilterChipLabel"></span>
+              <button type="button" class="matrix-filter-chip-clear" onclick="clearSignalScoringFilter()">Clear</button>
+            </div>
+            <div class="heatmap-container" id="signalScoringMatrixContainer"></div>
+            <div class="signal-strength-legend" id="signalScoringLegend"></div>
+            <div class="signal-strength-breakdown" id="signalScoringBreakdown" style="display:none;"></div>
           </div>
         </div>
-      </section>
-
+      </div>
     </div>
   </div>
 </section>
-
 <!-- INSTITUTION DIRECTORY -->
 <section class="directory-section collapsible-section" id="directory">
   <div class="container">
