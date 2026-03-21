@@ -121,6 +121,80 @@ function trackDrillDown(sourceSection, targetSection) {
   }
 }
 
+function getSignalKey(signal) {
+  return `${String(signal.institution || '').trim()}|${String(signal.initiative || '').trim()}`.toLowerCase();
+}
+
+function getPopularityStore() {
+  try {
+    const raw = localStorage.getItem('streetsignals_popularity_v1');
+    const parsed = raw ? JSON.parse(raw) : null;
+    if (parsed && typeof parsed === 'object') return parsed;
+  } catch (_) {
+    // Ignore malformed local storage payloads.
+  }
+  return { signals: {}, sources: {} };
+}
+
+function savePopularityStore(store) {
+  try {
+    localStorage.setItem('streetsignals_popularity_v1', JSON.stringify(store));
+  } catch (_) {
+    // Ignore storage failures (private mode/quota).
+  }
+}
+
+function recordPopularityInteraction(signal, interactionType) {
+  if (!signal) return;
+
+  const weights = {
+    card_view: 1,
+    detail_expand: 0.5,
+    source_click: 2
+  };
+
+  const key = getSignalKey(signal);
+  const source = getSignalSourceName(signal);
+  const store = getPopularityStore();
+
+  if (!store.signals[key]) {
+    store.signals[key] = {
+      institution: signal.institution || '',
+      initiative: signal.initiative || '',
+      source_name: source || '',
+      card_view: 0,
+      detail_expand: 0,
+      source_click: 0,
+      score: 0,
+      updated_at: Date.now()
+    };
+  }
+
+  store.signals[key][interactionType] = (store.signals[key][interactionType] || 0) + 1;
+  store.signals[key].score += weights[interactionType] || 0;
+  store.signals[key].updated_at = Date.now();
+
+  if (source) {
+    if (!store.sources[source]) {
+      store.sources[source] = { card_view: 0, detail_expand: 0, source_click: 0, score: 0, updated_at: Date.now() };
+    }
+    store.sources[source][interactionType] = (store.sources[source][interactionType] || 0) + 1;
+    store.sources[source].score += weights[interactionType] || 0;
+    store.sources[source].updated_at = Date.now();
+  }
+
+  savePopularityStore(store);
+
+  if (window.trackEvent) {
+    window.trackEvent('signal_engagement', {
+      interaction_type: interactionType,
+      signal_key: key,
+      source_name: source || 'unknown',
+      institution: signal.institution || 'unknown'
+    });
+  }
+}
+
 // ===== SIGNAL LIBRARY TOGGLE =====
 document.getElementById('libraryToggle')?.addEventListener('click', () => {
   const section = document.querySelector('.signal-library-section');
@@ -398,6 +472,7 @@ let activeFilter = 'all';
 let searchQuery = '';
 let matrixFilter = null;
 let chartInstances = {};
+let popularitySeed = null;
 
 function mapIntelBriefsToSignals(briefs) {
   return briefs.map(b => ({
@@ -430,12 +505,14 @@ Promise.all([
   loadJsonWithFallback('./data.json', []),
   loadJsonWithFallback('./auto_data.json', []),
   loadJsonWithFallback('./intel_briefs.json', INTEL_BRIEFS_DEFAULT),
-  loadJsonWithFallback('./taxonomy/initiative-taxonomy.v1.json', DEFAULT_INITIATIVE_TAXONOMY)
-]).then(([manualData, autoData, intelBriefs, taxonomyData]) => {
+  loadJsonWithFallback('./taxonomy/initiative-taxonomy.v1.json', DEFAULT_INITIATIVE_TAXONOMY),
+  loadJsonWithFallback('./popularity.json', null)
+]).then(([manualData, autoData, intelBriefs, taxonomyData, popularityData]) => {
   if (taxonomyData && Array.isArray(taxonomyData.canonicalInitiatives) && Array.isArray(taxonomyData.aliasMap)) {
     initiativeTaxonomy = taxonomyData;
   }
   initiativeAliasMap = buildInitiativeAliasMap(initiativeTaxonomy);
+  popularitySeed = popularityData && typeof popularityData === 'object' ? popularityData : null;
 
   const manualSignals = Array.isArray(manualData) ? manualData : [];
   const generatedSignals = Array.isArray(autoData) ? autoData : [];
@@ -456,6 +533,7 @@ Promise.all([
   renderInitiativeSchema();
   renderFmiSchema();
   renderSignals();
+  renderPopularityAnalysis();
   document.querySelectorAll('.reveal:not(.visible)').forEach(el => observer.observe(el));
 });
 
@@ -1261,12 +1339,44 @@ function renderSignals() {
   }
   container.innerHTML = html;
   document.querySelectorAll('.reveal:not(.visible)').forEach(el => observer.observe(el));
+
+  document.querySelectorAll('.signal-card').forEach(card => {
+    card.addEventListener('click', (e) => {
+      if (e.target.closest('a, button')) return;
+      const key = decodeURIComponent(card.dataset.signalKey || '');
+      const signal = allSignals.find(s => getSignalKey(s) === key);
+      if (signal) {
+        recordPopularityInteraction(signal, 'card_view');
+        renderPopularityAnalysis();
+      }
+    });
+  });
+
+  document.querySelectorAll('.signal-source').forEach(link => {
+    link.addEventListener('click', () => {
+      const key = decodeURIComponent(link.dataset.signalKey || '');
+      const signal = allSignals.find(s => getSignalKey(s) === key);
+      if (signal) {
+        recordPopularityInteraction(signal, 'source_click');
+        renderPopularityAnalysis();
+      }
+    });
+  });
+
   document.querySelectorAll('.expand-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
       const card = btn.closest('.signal-card');
       card.classList.toggle('expanded');
       btn.textContent = card.classList.contains('expanded') ? 'Show less' : 'Read more';
+      if (card.classList.contains('expanded')) {
+        const key = decodeURIComponent(card.dataset.signalKey || '');
+        const signal = allSignals.find(s => getSignalKey(s) === key);
+        if (signal) {
+          recordPopularityInteraction(signal, 'detail_expand');
+          renderPopularityAnalysis();
+        }
+      }
     });
   });
 }
@@ -1276,8 +1386,9 @@ function renderCard(signal, catKey) {
   const hasLong = signal.description && signal.description.length > 200;
   const url = signal.source_url || '#';
   const domain = url !== '#' ? new URL(url).hostname.replace('www.','') : '';
+  const signalKey = encodeURIComponent(getSignalKey(signal));
   return `
-    <div class="signal-card">
+    <div class="signal-card" data-signal-key="${signalKey}">
       <div class="signal-card-top">
         <div class="signal-institution"><span class="dot"></span>${signal.institution}</div>
         <span class="signal-date">${date}</span>
@@ -1286,11 +1397,66 @@ function renderCard(signal, catKey) {
       <div class="signal-description">${signal.description || ''}</div>
       ${hasLong ? '<button class="expand-btn">Read more</button>' : ''}
       <div class="signal-footer">
-        ${url !== '#' ? `<a href="${url}" target="_blank" rel="noopener noreferrer" class="signal-source"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>${domain}</a>` : '<span></span>'}
+        ${url !== '#' ? `<a href="${url}" target="_blank" rel="noopener noreferrer" class="signal-source" data-signal-key="${signalKey}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>${domain}</a>` : '<span></span>'}
         <span class="signal-tag tag-${catKey}">${TAG_LABELS[catKey]}</span>
       </div>
     </div>
   `;
+}
+
+function renderPopularityAnalysis() {
+  const summary = document.getElementById('popularitySummary');
+  const topSignalsEl = document.getElementById('popularityTopSignals');
+  const topSourcesEl = document.getElementById('popularityTopSources');
+  if (!summary || !topSignalsEl || !topSourcesEl) return;
+
+  const store = getPopularityStore();
+  const signalEntries = Object.entries(store.signals || {}).sort((a, b) => (b[1].score || 0) - (a[1].score || 0));
+  const sourceEntries = Object.entries(store.sources || {}).sort((a, b) => (b[1].score || 0) - (a[1].score || 0));
+
+  const seedSignals = Array.isArray(popularitySeed?.top_signals) ? popularitySeed.top_signals : [];
+  const seedSources = Array.isArray(popularitySeed?.top_sources) ? popularitySeed.top_sources : [];
+
+  const topSignals = signalEntries.length
+    ? signalEntries.slice(0, 10).map(([_, v]) => ({
+      label: `${v.institution}: ${v.initiative}`,
+      score: Number((v.score || 0).toFixed(1))
+    }))
+    : seedSignals.slice(0, 10);
+
+  const topSources = sourceEntries.length
+    ? sourceEntries.slice(0, 10).map(([sourceName, v]) => ({
+      label: sourceName,
+      score: Number((v.score || 0).toFixed(1))
+    }))
+    : seedSources.slice(0, 10);
+
+  const maxSignalScore = topSignals[0]?.score || 1;
+  const maxSourceScore = topSources[0]?.score || 1;
+
+  summary.textContent = signalEntries.length || sourceEntries.length
+    ? 'Popularity score is based on on-site interactions: card views, detail expands, and source link clicks.'
+    : 'Popularity will appear once users interact with signals. You can also seed baseline rankings via popularity.json.';
+
+  topSignalsEl.innerHTML = topSignals.length
+    ? topSignals.map(item => `
+      <li class="pop-row">
+        <span class="pop-label">${item.label}</span>
+        <span class="pop-bar"><span class="pop-bar-fill" style="width:${(item.score / maxSignalScore) * 100}%"></span></span>
+        <span class="pop-value">${item.score}</span>
+      </li>
+    `).join('')
+    : '<li class="pop-empty">No popularity data yet</li>';
+
+  topSourcesEl.innerHTML = topSources.length
+    ? topSources.map(item => `
+      <li class="pop-row">
+        <span class="pop-label">${item.label}</span>
+        <span class="pop-bar"><span class="pop-bar-fill" style="width:${(item.score / maxSourceScore) * 100}%"></span></span>
+        <span class="pop-value">${item.score}</span>
+      </li>
+    `).join('')
+    : '<li class="pop-empty">No popularity data yet</li>';
 }
 
 function formatDate(d) {

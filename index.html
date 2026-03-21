@@ -295,7 +295,27 @@
       </div>
     </div>
 
-    <!-- Row 4: Additional Analytics (collapsible) -->
+    <!-- Row 4: Popularity (full width) -->
+    <div class="chart-row chart-row-single reveal">
+      <div class="chart-card popularity-card">
+        <div class="chart-card-header">
+          <h3>Signal &amp; Source Popularity</h3>
+          <p id="popularitySummary">Popularity score is based on on-site interactions: card views, detail expands, and source link clicks.</p>
+        </div>
+        <div class="popularity-grid">
+          <div class="popularity-col">
+            <h4>Top Signals</h4>
+            <ol class="pop-list" id="popularityTopSignals"></ol>
+          </div>
+          <div class="popularity-col">
+            <h4>Top Sources</h4>
+            <ol class="pop-list" id="popularityTopSources"></ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 5: Additional Analytics (collapsible) -->
     <div class="additional-analytics-toggle reveal">
       <button id="additionalAnalyticsToggle" class="additional-analytics-btn" type="button" aria-expanded="false" aria-controls="additionalAnalyticsBody">
         Show Additional Analytics
