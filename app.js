@@ -1636,6 +1636,7 @@ function showSignalDetail(signalData) {
     </div>
   `;
   panel.style.display = 'block';
+}
 
 function closeSignalDetail() {
   const panel = document.getElementById('signalDetailPanel');
