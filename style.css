@@ -1697,6 +1697,35 @@
   color: var(--color-text-faint);
 }
 
+.signal-type-filter {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-2) var(--space-3);
+}
+
+.signal-type-filter label {
+  font-size: 11px;
+  color: var(--color-text-muted);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+.signal-type-filter select {
+  border: none;
+  background: transparent;
+  color: var(--color-text);
+  font-size: var(--text-sm);
+  font-family: var(--font-body);
+  outline: none;
+  min-width: 190px;
+  cursor: pointer;
+}
+
 .filter-pills {
   display: flex;
   flex-wrap: wrap;
@@ -2235,6 +2264,14 @@
   }
   .search-box {
     min-width: 100%;
+  }
+  .signal-type-filter {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .signal-type-filter select {
+    min-width: 0;
+    width: 100%;
   }
   .intel-briefs {
     grid-template-columns: 1fr;

@@ -631,6 +631,7 @@ Promise.all([
   buildCharts();
   window._chartsReady = true;
   renderFilterPills();
+  renderSignalTypeSelect();
   renderIntelBriefs();
   renderInitiativeSchema();
   renderFmiSchema();
@@ -1488,6 +1489,7 @@ function buildHeatmap(colors) {
 document.getElementById('searchInput')?.addEventListener('input', (e) => {
   matrixFilter = null;
   signalTypeFilter = '';
+  syncSignalTypeSelect();
   searchQuery = e.target.value.toLowerCase().trim();
   if (searchQuery) trackSearch(searchQuery, 'Signal Catalogue');
   renderSignals();
@@ -1511,12 +1513,47 @@ function renderFilterPills() {
       btn.classList.add('active');
       matrixFilter = null;
       signalTypeFilter = '';
+      syncSignalTypeSelect();
       activeFilter = btn.dataset.filter;
       trackFilter('institution_category', btn.dataset.filter);
       renderSignals();
       updateResetBars();
     });
   });
+}
+
+function syncSignalTypeSelect() {
+  const select = document.getElementById('signalTypeSelect');
+  if (select) select.value = signalTypeFilter;
+}
+
+function renderSignalTypeSelect() {
+  const select = document.getElementById('signalTypeSelect');
+  if (!select) return;
+
+  const counts = {};
+  getOperationalSignals().forEach(signal => {
+    const type = String(signal.signal_type || '').trim();
+    if (!isVisibleSignalType(type)) return;
+    counts[type] = (counts[type] || 0) + 1;
+  });
+
+  const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+  let html = '<option value="">All Signal Types</option>';
+  sorted.forEach(([type, count]) => {
+    const safeType = type.replace(/"/g, '&quot;');
+    html += `<option value="${safeType}">${type} (${count})</option>`;
+  });
+  select.innerHTML = html;
+  syncSignalTypeSelect();
+
+  select.onchange = (event) => {
+    matrixFilter = null;
+    signalTypeFilter = String(event.target.value || '').trim();
+    if (signalTypeFilter) trackFilter('signal_type', signalTypeFilter);
+    renderSignals();
+    updateResetBars();
+  };
 }
 
 // ===== INTEL BRIEFS =====
@@ -2372,6 +2409,7 @@ function navigateToSignal(query, catKey) {
   // 2. If catKey provided, activate that filter pill
   matrixFilter = null;
   signalTypeFilter = '';
+  syncSignalTypeSelect();
   if (catKey) {
     activeFilter = catKey;
     const pills = document.querySelectorAll('.filter-pill');
@@ -2438,6 +2476,7 @@ function navigateToMatrixSelection(institutionType, initiativeType) {
   // 2. Apply matrix filter and category pill
   matrixFilter = { institutionType, initiativeType, dimension: signalScoringDimensionMode };
   signalTypeFilter = '';
+  syncSignalTypeSelect();
   const catKey = categoryForInstitutionType(institutionType);
   activeFilter = catKey;
 
@@ -2475,6 +2514,7 @@ function navigateToCatalogueBySignalType(signalType) {
 
   matrixFilter = null;
   signalTypeFilter = selectedType;
+  syncSignalTypeSelect();
   searchQuery = '';
   activeFilter = 'all';
   const searchInput = document.getElementById('searchInput');
@@ -2500,6 +2540,7 @@ function navigateToCatalogueBySignalType(signalType) {
 function clearMatrixFilter() {
   matrixFilter = null;
   signalTypeFilter = '';
+  syncSignalTypeSelect();
   renderSignals();
   updateResetBars();
 }
@@ -2548,6 +2589,7 @@ function resetAllFilters() {
   searchQuery = '';
   matrixFilter = null;
   signalTypeFilter = '';
+  syncSignalTypeSelect();
   const searchInput = document.getElementById('searchInput');
   if (searchInput) searchInput.value = '';
 
