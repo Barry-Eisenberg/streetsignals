@@ -2894,9 +2894,13 @@
 
 .priority-signals-view-all {
   color: var(--color-primary);
+  background: transparent;
+  border: none;
   text-decoration: none;
   font-size: 12px;
   font-weight: 600;
+  padding: 0;
+  cursor: pointer;
   transition: color 150ms ease;
 }
 

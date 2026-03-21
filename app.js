@@ -2863,9 +2863,13 @@ function renderFilterPills() {
   const container = document.getElementById('filterPills');
   if (!container) return;
   const nonBriefs = getCatalogueSignals({ includeCategory: false });
+  const personaScoped = selectedPersona !== DEFAULT_PERSONA
+    ? nonBriefs.filter(signal => getPersonaRelevance(signal, selectedPersona) >= 0.15)
+    : nonBriefs;
+  const countSource = personaScoped.length > 0 ? personaScoped : nonBriefs;
   const counts = {};
-  nonBriefs.forEach(s => { counts[s.category] = (counts[s.category] || 0) + 1; });
-  let html = `<button class="filter-pill${activeFilter === 'all' ? ' active' : ''}" data-filter="all">All<span class="count">${nonBriefs.length}</span></button>`;
+  countSource.forEach(s => { counts[s.category] = (counts[s.category] || 0) + 1; });
+  let html = `<button class="filter-pill${activeFilter === 'all' ? ' active' : ''}" data-filter="all">All<span class="count">${countSource.length}</span></button>`;
   for (const [key, cat] of Object.entries(CATEGORIES)) {
     html += `<button class="filter-pill${activeFilter === key ? ' active' : ''}" data-filter="${key}">${cat.name.split(' ')[0]}<span class="count">${counts[key] || 0}</span></button>`;
   }
@@ -3058,6 +3062,7 @@ function renderPersonaSelect() {
     btn.onclick = () => {
       const mode = btn.dataset.persona || DEFAULT_PERSONA;
       setPersona(mode);
+      syncPersonaSelect();
       trackFilter('audience_lens', selectedPersona);
       renderCatalogueSortNote();
       renderSignals();
@@ -3069,6 +3074,22 @@ function renderPersonaSelect() {
   });
   syncPersonaSelect();
   renderCatalogueSortNote();
+}
+
+function focusStructuralSignalsFromPriority() {
+  setImportanceTierMode('structural');
+  activeFilter = 'all';
+  signalScoringFilter = null;
+  matrixFilter = null;
+  syncImportanceTierSelect();
+  renderSignals();
+  updateResetBars();
+  trackFilter('importance_tier', 'structural');
+
+  const target = document.getElementById('signalSections') || document.getElementById('signal-library');
+  if (target && typeof target.scrollIntoView === 'function') {
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
 }
 
 // ===== INTEL BRIEFS =====
@@ -3165,9 +3186,9 @@ function renderPrioritySignalsStrip() {
   html += `
       </div>
       <div class="priority-signals-footer">
-        <a href="#" onclick="filterImportanceTier('structural'); return false;" class="priority-signals-view-all">
+        <button type="button" onclick="focusStructuralSignalsFromPriority()" class="priority-signals-view-all">
           View all Structural signals →
-        </a>
+        </button>
       </div>
     </div>
   `;
