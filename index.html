@@ -135,12 +135,13 @@
         <div class="library-body" id="signalScoringBody" style="display:none;">
           <div class="chart-row chart-row-single reveal">
             <div class="chart-card">
-              <div class="chart-card-header signal-strength-matrix-header">
-                <div>
-                  <h3>Signal Intelligence Matrix</h3>
-                  <p class="matrix-lead">Compare institution classes against initiative or FMI area categories. Switch between weighted strength and raw signal count, and change the heat shading to absolute or percentile view.</p>
-                </div>
+              <div class="signal-strength-matrix-header">
+                <p class="matrix-lead">This matrix displays the signal strength or count of both Initiative and FMI Areas by institution type. Use the toggles to change the view and click any cell to see detailed information on the signal.</p>
                 <div class="signal-strength-controls">
+                  <div class="signal-strength-control-group" aria-label="Signal matrix dimension">
+                    <button type="button" id="signalDimInitiativeBtn" class="signal-strength-control is-active" onclick="setSignalScoringDimensionMode('initiative')">Initiatives</button>
+                    <button type="button" id="signalDimFmiBtn" class="signal-strength-control" onclick="setSignalScoringDimensionMode('fmi')">FMI Areas</button>
+                  </div>
                   <div class="signal-strength-control-group" aria-label="Signal matrix metric mode">
                     <button type="button" id="signalMetricStrengthBtn" class="signal-strength-control is-active" onclick="setSignalScoringMetricMode('strength')">Strength</button>
                     <button type="button" id="signalMetricCountBtn" class="signal-strength-control" onclick="setSignalScoringMetricMode('count')">Raw Count</button>
@@ -148,10 +149,6 @@
                   <div class="signal-strength-control-group" aria-label="Signal matrix color mode">
                     <button type="button" id="signalColorAbsoluteBtn" class="signal-strength-control is-active" onclick="setSignalScoringColorMode('absolute')">Absolute</button>
                     <button type="button" id="signalColorPercentileBtn" class="signal-strength-control" onclick="setSignalScoringColorMode('percentile')">Percentile</button>
-                  </div>
-                  <div class="signal-strength-control-group" aria-label="Signal matrix dimension">
-                    <button type="button" id="signalDimInitiativeBtn" class="signal-strength-control is-active" onclick="setSignalScoringDimensionMode('initiative')">Initiatives</button>
-                    <button type="button" id="signalDimFmiBtn" class="signal-strength-control" onclick="setSignalScoringDimensionMode('fmi')">FMI Areas</button>
                   </div>
                 </div>
               </div>

@@ -1460,9 +1460,10 @@ function renderSignals() {
   let filtered = allSignals.filter(s => !s._isBrief);
   if (activeFilter !== 'all') filtered = filtered.filter(s => s.category === activeFilter);
   if (matrixFilter) {
+    const dimField = matrixFilter.dimension === 'fmi' ? 'fmi_areas' : 'initiative_types';
     filtered = filtered.filter(s =>
       s.institution_type === matrixFilter.institutionType &&
-      (s.initiative_types || []).includes(matrixFilter.initiativeType)
+      (s[dimField] || []).includes(matrixFilter.initiativeType)
     );
   }
   if (searchQuery) filtered = filtered.filter(s => `${s.institution} ${s.initiative} ${s.description} ${s.category}`.toLowerCase().includes(searchQuery));
@@ -1775,6 +1776,9 @@ function showSignalStrengthBreakdown(institutionType, initiativeType) {
       </div>
       <button type="button" class="signal-strength-breakdown-close" onclick="closeSignalStrengthBreakdown()">Close</button>
     </div>
+    <div class="signal-strength-breakdown-actions">
+      <button type="button" onclick='navigateToMatrixSelection(${navigateInstArg},${navigateInitArg})'>View Matching Signals</button>
+    </div>
     <div class="signal-strength-breakdown-stats">
       <div class="signal-strength-stat"><span class="signal-strength-stat-label">${primaryMetricLabel}</span><span class="signal-strength-stat-value">${primaryMetricValue}</span></div>
       <div class="signal-strength-stat"><span class="signal-strength-stat-label">Signals</span><span class="signal-strength-stat-value">${rawCount}</span></div>
@@ -1796,9 +1800,6 @@ function showSignalStrengthBreakdown(institutionType, initiativeType) {
           ${topSignals.map(item => `<li><strong>${escapeHtml(item.institution)}</strong><span>${escapeHtml(item.initiative)} | ${item.score.toFixed(1)}</span></li>`).join('')}
         </ul>
       </div>
-    </div>
-    <div class="signal-strength-breakdown-actions">
-      <button type="button" onclick='navigateToMatrixSelection(${navigateInstArg},${navigateInitArg})'>View Matching Signals</button>
     </div>
   `;
   panel.style.display = 'block';
@@ -2338,7 +2339,7 @@ function navigateToMatrixSelection(institutionType, initiativeType) {
   }
 
   // 2. Apply matrix filter and category pill
-  matrixFilter = { institutionType, initiativeType };
+  matrixFilter = { institutionType, initiativeType, dimension: signalScoringDimensionMode };
   const catKey = categoryForInstitutionType(institutionType);
   activeFilter = catKey;
 
