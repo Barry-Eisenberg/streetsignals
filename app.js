@@ -647,6 +647,38 @@ function getSignalSourceName(signal) {
   return String(signal?.institution || '').trim();
 }
 
+function getSignalDateKey(rawDate) {
+  const raw = typeof rawDate === 'string' ? rawDate.trim() : '';
+  if (!raw) return null;
+  const isoPrefix = raw.slice(0, 10);
+  if (/^\d{4}-\d{2}-\d{2}$/.test(isoPrefix)) return isoPrefix;
+  const dt = new Date(raw);
+  if (isNaN(dt.getTime())) return null;
+  return `${dt.getFullYear()}-${String(dt.getMonth() + 1).padStart(2, '0')}-${String(dt.getDate()).padStart(2, '0')}`;
+}
+
+function getDailySignalSnapshot(signals) {
+  const today = new Date();
+  const todayKey = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
+  const byDate = {};
+
+  signals.forEach(signal => {
+    const key = getSignalDateKey(signal.date);
+    if (!key) return;
+    byDate[key] = (byDate[key] || 0) + 1;
+  });
+
+  const availableDates = Object.keys(byDate).sort();
+  const latestNonFutureDate = availableDates.filter(dateKey => dateKey <= todayKey).pop() || null;
+  const effectiveDateKey = latestNonFutureDate || availableDates.pop() || todayKey;
+
+  return {
+    todayKey,
+    effectiveDateKey,
+    count: byDate[effectiveDateKey] || 0
+  };
+}
+
 function renderKPIs() {
   const el = document.getElementById('kpiStrip');
   const signals = getOperationalSignals();
@@ -660,23 +692,14 @@ function renderKPIs() {
   const productLaunches = signals.filter(s => s.signal_type === 'Product Launch').length;
   const pctLaunches = signals.length ? Math.round((productLaunches / signals.length) * 100) : 0;
 
-  const today = new Date();
-  const todayKey = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
-  const dailyNewSignals = signals.filter(s => {
-    const raw = typeof s.date === 'string' ? s.date.trim() : '';
-    if (!raw) return false;
-    const isoPrefix = raw.slice(0, 10);
-    if (/^\d{4}-\d{2}-\d{2}$/.test(isoPrefix)) return isoPrefix === todayKey;
-    const dt = new Date(raw);
-    if (isNaN(dt.getTime())) return false;
-    const key = `${dt.getFullYear()}-${String(dt.getMonth() + 1).padStart(2, '0')}-${String(dt.getDate()).padStart(2, '0')}`;
-    return key === todayKey;
-  }).length;
-  const todayLabel = new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  const snapshot = getDailySignalSnapshot(signals);
+  const snapshotDate = new Date(`${snapshot.effectiveDateKey}T00:00:00`);
+  const snapshotLabel = snapshotDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  const snapshotContext = snapshot.effectiveDateKey === snapshot.todayKey ? `As of ${snapshotLabel}` : `As of ${snapshotLabel} (latest reporting date)`;
 
   const kpis = [
     { id: 'signals', value: signals.length, label: 'Total Signals', color: 'var(--color-primary)' },
-    { id: 'daily_new', value: dailyNewSignals, label: 'New Signals', color: 'var(--color-success)', delta: `As of ${todayLabel}` },
+    { id: 'daily_new', value: snapshot.count, label: 'New Signals', color: 'var(--color-success)', delta: snapshotContext },
     { id: 'sources', value: uniqueSources.size, label: 'Info Sources', color: 'var(--color-primary)' },
     { id: 'institutions', value: institutions.size, label: 'Institutions', color: 'var(--color-primary)' },
     { id: 'sectors', value: '6', label: 'Sector Categories', color: 'var(--color-primary)' },
@@ -752,27 +775,18 @@ function showKPIBreakdown(kpiId, activeCard) {
     html += '<a href="#directory" class="kpi-breakdown-link">See full Institution Directory ↓</a>';
 
   } else if (kpiId === 'daily_new') {
-    const today = new Date();
-    const todayKey = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
-    const todayLabel = today.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-    const todaysSignals = signals.filter(s => {
-      const raw = typeof s.date === 'string' ? s.date.trim() : '';
-      if (!raw) return false;
-      const isoPrefix = raw.slice(0, 10);
-      if (/^\d{4}-\d{2}-\d{2}$/.test(isoPrefix)) return isoPrefix === todayKey;
-      const dt = new Date(raw);
-      if (isNaN(dt.getTime())) return false;
-      const key = `${dt.getFullYear()}-${String(dt.getMonth() + 1).padStart(2, '0')}-${String(dt.getDate()).padStart(2, '0')}`;
-      return key === todayKey;
-    });
+    const snapshot = getDailySignalSnapshot(signals);
+    const snapshotDate = new Date(`${snapshot.effectiveDateKey}T00:00:00`);
+    const snapshotLabel = snapshotDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    const snapshotSignals = signals.filter(s => getSignalDateKey(s.date) === snapshot.effectiveDateKey);
 
-    html = `<div class="kpi-breakdown-header"><h3>New Signals on ${todayLabel}</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
+    html = `<div class="kpi-breakdown-header"><h3>New Signals on ${snapshotLabel}</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
 
-    if (todaysSignals.length === 0) {
-      html += '<div style="font-size:var(--text-xs);color:var(--color-text-muted);line-height:1.7;">No operational signals are dated for today yet.</div>';
+    if (snapshotSignals.length === 0) {
+      html += '<div style="font-size:var(--text-xs);color:var(--color-text-muted);line-height:1.7;">No operational signals are available for the latest reporting date.</div>';
     } else {
       const byType = {};
-      todaysSignals.forEach(s => { byType[s.institution_type] = (byType[s.institution_type] || 0) + 1; });
+      snapshotSignals.forEach(s => { byType[s.institution_type] = (byType[s.institution_type] || 0) + 1; });
       const sorted = Object.entries(byType).sort((a,b) => b[1] - a[1]);
       const max = sorted[0]?.[1] || 1;
       html += '<div class="kpi-breakdown-grid">';
