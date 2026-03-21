@@ -362,18 +362,19 @@
 .header-right {
   display: flex;
   align-items: center;
-  gap: var(--space-4);
+  gap: var(--space-3);
+  margin-left: clamp(var(--space-4), 2vw, var(--space-8));
 }
 
 .header-nav {
   display: flex;
-  gap: var(--space-1);
+  gap: 0;
 }
 .header-nav a {
   font-size: var(--text-sm);
   color: var(--color-text-muted);
   text-decoration: none;
-  padding: var(--space-2) var(--space-3);
+  padding: var(--space-2) var(--space-2);
   min-height: 44px;
   display: inline-flex;
   align-items: center;
