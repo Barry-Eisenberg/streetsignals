@@ -538,11 +538,33 @@ function normalizeFmiAreas(areas) {
 }
 
 function normalizeSignal(signal) {
+  const normalizedType = normalizeInstitutionType(signal.institution_type);
+  const rawCategory = String(signal.category || '').trim();
+  const categoryAliases = {
+    regulatory: 'regulators',
+    regulators: 'regulators',
+    regulation: 'regulators',
+    bank: 'global_banks',
+    banks: 'global_banks',
+    asset_management: 'asset_management',
+    asset_mgmt: 'asset_management',
+    payments: 'payments',
+    payment: 'payments',
+    exchanges: 'exchanges_intermediaries',
+    exchanges_intermediaries: 'exchanges_intermediaries',
+    infrastructure: 'ecosystem',
+    ecosystem: 'ecosystem',
+    intel: 'intel_briefs',
+    intel_briefs: 'intel_briefs'
+  };
+  const normalizedCategory = categoryAliases[rawCategory.toLowerCase()] || rawCategory;
+
   return {
     ...signal,
-    institution_type: normalizeInstitutionType(signal.institution_type),
+    institution_type: normalizedType,
     fmi_areas: normalizeFmiAreas(signal.fmi_areas),
     initiative_types: normalizeInitiativeTypes(signal.initiative_types),
+    category: CATEGORIES[normalizedCategory] ? normalizedCategory : (CATEGORY_BY_INSTITUTION_TYPE[normalizedType] || 'ecosystem'),
     country: inferSignalCountry(signal)
   };
 }
@@ -569,6 +591,15 @@ const CATEGORIES = {
   ecosystem: { name: 'Infrastructure & Ecosystem', icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>' }
 };
 const TAG_LABELS = { global_banks: 'Banks', asset_management: 'Asset Mgmt', payments: 'Payments', exchanges_intermediaries: 'Exchanges', regulators: 'Regulators', ecosystem: 'Ecosystem' };
+const CATEGORY_BY_INSTITUTION_TYPE = {
+  'Global Banks': 'global_banks',
+  'Asset & Investment Management': 'asset_management',
+  'Payments Providers': 'payments',
+  'Exchanges & Central Intermediaries': 'exchanges_intermediaries',
+  'Regulatory Agencies': 'regulators',
+  'Infrastructure & Technology': 'ecosystem',
+  'Intelligence & Research': 'intel_briefs'
+};
 
 const INTEL_BRIEFS_DEFAULT = [
   { title: "SWIFT's Shift to Blockchain Infrastructure", desc: "SWIFT's transition from blockchain experimentation to production-ready shared ledger infrastructure marks a structural turning point for global finance.", source: "NextFi Advisors", url: "https://img1.wsimg.com/blobby/go/69c98e24-9280-42db-9e35-615f225a71b3/SwiftShiftToBlockchain_Final_v.2.pdf" },
@@ -760,6 +791,16 @@ function getCatalogueSignals(options = {}) {
     filtered = filtered.filter(signal => getSignalCountryValue(signal) === countryFilter);
   }
 
+  if (signalScoringFilter && typeof signalScoringFilter.predicate === 'function') {
+    filtered = filtered.filter(signal => {
+      try {
+        return Boolean(signalScoringFilter.predicate(signal));
+      } catch (_) {
+        return false;
+      }
+    });
+  }
+
   if (searchQuery) {
     filtered = filtered.filter(signal => `${signal.institution} ${signal.initiative} ${signal.description} ${signal.category} ${signal.signal_type || ''}`.toLowerCase().includes(searchQuery));
   }
@@ -899,47 +940,58 @@ function renderInstitutionRows(insts, options = {}) {
   }).join('');
 }
 
-Promise.all([
-  loadJsonWithFallback('./data.json', []),
-  loadJsonWithFallback('./auto_data.json', []),
-  loadJsonWithFallback('./intel_briefs.json', INTEL_BRIEFS_DEFAULT),
-  loadJsonWithFallback('./taxonomy/initiative-taxonomy.v1.json', DEFAULT_INITIATIVE_TAXONOMY),
-  loadJsonWithFallback('./popularity.json', null),
-  loadJsonWithFallback('./sources.json', null)
-]).then(([manualData, autoData, intelBriefs, taxonomyData, popularityData, sourcesConfig]) => {
-  if (taxonomyData && Array.isArray(taxonomyData.canonicalInitiatives) && Array.isArray(taxonomyData.aliasMap)) {
-    initiativeTaxonomy = taxonomyData;
-  }
-  initiativeAliasMap = buildInitiativeAliasMap(initiativeTaxonomy);
-  popularitySeed = popularityData && typeof popularityData === 'object' ? popularityData : null;
-  sourceCatalog = buildSourceCatalog(sourcesConfig || {});
+// ===== DATA LOADING & REFRESH =====
+function loadAndRenderData() {
+  Promise.all([
+    loadJsonWithFallback('./data.json', []),
+    loadJsonWithFallback('./auto_data.json', []),
+    loadJsonWithFallback('./intel_briefs.json', INTEL_BRIEFS_DEFAULT),
+    loadJsonWithFallback('./taxonomy/initiative-taxonomy.v1.json', DEFAULT_INITIATIVE_TAXONOMY),
+    loadJsonWithFallback('./popularity.json', null),
+    loadJsonWithFallback('./sources.json', null)
+  ]).then(([manualData, autoData, intelBriefs, taxonomyData, popularityData, sourcesConfig]) => {
+    if (taxonomyData && Array.isArray(taxonomyData.canonicalInitiatives) && Array.isArray(taxonomyData.aliasMap)) {
+      initiativeTaxonomy = taxonomyData;
+    }
+    initiativeAliasMap = buildInitiativeAliasMap(initiativeTaxonomy);
+    popularitySeed = popularityData && typeof popularityData === 'object' ? popularityData : null;
+    sourceCatalog = buildSourceCatalog(sourcesConfig || {});
 
-  const manualSignals = Array.isArray(manualData) ? manualData : [];
-  const generatedSignals = Array.isArray(autoData) ? autoData : [];
-  INTEL_BRIEFS = Array.isArray(intelBriefs) && intelBriefs.length ? intelBriefs : [...INTEL_BRIEFS_DEFAULT];
+    const manualSignals = Array.isArray(manualData) ? manualData : [];
+    const generatedSignals = Array.isArray(autoData) ? autoData : [];
+    INTEL_BRIEFS = Array.isArray(intelBriefs) && intelBriefs.length ? intelBriefs : [...INTEL_BRIEFS_DEFAULT];
 
-  const intelAsSignals = mapIntelBriefsToSignals(INTEL_BRIEFS);
-  const mergedSignals = [...manualSignals, ...generatedSignals, ...intelAsSignals];
-  allSignals = mergedSignals
-    .map(normalizeSignal)
-    .sort((a, b) => new Date(b.date || '2024-01-01') - new Date(a.date || '2024-01-01'));
+    const intelAsSignals = mapIntelBriefsToSignals(INTEL_BRIEFS);
+    const mergedSignals = [...manualSignals, ...generatedSignals, ...intelAsSignals];
+    allSignals = mergedSignals
+      .map(normalizeSignal)
+      .sort((a, b) => new Date(b.date || '2024-01-01') - new Date(a.date || '2024-01-01'));
 
-  renderKPIs();
-  renderDirectory();
-  renderCountryDirectory();
-  buildCharts();
-  window._chartsReady = true;
-  renderFilterPills();
-  renderSignalTypeSelect();
-  renderCountrySelects();
-  renderIntelBriefs();
-  renderInitiativeSchema();
-  renderFmiSchema();
-  renderSignalTypeSchema();
-  renderSignals();
-  renderPopularityAnalysis();
-  document.querySelectorAll('.reveal:not(.visible)').forEach(el => observer.observe(el));
-});
+    renderKPIs();
+    renderDirectory();
+    renderCountryDirectory();
+    buildCharts();
+    window._chartsReady = true;
+    renderFilterPills();
+    renderSignalTypeSelect();
+    renderCountrySelects();
+    renderIntelBriefs();
+    renderInitiativeSchema();
+    renderFmiSchema();
+    renderSignalTypeSchema();
+    renderSignals();
+    renderPopularityAnalysis();
+    document.querySelectorAll('.reveal:not(.visible)').forEach(el => observer.observe(el));
+  }).catch(error => {
+    console.error('Error loading and rendering data:', error);
+  });
+}
+
+// Load data immediately on page load
+loadAndRenderData();
+
+// Refresh data every hour (3,600,000 milliseconds)
+setInterval(loadAndRenderData, 3600000);
 
 // ===== KPIs =====
 let activeKPI = null;
@@ -1050,26 +1102,49 @@ function renderSignalScoringClearFilterButton() {
     signalTypeFilter ||
     countryFilter ||
     searchQuery !== '' ||
-    activeFilter !== 'all'
+    activeFilter !== 'all' ||
+    dirSearch !== '' ||
+    dirSort !== 'signals' ||
+    dirCountryFilter !== '' ||
+    countryDirSearch !== '' ||
+    countryDirSort !== 'signals' ||
+    countryDirTypeFilter !== ''
   );
   btn.disabled = !hasFilters;
   btn.classList.toggle('is-inactive', !hasFilters);
 }
 
 function clearSignalScoringFilter() {
+  signalScoringFilter = null;
   matrixFilter = null;
   signalTypeFilter = '';
   countryFilter = '';
   searchQuery = '';
   activeFilter = 'all';
+  dirSearch = '';
+  dirSort = 'signals';
+  dirCountryFilter = '';
+  countryDirSearch = '';
+  countryDirSort = 'signals';
+  countryDirTypeFilter = '';
+
+  const dirSearchInput = document.getElementById('directorySearch');
+  if (dirSearchInput) dirSearchInput.value = '';
+  const dirSortEl = document.getElementById('directorySort');
+  if (dirSortEl) dirSortEl.value = 'signals';
+  const countryDirSearchInput = document.getElementById('countryDirectorySearch');
+  if (countryDirSearchInput) countryDirSearchInput.value = '';
+  const countryDirSortEl = document.getElementById('countryDirectorySort');
+  if (countryDirSortEl) countryDirSortEl.value = 'signals';
+  const countryDirTypeEl = document.getElementById('countryDirectoryType');
+  if (countryDirTypeEl) countryDirTypeEl.value = '';
+
   syncSignalTypeSelect();
   syncCountrySelects();
   const searchInput = document.getElementById('searchInput');
   if (searchInput) searchInput.value = '';
   closeSignalStrengthBreakdown();
   renderSignals();
-  signalScoringFilter = null;
-  renderPopularityAnalysis();
   updateResetBars();
 }
 
@@ -1097,17 +1172,9 @@ function drillDownKPIToSignalMatrixByInstitutionType(institutionType, dateKey) {
     }
   };
 
-  signalScoringMetricMode = 'count';
   closeKPIBreakdown();
-  openCollapsible('#signal-strength', 'signalStrengthBody');
-  renderPopularityAnalysis();
-
-  const target = document.getElementById('signal-strength');
-  if (target) {
-    setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 120);
-  }
-
-  trackDrillDown('KPI Breakdown', 'Signal Matrix');
+  navigateToCatalogueByType(selectedType);
+  trackDrillDown('KPI Breakdown', 'Signal Catalogue');
 }
 
 function renderKPIs() {
@@ -1917,6 +1984,7 @@ function buildHeatmap(colors) {
 
 // ===== SEARCH =====
 document.getElementById('searchInput')?.addEventListener('input', (e) => {
+  signalScoringFilter = null;
   matrixFilter = null;
   signalTypeFilter = '';
   countryFilter = '';
@@ -1944,6 +2012,7 @@ function renderFilterPills() {
     btn.addEventListener('click', () => {
       container.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
+      signalScoringFilter = null;
       matrixFilter = null;
       signalTypeFilter = '';
       countryFilter = '';
@@ -1988,6 +2057,7 @@ function renderCountrySelects() {
   if (catalogueSelect) {
     catalogueSelect.innerHTML = `<option value="">All Countries</option>${options}`;
     catalogueSelect.onchange = event => {
+      signalScoringFilter = null;
       matrixFilter = null;
       countryFilter = String(event.target.value || '').trim();
       if (countryFilter) trackFilter('country', countryFilter);
@@ -2032,7 +2102,14 @@ function resolveSignalTypeFilterValue(rawValue) {
 
   const normalizedTarget = normalizeSignalTypeForMatch(trimmed);
   const directMatch = visibleTypes.find(type => normalizeSignalTypeForMatch(type) === normalizedTarget);
-  return directMatch || trimmed;
+  if (directMatch) return directMatch;
+
+  const fuzzyMatch = visibleTypes.find(type => {
+    const normalizedType = normalizeSignalTypeForMatch(type);
+    return normalizedType.includes(normalizedTarget) || normalizedTarget.includes(normalizedType);
+  });
+
+  return fuzzyMatch || trimmed;
 }
 
 function setCatalogueCategoryFilter(filterKey) {
@@ -2065,6 +2142,7 @@ function renderSignalTypeSelect() {
   syncSignalTypeSelect();
 
   select.onchange = (event) => {
+    signalScoringFilter = null;
     matrixFilter = null;
     signalTypeFilter = resolveSignalTypeFilterValue(event.target.value || '');
     setCatalogueCategoryFilter('all');
@@ -2135,6 +2213,10 @@ function renderSignals() {
       btn.textContent = card.classList.contains('expanded') ? 'Show less' : 'Read more';
     });
   });
+
+  renderDirectory();
+  renderCountryDirectory();
+  renderPopularityAnalysis();
 }
 
 function renderCard(signal, catKey) {
@@ -2191,7 +2273,7 @@ function renderPopularityAnalysis() {
       ? ' signals'
       : ' strength';
 
-  const signals = getOperationalSignals();
+  const signals = getCatalogueSignals();
   const instTypes = [
     'Global Banks',
     'Asset & Investment Management',
@@ -2825,7 +2907,7 @@ function sortInstitutions(insts, sortMode) {
 function renderDirectory() {
   const container = document.getElementById('directoryContainer');
   if (!container) return;
-  const signals = getOperationalSignals().filter(signal => !dirCountryFilter || getSignalCountryValue(signal) === dirCountryFilter);
+  const signals = getCatalogueSignals().filter(signal => !dirCountryFilter || getSignalCountryValue(signal) === dirCountryFilter);
   const institutions = buildInstitutionSummaries(signals);
 
   const grouped = {};
@@ -2872,7 +2954,7 @@ function renderCountryDirectory() {
   const container = document.getElementById('countryDirectoryContainer');
   if (!container) return;
 
-  const signals = getOperationalSignals().filter(signal => !countryDirTypeFilter || signal.institution_type === countryDirTypeFilter);
+  const signals = getCatalogueSignals().filter(signal => !countryDirTypeFilter || signal.institution_type === countryDirTypeFilter);
   const institutions = buildInstitutionSummaries(signals).filter(inst => !countryDirSearch || inst.name.toLowerCase().includes(countryDirSearch));
   const grouped = {};
 
@@ -2974,6 +3056,7 @@ function navigateToCatalogueByCountry(country) {
     libBody.style.display = 'block';
   }
 
+  signalScoringFilter = null;
   matrixFilter = null;
   signalTypeFilter = '';
   countryFilter = selectedCountry;
@@ -3006,6 +3089,7 @@ function navigateToSignal(query, catKey) {
   }
 
   // 2. If catKey provided, activate that filter pill
+  signalScoringFilter = null;
   matrixFilter = null;
   signalTypeFilter = '';
   countryFilter = '';
@@ -3075,6 +3159,7 @@ function navigateToMatrixSelection(institutionType, initiativeType) {
   }
 
   // 2. Apply matrix filter and category pill
+  signalScoringFilter = null;
   matrixFilter = { institutionType, initiativeType, dimension: signalScoringDimensionMode };
   signalTypeFilter = '';
   countryFilter = '';
@@ -3115,6 +3200,7 @@ function navigateToCatalogueBySignalType(signalType) {
     libBody.style.display = 'block';
   }
 
+  signalScoringFilter = null;
   matrixFilter = null;
   signalTypeFilter = selectedType;
   countryFilter = '';
@@ -3137,6 +3223,7 @@ function navigateToCatalogueBySignalType(signalType) {
 }
 
 function clearMatrixFilter() {
+  signalScoringFilter = null;
   matrixFilter = null;
   signalTypeFilter = '';
   countryFilter = '';
