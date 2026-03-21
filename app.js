@@ -386,9 +386,16 @@ const SIGNAL_TYPE_GROUPS = [
   },
   {
     name: 'Intelligence',
-    types: ['Research / Report', 'Intelligence Brief']
+    types: ['Research / Report']
   }
 ];
+
+const DEPRECATED_SIGNAL_TYPES = new Set(['Intelligence Brief']);
+
+function isVisibleSignalType(type) {
+  const normalized = String(type || '').trim();
+  return normalized !== '' && !DEPRECATED_SIGNAL_TYPES.has(normalized);
+}
 
 function normalizeInstitutionType(type) {
   if (!type) return 'Infrastructure & Technology';
@@ -786,14 +793,10 @@ function renderKPIs() {
       .map(s => s.trim())
       .filter(Boolean)
   );
-  const regulatorySignals = signals.filter(s =>
-    s.signal_type === 'Regulatory Action' || s.signal_type === 'Regulatory / Compliance Framework'
-  ).length;
-  const pctRegulatory = signals.length ? Math.round((regulatorySignals / signals.length) * 100) : 0;
   const signalTypeCounts = {};
   signals.forEach(s => {
     const type = String(s.signal_type || '').trim();
-    if (!type) return;
+    if (!isVisibleSignalType(type)) return;
     signalTypeCounts[type] = (signalTypeCounts[type] || 0) + 1;
   });
   const activeSignalTypes = Object.keys(signalTypeCounts).length;
@@ -807,7 +810,6 @@ function renderKPIs() {
   const kpis = [
     { id: 'daily_new', value: snapshot.count, label: 'New Signals', color: 'var(--color-success)', delta: snapshotContext },
     { id: 'signals', value: signals.length, label: 'Total Signals', color: 'var(--color-primary)' },
-    { id: 'regulatory', value: regulatorySignals, label: 'Regulatory Activity', color: 'var(--color-primary)', delta: `${pctRegulatory}% of all signals` },
     { id: 'signal_types', value: activeSignalTypes, label: 'Signal Types', color: 'var(--color-primary)', delta: `${activeSignalTypes} of ${totalSignalTypes} taxonomy types active` },
     { id: 'institutions', value: institutions.size, label: 'Institutions', color: 'var(--color-primary)' },
     { id: 'sectors', value: '6', label: 'Sector Categories', color: 'var(--color-primary)' },
@@ -961,7 +963,7 @@ function showKPIBreakdown(kpiId, activeCard) {
     const byType = {};
     signals.forEach(s => {
       const type = String(s.signal_type || '').trim();
-      if (!type) return;
+      if (!isVisibleSignalType(type)) return;
       byType[type] = (byType[type] || 0) + 1;
     });
     const activeCount = Object.keys(byType).length;
@@ -1134,7 +1136,10 @@ function buildInstTypeChart(colors, textColor) {
 function buildSignalTypeChart(textColor, gridColor) {
   const signals = getOperationalSignals();
   const counts = {};
-  signals.forEach(s => { counts[s.signal_type] = (counts[s.signal_type] || 0) + 1; });
+  signals.forEach(s => {
+    if (!isVisibleSignalType(s.signal_type)) return;
+    counts[s.signal_type] = (counts[s.signal_type] || 0) + 1;
+  });
   const sorted = Object.entries(counts).sort((a,b) => b[1] - a[1]);
   const signalColors = [
     getCSS('--color-primary'), getCSS('--color-regulators'), getCSS('--color-payments'),
@@ -1689,6 +1694,7 @@ function renderPopularityAnalysis() {
       cellDetails[key].push({
         institution: signal.institution,
         initiative: signal.initiative,
+        signalType: signal.signal_type,
         source: getSignalSourceName(signal),
         date: signal.date,
         score,
@@ -1822,6 +1828,14 @@ function showSignalStrengthBreakdown(institutionType, initiativeType) {
 
   const totalScore = items.reduce((sum, item) => sum + item.score, 0);
   const rawCount = items.length;
+  const signalTypeAgg = {};
+  items.forEach(item => {
+    const type = String(item.signalType || '').trim() || 'Unknown';
+    signalTypeAgg[type] = (signalTypeAgg[type] || 0) + 1;
+  });
+  const topSignalTypeEntry = Object.entries(signalTypeAgg).sort((a, b) => b[1] - a[1])[0] || ['Unknown', 0];
+  const topSignalType = topSignalTypeEntry[0];
+  const topSignalTypeCount = topSignalTypeEntry[1];
   const avgCredibility = items.reduce((sum, item) => sum + item.credibilityWeight, 0) / items.length;
   const avgRecency = items.reduce((sum, item) => sum + item.recencyWeight, 0) / items.length;
   const avgPrevalence = items.reduce((sum, item) => sum + item.prevalenceWeight, 0) / items.length;
@@ -1859,6 +1873,7 @@ function showSignalStrengthBreakdown(institutionType, initiativeType) {
       <button type="button" onclick='navigateToMatrixSelection(${navigateInstArg},${navigateInitArg})'>View Matching Signals</button>
     </div>
     <div class="signal-strength-breakdown-stats">
+      <div class="signal-strength-stat"><span class="signal-strength-stat-label">Signal Type (Top)</span><span class="signal-strength-stat-value">${escapeHtml(topSignalType)} (${topSignalTypeCount})</span></div>
       <div class="signal-strength-stat"><span class="signal-strength-stat-label">${primaryMetricLabel}</span><span class="signal-strength-stat-value">${primaryMetricValue}</span></div>
       <div class="signal-strength-stat"><span class="signal-strength-stat-label">Signals</span><span class="signal-strength-stat-value">${rawCount}</span></div>
       <div class="signal-strength-stat"><span class="signal-strength-stat-label">Weighted Strength</span><span class="signal-strength-stat-value">${totalScore.toFixed(1)}</span></div>
@@ -1923,12 +1938,12 @@ function showSignalDetail(signalData) {
     </div>
     <div class="signal-detail-content">
       <div class="signal-detail-row">
-        <span class="signal-detail-label">Description:</span>
-        <span class="signal-detail-value">${fullSignal.description || 'N/A'}</span>
-      </div>
-      <div class="signal-detail-row">
         <span class="signal-detail-label">Signal Type:</span>
         <span class="signal-detail-value">${fullSignal.signal_type || 'Unknown'}</span>
+      </div>
+      <div class="signal-detail-row">
+        <span class="signal-detail-label">Description:</span>
+        <span class="signal-detail-value">${fullSignal.description || 'N/A'}</span>
       </div>
       <div class="signal-detail-row">
         <span class="signal-detail-label">Source:</span>
@@ -2219,7 +2234,9 @@ function renderDirectory() {
     }
     const inst = instMap[key];
     inst.signals++;
-    inst.signalTypes[s.signal_type] = (inst.signalTypes[s.signal_type] || 0) + 1;
+    if (isVisibleSignalType(s.signal_type)) {
+      inst.signalTypes[s.signal_type] = (inst.signalTypes[s.signal_type] || 0) + 1;
+    }
     (s.initiative_types || []).forEach(t => inst.initiativeTypes.add(t));
     (s.fmi_areas || []).forEach(a => inst.fmiAreas.add(a));
   });
