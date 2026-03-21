@@ -636,6 +636,65 @@ let dirCountryFilter = '';
 let countryDirSearch = '';
 let countryDirSort = 'signals';
 let countryDirTypeFilter = '';
+let importanceTierMode = 'priority';
+let importanceTierFilter = ['Structural', 'Material'];
+
+const IMPORTANCE_TIER_FILTERS = {
+  priority: ['Structural', 'Material'],
+  structural: ['Structural'],
+  context: ['Structural', 'Material', 'Context'],
+  all: ['Structural', 'Material', 'Context', 'Noise']
+};
+
+const IMPORTANCE_STAGE_BY_SIGNAL_TYPE = {
+  'Strategic Filing / Plan': 'Concept',
+  'Strategic Initiative': 'Concept',
+  'Research / Report': 'Concept',
+  'Pilot / Trial': 'Pilot',
+  'Product Launch': 'Production',
+  'Platform / Infrastructure': 'Structural',
+  'Regulatory Action': 'Structural',
+  'Regulatory / Compliance Framework': 'Structural',
+  'Strategic Partnership': 'Production',
+  'Investment / M&A': 'Production'
+};
+
+const IMPORTANCE_MATERIALITY_BY_SIGNAL_TYPE = {
+  'Strategic Filing / Plan': 'Medium',
+  'Strategic Initiative': 'Medium',
+  'Research / Report': 'Low',
+  'Pilot / Trial': 'Medium',
+  'Product Launch': 'High',
+  'Platform / Infrastructure': 'Very High',
+  'Regulatory Action': 'Very High',
+  'Regulatory / Compliance Framework': 'High',
+  'Strategic Partnership': 'Medium',
+  'Investment / M&A': 'High'
+};
+
+const IMPORTANCE_STAGE_WEIGHTS = {
+  Concept: 0.5,
+  Pilot: 0.75,
+  Production: 1.0,
+  Structural: 1.2,
+  Unknown: 0.7
+};
+
+const IMPORTANCE_MATERIALITY_WEIGHTS = {
+  Low: 0.8,
+  Medium: 1.0,
+  High: 1.15,
+  'Very High': 1.3,
+  Unknown: 0.85
+};
+
+const IMPORTANCE_THRESHOLDS = {
+  structural: 1.2,
+  material: 0.9,
+  context: 0.65
+};
+
+const IMPORTANCE_STAGE_MATERIALITY_CAP = 1.3;
 
 function normalizeSourceKey(value) {
   return String(value || '').trim().toLowerCase();
@@ -711,15 +770,127 @@ function getSourcePrevalenceWeight(sourceName, sourceCounts, maxSourceCount) {
   const count = Math.max(1, sourceCounts[sourceName] || 1);
   const maxCount = Math.max(1, maxSourceCount || 1);
   const normalized = Math.log1p(count) / Math.log1p(maxCount);
-  return 1 + (0.35 * normalized);
+  return 1 + (0.1 * normalized);
+}
+
+function getSignalStage(signal) {
+  const explicit = String(signal?.stage || '').trim();
+  if (explicit) return explicit;
+  const type = String(signal?.signal_type || '').trim();
+  return IMPORTANCE_STAGE_BY_SIGNAL_TYPE[type] || 'Unknown';
+}
+
+function getSignalMateriality(signal) {
+  const explicit = String(signal?.materiality || '').trim();
+  if (explicit) return explicit;
+  const type = String(signal?.signal_type || '').trim();
+  return IMPORTANCE_MATERIALITY_BY_SIGNAL_TYPE[type] || 'Unknown';
+}
+
+function mapImportanceTier(score) {
+  if (score >= IMPORTANCE_THRESHOLDS.structural) return 'Structural';
+  if (score >= IMPORTANCE_THRESHOLDS.material) return 'Material';
+  if (score >= IMPORTANCE_THRESHOLDS.context) return 'Context';
+  return 'Noise';
+}
+
+function applyImportanceTierCaps(tier, stage, sourceTier) {
+  let adjusted = tier;
+  if (['Tertiary', 'Unclassified'].includes(sourceTier) && adjusted === 'Structural') {
+    adjusted = 'Material';
+  }
+  if (['Concept', 'Pilot'].includes(stage) && adjusted === 'Structural') {
+    adjusted = 'Material';
+  }
+  return adjusted;
+}
+
+function computeSignalImportance(signal, sourceCounts, maxSourceCount) {
+  const source = getSignalSourceName(signal);
+  const sourceMeta = resolveSourceMeta(signal);
+  const sourceTier = sourceMeta?.tier || 'Unclassified';
+  const credibilityWeight = sourceMeta?.weight || 0.7;
+  const recencyWeight = getRecencyWeight(signal.date);
+  const sourcePrevalenceWeight = getSourcePrevalenceWeight(source, sourceCounts, maxSourceCount);
+  const stage = getSignalStage(signal);
+  const materiality = getSignalMateriality(signal);
+  const stageWeight = IMPORTANCE_STAGE_WEIGHTS[stage] || IMPORTANCE_STAGE_WEIGHTS.Unknown;
+  const materialityWeight = IMPORTANCE_MATERIALITY_WEIGHTS[materiality] || IMPORTANCE_MATERIALITY_WEIGHTS.Unknown;
+
+  let stageMaterialityWeight = stageWeight * materialityWeight;
+  if (stageWeight >= 1.0 && materialityWeight >= 1.15) {
+    stageMaterialityWeight = Math.min(stageMaterialityWeight, IMPORTANCE_STAGE_MATERIALITY_CAP);
+  }
+
+  const rawImportanceScore = credibilityWeight * recencyWeight * sourcePrevalenceWeight * stageMaterialityWeight;
+  const metadataPenaltyApplied = stage === 'Unknown' || materiality === 'Unknown';
+  const importanceScore = metadataPenaltyApplied ? rawImportanceScore * 0.9 : rawImportanceScore;
+
+  let tier = mapImportanceTier(importanceScore);
+  tier = applyImportanceTierCaps(tier, stage, sourceTier);
+
+  return {
+    importanceScore,
+    rawImportanceScore,
+    tier,
+    stage,
+    materiality,
+    sourceTier,
+    credibilityWeight,
+    recencyWeight,
+    sourcePrevalenceWeight,
+    stageWeight,
+    materialityWeight,
+    stageMaterialityWeight,
+    metadataPenaltyApplied
+  };
+}
+
+function recomputeSignalImportanceScores() {
+  const signals = getOperationalSignals();
+  const sourceCounts = {};
+  signals.forEach(signal => {
+    const source = getSignalSourceName(signal);
+    if (!source) return;
+    sourceCounts[source] = (sourceCounts[source] || 0) + 1;
+  });
+  const maxSourceCount = Math.max(1, ...Object.values(sourceCounts));
+
+  signals.forEach(signal => {
+    signal._importance = computeSignalImportance(signal, sourceCounts, maxSourceCount);
+  });
+}
+
+function getSignalImportance(signal) {
+  if (signal && signal._importance) return signal._importance;
+  return {
+    importanceScore: 0,
+    rawImportanceScore: 0,
+    tier: 'Noise',
+    stage: 'Unknown',
+    materiality: 'Unknown',
+    sourceTier: 'Unclassified',
+    credibilityWeight: 0.7,
+    recencyWeight: 0.7,
+    sourcePrevalenceWeight: 1,
+    stageWeight: IMPORTANCE_STAGE_WEIGHTS.Unknown,
+    materialityWeight: IMPORTANCE_MATERIALITY_WEIGHTS.Unknown,
+    stageMaterialityWeight: IMPORTANCE_STAGE_WEIGHTS.Unknown * IMPORTANCE_MATERIALITY_WEIGHTS.Unknown,
+    metadataPenaltyApplied: true
+  };
+}
+
+function setImportanceTierMode(mode) {
+  if (!IMPORTANCE_TIER_FILTERS[mode]) return;
+  importanceTierMode = mode;
+  importanceTierFilter = [...IMPORTANCE_TIER_FILTERS[mode]];
+  const select = document.getElementById('importanceTierSelect');
+  if (select) select.value = mode;
 }
 
 function getSignalStrengthScore(signal, sourceCounts, maxSourceCount) {
-  const source = getSignalSourceName(signal);
-  const meta = resolveSourceMeta(signal);
-  const recencyWeight = getRecencyWeight(signal.date);
-  const prevalenceWeight = getSourcePrevalenceWeight(source, sourceCounts, maxSourceCount);
-  return (meta.weight || 0.9) * recencyWeight * prevalenceWeight;
+  const importance = getSignalImportance(signal);
+  return importance.importanceScore;
 }
 
 function setSignalScoringMetricMode(mode) {
@@ -770,6 +941,10 @@ function getOperationalSignals() {
 function getCatalogueSignals(options = {}) {
   const { includeCategory = true } = options;
   let filtered = getOperationalSignals();
+
+  if (Array.isArray(importanceTierFilter) && importanceTierFilter.length > 0) {
+    filtered = filtered.filter(signal => importanceTierFilter.includes(getSignalImportance(signal).tier));
+  }
 
   if (includeCategory && activeFilter !== 'all') {
     filtered = filtered.filter(signal => signal.category === activeFilter);
@@ -1101,6 +1276,7 @@ function renderSignalScoringClearFilterButton() {
     matrixFilter ||
     signalTypeFilter ||
     countryFilter ||
+    importanceTierMode !== 'priority' ||
     searchQuery !== '' ||
     activeFilter !== 'all' ||
     dirSearch !== '' ||
@@ -1119,6 +1295,7 @@ function clearSignalScoringFilter() {
   matrixFilter = null;
   signalTypeFilter = '';
   countryFilter = '';
+  setImportanceTierMode('priority');
   searchQuery = '';
   activeFilter = 'all';
   dirSearch = '';
@@ -2152,6 +2329,19 @@ function renderSignalTypeSelect() {
   };
 }
 
+function renderImportanceTierSelect() {
+  const select = document.getElementById('importanceTierSelect');
+  if (!select) return;
+  select.value = importanceTierMode;
+  select.onchange = (event) => {
+    const mode = String(event.target.value || 'priority');
+    setImportanceTierMode(mode);
+    trackFilter('importance_tier_mode', mode);
+    renderSignals();
+    updateResetBars();
+  };
+}
+
 // ===== INTEL BRIEFS =====
 function renderIntelBriefs() {
   const countEl = document.getElementById('intelBriefCount');
@@ -2220,18 +2410,26 @@ function renderSignals() {
 }
 
 function renderCard(signal, catKey) {
+  const importance = getSignalImportance(signal);
   const date = formatDate(signal.date);
   const hasLong = signal.description && signal.description.length > 200;
   const url = signal.source_url || '#';
   const domain = url !== '#' ? new URL(url).hostname.replace('www.','') : '';
   const signalKey = encodeURIComponent(getSignalKey(signal));
+  const tierClass = String(importance.tier || 'Noise').toLowerCase().replace(/\s+/g, '-');
+  const whyItMatters = `${importance.stage} stage | ${importance.materiality} materiality | ${importance.sourceTier} source credibility`;
   return `
     <div class="signal-card" data-signal-key="${signalKey}">
       <div class="signal-card-top">
         <div class="signal-institution"><span class="dot"></span>${signal.institution}</div>
         <span class="signal-date">${date}</span>
       </div>
+      <div class="signal-strength-row">
+        <span class="signal-importance-badge importance-${tierClass}">${importance.tier}</span>
+        <span class="signal-importance-score">${importance.importanceScore.toFixed(2)}</span>
+      </div>
       <div class="signal-initiative">${signal.initiative || ''}</div>
+      <div class="signal-why">${whyItMatters}</div>
       <div class="signal-description">${signal.description || ''}</div>
       ${hasLong ? '<button class="expand-btn">Read more</button>' : ''}
       <div class="signal-footer">
@@ -2321,6 +2519,7 @@ function renderPopularityAnalysis() {
     if (rowIndex < 0) return;
 
     const score = getSignalStrengthScore(signal, sourceCounts, maxSourceCount);
+    const importance = getSignalImportance(signal);
 
     const colField = isFmiMode ? (signal.fmi_areas || []) : (signal.initiative_types || []);
     colField.forEach(col => {
@@ -2337,9 +2536,15 @@ function renderPopularityAnalysis() {
         source: getSignalSourceName(signal),
         date: signal.date,
         score,
-        credibilityWeight: resolveSourceMeta(signal).weight || 0.9,
-        recencyWeight: getRecencyWeight(signal.date),
-        prevalenceWeight: getSourcePrevalenceWeight(getSignalSourceName(signal), sourceCounts, maxSourceCount)
+        tier: importance.tier,
+        stage: importance.stage,
+        materiality: importance.materiality,
+        sourceTier: importance.sourceTier,
+        credibilityWeight: importance.credibilityWeight,
+        recencyWeight: importance.recencyWeight,
+        prevalenceWeight: importance.sourcePrevalenceWeight,
+        stageWeight: importance.stageWeight,
+        materialityWeight: importance.materialityWeight
       });
     });
   });
@@ -2447,7 +2652,7 @@ function renderPopularityAnalysis() {
       </div>
       <div class="signal-strength-legend-method">
         <div class="signal-strength-legend-title">Method</div>
-        <p>Current view shows <strong>${modeLabel}</strong> with <strong>${colorLabel}</strong>. Weighted strength uses source credibility, recency, and a capped prevalence boost. Click a cell for count, average weights, and top contributors.</p>
+        <p>Current view shows <strong>${modeLabel}</strong> with <strong>${colorLabel}</strong>. Weighted strength uses source credibility, recency, stage, materiality, and a capped source persistence boost. Click a cell for count, average weights, and top contributors.</p>
       </div>
     `;
   }
@@ -2502,6 +2707,8 @@ function showSignalStrengthBreakdown(institutionType, initiativeType) {
   const avgCredibility = items.reduce((sum, item) => sum + item.credibilityWeight, 0) / items.length;
   const avgRecency = items.reduce((sum, item) => sum + item.recencyWeight, 0) / items.length;
   const avgPrevalence = items.reduce((sum, item) => sum + item.prevalenceWeight, 0) / items.length;
+  const avgStage = items.reduce((sum, item) => sum + (item.stageWeight || 0), 0) / items.length;
+  const avgMateriality = items.reduce((sum, item) => sum + (item.materialityWeight || 0), 0) / items.length;
 
   const sourceAgg = {};
   items.forEach(item => {
@@ -2586,6 +2793,8 @@ function showSignalStrengthBreakdown(institutionType, initiativeType) {
       <div class="signal-strength-stat compact"><span class="signal-strength-stat-label">Avg Credibility</span><span class="signal-strength-stat-value">${avgCredibility.toFixed(2)}x</span></div>
       <div class="signal-strength-stat compact"><span class="signal-strength-stat-label">Avg Recency</span><span class="signal-strength-stat-value">${avgRecency.toFixed(2)}x</span></div>
       <div class="signal-strength-stat compact"><span class="signal-strength-stat-label">Avg Prevalence</span><span class="signal-strength-stat-value">${avgPrevalence.toFixed(2)}x</span></div>
+      <div class="signal-strength-stat compact"><span class="signal-strength-stat-label">Avg Stage</span><span class="signal-strength-stat-value">${avgStage.toFixed(2)}x</span></div>
+      <div class="signal-strength-stat compact"><span class="signal-strength-stat-label">Avg Materiality</span><span class="signal-strength-stat-value">${avgMateriality.toFixed(2)}x</span></div>
     </div>
   `;
   panel.style.display = 'block';
@@ -3227,6 +3436,7 @@ function clearMatrixFilter() {
   matrixFilter = null;
   signalTypeFilter = '';
   countryFilter = '';
+  setImportanceTierMode('priority');
   syncSignalTypeSelect();
   syncCountrySelects();
   renderSignals();
@@ -3260,6 +3470,15 @@ function renderMatrixFilterChip() {
     parts.push(`country: ${countryFilter}`);
   }
 
+  if (importanceTierMode !== 'priority') {
+    const tierModeLabel = {
+      structural: 'importance: Structural only',
+      context: 'importance: Include Context',
+      all: 'importance: All tiers'
+    };
+    parts.push(tierModeLabel[importanceTierMode] || 'importance: custom');
+  }
+
   if (parts.length === 0) {
     chip.style.display = 'none';
     return;
@@ -3289,6 +3508,7 @@ function resetAllFilters() {
   matrixFilter = null;
   signalTypeFilter = '';
   countryFilter = '';
+  setImportanceTierMode('priority');
   syncSignalTypeSelect();
   syncCountrySelects();
   const searchInput = document.getElementById('searchInput');
@@ -3341,7 +3561,7 @@ function resetAllFilters() {
 function updateResetBars() {
   const hasDirectoryFilter = dirSearch !== '' || dirSort !== 'signals' || dirCountryFilter !== '';
   const hasCountryDirectoryFilter = countryDirSearch !== '' || countryDirSort !== 'signals' || countryDirTypeFilter !== '';
-  const hasLibraryFilter = searchQuery !== '' || activeFilter !== 'all' || matrixFilter !== null || signalTypeFilter !== '' || countryFilter !== '';
+  const hasLibraryFilter = searchQuery !== '' || activeFilter !== 'all' || matrixFilter !== null || signalTypeFilter !== '' || countryFilter !== '' || importanceTierMode !== 'priority';
   const hasAnyFilter = hasDirectoryFilter || hasCountryDirectoryFilter || hasLibraryFilter;
 
   const dirReset = document.getElementById('resetDirectoryFilters');
