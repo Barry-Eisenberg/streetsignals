@@ -2454,6 +2454,7 @@ function renderCard(signal, catKey) {
         <span class="signal-importance-badge importance-${tierClass}">${importance.tier}</span>
         <span class="signal-importance-score">${importance.importanceScore.toFixed(2)}</span>
       </div>
+      <div class="signal-why">${importance.stage} stage | ${importance.materiality} materiality | ${importance.sourceTier} source credibility</div>
       <div class="signal-description">${signal.description || ''}</div>
       ${hasLong ? '<button class="expand-btn">Read more</button>' : ''}
       <div class="signal-footer">
