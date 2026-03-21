@@ -660,6 +660,13 @@ const IMPORTANCE_TIER_LABELS = {
   Noise: 'Monitor'
 };
 
+const IMPORTANCE_TIER_DEFINITIONS = {
+  Structural: 'System-shaping signal likely to influence core market structure and long-term institutional operating models.',
+  Material: 'Directionally important signal with meaningful implications for strategy, product, or operating design.',
+  Context: 'Background signal that provides context but is less likely to drive immediate structural change.',
+  Noise: 'Low-signal item to monitor; limited near-term relevance for institutional decision-making.'
+};
+
 const PERSONA_OPTIONS = {
   all: {
     label: 'All roles',
@@ -705,6 +712,12 @@ const PERSONA_OPTIONS = {
 
 function getImportanceTierLabel(tier) {
   return IMPORTANCE_TIER_LABELS[tier] || tier || 'Monitor';
+}
+
+function getImportanceTierTooltip(tier) {
+  const label = getImportanceTierLabel(tier);
+  const definition = IMPORTANCE_TIER_DEFINITIONS[tier] || IMPORTANCE_TIER_DEFINITIONS.Noise;
+  return `${label}: ${definition}`;
 }
 
 function getPersonaLabel(lens) {
@@ -3306,6 +3319,7 @@ function renderPrioritySignalsStrip() {
 
   topSignals.forEach(signal => {
     const importance = getSignalImportance(signal);
+    const tierTooltip = escapeHtml(getImportanceTierTooltip('Structural'));
     const date = formatExactSignalDate(signal);
     const insight = buildSignalDirectionalInsight(signal, importance);
     const marketContext = getExternalMarketContext(signal, selectedPersona);
@@ -3320,7 +3334,7 @@ function renderPrioritySignalsStrip() {
       <div class="priority-signal-card">
         <div class="priority-signal-card-header">
           <div class="priority-signal-card-institution">
-            <span class="priority-signal-badge" title="Structural tier signal under current market baseline">Structural</span>
+            <span class="priority-signal-badge" title="${tierTooltip}">Structural</span>
             <span class="priority-signal-card-institution-name">${signal.institution}</span>
           </div>
           <span class="priority-signal-card-date" title="Source publication date">${escapeHtml(date)}</span>
@@ -3453,6 +3467,7 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
   const signalKey = encodeURIComponent(getSignalKey(signal));
   const importance = getSignalImportance(signal);
   const displayTierLabel = getImportanceTierLabel(importance.tier);
+  const displayTierTooltip = escapeHtml(getImportanceTierTooltip(importance.tier));
   const tierClass = String(importance.tier || 'Noise').toLowerCase().replace(/\s+/g, '-');
   const directionalInsight = buildSignalDirectionalInsight(signal, importance);
   const audience = inferSignalPersona(signal);
@@ -3524,7 +3539,7 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
         ${lensChip}
       </div>
       <div class="signal-strength-row">
-        <span class="signal-importance-badge importance-${tierClass}">${displayTierLabel}</span>
+        <span class="signal-importance-badge importance-${tierClass}" title="${displayTierTooltip}">${displayTierLabel}</span>
         <span class="signal-importance-score">${importance.importanceScore.toFixed(2)}</span>
       </div>
       ${tierComparisonRow}

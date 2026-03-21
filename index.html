@@ -86,9 +86,10 @@
 <section class="hero">
   <div class="container">
     <div class="hero-content reveal">
+      <div class="hero-badge"><span class="pulse"></span> Live Intelligence Feed</div>
       <h1>The Institutional Migration to <span class="accent">Blockchain Infrastructure</span></h1>
-      <p class="hero-description">SftS filters hundreds of institutional digital-asset initiatives to highlight only the most consequential moves from global banks, asset managers, FMIs, and regulators.</p>
-      <p class="hero-description">Signals are scored for importance and trend context so you can see what's real, what's material, and what's likely durable over the next 3–5 years.</p>
+      <p class="hero-description">Filtering the noise so you can see how the world's largest financial institutions, exchanges, central intermediaries, and regulators are building the next generation of financial market infrastructure.</p>
+      <p class="hero-subdescription">SftS does the work for you, highlighting only most consequential information that matters for the people driving change in their organizations.</p>
     </div>
   </div>
 </section>
@@ -97,6 +98,11 @@
 <div class="container" style="display:none;">
   <div class="kpi-strip reveal" id="kpiStrip"></div>
   <div class="kpi-breakdown-panel" id="kpiBreakdown" style="display:none;"></div>
+</div>
+
+<!-- PRIORITY SIGNALS -->
+<div class="container">
+  <div id="prioritySignalsStrip"></div>
 </div>
 
 <!-- PERSONA SELECTOR -->
@@ -136,35 +142,15 @@
         <span>Reset all filters</span>
       </div>
       <div class="controls" id="controls">
-        <div class="search-box">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-          <input type="text" id="searchInput" placeholder="Search institutions, initiatives, topics...">
-        </div>
-        <div class="signal-type-filter">
-          <label for="signalTypeSelect">Signal Type</label>
-          <select id="signalTypeSelect">
-            <option value="">All Signal Types</option>
-          </select>
-        </div>
         <div class="signal-type-filter">
           <label for="countrySelect">Country</label>
           <select id="countrySelect">
             <option value="">All Countries</option>
           </select>
         </div>
-        <div class="signal-type-filter">
-          <label for="importanceTierSelect">Importance</label>
-          <select id="importanceTierSelect">
-            <option value="all" selected>All Tiers</option>
-            <option value="priority">Priority (System-Shaping + Directionally Important)</option>
-            <option value="structural">System-Shaping Only</option>
-            <option value="context">Background Signal Only</option>
-          </select>
-        </div>
         <div class="filter-pills-wrap">
           <div class="filter-pills-label">Institution Category</div>
           <div class="filter-pills" id="filterPills"></div>
-          <button type="button" class="momentum-debug-toggle" id="momentumDebugToggle" onclick="toggleMomentumDebugMode()">Show Momentum Debug</button>
           <div class="catalogue-sort-note" id="catalogueSortNote">Default catalogue sort order: most recent date first, then signal strength (importance score).</div>
           <details class="catalogue-scoring-help">
             <summary>How momentum and rank scoring works</summary>
@@ -177,8 +163,6 @@
         <span class="matrix-filter-chip-label" id="matrixFilterChipLabel"></span>
         <button type="button" class="matrix-filter-chip-clear" onclick="clearMatrixFilter()">Clear</button>
       </div>
-
-      <div id="prioritySignalsStrip"></div>
 
       <div id="signalSections"></div>
 
