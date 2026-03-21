@@ -1017,6 +1017,72 @@ function buildSignalDirectionalInsight(signal, importance) {
   return `For ${lensLabel} teams, ${institution} is advancing ${leadTheme} ${stagePhrase}. ${narrative} Most material audiences: ${audienceText}. Lens fit: ${confidence}.`;
 }
 
+const EXTERNAL_MARKET_CONTEXT = {
+  source: 'RWA.xyz snapshot',
+  asOf: '2026-03-21',
+  totalRwa30dPct: 6.58,
+  useCaseBenchmarks: {
+    stablecoin_rails: {
+      label: 'Stablecoins and Digital Cash',
+      trend30dPct: -2.23,
+      confidence: 'Divergent'
+    },
+    collateral_mobility: {
+      label: 'Tokenized Credit and Collateral',
+      trend30dPct: 10.09,
+      confidence: 'Aligned'
+    },
+    settlement_flow: {
+      label: 'Settlement and Clearing Infrastructure',
+      trend30dPct: 6.58,
+      confidence: 'Aligned'
+    },
+    tokenized_asset_ops: {
+      label: 'Tokenized Treasuries and Funds',
+      trend30dPct: 8.87,
+      confidence: 'Strongly Aligned'
+    },
+    policy_controls: {
+      label: 'Regulatory and Policy Readiness',
+      trend30dPct: 6.58,
+      confidence: 'Contextual'
+    },
+    infrastructure_modernization: {
+      label: 'RWA Infrastructure and Platforms',
+      trend30dPct: 6.58,
+      confidence: 'Aligned'
+    }
+  }
+};
+
+function getExternalMarketContext(signal, persona = selectedPersona) {
+  const useCase = inferSignalUseCase(signal);
+  const benchmark = EXTERNAL_MARKET_CONTEXT.useCaseBenchmarks[useCase];
+  if (!benchmark) {
+    return {
+      available: false,
+      confidence: 'Unavailable',
+      summary: 'External market context is not mapped for this signal yet.'
+    };
+  }
+
+  const personaLabel = getPersonaLabel(persona);
+  const trendAbs = Math.abs(benchmark.trend30dPct || 0).toFixed(2);
+  const trendPrefix = benchmark.trend30dPct >= 0 ? '+' : '-';
+
+  return {
+    available: true,
+    source: EXTERNAL_MARKET_CONTEXT.source,
+    asOf: EXTERNAL_MARKET_CONTEXT.asOf,
+    useCase,
+    segmentLabel: benchmark.label,
+    trend30dPct: benchmark.trend30dPct,
+    trendLabel: `${trendPrefix}${trendAbs}%`,
+    confidence: benchmark.confidence,
+    summary: `${benchmark.label} is ${trendPrefix}${trendAbs}% over 30d; ${personaLabel} context confidence: ${benchmark.confidence}.`
+  };
+}
+
 function getSignalThemeKeys(signal) {
   const initiativeTypes = Array.isArray(signal?.initiative_types)
     ? signal.initiative_types.map(v => String(v || '').trim()).filter(Boolean)
@@ -3311,6 +3377,7 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
   const personaAssessment = computePersonaAssessment(signal, selectedPersona);
   const lensDetails = personaAssessment.personaDetails || getPersonaScoreDetails(signal, selectedPersona);
   const lensRelevance = personaAssessment.personaRelevance || lensDetails.score;
+  const marketContext = getExternalMarketContext(signal, selectedPersona);
   const personaDisplayTier = personaAssessment.displayTier;
   const personaDisplayTierLabel = getImportanceTierLabel(personaDisplayTier);
   const tierPriority = { Structural: 0, Material: 1, Context: 2, Noise: 3 };
@@ -3335,6 +3402,16 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
         </div>
       </div>`
     : '';
+  const marketContextRow = marketContext.available
+    ? `<div class="signal-market-context" title="${escapeHtml(marketContext.source)} as of ${escapeHtml(marketContext.asOf)}">
+        <span class="signal-market-context-label">Market context</span>
+        <span class="signal-market-context-chip">${escapeHtml(marketContext.segmentLabel)} ${escapeHtml(marketContext.trendLabel)} 30d</span>
+        <span class="signal-market-context-confidence">${escapeHtml(marketContext.confidence)}</span>
+      </div>`
+    : `<div class="signal-market-context signal-market-context-muted">
+        <span class="signal-market-context-label">Market context</span>
+        <span class="signal-market-context-summary">Not available</span>
+      </div>`;
   return `
     <div class="signal-card" data-signal-key="${signalKey}">
       <div class="signal-card-top">
@@ -3359,6 +3436,7 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
         <span class="signal-importance-score">${importance.importanceScore.toFixed(2)}</span>
       </div>
       ${tierComparisonRow}
+      ${marketContextRow}
       <div class="signal-why">Global lens: ${importance.stage} stage | ${importance.materiality} materiality | ${importance.sourceTier} source credibility</div>
       <div class="signal-ai-insight">
         <div class="signal-ai-title">AI Why This Matters</div>
