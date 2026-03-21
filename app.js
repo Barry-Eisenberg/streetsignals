@@ -1559,6 +1559,7 @@ function renderPopularityAnalysis() {
   const rowTotals = matrix.map(row => row.reduce((sum, val) => sum + val, 0));
   const colTotals = initTypes.map((_, ci) => matrix.reduce((sum, row) => sum + row[ci], 0));
   const grandTotal = rowTotals.reduce((sum, val) => sum + val, 0);
+  const showTotals = signalScoringColorMode !== 'percentile';
 
   document.getElementById('signalMetricStrengthBtn')?.classList.toggle('is-active', signalScoringMetricMode === 'strength');
   document.getElementById('signalMetricCountBtn')?.classList.toggle('is-active', signalScoringMetricMode === 'count');
@@ -1567,7 +1568,7 @@ function renderPopularityAnalysis() {
 
   let html = '<table class="heatmap-table"><thead><tr><th></th>';
   shortInit.forEach(h => { html += `<th class="heatmap-col-header">${h}</th>`; });
-  html += '<th class="heatmap-col-header heatmap-total-header">Total</th>';
+  if (showTotals) html += '<th class="heatmap-col-header heatmap-total-header">Total</th>';
   html += '</tr></thead><tbody>';
 
   matrix.forEach((row, i) => {
@@ -1581,16 +1582,18 @@ function renderPopularityAnalysis() {
         html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)}" title="${instTypes[i]} x ${initTypes[ci]}: 0.0">-</td>`;
       }
     });
-    html += `<td class="heatmap-cell heatmap-total-cell">${formatScore(rowTotals[i])}</td>`;
+    if (showTotals) html += `<td class="heatmap-cell heatmap-total-cell">${formatScore(rowTotals[i])}</td>`;
     html += '</tr>';
   });
 
-  html += '<tr class="heatmap-totals-row"><td class="heatmap-row-label heatmap-total-label">Total</td>';
-  colTotals.forEach(val => {
-    html += `<td class="heatmap-cell heatmap-total-cell">${formatScore(val)}</td>`;
-  });
-  html += `<td class="heatmap-cell heatmap-grand-total">${formatScore(grandTotal)}</td>`;
-  html += '</tr>';
+  if (showTotals) {
+    html += '<tr class="heatmap-totals-row"><td class="heatmap-row-label heatmap-total-label">Total</td>';
+    colTotals.forEach(val => {
+      html += `<td class="heatmap-cell heatmap-total-cell">${formatScore(val)}</td>`;
+    });
+    html += `<td class="heatmap-cell heatmap-grand-total">${formatScore(grandTotal)}</td>`;
+    html += '</tr>';
+  }
   html += '</tbody></table>';
 
   container.innerHTML = html;
