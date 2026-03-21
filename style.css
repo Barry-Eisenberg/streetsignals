@@ -2887,6 +2887,43 @@
   line-height: 1.3;
 }
 
+.priority-signal-market-context {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.priority-signal-market-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 7px;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 212, 255, 0.24);
+  background: rgba(0, 212, 255, 0.08);
+  color: var(--color-primary);
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.priority-signal-market-confidence {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: var(--color-surface-offset);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.priority-signal-market-unavailable {
+  font-size: 10px;
+  color: var(--color-text-faint);
+}
+
 .priority-signal-card-insight {
   font-size: 12px;
   line-height: 1.5;
