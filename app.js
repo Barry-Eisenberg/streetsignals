@@ -1568,7 +1568,7 @@ function renderPopularityAnalysis() {
 
   let html = '<table class="heatmap-table"><thead><tr><th></th>';
   shortInit.forEach(h => { html += `<th class="heatmap-col-header">${h}</th>`; });
-  if (showTotals) html += '<th class="heatmap-col-header heatmap-total-header">Total</th>';
+  if (showTotals) html += '<th class="heatmap-col-header heatmap-total-header">Total Contributions</th>';
   html += '</tr></thead><tbody>';
 
   matrix.forEach((row, i) => {
@@ -1587,7 +1587,7 @@ function renderPopularityAnalysis() {
   });
 
   if (showTotals) {
-    html += '<tr class="heatmap-totals-row"><td class="heatmap-row-label heatmap-total-label">Total</td>';
+    html += '<tr class="heatmap-totals-row"><td class="heatmap-row-label heatmap-total-label">Total Contributions</td>';
     colTotals.forEach(val => {
       html += `<td class="heatmap-cell heatmap-total-cell">${formatScore(val)}</td>`;
     });
