@@ -1528,13 +1528,26 @@ function renderPopularityAnalysis() {
 
   topSignalsEl.innerHTML = topSignals.length
     ? topSignals.map((item, idx) => `
-      <li class="pop-row pop-row-clickable" data-signal='${JSON.stringify(item)}' data-index='${idx}' onclick="showSignalDetail(${JSON.stringify(item).replace(/'/g, "&apos;")})">
+      <li class="pop-row pop-row-clickable" data-signal-index='${idx}'>
         <span class="pop-label">${item.label}</span>
         <span class="pop-bar"><span class="pop-bar-fill" style="width:${(item.score / maxSignalScore) * 100}%"></span></span>
         <span class="pop-value">${formatPopularityScore(item.score)}</span>
       </li>
     `).join('')
     : '<li class="pop-empty">No popularity data yet</li>';
+
+  // Store signal data globally for click access
+  window._topSignalsData = topSignals;
+  
+  // Add event listeners to signal rows
+  topSignalsEl.querySelectorAll('.pop-row-clickable').forEach(row => {
+    row.addEventListener('click', () => {
+      const idx = parseInt(row.getAttribute('data-signal-index'), 10);
+      if (window._topSignalsData && window._topSignalsData[idx]) {
+        showSignalDetail(window._topSignalsData[idx]);
+      }
+    });
+  });
 
   topSourcesEl.innerHTML = topSources.length
     ? topSources.map(item => `
@@ -1568,8 +1581,10 @@ function showSignalDetail(signalData) {
   const panel = document.getElementById('signalDetailPanel');
   if (!panel) return;
   
-  const daysAgo = Math.floor((Date.now() - (signalData.dateValue || 0)) / (1000 * 60 * 60 * 24));
-  const dateStr = daysAgo <= 365 ? `${daysAgo} days ago` : formatDate(signalData.dateValue ? new Date(signalData.dateValue) : null);
+  // Calculate recency information
+  const dateObj = new Date(signalData.date || new Date());
+  const daysAgo = Math.floor((Date.now() - dateObj.getTime()) / (1000 * 60 * 60 * 24));
+  const dateStr = daysAgo <= 365 ? `${daysAgo}d ago` : formatDate(signalData.date || new Date());
   const recencyWeight = getRecencyWeight(signalData.date || new Date().toISOString().split('T')[0]);
   
   // Find full signal object for additional metadata
@@ -1577,10 +1592,12 @@ function showSignalDetail(signalData) {
     s.institution === signalData.institution && 
     s.initiative === signalData.initiative && 
     s.date === signalData.date
-  ) || { description: 'Signal details available', signal_type: 'Unknown' };
+  ) || { description: 'N/A', signal_type: 'Unknown' };
   
   const tierBadge = signalData.tier ? 
     `<span class="tier-badge tier-${signalData.tier.toLowerCase()}">${signalData.tier}</span>` : '';
+  
+  const formattedDate = formatDate(signalData.date || new Date());
   
   panel.innerHTML = `
     <div class="signal-detail-header">
@@ -1606,11 +1623,11 @@ function showSignalDetail(signalData) {
       </div>
       <div class="signal-detail-row">
         <span class="signal-detail-label">Date:</span>
-        <span class="signal-detail-value">${formatDate(signalData.date || new Date())} (${dateStr})</span>
+        <span class="signal-detail-value">${formattedDate} (${dateStr})</span>
       </div>
       <div class="signal-detail-row">
         <span class="signal-detail-label">Credibility Weight:</span>
-        <span class="signal-detail-value">${recencyWeight.toFixed(3)}x (tier: ${signalData.tier || 'Unclassified'}, recency adj.)</span>
+        <span class="signal-detail-value">${recencyWeight.toFixed(3)}x (tier: ${signalData.tier || 'Unclassified'})</span>
       </div>
       <div class="signal-detail-row">
         <span class="signal-detail-label">Score:</span>
@@ -1619,7 +1636,6 @@ function showSignalDetail(signalData) {
     </div>
   `;
   panel.style.display = 'block';
-}
 
 function closeSignalDetail() {
   const panel = document.getElementById('signalDetailPanel');
