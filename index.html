@@ -164,44 +164,6 @@
         </div>
       </section>
 
-      <!-- Source Quality Distribution subsection -->
-      <section class="collapsible-section source-quality-subsection" id="source-quality">
-        <div class="library-header reveal" id="sourceQualityToggle">
-          <div class="library-header-left">
-            <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/><path d="M12 2v20"/></svg>
-            <div>
-              <h3 class="section-title">Source Quality Distribution</h3>
-            </div>
-          </div>
-          <div class="library-header-right">
-            <span class="library-expand-hint">Click to expand</span>
-            <svg class="library-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-          </div>
-        </div>
-        <div class="library-body" id="sourceQualityBody" style="display:none;">
-          <div class="chart-row reveal">
-            <div class="chart-card">
-              <div class="chart-card-header">
-                <h3>Signals by Source Tier</h3>
-                <p>Distribution of signals by source credibility tier.</p>
-              </div>
-              <div class="chart-container tier-chart-container">
-                <canvas id="sourceQualitySignalsChart"></canvas>
-              </div>
-            </div>
-            <div class="chart-card">
-              <div class="chart-card-header">
-                <h3>Unique Sources by Tier</h3>
-                <p>Coverage quality based on the number of unique sources contributing signals in each tier.</p>
-              </div>
-              <div class="chart-container">
-                <canvas id="sourceQualitySourcesChart"></canvas>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
     </div>
   </div>
 </section>
@@ -281,7 +243,10 @@
             <option value="">All Signal Types</option>
           </select>
         </div>
-        <div class="filter-pills" id="filterPills"></div>
+        <div class="filter-pills-wrap">
+          <div class="filter-pills-label">Institution Category</div>
+          <div class="filter-pills" id="filterPills"></div>
+        </div>
       </div>
       <div class="signal-type-quick-chips" id="signalTypeQuickChips" style="display:none;"></div>
       <div class="matrix-filter-chip" id="matrixFilterChip" style="display:none;">
@@ -351,7 +316,21 @@
 
     <div class="library-body" id="analyticsBody" style="display:none;">
 
-    <!-- Row 1: FMI Areas (full width) -->
+    <!-- Row 1: Signal Type (full width) -->
+    <div class="chart-row chart-row-single reveal">
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <h3>Signal Types</h3>
+          <p>Nature of institutional signals — click a bar to drill down by institution type.</p>
+        </div>
+        <div class="chart-container fmi-chart-container">
+          <canvas id="signalTypeChart"></canvas>
+        </div>
+        <div id="signalTypeDrilldown" class="drilldown-panel" style="display:none;"></div>
+      </div>
+    </div>
+
+    <!-- Row 2: FMI Areas (full width) -->
     <div class="chart-row chart-row-single reveal">
       <div class="chart-card">
         <div class="chart-card-header">
@@ -365,7 +344,7 @@
       </div>
     </div>
 
-    <!-- Row 2: Initiative Classification (full width) -->
+    <!-- Row 3: Initiative Classification (full width) -->
     <div class="chart-row chart-row-single reveal">
       <div class="chart-card">
         <div class="chart-card-header">
@@ -374,19 +353,6 @@
         </div>
         <div class="chart-container" style="height: 420px;">
           <canvas id="initiativeTypeChart"></canvas>
-        </div>
-      </div>
-    </div>
-
-    <!-- Row 3: Timeline (full width) -->
-    <div class="chart-row chart-row-single reveal">
-      <div class="chart-card">
-        <div class="chart-card-header">
-          <h3>Signal Momentum by Year</h3>
-          <p>Stacked by institution type — showing accelerating institutional adoption</p>
-        </div>
-        <div class="chart-container" style="height: 420px;">
-          <canvas id="timelineChart"></canvas>
         </div>
       </div>
     </div>
@@ -401,20 +367,20 @@
       <div class="chart-row">
         <div class="chart-card">
           <div class="chart-card-header">
+            <h3>Signal Momentum by Year</h3>
+            <p>Stacked by institution type — showing accelerating institutional adoption</p>
+          </div>
+          <div class="chart-container" style="height: 400px;">
+            <canvas id="timelineChart"></canvas>
+          </div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-card-header">
             <h3>By Institution Type</h3>
             <p>Distribution across financial sector</p>
           </div>
           <div class="chart-container" style="height: 400px;">
             <canvas id="instTypeChart"></canvas>
-          </div>
-        </div>
-        <div class="chart-card">
-          <div class="chart-card-header">
-            <h3>By Signal Type</h3>
-            <p>Nature of institutional announcements</p>
-          </div>
-          <div class="chart-container" style="height: 400px;">
-            <canvas id="signalTypeChart"></canvas>
           </div>
         </div>
       </div>

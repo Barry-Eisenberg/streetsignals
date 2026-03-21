@@ -161,16 +161,6 @@ document.getElementById('signalScoringToggle')?.addEventListener('click', () => 
   trackSectionToggle('Signal Scoring', isOpen);
 });
 
-document.getElementById('sourceQualityToggle')?.addEventListener('click', () => {
-  const section = document.querySelector('#source-quality');
-  const isOpen = !section?.classList.contains('open');
-  toggleCollapsible('#source-quality', 'sourceQualityBody');
-  if (isOpen) {
-    setTimeout(renderSourceQualityDistribution, 100);
-  }
-  trackSectionToggle('Source Quality Distribution', isOpen);
-});
-
 document.getElementById('methodologyToggle')?.addEventListener('click', () => {
   const section = document.querySelector('#methodology');
   const isOpen = !section?.classList.contains('open');
@@ -637,7 +627,6 @@ Promise.all([
   renderFmiSchema();
   renderSignals();
   renderPopularityAnalysis();
-  renderSourceQualityDistribution();
   document.querySelectorAll('.reveal:not(.visible)').forEach(el => observer.observe(el));
 });
 
@@ -811,7 +800,7 @@ function renderKPIs() {
   const kpis = [
     { id: 'daily_new', value: snapshot.count, label: 'New Signals', color: 'var(--color-success)', delta: snapshotContext },
     { id: 'signals', value: signals.length, label: 'Total Signals', color: 'var(--color-primary)' },
-    { id: 'signal_types', value: activeSignalTypes, label: 'Signal Types', color: 'var(--color-primary)', delta: `${activeSignalTypes} of ${totalSignalTypes} taxonomy types active` },
+    { id: 'signal_types', value: activeSignalTypes, label: 'Signal Types', color: 'var(--color-primary)' },
     { id: 'institutions', value: institutions.size, label: 'Institutions', color: 'var(--color-primary)' },
     { id: 'sectors', value: '6', label: 'Sector Categories', color: 'var(--color-primary)' },
     { id: 'sources', value: uniqueSources.size, label: 'Info Sources', color: 'var(--color-primary)' },
@@ -1162,9 +1151,16 @@ function buildSignalTypeChart(textColor, gridColor) {
       indexAxis: 'y',
       responsive: true, maintainAspectRatio: false,
       layout: { padding: { left: 4 } },
+      onClick: (e, elements) => {
+        if (elements.length > 0) {
+          const idx = elements[0].index;
+          const signalType = sorted[idx][0];
+          showSignalTypeDrilldown(signalType, getCatColors());
+        }
+      },
       plugins: {
         legend: { display: false },
-        tooltip: { callbacks: { label: ctx => `${ctx.raw} signals (${Math.round(ctx.raw/signals.length*100)}%)` } }
+        tooltip: { callbacks: { label: ctx => `${ctx.raw} signals (${Math.round(ctx.raw/signals.length*100)}%) — click for breakdown` } }
       },
       scales: {
         x: { grid: { color: gridColor }, ticks: { font: { size: 11 } } },
@@ -1172,6 +1168,44 @@ function buildSignalTypeChart(textColor, gridColor) {
       }
     }
   });
+}
+
+function showSignalTypeDrilldown(signalType, colors) {
+  const panel = document.getElementById('signalTypeDrilldown');
+  if (!panel) return;
+
+  const relevant = getOperationalSignals().filter(s => String(s.signal_type || '').trim() === signalType);
+  const byType = {};
+  relevant.forEach(s => { byType[s.institution_type] = (byType[s.institution_type] || 0) + 1; });
+  const sorted = Object.entries(byType).sort((a, b) => b[1] - a[1]);
+  const max = sorted[0]?.[1] || 1;
+
+  const dirCatMap = {
+    'Global Banks': 'global_banks',
+    'Asset & Investment Management': 'asset_management',
+    'Payments Providers': 'payments',
+    'Exchanges & Central Intermediaries': 'exchanges_intermediaries',
+    'Regulatory Agencies': 'regulators',
+    'Infrastructure & Technology': 'ecosystem'
+  };
+
+  panel.style.display = 'block';
+  panel.innerHTML = `
+    <button class="drilldown-close" onclick="this.parentElement.style.display='none'">Close ✕</button>
+    <h4>${signalType} — by Institution Type (${relevant.length} signals)</h4>
+    <p class="drilldown-hint">Click a row to navigate to that section in the directory</p>
+    ${sorted.map(([type, count]) => {
+      const catKey = dirCatMap[type] || '';
+      const shortLabel = type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech');
+      return `
+      <div class="drilldown-item drilldown-item-link" onclick="navigateToDirectorySection('${catKey}')" title="View ${type} in the directory">
+        <span style="min-width:140px">${shortLabel}</span>
+        <div class="drilldown-bar"><div class="drilldown-bar-fill" style="width:${(count/max*100)}%; background:${colors[type] || 'var(--color-primary)'}"></div></div>
+        <span style="min-width:30px;text-align:right;font-weight:700">${count}</span>
+        <svg class="drilldown-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
+      </div>
+    `}).join('')}
+  `;
 }
 
 // 4. INITIATIVE TYPE (horizontal bar)
@@ -1909,13 +1943,36 @@ function showSignalStrengthBreakdown(institutionType, initiativeType) {
   const totalScore = items.reduce((sum, item) => sum + item.score, 0);
   const rawCount = items.length;
   const signalTypeAgg = {};
+  const allInstitutions = new Set();
   items.forEach(item => {
     const type = String(item.signalType || '').trim() || 'Unknown';
-    signalTypeAgg[type] = (signalTypeAgg[type] || 0) + 1;
+    const subtype = String(item.initiative || '').trim() || 'Unspecified';
+    if (!signalTypeAgg[type]) {
+      signalTypeAgg[type] = {
+        count: 0,
+        score: 0,
+        institutions: new Set(),
+        subtypes: {}
+      };
+    }
+    signalTypeAgg[type].count += 1;
+    signalTypeAgg[type].score += item.score;
+    signalTypeAgg[type].institutions.add(item.institution || 'Unknown');
+    signalTypeAgg[type].subtypes[subtype] = (signalTypeAgg[type].subtypes[subtype] || 0) + 1;
+    allInstitutions.add(item.institution || 'Unknown');
   });
-  const topSignalTypeEntry = Object.entries(signalTypeAgg).sort((a, b) => b[1] - a[1])[0] || ['Unknown', 0];
-  const topSignalType = topSignalTypeEntry[0];
-  const topSignalTypeCount = topSignalTypeEntry[1];
+  const signalTypeRows = Object.entries(signalTypeAgg)
+    .map(([type, data]) => {
+      const topSubtype = Object.entries(data.subtypes).sort((a, b) => b[1] - a[1])[0]?.[0] || 'Unspecified';
+      return {
+        type,
+        subtype: topSubtype,
+        count: data.count,
+        score: data.score,
+        institutions: data.institutions.size
+      };
+    })
+    .sort((a, b) => b.score - a.score);
   const avgCredibility = items.reduce((sum, item) => sum + item.credibilityWeight, 0) / items.length;
   const avgRecency = items.reduce((sum, item) => sum + item.recencyWeight, 0) / items.length;
   const avgPrevalence = items.reduce((sum, item) => sum + item.prevalenceWeight, 0) / items.length;
@@ -1923,17 +1980,31 @@ function showSignalStrengthBreakdown(institutionType, initiativeType) {
   const sourceAgg = {};
   items.forEach(item => {
     const source = item.source || 'Unknown';
-    if (!sourceAgg[source]) sourceAgg[source] = { score: 0, count: 0 };
+    if (!sourceAgg[source]) {
+      sourceAgg[source] = {
+        score: 0,
+        count: 0,
+        institutions: new Set(),
+        latestDate: item.date || ''
+      };
+    }
     sourceAgg[source].score += item.score;
     sourceAgg[source].count += 1;
+    sourceAgg[source].institutions.add(item.institution || 'Unknown');
+    const currentLatest = new Date(sourceAgg[source].latestDate || '1970-01-01');
+    const candidate = new Date(item.date || '1970-01-01');
+    if (candidate > currentLatest) sourceAgg[source].latestDate = item.date || sourceAgg[source].latestDate;
   });
-  const topSources = Object.entries(sourceAgg)
-    .sort((a, b) => b[1].score - a[1].score)
-    .slice(0, 5);
-
-  const topSignals = [...items]
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 5);
+  const sourceRows = Object.entries(sourceAgg)
+    .map(([source, data]) => ({
+      source,
+      count: data.count,
+      score: data.score,
+      avgScore: data.count ? data.score / data.count : 0,
+      institutions: data.institutions.size,
+      latestDate: data.latestDate
+    }))
+    .sort((a, b) => b.score - a.score);
 
   const navigateInstArg = JSON.stringify(institutionType);
   const navigateInitArg = JSON.stringify(initiativeType);
@@ -1952,28 +2023,33 @@ function showSignalStrengthBreakdown(institutionType, initiativeType) {
     <div class="signal-strength-breakdown-actions">
       <button type="button" onclick='navigateToMatrixSelection(${navigateInstArg},${navigateInitArg})'>View Matching Signals</button>
     </div>
-    <div class="signal-strength-breakdown-stats">
-      <div class="signal-strength-stat"><span class="signal-strength-stat-label">Signal Type (Top)</span><span class="signal-strength-stat-value">${escapeHtml(topSignalType)} (${topSignalTypeCount})</span></div>
-      <div class="signal-strength-stat"><span class="signal-strength-stat-label">${primaryMetricLabel}</span><span class="signal-strength-stat-value">${primaryMetricValue}</span></div>
-      <div class="signal-strength-stat"><span class="signal-strength-stat-label">Signals</span><span class="signal-strength-stat-value">${rawCount}</span></div>
-      <div class="signal-strength-stat"><span class="signal-strength-stat-label">Weighted Strength</span><span class="signal-strength-stat-value">${totalScore.toFixed(1)}</span></div>
-      <div class="signal-strength-stat"><span class="signal-strength-stat-label">Avg Credibility</span><span class="signal-strength-stat-value">${avgCredibility.toFixed(2)}x</span></div>
-      <div class="signal-strength-stat"><span class="signal-strength-stat-label">Avg Recency</span><span class="signal-strength-stat-value">${avgRecency.toFixed(2)}x</span></div>
-      <div class="signal-strength-stat"><span class="signal-strength-stat-label">Avg Prevalence</span><span class="signal-strength-stat-value">${avgPrevalence.toFixed(2)}x</span></div>
+    <div class="signal-strength-breakdown-card signal-strength-breakdown-table-card">
+      <h5>Top Contributing Signal Types</h5>
+      <div class="signal-strength-breakdown-table-summary">Totals: ${rawCount} signals · ${totalScore.toFixed(1)} score · ${allInstitutions.size} institutions</div>
+      <table class="signal-strength-breakdown-table">
+        <thead><tr><th>Signal Type</th><th>Sub-Type</th><th>Count</th><th>Score</th><th>Institutions</th></tr></thead>
+        <tbody>
+          ${signalTypeRows.map(row => `<tr><td>${escapeHtml(row.type)}</td><td>${escapeHtml(row.subtype)}</td><td>${row.count}</td><td>${row.score.toFixed(1)}</td><td>${row.institutions}</td></tr>`).join('')}
+        </tbody>
+      </table>
     </div>
-    <div class="signal-strength-breakdown-grid">
-      <div class="signal-strength-breakdown-card">
-        <h5>Top Contributing Sources</h5>
-        <ul class="signal-strength-breakdown-list">
-          ${topSources.map(([source, data]) => `<li><strong>${escapeHtml(source)}</strong><span>${data.count} signals | ${data.score.toFixed(1)}</span></li>`).join('')}
-        </ul>
-      </div>
-      <div class="signal-strength-breakdown-card">
-        <h5>Top Contributing Signals</h5>
-        <ul class="signal-strength-breakdown-list">
-          ${topSignals.map(item => `<li><strong>${escapeHtml(item.institution)}</strong><span>${escapeHtml(item.initiative)} | ${item.score.toFixed(1)}</span></li>`).join('')}
-        </ul>
-      </div>
+    <div class="signal-strength-breakdown-card signal-strength-breakdown-table-card">
+      <h5>Top Contributing Sources</h5>
+      <div class="signal-strength-breakdown-table-summary">Totals: ${sourceRows.length} sources · ${rawCount} signals</div>
+      <table class="signal-strength-breakdown-table">
+        <thead><tr><th>Source</th><th>Count</th><th>Score</th><th>Avg Score</th><th>Institutions</th><th>Latest</th></tr></thead>
+        <tbody>
+          ${sourceRows.map(row => `<tr><td>${escapeHtml(row.source)}</td><td>${row.count}</td><td>${row.score.toFixed(1)}</td><td>${row.avgScore.toFixed(2)}</td><td>${row.institutions}</td><td>${escapeHtml(formatDate(row.latestDate || ''))}</td></tr>`).join('')}
+        </tbody>
+      </table>
+    </div>
+    <div class="signal-strength-breakdown-stats compact">
+      <div class="signal-strength-stat compact"><span class="signal-strength-stat-label">${primaryMetricLabel}</span><span class="signal-strength-stat-value">${primaryMetricValue}</span></div>
+      <div class="signal-strength-stat compact"><span class="signal-strength-stat-label">Signals</span><span class="signal-strength-stat-value">${rawCount}</span></div>
+      <div class="signal-strength-stat compact"><span class="signal-strength-stat-label">Weighted Strength</span><span class="signal-strength-stat-value">${totalScore.toFixed(1)}</span></div>
+      <div class="signal-strength-stat compact"><span class="signal-strength-stat-label">Avg Credibility</span><span class="signal-strength-stat-value">${avgCredibility.toFixed(2)}x</span></div>
+      <div class="signal-strength-stat compact"><span class="signal-strength-stat-label">Avg Recency</span><span class="signal-strength-stat-value">${avgRecency.toFixed(2)}x</span></div>
+      <div class="signal-strength-stat compact"><span class="signal-strength-stat-label">Avg Prevalence</span><span class="signal-strength-stat-value">${avgPrevalence.toFixed(2)}x</span></div>
     </div>
   `;
   panel.style.display = 'block';
@@ -2653,6 +2729,8 @@ function resetAllFilters() {
   // Close FMI drilldown
   const fmiDrilldown = document.getElementById('fmiDrilldown');
   if (fmiDrilldown) fmiDrilldown.style.display = 'none';
+  const signalTypeDrilldown = document.getElementById('signalTypeDrilldown');
+  if (signalTypeDrilldown) signalTypeDrilldown.style.display = 'none';
 
   // Re-render everything
   renderDirectory();
