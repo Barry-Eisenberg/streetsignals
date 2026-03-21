@@ -635,10 +635,11 @@ let signalScoringFilter = null;
 let momentumDebugMode = false;
 const DEFAULT_IMPORTANCE_TIER_MODE = 'all';
 const DEFAULT_PERSONA = 'all';
-const SIGNAL_MAX_AGE_DAYS = 60;
+const DEFAULT_DATE_WINDOW_DAYS = 60;
 const ENABLE_EXTERNAL_CONTEXT_MODIFIER = true;
 const EXTERNAL_CONTEXT_MODIFIER_MIN = 0.9;
 const EXTERNAL_CONTEXT_MODIFIER_MAX = 1.1;
+let selectedDateWindowDays = DEFAULT_DATE_WINDOW_DAYS;
 let importanceTierMode = DEFAULT_IMPORTANCE_TIER_MODE;
 let selectedPersona = DEFAULT_PERSONA;
 let dirCountryFilter = '';
@@ -1143,10 +1144,12 @@ function getSignalDateTimestamp(signal) {
   return Number.isFinite(parsed) ? parsed : null;
 }
 
-function isSignalWithinRecencyWindow(signal, maxAgeDays = SIGNAL_MAX_AGE_DAYS) {
+function isSignalWithinRecencyWindow(signal, maxAgeDays = selectedDateWindowDays) {
   const timestamp = getSignalDateTimestamp(signal);
   if (!timestamp) return true;
   const ageDays = Math.floor((Date.now() - timestamp) / 86400000);
+  if (ageDays < 0) return false;
+  if (maxAgeDays === null) return true;
   return ageDays <= maxAgeDays;
 }
 
@@ -1989,6 +1992,7 @@ function loadAndRenderData() {
     renderSignalTypeSelect();
     renderImportanceTierSelect();
     renderPersonaSelect();
+    renderGlobalDateFilterSelect();
     renderCountrySelects();
     renderIntelBriefs();
     renderInitiativeSchema();
@@ -2138,6 +2142,7 @@ function clearSignalScoringFilter() {
   countryFilter = '';
   setImportanceTierMode(DEFAULT_IMPORTANCE_TIER_MODE);
   setPersona(DEFAULT_PERSONA);
+  selectedDateWindowDays = DEFAULT_DATE_WINDOW_DAYS;
   searchQuery = '';
   activeFilter = 'all';
   dirSearch = '';
@@ -2161,6 +2166,7 @@ function clearSignalScoringFilter() {
   syncSignalTypeSelect();
   syncCountrySelects();
   syncPersonaSelect();
+  syncGlobalDateFilterSelect();
   const searchInput = document.getElementById('searchInput');
   if (searchInput) searchInput.value = '';
   closeSignalStrengthBreakdown();
@@ -3062,6 +3068,37 @@ function syncCountrySelects() {
   if (directorySelect) directorySelect.value = dirCountryFilter;
 }
 
+function syncGlobalDateFilterSelect() {
+  const select = document.getElementById('globalDateFilterSelect');
+  if (!select) return;
+  select.value = selectedDateWindowDays === null ? 'all' : String(selectedDateWindowDays);
+}
+
+function renderGlobalDateFilterSelect() {
+  const select = document.getElementById('globalDateFilterSelect');
+  if (!select) return;
+
+  syncGlobalDateFilterSelect();
+
+  select.onchange = event => {
+    const raw = String(event.target.value || '').trim();
+    if (raw === 'all') {
+      selectedDateWindowDays = null;
+    } else {
+      const parsed = Number(raw);
+      selectedDateWindowDays = Number.isFinite(parsed) && parsed > 0 ? parsed : DEFAULT_DATE_WINDOW_DAYS;
+    }
+
+    trackFilter('date_window', selectedDateWindowDays === null ? 'all' : String(selectedDateWindowDays));
+    renderCatalogueSortNote();
+    renderSignals();
+    renderDirectory();
+    renderCountryDirectory();
+    renderPopularityAnalysis();
+    updateResetBars();
+  };
+}
+
 function renderCountrySelects() {
   const counts = {};
   getOperationalSignals().forEach(signal => {
@@ -3204,12 +3241,16 @@ function renderCatalogueSortNote() {
   const note = document.getElementById('catalogueSortNote');
   if (!note) return;
 
+  const dateWindowText = selectedDateWindowDays === null
+    ? 'Showing all historical signals (future-dated entries hidden).'
+    : `Showing last ${selectedDateWindowDays} days only.`;
+
   if (selectedPersona !== DEFAULT_PERSONA) {
-    note.textContent = `Sorted by ${getPersonaLabel(selectedPersona)} relevance first, then most recent date and signal strength (importance score). Showing last ${SIGNAL_MAX_AGE_DAYS} days only.`;
+    note.textContent = `Sorted by ${getPersonaLabel(selectedPersona)} relevance first, then most recent date and signal strength (importance score). ${dateWindowText}`;
     return;
   }
 
-  note.textContent = `Default catalogue sort order: most recent date first, then signal strength (importance score). Showing last ${SIGNAL_MAX_AGE_DAYS} days only.`;
+  note.textContent = `Default catalogue sort order: most recent date first, then signal strength (importance score). ${dateWindowText}`;
 }
 
 function renderPersonaSelect() {
@@ -4628,9 +4669,11 @@ function resetAllFilters() {
   countryFilter = '';
   setImportanceTierMode(DEFAULT_IMPORTANCE_TIER_MODE);
   setPersona(DEFAULT_PERSONA);
+  selectedDateWindowDays = DEFAULT_DATE_WINDOW_DAYS;
   syncSignalTypeSelect();
   syncCountrySelects();
   syncPersonaSelect();
+  syncGlobalDateFilterSelect();
   const searchInput = document.getElementById('searchInput');
   if (searchInput) searchInput.value = '';
 
@@ -4681,7 +4724,7 @@ function resetAllFilters() {
 function updateResetBars() {
   const hasDirectoryFilter = dirSearch !== '' || dirSort !== 'signals' || dirCountryFilter !== '';
   const hasCountryDirectoryFilter = countryDirSearch !== '' || countryDirSort !== 'signals' || countryDirTypeFilter !== '';
-  const hasLibraryFilter = searchQuery !== '' || activeFilter !== 'all' || matrixFilter !== null || signalTypeFilter !== '' || countryFilter !== '' || importanceTierMode !== DEFAULT_IMPORTANCE_TIER_MODE || selectedPersona !== DEFAULT_PERSONA;
+  const hasLibraryFilter = searchQuery !== '' || activeFilter !== 'all' || matrixFilter !== null || signalTypeFilter !== '' || countryFilter !== '' || importanceTierMode !== DEFAULT_IMPORTANCE_TIER_MODE || selectedPersona !== DEFAULT_PERSONA || selectedDateWindowDays !== DEFAULT_DATE_WINDOW_DAYS;
   const hasAnyFilter = hasDirectoryFilter || hasCountryDirectoryFilter || hasLibraryFilter;
 
   const dirReset = document.getElementById('resetDirectoryFilters');
