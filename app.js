@@ -766,8 +766,10 @@ function renderKPIs() {
       .map(s => s.trim())
       .filter(Boolean)
   );
-  const productLaunches = signals.filter(s => s.signal_type === 'Product Launch').length;
-  const pctLaunches = signals.length ? Math.round((productLaunches / signals.length) * 100) : 0;
+  const regulatorySignals = signals.filter(s =>
+    s.signal_type === 'Regulatory Action' || s.signal_type === 'Regulatory / Compliance Framework'
+  ).length;
+  const pctRegulatory = signals.length ? Math.round((regulatorySignals / signals.length) * 100) : 0;
 
   const snapshot = getDailySignalSnapshot(signals);
   const snapshotDate = new Date(`${snapshot.effectiveDateKey}T00:00:00`);
@@ -775,13 +777,13 @@ function renderKPIs() {
   const snapshotContext = snapshot.effectiveDateKey === snapshot.todayKey ? `As of ${snapshotLabel}` : `As of ${snapshotLabel} (latest reporting date)`;
 
   const kpis = [
-    { id: 'signals', value: signals.length, label: 'Total Signals', color: 'var(--color-primary)' },
     { id: 'daily_new', value: snapshot.count, label: 'New Signals', color: 'var(--color-success)', delta: snapshotContext },
-    { id: 'sources', value: uniqueSources.size, label: 'Info Sources', color: 'var(--color-primary)' },
+    { id: 'signals', value: signals.length, label: 'Total Signals', color: 'var(--color-primary)' },
+    { id: 'regulatory', value: regulatorySignals, label: 'Regulatory Activity', color: 'var(--color-primary)', delta: `${pctRegulatory}% of all signals` },
     { id: 'institutions', value: institutions.size, label: 'Institutions', color: 'var(--color-primary)' },
     { id: 'sectors', value: '6', label: 'Sector Categories', color: 'var(--color-primary)' },
-    { id: 'countries', value: '40+', label: 'Countries', color: 'var(--color-primary)' },
-    { id: 'launches', value: productLaunches, label: 'Product Launches', color: 'var(--color-primary)', delta: `${pctLaunches}% of all signals` }
+    { id: 'sources', value: uniqueSources.size, label: 'Info Sources', color: 'var(--color-primary)' },
+    { id: 'countries', value: '40+', label: 'Countries', color: 'var(--color-primary)' }
   ];
 
   el.innerHTML = kpis.map(k => `
@@ -910,6 +912,21 @@ function showKPIBreakdown(kpiId, activeCard) {
     const note26 = byYear['2026'] ? `<div style="font-size:11px;color:var(--color-text-muted);margin-top:var(--space-2);">2026 data is partial (through Q1) — ${byYear['2026']} signals already tracked</div>` : '';
     html += note26;
     html += '<a href="#analytics" class="kpi-breakdown-link">View timeline chart ↓</a>';
+
+  } else if (kpiId === 'regulatory') {
+    const regTypes = ['Regulatory Action', 'Regulatory / Compliance Framework'];
+    const regSignals = signals.filter(s => regTypes.includes(s.signal_type));
+    const byInst = {};
+    regSignals.forEach(s => { byInst[s.institution_type] = (byInst[s.institution_type] || 0) + 1; });
+    const sortedInst = Object.entries(byInst).sort((a,b) => b[1]-a[1]);
+    const max = sortedInst[0]?.[1] || 1;
+    html = `<div class="kpi-breakdown-header"><h3>${regSignals.length} Regulatory Signals</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
+    html += '<div class="kpi-breakdown-grid">';
+    sortedInst.forEach(([type, count]) => {
+      html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="drillDownKPIToSignalMatrixByInstitutionType('${type.replace(/'/g,"\\'")}')"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
+    });
+    html += '</div>';
+    html += '<a href="#signal-library" class="kpi-breakdown-link">Open Signal Catalogue ↓</a>';
 
   } else if (kpiId === 'launches') {
     const byType = {};
