@@ -2196,7 +2196,9 @@
 .signal-date {
   font-size: var(--text-xs);
   color: var(--color-text-faint);
-  white-space: nowrap;
+  white-space: normal;
+  text-align: right;
+  max-width: 150px;
   font-variant-numeric: tabular-nums;
 }
 .signal-initiative {
@@ -2878,6 +2880,8 @@
   font-size: 11px;
   color: var(--color-text-muted);
   flex-shrink: 0;
+  text-align: right;
+  max-width: 140px;
 }
 
 .priority-signal-card-initiative {
