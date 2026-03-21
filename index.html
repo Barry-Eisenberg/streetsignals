@@ -137,13 +137,13 @@
 
     <div class="library-body" id="signalStrengthBody" style="display:none;">
 
-      <!-- Collapsible Signal Scoring subsection -->
+      <!-- Collapsible Signal Strength Matrix subsection -->
       <section class="collapsible-section signal-scoring-subsection" id="signal-scoring">
         <div class="library-header reveal" id="signalScoringToggle">
           <div class="library-header-left">
             <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V4"/><path d="M6 12h12"/></svg>
             <div>
-              <h3 class="section-title">Signal Scoring</h3>
+              <h3 class="section-title">Signal Strength Matrix</h3>
             </div>
           </div>
           <div class="library-header-right">
@@ -154,8 +154,21 @@
         <div class="library-body" id="signalScoringBody" style="display:none;">
           <div class="chart-row chart-row-single reveal">
             <div class="chart-card">
-              <div class="chart-card-header">
-                <p class="matrix-lead">Aggregate signal strength by institution class and initiative class. Values combine source prevalence, recency weighting, and source credibility.</p>
+              <div class="chart-card-header signal-strength-matrix-header">
+                <div>
+                  <h3>Signal Strength Matrix</h3>
+                  <p class="matrix-lead">Compare institution classes against initiative classes. Switch between weighted strength and raw signal count, and change the heat shading to absolute or percentile view.</p>
+                </div>
+                <div class="signal-strength-controls">
+                  <div class="signal-strength-control-group" aria-label="Signal matrix metric mode">
+                    <button type="button" id="signalMetricStrengthBtn" class="signal-strength-control is-active" onclick="setSignalScoringMetricMode('strength')">Strength</button>
+                    <button type="button" id="signalMetricCountBtn" class="signal-strength-control" onclick="setSignalScoringMetricMode('count')">Raw Count</button>
+                  </div>
+                  <div class="signal-strength-control-group" aria-label="Signal matrix color mode">
+                    <button type="button" id="signalColorAbsoluteBtn" class="signal-strength-control is-active" onclick="setSignalScoringColorMode('absolute')">Absolute</button>
+                    <button type="button" id="signalColorPercentileBtn" class="signal-strength-control" onclick="setSignalScoringColorMode('percentile')">Percentile</button>
+                  </div>
+                </div>
               </div>
               <div class="heatmap-container" id="signalScoringMatrixContainer"></div>
               <div class="signal-strength-legend" id="signalScoringLegend"></div>

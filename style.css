@@ -1154,6 +1154,46 @@
 .heatmap-totals-row td {
   border-top: 2px solid var(--color-divider);
 }
+
+.signal-strength-matrix-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-4);
+}
+.signal-strength-controls {
+  display: flex;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.signal-strength-control-group {
+  display: inline-flex;
+  background: var(--color-surface-offset);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 3px;
+  gap: 3px;
+}
+.signal-strength-control {
+  border: none;
+  background: transparent;
+  color: var(--color-text-muted);
+  border-radius: calc(var(--radius-md) - 3px);
+  padding: 8px 12px;
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background var(--transition-interactive), color var(--transition-interactive);
+}
+.signal-strength-control:hover {
+  color: var(--color-text);
+}
+.signal-strength-control.is-active {
+  background: var(--color-primary-highlight);
+  color: var(--color-primary);
+}
 .heatmap-totals-row .heatmap-total-cell {
   border-top: 2px solid var(--color-divider);
 }
@@ -1252,7 +1292,7 @@
 }
 .signal-strength-breakdown-stats {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: var(--space-3);
   margin-bottom: var(--space-4);
 }
@@ -1329,6 +1369,13 @@
 }
 
 @media (max-width: 900px) {
+  .signal-strength-matrix-header {
+    flex-direction: column;
+  }
+  .signal-strength-controls {
+    width: 100%;
+    justify-content: flex-start;
+  }
   .signal-strength-legend {
     grid-template-columns: 1fr;
   }

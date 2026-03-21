@@ -448,6 +448,8 @@ let chartInstances = {};
 let popularitySeed = null;
 let sourceCatalog = { byName: {}, byHost: {} };
 let selectedPopularitySector = 'All Sectors';
+let signalScoringMetricMode = 'strength';
+let signalScoringColorMode = 'absolute';
 
 function normalizeSourceKey(value) {
   return String(value || '').trim().toLowerCase();
@@ -532,6 +534,18 @@ function getSignalStrengthScore(signal, sourceCounts, maxSourceCount) {
   const recencyWeight = getRecencyWeight(signal.date);
   const prevalenceWeight = getSourcePrevalenceWeight(source, sourceCounts, maxSourceCount);
   return (meta.weight || 0.9) * recencyWeight * prevalenceWeight;
+}
+
+function setSignalScoringMetricMode(mode) {
+  if (!['strength', 'count'].includes(mode)) return;
+  signalScoringMetricMode = mode;
+  renderPopularityAnalysis();
+}
+
+function setSignalScoringColorMode(mode) {
+  if (!['absolute', 'percentile'].includes(mode)) return;
+  signalScoringColorMode = mode;
+  renderPopularityAnalysis();
 }
 
 function mapIntelBriefsToSignals(briefs) {
@@ -1476,6 +1490,8 @@ function renderPopularityAnalysis() {
   const cellDetails = {};
 
   const matrix = instTypes.map(() => initTypes.map(() => 0));
+  const strengthMatrix = instTypes.map(() => initTypes.map(() => 0));
+  const countMatrix = instTypes.map(() => initTypes.map(() => 0));
   let maxVal = 0;
 
   signals.forEach(signal => {
@@ -1487,7 +1503,8 @@ function renderPopularityAnalysis() {
     (signal.initiative_types || []).forEach(init => {
       const colIndex = initTypes.indexOf(init);
       if (colIndex < 0) return;
-      matrix[rowIndex][colIndex] += score;
+      strengthMatrix[rowIndex][colIndex] += score;
+      countMatrix[rowIndex][colIndex] += 1;
       const key = `${signal.institution_type}|||${init}`;
       if (!cellDetails[key]) cellDetails[key] = [];
       cellDetails[key].push({
@@ -1500,9 +1517,13 @@ function renderPopularityAnalysis() {
         recencyWeight: getRecencyWeight(signal.date),
         prevalenceWeight: getSourcePrevalenceWeight(getSignalSourceName(signal), sourceCounts, maxSourceCount)
       });
-      if (matrix[rowIndex][colIndex] > maxVal) maxVal = matrix[rowIndex][colIndex];
     });
   });
+
+  const matrix = signalScoringMetricMode === 'count' ? countMatrix : strengthMatrix;
+  matrix.forEach(row => row.forEach(val => {
+    if (val > maxVal) maxVal = val;
+  }));
 
   window._signalStrengthMatrixDetails = cellDetails;
 
@@ -1511,9 +1532,21 @@ function renderPopularityAnalysis() {
     return;
   }
 
+  const nonZeroValues = matrix.flat().filter(val => val > 0).sort((a, b) => a - b);
+
+  function getColorBasis(val) {
+    if (val === 0) return 0;
+    if (signalScoringColorMode === 'percentile') {
+      if (!nonZeroValues.length) return 0;
+      const belowOrEqual = nonZeroValues.filter(entry => entry <= val).length;
+      return belowOrEqual / nonZeroValues.length;
+    }
+    return maxVal > 0 ? val / maxVal : 0;
+  }
+
   function cellColor(val) {
     if (val === 0) return 'var(--color-surface-offset)';
-    const intensity = val / maxVal;
+    const intensity = getColorBasis(val);
     const isLight = document.documentElement.getAttribute('data-theme') === 'light';
     if (intensity < 0.25) return isLight ? 'rgba(0,136,170,0.10)' : 'rgba(0,212,255,0.08)';
     if (intensity < 0.5) return isLight ? 'rgba(0,136,170,0.25)' : 'rgba(0,212,255,0.18)';
@@ -1523,12 +1556,17 @@ function renderPopularityAnalysis() {
 
   function textCol(val) {
     if (val === 0) return 'var(--color-text-faint)';
-    return (val / maxVal) > 0.5 ? '#fff' : 'var(--color-text)';
+    return getColorBasis(val) > 0.5 ? '#fff' : 'var(--color-text)';
   }
 
   const rowTotals = matrix.map(row => row.reduce((sum, val) => sum + val, 0));
   const colTotals = initTypes.map((_, ci) => matrix.reduce((sum, row) => sum + row[ci], 0));
   const grandTotal = rowTotals.reduce((sum, val) => sum + val, 0);
+
+  document.getElementById('signalMetricStrengthBtn')?.classList.toggle('is-active', signalScoringMetricMode === 'strength');
+  document.getElementById('signalMetricCountBtn')?.classList.toggle('is-active', signalScoringMetricMode === 'count');
+  document.getElementById('signalColorAbsoluteBtn')?.classList.toggle('is-active', signalScoringColorMode === 'absolute');
+  document.getElementById('signalColorPercentileBtn')?.classList.toggle('is-active', signalScoringColorMode === 'percentile');
 
   let html = '<table class="heatmap-table"><thead><tr><th></th>';
   shortInit.forEach(h => { html += `<th class="heatmap-col-header">${h}</th>`; });
@@ -1561,6 +1599,8 @@ function renderPopularityAnalysis() {
   container.innerHTML = html;
 
   if (legendEl) {
+    const modeLabel = signalScoringMetricMode === 'count' ? 'raw signal count' : 'weighted strength';
+    const colorLabel = signalScoringColorMode === 'percentile' ? 'percentile shading' : 'absolute shading';
     legendEl.innerHTML = `
       <div class="signal-strength-legend-scale">
         <div class="signal-strength-legend-title">Strength Scale</div>
@@ -1576,7 +1616,7 @@ function renderPopularityAnalysis() {
       </div>
       <div class="signal-strength-legend-method">
         <div class="signal-strength-legend-title">Method</div>
-        <p>Each signal contributes a bounded score based on source credibility, recency, and a capped prevalence boost. Click a cell for score composition and top contributing sources.</p>
+        <p>Current view shows <strong>${modeLabel}</strong> with <strong>${colorLabel}</strong>. Weighted strength uses source credibility, recency, and a capped prevalence boost. Click a cell for count, average weights, and top contributors.</p>
       </div>
     `;
   }
@@ -1596,6 +1636,7 @@ function showSignalStrengthBreakdown(institutionType, initiativeType) {
   trackMatrixCellClick(institutionType, initiativeType);
 
   const totalScore = items.reduce((sum, item) => sum + item.score, 0);
+  const rawCount = items.length;
   const avgCredibility = items.reduce((sum, item) => sum + item.credibilityWeight, 0) / items.length;
   const avgRecency = items.reduce((sum, item) => sum + item.recencyWeight, 0) / items.length;
   const avgPrevalence = items.reduce((sum, item) => sum + item.prevalenceWeight, 0) / items.length;
@@ -1618,17 +1659,21 @@ function showSignalStrengthBreakdown(institutionType, initiativeType) {
   const navigateInstArg = JSON.stringify(institutionType);
   const navigateInitArg = JSON.stringify(initiativeType);
 
+  const primaryMetricLabel = signalScoringMetricMode === 'count' ? 'Cell Value (Count)' : 'Cell Value (Strength)';
+  const primaryMetricValue = signalScoringMetricMode === 'count' ? rawCount : totalScore.toFixed(1);
+
   panel.innerHTML = `
     <div class="signal-strength-breakdown-header">
       <div class="signal-strength-breakdown-title">
         <h4>${escapeHtml(institutionType)} x ${escapeHtml(initiativeType)}</h4>
-        <p>Cell breakdown for aggregate signal strength.</p>
+        <p>Cell breakdown for ${signalScoringMetricMode === 'count' ? 'raw signal count' : 'aggregate weighted strength'}.</p>
       </div>
       <button type="button" class="signal-strength-breakdown-close" onclick="closeSignalStrengthBreakdown()">Close</button>
     </div>
     <div class="signal-strength-breakdown-stats">
-      <div class="signal-strength-stat"><span class="signal-strength-stat-label">Aggregate Score</span><span class="signal-strength-stat-value">${totalScore.toFixed(1)}</span></div>
-      <div class="signal-strength-stat"><span class="signal-strength-stat-label">Signals</span><span class="signal-strength-stat-value">${items.length}</span></div>
+      <div class="signal-strength-stat"><span class="signal-strength-stat-label">${primaryMetricLabel}</span><span class="signal-strength-stat-value">${primaryMetricValue}</span></div>
+      <div class="signal-strength-stat"><span class="signal-strength-stat-label">Signals</span><span class="signal-strength-stat-value">${rawCount}</span></div>
+      <div class="signal-strength-stat"><span class="signal-strength-stat-label">Weighted Strength</span><span class="signal-strength-stat-value">${totalScore.toFixed(1)}</span></div>
       <div class="signal-strength-stat"><span class="signal-strength-stat-label">Avg Credibility</span><span class="signal-strength-stat-value">${avgCredibility.toFixed(2)}x</span></div>
       <div class="signal-strength-stat"><span class="signal-strength-stat-label">Avg Recency</span><span class="signal-strength-stat-value">${avgRecency.toFixed(2)}x</span></div>
       <div class="signal-strength-stat"><span class="signal-strength-stat-label">Avg Prevalence</span><span class="signal-strength-stat-value">${avgPrevalence.toFixed(2)}x</span></div>
