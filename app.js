@@ -241,6 +241,15 @@ function getCSS(prop) {
   return getComputedStyle(document.documentElement).getPropertyValue(prop).trim();
 }
 
+function escapeHtml(value) {
+  return String(value || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
 const INSTITUTION_TYPE_NORMALIZATION = {
   'Central Banks & Regulators': 'Regulatory Agencies',
   'Digital Asset Infrastructure': 'Infrastructure & Technology',
@@ -1430,6 +1439,7 @@ function renderCard(signal, catKey) {
 
 function renderPopularityAnalysis() {
   const container = document.getElementById('signalScoringMatrixContainer');
+  const legendEl = document.getElementById('signalScoringLegend');
   if (!container) return;
 
   const formatScore = (value) => {
@@ -1463,6 +1473,7 @@ function renderPopularityAnalysis() {
     sourceCounts[source] = (sourceCounts[source] || 0) + 1;
   });
   const maxSourceCount = Math.max(1, ...Object.values(sourceCounts));
+  const cellDetails = {};
 
   const matrix = instTypes.map(() => initTypes.map(() => 0));
   let maxVal = 0;
@@ -1477,9 +1488,23 @@ function renderPopularityAnalysis() {
       const colIndex = initTypes.indexOf(init);
       if (colIndex < 0) return;
       matrix[rowIndex][colIndex] += score;
+      const key = `${signal.institution_type}|||${init}`;
+      if (!cellDetails[key]) cellDetails[key] = [];
+      cellDetails[key].push({
+        institution: signal.institution,
+        initiative: signal.initiative,
+        source: getSignalSourceName(signal),
+        date: signal.date,
+        score,
+        credibilityWeight: resolveSourceMeta(signal).weight || 0.9,
+        recencyWeight: getRecencyWeight(signal.date),
+        prevalenceWeight: getSourcePrevalenceWeight(getSignalSourceName(signal), sourceCounts, maxSourceCount)
+      });
       if (matrix[rowIndex][colIndex] > maxVal) maxVal = matrix[rowIndex][colIndex];
     });
   });
+
+  window._signalStrengthMatrixDetails = cellDetails;
 
   if (maxVal <= 0) {
     container.innerHTML = '<div class="pop-empty">No signal strength data available</div>';
@@ -1513,8 +1538,10 @@ function renderPopularityAnalysis() {
   matrix.forEach((row, i) => {
     html += `<tr><td class="heatmap-row-label">${shortNames[i]}</td>`;
     row.forEach((val, ci) => {
+      const instArg = JSON.stringify(instTypes[i]);
+      const initArg = JSON.stringify(initTypes[ci]);
       if (val > 0) {
-        html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)};cursor:pointer" title="${instTypes[i]} x ${initTypes[ci]}: ${formatScore(val)} strength (click to view signals)" onclick="navigateToMatrixSelection('${instTypes[i]}','${initTypes[ci]}')">${formatScore(val)}</td>`;
+        html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)};cursor:pointer" title="${instTypes[i]} x ${initTypes[ci]}: ${formatScore(val)} strength (click for breakdown)" onclick='showSignalStrengthBreakdown(${instArg},${initArg})'>${formatScore(val)}</td>`;
       } else {
         html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)}" title="${instTypes[i]} x ${initTypes[ci]}: 0.0">-</td>`;
       }
@@ -1532,6 +1559,99 @@ function renderPopularityAnalysis() {
   html += '</tbody></table>';
 
   container.innerHTML = html;
+
+  if (legendEl) {
+    legendEl.innerHTML = `
+      <div class="signal-strength-legend-scale">
+        <div class="signal-strength-legend-title">Strength Scale</div>
+        <div class="signal-strength-legend-scale-bar">
+          <span class="signal-strength-legend-swatch" style="background:${cellColor(maxVal * 0.12)}"></span>
+          <span class="signal-strength-legend-swatch" style="background:${cellColor(maxVal * 0.38)}"></span>
+          <span class="signal-strength-legend-swatch" style="background:${cellColor(maxVal * 0.62)}"></span>
+          <span class="signal-strength-legend-swatch" style="background:${cellColor(maxVal * 0.9)}"></span>
+        </div>
+        <div class="signal-strength-legend-labels">
+          <span>Low</span><span>Moderate</span><span>High</span><span>Very High</span>
+        </div>
+      </div>
+      <div class="signal-strength-legend-method">
+        <div class="signal-strength-legend-title">Method</div>
+        <p>Each signal contributes a bounded score based on source credibility, recency, and a capped prevalence boost. Click a cell for score composition and top contributing sources.</p>
+      </div>
+    `;
+  }
+}
+
+function closeSignalStrengthBreakdown() {
+  const panel = document.getElementById('signalScoringBreakdown');
+  if (panel) panel.style.display = 'none';
+}
+
+function showSignalStrengthBreakdown(institutionType, initiativeType) {
+  const panel = document.getElementById('signalScoringBreakdown');
+  const key = `${institutionType}|||${initiativeType}`;
+  const items = window._signalStrengthMatrixDetails?.[key] || [];
+  if (!panel || !items.length) return;
+
+  trackMatrixCellClick(institutionType, initiativeType);
+
+  const totalScore = items.reduce((sum, item) => sum + item.score, 0);
+  const avgCredibility = items.reduce((sum, item) => sum + item.credibilityWeight, 0) / items.length;
+  const avgRecency = items.reduce((sum, item) => sum + item.recencyWeight, 0) / items.length;
+  const avgPrevalence = items.reduce((sum, item) => sum + item.prevalenceWeight, 0) / items.length;
+
+  const sourceAgg = {};
+  items.forEach(item => {
+    const source = item.source || 'Unknown';
+    if (!sourceAgg[source]) sourceAgg[source] = { score: 0, count: 0 };
+    sourceAgg[source].score += item.score;
+    sourceAgg[source].count += 1;
+  });
+  const topSources = Object.entries(sourceAgg)
+    .sort((a, b) => b[1].score - a[1].score)
+    .slice(0, 5);
+
+  const topSignals = [...items]
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 5);
+
+  const navigateInstArg = JSON.stringify(institutionType);
+  const navigateInitArg = JSON.stringify(initiativeType);
+
+  panel.innerHTML = `
+    <div class="signal-strength-breakdown-header">
+      <div class="signal-strength-breakdown-title">
+        <h4>${escapeHtml(institutionType)} x ${escapeHtml(initiativeType)}</h4>
+        <p>Cell breakdown for aggregate signal strength.</p>
+      </div>
+      <button type="button" class="signal-strength-breakdown-close" onclick="closeSignalStrengthBreakdown()">Close</button>
+    </div>
+    <div class="signal-strength-breakdown-stats">
+      <div class="signal-strength-stat"><span class="signal-strength-stat-label">Aggregate Score</span><span class="signal-strength-stat-value">${totalScore.toFixed(1)}</span></div>
+      <div class="signal-strength-stat"><span class="signal-strength-stat-label">Signals</span><span class="signal-strength-stat-value">${items.length}</span></div>
+      <div class="signal-strength-stat"><span class="signal-strength-stat-label">Avg Credibility</span><span class="signal-strength-stat-value">${avgCredibility.toFixed(2)}x</span></div>
+      <div class="signal-strength-stat"><span class="signal-strength-stat-label">Avg Recency</span><span class="signal-strength-stat-value">${avgRecency.toFixed(2)}x</span></div>
+      <div class="signal-strength-stat"><span class="signal-strength-stat-label">Avg Prevalence</span><span class="signal-strength-stat-value">${avgPrevalence.toFixed(2)}x</span></div>
+    </div>
+    <div class="signal-strength-breakdown-grid">
+      <div class="signal-strength-breakdown-card">
+        <h5>Top Contributing Sources</h5>
+        <ul class="signal-strength-breakdown-list">
+          ${topSources.map(([source, data]) => `<li><strong>${escapeHtml(source)}</strong><span>${data.count} signals | ${data.score.toFixed(1)}</span></li>`).join('')}
+        </ul>
+      </div>
+      <div class="signal-strength-breakdown-card">
+        <h5>Top Contributing Signals</h5>
+        <ul class="signal-strength-breakdown-list">
+          ${topSignals.map(item => `<li><strong>${escapeHtml(item.institution)}</strong><span>${escapeHtml(item.initiative)} | ${item.score.toFixed(1)}</span></li>`).join('')}
+        </ul>
+      </div>
+    </div>
+    <div class="signal-strength-breakdown-actions">
+      <button type="button" onclick='navigateToMatrixSelection(${navigateInstArg},${navigateInitArg})'>View Matching Signals</button>
+    </div>
+  `;
+  panel.style.display = 'block';
 }
 
 function formatDate(d) {
