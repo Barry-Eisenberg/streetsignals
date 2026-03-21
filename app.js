@@ -441,6 +441,8 @@ let sourceCatalog = { byName: {}, byHost: {} };
 let selectedPopularitySector = 'All Sectors';
 let signalScoringMetricMode = 'strength';
 let signalScoringColorMode = 'absolute';
+let signalScoringDimensionMode = 'initiative';
+let signalScoringFilter = null;
 
 function normalizeSourceKey(value) {
   return String(value || '').trim().toLowerCase();
@@ -536,6 +538,12 @@ function setSignalScoringMetricMode(mode) {
 function setSignalScoringColorMode(mode) {
   if (!['absolute', 'percentile'].includes(mode)) return;
   signalScoringColorMode = mode;
+  renderPopularityAnalysis();
+}
+
+function setSignalScoringDimensionMode(mode) {
+  if (!['initiative', 'fmi'].includes(mode)) return;
+  signalScoringDimensionMode = mode;
   renderPopularityAnalysis();
 }
 
@@ -679,6 +687,75 @@ function getDailySignalSnapshot(signals) {
   };
 }
 
+function getSignalScoringSignals() {
+  const base = getOperationalSignals();
+  if (!signalScoringFilter || typeof signalScoringFilter.predicate !== 'function') return base;
+  return base.filter(signal => {
+    try {
+      return Boolean(signalScoringFilter.predicate(signal));
+    } catch (_) {
+      return false;
+    }
+  });
+}
+
+function renderSignalScoringFilterChip() {
+  const chip = document.getElementById('signalScoringFilterChip');
+  const label = document.getElementById('signalScoringFilterChipLabel');
+  if (!chip || !label) return;
+
+  if (!signalScoringFilter) {
+    chip.style.display = 'none';
+    return;
+  }
+
+  label.textContent = signalScoringFilter.label || 'KPI filter applied';
+  chip.style.display = 'inline-flex';
+}
+
+function clearSignalScoringFilter() {
+  signalScoringFilter = null;
+  renderPopularityAnalysis();
+}
+
+function drillDownKPIToSignalMatrixByInstitutionType(institutionType, dateKey) {
+  const selectedType = String(institutionType || '').trim();
+  if (!selectedType) return;
+
+  const shortType = selectedType
+    .replace('Exchanges & Central Intermediaries', 'Exchanges')
+    .replace('Asset & Investment Management', 'Asset Mgmt')
+    .replace('Infrastructure & Technology', 'Infra & Tech');
+
+  const selectedDateKey = String(dateKey || '').trim();
+  const hasDateFilter = selectedDateKey !== '';
+  const label = hasDateFilter
+    ? `KPI filter: ${shortType} on ${selectedDateKey}`
+    : `KPI filter: ${shortType}`;
+
+  signalScoringFilter = {
+    label,
+    predicate: signal => {
+      if (signal.institution_type !== selectedType) return false;
+      if (!hasDateFilter) return true;
+      return getSignalDateKey(signal.date) === selectedDateKey;
+    }
+  };
+
+  signalScoringMetricMode = 'count';
+  closeKPIBreakdown();
+  openCollapsible('#signal-strength', 'signalStrengthBody');
+  openCollapsible('#signal-scoring', 'signalScoringBody');
+  renderPopularityAnalysis();
+
+  const target = document.getElementById('signal-scoring');
+  if (target) {
+    setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 120);
+  }
+
+  trackDrillDown('KPI Breakdown', 'Signal Intelligence Matrix');
+}
+
 function renderKPIs() {
   const el = document.getElementById('kpiStrip');
   const signals = getOperationalSignals();
@@ -751,7 +828,7 @@ function showKPIBreakdown(kpiId, activeCard) {
     html = `<div class="kpi-breakdown-header"><h3>${signals.length} Signals by Institution Type</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
     html += '<div class="kpi-breakdown-grid">';
     sorted.forEach(([type, count]) => {
-      html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="navigateToCatalogueByType('${type.replace(/'/g, "\\'")}')"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
+      html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="drillDownKPIToSignalMatrixByInstitutionType('${type.replace(/'/g, "\\'")}')"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
     });
     html += '</div>';
     html += '<a href="#analytics" class="kpi-breakdown-link">View detailed analytics ↓</a>';
@@ -764,12 +841,10 @@ function showKPIBreakdown(kpiId, activeCard) {
     });
     const sorted = Object.entries(instByType).map(([t, s]) => [t, s.size]).sort((a,b) => b[1] - a[1]);
     const max = sorted[0]?.[1] || 1;
-    const instCatKeyMap = { 'Global Banks':'global_banks', 'Asset & Investment Management':'asset_management', 'Payments Providers':'payments', 'Exchanges & Central Intermediaries':'exchanges_intermediaries', 'Regulatory Agencies':'regulators', 'Infrastructure & Technology':'ecosystem', 'Intelligence & Research':'intel_briefs' };
     html = `<div class="kpi-breakdown-header"><h3>${new Set(signals.map(s=>s.institution)).size} Institutions by Sector</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
     html += '<div class="kpi-breakdown-grid">';
     sorted.forEach(([type, count]) => {
-      const ck = instCatKeyMap[type] || 'all';
-      html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="navigateToDirectorySection('${ck}')"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
+      html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="drillDownKPIToSignalMatrixByInstitutionType('${type.replace(/'/g, "\\'")}')"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
     });
     html += '</div>';
     html += '<a href="#directory" class="kpi-breakdown-link">See full Institution Directory ↓</a>';
@@ -792,7 +867,7 @@ function showKPIBreakdown(kpiId, activeCard) {
       html += '<div class="kpi-breakdown-grid">';
       sorted.forEach(([type, count]) => {
         const label = type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech');
-        html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="navigateToCatalogueByType('${type.replace(/'/g, "\\'")}')"><span class="bd-label">${label}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
+        html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="drillDownKPIToSignalMatrixByInstitutionType('${type.replace(/'/g, "\\'")}','${snapshot.effectiveDateKey}')"><span class="bd-label">${label}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
       });
       html += '</div>';
     }
@@ -1484,13 +1559,25 @@ function renderPopularityAnalysis() {
     'Infrastructure & Technology'
   ];
   const shortNames = ['Banks', 'Asset Mgmt', 'Payments', 'Exchanges', 'Regulators', 'Infra/Tech'];
-  const initTypes = getMatrixInitiatives();
-  const shortInit = initTypes.map(name => name
-    .replace('Tokenized Securities / RWA', 'Tokenized Securities')
-    .replace('DLT / Blockchain Infrastructure', 'DLT / Blockchain')
-    .replace('Payment Infrastructure', 'Payment Infra')
-    .replace('Stablecoins & Deposit Tokens', 'Stablecoins')
-    .replace('Digital Asset Strategy', 'Digital Strategy'));
+  const isFmiMode = signalScoringDimensionMode === 'fmi';
+  const colTypes = isFmiMode ? FMI_SCHEMA.map(s => s.name) : getMatrixInitiatives();
+  const shortColTypes = isFmiMode
+    ? colTypes.map(name => name
+        .replace('Tokenization & Issuance', 'Tokenization')
+        .replace('Custody & Asset Management', 'Custody')
+        .replace('Trading & Exchange', 'Trading')
+        .replace('Settlement & Clearing', 'Settlement')
+        .replace('Payments & Transfers', 'Payments')
+        .replace('Collateral & Lending', 'Collateral')
+        .replace('Interoperability & Standards', 'Interop.')
+        .replace('Digital Currency & Stablecoins', 'Dig. Currency')
+        .replace('Regulation & Compliance', 'Regulation'))
+    : colTypes.map(name => name
+        .replace('Tokenized Securities / RWA', 'Tokenized Securities')
+        .replace('DLT / Blockchain Infrastructure', 'DLT / Blockchain')
+        .replace('Payment Infrastructure', 'Payment Infra')
+        .replace('Stablecoins & Deposit Tokens', 'Stablecoins')
+        .replace('Digital Asset Strategy', 'Digital Strategy'));
 
   const sourceCounts = {};
   signals.forEach(signal => {
@@ -1501,8 +1588,8 @@ function renderPopularityAnalysis() {
   const maxSourceCount = Math.max(1, ...Object.values(sourceCounts));
   const cellDetails = {};
 
-  const strengthMatrix = instTypes.map(() => initTypes.map(() => 0));
-  const countMatrix = instTypes.map(() => initTypes.map(() => 0));
+  const strengthMatrix = instTypes.map(() => colTypes.map(() => 0));
+  const countMatrix = instTypes.map(() => colTypes.map(() => 0));
   let maxVal = 0;
 
   signals.forEach(signal => {
@@ -1511,12 +1598,13 @@ function renderPopularityAnalysis() {
 
     const score = getSignalStrengthScore(signal, sourceCounts, maxSourceCount);
 
-    (signal.initiative_types || []).forEach(init => {
-      const colIndex = initTypes.indexOf(init);
+    const colField = isFmiMode ? (signal.fmi_areas || []) : (signal.initiative_types || []);
+    colField.forEach(col => {
+      const colIndex = colTypes.indexOf(col);
       if (colIndex < 0) return;
       strengthMatrix[rowIndex][colIndex] += score;
       countMatrix[rowIndex][colIndex] += 1;
-      const key = `${signal.institution_type}|||${init}`;
+      const key = `${signal.institution_type}|||${col}`;
       if (!cellDetails[key]) cellDetails[key] = [];
       cellDetails[key].push({
         institution: signal.institution,
@@ -1537,9 +1625,10 @@ function renderPopularityAnalysis() {
   }));
 
   window._signalStrengthMatrixDetails = cellDetails;
+  renderSignalScoringFilterChip();
 
   if (maxVal <= 0) {
-    container.innerHTML = '<div class="pop-empty">No signal strength data available</div>';
+    container.innerHTML = '<div class="pop-empty">No signal strength data available for this filter. <button type="button" class="matrix-filter-chip-clear" onclick="clearSignalScoringFilter()">Clear filter</button></div>';
     return;
   }
 
@@ -1571,7 +1660,7 @@ function renderPopularityAnalysis() {
   }
 
   const rowTotals = matrix.map(row => row.reduce((sum, val) => sum + val, 0));
-  const colTotals = initTypes.map((_, ci) => matrix.reduce((sum, row) => sum + row[ci], 0));
+  const colTotals = colTypes.map((_, ci) => matrix.reduce((sum, row) => sum + row[ci], 0));
   const grandTotal = rowTotals.reduce((sum, val) => sum + val, 0);
   const showTotals = signalScoringColorMode !== 'percentile';
 
@@ -1579,9 +1668,11 @@ function renderPopularityAnalysis() {
   document.getElementById('signalMetricCountBtn')?.classList.toggle('is-active', signalScoringMetricMode === 'count');
   document.getElementById('signalColorAbsoluteBtn')?.classList.toggle('is-active', signalScoringColorMode === 'absolute');
   document.getElementById('signalColorPercentileBtn')?.classList.toggle('is-active', signalScoringColorMode === 'percentile');
+  document.getElementById('signalDimInitiativeBtn')?.classList.toggle('is-active', signalScoringDimensionMode === 'initiative');
+  document.getElementById('signalDimFmiBtn')?.classList.toggle('is-active', signalScoringDimensionMode === 'fmi');
 
   let html = '<table class="heatmap-table"><thead><tr><th></th>';
-  shortInit.forEach(h => { html += `<th class="heatmap-col-header">${h}</th>`; });
+  shortColTypes.forEach(h => { html += `<th class="heatmap-col-header">${h}</th>`; });
   if (showTotals) html += '<th class="heatmap-col-header heatmap-total-header">Total Contributions</th>';
   html += '</tr></thead><tbody>';
 
@@ -1589,11 +1680,11 @@ function renderPopularityAnalysis() {
     html += `<tr><td class="heatmap-row-label">${shortNames[i]}</td>`;
     row.forEach((val, ci) => {
       const instArg = JSON.stringify(instTypes[i]);
-      const initArg = JSON.stringify(initTypes[ci]);
+      const initArg = JSON.stringify(colTypes[ci]);
       if (val > 0) {
-        html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)};cursor:pointer" title="${instTypes[i]} x ${initTypes[ci]}: ${displayVal(val)}${displaySuffix} (click for breakdown)" onclick='showSignalStrengthBreakdown(${instArg},${initArg})'>${displayVal(val)}</td>`;
+        html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)};cursor:pointer" title="${instTypes[i]} x ${colTypes[ci]}: ${displayVal(val)}${displaySuffix} (click for breakdown)" onclick='showSignalStrengthBreakdown(${instArg},${initArg})'>${displayVal(val)}</td>`;
       } else {
-        html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)}" title="${instTypes[i]} x ${initTypes[ci]}: 0.0">-</td>`;
+        html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)}" title="${instTypes[i]} x ${colTypes[ci]}: 0.0">-</td>`;
       }
     });
     if (showTotals) html += `<td class="heatmap-cell heatmap-total-cell">${formatScore(rowTotals[i])}</td>`;
@@ -2319,6 +2410,9 @@ function resetAllFilters() {
   const searchInput = document.getElementById('searchInput');
   if (searchInput) searchInput.value = '';
 
+  // Reset Signal Intelligence matrix drilldown filter
+  signalScoringFilter = null;
+
   // Reset signal library filter
   activeFilter = 'all';
   const pills = document.querySelectorAll('.filter-pill');
@@ -2337,6 +2431,7 @@ function resetAllFilters() {
   // Re-render everything
   renderDirectory();
   renderSignals();
+  renderPopularityAnalysis();
 
   // Collapse all signal library categories back
   document.querySelectorAll('.category-section').forEach(s => s.classList.remove('cat-open'));
