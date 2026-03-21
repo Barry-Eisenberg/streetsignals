@@ -3223,6 +3223,7 @@ function renderPrioritySignalsStrip() {
     const importance = getSignalImportance(signal);
     const date = formatDate(signal.date);
     const insight = buildSignalDirectionalInsight(signal, importance);
+    const marketContext = getExternalMarketContext(signal, selectedPersona);
     const initiatives = Array.isArray(signal.initiative_types) ? signal.initiative_types.slice(0, 1) : [];
     const initiativeText = initiatives.length ? initiatives[0] : 'Digital asset infrastructure';
     const signalKey = encodeURIComponent(getSignalKey(signal));
@@ -3240,6 +3241,12 @@ function renderPrioritySignalsStrip() {
           <span class="priority-signal-card-date">${date}</span>
         </div>
         <div class="priority-signal-card-initiative">${initiativeText}</div>
+        <div class="priority-signal-market-context">
+          ${marketContext.available
+            ? `<span class="priority-signal-market-chip">${escapeHtml(marketContext.segmentLabel)} ${escapeHtml(marketContext.trendLabel)} 30d</span>
+               <span class="priority-signal-market-confidence">${escapeHtml(marketContext.confidence)}</span>`
+            : `<span class="priority-signal-market-unavailable">Market context unavailable</span>`}
+        </div>
         <div class="priority-signal-card-insight">${escapeHtml(insight)}</div>
         <div class="priority-signal-card-footer">
           ${url !== '#' ? `<a href="${url}" target="_blank" rel="noopener noreferrer" class="priority-signal-card-source"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>${domain}</a>` : '<span></span>'}
