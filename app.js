@@ -2679,7 +2679,7 @@ function renderMatrixFilterChip() {
 
   if (!matrixFilter) {
     if (signalTypeFilter) {
-      label.textContent = `Signal type filter: ${signalTypeFilter}`;
+      label.textContent = `Filtered by signal type: ${signalTypeFilter}`;
       chip.style.display = 'inline-flex';
       return;
     }
@@ -2696,7 +2696,7 @@ function renderMatrixFilterChip() {
     .replace('DLT / Blockchain Infrastructure', 'DLT/Blockchain Infra')
     .replace('Stablecoins & Deposit Tokens', 'Stablecoins');
 
-  label.textContent = `Matrix filter: ${shortInst} x ${shortInit}`;
+  label.textContent = `Filtered by matrix: ${shortInst} x ${shortInit}`;
   chip.style.display = 'inline-flex';
 }
 
