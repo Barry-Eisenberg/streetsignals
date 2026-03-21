@@ -2441,6 +2441,8 @@ function renderCard(signal, catKey) {
   const url = signal.source_url || '#';
   const domain = url !== '#' ? new URL(url).hostname.replace('www.','') : '';
   const signalKey = encodeURIComponent(getSignalKey(signal));
+  const importance = getSignalImportance(signal);
+  const tierClass = String(importance.tier || 'Noise').toLowerCase().replace(/\s+/g, '-');
   return `
     <div class="signal-card" data-signal-key="${signalKey}">
       <div class="signal-card-top">
@@ -2448,6 +2450,10 @@ function renderCard(signal, catKey) {
         <span class="signal-date">${date}</span>
       </div>
       <div class="signal-initiative">${signal.initiative || ''}</div>
+      <div class="signal-strength-row">
+        <span class="signal-importance-badge importance-${tierClass}">${importance.tier}</span>
+        <span class="signal-importance-score">${importance.importanceScore.toFixed(2)}</span>
+      </div>
       <div class="signal-description">${signal.description || ''}</div>
       ${hasLong ? '<button class="expand-btn">Read more</button>' : ''}
       <div class="signal-footer">

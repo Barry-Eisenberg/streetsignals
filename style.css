@@ -2052,6 +2052,48 @@
 .signal-card.expanded .signal-description {
   -webkit-line-clamp: unset;
 }
+.signal-strength-row {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+.signal-importance-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: 999px;
+  padding: 3px var(--space-2);
+  border: 1px solid transparent;
+}
+.signal-importance-badge.importance-structural {
+  background: rgba(255, 92, 138, 0.14);
+  border-color: rgba(255, 92, 138, 0.35);
+  color: var(--color-regulators);
+}
+.signal-importance-badge.importance-material {
+  background: rgba(255, 194, 51, 0.16);
+  border-color: rgba(255, 194, 51, 0.35);
+  color: var(--color-ecosystem);
+}
+.signal-importance-badge.importance-context {
+  background: rgba(0, 136, 170, 0.14);
+  border-color: rgba(0, 136, 170, 0.3);
+  color: var(--color-primary);
+}
+.signal-importance-badge.importance-noise {
+  background: rgba(130, 140, 155, 0.16);
+  border-color: rgba(130, 140, 155, 0.35);
+  color: var(--color-text-muted);
+}
+.signal-importance-score {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--color-text);
+  font-variant-numeric: tabular-nums;
+}
 .signal-footer {
   display: flex;
   align-items: center;
