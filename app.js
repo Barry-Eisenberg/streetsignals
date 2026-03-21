@@ -632,10 +632,20 @@ let signalScoringMetricMode = 'count';
 let signalScoringColorMode = 'absolute';
 let signalScoringDimensionMode = 'initiative';
 let signalScoringFilter = null;
+let importanceTierMode = 'all';
 let dirCountryFilter = '';
 let countryDirSearch = '';
 let countryDirSort = 'signals';
 let countryDirTypeFilter = '';
+
+const IMPORTANCE_TIER_FILTERS = {
+  all: ['Structural', 'Material', 'Context', 'Noise'],
+  priority: ['Structural', 'Material'],
+  structural: ['Structural'],
+  context: ['Context']
+};
+
+let importanceTierFilter = [...IMPORTANCE_TIER_FILTERS[importanceTierMode]];
 
 function normalizeSourceKey(value) {
   return String(value || '').trim().toLowerCase();
@@ -894,6 +904,12 @@ function getSignalImportance(signal) {
   };
 }
 
+function setImportanceTierMode(mode) {
+  if (!IMPORTANCE_TIER_FILTERS[mode]) return;
+  importanceTierMode = mode;
+  importanceTierFilter = [...IMPORTANCE_TIER_FILTERS[mode]];
+}
+
 function setSignalScoringMetricMode(mode) {
   if (!['strength', 'count'].includes(mode)) return;
   signalScoringMetricMode = mode;
@@ -942,6 +958,10 @@ function getOperationalSignals() {
 function getCatalogueSignals(options = {}) {
   const { includeCategory = true } = options;
   let filtered = getOperationalSignals();
+
+  if (Array.isArray(importanceTierFilter) && importanceTierFilter.length > 0) {
+    filtered = filtered.filter(signal => importanceTierFilter.includes(getSignalImportance(signal).tier));
+  }
 
   if (includeCategory && activeFilter !== 'all') {
     filtered = filtered.filter(signal => signal.category === activeFilter);
