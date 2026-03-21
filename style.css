@@ -2094,6 +2094,11 @@
   color: var(--color-text);
   font-variant-numeric: tabular-nums;
 }
+.signal-why {
+  font-size: 11px;
+  line-height: 1.4;
+  color: var(--color-text-faint);
+}
 .signal-footer {
   display: flex;
   align-items: center;
