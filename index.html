@@ -99,61 +99,6 @@
   <div class="kpi-breakdown-panel" id="kpiBreakdown" style="display:none;"></div>
 </div>
 
-<!-- SIGNAL STRENGTH (Collapsible) -->
-<section class="analytics-section collapsible-section" id="signal-strength">
-  <div class="container">
-    <div class="library-header reveal" id="signalStrengthToggle">
-      <div class="library-header-left">
-        <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="4"/><path d="M8 16V10"/><path d="M12 16V8"/><path d="M16 16V12"/></svg>
-        <div>
-          <h2 class="section-title">Signal Intelligence</h2>
-          <p class="section-subtitle">A consolidated view of sector activity, signal intensity, and source coverage across institutional segments.</p>
-        </div>
-      </div>
-      <div class="library-header-right">
-        <span class="library-expand-hint">Click to expand</span>
-        <svg class="library-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-      </div>
-    </div>
-
-    <div class="library-body" id="signalStrengthBody" style="display:none;">
-      <div class="signal-matrix-section">
-        <div class="chart-row chart-row-single reveal">
-          <div class="chart-card">
-            <div class="signal-strength-matrix-header">
-              <div class="signal-matrix-copy">
-                <h3 class="signal-matrix-title">Signal Matrix</h3>
-                <p class="matrix-lead">Compare initiative and FMI area activity by institution type. Switch between weighted strength and raw count, then click any cell to inspect the underlying scorecard.</p>
-              </div>
-              <div class="signal-strength-controls">
-                <div class="signal-strength-control-group" aria-label="Signal matrix dimension">
-                  <button type="button" id="signalDimInitiativeBtn" class="signal-strength-control is-active" onclick="setSignalScoringDimensionMode('initiative')">Initiatives</button>
-                  <button type="button" id="signalDimFmiBtn" class="signal-strength-control" onclick="setSignalScoringDimensionMode('fmi')">FMI Areas</button>
-                </div>
-                <div class="signal-strength-control-group" aria-label="Signal matrix metric mode">
-                  <button type="button" id="signalMetricStrengthBtn" class="signal-strength-control is-active" onclick="setSignalScoringMetricMode('strength')">Strength</button>
-                  <button type="button" id="signalMetricCountBtn" class="signal-strength-control" onclick="setSignalScoringMetricMode('count')">Raw Count</button>
-                </div>
-                <div class="signal-strength-control-group" aria-label="Signal matrix color mode">
-                  <button type="button" id="signalColorAbsoluteBtn" class="signal-strength-control is-active" onclick="setSignalScoringColorMode('absolute')">Absolute</button>
-                  <button type="button" id="signalColorPercentileBtn" class="signal-strength-control" onclick="setSignalScoringColorMode('percentile')">Percentile</button>
-                </div>
-                <button type="button" id="signalScoringClearFilterBtn" class="signal-strength-control signal-scoring-clear" onclick="clearSignalScoringFilter()">Clear KPI Filter</button>
-              </div>
-            </div>
-            <div class="matrix-filter-chip signal-scoring-filter-chip" id="signalScoringFilterChip" style="display:none;">
-              <span class="matrix-filter-chip-label" id="signalScoringFilterChipLabel"></span>
-              <button type="button" class="matrix-filter-chip-clear" onclick="clearSignalScoringFilter()">Clear</button>
-            </div>
-            <div class="heatmap-container" id="signalScoringMatrixContainer"></div>
-            <div class="signal-strength-legend" id="signalScoringLegend"></div>
-            <div class="signal-strength-breakdown" id="signalScoringBreakdown" style="display:none;"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 <!-- INSTITUTION DIRECTORY -->
 <section class="directory-section collapsible-section" id="directory">
   <div class="container">
@@ -196,6 +141,114 @@
       </div>
     </div>
     <div id="directoryContainer" class="reveal"></div>
+    </div>
+  </div>
+</section>
+
+<!-- COUNTRY DIRECTORY -->
+<section class="directory-section collapsible-section" id="country-directory">
+  <div class="container">
+    <div class="library-header reveal" id="countryDirectoryToggle">
+      <div class="library-header-left">
+        <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20"/><path d="M2 12h20"/><path d="M4.9 4.9a12 12 0 0 0 0 14.2"/><path d="M19.1 4.9a12 12 0 0 1 0 14.2"/></svg>
+        <div>
+          <h2 class="section-title">Country Directory</h2>
+          <p class="section-subtitle">A country-first view of institutional digital asset activity with the same searchable, sortable breakdown used in the institutional directory.</p>
+        </div>
+      </div>
+      <div class="library-header-right">
+        <span class="library-expand-hint">Click to expand</span>
+        <svg class="library-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+      </div>
+    </div>
+
+    <div class="library-body" id="countryDirectoryBody" style="display:none;">
+      <div class="reset-filters-bar" id="resetCountryDirectoryFilters" onclick="resetAllFilters()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+        <span>Reset all filters</span>
+      </div>
+      <div class="directory-controls reveal">
+        <div class="directory-search-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="text" id="countryDirectorySearch" placeholder="Filter institutions...">
+        </div>
+        <div class="directory-sort">
+          <label>Sort by</label>
+          <select id="countryDirectorySort">
+            <option value="signals">Signal Count</option>
+            <option value="name">Name (A→Z)</option>
+          </select>
+        </div>
+        <div class="directory-country">
+          <label>Institution Type</label>
+          <select id="countryDirectoryType">
+            <option value="">All Institution Types</option>
+            <option value="Global Banks">Global Banks</option>
+            <option value="Asset &amp; Investment Management">Asset &amp; Investment Management</option>
+            <option value="Payments Providers">Payments Providers</option>
+            <option value="Exchanges &amp; Central Intermediaries">Exchanges &amp; Central Intermediaries</option>
+            <option value="Regulatory Agencies">Regulatory Agencies</option>
+            <option value="Infrastructure &amp; Technology">Infrastructure &amp; Technology</option>
+          </select>
+        </div>
+      </div>
+      <div id="countryDirectoryContainer" class="reveal"></div>
+    </div>
+  </div>
+</section>
+
+<!-- SIGNAL STRENGTH (Collapsible) -->
+<section class="analytics-section collapsible-section" id="signal-strength">
+  <div class="container">
+    <div class="library-header reveal" id="signalStrengthToggle">
+      <div class="library-header-left">
+        <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="4"/><path d="M8 16V10"/><path d="M12 16V8"/><path d="M16 16V12"/></svg>
+        <div>
+          <h2 class="section-title">Signal Intelligence</h2>
+          <p class="section-subtitle">A consolidated view of sector activity, signal intensity, and source coverage across institutional segments.</p>
+        </div>
+      </div>
+      <div class="library-header-right">
+        <span class="library-expand-hint">Click to expand</span>
+        <svg class="library-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+      </div>
+    </div>
+
+    <div class="library-body" id="signalStrengthBody" style="display:none;">
+      <div class="signal-matrix-section">
+        <div class="chart-row chart-row-single reveal">
+          <div class="chart-card">
+            <div class="signal-strength-matrix-header">
+              <div class="signal-matrix-copy">
+                <h3 class="signal-matrix-title">Signal Matrix</h3>
+                <p class="matrix-lead">Compare initiative and FMI area activity by institution type. Switch between weighted strength and raw count, then click any cell to inspect the underlying scorecard.</p>
+              </div>
+              <div class="signal-strength-controls">
+                <div class="signal-strength-control-group" aria-label="Signal matrix dimension">
+                  <button type="button" id="signalDimInitiativeBtn" class="signal-strength-control is-active" onclick="setSignalScoringDimensionMode('initiative')">Initiatives</button>
+                  <button type="button" id="signalDimFmiBtn" class="signal-strength-control" onclick="setSignalScoringDimensionMode('fmi')">FMI Areas</button>
+                </div>
+                <div class="signal-strength-control-group" aria-label="Signal matrix metric mode">
+                  <button type="button" id="signalMetricCountBtn" class="signal-strength-control is-active" onclick="setSignalScoringMetricMode('count')">Raw Count</button>
+                  <button type="button" id="signalMetricStrengthBtn" class="signal-strength-control" onclick="setSignalScoringMetricMode('strength')">Strength</button>
+                </div>
+                <div class="signal-strength-control-group" aria-label="Signal matrix color mode">
+                  <button type="button" id="signalColorAbsoluteBtn" class="signal-strength-control is-active" onclick="setSignalScoringColorMode('absolute')">Absolute</button>
+                  <button type="button" id="signalColorPercentileBtn" class="signal-strength-control" onclick="setSignalScoringColorMode('percentile')">Percentile</button>
+                </div>
+                <button type="button" id="signalScoringClearFilterBtn" class="signal-strength-control signal-scoring-clear" onclick="clearSignalScoringFilter()">Clear Filters</button>
+              </div>
+            </div>
+            <div class="matrix-filter-chip signal-scoring-filter-chip" id="signalScoringFilterChip" style="display:none;">
+              <span class="matrix-filter-chip-label" id="signalScoringFilterChipLabel"></span>
+              <button type="button" class="matrix-filter-chip-clear" onclick="clearSignalScoringFilter()">Clear Filters</button>
+            </div>
+            <div class="heatmap-container" id="signalScoringMatrixContainer"></div>
+            <div class="signal-strength-legend" id="signalScoringLegend"></div>
+            <div class="signal-strength-breakdown" id="signalScoringBreakdown" style="display:none;"></div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>

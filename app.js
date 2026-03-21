@@ -140,6 +140,13 @@ document.getElementById('directoryToggle')?.addEventListener('click', () => {
   trackSectionToggle('Institutional Directory', isOpen);
 });
 
+document.getElementById('countryDirectoryToggle')?.addEventListener('click', () => {
+  const section = document.querySelector('#country-directory');
+  const isOpen = !section?.classList.contains('open');
+  toggleCollapsible('#country-directory', 'countryDirectoryBody');
+  trackSectionToggle('Country Directory', isOpen);
+});
+
 document.getElementById('analyticsToggle')?.addEventListener('click', () => {
   const section = document.querySelector('#analytics');
   const isOpen = !section?.classList.contains('open');
@@ -408,12 +415,40 @@ const COUNTRY_INSTITUTION_HINTS = [
   { needle: 'hkex', country: 'Hong Kong' },
   { needle: 'securities and futures commission, hong kong', country: 'Hong Kong' },
   { needle: 'bank of england', country: 'United Kingdom' },
+  { needle: 'london stock exchange group', country: 'United Kingdom' },
+  { needle: 'lseg', country: 'United Kingdom' },
+  { needle: 'barclays', country: 'United Kingdom' },
+  { needle: 'hsbc', country: 'United Kingdom' },
   { needle: 'fca', country: 'United Kingdom' },
+  { needle: 'deutsche borse', country: 'Germany' },
+  { needle: 'deutsche bank', country: 'Germany' },
+  { needle: 'clearstream', country: 'Germany' },
   { needle: 'securities and exchange commission', country: 'United States' },
   { needle: 'federal reserve', country: 'United States' },
   { needle: 'commodity futures trading commission', country: 'United States' },
   { needle: 'office of the comptroller of the currency', country: 'United States' },
   { needle: 'dtcc', country: 'United States' },
+  { needle: 'nasdaq', country: 'United States' },
+  { needle: 'cme group', country: 'United States' },
+  { needle: 'intercontinental exchange', country: 'United States' },
+  { needle: 'ice ', country: 'United States' },
+  { needle: 'jp morgan', country: 'United States' },
+  { needle: 'jpmorgan', country: 'United States' },
+  { needle: 'j.p. morgan', country: 'United States' },
+  { needle: 'goldman sachs', country: 'United States' },
+  { needle: 'bank of america', country: 'United States' },
+  { needle: 'morgan stanley', country: 'United States' },
+  { needle: 'citigroup', country: 'United States' },
+  { needle: 'citi ', country: 'United States' },
+  { needle: 'bny mellon', country: 'United States' },
+  { needle: 'state street', country: 'United States' },
+  { needle: 'fidelity', country: 'United States' },
+  { needle: 'blackrock', country: 'United States' },
+  { needle: 'coinbase', country: 'United States' },
+  { needle: 'robinhood', country: 'United States' },
+  { needle: 'occ', country: 'United States' },
+  { needle: 'australian securities exchange', country: 'Australia' },
+  { needle: 'asx', country: 'Australia' },
   { needle: 'european central bank', country: 'European Union' },
   { needle: 'european securities and markets authority', country: 'European Union' },
   { needle: 'esma', country: 'European Union' },
@@ -449,6 +484,14 @@ function isVisibleSignalType(type) {
   return normalized !== '' && !DEPRECATED_SIGNAL_TYPES.has(normalized);
 }
 
+function normalizeSearchText(value) {
+  return String(value || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .trim();
+}
+
 function normalizeCountryName(value) {
   const raw = String(value || '').trim();
   if (!raw) return '';
@@ -462,12 +505,16 @@ function normalizeCountryName(value) {
   return aliasMap[raw] || raw;
 }
 
+function getSignalCountryValue(signal) {
+  return normalizeCountryName(signal?.country) || 'Unmapped';
+}
+
 function inferSignalCountry(signal) {
   const explicit = normalizeCountryName(signal?.country || signal?.headquarters_country);
   if (explicit) return explicit;
 
-  const institutionText = String(signal?.institution || '').toLowerCase();
-  const initiativeText = String(signal?.initiative || '').toLowerCase();
+  const institutionText = normalizeSearchText(signal?.institution || '');
+  const initiativeText = normalizeSearchText(signal?.initiative || '');
   const combinedLower = `${institutionText} ${initiativeText}`;
   const hint = COUNTRY_INSTITUTION_HINTS.find(entry => combinedLower.includes(entry.needle));
   if (hint) return hint.country;
@@ -550,11 +597,14 @@ let chartInstances = {};
 let popularitySeed = null;
 let sourceCatalog = { byName: {}, byHost: {} };
 let selectedPopularitySector = 'All Sectors';
-let signalScoringMetricMode = 'strength';
+let signalScoringMetricMode = 'count';
 let signalScoringColorMode = 'absolute';
 let signalScoringDimensionMode = 'initiative';
 let signalScoringFilter = null;
 let dirCountryFilter = '';
+let countryDirSearch = '';
+let countryDirSort = 'signals';
+let countryDirTypeFilter = '';
 
 function normalizeSourceKey(value) {
   return String(value || '').trim().toLowerCase();
@@ -686,6 +736,169 @@ function getOperationalSignals() {
   return allSignals.filter(s => !s._isBrief);
 }
 
+function getCatalogueSignals(options = {}) {
+  const { includeCategory = true } = options;
+  let filtered = getOperationalSignals();
+
+  if (includeCategory && activeFilter !== 'all') {
+    filtered = filtered.filter(signal => signal.category === activeFilter);
+  }
+
+  if (matrixFilter) {
+    const dimField = matrixFilter.dimension === 'fmi' ? 'fmi_areas' : 'initiative_types';
+    filtered = filtered.filter(signal =>
+      signal.institution_type === matrixFilter.institutionType &&
+      (signal[dimField] || []).includes(matrixFilter.initiativeType)
+    );
+  }
+
+  if (signalTypeFilter) {
+    filtered = filtered.filter(signal => String(signal.signal_type || '').trim() === signalTypeFilter);
+  }
+
+  if (countryFilter) {
+    filtered = filtered.filter(signal => getSignalCountryValue(signal) === countryFilter);
+  }
+
+  if (searchQuery) {
+    filtered = filtered.filter(signal => `${signal.institution} ${signal.initiative} ${signal.description} ${signal.category} ${signal.signal_type || ''}`.toLowerCase().includes(searchQuery));
+  }
+
+  return filtered;
+}
+
+const DIRECTORY_TYPE_COLOR_MAP = {
+  'Global Banks': 'var(--color-banks)',
+  'Asset & Investment Management': 'var(--color-asset-mgmt)',
+  'Payments Providers': 'var(--color-payments)',
+  'Exchanges & Central Intermediaries': 'var(--color-exchanges)',
+  'Regulatory Agencies': 'var(--color-regulators)',
+  'Infrastructure & Technology': 'var(--color-ecosystem)'
+};
+
+const DIRECTORY_TYPE_ORDER = [
+  'Global Banks',
+  'Asset & Investment Management',
+  'Payments Providers',
+  'Exchanges & Central Intermediaries',
+  'Regulatory Agencies',
+  'Infrastructure & Technology'
+];
+
+const DIRECTORY_TYPE_KEY_MAP = {
+  'Global Banks': 'global_banks',
+  'Asset & Investment Management': 'asset_management',
+  'Payments Providers': 'payments',
+  'Exchanges & Central Intermediaries': 'exchanges_intermediaries',
+  'Regulatory Agencies': 'regulators',
+  'Infrastructure & Technology': 'ecosystem'
+};
+
+const DIRECTORY_SHORT_INIT = {
+  'Tokenized Securities / RWA': 'Tokenized',
+  'DLT / Blockchain Infrastructure': 'DLT/Blockchain',
+  'Crypto / Digital Assets': 'Crypto',
+  'Payment Infrastructure': 'Payments',
+  'Stablecoins & Deposit Tokens': 'Stablecoins',
+  'CBDC': 'CBDC',
+  'DeFi': 'DeFi',
+  'Digital Asset Strategy': 'Strategy'
+};
+
+const DIRECTORY_SHORT_FMI = {
+  'Tokenization & Issuance': 'Tokenization',
+  'Regulation & Compliance': 'Regulation',
+  'Digital Currency & Stablecoins': 'Digital Currency',
+  'Payments & Transfers': 'Payments',
+  'Settlement & Clearing': 'Settlement',
+  'Interoperability & Standards': 'Interop',
+  'Trading & Exchange': 'Trading',
+  'Collateral & Lending': 'Collateral',
+  'Custody & Safekeeping': 'Custody',
+  'Data & Reporting': 'Data',
+  'General Infrastructure': 'General'
+};
+
+function buildInstitutionSummaries(signals) {
+  const instMap = {};
+
+  signals.forEach(signal => {
+    const key = signal.institution;
+    if (!instMap[key]) {
+      instMap[key] = {
+        name: key,
+        type: signal.institution_type,
+        signals: 0,
+        signalTypes: {},
+        countries: {},
+        initiativeTypes: new Set(),
+        fmiAreas: new Set()
+      };
+    }
+
+    const inst = instMap[key];
+    inst.signals++;
+    if (isVisibleSignalType(signal.signal_type)) {
+      inst.signalTypes[signal.signal_type] = (inst.signalTypes[signal.signal_type] || 0) + 1;
+    }
+
+    const signalCountry = getSignalCountryValue(signal);
+    inst.countries[signalCountry] = (inst.countries[signalCountry] || 0) + 1;
+    (signal.initiative_types || []).forEach(type => inst.initiativeTypes.add(type));
+    (signal.fmi_areas || []).forEach(area => inst.fmiAreas.add(area));
+  });
+
+  return Object.values(instMap).map(inst => {
+    const countryEntries = Object.entries(inst.countries).sort((a, b) => b[1] - a[1]);
+    const primaryCountry = countryEntries[0]?.[0] || 'Unmapped';
+    const additionalCountries = Math.max(0, countryEntries.length - 1);
+    return {
+      ...inst,
+      primaryCountry,
+      countryLabel: additionalCountries > 0 ? `${primaryCountry} +${additionalCountries}` : primaryCountry
+    };
+  });
+}
+
+function renderInstitutionRows(insts, options = {}) {
+  const { showType = false, colorOverride = '' } = options;
+
+  return insts.map(inst => {
+    const catKey = DIRECTORY_TYPE_KEY_MAP[inst.type] || '';
+    const color = colorOverride || DIRECTORY_TYPE_COLOR_MAP[inst.type] || 'var(--color-primary)';
+    const escapedName = inst.name.replace(/'/g, "\\'");
+    const navigateArgs = catKey ? `'${escapedName}','${catKey}'` : `'${escapedName}'`;
+    const sigTypesHtml = Object.entries(inst.signalTypes)
+      .sort((a, b) => b[1] - a[1])
+      .map(([type, count]) => {
+        const shortLabel = type.replace('Platform / Infrastructure', 'Platform').replace('Strategic Partnership', 'Partnership').replace('Strategic Initiative', 'Initiative').replace('Regulatory Action', 'Regulatory').replace('Investment / M&A', 'Investment').replace('Pilot / Trial', 'Pilot').replace('Product Launch', 'Launch');
+        return `<span class="cell-tag cell-tag-link" title="${type}: ${count} - Click to view signals" onclick="navigateToSignal(${navigateArgs})">${shortLabel} ${count}</span>`;
+      })
+      .join('');
+
+    const initHtml = [...inst.initiativeTypes]
+      .map(type => `<span class="cell-tag cell-tag-link" title="${type} - Click to view signals" onclick="navigateToSignal(${navigateArgs})">${DIRECTORY_SHORT_INIT[type] || type}</span>`)
+      .join('');
+
+    const fmiHtml = [...inst.fmiAreas]
+      .filter(area => area !== 'General Infrastructure')
+      .map(area => `<span class="cell-tag cell-tag-link" title="${area} - Click to view signals" onclick="navigateToSignal(${navigateArgs})">${DIRECTORY_SHORT_FMI[area] || area}</span>`)
+      .join('');
+
+    return `
+      <tr>
+        <td class="inst-name"><a class="inst-name-link" href="javascript:void(0)" onclick="navigateToSignal(${navigateArgs})">${inst.name}</a></td>
+        ${showType ? `<td>${inst.type}</td>` : ''}
+        <td>${inst.countryLabel}</td>
+        <td class="num" style="color:${color};font-size:13px;"><a class="inst-count-link" href="javascript:void(0)" onclick="navigateToSignal(${navigateArgs})">${inst.signals}</a></td>
+        <td><div class="cell-tags">${sigTypesHtml}</div></td>
+        <td><div class="cell-tags">${initHtml}</div></td>
+        <td><div class="cell-tags">${fmiHtml}</div></td>
+      </tr>
+    `;
+  }).join('');
+}
+
 Promise.all([
   loadJsonWithFallback('./data.json', []),
   loadJsonWithFallback('./auto_data.json', []),
@@ -713,6 +926,7 @@ Promise.all([
 
   renderKPIs();
   renderDirectory();
+  renderCountryDirectory();
   buildCharts();
   window._chartsReady = true;
   renderFilterPills();
@@ -830,13 +1044,33 @@ function renderSignalScoringFilterChip() {
 function renderSignalScoringClearFilterButton() {
   const btn = document.getElementById('signalScoringClearFilterBtn');
   if (!btn) return;
-  btn.disabled = !signalScoringFilter;
-  btn.classList.toggle('is-inactive', !signalScoringFilter);
+  const hasFilters = Boolean(
+    signalScoringFilter ||
+    matrixFilter ||
+    signalTypeFilter ||
+    countryFilter ||
+    searchQuery !== '' ||
+    activeFilter !== 'all'
+  );
+  btn.disabled = !hasFilters;
+  btn.classList.toggle('is-inactive', !hasFilters);
 }
 
 function clearSignalScoringFilter() {
+  matrixFilter = null;
+  signalTypeFilter = '';
+  countryFilter = '';
+  searchQuery = '';
+  activeFilter = 'all';
+  syncSignalTypeSelect();
+  syncCountrySelects();
+  const searchInput = document.getElementById('searchInput');
+  if (searchInput) searchInput.value = '';
+  closeSignalStrengthBreakdown();
+  renderSignals();
   signalScoringFilter = null;
   renderPopularityAnalysis();
+  updateResetBars();
 }
 
 function drillDownKPIToSignalMatrixByInstitutionType(institutionType, dateKey) {
@@ -1697,12 +1931,13 @@ document.getElementById('searchInput')?.addEventListener('input', (e) => {
 // ===== FILTER PILLS =====
 function renderFilterPills() {
   const container = document.getElementById('filterPills');
-  const nonBriefs = allSignals.filter(s => !s._isBrief);
+  if (!container) return;
+  const nonBriefs = getCatalogueSignals({ includeCategory: false });
   const counts = {};
   nonBriefs.forEach(s => { counts[s.category] = (counts[s.category] || 0) + 1; });
-  let html = `<button class="filter-pill active" data-filter="all">All<span class="count">${nonBriefs.length}</span></button>`;
+  let html = `<button class="filter-pill${activeFilter === 'all' ? ' active' : ''}" data-filter="all">All<span class="count">${nonBriefs.length}</span></button>`;
   for (const [key, cat] of Object.entries(CATEGORIES)) {
-    html += `<button class="filter-pill" data-filter="${key}">${cat.name.split(' ')[0]}<span class="count">${counts[key] || 0}</span></button>`;
+    html += `<button class="filter-pill${activeFilter === key ? ' active' : ''}" data-filter="${key}">${cat.name.split(' ')[0]}<span class="count">${counts[key] || 0}</span></button>`;
   }
   container.innerHTML = html;
   container.querySelectorAll('.filter-pill').forEach(btn => {
@@ -1858,22 +2093,8 @@ function renderSignals() {
   const container = document.getElementById('signalSections');
   const noResults = document.getElementById('noResults');
   renderMatrixFilterChip();
-  let filtered = allSignals.filter(s => !s._isBrief);
-  if (activeFilter !== 'all') filtered = filtered.filter(s => s.category === activeFilter);
-  if (matrixFilter) {
-    const dimField = matrixFilter.dimension === 'fmi' ? 'fmi_areas' : 'initiative_types';
-    filtered = filtered.filter(s =>
-      s.institution_type === matrixFilter.institutionType &&
-      (s[dimField] || []).includes(matrixFilter.initiativeType)
-    );
-  }
-  if (signalTypeFilter) {
-    filtered = filtered.filter(s => String(s.signal_type || '').trim() === signalTypeFilter);
-  }
-  if (countryFilter) {
-    filtered = filtered.filter(s => String(s.country || 'Unmapped').trim() === countryFilter);
-  }
-  if (searchQuery) filtered = filtered.filter(s => `${s.institution} ${s.initiative} ${s.description} ${s.category} ${s.signal_type || ''}`.toLowerCase().includes(searchQuery));
+  renderFilterPills();
+  const filtered = getCatalogueSignals();
 
   if (filtered.length === 0) { container.innerHTML = ''; noResults.style.display = 'block'; return; }
   noResults.style.display = 'none';
@@ -1891,11 +2112,11 @@ function renderSignals() {
     const isOpen = activeFilter === catKey;
     html += `
       <section class="category-section cat-${catKey}${isOpen ? ' cat-open' : ''}" id="${catKey}">
-        <div class="category-header" onclick="this.parentElement.classList.toggle('cat-open')">
+        <div class="category-header sector-banner" onclick="this.parentElement.classList.toggle('cat-open')">
           <div class="category-icon">${cat.icon}</div>
-          <h2 class="category-title">${cat.name}</h2>
-          <span class="category-count">${items.length} signals</span>
-          <svg class="cat-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          <h2 class="category-title sector-banner-title">${cat.name}</h2>
+          <span class="category-count sector-banner-count">${items.length} filtered signals</span>
+          <svg class="cat-chevron sector-banner-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
         </div>
         <div class="signals-grid">
           ${items.map((s, i) => renderCard(s, catKey, i)).join('')}
@@ -1950,12 +2171,25 @@ function renderPopularityAnalysis() {
     return n.toLocaleString('en-US', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
   };
 
-  const displayVal = (val) => {
-    if (signalScoringColorMode === 'percentile') return Math.round(getColorBasis(val) * 100);
-    return formatScore(val);
+  const formatAbsoluteValue = (value) => {
+    const n = Number(value);
+    if (!Number.isFinite(n)) return signalScoringMetricMode === 'count' ? '0' : '0.0';
+    if (signalScoringMetricMode === 'count') {
+      return n.toLocaleString('en-US', { maximumFractionDigits: 0 });
+    }
+    return formatScore(n);
   };
 
-  const displaySuffix = signalScoringColorMode === 'percentile' ? 'th percentile' : ' strength';
+  const displayVal = (val) => {
+    if (signalScoringColorMode === 'percentile') return Math.round(getColorBasis(val) * 100);
+    return formatAbsoluteValue(val);
+  };
+
+  const displaySuffix = signalScoringColorMode === 'percentile'
+    ? 'th percentile'
+    : signalScoringMetricMode === 'count'
+      ? ' signals'
+      : ' strength';
 
   const signals = getOperationalSignals();
   const instTypes = [
@@ -2094,19 +2328,19 @@ function renderPopularityAnalysis() {
       if (val > 0) {
         html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)};cursor:pointer" title="${instTypes[i]} x ${colTypes[ci]}: ${displayVal(val)}${displaySuffix} (click for breakdown)" onclick='showSignalStrengthBreakdown(${instArg},${initArg})'>${displayVal(val)}</td>`;
       } else {
-        html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)}" title="${instTypes[i]} x ${colTypes[ci]}: 0.0">-</td>`;
+        html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)}" title="${instTypes[i]} x ${colTypes[ci]}: 0">-</td>`;
       }
     });
-    if (showTotals) html += `<td class="heatmap-cell heatmap-total-cell">${formatScore(rowTotals[i])}</td>`;
+    if (showTotals) html += `<td class="heatmap-cell heatmap-total-cell">${formatAbsoluteValue(rowTotals[i])}</td>`;
     html += '</tr>';
   });
 
   if (showTotals) {
     html += '<tr class="heatmap-totals-row"><td class="heatmap-row-label heatmap-total-label">Total Contributions</td>';
     colTotals.forEach(val => {
-      html += `<td class="heatmap-cell heatmap-total-cell">${formatScore(val)}</td>`;
+      html += `<td class="heatmap-cell heatmap-total-cell">${formatAbsoluteValue(val)}</td>`;
     });
-    html += `<td class="heatmap-cell heatmap-grand-total">${formatScore(grandTotal)}</td>`;
+    html += `<td class="heatmap-cell heatmap-grand-total">${formatAbsoluteValue(grandTotal)}</td>`;
     html += '</tr>';
   }
   html += '</tbody></table>';
@@ -2579,152 +2813,109 @@ function renderTierBreakdownChart() {
 let dirSearch = '';
 let dirSort = 'signals';
 
+function sortInstitutions(insts, sortMode) {
+  if (sortMode === 'name') {
+    insts.sort((a, b) => a.name.localeCompare(b.name));
+    return;
+  }
+
+  insts.sort((a, b) => b.signals - a.signals || a.name.localeCompare(b.name));
+}
+
 function renderDirectory() {
   const container = document.getElementById('directoryContainer');
   if (!container) return;
-  const signals = getOperationalSignals();
+  const signals = getOperationalSignals().filter(signal => !dirCountryFilter || getSignalCountryValue(signal) === dirCountryFilter);
+  const institutions = buildInstitutionSummaries(signals);
 
-  const colorMap = {
-    'Global Banks': 'var(--color-banks)',
-    'Asset & Investment Management': 'var(--color-asset-mgmt)',
-    'Payments Providers': 'var(--color-payments)',
-    'Exchanges & Central Intermediaries': 'var(--color-exchanges)',
-    'Regulatory Agencies': 'var(--color-regulators)',
-    'Infrastructure & Technology': 'var(--color-ecosystem)'
-  };
-  const catOrder = ['Global Banks', 'Asset & Investment Management', 'Payments Providers', 'Exchanges & Central Intermediaries', 'Regulatory Agencies', 'Infrastructure & Technology'];
-
-  // Build institution data
-  const instMap = {};
-  signals.forEach(s => {
-    const key = s.institution;
-    if (!instMap[key]) {
-      instMap[key] = {
-        name: key,
-        type: s.institution_type,
-        signals: 0,
-        signalTypes: {},
-        countries: {},
-        initiativeTypes: new Set(),
-        fmiAreas: new Set()
-      };
-    }
-    const inst = instMap[key];
-    inst.signals++;
-    if (isVisibleSignalType(s.signal_type)) {
-      inst.signalTypes[s.signal_type] = (inst.signalTypes[s.signal_type] || 0) + 1;
-    }
-    const signalCountry = normalizeCountryName(s.country) || 'Unmapped';
-    inst.countries[signalCountry] = (inst.countries[signalCountry] || 0) + 1;
-    (s.initiative_types || []).forEach(t => inst.initiativeTypes.add(t));
-    (s.fmi_areas || []).forEach(a => inst.fmiAreas.add(a));
-  });
-
-  // Group by category
   const grouped = {};
-  catOrder.forEach(cat => { grouped[cat] = []; });
-  Object.values(instMap).forEach(inst => {
+  DIRECTORY_TYPE_ORDER.forEach(type => { grouped[type] = []; });
+  institutions.forEach(inst => {
     if (dirSearch && !inst.name.toLowerCase().includes(dirSearch)) return;
-    if (dirCountryFilter && !inst.countries[dirCountryFilter]) return;
     if (grouped[inst.type]) grouped[inst.type].push(inst);
   });
 
-  // Sort within each group
-  Object.values(grouped).forEach(arr => {
-    if (dirSort === 'signals') arr.sort((a, b) => b.signals - a.signals);
-    else arr.sort((a, b) => a.name.localeCompare(b.name));
-  });
-
-  // Short labels
-  const shortInit = {
-    'Tokenized Securities / RWA': 'Tokenized',
-    'DLT / Blockchain Infrastructure': 'DLT/Blockchain',
-    'Crypto / Digital Assets': 'Crypto',
-    'Payment Infrastructure': 'Payments',
-    'Stablecoins & Deposit Tokens': 'Stablecoins',
-    'CBDC': 'CBDC',
-    'DeFi': 'DeFi',
-    'Digital Asset Strategy': 'Strategy'
-  };
-  const shortFMI = {
-    'Tokenization & Issuance': 'Tokenization',
-    'Regulation & Compliance': 'Regulation',
-    'Digital Currency & Stablecoins': 'Digital Currency',
-    'Payments & Transfers': 'Payments',
-    'Settlement & Clearing': 'Settlement',
-    'Interoperability & Standards': 'Interop',
-    'Trading & Exchange': 'Trading',
-    'Collateral & Lending': 'Collateral',
-    'Custody & Safekeeping': 'Custody',
-    'Data & Reporting': 'Data',
-    'General Infrastructure': 'General'
-  };
+  Object.values(grouped).forEach(insts => sortInstitutions(insts, dirSort));
 
   let html = '';
-  catOrder.forEach(cat => {
+  DIRECTORY_TYPE_ORDER.forEach(cat => {
     const insts = grouped[cat];
     if (insts.length === 0) return;
     const totalSignals = insts.reduce((s, i) => s + i.signals, 0);
-    const color = colorMap[cat];
+    const color = DIRECTORY_TYPE_COLOR_MAP[cat];
     const isOpen = !!(dirSearch || dirCountryFilter);
 
     html += `<div class="dir-category${isOpen ? ' open' : ''}">`;
-    html += `<div class="dir-category-header" onclick="this.parentElement.classList.toggle('open')">`;
-    html += `<span class="dir-cat-dot" style="background:${color}"></span>`;
-    html += `<span class="dir-cat-name">${cat}</span>`;
-    html += `<span class="dir-cat-count">${insts.length} institutions · ${totalSignals} signals</span>`;
-    html += `<svg class="dir-cat-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>`;
+    html += `<div class="dir-category-header sector-banner" onclick="this.parentElement.classList.toggle('open')">`;
+    html += `<span class="dir-cat-dot sector-banner-dot" style="background:${color}"></span>`;
+    html += `<span class="dir-cat-name sector-banner-title">${cat}</span>`;
+    html += `<span class="dir-cat-count sector-banner-count">${insts.length} institutions · ${totalSignals} filtered signals</span>`;
+    html += `<svg class="dir-cat-chevron sector-banner-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>`;
     html += `</div>`;
 
     html += `<div class="dir-category-body"><div class="directory-table-wrap">`;
     html += `<table class="dir-table"><thead><tr>`;
     html += `<th>Institution</th><th>Country</th><th class="num">Signals</th><th>Signal Types</th><th>Initiative Classification</th><th>FMI Areas</th>`;
     html += `</tr></thead><tbody>`;
-
-    const catKeyMap = { 'Global Banks':'global_banks', 'Asset & Investment Management':'asset_management', 'Payments Providers':'payments', 'Exchanges & Central Intermediaries':'exchanges_intermediaries', 'Regulatory Agencies':'regulators', 'Infrastructure & Technology':'ecosystem' };
-    const thisCatKey = catKeyMap[cat] || '';
-
-    insts.forEach(inst => {
-      const countryEntries = Object.entries(inst.countries).sort((a, b) => b[1] - a[1]);
-      const primaryCountry = countryEntries[0]?.[0] || 'Unmapped';
-      const additionalCountries = Math.max(0, countryEntries.length - 1);
-      const countryLabel = additionalCountries > 0 ? `${primaryCountry} +${additionalCountries}` : primaryCountry;
-      const maxSigType = Math.max(...Object.values(inst.signalTypes));
-
-      // Signal type mini bars — clickable
-      const sigTypesHtml = Object.entries(inst.signalTypes)
-        .sort((a,b) => b[1] - a[1])
-        .map(([type, count]) => {
-          const shortLabel = type.replace('Platform / Infrastructure','Platform').replace('Strategic Partnership','Partnership').replace('Strategic Initiative','Initiative').replace('Regulatory Action','Regulatory').replace('Investment / M&A','Investment').replace('Pilot / Trial','Pilot').replace('Product Launch','Launch');
-          return `<span class="cell-tag cell-tag-link" title="${type}: ${count} — Click to view signals" onclick="navigateToSignal('${inst.name.replace(/'/g, "\\'")}'${thisCatKey ? ', \'' + thisCatKey + '\'' : ''})">${shortLabel} ${count}</span>`;
-        }).join('');
-
-      // Initiative type tags — clickable
-      const initHtml = [...inst.initiativeTypes]
-        .map(t => `<span class="cell-tag cell-tag-link" title="${t} — Click to view signals" onclick="navigateToSignal('${inst.name.replace(/'/g, "\\'")}'${thisCatKey ? ', \'' + thisCatKey + '\'' : ''})">${shortInit[t] || t}</span>`)
-        .join('');
-
-      // FMI area tags — clickable
-      const fmiHtml = [...inst.fmiAreas]
-        .filter(a => a !== 'General Infrastructure')
-        .map(a => `<span class="cell-tag cell-tag-link" title="${a} — Click to view signals" onclick="navigateToSignal('${inst.name.replace(/'/g, "\\'")}'${thisCatKey ? ', \'' + thisCatKey + '\'' : ''})">${shortFMI[a] || a}</span>`)
-        .join('');
-
-      html += `<tr>`;
-      html += `<td class="inst-name"><a class="inst-name-link" href="javascript:void(0)" onclick="navigateToSignal('${inst.name.replace(/'/g, "\\'")}'${thisCatKey ? ', \'' + thisCatKey + '\'' : ''})">${inst.name}</a></td>`;
-      html += `<td>${countryLabel}</td>`;
-      html += `<td class="num" style="color:${color};font-size:13px;"><a class="inst-count-link" href="javascript:void(0)" onclick="navigateToSignal('${inst.name.replace(/'/g, "\\'")}'${thisCatKey ? ', \'' + thisCatKey + '\'' : ''})">${inst.signals}</a></td>`;
-      html += `<td><div class="cell-tags">${sigTypesHtml}</div></td>`;
-      html += `<td><div class="cell-tags">${initHtml}</div></td>`;
-      html += `<td><div class="cell-tags">${fmiHtml}</div></td>`;
-      html += `</tr>`;
-    });
-
+    html += renderInstitutionRows(insts, { colorOverride: color });
     html += `</tbody></table></div></div></div>`;
   });
 
   if (!html) {
     html = '<div style="text-align:center;padding:var(--space-8);color:var(--color-text-muted);">No institutions match your filter.</div>';
+  }
+
+  container.innerHTML = html;
+}
+
+function renderCountryDirectory() {
+  const container = document.getElementById('countryDirectoryContainer');
+  if (!container) return;
+
+  const signals = getOperationalSignals().filter(signal => !countryDirTypeFilter || signal.institution_type === countryDirTypeFilter);
+  const institutions = buildInstitutionSummaries(signals).filter(inst => !countryDirSearch || inst.name.toLowerCase().includes(countryDirSearch));
+  const grouped = {};
+
+  institutions.forEach(inst => {
+    const country = inst.primaryCountry || 'Unmapped';
+    if (!grouped[country]) grouped[country] = [];
+    grouped[country].push(inst);
+  });
+
+  Object.values(grouped).forEach(insts => sortInstitutions(insts, countryDirSort));
+
+  const countries = Object.keys(grouped).sort((a, b) => {
+    if (a === 'Unmapped') return 1;
+    if (b === 'Unmapped') return -1;
+    const signalDelta = grouped[b].reduce((sum, inst) => sum + inst.signals, 0) - grouped[a].reduce((sum, inst) => sum + inst.signals, 0);
+    return signalDelta || a.localeCompare(b);
+  });
+
+  let html = '';
+  countries.forEach(country => {
+    const insts = grouped[country];
+    if (!insts || insts.length === 0) return;
+    const totalSignals = insts.reduce((sum, inst) => sum + inst.signals, 0);
+    const isOpen = !!(countryDirSearch || countryDirTypeFilter);
+
+    html += `<div class="dir-category${isOpen ? ' open' : ''}">`;
+    html += `<div class="dir-category-header sector-banner" onclick="this.parentElement.classList.toggle('open')">`;
+    html += `<span class="dir-cat-dot sector-banner-dot" style="background:var(--color-primary)"></span>`;
+    html += `<span class="dir-cat-name sector-banner-title">${country}</span>`;
+    html += `<span class="dir-cat-count sector-banner-count">${insts.length} institutions · ${totalSignals} filtered signals</span>`;
+    html += `<svg class="dir-cat-chevron sector-banner-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>`;
+    html += `</div>`;
+
+    html += `<div class="dir-category-body"><div class="directory-table-wrap">`;
+    html += `<table class="dir-table"><thead><tr>`;
+    html += `<th>Institution</th><th>Institution Type</th><th>Country</th><th class="num">Signals</th><th>Signal Types</th><th>Initiative Classification</th><th>FMI Areas</th>`;
+    html += `</tr></thead><tbody>`;
+    html += renderInstitutionRows(insts, { showType: true });
+    html += `</tbody></table></div></div></div>`;
+  });
+
+  if (!html) {
+    html = '<div style="text-align:center;padding:var(--space-8);color:var(--color-text-muted);">No countries match your filter.</div>';
   }
 
   container.innerHTML = html;
@@ -2748,6 +2939,27 @@ document.getElementById('directoryCountry')?.addEventListener('change', (e) => {
   dirCountryFilter = String(e.target.value || '').trim();
   if (dirCountryFilter) trackFilter('directory_country', dirCountryFilter);
   renderDirectory();
+  updateResetBars();
+});
+
+document.getElementById('countryDirectorySearch')?.addEventListener('input', (e) => {
+  countryDirSearch = e.target.value.toLowerCase().trim();
+  if (countryDirSearch) trackSearch(countryDirSearch, 'Country Directory');
+  renderCountryDirectory();
+  updateResetBars();
+});
+
+document.getElementById('countryDirectorySort')?.addEventListener('change', (e) => {
+  countryDirSort = String(e.target.value || 'signals');
+  trackFilter('country_directory_sort', countryDirSort);
+  renderCountryDirectory();
+  updateResetBars();
+});
+
+document.getElementById('countryDirectoryType')?.addEventListener('change', (e) => {
+  countryDirTypeFilter = String(e.target.value || '').trim();
+  if (countryDirTypeFilter) trackFilter('country_directory_type', countryDirTypeFilter);
+  renderCountryDirectory();
   updateResetBars();
 });
 
@@ -2998,6 +3210,17 @@ function resetAllFilters() {
   // Reset Signal Intelligence matrix drilldown filter
   signalScoringFilter = null;
 
+  // Reset country directory filters
+  countryDirSearch = '';
+  countryDirSort = 'signals';
+  countryDirTypeFilter = '';
+  const countryDirSearchInput = document.getElementById('countryDirectorySearch');
+  if (countryDirSearchInput) countryDirSearchInput.value = '';
+  const countryDirSortEl = document.getElementById('countryDirectorySort');
+  if (countryDirSortEl) countryDirSortEl.value = 'signals';
+  const countryDirTypeEl = document.getElementById('countryDirectoryType');
+  if (countryDirTypeEl) countryDirTypeEl.value = '';
+
   // Reset signal library filter
   activeFilter = 'all';
   const pills = document.querySelectorAll('.filter-pill');
@@ -3017,6 +3240,7 @@ function resetAllFilters() {
 
   // Re-render everything
   renderDirectory();
+  renderCountryDirectory();
   renderSignals();
   renderPopularityAnalysis();
 
@@ -3029,12 +3253,15 @@ function resetAllFilters() {
 
 function updateResetBars() {
   const hasDirectoryFilter = dirSearch !== '' || dirSort !== 'signals' || dirCountryFilter !== '';
+  const hasCountryDirectoryFilter = countryDirSearch !== '' || countryDirSort !== 'signals' || countryDirTypeFilter !== '';
   const hasLibraryFilter = searchQuery !== '' || activeFilter !== 'all' || matrixFilter !== null || signalTypeFilter !== '' || countryFilter !== '';
-  const hasAnyFilter = hasDirectoryFilter || hasLibraryFilter;
+  const hasAnyFilter = hasDirectoryFilter || hasCountryDirectoryFilter || hasLibraryFilter;
 
   const dirReset = document.getElementById('resetDirectoryFilters');
+  const countryDirReset = document.getElementById('resetCountryDirectoryFilters');
   const libReset = document.getElementById('resetLibraryFilters');
 
   if (dirReset) dirReset.classList.toggle('visible', hasAnyFilter);
+  if (countryDirReset) countryDirReset.classList.toggle('visible', hasAnyFilter);
   if (libReset) libReset.classList.toggle('visible', hasAnyFilter);
 }
