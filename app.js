@@ -485,10 +485,32 @@ function positionKPIBreakdownPanel(activeCard) {
   }
 }
 
+function getSignalSourceName(signal) {
+  const sourceName = String(signal?.source_name || '').trim();
+  if (sourceName) return sourceName;
+
+  const sourceUrl = String(signal?.source_url || '').trim();
+  if (sourceUrl) {
+    try {
+      return new URL(sourceUrl).hostname.replace(/^www\./, '');
+    } catch (_) {
+      // Fall through to institution when URL is malformed.
+    }
+  }
+
+  return String(signal?.institution || '').trim();
+}
+
 function renderKPIs() {
   const el = document.getElementById('kpiStrip');
   const signals = getOperationalSignals();
   const institutions = new Set(signals.map(s => s.institution));
+  const uniqueSources = new Set(
+    signals
+      .map(getSignalSourceName)
+      .map(s => s.trim())
+      .filter(Boolean)
+  );
   const productLaunches = signals.filter(s => s.signal_type === 'Product Launch').length;
   const pctLaunches = signals.length ? Math.round((productLaunches / signals.length) * 100) : 0;
 
@@ -509,6 +531,7 @@ function renderKPIs() {
   const kpis = [
     { id: 'signals', value: signals.length, label: 'Total Signals', color: 'var(--color-primary)' },
     { id: 'daily_new', value: dailyNewSignals, label: 'New Signals', color: 'var(--color-success)', delta: `As of ${todayLabel}` },
+    { id: 'sources', value: uniqueSources.size, label: 'Info Sources', color: 'var(--color-primary)' },
     { id: 'institutions', value: institutions.size, label: 'Institutions', color: 'var(--color-primary)' },
     { id: 'sectors', value: '6', label: 'Sector Categories', color: 'var(--color-primary)' },
     { id: 'countries', value: '40+', label: 'Countries', color: 'var(--color-primary)' },
@@ -612,6 +635,27 @@ function showKPIBreakdown(kpiId, activeCard) {
         html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="navigateToCatalogueByType('${type.replace(/'/g, "\\'")}')"><span class="bd-label">${label}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
       });
       html += '</div>';
+    }
+    html += '<a href="#signal-library" class="kpi-breakdown-link">Open Signal Catalogue ↓</a>';
+
+  } else if (kpiId === 'sources') {
+    const bySource = {};
+    signals.forEach(s => {
+      const source = getSignalSourceName(s);
+      if (!source) return;
+      bySource[source] = (bySource[source] || 0) + 1;
+    });
+    const sorted = Object.entries(bySource).sort((a, b) => b[1] - a[1]);
+    const max = sorted[0]?.[1] || 1;
+
+    html = `<div class="kpi-breakdown-header"><h3>${sorted.length} Unique Information Sources</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
+    html += '<div class="kpi-breakdown-grid">';
+    sorted.slice(0, 12).forEach(([source, count]) => {
+      html += `<div class="kpi-breakdown-item"><span class="bd-label">${source}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></div>`;
+    });
+    html += '</div>';
+    if (sorted.length > 12) {
+      html += `<div style="font-size:11px;color:var(--color-text-muted);margin-top:var(--space-2);">Showing top 12 of ${sorted.length} sources by signal volume.</div>`;
     }
     html += '<a href="#signal-library" class="kpi-breakdown-link">Open Signal Catalogue ↓</a>';
 
