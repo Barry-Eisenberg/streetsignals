@@ -142,14 +142,16 @@
           <label for="importanceTierSelect">Importance</label>
           <select id="importanceTierSelect">
             <option value="all" selected>All Tiers</option>
-            <option value="priority">Priority (Structural + Material)</option>
-            <option value="structural">Structural Only</option>
-            <option value="context">Context Only</option>
+            <option value="priority">Priority (System-Shaping + Directionally Important)</option>
+            <option value="structural">System-Shaping Only</option>
+            <option value="context">Background Signal Only</option>
           </select>
         </div>
         <div class="filter-pills-wrap">
           <div class="filter-pills-label">Institution Category</div>
           <div class="filter-pills" id="filterPills"></div>
+          <button type="button" class="momentum-debug-toggle" id="momentumDebugToggle" onclick="toggleMomentumDebugMode()">Show Momentum Debug</button>
+          <div class="catalogue-sort-note">Catalogue sort order: most recent date first, then signal strength (importance score).</div>
         </div>
       </div>
       <div class="matrix-filter-chip" id="matrixFilterChip" style="display:none;">

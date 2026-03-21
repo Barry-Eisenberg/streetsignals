@@ -632,6 +632,7 @@ let signalScoringMetricMode = 'count';
 let signalScoringColorMode = 'absolute';
 let signalScoringDimensionMode = 'initiative';
 let signalScoringFilter = null;
+let momentumDebugMode = false;
 const DEFAULT_IMPORTANCE_TIER_MODE = 'all';
 let importanceTierMode = DEFAULT_IMPORTANCE_TIER_MODE;
 let dirCountryFilter = '';
@@ -645,6 +646,194 @@ const IMPORTANCE_TIER_FILTERS = {
   structural: ['Structural'],
   context: ['Context']
 };
+
+const IMPORTANCE_TIER_LABELS = {
+  Structural: 'System-Shaping',
+  Material: 'Directionally Important',
+  Context: 'Background Signal',
+  Noise: 'Monitor'
+};
+
+function getImportanceTierLabel(tier) {
+  return IMPORTANCE_TIER_LABELS[tier] || tier || 'Monitor';
+}
+
+function inferSignalAudience(signal) {
+  const audience = new Set();
+  const institutionType = String(signal?.institution_type || '').trim();
+  const signalType = String(signal?.signal_type || '').toLowerCase();
+  const initiativeText = `${(signal?.initiative_types || []).join(' ')} ${(signal?.fmi_areas || []).join(' ')} ${signal?.initiative || ''}`.toLowerCase();
+
+  if (institutionType) audience.add(institutionType);
+
+  if (signalType.includes('regulatory') || initiativeText.includes('compliance') || initiativeText.includes('regulation')) {
+    audience.add('Regulatory Agencies');
+    audience.add('Global Banks');
+  }
+
+  if (initiativeText.includes('stablecoin') || initiativeText.includes('payment') || initiativeText.includes('transfer')) {
+    audience.add('Payments Providers');
+    audience.add('Global Banks');
+  }
+
+  if (initiativeText.includes('collateral') || initiativeText.includes('settlement') || initiativeText.includes('clearing')) {
+    audience.add('Asset & Investment Management');
+    audience.add('Exchanges & Central Intermediaries');
+  }
+
+  if (initiativeText.includes('token') || initiativeText.includes('tokenization') || initiativeText.includes('custody')) {
+    audience.add('Asset & Investment Management');
+    audience.add('Infrastructure & Technology');
+  }
+
+  return Array.from(audience).slice(0, 3);
+}
+
+function buildSignalDirectionalInsight(signal, importance) {
+  const institution = String(signal?.institution || 'A market participant').trim();
+  const themes = Array.isArray(signal?.initiative_types) && signal.initiative_types.length > 0
+    ? signal.initiative_types
+    : Array.isArray(signal?.fmi_areas) && signal.fmi_areas.length > 0
+      ? signal.fmi_areas
+      : [String(signal?.signal_type || 'digital asset infrastructure').trim()];
+  const leadTheme = themes[0] || 'digital asset infrastructure';
+  const audience = inferSignalAudience(signal);
+  const audienceText = audience.length > 0
+    ? audience.slice(0, 2).join(' and ')
+    : 'institutional operators across financial market infrastructure';
+  const stagePhraseMap = {
+    Structural: 'at system scale',
+    Production: 'in active deployment',
+    Pilot: 'through pilot execution',
+    Concept: 'at strategy and design level'
+  };
+  const stagePhrase = stagePhraseMap[importance.stage] || 'through active development';
+  const tierLabel = getImportanceTierLabel(importance.tier).toLowerCase();
+  return `${institution} is advancing ${leadTheme} ${stagePhrase}. This is a ${tierLabel} signal for ${audienceText}, with directional implications for roadmap and resourcing decisions.`;
+}
+
+function getSignalThemeKeys(signal) {
+  const initiativeTypes = Array.isArray(signal?.initiative_types)
+    ? signal.initiative_types.map(v => String(v || '').trim()).filter(Boolean)
+    : [];
+  if (initiativeTypes.length > 0) return initiativeTypes;
+
+  const fmiAreas = Array.isArray(signal?.fmi_areas)
+    ? signal.fmi_areas.map(v => String(v || '').trim()).filter(Boolean)
+    : [];
+  if (fmiAreas.length > 0) return fmiAreas;
+
+  const fallback = String(signal?.signal_type || '').trim();
+  return fallback ? [fallback] : [];
+}
+
+function getMomentumSnapshot(signal, candidateSignals) {
+  const now = Date.now();
+  const windowMs = 45 * 24 * 60 * 60 * 1000;
+  const recentBoundary = now - windowMs;
+  const priorBoundary = recentBoundary - windowMs;
+  const signalThemes = new Set(getSignalThemeKeys(signal));
+
+  let recentCount = 0;
+  let priorCount = 0;
+
+  candidateSignals.forEach(item => {
+    const itemThemes = getSignalThemeKeys(item);
+    const overlaps = itemThemes.some(theme => signalThemes.has(theme));
+    if (!overlaps) return;
+
+    const ts = Date.parse(item?.date || '');
+    if (!Number.isFinite(ts)) return;
+
+    if (ts >= recentBoundary) recentCount += 1;
+    else if (ts >= priorBoundary) priorCount += 1;
+  });
+
+  const delta = recentCount - priorCount;
+  let status = 'Stable';
+  if ((recentCount >= 4 && delta >= 1) || delta >= 3) status = 'Accelerating';
+  else if ((recentCount === 0 && priorCount > 0) || delta <= -2) status = 'Cooling';
+
+  const rawScore = 50 + (delta * 11) + (Math.min(6, recentCount) * 6);
+  const score = Math.max(0, Math.min(100, rawScore));
+
+  return {
+    status,
+    score,
+    cssClass: status === 'Accelerating' ? 'accelerating' : status === 'Cooling' ? 'cooling' : 'stable',
+    recentCount,
+    priorCount,
+    delta
+  };
+}
+
+function renderMomentumDebugToggle() {
+  const button = document.getElementById('momentumDebugToggle');
+  if (!button) return;
+  button.textContent = momentumDebugMode ? 'Hide Momentum Debug' : 'Show Momentum Debug';
+  button.classList.toggle('is-active', momentumDebugMode);
+}
+
+function toggleMomentumDebugMode() {
+  momentumDebugMode = !momentumDebugMode;
+  renderMomentumDebugToggle();
+  renderSignals();
+}
+
+function buildCatalogueSignalMeta(filteredSignals) {
+  const initiativeTotals = {};
+  const institutionTotals = {};
+
+  filteredSignals.forEach(signal => {
+    const importanceScore = getSignalImportance(signal).importanceScore || 0;
+    const themes = getSignalThemeKeys(signal);
+    themes.forEach(theme => {
+      initiativeTotals[theme] = (initiativeTotals[theme] || 0) + importanceScore;
+    });
+
+    const institutionType = String(signal?.institution_type || '').trim();
+    if (institutionType) {
+      institutionTotals[institutionType] = (institutionTotals[institutionType] || 0) + importanceScore;
+    }
+  });
+
+  const initiativeRank = {};
+  Object.entries(initiativeTotals)
+    .sort((a, b) => b[1] - a[1])
+    .forEach(([theme], idx) => {
+      initiativeRank[theme] = idx + 1;
+    });
+
+  const institutionRank = {};
+  Object.entries(institutionTotals)
+    .sort((a, b) => b[1] - a[1])
+    .forEach(([institutionType], idx) => {
+      institutionRank[institutionType] = idx + 1;
+    });
+
+  const bySignalKey = {};
+  filteredSignals.forEach(signal => {
+    const key = getSignalKey(signal);
+    const themes = getSignalThemeKeys(signal);
+    const rankedThemes = themes
+      .map(theme => ({ theme, rank: initiativeRank[theme] || Number.POSITIVE_INFINITY }))
+      .sort((a, b) => a.rank - b.rank);
+    const bestTheme = rankedThemes[0] || null;
+
+    const institutionType = String(signal?.institution_type || '').trim();
+    const momentum = getMomentumSnapshot(signal, filteredSignals);
+
+    bySignalKey[key] = {
+      momentum,
+      initiativeTheme: bestTheme ? bestTheme.theme : 'Unclassified Theme',
+      initiativeRank: bestTheme && Number.isFinite(bestTheme.rank) ? bestTheme.rank : null,
+      institutionType,
+      institutionRank: institutionType ? institutionRank[institutionType] || null : null
+    };
+  });
+
+  return bySignalKey;
+}
 
 let importanceTierFilter = [...IMPORTANCE_TIER_FILTERS[importanceTierMode]];
 
@@ -2389,9 +2578,11 @@ function renderIntelBriefs() {
 function renderSignals() {
   const container = document.getElementById('signalSections');
   const noResults = document.getElementById('noResults');
+  renderMomentumDebugToggle();
   renderMatrixFilterChip();
   renderFilterPills();
   const filtered = getCatalogueSignals();
+  const signalMeta = buildCatalogueSignalMeta(filtered);
 
   if (filtered.length === 0) { container.innerHTML = ''; noResults.style.display = 'block'; return; }
   noResults.style.display = 'none';
@@ -2428,7 +2619,7 @@ function renderSignals() {
           <svg class="cat-chevron sector-banner-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
         </div>
         <div class="signals-grid">
-          ${items.map((s, i) => renderCard(s, catKey, i)).join('')}
+          ${items.map((s, i) => renderCard(s, catKey, i, signalMeta)).join('')}
         </div>
       </section>
     `;
@@ -2436,7 +2627,7 @@ function renderSignals() {
   container.innerHTML = html;
   document.querySelectorAll('.reveal:not(.visible)').forEach(el => observer.observe(el));
 
-  document.querySelectorAll('.expand-btn').forEach(btn => {
+  document.querySelectorAll('.description-expand-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
       const card = btn.closest('.signal-card');
@@ -2445,19 +2636,42 @@ function renderSignals() {
     });
   });
 
+  document.querySelectorAll('.signal-details-toggle').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const card = btn.closest('.signal-card');
+      const willOpen = !card.classList.contains('details-open');
+      card.classList.toggle('details-open', willOpen);
+      btn.textContent = willOpen ? 'Hide relevance breakdown' : 'Show relevance breakdown';
+      btn.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+    });
+  });
+
   renderDirectory();
   renderCountryDirectory();
   renderPopularityAnalysis();
 }
 
-function renderCard(signal, catKey) {
+function renderCard(signal, catKey, _index, signalMeta = {}) {
   const date = formatDate(signal.date);
   const hasLong = signal.description && signal.description.length > 200;
   const url = signal.source_url || '#';
   const domain = url !== '#' ? new URL(url).hostname.replace('www.','') : '';
   const signalKey = encodeURIComponent(getSignalKey(signal));
   const importance = getSignalImportance(signal);
+  const displayTierLabel = getImportanceTierLabel(importance.tier);
   const tierClass = String(importance.tier || 'Noise').toLowerCase().replace(/\s+/g, '-');
+  const directionalInsight = buildSignalDirectionalInsight(signal, importance);
+  const audience = inferSignalAudience(signal);
+  const initiatives = Array.isArray(signal.initiative_types) ? signal.initiative_types.slice(0, 3) : [];
+  const fmiAreas = Array.isArray(signal.fmi_areas) ? signal.fmi_areas.slice(0, 3) : [];
+  const cardMeta = signalMeta[getSignalKey(signal)] || {};
+  const momentum = cardMeta.momentum || { status: 'Stable', score: 50, cssClass: 'stable' };
+  const initiativeRankText = cardMeta.initiativeRank ? `#${cardMeta.initiativeRank} ${cardMeta.initiativeTheme}` : cardMeta.initiativeTheme || 'Unclassified Theme';
+  const institutionRankText = cardMeta.institutionRank ? `#${cardMeta.institutionRank} ${cardMeta.institutionType || ''}`.trim() : cardMeta.institutionType || 'Institution Segment';
+  const momentumDebug = momentumDebugMode
+    ? `<div class="signal-momentum-debug">Momentum debug: recent=${momentum.recentCount ?? 0} | prior=${momentum.priorCount ?? 0} | delta=${momentum.delta ?? 0}</div>`
+    : '';
   return `
     <div class="signal-card" data-signal-key="${signalKey}">
       <div class="signal-card-top">
@@ -2465,13 +2679,40 @@ function renderCard(signal, catKey) {
         <span class="signal-date">${date}</span>
       </div>
       <div class="signal-initiative">${signal.initiative || ''}</div>
+      <div class="signal-meta-chips">
+        <span class="signal-chip signal-chip-momentum momentum-${momentum.cssClass}" title="Momentum score ${Math.round(momentum.score)}/100">${momentum.status} ${Math.round(momentum.score)}</span>
+        <span class="signal-chip signal-chip-rank" title="Initiative relevance rank in current catalogue view">Initiative ${initiativeRankText}</span>
+        <span class="signal-chip signal-chip-rank" title="Institution segment rank in current catalogue view">Segment ${institutionRankText}</span>
+      </div>
       <div class="signal-strength-row">
-        <span class="signal-importance-badge importance-${tierClass}">${importance.tier}</span>
+        <span class="signal-importance-badge importance-${tierClass}">${displayTierLabel}</span>
         <span class="signal-importance-score">${importance.importanceScore.toFixed(2)}</span>
       </div>
-      <div class="signal-why">${importance.stage} stage | ${importance.materiality} materiality | ${importance.sourceTier} source credibility</div>
+      <div class="signal-why">Global lens: ${importance.stage} stage | ${importance.materiality} materiality | ${importance.sourceTier} source credibility</div>
+      <div class="signal-ai-insight">
+        <div class="signal-ai-title">AI Why This Matters</div>
+        <p>${directionalInsight}</p>
+      </div>
       <div class="signal-description">${signal.description || ''}</div>
-      ${hasLong ? '<button class="expand-btn">Read more</button>' : ''}
+      ${hasLong ? '<button class="description-expand-btn">Read more</button>' : ''}
+      <button class="signal-details-toggle" type="button" aria-expanded="false">Show relevance breakdown</button>
+      <div class="signal-details">
+        <div class="signal-details-grid">
+          <div>
+            <div class="signal-details-label">Most Material For</div>
+            <div class="signal-details-values">${audience.length ? audience.join(' | ') : 'Institutional infrastructure teams'}</div>
+          </div>
+          <div>
+            <div class="signal-details-label">Top Initiative Relevance</div>
+            <div class="signal-details-values">${initiatives.length ? initiatives.join(' | ') : 'Not yet classified'}</div>
+          </div>
+          <div>
+            <div class="signal-details-label">FMI Impact Areas</div>
+            <div class="signal-details-values">${fmiAreas.length ? fmiAreas.join(' | ') : 'Not yet mapped'}</div>
+          </div>
+        </div>
+        ${momentumDebug}
+      </div>
       <div class="signal-footer">
         ${url !== '#' ? `<a href="${url}" target="_blank" rel="noopener noreferrer" class="signal-source" data-signal-key="${signalKey}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>${domain}</a>` : '<span></span>'}
         <span class="signal-tag tag-${catKey}">${TAG_LABELS[catKey]}</span>
