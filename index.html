@@ -103,6 +103,7 @@
 <div class="container">
   <div id="prioritySignalsStrip"></div>
   <div class="data-freshness-stamp" id="dataFreshnessStamp">Loading data refresh status...</div>
+  <div class="signal-detail-panel" id="signalDetailPanel" style="display:none;"></div>
 </div>
 
 <!-- PERSONA SELECTOR -->
@@ -146,7 +147,7 @@
     </div>
 
     <div class="library-body" id="libraryBody" style="display:none;">
-      <div class="reset-filters-bar" id="resetLibraryFilters" onclick="resetAllFilters()">
+      <div class="reset-filters-bar" id="resetLibraryFilters" data-reset-all-filters="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
         <span>Reset all filters</span>
       </div>
@@ -170,7 +171,7 @@
       </div>
       <div class="matrix-filter-chip" id="matrixFilterChip" style="display:none;">
         <span class="matrix-filter-chip-label" id="matrixFilterChipLabel"></span>
-        <button type="button" class="matrix-filter-chip-clear" onclick="clearMatrixFilter()">Clear</button>
+        <button type="button" class="matrix-filter-chip-clear" data-clear-matrix-filter="true">Clear</button>
       </div>
 
       <div id="signalSections"></div>
@@ -182,18 +183,18 @@
       </div>
 
       <section class="personal-section intel-section" id="intelligence">
-        <div class="intel-toggle" onclick="this.parentElement.classList.toggle('intel-open')">
+        <div class="intel-toggle" data-intel-toggle="true">
           <div class="personal-header">
             <div class="personal-avatar"><img src="./assets/nextfi-monogram-navy.png" alt="NextFi Advisors monogram"></div>
             <div class="personal-info">
               <h2>NextFi Intelligence Briefs</h2>
               <p>Research and analysis from Barry Eisenberg &mdash; NextFi Advisors</p>
               <div class="personal-links">
-                <a href="https://www.linkedin.com/in/barry-eisenberg/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">
+                <a href="https://www.linkedin.com/in/barry-eisenberg/" target="_blank" rel="noopener noreferrer">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.47 2H3.53a1.45 1.45 0 0 0-1.47 1.43v17.14A1.45 1.45 0 0 0 3.53 22h16.94a1.45 1.45 0 0 0 1.47-1.43V3.43A1.45 1.45 0 0 0 20.47 2ZM8.09 18.74h-3v-9h3ZM6.59 8.48a1.56 1.56 0 1 1 0-3.12 1.56 1.56 0 1 1 0 3.12Zm12.32 10.26h-3v-4.83c0-1.21-.43-2-1.52-2A1.65 1.65 0 0 0 12.85 13a2 2 0 0 0-.1.73v5h-3v-9h3V11a3 3 0 0 1 2.71-1.5c2 0 3.45 1.29 3.45 4.06Z"/></svg>
                   LinkedIn
                 </a>
-                <a href="https://nextfiadvisors.com/intelligence" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">
+                <a href="https://nextfiadvisors.com/intelligence" target="_blank" rel="noopener noreferrer">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                   NextFi Advisors
                 </a>
@@ -231,7 +232,7 @@
     </div>
 
     <div class="library-body" id="directoryBody" style="display:none;">
-    <div class="reset-filters-bar" id="resetDirectoryFilters" onclick="resetAllFilters()">
+    <div class="reset-filters-bar" id="resetDirectoryFilters" data-reset-all-filters="true">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
       <span>Reset all filters</span>
     </div>
@@ -277,7 +278,7 @@
     </div>
 
     <div class="library-body" id="countryDirectoryBody" style="display:none;">
-      <div class="reset-filters-bar" id="resetCountryDirectoryFilters" onclick="resetAllFilters()">
+      <div class="reset-filters-bar" id="resetCountryDirectoryFilters" data-reset-all-filters="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
         <span>Reset all filters</span>
       </div>
@@ -339,23 +340,23 @@
               </div>
               <div class="signal-strength-controls">
                 <div class="signal-strength-control-group" aria-label="Signal matrix dimension">
-                  <button type="button" id="signalDimInitiativeBtn" class="signal-strength-control is-active" onclick="setSignalScoringDimensionMode('initiative')">Initiatives</button>
-                  <button type="button" id="signalDimFmiBtn" class="signal-strength-control" onclick="setSignalScoringDimensionMode('fmi')">FMI Areas</button>
+                  <button type="button" id="signalDimInitiativeBtn" class="signal-strength-control is-active">Initiatives</button>
+                  <button type="button" id="signalDimFmiBtn" class="signal-strength-control">FMI Areas</button>
                 </div>
                 <div class="signal-strength-control-group" aria-label="Signal matrix metric mode">
-                  <button type="button" id="signalMetricCountBtn" class="signal-strength-control is-active" onclick="setSignalScoringMetricMode('count')">Raw Count</button>
-                  <button type="button" id="signalMetricStrengthBtn" class="signal-strength-control" onclick="setSignalScoringMetricMode('strength')">Strength</button>
+                  <button type="button" id="signalMetricCountBtn" class="signal-strength-control is-active">Raw Count</button>
+                  <button type="button" id="signalMetricStrengthBtn" class="signal-strength-control">Strength</button>
                 </div>
                 <div class="signal-strength-control-group" aria-label="Signal matrix color mode">
-                  <button type="button" id="signalColorAbsoluteBtn" class="signal-strength-control is-active" onclick="setSignalScoringColorMode('absolute')">Absolute</button>
-                  <button type="button" id="signalColorPercentileBtn" class="signal-strength-control" onclick="setSignalScoringColorMode('percentile')">Percentile</button>
+                  <button type="button" id="signalColorAbsoluteBtn" class="signal-strength-control is-active">Absolute</button>
+                  <button type="button" id="signalColorPercentileBtn" class="signal-strength-control">Percentile</button>
                 </div>
-                <button type="button" id="signalScoringClearFilterBtn" class="signal-strength-control signal-scoring-clear" onclick="clearSignalScoringFilter()">Clear Filters</button>
+                <button type="button" id="signalScoringClearFilterBtn" class="signal-strength-control signal-scoring-clear">Clear Filters</button>
               </div>
             </div>
             <div class="matrix-filter-chip signal-scoring-filter-chip" id="signalScoringFilterChip" style="display:none;">
               <span class="matrix-filter-chip-label" id="signalScoringFilterChipLabel"></span>
-              <button type="button" class="matrix-filter-chip-clear" onclick="clearSignalScoringFilter()">Clear Filters</button>
+              <button type="button" class="matrix-filter-chip-clear" data-clear-signal-scoring="true">Clear Filters</button>
             </div>
             <div class="heatmap-container" id="signalScoringMatrixContainer"></div>
             <div class="signal-strength-legend" id="signalScoringLegend"></div>

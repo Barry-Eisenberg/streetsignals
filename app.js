@@ -201,6 +201,216 @@ document.addEventListener('click', (e) => {
   if (href === '#methodology') openCollapsible('#methodology', 'methodologyBody');
 });
 
+document.addEventListener('click', (e) => {
+  const resetAllTrigger = e.target.closest('[data-reset-all-filters]');
+  if (resetAllTrigger) {
+    e.preventDefault();
+    resetAllFilters();
+    return;
+  }
+
+  const clearMatrixTrigger = e.target.closest('[data-clear-matrix-filter]');
+  if (clearMatrixTrigger) {
+    e.preventDefault();
+    clearMatrixFilter();
+    return;
+  }
+
+  const dimInitiativeBtn = e.target.closest('#signalDimInitiativeBtn');
+  if (dimInitiativeBtn) {
+    e.preventDefault();
+    setSignalScoringDimensionMode('initiative');
+    return;
+  }
+
+  const dimFmiBtn = e.target.closest('#signalDimFmiBtn');
+  if (dimFmiBtn) {
+    e.preventDefault();
+    setSignalScoringDimensionMode('fmi');
+    return;
+  }
+
+  const metricCountBtn = e.target.closest('#signalMetricCountBtn');
+  if (metricCountBtn) {
+    e.preventDefault();
+    setSignalScoringMetricMode('count');
+    return;
+  }
+
+  const metricStrengthBtn = e.target.closest('#signalMetricStrengthBtn');
+  if (metricStrengthBtn) {
+    e.preventDefault();
+    setSignalScoringMetricMode('strength');
+    return;
+  }
+
+  const colorAbsoluteBtn = e.target.closest('#signalColorAbsoluteBtn');
+  if (colorAbsoluteBtn) {
+    e.preventDefault();
+    setSignalScoringColorMode('absolute');
+    return;
+  }
+
+  const colorPercentileBtn = e.target.closest('#signalColorPercentileBtn');
+  if (colorPercentileBtn) {
+    e.preventDefault();
+    setSignalScoringColorMode('percentile');
+    return;
+  }
+
+  const clearScoringBtn = e.target.closest('#signalScoringClearFilterBtn');
+  if (clearScoringBtn) {
+    e.preventDefault();
+    clearSignalScoringFilter();
+    return;
+  }
+
+  const navSignalTarget = e.target.closest('[data-nav-signal-name]');
+  if (navSignalTarget) {
+    e.preventDefault();
+    const encodedName = String(navSignalTarget.getAttribute('data-nav-signal-name') || '');
+    const encodedCategory = String(navSignalTarget.getAttribute('data-nav-signal-category') || '');
+    if (!encodedName) return;
+    const name = decodeURIComponent(encodedName);
+    const catKey = encodedCategory ? decodeURIComponent(encodedCategory) : '';
+    navigateToSignal(name, catKey || undefined);
+    return;
+  }
+
+  const kpiCloseBtn = e.target.closest('[data-kpi-close]');
+  if (kpiCloseBtn) {
+    e.preventDefault();
+    closeKPIBreakdown();
+    return;
+  }
+
+  const kpiDrillItem = e.target.closest('[data-kpi-drill-inst]');
+  if (kpiDrillItem) {
+    e.preventDefault();
+    const encodedInst = String(kpiDrillItem.getAttribute('data-kpi-drill-inst') || '');
+    const effectiveDateKey = String(kpiDrillItem.getAttribute('data-kpi-drill-date') || '').trim();
+    if (!encodedInst) return;
+    const institutionType = decodeURIComponent(encodedInst);
+    if (effectiveDateKey) {
+      drillDownKPIToSignalMatrixByInstitutionType(institutionType, effectiveDateKey);
+    } else {
+      drillDownKPIToSignalMatrixByInstitutionType(institutionType);
+    }
+    return;
+  }
+
+  const kpiNavSignalType = e.target.closest('[data-kpi-nav-signal-type]');
+  if (kpiNavSignalType) {
+    e.preventDefault();
+    const encodedType = String(kpiNavSignalType.getAttribute('data-kpi-nav-signal-type') || '');
+    if (!encodedType) return;
+    navigateToCatalogueBySignalType(decodeURIComponent(encodedType));
+    return;
+  }
+
+  const kpiNavDirectory = e.target.closest('[data-kpi-nav-directory]');
+  if (kpiNavDirectory) {
+    e.preventDefault();
+    const catKey = String(kpiNavDirectory.getAttribute('data-kpi-nav-directory') || '').trim();
+    if (!catKey) return;
+    navigateToDirectorySection(catKey);
+    return;
+  }
+
+  const kpiNavCountry = e.target.closest('[data-kpi-nav-country]');
+  if (kpiNavCountry) {
+    e.preventDefault();
+    const encodedCountry = String(kpiNavCountry.getAttribute('data-kpi-nav-country') || '');
+    if (!encodedCountry) return;
+    navigateToCatalogueByCountry(decodeURIComponent(encodedCountry));
+    return;
+  }
+
+  const drilldownClose = e.target.closest('[data-drilldown-close]');
+  if (drilldownClose) {
+    e.preventDefault();
+    const panel = drilldownClose.closest('#signalTypeDrilldown, #fmiDrilldown');
+    if (panel) panel.style.display = 'none';
+    return;
+  }
+
+  const drilldownNavDirectory = e.target.closest('[data-drilldown-nav-directory]');
+  if (drilldownNavDirectory) {
+    e.preventDefault();
+    const catKey = String(drilldownNavDirectory.getAttribute('data-drilldown-nav-directory') || '').trim();
+    if (!catKey) return;
+    navigateToDirectorySection(catKey);
+    return;
+  }
+
+  const matrixNavCell = e.target.closest('[data-matrix-nav-inst][data-matrix-nav-init]');
+  if (matrixNavCell) {
+    e.preventDefault();
+    const encodedInst = String(matrixNavCell.getAttribute('data-matrix-nav-inst') || '');
+    const encodedInit = String(matrixNavCell.getAttribute('data-matrix-nav-init') || '');
+    if (!encodedInst || !encodedInit) return;
+    navigateToMatrixSelection(decodeURIComponent(encodedInst), decodeURIComponent(encodedInit));
+    return;
+  }
+
+  const strengthBreakdownCell = e.target.closest('[data-strength-breakdown-inst][data-strength-breakdown-init]');
+  if (strengthBreakdownCell) {
+    e.preventDefault();
+    const encodedInst = String(strengthBreakdownCell.getAttribute('data-strength-breakdown-inst') || '');
+    const encodedInit = String(strengthBreakdownCell.getAttribute('data-strength-breakdown-init') || '');
+    if (!encodedInst || !encodedInit) return;
+    showSignalStrengthBreakdown(decodeURIComponent(encodedInst), decodeURIComponent(encodedInit));
+    return;
+  }
+
+  const clearSignalScoringBtn = e.target.closest('[data-clear-signal-scoring]');
+  if (clearSignalScoringBtn) {
+    e.preventDefault();
+    clearSignalScoringFilter();
+    return;
+  }
+
+  const closeSignalStrengthBreakdownBtn = e.target.closest('[data-close-signal-strength-breakdown]');
+  if (closeSignalStrengthBreakdownBtn) {
+    e.preventDefault();
+    closeSignalStrengthBreakdown();
+    return;
+  }
+
+  const sbdToggle = e.target.closest('[data-sbd-toggle]');
+  if (sbdToggle) {
+    e.preventDefault();
+    sbdToggle.closest('.signal-strength-breakdown-table-card')?.classList.toggle('sbd-expanded');
+    return;
+  }
+
+  const signalDetailClose = e.target.closest('[data-signal-detail-close]');
+  if (signalDetailClose) {
+    e.preventDefault();
+    closeSignalDetail();
+    return;
+  }
+
+  const categoryHeader = e.target.closest('[data-toggle-category-open]');
+  if (categoryHeader) {
+    categoryHeader.parentElement?.classList.toggle('cat-open');
+    return;
+  }
+
+  const directoryHeader = e.target.closest('[data-toggle-directory-open]');
+  if (directoryHeader) {
+    directoryHeader.parentElement?.classList.toggle('open');
+    return;
+  }
+
+  const intelToggle = e.target.closest('[data-intel-toggle]');
+  if (intelToggle) {
+    const clickedLink = e.target.closest('a[href]');
+    if (clickedLink && intelToggle.contains(clickedLink)) return;
+    intelToggle.parentElement?.classList.toggle('intel-open');
+  }
+});
+
 // ===== ADDITIONAL ANALYTICS TOGGLE =====
 document.getElementById('additionalAnalyticsToggle')?.addEventListener('click', () => {
   const btn = document.getElementById('additionalAnalyticsToggle');
@@ -1149,6 +1359,15 @@ function getSignalDateTimestamp(signal) {
   return Number.isFinite(parsed) ? parsed : null;
 }
 
+function getLatestNonFutureSignalTimestamp(signals) {
+  const nowTs = Date.now();
+  return (Array.isArray(signals) ? signals : []).reduce((maxTs, signal) => {
+    const ts = getSignalDateTimestamp(signal);
+    if (!Number.isFinite(ts) || ts > nowTs) return maxTs;
+    return Math.max(maxTs, ts);
+  }, 0);
+}
+
 function isSignalWithinRecencyWindow(signal, maxAgeDays = selectedDateWindowDays) {
   const timestamp = getSignalDateTimestamp(signal);
   if (!timestamp) return true;
@@ -1927,31 +2146,31 @@ function renderInstitutionRows(insts, options = {}) {
   return insts.map(inst => {
     const catKey = DIRECTORY_TYPE_KEY_MAP[inst.type] || '';
     const color = colorOverride || DIRECTORY_TYPE_COLOR_MAP[inst.type] || 'var(--color-primary)';
-    const escapedName = inst.name.replace(/'/g, "\\'");
-    const navigateArgs = catKey ? `'${escapedName}','${catKey}'` : `'${escapedName}'`;
+    const encodedName = encodeURIComponent(String(inst.name || '').trim());
+    const encodedCatKey = encodeURIComponent(String(catKey || '').trim());
     const sigTypesHtml = Object.entries(inst.signalTypes)
       .sort((a, b) => b[1] - a[1])
       .map(([type, count]) => {
         const shortLabel = type.replace('Platform / Infrastructure', 'Platform').replace('Strategic Partnership', 'Partnership').replace('Strategic Initiative', 'Initiative').replace('Regulatory Action', 'Regulatory').replace('Investment / M&A', 'Investment').replace('Pilot / Trial', 'Pilot').replace('Product Launch', 'Launch');
-        return `<span class="cell-tag cell-tag-link" title="${type}: ${count} - Click to view signals" onclick="navigateToSignal(${navigateArgs})">${shortLabel} ${count}</span>`;
+        return `<span class="cell-tag cell-tag-link" title="${type}: ${count} - Click to view signals" data-nav-signal-name="${encodedName}" data-nav-signal-category="${encodedCatKey}">${shortLabel} ${count}</span>`;
       })
       .join('');
 
     const initHtml = [...inst.initiativeTypes]
-      .map(type => `<span class="cell-tag cell-tag-link" title="${type} - Click to view signals" onclick="navigateToSignal(${navigateArgs})">${DIRECTORY_SHORT_INIT[type] || type}</span>`)
+      .map(type => `<span class="cell-tag cell-tag-link" title="${type} - Click to view signals" data-nav-signal-name="${encodedName}" data-nav-signal-category="${encodedCatKey}">${DIRECTORY_SHORT_INIT[type] || type}</span>`)
       .join('');
 
     const fmiHtml = [...inst.fmiAreas]
       .filter(area => area !== 'General Infrastructure')
-      .map(area => `<span class="cell-tag cell-tag-link" title="${area} - Click to view signals" onclick="navigateToSignal(${navigateArgs})">${DIRECTORY_SHORT_FMI[area] || area}</span>`)
+      .map(area => `<span class="cell-tag cell-tag-link" title="${area} - Click to view signals" data-nav-signal-name="${encodedName}" data-nav-signal-category="${encodedCatKey}">${DIRECTORY_SHORT_FMI[area] || area}</span>`)
       .join('');
 
     return `
       <tr>
-        <td class="inst-name"><a class="inst-name-link" href="javascript:void(0)" onclick="navigateToSignal(${navigateArgs})">${inst.name}</a></td>
+        <td class="inst-name"><a class="inst-name-link" href="#" data-nav-signal-name="${encodedName}" data-nav-signal-category="${encodedCatKey}">${inst.name}</a></td>
         ${showType ? `<td>${inst.type}</td>` : ''}
         <td>${inst.countryLabel}</td>
-        <td class="num" style="color:${color};font-size:13px;"><a class="inst-count-link" href="javascript:void(0)" onclick="navigateToSignal(${navigateArgs})">${inst.signals}</a></td>
+        <td class="num" style="color:${color};font-size:13px;"><a class="inst-count-link" href="#" data-nav-signal-name="${encodedName}" data-nav-signal-category="${encodedCatKey}">${inst.signals}</a></td>
         <td><div class="cell-tags">${sigTypesHtml}</div></td>
         <td><div class="cell-tags">${initHtml}</div></td>
         <td><div class="cell-tags">${fmiHtml}</div></td>
@@ -1988,11 +2207,7 @@ function loadAndRenderData() {
       .sort((a, b) => new Date(b.date || '2024-01-01') - new Date(a.date || '2024-01-01'));
 
     const operationalSignals = allSignals.filter(s => !s._isBrief);
-    const latestSourceTimestamp = operationalSignals.reduce((maxTs, signal) => {
-      const ts = getSignalDateTimestamp(signal);
-      if (!Number.isFinite(ts)) return maxTs;
-      return Math.max(maxTs, ts);
-    }, 0);
+    const latestSourceTimestamp = getLatestNonFutureSignalTimestamp(operationalSignals);
 
     dataRefreshMeta = {
       loadedAt: new Date(),
@@ -2297,10 +2512,10 @@ function showKPIBreakdown(kpiId, activeCard) {
     signals.forEach(s => { byType[s.institution_type] = (byType[s.institution_type] || 0) + 1; });
     const sorted = Object.entries(byType).sort((a,b) => b[1] - a[1]);
     const max = sorted[0]?.[1] || 1;
-    html = `<div class="kpi-breakdown-header"><h3>${signals.length} Signals by Institution Type</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
+    html = `<div class="kpi-breakdown-header"><h3>${signals.length} Signals by Institution Type</h3><button type="button" class="kpi-breakdown-close" data-kpi-close="true">Close ✕</button></div>`;
     html += '<div class="kpi-breakdown-grid">';
     sorted.forEach(([type, count]) => {
-      html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="drillDownKPIToSignalMatrixByInstitutionType('${type.replace(/'/g, "\\'")}')"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
+      html += `<a href="#" class="kpi-breakdown-item" data-kpi-drill-inst="${encodeURIComponent(type)}"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
     });
     html += '</div>';
     html += '<a href="#analytics" class="kpi-breakdown-link">View detailed analytics ↓</a>';
@@ -2313,10 +2528,10 @@ function showKPIBreakdown(kpiId, activeCard) {
     });
     const sorted = Object.entries(instByType).map(([t, s]) => [t, s.size]).sort((a,b) => b[1] - a[1]);
     const max = sorted[0]?.[1] || 1;
-    html = `<div class="kpi-breakdown-header"><h3>${new Set(signals.map(s=>s.institution)).size} Institutions by Sector</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
+    html = `<div class="kpi-breakdown-header"><h3>${new Set(signals.map(s=>s.institution)).size} Institutions by Sector</h3><button type="button" class="kpi-breakdown-close" data-kpi-close="true">Close ✕</button></div>`;
     html += '<div class="kpi-breakdown-grid">';
     sorted.forEach(([type, count]) => {
-      html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="drillDownKPIToSignalMatrixByInstitutionType('${type.replace(/'/g, "\\'")}')"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
+      html += `<a href="#" class="kpi-breakdown-item" data-kpi-drill-inst="${encodeURIComponent(type)}"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
     });
     html += '</div>';
     html += '<a href="#directory" class="kpi-breakdown-link">See full Institution Directory ↓</a>';
@@ -2327,7 +2542,7 @@ function showKPIBreakdown(kpiId, activeCard) {
     const snapshotLabel = snapshotDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
     const snapshotSignals = signals.filter(s => getSignalDateKey(s.date) === snapshot.effectiveDateKey);
 
-    html = `<div class="kpi-breakdown-header"><h3>New Signals on ${snapshotLabel}</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
+    html = `<div class="kpi-breakdown-header"><h3>New Signals on ${snapshotLabel}</h3><button type="button" class="kpi-breakdown-close" data-kpi-close="true">Close ✕</button></div>`;
 
     if (snapshotSignals.length === 0) {
       html += '<div style="font-size:var(--text-xs);color:var(--color-text-muted);line-height:1.7;">No operational signals are available for the latest reporting date.</div>';
@@ -2339,7 +2554,7 @@ function showKPIBreakdown(kpiId, activeCard) {
       html += '<div class="kpi-breakdown-grid">';
       sorted.forEach(([type, count]) => {
         const label = type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech');
-        html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="drillDownKPIToSignalMatrixByInstitutionType('${type.replace(/'/g, "\\'")}','${snapshot.effectiveDateKey}')"><span class="bd-label">${label}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
+        html += `<a href="#" class="kpi-breakdown-item" data-kpi-drill-inst="${encodeURIComponent(type)}" data-kpi-drill-date="${snapshot.effectiveDateKey}"><span class="bd-label">${label}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
       });
       html += '</div>';
     }
@@ -2355,7 +2570,7 @@ function showKPIBreakdown(kpiId, activeCard) {
     const sorted = Object.entries(bySource).sort((a, b) => b[1] - a[1]);
     const max = sorted[0]?.[1] || 1;
 
-    html = `<div class="kpi-breakdown-header"><h3>${sorted.length} Unique Information Sources</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
+    html = `<div class="kpi-breakdown-header"><h3>${sorted.length} Unique Information Sources</h3><button type="button" class="kpi-breakdown-close" data-kpi-close="true">Close ✕</button></div>`;
     html += '<div class="kpi-breakdown-grid">';
     sorted.slice(0, 12).forEach(([source, count]) => {
       html += `<div class="kpi-breakdown-item"><span class="bd-label">${source}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></div>`;
@@ -2371,7 +2586,7 @@ function showKPIBreakdown(kpiId, activeCard) {
     signals.forEach(s => { byYear[s.year] = (byYear[s.year] || 0) + 1; });
     const years = Object.entries(byYear).sort((a,b) => a[0].localeCompare(b[0]));
     const max = Math.max(...years.map(y => y[1]));
-    html = `<div class="kpi-breakdown-header"><h3>Signal Growth Over Time</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
+    html = `<div class="kpi-breakdown-header"><h3>Signal Growth Over Time</h3><button type="button" class="kpi-breakdown-close" data-kpi-close="true">Close ✕</button></div>`;
     html += '<div class="kpi-breakdown-grid">';
     years.forEach(([year, count], i) => {
       const prev = i > 0 ? years[i-1][1] : 0;
@@ -2390,10 +2605,10 @@ function showKPIBreakdown(kpiId, activeCard) {
     regSignals.forEach(s => { byInst[s.institution_type] = (byInst[s.institution_type] || 0) + 1; });
     const sortedInst = Object.entries(byInst).sort((a,b) => b[1]-a[1]);
     const max = sortedInst[0]?.[1] || 1;
-    html = `<div class="kpi-breakdown-header"><h3>${regSignals.length} Regulatory Signals</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
+    html = `<div class="kpi-breakdown-header"><h3>${regSignals.length} Regulatory Signals</h3><button type="button" class="kpi-breakdown-close" data-kpi-close="true">Close ✕</button></div>`;
     html += '<div class="kpi-breakdown-grid">';
     sortedInst.forEach(([type, count]) => {
-      html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="drillDownKPIToSignalMatrixByInstitutionType('${type.replace(/'/g,"\\'")}')"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
+      html += `<a href="#" class="kpi-breakdown-item" data-kpi-drill-inst="${encodeURIComponent(type)}"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
     });
     html += '</div>';
     html += '<a href="#signal-library" class="kpi-breakdown-link">Open Signal Catalogue ↓</a>';
@@ -2411,7 +2626,7 @@ function showKPIBreakdown(kpiId, activeCard) {
       items: group.types.map(type => ({ type, count: byType[type] || 0 }))
     }));
 
-    html = `<div class="kpi-breakdown-header"><h3>${activeCount} Active Signal Types</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
+    html = `<div class="kpi-breakdown-header"><h3>${activeCount} Active Signal Types</h3><button type="button" class="kpi-breakdown-close" data-kpi-close="true">Close ✕</button></div>`;
     grouped.forEach(group => {
       const groupTotal = group.items.reduce((sum, item) => sum + item.count, 0);
       const max = Math.max(1, ...group.items.map(item => item.count));
@@ -2420,7 +2635,7 @@ function showKPIBreakdown(kpiId, activeCard) {
       group.items
         .sort((a, b) => b.count - a.count)
         .forEach(item => {
-          html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="navigateToCatalogueBySignalType('${item.type.replace(/'/g, "\\'")}')"><span class="bd-label">${item.type}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(item.count / max) * 100}%"></span></span><span class="bd-value">${item.count}</span></a>`;
+          html += `<a href="#" class="kpi-breakdown-item" data-kpi-nav-signal-type="${encodeURIComponent(item.type)}"><span class="bd-label">${item.type}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(item.count / max) * 100}%"></span></span><span class="bd-value">${item.count}</span></a>`;
         });
       html += '</div>';
     });
@@ -2431,7 +2646,7 @@ function showKPIBreakdown(kpiId, activeCard) {
     signals.forEach(s => { byType[s.signal_type] = (byType[s.signal_type] || 0) + 1; });
     const sorted = Object.entries(byType).sort((a,b) => b[1] - a[1]);
     const max = sorted[0]?.[1] || 1;
-    html = `<div class="kpi-breakdown-header"><h3>All Signal Types</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
+    html = `<div class="kpi-breakdown-header"><h3>All Signal Types</h3><button type="button" class="kpi-breakdown-close" data-kpi-close="true">Close ✕</button></div>`;
     html += '<div class="kpi-breakdown-grid">';
     sorted.forEach(([type, count]) => {
       html += `<div class="kpi-breakdown-item"><span class="bd-label">${type}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></div>`;
@@ -2442,12 +2657,12 @@ function showKPIBreakdown(kpiId, activeCard) {
   } else if (kpiId === 'sectors') {
     const catMap = { 'Global Banks':'global_banks', 'Asset & Investment Management':'asset_management', 'Payments Providers':'payments', 'Exchanges & Central Intermediaries':'exchanges_intermediaries', 'Regulatory Agencies':'regulators', 'Infrastructure & Technology':'ecosystem' };
     const colorMap = { 'Global Banks':'var(--color-banks)', 'Asset & Investment Management':'var(--color-asset-mgmt)', 'Payments Providers':'var(--color-payments)', 'Exchanges & Central Intermediaries':'var(--color-exchanges)', 'Regulatory Agencies':'var(--color-regulators)', 'Infrastructure & Technology':'var(--color-ecosystem)' };
-    html = `<div class="kpi-breakdown-header"><h3>6 Sector Categories</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
+    html = `<div class="kpi-breakdown-header"><h3>6 Sector Categories</h3><button type="button" class="kpi-breakdown-close" data-kpi-close="true">Close ✕</button></div>`;
     html += '<div class="kpi-breakdown-grid">';
     Object.entries(catMap).forEach(([type, anchor]) => {
       const count = signals.filter(s => s.institution_type === type).length;
       const instCount = new Set(signals.filter(s => s.institution_type === type).map(s => s.institution)).size;
-      html += `<a href="javascript:void(0)" class="kpi-breakdown-item" style="border-left:3px solid ${colorMap[type]}" onclick="navigateToDirectorySection('${anchor}')"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-value">${count} signals · ${instCount} firms</span></a>`;
+      html += `<a href="#" class="kpi-breakdown-item" style="border-left:3px solid ${colorMap[type]}" data-kpi-nav-directory="${anchor}"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-value">${count} signals · ${instCount} firms</span></a>`;
     });
     html += '</div>';
 
@@ -2465,12 +2680,12 @@ function showKPIBreakdown(kpiId, activeCard) {
     const unmapped = sorted.find(([country]) => country === 'Unmapped');
     const max = Math.max(1, ...visible.map(([, count]) => count));
 
-    html = `<div class="kpi-breakdown-header"><h3>Global Coverage</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
+    html = `<div class="kpi-breakdown-header"><h3>Global Coverage</h3><button type="button" class="kpi-breakdown-close" data-kpi-close="true">Close ✕</button></div>`;
     if (visible.length > 0) {
       html += `<div style="font-size:11px;color:var(--color-text-muted);margin-bottom:var(--space-2);">Showing countries with ${threshold}+ signals. Lower-volume countries are grouped below.</div>`;
       html += '<div class="kpi-breakdown-grid">';
       visible.forEach(([country, count]) => {
-        html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="navigateToCatalogueByCountry('${country.replace(/'/g, "\\'")}')"><span class="bd-label">${country}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count / max) * 100}%"></span></span><span class="bd-value">${count}</span></a>`;
+        html += `<a href="#" class="kpi-breakdown-item" data-kpi-nav-country="${encodeURIComponent(country)}"><span class="bd-label">${country}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count / max) * 100}%"></span></span><span class="bd-value">${count}</span></a>`;
       });
       html += '</div>';
     }
@@ -2670,14 +2885,14 @@ function showSignalTypeDrilldown(signalType, colors) {
 
   panel.style.display = 'block';
   panel.innerHTML = `
-    <button class="drilldown-close" onclick="this.parentElement.style.display='none'">Close ✕</button>
+    <button type="button" class="drilldown-close" data-drilldown-close="true">Close ✕</button>
     <h4>${signalType} — by Institution Type (${relevant.length} signals)</h4>
     <p class="drilldown-hint">Click a row to navigate to that section in the directory</p>
     ${sorted.map(([type, count]) => {
       const catKey = dirCatMap[type] || '';
       const shortLabel = type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech');
       return `
-      <div class="drilldown-item drilldown-item-link" onclick="navigateToDirectorySection('${catKey}')" title="View ${type} in the directory">
+      <div class="drilldown-item drilldown-item-link" data-drilldown-nav-directory="${catKey}" title="View ${type} in the directory">
         <span style="min-width:140px">${shortLabel}</span>
         <div class="drilldown-bar"><div class="drilldown-bar-fill" style="width:${(count/max*100)}%; background:${colors[type] || 'var(--color-primary)'}"></div></div>
         <span style="min-width:30px;text-align:right;font-weight:700">${count}</span>
@@ -2882,14 +3097,14 @@ function showFMIDrilldown(fmiArea, colors) {
 
   panel.style.display = 'block';
   panel.innerHTML = `
-    <button class="drilldown-close" onclick="this.parentElement.style.display='none'">Close ✕</button>
+    <button type="button" class="drilldown-close" data-drilldown-close="true">Close ✕</button>
     <h4>${fmiArea} — by Institution Type (${relevant.length} signals)</h4>
     <p class="drilldown-hint">Click a row to navigate to that section in the directory</p>
     ${sorted.map(([type, count]) => {
       const catKey = dirCatMap[type] || '';
       const shortLabel = type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech');
       return `
-      <div class="drilldown-item drilldown-item-link" onclick="navigateToDirectorySection('${catKey}')" title="View ${type} in the directory">
+      <div class="drilldown-item drilldown-item-link" data-drilldown-nav-directory="${catKey}" title="View ${type} in the directory">
         <span style="min-width:140px">${shortLabel}</span>
         <div class="drilldown-bar"><div class="drilldown-bar-fill" style="width:${(count/max*100)}%; background:${colors[type] || 'var(--color-primary)'}"></div></div>
         <span style="min-width:30px;text-align:right;font-weight:700">${count}</span>
@@ -3008,7 +3223,7 @@ function buildHeatmap(colors) {
     html += `<tr><td class="heatmap-row-label">${shortNames[i]}</td>`;
     row.forEach((val, ci) => {
       if (val > 0) {
-        html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)};cursor:pointer" title="${instTypes[i]} × ${initTypes[ci]}: ${val} (click to view signals)" onclick="navigateToMatrixSelection('${instTypes[i]}','${initTypes[ci]}')">${val}</td>`;
+        html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)};cursor:pointer" title="${instTypes[i]} × ${initTypes[ci]}: ${val} (click to view signals)" data-matrix-nav-inst="${encodeURIComponent(instTypes[i])}" data-matrix-nav-init="${encodeURIComponent(initTypes[ci])}">${val}</td>`;
       } else {
         html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)}" title="${instTypes[i]} × ${initTypes[ci]}: 0">–</td>`;
       }
@@ -3125,11 +3340,7 @@ function renderDataFreshnessStamp() {
 
   if (!dataRefreshMeta.loadedAt && Array.isArray(allSignals) && allSignals.length > 0) {
     const operationalSignals = allSignals.filter(s => !s._isBrief);
-    const latestSourceTimestamp = operationalSignals.reduce((maxTs, signal) => {
-      const ts = getSignalDateTimestamp(signal);
-      if (!Number.isFinite(ts)) return maxTs;
-      return Math.max(maxTs, ts);
-    }, 0);
+    const latestSourceTimestamp = getLatestNonFutureSignalTimestamp(operationalSignals);
 
     dataRefreshMeta = {
       loadedAt: new Date(),
@@ -3342,19 +3553,47 @@ function renderPersonaSelect() {
 }
 
 function focusStructuralSignalsFromPriority() {
+  openCollapsible('.signal-library-section', 'libraryBody');
   setImportanceTierMode('structural');
   activeFilter = 'all';
+  signalTypeFilter = '';
+  countryFilter = '';
+  searchQuery = '';
   signalScoringFilter = null;
   matrixFilter = null;
+  syncSignalTypeSelect();
+  syncCountrySelects();
   syncImportanceTierSelect();
   renderSignals();
   updateResetBars();
   trackFilter('importance_tier', 'structural');
 
-  const target = document.getElementById('signalSections') || document.getElementById('signal-library');
+  const target = document.getElementById('signal-library') || document.getElementById('signalSections');
   if (target && typeof target.scrollIntoView === 'function') {
     target.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
+}
+
+function setupPrioritySignalsInteractions(container) {
+  if (!container || container.dataset.priorityHandlersBound === 'true') return;
+
+  container.addEventListener('click', (event) => {
+    const viewAllBtn = event.target.closest('[data-priority-view-all]');
+    if (viewAllBtn) {
+      event.preventDefault();
+      focusStructuralSignalsFromPriority();
+      return;
+    }
+
+    const detailBtn = event.target.closest('[data-priority-signal-key]');
+    if (detailBtn) {
+      event.preventDefault();
+      const signalKey = detailBtn.getAttribute('data-priority-signal-key');
+      if (signalKey) openSignalDetailByKey(signalKey);
+    }
+  });
+
+  container.dataset.priorityHandlersBound = 'true';
 }
 
 // ===== INTEL BRIEFS =====
@@ -3375,6 +3614,7 @@ function renderIntelBriefs() {
 function renderPrioritySignalsStrip() {
   const container = document.getElementById('prioritySignalsStrip');
   if (!container) return;
+  setupPrioritySignalsInteractions(container);
 
   // Get Structural-tier signals only
   const allSignals = getOperationalSignals();
@@ -3450,7 +3690,7 @@ function renderPrioritySignalsStrip() {
         <div class="priority-signal-card-insight">${escapeHtml(insight)}</div>
         <div class="priority-signal-card-footer">
           ${url !== '#' ? `<a href="${url}" target="_blank" rel="noopener noreferrer" class="priority-signal-card-source"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>${domain}</a>` : '<span></span>'}
-          <button class="priority-signal-card-details-btn" onclick="openSignalDetailByKey('${signalKey}')">Details</button>
+          <button type="button" class="priority-signal-card-details-btn" data-priority-signal-key="${signalKey}">Details</button>
         </div>
       </div>
     `;
@@ -3459,7 +3699,7 @@ function renderPrioritySignalsStrip() {
   html += `
       </div>
       <div class="priority-signals-footer">
-        <button type="button" onclick="focusStructuralSignalsFromPriority()" class="priority-signals-view-all">
+        <button type="button" data-priority-view-all="true" class="priority-signals-view-all">
           View all Structural signals →
         </button>
       </div>
@@ -3514,7 +3754,7 @@ function renderSignals() {
     const isOpen = activeFilter === catKey || selectedPersona !== DEFAULT_PERSONA;
     html += `
       <section class="category-section cat-${catKey}${isOpen ? ' cat-open' : ''}" id="${catKey}">
-        <div class="category-header sector-banner" onclick="this.parentElement.classList.toggle('cat-open')">
+        <div class="category-header sector-banner" data-toggle-category-open="true">
           <div class="category-icon">${cat.icon}</div>
           <h2 class="category-title sector-banner-title">${cat.name}</h2>
           <span class="category-count sector-banner-count">${items.length} filtered signals</span>
@@ -3792,7 +4032,7 @@ function renderPopularityAnalysis() {
   renderSignalScoringClearFilterButton();
 
   if (maxVal <= 0) {
-    container.innerHTML = '<div class="pop-empty">No signal strength data available for this filter. <button type="button" class="matrix-filter-chip-clear" onclick="clearSignalScoringFilter()">Clear filter</button></div>';
+    container.innerHTML = '<div class="pop-empty">No signal strength data available for this filter. <button type="button" class="matrix-filter-chip-clear" data-clear-signal-scoring="true">Clear filter</button></div>';
     return;
   }
 
@@ -3846,7 +4086,7 @@ function renderPopularityAnalysis() {
       const instArg = JSON.stringify(instTypes[i]);
       const initArg = JSON.stringify(colTypes[ci]);
       if (val > 0) {
-        html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)};cursor:pointer" title="${instTypes[i]} x ${colTypes[ci]}: ${displayVal(val)}${displaySuffix} (click for breakdown)" onclick='showSignalStrengthBreakdown(${instArg},${initArg})'>${displayVal(val)}</td>`;
+        html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)};cursor:pointer" title="${instTypes[i]} x ${colTypes[ci]}: ${displayVal(val)}${displaySuffix} (click for breakdown)" data-strength-breakdown-inst="${encodeURIComponent(instTypes[i])}" data-strength-breakdown-init="${encodeURIComponent(colTypes[ci])}">${displayVal(val)}</td>`;
       } else {
         html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)}" title="${instTypes[i]} x ${colTypes[ci]}: 0">-</td>`;
       }
@@ -3970,9 +4210,6 @@ function showSignalStrengthBreakdown(institutionType, initiativeType) {
     }))
     .sort((a, b) => b.score - a.score);
 
-  const navigateInstArg = JSON.stringify(institutionType);
-  const navigateInitArg = JSON.stringify(initiativeType);
-
   const primaryMetricLabel = signalScoringMetricMode === 'count' ? 'Cell Value (Count)' : 'Cell Value (Strength)';
   const primaryMetricValue = signalScoringMetricMode === 'count' ? rawCount : totalScore.toFixed(1);
 
@@ -3982,14 +4219,14 @@ function showSignalStrengthBreakdown(institutionType, initiativeType) {
         <h4>${escapeHtml(institutionType)} x ${escapeHtml(initiativeType)}</h4>
         <p>Cell breakdown for ${signalScoringMetricMode === 'count' ? 'raw signal count' : 'aggregate weighted strength'}.</p>
       </div>
-      <button type="button" class="signal-strength-breakdown-close" onclick="closeSignalStrengthBreakdown()">Close</button>
+      <button type="button" class="signal-strength-breakdown-close" data-close-signal-strength-breakdown="true">Close</button>
     </div>
     <div class="signal-strength-breakdown-actions">
-      <button type="button" onclick='navigateToMatrixSelection(${navigateInstArg},${navigateInitArg})'>View Matching Signals</button>
+      <button type="button" data-matrix-nav-inst="${encodeURIComponent(institutionType)}" data-matrix-nav-init="${encodeURIComponent(initiativeType)}">View Matching Signals</button>
     </div>
     <div class="signal-strength-breakdown-card signal-strength-breakdown-table-card">
       <h5>Top Contributing Signal Types</h5>
-      <div class="sbd-table-toggle" onclick="this.closest('.signal-strength-breakdown-table-card').classList.toggle('sbd-expanded')">
+      <div class="sbd-table-toggle" data-sbd-toggle="true">
         <div class="signal-strength-breakdown-table-summary">Totals: ${rawCount} signals · ${totalScore.toFixed(1)} score · ${allInstitutions.size} institutions</div>
         <svg class="sbd-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
       </div>
@@ -4004,7 +4241,7 @@ function showSignalStrengthBreakdown(institutionType, initiativeType) {
     </div>
     <div class="signal-strength-breakdown-card signal-strength-breakdown-table-card">
       <h5>Top Contributing Sources</h5>
-      <div class="sbd-table-toggle" onclick="this.closest('.signal-strength-breakdown-table-card').classList.toggle('sbd-expanded')">
+      <div class="sbd-table-toggle" data-sbd-toggle="true">
         <div class="signal-strength-breakdown-table-summary">Totals: ${sourceRows.length} sources · ${rawCount} signals</div>
         <svg class="sbd-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
       </div>
@@ -4035,8 +4272,22 @@ function formatDate(d) {
 }
 
 // ===== SIGNAL DETAILS & ANALYSIS =====
+function ensureSignalDetailPanel() {
+  let panel = document.getElementById('signalDetailPanel');
+  if (panel) return panel;
+
+  panel = document.createElement('div');
+  panel.id = 'signalDetailPanel';
+  panel.className = 'signal-detail-panel';
+  panel.style.display = 'none';
+
+  const mountPoint = document.querySelector('.signal-library-section .container') || document.body;
+  mountPoint.appendChild(panel);
+  return panel;
+}
+
 function showSignalDetail(signalData) {
-  const panel = document.getElementById('signalDetailPanel');
+  const panel = ensureSignalDetailPanel();
   if (!panel) return;
   
   // Calculate recency information
@@ -4064,7 +4315,7 @@ function showSignalDetail(signalData) {
         <p class="signal-detail-initiative">${signalData.initiative}</p>
       </div>
       ${tierBadge}
-      <button class="signal-detail-close" onclick="closeSignalDetail()">✕</button>
+      <button type="button" class="signal-detail-close" data-signal-detail-close="true">✕</button>
     </div>
     <div class="signal-detail-content">
       <div class="signal-detail-row">
@@ -4396,7 +4647,7 @@ function renderDirectory() {
     const isOpen = !!(dirSearch || dirCountryFilter);
 
     html += `<div class="dir-category${isOpen ? ' open' : ''}">`;
-    html += `<div class="dir-category-header sector-banner" onclick="this.parentElement.classList.toggle('open')">`;
+    html += `<div class="dir-category-header sector-banner" data-toggle-directory-open="true">`;
     html += `<span class="dir-cat-dot sector-banner-dot" style="background:${color}"></span>`;
     html += `<span class="dir-cat-name sector-banner-title">${cat}</span>`;
     html += `<span class="dir-cat-count sector-banner-count">${insts.length} institutions · ${totalSignals} filtered signals</span>`;
@@ -4449,7 +4700,7 @@ function renderCountryDirectory() {
     const isOpen = !!(countryDirSearch || countryDirTypeFilter);
 
     html += `<div class="dir-category${isOpen ? ' open' : ''}">`;
-    html += `<div class="dir-category-header sector-banner" onclick="this.parentElement.classList.toggle('open')">`;
+    html += `<div class="dir-category-header sector-banner" data-toggle-directory-open="true">`;
     html += `<span class="dir-cat-dot sector-banner-dot" style="background:var(--color-primary)"></span>`;
     html += `<span class="dir-cat-name sector-banner-title">${country}</span>`;
     html += `<span class="dir-cat-count sector-banner-count">${insts.length} institutions · ${totalSignals} filtered signals</span>`;
