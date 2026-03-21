@@ -147,6 +147,20 @@ document.getElementById('analyticsToggle')?.addEventListener('click', () => {
   trackSectionToggle('Signal Charts', isOpen);
 });
 
+document.getElementById('signalStrengthToggle')?.addEventListener('click', () => {
+  const section = document.querySelector('#signal-strength');
+  const isOpen = !section?.classList.contains('open');
+  toggleCollapsible('#signal-strength', 'signalStrengthBody');
+  trackSectionToggle('Signal Strength', isOpen);
+});
+
+document.getElementById('signalScoringToggle')?.addEventListener('click', () => {
+  const section = document.querySelector('#signal-scoring');
+  const isOpen = !section?.classList.contains('open');
+  toggleCollapsible('#signal-scoring', 'signalScoringBody');
+  trackSectionToggle('Signal Scoring', isOpen);
+});
+
 document.getElementById('methodologyToggle')?.addEventListener('click', () => {
   const section = document.querySelector('#methodology');
   const isOpen = !section?.classList.contains('open');
@@ -1383,12 +1397,12 @@ function renderPopularityAnalysis() {
     return n.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 2 });
   };
 
-  const summary = document.getElementById('popularitySummary');
+  // Only update the scoring columns, not the title/description
   const topSignalsEl = document.getElementById('popularityTopSignals');
   const topSourcesEl = document.getElementById('popularityTopSources');
   const sectorSelectEl = document.getElementById('popularitySectorFilter');
   const topSectorSourcesEl = document.getElementById('popularityTopSourcesBySector');
-  if (!summary || !topSignalsEl || !topSourcesEl || !sectorSelectEl || !topSectorSourcesEl) return;
+  if (!topSignalsEl || !topSourcesEl || !sectorSelectEl || !topSectorSourcesEl) return;
 
   const signals = getOperationalSignals();
   const sourceCounts = {};
@@ -1486,10 +1500,6 @@ function renderPopularityAnalysis() {
 
   const maxSignalScore = topSignals[0]?.score || 1;
   const maxSourceScore = topSources[0]?.score || 1;
-
-  summary.textContent = sourceEntries.length
-    ? 'Using mappings from the sources.json file, signal strength combines source prevalence, recency decay, and credibility tiers.'
-    : 'No source prevalence data available yet. You can seed baseline rankings via popularity.json.';
 
   topSignalsEl.innerHTML = topSignals.length
     ? topSignals.map(item => `
