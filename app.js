@@ -371,6 +371,25 @@ const FMI_SCHEMA = [
   }
 ];
 
+const SIGNAL_TYPE_GROUPS = [
+  {
+    name: 'Market Build',
+    types: ['Product Launch', 'Platform / Infrastructure', 'Infrastructure Upgrade', 'Pilot / Trial']
+  },
+  {
+    name: 'Strategy & Capital',
+    types: ['Strategic Partnership', 'Strategic Initiative', 'Strategic Filing / Plan', 'Investment / M&A']
+  },
+  {
+    name: 'Policy & Compliance',
+    types: ['Regulatory Action', 'Regulatory / Compliance Framework']
+  },
+  {
+    name: 'Intelligence',
+    types: ['Research / Report', 'Intelligence Brief']
+  }
+];
+
 function normalizeInstitutionType(type) {
   if (!type) return 'Infrastructure & Technology';
   return INSTITUTION_TYPE_NORMALIZATION[type] || type;
@@ -770,6 +789,14 @@ function renderKPIs() {
     s.signal_type === 'Regulatory Action' || s.signal_type === 'Regulatory / Compliance Framework'
   ).length;
   const pctRegulatory = signals.length ? Math.round((regulatorySignals / signals.length) * 100) : 0;
+  const signalTypeCounts = {};
+  signals.forEach(s => {
+    const type = String(s.signal_type || '').trim();
+    if (!type) return;
+    signalTypeCounts[type] = (signalTypeCounts[type] || 0) + 1;
+  });
+  const activeSignalTypes = Object.keys(signalTypeCounts).length;
+  const totalSignalTypes = [...new Set(SIGNAL_TYPE_GROUPS.flatMap(group => group.types))].length;
 
   const snapshot = getDailySignalSnapshot(signals);
   const snapshotDate = new Date(`${snapshot.effectiveDateKey}T00:00:00`);
@@ -780,6 +807,7 @@ function renderKPIs() {
     { id: 'daily_new', value: snapshot.count, label: 'New Signals', color: 'var(--color-success)', delta: snapshotContext },
     { id: 'signals', value: signals.length, label: 'Total Signals', color: 'var(--color-primary)' },
     { id: 'regulatory', value: regulatorySignals, label: 'Regulatory Activity', color: 'var(--color-primary)', delta: `${pctRegulatory}% of all signals` },
+    { id: 'signal_types', value: activeSignalTypes, label: 'Signal Types', color: 'var(--color-primary)', delta: `${activeSignalTypes} of ${totalSignalTypes} taxonomy types active` },
     { id: 'institutions', value: institutions.size, label: 'Institutions', color: 'var(--color-primary)' },
     { id: 'sectors', value: '6', label: 'Sector Categories', color: 'var(--color-primary)' },
     { id: 'sources', value: uniqueSources.size, label: 'Info Sources', color: 'var(--color-primary)' },
@@ -927,6 +955,34 @@ function showKPIBreakdown(kpiId, activeCard) {
     });
     html += '</div>';
     html += '<a href="#signal-library" class="kpi-breakdown-link">Open Signal Catalogue ↓</a>';
+
+  } else if (kpiId === 'signal_types') {
+    const byType = {};
+    signals.forEach(s => {
+      const type = String(s.signal_type || '').trim();
+      if (!type) return;
+      byType[type] = (byType[type] || 0) + 1;
+    });
+    const activeCount = Object.keys(byType).length;
+    const grouped = SIGNAL_TYPE_GROUPS.map(group => ({
+      name: group.name,
+      items: group.types.map(type => ({ type, count: byType[type] || 0 }))
+    }));
+
+    html = `<div class="kpi-breakdown-header"><h3>${activeCount} Active Signal Types</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
+    grouped.forEach(group => {
+      const groupTotal = group.items.reduce((sum, item) => sum + item.count, 0);
+      const max = Math.max(1, ...group.items.map(item => item.count));
+      html += `<div style="font-size:11px;font-weight:700;color:var(--color-text);margin:var(--space-3) 0 var(--space-2) 0;">${group.name} (${groupTotal})</div>`;
+      html += '<div class="kpi-breakdown-grid">';
+      group.items
+        .sort((a, b) => b.count - a.count)
+        .forEach(item => {
+          html += `<div class="kpi-breakdown-item"><span class="bd-label">${item.type}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(item.count / max) * 100}%"></span></span><span class="bd-value">${item.count}</span></div>`;
+        });
+      html += '</div>';
+    });
+    html += '<a href="#analytics" class="kpi-breakdown-link">View signal type chart ↓</a>';
 
   } else if (kpiId === 'launches') {
     const byType = {};
