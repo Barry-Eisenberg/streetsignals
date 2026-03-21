@@ -1,6 +1,43 @@
 /* ===== SIGNAL STRENGTH ===== */
+#signal-strength {
+  padding: var(--space-4) 0 var(--space-8);
+  scroll-margin-top: var(--space-16);
+}
+
 #signal-strength .signal-scoring-subsection {
-  margin-top: var(--space-4);
+  margin-top: var(--space-5);
+}
+
+#signal-strength .signal-scoring-subsection .library-header {
+  padding: var(--space-4) var(--space-5);
+  background: var(--color-surface-offset);
+  border: 1px solid var(--color-divider);
+  border-radius: var(--radius-lg);
+}
+
+#signal-strength .signal-scoring-subsection .library-header:hover {
+  border-color: var(--color-primary);
+}
+
+#signal-strength .signal-scoring-subsection .library-icon {
+  width: 22px;
+  height: 22px;
+}
+
+#signal-strength .signal-scoring-subsection.open .library-header {
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+#signal-strength .signal-scoring-subsection .library-body {
+  border: 1px solid var(--color-divider);
+  border-top: none;
+  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+  background: var(--color-surface-2);
+  padding: var(--space-5);
+}
+
+#signal-strength .signal-scoring-subsection .chart-row {
+  margin-bottom: 0;
 }
 /* ===== DESIGN TOKENS ===== */
 :root {
