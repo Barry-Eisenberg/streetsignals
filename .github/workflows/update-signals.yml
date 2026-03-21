@@ -3,9 +3,11 @@ name: Update Signals
 on:
   workflow_dispatch:
   schedule:
-    # Midnight America/New_York is 05:00 UTC in EST and 04:00 UTC in EDT.
-    - cron: "0 4 * * *"
-    - cron: "0 5 * * *"
+    - cron: "0 * * * *"
+
+concurrency:
+  group: update-signals
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -17,30 +19,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Check midnight Eastern
-        id: midnight_check
-        run: |
-          ET_HOUR="$(TZ=America/New_York date +%H)"
-          if [ "$ET_HOUR" != "00" ]; then
-            echo "should_run=false" >> "$GITHUB_OUTPUT"
-            echo "Not midnight in America/New_York (hour=$ET_HOUR); skipping run."
-          else
-            echo "should_run=true" >> "$GITHUB_OUTPUT"
-            echo "Midnight in America/New_York; continuing."
-          fi
-
       - name: Set up Python
-        if: steps.midnight_check.outputs.should_run == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Run updater
-        if: steps.midnight_check.outputs.should_run == 'true'
         run: python scripts/update_signals.py
 
       - name: Commit and push if changed
-        if: steps.midnight_check.outputs.should_run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
