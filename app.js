@@ -403,9 +403,86 @@ const SIGNAL_TYPE_DESCRIPTIONS = {
 
 const DEPRECATED_SIGNAL_TYPES = new Set(['Intelligence Brief']);
 
+const COUNTRY_INSTITUTION_HINTS = [
+  { needle: 'monetary authority of singapore', country: 'Singapore' },
+  { needle: 'mas (monetary authority of singapore)', country: 'Singapore' },
+  { needle: 'singapore exchange', country: 'Singapore' },
+  { needle: 'sgx', country: 'Singapore' },
+  { needle: 'hong kong monetary authority', country: 'Hong Kong' },
+  { needle: 'hkma', country: 'Hong Kong' },
+  { needle: 'hong kong exchanges and clearing', country: 'Hong Kong' },
+  { needle: 'hkex', country: 'Hong Kong' },
+  { needle: 'securities and futures commission, hong kong', country: 'Hong Kong' },
+  { needle: 'bank of england', country: 'United Kingdom' },
+  { needle: 'fca', country: 'United Kingdom' },
+  { needle: 'securities and exchange commission', country: 'United States' },
+  { needle: 'federal reserve', country: 'United States' },
+  { needle: 'commodity futures trading commission', country: 'United States' },
+  { needle: 'office of the comptroller of the currency', country: 'United States' },
+  { needle: 'dtcc', country: 'United States' },
+  { needle: 'european central bank', country: 'European Union' },
+  { needle: 'european securities and markets authority', country: 'European Union' },
+  { needle: 'esma', country: 'European Union' },
+  { needle: 'european banking authority', country: 'European Union' },
+  { needle: 'eba', country: 'European Union' }
+];
+
+const COUNTRY_TEXT_PATTERNS = [
+  { country: 'Hong Kong', pattern: /\bHong Kong\b/i },
+  { country: 'Singapore', pattern: /\bSingapore\b/i },
+  { country: 'United Kingdom', pattern: /\bUnited Kingdom\b|\bUK\b/i },
+  { country: 'United States', pattern: /\bUnited States\b|\bU\.S\.\b|\bUS\b/i },
+  { country: 'Switzerland', pattern: /\bSwitzerland\b|\bSwiss\b/i },
+  { country: 'Germany', pattern: /\bGermany\b/i },
+  { country: 'France', pattern: /\bFrance\b/i },
+  { country: 'Japan', pattern: /\bJapan\b/i },
+  { country: 'Australia', pattern: /\bAustralia\b/i },
+  { country: 'Canada', pattern: /\bCanada\b/i },
+  { country: 'South Korea', pattern: /\bSouth Korea\b|\bKorea\b/i },
+  { country: 'India', pattern: /\bIndia\b/i },
+  { country: 'Brazil', pattern: /\bBrazil\b/i },
+  { country: 'UAE', pattern: /\bUAE\b|\bUnited Arab Emirates\b/i },
+  { country: 'Ireland', pattern: /\bIreland\b/i },
+  { country: 'Netherlands', pattern: /\bNetherlands\b/i },
+  { country: 'Thailand', pattern: /\bThailand\b/i },
+  { country: 'Turkey', pattern: /\bTurkey\b/i },
+  { country: 'China', pattern: /\bChina\b/i },
+  { country: 'European Union', pattern: /\bEuropean Union\b|\bEU\b/i }
+];
+
 function isVisibleSignalType(type) {
   const normalized = String(type || '').trim();
   return normalized !== '' && !DEPRECATED_SIGNAL_TYPES.has(normalized);
+}
+
+function normalizeCountryName(value) {
+  const raw = String(value || '').trim();
+  if (!raw) return '';
+  const aliasMap = {
+    'United States of America': 'United States',
+    US: 'United States',
+    USA: 'United States',
+    'United Arab Emirates': 'UAE',
+    UK: 'United Kingdom'
+  };
+  return aliasMap[raw] || raw;
+}
+
+function inferSignalCountry(signal) {
+  const explicit = normalizeCountryName(signal?.country || signal?.headquarters_country);
+  if (explicit) return explicit;
+
+  const institutionText = String(signal?.institution || '').toLowerCase();
+  const initiativeText = String(signal?.initiative || '').toLowerCase();
+  const combinedLower = `${institutionText} ${initiativeText}`;
+  const hint = COUNTRY_INSTITUTION_HINTS.find(entry => combinedLower.includes(entry.needle));
+  if (hint) return hint.country;
+
+  const combinedText = `${String(signal?.institution || '')} ${String(signal?.initiative || '')}`;
+  const keywordHit = COUNTRY_TEXT_PATTERNS.find(entry => entry.pattern.test(combinedText));
+  if (keywordHit) return keywordHit.country;
+
+  return 'Unmapped';
 }
 
 function normalizeInstitutionType(type) {
@@ -424,7 +501,8 @@ function normalizeSignal(signal) {
     ...signal,
     institution_type: normalizeInstitutionType(signal.institution_type),
     fmi_areas: normalizeFmiAreas(signal.fmi_areas),
-    initiative_types: normalizeInitiativeTypes(signal.initiative_types)
+    initiative_types: normalizeInitiativeTypes(signal.initiative_types),
+    country: inferSignalCountry(signal)
   };
 }
 
@@ -473,6 +551,7 @@ let activeFilter = 'all';
 let searchQuery = '';
 let matrixFilter = null;
 let signalTypeFilter = '';
+let countryFilter = '';
 let chartInstances = {};
 let popularitySeed = null;
 let sourceCatalog = { byName: {}, byHost: {} };
@@ -481,6 +560,7 @@ let signalScoringMetricMode = 'strength';
 let signalScoringColorMode = 'absolute';
 let signalScoringDimensionMode = 'initiative';
 let signalScoringFilter = null;
+let dirCountryFilter = '';
 
 function normalizeSourceKey(value) {
   return String(value || '').trim().toLowerCase();
@@ -643,6 +723,7 @@ Promise.all([
   window._chartsReady = true;
   renderFilterPills();
   renderSignalTypeSelect();
+  renderCountrySelects();
   renderIntelBriefs();
   renderInitiativeSchema();
   renderFmiSchema();
@@ -750,6 +831,12 @@ function renderSignalScoringFilterChip() {
 
   label.textContent = signalScoringFilter.label || 'KPI filter applied';
   chip.style.display = 'inline-flex';
+}
+
+function renderSignalScoringClearFilterButton() {
+  const btn = document.getElementById('signalScoringClearFilterBtn');
+  if (!btn) return;
+  btn.style.display = signalScoringFilter ? 'inline-flex' : 'none';
 }
 
 function clearSignalScoringFilter() {
@@ -1025,8 +1112,38 @@ function showKPIBreakdown(kpiId, activeCard) {
     html += '</div>';
 
   } else if (kpiId === 'countries') {
-    // Show top regions/institutions by geography diversity
+    const countryCounts = {};
+    signals.forEach(s => {
+      const country = normalizeCountryName(s.country) || 'Unmapped';
+      countryCounts[country] = (countryCounts[country] || 0) + 1;
+    });
+
+    const threshold = 3;
+    const sorted = Object.entries(countryCounts).sort((a, b) => b[1] - a[1]);
+    const visible = sorted.filter(([country, count]) => country !== 'Unmapped' && count >= threshold);
+    const belowThreshold = sorted.filter(([country, count]) => country !== 'Unmapped' && count < threshold);
+    const unmapped = sorted.find(([country]) => country === 'Unmapped');
+    const max = Math.max(1, ...visible.map(([, count]) => count));
+
     html = `<div class="kpi-breakdown-header"><h3>Global Coverage</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
+    if (visible.length > 0) {
+      html += `<div style="font-size:11px;color:var(--color-text-muted);margin-bottom:var(--space-2);">Showing countries with ${threshold}+ signals. Lower-volume countries are grouped below.</div>`;
+      html += '<div class="kpi-breakdown-grid">';
+      visible.forEach(([country, count]) => {
+        html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="navigateToCatalogueByCountry('${country.replace(/'/g, "\\'")}')"><span class="bd-label">${country}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count / max) * 100}%"></span></span><span class="bd-value">${count}</span></a>`;
+      });
+      html += '</div>';
+    }
+
+    if (belowThreshold.length > 0) {
+      const otherCount = belowThreshold.reduce((sum, [, count]) => sum + count, 0);
+      html += `<div style="font-size:11px;color:var(--color-text-muted);margin-top:var(--space-2);">${belowThreshold.length} countries with fewer than ${threshold} signals are grouped as Other (${otherCount}).</div>`;
+    }
+
+    if (unmapped) {
+      html += `<div style="font-size:11px;color:var(--color-text-muted);margin-top:var(--space-1);">Unmapped signals: ${unmapped[1]}</div>`;
+    }
+
     html += '<div style="font-size:var(--text-xs);color:var(--color-text-muted);line-height:1.7;">Institutions tracked span 40+ countries across major financial hubs including the United States, United Kingdom, Switzerland, Germany, France, Singapore, Hong Kong, Japan, Australia, Canada, South Korea, India, Brazil, UAE, and more. The directory covers institutions headquartered across North America, Europe, Asia-Pacific, Middle East, and Latin America.</div>';
     html += '<a href="#directory" class="kpi-breakdown-link">Browse all institutions ↓</a>';
   }
@@ -1574,7 +1691,9 @@ function buildHeatmap(colors) {
 document.getElementById('searchInput')?.addEventListener('input', (e) => {
   matrixFilter = null;
   signalTypeFilter = '';
+  countryFilter = '';
   syncSignalTypeSelect();
+  syncCountrySelects();
   searchQuery = e.target.value.toLowerCase().trim();
   if (searchQuery) trackSearch(searchQuery, 'Signal Catalogue');
   renderSignals();
@@ -1598,7 +1717,9 @@ function renderFilterPills() {
       btn.classList.add('active');
       matrixFilter = null;
       signalTypeFilter = '';
+      countryFilter = '';
       syncSignalTypeSelect();
+      syncCountrySelects();
       activeFilter = btn.dataset.filter;
       trackFilter('institution_category', btn.dataset.filter);
       renderSignals();
@@ -1610,6 +1731,88 @@ function renderFilterPills() {
 function syncSignalTypeSelect() {
   const select = document.getElementById('signalTypeSelect');
   if (select) select.value = signalTypeFilter;
+}
+
+function syncCountrySelects() {
+  const catalogueSelect = document.getElementById('countrySelect');
+  const directorySelect = document.getElementById('directoryCountry');
+  if (catalogueSelect) catalogueSelect.value = countryFilter;
+  if (directorySelect) directorySelect.value = dirCountryFilter;
+}
+
+function renderCountrySelects() {
+  const counts = {};
+  getOperationalSignals().forEach(signal => {
+    const country = normalizeCountryName(signal.country) || 'Unmapped';
+    counts[country] = (counts[country] || 0) + 1;
+  });
+
+  const sorted = Object.entries(counts)
+    .sort((a, b) => b[1] - a[1])
+    .sort((a, b) => (a[0] === 'Unmapped' ? 1 : b[0] === 'Unmapped' ? -1 : 0));
+
+  const options = sorted
+    .map(([country, count]) => `<option value="${country.replace(/"/g, '&quot;')}">${country} (${count})</option>`)
+    .join('');
+
+  const catalogueSelect = document.getElementById('countrySelect');
+  if (catalogueSelect) {
+    catalogueSelect.innerHTML = `<option value="">All Countries</option>${options}`;
+    catalogueSelect.onchange = event => {
+      matrixFilter = null;
+      countryFilter = String(event.target.value || '').trim();
+      if (countryFilter) trackFilter('country', countryFilter);
+      renderSignals();
+      updateResetBars();
+    };
+  }
+
+  const directorySelect = document.getElementById('directoryCountry');
+  if (directorySelect) {
+    directorySelect.innerHTML = `<option value="">All Countries</option>${options}`;
+  }
+
+  syncCountrySelects();
+}
+
+function normalizeSignalTypeForMatch(value) {
+  return String(value || '')
+    .trim()
+    .toLowerCase()
+    .replace(/\s*\/\s*/g, '/')
+    .replace(/\s+/g, ' ');
+}
+
+function resolveSignalTypeFilterValue(rawValue) {
+  const trimmed = String(rawValue || '').trim();
+  if (!trimmed) return '';
+
+  const aliasMap = {
+    'regulatory/compliance': 'Regulatory / Compliance Framework',
+    'regulatory / compliance': 'Regulatory / Compliance Framework'
+  };
+
+  const aliasHit = aliasMap[normalizeSignalTypeForMatch(trimmed)];
+  if (aliasHit) return aliasHit;
+
+  const visibleTypes = [...new Set(
+    getOperationalSignals()
+      .map(signal => String(signal.signal_type || '').trim())
+      .filter(isVisibleSignalType)
+  )];
+
+  const normalizedTarget = normalizeSignalTypeForMatch(trimmed);
+  const directMatch = visibleTypes.find(type => normalizeSignalTypeForMatch(type) === normalizedTarget);
+  return directMatch || trimmed;
+}
+
+function setCatalogueCategoryFilter(filterKey) {
+  activeFilter = filterKey;
+  const pills = document.querySelectorAll('.filter-pill');
+  pills.forEach(p => {
+    p.classList.remove('active');
+    if (p.dataset.filter === filterKey) p.classList.add('active');
+  });
 }
 
 function renderSignalTypeSelect() {
@@ -1634,7 +1837,8 @@ function renderSignalTypeSelect() {
 
   select.onchange = (event) => {
     matrixFilter = null;
-    signalTypeFilter = String(event.target.value || '').trim();
+    signalTypeFilter = resolveSignalTypeFilterValue(event.target.value || '');
+    setCatalogueCategoryFilter('all');
     if (signalTypeFilter) trackFilter('signal_type', signalTypeFilter);
     renderSignals();
     updateResetBars();
@@ -1671,6 +1875,9 @@ function renderSignals() {
   }
   if (signalTypeFilter) {
     filtered = filtered.filter(s => String(s.signal_type || '').trim() === signalTypeFilter);
+  }
+  if (countryFilter) {
+    filtered = filtered.filter(s => String(s.country || 'Unmapped').trim() === countryFilter);
   }
   if (searchQuery) filtered = filtered.filter(s => `${s.institution} ${s.initiative} ${s.description} ${s.category} ${s.signal_type || ''}`.toLowerCase().includes(searchQuery));
 
@@ -1834,6 +2041,7 @@ function renderPopularityAnalysis() {
 
   window._signalStrengthMatrixDetails = cellDetails;
   renderSignalScoringFilterChip();
+  renderSignalScoringClearFilterButton();
 
   if (maxVal <= 0) {
     container.innerHTML = '<div class="pop-empty">No signal strength data available for this filter. <button type="button" class="matrix-filter-chip-clear" onclick="clearSignalScoringFilter()">Clear filter</button></div>';
@@ -2392,6 +2600,7 @@ function renderDirectory() {
         type: s.institution_type,
         signals: 0,
         signalTypes: {},
+        countries: {},
         initiativeTypes: new Set(),
         fmiAreas: new Set()
       };
@@ -2401,6 +2610,8 @@ function renderDirectory() {
     if (isVisibleSignalType(s.signal_type)) {
       inst.signalTypes[s.signal_type] = (inst.signalTypes[s.signal_type] || 0) + 1;
     }
+    const signalCountry = normalizeCountryName(s.country) || 'Unmapped';
+    inst.countries[signalCountry] = (inst.countries[signalCountry] || 0) + 1;
     (s.initiative_types || []).forEach(t => inst.initiativeTypes.add(t));
     (s.fmi_areas || []).forEach(a => inst.fmiAreas.add(a));
   });
@@ -2410,6 +2621,7 @@ function renderDirectory() {
   catOrder.forEach(cat => { grouped[cat] = []; });
   Object.values(instMap).forEach(inst => {
     if (dirSearch && !inst.name.toLowerCase().includes(dirSearch)) return;
+    if (dirCountryFilter && !inst.countries[dirCountryFilter]) return;
     if (grouped[inst.type]) grouped[inst.type].push(inst);
   });
 
@@ -2462,13 +2674,17 @@ function renderDirectory() {
 
     html += `<div class="dir-category-body"><div class="directory-table-wrap">`;
     html += `<table class="dir-table"><thead><tr>`;
-    html += `<th>Institution</th><th class="num">Signals</th><th>Signal Types</th><th>Initiative Classification</th><th>FMI Areas</th>`;
+    html += `<th>Institution</th><th>Country</th><th class="num">Signals</th><th>Signal Types</th><th>Initiative Classification</th><th>FMI Areas</th>`;
     html += `</tr></thead><tbody>`;
 
     const catKeyMap = { 'Global Banks':'global_banks', 'Asset & Investment Management':'asset_management', 'Payments Providers':'payments', 'Exchanges & Central Intermediaries':'exchanges_intermediaries', 'Regulatory Agencies':'regulators', 'Infrastructure & Technology':'ecosystem' };
     const thisCatKey = catKeyMap[cat] || '';
 
     insts.forEach(inst => {
+      const countryEntries = Object.entries(inst.countries).sort((a, b) => b[1] - a[1]);
+      const primaryCountry = countryEntries[0]?.[0] || 'Unmapped';
+      const additionalCountries = Math.max(0, countryEntries.length - 1);
+      const countryLabel = additionalCountries > 0 ? `${primaryCountry} +${additionalCountries}` : primaryCountry;
       const maxSigType = Math.max(...Object.values(inst.signalTypes));
 
       // Signal type mini bars — clickable
@@ -2492,6 +2708,7 @@ function renderDirectory() {
 
       html += `<tr>`;
       html += `<td class="inst-name"><a class="inst-name-link" href="javascript:void(0)" onclick="navigateToSignal('${inst.name.replace(/'/g, "\\'")}'${thisCatKey ? ', \'' + thisCatKey + '\'' : ''})">${inst.name}</a></td>`;
+      html += `<td>${countryLabel}</td>`;
       html += `<td class="num" style="color:${color};font-size:13px;"><a class="inst-count-link" href="javascript:void(0)" onclick="navigateToSignal('${inst.name.replace(/'/g, "\\'")}'${thisCatKey ? ', \'' + thisCatKey + '\'' : ''})">${inst.signals}</a></td>`;
       html += `<td><div class="cell-tags">${sigTypesHtml}</div></td>`;
       html += `<td><div class="cell-tags">${initHtml}</div></td>`;
@@ -2523,6 +2740,45 @@ document.getElementById('directorySort')?.addEventListener('change', (e) => {
   updateResetBars();
 });
 
+document.getElementById('directoryCountry')?.addEventListener('change', (e) => {
+  dirCountryFilter = String(e.target.value || '').trim();
+  if (dirCountryFilter) trackFilter('directory_country', dirCountryFilter);
+  renderDirectory();
+  updateResetBars();
+});
+
+function navigateToCatalogueByCountry(country) {
+  const selectedCountry = normalizeCountryName(country || '');
+  if (!selectedCountry) return;
+
+  const libSection = document.querySelector('.signal-library-section');
+  const libBody = document.getElementById('libraryBody');
+  if (libSection && libBody && !libSection.classList.contains('open')) {
+    libSection.classList.add('open');
+    libBody.style.display = 'block';
+  }
+
+  matrixFilter = null;
+  signalTypeFilter = '';
+  countryFilter = selectedCountry;
+  syncSignalTypeSelect();
+  syncCountrySelects();
+  searchQuery = '';
+  setCatalogueCategoryFilter('all');
+  const searchInput = document.getElementById('searchInput');
+  if (searchInput) searchInput.value = '';
+
+  closeKPIBreakdown();
+  renderSignals();
+
+  setTimeout(() => {
+    document.querySelectorAll('.category-section').forEach(s => s.classList.add('cat-open'));
+    if (libSection) libSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, 100);
+
+  updateResetBars();
+}
+
 // ===== NAVIGATE TO SIGNAL LIBRARY =====
 function navigateToSignal(query, catKey) {
   // 1. Open the signal library if closed
@@ -2536,7 +2792,9 @@ function navigateToSignal(query, catKey) {
   // 2. If catKey provided, activate that filter pill
   matrixFilter = null;
   signalTypeFilter = '';
+  countryFilter = '';
   syncSignalTypeSelect();
+  syncCountrySelects();
   if (catKey) {
     activeFilter = catKey;
     const pills = document.querySelectorAll('.filter-pill');
@@ -2603,7 +2861,9 @@ function navigateToMatrixSelection(institutionType, initiativeType) {
   // 2. Apply matrix filter and category pill
   matrixFilter = { institutionType, initiativeType, dimension: signalScoringDimensionMode };
   signalTypeFilter = '';
+  countryFilter = '';
   syncSignalTypeSelect();
+  syncCountrySelects();
   const catKey = categoryForInstitutionType(institutionType);
   activeFilter = catKey;
 
@@ -2629,7 +2889,7 @@ function navigateToMatrixSelection(institutionType, initiativeType) {
 }
 
 function navigateToCatalogueBySignalType(signalType) {
-  const selectedType = String(signalType || '').trim();
+  const selectedType = resolveSignalTypeFilterValue(signalType || '');
   if (!selectedType) return;
 
   const libSection = document.querySelector('.signal-library-section');
@@ -2641,17 +2901,13 @@ function navigateToCatalogueBySignalType(signalType) {
 
   matrixFilter = null;
   signalTypeFilter = selectedType;
+  countryFilter = '';
   syncSignalTypeSelect();
+  syncCountrySelects();
   searchQuery = '';
-  activeFilter = 'all';
+  setCatalogueCategoryFilter('all');
   const searchInput = document.getElementById('searchInput');
   if (searchInput) searchInput.value = '';
-
-  const pills = document.querySelectorAll('.filter-pill');
-  pills.forEach(p => {
-    p.classList.remove('active');
-    if (p.dataset.filter === 'all') p.classList.add('active');
-  });
 
   closeKPIBreakdown();
   renderSignals();
@@ -2667,7 +2923,9 @@ function navigateToCatalogueBySignalType(signalType) {
 function clearMatrixFilter() {
   matrixFilter = null;
   signalTypeFilter = '';
+  countryFilter = '';
   syncSignalTypeSelect();
+  syncCountrySelects();
   renderSignals();
   updateResetBars();
 }
@@ -2677,26 +2935,34 @@ function renderMatrixFilterChip() {
   const label = document.getElementById('matrixFilterChipLabel');
   if (!chip || !label) return;
 
-  if (!matrixFilter) {
-    if (signalTypeFilter) {
-      label.textContent = `Filtered by signal type: ${signalTypeFilter}`;
-      chip.style.display = 'inline-flex';
-      return;
-    }
+  const parts = [];
+
+  if (matrixFilter) {
+    const shortInst = matrixFilter.institutionType
+      .replace('Asset & Investment Management', 'Asset Mgmt')
+      .replace('Exchanges & Central Intermediaries', 'Exchanges')
+      .replace('Infrastructure & Technology', 'Infra & Tech');
+    const shortInit = matrixFilter.initiativeType
+      .replace('Tokenized Securities / RWA', 'Tokenized Securities/RWA')
+      .replace('DLT / Blockchain Infrastructure', 'DLT/Blockchain Infra')
+      .replace('Stablecoins & Deposit Tokens', 'Stablecoins');
+    parts.push(`matrix: ${shortInst} x ${shortInit}`);
+  }
+
+  if (signalTypeFilter) {
+    parts.push(`signal type: ${signalTypeFilter}`);
+  }
+
+  if (countryFilter) {
+    parts.push(`country: ${countryFilter}`);
+  }
+
+  if (parts.length === 0) {
     chip.style.display = 'none';
     return;
   }
 
-  const shortInst = matrixFilter.institutionType
-    .replace('Asset & Investment Management', 'Asset Mgmt')
-    .replace('Exchanges & Central Intermediaries', 'Exchanges')
-    .replace('Infrastructure & Technology', 'Infra & Tech');
-  const shortInit = matrixFilter.initiativeType
-    .replace('Tokenized Securities / RWA', 'Tokenized Securities/RWA')
-    .replace('DLT / Blockchain Infrastructure', 'DLT/Blockchain Infra')
-    .replace('Stablecoins & Deposit Tokens', 'Stablecoins');
-
-  label.textContent = `Filtered by matrix: ${shortInst} x ${shortInit}`;
+  label.textContent = `Filtered by ${parts.join(' | ')}`;
   chip.style.display = 'inline-flex';
 }
 
@@ -2712,11 +2978,16 @@ function resetAllFilters() {
   const dirSortEl = document.getElementById('directorySort');
   if (dirSortEl) dirSortEl.value = 'signals';
 
+  // Reset directory country
+  dirCountryFilter = '';
+
   // Reset signal library search
   searchQuery = '';
   matrixFilter = null;
   signalTypeFilter = '';
+  countryFilter = '';
   syncSignalTypeSelect();
+  syncCountrySelects();
   const searchInput = document.getElementById('searchInput');
   if (searchInput) searchInput.value = '';
 
@@ -2753,8 +3024,8 @@ function resetAllFilters() {
 }
 
 function updateResetBars() {
-  const hasDirectoryFilter = dirSearch !== '' || dirSort !== 'signals';
-  const hasLibraryFilter = searchQuery !== '' || activeFilter !== 'all' || matrixFilter !== null || signalTypeFilter !== '';
+  const hasDirectoryFilter = dirSearch !== '' || dirSort !== 'signals' || dirCountryFilter !== '';
+  const hasLibraryFilter = searchQuery !== '' || activeFilter !== 'all' || matrixFilter !== null || signalTypeFilter !== '' || countryFilter !== '';
   const hasAnyFilter = hasDirectoryFilter || hasLibraryFilter;
 
   const dirReset = document.getElementById('resetDirectoryFilters');

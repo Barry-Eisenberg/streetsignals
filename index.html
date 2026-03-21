@@ -150,6 +150,7 @@
                     <button type="button" id="signalColorAbsoluteBtn" class="signal-strength-control is-active" onclick="setSignalScoringColorMode('absolute')">Absolute</button>
                     <button type="button" id="signalColorPercentileBtn" class="signal-strength-control" onclick="setSignalScoringColorMode('percentile')">Percentile</button>
                   </div>
+                  <button type="button" id="signalScoringClearFilterBtn" class="signal-strength-control signal-scoring-clear" onclick="clearSignalScoringFilter()" style="display:none;">Remove KPI Filter</button>
                 </div>
               </div>
               <div class="matrix-filter-chip signal-scoring-filter-chip" id="signalScoringFilterChip" style="display:none;">
@@ -202,6 +203,12 @@
           <option value="name">Name (A→Z)</option>
         </select>
       </div>
+      <div class="directory-country">
+        <label>Country</label>
+        <select id="directoryCountry">
+          <option value="">All Countries</option>
+        </select>
+      </div>
     </div>
     <div id="directoryContainer" class="reveal"></div>
     </div>
@@ -241,6 +248,12 @@
           <label for="signalTypeSelect">Signal Type</label>
           <select id="signalTypeSelect">
             <option value="">All Signal Types</option>
+          </select>
+        </div>
+        <div class="signal-type-filter">
+          <label for="countrySelect">Country</label>
+          <select id="countrySelect">
+            <option value="">All Countries</option>
           </select>
         </div>
         <div class="filter-pills-wrap">
