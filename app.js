@@ -908,6 +908,8 @@ function setImportanceTierMode(mode) {
   if (!IMPORTANCE_TIER_FILTERS[mode]) return;
   importanceTierMode = mode;
   importanceTierFilter = [...IMPORTANCE_TIER_FILTERS[mode]];
+  const select = document.getElementById('importanceTierSelect');
+  if (select) select.value = mode;
 }
 
 function setSignalScoringMetricMode(mode) {
@@ -1167,6 +1169,7 @@ function loadAndRenderData() {
     window._chartsReady = true;
     renderFilterPills();
     renderSignalTypeSelect();
+    renderImportanceTierSelect();
     renderCountrySelects();
     renderIntelBriefs();
     renderInitiativeSchema();
@@ -1294,6 +1297,7 @@ function renderSignalScoringClearFilterButton() {
     matrixFilter ||
     signalTypeFilter ||
     countryFilter ||
+    importanceTierMode !== 'all' ||
     searchQuery !== '' ||
     activeFilter !== 'all' ||
     dirSearch !== '' ||
@@ -1312,6 +1316,7 @@ function clearSignalScoringFilter() {
   matrixFilter = null;
   signalTypeFilter = '';
   countryFilter = '';
+  setImportanceTierMode('all');
   searchQuery = '';
   activeFilter = 'all';
   dirSearch = '';
@@ -2341,6 +2346,24 @@ function renderSignalTypeSelect() {
     setCatalogueCategoryFilter('all');
     if (signalTypeFilter) trackFilter('signal_type', signalTypeFilter);
     renderSignals();
+    updateResetBars();
+  };
+}
+
+function renderImportanceTierSelect() {
+  const select = document.getElementById('importanceTierSelect');
+  if (!select) return;
+
+  select.value = IMPORTANCE_TIER_FILTERS[importanceTierMode] ? importanceTierMode : 'all';
+
+  select.onchange = (event) => {
+    const mode = String(event.target.value || 'all').trim();
+    setImportanceTierMode(mode);
+    if (mode !== 'all') trackFilter('importance_tier', mode);
+    renderSignals();
+    renderDirectory();
+    renderCountryDirectory();
+    renderPopularityAnalysis();
     updateResetBars();
   };
 }
@@ -3420,6 +3443,7 @@ function clearMatrixFilter() {
   matrixFilter = null;
   signalTypeFilter = '';
   countryFilter = '';
+  setImportanceTierMode('all');
   syncSignalTypeSelect();
   syncCountrySelects();
   renderSignals();
@@ -3482,6 +3506,7 @@ function resetAllFilters() {
   matrixFilter = null;
   signalTypeFilter = '';
   countryFilter = '';
+  setImportanceTierMode('all');
   syncSignalTypeSelect();
   syncCountrySelects();
   const searchInput = document.getElementById('searchInput');
@@ -3534,7 +3559,7 @@ function resetAllFilters() {
 function updateResetBars() {
   const hasDirectoryFilter = dirSearch !== '' || dirSort !== 'signals' || dirCountryFilter !== '';
   const hasCountryDirectoryFilter = countryDirSearch !== '' || countryDirSort !== 'signals' || countryDirTypeFilter !== '';
-  const hasLibraryFilter = searchQuery !== '' || activeFilter !== 'all' || matrixFilter !== null || signalTypeFilter !== '' || countryFilter !== '';
+  const hasLibraryFilter = searchQuery !== '' || activeFilter !== 'all' || matrixFilter !== null || signalTypeFilter !== '' || countryFilter !== '' || importanceTierMode !== 'all';
   const hasAnyFilter = hasDirectoryFilter || hasCountryDirectoryFilter || hasLibraryFilter;
 
   const dirReset = document.getElementById('resetDirectoryFilters');
