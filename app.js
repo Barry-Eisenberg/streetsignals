@@ -3208,6 +3208,7 @@ function renderPersonaSelect() {
       const mode = btn.dataset.persona || DEFAULT_PERSONA;
       setPersona(mode);
       syncPersonaSelect();
+      openCollapsible('.signal-library-section', 'libraryBody');
       trackFilter('audience_lens', selectedPersona);
       renderCatalogueSortNote();
       renderSignals();
@@ -3215,6 +3216,11 @@ function renderPersonaSelect() {
       renderCountryDirectory();
       renderPopularityAnalysis();
       updateResetBars();
+
+      const target = document.getElementById('signal-library');
+      if (target && typeof target.scrollIntoView === 'function') {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
     };
   });
   syncPersonaSelect();
@@ -3390,7 +3396,7 @@ function renderSignals() {
   for (const [catKey, items] of Object.entries(grouped)) {
     const cat = CATEGORIES[catKey];
     // Auto-open if filter is active for this category, else collapsed
-    const isOpen = activeFilter === catKey;
+    const isOpen = activeFilter === catKey || selectedPersona !== DEFAULT_PERSONA;
     html += `
       <section class="category-section cat-${catKey}${isOpen ? ' cat-open' : ''}" id="${catKey}">
         <div class="category-header sector-banner" onclick="this.parentElement.classList.toggle('cat-open')">
