@@ -248,7 +248,6 @@
           <div class="filter-pills" id="filterPills"></div>
         </div>
       </div>
-      <div class="signal-type-quick-chips" id="signalTypeQuickChips" style="display:none;"></div>
       <div class="matrix-filter-chip" id="matrixFilterChip" style="display:none;">
         <span class="matrix-filter-chip-label" id="matrixFilterChipLabel"></span>
         <button type="button" class="matrix-filter-chip-clear" onclick="clearMatrixFilter()">Clear</button>
@@ -449,6 +448,28 @@
           <p>Decision rule: classify by the FMI function being transformed first (payments, settlement, custody, issuance, etc.), then by implementation channel.</p>
         </div>
         <div id="fmiSchemaContent"></div>
+      </div>
+    </section>
+
+    <section class="initiative-schema-section signal-type-schema-section">
+      <div class="initiative-schema-header reveal" id="signalTypeSchemaToggle">
+        <div class="initiative-schema-header-left">
+          <svg class="initiative-schema-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/><circle cx="8" cy="7" r="1.5"/><circle cx="14" cy="12" r="1.5"/><circle cx="10" cy="17" r="1.5"/></svg>
+          <div>
+            <h3 class="section-title">Signal Type Schema</h3>
+            <p class="section-subtitle">Canonical signal-type groupings used to classify institutional announcements across charts, KPI drilldowns, and catalogue filters.</p>
+          </div>
+        </div>
+        <div class="initiative-schema-header-right">
+          <span class="initiative-schema-expand-hint">Click to expand</span>
+          <svg class="initiative-schema-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </div>
+      </div>
+      <div class="initiative-schema-body" id="signalTypeSchemaBody">
+        <div class="initiative-schema-intro">
+          <p>Decision rule: classify by the primary institutional action (launch, partnership, regulatory move, investment, pilot, or research), then map into the canonical signal-type grouping.</p>
+        </div>
+        <div id="signalTypeSchemaContent"></div>
       </div>
     </section>
     </div>

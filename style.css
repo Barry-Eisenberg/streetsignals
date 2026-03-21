@@ -1822,36 +1822,6 @@
   margin-left: var(--space-1);
 }
 
-.signal-type-quick-chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-2);
-  margin-bottom: var(--space-4);
-}
-
-.signal-type-quick-chip {
-  font-size: 11px;
-  padding: 6px 10px;
-  border-radius: var(--radius-full);
-  border: 1px solid var(--color-border);
-  background: var(--color-surface);
-  color: var(--color-text-muted);
-  font-weight: 600;
-  cursor: pointer;
-  white-space: nowrap;
-}
-
-.signal-type-quick-chip:hover {
-  border-color: var(--color-primary);
-  color: var(--color-primary);
-}
-
-.signal-type-quick-chip.is-active {
-  background: var(--color-primary);
-  border-color: var(--color-primary);
-  color: var(--color-text-inverse);
-}
-
 .matrix-filter-chip {
   display: inline-flex;
   align-items: center;
