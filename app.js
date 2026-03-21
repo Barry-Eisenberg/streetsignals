@@ -634,7 +634,9 @@ let signalScoringDimensionMode = 'initiative';
 let signalScoringFilter = null;
 let momentumDebugMode = false;
 const DEFAULT_IMPORTANCE_TIER_MODE = 'all';
+const DEFAULT_PERSONA = 'all';
 let importanceTierMode = DEFAULT_IMPORTANCE_TIER_MODE;
+let selectedPersona = DEFAULT_PERSONA;
 let dirCountryFilter = '';
 let countryDirSearch = '';
 let countryDirSort = 'signals';
@@ -654,11 +656,268 @@ const IMPORTANCE_TIER_LABELS = {
   Noise: 'Monitor'
 };
 
+const PERSONA_OPTIONS = {
+  all: {
+    label: 'All Teams',
+    primaryKeywords: [],
+    secondaryKeywords: [],
+    antiKeywords: [],
+    audienceHints: [],
+    preferredUseCases: []
+  },
+  treasury_payments: {
+    label: 'Treasury and Payments',
+    primaryKeywords: ['payment', 'payments', 'transfer', 'cross-border', 'stablecoin', 'deposit token', 'treasury', 'cash management'],
+    secondaryKeywords: ['liquidity', 'settlement', 'rail', 'remittance', 'on-chain cash'],
+    antiKeywords: ['enforcement', 'sandbox consultation'],
+    audienceHints: ['Payments Providers', 'Global Banks'],
+    preferredUseCases: ['stablecoin_rails', 'settlement_flow']
+  },
+  collateral_markets: {
+    label: 'Collateral and Markets',
+    primaryKeywords: ['collateral', 'lending', 'repo', 'margin', 'settlement', 'clearing', 'tokenized securities', 'rwa', 'trading'],
+    secondaryKeywords: ['custody', 'post-trade', 'liquidity', 'securities financing'],
+    antiKeywords: ['retail wallet', 'consumer payment'],
+    audienceHints: ['Asset & Investment Management', 'Exchanges & Central Intermediaries'],
+    preferredUseCases: ['collateral_mobility', 'settlement_flow', 'tokenized_asset_ops']
+  },
+  risk_compliance: {
+    label: 'Risk and Compliance',
+    primaryKeywords: ['regulation', 'regulatory', 'compliance', 'supervis', 'policy', 'control', 'kyc', 'aml'],
+    secondaryKeywords: ['governance', 'risk framework', 'reporting', 'monitoring', 'oversight'],
+    antiKeywords: ['marketing launch', 'consumer campaign'],
+    audienceHints: ['Regulatory Agencies', 'Global Banks'],
+    preferredUseCases: ['policy_controls']
+  },
+  infra_product: {
+    label: 'Infrastructure and Product',
+    primaryKeywords: ['infrastructure', 'platform', 'interoperability', 'standard', 'network', 'custody', 'tokenization', 'integration'],
+    secondaryKeywords: ['api', 'orchestration', 'workflow', 'upgrade', 'scalability'],
+    antiKeywords: ['narrow policy statement'],
+    audienceHints: ['Infrastructure & Technology', 'Exchanges & Central Intermediaries'],
+    preferredUseCases: ['infrastructure_modernization', 'tokenized_asset_ops']
+  }
+};
+
 function getImportanceTierLabel(tier) {
   return IMPORTANCE_TIER_LABELS[tier] || tier || 'Monitor';
 }
 
-function inferSignalAudience(signal) {
+function getPersonaLabel(lens) {
+  return (PERSONA_OPTIONS[lens] && PERSONA_OPTIONS[lens].label) || PERSONA_OPTIONS[DEFAULT_PERSONA].label;
+}
+
+function setPersona(lens) {
+  selectedPersona = PERSONA_OPTIONS[lens] ? lens : DEFAULT_PERSONA;
+}
+
+function getSignalSearchCorpus(signal) {
+  return [
+    signal?.institution,
+    signal?.institution_type,
+    signal?.initiative,
+    signal?.description,
+    signal?.signal_type,
+    ...(Array.isArray(signal?.initiative_types) ? signal.initiative_types : []),
+    ...(Array.isArray(signal?.fmi_areas) ? signal.fmi_areas : [])
+  ].join(' ').toLowerCase();
+}
+
+function countKeywordHits(corpus, keywords = []) {
+  if (!Array.isArray(keywords) || keywords.length === 0) return 0;
+  return keywords.reduce((total, keyword) => total + (corpus.includes(String(keyword).toLowerCase()) ? 1 : 0), 0);
+}
+
+function getPersonaScoreDetails(signal, lens = selectedPersona) {
+  if (lens === DEFAULT_PERSONA || !PERSONA_OPTIONS[lens]) {
+    return {
+      score: 0,
+      preRecencyScore: 0,
+      useCase: inferSignalUseCase(signal),
+      primaryHits: 0,
+      secondaryHits: 0,
+      antiHits: 0,
+      audienceHintHits: 0,
+      useCaseBoost: 0,
+      importanceBoost: 0,
+      antiPenalty: 0,
+      recencyWeight: 1,
+      recencyFreshnessWeight: 1,
+      recencyDurabilityFloor: 0,
+      ageDays: getSignalAgeDays(signal?.date)
+    };
+  }
+
+  const corpus = getSignalSearchCorpus(signal);
+  const cfg = PERSONA_OPTIONS[lens];
+  const audience = inferSignalPersona(signal);
+  const useCase = inferSignalUseCase(signal);
+  const importance = getSignalImportance(signal);
+  const recencyProfile = getPersonaRecencyProfile(signal, importance.stage, importance.materiality);
+
+  const primaryHits = Math.min(4, countKeywordHits(corpus, cfg.primaryKeywords));
+  const secondaryHits = Math.min(3, countKeywordHits(corpus, cfg.secondaryKeywords));
+  const antiHits = Math.min(2, countKeywordHits(corpus, cfg.antiKeywords));
+
+  const audienceLower = audience.map(v => String(v || '').toLowerCase());
+  const audienceHintHits = Math.min(
+    2,
+    (cfg.audienceHints || []).reduce((total, hint) => {
+      const hintLower = String(hint || '').toLowerCase();
+      return total + (audienceLower.some(value => value.includes(hintLower)) ? 1 : 0);
+    }, 0)
+  );
+
+  const useCaseBoost = (cfg.preferredUseCases || []).includes(useCase) ? 1.7 : 0;
+  const signalImportance = importance.importanceScore || 0;
+  const importanceBoost = Math.min(1.2, signalImportance * 0.18);
+  const antiPenalty = antiHits * 1.4;
+
+  let preRecencyScore = 0;
+  preRecencyScore += primaryHits * 2.4;
+  preRecencyScore += secondaryHits * 1.1;
+  preRecencyScore += audienceHintHits * 1.8;
+  preRecencyScore += useCaseBoost;
+  preRecencyScore += importanceBoost;
+
+  const score = (preRecencyScore * recencyProfile.recencyWeight) - antiPenalty;
+
+  return {
+    score: Math.max(0, Number(score.toFixed(2))),
+    preRecencyScore: Number(preRecencyScore.toFixed(2)),
+    useCase,
+    primaryHits,
+    secondaryHits,
+    antiHits,
+    audienceHintHits,
+    useCaseBoost,
+    importanceBoost,
+    antiPenalty,
+    recencyWeight: recencyProfile.recencyWeight,
+    recencyFreshnessWeight: recencyProfile.freshnessWeight,
+    recencyDurabilityFloor: recencyProfile.durabilityFloor,
+    ageDays: recencyProfile.ageDays
+  };
+}
+
+function getPersonaRelevance(signal, lens = selectedPersona) {
+  return getPersonaScoreDetails(signal, lens).score;
+}
+
+function getMarketSignalAssessment(signal) {
+  const importance = getSignalImportance(signal);
+  return {
+    signal: signal,
+    marketTier: importance.tier,
+    marketScore: importance.importanceScore,
+    importance: importance,
+    assessmentType: 'market'
+  };
+}
+
+function computePersonaAssessment(signal, personaKey = selectedPersona) {
+  const marketAssessment = getMarketSignalAssessment(signal);
+
+  if (personaKey === DEFAULT_PERSONA || !PERSONA_OPTIONS[personaKey]) {
+    return {
+      ...marketAssessment,
+      personaRelevance: 0,
+      displayTier: marketAssessment.marketTier,
+      isPersonalized: false,
+      assessmentType: 'market'
+    };
+  }
+
+  const personaDetails = getPersonaScoreDetails(signal, personaKey);
+  const marketScore = marketAssessment.marketScore || 0.01;
+  const personaScore = personaDetails.score || 0;
+
+  return {
+    ...marketAssessment,
+    personaRelevance: personaScore,
+    personaDetails: personaDetails,
+    displayTier: marketAssessment.marketTier,
+    personaWeight: personaScore / (marketScore + personaScore + 0.01),
+    isPersonalized: personaScore > 0.1,
+    assessmentType: 'persona'
+  };
+}
+
+function inferSignalUseCase(signal) {
+  const text = getSignalSearchCorpus(signal);
+  if (text.includes('stablecoin') || text.includes('deposit token') || text.includes('payment') || text.includes('transfer')) {
+    return 'stablecoin_rails';
+  }
+  if (text.includes('collateral') || text.includes('lending') || text.includes('repo') || text.includes('margin')) {
+    return 'collateral_mobility';
+  }
+  if (text.includes('settlement') || text.includes('clearing')) {
+    return 'settlement_flow';
+  }
+  if (text.includes('tokenization') || text.includes('tokenized') || text.includes('rwa') || text.includes('custody')) {
+    return 'tokenized_asset_ops';
+  }
+  if (text.includes('regulation') || text.includes('regulatory') || text.includes('compliance') || text.includes('policy')) {
+    return 'policy_controls';
+  }
+  return 'infrastructure_modernization';
+}
+
+function getUseCaseNarrative(useCase) {
+  const copy = {
+    stablecoin_rails: 'This points to stablecoin and digital money rails moving closer to production payment flows.',
+    collateral_mobility: 'This signals faster collateral mobility and balance-sheet efficiency opportunities across funding workflows.',
+    settlement_flow: 'This has direct implications for settlement timing, counterparty exposure windows, and post-trade operating design.',
+    tokenized_asset_ops: 'This advances tokenized asset issuance, servicing, or custody workflows that can reshape front-to-back operations.',
+    policy_controls: 'This changes the policy and control perimeter that determines where institutions can execute and scale.',
+    infrastructure_modernization: 'This indicates meaningful modernization of institutional digital infrastructure and integration pathways.'
+  };
+  return copy[useCase] || copy.infrastructure_modernization;
+}
+
+function getPersonaAwareNarrative(signal, useCase, persona, stage) {
+  // Persona-specific narrative templates that emphasize what matters most to each audience
+  const personas = {
+    treasury_payments: {
+      stablecoin_rails: 'This advances deployable stablecoin and digital money payment infrastructure that treasury teams are evaluating for operational liquidity and cross-border cash movements.',
+      collateral_mobility: 'This signals emerging collateral mobilization workflows that could improve cash efficiency and reduce funding costs in institutional payment flows.',
+      settlement_flow: 'This points to faster settlement mechanics that directly reduce counterparty exposure and optimize working capital requirements for treasury operations.',
+      tokenized_asset_ops: 'This enables tokenized deposit instruments and programmable cash flows that could reshape how treasury manages institutional liquidity.',
+      policy_controls: 'This updates the policy framework governing when and how treasury operations can execute across digital asset payment rails.',
+      infrastructure_modernization: 'This modernizes underlying payment infrastructure that treasury integration teams must evaluate for operational deployment.'
+    },
+    collateral_markets: {
+      stablecoin_rails: 'This establishes digital money infrastructure that underpins faster collateral settlement and margin funding for market operations.',
+      collateral_mobility: 'This directly enables collateral modernization—faster repo workflows, margin optimization, and balance-sheet efficiency for market-making and trading.',
+      settlement_flow: 'This advances post-trade settlement infrastructure that reduces margin periods of risk and improves trading capital efficiency.',
+      tokenized_asset_ops: 'This enables tokenized securities and RWA infrastructure where collateral servicing and settlement can become programmable and efficient.',
+      policy_controls: 'This expands the policy perimeter for how collateral and market operations can interact with digital asset infrastructure.',
+      infrastructure_modernization: 'This modernizes market infrastructure—trading venues, settlement systems, and custody—that directly impacts trading operations and capital efficiency.'
+    },
+    risk_compliance: {
+      stablecoin_rails: 'This shapes the regulatory perimeter around stablecoin payment rails that compliance teams must monitor and control.',
+      collateral_mobility: 'This defines governance and control frameworks for collateral modernization that compliance teams must establish and oversee.',
+      settlement_flow: 'This updates settlement control requirements and regulatory expectations that compliance must embed in new infrastructure designs.',
+      tokenized_asset_ops: 'This establishes the compliance and custody control frameworks necessary for tokenized asset operations.',
+      policy_controls: 'This changes the regulatory and policy requirements that define where and how the institution can execute.',
+      infrastructure_modernization: 'This updates infrastructure controls and compliance overlays that risk and audit teams must evaluate for new technology architectures.'
+    },
+    infra_product: {
+      stablecoin_rails: 'This shapes stablecoin infrastructure and payment rail architecture that product and technology teams are evaluating for institutional integration.',
+      collateral_mobility: 'This advances infrastructure enabling faster, more efficient collateral workflows and requires technology architecture updates.',
+      settlement_flow: 'This modernizes settlement infrastructure, messaging standards, and operational integration that technical teams must evaluate.',
+      tokenized_asset_ops: 'This evolves tokenized asset infrastructure—custody, issuance, and integration—that product teams need to operationalize.',
+      policy_controls: 'This updates technical and infrastructure requirements that policy changes impose on platform and systems architecture.',
+      infrastructure_modernization: 'This directly modernizes institutional digital infrastructure, integration pathways, and systems architecture that product teams are building.'
+    }
+  };
+
+  const personaCopy = personas[persona];
+  if (!personaCopy) return getUseCaseNarrative(useCase);
+  return personaCopy[useCase] || personaCopy.infrastructure_modernization;
+}
+
+function inferSignalPersona(signal) {
   const audience = new Set();
   const institutionType = String(signal?.institution_type || '').trim();
   const signalType = String(signal?.signal_type || '').toLowerCase();
@@ -697,10 +956,22 @@ function buildSignalDirectionalInsight(signal, importance) {
       ? signal.fmi_areas
       : [String(signal?.signal_type || 'digital asset infrastructure').trim()];
   const leadTheme = themes[0] || 'digital asset infrastructure';
-  const audience = inferSignalAudience(signal);
+  const audience = inferSignalPersona(signal);
   const audienceText = audience.length > 0
     ? audience.slice(0, 2).join(' and ')
     : 'institutional operators across financial market infrastructure';
+  const lensLabel = getPersonaLabel(selectedPersona);
+  const lensRelevance = getPersonaRelevance(signal, selectedPersona);
+  const useCase = inferSignalUseCase(signal);
+  
+  // Use persona-specific narrative when a persona is selected
+  let narrative;
+  if (selectedPersona !== DEFAULT_PERSONA) {
+    narrative = getPersonaAwareNarrative(signal, useCase, selectedPersona, importance.stage);
+  } else {
+    narrative = getUseCaseNarrative(useCase);
+  }
+  
   const stagePhraseMap = {
     Structural: 'at system scale',
     Production: 'in active deployment',
@@ -708,8 +979,8 @@ function buildSignalDirectionalInsight(signal, importance) {
     Concept: 'at strategy and design level'
   };
   const stagePhrase = stagePhraseMap[importance.stage] || 'through active development';
-  const tierLabel = getImportanceTierLabel(importance.tier).toLowerCase();
-  return `${institution} is advancing ${leadTheme} ${stagePhrase}. This is a ${tierLabel} signal for ${audienceText}, with directional implications for roadmap and resourcing decisions.`;
+  const confidence = lensRelevance >= 7 ? 'high' : lensRelevance >= 3 ? 'medium' : 'baseline';
+  return `For ${lensLabel} teams, ${institution} is advancing ${leadTheme} ${stagePhrase}. ${narrative} Most material audiences: ${audienceText}. Lens fit: ${confidence}.`;
 }
 
 function getSignalThemeKeys(signal) {
@@ -898,12 +1169,93 @@ function resolveSourceMeta(signal) {
   );
 }
 
-function getRecencyWeight(dateValue) {
+const MARKET_WEEKLY_RECENCY_WEIGHTS = [1.0, 0.88, 0.78, 0.7, 0.62, 0.56, 0.5, 0.44, 0.38];
+const PERSONA_WEEKLY_RECENCY_WEIGHTS = [1.0, 0.84, 0.7, 0.58, 0.48, 0.4, 0.34, 0.3, 0.26];
+
+const MARKET_DURABILITY_FLOOR_BY_STAGE = {
+  Structural: 0.52,
+  Production: 0.4,
+  Pilot: 0.26,
+  Concept: 0.18,
+  Unknown: 0.22
+};
+
+const PERSONA_DURABILITY_FLOOR_BY_STAGE = {
+  Structural: 0.32,
+  Production: 0.25,
+  Pilot: 0.16,
+  Concept: 0.12,
+  Unknown: 0.14
+};
+
+const DURABILITY_BONUS_BY_MATERIALITY = {
+  'Very High': 0.04,
+  High: 0.02,
+  Medium: 0,
+  Low: -0.02,
+  Unknown: 0
+};
+
+function getSignalAgeDays(dateValue) {
   const timestamp = new Date(dateValue || '').getTime();
-  if (!timestamp) return 0.7;
-  const daysOld = Math.max(0, (Date.now() - timestamp) / 86400000);
-  const decay = Math.exp(-daysOld / 365);
-  return 0.6 + (0.4 * decay);
+  if (!timestamp) return null;
+  return Math.max(0, Math.floor((Date.now() - timestamp) / 86400000));
+}
+
+function getWeeklyRecencyWeight(daysOld, weeklyWeights, fallbackWeight) {
+  if (!Number.isFinite(daysOld) || daysOld < 0) return fallbackWeight;
+  const weekIndex = Math.floor(daysOld / 7);
+  const boundedIndex = Math.min(weeklyWeights.length - 1, weekIndex);
+  return weeklyWeights[boundedIndex];
+}
+
+function getDurabilityFloor(stage, materiality, signalType, floorByStage, maxFloor) {
+  const baseFloor = floorByStage[stage] ?? floorByStage.Unknown;
+  const materialityBonus = DURABILITY_BONUS_BY_MATERIALITY[materiality] ?? 0;
+  const regulatoryBonus = signalType === 'Regulatory Action' || signalType === 'Regulatory / Compliance Framework' ? 0.03 : 0;
+  return Math.min(maxFloor, Math.max(0.1, baseFloor + materialityBonus + regulatoryBonus));
+}
+
+function getMarketRecencyProfile(signal, stage, materiality) {
+  const ageDays = getSignalAgeDays(signal?.date);
+  const freshnessWeight = getWeeklyRecencyWeight(ageDays, MARKET_WEEKLY_RECENCY_WEIGHTS, 0.44);
+  const durabilityFloor = getDurabilityFloor(
+    stage,
+    materiality,
+    String(signal?.signal_type || '').trim(),
+    MARKET_DURABILITY_FLOOR_BY_STAGE,
+    0.58
+  );
+
+  return {
+    ageDays,
+    freshnessWeight,
+    durabilityFloor,
+    recencyWeight: Math.max(freshnessWeight, durabilityFloor)
+  };
+}
+
+function getPersonaRecencyProfile(signal, stage, materiality) {
+  const ageDays = getSignalAgeDays(signal?.date);
+  const freshnessWeight = getWeeklyRecencyWeight(ageDays, PERSONA_WEEKLY_RECENCY_WEIGHTS, 0.3);
+  const durabilityFloor = getDurabilityFloor(
+    stage,
+    materiality,
+    String(signal?.signal_type || '').trim(),
+    PERSONA_DURABILITY_FLOOR_BY_STAGE,
+    0.38
+  );
+
+  return {
+    ageDays,
+    freshnessWeight,
+    durabilityFloor,
+    recencyWeight: Math.max(freshnessWeight, durabilityFloor)
+  };
+}
+
+function getRecencyWeight(signal, stage = 'Unknown', materiality = 'Unknown') {
+  return getMarketRecencyProfile(signal, stage, materiality).recencyWeight;
 }
 
 function getSourcePrevalenceWeight(sourceName, sourceCounts, maxSourceCount) {
@@ -917,7 +1269,7 @@ function getSourcePrevalenceWeight(sourceName, sourceCounts, maxSourceCount) {
 function getSignalStrengthScore(signal, sourceCounts, maxSourceCount) {
   const source = getSignalSourceName(signal);
   const meta = resolveSourceMeta(signal);
-  const recencyWeight = getRecencyWeight(signal.date);
+  const recencyWeight = getRecencyWeight(signal, getSignalStage(signal), getSignalMateriality(signal));
   const prevalenceWeight = getSourcePrevalenceWeight(source, sourceCounts, maxSourceCount);
   return (meta.weight || 0.9) * recencyWeight * prevalenceWeight;
 }
@@ -965,11 +1317,12 @@ const IMPORTANCE_MATERIALITY_WEIGHTS = {
 };
 
 const IMPORTANCE_THRESHOLDS = {
-  // Calibrated on 2026-03-21 corpus (497 signals):
-  // Structural 7.0%, Material 21.3%, Context 13.9%, Noise 57.7%.
-  structural: 1.62,
-  material: 1.26,
-  context: 0.86
+  // Calibrated on 2026-03-21 corpus (497 signals) with weekly recency model:
+  // Structural 7.0%, Material 21.0%, Context 14.0%, Noise 58.0%.
+  // Prior thresholds (pre-recency): structural 1.62, material 1.26, context 0.86.
+  structural: 1.428,
+  material: 1.058,
+  context: 0.703
 };
 
 const IMPORTANCE_STAGE_MATERIALITY_CAP = 1.3;
@@ -1023,11 +1376,12 @@ function computeSignalImportance(signal, sourceCounts, maxSourceCount) {
 
   const sourceTier = sourceMeta.tier || 'Unclassified';
   const credibilityWeight = sourceMeta.weight || 0.7;
-  const recencyWeight = getRecencyWeight(signal.date);
   const sourcePrevalenceWeight = getImportanceSourcePrevalenceWeight(source, sourceCounts, maxSourceCount);
 
   const stage = getSignalStage(signal);
   const materiality = getSignalMateriality(signal);
+  const recencyProfile = getMarketRecencyProfile(signal, stage, materiality);
+  const recencyWeight = recencyProfile.recencyWeight;
 
   const stageWeight = IMPORTANCE_STAGE_WEIGHTS[stage] || IMPORTANCE_STAGE_WEIGHTS.Unknown;
   const materialityWeight = IMPORTANCE_MATERIALITY_WEIGHTS[materiality] || IMPORTANCE_MATERIALITY_WEIGHTS.Unknown;
@@ -1050,8 +1404,11 @@ function computeSignalImportance(signal, sourceCounts, maxSourceCount) {
     stage,
     materiality,
     sourceTier,
+    ageDays: recencyProfile.ageDays,
     credibilityWeight,
     recencyWeight,
+    freshnessWeight: recencyProfile.freshnessWeight,
+    durabilityFloor: recencyProfile.durabilityFloor,
     sourcePrevalenceWeight,
     stageWeight,
     materialityWeight,
@@ -1095,6 +1452,83 @@ function getSignalImportance(signal) {
     metadataPenaltyApplied: true
   };
 }
+
+function recalibrateImportanceThresholds(targetDistribution = { structural: 0.07, material: 0.21, context: 0.14, noise: 0.58 }) {
+  const signals = getOperationalSignals();
+  if (!signals.length) {
+    console.warn('No operational signals available for calibration');
+    return null;
+  }
+
+  const sourceCounts = {};
+  signals.forEach(s => {
+    const source = getSignalSourceName(s);
+    if (source) sourceCounts[source] = (sourceCounts[source] || 0) + 1;
+  });
+  const maxSourceCount = Math.max(1, ...Object.values(sourceCounts));
+
+  const scores = signals.map(s => {
+    const imp = computeSignalImportance(s, sourceCounts, maxSourceCount);
+    return imp.importanceScore;
+  }).sort((a, b) => b - a);
+
+  const total = scores.length;
+  const targetStructural = Math.round(total * targetDistribution.structural);
+  const targetMaterial = Math.round(total * (targetDistribution.structural + targetDistribution.material));
+  const targetContext = Math.round(total * (targetDistribution.structural + targetDistribution.material + targetDistribution.context));
+
+  const newStructuralThreshold = scores[Math.max(0, targetStructural - 1)];
+  const newMaterialThreshold = scores[Math.max(0, targetMaterial - 1)];
+  const newContextThreshold = scores[Math.max(0, targetContext - 1)];
+
+  const currentDist = { structural: 0, material: 0, context: 0, noise: 0 };
+  scores.forEach(score => {
+    if (score >= IMPORTANCE_THRESHOLDS.structural) currentDist.structural++;
+    else if (score >= IMPORTANCE_THRESHOLDS.material) currentDist.material++;
+    else if (score >= IMPORTANCE_THRESHOLDS.context) currentDist.context++;
+    else currentDist.noise++;
+  });
+
+  const newDist = { structural: 0, material: 0, context: 0, noise: 0 };
+  scores.forEach(score => {
+    if (score >= newStructuralThreshold) newDist.structural++;
+    else if (score >= newMaterialThreshold) newDist.material++;
+    else if (score >= newContextThreshold) newDist.context++;
+    else newDist.noise++;
+  });
+
+  const result = {
+    corpusSize: total,
+    currentThresholds: {
+      structural: IMPORTANCE_THRESHOLDS.structural.toFixed(3),
+      material: IMPORTANCE_THRESHOLDS.material.toFixed(3),
+      context: IMPORTANCE_THRESHOLDS.context.toFixed(3)
+    },
+    currentDistribution: {
+      structural: { count: currentDist.structural, pct: (currentDist.structural / total * 100).toFixed(1) + '%' },
+      material: { count: currentDist.material, pct: (currentDist.material / total * 100).toFixed(1) + '%' },
+      context: { count: currentDist.context, pct: (currentDist.context / total * 100).toFixed(1) + '%' },
+      noise: { count: currentDist.noise, pct: (currentDist.noise / total * 100).toFixed(1) + '%' }
+    },
+    recommendedThresholds: {
+      structural: newStructuralThreshold.toFixed(3),
+      material: newMaterialThreshold.toFixed(3),
+      context: newContextThreshold.toFixed(3)
+    },
+    projectedDistribution: {
+      structural: { count: newDist.structural, pct: (newDist.structural / total * 100).toFixed(1) + '%' },
+      material: { count: newDist.material, pct: (newDist.material / total * 100).toFixed(1) + '%' },
+      context: { count: newDist.context, pct: (newDist.context / total * 100).toFixed(1) + '%' },
+      noise: { count: newDist.noise, pct: (newDist.noise / total * 100).toFixed(1) + '%' }
+    },
+    targetDistribution,
+    scoreRange: { min: scores[scores.length - 1].toFixed(3), max: scores[0].toFixed(3), median: scores[Math.floor(scores.length / 2)].toFixed(3) }
+  };
+
+  console.table(result);
+  return result;
+}
+window.recalibrateImportanceThresholds = recalibrateImportanceThresholds;
 
 function setImportanceTierMode(mode) {
   if (!IMPORTANCE_TIER_FILTERS[mode]) return;
@@ -1362,6 +1796,7 @@ function loadAndRenderData() {
     renderFilterPills();
     renderSignalTypeSelect();
     renderImportanceTierSelect();
+    renderPersonaSelect();
     renderCountrySelects();
     renderIntelBriefs();
     renderInitiativeSchema();
@@ -1490,6 +1925,7 @@ function renderSignalScoringClearFilterButton() {
     signalTypeFilter ||
     countryFilter ||
     importanceTierMode !== DEFAULT_IMPORTANCE_TIER_MODE ||
+    selectedPersona !== DEFAULT_PERSONA ||
     searchQuery !== '' ||
     activeFilter !== 'all' ||
     dirSearch !== '' ||
@@ -1509,6 +1945,7 @@ function clearSignalScoringFilter() {
   signalTypeFilter = '';
   countryFilter = '';
   setImportanceTierMode(DEFAULT_IMPORTANCE_TIER_MODE);
+  setPersona(DEFAULT_PERSONA);
   searchQuery = '';
   activeFilter = 'all';
   dirSearch = '';
@@ -1531,6 +1968,7 @@ function clearSignalScoringFilter() {
 
   syncSignalTypeSelect();
   syncCountrySelects();
+  syncPersonaSelect();
   const searchInput = document.getElementById('searchInput');
   if (searchInput) searchInput.value = '';
   closeSignalStrengthBreakdown();
@@ -2560,6 +2998,42 @@ function renderImportanceTierSelect() {
   };
 }
 
+function syncPersonaSelect() {
+  const select = document.getElementById('personaSelect');
+  if (select) select.value = selectedPersona;
+}
+
+function renderCatalogueSortNote() {
+  const note = document.getElementById('catalogueSortNote');
+  if (!note) return;
+
+  if (selectedPersona !== DEFAULT_PERSONA) {
+    note.textContent = `Sorted by ${getPersonaLabel(selectedPersona)} relevance first, then most recent date and signal strength (importance score).`;
+    return;
+  }
+
+  note.textContent = 'Default catalogue sort order: most recent date first, then signal strength (importance score).';
+}
+
+function renderPersonaSelect() {
+  const select = document.getElementById('personaSelect');
+  if (!select) return;
+
+  syncPersonaSelect();
+  renderCatalogueSortNote();
+
+  select.onchange = (event) => {
+    const mode = String(event.target.value || DEFAULT_PERSONA).trim();
+    setPersona(mode);
+    trackFilter('audience_lens', selectedPersona);
+    renderSignals();
+    renderDirectory();
+    renderCountryDirectory();
+    renderPopularityAnalysis();
+    updateResetBars();
+  };
+}
+
 // ===== INTEL BRIEFS =====
 function renderIntelBriefs() {
   const countEl = document.getElementById('intelBriefCount');
@@ -2575,12 +3049,103 @@ function renderIntelBriefs() {
 }
 
 // ===== RENDER SIGNALS =====
+function renderPrioritySignalsStrip() {
+  const container = document.getElementById('prioritySignalsStrip');
+  if (!container) return;
+
+  // Get Structural-tier signals only
+  const allSignals = getOperationalSignals();
+  const structuralSignals = allSignals.filter(s => {
+    const importance = getSignalImportance(s);
+    return importance.tier === 'Structural';
+  });
+
+  if (structuralSignals.length === 0) {
+    container.innerHTML = '';
+    return;
+  }
+
+  // Sort by persona relevance if selected, else by date + importance
+  const sortedSignals = [...structuralSignals].sort((a, b) => {
+    if (selectedPersona !== DEFAULT_PERSONA) {
+      const relevanceA = getPersonaRelevance(a, selectedPersona);
+      const relevanceB = getPersonaRelevance(b, selectedPersona);
+      if (relevanceB !== relevanceA) return relevanceB - relevanceA;
+    }
+    
+    const dateA = new Date(a.date || '2024-01-01');
+    const dateB = new Date(b.date || '2024-01-01');
+    if (dateB - dateA !== 0) return dateB - dateA;
+
+    const scoreA = getSignalImportance(a).importanceScore || 0;
+    const scoreB = getSignalImportance(b).importanceScore || 0;
+    return scoreB - scoreA;
+  });
+
+  // Take top 5 signals
+  const topSignals = sortedSignals.slice(0, 5);
+  const lensLabel = getPersonaLabel(selectedPersona);
+
+  let html = `
+    <div class="priority-signals-section">
+      <div class="priority-signals-header">
+        <h2>Priority Signals – This Quarter</h2>
+        ${selectedPersona !== DEFAULT_PERSONA ? `<p class="priority-signals-persona-note">Ranked for ${lensLabel}</p>` : ''}
+      </div>
+      <div class="priority-signals-scroll">
+  `;
+
+  topSignals.forEach(signal => {
+    const importance = getSignalImportance(signal);
+    const date = formatDate(signal.date);
+    const insight = buildSignalDirectionalInsight(signal, importance);
+    const initiatives = Array.isArray(signal.initiative_types) ? signal.initiative_types.slice(0, 1) : [];
+    const initiativeText = initiatives.length ? initiatives[0] : 'Digital asset infrastructure';
+    const signalKey = encodeURIComponent(getSignalKey(signal));
+    const url = signal.source_url || '#';
+    const domain = url !== '#' ? new URL(url).hostname.replace('www.','') : '';
+    const textExcerpt = signal.description ? signal.description.substring(0, 100) + (signal.description.length > 100 ? '...' : '') : '';
+
+    html += `
+      <div class="priority-signal-card">
+        <div class="priority-signal-card-header">
+          <div class="priority-signal-card-institution">
+            <span class="priority-signal-badge">Structural</span>
+            <span class="priority-signal-card-institution-name">${signal.institution}</span>
+          </div>
+          <span class="priority-signal-card-date">${date}</span>
+        </div>
+        <div class="priority-signal-card-initiative">${initiativeText}</div>
+        <div class="priority-signal-card-insight">${escapeHtml(insight)}</div>
+        <div class="priority-signal-card-footer">
+          ${url !== '#' ? `<a href="${url}" target="_blank" rel="noopener noreferrer" class="priority-signal-card-source"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>${domain}</a>` : '<span></span>'}
+          <button class="priority-signal-card-details-btn" onclick="showSignalDetail('${signalKey}')">Details</button>
+        </div>
+      </div>
+    `;
+  });
+
+  html += `
+      </div>
+      <div class="priority-signals-footer">
+        <a href="#" onclick="filterImportanceTier('structural'); return false;" class="priority-signals-view-all">
+          View all Structural signals →
+        </a>
+      </div>
+    </div>
+  `;
+
+  container.innerHTML = html;
+}
+
 function renderSignals() {
   const container = document.getElementById('signalSections');
   const noResults = document.getElementById('noResults');
   renderMomentumDebugToggle();
   renderMatrixFilterChip();
   renderFilterPills();
+  renderCatalogueSortNote();
+  renderPrioritySignalsStrip();
   const filtered = getCatalogueSignals();
   const signalMeta = buildCatalogueSignalMeta(filtered);
 
@@ -2591,12 +3156,18 @@ function renderSignals() {
   for (const [key] of Object.entries(CATEGORIES)) {
     const items = filtered.filter(s => s.category === key);
     if (items.length > 0) {
-      // Sort by date (most recent first), then by signal strength (importance score)
+      // Default sort remains date first; audience lens enables relevance reranking.
       items.sort((a, b) => {
+        if (selectedPersona !== DEFAULT_PERSONA) {
+          const relevanceA = getPersonaRelevance(a, selectedPersona);
+          const relevanceB = getPersonaRelevance(b, selectedPersona);
+          if (relevanceB !== relevanceA) return relevanceB - relevanceA;
+        }
+
         const dateA = new Date(a.date || '2024-01-01');
         const dateB = new Date(b.date || '2024-01-01');
         if (dateB - dateA !== 0) return dateB - dateA;
-        // If dates are equal, sort by importance score (descending)
+
         const scoreA = getSignalImportance(a).importanceScore || 0;
         const scoreB = getSignalImportance(b).importanceScore || 0;
         return scoreB - scoreA;
@@ -2668,7 +3239,7 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
   const displayTierLabel = getImportanceTierLabel(importance.tier);
   const tierClass = String(importance.tier || 'Noise').toLowerCase().replace(/\s+/g, '-');
   const directionalInsight = buildSignalDirectionalInsight(signal, importance);
-  const audience = inferSignalAudience(signal);
+  const audience = inferSignalPersona(signal);
   const initiatives = Array.isArray(signal.initiative_types) ? signal.initiative_types.slice(0, 3) : [];
   const fmiAreas = Array.isArray(signal.fmi_areas) ? signal.fmi_areas.slice(0, 3) : [];
   const cardMeta = signalMeta[getSignalKey(signal)] || {};
@@ -2677,6 +3248,27 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
   const institutionRankText = cardMeta.institutionRank ? `#${cardMeta.institutionRank} ${cardMeta.institutionType || ''}`.trim() : cardMeta.institutionType || 'Institution Segment';
   const momentumDebug = momentumDebugMode
     ? `<div class="signal-momentum-debug">Momentum debug: recent=${momentum.recentCount ?? 0} | prior=${momentum.priorCount ?? 0} | delta=${momentum.delta ?? 0}</div>`
+    : '';
+  const lensLabel = getPersonaLabel(selectedPersona);
+  const lensDetails = getPersonaScoreDetails(signal, selectedPersona);
+  const lensRelevance = lensDetails.score;
+  const personaDebug = momentumDebugMode && selectedPersona !== DEFAULT_PERSONA
+    ? `<div class="signal-lens-debug"><span class="signal-lens-debug-label">Lens debug (${escapeHtml(lensLabel)})</span><span class="signal-lens-debug-chip">u:${escapeHtml(lensDetails.useCase)}</span><span class="signal-lens-debug-chip signal-lens-debug-chip-pos">p:${lensDetails.primaryHits}</span><span class="signal-lens-debug-chip signal-lens-debug-chip-pos">s:${lensDetails.secondaryHits}</span><span class="signal-lens-debug-chip signal-lens-debug-chip-pos">a:${lensDetails.audienceHintHits}</span><span class="signal-lens-debug-chip">r:${lensDetails.recencyWeight.toFixed(2)}</span><span class="signal-lens-debug-chip signal-lens-debug-chip-pos">u+${lensDetails.useCaseBoost.toFixed(1)}</span><span class="signal-lens-debug-chip signal-lens-debug-chip-pos">i+${lensDetails.importanceBoost.toFixed(1)}</span><span class="signal-lens-debug-chip signal-lens-debug-chip-neg">x-${lensDetails.antiPenalty.toFixed(1)}</span><span class="signal-lens-debug-chip signal-lens-debug-chip-score">score:${lensRelevance.toFixed(2)}</span></div>`
+    : '';
+  const lensChip = selectedPersona !== DEFAULT_PERSONA
+    ? `<span class="signal-chip signal-chip-lens" title="Relevance for ${escapeHtml(lensLabel)} lens">${escapeHtml(lensLabel)} fit ${lensRelevance.toFixed(1)}</span>`
+    : '';
+  const tierComparisonRow = selectedPersona !== DEFAULT_PERSONA
+    ? `<div class="signal-tier-comparison">
+        <div class="signal-tier-comparison-item">
+          <span class="signal-tier-label">Display for ${escapeHtml(lensLabel)}:</span>
+          <span class="signal-tier-value">${displayTierLabel}</span>
+        </div>
+        <div class="signal-tier-comparison-item">
+          <span class="signal-tier-label">Market baseline:</span>
+          <span class="signal-tier-value">${displayTierLabel}</span>
+        </div>
+      </div>`
     : '';
   return `
     <div class="signal-card" data-signal-key="${signalKey}">
@@ -2695,11 +3287,13 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
         </span>
         <span class="signal-chip signal-chip-rank" title="Initiative relevance rank in current catalogue view">Initiative ${initiativeRankText}</span>
         <span class="signal-chip signal-chip-rank" title="Institution segment rank in current catalogue view">Segment ${institutionRankText}</span>
+        ${lensChip}
       </div>
       <div class="signal-strength-row">
         <span class="signal-importance-badge importance-${tierClass}">${displayTierLabel}</span>
         <span class="signal-importance-score">${importance.importanceScore.toFixed(2)}</span>
       </div>
+      ${tierComparisonRow}
       <div class="signal-why">Global lens: ${importance.stage} stage | ${importance.materiality} materiality | ${importance.sourceTier} source credibility</div>
       <div class="signal-ai-insight">
         <div class="signal-ai-title">AI Why This Matters</div>
@@ -2724,6 +3318,7 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
           </div>
         </div>
         ${momentumDebug}
+        ${personaDebug}
       </div>
       <div class="signal-footer">
         ${url !== '#' ? `<a href="${url}" target="_blank" rel="noopener noreferrer" class="signal-source" data-signal-key="${signalKey}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>${domain}</a>` : '<span></span>'}
@@ -3096,14 +3691,14 @@ function showSignalDetail(signalData) {
   const dateObj = new Date(signalData.date || new Date());
   const daysAgo = Math.floor((Date.now() - dateObj.getTime()) / (1000 * 60 * 60 * 24));
   const dateStr = daysAgo < 0 ? 'upcoming' : daysAgo === 0 ? 'today' : daysAgo <= 365 ? `${daysAgo}d ago` : formatDate(signalData.date || new Date());
-  const recencyWeight = getRecencyWeight(signalData.date || new Date().toISOString().split('T')[0]);
   
   // Find full signal object for additional metadata
   const fullSignal = getOperationalSignals().find(s => 
     s.institution === signalData.institution && 
     s.initiative === signalData.initiative && 
     s.date === signalData.date
-  ) || { description: 'N/A', signal_type: 'Unknown' };
+  ) || { description: 'N/A', signal_type: 'Unknown', signal_stage: 'Unknown', signal_materiality: 'Unknown', date: signalData.date };
+  const recencyWeight = getRecencyWeight(fullSignal, getSignalStage(fullSignal), getSignalMateriality(fullSignal));
   
   const tierBadge = signalData.tier ? 
     `<span class="tier-badge tier-${signalData.tier.toLowerCase()}">${signalData.tier}</span>` : '';
@@ -3137,7 +3732,7 @@ function showSignalDetail(signalData) {
         <span class="signal-detail-value">${formattedDate} (${dateStr})</span>
       </div>
       <div class="signal-detail-row">
-        <span class="signal-detail-label">Credibility Weight:</span>
+        <span class="signal-detail-label">Recency Weight:</span>
         <span class="signal-detail-value">${recencyWeight.toFixed(3)}x (tier: ${signalData.tier || 'Unclassified'})</span>
       </div>
       <div class="signal-detail-row">
@@ -3782,8 +4377,10 @@ function resetAllFilters() {
   signalTypeFilter = '';
   countryFilter = '';
   setImportanceTierMode(DEFAULT_IMPORTANCE_TIER_MODE);
+  setPersona(DEFAULT_PERSONA);
   syncSignalTypeSelect();
   syncCountrySelects();
+  syncPersonaSelect();
   const searchInput = document.getElementById('searchInput');
   if (searchInput) searchInput.value = '';
 
@@ -3834,7 +4431,7 @@ function resetAllFilters() {
 function updateResetBars() {
   const hasDirectoryFilter = dirSearch !== '' || dirSort !== 'signals' || dirCountryFilter !== '';
   const hasCountryDirectoryFilter = countryDirSearch !== '' || countryDirSort !== 'signals' || countryDirTypeFilter !== '';
-  const hasLibraryFilter = searchQuery !== '' || activeFilter !== 'all' || matrixFilter !== null || signalTypeFilter !== '' || countryFilter !== '' || importanceTierMode !== DEFAULT_IMPORTANCE_TIER_MODE;
+  const hasLibraryFilter = searchQuery !== '' || activeFilter !== 'all' || matrixFilter !== null || signalTypeFilter !== '' || countryFilter !== '' || importanceTierMode !== DEFAULT_IMPORTANCE_TIER_MODE || selectedPersona !== DEFAULT_PERSONA;
   const hasAnyFilter = hasDirectoryFilter || hasCountryDirectoryFilter || hasLibraryFilter;
 
   const dirReset = document.getElementById('resetDirectoryFilters');

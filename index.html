@@ -147,17 +147,34 @@
             <option value="context">Background Signal Only</option>
           </select>
         </div>
+        <div class="signal-type-filter">
+          <label for="personaSelect">For Whom</label>
+          <select id="personaSelect">
+            <option value="all" selected>All Teams</option>
+            <option value="treasury_payments">Treasury and Payments</option>
+            <option value="collateral_markets">Collateral and Markets</option>
+            <option value="risk_compliance">Risk and Compliance</option>
+            <option value="infra_product">Infrastructure and Product</option>
+          </select>
+        </div>
         <div class="filter-pills-wrap">
           <div class="filter-pills-label">Institution Category</div>
           <div class="filter-pills" id="filterPills"></div>
           <button type="button" class="momentum-debug-toggle" id="momentumDebugToggle" onclick="toggleMomentumDebugMode()">Show Momentum Debug</button>
-          <div class="catalogue-sort-note">Catalogue sort order: most recent date first, then signal strength (importance score).</div>
+          <div class="catalogue-sort-note" id="catalogueSortNote">Default catalogue sort order: most recent date first, then signal strength (importance score).</div>
+          <details class="catalogue-scoring-help">
+            <summary>How momentum and rank scoring works</summary>
+            <p>Momentum compares the last 45 days of related signals with the prior 45-day window. Initiative and segment rank show which themes and institution categories have the highest cumulative importance in the current filtered view. Importance now uses weekly recency buckets with durability floors for structurally meaningful signals. When you choose a "For Whom" lens, the catalogue re-ranks by weighted relevance using use-case match, keyword fit, audience fit, and freshness.</p>
+            <p class="catalogue-scoring-legend"><strong>Debug key:</strong> <span class="scoring-key scoring-key-neutral">u</span>=use case, <span class="scoring-key scoring-key-pos">p</span>=primary keyword hits, <span class="scoring-key scoring-key-pos">s</span>=secondary hits, <span class="scoring-key scoring-key-pos">a</span>=audience hints, <span class="scoring-key scoring-key-neutral">r</span>=recency weight, <span class="scoring-key scoring-key-pos">u+</span>=use-case boost, <span class="scoring-key scoring-key-pos">i+</span>=importance boost, <span class="scoring-key scoring-key-neg">x-</span>=anti-signal penalty, <span class="scoring-key scoring-key-score">score</span>=final weighted relevance.</p>
+          </details>
         </div>
       </div>
       <div class="matrix-filter-chip" id="matrixFilterChip" style="display:none;">
         <span class="matrix-filter-chip-label" id="matrixFilterChipLabel"></span>
         <button type="button" class="matrix-filter-chip-clear" onclick="clearMatrixFilter()">Clear</button>
       </div>
+
+      <div id="prioritySignalsStrip"></div>
 
       <div id="signalSections"></div>
 
