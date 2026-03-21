@@ -3450,7 +3450,7 @@ function renderPrioritySignalsStrip() {
         <div class="priority-signal-card-insight">${escapeHtml(insight)}</div>
         <div class="priority-signal-card-footer">
           ${url !== '#' ? `<a href="${url}" target="_blank" rel="noopener noreferrer" class="priority-signal-card-source"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>${domain}</a>` : '<span></span>'}
-          <button class="priority-signal-card-details-btn" onclick="showSignalDetail('${signalKey}')">Details</button>
+          <button class="priority-signal-card-details-btn" onclick="openSignalDetailByKey('${signalKey}')">Details</button>
         </div>
       </div>
     `;
@@ -4094,6 +4094,36 @@ function showSignalDetail(signalData) {
     </div>
   `;
   panel.style.display = 'block';
+}
+
+function openSignalDetailByKey(encodedSignalKey) {
+  const decodedKey = decodeURIComponent(String(encodedSignalKey || '')).toLowerCase();
+  if (!decodedKey) return;
+
+  const signal = getOperationalSignals().find(item => getSignalKey(item) === decodedKey);
+  if (!signal) return;
+
+  const importance = getSignalImportance(signal);
+  let sourceLabel = String(signal?.source_name || '').trim();
+  if (!sourceLabel) {
+    const sourceUrl = String(signal?.source_url || '').trim();
+    if (sourceUrl) {
+      try {
+        sourceLabel = new URL(sourceUrl).hostname.replace(/^www\./, '');
+      } catch (_) {
+        sourceLabel = sourceUrl;
+      }
+    }
+  }
+
+  showSignalDetail({
+    institution: signal.institution || 'Unknown institution',
+    initiative: signal.initiative || 'Unknown initiative',
+    source: sourceLabel || 'Unknown source',
+    date: getSignalSourceDateRaw(signal) || signal.date,
+    tier: importance.tier || 'Noise',
+    score: Number(importance.importanceScore || 0)
+  });
 }
 
 function closeSignalDetail() {
