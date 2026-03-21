@@ -827,6 +827,62 @@
   color: var(--color-text-muted);
   margin-top: var(--space-1);
 }
+.popularity-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-5);
+}
+.popularity-col h4 {
+  font-size: var(--text-sm);
+  margin-bottom: var(--space-3);
+  color: var(--color-text);
+}
+.pop-list {
+  list-style: none;
+  display: grid;
+  gap: var(--space-2);
+  padding: 0;
+  margin: 0;
+}
+.pop-row {
+  display: grid;
+  grid-template-columns: minmax(0, 2.4fr) minmax(90px, 1fr) auto;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-bg-elevated);
+}
+.pop-label {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.pop-bar {
+  height: 8px;
+  background: var(--color-primary-highlight);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.pop-bar-fill {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-asset-mgmt));
+}
+.pop-value {
+  font-size: 12px;
+  color: var(--color-primary);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.pop-empty {
+  font-size: 12px;
+  color: var(--color-text-faint);
+  padding: var(--space-2) 0;
+}
 .chart-card-header .matrix-lead {
   font-family: var(--font-display);
   font-size: var(--text-sm);
@@ -1802,6 +1858,9 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .chart-row, .chart-row-single {
+    grid-template-columns: 1fr;
+  }
+  .popularity-grid {
     grid-template-columns: 1fr;
   }
   .chart-container.fmi-chart-container {
