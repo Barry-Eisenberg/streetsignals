@@ -646,6 +646,11 @@ let dirCountryFilter = '';
 let countryDirSearch = '';
 let countryDirSort = 'signals';
 let countryDirTypeFilter = '';
+let dataRefreshMeta = {
+  loadedAt: null,
+  latestSourceDate: null,
+  totalOperationalSignals: 0
+};
 
 const IMPORTANCE_TIER_FILTERS = {
   all: ['Structural', 'Material', 'Context', 'Noise'],
@@ -1982,6 +1987,19 @@ function loadAndRenderData() {
       .map(normalizeSignal)
       .sort((a, b) => new Date(b.date || '2024-01-01') - new Date(a.date || '2024-01-01'));
 
+    const operationalSignals = allSignals.filter(s => !s._isBrief);
+    const latestSourceTimestamp = operationalSignals.reduce((maxTs, signal) => {
+      const ts = getSignalDateTimestamp(signal);
+      if (!Number.isFinite(ts)) return maxTs;
+      return Math.max(maxTs, ts);
+    }, 0);
+
+    dataRefreshMeta = {
+      loadedAt: new Date(),
+      latestSourceDate: latestSourceTimestamp > 0 ? new Date(latestSourceTimestamp) : null,
+      totalOperationalSignals: operationalSignals.length
+    };
+
     recomputeSignalImportanceScores();
     renderKPIs();
     renderDirectory();
@@ -1994,6 +2012,7 @@ function loadAndRenderData() {
     renderPersonaSelect();
     renderGlobalDateFilterSelect();
     renderCountrySelects();
+    renderDataFreshnessStamp();
     renderIntelBriefs();
     renderInitiativeSchema();
     renderFmiSchema();
@@ -3095,8 +3114,34 @@ function renderGlobalDateFilterSelect() {
     renderDirectory();
     renderCountryDirectory();
     renderPopularityAnalysis();
+    renderDataFreshnessStamp();
     updateResetBars();
   };
+}
+
+function renderDataFreshnessStamp() {
+  const stamp = document.getElementById('dataFreshnessStamp');
+  if (!stamp) return;
+
+  const loadedAtText = dataRefreshMeta.loadedAt
+    ? dataRefreshMeta.loadedAt.toLocaleString('en-US', {
+        month: 'short', day: 'numeric', year: 'numeric',
+        hour: 'numeric', minute: '2-digit'
+      })
+    : 'unknown';
+
+  const latestSourceDateText = dataRefreshMeta.latestSourceDate
+    ? dataRefreshMeta.latestSourceDate.toLocaleString('en-US', {
+        month: 'short', day: 'numeric', year: 'numeric',
+        hour: 'numeric', minute: '2-digit'
+      })
+    : 'unknown';
+
+  const visibleCount = getOperationalSignals().length;
+  const totalCount = dataRefreshMeta.totalOperationalSignals || visibleCount;
+  const windowLabel = selectedDateWindowDays === null ? 'all historical' : `last ${selectedDateWindowDays} days`;
+
+  stamp.textContent = `Data refresh: loaded ${loadedAtText} | latest source date ${latestSourceDateText} | showing ${visibleCount} of ${totalCount} signals (${windowLabel}).`;
 }
 
 function renderCountrySelects() {
