@@ -680,6 +680,29 @@
   border-color: var(--color-primary);
 }
 
+.directory-country {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+}
+
+.directory-country select {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--text-xs);
+  color: var(--color-text);
+  cursor: pointer;
+  outline: none;
+}
+
+.directory-country select:focus {
+  border-color: var(--color-primary);
+}
+
 /* Directory category group */
 .dir-category {
   margin-bottom: var(--space-6);
@@ -1711,7 +1734,7 @@
 /* ===== FILTER CONTROLS ===== */
 .controls {
   display: grid;
-  grid-template-columns: minmax(280px, 1fr) auto;
+  grid-template-columns: minmax(280px, 1fr) auto auto;
   gap: var(--space-3);
   margin-bottom: var(--space-4);
   align-items: stretch;
@@ -1775,9 +1798,19 @@
   font-size: var(--text-sm);
   font-family: var(--font-body);
   outline: none;
-  min-width: 220px;
+  min-width: 180px;
   cursor: pointer;
   padding: var(--space-2) var(--space-3);
+}
+
+.signal-scoring-clear {
+  border-color: rgba(0, 212, 255, 0.45);
+  color: var(--color-primary);
+  background: var(--color-primary-highlight);
+}
+
+.signal-scoring-clear:hover {
+  background: rgba(0, 212, 255, 0.18);
 }
 
 .filter-pills-wrap {
