@@ -403,6 +403,77 @@ let searchQuery = '';
 let matrixFilter = null;
 let chartInstances = {};
 let popularitySeed = null;
+let sourceCatalog = { byName: {}, byHost: {} };
+let selectedPopularitySector = 'All Sectors';
+
+function normalizeSourceKey(value) {
+  return String(value || '').trim().toLowerCase();
+}
+
+function getSourceTierFromPriority(priority) {
+  if (priority <= 1) return { tier: 'Primary', weight: 1.3 };
+  if (priority === 2) return { tier: 'Secondary', weight: 1.0 };
+  return { tier: 'Tertiary', weight: 0.8 };
+}
+
+function buildSourceCatalog(config) {
+  const byName = {};
+  const byHost = {};
+  const rssSources = Array.isArray(config?.rss_sources) ? config.rss_sources : [];
+
+  rssSources
+    .filter(source => source && source.enabled !== false)
+    .forEach(source => {
+      const { tier, weight } = getSourceTierFromPriority(Number(source.priority) || 3);
+      const sourceName = normalizeSourceKey(source.name || source.institution);
+      if (sourceName && !byName[sourceName]) {
+        byName[sourceName] = { tier, weight };
+      }
+      try {
+        const host = normalizeSourceKey(new URL(source.url).hostname.replace(/^www\./, ''));
+        if (host && !byHost[host]) {
+          byHost[host] = { tier, weight };
+        }
+      } catch (_) {
+        // Ignore malformed source URLs.
+      }
+    });
+
+  const nextfiEnabled = config?.nextfi_intelligence?.enabled !== false;
+  if (nextfiEnabled) {
+    byName['nextfi advisors'] = { tier: 'Primary', weight: 1.4 };
+    byHost['nextfiadvisors.com'] = { tier: 'Primary', weight: 1.4 };
+  }
+
+  return { byName, byHost };
+}
+
+function resolveSourceMeta(signal) {
+  const sourceName = getSignalSourceName(signal);
+  const sourceNameKey = normalizeSourceKey(sourceName);
+  let sourceHostKey = '';
+
+  try {
+    sourceHostKey = normalizeSourceKey(new URL(String(signal?.source_url || '')).hostname.replace(/^www\./, ''));
+  } catch (_) {
+    // URL may be missing or malformed.
+  }
+
+  return (
+    sourceCatalog.byName[sourceNameKey] ||
+    sourceCatalog.byHost[sourceNameKey] ||
+    sourceCatalog.byHost[sourceHostKey] ||
+    { tier: 'Unclassified', weight: 0.9 }
+  );
+}
+
+function getRecencyWeight(dateValue) {
+  const timestamp = new Date(dateValue || '').getTime();
+  if (!timestamp) return 0.7;
+  const daysOld = Math.max(0, (Date.now() - timestamp) / 86400000);
+  const decay = Math.exp(-daysOld / 365);
+  return 0.6 + (0.4 * decay);
+}
 
 function mapIntelBriefsToSignals(briefs) {
   return briefs.map(b => ({
@@ -436,13 +507,15 @@ Promise.all([
   loadJsonWithFallback('./auto_data.json', []),
   loadJsonWithFallback('./intel_briefs.json', INTEL_BRIEFS_DEFAULT),
   loadJsonWithFallback('./taxonomy/initiative-taxonomy.v1.json', DEFAULT_INITIATIVE_TAXONOMY),
-  loadJsonWithFallback('./popularity.json', null)
-]).then(([manualData, autoData, intelBriefs, taxonomyData, popularityData]) => {
+  loadJsonWithFallback('./popularity.json', null),
+  loadJsonWithFallback('./sources.json', null)
+]).then(([manualData, autoData, intelBriefs, taxonomyData, popularityData, sourcesConfig]) => {
   if (taxonomyData && Array.isArray(taxonomyData.canonicalInitiatives) && Array.isArray(taxonomyData.aliasMap)) {
     initiativeTaxonomy = taxonomyData;
   }
   initiativeAliasMap = buildInitiativeAliasMap(initiativeTaxonomy);
   popularitySeed = popularityData && typeof popularityData === 'object' ? popularityData : null;
+  sourceCatalog = buildSourceCatalog(sourcesConfig || {});
 
   const manualSignals = Array.isArray(manualData) ? manualData : [];
   const generatedSignals = Array.isArray(autoData) ? autoData : [];
@@ -1307,31 +1380,80 @@ function renderPopularityAnalysis() {
   const summary = document.getElementById('popularitySummary');
   const topSignalsEl = document.getElementById('popularityTopSignals');
   const topSourcesEl = document.getElementById('popularityTopSources');
-  if (!summary || !topSignalsEl || !topSourcesEl) return;
+  const sectorSelectEl = document.getElementById('popularitySectorFilter');
+  const topSectorSourcesEl = document.getElementById('popularityTopSourcesBySector');
+  if (!summary || !topSignalsEl || !topSourcesEl || !sectorSelectEl || !topSectorSourcesEl) return;
 
   const signals = getOperationalSignals();
   const sourceCounts = {};
+  const sourceAgg = {};
+  const sectorSourceAgg = {};
+  const sectorNames = new Set();
 
   signals.forEach(signal => {
     const source = getSignalSourceName(signal);
+    const sector = String(signal.institution_type || 'Unclassified').trim() || 'Unclassified';
     if (!source) return;
+
+    sectorNames.add(sector);
     sourceCounts[source] = (sourceCounts[source] || 0) + 1;
+
+    const meta = resolveSourceMeta(signal);
+    const recencyWeight = getRecencyWeight(signal.date);
+    const weightedScore = (meta.weight || 0.9) * recencyWeight;
+
+    if (!sourceAgg[source]) {
+      sourceAgg[source] = {
+        score: 0,
+        count: 0,
+        tier: meta.tier,
+        latestTs: 0
+      };
+    }
+    sourceAgg[source].score += weightedScore;
+    sourceAgg[source].count += 1;
+    sourceAgg[source].latestTs = Math.max(sourceAgg[source].latestTs, new Date(signal.date || '').getTime() || 0);
+
+    if (!sectorSourceAgg[sector]) sectorSourceAgg[sector] = {};
+    if (!sectorSourceAgg[sector][source]) {
+      sectorSourceAgg[sector][source] = { score: 0, count: 0, tier: meta.tier };
+    }
+    sectorSourceAgg[sector][source].score += weightedScore;
+    sectorSourceAgg[sector][source].count += 1;
   });
 
-  const sourceEntries = Object.entries(sourceCounts).sort((a, b) => b[1] - a[1]);
+  const sourceEntries = Object.entries(sourceAgg).sort((a, b) => b[1].score - a[1].score);
 
   const signalEntries = signals
     .map(signal => {
       const source = getSignalSourceName(signal);
-      const score = source ? (sourceCounts[source] || 0) : 0;
+      if (!source) return null;
+      const meta = resolveSourceMeta(signal);
+      const recencyWeight = getRecencyWeight(signal.date);
+      const sourceVolume = sourceCounts[source] || 0;
+      const score = sourceVolume * (meta.weight || 0.9) * recencyWeight;
       return {
         label: `${signal.institution}: ${signal.initiative}`,
+        source,
+        tier: meta.tier,
         score,
         dateValue: new Date(signal.date || '1970-01-01').getTime() || 0
       };
     })
-    .filter(item => item.score > 0)
+    .filter(item => item && item.score > 0)
     .sort((a, b) => (b.score - a.score) || (b.dateValue - a.dateValue));
+
+  const sectorOptions = ['All Sectors', ...Array.from(sectorNames).sort((a, b) => a.localeCompare(b))];
+  if (!sectorOptions.includes(selectedPopularitySector)) {
+    selectedPopularitySector = 'All Sectors';
+  }
+  sectorSelectEl.innerHTML = sectorOptions.map(option => `
+    <option value="${option}" ${option === selectedPopularitySector ? 'selected' : ''}>${option}</option>
+  `).join('');
+  sectorSelectEl.onchange = () => {
+    selectedPopularitySector = sectorSelectEl.value;
+    renderPopularityAnalysis();
+  };
 
   const seedSignals = Array.isArray(popularitySeed?.top_signals) ? popularitySeed.top_signals : [];
   const seedSources = Array.isArray(popularitySeed?.top_sources) ? popularitySeed.top_sources : [];
@@ -1341,14 +1463,26 @@ function renderPopularityAnalysis() {
     : seedSignals.slice(0, 10);
 
   const topSources = sourceEntries.length
-    ? sourceEntries.slice(0, 10).map(([label, score]) => ({ label, score }))
+    ? sourceEntries.slice(0, 10).map(([label, data]) => ({
+      label: `${label} (${data.tier})`,
+      score: Number(data.score.toFixed(2))
+    }))
     : seedSources.slice(0, 10);
+
+  const sectorEntriesRaw = selectedPopularitySector === 'All Sectors'
+    ? sourceEntries
+    : Object.entries(sectorSourceAgg[selectedPopularitySector] || {}).sort((a, b) => b[1].score - a[1].score);
+
+  const topSectorSources = sectorEntriesRaw.slice(0, 10).map(([label, data]) => ({
+    label: `${label} (${data.tier})`,
+    score: Number(data.score.toFixed(2))
+  }));
 
   const maxSignalScore = topSignals[0]?.score || 1;
   const maxSourceScore = topSources[0]?.score || 1;
 
   summary.textContent = sourceEntries.length
-    ? 'Popularity is based on originating source prevalence in the current signal dataset.'
+    ? 'Popularity score combines source prevalence, recency decay, and credibility tiers from sources.json.'
     : 'No source prevalence data available yet. You can seed baseline rankings via popularity.json.';
 
   topSignalsEl.innerHTML = topSignals.length
@@ -1370,6 +1504,17 @@ function renderPopularityAnalysis() {
       </li>
     `).join('')
     : '<li class="pop-empty">No popularity data yet</li>';
+
+  const maxSectorScore = topSectorSources[0]?.score || 1;
+  topSectorSourcesEl.innerHTML = topSectorSources.length
+    ? topSectorSources.map(item => `
+      <li class="pop-row">
+        <span class="pop-label">${item.label}</span>
+        <span class="pop-bar"><span class="pop-bar-fill" style="width:${(item.score / maxSectorScore) * 100}%"></span></span>
+        <span class="pop-value">${item.score}</span>
+      </li>
+    `).join('')
+    : '<li class="pop-empty">No sector source data yet</li>';
 }
 
 function formatDate(d) {

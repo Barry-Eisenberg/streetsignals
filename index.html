@@ -300,7 +300,7 @@
       <div class="chart-card popularity-card">
         <div class="chart-card-header">
           <h3>Signal &amp; Source Popularity</h3>
-          <p id="popularitySummary">Popularity is based on originating source prevalence in the current signal dataset.</p>
+          <p id="popularitySummary">Popularity score combines source prevalence, recency decay, and credibility tiers from sources.json.</p>
         </div>
         <div class="popularity-grid">
           <div class="popularity-col">
@@ -310,6 +310,13 @@
           <div class="popularity-col">
             <h4>Top Sources</h4>
             <ol class="pop-list" id="popularityTopSources"></ol>
+          </div>
+          <div class="popularity-col">
+            <div class="popularity-col-header">
+              <h4>Top Sources by Sector</h4>
+              <select id="popularitySectorFilter" class="popularity-select" aria-label="Filter source popularity by sector"></select>
+            </div>
+            <ol class="pop-list" id="popularityTopSourcesBySector"></ol>
           </div>
         </div>
       </div>
