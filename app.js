@@ -632,7 +632,7 @@ let signalScoringMetricMode = 'count';
 let signalScoringColorMode = 'absolute';
 let signalScoringDimensionMode = 'initiative';
 let signalScoringFilter = null;
-let importanceTierMode = 'all';
+let importanceTierMode = 'priority';
 let dirCountryFilter = '';
 let countryDirSearch = '';
 let countryDirSort = 'signals';
@@ -775,9 +775,9 @@ const IMPORTANCE_MATERIALITY_WEIGHTS = {
 };
 
 const IMPORTANCE_THRESHOLDS = {
-  structural: 1.2,
-  material: 0.9,
-  context: 0.65
+  structural: 1.62,
+  material: 1.26,
+  context: 0.86
 };
 
 const IMPORTANCE_STAGE_MATERIALITY_CAP = 1.3;
@@ -1297,7 +1297,7 @@ function renderSignalScoringClearFilterButton() {
     matrixFilter ||
     signalTypeFilter ||
     countryFilter ||
-    importanceTierMode !== 'all' ||
+    importanceTierMode !== 'priority' ||
     searchQuery !== '' ||
     activeFilter !== 'all' ||
     dirSearch !== '' ||
@@ -1316,7 +1316,7 @@ function clearSignalScoringFilter() {
   matrixFilter = null;
   signalTypeFilter = '';
   countryFilter = '';
-  setImportanceTierMode('all');
+  setImportanceTierMode('priority');
   searchQuery = '';
   activeFilter = 'all';
   dirSearch = '';
@@ -2354,12 +2354,12 @@ function renderImportanceTierSelect() {
   const select = document.getElementById('importanceTierSelect');
   if (!select) return;
 
-  select.value = IMPORTANCE_TIER_FILTERS[importanceTierMode] ? importanceTierMode : 'all';
+  select.value = IMPORTANCE_TIER_FILTERS[importanceTierMode] ? importanceTierMode : 'priority';
 
   select.onchange = (event) => {
-    const mode = String(event.target.value || 'all').trim();
+    const mode = String(event.target.value || 'priority').trim();
     setImportanceTierMode(mode);
-    if (mode !== 'all') trackFilter('importance_tier', mode);
+    trackFilter('importance_tier', mode);
     renderSignals();
     renderDirectory();
     renderCountryDirectory();
@@ -3450,7 +3450,7 @@ function clearMatrixFilter() {
   matrixFilter = null;
   signalTypeFilter = '';
   countryFilter = '';
-  setImportanceTierMode('all');
+  setImportanceTierMode('priority');
   syncSignalTypeSelect();
   syncCountrySelects();
   renderSignals();
@@ -3513,7 +3513,7 @@ function resetAllFilters() {
   matrixFilter = null;
   signalTypeFilter = '';
   countryFilter = '';
-  setImportanceTierMode('all');
+  setImportanceTierMode('priority');
   syncSignalTypeSelect();
   syncCountrySelects();
   const searchInput = document.getElementById('searchInput');
@@ -3566,7 +3566,7 @@ function resetAllFilters() {
 function updateResetBars() {
   const hasDirectoryFilter = dirSearch !== '' || dirSort !== 'signals' || dirCountryFilter !== '';
   const hasCountryDirectoryFilter = countryDirSearch !== '' || countryDirSort !== 'signals' || countryDirTypeFilter !== '';
-  const hasLibraryFilter = searchQuery !== '' || activeFilter !== 'all' || matrixFilter !== null || signalTypeFilter !== '' || countryFilter !== '' || importanceTierMode !== 'all';
+  const hasLibraryFilter = searchQuery !== '' || activeFilter !== 'all' || matrixFilter !== null || signalTypeFilter !== '' || countryFilter !== '' || importanceTierMode !== 'priority';
   const hasAnyFilter = hasDirectoryFilter || hasCountryDirectoryFilter || hasLibraryFilter;
 
   const dirReset = document.getElementById('resetDirectoryFilters');
