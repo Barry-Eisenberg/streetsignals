@@ -441,6 +441,7 @@ let sourceCatalog = { byName: {}, byHost: {} };
 let selectedPopularitySector = 'All Sectors';
 let signalScoringMetricMode = 'strength';
 let signalScoringColorMode = 'absolute';
+let signalScoringFilter = null;
 
 function normalizeSourceKey(value) {
   return String(value || '').trim().toLowerCase();
@@ -679,6 +680,75 @@ function getDailySignalSnapshot(signals) {
   };
 }
 
+function getSignalScoringSignals() {
+  const base = getOperationalSignals();
+  if (!signalScoringFilter || typeof signalScoringFilter.predicate !== 'function') return base;
+  return base.filter(signal => {
+    try {
+      return Boolean(signalScoringFilter.predicate(signal));
+    } catch (_) {
+      return false;
+    }
+  });
+}
+
+function renderSignalScoringFilterChip() {
+  const chip = document.getElementById('signalScoringFilterChip');
+  const label = document.getElementById('signalScoringFilterChipLabel');
+  if (!chip || !label) return;
+
+  if (!signalScoringFilter) {
+    chip.style.display = 'none';
+    return;
+  }
+
+  label.textContent = signalScoringFilter.label || 'KPI filter applied';
+  chip.style.display = 'inline-flex';
+}
+
+function clearSignalScoringFilter() {
+  signalScoringFilter = null;
+  renderPopularityAnalysis();
+}
+
+function drillDownKPIToSignalMatrixByInstitutionType(institutionType, dateKey) {
+  const selectedType = String(institutionType || '').trim();
+  if (!selectedType) return;
+
+  const shortType = selectedType
+    .replace('Exchanges & Central Intermediaries', 'Exchanges')
+    .replace('Asset & Investment Management', 'Asset Mgmt')
+    .replace('Infrastructure & Technology', 'Infra & Tech');
+
+  const selectedDateKey = String(dateKey || '').trim();
+  const hasDateFilter = selectedDateKey !== '';
+  const label = hasDateFilter
+    ? `KPI filter: ${shortType} on ${selectedDateKey}`
+    : `KPI filter: ${shortType}`;
+
+  signalScoringFilter = {
+    label,
+    predicate: signal => {
+      if (signal.institution_type !== selectedType) return false;
+      if (!hasDateFilter) return true;
+      return getSignalDateKey(signal.date) === selectedDateKey;
+    }
+  };
+
+  signalScoringMetricMode = 'count';
+  closeKPIBreakdown();
+  openCollapsible('#signal-strength', 'signalStrengthBody');
+  openCollapsible('#signal-scoring', 'signalScoringBody');
+  renderPopularityAnalysis();
+
+  const target = document.getElementById('signal-scoring');
+  if (target) {
+    setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 120);
+  }
+
+  trackDrillDown('KPI Breakdown', 'Signal Intelligence Matrix');
+}
+
 function renderKPIs() {
   const el = document.getElementById('kpiStrip');
   const signals = getOperationalSignals();
@@ -751,7 +821,7 @@ function showKPIBreakdown(kpiId, activeCard) {
     html = `<div class="kpi-breakdown-header"><h3>${signals.length} Signals by Institution Type</h3><button class="kpi-breakdown-close" onclick="closeKPIBreakdown()">Close ✕</button></div>`;
     html += '<div class="kpi-breakdown-grid">';
     sorted.forEach(([type, count]) => {
-      html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="navigateToCatalogueByType('${type.replace(/'/g, "\\'")}')"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
+      html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="drillDownKPIToSignalMatrixByInstitutionType('${type.replace(/'/g, "\\'")}')"><span class="bd-label">${type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech')}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
     });
     html += '</div>';
     html += '<a href="#analytics" class="kpi-breakdown-link">View detailed analytics ↓</a>';
@@ -792,7 +862,7 @@ function showKPIBreakdown(kpiId, activeCard) {
       html += '<div class="kpi-breakdown-grid">';
       sorted.forEach(([type, count]) => {
         const label = type.replace('Exchanges & Central Intermediaries','Exchanges').replace('Asset & Investment Management','Asset Mgmt').replace('Infrastructure & Technology','Infra & Tech');
-        html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="navigateToCatalogueByType('${type.replace(/'/g, "\\'")}')"><span class="bd-label">${label}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
+        html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="drillDownKPIToSignalMatrixByInstitutionType('${type.replace(/'/g, "\\'")}','${snapshot.effectiveDateKey}')"><span class="bd-label">${label}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(count/max*100)}%"></span></span><span class="bd-value">${count}</span></a>`;
       });
       html += '</div>';
     }
@@ -1537,9 +1607,10 @@ function renderPopularityAnalysis() {
   }));
 
   window._signalStrengthMatrixDetails = cellDetails;
+  renderSignalScoringFilterChip();
 
   if (maxVal <= 0) {
-    container.innerHTML = '<div class="pop-empty">No signal strength data available</div>';
+    container.innerHTML = '<div class="pop-empty">No signal strength data available for this filter. <button type="button" class="matrix-filter-chip-clear" onclick="clearSignalScoringFilter()">Clear filter</button></div>';
     return;
   }
 
@@ -2319,6 +2390,9 @@ function resetAllFilters() {
   const searchInput = document.getElementById('searchInput');
   if (searchInput) searchInput.value = '';
 
+  // Reset Signal Intelligence matrix drilldown filter
+  signalScoringFilter = null;
+
   // Reset signal library filter
   activeFilter = 'all';
   const pills = document.querySelectorAll('.filter-pill');
@@ -2337,6 +2411,7 @@ function resetAllFilters() {
   // Re-render everything
   renderDirectory();
   renderSignals();
+  renderPopularityAnalysis();
 
   // Collapse all signal library categories back
   document.querySelectorAll('.category-section').forEach(s => s.classList.remove('cat-open'));

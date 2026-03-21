@@ -1766,6 +1766,11 @@
   color: var(--color-text-inverse);
 }
 
+.signal-scoring-filter-chip {
+  margin-top: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+
 /* ===== SECTIONS ===== */
 .category-section {
   margin-bottom: var(--space-4);
