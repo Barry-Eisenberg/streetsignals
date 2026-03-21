@@ -161,24 +161,14 @@ document.getElementById('signalScoringToggle')?.addEventListener('click', () => 
   trackSectionToggle('Signal Scoring', isOpen);
 });
 
-document.getElementById('signalVelocityToggle')?.addEventListener('click', () => {
-  const section = document.querySelector('#signal-velocity');
+document.getElementById('sourceQualityToggle')?.addEventListener('click', () => {
+  const section = document.querySelector('#source-quality');
   const isOpen = !section?.classList.contains('open');
-  toggleCollapsible('#signal-velocity', 'signalVelocityBody');
+  toggleCollapsible('#source-quality', 'sourceQualityBody');
   if (isOpen) {
-    setTimeout(renderSignalVelocityChart, 100);
+    setTimeout(renderSourceQualityDistribution, 100);
   }
-  trackSectionToggle('Signal Velocity', isOpen);
-});
-
-document.getElementById('tierBreakdownToggle')?.addEventListener('click', () => {
-  const section = document.querySelector('#tier-breakdown');
-  const isOpen = !section?.classList.contains('open');
-  toggleCollapsible('#tier-breakdown', 'tierBreakdownBody');
-  if (isOpen) {
-    setTimeout(renderTierBreakdownChart, 100);
-  }
-  trackSectionToggle('Tier Breakdown', isOpen);
+  trackSectionToggle('Source Quality Distribution', isOpen);
 });
 
 document.getElementById('methodologyToggle')?.addEventListener('click', () => {
@@ -208,6 +198,7 @@ document.addEventListener('click', (e) => {
   const href = link.getAttribute('href');
   if (href === '#signal-library' || href === '#intelligence') openCollapsible('.signal-library-section', 'libraryBody');
   if (href === '#directory') openCollapsible('#directory', 'directoryBody');
+  if (href === '#signal-strength') openCollapsible('#signal-strength', 'signalStrengthBody');
   if (href === '#analytics') openCollapsible('#analytics', 'analyticsBody');
   if (href === '#methodology') openCollapsible('#methodology', 'methodologyBody');
 });
@@ -610,8 +601,7 @@ Promise.all([
   renderFmiSchema();
   renderSignals();
   renderPopularityAnalysis();
-  renderSignalVelocityChart();
-  renderTierBreakdownChart();
+  renderSourceQualityDistribution();
   document.querySelectorAll('.reveal:not(.visible)').forEach(el => observer.observe(el));
 });
 
@@ -1253,6 +1243,7 @@ function navigateToCatalogueByType(institutionType) {
 // 6. HEATMAP
 function buildHeatmap(colors) {
   const container = document.getElementById('heatmapContainer');
+  if (!container) return;
   const signals = getOperationalSignals();
   const instTypes = ['Global Banks', 'Asset & Investment Management', 'Payments Providers', 'Exchanges & Central Intermediaries', 'Regulatory Agencies', 'Infrastructure & Technology'];
   const shortNames = ['Banks', 'Asset Mgmt', 'Payments', 'Exchanges', 'Regulators', 'Infra/Tech'];
@@ -1768,6 +1759,97 @@ function showSignalDetail(signalData) {
 function closeSignalDetail() {
   const panel = document.getElementById('signalDetailPanel');
   if (panel) panel.style.display = 'none';
+}
+
+function renderSourceQualityDistribution() {
+  const signalsCtx = document.getElementById('sourceQualitySignalsChart');
+  const sourcesCtx = document.getElementById('sourceQualitySourcesChart');
+  if (!signalsCtx || !sourcesCtx) return;
+
+  if (chartInstances.sourceQualitySignals) chartInstances.sourceQualitySignals.destroy();
+  if (chartInstances.sourceQualitySources) chartInstances.sourceQualitySources.destroy();
+
+  const signals = getOperationalSignals();
+  const tierSignalCounts = { Primary: 0, Secondary: 0, Tertiary: 0, Unclassified: 0 };
+  const tierSourceSets = { Primary: new Set(), Secondary: new Set(), Tertiary: new Set(), Unclassified: new Set() };
+
+  signals.forEach(signal => {
+    const source = getSignalSourceName(signal) || 'Unknown';
+    const meta = resolveSourceMeta(signal);
+    const tier = meta.tier || 'Unclassified';
+    tierSignalCounts[tier] = (tierSignalCounts[tier] || 0) + 1;
+    if (!tierSourceSets[tier]) tierSourceSets[tier] = new Set();
+    tierSourceSets[tier].add(source);
+  });
+
+  const labels = ['Primary', 'Secondary', 'Tertiary', 'Unclassified'];
+  const tierColors = {
+    Primary: '#00d4ff',
+    Secondary: '#7c5cff',
+    Tertiary: '#00cc88',
+    Unclassified: '#888888'
+  };
+  const textColor = getComputedStyle(document.documentElement).getPropertyValue('--color-text').trim();
+  const surfaceOffset = getComputedStyle(document.documentElement).getPropertyValue('--color-surface-offset').trim();
+
+  chartInstances.sourceQualitySignals = new Chart(signalsCtx, {
+    type: 'doughnut',
+    data: {
+      labels,
+      datasets: [{
+        data: labels.map(label => tierSignalCounts[label] || 0),
+        backgroundColor: labels.map(label => tierColors[label]),
+        borderColor: 'transparent',
+        borderWidth: 0
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      cutout: '58%',
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            color: textColor,
+            font: { family: "'Satoshi', 'Inter', sans-serif", size: 12 },
+            boxWidth: 12,
+            padding: 10
+          }
+        }
+      }
+    }
+  });
+
+  chartInstances.sourceQualitySources = new Chart(sourcesCtx, {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [{
+        label: 'Unique Sources',
+        data: labels.map(label => tierSourceSets[label]?.size || 0),
+        backgroundColor: labels.map(label => tierColors[label]),
+        borderRadius: 6
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: {
+          beginAtZero: true,
+          ticks: { color: textColor, font: { family: "'Satoshi', 'Inter', sans-serif", size: 12 } },
+          grid: { color: surfaceOffset }
+        },
+        y: {
+          ticks: { color: textColor, font: { family: "'Satoshi', 'Inter', sans-serif", size: 12 } },
+          grid: { display: false }
+        }
+      }
+    }
+  });
 }
 
 function renderSignalVelocityChart() {
