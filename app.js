@@ -1413,171 +1413,112 @@ function renderCard(signal, catKey) {
 }
 
 function renderPopularityAnalysis() {
-  const formatPopularityScore = (value) => {
-    const n = Number(value);
-    if (!Number.isFinite(n)) return '0';
-    return n.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 2 });
-  };
+  const container = document.getElementById('signalScoringMatrixContainer');
+  if (!container) return;
 
-  // Only update the scoring columns, not the title/description
-  const topSignalsEl = document.getElementById('popularityTopSignals');
-  const topSourcesEl = document.getElementById('popularityTopSources');
-  const sectorSelectEl = document.getElementById('popularitySectorFilter');
-  const topSectorSourcesEl = document.getElementById('popularityTopSourcesBySector');
-  if (!topSignalsEl || !topSourcesEl || !sectorSelectEl || !topSectorSourcesEl) return;
+  const formatScore = (value) => {
+    const n = Number(value);
+    if (!Number.isFinite(n)) return '0.0';
+    return n.toLocaleString('en-US', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+  };
 
   const signals = getOperationalSignals();
-  const sourceCounts = {};
-  const sourceAgg = {};
-  const sectorSourceAgg = {};
-  const sectorNames = new Set();
+  const instTypes = [
+    'Global Banks',
+    'Asset & Investment Management',
+    'Payments Providers',
+    'Exchanges & Central Intermediaries',
+    'Regulatory Agencies',
+    'Infrastructure & Technology'
+  ];
+  const shortNames = ['Banks', 'Asset Mgmt', 'Payments', 'Exchanges', 'Regulators', 'Infra/Tech'];
+  const initTypes = getMatrixInitiatives();
+  const shortInit = initTypes.map(name => name
+    .replace('Tokenized Securities / RWA', 'Tokenized Securities')
+    .replace('DLT / Blockchain Infrastructure', 'DLT / Blockchain')
+    .replace('Payment Infrastructure', 'Payment Infra')
+    .replace('Stablecoins & Deposit Tokens', 'Stablecoins')
+    .replace('Digital Asset Strategy', 'Digital Strategy'));
 
+  const sourceCounts = {};
   signals.forEach(signal => {
     const source = getSignalSourceName(signal);
-    const sector = String(signal.institution_type || 'Unclassified').trim() || 'Unclassified';
     if (!source) return;
-
-    sectorNames.add(sector);
     sourceCounts[source] = (sourceCounts[source] || 0) + 1;
-
-    const meta = resolveSourceMeta(signal);
-    const recencyWeight = getRecencyWeight(signal.date);
-    const weightedScore = (meta.weight || 0.9) * recencyWeight;
-
-    if (!sourceAgg[source]) {
-      sourceAgg[source] = {
-        score: 0,
-        count: 0,
-        tier: meta.tier,
-        latestTs: 0
-      };
-    }
-    sourceAgg[source].score += weightedScore;
-    sourceAgg[source].count += 1;
-    sourceAgg[source].latestTs = Math.max(sourceAgg[source].latestTs, new Date(signal.date || '').getTime() || 0);
-
-    if (!sectorSourceAgg[sector]) sectorSourceAgg[sector] = {};
-    if (!sectorSourceAgg[sector][source]) {
-      sectorSourceAgg[sector][source] = { score: 0, count: 0, tier: meta.tier };
-    }
-    sectorSourceAgg[sector][source].score += weightedScore;
-    sectorSourceAgg[sector][source].count += 1;
   });
 
-  const sourceEntries = Object.entries(sourceAgg).sort((a, b) => b[1].score - a[1].score);
+  const matrix = instTypes.map(() => initTypes.map(() => 0));
+  let maxVal = 0;
 
-  const signalEntries = signals
-    .map(signal => {
-      const source = getSignalSourceName(signal);
-      if (!source) return null;
-      const meta = resolveSourceMeta(signal);
-      const recencyWeight = getRecencyWeight(signal.date);
-      const sourceVolume = sourceCounts[source] || 0;
-      const score = sourceVolume * (meta.weight || 0.9) * recencyWeight;
-      return {
-        label: `${signal.institution}: ${signal.initiative}`,
-        source,
-        tier: meta.tier,
-        score,
-        dateValue: new Date(signal.date || '1970-01-01').getTime() || 0,
-        date: signal.date,
-        institution: signal.institution,
-        initiative: signal.initiative
-      };
-    })
-    .filter(item => item && item.score > 0)
-    .sort((a, b) => (b.score - a.score) || (b.dateValue - a.dateValue));
+  signals.forEach(signal => {
+    const rowIndex = instTypes.indexOf(signal.institution_type);
+    if (rowIndex < 0) return;
 
-  const sectorOptions = ['All Sectors', ...Array.from(sectorNames).sort((a, b) => a.localeCompare(b))];
-  if (!sectorOptions.includes(selectedPopularitySector)) {
-    selectedPopularitySector = 'All Sectors';
-  }
-  sectorSelectEl.innerHTML = sectorOptions.map(option => `
-    <option value="${option}" ${option === selectedPopularitySector ? 'selected' : ''}>${option}</option>
-  `).join('');
-  sectorSelectEl.onchange = () => {
-    selectedPopularitySector = sectorSelectEl.value;
-    renderPopularityAnalysis();
-  };
+    const source = getSignalSourceName(signal);
+    const sourceVolume = source ? (sourceCounts[source] || 1) : 1;
+    const meta = resolveSourceMeta(signal);
+    const recencyWeight = getRecencyWeight(signal.date);
+    const score = sourceVolume * (meta.weight || 0.9) * recencyWeight;
 
-  const seedSignals = Array.isArray(popularitySeed?.top_signals) ? popularitySeed.top_signals : [];
-  const seedSources = Array.isArray(popularitySeed?.top_sources) ? popularitySeed.top_sources : [];
-
-  const topSignals = signalEntries.length
-    ? signalEntries.slice(0, 10).map(item => ({
-        label: item.label,
-        score: Number(item.score.toFixed(2)),
-        source: item.source,
-        tier: item.tier,
-        date: item.date,
-        dateValue: item.dateValue,
-        institution: item.institution,
-        initiative: item.initiative
-      }))
-    : seedSignals.slice(0, 10);
-
-  const topSources = sourceEntries.length
-    ? sourceEntries.slice(0, 10).map(([label, data]) => ({
-      label: `${label} (${data.tier})`,
-      score: Number(data.score.toFixed(2))
-    }))
-    : seedSources.slice(0, 10);
-
-  const sectorEntriesRaw = selectedPopularitySector === 'All Sectors'
-    ? sourceEntries
-    : Object.entries(sectorSourceAgg[selectedPopularitySector] || {}).sort((a, b) => b[1].score - a[1].score);
-
-  const topSectorSources = sectorEntriesRaw.slice(0, 10).map(([label, data]) => ({
-    label: `${label} (${data.tier})`,
-    score: Number(data.score.toFixed(2))
-  }));
-
-  const maxSignalScore = topSignals[0]?.score || 1;
-  const maxSourceScore = topSources[0]?.score || 1;
-
-  topSignalsEl.innerHTML = topSignals.length
-    ? topSignals.map((item, idx) => `
-      <li class="pop-row pop-row-clickable" data-signal-index='${idx}'>
-        <span class="pop-label">${item.label}</span>
-        <span class="pop-bar"><span class="pop-bar-fill" style="width:${(item.score / maxSignalScore) * 100}%"></span></span>
-        <span class="pop-value">${formatPopularityScore(item.score)}</span>
-      </li>
-    `).join('')
-    : '<li class="pop-empty">No popularity data yet</li>';
-
-  // Store signal data globally for click access
-  window._topSignalsData = topSignals;
-  
-  // Add event listeners to signal rows
-  topSignalsEl.querySelectorAll('.pop-row-clickable').forEach(row => {
-    row.addEventListener('click', () => {
-      const idx = parseInt(row.getAttribute('data-signal-index'), 10);
-      if (window._topSignalsData && window._topSignalsData[idx]) {
-        showSignalDetail(window._topSignalsData[idx]);
-      }
+    (signal.initiative_types || []).forEach(init => {
+      const colIndex = initTypes.indexOf(init);
+      if (colIndex < 0) return;
+      matrix[rowIndex][colIndex] += score;
+      if (matrix[rowIndex][colIndex] > maxVal) maxVal = matrix[rowIndex][colIndex];
     });
   });
 
-  topSourcesEl.innerHTML = topSources.length
-    ? topSources.map(item => `
-      <li class="pop-row">
-        <span class="pop-label">${item.label}</span>
-        <span class="pop-bar"><span class="pop-bar-fill" style="width:${(item.score / maxSourceScore) * 100}%"></span></span>
-        <span class="pop-value">${formatPopularityScore(item.score)}</span>
-      </li>
-    `).join('')
-    : '<li class="pop-empty">No popularity data yet</li>';
+  if (maxVal <= 0) {
+    container.innerHTML = '<div class="pop-empty">No signal strength data available</div>';
+    return;
+  }
 
-  const maxSectorScore = topSectorSources[0]?.score || 1;
-  topSectorSourcesEl.innerHTML = topSectorSources.length
-    ? topSectorSources.map(item => `
-      <li class="pop-row">
-        <span class="pop-label">${item.label}</span>
-        <span class="pop-bar"><span class="pop-bar-fill" style="width:${(item.score / maxSectorScore) * 100}%"></span></span>
-        <span class="pop-value">${formatPopularityScore(item.score)}</span>
-      </li>
-    `).join('')
-    : '<li class="pop-empty">No sector source data yet</li>';
+  function cellColor(val) {
+    if (val === 0) return 'var(--color-surface-offset)';
+    const intensity = val / maxVal;
+    const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+    if (intensity < 0.25) return isLight ? 'rgba(0,136,170,0.10)' : 'rgba(0,212,255,0.08)';
+    if (intensity < 0.5) return isLight ? 'rgba(0,136,170,0.25)' : 'rgba(0,212,255,0.18)';
+    if (intensity < 0.75) return isLight ? 'rgba(0,136,170,0.45)' : 'rgba(0,212,255,0.35)';
+    return isLight ? 'rgba(0,136,170,0.7)' : 'rgba(0,212,255,0.55)';
+  }
+
+  function textCol(val) {
+    if (val === 0) return 'var(--color-text-faint)';
+    return (val / maxVal) > 0.5 ? '#fff' : 'var(--color-text)';
+  }
+
+  const rowTotals = matrix.map(row => row.reduce((sum, val) => sum + val, 0));
+  const colTotals = initTypes.map((_, ci) => matrix.reduce((sum, row) => sum + row[ci], 0));
+  const grandTotal = rowTotals.reduce((sum, val) => sum + val, 0);
+
+  let html = '<table class="heatmap-table"><thead><tr><th></th>';
+  shortInit.forEach(h => { html += `<th class="heatmap-col-header">${h}</th>`; });
+  html += '<th class="heatmap-col-header heatmap-total-header">Total</th>';
+  html += '</tr></thead><tbody>';
+
+  matrix.forEach((row, i) => {
+    html += `<tr><td class="heatmap-row-label">${shortNames[i]}</td>`;
+    row.forEach((val, ci) => {
+      if (val > 0) {
+        html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)};cursor:pointer" title="${instTypes[i]} x ${initTypes[ci]}: ${formatScore(val)} strength (click to view signals)" onclick="navigateToMatrixSelection('${instTypes[i]}','${initTypes[ci]}')">${formatScore(val)}</td>`;
+      } else {
+        html += `<td class="heatmap-cell" style="background:${cellColor(val)};color:${textCol(val)}" title="${instTypes[i]} x ${initTypes[ci]}: 0.0">-</td>`;
+      }
+    });
+    html += `<td class="heatmap-cell heatmap-total-cell">${formatScore(rowTotals[i])}</td>`;
+    html += '</tr>';
+  });
+
+  html += '<tr class="heatmap-totals-row"><td class="heatmap-row-label heatmap-total-label">Total</td>';
+  colTotals.forEach(val => {
+    html += `<td class="heatmap-cell heatmap-total-cell">${formatScore(val)}</td>`;
+  });
+  html += `<td class="heatmap-cell heatmap-grand-total">${formatScore(grandTotal)}</td>`;
+  html += '</tr>';
+  html += '</tbody></table>';
+
+  container.innerHTML = html;
 }
 
 function formatDate(d) {

@@ -136,8 +136,6 @@
     </div>
 
     <div class="library-body" id="signalStrengthBody" style="display:none;">
-      <!-- Signal Detail Panel (hidden until signal clicked) -->
-      <div class="signal-detail-panel" id="signalDetailPanel" style="display:none;"></div>
 
       <!-- Collapsible Signal Scoring subsection -->
       <section class="collapsible-section signal-scoring-subsection" id="signal-scoring">
@@ -155,23 +153,11 @@
         </div>
         <div class="library-body" id="signalScoringBody" style="display:none;">
           <div class="chart-row chart-row-single reveal">
-            <div class="chart-card popularity-card">
-              <div class="popularity-grid">
-                <div class="popularity-col">
-                  <h4>Top Signals</h4>
-                  <ol class="pop-list" id="popularityTopSignals"></ol>
-                </div>
-                <div class="popularity-col">
-                  <h4>Top Sources</h4>
-                  <ol class="pop-list" id="popularityTopSources"></ol>
-                </div>
-                <div class="popularity-col">
-                  <div class="popularity-col-header">
-                    <h4>Top Sources by Sector</h4>
-                    <select id="popularitySectorFilter" class="popularity-select" aria-label="Filter source popularity by sector"></select>
-                  </div>
-                  <ol class="pop-list" id="popularityTopSourcesBySector"></ol>
-                </div>
+            <div class="chart-card">
+              <div class="chart-card-header">
+                <p class="matrix-lead">Aggregate signal strength by institution class and initiative class. Values combine source prevalence, recency weighting, and source credibility.</p>
+              </div>
+              <div class="heatmap-container" id="signalScoringMatrixContainer"></div>
               </div>
             </div>
           </div>
