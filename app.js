@@ -3123,6 +3123,21 @@ function renderDataFreshnessStamp() {
   const stamp = document.getElementById('dataFreshnessStamp');
   if (!stamp) return;
 
+  if (!dataRefreshMeta.loadedAt && Array.isArray(allSignals) && allSignals.length > 0) {
+    const operationalSignals = allSignals.filter(s => !s._isBrief);
+    const latestSourceTimestamp = operationalSignals.reduce((maxTs, signal) => {
+      const ts = getSignalDateTimestamp(signal);
+      if (!Number.isFinite(ts)) return maxTs;
+      return Math.max(maxTs, ts);
+    }, 0);
+
+    dataRefreshMeta = {
+      loadedAt: new Date(),
+      latestSourceDate: latestSourceTimestamp > 0 ? new Date(latestSourceTimestamp) : null,
+      totalOperationalSignals: operationalSignals.length
+    };
+  }
+
   const loadedAtText = dataRefreshMeta.loadedAt
     ? dataRefreshMeta.loadedAt.toLocaleString('en-US', {
         month: 'short', day: 'numeric', year: 'numeric',
@@ -3543,6 +3558,7 @@ function renderSignals() {
   renderDirectory();
   renderCountryDirectory();
   renderPopularityAnalysis();
+  renderDataFreshnessStamp();
 }
 
 function renderCard(signal, catKey, _index, signalMeta = {}) {
