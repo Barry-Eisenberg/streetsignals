@@ -1,3 +1,74 @@
+/* ===== SIGNAL STRENGTH COLLAPSIBLE ===== */
+#signal-strength.collapsible-section {
+  margin-bottom: var(--space-12);
+}
+#signal-strength .library-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: var(--space-4) 0 var(--space-2) 0;
+  border-bottom: 1px solid var(--color-divider);
+}
+#signal-strength .library-header.open,
+#signal-strength.open .library-header {
+  border-bottom: none;
+}
+#signal-strength .library-header-left {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+#signal-strength .library-header-right {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+#signal-strength .library-chevron {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.2s;
+}
+#signal-strength.open .library-chevron {
+  transform: rotate(180deg);
+}
+#signalStrengthBody {
+  padding-top: var(--space-4);
+}
+
+/* Signal Scoring collapsible subsection */
+#signal-scoring.collapsible-section {
+  margin-bottom: var(--space-6);
+}
+#signal-scoring .signal-scoring-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: var(--space-3) 0 var(--space-2) 0;
+  border-bottom: 1px solid var(--color-divider);
+}
+#signal-scoring .signal-scoring-header-left {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+#signal-scoring .signal-scoring-header-right {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+#signal-scoring .library-chevron {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.2s;
+}
+#signal-scoring.open .library-chevron {
+  transform: rotate(180deg);
+}
+#signalScoringBody {
+  padding-top: var(--space-3);
+}
 /* ===== DESIGN TOKENS ===== */
 :root {
   /* Type Scale */
