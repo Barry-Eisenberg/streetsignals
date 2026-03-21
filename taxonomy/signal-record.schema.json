@@ -1,0 +1,137 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://streetsignals.nextfiadvisors.com/schemas/signal-record.schema.json",
+  "title": "Street Signals Record",
+  "description": "Normalized signal record used by Street Signals analytics. Institution types, initiative types, and FMI areas may be normalized client-side before rendering.",
+  "type": "object",
+  "required": [
+    "institution",
+    "institution_type",
+    "initiative",
+    "description",
+    "signal_type",
+    "initiative_types",
+    "fmi_areas",
+    "category",
+    "source_url",
+    "date",
+    "year"
+  ],
+  "properties": {
+    "institution": {
+      "type": "string",
+      "description": "Institution or publisher associated with the signal."
+    },
+    "institution_type": {
+      "type": "string",
+      "description": "Institution class. Raw values may be normalized into the six canonical classes used by analytics.",
+      "enum": [
+        "Asset & Investment Management",
+        "Central Banks & Regulators",
+        "Digital Asset Infrastructure",
+        "Exchanges & Central Intermediaries",
+        "Exchanges & Trading Venues",
+        "Financial Infrastructure Operators",
+        "Financial Services & Credit Rating Agencies",
+        "Global Banks",
+        "Global Payment Networks",
+        "Infrastructure & Technology",
+        "Payment Service Providers",
+        "Payments Providers",
+        "Regulatory Agencies"
+      ]
+    },
+    "initiative": {
+      "type": "string",
+      "description": "Short title of the initiative, article, announcement, or program."
+    },
+    "description": {
+      "type": "string",
+      "description": "Human-readable summary of the signal."
+    },
+    "signal_type": {
+      "type": "string",
+      "description": "Nature of the institutional signal.",
+      "enum": [
+        "Infrastructure Upgrade",
+        "Investment / M&A",
+        "Pilot / Trial",
+        "Platform / Infrastructure",
+        "Product Launch",
+        "Regulatory / Compliance Framework",
+        "Regulatory Action",
+        "Research / Report",
+        "Strategic Filing / Plan",
+        "Strategic Initiative",
+        "Strategic Partnership",
+        "Intelligence Brief"
+      ]
+    },
+    "initiative_types": {
+      "type": "array",
+      "description": "One or more initiative classifications. Aliases may be normalized to canonical values.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Tokenized Securities / RWA",
+          "DLT / Blockchain Infrastructure",
+          "Crypto / Digital Assets",
+          "Payment Infrastructure",
+          "Stablecoins & Deposit Tokens",
+          "CBDC",
+          "DeFi",
+          "Digital Asset Strategy",
+          "Interoperability & Standards",
+          "Settlement Infrastructure",
+          "Regulatory / Compliance",
+          "Cross-Border Payments",
+          "Stablecoins"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "fmi_areas": {
+      "type": "array",
+      "description": "Financial market infrastructure areas associated with the signal.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "global_banks",
+        "asset_management",
+        "payments",
+        "exchanges_intermediaries",
+        "regulators",
+        "ecosystem",
+        "intel_briefs"
+      ]
+    },
+    "source_name": {
+      "type": "string",
+      "description": "Optional human-readable source label if present in the raw record."
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "date": {
+      "type": "string",
+      "description": "Signal date in ISO-like date format.",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "year": {
+      "type": "string",
+      "pattern": "^[0-9]{4}$"
+    },
+    "auto_generated": {
+      "type": "boolean",
+      "description": "Optional flag indicating the record was machine-generated."
+    }
+  }
+}
