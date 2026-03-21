@@ -722,6 +722,178 @@ function getSignalStrengthScore(signal, sourceCounts, maxSourceCount) {
   return (meta.weight || 0.9) * recencyWeight * prevalenceWeight;
 }
 
+const IMPORTANCE_STAGE_BY_SIGNAL_TYPE = {
+  'Strategic Filing / Plan': 'Concept',
+  'Strategic Initiative': 'Concept',
+  'Research / Report': 'Concept',
+  'Pilot / Trial': 'Pilot',
+  'Product Launch': 'Production',
+  'Platform / Infrastructure': 'Structural',
+  'Regulatory Action': 'Structural',
+  'Regulatory / Compliance Framework': 'Structural',
+  'Strategic Partnership': 'Production',
+  'Investment / M&A': 'Production'
+};
+
+const IMPORTANCE_MATERIALITY_BY_SIGNAL_TYPE = {
+  'Strategic Filing / Plan': 'Medium',
+  'Strategic Initiative': 'Medium',
+  'Research / Report': 'Low',
+  'Pilot / Trial': 'Medium',
+  'Product Launch': 'High',
+  'Platform / Infrastructure': 'Very High',
+  'Regulatory Action': 'Very High',
+  'Regulatory / Compliance Framework': 'High',
+  'Strategic Partnership': 'Medium',
+  'Investment / M&A': 'High'
+};
+
+const IMPORTANCE_STAGE_WEIGHTS = {
+  Concept: 0.5,
+  Pilot: 0.75,
+  Production: 1.0,
+  Structural: 1.2,
+  Unknown: 0.7
+};
+
+const IMPORTANCE_MATERIALITY_WEIGHTS = {
+  Low: 0.8,
+  Medium: 1.0,
+  High: 1.15,
+  'Very High': 1.3,
+  Unknown: 0.85
+};
+
+const IMPORTANCE_THRESHOLDS = {
+  structural: 1.2,
+  material: 0.9,
+  context: 0.65
+};
+
+const IMPORTANCE_STAGE_MATERIALITY_CAP = 1.3;
+
+function getSignalStage(signal) {
+  const explicitStage = String(signal?.signal_stage || '').trim();
+  if (explicitStage) return explicitStage;
+
+  const type = String(signal?.signal_type || '').trim();
+  return IMPORTANCE_STAGE_BY_SIGNAL_TYPE[type] || 'Unknown';
+}
+
+function getSignalMateriality(signal) {
+  const explicitMateriality = String(signal?.signal_materiality || '').trim();
+  if (explicitMateriality) return explicitMateriality;
+
+  const type = String(signal?.signal_type || '').trim();
+  return IMPORTANCE_MATERIALITY_BY_SIGNAL_TYPE[type] || 'Unknown';
+}
+
+function mapImportanceTier(score) {
+  if (score >= IMPORTANCE_THRESHOLDS.structural) return 'Structural';
+  if (score >= IMPORTANCE_THRESHOLDS.material) return 'Material';
+  if (score >= IMPORTANCE_THRESHOLDS.context) return 'Context';
+  return 'Noise';
+}
+
+function applyImportanceTierCaps(tier, stage, sourceTier) {
+  if ((sourceTier === 'Tertiary' || sourceTier === 'Unclassified') && tier === 'Structural') {
+    return 'Material';
+  }
+
+  if ((stage === 'Concept' || stage === 'Pilot') && tier === 'Structural') {
+    return 'Material';
+  }
+
+  return tier;
+}
+
+function getImportanceSourcePrevalenceWeight(sourceName, sourceCounts, maxSourceCount) {
+  if (!sourceName) return 1;
+  const count = Math.max(1, sourceCounts[sourceName] || 1);
+  const maxCount = Math.max(1, maxSourceCount || 1);
+  const normalized = Math.log1p(count) / Math.log1p(maxCount);
+  return 1 + (0.1 * normalized);
+}
+
+function computeSignalImportance(signal, sourceCounts, maxSourceCount) {
+  const source = getSignalSourceName(signal);
+  const sourceMeta = resolveSourceMeta(signal);
+
+  const sourceTier = sourceMeta.tier || 'Unclassified';
+  const credibilityWeight = sourceMeta.weight || 0.7;
+  const recencyWeight = getRecencyWeight(signal.date);
+  const sourcePrevalenceWeight = getImportanceSourcePrevalenceWeight(source, sourceCounts, maxSourceCount);
+
+  const stage = getSignalStage(signal);
+  const materiality = getSignalMateriality(signal);
+
+  const stageWeight = IMPORTANCE_STAGE_WEIGHTS[stage] || IMPORTANCE_STAGE_WEIGHTS.Unknown;
+  const materialityWeight = IMPORTANCE_MATERIALITY_WEIGHTS[materiality] || IMPORTANCE_MATERIALITY_WEIGHTS.Unknown;
+
+  let stageMaterialityWeight = stageWeight * materialityWeight;
+  if (stageWeight >= 1.0 && materialityWeight >= 1.15) {
+    stageMaterialityWeight = Math.min(stageMaterialityWeight, IMPORTANCE_STAGE_MATERIALITY_CAP);
+  }
+
+  const rawImportanceScore = credibilityWeight * recencyWeight * sourcePrevalenceWeight * stageMaterialityWeight;
+  const metadataPenaltyApplied = stage === 'Unknown' || materiality === 'Unknown';
+  const importanceScore = metadataPenaltyApplied ? rawImportanceScore * 0.9 : rawImportanceScore;
+  const mappedTier = mapImportanceTier(importanceScore);
+  const tier = applyImportanceTierCaps(mappedTier, stage, sourceTier);
+
+  return {
+    importanceScore,
+    rawImportanceScore,
+    tier,
+    stage,
+    materiality,
+    sourceTier,
+    credibilityWeight,
+    recencyWeight,
+    sourcePrevalenceWeight,
+    stageWeight,
+    materialityWeight,
+    stageMaterialityWeight,
+    metadataPenaltyApplied
+  };
+}
+
+function recomputeSignalImportanceScores() {
+  const signals = getOperationalSignals();
+  const sourceCounts = {};
+
+  signals.forEach(signal => {
+    const source = getSignalSourceName(signal);
+    if (!source) return;
+    sourceCounts[source] = (sourceCounts[source] || 0) + 1;
+  });
+
+  const maxSourceCount = Math.max(1, ...Object.values(sourceCounts));
+  signals.forEach(signal => {
+    signal._importance = computeSignalImportance(signal, sourceCounts, maxSourceCount);
+  });
+}
+
+function getSignalImportance(signal) {
+  if (signal && signal._importance) return signal._importance;
+
+  return {
+    importanceScore: 0,
+    rawImportanceScore: 0,
+    tier: 'Noise',
+    stage: 'Unknown',
+    materiality: 'Unknown',
+    sourceTier: 'Unclassified',
+    credibilityWeight: 0.7,
+    recencyWeight: 0.7,
+    sourcePrevalenceWeight: 1,
+    stageWeight: IMPORTANCE_STAGE_WEIGHTS.Unknown,
+    materialityWeight: IMPORTANCE_MATERIALITY_WEIGHTS.Unknown,
+    stageMaterialityWeight: IMPORTANCE_STAGE_WEIGHTS.Unknown * IMPORTANCE_MATERIALITY_WEIGHTS.Unknown,
+    metadataPenaltyApplied: true
+  };
+}
+
 function setSignalScoringMetricMode(mode) {
   if (!['strength', 'count'].includes(mode)) return;
   signalScoringMetricMode = mode;
@@ -967,6 +1139,7 @@ function loadAndRenderData() {
       .map(normalizeSignal)
       .sort((a, b) => new Date(b.date || '2024-01-01') - new Date(a.date || '2024-01-01'));
 
+    recomputeSignalImportanceScores();
     renderKPIs();
     renderDirectory();
     renderCountryDirectory();
