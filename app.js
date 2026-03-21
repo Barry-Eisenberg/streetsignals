@@ -2627,6 +2627,12 @@ function renderSignals() {
   container.innerHTML = html;
   document.querySelectorAll('.reveal:not(.visible)').forEach(el => observer.observe(el));
 
+  document.querySelectorAll('.signal-thermo-fill').forEach(fill => {
+    const rawScore = Number(fill.dataset.momentumScore || 0);
+    const score = Math.max(0, Math.min(100, rawScore));
+    fill.style.width = `${score}%`;
+  });
+
   document.querySelectorAll('.description-expand-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
@@ -2680,7 +2686,13 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
       </div>
       <div class="signal-initiative">${signal.initiative || ''}</div>
       <div class="signal-meta-chips">
-        <span class="signal-chip signal-chip-momentum momentum-${momentum.cssClass}" title="Momentum score ${Math.round(momentum.score)}/100">${momentum.status} ${Math.round(momentum.score)}</span>
+        <span class="signal-chip signal-chip-momentum momentum-${momentum.cssClass}" title="Momentum score ${Math.round(momentum.score)}/100">
+          <span class="signal-momentum-label">${momentum.status}</span>
+          <span class="signal-thermo" aria-hidden="true">
+            <span class="signal-thermo-fill momentum-${momentum.cssClass}" data-momentum-score="${Math.round(momentum.score)}"></span>
+          </span>
+          <span class="signal-momentum-score">${Math.round(momentum.score)}</span>
+        </span>
         <span class="signal-chip signal-chip-rank" title="Initiative relevance rank in current catalogue view">Initiative ${initiativeRankText}</span>
         <span class="signal-chip signal-chip-rank" title="Institution segment rank in current catalogue view">Segment ${institutionRankText}</span>
       </div>

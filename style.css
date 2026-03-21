@@ -2091,6 +2091,8 @@
 .signal-chip-momentum {
   color: var(--color-text);
   background: var(--color-surface-offset);
+  gap: 6px;
+  min-width: 148px;
 }
 
 .signal-chip-momentum.momentum-accelerating {
@@ -2114,6 +2116,49 @@
 .signal-chip-rank {
   color: var(--color-text-muted);
   background: var(--color-surface-offset);
+}
+
+.signal-momentum-label {
+  font-size: 9px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.signal-thermo {
+  position: relative;
+  width: 54px;
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  overflow: hidden;
+}
+
+.signal-thermo-fill {
+  display: block;
+  height: 100%;
+  width: 0;
+  border-radius: 999px;
+  transition: width 0.35s ease;
+  background: linear-gradient(90deg, #4aa7ff 0%, #ffdd55 55%, #ff6b4a 100%);
+}
+
+.signal-thermo-fill.momentum-accelerating {
+  box-shadow: 0 0 8px rgba(255, 140, 66, 0.45);
+}
+
+.signal-thermo-fill.momentum-stable {
+  box-shadow: 0 0 6px rgba(0, 212, 255, 0.35);
+}
+
+.signal-thermo-fill.momentum-cooling {
+  background: linear-gradient(90deg, #5d86ff 0%, #7cb7ff 75%, #a8c9ff 100%);
+  box-shadow: 0 0 6px rgba(124, 183, 255, 0.35);
+}
+
+.signal-momentum-score {
+  font-variant-numeric: tabular-nums;
+  font-size: 10px;
 }
 .signal-description {
   font-size: var(--text-sm);
