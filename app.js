@@ -635,6 +635,10 @@ let signalScoringFilter = null;
 let momentumDebugMode = false;
 const DEFAULT_IMPORTANCE_TIER_MODE = 'all';
 const DEFAULT_PERSONA = 'all';
+const SIGNAL_MAX_AGE_DAYS = 60;
+const ENABLE_EXTERNAL_CONTEXT_MODIFIER = true;
+const EXTERNAL_CONTEXT_MODIFIER_MIN = 0.9;
+const EXTERNAL_CONTEXT_MODIFIER_MAX = 1.1;
 let importanceTierMode = DEFAULT_IMPORTANCE_TIER_MODE;
 let selectedPersona = DEFAULT_PERSONA;
 let dirCountryFilter = '';
@@ -741,6 +745,8 @@ function getPersonaScoreDetails(signal, lens = selectedPersona) {
       useCaseBoost: 0,
       importanceBoost: 0,
       antiPenalty: 0,
+      externalModifier: 1,
+      externalConfidence: 'Unavailable',
       recencyWeight: 1,
       recencyFreshnessWeight: 1,
       recencyDurabilityFloor: 0,
@@ -754,6 +760,7 @@ function getPersonaScoreDetails(signal, lens = selectedPersona) {
   const useCase = inferSignalUseCase(signal);
   const importance = getSignalImportance(signal);
   const recencyProfile = getPersonaRecencyProfile(signal, importance.stage, importance.materiality);
+  const externalContext = getExternalMarketContext(signal, lens);
 
   const primaryHits = Math.min(4, countKeywordHits(corpus, cfg.primaryKeywords));
   const secondaryHits = Math.min(3, countKeywordHits(corpus, cfg.secondaryKeywords));
@@ -780,7 +787,8 @@ function getPersonaScoreDetails(signal, lens = selectedPersona) {
   preRecencyScore += useCaseBoost;
   preRecencyScore += importanceBoost;
 
-  const score = (preRecencyScore * recencyProfile.recencyWeight) - antiPenalty;
+  const externalModifier = getExternalScoreModifier(signal, lens, useCase, externalContext);
+  const score = ((preRecencyScore * recencyProfile.recencyWeight) - antiPenalty) * externalModifier;
 
   return {
     score: Math.max(0, Number(score.toFixed(2))),
@@ -793,6 +801,8 @@ function getPersonaScoreDetails(signal, lens = selectedPersona) {
     useCaseBoost,
     importanceBoost,
     antiPenalty,
+    externalModifier,
+    externalConfidence: externalContext.confidence || 'Unavailable',
     recencyWeight: recencyProfile.recencyWeight,
     recencyFreshnessWeight: recencyProfile.freshnessWeight,
     recencyDurabilityFloor: recencyProfile.durabilityFloor,
@@ -1081,6 +1091,75 @@ function getExternalMarketContext(signal, persona = selectedPersona) {
     confidence: benchmark.confidence,
     summary: `${benchmark.label} is ${trendPrefix}${trendAbs}% over 30d; ${personaLabel} context confidence: ${benchmark.confidence}.`
   };
+}
+
+function getExternalScoreModifier(signal, persona = selectedPersona, useCase = inferSignalUseCase(signal), externalContext = null) {
+  if (!ENABLE_EXTERNAL_CONTEXT_MODIFIER) return 1;
+
+  const context = externalContext || getExternalMarketContext(signal, persona);
+  if (!context.available) return 1;
+
+  const trendPct = Number(context.trend30dPct || 0);
+  const trendAdjustment = Math.max(-0.06, Math.min(0.06, trendPct * 0.006));
+  const confidenceAdjustmentMap = {
+    'Strongly Aligned': 0.03,
+    Aligned: 0.015,
+    Contextual: 0,
+    Divergent: -0.03,
+    Unavailable: 0
+  };
+  const confidenceAdjustment = confidenceAdjustmentMap[context.confidence] ?? 0;
+
+  let personaUseCaseAdjustment = 0;
+  if (persona !== DEFAULT_PERSONA && PERSONA_OPTIONS[persona]) {
+    personaUseCaseAdjustment = (PERSONA_OPTIONS[persona].preferredUseCases || []).includes(useCase) ? 0.01 : -0.01;
+  }
+
+  const modifier = 1 + trendAdjustment + confidenceAdjustment + personaUseCaseAdjustment;
+  return Number(Math.max(EXTERNAL_CONTEXT_MODIFIER_MIN, Math.min(EXTERNAL_CONTEXT_MODIFIER_MAX, modifier)).toFixed(3));
+}
+
+function getSignalSourceDateRaw(signal) {
+  return String(signal?.source_date || signal?.published_at || signal?.created_at || signal?.date || '').trim();
+}
+
+function getSignalDateTimestamp(signal) {
+  const rawDate = getSignalSourceDateRaw(signal);
+  if (!rawDate) return null;
+  const parsed = Date.parse(rawDate);
+  return Number.isFinite(parsed) ? parsed : null;
+}
+
+function isSignalWithinRecencyWindow(signal, maxAgeDays = SIGNAL_MAX_AGE_DAYS) {
+  const timestamp = getSignalDateTimestamp(signal);
+  if (!timestamp) return true;
+  const ageDays = Math.floor((Date.now() - timestamp) / 86400000);
+  return ageDays <= maxAgeDays;
+}
+
+function formatExactSignalDate(signal) {
+  const rawDate = getSignalSourceDateRaw(signal);
+  if (!rawDate) return 'Date unavailable';
+
+  const dt = new Date(rawDate);
+  if (Number.isNaN(dt.getTime())) return rawDate;
+
+  const hasTime = /T\d{2}:\d{2}|\d{2}:\d{2}/.test(rawDate);
+  if (hasTime) {
+    return dt.toLocaleString('en-US', {
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+      hour: 'numeric',
+      minute: '2-digit'
+    });
+  }
+
+  return dt.toLocaleDateString('en-US', {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric'
+  });
 }
 
 function getSignalThemeKeys(signal) {
@@ -1680,7 +1759,7 @@ function loadJsonWithFallback(path, fallback) {
 }
 
 function getOperationalSignals() {
-  return allSignals.filter(s => !s._isBrief);
+  return allSignals.filter(s => !s._isBrief && isSignalWithinRecencyWindow(s));
 }
 
 function getCatalogueSignals(options = {}) {
@@ -3113,11 +3192,11 @@ function renderCatalogueSortNote() {
   if (!note) return;
 
   if (selectedPersona !== DEFAULT_PERSONA) {
-    note.textContent = `Sorted by ${getPersonaLabel(selectedPersona)} relevance first, then most recent date and signal strength (importance score).`;
+    note.textContent = `Sorted by ${getPersonaLabel(selectedPersona)} relevance first, then most recent date and signal strength (importance score). Showing last ${SIGNAL_MAX_AGE_DAYS} days only.`;
     return;
   }
 
-  note.textContent = 'Default catalogue sort order: most recent date first, then signal strength (importance score).';
+  note.textContent = `Default catalogue sort order: most recent date first, then signal strength (importance score). Showing last ${SIGNAL_MAX_AGE_DAYS} days only.`;
 }
 
 function renderPersonaSelect() {
@@ -3129,6 +3208,7 @@ function renderPersonaSelect() {
       const mode = btn.dataset.persona || DEFAULT_PERSONA;
       setPersona(mode);
       syncPersonaSelect();
+      openCollapsible('.signal-library-section', 'libraryBody');
       trackFilter('audience_lens', selectedPersona);
       renderCatalogueSortNote();
       renderSignals();
@@ -3136,6 +3216,11 @@ function renderPersonaSelect() {
       renderCountryDirectory();
       renderPopularityAnalysis();
       updateResetBars();
+
+      const target = document.getElementById('signal-library');
+      if (target && typeof target.scrollIntoView === 'function') {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
     };
   });
   syncPersonaSelect();
@@ -3221,7 +3306,7 @@ function renderPrioritySignalsStrip() {
 
   topSignals.forEach(signal => {
     const importance = getSignalImportance(signal);
-    const date = formatDate(signal.date);
+    const date = formatExactSignalDate(signal);
     const insight = buildSignalDirectionalInsight(signal, importance);
     const marketContext = getExternalMarketContext(signal, selectedPersona);
     const initiatives = Array.isArray(signal.initiative_types) ? signal.initiative_types.slice(0, 1) : [];
@@ -3235,16 +3320,16 @@ function renderPrioritySignalsStrip() {
       <div class="priority-signal-card">
         <div class="priority-signal-card-header">
           <div class="priority-signal-card-institution">
-            <span class="priority-signal-badge">Structural</span>
+            <span class="priority-signal-badge" title="Structural tier signal under current market baseline">Structural</span>
             <span class="priority-signal-card-institution-name">${signal.institution}</span>
           </div>
-          <span class="priority-signal-card-date">${date}</span>
+          <span class="priority-signal-card-date" title="Source publication date">${escapeHtml(date)}</span>
         </div>
         <div class="priority-signal-card-initiative">${initiativeText}</div>
         <div class="priority-signal-market-context">
           ${marketContext.available
-            ? `<span class="priority-signal-market-chip">${escapeHtml(marketContext.segmentLabel)} ${escapeHtml(marketContext.trendLabel)} 30d</span>
-               <span class="priority-signal-market-confidence">${escapeHtml(marketContext.confidence)}</span>`
+            ? `<span class="priority-signal-market-chip" title="${escapeHtml(marketContext.source)} as of ${escapeHtml(marketContext.asOf)}">${escapeHtml(marketContext.segmentLabel)} ${escapeHtml(marketContext.trendLabel)} 30d</span>
+               <span class="priority-signal-market-confidence" title="External context confidence classification">${escapeHtml(marketContext.confidence)}</span>`
             : `<span class="priority-signal-market-unavailable">Market context unavailable</span>`}
         </div>
         <div class="priority-signal-card-insight">${escapeHtml(insight)}</div>
@@ -3311,7 +3396,7 @@ function renderSignals() {
   for (const [catKey, items] of Object.entries(grouped)) {
     const cat = CATEGORIES[catKey];
     // Auto-open if filter is active for this category, else collapsed
-    const isOpen = activeFilter === catKey;
+    const isOpen = activeFilter === catKey || selectedPersona !== DEFAULT_PERSONA;
     html += `
       <section class="category-section cat-${catKey}${isOpen ? ' cat-open' : ''}" id="${catKey}">
         <div class="category-header sector-banner" onclick="this.parentElement.classList.toggle('cat-open')">
@@ -3361,7 +3446,7 @@ function renderSignals() {
 }
 
 function renderCard(signal, catKey, _index, signalMeta = {}) {
-  const date = formatDate(signal.date);
+  const date = formatExactSignalDate(signal);
   const hasLong = signal.description && signal.description.length > 200;
   const url = signal.source_url || '#';
   const domain = url !== '#' ? new URL(url).hostname.replace('www.','') : '';
@@ -3423,7 +3508,7 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
     <div class="signal-card" data-signal-key="${signalKey}">
       <div class="signal-card-top">
         <div class="signal-institution"><span class="dot"></span>${signal.institution}</div>
-        <span class="signal-date">${date}</span>
+        <span class="signal-date" title="Source publication date">${escapeHtml(date)}</span>
       </div>
       <div class="signal-initiative">${signal.initiative || ''}</div>
       <div class="signal-meta-chips">
