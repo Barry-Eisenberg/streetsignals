@@ -125,76 +125,6 @@ function getSignalKey(signal) {
   return `${String(signal.institution || '').trim()}|${String(signal.initiative || '').trim()}`.toLowerCase();
 }
 
-function getPopularityStore() {
-  try {
-    const raw = localStorage.getItem('streetsignals_popularity_v1');
-    const parsed = raw ? JSON.parse(raw) : null;
-    if (parsed && typeof parsed === 'object') return parsed;
-  } catch (_) {
-    // Ignore malformed local storage payloads.
-  }
-  return { signals: {}, sources: {} };
-}
-
-function savePopularityStore(store) {
-  try {
-    localStorage.setItem('streetsignals_popularity_v1', JSON.stringify(store));
-  } catch (_) {
-    // Ignore storage failures (private mode/quota).
-  }
-}
-
-function recordPopularityInteraction(signal, interactionType) {
-  if (!signal) return;
-
-  const weights = {
-    card_view: 1,
-    detail_expand: 0.5,
-    source_click: 2
-  };
-
-  const key = getSignalKey(signal);
-  const source = getSignalSourceName(signal);
-  const store = getPopularityStore();
-
-  if (!store.signals[key]) {
-    store.signals[key] = {
-      institution: signal.institution || '',
-      initiative: signal.initiative || '',
-      source_name: source || '',
-      card_view: 0,
-      detail_expand: 0,
-      source_click: 0,
-      score: 0,
-      updated_at: Date.now()
-    };
-  }
-
-  store.signals[key][interactionType] = (store.signals[key][interactionType] || 0) + 1;
-  store.signals[key].score += weights[interactionType] || 0;
-  store.signals[key].updated_at = Date.now();
-
-  if (source) {
-    if (!store.sources[source]) {
-      store.sources[source] = { card_view: 0, detail_expand: 0, source_click: 0, score: 0, updated_at: Date.now() };
-    }
-    store.sources[source][interactionType] = (store.sources[source][interactionType] || 0) + 1;
-    store.sources[source].score += weights[interactionType] || 0;
-    store.sources[source].updated_at = Date.now();
-  }
-
-  savePopularityStore(store);
-
-  if (window.trackEvent) {
-    window.trackEvent('signal_engagement', {
-      interaction_type: interactionType,
-      signal_key: key,
-      source_name: source || 'unknown',
-      institution: signal.institution || 'unknown'
-    });
-  }
-}
-
 // ===== SIGNAL LIBRARY TOGGLE =====
 document.getElementById('libraryToggle')?.addEventListener('click', () => {
   const section = document.querySelector('.signal-library-section');
@@ -1340,43 +1270,12 @@ function renderSignals() {
   container.innerHTML = html;
   document.querySelectorAll('.reveal:not(.visible)').forEach(el => observer.observe(el));
 
-  document.querySelectorAll('.signal-card').forEach(card => {
-    card.addEventListener('click', (e) => {
-      if (e.target.closest('a, button')) return;
-      const key = decodeURIComponent(card.dataset.signalKey || '');
-      const signal = allSignals.find(s => getSignalKey(s) === key);
-      if (signal) {
-        recordPopularityInteraction(signal, 'card_view');
-        renderPopularityAnalysis();
-      }
-    });
-  });
-
-  document.querySelectorAll('.signal-source').forEach(link => {
-    link.addEventListener('click', () => {
-      const key = decodeURIComponent(link.dataset.signalKey || '');
-      const signal = allSignals.find(s => getSignalKey(s) === key);
-      if (signal) {
-        recordPopularityInteraction(signal, 'source_click');
-        renderPopularityAnalysis();
-      }
-    });
-  });
-
   document.querySelectorAll('.expand-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
       const card = btn.closest('.signal-card');
       card.classList.toggle('expanded');
       btn.textContent = card.classList.contains('expanded') ? 'Show less' : 'Read more';
-      if (card.classList.contains('expanded')) {
-        const key = decodeURIComponent(card.dataset.signalKey || '');
-        const signal = allSignals.find(s => getSignalKey(s) === key);
-        if (signal) {
-          recordPopularityInteraction(signal, 'detail_expand');
-          renderPopularityAnalysis();
-        }
-      }
     });
   });
 }
@@ -1410,33 +1309,47 @@ function renderPopularityAnalysis() {
   const topSourcesEl = document.getElementById('popularityTopSources');
   if (!summary || !topSignalsEl || !topSourcesEl) return;
 
-  const store = getPopularityStore();
-  const signalEntries = Object.entries(store.signals || {}).sort((a, b) => (b[1].score || 0) - (a[1].score || 0));
-  const sourceEntries = Object.entries(store.sources || {}).sort((a, b) => (b[1].score || 0) - (a[1].score || 0));
+  const signals = getOperationalSignals();
+  const sourceCounts = {};
+
+  signals.forEach(signal => {
+    const source = getSignalSourceName(signal);
+    if (!source) return;
+    sourceCounts[source] = (sourceCounts[source] || 0) + 1;
+  });
+
+  const sourceEntries = Object.entries(sourceCounts).sort((a, b) => b[1] - a[1]);
+
+  const signalEntries = signals
+    .map(signal => {
+      const source = getSignalSourceName(signal);
+      const score = source ? (sourceCounts[source] || 0) : 0;
+      return {
+        label: `${signal.institution}: ${signal.initiative}`,
+        score,
+        dateValue: new Date(signal.date || '1970-01-01').getTime() || 0
+      };
+    })
+    .filter(item => item.score > 0)
+    .sort((a, b) => (b.score - a.score) || (b.dateValue - a.dateValue));
 
   const seedSignals = Array.isArray(popularitySeed?.top_signals) ? popularitySeed.top_signals : [];
   const seedSources = Array.isArray(popularitySeed?.top_sources) ? popularitySeed.top_sources : [];
 
   const topSignals = signalEntries.length
-    ? signalEntries.slice(0, 10).map(([_, v]) => ({
-      label: `${v.institution}: ${v.initiative}`,
-      score: Number((v.score || 0).toFixed(1))
-    }))
+    ? signalEntries.slice(0, 10).map(item => ({ label: item.label, score: item.score }))
     : seedSignals.slice(0, 10);
 
   const topSources = sourceEntries.length
-    ? sourceEntries.slice(0, 10).map(([sourceName, v]) => ({
-      label: sourceName,
-      score: Number((v.score || 0).toFixed(1))
-    }))
+    ? sourceEntries.slice(0, 10).map(([label, score]) => ({ label, score }))
     : seedSources.slice(0, 10);
 
   const maxSignalScore = topSignals[0]?.score || 1;
   const maxSourceScore = topSources[0]?.score || 1;
 
-  summary.textContent = signalEntries.length || sourceEntries.length
-    ? 'Popularity score is based on on-site interactions: card views, detail expands, and source link clicks.'
-    : 'Popularity will appear once users interact with signals. You can also seed baseline rankings via popularity.json.';
+  summary.textContent = sourceEntries.length
+    ? 'Popularity is based on originating source prevalence in the current signal dataset.'
+    : 'No source prevalence data available yet. You can seed baseline rankings via popularity.json.';
 
   topSignalsEl.innerHTML = topSignals.length
     ? topSignals.map(item => `
