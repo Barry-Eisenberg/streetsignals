@@ -509,6 +509,22 @@ function getRecencyWeight(dateValue) {
   return 0.6 + (0.4 * decay);
 }
 
+function getSourcePrevalenceWeight(sourceName, sourceCounts, maxSourceCount) {
+  if (!sourceName) return 1;
+  const count = Math.max(1, sourceCounts[sourceName] || 1);
+  const maxCount = Math.max(1, maxSourceCount || 1);
+  const normalized = Math.log1p(count) / Math.log1p(maxCount);
+  return 1 + (0.35 * normalized);
+}
+
+function getSignalStrengthScore(signal, sourceCounts, maxSourceCount) {
+  const source = getSignalSourceName(signal);
+  const meta = resolveSourceMeta(signal);
+  const recencyWeight = getRecencyWeight(signal.date);
+  const prevalenceWeight = getSourcePrevalenceWeight(source, sourceCounts, maxSourceCount);
+  return (meta.weight || 0.9) * recencyWeight * prevalenceWeight;
+}
+
 function mapIntelBriefsToSignals(briefs) {
   return briefs.map(b => ({
     institution: 'NextFi Advisors',
@@ -1446,6 +1462,7 @@ function renderPopularityAnalysis() {
     if (!source) return;
     sourceCounts[source] = (sourceCounts[source] || 0) + 1;
   });
+  const maxSourceCount = Math.max(1, ...Object.values(sourceCounts));
 
   const matrix = instTypes.map(() => initTypes.map(() => 0));
   let maxVal = 0;
@@ -1454,11 +1471,7 @@ function renderPopularityAnalysis() {
     const rowIndex = instTypes.indexOf(signal.institution_type);
     if (rowIndex < 0) return;
 
-    const source = getSignalSourceName(signal);
-    const sourceVolume = source ? (sourceCounts[source] || 1) : 1;
-    const meta = resolveSourceMeta(signal);
-    const recencyWeight = getRecencyWeight(signal.date);
-    const score = sourceVolume * (meta.weight || 0.9) * recencyWeight;
+    const score = getSignalStrengthScore(signal, sourceCounts, maxSourceCount);
 
     (signal.initiative_types || []).forEach(init => {
       const colIndex = initTypes.indexOf(init);

@@ -1,0 +1,56 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-03-21T00:00:00Z",
+  "title": "Street Signals Strength Methodology",
+  "summary": "Signal strength aggregates bounded per-signal contributions across institution class and initiative class. Each signal contribution combines source credibility, recency, and bounded source prevalence.",
+  "components": {
+    "sourceCredibility": {
+      "description": "Weighted by source priority in sources.json.",
+      "tiers": [
+        { "tier": "Primary", "priority": 1, "weight": 1.3 },
+        { "tier": "Secondary", "priority": 2, "weight": 1.0 },
+        { "tier": "Tertiary", "priority": 3, "weight": 0.8 },
+        { "tier": "Unclassified", "priority": null, "weight": 0.9 }
+      ]
+    },
+    "recencyWeight": {
+      "description": "Exponential decay with a one-year decay constant, bounded between 0.6 and 1.0.",
+      "formula": "0.6 + 0.4 * exp(-daysOld / 365)"
+    },
+    "sourcePrevalenceWeight": {
+      "description": "Bounded multiplier that rewards source prevalence without allowing prolific sources to dominate matrix totals.",
+      "range": [1.0, 1.35],
+      "formula": "1 + 0.35 * (log(1 + sourceCount) / log(1 + maxSourceCount))"
+    }
+  },
+  "signalStrengthFormula": {
+    "description": "Per-signal contribution added into each relevant matrix cell.",
+    "formula": "credibilityWeight * recencyWeight * sourcePrevalenceWeight"
+  },
+  "aggregation": {
+    "description": "For each signal, add the per-signal contribution into the cell for its normalized institution_type and for each normalized initiative_type attached to the signal.",
+    "matrixRows": [
+      "Global Banks",
+      "Asset & Investment Management",
+      "Payments Providers",
+      "Exchanges & Central Intermediaries",
+      "Regulatory Agencies",
+      "Infrastructure & Technology"
+    ],
+    "matrixColumns": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure",
+      "Stablecoins & Deposit Tokens",
+      "CBDC",
+      "DeFi",
+      "Digital Asset Strategy"
+    ]
+  },
+  "notes": [
+    "The matrix displays aggregate strength, not raw signal count.",
+    "Signals tagged with multiple initiative types contribute to multiple columns.",
+    "The bounded prevalence term prevents large cells from exploding due to raw source volume multiplication."
+  ]
+}
