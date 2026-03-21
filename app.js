@@ -1612,6 +1612,46 @@ function syncSignalTypeSelect() {
   if (select) select.value = signalTypeFilter;
 }
 
+function normalizeSignalTypeForMatch(value) {
+  return String(value || '')
+    .trim()
+    .toLowerCase()
+    .replace(/\s*\/\s*/g, '/')
+    .replace(/\s+/g, ' ');
+}
+
+function resolveSignalTypeFilterValue(rawValue) {
+  const trimmed = String(rawValue || '').trim();
+  if (!trimmed) return '';
+
+  const aliasMap = {
+    'regulatory/compliance': 'Regulatory / Compliance Framework',
+    'regulatory / compliance': 'Regulatory / Compliance Framework'
+  };
+
+  const aliasHit = aliasMap[normalizeSignalTypeForMatch(trimmed)];
+  if (aliasHit) return aliasHit;
+
+  const visibleTypes = [...new Set(
+    getOperationalSignals()
+      .map(signal => String(signal.signal_type || '').trim())
+      .filter(isVisibleSignalType)
+  )];
+
+  const normalizedTarget = normalizeSignalTypeForMatch(trimmed);
+  const directMatch = visibleTypes.find(type => normalizeSignalTypeForMatch(type) === normalizedTarget);
+  return directMatch || trimmed;
+}
+
+function setCatalogueCategoryFilter(filterKey) {
+  activeFilter = filterKey;
+  const pills = document.querySelectorAll('.filter-pill');
+  pills.forEach(p => {
+    p.classList.remove('active');
+    if (p.dataset.filter === filterKey) p.classList.add('active');
+  });
+}
+
 function renderSignalTypeSelect() {
   const select = document.getElementById('signalTypeSelect');
   if (!select) return;
@@ -1634,7 +1674,8 @@ function renderSignalTypeSelect() {
 
   select.onchange = (event) => {
     matrixFilter = null;
-    signalTypeFilter = String(event.target.value || '').trim();
+    signalTypeFilter = resolveSignalTypeFilterValue(event.target.value || '');
+    setCatalogueCategoryFilter('all');
     if (signalTypeFilter) trackFilter('signal_type', signalTypeFilter);
     renderSignals();
     updateResetBars();
@@ -2629,7 +2670,7 @@ function navigateToMatrixSelection(institutionType, initiativeType) {
 }
 
 function navigateToCatalogueBySignalType(signalType) {
-  const selectedType = String(signalType || '').trim();
+  const selectedType = resolveSignalTypeFilterValue(signalType || '');
   if (!selectedType) return;
 
   const libSection = document.querySelector('.signal-library-section');
@@ -2643,15 +2684,9 @@ function navigateToCatalogueBySignalType(signalType) {
   signalTypeFilter = selectedType;
   syncSignalTypeSelect();
   searchQuery = '';
-  activeFilter = 'all';
+  setCatalogueCategoryFilter('all');
   const searchInput = document.getElementById('searchInput');
   if (searchInput) searchInput.value = '';
-
-  const pills = document.querySelectorAll('.filter-pill');
-  pills.forEach(p => {
-    p.classList.remove('active');
-    if (p.dataset.filter === 'all') p.classList.add('active');
-  });
 
   closeKPIBreakdown();
   renderSignals();
