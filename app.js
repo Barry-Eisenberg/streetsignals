@@ -1593,7 +1593,7 @@ function showSignalDetail(signalData) {
   // Calculate recency information
   const dateObj = new Date(signalData.date || new Date());
   const daysAgo = Math.floor((Date.now() - dateObj.getTime()) / (1000 * 60 * 60 * 24));
-  const dateStr = daysAgo <= 365 ? `${daysAgo}d ago` : formatDate(signalData.date || new Date());
+  const dateStr = daysAgo < 0 ? 'upcoming' : daysAgo === 0 ? 'today' : daysAgo <= 365 ? `${daysAgo}d ago` : formatDate(signalData.date || new Date());
   const recencyWeight = getRecencyWeight(signalData.date || new Date().toISOString().split('T')[0]);
   
   // Find full signal object for additional metadata
