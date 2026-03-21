@@ -99,6 +99,41 @@
   <div class="kpi-breakdown-panel" id="kpiBreakdown" style="display:none;"></div>
 </div>
 
+<!-- SIGNAL STRENGTH -->
+<section class="analytics-section" id="signal-strength">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="section-title">Signal Strength</h2>
+      <p class="section-subtitle">Using mappings from the sources.json file, signal strength combines source prevalence, recency decay, and credibility tiers.</p>
+    </div>
+    <div class="chart-row chart-row-single reveal">
+      <div class="chart-card popularity-card">
+        <div class="chart-card-header">
+          <h3>Signal Strength</h3>
+          <p id="popularitySummary">Using mappings from the sources.json file, signal strength combines source prevalence, recency decay, and credibility tiers.</p>
+        </div>
+        <div class="popularity-grid">
+          <div class="popularity-col">
+            <h4>Top Signals</h4>
+            <ol class="pop-list" id="popularityTopSignals"></ol>
+          </div>
+          <div class="popularity-col">
+            <h4>Top Sources</h4>
+            <ol class="pop-list" id="popularityTopSources"></ol>
+          </div>
+          <div class="popularity-col">
+            <div class="popularity-col-header">
+              <h4>Top Sources by Sector</h4>
+              <select id="popularitySectorFilter" class="popularity-select" aria-label="Filter source popularity by sector"></select>
+            </div>
+            <ol class="pop-list" id="popularityTopSourcesBySector"></ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- MATRIX OVERVIEW -->
 <section class="analytics-section" id="matrix-overview">
   <div class="container">
@@ -295,34 +330,7 @@
       </div>
     </div>
 
-    <!-- Row 4: Popularity (full width) -->
-    <div class="chart-row chart-row-single reveal">
-      <div class="chart-card popularity-card">
-        <div class="chart-card-header">
-          <h3>Signal &amp; Source Popularity</h3>
-          <p id="popularitySummary">Popularity score combines source prevalence, recency decay, and credibility tiers from sources.json.</p>
-        </div>
-        <div class="popularity-grid">
-          <div class="popularity-col">
-            <h4>Top Signals</h4>
-            <ol class="pop-list" id="popularityTopSignals"></ol>
-          </div>
-          <div class="popularity-col">
-            <h4>Top Sources</h4>
-            <ol class="pop-list" id="popularityTopSources"></ol>
-          </div>
-          <div class="popularity-col">
-            <div class="popularity-col-header">
-              <h4>Top Sources by Sector</h4>
-              <select id="popularitySectorFilter" class="popularity-select" aria-label="Filter source popularity by sector"></select>
-            </div>
-            <ol class="pop-list" id="popularityTopSourcesBySector"></ol>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Row 5: Additional Analytics (collapsible) -->
+    <!-- Row 4: Additional Analytics (collapsible) -->
     <div class="additional-analytics-toggle reveal">
       <button id="additionalAnalyticsToggle" class="additional-analytics-btn" type="button" aria-expanded="false" aria-controls="additionalAnalyticsBody">
         Show Additional Analytics
