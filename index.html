@@ -88,8 +88,7 @@
     <div class="hero-content reveal">
       <div class="hero-badge"><span class="pulse"></span> Live Intelligence Feed</div>
       <h1>The Institutional Migration to <span class="accent">Blockchain Infrastructure</span></h1>
-      <p class="hero-description">Filtering the noise so you can see how the world's largest financial institutions, exchanges, central intermediaries, and regulators are building the next generation of financial market infrastructure.</p>
-      <p class="hero-subdescription">SftS does the work for you, highlighting only most consequential information that matters for the people driving change in their organizations.</p>
+      <p class="hero-description">Filtering the noise so you can see how the world's leading financial institutions, exchanges, central intermediaries, and regulators are building the next generation of financial markets infrastructure.</p>
     </div>
   </div>
 </section>
@@ -109,6 +108,15 @@
 <div class="persona-selector-section">
   <div class="container">
     <span class="persona-selector-label">View signals from the perspective of:</span>
+    <div class="global-date-filter">
+      <label for="globalDateFilterSelect" class="global-date-filter-label">Date window</label>
+      <select id="globalDateFilterSelect" class="global-date-filter-select">
+        <option value="30">Last 30 days</option>
+        <option value="60" selected>Last 60 days</option>
+        <option value="90">Last 90 days</option>
+        <option value="all">All historical</option>
+      </select>
+    </div>
     <div class="persona-selector-global" id="personaSelectorGlobal">
       <button class="persona-btn active" data-persona="all">All roles</button>
       <button class="persona-btn" data-persona="treasury_payments">Fintech Product &amp; Strategy</button>
