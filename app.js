@@ -1377,6 +1377,12 @@ function renderCard(signal, catKey) {
 }
 
 function renderPopularityAnalysis() {
+  const formatPopularityScore = (value) => {
+    const n = Number(value);
+    if (!Number.isFinite(n)) return '0';
+    return n.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 2 });
+  };
+
   const summary = document.getElementById('popularitySummary');
   const topSignalsEl = document.getElementById('popularityTopSignals');
   const topSourcesEl = document.getElementById('popularityTopSources');
@@ -1459,7 +1465,7 @@ function renderPopularityAnalysis() {
   const seedSources = Array.isArray(popularitySeed?.top_sources) ? popularitySeed.top_sources : [];
 
   const topSignals = signalEntries.length
-    ? signalEntries.slice(0, 10).map(item => ({ label: item.label, score: item.score }))
+    ? signalEntries.slice(0, 10).map(item => ({ label: item.label, score: Number(item.score.toFixed(2)) }))
     : seedSignals.slice(0, 10);
 
   const topSources = sourceEntries.length
@@ -1490,7 +1496,7 @@ function renderPopularityAnalysis() {
       <li class="pop-row">
         <span class="pop-label">${item.label}</span>
         <span class="pop-bar"><span class="pop-bar-fill" style="width:${(item.score / maxSignalScore) * 100}%"></span></span>
-        <span class="pop-value">${item.score}</span>
+        <span class="pop-value">${formatPopularityScore(item.score)}</span>
       </li>
     `).join('')
     : '<li class="pop-empty">No popularity data yet</li>';
@@ -1500,7 +1506,7 @@ function renderPopularityAnalysis() {
       <li class="pop-row">
         <span class="pop-label">${item.label}</span>
         <span class="pop-bar"><span class="pop-bar-fill" style="width:${(item.score / maxSourceScore) * 100}%"></span></span>
-        <span class="pop-value">${item.score}</span>
+        <span class="pop-value">${formatPopularityScore(item.score)}</span>
       </li>
     `).join('')
     : '<li class="pop-empty">No popularity data yet</li>';
@@ -1511,7 +1517,7 @@ function renderPopularityAnalysis() {
       <li class="pop-row">
         <span class="pop-label">${item.label}</span>
         <span class="pop-bar"><span class="pop-bar-fill" style="width:${(item.score / maxSectorScore) * 100}%"></span></span>
-        <span class="pop-value">${item.score}</span>
+        <span class="pop-value">${formatPopularityScore(item.score)}</span>
       </li>
     `).join('')
     : '<li class="pop-empty">No sector source data yet</li>';
