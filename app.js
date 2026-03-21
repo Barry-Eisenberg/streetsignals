@@ -2399,7 +2399,19 @@ function renderSignals() {
   const grouped = {};
   for (const [key] of Object.entries(CATEGORIES)) {
     const items = filtered.filter(s => s.category === key);
-    if (items.length > 0) grouped[key] = items;
+    if (items.length > 0) {
+      // Sort by date (most recent first), then by signal strength (importance score)
+      items.sort((a, b) => {
+        const dateA = new Date(a.date || '2024-01-01');
+        const dateB = new Date(b.date || '2024-01-01');
+        if (dateB - dateA !== 0) return dateB - dateA;
+        // If dates are equal, sort by importance score (descending)
+        const scoreA = getSignalImportance(a).importanceScore || 0;
+        const scoreB = getSignalImportance(b).importanceScore || 0;
+        return scoreB - scoreA;
+      });
+      grouped[key] = items;
+    }
   }
 
   let html = '';
