@@ -454,6 +454,7 @@ let allSignals = [];
 let activeFilter = 'all';
 let searchQuery = '';
 let matrixFilter = null;
+let signalTypeFilter = '';
 let chartInstances = {};
 let popularitySeed = null;
 let sourceCatalog = { byName: {}, byHost: {} };
@@ -978,7 +979,7 @@ function showKPIBreakdown(kpiId, activeCard) {
       group.items
         .sort((a, b) => b.count - a.count)
         .forEach(item => {
-          html += `<div class="kpi-breakdown-item"><span class="bd-label">${item.type}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(item.count / max) * 100}%"></span></span><span class="bd-value">${item.count}</span></div>`;
+          html += `<a href="javascript:void(0)" class="kpi-breakdown-item" onclick="navigateToCatalogueBySignalType('${item.type.replace(/'/g, "\\'")}')"><span class="bd-label">${item.type}</span><span class="bd-bar"><span class="bd-bar-fill" style="width:${(item.count / max) * 100}%"></span></span><span class="bd-value">${item.count}</span></a>`;
         });
       html += '</div>';
     });
@@ -1481,6 +1482,7 @@ function buildHeatmap(colors) {
 // ===== SEARCH =====
 document.getElementById('searchInput')?.addEventListener('input', (e) => {
   matrixFilter = null;
+  signalTypeFilter = '';
   searchQuery = e.target.value.toLowerCase().trim();
   if (searchQuery) trackSearch(searchQuery, 'Signal Catalogue');
   renderSignals();
@@ -1503,6 +1505,7 @@ function renderFilterPills() {
       container.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       matrixFilter = null;
+      signalTypeFilter = '';
       activeFilter = btn.dataset.filter;
       trackFilter('institution_category', btn.dataset.filter);
       renderSignals();
@@ -1539,7 +1542,10 @@ function renderSignals() {
       (s[dimField] || []).includes(matrixFilter.initiativeType)
     );
   }
-  if (searchQuery) filtered = filtered.filter(s => `${s.institution} ${s.initiative} ${s.description} ${s.category}`.toLowerCase().includes(searchQuery));
+  if (signalTypeFilter) {
+    filtered = filtered.filter(s => String(s.signal_type || '').trim() === signalTypeFilter);
+  }
+  if (searchQuery) filtered = filtered.filter(s => `${s.institution} ${s.initiative} ${s.description} ${s.category} ${s.signal_type || ''}`.toLowerCase().includes(searchQuery));
 
   if (filtered.length === 0) { container.innerHTML = ''; noResults.style.display = 'block'; return; }
   noResults.style.display = 'none';
@@ -2348,6 +2354,7 @@ function navigateToSignal(query, catKey) {
 
   // 2. If catKey provided, activate that filter pill
   matrixFilter = null;
+  signalTypeFilter = '';
   if (catKey) {
     activeFilter = catKey;
     const pills = document.querySelectorAll('.filter-pill');
@@ -2413,6 +2420,7 @@ function navigateToMatrixSelection(institutionType, initiativeType) {
 
   // 2. Apply matrix filter and category pill
   matrixFilter = { institutionType, initiativeType, dimension: signalScoringDimensionMode };
+  signalTypeFilter = '';
   const catKey = categoryForInstitutionType(institutionType);
   activeFilter = catKey;
 
@@ -2437,8 +2445,44 @@ function navigateToMatrixSelection(institutionType, initiativeType) {
   updateResetBars();
 }
 
+function navigateToCatalogueBySignalType(signalType) {
+  const selectedType = String(signalType || '').trim();
+  if (!selectedType) return;
+
+  const libSection = document.querySelector('.signal-library-section');
+  const libBody = document.getElementById('libraryBody');
+  if (libSection && libBody && !libSection.classList.contains('open')) {
+    libSection.classList.add('open');
+    libBody.style.display = 'block';
+  }
+
+  matrixFilter = null;
+  signalTypeFilter = selectedType;
+  searchQuery = '';
+  activeFilter = 'all';
+  const searchInput = document.getElementById('searchInput');
+  if (searchInput) searchInput.value = '';
+
+  const pills = document.querySelectorAll('.filter-pill');
+  pills.forEach(p => {
+    p.classList.remove('active');
+    if (p.dataset.filter === 'all') p.classList.add('active');
+  });
+
+  closeKPIBreakdown();
+  renderSignals();
+
+  setTimeout(() => {
+    document.querySelectorAll('.category-section').forEach(s => s.classList.add('cat-open'));
+    if (libSection) libSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, 100);
+
+  updateResetBars();
+}
+
 function clearMatrixFilter() {
   matrixFilter = null;
+  signalTypeFilter = '';
   renderSignals();
   updateResetBars();
 }
@@ -2449,6 +2493,11 @@ function renderMatrixFilterChip() {
   if (!chip || !label) return;
 
   if (!matrixFilter) {
+    if (signalTypeFilter) {
+      label.textContent = `Signal type filter: ${signalTypeFilter}`;
+      chip.style.display = 'inline-flex';
+      return;
+    }
     chip.style.display = 'none';
     return;
   }
@@ -2481,6 +2530,7 @@ function resetAllFilters() {
   // Reset signal library search
   searchQuery = '';
   matrixFilter = null;
+  signalTypeFilter = '';
   const searchInput = document.getElementById('searchInput');
   if (searchInput) searchInput.value = '';
 
@@ -2516,7 +2566,7 @@ function resetAllFilters() {
 
 function updateResetBars() {
   const hasDirectoryFilter = dirSearch !== '' || dirSort !== 'signals';
-  const hasLibraryFilter = searchQuery !== '' || activeFilter !== 'all' || matrixFilter !== null;
+  const hasLibraryFilter = searchQuery !== '' || activeFilter !== 'all' || matrixFilter !== null || signalTypeFilter !== '';
   const hasAnyFilter = hasDirectoryFilter || hasLibraryFilter;
 
   const dirReset = document.getElementById('resetDirectoryFilters');
