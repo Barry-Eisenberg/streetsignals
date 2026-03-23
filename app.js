@@ -125,6 +125,162 @@ function getSignalKey(signal) {
   return `${String(signal.institution || '').trim()}|${String(signal.initiative || '').trim()}`.toLowerCase();
 }
 
+  function getSignalReferenceDateRaw(signal) {
+    return String(getSignalSourceDateRaw(signal) || signal?.date || '').trim();
+  }
+
+  function normalizeDetailList(values) {
+    if (!Array.isArray(values) || values.length === 0) return [];
+    return [...new Set(values.map(value => String(value || '').trim()).filter(Boolean))];
+  }
+
+  function getSignalDetailInitiatives(signal) {
+    const initiatives = normalizeDetailList(normalizeInitiativeTypes(signal?.initiative_types));
+    return initiatives.length ? initiatives : ['Not yet classified'];
+  }
+
+  function getSignalDetailFmiAreas(signal) {
+    const areas = normalizeDetailList(normalizeFmiAreas(signal?.fmi_areas));
+    const specificAreas = areas.filter(area => area !== 'General Infrastructure');
+    if (specificAreas.length) return specificAreas;
+    return areas.length ? areas : ['Not yet mapped'];
+  }
+
+  function getSignalDetailAudience(signal) {
+    const audience = normalizeDetailList(inferSignalPersona(signal));
+    return audience.length ? audience : ['Institutional infrastructure teams'];
+  }
+
+  function findSignalByReference(reference, signals = allSignals) {
+    const signalKey = String(reference?.signalKey || '').trim().toLowerCase();
+    const signalDate = String(reference?.date || reference?.signalDate || '').trim();
+    const sourceUrl = String(reference?.sourceUrl || reference?.signalSource || '').trim();
+    if (!signalKey) return null;
+
+    const candidates = (Array.isArray(signals) ? signals : []).filter(signal => getSignalKey(signal) === signalKey);
+    if (!candidates.length) return null;
+
+    if (signalDate && sourceUrl) {
+      const exactMatch = candidates.find(signal => getSignalReferenceDateRaw(signal) === signalDate && String(signal.source_url || '').trim() === sourceUrl);
+      if (exactMatch) return exactMatch;
+    }
+
+    if (signalDate) {
+      const dateMatch = candidates.find(signal => getSignalReferenceDateRaw(signal) === signalDate);
+      if (dateMatch) return dateMatch;
+    }
+
+    if (sourceUrl) {
+      const sourceMatch = candidates.find(signal => String(signal.source_url || '').trim() === sourceUrl);
+      if (sourceMatch) return sourceMatch;
+    }
+
+    return candidates[0] || null;
+  }
+
+  function buildSignalDetailInsight(signal, importance) {
+    return buildSignalDirectionalInsight(signal, importance)
+      .replace(/^For [^,]+ teams,\s*/i, '')
+      .replace(/\s*Most material audiences:[^.]*\./i, '')
+      .replace(/\s*Lens fit:[^.]*\./i, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  function buildSignalDetailUrl(reference) {
+    const url = new URL(window.location.href);
+    const signalKey = String(reference?.signalKey || '').trim().toLowerCase();
+    const signalDate = String(reference?.date || reference?.signalDate || '').trim();
+    const sourceUrl = String(reference?.sourceUrl || reference?.signalSource || '').trim();
+
+    if (signalKey) url.searchParams.set('signal', signalKey);
+    else url.searchParams.delete('signal');
+
+    if (signalDate) url.searchParams.set('signalDate', signalDate);
+    else url.searchParams.delete('signalDate');
+
+    if (sourceUrl) url.searchParams.set('signalSource', sourceUrl);
+    else url.searchParams.delete('signalSource');
+
+    url.hash = signalKey ? 'signal-library' : '';
+    return url.toString();
+  }
+
+  function syncSignalDetailUrl(reference) {
+    if (!window.history || typeof window.history.replaceState !== 'function') return;
+    window.history.replaceState(window.history.state, '', buildSignalDetailUrl(reference));
+  }
+
+  function getSignalDetailRequestFromUrl() {
+    const url = new URL(window.location.href);
+    const signalKey = String(url.searchParams.get('signal') || '').trim().toLowerCase();
+    if (!signalKey) return null;
+    return {
+      signalKey,
+      signalDate: String(url.searchParams.get('signalDate') || '').trim(),
+      signalSource: String(url.searchParams.get('signalSource') || '').trim()
+    };
+  }
+
+  function clearSignalDetailUrl() {
+    const current = getSignalDetailRequestFromUrl();
+    if (!current) return;
+    syncSignalDetailUrl({});
+  }
+
+  function copyTextToClipboard(text) {
+    if (navigator.clipboard && typeof navigator.clipboard.writeText === 'function') {
+      return navigator.clipboard.writeText(text);
+    }
+
+    return new Promise((resolve, reject) => {
+      const textarea = document.createElement('textarea');
+      textarea.value = text;
+      textarea.setAttribute('readonly', 'true');
+      textarea.style.position = 'fixed';
+      textarea.style.opacity = '0';
+      document.body.appendChild(textarea);
+      textarea.select();
+
+      try {
+        const copied = document.execCommand('copy');
+        document.body.removeChild(textarea);
+        if (copied) resolve();
+        else reject(new Error('Copy command failed'));
+      } catch (error) {
+        document.body.removeChild(textarea);
+        reject(error);
+      }
+    });
+  }
+
+  function updateSignalDetailCopyButton(button, copied) {
+    if (!button) return;
+    button.textContent = copied ? 'Copied' : 'Copy Link';
+    button.classList.toggle('is-copied', copied);
+  }
+
+  function copySignalDetailLink(button) {
+    const panel = document.getElementById('signalDetailPanel');
+    if (!panel) return;
+
+    const signalKey = String(panel.dataset.signalKey || '').trim().toLowerCase();
+    if (!signalKey) return;
+
+    const signalDate = String(panel.dataset.signalDate || '').trim();
+    const signalSource = String(panel.dataset.signalSource || '').trim();
+    const shareUrl = buildSignalDetailUrl({ signalKey, signalDate, signalSource });
+
+    copyTextToClipboard(shareUrl)
+      .then(() => {
+        updateSignalDetailCopyButton(button, true);
+        window.setTimeout(() => updateSignalDetailCopyButton(button, false), 1800);
+      })
+      .catch(() => {
+        updateSignalDetailCopyButton(button, false);
+      });
+  }
+
 // ===== SIGNAL LIBRARY TOGGLE =====
 document.getElementById('libraryToggle')?.addEventListener('click', () => {
   const section = document.querySelector('.signal-library-section');
@@ -388,6 +544,13 @@ document.addEventListener('click', (e) => {
   if (signalDetailClose) {
     e.preventDefault();
     closeSignalDetail();
+    return;
+  }
+
+  const signalDetailCopy = e.target.closest('[data-copy-signal-detail]');
+  if (signalDetailCopy) {
+    e.preventDefault();
+    copySignalDetailLink(signalDetailCopy);
     return;
   }
 
@@ -2245,6 +2408,7 @@ function loadAndRenderData() {
     renderSignalTypeSchema();
     renderSignals();
     renderPopularityAnalysis();
+    restoreSignalDetailFromUrl();
     document.querySelectorAll('.reveal:not(.visible)').forEach(el => observer.observe(el));
   }).catch(error => {
     console.error('Error loading and rendering data:', error);
@@ -3526,12 +3690,20 @@ function renderCatalogueSortNote() {
     ? 'Showing all historical signals (future-dated entries hidden).'
     : `Showing last ${selectedDateWindowDays} days only.`;
 
+  const scopeText = importanceTierMode === 'priority'
+    ? 'View limited to System-Shaping and Directionally Important signals.'
+    : importanceTierMode === 'structural'
+      ? 'View limited to System-Shaping signals only.'
+      : importanceTierMode === 'context'
+        ? 'View limited to Background signals only.'
+        : '';
+
   if (selectedPersona !== DEFAULT_PERSONA) {
-    note.textContent = `Sorted by ${getPersonaLabel(selectedPersona)} relevance first, then most recent date and signal strength (importance score). ${dateWindowText}`;
+    note.textContent = `Sorted by ${getPersonaLabel(selectedPersona)} relevance first, then most recent date and signal strength (importance score). ${dateWindowText}${scopeText ? ` ${scopeText}` : ''}`;
     return;
   }
 
-  note.textContent = `Default catalogue sort order: most recent date first, then signal strength (importance score). ${dateWindowText}`;
+  note.textContent = `Default catalogue sort order: most recent date first, then signal strength (importance score). ${dateWindowText}${scopeText ? ` ${scopeText}` : ''}`;
 }
 
 function renderPersonaSelect() {
@@ -3593,7 +3765,9 @@ function setupPrioritySignalsInteractions(container) {
     if (detailBtn) {
       event.preventDefault();
       const signalKey = detailBtn.getAttribute('data-priority-signal-key');
-      if (signalKey) openSignalDetailByKey(signalKey);
+      const signalDate = detailBtn.getAttribute('data-priority-signal-date') || '';
+      const signalSource = detailBtn.getAttribute('data-priority-signal-source') || '';
+      if (signalKey) openSignalDetailByKey(signalKey, { signalDate, sourceUrl: signalSource });
     }
   });
 
@@ -3671,6 +3845,8 @@ function renderPrioritySignalsStrip() {
     const initiatives = Array.isArray(signal.initiative_types) ? signal.initiative_types.slice(0, 1) : [];
     const initiativeText = initiatives.length ? initiatives[0] : 'Digital asset infrastructure';
     const signalKey = encodeURIComponent(getSignalKey(signal));
+    const signalDate = escapeHtml(getSignalReferenceDateRaw(signal));
+    const signalSource = escapeHtml(String(signal.source_url || ''));
     const url = signal.source_url || '#';
     const domain = url !== '#' ? new URL(url).hostname.replace('www.','') : '';
     const textExcerpt = signal.description ? signal.description.substring(0, 100) + (signal.description.length > 100 ? '...' : '') : '';
@@ -3694,7 +3870,7 @@ function renderPrioritySignalsStrip() {
         <div class="priority-signal-card-insight">${escapeHtml(insight)}</div>
         <div class="priority-signal-card-footer">
           ${url !== '#' ? `<a href="${url}" target="_blank" rel="noopener noreferrer" class="priority-signal-card-source"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>${domain}</a>` : '<span></span>'}
-          <button type="button" class="priority-signal-card-details-btn" data-priority-signal-key="${signalKey}">Details</button>
+          <button type="button" class="priority-signal-card-details-btn" data-priority-signal-key="${signalKey}" data-priority-signal-date="${signalDate}" data-priority-signal-source="${signalSource}">Details</button>
         </div>
       </div>
     `;
@@ -4290,13 +4466,7 @@ function showSignalDetail(signalData) {
   if (!panel) return;
 
   const signalKey = String(signalData.signalKey || '').trim().toLowerCase();
-  const fullSignal = signalKey
-    ? getOperationalSignals().find(item => getSignalKey(item) === signalKey)
-    : getOperationalSignals().find(s =>
-        s.institution === signalData.institution &&
-        s.initiative === signalData.initiative &&
-        (getSignalSourceDateRaw(s) || s.date) === signalData.date
-      );
+  const fullSignal = signalData.fullSignal || findSignalByReference(signalData, allSignals) || findSignalByReference(signalData, getOperationalSignals());
 
   const normalizedSignal = fullSignal || {
     institution: signalData.institution,
@@ -4306,7 +4476,10 @@ function showSignalDetail(signalData) {
     signal_stage: signalData.stage || 'Unknown',
     signal_materiality: signalData.materiality || 'Unknown',
     date: signalData.date,
-    source_url: signalData.sourceUrl || ''
+    source_url: signalData.sourceUrl || '',
+    institution_type: signalData.institutionType || '',
+    initiative_types: normalizeDetailList(signalData.initiativeTypes || []),
+    fmi_areas: normalizeDetailList(signalData.fmiAreas || [])
   };
   
   // Calculate recency information
@@ -4315,12 +4488,14 @@ function showSignalDetail(signalData) {
   const dateStr = daysAgo < 0 ? 'upcoming' : daysAgo === 0 ? 'today' : daysAgo <= 365 ? `${daysAgo}d ago` : formatDate(signalData.date || normalizedSignal.date || new Date());
   const recencyWeight = getRecencyWeight(normalizedSignal, getSignalStage(normalizedSignal), getSignalMateriality(normalizedSignal));
   const detailImportance = fullSignal ? getSignalImportance(fullSignal) : { stage: 'Unknown', materiality: 'Unknown', sourceTier: 'Unknown' };
-  const detailInsight = fullSignal ? buildSignalDirectionalInsight(fullSignal, getSignalImportance(fullSignal)) : 'No directional insight available.';
+  const detailInsight = fullSignal ? buildSignalDetailInsight(fullSignal, detailImportance) : 'No directional insight available.';
   const marketContext = fullSignal ? getExternalMarketContext(fullSignal, selectedPersona) : { available: false };
-  const initiatives = fullSignal && Array.isArray(fullSignal.initiative_types) ? fullSignal.initiative_types.slice(0, 4) : [];
-  const fmiAreas = fullSignal && Array.isArray(fullSignal.fmi_areas) ? fullSignal.fmi_areas.slice(0, 4) : [];
-  const audience = fullSignal ? inferSignalPersona(fullSignal) : [];
+  const initiatives = getSignalDetailInitiatives(normalizedSignal).slice(0, 4);
+  const fmiAreas = getSignalDetailFmiAreas(normalizedSignal).slice(0, 4);
+  const audience = getSignalDetailAudience(normalizedSignal).slice(0, 4);
   const sourceUrl = String(fullSignal?.source_url || signalData.sourceUrl || '').trim();
+  const effectiveSignalKey = signalKey || getSignalKey(normalizedSignal);
+  const effectiveSignalDate = getSignalReferenceDateRaw(normalizedSignal);
   
   const tierBadge = signalData.tier ? 
     `<span class="tier-badge tier-${signalData.tier.toLowerCase()}">${signalData.tier}</span>` : '';
@@ -4333,8 +4508,11 @@ function showSignalDetail(signalData) {
         <h3>${escapeHtml(signalData.institution)}</h3>
         <p class="signal-detail-initiative">${escapeHtml(signalData.initiative)}</p>
       </div>
-      ${tierBadge}
-      <button type="button" class="signal-detail-close" data-signal-detail-close="true">✕</button>
+      <div class="signal-detail-actions">
+        ${tierBadge}
+        <button type="button" class="signal-detail-copy" data-copy-signal-detail="true">Copy Link</button>
+        <button type="button" class="signal-detail-close" data-signal-detail-close="true">✕</button>
+      </div>
     </div>
     <div class="signal-detail-insight">
       <div class="signal-detail-label">Why This Matters</div>
@@ -4389,6 +4567,10 @@ function showSignalDetail(signalData) {
   `;
   panel.style.display = 'block';
   panel.setAttribute('tabindex', '-1');
+  panel.dataset.signalKey = effectiveSignalKey;
+  panel.dataset.signalDate = effectiveSignalDate;
+  panel.dataset.signalSource = sourceUrl;
+  syncSignalDetailUrl({ signalKey: effectiveSignalKey, signalDate: effectiveSignalDate, signalSource: sourceUrl });
   const panelTop = panel.getBoundingClientRect().top + window.scrollY;
   const scrollTarget = Math.max(0, panelTop - 88);
   window.scrollTo({ top: scrollTarget, behavior: 'smooth' });
@@ -4397,13 +4579,7 @@ function showSignalDetail(signalData) {
   }, 120);
 }
 
-function openSignalDetailByKey(encodedSignalKey) {
-  const decodedKey = decodeURIComponent(String(encodedSignalKey || '')).toLowerCase();
-  if (!decodedKey) return;
-
-  const signal = getOperationalSignals().find(item => getSignalKey(item) === decodedKey);
-  if (!signal) return;
-
+function buildSignalDetailPayload(signal) {
   const importance = getSignalImportance(signal);
   let sourceLabel = String(signal?.source_name || '').trim();
   if (!sourceLabel) {
@@ -4417,7 +4593,8 @@ function openSignalDetailByKey(encodedSignalKey) {
     }
   }
 
-  showSignalDetail({
+  return {
+    fullSignal: signal,
     signalKey: getSignalKey(signal),
     institution: signal.institution || 'Unknown institution',
     initiative: signal.initiative || 'Unknown initiative',
@@ -4425,17 +4602,70 @@ function openSignalDetailByKey(encodedSignalKey) {
     sourceUrl: signal.source_url || '',
     description: signal.description || 'N/A',
     signalType: signal.signal_type || 'Unknown',
+    institutionType: signal.institution_type || '',
+    initiativeTypes: getSignalDetailInitiatives(signal),
+    fmiAreas: getSignalDetailFmiAreas(signal),
     stage: getSignalStage(signal),
     materiality: getSignalMateriality(signal),
-    date: getSignalSourceDateRaw(signal) || signal.date,
+    date: getSignalReferenceDateRaw(signal),
     tier: importance.tier || 'Noise',
     score: Number(importance.importanceScore || 0)
-  });
+  };
+}
+
+function openSignalDetailForSignal(signal) {
+  if (!signal) return;
+  showSignalDetail(buildSignalDetailPayload(signal));
+}
+
+function openSignalDetailByKey(encodedSignalKey, options = {}) {
+  const decodedKey = decodeURIComponent(String(encodedSignalKey || '')).toLowerCase();
+  if (!decodedKey) return;
+
+  const signal = findSignalByReference({
+    signalKey: decodedKey,
+    signalDate: options.signalDate || '',
+    sourceUrl: options.sourceUrl || ''
+  }, getOperationalSignals()) || findSignalByReference({
+    signalKey: decodedKey,
+    signalDate: options.signalDate || '',
+    sourceUrl: options.sourceUrl || ''
+  }, allSignals);
+  if (!signal) return;
+
+  openSignalDetailForSignal(signal);
+}
+
+function restoreSignalDetailFromUrl() {
+  const request = getSignalDetailRequestFromUrl();
+  if (!request) return;
+
+  const existingPanel = document.getElementById('signalDetailPanel');
+  if (
+    existingPanel &&
+    existingPanel.style.display !== 'none' &&
+    String(existingPanel.dataset.signalKey || '').trim().toLowerCase() === request.signalKey &&
+    String(existingPanel.dataset.signalDate || '').trim() === request.signalDate &&
+    String(existingPanel.dataset.signalSource || '').trim() === request.signalSource
+  ) {
+    return;
+  }
+
+  const signal = findSignalByReference(request, allSignals) || findSignalByReference(request, getOperationalSignals());
+  if (!signal) return;
+
+  openCollapsible('.signal-library-section', 'libraryBody');
+  openSignalDetailForSignal(signal);
 }
 
 function closeSignalDetail() {
   const panel = document.getElementById('signalDetailPanel');
-  if (panel) panel.style.display = 'none';
+  if (!panel) return;
+  panel.style.display = 'none';
+  panel.dataset.signalKey = '';
+  panel.dataset.signalDate = '';
+  panel.dataset.signalSource = '';
+  clearSignalDetailUrl();
 }
 
 function renderSourceQualityDistribution() {
