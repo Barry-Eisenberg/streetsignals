@@ -1355,6 +1355,14 @@ function getSignalSourceDateRaw(signal) {
 function getSignalDateTimestamp(signal) {
   const rawDate = getSignalSourceDateRaw(signal);
   if (!rawDate) return null;
+
+  // Treat date-only values as local midday to avoid timezone rollbacks (e.g. showing prior evening).
+  if (/^\d{4}-\d{2}-\d{2}$/.test(rawDate)) {
+    const localMidday = new Date(`${rawDate}T12:00:00`);
+    const localMiddayTs = localMidday.getTime();
+    return Number.isFinite(localMiddayTs) ? localMiddayTs : null;
+  }
+
   const parsed = Date.parse(rawDate);
   return Number.isFinite(parsed) ? parsed : null;
 }
@@ -3360,9 +3368,8 @@ function renderDataFreshnessStamp() {
     : 'unknown';
 
   const latestSourceDateText = dataRefreshMeta.latestSourceDate
-    ? dataRefreshMeta.latestSourceDate.toLocaleString('en-US', {
-        month: 'short', day: 'numeric', year: 'numeric',
-        hour: 'numeric', minute: '2-digit'
+    ? dataRefreshMeta.latestSourceDate.toLocaleDateString('en-US', {
+        month: 'short', day: 'numeric', year: 'numeric'
       })
     : 'unknown';
 
