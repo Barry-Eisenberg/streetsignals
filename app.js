@@ -1993,7 +1993,10 @@ function mapIntelBriefsToSignals(briefs) {
 }
 
 function loadJsonWithFallback(path, fallback) {
-  return fetch(path)
+  const separator = String(path).includes('?') ? '&' : '?';
+  const requestUrl = `${path}${separator}_ts=${Date.now()}`;
+
+  return fetch(requestUrl, { cache: 'no-store' })
     .then(r => (r.ok ? r.json() : fallback))
     .catch(() => fallback);
 }
@@ -2243,8 +2246,8 @@ function loadAndRenderData() {
 // Load data immediately on page load
 loadAndRenderData();
 
-// Refresh data every hour (3,600,000 milliseconds)
-setInterval(loadAndRenderData, 3600000);
+// Refresh data every 5 minutes to better surface upstream updates.
+setInterval(loadAndRenderData, 300000);
 
 // ===== KPIs =====
 let activeKPI = null;
@@ -3565,6 +3568,7 @@ function focusStructuralSignalsFromPriority() {
   syncCountrySelects();
   syncImportanceTierSelect();
   renderSignals();
+  document.querySelectorAll('.category-section').forEach(section => section.classList.add('cat-open'));
   updateResetBars();
   trackFilter('importance_tier', 'structural');
 
@@ -3578,13 +3582,6 @@ function setupPrioritySignalsInteractions(container) {
   if (!container || container.dataset.priorityHandlersBound === 'true') return;
 
   container.addEventListener('click', (event) => {
-    const viewAllBtn = event.target.closest('[data-priority-view-all]');
-    if (viewAllBtn) {
-      event.preventDefault();
-      focusStructuralSignalsFromPriority();
-      return;
-    }
-
     const detailBtn = event.target.closest('[data-priority-signal-key]');
     if (detailBtn) {
       event.preventDefault();
@@ -3697,11 +3694,6 @@ function renderPrioritySignalsStrip() {
   });
 
   html += `
-      </div>
-      <div class="priority-signals-footer">
-        <button type="button" data-priority-view-all="true" class="priority-signals-view-all">
-          View all Structural signals →
-        </button>
       </div>
     </div>
   `;
@@ -4289,54 +4281,98 @@ function ensureSignalDetailPanel() {
 function showSignalDetail(signalData) {
   const panel = ensureSignalDetailPanel();
   if (!panel) return;
+
+  const signalKey = String(signalData.signalKey || '').trim().toLowerCase();
+  const fullSignal = signalKey
+    ? getOperationalSignals().find(item => getSignalKey(item) === signalKey)
+    : getOperationalSignals().find(s =>
+        s.institution === signalData.institution &&
+        s.initiative === signalData.initiative &&
+        (getSignalSourceDateRaw(s) || s.date) === signalData.date
+      );
+
+  const normalizedSignal = fullSignal || {
+    institution: signalData.institution,
+    initiative: signalData.initiative,
+    description: signalData.description || 'N/A',
+    signal_type: signalData.signalType || 'Unknown',
+    signal_stage: signalData.stage || 'Unknown',
+    signal_materiality: signalData.materiality || 'Unknown',
+    date: signalData.date,
+    source_url: signalData.sourceUrl || ''
+  };
   
   // Calculate recency information
-  const dateObj = new Date(signalData.date || new Date());
+  const dateObj = new Date(signalData.date || normalizedSignal.date || new Date());
   const daysAgo = Math.floor((Date.now() - dateObj.getTime()) / (1000 * 60 * 60 * 24));
-  const dateStr = daysAgo < 0 ? 'upcoming' : daysAgo === 0 ? 'today' : daysAgo <= 365 ? `${daysAgo}d ago` : formatDate(signalData.date || new Date());
-  
-  // Find full signal object for additional metadata
-  const fullSignal = getOperationalSignals().find(s => 
-    s.institution === signalData.institution && 
-    s.initiative === signalData.initiative && 
-    s.date === signalData.date
-  ) || { description: 'N/A', signal_type: 'Unknown', signal_stage: 'Unknown', signal_materiality: 'Unknown', date: signalData.date };
-  const recencyWeight = getRecencyWeight(fullSignal, getSignalStage(fullSignal), getSignalMateriality(fullSignal));
+  const dateStr = daysAgo < 0 ? 'upcoming' : daysAgo === 0 ? 'today' : daysAgo <= 365 ? `${daysAgo}d ago` : formatDate(signalData.date || normalizedSignal.date || new Date());
+  const recencyWeight = getRecencyWeight(normalizedSignal, getSignalStage(normalizedSignal), getSignalMateriality(normalizedSignal));
+  const detailImportance = fullSignal ? getSignalImportance(fullSignal) : { stage: 'Unknown', materiality: 'Unknown', sourceTier: 'Unknown' };
+  const detailInsight = fullSignal ? buildSignalDirectionalInsight(fullSignal, getSignalImportance(fullSignal)) : 'No directional insight available.';
+  const marketContext = fullSignal ? getExternalMarketContext(fullSignal, selectedPersona) : { available: false };
+  const initiatives = fullSignal && Array.isArray(fullSignal.initiative_types) ? fullSignal.initiative_types.slice(0, 4) : [];
+  const fmiAreas = fullSignal && Array.isArray(fullSignal.fmi_areas) ? fullSignal.fmi_areas.slice(0, 4) : [];
+  const audience = fullSignal ? inferSignalPersona(fullSignal) : [];
+  const sourceUrl = String(fullSignal?.source_url || signalData.sourceUrl || '').trim();
   
   const tierBadge = signalData.tier ? 
     `<span class="tier-badge tier-${signalData.tier.toLowerCase()}">${signalData.tier}</span>` : '';
   
-  const formattedDate = formatDate(signalData.date || new Date());
+  const formattedDate = formatExactSignalDate(normalizedSignal);
   
   panel.innerHTML = `
     <div class="signal-detail-header">
       <div class="signal-detail-title">
-        <h3>${signalData.institution}</h3>
-        <p class="signal-detail-initiative">${signalData.initiative}</p>
+        <h3>${escapeHtml(signalData.institution)}</h3>
+        <p class="signal-detail-initiative">${escapeHtml(signalData.initiative)}</p>
       </div>
       ${tierBadge}
       <button type="button" class="signal-detail-close" data-signal-detail-close="true">✕</button>
     </div>
+    <div class="signal-detail-insight">
+      <div class="signal-detail-label">Why This Matters</div>
+      <div class="signal-detail-value">${escapeHtml(detailInsight)}</div>
+    </div>
     <div class="signal-detail-content">
       <div class="signal-detail-row">
         <span class="signal-detail-label">Signal Type:</span>
-        <span class="signal-detail-value">${fullSignal.signal_type || 'Unknown'}</span>
+        <span class="signal-detail-value">${escapeHtml(normalizedSignal.signal_type || 'Unknown')}</span>
       </div>
       <div class="signal-detail-row">
         <span class="signal-detail-label">Description:</span>
-        <span class="signal-detail-value">${fullSignal.description || 'N/A'}</span>
+        <span class="signal-detail-value">${escapeHtml(normalizedSignal.description || 'N/A')}</span>
       </div>
       <div class="signal-detail-row">
         <span class="signal-detail-label">Source:</span>
-        <span class="signal-detail-value">${signalData.source || 'Unknown'}</span>
+        <span class="signal-detail-value">${sourceUrl ? `<a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(signalData.source || 'Unknown source')}</a>` : escapeHtml(signalData.source || 'Unknown')}</span>
       </div>
       <div class="signal-detail-row">
         <span class="signal-detail-label">Date:</span>
-        <span class="signal-detail-value">${formattedDate} (${dateStr})</span>
+        <span class="signal-detail-value">${escapeHtml(formattedDate)} (${escapeHtml(dateStr)})</span>
+      </div>
+      <div class="signal-detail-row">
+        <span class="signal-detail-label">Global Lens:</span>
+        <span class="signal-detail-value">${escapeHtml(detailImportance.stage || 'Unknown')} stage | ${escapeHtml(detailImportance.materiality || 'Unknown')} materiality | ${escapeHtml(detailImportance.sourceTier || 'Unknown')} source credibility</span>
+      </div>
+      <div class="signal-detail-row">
+        <span class="signal-detail-label">Most Material For:</span>
+        <span class="signal-detail-value">${escapeHtml(audience.length ? audience.join(' | ') : 'Institutional infrastructure teams')}</span>
+      </div>
+      <div class="signal-detail-row">
+        <span class="signal-detail-label">Top Initiative Relevance:</span>
+        <span class="signal-detail-value">${escapeHtml(initiatives.length ? initiatives.join(' | ') : 'Not yet classified')}</span>
+      </div>
+      <div class="signal-detail-row">
+        <span class="signal-detail-label">FMI Impact Areas:</span>
+        <span class="signal-detail-value">${escapeHtml(fmiAreas.length ? fmiAreas.join(' | ') : 'Not yet mapped')}</span>
+      </div>
+      <div class="signal-detail-row">
+        <span class="signal-detail-label">Market Context:</span>
+        <span class="signal-detail-value">${marketContext.available ? `${escapeHtml(marketContext.segmentLabel)} ${escapeHtml(marketContext.trendLabel)} 30d | ${escapeHtml(marketContext.confidence)} (source: ${escapeHtml(marketContext.source)} as of ${escapeHtml(marketContext.asOf)})` : 'Not available'}</span>
       </div>
       <div class="signal-detail-row">
         <span class="signal-detail-label">Recency Weight:</span>
-        <span class="signal-detail-value">${recencyWeight.toFixed(3)}x (tier: ${signalData.tier || 'Unclassified'})</span>
+        <span class="signal-detail-value">${recencyWeight.toFixed(3)}x (tier: ${escapeHtml(signalData.tier || 'Unclassified')})</span>
       </div>
       <div class="signal-detail-row">
         <span class="signal-detail-label">Score:</span>
@@ -4345,6 +4381,13 @@ function showSignalDetail(signalData) {
     </div>
   `;
   panel.style.display = 'block';
+  panel.setAttribute('tabindex', '-1');
+  const panelTop = panel.getBoundingClientRect().top + window.scrollY;
+  const scrollTarget = Math.max(0, panelTop - 88);
+  window.scrollTo({ top: scrollTarget, behavior: 'smooth' });
+  setTimeout(() => {
+    panel.focus({ preventScroll: true });
+  }, 120);
 }
 
 function openSignalDetailByKey(encodedSignalKey) {
@@ -4368,9 +4411,15 @@ function openSignalDetailByKey(encodedSignalKey) {
   }
 
   showSignalDetail({
+    signalKey: getSignalKey(signal),
     institution: signal.institution || 'Unknown institution',
     initiative: signal.initiative || 'Unknown initiative',
     source: sourceLabel || 'Unknown source',
+    sourceUrl: signal.source_url || '',
+    description: signal.description || 'N/A',
+    signalType: signal.signal_type || 'Unknown',
+    stage: getSignalStage(signal),
+    materiality: getSignalMateriality(signal),
     date: getSignalSourceDateRaw(signal) || signal.date,
     tier: importance.tier || 'Noise',
     score: Number(importance.importanceScore || 0)
