@@ -12,6 +12,7 @@ Strategy:
 
 import json
 import re
+import sys
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
@@ -170,12 +171,36 @@ def safe_iso_date(value):
 def classify_signal_type(signal):
     text = f"{signal.get('initiative', '')} {signal.get('description', '')}".lower()
 
+    # Leadership & personnel changes — evaluated first to prevent downstream mismatches.
+    # A headline like "appoints new CEO, subject to regulatory approval" must NOT be scored
+    # as Regulatory Action; the primary event is a leadership change.
+    if any(w in text for w in [
+        "appoints ", "appointed ", "names new", "new ceo", "new cfo", "new cto",
+        "new coo", "new chairman", "new president", "new head of",
+        "chief executive officer", "chief financial officer",
+        "chief technology officer", "chief operating officer",
+        "steps down", "step down", "resigns", "resigned", "resignation",
+        "leadership change", "successor", "succession",
+    ]):
+        return "Leadership & Governance"
+
     if any(w in text for w in ["launch", "launched", "live", "went live", "go-live", "operational", "production"]):
         return "Product Launch"
     if any(w in text for w in ["partnership", "partner", "collaborat", "joint", "alliance", "consortium"]):
         return "Strategic Partnership"
-    if any(w in text for w in ["regulat", "rule", "guidance", "framework", "legislation", "act ", "compliance", "license", "charter", "sandbox"]):
+
+    # Regulatory Action: only when regulatory activity is the primary subject.
+    # Process phrases like "subject to regulatory approval" must not trigger this — they
+    # describe an entity waiting on a regulator, not an act of regulation itself.
+    _REGULATORY_PROCESS = (
+        "regulatory approval", "subject to regulatory", "pending regulatory",
+        "awaiting regulatory", "requires regulatory", "conditional on regulatory",
+        "regulatory clearance", "regulatory sign-off",
+    )
+    if any(w in text for w in ["regulat", "rule", "guidance", "framework", "legislation", "act ", "compliance", "license", "charter", "sandbox"]) \
+            and not any(p in text for p in _REGULATORY_PROCESS):
         return "Regulatory Action"
+
     if any(w in text for w in ["pilot", "trial", "experiment", "proof of concept", "poc", "test"]):
         return "Pilot / Trial"
     if any(w in text for w in ["invest", "funding", "raise", "acquisition", "acquir", "series", "ipo", "spac", "valuation"]):
@@ -190,6 +215,9 @@ def classify_signal_type(signal):
 
 
 def classify_fmi_areas(signal):
+    # Leadership changes don't belong to a specific FMI operational area.
+    if signal.get("signal_type") == "Leadership & Governance":
+        return []
     text = f"{signal.get('initiative', '')} {signal.get('description', '')}".lower()
     areas = []
 
@@ -218,6 +246,9 @@ def classify_fmi_areas(signal):
 
 
 def classify_initiative_types(signal):
+    # Leadership events don't map to a technology/product initiative type.
+    if signal.get("signal_type") == "Leadership & Governance":
+        return ["Leadership & Governance"]
     text = f"{signal.get('initiative', '')} {signal.get('description', '')}".lower()
     kinds = []
 
@@ -236,7 +267,7 @@ def classify_initiative_types(signal):
     if any(w in text for w in ["payment", "cross-border payment", "settlement", "clearing"]):
         kinds.append("Payment Infrastructure")
 
-    return kinds or ["Digital Asset Strategy"]
+    return kinds or []
 
 
 def enrich(signal):
@@ -473,7 +504,33 @@ def fetch_nextfi_briefs(config, current_briefs):
     return briefs or current_briefs
 
 
+def reclassify_auto_data():
+    """Re-run classification rules against every record already in auto_data.json.
+
+    Use this after updating classify_signal_type / classify_fmi_areas /
+    classify_initiative_types to retroactively fix existing signal tags without
+    re-fetching from RSS feeds.
+
+        python -m scripts.update_signals --reclassify
+    """
+    auto_data = load_json(AUTO_DATA_PATH, [])
+    if not auto_data:
+        print("No auto signals found — nothing to reclassify.")
+        return
+    for signal in auto_data:
+        # signal_type must be set first; fmi/initiative classifiers may depend on it.
+        signal["signal_type"] = classify_signal_type(signal)
+        signal["fmi_areas"] = classify_fmi_areas(signal)
+        signal["initiative_types"] = classify_initiative_types(signal)
+    save_json(AUTO_DATA_PATH, auto_data)
+    print(f"Reclassified {len(auto_data)} auto signals in {AUTO_DATA_PATH}.")
+
+
 def main():
+    if "--reclassify" in sys.argv:
+        reclassify_auto_data()
+        return
+
     manual_data = load_json(DATA_PATH, [])
     existing_auto = load_json(AUTO_DATA_PATH, [])
     current_briefs = load_json(INTEL_BRIEFS_PATH, [])

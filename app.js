@@ -1874,7 +1874,8 @@ const IMPORTANCE_STAGE_BY_SIGNAL_TYPE = {
   'Regulatory Action': 'Structural',
   'Regulatory / Compliance Framework': 'Structural',
   'Strategic Partnership': 'Production',
-  'Investment / M&A': 'Production'
+  'Investment / M&A': 'Production',
+  'Leadership & Governance': 'Concept'
 };
 
 const IMPORTANCE_MATERIALITY_BY_SIGNAL_TYPE = {
@@ -1887,7 +1888,8 @@ const IMPORTANCE_MATERIALITY_BY_SIGNAL_TYPE = {
   'Regulatory Action': 'Very High',
   'Regulatory / Compliance Framework': 'High',
   'Strategic Partnership': 'Medium',
-  'Investment / M&A': 'High'
+  'Investment / M&A': 'High',
+  'Leadership & Governance': 'Medium'
 };
 
 const IMPORTANCE_STAGE_WEIGHTS = {
@@ -2256,7 +2258,8 @@ const DIRECTORY_SHORT_INIT = {
   'Stablecoins & Deposit Tokens': 'Stablecoins',
   'CBDC': 'CBDC',
   'DeFi': 'DeFi',
-  'Digital Asset Strategy': 'Strategy'
+  'Digital Asset Strategy': 'Strategy',
+  'Leadership & Governance': 'Leadership'
 };
 
 const DIRECTORY_SHORT_FMI = {
@@ -2325,7 +2328,7 @@ function renderInstitutionRows(insts, options = {}) {
     const sigTypesHtml = Object.entries(inst.signalTypes)
       .sort((a, b) => b[1] - a[1])
       .map(([type, count]) => {
-        const shortLabel = type.replace('Platform / Infrastructure', 'Platform').replace('Strategic Partnership', 'Partnership').replace('Strategic Initiative', 'Initiative').replace('Regulatory Action', 'Regulatory').replace('Investment / M&A', 'Investment').replace('Pilot / Trial', 'Pilot').replace('Product Launch', 'Launch');
+        const shortLabel = type.replace('Platform / Infrastructure', 'Platform').replace('Strategic Partnership', 'Partnership').replace('Strategic Initiative', 'Initiative').replace('Regulatory Action', 'Regulatory').replace('Investment / M&A', 'Investment').replace('Pilot / Trial', 'Pilot').replace('Product Launch', 'Launch').replace('Leadership & Governance', 'Leadership');
         return `<span class="cell-tag cell-tag-link" title="${type}: ${count} - Click to view signals" data-nav-signal-name="${encodedName}" data-nav-signal-category="${encodedCatKey}">${shortLabel} ${count}</span>`;
       })
       .join('');
