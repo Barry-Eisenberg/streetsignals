@@ -2024,6 +2024,11 @@
 .catalogue-scoring-legend {
   border-top: 1px dashed var(--color-divider);
   padding-top: var(--space-2);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 8px;
+  align-items: center;
+  line-height: 1.6;
 }
 
 .scoring-key {
@@ -3047,6 +3052,13 @@
   margin-bottom: var(--space-3);
 }
 
+.signal-detail-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-shrink: 0;
+}
+
 .signal-detail-title h3 {
   margin: 0;
   font-size: var(--text-base);
@@ -3067,6 +3079,29 @@
   padding: 2px 8px;
   font-size: var(--text-sm);
   line-height: 1;
+}
+
+.signal-detail-copy {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+  color: var(--color-primary);
+  cursor: pointer;
+  padding: 6px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.signal-detail-copy:hover {
+  border-color: var(--color-primary);
+  background: rgba(var(--color-primary-rgb), 0.08);
+}
+
+.signal-detail-copy.is-copied {
+  border-color: rgba(0, 204, 136, 0.5);
+  background: rgba(0, 204, 136, 0.14);
+  color: var(--color-success);
 }
 
 .signal-detail-close:hover {
