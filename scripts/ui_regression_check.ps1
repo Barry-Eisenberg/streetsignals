@@ -53,8 +53,8 @@ $allGood = (Assert-NoPattern -Path $indexHtml -Pattern 'javascript:void\(0\)' -L
 $allGood = (Assert-HasPattern -Path $appJs -Pattern 'function getLatestNonFutureSignalTimestamp' -Label 'latest non-future timestamp helper') -and $allGood
 $allGood = (Assert-HasPattern -Path $appJs -Pattern 'ts > nowTs' -Label 'future-date exclusion guard') -and $allGood
 
-# 3) Delegated interaction hooks present.
-$allGood = (Assert-HasPattern -Path $appJs -Pattern '\[data-priority-view-all\]' -Label 'priority view-all delegated hook') -and $allGood
+# 3) Delegated interaction hooks present / deprecated hooks absent.
+$allGood = (Assert-NoPattern -Path $appJs -Pattern '\[data-priority-view-all\]|View all Structural signals' -Label 'deprecated priority view-all hook removed') -and $allGood
 $allGood = (Assert-HasPattern -Path $appJs -Pattern '\[data-priority-signal-key\]' -Label 'priority details delegated hook') -and $allGood
 $allGood = (Assert-HasPattern -Path $appJs -Pattern '\[data-kpi-close\]' -Label 'kpi close delegated hook') -and $allGood
 $allGood = (Assert-HasPattern -Path $appJs -Pattern '\[data-strength-breakdown-inst\]' -Label 'signal strength drilldown delegated hook') -and $allGood
