@@ -116,27 +116,28 @@
       <button class="persona-btn" data-persona="infra_product">Banks &amp; FMIs / Operations &amp; Infra</button>
       <button class="persona-btn" data-persona="risk_compliance">Policy / Risk / Regulatory</button>
     </div>
-    <div class="global-date-filter">
-      <label for="globalDateFilterSelect" class="global-date-filter-label">Date window</label>
-      <select id="globalDateFilterSelect" class="global-date-filter-select">
-        <option value="14">Last 14 days</option>
-        <option value="30" selected>Last 30 days</option>
-        <option value="60">Last 60 days</option>
-        <option value="90">Last 90 days</option>
-        <option value="all">All historical</option>
-      </select>
+
+    <div class="global-institution-filters">
+      <div class="filter-pills-label">Institution Category</div>
+      <div class="filter-pills" id="filterPills"></div>
     </div>
 
-    <div class="global-signals-controls">
-      <div class="signal-type-filter global-country-filter">
+    <div class="global-dropdown-row">
+      <div class="signal-type-filter global-dropdown-filter">
+        <label for="globalDateFilterSelect">Date window</label>
+        <select id="globalDateFilterSelect" class="global-date-filter-select">
+          <option value="14">Last 14 days</option>
+          <option value="30" selected>Last 30 days</option>
+          <option value="60">Last 60 days</option>
+          <option value="90">Last 90 days</option>
+          <option value="all">All historical</option>
+        </select>
+      </div>
+      <div class="signal-type-filter global-dropdown-filter">
         <label for="countrySelect">Country</label>
         <select id="countrySelect">
           <option value="">All Countries</option>
         </select>
-      </div>
-      <div class="global-category-filter">
-        <div class="filter-pills-label">Institution Category</div>
-        <div class="filter-pills" id="filterPills"></div>
       </div>
     </div>
 
@@ -256,6 +257,7 @@
         <label>Sort by</label>
         <select id="directorySort">
           <option value="signals">Signal Count</option>
+          <option value="strength">Signal Strength</option>
           <option value="name">Name (A→Z)</option>
         </select>
       </div>
@@ -302,6 +304,7 @@
           <label>Sort by</label>
           <select id="countryDirectorySort">
             <option value="signals">Signal Count</option>
+            <option value="strength">Signal Strength</option>
             <option value="name">Name (A→Z)</option>
           </select>
         </div>
