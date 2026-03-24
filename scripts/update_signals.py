@@ -38,6 +38,10 @@ _TRACKING_PARAMS = re.compile(
     re.IGNORECASE,
 )
 
+_NUMERIC_DATE_RE = re.compile(
+    r"^\s*(\d{1,4})[./-](\d{1,2})[./-](\d{1,4})(?:[ T](\d{1,2}):(\d{2})(?::(\d{2}))?)?\s*$"
+)
+
 # Words ignored when building a title fingerprint
 _STOPWORDS = {
     "the", "a", "an", "of", "in", "on", "to", "for", "and", "with",
@@ -147,25 +151,74 @@ def safe_iso_date(value):
     if not value:
         return datetime.now(timezone.utc).date().isoformat()
 
+    text = str(value).strip()
+
     try:
-        dt = parsedate_to_datetime(value)
+        dt = parsedate_to_datetime(text)
         if dt.tzinfo is None:
             dt = dt.replace(tzinfo=timezone.utc)
         return dt.date().isoformat()
     except Exception:
         pass
 
+    numeric = _NUMERIC_DATE_RE.match(text)
+    if numeric:
+        first, second, third = int(numeric.group(1)), int(numeric.group(2)), int(numeric.group(3))
+        if len(numeric.group(1)) == 4:
+            year, month, day = first, second, third
+        elif len(numeric.group(3)) == 4:
+            year = third
+            if first > 12 and second <= 12:
+                day, month = first, second
+            elif second > 12 and first <= 12:
+                month, day = first, second
+            else:
+                # Ambiguous dd/mm vs mm/dd. Prefer day-first for international feeds.
+                day, month = first, second
+        else:
+            year = month = day = None
+
+        if year and month and day:
+            try:
+                return datetime(year, month, day, tzinfo=timezone.utc).date().isoformat()
+            except Exception:
+                pass
+
     # Try ISO-ish fallback
-    m = re.search(r"(20\d{2})[-/](\d{1,2})[-/](\d{1,2})", value)
+    m = re.search(r"(20\d{2})[-/](\d{1,2})[-/](\d{1,2})", text)
     if m:
         y, mo, d = m.groups()
         return f"{int(y):04d}-{int(mo):02d}-{int(d):02d}"
 
-    y = re.search(r"20\d{2}", value)
+    y = re.search(r"20\d{2}", text)
     if y:
         return f"{y.group(0)}-01-01"
 
     return datetime.now(timezone.utc).date().isoformat()
+
+
+def parse_iso_date(value):
+    try:
+        return datetime.strptime(value, "%Y-%m-%d").date()
+    except Exception:
+        return None
+
+
+def is_future_iso_date(value):
+    parsed = parse_iso_date(value)
+    if parsed is None:
+        return False
+    return parsed > datetime.now(timezone.utc).date()
+
+
+def is_event_style_url(url):
+    u = (url or "").lower()
+    return (
+        "/event-info/" in u
+        or "/events/" in u
+        or "/webinar" in u
+        or "/conference" in u
+    )
 
 
 def classify_signal_type(signal):
@@ -391,6 +444,12 @@ def fetch_auto_signals(config, manual_data, existing_auto):
                 break
 
             url = item["link"]
+            if is_event_style_url(url):
+                continue
+
+            if is_future_iso_date(item["published"]):
+                continue
+
             if not url or url in seen_urls:
                 continue
 
@@ -431,7 +490,12 @@ def fetch_auto_signals(config, manual_data, existing_auto):
 def prune_and_cap(signals, rolling_days=ROLLING_DAYS, cap=MAX_AUTO_SIGNALS):
     """Remove signals older than rolling_days and enforce hard cap (newest first)."""
     cutoff = (datetime.now(timezone.utc) - timedelta(days=rolling_days)).date().isoformat()
-    fresh = [s for s in signals if s.get("date", "1900-01-01") >= cutoff]
+    today = datetime.now(timezone.utc).date().isoformat()
+    fresh = [
+        s for s in signals
+        if cutoff <= s.get("date", "1900-01-01") <= today
+        and not is_event_style_url(s.get("source_url", ""))
+    ]
     fresh.sort(key=lambda s: s.get("date", "1900-01-01"), reverse=True)
     return fresh[:cap]
 
