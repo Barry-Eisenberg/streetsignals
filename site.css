@@ -102,6 +102,7 @@ body {
   z-index: 100;
   background: var(--color-surface);
   border-bottom: 1px solid var(--color-divider);
+  -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
 }
 
@@ -705,6 +706,78 @@ body {
 
 .signals-link-strip a:hover { text-decoration: underline; }
 
+/* ── Utility classes (replace inline styles) ───────────────────────────── */
+.u-hide { display: none; }
+
+.u-container-no-inline-padding {
+  padding-inline: 0;
+}
+
+.u-section-pad-block-sm {
+  padding-block: var(--space-8);
+}
+
+.u-section-pad-bottom-sm {
+  padding-bottom: var(--space-8);
+}
+
+.u-section-border-bottom {
+  border-bottom: 1px solid var(--color-divider);
+}
+
+.u-section-border-top {
+  border-top: 2px solid var(--color-divider);
+}
+
+.u-intro-margin-bottom-sm {
+  margin-bottom: var(--space-6);
+}
+
+.u-grid-margin-bottom-none {
+  margin-bottom: 0;
+}
+
+.u-heading-margin-top-md {
+  margin-top: var(--space-5);
+}
+
+.u-footer-nav-inline {
+  display: flex;
+  gap: var(--space-5);
+}
+
+.u-nextfi-help-margin-top {
+  margin-top: var(--space-10);
+}
+
+.u-signals-strip-margin-top {
+  margin-top: var(--space-4);
+}
+
+.u-hero-question-strong {
+  color: var(--color-text);
+  display: block;
+  margin-top: 0.75rem;
+}
+
+.u-playbook-header-compact {
+  border-bottom: none;
+  padding-block: 0 var(--space-10);
+}
+
+.u-radar-canvas {
+  display: none;
+  width: min(100%, 860px);
+  height: auto;
+  aspect-ratio: 16 / 11;
+  max-width: 860px;
+  max-height: 620px;
+}
+
+.u-link-primary {
+  color: var(--color-primary);
+}
+
 /* ── Playbook sub-nav (within-page anchors) ──────────────────────────────── */
 .playbook-subnav {
   display: flex;
@@ -773,12 +846,37 @@ body {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-xl);
-  padding: var(--space-8);
+  padding: var(--space-2);
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 380px;
+  width: min(100%, 940px);
+  min-height: 0;
+  margin-inline: auto;
   margin-bottom: var(--space-8);
+}
+
+@media (max-width: 900px) {
+  .u-radar-canvas {
+    width: min(100%, 680px);
+    max-width: 680px;
+    max-height: 500px;
+  }
+}
+
+@media (max-width: 640px) {
+  .u-radar-canvas {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
+    height: min(82vw, 360px);
+    min-height: 300px;
+    max-height: 420px;
+  }
+
+  .radar-canvas-wrap {
+    padding: var(--space-3);
+  }
 }
 
 .radar-tabs {

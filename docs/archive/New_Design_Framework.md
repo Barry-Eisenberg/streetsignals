@@ -1,7 +1,7 @@
-# Street Signals – Product & UI Design Framework
+# SftS signals – Product & UI Design Framework
 *Version 1.1 – March 2026*
 
-This document turns the updated scoring and content model into concrete UI and UX patterns for the Street Signals site (streetsignals.nextfiadvisors.com). It focuses on:
+This document turns the updated scoring and content model into concrete UI and UX patterns for the SftS signals site (streetsignals.nextfiadvisors.com). It focuses on:
 
 - Page-level layout for the Signals experience  
 - Signal card design and behavior  
@@ -16,7 +16,7 @@ It assumes the scoring backend follows the v3 Importance Methodology (importance
 ## 1. Design Goals
 
 - **Filter, not feed**  
-  Street Signals should feel like a *filter* on institutional noise, not another stream of headlines. Only the most consequential signals should stand out.
+  SftS signals should feel like a *filter* on institutional noise, not another stream of headlines. Only the most consequential signals should stand out.
 
 - **Importance first, trend second**  
   Visually separate *signal importance* (Structural / Material / Context) from *trend context* (Narrow / Emerging / Broad).
@@ -44,7 +44,7 @@ It assumes the scoring backend follows the v3 Importance Methodology (importance
   `The Institutional Migration to Blockchain Infrastructure`
 
 - Subhead (2–3 lines)  
-  > Street Signals filters hundreds of institutional digital‑asset initiatives to highlight only the most consequential moves from global banks, asset managers, FMIs, and regulators.  
+  > SftS signals filters hundreds of institutional digital‑asset initiatives to highlight only the most consequential moves from global banks, asset managers, FMIs, and regulators.  
   >  
   > Signals are scored for importance and trend context so you can see what’s real, what’s material, and what’s likely durable over the next 3–5 years.
 

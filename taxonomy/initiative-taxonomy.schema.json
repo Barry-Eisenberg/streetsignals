@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://streetsignals.nextfiadvisors.com/schemas/initiative-taxonomy.schema.json",
-  "title": "Street Signals Initiative Taxonomy",
+  "title": "SftS signals Initiative Taxonomy",
   "type": "object",
   "required": [
     "version",

@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://streetsignals.nextfiadvisors.com/schemas/signal-record.schema.json",
-  "title": "Street Signals Record",
-  "description": "Normalized signal record used by Street Signals analytics. Institution types, initiative types, and FMI areas may be normalized client-side before rendering.",
+  "title": "SftS signals Record",
+  "description": "Normalized signal record used by SftS signals analytics. Institution types, initiative types, and FMI areas may be normalized client-side before rendering.",
   "type": "object",
   "required": [
     "institution",

@@ -117,6 +117,107 @@
   color: var(--color-primary);
   font-weight: 700;
 }
+
+.who-for-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-top: var(--space-5);
+}
+
+.who-for-list li {
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+  padding-left: var(--space-5);
+  position: relative;
+}
+
+.who-for-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+}
+
+.radar-method-note {
+  margin-top: var(--space-5);
+  padding: var(--space-4) var(--space-5);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+.radar-controls {
+  align-items: end;
+}
+
+.radar-generate-btn {
+  height: 44px;
+  padding: 0 var(--space-6);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-primary);
+  background: var(--color-primary);
+  color: var(--color-text-inverse, #0a0b0f);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform var(--transition-interactive), box-shadow var(--transition-interactive), background var(--transition-interactive);
+}
+
+.radar-generate-btn:hover {
+  background: var(--color-primary-hover);
+  box-shadow: var(--shadow-glow);
+  transform: translateY(-1px);
+}
+
+.radar-generate-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.theme-status-line {
+  font-size: var(--text-base);
+  color: var(--color-text);
+  margin-bottom: var(--space-4);
+}
+
+.theme-status-line strong {
+  color: var(--color-primary);
+}
+
+.theme-signals-link {
+  margin-top: var(--space-5);
+  display: inline-flex;
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.theme-signals-link:hover {
+  text-decoration: underline;
+}
+
+.radar-under-chart-link {
+  margin-top: var(--space-5);
+  text-align: center;
+  font-size: var(--text-sm);
+}
+
+.radar-under-chart-link a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.radar-under-chart-link a:hover {
+  text-decoration: underline;
+}
 </style>
 </head>
 <body>
@@ -172,20 +273,27 @@
     </div>
     <h1>Institutional <span class="accent">Positioning Radar</span></h1>
     <p>
-      Positioning Radar benchmarks an institution's digital-asset posture against peers across three themes: Tokenized Funds &amp; RWAs, Stablecoins &amp; Settlement, and Market Infrastructure &amp; DLT. It uses Street Signals importance scores and trend context to show where you are leading, matching, or lagging.
+      Benchmark your institution's digital-asset posture across tokenized funds, stablecoins &amp; settlement, and DLT-based market infrastructure and see how you compare to peers.
     </p>
+    <ul class="who-for-list" aria-label="Who this is for">
+      <li>Boards, CIOs, and strategy leaders at asset managers, banks, custodians, and FMIs.</li>
+      <li>Fintech and infrastructure providers wanting a clear view of target institutions' adoption profiles.</li>
+    </ul>
+    <div class="radar-method-note">
+      Radar views are based on SftS signal importance tiers (Structural, Material, Context) and trend context across the last 18 to 24 months. Optional on-chain context from rwa.xyz can be shown in the theme tabs but does not affect radar scores.
+    </div>
   </div>
 </section>
 
 <!-- ── HOW IT WORKS ──────────────────────────────────────────────────────── -->
-<section class="site-section" style="padding-bottom: var(--space-8);">
-  <div class="container site-container--narrow" style="padding-inline: 0;">
+<section class="site-section u-section-pad-bottom-sm">
+  <div class="container site-container--narrow u-container-no-inline-padding">
     <div class="section-eyebrow">Methodology</div>
     <h2 class="section-heading">How the radar is scored</h2>
-    <p class="section-intro" style="margin-bottom: var(--space-6);">
-      Each institution in the Street Signals catalogue is scored across the three themes using cumulative signal importance, recency weighting, and stage mix (Structural vs Material vs Exploratory). Peer group averages are computed across all institutions in that category.
+    <p class="section-intro u-intro-margin-bottom-sm">
+      Each institution in the SftS catalogue is scored across the three themes using cumulative signal importance, recency weighting, and stage mix (Structural vs Material vs Exploratory). Peer group averages are computed across all institutions in that category.
     </p>
-    <div class="audience-grid" style="margin-bottom: 0;">
+    <div class="audience-grid u-grid-margin-bottom-none">
       <div class="audience-card">
         <h3>Signal breadth</h3>
         <p>Number of distinct signals across each theme — shows commitment and activity level relative to peers.</p>
@@ -211,23 +319,25 @@
     <!-- Controls -->
     <div class="radar-controls">
       <div class="radar-select-group">
-        <label for="institutionSelect">Institution</label>
+        <label for="institutionSelect">Select institution</label>
         <select class="radar-select" id="institutionSelect">
+          <option value="demo" selected>Example Global Institution (Demo)</option>
           <option value="">Loading institutions...</option>
         </select>
       </div>
       <div class="radar-select-group">
-        <label for="peerGroupSelect">Peer group</label>
+        <label for="peerGroupSelect">Select peer group</label>
         <select class="radar-select" id="peerGroupSelect">
+          <option value="Global Banks" selected>Global Banks</option>
+          <option value="Asset &amp; Investment Management">Asset &amp; Investment Management</option>
+          <option value="Payments Providers">Payments Providers</option>
+          <option value="Exchanges &amp; Central Intermediaries">Exchanges &amp; Central Intermediaries</option>
+          <option value="Regulatory Agencies">Regulatory Agencies</option>
+          <option value="Infrastructure &amp; Technology">Infrastructure &amp; Technology</option>
           <option value="all">All institutions</option>
-          <option value="banks">Global Banks</option>
-          <option value="asset-mgmt">Asset Managers</option>
-          <option value="payments">Payments Providers</option>
-          <option value="exchanges">Exchanges</option>
-          <option value="regulators">Regulators &amp; Central Banks</option>
-          <option value="ecosystem">Ecosystem / Infrastructure</option>
         </select>
       </div>
+      <button type="button" id="generateRadarBtn" class="radar-generate-btn">Generate radar</button>
     </div>
 
     <!-- Radar chart -->
@@ -239,15 +349,18 @@
           <path d="M2 12h20"/>
         </svg>
         <h3>Select an institution to view the radar</h3>
-        <p>Choose an institution and peer group above. The radar shows relative positioning across the three core themes using live Street Signals data.</p>
+        <p>Choose an institution and peer group above. The radar shows relative positioning across the three core themes using live SftS data.</p>
       </div>
-      <canvas id="radarChart" style="display: none; max-width: 500px; max-height: 500px;"></canvas>
+      <canvas id="radarChart" class="u-radar-canvas"></canvas>
     </div>
 
-    <p class="radar-score-note" id="radarScoreNote" style="display: none;"></p>
+    <p class="radar-score-note u-hide" id="radarScoreNote"></p>
+    <p class="radar-under-chart-link u-hide" id="radarUnderChartLink">
+      <a href="/" id="institutionSignalsLink">See all Structural and Material signals for selected institution →</a>
+    </p>
 
     <!-- Theme detail tabs -->
-    <div id="radarDetailSection" style="display: none;">
+    <div id="radarDetailSection" class="u-hide">
       <div class="radar-tabs" role="tablist">
         <button class="radar-tab active" role="tab" data-tab="tokenized-funds" aria-selected="true">Tokenized Funds &amp; RWAs</button>
         <button class="radar-tab" role="tab" data-tab="stablecoins" aria-selected="false">Stablecoins &amp; Settlement</button>
@@ -258,20 +371,20 @@
       <div class="radar-tab-panel active" id="tab-tokenized-funds" role="tabpanel">
         <div class="position-summary">
           <h4 id="tf-position-heading">Position: Tokenized Funds &amp; RWAs</h4>
+          <p class="theme-status-line" id="tf-summary-line">Loading summary...</p>
           <ul class="radar-position-bullets" id="tf-bullets">
             <li>Loading position data...</li>
           </ul>
           <div class="radar-recommended-moves">
             <h4>Recommended moves</h4>
-            <ul class="radar-move-list">
-              <li>Review the <a href="/decision-playbooks/#tokenized-funds" style="color: var(--color-primary);">Tokenized Funds & RWAs playbook</a> for plays matched to your current posture.</li>
-              <li>Identify which custodians and fund administrators serving your peer group have the deepest tokenized-fund integration capability.</li>
-              <li>Consider whether your regulatory jurisdiction is a constraint or an advantage — MiCA-compliant frameworks are already live.</li>
+            <ul class="radar-move-list" id="tf-moves">
+              <li>Loading suggested moves...</li>
             </ul>
           </div>
+          <a class="theme-signals-link" id="tf-theme-signals-link" href="/">View underlying signals in this theme →</a>
           <div class="cta-row">
-            <a href="https://nextfiadvisors.com/contact" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--outline">Request a private positioning report (PDF)</a>
-            <a href="/decision-playbooks/#tokenized-funds" class="cta-btn cta-btn--outline">View detailed plays →</a>
+            <a href="https://nextfiadvisors.com/contact" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--outline" id="tf-cta">Request a private radar and playbook session for this institution in this theme</a>
+            <a href="/decision-playbooks/#tokenized-funds" class="cta-btn cta-btn--outline">View full Tokenized Funds &amp; RWAs Decision Playbook →</a>
           </div>
         </div>
       </div>
@@ -280,20 +393,20 @@
       <div class="radar-tab-panel" id="tab-stablecoins" role="tabpanel">
         <div class="position-summary">
           <h4 id="sc-position-heading">Position: Stablecoins &amp; Settlement</h4>
+          <p class="theme-status-line" id="sc-summary-line">Loading summary...</p>
           <ul class="radar-position-bullets" id="sc-bullets">
             <li>Loading position data...</li>
           </ul>
           <div class="radar-recommended-moves">
             <h4>Recommended moves</h4>
-            <ul class="radar-move-list">
-              <li>Review the <a href="/decision-playbooks/#stablecoins" style="color: var(--color-primary);">Stablecoins & Settlement playbook</a> for plays matched to your current posture.</li>
-              <li>Map which stablecoin and deposit-token networks your key counterparties are already connected to.</li>
-              <li>Assess whether your compliance and treasury teams have the controls framework needed to run even a narrow B2B pilot.</li>
+            <ul class="radar-move-list" id="sc-moves">
+              <li>Loading suggested moves...</li>
             </ul>
           </div>
+          <a class="theme-signals-link" id="sc-theme-signals-link" href="/">View underlying signals in this theme →</a>
           <div class="cta-row">
-            <a href="https://nextfiadvisors.com/contact" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--outline">Request a private positioning report (PDF)</a>
-            <a href="/decision-playbooks/#stablecoins" class="cta-btn cta-btn--outline">View detailed plays →</a>
+            <a href="https://nextfiadvisors.com/contact" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--outline" id="sc-cta">Request a private radar and playbook session for this institution in this theme</a>
+            <a href="/decision-playbooks/#stablecoins" class="cta-btn cta-btn--outline">View full Stablecoins &amp; Settlement Decision Playbook →</a>
           </div>
         </div>
       </div>
@@ -302,27 +415,27 @@
       <div class="radar-tab-panel" id="tab-dlt" role="tabpanel">
         <div class="position-summary">
           <h4 id="dlt-position-heading">Position: Market Infrastructure &amp; DLT</h4>
+          <p class="theme-status-line" id="dlt-summary-line">Loading summary...</p>
           <ul class="radar-position-bullets" id="dlt-bullets">
             <li>Loading position data...</li>
           </ul>
           <div class="radar-recommended-moves">
             <h4>Recommended moves</h4>
-            <ul class="radar-move-list">
-              <li>Review the <a href="/decision-playbooks/#dlt-infrastructure" style="color: var(--color-primary);">Market Infrastructure & DLT playbook</a> for plays matched to your current posture.</li>
-              <li>Identify the two or three post-trade workflows where DLT adoption by your peers is highest — these represent the shortest path to network-effect benefits.</li>
-              <li>Decide early whether you are a user, co-owner, or competitor in emerging DLT platforms — the governance positions are becoming finite.</li>
+            <ul class="radar-move-list" id="dlt-moves">
+              <li>Loading suggested moves...</li>
             </ul>
           </div>
+          <a class="theme-signals-link" id="dlt-theme-signals-link" href="/">View underlying signals in this theme →</a>
           <div class="cta-row">
-            <a href="https://nextfiadvisors.com/contact" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--outline">Request a private positioning report (PDF)</a>
-            <a href="/decision-playbooks/#dlt-infrastructure" class="cta-btn cta-btn--outline">View detailed plays →</a>
+            <a href="https://nextfiadvisors.com/contact" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--outline" id="dlt-cta">Request a private radar and playbook session for this institution in this theme</a>
+            <a href="/decision-playbooks/#dlt-infrastructure" class="cta-btn cta-btn--outline">View full Market Infrastructure &amp; DLT Decision Playbook →</a>
           </div>
         </div>
       </div>
     </div><!-- /radarDetailSection -->
 
     <!-- Private report CTA (always visible) -->
-    <div class="nextfi-help" style="margin-top: var(--space-10);">
+    <div class="nextfi-help u-nextfi-help-margin-top">
       <h3>Want a private positioning report for your institution?</h3>
       <p>The radar gives you a high-level view. NextFi Advisors can produce a tailored, confidential PDF positioning report with detailed signal breakdowns, peer comparisons, and recommended next steps for your specific institution and role.</p>
       <ul>
@@ -343,10 +456,10 @@
 <section class="site-section">
   <div class="container">
     <div class="signals-link-strip">
-      <span>Radar scores are derived from live Street Signals data — see the underlying signals.</span>
+      <span>Radar scores are derived from live SftS data — see the underlying signals.</span>
       <a href="/">View live Signals →</a>
     </div>
-    <div class="signals-link-strip" style="margin-top: var(--space-4);">
+    <div class="signals-link-strip u-signals-strip-margin-top">
       <span>Turn radar insights into action with a Decision Playbook matched to your position.</span>
       <a href="/decision-playbooks/">View Decision Playbooks →</a>
     </div>
@@ -357,8 +470,8 @@
 <!-- ── FOOTER ─────────────────────────────────────────────────────────────── -->
 <footer class="site-footer">
   <div class="site-footer-inner">
-    <p>© 2025 NextFi Advisors. Street Signals is a market intelligence service.</p>
-    <nav style="display: flex; gap: var(--space-5);">
+    <p>© 2025 NextFi Advisors. SftS signals is a market intelligence service.</p>
+    <nav class="u-footer-nav-inline">
       <a href="/">Signals</a>
       <a href="/decision-playbooks/">Decision Playbooks</a>
       <a href="/institutional-radar/">Positioning Radar</a>
@@ -414,14 +527,149 @@
 
   // ── Radar chart ─────────────────────────────────────────────────────────
   var DATA_URL = '../auto_data.json';
+  var MANUAL_DATA_URL = '../data.json';
   var radarChartInstance = null;
   var allSignals = [];
+
+  var DEMO_INSTITUTION = 'Example Global Institution (Demo)';
+  var DEMO_SCORES = {
+    institution: { tokenizedFunds: 44, stablecoins: 61, dlt: 55 },
+    peer: { tokenizedFunds: 56, stablecoins: 58, dlt: 52 },
+    signalCount: 12,
+    themeMeta: {
+      tokenizedFunds: { instStructural: 1, instMaterial: 2, peerStructural: 3, peerMaterial: 2, topFocus: 'money market fund pilots' },
+      stablecoins: { instStructural: 2, instMaterial: 2, peerStructural: 2, peerMaterial: 2, topFocus: 'cross-border settlement pathways' },
+      dlt: { instStructural: 1, instMaterial: 3, peerStructural: 1, peerMaterial: 3, topFocus: 'post-trade infrastructure pilots' }
+    }
+  };
+
+  var PEER_GROUP_LABELS = {
+    'Global Banks': 'Global Banks',
+    'Asset & Investment Management': 'Asset & Investment Management',
+    'Payments Providers': 'Payments Providers',
+    'Exchanges & Central Intermediaries': 'Exchanges & Central Intermediaries',
+    'Regulatory Agencies': 'Regulatory Agencies',
+    'Infrastructure & Technology': 'Infrastructure & Technology',
+    'all': 'All institutions'
+  };
+
+  var PEER_GROUP_ORDER = [
+    'Global Banks',
+    'Asset & Investment Management',
+    'Payments Providers',
+    'Exchanges & Central Intermediaries',
+    'Regulatory Agencies',
+    'Infrastructure & Technology'
+  ];
+
+  var RADAR_INSTITUTION_TYPE_NORMALIZATION = {
+    'Central Banks & Regulators': 'Regulatory Agencies',
+    'Digital Asset Infrastructure': 'Infrastructure & Technology',
+    'Exchanges & Trading Venues': 'Exchanges & Central Intermediaries',
+    'Financial Infrastructure Operators': 'Infrastructure & Technology',
+    'Financial Services & Credit Rating Agencies': 'Infrastructure & Technology',
+    'Global Payment Networks': 'Payments Providers',
+    'Payment Service Providers': 'Payments Providers'
+  };
+
+  var RADAR_INCLUDED_INSTITUTION_TYPES = {
+    'Global Banks': true,
+    'Asset & Investment Management': true,
+    'Payments Providers': true,
+    'Exchanges & Central Intermediaries': true,
+    'Regulatory Agencies': true,
+    'Infrastructure & Technology': true
+  };
+
+  var RADAR_EXCLUDED_INSTITUTION_PATTERN = /(^|\b)(coindesk|finextra|the block|coingeek|unchained|ledger insights|connecting the dots|fintech wrap up)(\b|$)/i;
+  var RADAR_MIN_SIGNALS_PER_INSTITUTION = 2;
+
+  var THEME_DEFS = {
+    tokenizedFunds: {
+      label: 'Tokenized Funds & RWAs',
+      tabPrefix: 'tf',
+      playbookHref: '/decision-playbooks/#tokenized-funds',
+      playbookLabel: 'Tokenized Funds & RWAs'
+    },
+    stablecoins: {
+      label: 'Stablecoins & Settlement',
+      tabPrefix: 'sc',
+      playbookHref: '/decision-playbooks/#stablecoins',
+      playbookLabel: 'Stablecoins & Settlement'
+    },
+    dlt: {
+      label: 'Market Infrastructure & DLT',
+      tabPrefix: 'dlt',
+      playbookHref: '/decision-playbooks/#dlt-infrastructure',
+      playbookLabel: 'Market Infrastructure & DLT'
+    }
+  };
 
   var THEME_KEYWORDS = {
     tokenizedFunds: ['tokeniz', 'rwa', 'real-world asset', 'real world asset', 'mmf', 'money market fund', 'treasury fund', 'fund tokeniz', 'tokenized fund', 'tokenised fund', 'tokenized bond', 'tokenised bond'],
     stablecoins:    ['stablecoin', 'stable coin', 'deposit token', 'cbdc', 'digital currency', 'settlement rail', 'on-chain payment', 'on-chain cash', 'digital dollar', 'digital euro'],
     dlt:            ['dlt', 'distributed ledger', 'blockchain infrastructure', 'blockchain platform', 'tokenized collateral', 'tokenised collateral', 'post-trade', 'clearing', 'settlement infrastructure', 'custody moderniz', 'digital securities']
   };
+
+  function parseSignalDate(signal) {
+    var d = signal.date || signal.published_at || '';
+    var parsed = d ? new Date(d) : null;
+    return parsed && !isNaN(parsed.getTime()) ? parsed : null;
+  }
+
+  function getMonthsSince(date) {
+    if (!date) { return 999; }
+    var now = new Date();
+    return (now.getFullYear() - date.getFullYear()) * 12 + (now.getMonth() - date.getMonth());
+  }
+
+  function isInWindow(signal, months) {
+    return getMonthsSince(parseSignalDate(signal)) <= months;
+  }
+
+  function getStrengthWeight(signal) {
+    var text = [
+      signal.title || '',
+      signal.description || '',
+      signal.signal_type || '',
+      signal.initiative || ''
+    ].join(' ').toLowerCase();
+
+    if (/\blive\b|\blaunch\b|\bissuance\b|\bdeployment\b|\bapproval\b|\bapproved\b|\bproduction\b/.test(text)) {
+      return 1.4; // structural-like
+    }
+    if (/\bpilot\b|\btrial\b|proof[-\s]?of[-\s]?concept|\bpoc\b|\bsandbox\b/.test(text)) {
+      return 1.0; // material-like
+    }
+    return 0.7; // context-like
+  }
+
+  function getRecencyWeight(signal) {
+    var m = getMonthsSince(parseSignalDate(signal));
+    if (m <= 6) { return 1.25; }
+    if (m <= 12) { return 1.1; }
+    if (m <= 24) { return 1.0; }
+    return 0.85;
+  }
+
+  function normalizeInstitutionTypeForRadar(typeName) {
+    var label = String(typeName || '').trim();
+    if (!label) { return ''; }
+    return RADAR_INSTITUTION_TYPE_NORMALIZATION[label] || label;
+  }
+
+  function isInstitutionNameEligible(name) {
+    var label = String(name || '').trim();
+    if (!label) { return false; }
+    if (RADAR_EXCLUDED_INSTITUTION_PATTERN.test(label)) { return false; }
+    return true;
+  }
+
+  function isInstitutionTypeEligible(typeName) {
+    var label = normalizeInstitutionTypeForRadar(typeName);
+    if (!label) { return false; }
+    return !!RADAR_INCLUDED_INSTITUTION_TYPES[label];
+  }
 
   function scoreSignalForTheme(signal, keywords) {
     var text = [
@@ -435,8 +683,35 @@
     var hits = 0;
     keywords.forEach(function(kw) { if (text.indexOf(kw) !== -1) { hits++; } });
 
-    var base = parseFloat(signal.importance_score) || 0;
-    return hits > 0 ? base * Math.min(hits, 3) : 0;
+    if (hits === 0 || !isInWindow(signal, 24)) { return { score: 0, matched: false, structuralLike: false, materialLike: false }; }
+
+    var strengthWeight = getStrengthWeight(signal);
+    var recencyWeight = getRecencyWeight(signal);
+    var provided = parseFloat(signal.importance_score);
+    var base = !isNaN(provided) && provided > 0 ? provided : (1.2 * strengthWeight);
+    var composite = base * Math.min(hits, 3) * recencyWeight;
+
+    return {
+      score: composite,
+      matched: true,
+      structuralLike: strengthWeight >= 1.3,
+      materialLike: strengthWeight >= 1.0
+    };
+  }
+
+  function analyzeTheme(signals, keywords) {
+    return signals.reduce(function(acc, s) {
+      var scored = scoreSignalForTheme(s, keywords);
+      if (!scored.matched) { return acc; }
+      acc.score += scored.score;
+      acc.matchedCount += 1;
+      if (scored.structuralLike) {
+        acc.structuralCount += 1;
+      } else if (scored.materialLike) {
+        acc.materialCount += 1;
+      }
+      return acc;
+    }, { score: 0, matchedCount: 0, structuralCount: 0, materialCount: 0 });
   }
 
   function getInstitutionScores(institutionName, peerGroup) {
@@ -444,32 +719,51 @@
       return (s.institution || '').trim().toLowerCase() === institutionName.toLowerCase();
     });
 
-    function themeScore(signals, keywords) {
-      return signals.reduce(function(sum, s) { return sum + scoreSignalForTheme(s, keywords); }, 0);
+    if (institutionName === 'demo') {
+      return DEMO_SCORES;
     }
 
-    var instScores = {
-      tokenizedFunds: themeScore(instSignals, THEME_KEYWORDS.tokenizedFunds),
-      stablecoins:    themeScore(instSignals, THEME_KEYWORDS.stablecoins),
-      dlt:            themeScore(instSignals, THEME_KEYWORDS.dlt)
+    function themeAnalysis(signals, keywords) {
+      return analyzeTheme(signals, keywords);
+    }
+
+    var instAnalysis = {
+      tokenizedFunds: themeAnalysis(instSignals, THEME_KEYWORDS.tokenizedFunds),
+      stablecoins:    themeAnalysis(instSignals, THEME_KEYWORDS.stablecoins),
+      dlt:            themeAnalysis(instSignals, THEME_KEYWORDS.dlt)
     };
 
     // Peer group average
+    var resolvedPeerGroup = peerGroup;
     var peerSignals = peerGroup === 'all' ? allSignals :
-      allSignals.filter(function(s) { return (s.category || '').toLowerCase() === peerGroup; });
+      allSignals.filter(function(s) { return normalizeInstitutionTypeForRadar(s.institution_type) === peerGroup; });
 
-    var peerInstitutions = Array.from(new Set(peerSignals.map(function(s) { return s.institution; }))).filter(Boolean);
+    var peerInstitutions = Array.from(new Set(peerSignals.map(function(s) { return (s.institution || '').trim(); }))).filter(Boolean);
+
+    if (peerInstitutions.length === 0) {
+      resolvedPeerGroup = 'all';
+      peerSignals = allSignals;
+      peerInstitutions = Array.from(new Set(allSignals.map(function(s) { return (s.institution || '').trim(); }))).filter(Boolean);
+    }
 
     function peerAvg(keywords) {
       if (peerInstitutions.length === 0) { return 0; }
-      var total = peerInstitutions.reduce(function(sum, inst) {
+      var totalAnalysis = peerInstitutions.reduce(function(sum, inst) {
         var sigs = peerSignals.filter(function(s) { return s.institution === inst; });
-        return sum + themeScore(sigs, keywords);
-      }, 0);
-      return total / peerInstitutions.length;
+        var a = themeAnalysis(sigs, keywords);
+        sum.score += a.score;
+        sum.structuralCount += a.structuralCount;
+        sum.materialCount += a.materialCount;
+        return sum;
+      }, { score: 0, structuralCount: 0, materialCount: 0 });
+      return {
+        score: totalAnalysis.score / peerInstitutions.length,
+        structuralCount: Math.round(totalAnalysis.structuralCount / peerInstitutions.length),
+        materialCount: Math.round(totalAnalysis.materialCount / peerInstitutions.length)
+      };
     }
 
-    var peerScores = {
+    var peerAnalysis = {
       tokenizedFunds: peerAvg(THEME_KEYWORDS.tokenizedFunds),
       stablecoins:    peerAvg(THEME_KEYWORDS.stablecoins),
       dlt:            peerAvg(THEME_KEYWORDS.dlt)
@@ -481,7 +775,7 @@
     allInstitutions.forEach(function(inst) {
       var sigs = allSignals.filter(function(s) { return s.institution === inst; });
       Object.keys(THEME_KEYWORDS).forEach(function(theme) {
-        var sc = themeScore(sigs, THEME_KEYWORDS[theme]);
+        var sc = themeAnalysis(sigs, THEME_KEYWORDS[theme]).score;
         if (sc > allMax[theme]) { allMax[theme] = sc; }
       });
     });
@@ -492,16 +786,40 @@
 
     return {
       institution: {
-        tokenizedFunds: norm(instScores.tokenizedFunds, 'tokenizedFunds'),
-        stablecoins:    norm(instScores.stablecoins,    'stablecoins'),
-        dlt:            norm(instScores.dlt,            'dlt')
+        tokenizedFunds: norm(instAnalysis.tokenizedFunds.score, 'tokenizedFunds'),
+        stablecoins:    norm(instAnalysis.stablecoins.score,    'stablecoins'),
+        dlt:            norm(instAnalysis.dlt.score,            'dlt')
       },
       peer: {
-        tokenizedFunds: norm(peerScores.tokenizedFunds, 'tokenizedFunds'),
-        stablecoins:    norm(peerScores.stablecoins,    'stablecoins'),
-        dlt:            norm(peerScores.dlt,            'dlt')
+        tokenizedFunds: norm(peerAnalysis.tokenizedFunds.score, 'tokenizedFunds'),
+        stablecoins:    norm(peerAnalysis.stablecoins.score,    'stablecoins'),
+        dlt:            norm(peerAnalysis.dlt.score,            'dlt')
       },
-      signalCount: instSignals.length
+      resolvedPeerGroup: resolvedPeerGroup,
+      signalCount: instSignals.length,
+      themeMeta: {
+        tokenizedFunds: {
+          instStructural: instAnalysis.tokenizedFunds.structuralCount,
+          instMaterial: instAnalysis.tokenizedFunds.materialCount,
+          peerStructural: peerAnalysis.tokenizedFunds.structuralCount,
+          peerMaterial: peerAnalysis.tokenizedFunds.materialCount,
+          topFocus: 'tokenized funds pilots and issuance initiatives'
+        },
+        stablecoins: {
+          instStructural: instAnalysis.stablecoins.structuralCount,
+          instMaterial: instAnalysis.stablecoins.materialCount,
+          peerStructural: peerAnalysis.stablecoins.structuralCount,
+          peerMaterial: peerAnalysis.stablecoins.materialCount,
+          topFocus: 'treasury, settlement, and cross-border flow activity'
+        },
+        dlt: {
+          instStructural: instAnalysis.dlt.structuralCount,
+          instMaterial: instAnalysis.dlt.materialCount,
+          peerStructural: peerAnalysis.dlt.structuralCount,
+          peerMaterial: peerAnalysis.dlt.materialCount,
+          topFocus: 'post-trade and infrastructure modernization work'
+        }
+      }
     };
   }
 
@@ -511,7 +829,7 @@
   }
 
   function getPeerColor(alpha) {
-    return 'rgba(124,92,255,' + alpha + ')';
+    return 'rgba(132,145,163,' + alpha + ')';
   }
 
   function updateChartTheme() {
@@ -526,45 +844,173 @@
     radarChartInstance.update();
   }
 
-  function buildPositionBullets(instName, scores) {
-    var themeMap = {
-      'tokenizedFunds': { bulletEl: 'tf-bullets', headingEl: 'tf-position-heading', label: 'Tokenized Funds & RWAs' },
-      'stablecoins':    { bulletEl: 'sc-bullets',  headingEl: 'sc-position-heading', label: 'Stablecoins & Settlement' },
-      'dlt':            { bulletEl: 'dlt-bullets',  headingEl: 'dlt-position-heading', label: 'Market Infrastructure & DLT' }
-    };
+  function getPositionState(instScore, peerScore) {
+    var rel = ((instScore - peerScore) / Math.max(peerScore, 1)) * 100;
+    if (rel >= 12) { return 'ahead'; }
+    if (rel <= -12) { return 'behind'; }
+    return 'inline';
+  }
 
-    Object.keys(themeMap).forEach(function(theme) {
-      var el = document.getElementById(themeMap[theme].bulletEl);
-      var headingEl = document.getElementById(themeMap[theme].headingEl);
-      var instScore = scores.institution[theme];
-      var peerScore = scores.peer[theme];
-      var diff = instScore - peerScore;
+  function getPositionText(state) {
+    if (state === 'ahead') { return 'AHEAD'; }
+    if (state === 'behind') { return 'BEHIND'; }
+    return 'IN LINE';
+  }
 
-      var positionLabel = diff > 15 ? 'Leading' : diff > -10 ? 'In line with peers' : 'Lagging';
-      var positionColor = diff > 15 ? 'var(--color-success)' : diff > -10 ? 'var(--color-primary)' : 'var(--color-warning)';
+  function buildSuggestedMoves(themeKey, state) {
+    var playbookLink = '<a href="' + THEME_DEFS[themeKey].playbookHref + '" class="u-link-primary">View the full ' + THEME_DEFS[themeKey].playbookLabel + ' Decision Playbook for detailed plays.</a>';
 
-      if (headingEl) {
-        headingEl.innerHTML = 'Position: ' + themeMap[theme].label +
-          ' — <span style="color:' + positionColor + '; font-weight:700;">' + positionLabel + '</span>';
+    if (themeKey === 'tokenizedFunds') {
+      if (state === 'ahead') {
+        return [
+          'Consolidate your lead by formalizing a regulatory-aligned framework for additional tokenized fund launches.',
+          'Expand custody and distribution partnerships so tokenized units can move through collateral and treasury workflows.',
+          playbookLink
+        ];
       }
+      if (state === 'behind') {
+        return [
+          'Start with a narrow pilot anchored in one MMF or short-duration fund in a permissive jurisdiction.',
+          'Align your roadmap with at least one major custodian platform that already supports tokenized-fund operations.',
+          playbookLink
+        ];
+      }
+      return [
+        'Advance one current pilot into a production-ready operating model with clear governance and reporting.',
+        'Prioritize 1 to 2 use cases where tokenized fund units improve liquidity or collateral efficiency.',
+        playbookLink
+      ];
+    }
 
-      if (el) {
-        var bullets = [];
-        bullets.push(instName + ' scores <strong>' + instScore + '/100</strong> on this theme vs a peer group average of <strong>' + peerScore + '/100</strong>.');
-        if (diff > 15) {
-          bullets.push('Signal breadth and importance suggest this institution is among the more active in this theme relative to peers.');
-          bullets.push('Maintaining momentum requires aligning these signals into a coherent external narrative for clients and regulators.');
-        } else if (diff > -10) {
-          bullets.push('Activity is broadly consistent with peer group norms — neither a clear leader nor a laggard in this theme.');
-          bullets.push('Incremental positioning moves could differentiate without requiring a step-change in investment or risk appetite.');
-        } else {
-          bullets.push('Fewer or lower-importance signals in this theme relative to peers suggest limited current activity or public disclosure.');
-          bullets.push('This may represent a genuine gap or a communication gap — both have strategic implications.');
-        }
+    if (themeKey === 'stablecoins') {
+      if (state === 'ahead') {
+        return [
+          'Translate pilot momentum into client-facing settlement products and repeatable control frameworks.',
+          'Build durable partner coverage across counterparties and rails most relevant to cross-border B2B flows.',
+          playbookLink
+        ];
+      }
+      if (state === 'behind') {
+        return [
+          'Run a narrow treasury and settlement pilot focused on one corridor and one clear operational outcome.',
+          'Define risk, compliance, and treasury controls early so pilot success can scale into production.',
+          playbookLink
+        ];
+      }
+      return [
+        'Shift from experimentation toward measurable settlement performance targets in one priority workflow.',
+        'Close partner-network gaps that limit institution-grade adoption across treasury and operations teams.',
+        playbookLink
+      ];
+    }
 
-        el.innerHTML = bullets.map(function(b) { return '<li>' + b + '</li>'; }).join('');
+    if (state === 'ahead') {
+      return [
+        'Prioritize the post-trade lanes where your production readiness can create durable network advantage.',
+        'Clarify whether your long-term role is platform user, co-owner, or strategic orchestrator in DLT markets.',
+        playbookLink
+      ];
+    }
+    if (state === 'behind') {
+      return [
+        'Select one high-friction post-trade workflow and launch a high-commitment pilot with measurable outcomes.',
+        'Partner with an infrastructure provider to accelerate technical integration and governance readiness.',
+        playbookLink
+      ];
+    }
+    return [
+      'Move one proof-of-concept into production-grade readiness in a targeted post-trade process.',
+      'Establish governance and partner alignment now to avoid strategic lockout as standards solidify.',
+      playbookLink
+    ];
+  }
+
+  function buildThemeBullets(themeKey, instName, peerLabel, scores) {
+    var meta = scores.themeMeta[themeKey] || { instStructural: 0, instMaterial: 0, peerStructural: 0, peerMaterial: 0, topFocus: 'current initiatives' };
+    var instScore = scores.institution[themeKey];
+    var peerScore = scores.peer[themeKey];
+    var position = getPositionState(instScore, peerScore);
+    var peerSignalPack = meta.peerStructural + meta.peerMaterial;
+    var themeLabel = THEME_DEFS[themeKey].label;
+    var bullets = [];
+
+    bullets.push('SftS indicates ' + meta.instStructural + ' Structural and ' + meta.instMaterial + ' Material signals for ' + instName + ' in this theme, versus a peer average of about ' + peerSignalPack + '.');
+    bullets.push('Your normalized score is <strong>' + instScore + '/100</strong> against a <strong>' + peerLabel + '</strong> average of <strong>' + peerScore + '/100</strong>.');
+    bullets.push('Current activity is concentrated in ' + meta.topFocus + '.');
+
+    if (themeKey === 'tokenizedFunds') {
+      bullets.push('On-chain context (rwa.xyz): tokenized Treasuries and MMF AUM remain concentrated in conservative, short-duration structures.');
+    } else if (themeKey === 'stablecoins') {
+      bullets.push('On-chain context (rwa.xyz): stablecoin transfer volumes are substantial, with a growing institutional B2B and settlement footprint.');
+    } else {
+      bullets.push('Market context (SftS + rwa.xyz/public data): DLT-based platforms are showing sustained institutional transaction usage in selected workflows.');
+    }
+
+    if (position === 'ahead') {
+      bullets.push('Peers are less active on high-commitment initiatives in this theme, which gives you room to shape standards and partner expectations.');
+    } else if (position === 'behind') {
+      bullets.push('Peers are showing more high-commitment activity in this theme, which can compound into distribution and integration advantages.');
+    } else {
+      bullets.push('Activity is broadly in line with peers, so differentiation now depends on execution quality and clearer strategic signaling.');
+    }
+
+    return {
+      position: position,
+      summaryLine: 'Compared to ' + peerLabel + ', ' + instName + ' is <strong>' + getPositionText(position) + '</strong> in ' + themeLabel + '.',
+      bullets: bullets,
+      moves: buildSuggestedMoves(themeKey, position)
+    };
+  }
+
+  function updateSignalsLinks(instName) {
+    var encodedInst = encodeURIComponent(instName);
+    var institutionHref = '/?institution=' + encodedInst + '&tier=structural,material&radarInstitution=' + encodedInst + '&radarTier=structural,material';
+    var institutionLink = document.getElementById('institutionSignalsLink');
+    var underChart = document.getElementById('radarUnderChartLink');
+    if (institutionLink && underChart) {
+      institutionLink.href = institutionHref;
+      institutionLink.textContent = 'See all Structural and Material signals for ' + instName + ' →';
+      underChart.style.display = 'block';
+    }
+
+    Object.keys(THEME_DEFS).forEach(function(themeKey) {
+      var prefix = THEME_DEFS[themeKey].tabPrefix;
+      var themeLink = document.getElementById(prefix + '-theme-signals-link');
+      if (themeLink) {
+        themeLink.href = '/?institution=' + encodedInst + '&theme=' + encodeURIComponent(THEME_DEFS[themeKey].label) + '&tier=structural,material&radarInstitution=' + encodedInst + '&radarTheme=' + encodeURIComponent(THEME_DEFS[themeKey].label) + '&radarTier=structural,material';
+      }
+      var cta = document.getElementById(prefix + '-cta');
+      if (cta) {
+        cta.textContent = 'Request a private radar and playbook session for ' + instName + ' in ' + THEME_DEFS[themeKey].label;
       }
     });
+  }
+
+  function buildPositionBullets(instName, peerGroup, scores) {
+    Object.keys(THEME_DEFS).forEach(function(themeKey) {
+      var themeDef = THEME_DEFS[themeKey];
+      var result = buildThemeBullets(themeKey, instName, peerGroup === 'all' ? PEER_GROUP_LABELS.all : peerGroup, scores);
+      var prefix = themeDef.tabPrefix;
+      var bulletEl = document.getElementById(prefix + '-bullets');
+      var headingEl = document.getElementById(prefix + '-position-heading');
+      var summaryEl = document.getElementById(prefix + '-summary-line');
+      var movesEl = document.getElementById(prefix + '-moves');
+
+      if (headingEl) {
+        headingEl.textContent = 'Position: ' + themeDef.label;
+      }
+      if (summaryEl) {
+        summaryEl.innerHTML = result.summaryLine;
+      }
+      if (bulletEl) {
+        bulletEl.innerHTML = result.bullets.map(function(b) { return '<li>' + b + '</li>'; }).join('');
+      }
+      if (movesEl) {
+        movesEl.innerHTML = result.moves.map(function(m) { return '<li>' + m + '</li>'; }).join('');
+      }
+    });
+
+    updateSignalsLinks(instName);
   }
 
   function renderRadar(institutionName, peerGroup) {
@@ -587,7 +1033,7 @@
       labels: ['Tokenized Funds & RWAs', 'Stablecoins & Settlement', 'Market Infrastructure & DLT'],
       datasets: [
         {
-          label: institutionName,
+          label: 'Selected institution',
           data: [scores.institution.tokenizedFunds, scores.institution.stablecoins, scores.institution.dlt],
           backgroundColor: getThemeColor(0.15),
           borderColor: getThemeColor(1),
@@ -612,12 +1058,13 @@
       radarChartInstance.data = chartData;
       radarChartInstance.update();
     } else {
+      var isCompactViewport = window.innerWidth <= 640;
       radarChartInstance = new Chart(chart, {
         type: 'radar',
         data: chartData,
         options: {
           responsive: true,
-          maintainAspectRatio: true,
+          maintainAspectRatio: false,
           scales: {
             r: {
               min: 0,
@@ -632,21 +1079,36 @@
               angleLines: { color: gridColor },
               pointLabels: {
                 color: textColor,
-                font: { size: 12, family: "'Satoshi', 'Inter', sans-serif" }
+                font: { size: isCompactViewport ? 9 : 11, family: "'Satoshi', 'Inter', sans-serif" },
+                padding: isCompactViewport ? 2 : 4
               }
+            }
+          },
+          layout: {
+            padding: {
+              top: isCompactViewport ? 8 : 4,
+              right: isCompactViewport ? 26 : 14,
+              bottom: isCompactViewport ? 6 : 2,
+              left: isCompactViewport ? 26 : 14
             }
           },
           plugins: {
             legend: {
+              position: 'bottom',
               labels: {
                 color: textColor,
-                font: { size: 12 },
-                boxWidth: 12
+                font: { size: isCompactViewport ? 11 : 12 },
+                boxWidth: 12,
+                padding: 10
               }
             },
             tooltip: {
               callbacks: {
                 label: function(ctx) {
+                  if (ctx.datasetIndex === 0) {
+                    var selectedName = institutionName === 'demo' ? DEMO_INSTITUTION : institutionName;
+                    return ctx.dataset.label + ' (' + selectedName + '): ' + ctx.parsed.r + '/100';
+                  }
                   return ctx.dataset.label + ': ' + ctx.parsed.r + '/100';
                 }
               }
@@ -657,47 +1119,130 @@
     }
 
     // Score note
-    scoreNote.textContent = 'Based on ' + scores.signalCount + ' signal(s) in the Street Signals catalogue. Scores are relative — normalised against the highest-scoring institution in the dataset.';
+    var selectedInstName = institutionName === 'demo' ? DEMO_INSTITUTION : institutionName;
+    var effectivePeerGroup = scores.resolvedPeerGroup || peerGroup;
+    var peerLabel = effectivePeerGroup === 'all' ? PEER_GROUP_LABELS.all : effectivePeerGroup;
+    scoreNote.textContent = 'Scores reflect the relative strength of Structural and Material signals in each theme over the last 18 to 24 months, normalized against ' + peerLabel + '. Based on ' + scores.signalCount + ' source signal(s).';
     scoreNote.style.display = 'block';
 
     // Detail tabs
     detailSection.style.display = 'block';
-    buildPositionBullets(institutionName, scores);
+    buildPositionBullets(selectedInstName, effectivePeerGroup, scores);
   }
 
   function populateInstitutionDropdown(signals) {
-    var institutions = Array.from(new Set(signals.map(function(s) { return (s.institution || '').trim(); }))).filter(Boolean).sort();
+    var institutionCounts = {};
+
+    signals.forEach(function(signal) {
+      var institutionName = String(signal.institution || '').trim();
+      var institutionType = normalizeInstitutionTypeForRadar(signal.institution_type);
+
+      if (!isInstitutionNameEligible(institutionName)) { return; }
+      if (!isInstitutionTypeEligible(institutionType)) { return; }
+
+      institutionCounts[institutionName] = (institutionCounts[institutionName] || 0) + 1;
+    });
+
+    var institutions = Object.keys(institutionCounts)
+      .filter(function(name) { return institutionCounts[name] >= RADAR_MIN_SIGNALS_PER_INSTITUTION; })
+      .sort();
+
+    if (institutions.length === 0) {
+      institutions = Array.from(new Set(signals.map(function(s) { return (s.institution || '').trim(); })))
+        .filter(function(name) { return isInstitutionNameEligible(name); })
+        .sort();
+    }
+
     var sel = document.getElementById('institutionSelect');
-    sel.innerHTML = '<option value="">Select an institution...</option>';
+    sel.innerHTML = '<option value="demo">Example Global Institution (Demo)</option><option value="">Select an institution...</option>';
     institutions.forEach(function(inst) {
       var opt = document.createElement('option');
       opt.value = inst;
       opt.textContent = inst;
       sel.appendChild(opt);
     });
+    sel.value = 'demo';
   }
 
-  function handleSelectionChange() {
+  function populatePeerGroupDropdown(signals) {
+    var sel = document.getElementById('peerGroupSelect');
+    if (!sel) { return; }
+
+    var currentValue = String(sel.value || '').trim();
+    var availableGroups = PEER_GROUP_ORDER.slice();
+
+    sel.innerHTML = '';
+    availableGroups.forEach(function(group) {
+      var opt = document.createElement('option');
+      opt.value = group;
+      opt.textContent = PEER_GROUP_LABELS[group];
+      sel.appendChild(opt);
+    });
+
+    var allOption = document.createElement('option');
+    allOption.value = 'all';
+    allOption.textContent = PEER_GROUP_LABELS.all;
+    sel.appendChild(allOption);
+
+    if (currentValue && (availableGroups.indexOf(currentValue) !== -1 || currentValue === 'all')) {
+      sel.value = currentValue;
+    } else if (availableGroups.indexOf('Global Banks') !== -1) {
+      sel.value = 'Global Banks';
+    } else if (availableGroups.length > 0) {
+      sel.value = availableGroups[0];
+    } else {
+      sel.value = 'all';
+    }
+  }
+
+  function fetchSignalList(url) {
+    return fetch(url)
+      .then(function(r) {
+        if (!r.ok) { return []; }
+        return r.json();
+      })
+      .then(function(data) {
+        return Array.isArray(data) ? data : (data.signals || []);
+      })
+      .catch(function() {
+        return [];
+      });
+  }
+
+  function handleGenerateRadar() {
     var institution = document.getElementById('institutionSelect').value;
     var peerGroup   = document.getElementById('peerGroupSelect').value;
-    if (institution) {
+    if (institution || institution === 'demo') {
       renderRadar(institution, peerGroup);
     }
   }
 
   // Load data
-  fetch(DATA_URL)
-    .then(function(r) { return r.json(); })
-    .then(function(data) {
-      allSignals = Array.isArray(data) ? data : (data.signals || []);
+  Promise.all([fetchSignalList(MANUAL_DATA_URL), fetchSignalList(DATA_URL)])
+    .then(function(results) {
+      var manualSignals = results[0] || [];
+      var autoSignals = results[1] || [];
+      allSignals = manualSignals.concat(autoSignals);
       populateInstitutionDropdown(allSignals);
+      populatePeerGroupDropdown(allSignals);
+      var generateBtn = document.getElementById('generateRadarBtn');
+      if (generateBtn) {
+        generateBtn.disabled = false;
+        generateBtn.addEventListener('click', handleGenerateRadar);
+      }
 
-      document.getElementById('institutionSelect').addEventListener('change', handleSelectionChange);
-      document.getElementById('peerGroupSelect').addEventListener('change', handleSelectionChange);
+      // Render default demo state for first-time visitors.
+      renderRadar('demo', document.getElementById('peerGroupSelect').value);
     })
     .catch(function(err) {
       var sel = document.getElementById('institutionSelect');
-      sel.innerHTML = '<option value="">Could not load institution data</option>';
+      sel.innerHTML = '<option value="demo">Example Global Institution (Demo)</option>';
+      var generateBtn = document.getElementById('generateRadarBtn');
+      if (generateBtn) {
+        generateBtn.disabled = false;
+        generateBtn.addEventListener('click', handleGenerateRadar);
+      }
+      renderRadar('demo', document.getElementById('peerGroupSelect').value);
       console.error('Radar: failed to load signal data', err);
     });
 

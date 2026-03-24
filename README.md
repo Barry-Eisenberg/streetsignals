@@ -1,4 +1,4 @@
-# Street Signals — Digital Asset Intelligence Dashboard
+# SftS signals — Digital Asset Intelligence Dashboard
 
 A live intelligence platform tracking institutional adoption of blockchain-based financial market infrastructure. Aggregates 455+ signals from banks, asset managers, exchanges, payment providers, regulators, and ecosystem projects across digital assets and distributed ledger technology.
 

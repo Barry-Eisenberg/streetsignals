@@ -1,5 +1,5 @@
 """
-Street Signals — daily aggregation pipeline.
+SftS signals — daily aggregation pipeline.
 
 Strategy:
   - Pull RSS from regulator feeds (priority 1) then fintech/crypto news (priority 2).

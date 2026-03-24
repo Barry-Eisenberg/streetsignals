@@ -1005,6 +1005,7 @@ let signalScoringMetricMode = 'count';
 let signalScoringColorMode = 'absolute';
 let signalScoringDimensionMode = 'initiative';
 let signalScoringFilter = null;
+let radarPrefilter = null;
 let momentumDebugMode = false;
 const DEFAULT_IMPORTANCE_TIER_MODE = 'all';
 const DEFAULT_PERSONA = 'all';
@@ -2216,6 +2217,40 @@ function getCatalogueSignals(options = {}) {
     });
   }
 
+  if (radarPrefilter) {
+    filtered = filtered.filter(signal => {
+      const signalInstitution = String(signal?.institution || '').trim().toLowerCase();
+      if (radarPrefilter.institution && signalInstitution !== radarPrefilter.institution) {
+        return false;
+      }
+
+      if (!radarPrefilter.theme) {
+        return true;
+      }
+
+      const themeText = [
+        ...(getSignalThemeKeys(signal) || []),
+        signal?.initiative || '',
+        signal?.description || '',
+        signal?.signal_type || '',
+        ...(Array.isArray(signal?.fmi_areas) ? signal.fmi_areas : []),
+        ...(Array.isArray(signal?.initiative_types) ? signal.initiative_types : [])
+      ].join(' ').toLowerCase();
+
+      if (radarPrefilter.theme === 'tokenized_funds_rwas') {
+        return /tokeniz|rwa|real-world asset|real world asset|money market fund|\bmmf\b|treasury/.test(themeText);
+      }
+      if (radarPrefilter.theme === 'stablecoins_settlement') {
+        return /stablecoin|stable coin|deposit token|cbdc|settlement|cross-border|cross border|on-chain cash|on-chain payment/.test(themeText);
+      }
+      if (radarPrefilter.theme === 'market_infra_dlt') {
+        return /\bdlt\b|distributed ledger|market infrastructure|post-trade|post trade|clearing|custody|collateral|blockchain infrastructure/.test(themeText);
+      }
+
+      return true;
+    });
+  }
+
   if (searchQuery) {
     filtered = filtered.filter(signal => `${signal.institution} ${signal.initiative} ${signal.description} ${signal.category} ${signal.signal_type || ''}`.toLowerCase().includes(searchQuery));
   }
@@ -2411,6 +2446,7 @@ function loadAndRenderData() {
     renderSignalTypeSchema();
     renderSignals();
     renderPopularityAnalysis();
+    applyRadarPrefilterFromUrl();
     restoreSignalDetailFromUrl();
     document.querySelectorAll('.reveal:not(.visible)').forEach(el => observer.observe(el));
   }).catch(error => {
@@ -2549,6 +2585,7 @@ function renderSignalScoringClearFilterButton() {
 
 function clearSignalScoringFilter() {
   signalScoringFilter = null;
+  radarPrefilter = null;
   matrixFilter = null;
   signalTypeFilter = '';
   countryFilter = '';
@@ -4661,6 +4698,68 @@ function restoreSignalDetailFromUrl() {
   openSignalDetailForSignal(signal);
 }
 
+function getRadarPrefilterRequestFromUrl() {
+  const url = new URL(window.location.href);
+  const institution = String(url.searchParams.get('radarInstitution') || url.searchParams.get('institution') || '').trim();
+  const theme = String(url.searchParams.get('radarTheme') || url.searchParams.get('theme') || '').trim();
+  const tierRaw = String(url.searchParams.get('radarTier') || url.searchParams.get('tier') || '').trim().toLowerCase();
+
+  if (!institution && !theme && !tierRaw) return null;
+
+  return {
+    institution,
+    theme,
+    tierRaw
+  };
+}
+
+function normalizeRadarTheme(themeValue) {
+  const raw = String(themeValue || '').trim().toLowerCase();
+  if (!raw) return '';
+
+  if (raw.includes('tokenized funds') || raw.includes('rwa')) return 'tokenized_funds_rwas';
+  if (raw.includes('stablecoins') || raw.includes('settlement')) return 'stablecoins_settlement';
+  if (raw.includes('market infrastructure') || raw.includes('dlt')) return 'market_infra_dlt';
+
+  return '';
+}
+
+function applyRadarPrefilterFromUrl() {
+  const request = getRadarPrefilterRequestFromUrl();
+  if (!request) return;
+
+  const normalizedTier = request.tierRaw.replace(/\s+/g, '');
+  const normalizedInstitution = String(request.institution || '').trim().toLowerCase();
+  const normalizedTheme = normalizeRadarTheme(request.theme);
+
+  signalScoringFilter = null;
+  matrixFilter = null;
+  signalTypeFilter = '';
+  countryFilter = '';
+  activeFilter = 'all';
+  radarPrefilter = {
+    institution: normalizedInstitution,
+    theme: normalizedTheme
+  };
+
+  searchQuery = '';
+  const searchInput = document.getElementById('searchInput');
+  if (searchInput) searchInput.value = '';
+
+  if (normalizedTier === 'structural,material' || normalizedTier === 'material,structural') {
+    setImportanceTierMode('priority');
+  } else if (normalizedTier === 'structural') {
+    setImportanceTierMode('structural');
+  }
+
+  renderFilterPills();
+  syncSignalTypeSelects();
+  syncCountrySelects();
+  syncImportanceTierSelect();
+  renderSignals();
+  openCollapsible('.signal-library-section', 'libraryBody');
+}
+
 function closeSignalDetail() {
   const panel = document.getElementById('signalDetailPanel');
   if (!panel) return;
@@ -5232,6 +5331,7 @@ function navigateToCatalogueBySignalType(signalType) {
 
 function clearMatrixFilter() {
   signalScoringFilter = null;
+  radarPrefilter = null;
   matrixFilter = null;
   signalTypeFilter = '';
   countryFilter = '';
@@ -5298,6 +5398,7 @@ function resetAllFilters() {
   matrixFilter = null;
   signalTypeFilter = '';
   countryFilter = '';
+  radarPrefilter = null;
   setImportanceTierMode(DEFAULT_IMPORTANCE_TIER_MODE);
   setPersona(DEFAULT_PERSONA);
   selectedDateWindowDays = DEFAULT_DATE_WINDOW_DAYS;
