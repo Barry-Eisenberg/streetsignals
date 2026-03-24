@@ -126,6 +126,23 @@
         <option value="all">All historical</option>
       </select>
     </div>
+
+    <div class="global-signals-controls">
+      <div class="signal-type-filter global-country-filter">
+        <label for="countrySelect">Country</label>
+        <select id="countrySelect">
+          <option value="">All Countries</option>
+        </select>
+      </div>
+      <div class="global-category-filter">
+        <div class="filter-pills-label">Institution Category</div>
+        <div class="filter-pills" id="filterPills"></div>
+      </div>
+    </div>
+
+    <div class="signals-playbook-strip">
+      <a href="/decision-playbooks/">Use Decision Playbooks to turn Signals into strategic options. Explore playbooks →</a>
+    </div>
   </div>
 </div>
 
@@ -152,15 +169,7 @@
         <span>Reset all filters</span>
       </div>
       <div class="controls" id="controls">
-        <div class="signal-type-filter">
-          <label for="countrySelect">Country</label>
-          <select id="countrySelect">
-            <option value="">All Countries</option>
-          </select>
-        </div>
         <div class="filter-pills-wrap">
-          <div class="filter-pills-label">Institution Category</div>
-          <div class="filter-pills" id="filterPills"></div>
           <div class="catalogue-sort-note" id="catalogueSortNote">Default catalogue sort order: most recent date first, then signal strength (importance score).</div>
           <details class="catalogue-scoring-help">
             <summary>How momentum and rank scoring works</summary>
@@ -169,6 +178,8 @@
           </details>
         </div>
       </div>
+
+      <div class="signals-playbook-banner" id="signalsPlaybookBanner" style="display:none;"></div>
       <div class="matrix-filter-chip" id="matrixFilterChip" style="display:none;">
         <span class="matrix-filter-chip-label" id="matrixFilterChipLabel"></span>
         <button type="button" class="matrix-filter-chip-clear" data-clear-matrix-filter="true">Clear</button>

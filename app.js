@@ -4007,6 +4007,78 @@ function renderPrioritySignalsStrip() {
   container.innerHTML = html;
 }
 
+function getPlaybookThemeFromSignals(signals) {
+  const buckets = {
+    tokenized: 0,
+    stablecoins: 0,
+    dlt: 0
+  };
+
+  (Array.isArray(signals) ? signals : []).forEach(signal => {
+    const combined = [
+      signal?.initiative,
+      signal?.description,
+      ...(Array.isArray(signal?.initiative_types) ? signal.initiative_types : []),
+      ...(Array.isArray(signal?.fmi_areas) ? signal.fmi_areas : []),
+      signal?.signal_type
+    ]
+      .map(v => String(v || '').toLowerCase())
+      .join(' ');
+
+    if (/token|rwa|fund|treasur/.test(combined)) buckets.tokenized += 1;
+    if (/stablecoin|deposit token|settlement|payment|cross-border|fx/.test(combined)) buckets.stablecoins += 1;
+    if (/dlt|blockchain|post-trade|custody|collateral|clearing|infrastructure/.test(combined)) buckets.dlt += 1;
+  });
+
+  const ordered = Object.entries(buckets).sort((a, b) => b[1] - a[1]);
+  const [theme, score] = ordered[0] || [];
+  return score > 0 ? theme : null;
+}
+
+function renderSignalsPlaybookBanner(filteredSignals) {
+  const banner = document.getElementById('signalsPlaybookBanner');
+  if (!banner) return;
+
+  const hasFocusedState = Boolean(matrixFilter || signalScoringFilter || searchQuery || activeFilter !== 'all');
+  if (!hasFocusedState || !Array.isArray(filteredSignals) || filteredSignals.length === 0) {
+    banner.style.display = 'none';
+    banner.innerHTML = '';
+    return;
+  }
+
+  const theme = getPlaybookThemeFromSignals(filteredSignals);
+  if (!theme) {
+    banner.style.display = 'none';
+    banner.innerHTML = '';
+    return;
+  }
+
+  const playbookMap = {
+    tokenized: {
+      label: 'Tokenized Funds & RWAs',
+      href: '/decision-playbooks/#tokenized-funds'
+    },
+    stablecoins: {
+      label: 'Stablecoins & Settlement',
+      href: '/decision-playbooks/#stablecoins'
+    },
+    dlt: {
+      label: 'Market Infrastructure & DLT',
+      href: '/decision-playbooks/#dlt-infrastructure'
+    }
+  };
+
+  const entry = playbookMap[theme];
+  if (!entry) {
+    banner.style.display = 'none';
+    banner.innerHTML = '';
+    return;
+  }
+
+  banner.innerHTML = `Want to see what credible next steps look like in this area? <a href="${entry.href}">View the ${entry.label} Decision Playbook →</a>`;
+  banner.style.display = 'block';
+}
+
 function renderSignals() {
   const container = document.getElementById('signalSections');
   const noResults = document.getElementById('noResults');
@@ -4016,6 +4088,7 @@ function renderSignals() {
   renderCatalogueSortNote();
   renderPrioritySignalsStrip();
   const filtered = getCatalogueSignals();
+  renderSignalsPlaybookBanner(filtered);
   const signalMeta = buildCatalogueSignalMeta(filtered);
 
   if (filtered.length === 0) { container.innerHTML = ''; noResults.style.display = 'block'; return; }
