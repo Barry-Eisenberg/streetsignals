@@ -37,4 +37,7 @@ jobs:
             exit 0
           fi
           git commit -m "chore(data): refresh auto signals and intelligence briefs"
+          # Rebase on top of any concurrent merges before pushing to avoid
+          # non-fast-forward rejections from parallel PR activity.
+          git pull --rebase origin HEAD
           git push
