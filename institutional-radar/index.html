@@ -204,7 +204,9 @@
 }
 
 .radar-under-chart-link {
-  margin-top: var(--space-5);
+  width: 100%;
+  max-width: none;
+  margin: var(--space-6) auto var(--space-10);
   text-align: center;
   font-size: var(--text-sm);
 }
@@ -217,6 +219,14 @@
 
 .radar-under-chart-link a:hover {
   text-decoration: underline;
+}
+
+#radarDetailSection {
+  margin-top: var(--space-8);
+}
+
+#radar-tool .nextfi-help {
+  margin-bottom: calc(var(--space-10) + var(--space-4));
 }
 </style>
 </head>
@@ -275,8 +285,8 @@
     <p>
       Want to know where your firm stands?  Benchmark your institution's digital-asset posture across tokenized funds, stablecoins &amp; settlement, and DLT-based market infrastructure and see how you compare to peers.
     </p>
+    <p class="u-hero-list-label">Best for:</p>
     <ul class="who-for-list" aria-label="Who this is for">
-      <li>Best for:</li>
       <li>Boards, CIOs, and strategy leaders at asset managers, banks, custodians, and FMIs.</li>
       <li>Fintech and infrastructure providers wanting a clear view of target institutions' adoption profiles.</li>
     </ul>
