@@ -44,7 +44,7 @@ This writes:
 
 Workflow file: `.github/workflows/update-signals.yml`
 
-- Runs daily
+- Runs every 30 minutes (`*/30 * * * *`)
 - Can also be run manually (`workflow_dispatch`)
 - Commits and pushes changes only when outputs changed
 

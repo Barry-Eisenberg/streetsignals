@@ -34,13 +34,13 @@ Short bullets:
 
 **Note**
 
-> Radar views are based on SftS signal importance scores (Structural / Material / Context) and trend context across the last 18–24 months. Optional on‑chain context from rwa.xyz (e.g., AUM or volumes in each theme) can be shown in the theme tabs but does not affect the radar scores.
+> Radar views are based on SftS signal importance scores (Structural / Material / Context) and trend context across the last 12 months. Optional on‑chain context from rwa.xyz (e.g., AUM or volumes in each theme) can be shown in the theme tabs but does not affect the radar scores.
 
 ---
 
 ## 2. Core radar component
 
-### 2.1 Inputs
+### 2.1 Inputs (implemented)
 
 Place a simple control bar above the chart:
 
@@ -68,7 +68,7 @@ Three axes (keep them consistent with Decision Playbooks):
 
 Each axis is a normalized score (0–100 or 0–1) derived from:
 
-- The density and tier of Structural + Material signals for that institution in that theme over the last 18–24 months.  
+- The density and tier of Structural + Material signals for that institution in that theme over the last 12 months.  
 - Optionally weighted by trendContextScore.
 
 ### 2.3 Visual treatment
@@ -85,7 +85,7 @@ Each axis is a normalized score (0–100 or 0–1) derived from:
 
 - Small text under chart:
 
-  > Scores reflect the relative strength of Structural and Material signals in each theme over the last 18–24 months, normalized against the selected peer group.
+  > Scores reflect the relative strength of Structural and Material signals in each theme over the last 12 months, normalized against the selected peer group.
 
 ---
 
@@ -169,7 +169,7 @@ Assume:
 
 ### 4.2 Diagnostic bullets
 
-- “SftS shows 2 Material tokenized fund initiatives for your firm vs a peer average of 4–5 in the last 18–24 months.”  
+- “SftS shows 2 Material tokenized fund initiatives for your firm vs a peer average of 4–5 in the last 12 months.”  
 - “Your activity is concentrated in exploratory research and limited‑scope pilots; peers have moved at least one MMF or short-duration fund into live tokenized share classes.”  
 - “You have fewer visible partnerships with custodians or platforms integrating tokenized fund units into collateral, distribution, or post‑trade workflows.”
 
