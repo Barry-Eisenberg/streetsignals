@@ -273,14 +273,15 @@
     </div>
     <h1>Institutional <span class="accent">Positioning Radar</span></h1>
     <p>
-      Benchmark your institution's digital-asset posture across tokenized funds, stablecoins &amp; settlement, and DLT-based market infrastructure and see how you compare to peers.
+      Want to know where your firm stands?  Benchmark your institution's digital-asset posture across tokenized funds, stablecoins &amp; settlement, and DLT-based market infrastructure and see how you compare to peers.
     </p>
     <ul class="who-for-list" aria-label="Who this is for">
+      <li>Best for:</li>
       <li>Boards, CIOs, and strategy leaders at asset managers, banks, custodians, and FMIs.</li>
       <li>Fintech and infrastructure providers wanting a clear view of target institutions' adoption profiles.</li>
     </ul>
     <div class="radar-method-note">
-      Radar views are based on SftS signal importance tiers (Structural, Material, Context) and trend context across the last 18 to 24 months. Optional on-chain context from rwa.xyz can be shown in the theme tabs but does not affect radar scores.
+      Radar views are based on SftS signal importance tiers (Structural, Material, Context) and trend context across the last 18 to 24 months. Optional on-chain context from Dune, rwa.xyz, and other public datasets can be shown in the theme tabs but does not affect radar scores.
     </div>
   </div>
 </section>
@@ -528,8 +529,10 @@
   // ── Radar chart ─────────────────────────────────────────────────────────
   var DATA_URL = '../auto_data.json';
   var MANUAL_DATA_URL = '../data.json';
+  var MARKET_OVERLAY_URL = '../market_overlay.json';
   var radarChartInstance = null;
   var allSignals = [];
+  var marketOverlay = [];
 
   var DEMO_INSTITUTION = 'Example Global Institution (Demo)';
   var DEMO_SCORES = {
@@ -610,6 +613,92 @@
     stablecoins:    ['stablecoin', 'stable coin', 'deposit token', 'cbdc', 'digital currency', 'settlement rail', 'on-chain payment', 'on-chain cash', 'digital dollar', 'digital euro'],
     dlt:            ['dlt', 'distributed ledger', 'blockchain infrastructure', 'blockchain platform', 'tokenized collateral', 'tokenised collateral', 'post-trade', 'clearing', 'settlement infrastructure', 'custody moderniz', 'digital securities']
   };
+
+  var THEME_CONTEXT_FALLBACK = {
+    tokenizedFunds: 'On-chain context (rwa.xyz/public data): tokenized Treasuries and MMF AUM remain concentrated in conservative, short-duration structures.',
+    stablecoins: 'On-chain context (rwa.xyz/public data): stablecoin transfer volumes are substantial, with a growing institutional B2B and settlement footprint.',
+    dlt: 'Market context (SftS + rwa.xyz/public data): DLT-based platforms are showing sustained institutional transaction usage in selected workflows.'
+  };
+
+  function normalizeOverlayList(data) {
+    if (Array.isArray(data)) { return data; }
+    if (data && Array.isArray(data.overlays)) { return data.overlays; }
+    return [];
+  }
+
+  function parseOverlayDate(value) {
+    var parsed = value ? new Date(value) : null;
+    return parsed && !isNaN(parsed.getTime()) ? parsed.getTime() : 0;
+  }
+
+  function formatOverlayValue(value, unit) {
+    var numeric = typeof value === 'number' ? value : Number(value);
+    if (!isFinite(numeric)) { return String(value || ''); }
+    var absValue = Math.abs(numeric);
+    var suffix = '';
+    if (absValue >= 1e12) {
+      numeric = numeric / 1e12;
+      suffix = 'T';
+    } else if (absValue >= 1e9) {
+      numeric = numeric / 1e9;
+      suffix = 'B';
+    } else if (absValue >= 1e6) {
+      numeric = numeric / 1e6;
+      suffix = 'M';
+    } else if (absValue >= 1e3) {
+      numeric = numeric / 1e3;
+      suffix = 'K';
+    }
+    if (unit === 'usd') {
+      return '$' + (suffix ? numeric.toFixed(2) : Math.round(numeric).toLocaleString()) + suffix;
+    }
+    if (unit === 'pct') {
+      return numeric.toFixed(1) + '%';
+    }
+    return suffix ? numeric.toFixed(2) + suffix : Math.round(numeric).toLocaleString();
+  }
+
+  function formatOverlayChange(value) {
+    if (typeof value !== 'number' || !isFinite(value)) { return ''; }
+    var pct = Math.abs(value) <= 1 ? value * 100 : value;
+    var prefix = pct > 0 ? '+' : '';
+    return prefix + pct.toFixed(1) + '%';
+  }
+
+  function getLatestOverlayEntry(themeKey) {
+    var matches = marketOverlay.filter(function(entry) {
+      return entry && entry.theme === themeKey;
+    }).sort(function(a, b) {
+      return parseOverlayDate(b.as_of) - parseOverlayDate(a.as_of);
+    });
+    return matches[0] || null;
+  }
+
+  function buildThemeContextBullet(themeKey) {
+    var entry = getLatestOverlayEntry(themeKey);
+    if (!entry) { return THEME_CONTEXT_FALLBACK[themeKey]; }
+    if (entry.summary) {
+      if (themeKey === 'tokenizedFunds') {
+        return entry.summary + ' Market activity is still concentrated, so strategic timing and partner selection matter more than broad thematic enthusiasm.';
+      }
+      if (themeKey === 'stablecoins') {
+        return entry.summary + ' That reinforces that institutional settlement demand is already real, even if rail and regulatory choices remain fragmented.';
+      }
+      return entry.summary + ' That supports a narrow workflow-led view of infrastructure adoption rather than a broad “DLT is everywhere” narrative.';
+    }
+
+    var context = entry.metric_label || 'Market context';
+    if (entry.value !== null && entry.value !== undefined && entry.value !== '') {
+      context += ' is ' + formatOverlayValue(entry.value, entry.unit);
+    }
+    if (typeof entry.change_30d === 'number' && isFinite(entry.change_30d)) {
+      context += ' (' + formatOverlayChange(entry.change_30d) + ' over 30 days)';
+    }
+    if (entry.chain) {
+      context += ' on ' + entry.chain;
+    }
+    return context + '.';
+  }
 
   function parseSignalDate(signal) {
     var d = signal.date || signal.published_at || '';
@@ -938,13 +1027,7 @@
     bullets.push('Your normalized score is <strong>' + instScore + '/100</strong> against a <strong>' + peerLabel + '</strong> average of <strong>' + peerScore + '/100</strong>.');
     bullets.push('Current activity is concentrated in ' + meta.topFocus + '.');
 
-    if (themeKey === 'tokenizedFunds') {
-      bullets.push('On-chain context (rwa.xyz): tokenized Treasuries and MMF AUM remain concentrated in conservative, short-duration structures.');
-    } else if (themeKey === 'stablecoins') {
-      bullets.push('On-chain context (rwa.xyz): stablecoin transfer volumes are substantial, with a growing institutional B2B and settlement footprint.');
-    } else {
-      bullets.push('Market context (SftS + rwa.xyz/public data): DLT-based platforms are showing sustained institutional transaction usage in selected workflows.');
-    }
+    bullets.push(buildThemeContextBullet(themeKey));
 
     if (position === 'ahead') {
       bullets.push('Peers are less active on high-commitment initiatives in this theme, which gives you room to shape standards and partner expectations.');
@@ -1209,6 +1292,20 @@
       });
   }
 
+  function fetchOverlayList(url) {
+    return fetch(url)
+      .then(function(r) {
+        if (!r.ok) { return []; }
+        return r.json();
+      })
+      .then(function(data) {
+        return normalizeOverlayList(data);
+      })
+      .catch(function() {
+        return [];
+      });
+  }
+
   function handleGenerateRadar() {
     var institution = document.getElementById('institutionSelect').value;
     var peerGroup   = document.getElementById('peerGroupSelect').value;
@@ -1218,10 +1315,11 @@
   }
 
   // Load data
-  Promise.all([fetchSignalList(MANUAL_DATA_URL), fetchSignalList(DATA_URL)])
+  Promise.all([fetchSignalList(MANUAL_DATA_URL), fetchSignalList(DATA_URL), fetchOverlayList(MARKET_OVERLAY_URL)])
     .then(function(results) {
       var manualSignals = results[0] || [];
       var autoSignals = results[1] || [];
+      marketOverlay = results[2] || [];
       allSignals = manualSignals.concat(autoSignals);
       populateInstitutionDropdown(allSignals);
       populatePeerGroupDropdown(allSignals);
