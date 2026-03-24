@@ -505,6 +505,50 @@
   padding: 0 var(--space-3);
 }
 
+.global-signals-controls {
+  display: grid;
+  grid-template-columns: minmax(220px, 320px) 1fr;
+  gap: var(--space-3);
+  align-items: start;
+  margin-top: var(--space-3);
+}
+
+.global-country-filter {
+  min-height: 42px;
+}
+
+.global-country-filter select {
+  min-width: 0;
+  width: 100%;
+}
+
+.global-category-filter {
+  min-width: 0;
+}
+
+.global-category-filter .filter-pills-label {
+  margin-bottom: var(--space-2);
+}
+
+.signals-playbook-strip {
+  margin-top: var(--space-3);
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.12), rgba(133, 20, 237, 0.1));
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  border-radius: var(--radius-lg);
+  padding: var(--space-3) var(--space-4);
+}
+
+.signals-playbook-strip a {
+  color: var(--color-text);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.signals-playbook-strip a:hover {
+  color: var(--color-primary);
+}
+
 .data-freshness-stamp {
   margin: var(--space-2) 0 var(--space-5);
   font-size: var(--text-xs);
@@ -1850,7 +1894,7 @@
 /* ===== FILTER CONTROLS ===== */
 .controls {
   display: grid;
-  grid-template-columns: minmax(280px, 1fr) auto auto auto;
+  grid-template-columns: 1fr;
   gap: var(--space-3);
   margin-bottom: var(--space-4);
   align-items: stretch;
@@ -2019,6 +2063,28 @@
   font-size: 11px;
   line-height: 1.5;
   color: var(--color-text-muted);
+}
+
+.signals-playbook-banner {
+  margin-bottom: var(--space-3);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-primary);
+  border-radius: var(--radius-md);
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-surface-offset);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+.signals-playbook-banner a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.signals-playbook-banner a:hover {
+  text-decoration: underline;
 }
 
 .catalogue-scoring-legend {
@@ -3295,6 +3361,35 @@
   .controls {
     grid-template-columns: 1fr;
     align-items: stretch;
+  }
+  .global-signals-controls {
+    grid-template-columns: 1fr;
+  }
+  .global-date-filter {
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .global-date-filter-select {
+    width: 100%;
+  }
+  .global-category-filter .filter-pills {
+    gap: var(--space-1);
+  }
+  .global-category-filter .filter-pill {
+    padding: 7px 10px;
+    font-size: 11px;
+  }
+  .signals-playbook-strip {
+    padding: var(--space-2) var(--space-3);
+  }
+  .signals-playbook-strip a {
+    display: block;
+    font-size: 12px;
+    line-height: 1.45;
+  }
+  .signals-playbook-banner {
+    font-size: 11px;
+    padding: var(--space-2);
   }
   .matrix-filter-chip {
     width: 100%;
