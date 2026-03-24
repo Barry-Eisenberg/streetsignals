@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "updatedAt": "2026-03-21T00:00:00Z",
-  "title": "Street Signals Strength Methodology",
+  "title": "SftS signals Strength Methodology",
   "summary": "Signal strength aggregates bounded per-signal contributions across institution class and initiative class. Each signal contribution combines source credibility, recency, and bounded source prevalence.",
   "components": {
     "sourceCredibility": {
