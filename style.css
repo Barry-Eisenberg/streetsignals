@@ -479,55 +479,44 @@
   margin-bottom: var(--space-2);
 }
 
-.global-date-filter {
-  display: flex;
-  align-items: center;
-  gap: var(--space-2);
+.global-institution-filters {
   margin-top: var(--space-3);
-  padding-top: var(--space-1);
 }
 
-.global-date-filter-label {
+.global-institution-filters .filter-pills-label {
   font-size: var(--text-xs);
   color: var(--color-text-faint);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.04em;
+  margin-bottom: var(--space-2);
 }
 
-.global-date-filter-select {
-  height: 34px;
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-border);
-  background: var(--color-surface);
-  color: var(--color-text);
-  font-size: var(--text-sm);
-  padding: 0 var(--space-3);
-}
-
-.global-signals-controls {
+.global-dropdown-row {
   display: grid;
-  grid-template-columns: minmax(220px, 320px) 1fr;
+  grid-template-columns: repeat(2, minmax(240px, 1fr));
   gap: var(--space-3);
-  align-items: start;
   margin-top: var(--space-3);
 }
 
-.global-country-filter {
-  min-height: 42px;
-}
-
-.global-country-filter select {
-  min-width: 0;
+.global-dropdown-filter {
   width: 100%;
 }
 
-.global-category-filter {
-  min-width: 0;
+.global-dropdown-filter label {
+  font-size: var(--text-xs);
+  color: var(--color-text-faint);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  min-width: 112px;
 }
 
-.global-category-filter .filter-pills-label {
-  margin-bottom: var(--space-2);
+.global-dropdown-filter select {
+  min-width: 0;
+  width: 100%;
+  font-size: var(--text-sm);
+  font-weight: 500;
 }
 
 .signals-playbook-strip {
@@ -3362,20 +3351,16 @@
     grid-template-columns: 1fr;
     align-items: stretch;
   }
-  .global-signals-controls {
+  .global-dropdown-row {
     grid-template-columns: 1fr;
   }
-  .global-date-filter {
-    flex-wrap: wrap;
-    align-items: flex-start;
+  .global-dropdown-filter label {
+    min-width: 96px;
   }
-  .global-date-filter-select {
-    width: 100%;
-  }
-  .global-category-filter .filter-pills {
+  .global-institution-filters .filter-pills {
     gap: var(--space-1);
   }
-  .global-category-filter .filter-pill {
+  .global-institution-filters .filter-pill {
     padding: 7px 10px;
     font-size: 11px;
   }
