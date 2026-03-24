@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Decision Playbooks — Signals from the Street</title>
+<meta name="description" content="Turn institutional signals and on-chain data into credible strategic paths. Decision Playbooks for tokenized funds, stablecoins, and market infrastructure.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://api.fontshare.com; font-src 'self' data: https://cdn.fontshare.com; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), browsing-topics=()">
+
+<link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZT8E19LD8N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ZT8E19LD8N', {'anonymize_ip': true});
+</script>
+
+<link rel="stylesheet" href="../base.css">
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../site.css">
+
+<style>
+  /* Override header/footer component names for sub-pages that use site.css layout */
+  body { background: var(--color-bg); }
+</style>
+</head>
+<body>
+
+<!-- ── HEADER ─────────────────────────────────────────────────────────────── -->
+<header class="header" id="header">
+  <div class="header-inner">
+    <div class="header-brand">
+      <a href="/" class="logo">
+        <svg class="logo-icon" viewBox="0 0 36 36" fill="none" aria-label="Signals from the Street logo">
+          <rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="1.5" fill="none"/>
+          <path d="M10 24V18" stroke="var(--color-banks)" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M15 24V14" stroke="var(--color-asset-mgmt)" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M20 24V16" stroke="var(--color-payments)" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M25 24V10" stroke="var(--color-exchanges)" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="10" cy="18" r="2" fill="var(--color-banks)"/>
+          <circle cx="15" cy="14" r="2" fill="var(--color-asset-mgmt)"/>
+          <circle cx="20" cy="16" r="2" fill="var(--color-payments)"/>
+          <circle cx="25" cy="10" r="2" fill="var(--color-exchanges)"/>
+        </svg>
+        <div class="logo-text">Signals <span>from the Street</span></div>
+      </a>
+      <span class="header-divider"></span>
+      <a href="https://nextfiadvisors.com" target="_blank" rel="noopener noreferrer" class="header-nextfi">
+        <span class="header-nextfi-label">Market Intelligence by</span>
+        <img src="../nextfi-logo.png" alt="NextFi Advisors" class="header-nextfi-logo">
+      </a>
+    </div>
+    <div class="header-right">
+      <nav class="header-nav" id="headerNav">
+        <a href="/">Signals</a>
+        <a href="/decision-playbooks/" class="nav-active">Decision Playbooks</a>
+        <a href="/institutional-radar/">Positioning Radar</a>
+        <a href="https://nextfiadvisors.com/contact" target="_blank" rel="noopener noreferrer">Work with NextFi</a>
+      </nav>
+      <button class="theme-toggle" data-theme-toggle aria-label="Switch theme">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      </button>
+      <button class="mobile-menu-btn" aria-label="Toggle menu" id="mobileMenuBtn">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ── PAGE HERO ──────────────────────────────────────────────────────────── -->
+<main>
+<section class="page-hero">
+  <div class="container">
+    <div class="page-hero-eyebrow">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+      Action-Oriented Intelligence
+    </div>
+    <h1>Decision <span class="accent">Playbooks</span></h1>
+    <p>
+      Decision Playbooks turn institutional signals and live on-chain data into 2–3 credible strategic paths for specific roles. Each playbook combines Street Signals with external market data to answer a simple question:
+      <strong style="color: var(--color-text); display: block; margin-top: 0.75rem;">Given where the market is today, what should we do next?</strong>
+    </p>
+  </div>
+</section>
+
+<!-- ── SIGNALS X-LINK STRIP ─────────────────────────────────────────────── -->
+<section style="padding-block: var(--space-8); border-bottom: 1px solid var(--color-divider);">
+  <div class="container">
+    <div class="signals-link-strip">
+      <span>Playbooks are grounded in live institutional signals — see the underlying data on the Signals page.</span>
+      <a href="/">View live Signals →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── WHO THIS IS FOR ───────────────────────────────────────────────────── -->
+<section class="site-section">
+  <div class="container site-container--narrow" style="padding-inline: 0;">
+    <div class="section-eyebrow">Who This Is For</div>
+    <h2 class="section-heading">Built for institutions making real decisions</h2>
+    <div class="audience-grid">
+      <div class="audience-card">
+        <h3>Asset managers &amp; institutional investors</h3>
+        <p>Design tokenized products and operating models that your CIO, board, and regulators can actually approve.</p>
+      </div>
+      <div class="audience-card">
+        <h3>Banks, custodians &amp; FMIs</h3>
+        <p>Decide where to modernize payments, collateral, and post-trade infrastructure without chasing every hype cycle.</p>
+      </div>
+      <div class="audience-card">
+        <h3>Fintech &amp; infrastructure providers</h3>
+        <p>Align your roadmap and BD focus with where institutional budgets and mandates are actually landing, not just where the noise is.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── THEME TILES ───────────────────────────────────────────────────────── -->
+<section class="site-section" id="playbooks">
+  <div class="container">
+    <div class="section-eyebrow">Three Themes</div>
+    <h2 class="section-heading">Select a playbook</h2>
+    <p class="section-intro">Each playbook covers a distinct institutional challenge. Pick the theme most relevant to your current priorities.</p>
+    <div class="theme-grid">
+
+      <!-- Tokenized Funds -->
+      <a href="#tokenized-funds" class="theme-tile">
+        <div class="theme-tile-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M7 10h10M7 7h5"/></svg>
+        </div>
+        <h3>Tokenized Funds &amp; RWAs</h3>
+        <p>Tokenized money market funds, Treasuries, and credit – where institutions are moving and how to enter without overextending.</p>
+        <div class="theme-tile-cta">View playbook <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+      </a>
+
+      <!-- Stablecoins -->
+      <a href="#stablecoins" class="theme-tile">
+        <div class="theme-tile-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v12M8 9h8M8 15h8"/></svg>
+        </div>
+        <h3>Stablecoins &amp; Settlement</h3>
+        <p>On-chain cash, deposit tokens, and settlement rails – from pilots to production-grade institutional flows.</p>
+        <div class="theme-tile-cta">View playbook <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+      </a>
+
+      <!-- DLT Infrastructure -->
+      <a href="#dlt-infrastructure" class="theme-tile">
+        <div class="theme-tile-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49"/></svg>
+        </div>
+        <h3>Market Infrastructure &amp; DLT</h3>
+        <p>DLT in clearing, settlement, custody, and collateral – how FMIs and large banks are modernizing the plumbing.</p>
+        <div class="theme-tile-cta">View playbook <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- PLAYBOOK 1 — TOKENIZED FUNDS & RWAs                                    -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<section class="site-section" id="tokenized-funds">
+  <div class="container">
+
+    <div class="playbook-header" style="border-bottom: none; padding-block: 0 var(--space-10);">
+      <div class="playbook-header-meta">
+        <a href="#playbooks" class="playbook-back">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          All Playbooks
+        </a>
+      </div>
+      <div class="section-eyebrow">Playbook 1 of 3</div>
+      <h2 class="section-heading">Tokenized Funds &amp; RWAs</h2>
+      <p class="playbook-who">For asset managers, banks, custodians, FMIs, and fintech/infrastructure providers evaluating tokenized money market funds, Treasuries, and other real-world asset vehicles.</p>
+    </div>
+
+    <!-- Snapshot -->
+    <div class="snapshot-block">
+      <h3>Current market picture</h3>
+      <div class="snapshot-cols">
+        <div class="snapshot-col">
+          <h4>Institutional signals (Street Signals)</h4>
+          <ul>
+            <li>Dozens of Structural and Material initiatives from global asset managers, custodians, and banks focused on tokenized MMFs, Treasuries, and short-duration credit.</li>
+            <li>Signal strength is highest in US and EU, with increasing activity in select APAC hubs.</li>
+          </ul>
+        </div>
+        <div class="snapshot-col">
+          <h4>On-chain flows</h4>
+          <ul>
+            <li>Tokenized Treasuries and MMF AUM have grown from niche to multi-billion-dollar scale over the last 18–24 months, concentrated on a handful of platforms and chains.</li>
+            <li>Value is clustered in conservative, short-duration instruments – not exotic or illiquid assets.</li>
+          </ul>
+        </div>
+      </div>
+      <p class="snapshot-summary">Institutions are signaling commitment to tokenized funds faster than actual on-chain value has diversified – especially in Europe – creating a window for well-timed, focused moves.</p>
+    </div>
+
+    <!-- Signals cross-link -->
+    <div class="signals-link-strip">
+      <span>See the underlying tokenized funds signals on Street Signals.</span>
+      <a href="/?filter=tokenized">View related signals →</a>
+    </div>
+
+    <!-- Plays -->
+    <div class="plays-section">
+      <h2 class="plays-heading">Three credible paths into tokenized funds (2026–2028)</h2>
+
+      <!-- Play 1 -->
+      <div class="play-card">
+        <div class="play-card-header">
+          <div class="play-number">1</div>
+          <div class="play-card-header-text">
+            <h3>Quiet pilot anchored in an existing fund</h3>
+            <p class="play-oneliner">Extend one existing, well-understood fund onto tokenized rails for a tightly defined institutional segment.</p>
+          </div>
+        </div>
+        <div class="play-body">
+          <div class="play-body-col">
+            <h4>What it is</h4>
+            <p>Create a tokenized share class for a government MMF or short-duration bond fund under a clear regulatory framework (e.g., MiCA-aligned or equivalent).</p>
+            <h4 style="margin-top: var(--space-5);">Why it's credible now</h4>
+            <p>Peers have already taken this route, creating Structural and Material signals without needing to re-architect their full product stack.</p>
+          </div>
+          <div class="play-body-col">
+            <h4>Best fit if you are</h4>
+            <ul class="best-fit-list">
+              <li><span class="best-fit-role">Asset manager / institutional investor —</span> You want operational learning and signaling to clients/board, but are not ready for a broad product-line overhaul.</li>
+              <li><span class="best-fit-role">Bank / custodian / FMI —</span> You want to ensure your custody and collateral frameworks can accept and service tokenized fund units from leading managers.</li>
+              <li><span class="best-fit-role">Fintech / infrastructure provider —</span> You can reduce friction for onboarding, on-chain record-keeping, and integration with existing custodians and fund administrators.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Play 2 -->
+      <div class="play-card">
+        <div class="play-card-header">
+          <div class="play-number">2</div>
+          <div class="play-card-header-text">
+            <h3>Tokenized cash + tokenized funds for treasury and collateral</h3>
+            <p class="play-oneliner">Combine tokenized funds with on-chain cash or deposit tokens to solve specific treasury and collateral problems.</p>
+          </div>
+        </div>
+        <div class="play-body">
+          <div class="play-body-col">
+            <h4>What it is</h4>
+            <p>Design offerings where tokenized MMFs and short-duration funds sit alongside tokenized cash or stablecoins for intraday liquidity, collateral posting, or treasury operations.</p>
+            <h4 style="margin-top: var(--space-5);">Why it's credible now</h4>
+            <p>Signals show institutions increasingly framing tokenized funds and on-chain cash as adjacent building blocks, not separate experiments.</p>
+          </div>
+          <div class="play-body-col">
+            <h4>Best fit if you are</h4>
+            <ul class="best-fit-list">
+              <li><span class="best-fit-role">Asset manager / institutional investor —</span> You see client demand around liquidity and collateral efficiency, not just 'digital distribution'.</li>
+              <li><span class="best-fit-role">Bank / custodian / FMI —</span> You are already exploring stablecoin or deposit-token rails and want a clear asset side that matches those rails.</li>
+              <li><span class="best-fit-role">Fintech / infrastructure provider —</span> Your strength is orchestrating movement and reporting between tokenized funds, tokenized cash, and traditional accounts.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Play 3 -->
+      <div class="play-card">
+        <div class="play-card-header">
+          <div class="play-number">3</div>
+          <div class="play-card-header-text">
+            <h3>Market infrastructure partnerships</h3>
+            <p class="play-oneliner">Embed tokenized funds into custody, distribution, and post-trade infrastructure through targeted partnerships.</p>
+          </div>
+        </div>
+        <div class="play-body">
+          <div class="play-body-col">
+            <h4>What it is</h4>
+            <p>Work with custodians, exchanges, or FMIs to make tokenized funds 'first-class citizens' in custody, collateral, and trading workflows.</p>
+            <h4 style="margin-top: var(--space-5);">Why it's credible now</h4>
+            <p>Structural signals show custodians and FMIs migrating tokenized units into core systems (not side pilots), especially in post-trade and collateral services.</p>
+          </div>
+          <div class="play-body-col">
+            <h4>Best fit if you are</h4>
+            <ul class="best-fit-list">
+              <li><span class="best-fit-role">Asset manager / institutional investor —</span> You want your tokenized products to appear seamless to distributors and platforms, not as bolt-on experiments.</li>
+              <li><span class="best-fit-role">Bank / custodian / FMI —</span> You are modernizing post-trade and collateral processes and want tokenized funds to fit naturally into those new rails.</li>
+              <li><span class="best-fit-role">Fintech / infrastructure provider —</span> You can make it easier for large institutions to integrate tokenized funds into existing infrastructure without a big-bang replacement.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pitfalls -->
+    <div class="pitfalls-block">
+      <h3>Before you pick a play</h3>
+      <ul class="pitfalls-list">
+        <li>Regulatory clarity in your jurisdiction is necessary but rarely sufficient; internal risk and operations buy-in typically take longer than legal sign-off.</li>
+        <li>Most failed tokenization pilots underestimated integration with existing custody, transfer agency, and fund-accounting systems.</li>
+        <li>Client demand is often diffuse; start with specific anchor clients or segments (HNW/family office, corporate treasury, or a particular region).</li>
+        <li>Without a clear narrative for boards and investment committees, tokenized funds risk being seen as 'nice to have' rather than strategic.</li>
+      </ul>
+    </div>
+
+    <!-- NextFi CTA -->
+    <div class="nextfi-help">
+      <h3>Turning this playbook into your roadmap</h3>
+      <p>Street Signals shows where institutions are actually moving. NextFi Advisors helps you decide which of these plays fits your institution or platform – and what that means for sequencing, partners, and internal approvals.</p>
+      <ul>
+        <li>Board and ExCo briefings on tokenized funds and RWAs grounded in real institutional signals and live on-chain data.</li>
+        <li>Playbook-to-roadmap workshops: selecting and tailoring the right play(s) for your institution, with clear 12–24 month milestones.</li>
+        <li>Vendor and partner landscape mapping based on who is actually live in your segment, not just who is loudest.</li>
+      </ul>
+      <div class="cta-row">
+        <a href="https://nextfiadvisors.com/contact" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--primary">Discuss which play fits your institution</a>
+        <a href="https://nextfiadvisors.com/contact" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--outline">Request a 2-page positioning brief</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- PLAYBOOK 2 — STABLECOINS & SETTLEMENT                                  -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<section class="site-section" id="stablecoins" style="border-top: 2px solid var(--color-divider);">
+  <div class="container">
+
+    <div class="playbook-header" style="border-bottom: none; padding-block: 0 var(--space-10);">
+      <div class="playbook-header-meta">
+        <a href="#playbooks" class="playbook-back">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          All Playbooks
+        </a>
+      </div>
+      <div class="section-eyebrow">Playbook 2 of 3</div>
+      <h2 class="section-heading">Stablecoins &amp; Settlement</h2>
+      <p class="playbook-who">For banks, payments providers, asset managers, FMIs, and fintech/infrastructure teams evaluating stablecoins, tokenized deposits, and on-chain settlement rails for institutional flows.</p>
+    </div>
+
+    <!-- Snapshot -->
+    <div class="snapshot-block">
+      <h3>Current market picture</h3>
+      <div class="snapshot-cols">
+        <div class="snapshot-col">
+          <h4>Institutional signals (Street Signals)</h4>
+          <ul>
+            <li>Structural and Material signals from global banks, payments providers, and infrastructure platforms exploring on-chain settlement for cross-border B2B payments, FX, and treasury flows.</li>
+            <li>Shift from 'crypto-native stablecoins' to bank-issued or tightly regulated stablecoins and deposit tokens.</li>
+          </ul>
+        </div>
+        <div class="snapshot-col">
+          <h4>On-chain flows</h4>
+          <ul>
+            <li>Stablecoin transfer volumes have reached multi-trillion-dollar scale annually, with a growing share in B2B and institutional contexts.</li>
+            <li>Flows remain concentrated in a small number of major stablecoins and chains, but experiments are broadening across regions and regulatory frameworks.</li>
+          </ul>
+        </div>
+      </div>
+      <p class="snapshot-summary">On-chain money is already doing real economic work, but institutional settlement rails are still unevenly distributed across regions, products, and counterparties.</p>
+    </div>
+
+    <!-- Signals cross-link -->
+    <div class="signals-link-strip">
+      <span>See the underlying stablecoin and settlement signals on Street Signals.</span>
+      <a href="/?filter=stablecoins">View related signals →</a>
+    </div>
+
+    <!-- Plays -->
+    <div class="plays-section">
+      <h2 class="plays-heading">Three credible plays for on-chain settlement (2026–2028)</h2>
+
+      <!-- Play 1 -->
+      <div class="play-card">
+        <div class="play-card-header">
+          <div class="play-number">1</div>
+          <div class="play-card-header-text">
+            <h3>Controlled treasury / B2B pilot</h3>
+            <p class="play-oneliner">Use regulated stablecoins or deposit tokens in narrow B2B or treasury flows where you control both ends of the relationship.</p>
+          </div>
+        </div>
+        <div class="play-body">
+          <div class="play-body-col">
+            <h4>What it is</h4>
+            <p>Run a tightly scoped pilot using a regulated stablecoin or deposit token for a specific intra-group or bilateral counterparty flow — cash concentration, FX settlement, or intercompany transfers — with full audit trail and governance controls in place.</p>
+            <h4 style="margin-top: var(--space-5);">Why it's credible now</h4>
+            <p>Bank-grade and regulated stablecoin frameworks are maturing. Regulators are more familiar with well-governed pilots, and peers are building internal capability with low-headline approaches.</p>
+          </div>
+          <div class="play-body-col">
+            <h4>Best fit if you are</h4>
+            <ul class="best-fit-list">
+              <li><span class="best-fit-role">Bank / payments provider —</span> You want low-headline learning and internal capability-building before client-facing deployment.</li>
+              <li><span class="best-fit-role">Corporate treasurer / asset manager —</span> Moving cash between entities or across time zones and looking for efficiency gains with controlled risk.</li>
+              <li><span class="best-fit-role">Fintech / infrastructure provider —</span> You provide rails that sit inside existing treasury and payments controls and can add on-chain settlement as an option.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Play 2 -->
+      <div class="play-card">
+        <div class="play-card-header">
+          <div class="play-number">2</div>
+          <div class="play-card-header-text">
+            <h3>Client-facing settlement enhancement</h3>
+            <p class="play-oneliner">Offer clients faster, more transparent settlement for specific flows using stablecoins or deposit tokens as an optional rail.</p>
+          </div>
+        </div>
+        <div class="play-body">
+          <div class="play-body-col">
+            <h4>What it is</h4>
+            <p>Introduce on-chain settlement as an enhanced option for selected client segments or flow types — trade finance, cross-border remittance, FX settlement — where speed and transparency are valued and willing counterparties exist.</p>
+            <h4 style="margin-top: var(--space-5);">Why it's credible now</h4>
+            <p>Institutional appetite for faster, final settlement is validated by signals from custodians and FMIs integrating stablecoin rails into post-trade. Clients increasingly ask why same-day finality is not standard.</p>
+          </div>
+          <div class="play-body-col">
+            <h4>Best fit if you are</h4>
+            <ul class="best-fit-list">
+              <li><span class="best-fit-role">Bank / payments provider —</span> Competing on service levels where settlement speed and transparency are differentiators.</li>
+              <li><span class="best-fit-role">Asset manager —</span> Managing funds where timing of cash flows affects performance or liquidity management.</li>
+              <li><span class="best-fit-role">Fintech / infrastructure provider —</span> Abstracting rail complexity behind a simple API, so clients get the outcome without managing the on-chain layer.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Play 3 -->
+      <div class="play-card">
+        <div class="play-card-header">
+          <div class="play-number">3</div>
+          <div class="play-card-header-text">
+            <h3>Infrastructure partnership or network participation</h3>
+            <p class="play-oneliner">Join or co-build an institutional settlement network where on-chain money is embedded into existing systems.</p>
+          </div>
+        </div>
+        <div class="play-body">
+          <div class="play-body-col">
+            <h4>What it is</h4>
+            <p>Engage with an emerging or established institutional settlement network — as a founding member, liquidity provider, or node operator — to gain early influence over governance, standards, and interoperability while building network-scale capability.</p>
+            <h4 style="margin-top: var(--space-5);">Why it's credible now</h4>
+            <p>Signals show FMIs and global banks shifting from watching to joining or co-building. Early governance positions are finite and increasingly contested.</p>
+          </div>
+          <div class="play-body-col">
+            <h4>Best fit if you are</h4>
+            <ul class="best-fit-list">
+              <li><span class="best-fit-role">Bank / custodian / FMI —</span> You want scale, shared governance, and the ability to shape standards in your segment or region.</li>
+              <li><span class="best-fit-role">Asset manager —</span> Seeking multi-counterparty connectivity so tokenized funds and cash can move freely across partners.</li>
+              <li><span class="best-fit-role">Fintech / infrastructure provider —</span> Playing a neutral rails or orchestration role that increases in value as network adoption grows.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pitfalls -->
+    <div class="pitfalls-block">
+      <h3>Before you pick a play</h3>
+      <ul class="pitfalls-list">
+        <li>Regulators and internal risk teams focus heavily on governance, controls, and resolvability — these should be designed in from day one, not bolted on.</li>
+        <li>Public-chain pilots without clear legal and operational frameworks can create more risk than insight.</li>
+        <li>New rails require new processes: wallets/keys, reconciliation, accounting, and incident response all need to be designed.</li>
+        <li>Start with a small number of assets and rails with strong institutional support; avoid multi-asset, multi-chain overload at the start.</li>
+      </ul>
+    </div>
+
+    <!-- NextFi CTA -->
+    <div class="nextfi-help">
+      <h3>Turning this playbook into your roadmap</h3>
+      <p>NextFi Advisors helps you design regulator-ready pilots and network strategies grounded in the actual signals coming from your peers.</p>
+      <ul>
+        <li>Regulator-ready briefings distinguishing speculative stablecoin use from prudentially sound institutional applications.</li>
+        <li>Pilot design for treasury/B2B flows: flows, counterparties, and rails for your first 12–18 months.</li>
+        <li>Network and partner strategy: mapping which infrastructure providers and counterparties matter most for your segment and region.</li>
+      </ul>
+      <div class="cta-row">
+        <a href="https://nextfiadvisors.com/contact" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--primary">Explore which stablecoin play fits your institution</a>
+        <a href="https://nextfiadvisors.com/contact" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--outline">Request a settlement pilot blueprint</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!-- PLAYBOOK 3 — MARKET INFRASTRUCTURE & DLT                               -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<section class="site-section" id="dlt-infrastructure" style="border-top: 2px solid var(--color-divider);">
+  <div class="container">
+
+    <div class="playbook-header" style="border-bottom: none; padding-block: 0 var(--space-10);">
+      <div class="playbook-header-meta">
+        <a href="#playbooks" class="playbook-back">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          All Playbooks
+        </a>
+      </div>
+      <div class="section-eyebrow">Playbook 3 of 3</div>
+      <h2 class="section-heading">Market Infrastructure &amp; DLT</h2>
+      <p class="playbook-who">For FMIs, global and regional banks, asset managers, custodians, and infrastructure providers considering how DLT fits into post-trade, custody, collateral management, and related market infrastructure.</p>
+    </div>
+
+    <!-- Snapshot -->
+    <div class="snapshot-block">
+      <h3>Current market picture</h3>
+      <div class="snapshot-cols">
+        <div class="snapshot-col">
+          <h4>Institutional signals (Street Signals)</h4>
+          <ul>
+            <li>Structural and Material signals from CSDs, CCPs, global custodians, and large banks piloting or deploying DLT in clearing, settlement, and collateral workflows.</li>
+            <li>Narrative shift from 'disrupt FMIs' to 'FMIs deploying DLT to modernize efficiency, risk, and ownership transparency'.</li>
+          </ul>
+        </div>
+        <div class="snapshot-col">
+          <h4>Usage / flows</h4>
+          <ul>
+            <li>DLT-based platforms now process sustained daily transaction volumes for institutional flows (payments, collateral, tokenized assets), not just small pilots.</li>
+            <li>Clustering around specific FMI domains: collateral mobility, intraday liquidity, and same- or T+0 settlement in selected products.</li>
+          </ul>
+        </div>
+      </div>
+      <p class="snapshot-summary">DLT is being adopted as infrastructure inside institutions, and its footprint is uneven across market segments and regions.</p>
+    </div>
+
+    <!-- Signals cross-link -->
+    <div class="signals-link-strip">
+      <span>See the underlying market infrastructure and DLT signals on Street Signals.</span>
+      <a href="/?filter=dlt">View related signals →</a>
+    </div>
+
+    <!-- Plays -->
+    <div class="plays-section">
+      <h2 class="plays-heading">Three credible plays for DLT infrastructure (2026–2028)</h2>
+
+      <!-- Play 1 -->
+      <div class="play-card">
+        <div class="play-card-header">
+          <div class="play-number">1</div>
+          <div class="play-card-header-text">
+            <h3>Targeted post-trade / collateral use case</h3>
+            <p class="play-oneliner">Apply DLT to a specific post-trade or collateral workflow where pain and risk are high and market structure is contained.</p>
+          </div>
+        </div>
+        <div class="play-body">
+          <div class="play-body-col">
+            <h4>What it is</h4>
+            <p>Select a high-friction collateral or settlement workflow — fails management, intraday margin, bilateral collateral mobility — and deploy DLT to reduce operational risk, reconciliation overhead, and capital cost in that specific, measurable context.</p>
+            <h4 style="margin-top: var(--space-5);">Why it's credible now</h4>
+            <p>Signals from global custodians and CCPs show DLT delivering real-world improvements in collateral mobility and settlement finality in production environments.</p>
+          </div>
+          <div class="play-body-col">
+            <h4>Best fit if you are</h4>
+            <ul class="best-fit-list">
+              <li><span class="best-fit-role">FMI / bank / custodian —</span> Seeking tangible reductions in settlement fails, reconciliation breaks, and associated capital and liquidity costs.</li>
+              <li><span class="best-fit-role">Asset manager —</span> Willing to participate in DLT-based workflows where settlement certainty or collateral efficiency materially improves operating costs or capital.</li>
+              <li><span class="best-fit-role">Fintech / infrastructure provider —</span> Providing orchestration for a narrow but high-value workflow, where fast time-to-value justifies the integration investment.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Play 2 -->
+      <div class="play-card">
+        <div class="play-card-header">
+          <div class="play-number">2</div>
+          <div class="play-card-header-text">
+            <h3>Tokenized assets + DLT post-trade integration</h3>
+            <p class="play-oneliner">Align tokenization initiatives with DLT post-trade so issuance, settlement, and servicing evolve together.</p>
+          </div>
+        </div>
+        <div class="play-body">
+          <div class="play-body-col">
+            <h4>What it is</h4>
+            <p>Rather than running tokenization and post-trade DLT as separate projects, design them as one modernization portfolio — so tokenized assets have native DLT settlement pathways from the outset, not retrofitted integrations.</p>
+            <h4 style="margin-top: var(--space-5);">Why it's credible now</h4>
+            <p>Signals show institutions increasingly treating tokenization and DLT post-trade as one portfolio rather than parallel experiments, reflecting hard-learned lessons from earlier siloed pilots.</p>
+          </div>
+          <div class="play-body-col">
+            <h4>Best fit if you are</h4>
+            <ul class="best-fit-list">
+              <li><span class="best-fit-role">Asset manager / issuer —</span> Already exploring tokenized funds or bonds and want post-trade to match, not constrain, what the asset layer can do.</li>
+              <li><span class="best-fit-role">FMI / custodian / bank —</span> Treating tokenization and DLT post-trade as one modernization portfolio rather than parallel competing investments.</li>
+              <li><span class="best-fit-role">Fintech / infrastructure provider —</span> Aligning issuance platforms, DLT systems, and legacy custody to create seamless end-to-end workflows.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Play 3 -->
+      <div class="play-card">
+        <div class="play-card-header">
+          <div class="play-number">3</div>
+          <div class="play-card-header-text">
+            <h3>Strategic DLT platform participation or build</h3>
+            <p class="play-oneliner">Decide whether to participate in, co-own, or build a DLT platform that aims to become core infrastructure in your segment.</p>
+          </div>
+        </div>
+        <div class="play-body">
+          <div class="play-body-col">
+            <h4>What it is</h4>
+            <p>Make an explicit strategic choice about your DLT platform position: user, co-owner, or competitor. This is a governance decision as much as a technology one, and determines your influence over standards, data access, and fee structures as the market consolidates.</p>
+            <h4 style="margin-top: var(--space-5);">Why it's credible now</h4>
+            <p>Platform ownership and governance positions are becoming finite. Structural signals show founding members of DLT consortia gaining disproportionate influence over interoperability standards.</p>
+          </div>
+          <div class="play-body-col">
+            <h4>Best fit if you are</h4>
+            <ul class="best-fit-list">
+              <li><span class="best-fit-role">FMI / bank / custodian —</span> Deciding if you will be a user, co-owner, or competitor of emerging platforms — and understanding the long-term cost of each choice.</li>
+              <li><span class="best-fit-role">Asset manager —</span> Wanting a voice in platform governance and priorities, particularly around data access, privacy, and interoperability with your existing systems.</li>
+              <li><span class="best-fit-role">Fintech / infrastructure provider —</span> Contributing components (interoperability, risk/analytics, connectivity) that increase in value as the platform grows.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pitfalls -->
+    <div class="pitfalls-block">
+      <h3>Before you pick a play</h3>
+      <ul class="pitfalls-list">
+        <li>Trying to 'blockchain everything' without a clear high-pain workflow leads to stalled pilots and wasted budget.</li>
+        <li>Regulators expect DLT not to degrade controls, audit trails, or operational resilience compared to incumbent systems.</li>
+        <li>Integration with legacy systems dominates timelines; design for coexistence, not sudden replacement.</li>
+        <li>Governance — who runs the platform, who has a vote, what data is shared — is often harder than the technology and typically takes longer to resolve.</li>
+      </ul>
+    </div>
+
+    <!-- NextFi CTA -->
+    <div class="nextfi-help">
+      <h3>Turning this playbook into your roadmap</h3>
+      <p>NextFi Advisors helps institutions cut through DLT platform noise and identify the plays — and sequencing — that match their actual risk appetite, regulatory context, and operating model.</p>
+      <ul>
+        <li>Use-case prioritization: identifying which post-trade, collateral, or custody workflows are best suited for DLT at your institution.</li>
+        <li>Roadmap and architecture: designing a phased approach that ties tokenization, DLT post-trade, and stablecoin/settlement efforts together.</li>
+        <li>Partner and platform strategy: deciding when to join, co-create, or compete with emerging DLT-based infrastructure platforms.</li>
+      </ul>
+      <div class="cta-row">
+        <a href="https://nextfiadvisors.com/contact" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--primary">Explore which DLT plays fit your institution</a>
+        <a href="https://nextfiadvisors.com/contact" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--outline">Request a DLT positioning workshop</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+</main>
+
+<!-- ── FOOTER ─────────────────────────────────────────────────────────────── -->
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <p>© 2025 NextFi Advisors. Street Signals is a market intelligence service.</p>
+    <nav style="display: flex; gap: var(--space-5);">
+      <a href="/">Signals</a>
+      <a href="/decision-playbooks/">Decision Playbooks</a>
+      <a href="/institutional-radar/">Positioning Radar</a>
+      <a href="https://nextfiadvisors.com" target="_blank" rel="noopener noreferrer">NextFi Advisors</a>
+    </nav>
+  </div>
+</footer>
+
+<!-- ── NAVIGATION JS (theme toggle + mobile menu) ─────────────────────────── -->
+<script>
+(function() {
+  'use strict';
+
+  // Theme toggle
+  var stored = localStorage.getItem('theme') || 'dark';
+  document.documentElement.setAttribute('data-theme', stored);
+
+  document.querySelectorAll('[data-theme-toggle]').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var current = document.documentElement.getAttribute('data-theme');
+      var next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+  });
+
+  // Mobile menu
+  var menuBtn = document.getElementById('mobileMenuBtn');
+  var nav = document.getElementById('headerNav');
+  if (menuBtn && nav) {
+    menuBtn.addEventListener('click', function() {
+      nav.classList.toggle('header-nav--open');
+    });
+  }
+})();
+</script>
+
+</body>
+</html>
