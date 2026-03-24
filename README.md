@@ -1,25 +1,26 @@
 # SftS signals — Digital Asset Intelligence Dashboard
 
-A live intelligence platform tracking institutional adoption of blockchain-based financial market infrastructure. Aggregates 455+ signals from banks, asset managers, exchanges, payment providers, regulators, and ecosystem projects across digital assets and distributed ledger technology.
+A live intelligence platform tracking institutional adoption of blockchain-based financial market infrastructure. Aggregates 580+ signals from banks, asset managers, exchanges, payment providers, regulators, and ecosystem projects across digital assets and distributed ledger technology.
 
 **Live:** [streetsignals.nextfiadvisors.com](https://streetsignals.nextfiadvisors.com)
 
 ## Features
 
-- **455+ Real-Time Signals** — Curated from multiple authoritative sources
+- **580+ Real-Time Signals** — Curated from multiple authoritative sources
 - **Advanced Matrix Filtering** — Search across institution, sector, signal type, and FMI areas
 - **Institutional Initiative Directory** — Named institutions and their DLT initiatives, quantified across dimensions
 - **Analytics Dashboard** — FMI categorization, signal momentum over time, initiative classification
 - **Live Signal Library** — Browse all signals with full context and citations
+- **Universal Signal Controls** — Persona, institution category, date window, and country controls at the top of the Signals page
 
 ## Data
 
-- **Auto-updated daily** — 11:15 UTC via GitHub Actions
+- **Auto-updated every 30 minutes** via GitHub Actions
 - **Three signal types:**
   - Manual curated (`data.json`) — 217 signals
-  - Auto-detected (`auto_data.json`) — 227 signals  
+  - Auto-detected (`auto_data.json`) — 363 signals  
   - Intelligence Briefs (`intel_briefs.json`) — 11 briefs
-- **Total:** 455 signals + 11 briefs
+- **Total:** 580 signals + 11 briefs
 
 ## Technology
 
@@ -105,7 +106,7 @@ The current frontend uses these overlays as contextual analytics only. They do n
 ├── app.js                  # Application logic
 ├── style.css               # Styling
 ├── data.json               # Manual curated signals (217)
-├── auto_data.json          # Auto-detected signals (227)
+├── auto_data.json          # Auto-detected signals (363)
 ├── market_overlay.json     # External market metrics from Dune / public overlays
 ├── intel_briefs.json       # Intelligence briefs (11)
 ├── sources.json            # Signal source definitions
@@ -118,7 +119,7 @@ The current frontend uses these overlays as contextual analytics only. They do n
 │   └── market-overlay.schema.json
 └── .github/
     └── workflows/
-        └── update-signals.yml  # Daily auto-update job
+        └── update-signals.yml  # Scheduled auto-update job (every 30 minutes)
 ```
 
 ## License
