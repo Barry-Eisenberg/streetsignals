@@ -2,13 +2,14 @@
 (function(){
   const t = document.querySelector('[data-theme-toggle]');
   const r = document.documentElement;
-  let d = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  let d = localStorage.getItem('theme') || 'light';
   r.setAttribute('data-theme', d);
   if (t) {
     updateToggleIcon();
     t.addEventListener('click', () => {
       d = d === 'dark' ? 'light' : 'dark';
       r.setAttribute('data-theme', d);
+      localStorage.setItem('theme', d);
       updateToggleIcon();
       // Rebuild charts with new colors
       if (window._chartsReady) buildCharts();

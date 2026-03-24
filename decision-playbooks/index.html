@@ -665,7 +665,7 @@
   'use strict';
 
   // Theme toggle
-  var stored = localStorage.getItem('theme') || 'dark';
+  var stored = localStorage.getItem('theme') || 'light';
   document.documentElement.setAttribute('data-theme', stored);
 
   document.querySelectorAll('[data-theme-toggle]').forEach(function(btn) {
