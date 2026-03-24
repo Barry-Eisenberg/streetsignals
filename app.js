@@ -1517,19 +1517,99 @@ function getSignalSourceDateRaw(signal) {
   return String(signal?.source_date || signal?.published_at || signal?.created_at || signal?.date || '').trim();
 }
 
+function sourcePrefersMonthFirst(signal) {
+  const sourceName = String(signal?.source_name || '').toLowerCase();
+  const institution = String(signal?.institution || '').toLowerCase();
+  const sourceUrl = String(signal?.source_url || '').toLowerCase();
+  const joined = `${sourceName} ${institution} ${sourceUrl}`;
+
+  return [
+    'coindesk',
+    'the block',
+    'chainalysis',
+    'fed',
+    'sec',
+    'finra',
+    'cftc',
+    'federal reserve',
+    '.us/'
+  ].some(hint => joined.includes(hint));
+}
+
+function parseSignalDate(rawDate, signal = null) {
+  const raw = String(rawDate || '').trim();
+  if (!raw) return null;
+
+  const dateOnlyIsoMatch = raw.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (dateOnlyIsoMatch) {
+    const y = Number(dateOnlyIsoMatch[1]);
+    const m = Number(dateOnlyIsoMatch[2]);
+    const d = Number(dateOnlyIsoMatch[3]);
+    const dt = new Date(y, m - 1, d, 12, 0, 0);
+    return Number.isNaN(dt.getTime()) ? null : dt;
+  }
+
+  const numericMatch = raw.match(/^(\d{1,4})[\/.\-](\d{1,2})[\/.\-](\d{1,4})(?:[ T](\d{1,2}):(\d{2})(?::(\d{2}))?)?/);
+  if (numericMatch) {
+    const first = Number(numericMatch[1]);
+    const second = Number(numericMatch[2]);
+    const third = Number(numericMatch[3]);
+    const hour = Number(numericMatch[4] || 12);
+    const minute = Number(numericMatch[5] || 0);
+    const secondPart = Number(numericMatch[6] || 0);
+
+    let year;
+    let month;
+    let day;
+
+    if (numericMatch[1].length === 4) {
+      year = first;
+      month = second;
+      day = third;
+    } else if (numericMatch[3].length === 4) {
+      year = third;
+      if (first > 12 && second <= 12) {
+        day = first;
+        month = second;
+      } else if (second > 12 && first <= 12) {
+        month = first;
+        day = second;
+      } else {
+        const monthFirst = sourcePrefersMonthFirst(signal);
+        month = monthFirst ? first : second;
+        day = monthFirst ? second : first;
+      }
+    }
+
+    if (Number.isFinite(year) && Number.isFinite(month) && Number.isFinite(day)) {
+      const dt = new Date(year, month - 1, day, hour, minute, secondPart);
+      if (
+        !Number.isNaN(dt.getTime()) &&
+        dt.getFullYear() === year &&
+        dt.getMonth() === (month - 1) &&
+        dt.getDate() === day
+      ) {
+        return dt;
+      }
+    }
+  }
+
+  const parsed = Date.parse(raw);
+  if (Number.isFinite(parsed)) {
+    const dt = new Date(parsed);
+    return Number.isNaN(dt.getTime()) ? null : dt;
+  }
+
+  return null;
+}
+
 function getSignalDateTimestamp(signal) {
   const rawDate = getSignalSourceDateRaw(signal);
   if (!rawDate) return null;
-
-  // Treat date-only values as local midday to avoid timezone rollbacks (e.g. showing prior evening).
-  if (/^\d{4}-\d{2}-\d{2}$/.test(rawDate)) {
-    const localMidday = new Date(`${rawDate}T12:00:00`);
-    const localMiddayTs = localMidday.getTime();
-    return Number.isFinite(localMiddayTs) ? localMiddayTs : null;
-  }
-
-  const parsed = Date.parse(rawDate);
-  return Number.isFinite(parsed) ? parsed : null;
+  const parsed = parseSignalDate(rawDate, signal);
+  if (!parsed) return null;
+  const ts = parsed.getTime();
+  return Number.isFinite(ts) ? ts : null;
 }
 
 function getLatestNonFutureSignalTimestamp(signals) {
@@ -1554,8 +1634,8 @@ function formatExactSignalDate(signal) {
   const rawDate = getSignalSourceDateRaw(signal);
   if (!rawDate) return 'Date unavailable';
 
-  const dt = new Date(rawDate);
-  if (Number.isNaN(dt.getTime())) return rawDate;
+  const dt = parseSignalDate(rawDate, signal);
+  if (!dt) return rawDate;
 
   const hasTime = /T\d{2}:\d{2}|\d{2}:\d{2}/.test(rawDate);
   if (hasTime) {
@@ -1605,7 +1685,7 @@ function getMomentumSnapshot(signal, candidateSignals) {
     const overlaps = itemThemes.some(theme => signalThemes.has(theme));
     if (!overlaps) return;
 
-    const ts = Date.parse(item?.date || '');
+    const ts = getSignalDateTimestamp(item);
     if (!Number.isFinite(ts)) return;
 
     if (ts >= recentBoundary) recentCount += 1;
@@ -1789,7 +1869,8 @@ const DURABILITY_BONUS_BY_MATERIALITY = {
 };
 
 function getSignalAgeDays(dateValue) {
-  const timestamp = new Date(dateValue || '').getTime();
+  const parsed = parseSignalDate(dateValue);
+  const timestamp = parsed ? parsed.getTime() : NaN;
   if (!timestamp) return null;
   return Math.max(0, Math.floor((Date.now() - timestamp) / 86400000));
 }
@@ -2508,7 +2589,8 @@ function getSignalDateKey(rawDate) {
   if (!raw) return null;
   const isoPrefix = raw.slice(0, 10);
   if (/^\d{4}-\d{2}-\d{2}$/.test(isoPrefix)) return isoPrefix;
-  const dt = new Date(raw);
+  const dt = parseSignalDate(raw);
+  if (!dt) return null;
   if (isNaN(dt.getTime())) return null;
   return `${dt.getFullYear()}-${String(dt.getMonth() + 1).padStart(2, '0')}-${String(dt.getDate()).padStart(2, '0')}`;
 }
