@@ -1,0 +1,43 @@
+{
+  "queries": [
+    {
+      "name": "Tokenized RWA watchlist volume",
+      "theme": "tokenizedFunds",
+      "metric_key": "tokenized_rwa_watchlist_volume_30d",
+      "metric_label": "Tokenized RWA watchlist volume",
+      "scope": "market",
+      "window": "30d",
+      "unit": "usd",
+      "sql_file": "dune_sql/tokenized_rwa_watchlist_volume_30d.sql",
+      "value_field": "watchlist_volume_usd_30d",
+      "change_30d_field": "change_30d",
+      "summary_field": "summary"
+    },
+    {
+      "name": "Stablecoin transfer volume",
+      "theme": "stablecoins",
+      "metric_key": "stablecoin_transfer_volume_30d",
+      "metric_label": "Stablecoin transfer volume",
+      "scope": "market",
+      "window": "30d",
+      "unit": "usd",
+      "sql_file": "dune_sql/stablecoin_transfer_volume_30d.sql",
+      "value_field": "transfer_volume_usd",
+      "change_30d_field": "change_30d",
+      "summary_field": "summary"
+    },
+    {
+      "name": "Bridge volume by destination chain",
+      "theme": "dlt",
+      "metric_key": "bridge_volume_30d",
+      "metric_label": "Bridge volume",
+      "scope": "market",
+      "window": "30d",
+      "unit": "usd",
+      "sql_file": "dune_sql/bridge_volume_30d.sql",
+      "value_field": "bridge_volume_usd",
+      "change_30d_field": "change_30d",
+      "summary_field": "summary"
+    }
+  ]
+}

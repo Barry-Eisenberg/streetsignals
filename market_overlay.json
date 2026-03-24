@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-03-24T22:20:03.052062Z",
+  "overlays": [
+    {
+      "source": "dune",
+      "query_id": 0,
+      "metric_key": "tokenized_rwa_watchlist_volume_30d",
+      "metric_label": "Tokenized RWA watchlist volume",
+      "theme": "tokenizedFunds",
+      "scope": "market",
+      "entity": null,
+      "peer_group": null,
+      "chain": null,
+      "protocol": null,
+      "window": "30d",
+      "as_of": "2026-03-24T22:19:32.393391Z",
+      "value": 953549686.2125956,
+      "unit": "usd",
+      "change_30d": 0.7684859216629565,
+      "change_90d": null,
+      "summary": "Tracked Ondo-issued tokenized RWA watchlist volume reached 953.55M USD over the last 30 days across OUSG, USDY, and related Ondo-issued assets.",
+      "metadata": {
+        "query_name": "Tokenized RWA watchlist volume",
+        "execution_id": "01KMGYWKE8461HJEER1TX755A2"
+      }
+    },
+    {
+      "source": "dune",
+      "query_id": 0,
+      "metric_key": "stablecoin_transfer_volume_30d",
+      "metric_label": "Stablecoin transfer volume",
+      "theme": "stablecoins",
+      "scope": "market",
+      "entity": null,
+      "peer_group": null,
+      "chain": null,
+      "protocol": null,
+      "window": "30d",
+      "as_of": "2026-03-24T22:19:50.176670Z",
+      "value": 9699525983970.816,
+      "unit": "usd",
+      "change_30d": 0.15965988963747574,
+      "change_90d": null,
+      "summary": "Stablecoin transfer volume across tracked majors reached 9.70T USD over the last 30 days; large transfers accounted for 89.5% of that flow.",
+      "metadata": {
+        "query_name": "Stablecoin transfer volume",
+        "execution_id": "01KMGYX02515SF6GPGACDKS8WN"
+      }
+    },
+    {
+      "source": "dune",
+      "query_id": 0,
+      "metric_key": "bridge_volume_30d",
+      "metric_label": "Bridge volume",
+      "theme": "dlt",
+      "scope": "market",
+      "entity": null,
+      "peer_group": null,
+      "chain": null,
+      "protocol": null,
+      "window": "30d",
+      "as_of": "2026-03-24T22:20:03.051844Z",
+      "value": 6249473675847.266,
+      "unit": "usd",
+      "change_30d": 186784.22753528744,
+      "change_90d": null,
+      "summary": "Bridge flow into katana reached 6.25T USD over the last 30 days.",
+      "metadata": {
+        "query_name": "Bridge volume by destination chain",
+        "execution_id": "01KMGYXHDS832BBJBZETDTH1R6"
+      }
+    }
+  ]
+}

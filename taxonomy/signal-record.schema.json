@@ -53,6 +53,7 @@
       "type": "string",
       "description": "Nature of the institutional signal.",
       "enum": [
+        "Leadership & Governance",
         "Infrastructure Upgrade",
         "Investment / M&A",
         "Pilot / Trial",
@@ -73,6 +74,7 @@
       "items": {
         "type": "string",
         "enum": [
+          "Leadership & Governance",
           "Tokenized Securities / RWA",
           "DLT / Blockchain Infrastructure",
           "Crypto / Digital Assets",
@@ -116,6 +118,14 @@
       "type": "string",
       "description": "Optional human-readable source label if present in the raw record."
     },
+    "published_at": {
+      "type": "string",
+      "description": "Optional source publication timestamp when available."
+    },
+    "source_date": {
+      "type": "string",
+      "description": "Optional normalized source timestamp used client-side when present."
+    },
     "source_url": {
       "type": "string",
       "format": "uri"
@@ -128,6 +138,10 @@
     "year": {
       "type": "string",
       "pattern": "^[0-9]{4}$"
+    },
+    "importance_score": {
+      "type": "number",
+      "description": "Optional normalized importance score used by downstream analytics and radar views."
     },
     "auto_generated": {
       "type": "boolean",

@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://streetsignals.nextfiadvisors.com/schemas/market-overlay.schema.json",
+  "title": "SftS Market Overlay Record",
+  "description": "Normalized external market metric record used to add Dune and other public-data overlays to SftS analytics without changing the core signal model.",
+  "type": "object",
+  "required": [
+    "source",
+    "metric_key",
+    "metric_label",
+    "theme",
+    "scope",
+    "as_of"
+  ],
+  "properties": {
+    "source": {
+      "type": "string",
+      "enum": [
+        "dune",
+        "rwa.xyz",
+        "public"
+      ]
+    },
+    "query_id": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Upstream Dune query ID when the record comes from Dune. Raw-SQL executions use 0 because they are not stored as saved queries."
+    },
+    "metric_key": {
+      "type": "string",
+      "description": "Stable internal metric identifier used by the frontend and analytics."
+    },
+    "metric_label": {
+      "type": "string",
+      "description": "Human-readable metric name."
+    },
+    "theme": {
+      "type": "string",
+      "enum": [
+        "tokenizedFunds",
+        "stablecoins",
+        "dlt"
+      ]
+    },
+    "scope": {
+      "type": "string",
+      "enum": [
+        "market",
+        "peer_group",
+        "institution",
+        "protocol",
+        "chain"
+      ]
+    },
+    "entity": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "peer_group": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "chain": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "protocol": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "window": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Measurement window such as 7d, 30d, or 90d."
+    },
+    "as_of": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "value": {
+      "type": [
+        "number",
+        "string",
+        "null"
+      ]
+    },
+    "unit": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "change_30d": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "change_90d": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "summary": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Optional pre-composed narrative summary for UI overlays."
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Optional upstream metadata such as dataset, query name, execution ID, or preserved row fields.",
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

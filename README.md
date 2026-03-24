@@ -77,6 +77,26 @@ This script:
 - Merges with manual curated signals
 - Outputs to `auto_data.json` and `intel_briefs.json`
 
+To refresh external Dune-based market overlays:
+
+```bash
+copy scripts/dune_queries.example.json scripts/dune_queries.json
+set DUNE_API_KEY=your_api_key_here
+python scripts/update_dune_metrics.py
+```
+
+This script:
+- Executes saved Dune queries or raw SQL via API
+- Polls until execution completes
+- Normalizes results into `market_overlay.json`
+- Keeps external market metrics separate from core SftS signal records
+
+The example config now points to local SQL templates in [scripts/dune_sql](scripts/dune_sql). You can either:
+- keep using local SQL files and edit them directly, or
+- replace a SQL-file definition with a saved `query_id` later if you prefer to manage queries in Dune
+
+The current frontend uses these overlays as contextual analytics only. They do not change the core signal scoring or radar score.
+
 ## Project Structure
 
 ```
@@ -86,10 +106,16 @@ This script:
 ├── style.css               # Styling
 ├── data.json               # Manual curated signals (217)
 ├── auto_data.json          # Auto-detected signals (227)
+├── market_overlay.json     # External market metrics from Dune / public overlays
 ├── intel_briefs.json       # Intelligence briefs (11)
 ├── sources.json            # Signal source definitions
 ├── scripts/
-│   └── update_signals.py   # Data refresh script
+│   ├── update_signals.py   # Signal refresh script
+│   ├── update_dune_metrics.py # Dune overlay refresh script
+│   └── dune_queries.example.json # Example Dune query config
+├── taxonomy/
+│   ├── signal-record.schema.json
+│   └── market-overlay.schema.json
 └── .github/
     └── workflows/
         └── update-signals.yml  # Daily auto-update job
