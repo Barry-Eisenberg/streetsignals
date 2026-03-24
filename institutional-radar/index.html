@@ -281,7 +281,7 @@
       <li>Fintech and infrastructure providers wanting a clear view of target institutions' adoption profiles.</li>
     </ul>
     <div class="radar-method-note">
-      Radar views are based on SftS signal importance tiers (Structural, Material, Context) and trend context across the last 18 to 24 months. Optional on-chain context from Dune, rwa.xyz, and other public datasets can be shown in the theme tabs but does not affect radar scores.
+      Radar views are based on SftS signal importance tiers (Structural, Material, Context) and trend context across the last 12 months. Optional on-chain context from Dune, rwa.xyz, and other public datasets can be shown in the theme tabs but does not affect radar scores.
     </div>
   </div>
 </section>
@@ -292,7 +292,7 @@
     <div class="section-eyebrow">Methodology</div>
     <h2 class="section-heading">How the radar is scored</h2>
     <p class="section-intro u-intro-margin-bottom-sm">
-      Each institution in the SftS catalogue is scored across the three themes using cumulative signal importance, recency weighting, and stage mix (Structural vs Material vs Exploratory). Peer group averages are computed across all institutions in that category.
+      Each institution in the SftS catalogue is scored across the three themes using cumulative signal importance, recency weighting, and stage mix (Structural vs Material vs Exploratory) across the last 12 months. Peer group averages are computed across all institutions in that category.
     </p>
     <div class="audience-grid u-grid-margin-bottom-none">
       <div class="audience-card">
@@ -586,6 +586,7 @@
 
   var RADAR_EXCLUDED_INSTITUTION_PATTERN = /(^|\b)(coindesk|finextra|the block|coingeek|unchained|ledger insights|connecting the dots|fintech wrap up)(\b|$)/i;
   var RADAR_MIN_SIGNALS_PER_INSTITUTION = 2;
+  var RADAR_LOOKBACK_MONTHS = 12;
 
   var THEME_DEFS = {
     tokenizedFunds: {
@@ -737,7 +738,6 @@
     var m = getMonthsSince(parseSignalDate(signal));
     if (m <= 6) { return 1.25; }
     if (m <= 12) { return 1.1; }
-    if (m <= 24) { return 1.0; }
     return 0.85;
   }
 
@@ -772,7 +772,7 @@
     var hits = 0;
     keywords.forEach(function(kw) { if (text.indexOf(kw) !== -1) { hits++; } });
 
-    if (hits === 0 || !isInWindow(signal, 24)) { return { score: 0, matched: false, structuralLike: false, materialLike: false }; }
+    if (hits === 0 || !isInWindow(signal, RADAR_LOOKBACK_MONTHS)) { return { score: 0, matched: false, structuralLike: false, materialLike: false }; }
 
     var strengthWeight = getStrengthWeight(signal);
     var recencyWeight = getRecencyWeight(signal);
@@ -1205,7 +1205,7 @@
     var selectedInstName = institutionName === 'demo' ? DEMO_INSTITUTION : institutionName;
     var effectivePeerGroup = scores.resolvedPeerGroup || peerGroup;
     var peerLabel = effectivePeerGroup === 'all' ? PEER_GROUP_LABELS.all : effectivePeerGroup;
-    scoreNote.textContent = 'Scores reflect the relative strength of Structural and Material signals in each theme over the last 18 to 24 months, normalized against ' + peerLabel + '. Based on ' + scores.signalCount + ' source signal(s).';
+    scoreNote.textContent = 'Scores reflect the relative strength of Structural and Material signals in each theme over the last 12 months, normalized against ' + peerLabel + '. Based on ' + scores.signalCount + ' source signal(s).';
     scoreNote.style.display = 'block';
 
     // Detail tabs
