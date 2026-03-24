@@ -1,48 +1,634 @@
 [
   {
-    "institution": "Finextra",
-    "initiative": "Fact or fiction: Exploring the reality of AI in payments testing",
-    "description": "Exploring the expectations and realities of AI in payments testing.",
-    "date": "2026-05-28",
-    "source_url": "https://www.finextra.com/event-info/611/fact-or-fiction-exploring-the-reality-of-ai-in-payments-testing",
+    "institution": "BIS",
+    "initiative": "Basel III liquidity indicators increase slightly while risk-based capital and leverage ratios are stable for large internationally active banks, latest Basel III monitoring exercise shows",
+    "description": "Banks' liquidity ratios increased slightly while Basel III risk-based capital and leverage ratios are stable in the first half of 2025. The average impact of the Basel III framework on the Tier 1 minimum required capital (MRC) of Group 1 banks decreased, driven by implementation progress. The newly expanded cryptoasset exposures dashboard shows how banks are classifying their cryptoasset exposures.",
+    "date": "2026-03-24",
+    "source_url": "https://www.bis.org/press/p260324.htm",
+    "category": "regulators",
+    "source_name": "BIS — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "FSB",
+    "initiative": "Promoting Global Financial Stability: 2025 FSB Annual Report",
+    "description": "Against a backdrop of rising vulnerabilities, in 2025 the FSB delivered work in key areas such as NBFI leverage, crypto-assets and stablecoins, operational resilience and enhanced cross-border payments.",
+    "date": "2026-03-24",
+    "source_url": "https://www.fsb.org/2026/03/promoting-global-financial-stability-2025-fsb-annual-report/",
+    "category": "regulators",
+    "source_name": "FSB — Publications",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "FSB",
+    "initiative": "FSB publishes 2025 Annual Report",
+    "description": "In presenting the Report, FSB Chair Andrew Bailey reflects on current challenges to multilateralism and how the FSB will remain fit for purpose.",
+    "date": "2026-03-24",
+    "source_url": "https://www.fsb.org/2026/03/fsb-publishes-2025-annual-report/",
+    "category": "regulators",
+    "source_name": "FSB — Publications",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "FSB",
+    "initiative": "FSB Chair’s foreword to the FSB Annual Report 2025",
+    "description": "In presenting the Report, FSB Chair Andrew Bailey reflects on current challenges to multilateralism and how the FSB will remain fit for purpose.",
+    "date": "2026-03-24",
+    "source_url": "https://www.fsb.org/2026/03/fsb-chairs-foreword-to-the-fsb-annual-report-2025/",
+    "category": "regulators",
+    "source_name": "FSB — Publications",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainalysis",
+    "initiative": "Chainalysis Joins Solana Developer Platform to Bring Real-Time Compliance to Every Builder",
+    "description": "Chainalysis is proud to be a compliance partner for Solana Developer Platform (SDP), integrating Chainalysis KYT (Know Your Transaction) directly&#8230; The post Chainalysis Joins Solana Developer Platform to Bring Real-Time Compliance to Every Builder appeared first on Chainalysis .",
+    "date": "2026-03-24",
+    "source_url": "https://www.chainalysis.com/blog/solana-developer-platform-real-time-compliance/",
     "category": "ecosystem",
-    "source_name": "Finextra",
+    "source_name": "Chainalysis — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Robinhood reloads stock repurchase plan to $1.5 billion as shares continue in downtrend",
+    "description": "Riding the crypto boom to become one of the 2025's hottest stocks, HOOD has shed more than 50% of its value since bitcoin topped in early October.",
+    "date": "2026-03-24",
+    "source_url": "https://www.coindesk.com/markets/2026/03/24/robinhood-stock-rises-after-usd1-5-billion-buyback-as-shares-stay-under-pressure",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin jolted modestly higher on Iran ceasefire report; oil tumbles 4%",
+    "description": "An Israeli TV report said a one-month ceasefire could be announced soon.",
+    "date": "2026-03-24",
+    "source_url": "https://www.coindesk.com/markets/2026/03/24/bitcoin-jolted-modestly-higher-on-iran-ceasefire-report-oil-tumbles-4",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "BlackRock sees AI driving crypto’s next bull phase as altcoin interest fades",
+    "description": "The asset management giant's Robbie Mitchnic said clients are focused on bitcoin, ether and only a few other tokens, and aren't looking for broad exposure. Rather, they see opportunity for crypto in artificial intelligence.",
+    "date": "2026-03-24",
+    "source_url": "https://www.coindesk.com/business/2026/03/24/blackrock-flags-ai-as-crypto-s-next-big-use-case-not-token-boom",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "BNY CEO says the future of crypto runs through big banks",
+    "description": "Robin Vince says large banks can bridge digital assets and traditional finance as trust and regulation shape the next phase of growth.",
+    "date": "2026-03-24",
+    "source_url": "https://www.coindesk.com/business/2026/03/24/bny-mellon-ceo-says-the-future-of-crypto-runs-through-big-banks",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
-      "Payments & Transfers"
+      "Regulation & Compliance",
+      "Interoperability & Standards"
     ],
     "initiative_types": [
-      "Payment Infrastructure"
+      "Crypto / Digital Assets"
     ],
     "year": "2026"
   },
   {
-    "institution": "Finextra",
-    "initiative": "Patch and perish: The hidden risks of incremental payment modernisation",
-    "description": "What strategic capabilities must executives invest in now to prevent today’s rising real-time volumes from becoming tomorrow’s systemic or reputational failures?",
-    "date": "2026-05-07",
-    "source_url": "https://www.finextra.com/event-info/612/patch-and-perish-the-hidden-risks-of-incremental-payment-modernisation",
+    "institution": "CoinDesk",
+    "initiative": "Wall Street’s crypto push has been years in the making, says Morgan Stanley",
+    "description": "Morgan Stanley’s Amy Oldenburg said banks are expanding into crypto not because of hype, but after years of infrastructure development.",
+    "date": "2026-03-24",
+    "source_url": "https://www.coindesk.com/business/2026/03/24/morgan-stanley-says-wall-street-s-crypto-push-isn-t-about-fomo-it-s-been-years-in-the-making",
     "category": "ecosystem",
-    "source_name": "Finextra",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Circle stock plunges 18% as a new draft of the Clarity Act threatens stablecoin rewards",
+    "description": "The latest version of the Clarity Act is pressuring stocks as it would restrict stablecoin rewards.",
+    "date": "2026-03-24",
+    "source_url": "https://www.coindesk.com/markets/2026/03/24/circle-stock-plunges-18-as-a-new-draft-of-the-clarity-act-threatens-stablecoin-rewards",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Crypto finance is beginning to look at lot more traditional, Aave and Ethena founders say",
+    "description": "Until recently, crypto users mostly traded tokens or borrowed against them, often chasing high, but unpredictable yields. New tools allow them to lock in returns, even in a market known for big swings.",
+    "date": "2026-03-24",
+    "source_url": "https://www.coindesk.com/business/2026/03/24/crypto-finance-is-beginning-to-look-at-lot-more-traditional-aave-and-ethena-founders-say",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Why cautious TradFi firms love staked ether",
+    "description": "Regulated insurance and standardized benchmarks are pivoting staked ETH from a crypto experiment to a legitimate institutional yield asset.",
+    "date": "2026-03-24",
+    "source_url": "https://www.coindesk.com/opinion/2026/03/24/why-cautious-tradfi-firms-love-staked-ether",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin slips below $70,000, Circle's 16% slide leads crypto stock sell-off",
+    "description": "Market participants are now pricing in rate hikes, and it could be weighing on risk assets.",
+    "date": "2026-03-24",
+    "source_url": "https://www.coindesk.com/markets/2026/03/24/bitcoin-slips-below-usd70-000-circle-s-16-slide-leading-crypto-stock-sell-off",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "CoinDesk 20 performance update: Polkadot (DOT) drops 2.3% as index trades lower",
+    "description": "Ripple (XRP), down 1.3% since Monday, was also among the underperformers.",
+    "date": "2026-03-24",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/03/24/coindesk-20-performance-update-polkadot-dot-drops-2-3-as-index-trades-lower",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin may have already bottomed out near $60,000. Here’s why.",
+    "description": "Implied volatility indicators DVOL and BVIV suggest peak fear has passed, with crypto leading traditional markets in pricing risk.",
+    "date": "2026-03-24",
+    "source_url": "https://www.coindesk.com/markets/2026/03/24/bitcoin-volatility-signals-a-bottom-as-tradfi-reels-in-uncertainty",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Solana Foundation taps Mastercard, Western Union, Worldpay for institutional developer platform",
+    "description": "The platform is a toolkit that lets enterprises create and scale financial applications on Solana without deep crypto infrastructure expertise.",
+    "date": "2026-03-24",
+    "source_url": "https://www.coindesk.com/tech/2026/03/24/solana-foundation-taps-mastercard-western-union-worldpay-for-institutional-developer-platform",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Coinbase says the ‘second wave’ of crypto investors are prioritizing income over price appreciation",
+    "description": "Coinbase’s head of institutional, Brett Tejpaul, says institutional priorities in crypto are evolving, and investors are increasingly hunting for yield.",
+    "date": "2026-03-24",
+    "source_url": "https://www.coindesk.com/markets/2026/03/24/coinbase-says-the-second-wave-of-institutional-money-for-crypto-is-here-and-it-is-all-about-yield",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Investment / M&A",
     "fmi_areas": [
-      "Payments & Transfers"
+      "General Infrastructure"
     ],
     "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Wall Street broker Bernstein calls bitcoin bottom, keeps $150,000 year-end target",
+    "description": "The broker sees bitcoin rebounding from its recent lows, supported by ETF flows and expanding corporate treasury demand.",
+    "date": "2026-03-24",
+    "source_url": "https://www.coindesk.com/markets/2026/03/24/wall-street-broker-bernstein-calls-bitcoin-bottom-keeps-usd150-000-year-end-target",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "ParaFi defies crypto market downturn with $125 million raise for new fund: Bloomberg",
+    "description": "The firm now manages about $2 billion, having already raised an additional $325 million for existing crypto investment strategies since last year.",
+    "date": "2026-03-24",
+    "source_url": "https://www.coindesk.com/business/2026/03/24/parafi-defies-crypto-market-downturn-with-usd125-million-raise-for-new-fund-bloomberg",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "New York Stock Exchange taps Securitize to build its tokenized stock platform",
+    "description": "The move comes as the race to bring equities to always-on blockchain markets is heating up after Nasdaq obtained regulatory approval for its tokenization plan.",
+    "date": "2026-03-24",
+    "source_url": "https://www.coindesk.com/business/2026/03/24/new-york-stock-exchange-taps-securitize-to-build-its-tokenized-stock-platform",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "BitGo, Susquehanna Crypto offering institutional OTC access to prediction markets",
+    "description": "New partnership lets hedge funds and other large investors trade event contracts using crypto collateral held on BitGo’s platform.",
+    "date": "2026-03-24",
+    "source_url": "https://www.coindesk.com/business/2026/03/24/bitgo-susquehanna-crypto-offering-institutional-otc-access-to-prediction-markets",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin finds stability at 2023 investor cost basis, echoing past cycle",
+    "description": "Onchain cost basis data suggests $60,000 is a critical support, with deeper historical support near $54,000.",
+    "date": "2026-03-24",
+    "source_url": "https://www.coindesk.com/markets/2026/03/24/bitcoin-finds-stability-at-2023-investor-cost-basis-echoing-past-cycle",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Invesco joins tokenization race as it takes over Superstate’s $900 million onchain fund",
+    "description": "The $2.2 trillion asset manager is stepping into the rapidly-growing tokenized Treasury market, joining global financial behemoths like BlackRock and Franklin Templeton.",
+    "date": "2026-03-24",
+    "source_url": "https://www.coindesk.com/business/2026/03/24/invesco-joins-tokenization-race-as-it-takes-over-superstate-s-usd900-million-onchain-fund",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Crypto-friendly fintech Revolut sees profit soar 57% to $2.3 billion in 2025",
+    "description": "The company's customer base grew to 68.3 million, with total balances up 66% to $67.5 billion and transaction volume reaching $1.7 trillion.",
+    "date": "2026-03-24",
+    "source_url": "https://www.coindesk.com/business/2026/03/24/crypto-friendly-fintech-revolut-sees-profit-soar-57-to-usd2-3-billion-in-2025",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin leads crypto rebound to $71,000 as $550 million in shorts liquidated",
+    "description": "BTC climbs despite escalating Middle East tensions, outperforming gold as altcoins rally and derivatives data signals cautious but improving market sentiment.",
+    "date": "2026-03-24",
+    "source_url": "https://www.coindesk.com/markets/2026/03/24/bitcoin-leads-crypto-rebound-to-usd71-000-as-usd550-million-in-shorts-liquidated",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Fund services giant Apex to tokenize Bitcoin mining note on Coinbase’s Base platform",
+    "description": "Apex will tokenize the Omnes Mining Note “OMN,” an institutional-grade structured note backed by Bitcoin hashrate.",
+    "date": "2026-03-24",
+    "source_url": "https://www.coindesk.com/business/2026/03/24/fund-services-giant-apex-to-tokenize-bitcoin-mining-note-on-coinbase-s-base-platform",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Here’s how Treasuries could shape Trump’s Iran war and bitcoin moves",
+    "description": "Treasury yields and swap spreads could eventually pressure the Trump administration to moderate the conflict, analysts argue.",
+    "date": "2026-03-24",
+    "source_url": "https://www.coindesk.com/markets/2026/03/24/here-s-where-treasuries-could-shape-trump-s-iran-war-and-bitcoin-moves",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "International Women’s Month: Lavinia Osbourne leads assets talk",
+    "description": "At the London Blockchain Finance Summit, women leaders share insights on inclusion, impact, and the future of tech during Women’s Month celebrations. The post International Women’s Month: Lavinia Osbourne leads assets talk appeared first on CoinGeek .",
+    "date": "2026-03-24",
+    "source_url": "https://coingeek.com/international-women-month-lavinia-osbourne-leads-assets-talk/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "US Senate hypes crypto legislative ‘agreement’ no one’s agreed to yet",
+    "description": "U.S. senators reach a tentative agreement on digital asset legislation, addressing crypto rewards and banking concerns while aiming for bipartisan support. The post US Senate hypes crypto legislative ‘agreement’ no one’s agreed to yet appeared first on CoinGeek .",
+    "date": "2026-03-24",
+    "source_url": "https://coingeek.com/us-senate-hypes-crypto-legislative-agreement-no-one-agreed-to-yet/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Vietnam launches digital asset exchange program amid restrictions",
+    "description": "Vietnam launches a pilot program for digital currency exchanges, regulating its crypto market amid concerns over capital flow control and licensing. The post Vietnam launches digital asset exchange program amid restrictions appeared first on CoinGeek .",
+    "date": "2026-03-24",
+    "source_url": "https://coingeek.com/vietnam-launches-digital-asset-exchange-program-amid-restrictions/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Connecting the Dots",
+    "initiative": "Paysend Partners with BVNK to Expand Stablecoin Payments",
+    "description": "Hey Payments Fanatic! Paysend has partnered with BVNK to introduce stablecoin payments and settlement capabilities across its consumer and enterprise platforms. For Paysend, the partnership represents a strategic step toward expanding its digital payments ecosystem and reinforcing its position in the cross-border payments market. For BVNK, it is an indicator",
+    "date": "2026-03-24",
+    "source_url": "https://www.connectingthedotsinpayments.com/paysend-partners-with-bvnk-to-expand-stablecoin-payments/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
       "Payment Infrastructure"
     ],
     "year": "2026"
   },
   {
     "institution": "Finextra",
-    "initiative": "2026 US ACH rules: Impact on RTP, FedNow and fraud controls",
-    "description": "What new fraud threats or behaviours will matter most in 2026, and how should banks and fintechs respond?",
-    "date": "2026-04-09",
-    "source_url": "https://www.finextra.com/event-info/610/2026-us-ach-rules-impact-on-rtp-fednow-and-fraud-controls",
+    "initiative": "PRA hits The Bank of London with £2 million penalty for \"failing to act with integrity\"",
+    "description": "The Bank of London has been hit with a £2 million fine by the Prudential Regulatory Authority for under-stating its capital position and deliberately misleading the banking watchdog.",
+    "date": "2026-03-24",
+    "source_url": "https://www.finextra.com/newsarticle/47484/pra-hits-the-bank-of-london-with-2-million-penalty-for-failing-to-act-with-integrity",
     "category": "ecosystem",
     "source_name": "Finextra",
     "auto_generated": true,
@@ -56,33 +642,27 @@
   },
   {
     "institution": "Finextra",
-    "initiative": "Beyond connectivity and ISO 20022 compliance: How to reduce TCO and unlock value",
-    "description": "How can unified, enriched payment data support better risk analysis, operational optimisation, liquidity visibility, and more informed decision-making?",
-    "date": "2026-03-31",
-    "source_url": "https://www.finextra.com/event-info/609/beyond-connectivity-and-iso-20022-compliance-how-to-reduce-tco-and-unlock-value",
+    "initiative": "Revolut reports bumper profits",
+    "description": "Fintech juggernaut Revolut has reported record gross profit of $2.3 billion for 2025 as revenue surges to $6 billion.",
+    "date": "2026-03-24",
+    "source_url": "https://www.finextra.com/newsarticle/47482/revolut-reports-bumper-profits",
     "category": "ecosystem",
     "source_name": "Finextra",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
+    "signal_type": "Research / Report",
     "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Interoperability & Standards",
-      "Data & Reporting"
+      "Collateral & Lending"
     ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
     "institution": "Finextra",
-    "initiative": "The Payments Landscape in 2026: How to leverage back-office readiness through AI",
-    "description": "How prepared are payments firms for the upcoming FCA’s 7 May safeguarding deadline?",
+    "initiative": "Venmo lets users send money to PayPal accounts around the world",
+    "description": "Users of US P2P payments app Venmo can now send and receive money to and from hundreds of millions of PayPal users across 90 markets.",
     "date": "2026-03-24",
-    "source_url": "https://www.finextra.com/event-info/607/the-payments-landscape-in-2026-how-to-leverage-back-office-readiness-through-ai",
+    "source_url": "https://www.finextra.com/newsarticle/47479/venmo-lets-users-send-money-to-paypal-accounts-around-the-world",
     "category": "ecosystem",
     "source_name": "Finextra",
     "auto_generated": true,
@@ -93,6 +673,949 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Ixopay and ZIP develop unified trust layer for agentic commerce",
+    "description": "IXOPAY, the enterprise-grade global payment infrastructure platform built for the era of agentic commerce, and Zip, (ASX: ZIP), the digital financial services company offering innovative, people-centred products, today announced a joint initiative to define a Unified Trust Layer — an open industry framework designed to address emerging trust and liability challenges in agent-initiated commerce and payments.",
+    "date": "2026-03-24",
+    "source_url": "https://www.finextra.com/pressarticle/109270/ixopay-and-zip-develop-unified-trust-layer-for-agentic-commerce",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Amex Ventures backs $30 million Series A in fintech Worth",
+    "description": "Worth, the fintech platform modernizing onboarding and underwriting Small and Medium-sized Businesses (SMB) for Financial Institutions, has successfully closed a $30 million Series A funding round led by Fulcrum Equity Partners, with participation from Amex Ventures and TTV Capital.",
+    "date": "2026-03-24",
+    "source_url": "https://www.finextra.com/pressarticle/109269/amex-ventures-backs-30-million-series-a-in-fintech-worth",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Securitize to become first ETF issuer on NYSE-affiliated tokenized securities platform",
+    "description": "The New York Stock Exchange (NYSE), part of Intercontinental Exchange, Inc. (NYSE: ICE), one of the world’s leading providers of financial market technology and data powering global capital markets, and Securitize, the world’s leader in tokenizing real-world assets, today announced a collaboration to support the development of tokenized securities markets, with Securitize named as the first digital transfer agent eligible to mint blockchain-native securities for corporate or ETF issuers on the upcoming NYSE-affiliated tokenized securities platform (the Digital Trading Platform).",
+    "date": "2026-03-24",
+    "source_url": "https://www.finextra.com/pressarticle/109268/securitize-to-become-first-etf-issuer-on-nyse-affiliated-tokenized-securities-platform",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Tokenization & Issuance",
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Worldpay joins the the European Payments Initiative",
+    "description": "Global Payments Inc. announced its Worldpay business has joined the European Payments Initiative (EPI) as a Principal Member, enabling clients to begin offering Wero – the pan-European instant payment solution – over the coming months.",
+    "date": "2026-03-24",
+    "source_url": "https://www.finextra.com/pressarticle/109267/worldpay-joins-the-the-european-payments-initiative",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "MoonPay debuts open source wall standard for AI agents",
+    "description": "MoonPay, the leading global crypto payments network, launched the Open Wallet Standard (openwallet.sh), an open-source standard that gives AI agents a secure, universal way to hold value, sign transactions, and pay for services across every major blockchain, without ever exposing a private key.",
+    "date": "2026-03-24",
+    "source_url": "https://www.finextra.com/pressarticle/109264/moonpay-debuts-open-source-wall-standard-for-ai-agents",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Starling appoints new chief risk officer",
+    "description": "Starling Group today named Keith Algie as its new Group Chief Risk Officer, subject to regulatory approval.",
+    "date": "2026-03-24",
+    "source_url": "https://www.finextra.com/pressarticle/109263/starling-appoints-new-chief-risk-officer",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Saviynt unveils identity control panel for AI agents",
+    "description": "Saviynt, the AI-era identity security platform, today announced the release of its Saviynt Identity Security for AI solution, establishing enterprise-grade capabilities to fully manage AI agents alongside all other human and non-human identities (NHIs).",
+    "date": "2026-03-24",
+    "source_url": "https://www.finextra.com/pressarticle/109261/saviynt-unveils-identity-control-panel-for-ai-agents",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "BitGo and Susquehanna Crypto launch institutional OTC access to predictions markets",
+    "description": "BitGo Prime, LLC (“BitGo Prime”), a subsidiary of BitGo Holdings, Inc. (NYSE: BTGO), the digital asset infrastructure company (“BitGo”), and Susquehanna Crypto, a leading global proprietary digital asset trading firm, today announced a partnership to provide eligible institutional clients with access to prediction market liquidity through BitGo’s OTC desk and platform.",
+    "date": "2026-03-24",
+    "source_url": "https://www.finextra.com/pressarticle/109260/bitgo-and-susquehanna-crypto-launch-institutional-otc-access-to-predictions-markets",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Defining True ROI Will Decide The Winners and Losers of AI",
+    "description": "In this Finextra TV interview from the Communify Intelligence Experience in Miami, Phil Drury, Chief Investment Officer at poolside explores the recent tech stock selloff and how the general investment into AI has unfolded. Drury explained how there has been as much indiscriminate buying as indiscriminate selling of stocks, making the ability to investigate the market sentiment more complicated. Drury discussed how the market needs to refine their thinking of around the winners and losers of AI, creating a less broadly optimistic view on the initial 'success-for-everyone' concept. He discussed the ability to quantify ROI, and how strong consideration of this in relation to strategy will be a transformative factor for customers, as well as engineering design and user experience.",
+    "date": "2026-03-24",
+    "source_url": "https://www.finextra.com/videoarticle/3461/defining-true-roi-will-decide-the-winners-and-losers-of-ai",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Robinhood authorizes $1.5 billion buyback as shares rise nearly 80% in past year",
+    "description": "The board also approved a $1 billion share repurchase program in May 2024 and $500 million repurchase in April 2025.",
+    "date": "2026-03-24",
+    "source_url": "https://www.theblock.co/post/394954/robinhood-authorizes-1-5-billion-buyback-shares-rise-80-past-year",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Lido revenue dropped 23% last year as users withdrew funds and yields declined",
+    "description": "Lido said in 2025 its main goal was to expand beyond its core staking product and launch new offerings.",
+    "date": "2026-03-24",
+    "source_url": "https://www.theblock.co/post/394947/lido-revenue-dropped-23-last-year-users-withdrew-funds-yields-declined",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "The Daily: Balancer Labs to wind down, Bernstein calls bitcoin bottom with $150K target for 2026, and more",
+    "description": "The following article is adapted from The Block’s newsletter, The Daily, which comes out on weekday afternoons.",
+    "date": "2026-03-24",
+    "source_url": "https://www.theblock.co/post/394940/the-daily-balancer-labs-to-wind-down-bernstein-calls-bitcoin-bottom-with-150k-target-for-2026-and-more",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Ethereum block builder Eureka Labs raises $6.7 million, introduces ‘programmable blocks’",
+    "description": "Ethereum block builder Eureka Labs is introducing \"programmable blocks,\" which add logic during block construction.",
+    "date": "2026-03-24",
+    "source_url": "https://www.theblock.co/post/394923/ethereum-block-builder-eureka-labs-funding-programmable-blocks",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Circle falls 20% as stablecoin reward limits loom, Tether adds Big Four auditor and wallets frozen",
+    "description": "The USDC stablecoin issuer faced headwinds on Tuesday amid developing stablecon legislation that could dent future revenue.",
+    "date": "2026-03-24",
+    "source_url": "https://www.theblock.co/post/394918/circle-falls-20-stablecoin-reward-limits-tether-big-four-auditor-wallets-frozen",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Ledger discloses $50 million Q4 secondary sale as IPO plans remain open",
+    "description": "The transaction comes years after Ledger’s last primary raise, which valued the company at $1.5 billion in 2023.",
+    "date": "2026-03-24",
+    "source_url": "https://www.theblock.co/post/394919/ledger-discloses-50-million-q4-secondary-sale-ipo-plans-open",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Hut 8 leans into modular ‘LEGO block’ model to switch between AI and bitcoin mining",
+    "description": "Hut 8 is trying to position itself less as a miner and more as an energy infrastructure player, with power allocation driving returns.",
+    "date": "2026-03-24",
+    "source_url": "https://www.theblock.co/post/394897/hut-8-modular-lego-block-model-switch-between-ai-bitcoin-mining",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "CFTC forms new innovation task force to shape crypto, artificial intelligence and prediction markets",
+    "description": "The CFTC launched a new task force focused on cryptocurrencies, artificial intelligence, and the rapidly emerging area of prediction markets.",
+    "date": "2026-03-24",
+    "source_url": "https://www.theblock.co/post/394910/cftc-innovation-task-force-crypto-artificial-intelligence-prediction-markets",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Silo V3 launches new liquidation mechanism opening door to new forms of crypto collateral",
+    "description": "Silo V3, unveiled Tuesday, adds a protocol-level insolvency protection mechanism to reduce the dependency on DEX liquidity.",
+    "date": "2026-03-24",
+    "source_url": "https://www.theblock.co/post/394810/silo-v3-launches-new-liquidation-mechanism-opening-door-to-new-forms-of-crypto-collateral",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Longevity pharma and RAIN treasury Enlivex secures $21 million debt financing",
+    "description": "The company struck the financing deal with New York-based The Lind Partners, an institutional fund manager.",
+    "date": "2026-03-24",
+    "source_url": "https://www.theblock.co/post/394893/longevity-pharma-and-rain-treasury-enlivex-secures-21-million-debt-financing",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bernstein says bitcoin looks bottomed, sees 226% upside for Strategy",
+    "description": "Bernstein said Strategy could see 226% upside if bitcoin has bottomed, with STRC central to its capital model.",
+    "date": "2026-03-24",
+    "source_url": "https://www.theblock.co/post/394878/bernstein-says-bitcoin-looks-bottomed-sees-226-upside-for-strategy",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Tether hires Big Four auditor for first full reserves audit",
+    "description": "Tether has hired a Big Four accounting firm for its first full USDT stablecoin audit after years of scrutiny over its reserves.",
+    "date": "2026-03-24",
+    "source_url": "https://www.theblock.co/post/394883/tether-hires-big-four-auditor-for-first-full-reserves-audit",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Mastercard, Western Union tap Solana Foundation’s new enterprise developer toolbox",
+    "description": "The platform offers three API modules to help issue RWAs, support payments, and enable onchain swaps supported by 20 launch partners.",
+    "date": "2026-03-24",
+    "source_url": "https://www.theblock.co/post/394756/mastercard-western-union-tap-solana-foundations-new-enterprise-developer-toolbox",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "NYSE taps Securitize to develop 24/7 tokenized securities platform",
+    "description": "The NYSE, part of Intercontinental Exchange, has partnered with Securitize to develop its 24/7 tokenized securities platform.",
+    "date": "2026-03-24",
+    "source_url": "https://www.theblock.co/post/394869/nyse-taps-securitize-to-develop-24-7-tokenized-securities-platform",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bitcoin sees rare two-block reorg as Foundry overtakes AntPool and ViaBTC in mining race",
+    "description": "Despite its relative rarity, the event reflects normal network behavior, as nodes adopt the chain with the most cumulative proof of work.",
+    "date": "2026-03-24",
+    "source_url": "https://www.theblock.co/post/394861/bitcoin-sees-rare-two-block-reorg-as-foundry-overtakes-antpool-and-viabtc-in-mining-race",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bitcoin hovers below key ‘air gap’ as geopolitical risks and Fed outlook cloud direction",
+    "description": "Analysts flag a resistance zone above $72,000 as bitcoin holds key support amid geopolitical tensions and macro headwinds.",
+    "date": "2026-03-24",
+    "source_url": "https://www.theblock.co/post/394860/bitcoin-hovers-below-key-air-gap-as-geopolitical-risks-and-fed-outlook-cloud-direction",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "BitGo offers OTC prediction market access to institutions via Susquehanna Crypto partnership",
+    "description": "BitGo's institutional clients will be able to access prediction markets via the custodian's platform and post cash or crypto as collateral.",
+    "date": "2026-03-24",
+    "source_url": "https://www.theblock.co/post/394803/bitgo-offers-otc-prediction-market-access-institutions",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Zama and T-REX Network launch privacy layer for tokenized assets targeting Wall Street institutions",
+    "description": "Zama and T-REX Network introduced a confidentiality layer for tokenized real-world assets, aiming to enable broader institutional adoption.",
+    "date": "2026-03-24",
+    "source_url": "https://www.theblock.co/post/394832/zama-and-t-rex-network-launch-privacy-layer-for-tokenized-assets-targeting-wall-street-institutions",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Resolv issues 72-hour ultimatum to exploiter for 90% return of $25 million in funds",
+    "description": "Resolv Labs gave the exploiter 72 hours to return 90% of $25 million in stolen funds, offering a 10% settlement bonus.",
+    "date": "2026-03-24",
+    "source_url": "https://www.theblock.co/post/394838/resolv-issues-72-hour-ultimatum-to-exploiter-for-90-return-of-25-million-in-funds",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Aave V4 Clears First Governance Vote with 100% Support After Months of Internal Conflict",
+    "description": "The post Aave V4 Clears First Governance Vote with 100% Support After Months of Internal Conflict appeared first on Unchained .",
+    "date": "2026-03-24",
+    "source_url": "https://unchainedcrypto.com/aave-v4-clears-first-governance-vote-with-100-support-after-months-of-internal-conflict/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Kalshi and Polymarket Roll Out Insider Trading Controls as Congress Moves to Ban Sports Contracts",
+    "description": "The post Kalshi and Polymarket Roll Out Insider Trading Controls as Congress Moves to Ban Sports Contracts appeared first on Unchained .",
+    "date": "2026-03-24",
+    "source_url": "https://unchainedcrypto.com/kalshi-and-polymarket-roll-out-insider-trading-controls-as-congress-moves-to-ban-sports-contracts/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Tiff Macklem: Release of the Monetary Policy Report",
+    "description": "Opening statement by Mr Tiff Macklem, Governor of the Bank of Canada and Ms Carolyn Rogers, Senior Deputy Governor of the Bank of Canada, at the press conference following the monetary policy decision, Ottawa, Ontario, 18 March 2026.",
+    "date": "2026-03-23",
+    "source_url": "https://www.bis.org/review/r260323b.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Primo&#382; Dolenc: Opening address - \"Stablecoins and their impact on financial stability\"",
+    "description": "Opening address by Mr Primo&#382; Dolenc, Acting Governor of Banka Slovenije, at the event \"Stablecoins and their impact on financial stability\", Split, 26 February 2026.",
+    "date": "2026-03-23",
+    "source_url": "https://www.bis.org/review/r260319e.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Kevin Greenidge: Shared seas, shared struggles - a Caribbean perspective on the challenges facing small island developing states",
+    "description": "Speech by Dr Kevin Greenidge, Governor of the Central Bank of Barbados, at the IMF Pacific Island High-Level Conference, Bridgetown, 12 March 2026.",
+    "date": "2026-03-23",
+    "source_url": "https://www.bis.org/review/r260319c.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Gemini loses $589M in 2025, prediction market future not so bright",
+    "description": "Gemini shifts from crypto to markets amid rising losses, legal risks and falling trading volumes, raising questions about its strategy and future growth. The post Gemini loses $589M in 2025, prediction market future not so bright appeared first on CoinGeek .",
+    "date": "2026-03-23",
+    "source_url": "https://coingeek.com/gemini-loses-589m-in-2025-prediction-market-future-not-so-bright/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "‘Timestamped’ can save your career with tamper-proof records",
+    "description": "A new service called \"Timestamped\" leverages one of blockchain's most useful built-in features to provide verifiable proof of a point in time. The post &#8216;Timestamped&#8217; can save your career with tamper-proof records appeared first on CoinGeek .",
+    "date": "2026-03-23",
+    "source_url": "https://coingeek.com/timestamped-can-save-your-career-with-tamper-proof-records/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Connecting the Dots",
+    "initiative": "CAB Payments Rejects StoneX Takeover Proposal",
+    "description": "Hey Payments Fanatic! Takeover activity is picking up again across payments infrastructure. &#x1F440; But not every offer is landing. CAB Payments has rejected an unsolicited acquisition proposal from StoneX , which valued the company at 95 pence per share. The board unanimously concluded that the offer significantly undervalues the business and",
+    "date": "2026-03-23",
+    "source_url": "https://www.connectingthedotsinpayments.com/cab-payments-rejects-stonex-takeover-proposal/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Talos and Nasdaq forge path to managing both on- and off-chain collateral workflow",
+    "description": "Talos is to connect its digital asset infrastructure with Nasdaq's Calypso and trade surveillance platforms to develop a unified 'single lens' for managing tokenized collateral.",
+    "date": "2026-03-23",
+    "source_url": "https://www.finextra.com/newsarticle/47478/talos-and-nasdaq-forge-path-to-managing-both-on--and-off-chain-collateral-workflow",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Collateral & Lending",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "FCA criticised over using sensitive data in AI trial with Palantir",
+    "description": "The FCA has attracted criticism for turning over sensitive data to controversial US technology firm Palantir as part of a trial to help it sharpen its approach to financial crime.",
+    "date": "2026-03-23",
+    "source_url": "https://www.finextra.com/newsarticle/47477/fca-criticised-over-using-sensitive-data-in-ai-trial-with-palantir",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Bitcoin Miners Are Choosing AI Over Mining — and the Network Is Feeling It",
+    "description": "The post Bitcoin Miners Are Choosing AI Over Mining — and the Network Is Feeling It appeared first on Unchained .",
+    "date": "2026-03-23",
+    "source_url": "https://unchainedcrypto.com/bitcoin-miners-are-choosing-ai-over-mining-and-the-network-is-feeling-it/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "A Compromised AWS Key Just Cost This DeFi Protocol $25 Million",
+    "description": "The post A Compromised AWS Key Just Cost This DeFi Protocol $25 Million appeared first on Unchained .",
+    "date": "2026-03-23",
+    "source_url": "https://unchainedcrypto.com/a-compromised-aws-key-just-cost-this-defi-protocol-25-million/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Statement on the nomination of Hyun Song Shin as Governor of the Bank of Korea",
+    "description": "Following the nomination of Hyun Song Shin as Governor of the Bank of Korea, the BIS today announced that Mr. Shin will step back from his duties with immediate effect. In the interim, the Monetary and Economic Department will be led by Frank Smets, who will serve as Acting Head.",
+    "date": "2026-03-22",
+    "source_url": "https://www.bis.org/press/p260322.htm",
+    "category": "regulators",
+    "source_name": "BIS — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainalysis",
+    "initiative": "The Resolv Hack: How One Compromised Key Printed $23 Million",
+    "description": "On March 22, 2026, the Resolv DeFi protocol became the latest example of how quickly things can unravel in DeFi&#8230; The post The Resolv Hack: How One Compromised Key Printed $23 Million appeared first on Chainalysis .",
+    "date": "2026-03-22",
+    "source_url": "https://www.chainalysis.com/blog/lessons-from-the-resolv-hack/",
+    "category": "ecosystem",
+    "source_name": "Chainalysis — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Deep Dive: Agentic AI in Financial Crime Fighting",
+    "description": "The global financial system is facing a structural crisis. In 2025, illicit financial activity surg...",
+    "date": "2026-03-22",
+    "source_url": "https://www.finextra.com/blogposting/31181/deep-dive-agentic-ai-in-financial-crime-fighting",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Connecting the Dots",
+    "initiative": "Q&A: From Bootstrap Mentality to $1B ARR: How Airwallex Built Profitability Without Taking Shortcuts",
+    "description": "Hey there, Global financial infrastructure has long been one of the most fragmented and complex challenges for businesses operating across borders, where compliance, FX exposure, and disconnected systems are the norm rather than the exception. Today, I&apos;m joined by Christos Chamberlain, General Manager of Airwallex UK and Europe,",
+    "date": "2026-03-20",
+    "source_url": "https://www.connectingthedotsinpayments.com/q-a-building-trust-in-the-worlds-toughest-payments-market-checkout-coms-north-american-playbook-2/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Tokenization & Issuance",
+      "Regulation & Compliance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "JPMorgan pilots software to monitor junior bankers' working hours",
+    "description": "JPMorgan Chase is piloting a system that compares the self-reported time sheets of junior bankers with computer-generated estimates of their work weeks.",
+    "date": "2026-03-20",
+    "source_url": "https://www.finextra.com/newsarticle/47474/jpmorgan-pilots-software-to-monitor-junior-bankers-working-hours",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Intelligent Finance: The Governance-Led Path to AI-Powered Fintech",
+    "description": "Fintech has transformed financial services faster than traditional institutions once thought possib",
+    "date": "2026-03-20",
+    "source_url": "https://www.finextra.com/blogposting/31081/intelligent-finance-the-governance-led-path-to-ai-powered-fintech",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "What the Oil Chart Isn't Telling You",
+    "description": "A capital markets perspective on three weeks that changed the investment landscape — not financial a...",
+    "date": "2026-03-20",
+    "source_url": "https://www.finextra.com/blogposting/31192/what-the-oil-chart-isnt-telling-you",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Ledger Insights",
+    "initiative": "Stripe, Paradigm launch Tempo blockchain alongside machine payments standard",
+    "description": "Stripe and crypto investment firm Paradigm launched the Tempo mainnet this week alongside a new open standard for autonomous agent payments, capping a six month development sprint that has drawn in an unusually broad coalition of institutional partners. While the announcement generated predictable coverage of the technical specs, the more significant story is what Tempo [&#8230;] The post Stripe, Paradigm launch Tempo blockchain alongside machine payments standard appeared first on Ledger Insights - blockchain for enterprise .",
+    "date": "2026-03-20",
+    "source_url": "https://www.ledgerinsights.com/stripe-paradigm-launch-tempo-blockchain-alongside-machine-payments-standard/",
+    "category": "ecosystem",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Morgan Stanley Pushes Ahead With Bitcoin ETF as Institutional Race Heats Up",
+    "description": "Morgan Stanley is taking another step toward launching its own bitcoin ETF, filing a second amended S-1 with the SEC as the product moves closer to market. The updated filing confirms the fund will trade on NYSE Arca under the ticker MSBT, and outlines details like a 10,000 share basket ... The post Morgan Stanley Pushes Ahead With Bitcoin ETF as Institutional Race Heats Up appeared first on Unchained .",
+    "date": "2026-03-20",
+    "source_url": "https://unchainedcrypto.com/morgan-stanley-advances-bitcoin-etf-filing-as-institutional-competition-heats-up/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "FBI Warns of Fake Token Scam Targeting Tron Users",
+    "description": "The post FBI Warns of Fake Token Scam Targeting Tron Users appeared first on Unchained .",
+    "date": "2026-03-20",
+    "source_url": "https://unchainedcrypto.com/fbi-warns-of-fake-token-scam-targeting-tron-users-with-phishing-attack/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
     ],
     "year": "2026"
   },
@@ -1981,6 +3504,26 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "LTC to ETH Swap in 2026: A Shift Toward Smart Contract Ecosystems",
+    "description": "March 18, 2026 — In crypto markets, a quiet shift is becoming more visible. More users are choosing ...",
+    "date": "2026-03-18",
+    "source_url": "https://www.finextra.com/blogposting/31171/ltc-to-eth-swap-in-2026-a-shift-toward-smart-contract-ecosystems",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
     ],
     "year": "2026"
   },
@@ -4686,6 +6229,44 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
+    "year": "2026"
+  },
+  {
+    "institution": "FCA",
+    "initiative": "FCA highlights risks when dealing with unregulated lenders",
+    "description": "We are reminding regulated firms they need to undertake proper checks when dealing with unregulated lenders, safe custody providers, money brokers and financial leasing companies – also known as 'Annex 1' firms. There are around 1,200 of these firms registered with us for solely anti-money laundering purposes. Our powers are currently limited to looking at how these firms are meeting their anti-money laundering obligations and they are not subject to our wider rulebook. This regime is based on registration and is different from the authorisation regime under the Financial Services and Markets Act. For example, our wider conduct rules do not apply to these firms, nor are customers of Annex 1 firms able to access the Financial Ombudsman Service. When dealing with Annex 1 firms, regulated firms must do their due diligence to understand the firm’s business, in accordance with legislative requirements. This would include seeking direct confirmation from the firm of their registration status, conducting independent checks of the information they provide, and understanding and managing any risks, for instance those detailed in the 2025 National Risk Assessment. We raised concerns about anti-money laundering standards directly with the Annex 1 businesses in a letter to CEOs in 2024. We continued our proactive and reactive work in this area, which led us to follow up with 300 firms in late 2025. We are aware of some cases where consumers have been encouraged to set up limited companies to access lending, such as unregulated bridging finance from Annex 1 firms. It is important these consumers understand they will not have access to the Financial Ombudsman Service if things go wrong.",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/statements/fca-highlights-risks-unregulated-lenders",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Collateral & Lending",
+      "Regulation & Compliance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "FCA",
+    "initiative": "Investigation into Market Financial Solutions Limited",
+    "description": "We have opened an enforcement investigation into Market Financial Solutions Limited (MFS). MFS is an Annex 1 business, which is solely registered with and supervised by us for its compliance with the Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017.Annex 1 registered firms are not authorised or subject to wider FCA regulation.MFS entered administration on 25 February 2026.",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/statements/investigation-market-financial-solutions-limited",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
