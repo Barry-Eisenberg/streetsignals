@@ -1010,7 +1010,7 @@ let radarPrefilter = null;
 let momentumDebugMode = false;
 const DEFAULT_IMPORTANCE_TIER_MODE = 'all';
 const DEFAULT_PERSONA = 'all';
-const DEFAULT_DATE_WINDOW_DAYS = 60;
+const DEFAULT_DATE_WINDOW_DAYS = 30;
 const ENABLE_EXTERNAL_CONTEXT_MODIFIER = true;
 const EXTERNAL_CONTEXT_MODIFIER_MIN = 0.9;
 const EXTERNAL_CONTEXT_MODIFIER_MAX = 1.1;
@@ -2498,7 +2498,7 @@ function loadAndRenderData() {
     const mergedSignals = [...manualSignals, ...generatedSignals, ...intelAsSignals];
     allSignals = mergedSignals
       .map(normalizeSignal)
-      .sort((a, b) => new Date(b.date || '2024-01-01') - new Date(a.date || '2024-01-01'));
+      .sort((a, b) => (getSignalDateTimestamp(b) || 0) - (getSignalDateTimestamp(a) || 0));
 
     const operationalSignals = allSignals.filter(s => !s._isBrief);
     const latestSourceTimestamp = getLatestNonFutureSignalTimestamp(operationalSignals);
@@ -3937,9 +3937,9 @@ function renderPrioritySignalsStrip() {
       if (relevanceB !== relevanceA) return relevanceB - relevanceA;
     }
     
-    const dateA = new Date(a.date || '2024-01-01');
-    const dateB = new Date(b.date || '2024-01-01');
-    if (dateB - dateA !== 0) return dateB - dateA;
+    const tsA = getSignalDateTimestamp(a) || 0;
+    const tsB = getSignalDateTimestamp(b) || 0;
+    if (tsB !== tsA) return tsB - tsA;
 
     const scoreA = getSignalImportance(a).importanceScore || 0;
     const scoreB = getSignalImportance(b).importanceScore || 0;
@@ -4033,9 +4033,9 @@ function renderSignals() {
           if (relevanceB !== relevanceA) return relevanceB - relevanceA;
         }
 
-        const dateA = new Date(a.date || '2024-01-01');
-        const dateB = new Date(b.date || '2024-01-01');
-        if (dateB - dateA !== 0) return dateB - dateA;
+        const tsA = getSignalDateTimestamp(a) || 0;
+        const tsB = getSignalDateTimestamp(b) || 0;
+        if (tsB !== tsA) return tsB - tsA;
 
         const scoreA = getSignalImportance(a).importanceScore || 0;
         const scoreB = getSignalImportance(b).importanceScore || 0;
