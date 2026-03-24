@@ -760,6 +760,14 @@ body {
   margin-top: 0.75rem;
 }
 
+.u-hero-list-label {
+  margin-top: var(--space-5);
+  margin-bottom: var(--space-2);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--color-text);
+}
+
 .u-playbook-header-compact {
   border-bottom: none;
   padding-block: 0 var(--space-10);
