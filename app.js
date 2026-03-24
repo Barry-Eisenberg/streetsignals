@@ -4917,7 +4917,7 @@ function applyRadarPrefilterFromUrl() {
   }
 
   renderFilterPills();
-  syncSignalTypeSelects();
+  syncSignalTypeSelect();
   syncCountrySelects();
   syncImportanceTierSelect();
   renderSignals();
