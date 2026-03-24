@@ -2403,6 +2403,7 @@ function buildInstitutionSummaries(signals) {
         name: key,
         type: signal.institution_type,
         signals: 0,
+        totalStrength: 0,
         signalTypes: {},
         countries: {},
         initiativeTypes: new Set(),
@@ -2412,6 +2413,7 @@ function buildInstitutionSummaries(signals) {
 
     const inst = instMap[key];
     inst.signals++;
+    inst.totalStrength += Number(getSignalImportance(signal).importanceScore || 0);
     if (isVisibleSignalType(signal.signal_type)) {
       inst.signalTypes[signal.signal_type] = (inst.signalTypes[signal.signal_type] || 0) + 1;
     }
@@ -2426,10 +2428,13 @@ function buildInstitutionSummaries(signals) {
     const countryEntries = Object.entries(inst.countries).sort((a, b) => b[1] - a[1]);
     const primaryCountry = countryEntries[0]?.[0] || 'Unmapped';
     const additionalCountries = Math.max(0, countryEntries.length - 1);
+    const strengthScore = Number(inst.totalStrength || 0);
     return {
       ...inst,
       primaryCountry,
-      countryLabel: additionalCountries > 0 ? `${primaryCountry} +${additionalCountries}` : primaryCountry
+      countryLabel: additionalCountries > 0 ? `${primaryCountry} +${additionalCountries}` : primaryCountry,
+      strengthScore,
+      avgStrengthPerSignal: inst.signals > 0 ? strengthScore / inst.signals : 0
     };
   });
 }
@@ -3689,8 +3694,11 @@ function renderCountrySelects() {
       signalScoringFilter = null;
       matrixFilter = null;
       countryFilter = String(event.target.value || '').trim();
+      dirCountryFilter = countryFilter;
       if (countryFilter) trackFilter('country', countryFilter);
+      syncCountrySelects();
       renderSignals();
+      renderDirectory();
       updateResetBars();
     };
   }
@@ -5164,6 +5172,11 @@ function sortInstitutions(insts, sortMode) {
     return;
   }
 
+  if (sortMode === 'strength') {
+    insts.sort((a, b) => (b.strengthScore || 0) - (a.strengthScore || 0) || b.signals - a.signals || a.name.localeCompare(b.name));
+    return;
+  }
+
   insts.sort((a, b) => b.signals - a.signals || a.name.localeCompare(b.name));
 }
 
@@ -5282,7 +5295,10 @@ document.getElementById('directorySort')?.addEventListener('change', (e) => {
 
 document.getElementById('directoryCountry')?.addEventListener('change', (e) => {
   dirCountryFilter = String(e.target.value || '').trim();
+  countryFilter = dirCountryFilter;
   if (dirCountryFilter) trackFilter('directory_country', dirCountryFilter);
+  syncCountrySelects();
+  renderSignals();
   renderDirectory();
   updateResetBars();
 });
