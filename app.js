@@ -1007,6 +1007,7 @@ let signalScoringColorMode = 'absolute';
 let signalScoringDimensionMode = 'initiative';
 let signalScoringFilter = null;
 let radarPrefilter = null;
+let radarPrefilterAppliedFromUrl = false;
 let momentumDebugMode = false;
 const DEFAULT_IMPORTANCE_TIER_MODE = 'all';
 const DEFAULT_PERSONA = 'all';
@@ -4889,6 +4890,8 @@ function normalizeRadarTheme(themeValue) {
 }
 
 function applyRadarPrefilterFromUrl() {
+  if (radarPrefilterAppliedFromUrl) return;
+
   const request = getRadarPrefilterRequestFromUrl();
   if (!request) return;
 
@@ -4915,6 +4918,8 @@ function applyRadarPrefilterFromUrl() {
   } else if (normalizedTier === 'structural') {
     setImportanceTierMode('structural');
   }
+
+  radarPrefilterAppliedFromUrl = true;
 
   renderFilterPills();
   syncSignalTypeSelect();
@@ -5539,6 +5544,27 @@ function renderMatrixFilterChip() {
 
   if (countryFilter) {
     parts.push(`country: ${countryFilter}`);
+  }
+
+  if (activeFilter !== 'all') {
+    const categoryLabel = CATEGORIES[activeFilter]?.name || activeFilter;
+    parts.push(`category: ${categoryLabel}`);
+  }
+
+  if (searchQuery) {
+    parts.push(`search: "${searchQuery}"`);
+  }
+
+  if (radarPrefilter && (radarPrefilter.institution || radarPrefilter.theme)) {
+    const themeLabelMap = {
+      tokenized_funds_rwas: 'Tokenized Funds & RWAs',
+      stablecoins_settlement: 'Stablecoins & Settlement',
+      market_infra_dlt: 'Market Infrastructure & DLT'
+    };
+    const radarParts = [];
+    if (radarPrefilter.institution) radarParts.push(`institution ${radarPrefilter.institution}`);
+    if (radarPrefilter.theme) radarParts.push(`theme ${themeLabelMap[radarPrefilter.theme] || radarPrefilter.theme}`);
+    parts.push(`radar: ${radarParts.join(' | ')}`);
   }
 
   if (parts.length === 0) {
