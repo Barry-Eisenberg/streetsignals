@@ -3831,11 +3831,21 @@ function renderCatalogueSortNote() {
         : '';
 
   if (selectedPersona !== DEFAULT_PERSONA) {
-    note.textContent = `Sorted by ${getPersonaLabel(selectedPersona)} relevance first, then most recent date and signal strength (importance score). ${dateWindowText}${scopeText ? ` ${scopeText}` : ''}`;
+    note.textContent = `Sorted by ${getPersonaLabel(selectedPersona)} relevance first, then importance tier, signal strength (importance score), and most recent date. ${dateWindowText}${scopeText ? ` ${scopeText}` : ''}`;
     return;
   }
 
-  note.textContent = `Default catalogue sort order: most recent date first, then signal strength (importance score). ${dateWindowText}${scopeText ? ` ${scopeText}` : ''}`;
+  note.textContent = `Default catalogue sort order: importance tier first, then signal strength (importance score), then most recent date. ${dateWindowText}${scopeText ? ` ${scopeText}` : ''}`;
+}
+
+function getImportanceTierRank(tier) {
+  const rank = {
+    Structural: 4,
+    Material: 3,
+    Context: 2,
+    Noise: 1
+  };
+  return rank[String(tier || '').trim()] || 0;
 }
 
 function renderPersonaSelect() {
@@ -4107,7 +4117,7 @@ function renderSignals() {
   for (const [key] of Object.entries(CATEGORIES)) {
     const items = filtered.filter(s => s.category === key);
     if (items.length > 0) {
-      // Default sort remains date first; audience lens enables relevance reranking.
+      // Sort emphasizes signal quality first, then recency.
       items.sort((a, b) => {
         if (selectedPersona !== DEFAULT_PERSONA) {
           const relevanceA = getPersonaRelevance(a, selectedPersona);
@@ -4115,13 +4125,19 @@ function renderSignals() {
           if (relevanceB !== relevanceA) return relevanceB - relevanceA;
         }
 
+        const importanceA = getSignalImportance(a);
+        const importanceB = getSignalImportance(b);
+        const tierRankA = getImportanceTierRank(importanceA.tier);
+        const tierRankB = getImportanceTierRank(importanceB.tier);
+        if (tierRankB !== tierRankA) return tierRankB - tierRankA;
+
+        const scoreA = importanceA.importanceScore || 0;
+        const scoreB = importanceB.importanceScore || 0;
+        if (scoreB !== scoreA) return scoreB - scoreA;
+
         const tsA = getSignalDateTimestamp(a) || 0;
         const tsB = getSignalDateTimestamp(b) || 0;
-        if (tsB !== tsA) return tsB - tsA;
-
-        const scoreA = getSignalImportance(a).importanceScore || 0;
-        const scoreB = getSignalImportance(b).importanceScore || 0;
-        return scoreB - scoreA;
+        return tsB - tsA;
       });
       grouped[key] = items;
     }
