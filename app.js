@@ -962,9 +962,10 @@ const CATEGORIES = {
   payments: { name: 'Payments & Stablecoins', icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>' },
   exchanges_intermediaries: { name: 'Exchanges & Central Intermediaries', icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>' },
   regulators: { name: 'Regulatory Agencies', icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>' },
-  ecosystem: { name: 'Infrastructure & Ecosystem', icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>' }
+  ecosystem: { name: 'Infrastructure & Ecosystem', icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>' },
+  intel_briefs: { name: 'Intelligence & Research', icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>' }
 };
-const TAG_LABELS = { global_banks: 'Banks', asset_management: 'Asset Mgmt', payments: 'Payments', exchanges_intermediaries: 'Exchanges', regulators: 'Regulators', ecosystem: 'Ecosystem' };
+const TAG_LABELS = { global_banks: 'Banks', asset_management: 'Asset Mgmt', payments: 'Payments', exchanges_intermediaries: 'Exchanges', regulators: 'Regulators', ecosystem: 'Ecosystem', intel_briefs: 'Research' };
 const CATEGORY_BY_INSTITUTION_TYPE = {
   'Global Banks': 'global_banks',
   'Asset & Investment Management': 'asset_management',
@@ -2264,7 +2265,7 @@ function getOperationalSignals() {
 
 function getCatalogueSignals(options = {}) {
   const { includeCategory = true } = options;
-  let filtered = getOperationalSignals();
+  let filtered = allSignals.filter(signal => signal._isBrief || isSignalWithinRecencyWindow(signal));
 
   if (Array.isArray(importanceTierFilter) && importanceTierFilter.length > 0) {
     filtered = filtered.filter(signal => importanceTierFilter.includes(getSignalImportance(signal).tier));

@@ -17,6 +17,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 from pathlib import Path
+from urllib.parse import urljoin, urlparse, unquote
 from urllib.error import URLError, HTTPError
 from urllib.request import Request, urlopen
 
@@ -515,45 +516,62 @@ def fetch_nextfi_briefs(config, current_briefs):
         print(f"WARN: failed NextFi intelligence fetch: {ex}")
         return current_briefs
 
-    heading_matches = list(re.finditer(r"<h[1-6][^>]*>(.*?)</h[1-6]>", html, re.IGNORECASE | re.DOTALL))
-    download_matches = list(
+    current_by_url = {}
+    for item in current_briefs:
+        item_url = normalize_url(str(item.get("url", "")).strip())
+        if item_url:
+            current_by_url[item_url] = item
+
+    anchor_matches = list(
         re.finditer(
-            r"<a[^>]+href=\"([^\"]+)\"[^>]*>\s*(?:Download Here|Download PDF)\s*</a>",
+            r"<a[^>]+href=['\"]([^'\"]+)['\"][^>]*>(.*?)</a>",
             html,
             re.IGNORECASE | re.DOTALL,
         )
     )
 
-    if not heading_matches or not download_matches:
+    if not anchor_matches:
         return current_briefs
 
-    invalid_titles = {"intelligence & insights", "home", "services", "our work", "why us", "contact"}
+    def normalize_brief_url(href):
+        href = (href or "").strip()
+        if not href:
+            return ""
+        if href.startswith("//"):
+            href = f"https:{href}"
+        href = urljoin(url, href)
+        return normalize_url(href)
+
+    def fallback_title(link):
+        path = urlparse(link).path
+        slug = path.rsplit("/", 1)[-1]
+        slug = unquote(slug)
+        slug = re.sub(r"\.(pdf|docx?)$", "", slug, flags=re.IGNORECASE)
+        slug = re.sub(r"[_-]+", " ", slug)
+        slug = re.sub(r"\s+", " ", slug).strip()
+        return slug or "NextFi Intelligence Brief"
+
     briefs = []
     seen = set()
 
-    for dm in download_matches:
-        link = dm.group(1).strip()
-        prev_heading = None
-        for hm in heading_matches:
-            if hm.start() < dm.start():
-                prev_heading = hm
-            else:
-                break
-        if not prev_heading:
+    for match in anchor_matches:
+        link = normalize_brief_url(match.group(1))
+        if not link:
+            continue
+        if not ("img1.wsimg.com/blobby/go/" in link.lower() or link.lower().endswith(".pdf")):
             continue
 
-        title = clean_text(prev_heading.group(1))
-        if not title or title.lower() in invalid_titles or len(title) < 8:
+        anchor_text = clean_text(match.group(2)).lower()
+        if "download" not in anchor_text:
+            continue
+        if "here" not in anchor_text and "pdf" not in anchor_text:
             continue
 
-        # Try to capture short description between heading and download link.
-        between = html[prev_heading.end() : dm.start()]
-        paragraph_match = re.search(r"<p[^>]*>(.*?)</p>", between, re.IGNORECASE | re.DOTALL)
-        desc = clean_text(paragraph_match.group(1) if paragraph_match else "")
-        if not desc:
-            desc = "Research and analysis from NextFi Advisors."
+        existing = current_by_url.get(link)
+        title = clean_text(existing.get("title", "") if existing else "") or fallback_title(link)
+        desc = clean_text(existing.get("desc", "") if existing else "") or "Research and analysis from NextFi Advisors."
 
-        key = (title.lower(), link)
+        key = link
         if key in seen:
             continue
         seen.add(key)
