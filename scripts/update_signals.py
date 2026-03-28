@@ -569,7 +569,11 @@ def fetch_nextfi_briefs(config, current_briefs):
 
         existing = current_by_url.get(link)
         title = clean_text(existing.get("title", "") if existing else "") or fallback_title(link)
-        desc = clean_text(existing.get("desc", "") if existing else "") or "Research and analysis from NextFi Advisors."
+        desc = clean_text(existing.get("desc", "") if existing else "")
+        if desc.lower() == "research and analysis from nextfi advisors.":
+            desc = ""
+        if not desc:
+            desc = f"Research and analysis from NextFi Advisors on {title}."
 
         key = link
         if key in seen:
