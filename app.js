@@ -2233,12 +2233,22 @@ function setSignalScoringDimensionMode(mode) {
   renderPopularityAnalysis();
 }
 
+function getIntelBriefSummary(brief) {
+  const desc = String(brief?.desc || '').trim();
+  if (desc && desc.toLowerCase() !== 'research and analysis from nextfi advisors.') return desc;
+
+  const title = String(brief?.title || '').trim();
+  if (title) return `Research and analysis from NextFi Advisors on ${title}.`;
+
+  return 'Research and analysis from NextFi Advisors.';
+}
+
 function mapIntelBriefsToSignals(briefs) {
   return briefs.map(b => ({
     institution: 'NextFi Advisors',
     institution_type: 'Intelligence & Research',
     initiative: b.title,
-    description: b.desc,
+    description: getIntelBriefSummary(b),
     signal_type: 'Intelligence Brief',
     initiative_types: ['Digital Asset Strategy'],
     fmi_areas: ['General Infrastructure'],
@@ -3925,7 +3935,7 @@ function renderIntelBriefs() {
   document.getElementById('intelBriefs').innerHTML = INTEL_BRIEFS.map(b => `
     <a href="${b.url}" target="_blank" rel="noopener noreferrer" class="intel-brief" style="text-decoration:none;">
       <div class="intel-brief-title">${b.title}</div>
-      <div class="intel-brief-desc">${b.desc}</div>
+      <div class="intel-brief-desc">${getIntelBriefSummary(b)}</div>
       <div style="font-size:11px;color:var(--color-text-faint);margin-top:var(--space-2);">${b.source}</div>
     </a>
   `).join('');
