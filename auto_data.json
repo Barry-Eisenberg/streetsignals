@@ -1,5 +1,24 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "What's next after bitcoin's historic underperformance stretch against stocks",
+    "description": "With a few hours to go, bitcoin has tumbled 22% in the first quarter, following a 25% drop in the last quarter of 2025.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/markets/2026/03/31/bitcoin-held-firm-in-march-but-remains-in-historic-underperformance-stretch",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Benchmark initiates coverage on Securitize, calls it a ‘picks and shovels’ play for tokenization",
     "description": "Securitize’s business model ties revenue to tokenized asset growth and activity across issuance, trading and servicing.",
@@ -9523,25 +9542,6 @@
     "description": "Citi&#8217;s core payments thesis is blunt: own and integrate the entire payments value chain globally to stay on top.",
     "date": "2026-02-08",
     "source_url": "https://www.fintechwrapup.com/p/deep-dive-citis-strategy-to-dominate",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "Andrew Helms: How SumUp Takes on Square and Clover in the US Payments Market",
-    "description": "In this episode of the Wrap Up podcast, I sit down with Andrew Helms, CEO of SumUp in the US, to unpack how a European payments company adapted its strategy to compete in the highly saturated and unforgiving US market.",
-    "date": "2026-02-06",
-    "source_url": "https://www.fintechwrapup.com/p/andrew-helms-how-sumup-takes-on-square",
     "category": "ecosystem",
     "source_name": "Fintech Wrap Up",
     "auto_generated": true,
