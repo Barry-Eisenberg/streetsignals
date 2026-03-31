@@ -1,5 +1,25 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Fed’s Barr invokes ‘long and painful history’ while encouraging strong stablecoin oversight",
+    "description": "Michael Barr called for for regulatory and technological measures that ensure stablecoins will not be used for illicit activities.",
+    "date": "2026-03-31",
+    "source_url": "https://www.theblock.co/post/395970/feds-barr-invokes-long-painful-history-encouraging-strong-stablecoin-oversight",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "What's next after bitcoin's historic underperformance stretch against stocks",
     "description": "With a few hours to go, bitcoin has tumbled 22% in the first quarter, following a 25% drop in the last quarter of 2025.",
@@ -9530,25 +9550,6 @@
       "Payments & Transfers",
       "Interoperability & Standards",
       "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "Deep Dive: Citi’s Strategy to Dominate Institutional Payments",
-    "description": "Citi&#8217;s core payments thesis is blunt: own and integrate the entire payments value chain globally to stay on top.",
-    "date": "2026-02-08",
-    "source_url": "https://www.fintechwrapup.com/p/deep-dive-citis-strategy-to-dominate",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
     ],
     "initiative_types": [
       "Payment Infrastructure"
