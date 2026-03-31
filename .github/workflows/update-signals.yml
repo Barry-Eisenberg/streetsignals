@@ -32,24 +32,17 @@ jobs:
 
       - name: Commit and push if changed
         env:
-          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add auto_data.json intel_briefs.json
           if git diff --cached --quiet; then
-            echo "No data changes"
+            echo "No data changes — skipping push."
             exit 0
           fi
           git commit -m "chore(data): refresh auto signals and intelligence briefs"
-          BRANCH="${GITHUB_REF_NAME:-${GITHUB_REF#refs/heads/}}"
-          if [ -z "${BRANCH}" ]; then
-            BRANCH="${DEFAULT_BRANCH:-main}"
-          fi
-          echo "Pushing to branch: ${BRANCH}"
-          # Actions checkout is detached; rebase against the target branch and
-          # push explicitly to that branch to avoid pull failures.
-          git fetch origin "${BRANCH}"
-          git rebase "origin/${BRANCH}"
-          git push origin "HEAD:${BRANCH}"
+          # Use token-authenticated remote so the push is accepted even when
+          # the checkout URL doesn't carry credentials.
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
+          git push origin HEAD:main 2>&1 || { echo "Push failed — see error above"; exit 1; }
