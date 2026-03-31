@@ -1,5 +1,43 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Clarity Act ‘not a gatekeeper’ for crypto innovation, WisdomTree exec says",
+    "description": "The asset manager says innovation can proceed under current SEC rules as the Clarity Act faces debate in Congress.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/policy/2026/03/30/clarity-act-not-a-gatekeeper-for-crypto-innovation-wisdomtree-exec-says",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Crypto investment specialist Keyrock hits $1.1bn valuation",
+    "description": "Keyrock, an investment group built for digital assets, has joined the unicorn club after securing Series C funding led by SC Ventures with support from Ripple.",
+    "date": "2026-03-31",
+    "source_url": "https://www.finextra.com/newsarticle/47522/crypto-investment-specialist-keyrock-hits-11bn-valuation",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Priscilla Muthoora Thakoor: Supervision of climate risks",
     "description": "Speech by Dr Priscilla Muthoora Thakoor, Governor of the Bank of Mauritius, at the workshop on supervision of climate risks, Port Louis, 26 February 2026.",
@@ -9512,44 +9550,6 @@
       "Collateral & Lending"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FSB",
-    "initiative": "FSB warns of financial stability challenges in repo markets",
-    "description": "Report highlights vulnerabilities within repo markets, potential contagion channels and emphasises the need to preserve their functionality during periods of stress.",
-    "date": "2026-02-04",
-    "source_url": "https://www.fsb.org/2026/02/fsb-warns-of-financial-stability-challenges-in-repo-markets/",
-    "category": "regulators",
-    "source_name": "FSB — Publications",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "From ISO 20022 to Stablecoins: Regulation Predictions for 2026",
-    "description": "In this Finextra special edition of Predict 2026, Dominique Dierks, Senior Content Manager, Finextra, discusses the regulatory landscape heading into 2026. Dierks provides updates on the previously slow industry progress on ISO 20022 migration, the uncertainty created by US deregulation efforts. Dierks equally provides her predictions for what the most important regulatory changes will be focused on in 2026, featured are stablecoins, digital assets and quantum.",
-    "date": "2026-02-04",
-    "source_url": "https://www.finextra.com/videoarticle/3448/from-iso-20022-to-stablecoins-regulation-predictions-for-2026",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
