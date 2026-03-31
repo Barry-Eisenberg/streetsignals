@@ -1,5 +1,25 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Benchmark initiates coverage on Securitize, calls it a ‘picks and shovels’ play for tokenization",
+    "description": "Securitize’s business model ties revenue to tokenized asset growth and activity across issuance, trading and servicing.",
+    "date": "2026-03-31",
+    "source_url": "https://www.theblock.co/post/395955/benchmark-initiates-coverage-securitize-picks-shovels-play-tokenization",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Clarity Act ‘not a gatekeeper’ for crypto innovation, WisdomTree exec says",
     "description": "The asset manager says innovation can proceed under current SEC rules as the Clarity Act faces debate in Congress.",
@@ -9533,23 +9553,6 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "FSB",
-    "initiative": "Vulnerabilities in Government Bond-backed Repo Markets",
-    "description": "Vulnerabilities within repo markets’ segments have the potential to spread through the financial system.",
-    "date": "2026-02-04",
-    "source_url": "https://www.fsb.org/2026/02/vulnerabilities-in-government-bond-backed-repo-markets/",
-    "category": "regulators",
-    "source_name": "FSB — Publications",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
