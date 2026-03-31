@@ -1,6 +1,1706 @@
 [
   {
     "institution": "BIS",
+    "initiative": "Priscilla Muthoora Thakoor: Supervision of climate risks",
+    "description": "Speech by Dr Priscilla Muthoora Thakoor, Governor of the Bank of Mauritius, at the workshop on supervision of climate risks, Port Louis, 26 February 2026.",
+    "date": "2026-03-31",
+    "source_url": "https://www.bis.org/review/r260326f.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Soledad Núñez: Sustainability, competitiveness and geopolitics - new dimensions shaping the prudential framework",
+    "description": "Speech by Ms Soledad Núñez, Deputy Governor of the Bank of Spain, at the Annual Assembly of FINRESP (el Centro de Finanzas Sostenibles y Responsables de España), Madrid, 2 March 2026.",
+    "date": "2026-03-31",
+    "source_url": "https://www.bis.org/review/r260326b.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainalysis",
+    "initiative": "Chainalysis Introduces the First Blockchain Intelligence Agents",
+    "description": "Bad actors are already using AI to accelerate fraud, theft, money laundering, and more. We need to move fast to&#8230; The post Chainalysis Introduces the First Blockchain Intelligence Agents appeared first on Chainalysis .",
+    "date": "2026-03-31",
+    "source_url": "https://www.chainalysis.com/blog/introducing-first-blockchain-intelligence-agents-2026/",
+    "category": "ecosystem",
+    "source_name": "Chainalysis — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "The post-quantum transition can’t be postponed any longer",
+    "description": "Google’s new research potentially puts the entire bitcoin supply – and the very foundation of digital trust – at risk, explains Pruden.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/opinion/2026/03/31/the-post-quantum-transition-can-t-be-postponed-any-longer",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin, stocks rise, oil slides, after report of Iran's willingness to end conflict",
+    "description": "Iran's President Masoud Pezeshkian said the country is prepared to end the conflict if it receives security guarantees.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/markets/2026/03/31/bitcoin-stocks-rise-oil-slides-after-report-of-iran-s-willingness-to-end-conflict",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Charles Hoskinson not a fan of CLARITY Act, warns of 'weaponization' by future lawmakers",
+    "description": "The Cardano founder says post-FTX politics, flawed design and a narrow U.S.-only approach risk stifling new crypto projects while benefiting established players",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/policy/2026/03/31/charles-hoskinson-not-a-fan-of-u-s-clarity-act-warns-of-weaponization-by-future-lawmakers",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Why 12 European banks are teaming up to save the euro from digital dollarization",
+    "description": "In an interview with CoinDesk, the CEO of a 12-member consortium explains why Europe is racing to put the euro onchain and compete with dollar dominance in crypto markets.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/business/2026/03/31/europe-faces-digital-dollarization-without-a-euro-stablecoin-of-its-own-warns-qivalis-ceo",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "The time for clear financial privacy rules is now",
+    "description": "Despite recent regulatory progress in the industry, privacy remains an area that needs to be addressed, says Yelderman.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/opinion/2026/03/31/the-time-for-clear-financial-privacy-rules-is-now",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Mercado Libre shuts down Mercado Coin, ending its loyalty-driven crypto experiment",
+    "description": "Starting April 17, users will no longer be able to buy, sell or earn cashback in Mercado Coin, but can sell, spend, or have the token converted to local currency.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/business/2026/03/31/mercado-libre-shuts-down-mercado-coin-ending-its-loyalty-driven-crypto-experiment",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitfarms targets zero bitcoin on the balance sheet as it pivots to AI",
+    "description": "The company is actively selling bitcoin and redeploying capital into AI-focused data centers as part of a broader transformation away from mining.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/markets/2026/03/31/bitfarms-targets-zero-bitcoin-on-the-balance-sheet-as-it-pivots-to-ai",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "CoinDesk 20 performance update: Bitcoin Cash (BCH) gains 1.5% as index trades flat",
+    "description": "NEAR Protocol (NEAR), up 1.9% from Monday, joined Bitcoin Cash (BCH) as a top performer.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/03/31/coindesk-20-performance-update-bitcoin-cash-bch-gains-1-5-as-index-trades-flat",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Chainalysis adds 'natural language' AI agents to its blockchain investigation platform",
+    "description": "CEO Jonathan Levin says it marks a \"really important moment\" for making such analysis more accessible as the crypto industry grows with non-native entrants.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/policy/2026/03/30/chainalysis-adds-natural-language-ai-agents-to-its-blockchain-investigation-platform",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Coinbase’s Base to focus on tokenized markets, stablecoins, developers this year",
+    "description": "The move comes as the chain distances itself from Optimism technology and toward in-house infrastructure as it seeks greater independence and scale.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/tech/2026/03/31/coinbase-s-base-to-focus-on-tokenized-markets-stablecoins-developers-this-year",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Downside risk remains as bitcoin nears record-tying six-month losing streak",
+    "description": "A close below $67,300 for bitcoin would confirm six straight monthly losses amid ongoing macro pressures.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/markets/2026/03/31/downside-risk-remains-as-bitcoin-nears-record-tying-six-month-losing-streak",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Google warns five quantum attack paths could put $100 billion on Ethereum at risk",
+    "description": "A 57-page whitepaper identifies how future quantum computers could target Ethereum's wallets, smart contracts, staking system, Layer 2 networks and data verification layer, with combined exposure exceeding $100 billion.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/tech/2026/03/31/google-warns-five-quantum-attack-paths-could-put-usd100-billion-on-ethereum-at-risk",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Forex startup OpenFX raises $94 million to expand stablecoin-powered cross-border payments",
+    "description": "The company acts as a bridge between traditional banking and digital assets, enabling faster and cheaper foreign-exchange conversions for businesses moving large sums of money.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/business/2026/03/31/forex-startup-openfx-raises-usd94-million-to-expand-stablecoin-powered-cross-border-payments",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin bulls scramble for post-quantum protection as Google drops bombshell paper",
+    "description": "Google's finding that breaking bitcoin's cryptography requires 20x fewer qubits than previously estimated has triggered the strongest industry response to quantum threats since the Willow chip in 2024. Here's how builders, investors, and researchers are reacting.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/tech/2026/03/31/bitcoin-bulls-scramble-for-post-quantum-protection-as-google-drops-bombshell-paper",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "A quantum computer may need just 10,000 qubits to empty your crypto wallets, researchers say",
+    "description": "The research shows quantum computers may break bitcoin and ether wallet encryption with far fewer qubits than previously thought, accelerating the push toward post-quantum security.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/markets/2026/03/31/quantum-computers-could-break-crypto-wallet-encryption-with-just-10-000-qubits-researchers-say",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bearish sentiment builds in crypto as volatility and hedging rise",
+    "description": "Bitcoin’s brief rally faded amid war-driven oil price surge, rising volatility and declining futures interest, signaling growing caution across crypto markets.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/markets/2026/03/31/bearish-sentiment-builds-in-crypto-as-volatility-and-hedging-rise",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "David Bailey’s Nakamoto sells roughly 5% of its bitcoin holdings, offloading 284 BTC",
+    "description": "The sale underscores liquidity pressures as the company continues its pivot to a bitcoin treasury strategy.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/markets/2026/03/31/david-bailey-s-nakamoto-sells-roughly-5-of-its-bitcoin-holdings-offloading-284-btc",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Hashdex’s diversified crypto ETF adds options for hedging, income generation",
+    "description": "Options on Hashdex’s diversified NCIQ ETF now let investors hedge, generate income and manage risk across a broad basket of digital assets.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/markets/2026/03/31/hashdex-s-diversified-crypto-etf-adds-options-for-hedging-income-generation",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Crypto investment firm Keyrock valued at $1.1 billion in Series C led by SC Ventures",
+    "description": "The Brussels-based digital asset firm said the new capital will bolster its balance sheet and support expansion and acquisitions.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/business/2026/03/31/crypto-investment-firm-keyrock-valued-at-usd1-1-billion-in-series-c-led-by-sc-ventures",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin demand falters as 'real' interest rates surge",
+    "description": "Rising U.S. real yields, especially on 10-year TIPS, pose a headwind to zero-yielding risk assets like bitcoin.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/markets/2026/03/31/bitcoin-demand-falters-as-real-interest-rates-surge",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin holds $67,500 as Trump signals he may end Iran war with Hormuz still shut",
+    "description": "Equity futures rallied and oil erased gains on the report, but the S&P 500 is on its longest losing streak since 2022 and MSCI Asia Pacific is heading for its worst month since 2008.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/markets/2026/03/31/bitcoin-holds-usd67-500-as-trump-signals-he-may-end-iran-war-with-hormuz-still-shut",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Maryland man charged in $50 million Uranium Finance hack after U.S. seized $31 million in crypto",
+    "description": "Prosecutors say Jonathan Spalletta exploited smart contract bugs twice in April 2021, laundering funds through Tornado Cash and spending proceeds on rare collectibles.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/policy/2026/03/31/maryland-man-charged-in-usd50-million-uranium-finance-hack-after-u-s-seized-usd31-million-in-crypto",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Binance Australia fined $6.9M over trading losses",
+    "description": "Oztures Trading, operating as Binance Australia Derivatives, faces a $6.86M penalty for misclassifying clients and exposing them to high-risk products. The post Binance Australia fined $6.9M over trading losses appeared first on CoinGeek .",
+    "date": "2026-03-31",
+    "source_url": "https://coingeek.com/binance-australia-fined-6-9m-over-trading-losses/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "UK bans digital asset donations to political parties",
+    "description": "The U.K. imposes an emergency ban on crypto donations to political parties to prevent foreign interference and enhance transparency in political finance. The post UK bans digital asset donations to political parties appeared first on CoinGeek .",
+    "date": "2026-03-31",
+    "source_url": "https://coingeek.com/uk-bans-digital-asset-donations-to-political-parties/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "US stablecoin compromise making enemies on both sides",
+    "description": "Stablecoin clashes and CLARITY Act debates deepen as Trump influence, SEC scrutiny, and crypto lobbying intensify ahead of U.S. midterms. The post US stablecoin compromise making enemies on both sides appeared first on CoinGeek .",
+    "date": "2026-03-31",
+    "source_url": "https://coingeek.com/us-stablecoin-compromise-making-enemies-on-both-sides/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Connecting the Dots",
+    "initiative": "VaulFi and Noah Launch First Direct-to-Bank Stablecoin Bridge for North Africa",
+    "description": "Hey Payments Fanatic! VaulFi, the stablecoin-powered neobank, and Noah, the global payments infrastructure provider, are partnering to eliminate the &quot;Triple Extraction Problem&quot; in North Africa. This problem represents a combination of high commissions, predatory FX rates, and a widening 80% gap between official and parallel currency markets. With",
+    "date": "2026-03-31",
+    "source_url": "https://www.connectingthedotsinpayments.com/vaulfi-and-noah-launch-first-direct-to-bank-stablecoin-bridge-for-north-africa/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Crypto investment specialist Keyrock hits $1.1n valuation",
+    "description": "Keyrock, an investment group built for digital assets, has joined the unicorn club after securing Series C funding led by SC Ventures with support from Ripple.",
+    "date": "2026-03-31",
+    "source_url": "https://www.finextra.com/newsarticle/47522/crypto-investment-specialist-keyrock-hits-11n-valuation",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "LSEG partners Dell to build private cloud platform",
+    "description": "Stock exchange operator LSEG is set to build a private cloud platform as part of a multi-year deal with Dell Technologies.",
+    "date": "2026-03-31",
+    "source_url": "https://www.finextra.com/newsarticle/47519/lseg-partners-dell-to-build-private-cloud-platform",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Ethical savings app Zero ceases trading",
+    "description": "Customers of sustainable money app Zero are being urged to draw down their funds as the firm ceases trading today.",
+    "date": "2026-03-31",
+    "source_url": "https://www.finextra.com/newsarticle/47518/ethical-savings-app-zero-ceases-trading",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Reserve Bank of Australia to introduce caps on interchange fees",
+    "description": "The Reserve Bank of Australia is to ban merchant surcharging and cap interchange fees in an effort to boost competition in the payments sector.",
+    "date": "2026-03-31",
+    "source_url": "https://www.finextra.com/newsarticle/47517/reserve-bank-of-australia-to-introduce-caps-on-interchange-fees",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "TPA calls on Government to take action over Meta's role in fraud crisis",
+    "description": "The Payments Association is calling for a shared responsibility regulatory framework after revealing that two-thirds of the £250 million lost to APP fraud in early 2025 originated on digital platforms like Facebook and Instagram.",
+    "date": "2026-03-31",
+    "source_url": "https://www.finextra.com/newsarticle/47516/tpa-calls-on-government-to-take-action-over-metas-role-in-fraud-crisis",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Swift says blockchain-based shared ledger will go live with real transactions this year",
+    "description": "Swift has begun building the first iteration of its blockchain-based shared ledger, enabling interoperability between banks’ tokenised deposits to facilitate 24/7 cross-border payments.",
+    "date": "2026-03-31",
+    "source_url": "https://www.finextra.com/newsarticle/47515/swift-says-blockchain-based-shared-ledger-will-go-live-with-real-transactions-this-year",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Tokenization & Issuance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Daylit launches AI agents for AR collections & real-time cash intelligence",
+    "description": "Daylit today launched its AI agents platform for accounts receivable (AR), enabling finance teams to accelerate collection and transform receivables into a strategic driver of working capital performance.",
+    "date": "2026-03-31",
+    "source_url": "https://www.finextra.com/pressarticle/109334/daylit-launches-ai-agents-for-ar-collections--real-time-cash-intelligence",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Convera taps Ripple for stablecoin-based cross-border payments",
+    "description": "Convera, a global leader in commercial payments, today announced a new strategic collaboration with Ripple, a leading provider of blockchain-based enterprise solutions across traditional and digital finance, to offer crypto-enabled payment and treasury solutions for businesses.",
+    "date": "2026-03-31",
+    "source_url": "https://www.finextra.com/pressarticle/109332/convera-taps-ripple-for-stablecoin-based-cross-border-payments",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Regnology adds agentic AI layer to regulatory reporting platform",
+    "description": "Regnology, a global leading provider at the intersection of regulatory, risk, finance and supervisory technology, today announced the evolution of Ascend, the next‑generation Regnology platform.",
+    "date": "2026-03-31",
+    "source_url": "https://www.finextra.com/pressarticle/109331/regnology-adds-agentic-ai-layer-to-regulatory-reporting-platform",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Liberis expands embedded finance partnership with Elavon into Canada",
+    "description": "Liberis (Liberis US Inc.), a leading global embedded finance platform, today announced an extended partnership with Elavon, a leading payments provider and subsidiary of U.S. Bank (NYSE: USB), to launch Quick Capital, a seamless funding solution for small businesses across Canada.",
+    "date": "2026-03-31",
+    "source_url": "https://www.finextra.com/pressarticle/109330/liberis-expands-embedded-finance-partnership-with-elavon-into-canada",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Marqeta introduces AI-powered risk decisioning",
+    "description": "Marqeta, Inc. (NASDAQ: MQ), the modern card issuing platform, today announced it enhanced its Real-Time Decisioning (RTD) offering with an AI-powered risk score that analyzes transaction risk levels at the point of the authorization decision.",
+    "date": "2026-03-31",
+    "source_url": "https://www.finextra.com/pressarticle/109329/marqeta-introduces-ai-powered-risk-decisioning",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "CGI puts AI agents to work on credit default management",
+    "description": "CGI (TSX: GIB.A) (NYSE: GIB) today announced the launch of new AI capabilities within CGI Credit Studio, its cloud-native platform for default management.",
+    "date": "2026-03-31",
+    "source_url": "https://www.finextra.com/pressarticle/109328/cgi-puts-ai-agents-to-work-on-credit-default-management",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Due dilligence startup Eunice raises $8 million",
+    "description": "Eunice, the London-based company building institutional-grade due diligence infrastructure for regulated markets, raised $8 million in seed and pre-seed funding led by Moonfire Ventures and Speedinvest, with participation from Openspace Ventures.",
+    "date": "2026-03-31",
+    "source_url": "https://www.finextra.com/pressarticle/109327/due-dilligence-startup-eunice-raises-8-million",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Nexi expands partnership with PayPal",
+    "description": "Nexi, the European PayTech, and PayPal, the global leader in digital payments, today announced an expansion of their partnership.",
+    "date": "2026-03-31",
+    "source_url": "https://www.finextra.com/pressarticle/109325/nexi-expands-partnership-with-paypal",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "BMO introduces tokenized cash and deposit platform with CME Group and Google Cloud",
+    "description": "BMO, in collaboration with CME Group and Google Cloud, today announced plans to introduce new 24/7 tokenized cash capabilities that will allow institutional clients to move value more easily and securely using CME Group's permissioned network on Google Cloud Universal Ledger (GCUL).",
+    "date": "2026-03-31",
+    "source_url": "https://www.finextra.com/pressarticle/109324/bmo-introduces-tokenized-cash-and-deposit-platform-with-cme-group-and-google-cloud",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Qodo raises $70 million for AI code verification",
+    "description": "Today, we are thrilled to announce that Qodo has raised $70 million in Series B funding, bringing total capital raised to $120 million.",
+    "date": "2026-03-31",
+    "source_url": "https://www.finextra.com/pressarticle/109323/qodo-raises-70-million-for-ai-code-verification",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Have The Rules of Data Interpretation Changed for Wealth Management?",
+    "description": "Joining FinextraTV at Communify Intelligence Experience in Miami, Padman Perumal, Managing Partner, RPM Investors, discussed the evolving role of data interpretation, with the invent of new technologies. Perumal first addresses the complexity of wealth management, explaining how - in order to stay competitive - firms need to rely on both structured and unstructured data and must have the capability to interpret both. While technology complicates, Perumal also asserts that it also provides an ability to handle that additional complexity. When looking toward where technology most of all, he tells firms to ask two fundamental questions: What outcome are you looking for? And where does friction exist?",
+    "date": "2026-03-31",
+    "source_url": "https://www.finextra.com/videoarticle/3465/have-the-rules-of-data-interpretation-changed-for-wealth-management",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "‘No longer a drill’: Google’s latest quantum breakthrough sparks fresh debate over Bitcoin’s long-term security",
+    "description": "Google researchers recently warned that quantum computing may break bitcoin earlier than originally thought.",
+    "date": "2026-03-31",
+    "source_url": "https://www.theblock.co/post/395944/no-longer-drill-googles-latest-quantum-breakthrough-debate-bitcoins-security",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "TD Cowen ‘increasingly pessimistic’ on crypto bill, sees one-in-three odds of passage this year",
+    "description": "The crypto bill, or the Clarity Act, remains stuck in the Senate, and Congress is now on a two-week Easter break.",
+    "date": "2026-03-31",
+    "source_url": "https://www.theblock.co/post/395943/td-cowen-increasingly-pessimistic-crypto-bill",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "A16z crypto leads $10 million round in startup developing stablecoins’ missing layer",
+    "description": "The Better Money Company said it will work with Paxos, Bridge, MoonPay, MetaMask, and Phantom, among others.",
+    "date": "2026-03-31",
+    "source_url": "https://www.theblock.co/post/395935/a16z-crypto-leads-10-million-round-in-startup-developing-stablecoins-missing-layer",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Ripple partners with former Western Union unit to ‘enhance’ cross-border payments",
+    "description": "Convera, formerly known as Western Union Business Solutions, is a fintech that deals with over 140 currencies.",
+    "date": "2026-03-31",
+    "source_url": "https://www.theblock.co/post/395917/ripple-partners-former-western-union-unit-enhance-cross-border-payments",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Tether parts ways with ex-HSBC gold traders amid KPMG audit: Bloomberg",
+    "description": "Tether has let go of two former HSBC metals traders months after hiring them to build out its gold trading desk.",
+    "date": "2026-03-31",
+    "source_url": "https://www.theblock.co/post/395912/tether-parts-ways-with-ex-hsbc-gold-traders-amid-kpmg-audit-bloomberg",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Plume pilots payroll system allowing employees to receive part of salary in WisdomTree tokenized fund",
+    "description": "Plume has launched a payroll pilot that lets employees receive part of their salary in tokenized money-market fund shares.",
+    "date": "2026-03-31",
+    "source_url": "https://www.theblock.co/post/395892/plume-pilots-payroll-system-allowing-employees-to-receive-part-of-salary-in-wisdomtree-tokenized-fund",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Chainalysis introduces ‘blockchain intelligence agents’ trained on millions of investigations",
+    "description": "The autonomous bots are trained on Chainalysis' massive, proprietary dataset built from over a decade in business.",
+    "date": "2026-03-31",
+    "source_url": "https://www.theblock.co/post/395811/chainalysis-introduces-blockchain-intelligence-agents",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bhutan government moves another $25 million in bitcoin as weekly transfers top 1,000 BTC: Arkham",
+    "description": "Onchain analysts noted that the recipient address had previously transferred bitcoin to investment manager Galaxy Digital.",
+    "date": "2026-03-31",
+    "source_url": "https://www.theblock.co/post/395886/bhutan-government-moves-another-25-million-in-bitcoin-as-weekly-transfers-top-1000-btc-arkham",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Interactive Brokers launches crypto trading in EEA, including BTC, ETH, SOL and XRP",
+    "description": "Interactive Brokers launched crypto trading for eligible EEA investors, offering 11 cryptocurrencies alongside stocks and futures.",
+    "date": "2026-03-31",
+    "source_url": "https://www.theblock.co/post/395885/interactive-brokers-launches-crypto-trading-in-eea-including-btc-eth-sol-and-xrp",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "MiCA-licensed crypto asset manager Tesseract unveils compliance-minded yield vaults",
+    "description": "Tesseract tested its vault architecture with six pilot participants, including crypto ETP issuer 21Shares.",
+    "date": "2026-03-31",
+    "source_url": "https://www.theblock.co/post/395849/crypto-asset-manager-tesseract-yield-vaults",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bitcoin flirts with $66K as geopolitical tensions, macro uncertainty keep market range-bound",
+    "description": "Bitcoin floats just above $66,000 as geopolitical risks, macro uncertainty, and low liquidity keep price action range-bound ahead of Q2.",
+    "date": "2026-03-31",
+    "source_url": "https://www.theblock.co/post/395879/bitcoin-flirts-with-66k-as-geopolitical-tensions-macro-uncertainty-keep-market-range-bound",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Core Foundation franchises Satoshi Plus bitcoin consensus model for new Zcash scaling layer",
+    "description": "Kieran Dennis, co-founder of Z and an initial contributor to Core, claims Z is the first attempt to bring native EVM capabilities to Zcash.",
+    "date": "2026-03-31",
+    "source_url": "https://www.theblock.co/post/395826/core-foundation-franchise-satoshi-plus-bitcoin-zcash-evm",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Dubai’s VARA imposes margin, governance, and disclosure rules on crypto trading and derivatives",
+    "description": "Dubai’s VARA issued new rules mandating governance, disclosure and risk controls for VASPs offering crypto derivatives and exchange services.",
+    "date": "2026-03-31",
+    "source_url": "https://www.theblock.co/post/395873/dubais-vara-imposes-margin-governance-and-disclosure-rules-on-crypto-trading-and-derivatives",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "‘Unstable velocity’: Standard Chartered says stablecoin usage rising faster than expected as new use cases emerge",
+    "description": "The bank maintained its $2 trillion stablecoin market cap forecast by 2028 amid a sharp increase in turnover from use cases like AI payments.",
+    "date": "2026-03-31",
+    "source_url": "https://www.theblock.co/post/395867/unstable-velocity-standard-chartered-says-stablecoin-usage-rising-faster-than-expected-as-new-use-cases-emerge",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "SC Ventures, Ripple back Keyrock’s open Series C at $1.1 billion valuation",
+    "description": "Standard Chartered’s investment arm SC Ventures is leading Keyrock's Series C, which is expected to close in the coming months.",
+    "date": "2026-03-31",
+    "source_url": "https://www.theblock.co/post/395769/sc-ventures-ripple-keyrock-series-c-1-1-billion-valuation",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "South Korea’s KB Card taps Avalanche for ‘hybrid’ stablecoin credit card",
+    "description": "KB previously stated that it is developing a hybrid card that enables customers to use stablecoins on their existing credit cards.",
+    "date": "2026-03-31",
+    "source_url": "https://www.theblock.co/post/395846/kb-card-taps-avalanche-stablecoin",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Google warns quantum computing may break bitcoin earlier than thought, prepares 2029 transition",
+    "description": "Google Research said the necessary resources for quantum computers to break cryptocurrencies have seen a 20-fold reduction.",
+    "date": "2026-03-31",
+    "source_url": "https://www.theblock.co/post/395814/google-quantum-computing-earlier",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Cross-Border FX Startup OpenFX Raises $94 Million, Hits $45 Billion in Annual Volume",
+    "description": "OpenFX, the cross-border payments startup using stablecoins as a settlement layer, raised $94 million in a Series A led by Accel, Lightspeed Faction, M13, Northzone, and Pantera, with participation from Atomico. The round values the company at roughly $500 million, according to a Reuters report citing sources familiar with the ... The post Cross-Border FX Startup OpenFX Raises $94 Million, Hits $45 Billion in Annual Volume appeared first on Unchained .",
+    "date": "2026-03-31",
+    "source_url": "https://unchainedcrypto.com/cross-border-fx-startup-openfx-raises-94-million-hits-45-billion-in-annual-volume/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Google Whitepaper Finds Ethereum’s Quantum Exposure Runs Deeper Than Bitcoin’s",
+    "description": "A 57-page whitepaper from Google Quantum AI, co-authored with Ethereum Foundation researcher Justin Drake and Stanford cryptographer Dan Boneh, mapped five separate ways a future quantum computer could attack Ethereum. The paper estimated combined exposure exceeding $100 billion, and noted that most public reaction to the report focused on bitcoin. ... The post Google Whitepaper Finds Ethereum&#8217;s Quantum Exposure Runs Deeper Than Bitcoin&#8217;s appeared first on Unchained .",
+    "date": "2026-03-31",
+    "source_url": "https://unchainedcrypto.com/google-whitepaper-finds-ethereums-quantum-exposure-runs-deeper-than-bitcoins/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Chainalysis Launches AI-Powered ‘Blockchain Intelligence Agents’ to Counter Surging Crypto Crime",
+    "description": "Chainalysis announced the launch of &#8220;blockchain intelligence agents&#8221; at its annual Links conference in New York on Tuesday, marking the biggest platform shift in the company&#8217;s history. The agents are designed to put the full depth of Chainalysis&#8217;s dataset, which the company says has powered over 10 million investigations and ... The post Chainalysis Launches AI-Powered &#8216;Blockchain Intelligence Agents&#8217; to Counter Surging Crypto Crime appeared first on Unchained .",
+    "date": "2026-03-31",
+    "source_url": "https://unchainedcrypto.com/chainalysis-launches-ai-powered-blockchain-intelligence-agents-to-counter-surging-crypto-crime/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "David Bailey’s Nakamoto Sells 284 Bitcoin at 40% Loss to Fund Operations",
+    "description": "Nakamoto Holdings (Nasdaq: NAKA), the bitcoin treasury firm founded by crypto entrepreneur David Bailey, sold 284 BTC for $20 million in March at an average price of roughly $70,422 per coin, according to its annual filing released Monday. That sale price sits 40% below the company&#8217;s weighted-average acquisition cost of ... The post David Bailey&#8217;s Nakamoto Sells 284 Bitcoin at 40% Loss to Fund Operations appeared first on Unchained .",
+    "date": "2026-03-31",
+    "source_url": "https://unchainedcrypto.com/david-baileys-nakamoto-sells-284-bitcoin-at-40-loss-to-fund-operations/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Labor Department Proposes Rule Opening $10 Trillion 401(k) Market to Crypto",
+    "description": "The U.S. Department of Labor on Monday proposed a rule that would create a legal safe harbor for retirement plan fiduciaries who add cryptocurrencies and other alternative assets to 401(k) investment menus. The proposal carries out a directive from President Donald Trump&#8217;s August executive order to expand access to digital ... The post Labor Department Proposes Rule Opening $10 Trillion 401(k) Market to Crypto appeared first on Unchained .",
+    "date": "2026-03-31",
+    "source_url": "https://unchainedcrypto.com/labor-department-proposes-rule-opening-10-trillion-401k-market-to-crypto/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Opening doors to open finance: evidence from the international experience",
+    "description": "Open finance is transforming the financial system, with rapid adoption in several jurisdictions in the years since its introduction. By enabling the sharing and use of customer-permissioned data, open finance can foster innovation, competition and financial inclusion. Early evidence highlights a role for open finance in breaking through data silos, reducing information asymmetries and driving venture capital investment.",
+    "date": "2026-03-30",
+    "source_url": "https://www.bis.org/publ/bppdf/bispap168.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainalysis",
+    "initiative": "From the Battlefield to the Blockchain: How Cryptocurrency Is Helping Finance the Drone Revolution",
+    "description": "TL;DR Low-cost, commercially available drones have become central to modern conflict, allowing state and non-state actors, such as pro-Russia militias&#8230; The post From the Battlefield to the Blockchain: How Cryptocurrency Is Helping Finance the Drone Revolution appeared first on Chainalysis .",
+    "date": "2026-03-30",
+    "source_url": "https://www.chainalysis.com/blog/cryptocurrency-drones-research/",
+    "category": "ecosystem",
+    "source_name": "Chainalysis — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainalysis",
+    "initiative": "Chainalysis Supports Tempo with Automatic Token Coverage",
+    "description": "Chainalysis is excited to announce support for Tempo, an EVM-compatible Layer 1 blockchain purpose-built for stablecoin payments at scale. Tempo&#8230; The post Chainalysis Supports Tempo with Automatic Token Coverage appeared first on Chainalysis .",
+    "date": "2026-03-30",
+    "source_url": "https://www.chainalysis.com/blog/tempo-automatic-token-coverage-march-2026/",
+    "category": "ecosystem",
+    "source_name": "Chainalysis — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Tokenization & Issuance",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Digital euro vital for tokens, stablecoins: ECB board member",
+    "description": "Piero Cipollone says tokenized deposits and stablecoins need central bank money, as the EU plans digital euro standards and Pontes' launch in 2026. The post Digital euro vital for tokens, stablecoins: ECB board member appeared first on CoinGeek .",
+    "date": "2026-03-30",
+    "source_url": "https://coingeek.com/digital-euro-vital-for-tokens-stablecoins-ecb-board-member/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Stablecoins & Deposit Tokens",
+      "CBDC"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "London Blockchain Finance Summit: TradFi, DeFi talk adoption barriers",
+    "description": "At the London Blockchain Finance Summit, finance leaders pinpoint interoperability as the key barrier holding blockchain back, not just regulation. The post London Blockchain Finance Summit: TradFi, DeFi talk adoption barriers appeared first on CoinGeek .",
+    "date": "2026-03-30",
+    "source_url": "https://coingeek.com/london-blockchain-finance-summit-tradfi-defi-talk-adoption-barriers/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Philippines’ Marcos pushes digital payments for fuel subsidies",
+    "description": "The Philippines boosts fuel subsidies for PUV drivers amid rising oil prices, embracing digital payments as cashless transactions surge to 43% in 2026. The post Philippines&#8217; Marcos pushes digital payments for fuel subsidies appeared first on CoinGeek .",
+    "date": "2026-03-30",
+    "source_url": "https://coingeek.com/philippines-marcos-pushes-digital-payments-for-fuel-subsidies/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Connecting the Dots",
+    "initiative": "Vipps Sells Checkout to Kustom: A Nordic Payments Power Shift",
+    "description": "Hey Payments Fanatic! Vipps MobilePay is shaking up the Nordic payments landscape by selling its Checkout solution to Kustom, the emerging payments platform spun out from Klarna. Rather than keeping its own online checkout stack, Vipps is doubling down on its core identity as a mobile&#x2011;first payment brand",
+    "date": "2026-03-30",
+    "source_url": "https://www.connectingthedotsinpayments.com/vipps-sells-checkout-to-kustom-a-nordic-payments-power-shift/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Nium launches dual-network stablecoin card issuance platform",
+    "description": "B2B cross-border payments infrastructure provider Nium has launched a duel-network stablecoin card issuance platform, enabling businesses to spend digital dollars at hundreds of millions of merchant locations worldwide.",
+    "date": "2026-03-30",
+    "source_url": "https://www.finextra.com/newsarticle/47509/nium-launches-dual-network-stablecoin-card-issuance-platform",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Wise launches UK Current Account",
+    "description": "Money transfer outfit Wise is launching current accounts for its three million active UK customers and business clients.",
+    "date": "2026-03-30",
+    "source_url": "https://www.finextra.com/newsarticle/47514/wise-launches-uk-current-account",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Lloyds Bank and University of Glasgow to research impact of AI on software engineering",
+    "description": "The University of Glasgow and Lloyds Banking Group have launched a four‑year research partnership to explore how AI can support software and data engineering.",
+    "date": "2026-03-30",
+    "source_url": "https://www.finextra.com/newsarticle/47513/lloyds-bank-and-university-of-glasgow-to-research-impact-of-ai-on-software-engineering",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Valt Bank granted de novo bank charter",
+    "description": "Valt, a digital-only business banking startup led by a group of former US Bank executives, has received conditional approval for a national charter by the Office of the Comptroller of the Currency.",
+    "date": "2026-03-30",
+    "source_url": "https://www.finextra.com/newsarticle/47512/valt-bank-granted-de-novo-bank-charter",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Elizabeth Warren takes on MrBeast over purchase of teen fintech Step",
+    "description": "US Senator Elizabeth Warren has written to MrBeast, demanding answers from the hugely popular YouTuber about his purchase of Step and the teen-focused fintech's interest in cryptocurrency.",
+    "date": "2026-03-30",
+    "source_url": "https://www.finextra.com/newsarticle/47510/elizabeth-warren-takes-on-mrbeast-over-purchase-of-teen-fintech-step",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Towards robust institutional crypto custody frameworks",
+    "description": "Institutional interest in crypto is growing in an accelerated way. This growing exposure however hin...",
+    "date": "2026-03-30",
+    "source_url": "https://www.finextra.com/blogposting/31273/towards-robust-institutional-crypto-custody-frameworks",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Senate Bill Would Create Federal Certification for U.S. Bitcoin Miners and Codify Trump’s Reserve",
+    "description": "Sens. Cynthia Lummis (R-WY) and Bill Cassidy (R-LA) introduced the Mined in America Act on Monday, legislation that would establish a federal certification program for Bitcoin mining operations and enshrine President Donald Trump&#8217;s Strategic Bitcoin Reserve executive order into law. The bill represents the most direct attempt yet to treat ... The post Senate Bill Would Create Federal Certification for U.S. Bitcoin Miners and Codify Trump&#8217;s Reserve appeared first on Unchained .",
+    "date": "2026-03-30",
+    "source_url": "https://unchainedcrypto.com/senate-bill-would-create-federal-certification-for-u-s-bitcoin-miners-and-codify-trumps-reserve/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Aave V4 Goes Live on Ethereum With Modular Architecture Aimed at Real-World Credit",
+    "description": "Aave, the largest decentralized lending protocol by market share, launched V4 on Ethereum mainnet on Sunday after more than two years of development. The upgrade replaces V3&#8217;s monolithic pool structure with a modular &#8220;hub-and-spoke&#8221; system that separates lending markets while sharing underlying liquidity, a redesign aimed squarely at attracting institutional ... The post Aave V4 Goes Live on Ethereum With Modular Architecture Aimed at Real-World Credit appeared first on Unchained .",
+    "date": "2026-03-30",
+    "source_url": "https://unchainedcrypto.com/aave-v4-goes-live-on-ethereum-with-modular-architecture-aimed-at-real-world-credit/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Gnosis, Zisk and Ethereum Foundation Launch Rollup Framework to Fix L2 Fragmentation",
+    "description": "Gnosis, zero-knowledge startup Zisk, and the Ethereum Foundation unveiled a new rollup framework at EthCC in Cannes on Sunday designed to make Ethereum&#8217;s growing constellation of layer-2 networks operate as a single, unified system. The initiative, called the Ethereum Economic Zone (EEZ), would allow smart contracts on connected rollups to ... The post Gnosis, Zisk and Ethereum Foundation Launch Rollup Framework to Fix L2 Fragmentation appeared first on Unchained .",
+    "date": "2026-03-29",
+    "source_url": "https://unchainedcrypto.com/gnosis-zisk-and-ethereum-foundation-launch-rollup-framework-to-fix-l2-fragmentation/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "World Foundation Sells $65 Million in WLD Tokens at Near All-Time Low",
+    "description": "World Foundation disclosed Saturday that its token issuance arm, World Assets, completed $65 million in over-the-counter WLD sales to four counterparties over the past week. The first tranche settled on March 20, with the full block moving at an average price of roughly $0.27 per token, implying approximately 239 million ... The post World Foundation Sells $65 Million in WLD Tokens at Near All-Time Low appeared first on Unchained .",
+    "date": "2026-03-28",
+    "source_url": "https://unchainedcrypto.com/world-foundation-sells-65-million-in-wld-tokens-at-near-all-time-low/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Crypto Startup Bet on Its Own Fundraise on Polymarket, Then Apologized",
+    "description": "P2P.me, a decentralized trading platform, disclosed Thursday that its team opened positions on Polymarket wagering on the outcome of its own capital raise, then issued a public apology after the trades surfaced on-chain. The team placed bets 10 days before the raise went live that the project would hit its ... The post Crypto Startup Bet on Its Own Fundraise on Polymarket, Then Apologized appeared first on Unchained .",
+    "date": "2026-03-28",
+    "source_url": "https://unchainedcrypto.com/crypto-startup-bet-on-its-own-fundraise-on-polymarket-then-apologized/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "From Pilots to Powerhouses: How Agentic AI and Tokenization Are Redefining Wholesale Banking in 2026",
+    "description": "Introduction Wholesale banking has always been a domain defined by scale, speed, and razor-thin ma",
+    "date": "2026-03-27",
+    "source_url": "https://www.finextra.com/blogposting/31267/from-pilots-to-powerhouses-how-agentic-ai-and-tokenization-are-redefining-wholesale-banking-in-2026",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Ledger Insights",
+    "initiative": "Japan’s SBI invests in two tokenized trading venues via Startale, Digital Securities",
+    "description": "Within a matter of days Japan&#8217;s SBI Holdings announced two investments in tokenized trading venues. The larger investment is ¥8 billion ($50m) in Startale Group, with whom SBI has previously announced developing a joint venture Strium, a blockchain designed as a securities issuance and trading infrastructure with global ambitions. The second investment involved purchasing a [&#8230;] The post Japan&#8217;s SBI invests in two tokenized trading venues via Startale, Digital Securities appeared first on Ledger Insights - blockchain for enterprise .",
+    "date": "2026-03-27",
+    "source_url": "https://www.ledgerinsights.com/japans-sbi-invests-in-two-tokenized-trading-venues-via-startale-digital-securities/",
+    "category": "ecosystem",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
     "initiative": "BIS extends term for John Williams as Chair of the Markets Committee",
     "description": "John C. Williams, President and Chief Executive Officer of the Federal Reserve Bank of New York, is to continue as Chair of the Bank for International Settlements' Markets Committee.",
     "date": "2026-03-27",
@@ -792,6 +2492,25 @@
     "fmi_areas": [],
     "initiative_types": [
       "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Fintech 2026: From Experimentation to Execution",
+    "description": "How stablecoins, agentic AI, and infrastructure-led innovation are reshaping financial services into...",
+    "date": "2026-03-26",
+    "source_url": "https://www.finextra.com/blogposting/31249/fintech-2026-from-experimentation-to-execution",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   },
@@ -7832,1038 +9551,5 @@
       "Crypto / Digital Assets"
     ],
     "year": "2026"
-  },
-  {
-    "institution": "FSB",
-    "initiative": "FSB Work Programme for 2026",
-    "description": "Report summarises FSB initiatives in 2026, including an indicative schedule of the FSB’s planned publications for the year.",
-    "date": "2026-02-03",
-    "source_url": "https://www.fsb.org/2026/02/fsb-work-programme-for-2026/",
-    "category": "regulators",
-    "source_name": "FSB — Publications",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "The perils of narrowing fiscal spaces",
-    "description": "by Hanno Kase, Leonardo Melosi, Sebastian Rast, Matthias Rottner When public debt is elevated, the fiscal cost of fighting inflation rises sharply, as interest rate hikes increase government interest expenditures. We formalize this mechanism in a nonlinear New Keynesian model with a state-dependent fiscal constraint on monetary policy. High debt may dampen the monetary response to inflation, generating an inflationary bias even though government debt remains fully fiscally backed. The interaction between high debt and inflationary cost-push shocks makes the fiscal limit more likely to bind, amplifying inflation. In demand-driven downturns, the fiscal constraint may become more restrictive than the zero lower bound, forcing the central bank to either print money to purchase excess debt or accept fiscal dominance.",
-    "date": "2026-02-02",
-    "source_url": "https://www.bis.org/publ/work1328.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "Deep Dive: Global Payments' Merchant Solutions Strategy",
-    "description": "Global Payments&#8217; merchant solutions business is built on a three-pronged product architecture designed to serve merchants of all sizes and verticals.",
-    "date": "2026-02-01",
-    "source_url": "https://www.fintechwrapup.com/p/deep-dive-global-payments-merchant",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "2025 in review",
-    "description": "FSI &#8211; 2025 in review provides an overview of the FSI's most recent activities, covering publications, outreach events and FSI Connect, as well as special projects pursued in 2025.",
-    "date": "2026-01-28",
-    "source_url": "https://www.bis.org/fsi/fsi2025review.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FSB",
-    "initiative": "“Sense and Sensibility” in nonbank regulation: a thoughtful approach to nonbank financial regulation",
-    "description": "In a speech at NYU Stern School of Business, John Schindler explores whether, and how, bank-like regulations should apply to nonbanks.",
-    "date": "2026-01-28",
-    "source_url": "https://www.fsb.org/2026/01/sense-and-sensibility-in-nonbank-regulation-a-thoughtful-approach-to-nonbank-financial-regulation/",
-    "category": "regulators",
-    "source_name": "FSB — Publications",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "A tractable menu cost model with an aggregate markup drift",
-    "description": "by Ko Munakata This paper extends the menu cost model of Gertler and Leahy (2008) by introducing a drift in the aggregate markup. Assuming that the drift is always negative and not large, consistent with moderate and positive trend inflation, the paper analytically characterizes firms' value function and markup distribution. It derives explicit equations sufficient to close the model in general equilibrium, making the calculation of impulse responses to aggregate shocks as easy as in conventional representative-agent New Keynesian models. In addition, the paper shows two implications of the model. First, the model replicates the empirically observed positive correlation between the inflation rate and the frequency of price changes. Second, the model yields an explicit equation representing the Phillips curve, with additional terms that make the inflation rate more responsive to aggregate shocks.",
-    "date": "2026-01-27",
-    "source_url": "https://www.bis.org/publ/work1327.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Monetary policy and private equity acquisitions: tracing the links",
-    "description": "by Fernando Avalos, Boris Hofmann, José María Serena Garralda Private equity funds play an increasingly important role in financial systems. Yet, the impact of monetary policy on their activity has been little explored so far. In this paper, we analyse the transmission of monetary policy through private equity (PE) deals, focusing on the impact on: (i) the volume of private equity deals; (ii) the use of leverage; and (iii) the pricing of those deals. We find that contractionary monetary policy shocks to the short end of the yield curve tend to dampen private equity activity, by reducing deal volumes, the use of leverage and deal prices. A credit channel of monetary transmission seems to affect deal volumes and the use of leverage, while a valuation channel appears to drive the transmission to deal pricing. Monetary policy shocks to the long end of the yield curve have weaker effects on PE activity.",
-    "date": "2026-01-26",
-    "source_url": "https://www.bis.org/publ/work1326.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Dollarisation waves: new evidence from a comprehensive international bond database",
-    "description": "We investigate how the US dollar's prominence in the denomination of international debt securities has evolved in recent decades, using a comprehensive global data set with far more extensive coverage than data sets used in prior literature. We find no monotonic dollarisation or de-dollarisation trend; instead, the dollar's share exhibits a wavelike pattern. We document three dollarisation waves since the 1960s. The last wave, following the global financial crisis, lifted the dollar's share nearly back to its level at the euro's launch in 2000. Our findings are robust to composition and currency valuation effects as well as alternative data definitions.",
-    "date": "2026-01-22",
-    "source_url": "https://www.bis.org/publ/bppdf/bispap165.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "The macro-financial impact of economic policy uncertainty in Latin America",
-    "description": "by Ana Aguilar, Rafael Guerra, Carola Müller, Alexandre Tombini This paper investigates the impact of domestic economic policy uncertainty (EPU) on macroeconomic and financial variables in emerging market economies, focusing on Latin America. Using a panel dataset for Brazil, Chile, Colombia and Mexico from 2005 to early 2025, we find that domestic EPU shocks cause significant macroeconomic disruptions, leading to a contraction in output and a rise in inflation, akin to a supply shock. These effects are transmitted through a financial channel in the short term, via higher risk premia, increased equity market volatility and exchange rate depreciations, and through a real channel in the medium term, via declines in growth expectations and consumer and business confidence. Our analysis further reveals that EPU shocks are most damaging when the economy is weak or financial conditions are tight, while stronger economies are better able to absorb such shocks.",
-    "date": "2026-01-21",
-    "source_url": "https://www.bis.org/publ/work1324.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "BIS statement of commitment to the FX Global Code",
-    "description": "The Bank for International Settlements has reviewed the content of the FX Global Code and acknowledges that the Code represents a set of principles generally recognised as good practice in the wholesale foreign exchange (FX) market.",
-    "date": "2026-01-15",
-    "source_url": "https://www.bis.org/press/p260115.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "Investment trust votes, conflicts of interest, and our role",
-    "description": "On 3 March 2026, we said we’d bring forward our planned review of the UK Listing Rules for Investment entities, including how they apply to board independence and related party provisions.Since then, there has been substantial debate over our role in relation to investment trusts, including calls for us to ‘get to grips’ with voting rules ‘that allow a minority shareholder to repeatedly attack an investment trust’.Much of this debate suggests there are misunderstandings about how investment trusts are governed and where responsibilities sit. We’re concerned this may confuse investors in these trusts. Other calls to action have lacked clear proposals or been based on future hypothetical scenarios for which protections often exist. We want our review to ensure that these rules remain fit for novel circumstances.This blog reminds participants of their powers and responsibilities, clarifies our role, and sets out what our review will cover.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/blogs/investment-trust-votes-conflicts-interest-and-our-role",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "FCA fines Dinosaur Merchant Bank Limited for market abuse surveillance failures",
-    "description": "The FCA has fined Dinosaur Merchant Bank Limited (DMBL) £338,000 for failing to put in place effective systems and controls to detect and report suspicious trading in its contracts for difference (CFD) business. CFDs are sophisticated financial products that are used to speculate on various assets going up or down in value. Given their high-risk nature, firms must have strong and reliable surveillance arrangements to prevent insider dealing and market manipulation.In June 2024, DMBL introduced a new order system that led to a sharp increase in CFD trading by its clients. Between June and October 2024, trades with a corresponding asset value of approximately $3.05 billion were executed via the platform. However, these orders and trades were not captured and reviewed by the automated surveillance system which meant that potential market abuse could have gone undetected.Although DMBL identified this issue in October 2024, the firm failed to properly address the deficiencies until May 2025. The delay limited the firm’s ability to identify and report potentially suspicious trading.Steve Smart, joint executive director of enforcement and market oversight, said:‘DMBL’s failures had the potential to undermine the integrity of the market. Firms must ensure they have effective surveillance arrangements in place. We will continue to take action where this is not the case.’DMBL fully cooperated with the FCA investigation and qualified for a 30% discount. Without this discount, the fine would have been £482,900. The firm stopped selling CFDs in May 2025. This case, taking just 9 months from opening to achieving a public outcome, demonstrates the FCA’s continued work to improve the pace of its enforcement investigations.Notes to editorsFinal Notice: Dinosaur Merchant Bank Limited (PDF).DMBL breached Article 16(2) of the UK Market Abuse Regulations (UK MAR), SYSC 6.1.1R of the Senior Management Arrangements, Systems and Controls chapter of the FCA’s Handbook and Principle 3 of the FCA’s Principles for Businesses.Market abuse surveillance systems serve to protect the integrity of financial markets, foster investor confidence and ensure fair trading by detecting, preventing and reporting illegal activities like insider dealing and market manipulation. They enable firms to comply with regulations (eg, UK MAR and the Market Abuse Directive on Criminal Sanctions) by analysing trade data for suspicious behaviour, such as spoofing or front-running, to identify misconduct at an early stage.For further information on market abuse surveillance, read the FCA’s newsletter on market abuse surveillance and market abuse peer review into firms that offer CFDs.Find out more about the FCA.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/press-releases/fca-fines-dinosaur-merchant-bank-limited-market-abuse-surveillance-failures",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "My FCA marks first year with a single, streamlined sign in for all firms",
-    "description": "As part of ongoing improvements to My FCA, and following the successful removal of RegData sign in at the end of last year, we have now removed direct access to Connect and the Online Invoicing System. Firms do not need to take any action. All existing RegData, Connect and Online Invoicing links and bookmarked pages will now automatically redirect to My FCA, where you can access all systems from a single homepage without signing in again. This makes managing your regulatory tasks quicker and more efficient.One year of My FCAOne year on from launch, My FCA has proven to be a real success. It’s now used by all firms, providing a streamlined, effective way to manage regulatory tasks. Engagement continues to grow, feedback has been strong, and My FCA is now firmly embedded as a key part of firms’ regulatory journey.Jessica Rusu, the FCA's chief data, intelligence and information officer said: 'One year into My FCA and we’re delivering on our ambition to be a smarter, more efficient regulator. We’ve taken firms’ feedback and turned it into a simpler, clearer regulatory experience.'",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/news-stories/my-fca-marks-first-year-single-streamlined-sign-all-firms",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance",
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "FCA responds to Complaint Commissioner’s report on the British Steel Pension Scheme",
-    "description": "We sympathise with former members of the British Steel Pension Scheme (BSPS) who lost money after they were given unsuitable advice from people they trusted. Complaints are a valuable source of feedback which help us improve and learn. There have also been 4 independent reports into the BSPS since 2018, which have helped us learn lessons. We have accepted several of their recommendations and implemented improvements, including those below.We now have much closer collaboration between the FCA, The Pensions Regulator, Pension Protection Fund, and the Money and Pensions Service. This has improved intelligence sharing, enabling us to identify defined benefit pension transfer risks more swiftly.We are also collecting more pension transfer data from advisory firms to proactively monitor trends. We created a tool so people can check if they may have had unsuitable defined benefit pension transfer advice and have banned contingent charging for defined benefit pension transfers to reduce conflicts of interest. Our latest evaluation shows these changes have helped reduce the scope for harm and shift the market away from advice models that put advisers’ interests ahead of consumers.The Financial Services Compensation Scheme (FSCS) levy and compensation amounts stand at a 10-year low, which is also one indicator of significant improvements in the system.Redress for BSPS membersTogether with the Financial Ombudsman Service and FSCS, we have helped more than 6,500 former members complain following extensive engagement with former members.At least £106m in redress has been offered to 1,870 former BSPS members to put them back in the position they would have been at retirement. We have also taken enforcement action against more than 20 individuals and firms where there was evidence of serious misconduct.Read our full response.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/statements/fca-responds-complaint-commissioners-report-british-steel-pension-scheme",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "Equity for Growth (Securities) Limited enters liquidation",
-    "description": "On 25 March 2026, following a petition filed by the FCA, the High Court ordered that Equity for Growth (Securities) Limited (EFG) be wound up. EFG is a corporate finance firm. EFG was also a principal for a number of appointed representatives between 2015 and 2020, including Amyma Ltd and Osborne Baldwin Ltd, which traded as Hunter Jones.An appointed representative carries on regulated activity under the responsibility of an authorised firm, known as 'the principal'. Find more information on the relationship between principals and appointed representatives.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/news-stories/equity-growth-securities-limited-enters-liquidation",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "FCA sets out next phase of smarter, more effective regulation",
-    "description": "We have set out plans for using AI to speed up authorisations, testing new tools to identify key risks earlier, with our people remaining at the heart of decision-making. The new authorisation tool is being developed internally and will be integrated into existing FCA systems.It forms part of our annual work programme 2026/27, which lays out how we’re accelerating our ambition to be a smarter, more data-driven regulator.We will also use generative AI to support our efforts to modernise regulation, streamline supervision and improve firms’ experience, by reducing unnecessary administrative burdens.We’re only proposing to raise minimum and flat fees by 1%, even after significantly investing in data analytics and digital tools to improve how we triage information and share intelligence more efficiently. This is the lowest rise in the fees budget since 2017/18 and well below the rate of inflation. It’s the lowest annual funding requirement (AFR) increase in a decade, at just 0.7%.Nikhil Rathi, chief executive, FCA, said:'This year’s programme builds on our ongoing drive towards smarter, more data-driven regulation, helping us identify risks sooner, make faster, more consistent decisions and reduce unnecessary burdens on firms. We’re focused on helping consumers navigate their financial lives, reinforcing trust in financial services and supporting growth and competitiveness while keeping our fee increases low.'",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/news-stories/fca-sets-out-next-phase-smarter-more-effective-regulation",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "FCA plans to help people get more financial advice for important decisions",
-    "description": "More people could access financial advice, under proposals set out by FCA. The FCA is consulting on how to make it easier for firms to give more simplified forms of individualised financial advice to consumers.Simplified forms of advice can help consumers with more straightforward needs and do not require a full assessment of all their financial circumstances, making it more accessible and affordable.Sarah Pritchard, deputy chief executive of the FCA, said:'For too long the support people need to make important financial decisions has been out of reach for many. 'A market that provides good quality, lower cost simplified advice alongside comprehensive financial advice and targeted support will better support people making decisions about their financial lives. We want to see more people getting supported, who aren’t currently, and a market that innovates and offers tailored services to meet differing consumer needs.'We welcome everyone’s views on whether our proposals will achieve our aim of building firms’ confidence to offer a wider range of advice and ultimately to help consumers navigate their financial lives.'Firms are already able to provide more simplified forms of advice but not many offer it. To encourage innovation and open access, the FCA is proposing to make small changes while maintaining appropriate consumer protections, which it believes can revitalise the sector, including:Simplifying and consolidating the suitability framework into one set of common rules and expectations.Clarifying existing flexibilities in suitability rules with an expectation that advisers consider ‘sufficient’ information.Rebalancing the role and purpose of suitability communications to support firms making them concise, consumer-focused and proportionate.Changes to give firms greater flexibility in how they design and deliver ongoing advice services. This includes moving from a fixed annual suitability review to periodic reviews based on clients’ needs.The FCA is starting a discussion about the future of trail commission to modernise the rules and to prevent potential consumer harm.Qualification standards for advisers will remain unchanged. The FCA is also not proposing to change the adviser charging rules. Advice will still need to be paid via agreed-upon adviser charges rather than provider-paid commission or through cross-subsidisation.The FCA has already acted to help consumers get more support. From April some financial firms will be allowed to offer targeted support and suggest products to consumers based on what they would recommend to those in similar circumstances.While targeted support will enable support to be given to groups of consumers, many consumers will need or value individual advice tailored to their specific circumstances.Other than updating our perimeter guidance, this is the final piece in the FCA’s policy work to make sure that the advice market works for the millions who depend on it for their financial futures.Notes to editorsRead the full consultation (PDF).The consultation closes on 22 May 2026.There are many situations in which simplified forms of advice may help. An example could be if a client wants to invest a one-off lump sum into a single investment. But where the financial situation is more complicated, such as deciding how to draw income in retirement from multiple sources, comprehensive forms of advice will likely be more appropriate as a firm will need to take account of more information.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/press-releases/fca-plans-help-people-get-more-financial-advice-important-decisions",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "FCA highlights risks when dealing with unregulated lenders",
-    "description": "We are reminding regulated firms they need to undertake proper checks when dealing with unregulated lenders, safe custody providers, money brokers and financial leasing companies – also known as 'Annex 1' firms. There are around 1,200 of these firms registered with us for solely anti-money laundering purposes. Our powers are currently limited to looking at how these firms are meeting their anti-money laundering obligations and they are not subject to our wider rulebook. This regime is based on registration and is different from the authorisation regime under the Financial Services and Markets Act. For example, our wider conduct rules do not apply to these firms, nor are customers of Annex 1 firms able to access the Financial Ombudsman Service. When dealing with Annex 1 firms, regulated firms must do their due diligence to understand the firm’s business, in accordance with legislative requirements. This would include seeking direct confirmation from the firm of their registration status, conducting independent checks of the information they provide, and understanding and managing any risks, for instance those detailed in the 2025 National Risk Assessment. We raised concerns about anti-money laundering standards directly with the Annex 1 businesses in a letter to CEOs in 2024. We continued our proactive and reactive work in this area, which led us to follow up with 300 firms in late 2025. We are aware of some cases where consumers have been encouraged to set up limited companies to access lending, such as unregulated bridging finance from Annex 1 firms. It is important these consumers understand they will not have access to the Financial Ombudsman Service if things go wrong.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/statements/fca-highlights-risks-unregulated-lenders",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "Investigation into Market Financial Solutions Limited",
-    "description": "We have opened an enforcement investigation into Market Financial Solutions Limited (MFS). MFS is an Annex 1 business, which is solely registered with and supervised by us for its compliance with the Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017.Annex 1 registered firms are not authorised or subject to wider FCA regulation.MFS entered administration on 25 February 2026.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/statements/investigation-market-financial-solutions-limited",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "How technology is changing the pensions conversation",
-    "description": "Speech by Nikhil Rathi, FCA chief executive, at the JP Morgan Pensions and Savings Symposium 2026. Last year, I spoke about the importance of getting on the right track.That if we want better consumer outcomes – as well as stronger capital markets to support growth – we need to think beyond individual products and look at the whole financial journey.How pensions interact with housing wealth…How savings interact with advice…And how all these decisions evolve across a lifetime.Over the past year, we have made good progress.Targeted Support goes live next month, helping bridge the gap between generic guidance and regulated advice.The ABI says this could be 'one of the most significant engagement shifts in pensions since auto-enrolment'.And with 75% of DC pension holders over 45 having no clear plan for taking their money at retirement, a big opportunity to help secure better outcomes at lower cost.For those wanting more personalised advice, we will be proposing next week to simplify rules – expanding access for consumers while reducing complexity for firms.Then there’s work on later life lending and pension transfers - which I will speak more on later.Alongside lending our support to the industry-led retail investment campaign going live shortly, and continuing work with the Investment Association and industry on making risk information more effective.So, a huge amount both delivered and underway, working closely with the Pensions Regulator, Government, and others.And it’s encouraging to see the level of attention pensions are receiving across the political system.But today I want to focus on how technology is changing the foundational context in which we are having this pensions debate.As technology makes people much more aware of – and able to act on – their financial wealth, what happens next?And is our pensions system ready for the potential demand and behavioural shifts that follow?",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/speeches/how-technology-changing-pensions-conversation",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Tokenization & Issuance",
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "FCA orders Beauforce Corporation to stop operating and return client money",
-    "description": "We have restricted Beauforce Corporation Limited from carrying out any regulated activities. This means it cannot provide regulated debt advice or debt management services to consumers. We have also ordered the firm to return money held in its bank accounts to its clients.We’ve taken this action following concerns about the suitability of the firm’s senior management and its conduct in dealing with us. Read the full Notice (PDF)",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/news-stories/fca-orders-beauforce-return-client-money",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "Creating a redress system that works better for consumers and firms",
-    "description": "We’ve reached a significant milestone in our joint work with the Financial Ombudsman Service and the Government to modernise the redress systemso that consumers get fair outcomes quicker and firms have greater clarity about how issues will be handled.We’re delivering change at speed by acting now within our current powers, with a focus on improving how the system works in practice. This includes a new registration stage for complaints, updated dismissal grounds and clearer guidance on the fair and reasonable test.Throughout, our aim has been to improve alignment, predictability and early engagement across the system – while maintaining strong and effective consumer protection.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/blogs/creating-redress-system-works-better-consumers-firms",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "FCA bans Kasim Garipoglu from working in UK financial services",
-    "description": "KasimGaripoglu has been banned from working in UK financial services. The FCA found he is not fit and proper because of his lack of honesty and integrity. Mr Garipoglu is the owner of a firm that provided online trading of foreign exchange and contracts.Between April 2012 and December 2022, including when Mr Garipoglu was the chief executive and director at the firm and an approved person, he repeatedly demonstrated a disregard for regulatory requirements, undermined compliance and anti‑money laundering controls, and positively encouraged serious misconduct amongst his colleagues.He repeatedly overruled those advising him that his instructions were illegal and in breach of regulatory requirements. He consistently prioritised commercial advantage over regulatory requirements, including by regarding the potential for regulatory fines to be a business risk worth taking.He also deliberately provided false and misleading information to the FCA and other regulators, instructed the forgery of a document to evidence that an employee lived at a UK address with him when neither of them did so, falsified a university degree certificate for himself and made inaccurate declarations to the FCA in an authorisation application for another firm which he owned. In one instance, he instructed a colleague to impersonate him in communications and a phone call to the South African regulator.In another instance, he had his staff take a required anti-money laundering test on his behalf and passed off the result as his own and later denied this to the FCA.Therese Chambers, joint executive director of enforcement and market oversight at the FCA, said:'Mr Garipoglu has consistently shown a blatant disregard of regulatory requirements and chose to run his business in a way that carried significant risk that serious money laundering would be facilitated. He has consistently sought to evade accountability for this. His conduct fell far below the standards expected of individuals in senior positions. He poses an ongoing risk to consumers and to the integrity of the UK financial system.'Notes to editorsRead Final Notice 2026: Kasim Garipoglu (PDF)Fighting financial crime is a priority in the FCA’s 5-year strategy.The FCA enables a fair and thriving financial services market for the good of consumers and the economy. Find out more about the FCA.The firm owned by Mr Garipoglu is no longer authorised by the FCA.This was a complex investigation covering many years of misconduct, during which Mr Garipoglu deliberately obstructed the work of regulators by providing false and misleading information. Mr Garipoglu also sought to oppose the prohibition and attempted to prevent his misconduct from becoming known, referring the FCA’s decision to the tribunal and then commencing an appeal in the Court of Appeal. Both Mr Garipoglu’s tribunal reference and his appeal have since been struck out.Whilst Mr Garipoglu has been prohibited, the FCA has not been able to fine him due to the length of time since he was an approved person.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/press-releases/fca-bans-kasim-garipoglu-working-uk-financial-services",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "Concept Capital Group update: administrators appointed",
-    "description": "On 9 March 2026, the High Court placed Concept Capital Group (CCG) into administration. BTG are the administrators of the company. In July 2025, the FCA announced High Court proceedings against CCG and others over an alleged unauthorised investment scheme. CCG has been under a court order that temporarily froze its assets since then.CCG had promoted investments in static homes. CCG claimed these would be let to social housing tenants placed by local councils. Investors were promised fixed returns and told the scheme was backed by the UK Government, claims the FCA considers were false or misleading.While the administration was not initiated by the FCA, it has put the FCA’s High Court proceedings against CCG on hold. The administrators will take control of CCG and investors’ claims will be handled as part of the administration process. The FCA will support the administrators as needed and will continue to communicate with them.The FCA’s claim against the other defendants - Ian Anthony Elliott, Adrian Felix, Ayub Swaibu, Edmund Brew, Ernest Kargbo (also known as Ernest Moore), Raymondip Bedi (also known as Martin Swann) and Gateridge Consulting Limited - will continue.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/news-stories/concept-capital-group-update-administrators-appointed",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "Second charge mortgage firms told to raise standards for consumers",
-    "description": "Lenders and brokers in thesecond charge mortgagemarket need toconsiderhow theyadvise customers, assess affordability and charge fees. An FCA review has found that weaknesses in some firms’ practices could put borrowers, particularly those consolidating debt, at increased risk of financial harm.Second charge mortgages are often used by customers with high existing levels of debt and low financial resilience. The FCA’s review found examples of good practice across the sector but also issues that raise concerns about whether firms are meeting expectations, including under the Consumer Duty. The issues identified in the review include:Affordability assessments that appeared to overlook key living expenses.Advice that steered customers towards debt consolidation when it was not clear if it was appropriate.Inadequate record keeping. Unclear fees, often added to loans, making comparisons difficult.David Geale, executive director of payments and digital finance at the FCA, said:'The second charge market is relied on by people often already heavily in debt. It’s vital it works well, but we’ve found that standards are not always where they need to be. This needs to change.' The FCA is calling on all second charge firms to consider the findings carefully and take appropriate action. Brokers for the wider mortgage market should consider the findings, especially on record keeping and quality assurance, and whether they can make improvements.The regulator has continued its engagement with the firms included in the review to ensure shortcomings are addressed. While the regulator has already seen some of the market act on its calls to improve customer understanding, over the next year it will: Continue to work with firms to drive improvements across the second charge marketKeep monitoring second charge firms and take action where it has concerns – using the full range of regulatory powers where neededBegin to consider any mortgage policy changes needed to support good outcomes for consumers consolidating debt.Notes to editorsRead Second charge mortgages – improving outcomes for consumers.Second charge mortgages let homeowners borrow extra money using the equity in their home, without having to change their existing mortgage.Second charge mortgages make up a small proportion of the total mortgage market - typically less than 4% of regulated mortgage sales.We have publishedour new Regulatory Priorities Retail Mortgages report, which sets out key actions firms should take over the next year, plus the areaswe’llbe focusing on. The FCA enables a fair and thriving financial services market for the good of consumers and the economy. Find out more about the FCA.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/press-releases/second-charge-mortgage-firms-told-raise-standards-consumers",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "FCA imposes restrictions on Sendsii Ltd",
-    "description": "On 23 January 2026, the FCA imposed requirements on Sendsii Ltd which prevent them from carrying out any regulated activity. The FCA has issued a First Supervisory Notice to Sendsii Ltd after HM Revenue and Customs (HMRC) suspended the firm’s registration on 9 October 2025. The suspension means that Sendsii Ltd no longer met the conditions required for its FCA authorisation under the Payment Services Regulations 2017.These requirements prevent Sendsii Ltd from carrying out any regulated activity, including money remittance, without the FCA’s prior written consent. The firm is required to return all funds held for or on behalf of existing customers in accordance with all relevant legal and regulatory requirements.Full details of the requirements can be found on the Financial Services Register.Consumers who need to send or receive money should use an alternative authorised payment firm. If you were expecting funds from Sendsii Ltd and have not received them, please contact our Supervision Hub.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/news-stories/fca-imposes-restrictions-sendsii-ltd",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "Man jailed for running illegal sale-and-rent-back scheme targeting struggling homeowners",
-    "description": "Rajinder Gill and accomplices have been sentenced for their involvement in a sale-and-rent-back scheme. Mr Gill has been sentenced to two and a half years in prison for running a sale-and-rent-back scheme without being authorised and illegally providing credit agreements and mortgages. As accomplices in the scheme, Amandeep Heer received a community order for 2 years with a condition of 250 hours of unpaid work, and Jetinder Sandhu has completed 100 hours' unpaid work over 12 months (as a condition of a 15-month suspended imprisonment, which was suspended for 18 months).Through Secure Property Consultants Ltd, Mr Gill targeted homeowners in financial difficulty, claiming he could sell their homes quickly, offering them cash advances and saying they could stay in homes as tenants. Victims were encouraged to sell their houses at less than market value, while he charged excessive, confusing or hidden fees – totalling £925,233. Some were evicted from their homes. Steve Smart, executive director of enforcement and market oversight at the FCA, said:'Mr Gill and his accomplices preyed on vulnerable homeowners, turning financial difficulty into misery to fill their own pockets. Sale-and-rent-back comes with significant risks. If you are considering using it, always check the provider is authorised by the FCA.’In sentencing Mr Gill, His Honour Judge Weekes said 'there was a pattern of systematic exploitation’ and the 'victim impact [was] stark and troubling across the victims'. He added Mr Gill was 'dishonest and manipulative' and the sale-and-rent-back agreements 'particularly odious'.Once Mr Gill became aware of the FCA’s investigation he tried to conceal these activities and shut down the company, telling clients not to talk to the regulator.Mr Sandhu and Ms Heer, who was Mr Gill’s partner, supported the offending.Mr Gill pleaded guilty to 27 offences in relation to sale-and-rent-back agreements as well as credit agreements/mortgage contracts. He asked the court to consider a further 12 offences of the same nature at sentencing.Following a trial, Ms Heer was found guilty of committing 3 similar offences.The FCA has commenced confiscation proceedings to deprive the defendants of the proceeds of their crimes with a view to compensating victims.Mr Gill was disqualified from being a director of a company for 8 years.Consumers should check the FCA Firm Checker to make sure the firm they're dealing with is authorised.Notes to editorsRajinder Gill (date of birth: 27 October 1976) entered guilty pleas on 19 December 2025. Amandeep Heer (date of birth: 7 August 1980) was found guilty after a trial on 9 February 2026. They were both sentenced on 10 March 2026. Jetinder Sandhu (date of birth: 27 January 1979) was sentenced on 15 August 2024, having pleaded guilty on 7 June 2024 – this was previously subject to reporting restrictions.Mr Sandhu was sentenced on 15 August 2024 to 15 months’ imprisonment. This was suspended for 18 months with the conditions of completing 100 hours of unpaid work within 12 months and attending rehabilitation activity for up to 10 days.The misconduct occurred between 1 September 2014 and 7 November 2018.Sale‑and‑rent‑back schemes involve homeowners selling their property – often at a discount – with an agreement to stay in their home as tenants paying rent. They’re usually a last resort for people facing debt or repossession and are considered high risk, and firms offering them must be authorised by the FCA.In 2013/14, the FCA investigated Mr Gill for entering into sale-and-rent-back agreements with members of the public. In November 2013, Mr Gill signed an undertaking not to enter into, promote, administer, advise on or arrange sale-and-rent-back agreements, and agreed to remove all references to the products in adverts his companies placed in the media. In August 2014, he signed a further undertaking not to conduct any regulated activity without authorisation.Under Section 19 of the Financial Services and Markets Act 2000 (FSMA), a person cannot carry on a regulated activity in the UK unless they are FCA authorised or exempt (this is the General Prohibition). Any person who breaches Section 19 of FSMA is committing a criminal offence for which the maximum sentence is 2 years’ imprisonment.The FCA enables a fair and thriving financial services market for the good of consumers and the economy. Find out more about the FCA.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/press-releases/man-jailed-illegal-sale-rent-back-scheme-struggling-homeowners",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "Stepping back, staying safe: a joined-up approach to growth",
-    "description": "Speech by David Geale, executive director, payments and digital finance, and PSR managing director at the MoneyLIVE Summit 2026, London. ConsolidationRule 1 is ‘Out of clutter, find simplicity.’The Government announced its intention to consolidate the PSR into the FCA about a year ago. It was a decision we welcomed.Our work has always been complementary, and we made it work.As an economic regulator, the PSR is focused on getting the foundations right – the payment systems and infrastructure that enable the ecosystem to operate.And as the conduct authority, the FCA focuses on what sits on top – the delivery of the services and products consumers rely on.But, that separation was a product of its time. The world was different then – we needed the specific focus on competition, innovation and access in payments infrastructure that came from the PSR.Since then, both we and the market have evolved and grown. The ecosystem is too intertwined to treat parts in isolation.Consolidation helps us take a more joined-up approach.One of greater coordination, clearer responsibilities and smoother delivery for firms, who will no longer have to navigate two sets of front doors to get answers. And for us, one view across the ecosystem.Ahead of legislation, we have worked to find simplicity where we can.For example, many PSR colleagues have moved to the FCA as part of a phased transition and creation of new organisational structure. This allows us to maintain our momentum while realising the benefits of closer alignment.So that the regulation of payment systems continues, the PSR will stay in place, with its own governance, while its powers are transferred. We expect both the outcome of the Government’s consultation and a roadmap to the completed consolidation soon.However, already under our new structure, a single, joint payments horizon scanning team ensures our priorities across the FCA and PSR are aligned.So we can plan the work programme and areas of focus – together.This will change how we engage externally, but it is important to be clear: the PSR’s work will remain a core part of the FCA’s mission.And our objective to look across the ecosystem is as important as ever. Competition, access and innovation are essential components of making the market work well.And key in how we help the FCA be a smarter regulator and drive growth.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/speeches/stepping-back-staying-safe-joined-approach-growth",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "FCA warns customers of HDH Investment Services Limited",
-    "description": "We're concerned that HDH Investment Services Limited may have given unsuitable financial advice to some of its customers, potentially leading to financial loss. We recently placed restrictions on HDH Investment Services Limited (HDH). From 20 January 2026, HDH agreed to stop carrying out all regulated activities. This now means the firm can't give investment advice.HDH also agreed to write to all customers to explain what these restrictions mean for them. What customers should do nowIf you think you were given unsuitable advice, or you're unhappy with the service you received from HDH, you have the right to complain.We know this news may be worrying. If you have concerns, you can use our contact form to get in touch. If you're a customer of HDH and need financial advice, you should contact another FCA‑authorised financial adviser. You can find information on finding an adviser on MoneyHelper. You can also use the FCA Firm Checker to make sure a firm is authorised and has permission to provide the services you're looking for.Stay alert to scamsIf you're a customer of HDH, you may be contacted directly by the firm. However, if you're unsure whether a call is genuine, end the call immediately and contact them using the details on Firm Checker.You may also be contacted by the FCA. But if you're concerned about who you're speaking to, please do call us back on 0800 111 6768. Our team won't mind waiting for you to check. Find out more about how to spot fake FCA communications. People are being increasingly targeted by recovery room scams. This includes where fraudsters approach investors who have been given unsuitable advice, offering to help them for an upfront fee. Find out more about how to protect yourself from scams.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/news-stories/fca-warns-customers-hdh-investment-services-limited",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "Consumer investments priorities: strengthening trust, supporting investors",
-    "description": "Speech by Lucy Castledine, director of consumer investments, at the TISA Inclusive Investing Conference 2026. Speaker: Lucy Castledine, director, consumer investmentsEvent: TISA Inclusive Investing Conference 2026Delivered: 4 March 2026Note: this is the speech as drafted and may differ from the delivered version.Reading time: 11 minutesKey points:Consumer investments are a cornerstone of the UK economy, with over 5,000 authorised firms and their representatives, serving 19 million adults – around a third of our population. Our sector safeguards the future of individuals and families up and down the country.Building a stronger investment culture is critical for consumers’ financial lives. We’re excited to work with firms on plans such as targeted support.For a strong investment culture, consumers need trust, confidence in good consumer outcomes, and reassurance in strong financial crime controls.Through all this, we recognise that the consumer investments landscape is changing – and we want to hear from firms.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/speeches/consumer-investments-priorities-strengthening-trust-supporting-investors",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "Motor finance compensation scheme to include implementation period",
-    "description": "We'd also streamline the scheme, so millions get compensation in 2026. We're considering over 1,000 responses to our proposals for a compensation scheme for motor finance customers who were treated unfairly.If we proceed with a scheme, we are likely to make several changes. If we do go ahead, we expect to publish final rules in late March. The timing of publication will be outside market hours and we'll confirm the date in advance. Final decisions on the scheme have not yet been made. But to help firms prepare and ensure consumers get any money owed promptly, we're setting out some details now on how we intend to streamline the consumer journey and make it smoother for firms to operate.Given the scale and complexity of the scheme and in response to feedback, we're likely to introduce an implementation period of 3 months, with up to 5 months for older agreements. Firms could choose to process claims under the scheme sooner.We would also streamline the process for consumers and firms.People who complain before the scheme starts would no longer be asked if they wish to opt out. Instead, within 3 months of the end of the implementation period, their lender would tell them whether they're owed compensation, and how much. Consumers receiving a redress offer would be able to accept it immediately, rather than waiting for a final determination. Firms would not be required to write to customers via recorded delivery. We would allow a range of channels that best meet consumers' needs with appropriate safeguards to prevent fraud. Even with an implementation period, streamlining the process means millions of people would receive compensation in 2026.Our advice remains that anyone concerned they weren't told about commission involved in their motor finance deal should complain now. Doing so means they should get any compensation sooner. There is no need to use a claims management company (CMC) or law firm, and those who do may lose over 30% of any compensation.We've cracked down on poor practice by FCA-regulated CMCs. Over 800 misleading adverts have been removed or amended since January 2024 and we've intervened with 5 CMCs causing harm: 2 reduced exit fees and 4 agreed to stop taking on new clients until they can show they comply with our rules.The likely changes to the scheme were supported by many consumer groups and firms that responded to our consultation. As well as providing a better experience for consumers, the changes would help keep the cost of delivering the scheme proportionate, supporting a well-functioning market for the millions of people that rely on it.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/statements/motor-finance-compensation-scheme-include-implementation-period",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "OPBAS identifies areas where anti-money laundering supervisors can improve",
-    "description": "The latest report from the Office for Professional Body Anti-Money Laundering Supervision (OPBAS) finds there is still room for improvement. The anti-money laundering supervisors of professional services firms are more effective than at any time since 2018. However, OPBAS remains concerned that their enforcement lacks the teeth to deter firms from falling short of minimum standards.OPBAS’s latest report found Professional Body Supervisors (PBSs) generally continue to demonstrate good levels of compliance. Yet some PBSs continue to perform poorly in their enforcement approach relative to other areas, and supervision could also be improved. OPBAS is concerned that for some PBSs, their dual role as both a membership organisation and a supervisor can hinder effective action.Mark Francis, director, specialists at the FCA, said: 'Fighting financial crime is a priority for the FCA. In recent years, OPBAS has driven progress in the way money laundering is tackled in the legal and accountancy sectors, but improvements are still required.’OPBAS is housed within the FCA and oversees 25 PBSs tasked with preventing financial crime in the accountancy and legal sectors.OPBAS, founded in 2018, has used an increasing range of tools to drive improvements among PBSs. Last year, OPBAS took its first enforcement action against a PBS that failed to meet its requirements under the Money Laundering Regulations.In 2025, the Government decided that the FCA will assume anti-money laundering (AML) and counter terrorist financing (CTF) supervision in the accountancy and legal sectors. This reflects the need to simplify the supervision of professional services, ensure more consistent oversight and improve efforts to identify and disrupt crime.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/news-stories/opbas-aml-supervisors-areas-improve",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "Renaissance at market speed: UK wholesale finance in 2026",
-    "description": "Speech by Nikhil Rathi, FCA chief executive, at the Goldman Sachs EMEA Head of Trading conference 2026. And as we roll with the punches, we also shouldn’t sell ourselves short.We gained ground last year - London just one point behind New York in the latest Global Financial Centres Index.There is understandable focus on equities market share and listings, where we have delivered far-reaching regulatory reforms.But on FX trading, international debt issuance, OTC derivatives, parts of commodities markets - we lead the global pack.Also seeing, as one commentator recently described it, a 'quantitative trading renaissance'.These aren’t flukes.Market activity agglomerates in locations where execution is reliable, infrastructure is resilient, talent at all levels is strong, and the rulebook is credible, pragmatic and responsive to change.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/speeches/renaissance-market-speed-uk-wholesale-finance-2026",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "FCA proposes action to close gaps in borrowers’ credit files",
-    "description": "Lenders could have access to more comprehensive information to support lending decisions, under new proposals by the FCA. The FCA is consulting on designating certain credit reference agencies (CRAs). If a lender shares credit information with one designated consumer CRA, it would be required to share it with them all.The changes aim to close gaps in consumers’ credit files and ensure these more accurately reflect people’s financial circumstances.Alison Walters, director of consumer finance at the FCA, said: 'Access to affordable credit relies on good-quality data – it’s vital in helping consumers navigate their financial lives. That’s why we want to make sure everyone’s credit information is as full and accurate as possible.'CRAs collect personal financial data – including credit repayment histories – to provide lenders with information that helps inform lending decisions.Where the information CRAs hold is limited, people may face barriers to accessing credit, or be exposed to increased risks of unaffordable lending, errors or fraud. The FCA’s proposals aim to improve how credit information is shared across the system, benefitting both consumers and firms.The consultation closes on 1 May 2026. Consumers can visit MoneyHelper for information on how to check their credit report for free.Notes to editorsRead CP26/7: Credit Information Market Study: Proposed approach to implementing FCA remedies.The consultation follows the Credit Information Market Study which set out measures to improve the credit information market.The FCA is proposing that credit and mortgage firms who currently share consumer credit information with at least one of the credit reference agencies to be designated by the FCA, will be required to share the same information with the other designated agencies.There are additional proposals on the quality and accuracy of information shared about consumers and on firms marking county court judgments (CCJs) or Decrees as satisfied (with the relevant court or Registry Trust), where a consumer has repaid the debt.The final report was published in December 2023 and proposed a package of remedies. This included FCA-led remedies, some of which are set out in this consultation. The final report also proposed reforms to industry governance arrangements and other industry-led remedies. A new Credit Information Governance Body (CIGB) has now been established, while industry participants have also commenced work on the industry-led remedies.Find out more information about the FCA.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/press-releases/fca-proposes-action-close-gaps-borrowers-credit-files",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "FCA confirms new incident and third party rules to bolster resilience",
-    "description": "We’ve confirmed new rules to make existing incident and third party reporting clearer, more consistent, and easier for firms to follow. These new rules will help us respond quickly to disruption such as a cyber attack or power outage, give firms greater certainty on what to report and when and strengthen firm resilience to better protect consumers and markets.Cyber attacks are becoming more frequent and more sophisticated, and firms are increasingly reliant on third party providers. In 2025, over 40% of cyber incidents reported to us involved a third party and we have seen several recent high-profile incidents impacting the financial services sector including the Cloudflare and AWS outage. Clear and timely reporting will help us identify risks and respond effectively.What’s changingFirms don’t always report incidents consistently and industry have told us they want more clarity on what to report and what information to provide.In December 2024, we consulted (PDF) on clearer, more structured reporting frameworks. We listened to feedback and streamlined our final reporting requirements to reduce unnecessary burden, while also making sure we get the information we need to assess impact early and effectively respond to disruption.For both of our incident and third party reporting final rules, we have:Created a simple, streamlined reporting regime with the Prudential Regulation Authority (PRA) and Bank of England including a single reporting portal.Removed duplicative incident reporting for payment service providers and credit rating agencies.Refined the overall information required, allowing most of the firms we solo regulate to complete a short form to tell us about their incident.Added clearer guidance on thresholds, definitions and responsibilities. Mark Francis, director of specialists and wholesale sell-side at the FCA, said:'Resilience is being tested like never before, with firms facing growing cyber threats and increasing reliance on third parties to deliver the essential financial services consumers rely on.'These changes give firms clearer rules and practical guidance to better manage disruption, while supporting our ambition to be a smarter regulator, giving us better data to spot risks, share insights and strengthen sector-wide resilience.'Over time we will use this data to share insights and trends to help firms bolster their operational resilience and share relevant information with industry, where appropriate during widespread disruption, particularly in stressed market conditions.And where disruption occurs at a third party, the data will help us see through firms’ supply chains to identify which services are the most exposed and help us identify potential critical third parties to the UK financial system.A more resilient financial sector will help lay the foundations to support growth and deepen trust in firms and the services they provide.New finalised guidance Alongside our final rules, we are also publishing Finalised Guidance for both incident reporting (PDF) and third party reporting (PDF).This includes:Clear examples of what firms should report.Help applying the thresholds.Guidance on completing the incident form and third party register.This is in response to feedback that firms want greater clarity and practical support. What firms need to do nextFirms have 12 months to prepare before the new rules come into force on 18 March 2027.We are hosting a webinar on 29 April 2026 and invite firms to join us in finding out more about our new rules and ask questions. Please register to take part in the webinar.Two years after implementation, we will review the regime to ensure it works effectively for firms and delivers the outcomes we expect.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/news-stories/fca-confirms-new-incident-and-third-party-rules-bolster-resilience",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "FCA announces senior leadership appointments",
-    "description": "We have appointed 2 new senior leaders, further strengthening our capability across key areas of our remit. Chris Knight will join us in July 2026 as director of insurance within our Supervision, Policy and Competition (SPC) division. He joins the FCA from Legal &amp; General, where he has been the group chief risk officer for the last 5 years and member of the Group management committee. Prior to this, he was CEO of Legal &amp; General Retail Retirement for 3 years.David Lymburn joined the Payment Systems Regulator (PSR) on 23 February 2026 as interim deputy managing director. David brings over 15 years’ experience in financial services, including as chief operating officer and global payments programme director at Nordea Bank and payments roles at the Royal Bank of Scotland and Lloyds Banking Group. He will serve in this interim role while the permanent recruitment takes place.Sarah Pritchard, deputy chief executive, FCA, said:'We welcome Chris and David into their new roles. They bring considerable industry and leadership experience and will play a vital part in driving forward our strategic priorities – strengthening our capabilities, accelerating our journey to become a smarter regulator, and ensuring we continue to support economic growth and improve lives across the UK.'",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/news-stories/fca-announces-senior-leadership-appointments",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "UK Listing Rules for investment entities review",
-    "description": "We are bringing forward a review of some aspects of the UK Listing Rules to consider how they apply to specific types of investment entities. As part of the Primary Markets EffectivenessReviewwe explored which types of investment entities could be eligible to be listed. Since introducing the new listingruleswe have heard from stakeholders that these eligibility criteria, particularlyregardingrisk-spreading, may be unduly restrictive. We will use this review to assess if changes should be made.As part of this review, we will also conduct targeted work to assess howourrules, in the context of company law, ensure that boards support strong shareholder rights and engagement and manage conflicts of interests.We plan to set out proposals in a consultation paper and to complete the work by the end of the year.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/statements/uk-listing-rules-investment-entities-review",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "FCA opens authorisation gateway for targeted support",
-    "description": "Firms can now apply for permission to provide targeted support. Targeted support is a once in a generation change that will help millions navigate their financial lives. From 6 April 2026, people’s banks, pension providers, or other financial firms that are authorised for targeted support can provide suggestions designed for groups of consumers with common characteristics. This will help them make important decisions across their pensions and investments.We want authorised firms to be ready to offer the new service as soon as the rules take effect. And, for these firms to take advantage of the reforms, to be bold and provide support for their customers.An important milestoneCurrently, consumers don’t have access to the help they need to make these important decisions. We estimate around 23 million consumers are currently underserved by the markets for advice and guidance.Targeted support will help fill the gap between generic guidance and individualised advice and help consumers access the support they need, at a cost they can afford, when they need it, so that they can make informed financial decisions.The opening of the targeted support authorisations gateway marks an important milestone in our work to help consumers navigate their financial lives.Support serviceWe launched our Pre-Application Support Service (PASS) for targeted support last year and have engaged with a range of firms so that they understand what is expected for a good quality and complete application for the targeted support regulated activity.We encourage firms with questions about the authorisations process to engage with us through the PASS. Firms can submit a PASS form via Connect.We welcome the engagement we have had so far with firms developing their targeted support propositions and look forward to this continuing engagement.How to applyFirms can submit applications for targeted support permissions via Connect.Find out more.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/news-stories/fca-opens-authorisation-gateway-targeted-support",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "Payments Vision Delivery Committee publishes Payments Forward Plan",
-    "description": "The Payments Vision Delivery Committee (the Committee) has published the Payments Forward Plan (the Plan). Read the Plan on GOV.UKThe Committee comprises:HM TreasuryBank of EnglandFinancial Conduct AuthorityPayment Systems RegulatorThe Plan sets out upcoming initiatives across retail and wholesale payments, including elements of digital assets. Recent publications on open banking, stablecoins and contactless limits, alongside the initiatives in the Plan, show the high level of activity across the sector.The Plan provides clarity on what is coming and when, helping firms plan ahead and focus on innovation. The Plan sets out actions to deliver the Government’s National Payments Vision of a trusted, world-leading payments ecosystem built on next-generation technology, offering consumers and businesses a choice of payment methods.The Committee will continue to consider our collective impact on firms and support competition, innovation and economic growth.Going forwards, the Committee has agreed to add an enhanced focus on payments to the Regulatory Initiatives Grid in its first 2027 publication.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/statements/payments-forward-plan-published",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Tokenization & Issuance",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "FCA selects 4 firms to test stablecoin innovation in its Regulatory Sandbox",
-    "description": "The FCA has chosen 4 companies to test how their stablecoin services work with proposed regulation in a safe environment. The stablecoins cohort is part of the FCA's commitment to supporting growth and innovation in UK financial services. 20 applications were received and the FCA has chosen the following firms:Monee Financial TechnologiesReStabiliseRevolutVVTXThe Regulatory Sandbox programme allows firms to trial stablecoin products in real world conditions with appropriate safeguards. It will help the FCA assess its proposed policy in a live environment and ensure future rules are clear, effective and support responsible innovation.The FCA’s testing will primarily focus on stablecoin issuance. The 4 selected firms’ proposals represent a range of stablecoin use cases, including payments, wholesale settlement and crypto trading. Each firm will receive feedback from FCA specialists while helping to shape the UK’s regulatory approach.Matthew Long, director of payments and digital assets at the FCA, said:'We are supporting UK stablecoin issuers to ensure they can be trusted for payments, settlement and trading. It will benefit consumers and financial transactions and help to deliver the FCA's strategy and the Government's National Payments Vision.’The testing is part of the FCA’s broader work to enable innovation across UK financial services and complements other innovation initiatives such as the Digital Securities Sandbox (DSS).Testing begins in Q1 2026 and the findings will help shape the UK’s final stablecoin rules later in 2026.Notes to editorsThe FCA received 20 applications from firms wishing to test stablecoins in its Regulatory Sandbox. The FCA has previously set out the timeline for crypto regulation in its crypto roadmap. The FCA has consulted on key topics such as stablecoin issuance and cryptoasset custody (CP25/14), prudential rules (CP25/15 and CP25/42), the application of the FCA Handbook (CP25/25 and CP26/4), conduct of business and high-level standards (CP25/40) and admissions and disclosures and market abuse (CP25/41). The consultations on the future regulatory regime for cryptoassets are substantively complete, and the FCA will publish its Policy Statements this summer. Find out more about existing rules firms must comply with. All firms will need to be authorised under the new regime once the new regime goes live in October 2027. The application gateway for firms who want to be authorised to carry out crypto activities in the UK opens in September 2026 and now is the time to start getting ready. The FCA is hosting authorisation-focussed webinars to help prospective applicants understand its expectations. The first one is available to watch on demand and the next one will be on 18 March, focusing on the FCA’s anti-money laundering rules.The Prudential Regulation Authority issued a Dear CEO letter on innovations in the use by deposit-takers of deposits, e-money and regulated stablecoins.The FCA enables a fair and thriving financial services market for the good of consumers and the economy. Find out more about the FCA.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/press-releases/4-firms-selected-test-stablecoin-regulatory-sandbox",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Tokenization & Issuance",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DeFi",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Global standard-setting bodies publish assessment of margin requirements for non-centrally cleared derivatives",
-    "description": "The Basel Committee on Banking Supervision (BCBS) and the International Organization of Securities Commissions (IOSCO) today published a report that reviews the implementation of margin requirements for non-centrally cleared derivatives.",
-    "date": "2025-12-12",
-    "source_url": "https://www.bis.org/press/p251212.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2025"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Basel Committee publishes principles for the sound management of third-party risk",
-    "description": "The Basel Committee has published principles for the sound management of third-party risk in the banking sector. The principles establish a common baseline for banks and supervisors for the sound management of third-party risk. The Committee will continue to monitor developments related to the digitalisation of finance and financial technology from a prudential perspective.",
-    "date": "2025-12-10",
-    "source_url": "https://www.bis.org/press/p251210.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2025"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Tommaso Mancini-Griffoli appointed as Head of the BIS Innovation Hub",
-    "description": "Tommaso Mancini-Griffoli, currently Assistant Director, Payments, Currencies, and Infrastructure, at the International Monetary Fund (IMF), has been appointed to head the BIS Innovation Hub. He will join the BIS on 1 March 2026.",
-    "date": "2025-11-25",
-    "source_url": "https://www.bis.org/press/p251125.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2025"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Basel Committee continues to prioritise Basel III implementation, approves final principles on third-party risks and agrees to expedite targeted review of cryptoasset standard",
-    "description": "The Basel Committee on Banking Supervision met in Mexico City on 18 and 19 November 2025 to discuss a range of initiatives. It prioritises the full implementation of Basel III, approved third-party risk principles and will review elements of its cryptoasset standard.",
-    "date": "2025-11-19",
-    "source_url": "https://www.bis.org/press/p251119.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2025"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Appointment: BIS Global Economy Meeting and Economic Consultative Committee Chair",
-    "description": "The Board of Directors of the Bank for International Settlements (BIS) has today announced that Christine Lagarde, President of the European Central Bank, will succeed Jerome H Powell, Chair of the Board of Governors of the Federal Reserve System, as Chair of the Global Economy Meeting (GEM) and Economic Consultative Committee (ECC) from May 2026.",
-    "date": "2025-11-12",
-    "source_url": "https://www.bis.org/press/p251112.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Settlement & Clearing"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2025"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "BIS, South African Reserve Bank announce winners of G20 TechSprint",
-    "description": "The Bank for International Settlements (BIS) and the South African Reserve Bank (SARB), under the South African G20 Presidency, today announced the winners of the G20 TechSprint 2025 challenge on trust and integrity in finance.",
-    "date": "2025-11-11",
-    "source_url": "https://www.bis.org/press/p251111.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Settlement & Clearing"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2025"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Global standard-setting bodies publish an assessment report and a consultative report to set out guidance on general business risks and general business losses",
-    "description": "The BIS Committee on Payments and Market Infrastructures (CPMI) and the International Organization of Securities Commissions (IOSCO) today published an implementation monitoring report on general business risks and a consultative report on financial market infrastructures' (FMIs) management of general business risks and general business losses.",
-    "date": "2025-11-07",
-    "source_url": "https://www.bis.org/press/p251107.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2025"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Basel III risk-based capital ratios increase while leverage ratio and Net Stable Funding Ratio remain stable for large internationally active banks, latest Basel III monitoring exercise shows",
-    "description": "Basel III risk-based capital ratios increased in the second half of 2024. Banks' leverage ratio and Net Stable Funding Ratio remain stable while Liquidity Coverage Ratio decreased. Dashboards offer new features to explore results.",
-    "date": "2025-10-23",
-    "source_url": "https://www.bis.org/press/p251023.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2025"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Basel Committee reports further progress on Basel III implementation",
-    "description": "Over the past 12 months, the final Basel III standards came into effect in more than 40% of the Basel Committee's 27 member jurisdictions. The revised credit risk and operational risk standards as well as the output floor are now in effect in around 80% of member jurisdictions. The Committee will continue to closely monitor and assess the full and consistent implementation of Basel III standards.",
-    "date": "2025-10-03",
-    "source_url": "https://www.bis.org/press/p251003.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2025"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Basel Committee approves annual G-SIB assessment, enhances the clarity of its grading system for jurisdictional assessments and takes note of the implementation of margin requirements for non-centrally cleared derivatives",
-    "description": "Basel Committee approves annual assessment exercise for global systemically important banks. Enhances clarity of its grading system for jurisdictional assessments. Discusses implementation status of margin requirements for non-centrally cleared derivatives.",
-    "date": "2025-10-02",
-    "source_url": "https://www.bis.org/press/p251002.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2025"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Global FX trading hits $9.6 trillion per day in April 2025 and OTC interest rate derivatives surge to $7.9 trillion: Triennial Survey",
-    "description": "The 2025 Triennial Central Bank Survey of foreign exchange (FX) and over-the-counter (OTC) interest rate derivatives markets activity shows trading in FX markets reached $9.6 trillion per day in April 2025, up 28% from 2022. Trading of OTC interest rate derivatives rose 59% to $7.9 trillion per day.",
-    "date": "2025-09-30",
-    "source_url": "https://www.bis.org/press/p250930.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2025"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Basel Committee shares report on interconnections between banks and non-bank financial intermediaries",
-    "description": "The report reflects the findings of an analysis conducted as part of the Committee's forward-looking work to identify and analyse risks and vulnerabilities to the banking system. The report identifies the services banks and non-bank financial intermediaries (NBFIs) provide to each other and the trends shaping the relationship between them. The Committee will continue to monitor and investigate the interconnections between banks and NBFIs with a particular focus on synthetic risk transfers.",
-    "date": "2025-07-10",
-    "source_url": "https://www.bis.org/press/p250710.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Tokenization & Issuance",
-      "Collateral & Lending",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2025"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Next-generation monetary and financial system takes shape, based on a tokenised unified ledger: BIS",
-    "description": "Building on the proposal for a unified ledger, the \"trilogy\" of tokenised central bank reserves, commercial bank money and government bonds is the next logical step to deliver profound change for the financial system. Tokenisation can enhance efficiency and open new possibilities in cross-border payments, securities markets and beyond, while maintaining the key principles of sound money: singleness, elasticity and integrity. Stablecoins as a form of sound money fall short, and without regulation pose a risk to financial stability and monetary sovereignty.",
-    "date": "2025-06-24",
-    "source_url": "https://www.bis.org/press/p250624.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Tokenization & Issuance",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2025"
   }
 ]
