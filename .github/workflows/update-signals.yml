@@ -21,6 +21,7 @@ jobs:
         with:
           ref: ${{ github.ref_name }}
           fetch-depth: 0
+          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -53,6 +54,7 @@ jobs:
           git commit -m "chore(data): refresh auto signals and intelligence briefs"
           # Use token-authenticated remote so the push is accepted even when
           # the checkout URL doesn't carry credentials.
+          git config --global --unset-all http.https://github.com/.extraheader || true
           git remote set-url origin "https://x-access-token:${DATA_PUSH_TOKEN}@github.com/${{ github.repository }}.git"
           echo "Attempting push to main..."
           git push --verbose origin HEAD:main 2>&1 || { echo "Push failed — see error above."; exit 1; }
