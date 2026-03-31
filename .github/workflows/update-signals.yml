@@ -34,6 +34,15 @@ jobs:
         env:
           DATA_PUSH_TOKEN: ${{ secrets.DATA_PUSH_TOKEN }}
         run: |
+          set -euo pipefail
+          echo "Workflow SHA: ${GITHUB_SHA}"
+          echo "Actor: ${GITHUB_ACTOR}"
+          echo "Ref: ${GITHUB_REF}"
+          if [ -z "${DATA_PUSH_TOKEN:-}" ]; then
+            echo "DATA_PUSH_TOKEN is empty or unavailable to this run."
+            exit 1
+          fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add auto_data.json intel_briefs.json
@@ -45,4 +54,5 @@ jobs:
           # Use token-authenticated remote so the push is accepted even when
           # the checkout URL doesn't carry credentials.
           git remote set-url origin "https://x-access-token:${DATA_PUSH_TOKEN}@github.com/${{ github.repository }}.git"
-          git push origin HEAD:main 2>&1 || { echo "Push failed — see error above"; exit 1; }
+          echo "Attempting push to main..."
+          git push --verbose origin HEAD:main 2>&1 || { echo "Push failed — see error above."; exit 1; }
