@@ -1,5 +1,24 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin enters the public bond market as Moody’s gives a first-of-its-kind crypto deal a rating",
+    "description": "A New Hampshire state authority is set to issue a first-of-its-kind bitcoin-backed bond with a Ba2 rating, marking an early test of how crypto can function as collateral inside traditional public finance markets.",
+    "date": "2026-03-31",
+    "source_url": "https://www.coindesk.com/markets/2026/03/31/bitcoin-enters-the-public-bond-market-as-moody-s-gives-a-first-of-its-kind-crypto-deal-a-rating",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Fed’s Barr invokes ‘long and painful history’ while encouraging strong stablecoin oversight",
     "description": "Michael Barr called for for regulatory and technological measures that ensure stablecoins will not be used for illicit activities.",
@@ -9532,27 +9551,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Adoption and welfare effects of payment innovations: the case of digital wallets in Peru",
-    "description": "by Arturo Andia, José Aurazo, Marcelo Paliza Digital wallets like Yape and Plin have gained widespread popularity in Peru, allowing users to make instant payments through quick response (QR) codes or mobile phone numbers. This paper examines the drivers of their adoption and their impact on everyday life. Using market share data for six digital payment instruments and cash from January 2019 to April 2024, we estimate the demand for payment instruments and find that features such as lower fees, 24/7 immediate payments, QR code payments, and interoperability with point-of-sale (POS) terminals are key to their success. Our estimates suggest that a PEN 0.01 (USD 0.003) increase in payer fees would reduce the market share of the digital wallets by 0.31 percentage points (pp), while debit cards and cash would gain usage. Simulations further indicate that removing 24/7 immediate transfers would reduce digital wallet usage by 15.75 pp, discontinuing POS payments by 26.01 pp, and eliminating QR code functionality by 4.45 pp. Furthermore, our findings suggest that the adoption of digital wallets has contributed to a sustained increase in consumer welfare per transaction among banked individuals over time.",
-    "date": "2026-02-09",
-    "source_url": "https://www.bis.org/publ/work1329.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
