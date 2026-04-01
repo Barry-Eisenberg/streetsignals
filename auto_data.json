@@ -1,6 +1,62 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Solana DeFi platform Drift investigates suspicious activity, tells users to halt deposits",
+    "description": "The platform halted deposits while it investigates suspicious activity and urges users to proceed with caution.",
+    "date": "2026-04-01",
+    "source_url": "https://www.coindesk.com/tech/2026/04/01/solana-defi-platform-drift-investigates-suspicious-activity-tells-users-to-halt-deposits",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Ripple launches treasury management system with native digital asset capabilities",
+    "description": "Ripple, a provider of blockchain-based enterprise solutions across traditional and digital finance, today announced the launch of Digital Asset Accounts and Unified Treasury within Ripple Treasury – the first native digital asset capabilities embedded directly into a treasury management system.",
+    "date": "2026-04-01",
+    "source_url": "https://www.finextra.com/pressarticle/109354/ripple-launches-treasury-management-system-with-native-digital-asset-capabilities",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "‘Not an April Fools joke’: Major Solana-based trading platform Drift exploited for at least $200 million",
+    "description": "The exploit, which started over two hours ago, seems to be targeting multiple Drift vaults, totaling at least $200 million.",
+    "date": "2026-04-01",
+    "source_url": "https://www.theblock.co/post/396107/solana-trading-platform-drift-exploited-at-least-200-million",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Galaxy Digital's testnet suffers hack but no client funds or information were compromised",
     "description": "Mike Novogratz’s crypto financial services firm said unauthorized access was limited to a segregated R&D workspace; trading systems and client accounts were unaffected.",
     "date": "2026-04-01",
@@ -6380,6 +6436,23 @@
     "year": "2026"
   },
   {
+    "institution": "Federal Reserve",
+    "initiative": "Federal Reserve Board issues enforcement actions with former employee of Ally Bank and former employee of Regions Bank",
+    "description": "Federal Reserve Board issues enforcement actions with former employee of Ally Bank and former employee of Regions Bank",
+    "date": "2026-03-20",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260320a.htm",
+    "category": "regulators",
+    "source_name": "Federal Reserve — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Connecting the Dots",
     "initiative": "Q&A: From Bootstrap Mentality to $1B ARR: How Airwallex Built Profitability Without Taking Shortcuts",
     "description": "Hey there, Global financial infrastructure has long been one of the most fragmented and complex challenges for businesses operating across borders, where compliance, FX exposure, and disconnected systems are the norm rather than the exception. Today, I&apos;m joined by Christos Chamberlain, General Manager of Airwallex UK and Europe,",
@@ -9486,85 +9559,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Mastercard Move Expands China Payment Access For Global SMEs",
-    "description": "Hey Payments Fanatic! Mastercard is extending its global money movement infrastructure in China.&#xA0;&#x1F1E8;&#x1F1F3; Mastercard Move is now connected to Bank of Shanghai , enabling bi-directional cross-border payments between China and global markets. That progression is worth watching. China exports more than $3 trillion each year. Fast and predictable",
-    "date": "2026-03-16",
-    "source_url": "https://www.connectingthedotsinpayments.com/mastercard-move-expands-china-payment-access-for-global-smes/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "Deep Dive: Mastercard Verifiable Intent vs Visa Trusted Agent Protocol",
-    "description": "Agentic commerce breaks a core assumption of online payments, that a human is directly clicking &#8220;buy&#8221; on a trusted surface.",
-    "date": "2026-03-15",
-    "source_url": "https://www.fintechwrapup.com/p/deep-dive-mastercard-verifiable-intent",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Worldline and ABN AMRO Extend Partnership To Strengthen Payments In The Netherlands",
-    "description": "Hey Payments Fanatic! As always, when the news of the day comes out of Amsterdam &#x1F1F3;&#x1F1F1;, it is hard not to feel a bit of excitement. Not just because it is home, but because the Dutch ecosystem has quietly become one of the most influential payments innovation hubs in",
-    "date": "2026-03-13",
-    "source_url": "https://www.connectingthedotsinpayments.com/worldline-and-abn-amro-extend-partnership-to-strengthen-payments-in-the-netherlands/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Stablecoins to Intelligent Payment Routing: Building an AI Payment Orchestration Layer (Prototype)",
-    "description": "Over the past year, I have been writing a series of articles exploring the evolution of stablecoins ...",
-    "date": "2026-03-13",
-    "source_url": "https://www.finextra.com/blogposting/31140/stablecoins-to-intelligent-payment-routing-building-an-ai-payment-orchestration-layer-prototype",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
