@@ -1,5 +1,40 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Mastercard carries out agentic transaction in Hong Kong",
+    "description": "Hong Kong is the latest market to get its first live Mastercard agentic transaction, with an AI booking a ride with mobility provider hoppa.",
+    "date": "2026-04-01",
+    "source_url": "https://www.finextra.com/newsarticle/47521/mastercard-carries-out-agentic-transaction-in-hong-kong",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "OpenFX raises $94m",
+    "description": "Foreign exchange infrastructure company OpenFX has raised $94 million in Series A funding.",
+    "date": "2026-04-01",
+    "source_url": "https://www.finextra.com/newsarticle/47520/openfx-raises-94m",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Bitcoin enters the public bond market as Moody’s gives a first-of-its-kind crypto deal a rating",
     "description": "A New Hampshire state authority is set to issue a first-of-its-kind bitcoin-backed bond with a Ba2 rating, marking an early test of how crypto can function as collateral inside traditional public finance markets.",
@@ -9511,47 +9546,6 @@
       "Interoperability & Standards"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "How Risk Transformation May Define Firms Ability to Stay Competitive",
-    "description": "In this FinextraTV interview, Adam Tait, General Manager of Specialised Finance at SBS, explored why 2026 is set to be a critical year for risk transformation in B2B fintech. Highlighting the convergence and structural pressures of reshaping assets and dealer finance, Tait discusses the limitations of today’s risk systems and the increased shift in user expectations on clarity and trust. Tait helped to outline the priorities firms must embrace, from updating risk platforms to building strong ecosystems to ensure that firms stay competitive in the industry for years to come. For all your fintech-related news, please visit https://www.finextra.com",
-    "date": "2026-02-11",
-    "source_url": "https://www.finextra.com/videoarticle/3449/how-risk-transformation-may-define-firms-ability-to-stay-competitive",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Market Growth & Digitisation: Advancing Mortgage Lending in 2026",
-    "description": "Joining the FinextraTV studio, Paul Walton, General Manager, UK Lending at SBS discussed the key points for UK mortgage lending looking forward in 2026. Walton highlights modest market growth, challenging customer retention and the slow progress toward a fully digitised mortgage process, due to outdated systems and data silos. Walton explains where and why friction still exists, why back‑end processing - more than the race for the ‘shiniest app’ - is now the real battleground in the industry. Describing a landscape where Fintechs are increasingly partnering with traditional institutions to streamline the home buying journey, Walton outlines an evolving, hybrid industry.",
-    "date": "2026-02-10",
-    "source_url": "https://www.finextra.com/videoarticle/3447/market-growth--digitisation-advancing-mortgage-lending-in-2026",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
     "year": "2026"
   }
 ]
