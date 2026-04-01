@@ -1,5 +1,123 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "The Protocol: Quantum computing could break Bitcoin sooner, says Google",
+    "description": "Also: OpenAI raises $122 billion, crypto ecosystems diverging post-quantum strategies, and Base’s 2026 roadmap.",
+    "date": "2026-04-01",
+    "source_url": "https://www.coindesk.com/tech/2026/04/01/the-protocol-quantum-computing-could-break-bitcoin-sooner-says-google",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Jamie Dimon signals JPMorgan entry into prediction markets as competition surges",
+    "description": "JPMorgan is weighing a move into prediction markets as crypto firms, startups and rivals like Goldman Sachs race to dominate the fast-growing sector.",
+    "date": "2026-04-01",
+    "source_url": "https://www.coindesk.com/markets/2026/04/01/jamie-dimon-signals-jpmorgan-entry-into-prediction-markets-as-competition-surges",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Cango raises capital as it faces NYSE delisting risk with shares below $1",
+    "description": "The bitcoin miner issued a $10 million convertible note and closed a $65 million insider-led round while racing to regain compliance with exchange rules.",
+    "date": "2026-04-01",
+    "source_url": "https://www.coindesk.com/business/2026/04/01/cango-raises-capital-as-it-faces-nyse-delisting-risk-with-shares-below-usd1",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Asset tokenization startup Brickken secures €3 million in funding",
+    "description": "Brickken, leading European tokenization infrastructure for financial institutions, has closed a €3 million pre-Series A round, bringing the company to a post-money valuation of €38 million.",
+    "date": "2026-04-01",
+    "source_url": "https://www.finextra.com/pressarticle/109353/asset-tokenization-startup-brickken-secures-3-million-in-funding",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Hong Kong misses March target for first stablecoin licenses",
+    "description": "Hong Kong authorities are pushing applicants to refine application details before granting stablecoin license approvals.",
+    "date": "2026-04-01",
+    "source_url": "https://www.theblock.co/post/396057/hong-kong-misses-march-target-first-stablecoin-licenses",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Stablecoin card issuing infrastructure platform Kulipa raises $6.2 million seed round",
+    "description": "Kulipa helps fintechs and wallets issue white-label stablecoin payment cards without managing card operations themselves.",
+    "date": "2026-04-01",
+    "source_url": "https://www.theblock.co/post/396063/stablecoin-card-kulipa-seed-round",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Bitcoin miner Cango secures financing as NYSE delisting looms amid low stock price",
     "description": "NYSE-listed Cango raised a total of $75 million from a strategic investment and a convertible note financing deal.",
@@ -9451,118 +9569,6 @@
       "CBDC",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "A public-private partnership? Central bank funding and credit supply",
-    "description": "by Matthieu Chavaz, David Elliott, Win Monroe We exploit the surprise announcement and subsequent amendment of a central bank funding scheme to test how public liquidity provision affects credit market outcomes. Contrary to the notion that public liquidity is primarily a substitute for private liquidity, banks that are more exposed to stress in private wholesale funding markets use less central bank funding.",
-    "date": "2026-03-12",
-    "source_url": "https://www.bis.org/publ/work1336.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FSB",
-    "initiative": "FSB kicks off new implementation phase to enhance cross-border payments through public-private partnership",
-    "description": "Third FSB Cross-border Payments Summit focuses on promoting closer private-public collaboration, with industry investment playing a decisive role in delivering real benefits for end users.",
-    "date": "2026-03-12",
-    "source_url": "https://www.fsb.org/2026/03/fsb-kicks-off-new-implementation-phase-to-enhance-cross-border-payments-through-public-private-partnership/",
-    "category": "regulators",
-    "source_name": "FSB — Publications",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FSB",
-    "initiative": "Reforming Cross-border payments: keynote speech at the FSB Payments Summit",
-    "description": "In a keynote speech at the FSB Payments Summit, Andrew Bailey, Chair of the Financial Stability Board, sets out what more the private sector, public authorities and international bodies need to do to achieve the G20's goals on cross-border payments.",
-    "date": "2026-03-12",
-    "source_url": "https://www.fsb.org/2026/03/reforming-cross-border-payments-keynote-speech-at-the-fsb-payments-summit/",
-    "category": "regulators",
-    "source_name": "FSB — Publications",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "OFAC Targets North Korean IT Worker Networks Using Cryptocurrency to Fund WMD Programs",
-    "description": "TL;DR OFAC designated six individuals and two entities for facilitating North Korean IT worker schemes that generated nearly $800 million&#8230; The post OFAC Targets North Korean IT Worker Networks Using Cryptocurrency to Fund WMD Programs appeared first on Chainalysis .",
-    "date": "2026-03-12",
-    "source_url": "https://www.chainalysis.com/blog/ofac-targets-north-korean-it-workers-crypto-march-2026/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Finperks Raises $4 Million To Build The Stripe For Prepaid",
-    "description": "Hey Payments Fanatic! Berlin-based FinTech finperks has raised $4 million (&#x20AC;3.4 M) in pre-Seed funding to build what it calls the &#x201C;Stripe for prepaid.&#x201D; The company is targeting a $1.39 trillion (&#x20AC;1.2 T) prepaid payments market that is still fragmented and outdated. The",
-    "date": "2026-03-12",
-    "source_url": "https://www.connectingthedotsinpayments.com/finperks-raises-4-million-to-build-the-stripe-for-prepaid/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Michelle W Bowman: Liquidity resiliency, financial stability, and the role of the Federal Reserve",
-    "description": "Speech by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the Roundtable on Liquidity and Lender of Last Resort, sponsored by the Committee on Capital Markets Regulation, Washington DC, 3 March 2026.",
-    "date": "2026-03-12",
-    "source_url": "https://www.bis.org/review/r260310d.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
