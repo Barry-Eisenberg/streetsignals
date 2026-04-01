@@ -1,5 +1,61 @@
 [
   {
+    "institution": "ESMA",
+    "initiative": "ESMA clarifies expectations in the run-up to the launch of EU’s Consolidated Tapes",
+    "description": "ESMA clarifies expectations in the run-up to the launch of EU’s Consolidated Tapes 01 April 2026 Market data Trading The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published Questions and Answers (Q&amp;As) on the onboarding of data contributors to the EU’s Consolidated Tapes (CTs), and on the operational rules for the Consolidated Tape Providers (CTPs). The goal is to increase certainty for all market participants in anticipation of the go-live of the EU’s CTs for bonds and for equities.&nbsp; &nbsp; The Q&amp;As are available via ESMA’s online Q&amp;A tool. &nbsp; In collaboration with National Competent Authorities, ESMA reminds that trading venues and Authorised Publication Arrangements have the legal obligation to contribute data to the CTPs from the CTs’ go‑live.&nbsp; &nbsp; In this context, ESMA expects the relevant data contributors to engage with the selected CTPs ahead of their formal authorisation, to ensure that the data transmission setup is in place before the CTs’ go‑live. This cooperation may include agreeing on the relevant transmission protocols and conducting connectivity and end‑to‑end testing. &nbsp; ESMA expects the selected CTPs to put appropriate arrangements in place to safeguard the confidentiality and integrity of information received during this preparatory phase. &nbsp; &nbsp; Background: &nbsp; In 2025, ESMA selected fairCT as the provider of the EU’s bonds CT and EuroCTP as the provider of the equities CT. The authorisation processes for both CTPs are currently ongoing. &nbsp; The selection procedure for the provider of the derivatives CT was launched in January 2026, and ESMA expects to announce the selected candidate by July 2026. &nbsp; &nbsp; Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu",
+    "date": "2026-04-01",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-clarifies-expectations-run-launch-eus-consolidated-tapes",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance",
+      "Interoperability & Standards",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Franklin Templeton launches crypto division with 250 Digital acquisition",
+    "description": "The asset manager is creating a new “Franklin Crypto” unit to expand beyond ETFs and target institutional demand for active digital asset strategies.",
+    "date": "2026-04-01",
+    "source_url": "https://www.coindesk.com/business/2026/04/01/franklin-templeton-launches-crypto-division-with-250-digital-acquisition",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Approvely embeds Sumsub's digital ID verification",
+    "description": "Sumsub, a global verification and anti-fraud leader, today announced a strategic partnership with Approvely, a fintech infrastructure platform serving regulated and high-risk industries across North America.",
+    "date": "2026-04-01",
+    "source_url": "https://www.finextra.com/pressarticle/109352/approvely-embeds-sumsubs-digital-id-verification",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "CoinDesk 20 performance update: Avalanche (AVAX) gains 4% as index moves higher",
     "description": "Hedera (HBAR), up 3.6% from Tuesday, was also among the top performers.",
@@ -9379,6 +9435,25 @@
     "year": "2026"
   },
   {
+    "institution": "FSB",
+    "initiative": "Reforming Cross-border payments: keynote speech at the FSB Payments Summit",
+    "description": "In a keynote speech at the FSB Payments Summit, Andrew Bailey, Chair of the Financial Stability Board, sets out what more the private sector, public authorities and international bodies need to do to achieve the G20's goals on cross-border payments.",
+    "date": "2026-03-12",
+    "source_url": "https://www.fsb.org/2026/03/reforming-cross-border-payments-keynote-speech-at-the-fsb-payments-summit/",
+    "category": "regulators",
+    "source_name": "FSB — Publications",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Chainalysis",
     "initiative": "OFAC Targets North Korean IT Worker Networks Using Cryptocurrency to Fund WMD Programs",
     "description": "TL;DR OFAC designated six individuals and two entities for facilitating North Korean IT worker schemes that generated nearly $800 million&#8230; The post OFAC Targets North Korean IT Worker Networks Using Cryptocurrency to Fund WMD Programs appeared first on Chainalysis .",
@@ -9484,76 +9559,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Sabine Mauderer: Presentation of the Deutsche Bundesbank's Annual Report 2025",
-    "description": "Statement by Dr Sabine Mauderer, First Deputy Governor of the Deutsche Bundesbank, at the press conference presenting the Annual Report 2025, Frankfurt am Main, 5 March 2026.",
-    "date": "2026-03-12",
-    "source_url": "https://www.bis.org/review/r260311c.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Mary-Elizabeth McMunn: Regulating with purpose &#8211; outcomes-focused regulation and supervision, a practitioner's perspective",
-    "description": "Remarks by Ms Mary-Elizabeth McMunn, Deputy Governor of the Central Bank of Ireland, at the Outcomes-focused Regulation in Financial Services conference, University College Dublin (UCD), Dublin, 9 March 2026.",
-    "date": "2026-03-12",
-    "source_url": "https://www.bis.org/review/r260311a.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "A public-private partnership? Central bank funding and credit supply",
-    "description": "by Matthieu Chavaz, David Elliott, Win Monroe We exploit the surprise announcement and subsequent amendment of a central bank funding scheme to test how public liquidity provision affects credit market outcomes. Contrary to the notion that public liquidity is primarily a substitute for private liquidity, banks that are more exposed to stress in private wholesale funding markets use less central bank funding.",
-    "date": "2026-03-12",
-    "source_url": "https://www.bis.org/publ/work1336.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FSB",
-    "initiative": "FSB kicks off new implementation phase to enhance cross-border payments through public-private partnership",
-    "description": "Third FSB Cross-border Payments Summit focuses on promoting closer private-public collaboration, with industry investment playing a decisive role in delivering real benefits for end users.",
-    "date": "2026-03-12",
-    "source_url": "https://www.fsb.org/2026/03/fsb-kicks-off-new-implementation-phase-to-enhance-cross-border-payments-through-public-private-partnership/",
-    "category": "regulators",
-    "source_name": "FSB — Publications",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
