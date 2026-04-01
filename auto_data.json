@@ -1,6 +1,60 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bitcoin ETFs post first monthly inflows since October as price stabilizes",
+    "description": "ETF AUM fell just 7% from the October highs, highlighting resilience despite a 50% price decline.",
+    "date": "2026-04-01",
+    "source_url": "https://www.coindesk.com/markets/2026/04/01/bitcoin-etfs-post-first-inflows-since-october-as-price-stabilizes",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "NatWest to offer embedded finance products to Sainsbury's customers",
+    "description": "NatWest and Sainsbury’s today announce a new agreement that will bring a range of new financial products to Sainsbury’s customers, with exclusive benefits for Nectar members.",
+    "date": "2026-04-01",
+    "source_url": "https://www.finextra.com/pressarticle/109344/natwest-to-offer-embedded-finance-products-to-sainsburys-customers",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "NinjaTrader signs AI deal with Adclear",
+    "description": "Adclear has announced it is partnering with NinjaTrader Group, LLC, the US-based global leader in retail futures and trading technology, to bring the power of AI to NinjaTrader’s marketing compliance processes through Adclear’s financial promotions platform.",
+    "date": "2026-04-01",
+    "source_url": "https://www.finextra.com/pressarticle/109341/ninjatrader-signs-ai-deal-with-adclear",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bitcoin’s old peaks aren’t untouchable anymore, and the days of parabolic rallies could be over",
     "description": "Bitcoin’s price retraces to old highs, signaling slower growth and a maturing market.",
     "date": "2026-04-01",
@@ -9513,65 +9567,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "Matt Marcus and Sam Aarons: The New Infrastructure for Instant, Multi-Rail Payments",
-    "description": "In this episode of the Wrap Up Podcast, I&#8217;m joined by Matt Marcus, CEO, and Sam Aarons, CTO of Modern Treasury.",
-    "date": "2026-02-27",
-    "source_url": "https://www.fintechwrapup.com/p/matt-marcus-and-sam-aarons-the-new",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "How Traditional Risk Management Frameworks Can Inspire Blockchain Growth",
-    "description": "In this Finextra TV interview from the Digital Assets Forum in London, Nilixa Devlukia, Policy Adviser, EMEA, Global Blockchain Business Council (GBBC) explores what risk‑management frameworks for blockchain can take from traditional financial ecosystems, what needs to be adapted, and what obstacles can occur. Devlukia explains the changing relationship between traditional finance and decentralised finance, observing a shift towards greater interest in the industry to adopt blockchain technology. There is an exploration of the benefits of blockchain whilst recognising the ongoing challenges of creating safe and secure global frameworks.",
-    "date": "2026-02-27",
-    "source_url": "https://www.finextra.com/videoarticle/3453/how-traditional-risk-management-frameworks-can-inspire-blockchain-growth",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "OKX Adopts Chainalysis Alterya to Stop Fraud Before It Happens",
-    "description": "OKX and Chainalysis today announced an expansion of their relationship focused on proactive fraud and scam prevention. Building on OKX’s&#8230; The post OKX Adopts Chainalysis Alterya to Stop Fraud Before It Happens appeared first on Chainalysis .",
-    "date": "2026-02-26",
-    "source_url": "https://www.chainalysis.com/blog/okx-adopts-alterya-fraud-prevention-february-2026/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
   }
