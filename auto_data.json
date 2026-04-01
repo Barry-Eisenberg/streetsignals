@@ -1,6 +1,138 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Brazil's B3 exchange to offer bitcoin-linked 'event contracts' for the ultra-rich",
+    "description": "The contracts are regulated by Brazil's securities regulator and designed for professional investors with at least 10 million reais ($1.9 million) in assets.",
+    "date": "2026-04-01",
+    "source_url": "https://www.coindesk.com/markets/2026/04/01/brazil-s-b3-stock-exchange-to-launch-bitcoin-linked-event-contracts",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "‘BSV Browser’ an elegant step toward a more Web3 world",
+    "description": "The BSV Browser combines secure web browsing with identity management and built-in payments, making Web3 accessible and user-friendly. The post &#8216;BSV Browser&#8217; an elegant step toward a more Web3 world appeared first on CoinGeek .",
+    "date": "2026-04-01",
+    "source_url": "https://coingeek.com/bsv-browser-an-elegant-step-toward-a-more-web3-world/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Visa and Ramp to use agentic AI to automate corporate bill pay",
+    "description": "Visa and financial operations platform Ramp are introducing AI agents to automate corporate bill payments.",
+    "date": "2026-04-01",
+    "source_url": "https://www.finextra.com/newsarticle/47526/visa-and-ramp-to-use-agentic-ai-to-automate-corporate-bill-pay",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Moniepoint enters Kenya with acquisition of Sumac Microfinance Bank",
+    "description": "Moniepoint Inc. (\"Moniepoint\" or the \"Company\"), Africa's all-in-one financial platform, announces the completion of its acquisition of Sumac Microfinance Bank Limited (\"Sumac\"), a Central Bank of Kenya-licensed microfinance institution.",
+    "date": "2026-04-01",
+    "source_url": "https://www.finextra.com/pressarticle/109346/moniepoint-enters-kenya-with-acquisition-of-sumac-microfinance-bank",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "CoinShares enters US public markets via Nasdaq after $1.2 billion Vine Hill SPAC merger",
+    "description": "CoinShares joins a growing wave of crypto firms tapping U.S. public markets after its $1.2 billion SPAC merger announced last September.",
+    "date": "2026-04-01",
+    "source_url": "https://www.theblock.co/post/396021/coinshares-enters-us-public-markets-via-nasdaq-after-1-2-billion-vine-hill-spac-merger",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Strategy Holds STRC Dividend at 11.5% for April as Bitcoin Treasury Preferred Stocks Prove Their Resilience",
+    "description": "The post Strategy Holds STRC Dividend at 11.5% for April as Bitcoin Treasury Preferred Stocks Prove Their Resilience appeared first on Unchained .",
+    "date": "2026-04-01",
+    "source_url": "https://unchainedcrypto.com/strategy-holds-strc-dividend-at-11-5-for-april-as-bitcoin-treasury-preferred-stocks-prove-their-resilience/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Bitcoin Closes Q1 2026 Down 23% — Its Worst Opening Quarter Since 2018",
+    "description": "The post Bitcoin Closes Q1 2026 Down 23% — Its Worst Opening Quarter Since 2018 appeared first on Unchained .",
+    "date": "2026-04-01",
+    "source_url": "https://unchainedcrypto.com/bitcoin-closes-q1-2026-down-23-its-worst-opening-quarter-since-2018/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Crypto rebounds as oil dips on Trump comments, but derivatives signal weak conviction",
     "description": "Bitcoin and ether rise alongside altcoins, yet muted open interest suggests the rally may rely on spot demand and short covering rather than strong leverage.",
     "date": "2026-04-01",
@@ -9427,146 +9559,6 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Getnet Posted $49.5M in Profit in 2025, Up 68% Year Over Year",
-    "description": "Hey Payments Fanatic! A notable update coming out of Chile &#x1F1E8;&#x1F1F1; Getnet , the acquiring arm of&#xA0;Banco Santander, reported&#xA0; $49.5 million in profit for 2025, a&#xA0;68% increase year over year. That performance puts Getnet ahead of&#xA0;Transbank&#xA0;in profitability for the period.",
-    "date": "2026-03-05",
-    "source_url": "https://www.connectingthedotsinpayments.com/getnet-posted-49-5m-in-profit-in-2025-up-68-year-over-year/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board announces termination of enforcement action with Wells Fargo",
-    "description": "Federal Reserve Board announces termination of enforcement action with Wells Fargo",
-    "date": "2026-03-05",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260305a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Agencies clarify the capital treatment of tokenized securities",
-    "description": "Agencies clarify the capital treatment of tokenized securities",
-    "date": "2026-03-05",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260305a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "CellPoint Digital Unlocks PayPal For Cross Border Commerce",
-    "description": "Hey Payments Fanatic! CellPoint Digital has gone live with PayPal inside its payment orchestration platform. One integration. Access to the PayPal wallet and Buy Now, Pay Later. This is now available to travel and retail merchants globally . Faster activation. Simplified operations. No additional standalone setup. PayPal is now embedded through",
-    "date": "2026-03-04",
-    "source_url": "https://www.connectingthedotsinpayments.com/cellpoint-digital-unlocks-paypal-for-cross-border-commerce/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "Iranian Crypto Outflows Spike After Airstrikes Amid a Year of Rising On-Chain Activity",
-    "description": "Update, 3/5/26 Earlier this week, we published an initial analysis of crypto outflows from Iranian exchanges in the immediate aftermath&#8230; The post Iranian Crypto Outflows Spike After Airstrikes Amid a Year of Rising On-Chain Activity appeared first on Chainalysis .",
-    "date": "2026-03-03",
-    "source_url": "https://www.chainalysis.com/blog/iranian-crypto-outflows-spike-after-airstrikes/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "PhotonPay Moves Beyond Payments with Hong Kong SFC Licenses",
-    "description": "Hey Payments Fanatic! Today started differently for me. I traded Caribbean heat in Cura&#xE7;ao for London&#x2019;s cooler air&#x2026; and far hotter payment conversations. But here&#x2019;s the story that stood out today. PhotonPay just secured a Trust or Company Service Provider license in Hong",
-    "date": "2026-03-03",
-    "source_url": "https://www.connectingthedotsinpayments.com/photonpay-moves-beyond-payments-with-hong-kong-sfc-licenses/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "From cash to crypto: towards a consistent regulatory approach to illicit payments",
-    "description": "The rapid evolution of cryptoassets, including stablecoins, and retail central bank digital currency (CBDC) has led to changes in regulatory frameworks to incorporate them. The expansion of options beyond bank deposits and cash calls for a holistic analysis of the effectiveness of anti-money laundering (AML) and combating the financing of terrorism (CFT) regimes across different payment instruments.",
-    "date": "2026-03-03",
-    "source_url": "https://www.bis.org/publ/bppdf/bispap166.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "CBDC",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
