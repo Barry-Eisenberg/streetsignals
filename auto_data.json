@@ -1,5 +1,63 @@
 [
   {
+    "institution": "Connecting the Dots",
+    "initiative": "Q&A: Why it’s time to rethink your APM strategy: A conversation with Checkout.com’s Manika Singh",
+    "description": "Payments are becoming an increasingly decisive lever for growth, particularly at checkout, where customer expectations, local preferences, and performance converge in seconds. I&#x2019;m joined by Manika Singh, VP of Product at Checkout.com, to explore how they approach alternative payment methods (APMs) at a global scale. In this",
+    "date": "2026-04-01",
+    "source_url": "https://www.connectingthedotsinpayments.com/q-a-why-its-time-to-rethink-your-apm-strategy-a-conversation-with-checkout-coms-manika-singh/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "eToro rolls out crypto trading in New York three years after receiving BitLicense",
+    "description": "Andrew McCormick, head of eToro U.S., said it was the first firm to receive a BitLicense in 2023 following the collapse of FTX.",
+    "date": "2026-04-01",
+    "source_url": "https://www.theblock.co/post/396136/etoro-crypto-trading-new-york-three-years-after-bitlicense",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Charles Schwab, Citadel-backed EDX joins list of crypto firms seeking national trust bank charter",
+    "description": "Crypto organizations to have applied for the charter include Bridge, Ripple, Circle, BitGo, Fidelity Digital Assets, and Paxos.",
+    "date": "2026-04-01",
+    "source_url": "https://www.theblock.co/post/396133/charles-schwab-citadel-backed-edx-joins-list-of-crypto-firms-seeking-national-trust-bank-charter",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Citadel-backed EDX Markets applies for U.S. trust charter to expand institutional crypto services",
     "description": "The Citadel-backed exchange is seeking approval to offer custody and asset services as institutional demand grows.",
@@ -9386,6 +9444,23 @@
     "year": "2026"
   },
   {
+    "institution": "BIS",
+    "initiative": "Ben Gully appointed Secretary General of the Basel Committee on Banking Supervision",
+    "description": "Ben Gully will lead the international standard setter's Secretariat in Basel. Mr Gully has been appointed for a three-year term, starting in August. He is currently Deputy Superintendent at the Office of the Superintendent of Financial Institutions (OSFI) in Canada.",
+    "date": "2026-03-17",
+    "source_url": "https://www.bis.org/press/p260317.htm",
+    "category": "regulators",
+    "source_name": "BIS — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Education & Engagement: Personalisation in the Era of the Great Wealth Transfer",
     "description": "Holly Mackay, Founder and MD, Boring Money talks about the current state of the self-directed investor: from pension management to education and engagement. Mackay explained that a key trouble is the enormity of the decision and the lack of understanding when it comes to the real benefit of a more active pension management. Mackay said there are tools out there to assist this and that educating the public on retirement protection and, most relevant in recent discussions, the reality of wealth transfers is about breaking it down into manageable pieces. When asked about how to enable a smooth transition of wealth, she professed her belief that it won't be a smooth process - with spousal transfers occurring first, she said that advice dissatisfaction, interpersonal troubles and communication will create the largest problems.",
@@ -9491,78 +9566,6 @@
       "Collateral & Lending"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Fundi Tshazibana: Building climate resilience amid structural shocks and policy divergence",
-    "description": "Address by Ms Fundi Tshazibana, Deputy Governor of the South African Reserve Bank and Chief Executive Officer of the Prudential Authority, at the South African Reserve Bank (SARB)-Network for Greening the Financial System (NGFS) Research Conference \"Navigating climate risks in Southern Africa\", hosted by the SARB, Pretoria, 11 March 2026.",
-    "date": "2026-03-17",
-    "source_url": "https://www.bis.org/review/r260316g.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Fabio Panetta: Closing remarks - Financial Stability Board cross-border payments summit",
-    "description": "Closing remarks by Mr Fabio Panetta, Governor of the Bank of Italy, at the Financial Stability Board (FSB) Payments Summit, hosted by the Bank of England, London, 12 March 2026.",
-    "date": "2026-03-17",
-    "source_url": "https://www.bis.org/review/r260316f.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Michelle W Bowman: Capital rules for the real economy",
-    "description": "Speech by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the Cato Institute Policy Forum \"Basel III and bank capital rules\", Washington DC, 12 March 2026.",
-    "date": "2026-03-17",
-    "source_url": "https://www.bis.org/review/r260316e.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Andrew Bailey: Reforming cross-border payments",
-    "description": "Speech by Mr Andrew Bailey, Governor of the Bank of England, at the Financial Stability Board (FSB) Payments Summit, hosted by the Bank of England, London, 12 March 2026.",
-    "date": "2026-03-17",
-    "source_url": "https://www.bis.org/review/r260316d.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
