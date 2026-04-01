@@ -1,5 +1,45 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Australia passes crypto regulation requiring exchanges to obtain financial services licenses",
+    "description": "Exchanges and custody platforms must obtain financial services licenses within six months under the new framework.",
+    "date": "2026-04-01",
+    "source_url": "https://www.coindesk.com/policy/2026/04/01/australia-passes-crypto-licensing-bill-as-ausd24-billion-opportunity-comes-into-focus",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "US indicts 10 foreign nationals for alleged crypto wash trading scheme",
+    "description": "US juries indicted 10 executives and employees at Gotbit, Vortex, Antier, and Contrarian for allegedly conducting wash trading.",
+    "date": "2026-04-01",
+    "source_url": "https://www.theblock.co/post/395997/us-indicts-crypto-wash-trading",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinGeek",
     "initiative": "KPMG to audit Tether, Circle sets stablecoin transaction record",
     "description": "Tether taps KPMG as its auditor, with PwC helping prepare systems, as Circle reaches a stablecoin milestone and euro tokens gain broader use. The post KPMG to audit Tether, Circle sets stablecoin transaction record appeared first on CoinGeek .",
@@ -9514,40 +9554,6 @@
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FSB",
-    "initiative": "Public responses to consultation on Scope of Insurers Subject to the Recovery and Resolution Planning Requirements in the FSB Key Attributes",
-    "description": "Consultation responses to ‘Scope of Insurers Subject to the Recovery and Resolution Planning Requirements in the FSB Key Attributes: Consultation report‘.",
-    "date": "2026-02-19",
-    "source_url": "https://www.fsb.org/2026/02/public-responses-to-consultation-on-scope-of-insurers-subject-to-the-recovery-and-resolution-planning-requirements-in-the-fsb-key-attributes/",
-    "category": "regulators",
-    "source_name": "FSB — Publications",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FSB",
-    "initiative": "Strategic review of FSB crisis preparedness activities",
-    "description": "The review aims to strengthen coordination and ensure the FSB’s approach to prepare for potential crises adapts to emerging vulnerabilities and structural changes in the financial system.",
-    "date": "2026-02-19",
-    "source_url": "https://www.fsb.org/2026/02/strategic-review-of-fsb-crisis-preparedness-activities/",
-    "category": "regulators",
-    "source_name": "FSB — Publications",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
       "General Infrastructure"
     ],
