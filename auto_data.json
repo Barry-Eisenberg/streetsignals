@@ -1,5 +1,41 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Galaxy Digital's testnet suffers hack but no client funds or information were compromised",
+    "description": "Mike Novogratz’s crypto financial services firm said unauthorized access was limited to a segregated R&D workspace; trading systems and client accounts were unaffected.",
+    "date": "2026-04-01",
+    "source_url": "https://www.coindesk.com/tech/2026/04/01/galaxy-digital-suffers-hack-but-no-client-funds-or-information-were-compromised",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Paradigm mulls prediction market entry with trading terminal, market making desk: Fortune",
+    "description": "Paradigm founder and Kalshi board member Matt Huang has previously said that prediction markets represent a trillion-dollar opportunity.",
+    "date": "2026-04-01",
+    "source_url": "https://www.theblock.co/post/396099/paradigm-prediction-market-trading-terminal-market-making-desk-fortune",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Treasury issues GENIUS Act rule proposal, seeks comment on state oversight for smaller issuers",
     "description": "Members of the public will have 60 days to respond to the Treasury’s notice of proposed rulemaking in the Federal Register.",
@@ -9530,40 +9566,6 @@
       "Stablecoins & Deposit Tokens",
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board issues enforcement actions with former employee of Equity Bank and former employee of First State Bank of Dongola",
-    "description": "Federal Reserve Board issues enforcement actions with former employee of Equity Bank and former employee of First State Bank of Dongola",
-    "date": "2026-03-13",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260313a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "The Pilot Graveyard: Why Bank AI Projects Stall Between Proof of Concept and Production",
-    "description": "The AI in banking market is on course from $26 billion to $546 billion. The gap between investment a...",
-    "date": "2026-03-13",
-    "source_url": "https://www.finextra.com/blogposting/31141/the-pilot-graveyard-why-bank-ai-projects-stall-between-proof-of-concept-and-production",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
