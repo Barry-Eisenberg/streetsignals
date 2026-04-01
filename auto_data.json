@@ -1,5 +1,43 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "These catalysts could bump bitcoin as Trump hands three-week target to end Iran war",
+    "description": "Asian stocks surged 4% and S&P 500 futures jumped after Trump said the conflict could conclude without a deal with Tehran, while Morgan Stanley's newly approved bitcoin ETF at 14 basis points opens a $6.2 trillion advisory channel.",
+    "date": "2026-04-01",
+    "source_url": "https://www.coindesk.com/markets/2026/04/01/these-catalysts-could-bump-bitcoin-as-trump-hands-three-week-target-to-end-iran-war",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Myanmar eyes cashless future for rice industry",
+    "description": "Myanmar's MRF RICE initiative promotes digital payments and financial literacy in the agricultural sector, enhancing farming efficiency. The post Myanmar eyes cashless future for rice industry appeared first on CoinGeek .",
+    "date": "2026-04-01",
+    "source_url": "https://coingeek.com/myanmar-eyes-cashless-future-for-rice-industry/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Connecting the Dots",
     "initiative": "FinTech dLocal Takes the Field with the Uruguay National Football Team",
     "description": "Hey Payments Fanatic! While most of the industry fanatics were looking at Las Vegas&#x2019; FinTech Meetup yesterday, a big move happened in Montevideo. dLocal, Uruguay&#x2019;s cross-border payments powerhouse, just became an official global sponsor of their national football team. More than a logo on a jersey; it&",
@@ -1886,6 +1924,25 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainalysis",
+    "initiative": "英国政府が Xinbi を制裁：中国語圏の暗号資産詐欺を支えるインフラの中核を指定",
+    "description": "※この記事は自動翻訳されています。正確な内容につきましては原文をご参照ください。 要約 英国外務・英連邦・開発省（FCDO）が中国語圏の主要な不正担保マーケットプレイス Xinbi を制裁指定。個別の加害者のみを対象とする従来の手法から、大規模詐欺エコシステムを支える金融「担保プラットフォーム」そのものに切り込む戦略的転換 Chainalysis のデータによると、Xinbi は 2021 年から 2025 年にかけて 199 億ドル超の決済を仲介。「Black U」マネーロンダリング、無許可 OTC 取引、個人情報データベース販売、詐欺インフラの提供など、あらゆる不正取引を仲介 FCDO はグローバル人権制裁制度に基づき Xinbi&#8230; The post 英国政府が Xinbi を制裁：中国語圏の暗号資産詐欺を支えるインフラの中核を指定 appeared first on Chainalysis .",
+    "date": "2026-03-27",
+    "source_url": "https://www.chainalysis.com/blog/xinbi-designation-chinese-language-crypto-scam-infrastructure-japanese/",
+    "category": "ecosystem",
+    "source_name": "Chainalysis — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
   },
@@ -9493,63 +9550,6 @@
       "Collateral & Lending"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Economic impact of AI in emerging market economies",
-    "description": "by Leonardo Gambacorta, Enisse Kharroubi, Aaron Mehrotra, Livia Pancotto The productivity and growth effects of artificial intelligence (AI) vary widely across countries, reflecting differences in sectoral composition and in the capacity to adopt and deploy AI. While advanced economies (AEs) are generally better positioned to reap the benefits of AI in the near term, substantial heterogeneity exists within emerging market economies (EMEs).",
-    "date": "2026-02-17",
-    "source_url": "https://www.bis.org/publ/bisbull121.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Dollar funding and housing markets: the role of non-US global banks",
-    "description": "by Torsten Ehlers, Mathias Hoffmann, Alexander Raabe House prices co-move considerably across countries. We show how non-US global banks and their exposure to US dollar funding conditions help explain this comovement. ..",
-    "date": "2026-02-16",
-    "source_url": "https://www.bis.org/publ/work1332.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Why Is Now the Right Time for More Sovereign Tokenisation Developments?",
-    "description": "In this Finextra TV interview from the Digital Assets Forum in London, Peter Left, Head of Digital and Market Innovation, Lloyds Banking Group. Left explores the Great British Tokenised Deposit (GBTD) initiative and how it positions the UK as a leader in tokenised money. Peter explains why tokenisation is gaining legitimacy and highlights a shift in mindset towards using blockchain technology to aide rather than replace traditional finance. Left also explores how tokenised deposits will meet existing compliance standards, and why national versions of tokenised money matter for preserving domestic financial systems. Left also covers the benefits of merging blockchain innovation with established banking infrastructure.",
-    "date": "2026-02-16",
-    "source_url": "https://www.finextra.com/videoarticle/3452/why-is-now-the-right-time-for-more-sovereign-tokenisation-developments",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
