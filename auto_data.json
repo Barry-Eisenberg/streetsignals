@@ -1,5 +1,58 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "Quantum Bayesian inference: an exploration",
+    "description": "by Jon Frost, Carlos Madeira, Yash Rastogi, Harald Uhlig This paper introduces a framework for performing Bayesian inference using quantum computation. It presents a proof-of-concept quantum algorithm that performs posterior sampling. We provide an accessible introduction to quantum computation for economists and a practical demonstration of quantum-based posterior sampling for Bayesian estimation.",
+    "date": "2026-04-01",
+    "source_url": "https://www.bis.org/publ/work1342.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "OpenAI raises a record $122 billion as revenue crosses $2 billion per month",
+    "description": "The funding round, anchored by Amazon, Nvidia, and SoftBank, is the largest private funding in history.",
+    "date": "2026-04-01",
+    "source_url": "https://www.coindesk.com/tech/2026/04/01/openai-raises-a-record-usd122-billion-at-as-revenue-crosses-usd2-billion-per-month",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Google Quantum Paper Speeds Up Timeline for Threat to Crypto to 3 Years",
+    "description": "Google&#8217;s Quantum AI team published a landmark whitepaper Tuesday that sharply compresses the estimated timeline for a quantum computer to break the cryptographic foundations of Bitcoin and Ethereum, triggering an industry-wide debate about how much runway remains before a potentially existential threat becomes actionable. The core finding: the number of ... The post Google Quantum Paper Speeds Up Timeline for Threat to Crypto to 3 Years appeared first on Unchained .",
+    "date": "2026-04-01",
+    "source_url": "https://unchainedcrypto.com/google-quantum-paper-speeds-up-timeline-for-threat-to-crypto-to-3-years/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Grayscale’s research head says tokenization will happen in waves and explains how to play it",
     "description": "Investors looking to bet on tokenization should think in phases, with institution-friendly networks like Canton likely winning first and Avalanche, Ethereum capturing more upside later, Grayscale's Zach Pandl said.",
@@ -9503,62 +9556,6 @@
     "initiative_types": [
       "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Mastercard Volumes Climb 33.6% In Kazakhstan’s Cashless Shift",
-    "description": "Hey Payments Fanatic! Mastercard is seeing strong momentum in Kazakhstan&#x2019;s shift away from cash. In January 2026 alone, 33.38 million cashless transactions were processed through the network. That is up 33.6% compared with January 2025. The value reached 795.1 billion tenge in local currency. Roughly",
-    "date": "2026-03-09",
-    "source_url": "https://www.connectingthedotsinpayments.com/mastercard-volumes-climb-33-6-in-kazakhstans-cashless-shift/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Robots, ICT and employment: evidence from advanced and emerging EU countries",
-    "description": "by Costanza Bosone, Leonardo Gambacorta, Paolo Giudici, Enisse Kharroubi, Ulf Lewrick We study how robot adoption and investment in information and communication technologies (ICT) jointly shape sectoral employment across 20 European Union (EU) countries over the period 1995-2020. Using a cross-sectional regression design that interacts changes in robot adoption with ICT investment, we find that increases in robot adoption are associated with higher employment in sectors that either entered the period without robots or invested little in ICT.",
-    "date": "2026-03-09",
-    "source_url": "https://www.bis.org/publ/work1334.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Governors and Heads of Supervision welcome progress to implement Basel III and discuss elements of the Basel Committee's work programme",
-    "description": "Group of Central Bank Governors and Heads of Supervision (GHOS) welcome the progress to fully implement Basel III. GHOS endorsed targeted reviews of the Committee's prudential standards for cryptoassets and global systemically important banks.",
-    "date": "2026-03-09",
-    "source_url": "https://www.bis.org/press/p260309.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
