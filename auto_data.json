@@ -1,6 +1,219 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bitcoin’s old peaks aren’t untouchable anymore, and the days of parabolic rallies could be over",
+    "description": "Bitcoin’s price retraces to old highs, signaling slower growth and a maturing market.",
+    "date": "2026-04-01",
+    "source_url": "https://www.coindesk.com/markets/2026/04/01/bitcoin-s-old-peaks-aren-t-untouchable-anymore-and-the-days-of-parabolic-rallies-could-be-over",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Crypto asset manager CoinShares to list on Nasdaq after $1.2 billion SPAC deal",
+    "description": "The listing makes CoinShares the latest crypto firm to go public and follows similar moves by BitGo, Circle, Bullish, and Gemini in recent years.",
+    "date": "2026-04-01",
+    "source_url": "https://www.coindesk.com/business/2026/04/01/crypto-asset-manager-coinshares-to-list-on-nasdaq-after-usd1-2-billion-spac-deal",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "TikTok seeks financial services licences in Brazil",
+    "description": "Social media platform TikTok is reportedly seeking approval from the Brazilian central bank for financial services licences that would allow it to operate as an electronic money and credit company.",
+    "date": "2026-04-01",
+    "source_url": "https://www.finextra.com/newsarticle/47525/tiktok-seeks-financial-services-licences-in-brazil",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "CaixaBank rolls out crypto investment services",
+    "description": "CaixaBank is to roll out two bitcoin-based crypto-asset investment vehicles in the coming months, offering custody, reception and execution of buy and sell orders.",
+    "date": "2026-04-01",
+    "source_url": "https://www.finextra.com/newsarticle/47524/caixabank-rolls-out-crypto-investment-services",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "B2C2 seleccts Solana as primary network for stablecoin settlement",
+    "description": "B2C2, a global leader in institutional digital asset liquidity, today announced a collaboration with the Solana Foundation to support institutional stablecoin activity on the Solana network.",
+    "date": "2026-04-01",
+    "source_url": "https://www.finextra.com/pressarticle/109339/b2c2-seleccts-solana-as-primary-network-for-stablecoin-settlement",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Creditsafe expands into UK consumer credit reporting",
+    "description": "Creditsafe, the global business intelligence provider, today outlined plans to broaden its UK credit services to include consumer credit reporting, building on its established UK presence and data capabilities to help build a more competitive, innovative and transparent credit information market.",
+    "date": "2026-04-01",
+    "source_url": "https://www.finextra.com/pressarticle/109338/creditsafe-expands-into-uk-consumer-credit-reporting",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Webull removes commission from UK and HK shares; launches stocks ISA",
+    "description": "Webull UK, an online investment platform and subsidiary of Webull Corporation (NASDAQ: BULL), today announced two significant enhancements to its service: the removal of commission on all US and Hong Kong shares and the launch of a flexible Stocks and Shares ISA.",
+    "date": "2026-04-01",
+    "source_url": "https://www.finextra.com/pressarticle/109337/webull-removes-commission-from-uk-and-hk-shares-launches-stocks-isa",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "ECB sets out strategy for future of European payments",
+    "description": "The Eurosystem has today published its comprehensive payments strategy, outlining its vision for the evolution of Europe’s payments amid rapid technological change.",
+    "date": "2026-04-01",
+    "source_url": "https://www.finextra.com/pressarticle/109336/ecb-sets-out-strategy-for-future-of-european-payments",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Crypto hack, exploit losses reach $52 million in March: PeckShield",
+    "description": "A significant portion of the losses came from an exploit on Resolv Labs, which lost $25 million worth of USR stablecoins.",
+    "date": "2026-04-01",
+    "source_url": "https://www.theblock.co/post/396010/crypto-hack-exploit-losses-52-million",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Australia passes bill requiring financial licenses for crypto platforms",
+    "description": "The bill mandates that digital asset platforms and tokenized custody platforms hold an Australian Financial Services Licence.",
+    "date": "2026-04-01",
+    "source_url": "https://www.theblock.co/post/396009/australia-passes-crypto-bill",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Tokenization & Issuance",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "SBI Holdings’ B2C2 designates Solana as primary stablecoin network for institutional clients",
+    "description": "Institutional liquidity provider B2C2 will now route and settle large-scale stablecoin transactions for its institutional clients on Solana.",
+    "date": "2026-04-01",
+    "source_url": "https://www.theblock.co/post/395985/b2c2-solana-institutional-stablecoin-network-sbi-holdings",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Australia passes crypto regulation requiring exchanges to obtain financial services licenses",
     "description": "Exchanges and custody platforms must obtain financial services licenses within six months under the new framework.",
     "date": "2026-04-01",
@@ -9360,204 +9573,6 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Basel Committee issues a consolidated version of its guidelines",
-    "description": "The Basel Committee has published a consultation on a consolidated version of its guidelines and sound practices. The consolidated version aims to improve accessibility and substantially streamline guidance materials. Comments on the consultation are requested by 26 June 2026.",
-    "date": "2026-02-26",
-    "source_url": "https://www.bis.org/press/p260226.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Format for Incident Reporting Exchange (FIRE) - Executive Summary",
-    "description": "The Financial Stability Board (FSB) report on the Format for Incident Reporting Exchange (FIRE), published in April 2025, establishes an approach to promote common information elements and requirements for reporting operational incidents by financial institutions to authorities. It aims to improve regulatory coordination in responding to operational incidents, thereby helping to enhance financial stability.",
-    "date": "2026-02-26",
-    "source_url": "https://www.bis.org/fsi/fsisummaries/exsum_23908.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Do What You Do Best: Partnerships as a Strategy for Future Resilience",
-    "description": "In this FinextraTV Predict 2026 interview, Emily Turner, Head of Strategic Alliances, ClearBank and Daria Dubinina, CEO and Co-Founder, Crassula highlight the evolving role of strategic partnerships in the financial services industry. They explore how collaborations have shifted from one-off engagements to longer-term strategic ecosystems. They highlight the importance of understanding each partner’s strengths, and how infrastructure, compliance, product, and market knowledge work hand-in-hand in this current digital-first world. They equally reflect on how major developments in AI and Digital Assets are reshaping the industry and making more intentional partnerships obligatory, not optional. Offering advice for how banks and growing fintech firms can align their strategies and goals, Turner and Dubinina paint a picture of a future of a successful and mutually beneficial co-existence.",
-    "date": "2026-02-26",
-    "source_url": "https://www.finextra.com/videoarticle/3456/do-what-you-do-best-partnerships-as-a-strategy-for-future-resilience",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Basel Committee discusses recent market developments and targeted review of cryptoasset standard",
-    "description": "Discusses vulnerabilities in government bond-backed repo markets. Discusses progress of a targeted review of the prudential standard for banks' cryptoasset exposures. Announces date and location of the International Conference of Banking Supervisors.",
-    "date": "2026-02-25",
-    "source_url": "https://www.bis.org/press/p260225.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "The UK's Race to October 2027: Predictions for a T+1 Future",
-    "description": "In this Finextra TV Predict 2026 interview, Val Wotton, Managing Director and Global Head of Equity Solutions at DTCC, discusses the industry’s shift toward 24/5 trading and movement towards accelerated settlement cycles. Wotton explores the opportunities and complexities of extended trading hours, and the industry’s work on limit up/limit down mechanisms. Highlighting the importance of investor protection and preparation to move to T+1, Wotton shares an optimistic views. Wotton also discusses the importance of the need to move away from batch practising and for firms to adopt modern systems in the leadup to the UK government's T+1 October '27 deadline.",
-    "date": "2026-02-25",
-    "source_url": "https://www.finextra.com/videoarticle/3455/the-uks-race-to-october-2027-predictions-for-a-t1-future",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board issues enforcement action with former employee of First Financial Bank",
-    "description": "Federal Reserve Board issues enforcement action with former employee of First Financial Bank",
-    "date": "2026-02-24",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260224a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Global giants in the AI supply chain",
-    "description": "by Jon Frost, Vatsala Shreeti, Kumar Rishabh Globally, the largest artificial intelligence (AI) firms are based in the United States, China, Chinese Taipei, Korea and the Netherlands. · These global AI giants account for an increasing share of total market capitalisation, capital expenditure and revenues in their respective jurisdictions. · For many AI giants &#8211; and particularly those from the United States and China &#8211; scope and scale go together as they expand the breadth of their activities into multiple layers in the AI supply chain.",
-    "date": "2026-02-23",
-    "source_url": "https://www.bis.org/publ/bisbull122.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FSB",
-    "initiative": "Thematic Peer Review on Public Sector Backstop Funding Mechanisms: Summary Terms of Reference",
-    "description": "Peer review aims to assess FSB members' progress and adherence with policies on establishing public sector backstop funding mechanisms, if needed as a last resort to achieve an orderly resolution.",
-    "date": "2026-02-23",
-    "source_url": "https://www.fsb.org/2026/02/thematic-peer-review-on-public-sector-backstop-funding-mechanisms-summary-terms-of-reference/",
-    "category": "regulators",
-    "source_name": "FSB — Publications",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Following earlier actions to remove reputation risk from its supervision of banks, Federal Reserve Board requests comment on proposal to codify that removal",
-    "description": "Following earlier actions to remove reputation risk from its supervision of banks, Federal Reserve Board requests comment on proposal to codify that removal",
-    "date": "2026-02-23",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260223a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "Deep Dive: How Zelle Scaled to $1.2 Trillion by Embedding Into Banking",
-    "description": "The Zelle network owned by Early Warning Services handled over $1.2 trillion in 2025 (20% growth) on roughly 4.2 billion transactions, far outpacing the 3&#8211;4% pace of U.S.",
-    "date": "2026-02-22",
-    "source_url": "https://www.fintechwrapup.com/p/deep-dive-how-zelle-scaled-to-12",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "Ruston Miles: What Agentic Commerce Actually Means 2026",
-    "description": "In this episode of the Wrap Up Podcast, I sit down with Ruston Miles, Founder of Bluefin and PCI Board of Advisors member, to break down what agentic commerce really means beyond the headlines.",
-    "date": "2026-02-20",
-    "source_url": "https://www.fintechwrapup.com/p/ruston-miles-what-agentic-commerce",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
