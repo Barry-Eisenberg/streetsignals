@@ -1,5 +1,45 @@
 [
   {
+    "institution": "CoinGeek",
+    "initiative": "KPMG to audit Tether, Circle sets stablecoin transaction record",
+    "description": "Tether taps KPMG as its auditor, with PwC helping prepare systems, as Circle reaches a stablecoin milestone and euro tokens gain broader use. The post KPMG to audit Tether, Circle sets stablecoin transaction record appeared first on CoinGeek .",
+    "date": "2026-04-01",
+    "source_url": "https://coingeek.com/kpmg-to-audit-tether-circle-sets-stablecoin-transaction-record/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bitcoin posts worst first quarter since 2018, falling 24%",
+    "description": "Analysts said long-term conviction in bitcoin is still intact, noting that the decline is more cyclical than fundamental.",
+    "date": "2026-04-01",
+    "source_url": "https://www.theblock.co/post/395991/bitcoin-worst-q1-since-2018",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Some quantum-resistant tokens jump 50% as Google flags risks to Bitcoin security",
     "description": "The so-called quantum-resistant coins rally as traders switch to potential long-term security.",
@@ -9512,46 +9552,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board announces it will hold a hybrid public outreach meeting on Thursday, March 26, as part of its review of regulations under the Economic Growth and Regulatory Paperwork Reduction Act (EGRPRA)",
-    "description": "Federal Reserve Board announces it will hold a hybrid public outreach meeting on Thursday, March 26, as part of its review of regulations under the Economic Growth and Regulatory Paperwork Reduction Act (EGRPRA)",
-    "date": "2026-02-19",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260219a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "How Global Tokenisation Deposits Are Unlocking New Economic Value",
-    "description": "In this Finextra TV interview from the Digital Assets Forum in London, Jacob Mikkel Hansen, CEO of the Nordic Blockchain Association, explores the evolving blockchain landscape in the Nordic region. Hansen explains how the Nordic region initially took a cautious stance toward blockchain due to strong established trust and limited early use cases. However, this has recently shifted towards a rapid adoption of stable coins, digital identity initiatives, and real-world applications in public-sector projects. Hansen helps to outline the growing institutional involvement and increased public engagement emphasising that blockchain is now unlocking new economic value through tokenised deposits and emerging digital infrastructure.",
-    "date": "2026-02-19",
-    "source_url": "https://www.finextra.com/videoarticle/3451/how-global-tokenisation-deposits-are-unlocking-new-economic-value",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
