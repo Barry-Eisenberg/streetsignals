@@ -1,5 +1,45 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Hong Kong hasn’t issued a single HKD stablecoin license after March target",
+    "description": "Officials flagged March for initial approvals, but licensing has yet to begin with no updated timeline",
+    "date": "2026-04-01",
+    "source_url": "https://www.coindesk.com/policy/2026/04/01/hong-kong-hasn-t-issued-a-single-hkd-stablecoin-license-after-march-target",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin is closer to its 'buy zone' than it's been in three years",
+    "description": "The gap between bitcoin's spot price and realized price is compressing toward levels that historically marked cycle bottoms, but the on-chain data shows the capitulation that typically precedes those bottoms hasn't happened.",
+    "date": "2026-04-01",
+    "source_url": "https://www.coindesk.com/markets/2026/03/31/bitcoin-is-closer-to-its-buy-zone-than-it-s-been-in-three-years",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Mastercard carries out agentic transaction in Hong Kong",
     "description": "Hong Kong is the latest market to get its first live Mastercard agentic transaction, with an AI booking a ride with mobility provider hoppa.",
@@ -32,6 +72,27 @@
       "Trading & Exchange"
     ],
     "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "New Hampshire authority to issue $100 million bitcoin-backed bond with speculative-grade rating from Moody’s",
+    "description": "BitGo will serve as custodian and liquidation agent responsible for liquidating bitcoin to make interest and principal payments.",
+    "date": "2026-03-31",
+    "source_url": "https://www.theblock.co/post/395979/new-hampshire-bitcoin-backed-bond",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
     "year": "2026"
   },
   {
@@ -9490,62 +9551,6 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Lending to vulnerable households and consumption: evidence from Korea",
-    "description": "by Jieun Lee, Ilhyock Shim Using a large quarterly consumer credit panel dataset from Korea covering 2017&#8211;2023, we present four key findings on the characteristics, lending sources, and macroeconomic consequences of vulnerable borrowers-namely, delinquent borrowers whose debt repayment is overdue at least 30 days, and borrowers whose debt service ratio is higher than 50% but who are not delinquent (\"zombie borrowers\").",
-    "date": "2026-02-12",
-    "source_url": "https://www.bis.org/publ/work1331.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "How UK Investment Growth is Accelerating Outside of London",
-    "description": "In this FinextraTV interview, David Wrench, Head of New Investment South at YFM Equity Partners explored the future growth opportunities for businesses across England - outside the traditional hub of London. Highlighting the rising deal activity and strength of diverse regional sectors heading into 2026, Wrench helped to describe a landscape that no longer requires a geographic monopoly on business. Allowing companies to tap into strong regional ecosystems, and providing more choice, greater talent, and a stronger focus on location specialities, Wrench expects yet more accelerated growth in non-London regions.",
-    "date": "2026-02-12",
-    "source_url": "https://www.finextra.com/videoarticle/3450/how-uk-investment-growth-is-accelerating-outside-of-london",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "The next generation of insurance supervision - resourcing the future",
-    "description": "As the insurance market landscape continues to change, insurance supervisors require adequate human, financial and technological resources to deliver on their supervisory objectives, respond to market developments, implement regulatory reforms in line with international standards and cope with technological advancements and expanding supervisory mandates. Drawing on a survey of 23 insurance supervisors, encompassing both advanced and emerging market economies, this paper outlines key challenges in securing adequate resources and identifies approaches for effective identification and allocation of supervisory resources.",
-    "date": "2026-02-11",
-    "source_url": "https://www.bis.org/fsi/publ/insights72.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
