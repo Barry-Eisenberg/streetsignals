@@ -1,5 +1,24 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Bithumb crypto exchange stretches IPO timeline to 2028",
+    "description": "Bithumb is extending its IPO runway as it works through internal fixes while rival Upbit works on its own public listing.",
+    "date": "2026-04-01",
+    "source_url": "https://www.theblock.co/post/396088/bithumb-crypto-exchange-stretches-ipo-timeline-2028",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Solana DeFi platform Drift investigates suspicious activity, tells users to halt deposits",
     "description": "The platform halted deposits while it investigates suspicious activity and urges users to proceed with caution.",
@@ -9541,25 +9560,6 @@
       "Payments & Transfers"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Senate ignores CLARITY Act; $TRUMP dinner revives ‘ethics’ issue",
-    "description": "U.S. Senate Banking Committee faces hurdles with the CLARITY digital asset bill amidst Trump’s $TRUMP memecoin dinner and ongoing crypto regulations. The post Senate ignores CLARITY Act; $TRUMP dinner revives ‘ethics’ issue appeared first on CoinGeek .",
-    "date": "2026-03-17",
-    "source_url": "https://coingeek.com/senate-ignores-clarity-act-trump-dinner-revives-ethics-issue/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
