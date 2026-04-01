@@ -1,5 +1,156 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "CoinDesk 20 performance update: Avalanche (AVAX) gains 4% as index moves higher",
+    "description": "Hedera (HBAR), up 3.6% from Tuesday, was also among the top performers.",
+    "date": "2026-04-01",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/01/coindesk-20-performance-update-avalanche-avax-gains-4-as-index-moves-higher",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin’s crashes are shrinking, and Wall Street is starting to notice",
+    "description": "Not all analysts agree that further drawdowns are over, as Bloomberg Analyst Mike McGlone insists the crypto bubble is over and bitcoin could still revisit $10,000.",
+    "date": "2026-04-01",
+    "source_url": "https://www.coindesk.com/markets/2026/04/01/bitcoin-s-crashes-are-shrinking-and-wall-street-is-starting-to-notice",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Rain and Episode Six form stablecoin alliance",
+    "description": "Rain, the enterprise-grade infrastructure for stablecoin-powered payments, today announced a strategic partnership with Episode Six, a leading global payment technology company and card issuer processor.",
+    "date": "2026-04-01",
+    "source_url": "https://www.finextra.com/pressarticle/109350/rain-and-episode-six-form-stablecoin-alliance",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Paymentology wins contract with South Africa's Bank Zero",
+    "description": "Paymentology, the leading global issuer-processor, today announced a new partnership with Bank Zero to accelerate access to modern digital banking in South Africa.",
+    "date": "2026-04-01",
+    "source_url": "https://www.finextra.com/pressarticle/109349/paymentology-wins-contract-with-south-africas-bank-zero",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "FactSet launches AI-powered ecosystem for banking",
+    "description": "FactSet (NYSE:FDS | NASDAQ:FDS), a global financial digital platform and enterprise solutions provider, today announced the alpha launch of FactSet AI for Banking, an AI-powered workflow automation ecosystem.",
+    "date": "2026-04-01",
+    "source_url": "https://www.finextra.com/pressarticle/109348/factset-launches-ai-powered-ecosystem-for-banking",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Lightyear Capital completes acquisition of PayByPhone",
+    "description": "Lightyear Capital, a New York-based private equity firm with over US$8 billion in assets under management, has completed its acquisition of PayByPhone, a leading provider of digital parking payments and mission-critical parking management software to more than 1,300 clients globally, from Corpay",
+    "date": "2026-04-01",
+    "source_url": "https://www.finextra.com/pressarticle/109347/lightyear-capital-completes-acquisition-of-paybyphone",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "OpenEden issues first tokenized access to BNY’s Global Short-Dated High-Yield Bond strategy",
+    "description": "OpenEden launches HYBOND token offering onchain access to BNY Investments’ Global Short-Dated High-Yield Bond strategy.",
+    "date": "2026-04-01",
+    "source_url": "https://www.theblock.co/post/395910/openeden-issues-first-tokenized-access-to-bnys-global-short-dated-high-yield-bond-strategy",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bitcoin traders show ‘aggressive caution’ heading into typically low-volume Easter period: K33",
+    "description": "Bitcoin defensive positioning is building into a potential Easter-driven slowdown, according to analysts at K33.",
+    "date": "2026-04-01",
+    "source_url": "https://www.theblock.co/post/396039/bitcoin-traders-show-aggressive-caution-heading-into-typically-low-volume-easter-period-k33",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Quantum Bayesian inference: an exploration",
     "description": "by Jon Frost, Carlos Madeira, Yash Rastogi, Harald Uhlig This paper introduces a framework for performing Bayesian inference using quantum computation. It presents a proof-of-concept quantum algorithm that performs posterior sampling. We provide an accessible introduction to quantum computation for economists and a practical demonstration of quantum-based posterior sampling for Bayesian estimation.",
@@ -9402,160 +9553,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FSB",
-    "initiative": "Reforming Cross-border payments: keynote speech at the FSB Payments Summit",
-    "description": "In a keynote speech at the FSB Payments Summit, Andrew Bailey, Chair of the Financial Stability Board, sets out what more the private sector, public authorities and international bodies need to do to achieve the G20's goals on cross-border payments.",
-    "date": "2026-03-12",
-    "source_url": "https://www.fsb.org/2026/03/reforming-cross-border-payments-keynote-speech-at-the-fsb-payments-summit/",
-    "category": "regulators",
-    "source_name": "FSB — Publications",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "Assessing the FATF Targeted Report: The Shift Toward Secondary Market Monitoring for Stablecoins",
-    "description": "TL;DR The 84% reality: Stablecoins now account for the vast majority of illicit crypto transaction volume. This shift — aligned&#8230; The post Assessing the FATF Targeted Report: The Shift Toward Secondary Market Monitoring for Stablecoins appeared first on Chainalysis .",
-    "date": "2026-03-11",
-    "source_url": "https://www.chainalysis.com/blog/fatf-targeted-report-secondary-market-monitoring-stablecoins-march-2026/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Vipps MobilePay Just Plugged Greenland Into The Nordic Payments Network",
-    "description": "Hey Payments Fanatic! Guess who annexed Greenland first? &#xA0;&#x1F440; &#x1F1EC;&#x1F1F1; Relax. Only in the world of&#xA0; Payments . Lately, a lot of people seem very interested in the island. Some talk about its strategic location. Others mention Arctic routes, rare earth minerals, or why a giant landmass covered",
-    "date": "2026-03-11",
-    "source_url": "https://www.connectingthedotsinpayments.com/vipps-mobilepay-just-plugged-greenland-into-the-nordic-payments-network/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Why Climate Action and Sustainable Investing Are Financial Risk Management",
-    "description": "In this FinextraTV Predict 2026 interview, Dazzle Bhujwala, Senior Director, Sustainable Investing, Ceres and Peter Cashion, Managing Investment Director, Sustainable Investments, CalPERS explore how investors are treating climate risk as financial and operational risk. They also explore how shifting policies and developing technologies, such as AI, are changing investment strategies. Highlighting why investors are increasingly focusing on climate as financial risk, Cashion and Bhujwala detail the increased ease provided by AI-driven systems that enable transitional accelerations. They explore the growing investment opportunities in clean energy and climate adaptation solutions.",
-    "date": "2026-03-11",
-    "source_url": "https://www.finextra.com/videoarticle/3458/why-climate-action-and-sustainable-investing-are-financial-risk-management",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Cross-border payment technologies: innovations and challenges",
-    "description": "Cross-border payments (XBP), particularly remittances and retail transactions, remain more costly, slower, less accessible, and less transparent than domestic payments. The continued inefficient XBP arrangements, in contrast to progress made in domestic payments using new technologies and innovative models, reflect that private actors alone cannot overcome the many market failures that hinder XBP. The most binding constraint concerns the limited interoperability which relates to the multi-sided market frictions in XBP and the institutional differences between countries.",
-    "date": "2026-03-11",
-    "source_url": "https://www.bis.org/publ/bppdf/bispap167.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "LiaPay Launches Earned Wage Access Card For UAE Workers",
-    "description": "Hey Payments Fanatic! Mawarid Finance and Liabify have partnered to launch LiaPay in the UAE. A prepaid Platinum Mastercard designed for middle-income workers. At the core sits Earned Wage Access. Employees can access their earned salary directly through the app. The card runs within Mawarid Finance&#x2019;s regulated and",
-    "date": "2026-03-10",
-    "source_url": "https://www.connectingthedotsinpayments.com/liapay-launches-earned-wage-access-card-for-uae-workers/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board announces termination of enforcement actions with Industrial and Commercial Bank of China Ltd., Industrial and Commercial Bank of China Ltd., New York Branch, Standard Chartered PLC, and Standard Chartered Bank",
-    "description": "Federal Reserve Board announces termination of enforcement actions with Industrial and Commercial Bank of China Ltd., Industrial and Commercial Bank of China Ltd., New York Branch, Standard Chartered PLC, and Standard Chartered Bank",
-    "date": "2026-03-10",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260310a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Tokenomics and blockchain fragmentation",
-    "description": "by Hyun Song Shin Money is a coordination device underpinned by strong network effects: the more others accept a form of money, the more I wish to adopt it too. The decentralisation agenda of public permissionless blockchains undercuts these network effects and leads to fragmentation of the monetary landscape.",
-    "date": "2026-03-10",
-    "source_url": "https://www.bis.org/publ/work1335.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
   }
