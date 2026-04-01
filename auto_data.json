@@ -1,5 +1,24 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Bitcoin miner Cango secures financing as NYSE delisting looms amid low stock price",
+    "description": "NYSE-listed Cango raised a total of $75 million from a strategic investment and a convertible note financing deal.",
+    "date": "2026-04-01",
+    "source_url": "https://www.theblock.co/post/396056/bitcoin-miner-cango-secures-financing-nyse-delisting-looms-low-stock-price",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA",
     "initiative": "ESMA clarifies expectations in the run-up to the launch of EU’s Consolidated Tapes",
     "description": "ESMA clarifies expectations in the run-up to the launch of EU’s Consolidated Tapes 01 April 2026 Market data Trading The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published Questions and Answers (Q&amp;As) on the onboarding of data contributors to the EU’s Consolidated Tapes (CTs), and on the operational rules for the Consolidated Tape Providers (CTPs). The goal is to increase certainty for all market participants in anticipation of the go-live of the EU’s CTs for bonds and for equities.&nbsp; &nbsp; The Q&amp;As are available via ESMA’s online Q&amp;A tool. &nbsp; In collaboration with National Competent Authorities, ESMA reminds that trading venues and Authorised Publication Arrangements have the legal obligation to contribute data to the CTPs from the CTs’ go‑live.&nbsp; &nbsp; In this context, ESMA expects the relevant data contributors to engage with the selected CTPs ahead of their formal authorisation, to ensure that the data transmission setup is in place before the CTs’ go‑live. This cooperation may include agreeing on the relevant transmission protocols and conducting connectivity and end‑to‑end testing. &nbsp; ESMA expects the selected CTPs to put appropriate arrangements in place to safeguard the confidentiality and integrity of information received during this preparatory phase. &nbsp; &nbsp; Background: &nbsp; In 2025, ESMA selected fairCT as the provider of the EU’s bonds CT and EuroCTP as the provider of the equities CT. The authorisation processes for both CTPs are currently ongoing. &nbsp; The selection procedure for the provider of the derivatives CT was launched in January 2026, and ESMA expects to announce the selected candidate by July 2026. &nbsp; &nbsp; Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu",
@@ -9435,6 +9454,42 @@
     "year": "2026"
   },
   {
+    "institution": "BIS",
+    "initiative": "A public-private partnership? Central bank funding and credit supply",
+    "description": "by Matthieu Chavaz, David Elliott, Win Monroe We exploit the surprise announcement and subsequent amendment of a central bank funding scheme to test how public liquidity provision affects credit market outcomes. Contrary to the notion that public liquidity is primarily a substitute for private liquidity, banks that are more exposed to stress in private wholesale funding markets use less central bank funding.",
+    "date": "2026-03-12",
+    "source_url": "https://www.bis.org/publ/work1336.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "FSB",
+    "initiative": "FSB kicks off new implementation phase to enhance cross-border payments through public-private partnership",
+    "description": "Third FSB Cross-border Payments Summit focuses on promoting closer private-public collaboration, with industry investment playing a decisive role in delivering real benefits for end users.",
+    "date": "2026-03-12",
+    "source_url": "https://www.fsb.org/2026/03/fsb-kicks-off-new-implementation-phase-to-enhance-cross-border-payments-through-public-private-partnership/",
+    "category": "regulators",
+    "source_name": "FSB — Publications",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "FSB",
     "initiative": "Reforming Cross-border payments: keynote speech at the FSB Payments Summit",
     "description": "In a keynote speech at the FSB Payments Summit, Andrew Bailey, Chair of the Financial Stability Board, sets out what more the private sector, public authorities and international bodies need to do to achieve the G20's goals on cross-border payments.",
@@ -9506,57 +9561,6 @@
     "fmi_areas": [
       "Collateral & Lending",
       "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Chang Yong Rhee: The future of Asia - can it remain the engine of global growth?",
-    "description": "Keynote speech by Mr Chang Yong Rhee, Governor of the Bank of Korea, at the \"Asia in 2050 Conference\", organised by the International Monetary Fund and the Bank of Thailand, Bangkok, 5 March 2026.",
-    "date": "2026-03-12",
-    "source_url": "https://www.bis.org/review/r260310a.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Swaminathan J: Digitalisation for inclusive finance and sustainability - priorities for the next phase",
-    "description": "Valedictory address by Mr Swaminathan J, Deputy Governor of the Reserve Bank of India, at the International Conference on \"Digitalisation for inclusive finance and sustainability\", organised by the National Institute of Bank Management (NIBM) and the College of Agricultural Banking (CAB), Pune, 6 March 2026.",
-    "date": "2026-03-12",
-    "source_url": "https://www.bis.org/review/r260310h.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Frank Elderson: Nature in decline, economy on the line - the importance of international cooperation for managing nature-related risks",
-    "description": "Opening remarks by Mr Frank Elderson, Member of the Executive Board of the European Central Bank and Vice-Chair of the Supervisory Board of the European Central Bank, at the Network for Greening the Financial System (NGFS) Annual Plenary Event panel discussion \"Incorporating nature into supervisory practices\", Pretoria, 9 March 2026.",
-    "date": "2026-03-12",
-    "source_url": "https://www.bis.org/review/r260311d.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
     ],
     "initiative_types": [],
     "year": "2026"
