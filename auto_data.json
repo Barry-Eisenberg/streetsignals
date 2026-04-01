@@ -1,6 +1,44 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Crypto rebounds as oil dips on Trump comments, but derivatives signal weak conviction",
+    "description": "Bitcoin and ether rise alongside altcoins, yet muted open interest suggests the rally may rely on spot demand and short covering rather than strong leverage.",
+    "date": "2026-04-01",
+    "source_url": "https://www.coindesk.com/markets/2026/04/01/crypto-rebounds-as-oil-dips-on-trump-comments-but-derivatives-signal-weak-conviction",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Uniswap Foundation held $85.8M at year-end, committed $26M in grants during 2025",
+    "description": "Unaudited financials show the DeFi protocol's foundation had runway through January 2027 before the UNIfication governance overhaul passed in late December.",
+    "date": "2026-04-01",
+    "source_url": "https://www.coindesk.com/business/2026/04/01/uniswap-foundation-held-usd85-8m-at-year-end-committed-usd26m-in-grants-during-2025",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bitcoin ETFs post first monthly inflows since October as price stabilizes",
     "description": "ETF AUM fell just 7% from the October highs, highlighting resilience despite a 50% price decline.",
     "date": "2026-04-01",
@@ -9529,44 +9567,6 @@
       "CBDC",
       "Crypto / Digital Assets",
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Dots Raises $8.9M to Double Down on Global Payout Infrastructure",
-    "description": "Hey Payments Fanatic! Quick one that caught my attention today. While everyone talks about acquiring payments, another layer of the stack keeps scaling quietly: payouts. Dots just raised $8.9M in a Series A led by DCM Ventures, with participation from Y Combinator. Dots isn&#x2019;t trying to help",
-    "date": "2026-03-02",
-    "source_url": "https://www.connectingthedotsinpayments.com/dots-raises-8-9m-to-double-down-on-global-payout-infrastructure/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "Deep Dive: Why Fintechs and Crypto Companies Want US Bank Charters",
-    "description": "I treat &#8220;getting a charter&#8221; as buying a different physics model for your business.",
-    "date": "2026-03-01",
-    "source_url": "https://www.fintechwrapup.com/p/deep-dive-why-fintechs-and-crypto",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
