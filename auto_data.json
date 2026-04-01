@@ -1,5 +1,25 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Citadel-backed EDX Markets applies for U.S. trust charter to expand institutional crypto services",
+    "description": "The Citadel-backed exchange is seeking approval to offer custody and asset services as institutional demand grows.",
+    "date": "2026-04-01",
+    "source_url": "https://www.coindesk.com/markets/2026/04/01/citadel-backed-edx-markets-applies-for-u-s-trust-charter-to-expand-institutional-crypto-services",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Bithumb crypto exchange stretches IPO timeline to 2028",
     "description": "Bithumb is extending its IPO runway as it works through internal fixes while rival Upbit works on its own public listing.",
@@ -9543,23 +9563,6 @@
     "initiative_types": [
       "Leadership & Governance"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Education & Engagement: Personalisation in the Era of the Great Wealth Transfer",
-    "description": "Holly Mackay, Founder and MD, Boring Money talks about the current state of the self-directed investor: from pension management to education and engagement. Mackay explained that a key trouble is the enormity of the decision and the lack of understanding when it comes to the real benefit of a more active pension management. Mackay said there are tools out there to assist this and that educating the public on retirement protection and, most relevant in recent discussions, the reality of wealth transfers is about breaking it down into manageable pieces. When asked about how to enable a smooth transition of wealth, she professed her belief that it won't be a smooth process - with spousal transfers occurring first, she said that advice dissatisfaction, interpersonal troubles and communication will create the largest problems.",
-    "date": "2026-03-17",
-    "source_url": "https://www.finextra.com/videoarticle/3473/education--engagement-personalisation-in-the-era-of-the-great-wealth-transfer",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
