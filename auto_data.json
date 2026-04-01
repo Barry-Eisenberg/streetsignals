@@ -1,6 +1,83 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Grayscale’s research head says tokenization will happen in waves and explains how to play it",
+    "description": "Investors looking to bet on tokenization should think in phases, with institution-friendly networks like Canton likely winning first and Avalanche, Ethereum capturing more upside later, Grayscale's Zach Pandl said.",
+    "date": "2026-04-01",
+    "source_url": "https://www.coindesk.com/markets/2026/04/01/grayscale-s-research-head-says-tokenization-will-happen-in-waves-and-explains-how-to-play-it",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Uniswap Foundation projects funding runway through January 2027 as treasury reaches $85.8 million",
+    "description": "Uniswap Foundation disclosed $85.8 million in assets and projected funding through 2027 while ranking high among monthly DeFi fees.",
+    "date": "2026-04-01",
+    "source_url": "https://www.theblock.co/post/396027/uniswap-foundation-projects-funding-runway-through-january-2027-as-treasury-reaches-85-8-million",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Franklin Templeton agrees to buy CoinFund spinoff to expand crypto investment offering: WSJ",
+    "description": "Following the close of the deal, its new crypto arm will be called Franklin Crypto, with strategies focused on institutional investors.",
+    "date": "2026-04-01",
+    "source_url": "https://www.theblock.co/post/396030/franklin-templeton-agrees-to-buy-coinfund-spinoff-to-expand-crypto-investment-offering-wsj",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Bitcoin ETFs Return to Monthly Inflows for the First Time Since October — But Q1 Still Ends in the Red",
+    "description": "The post Bitcoin ETFs Return to Monthly Inflows for the First Time Since October — But Q1 Still Ends in the Red appeared first on Unchained .",
+    "date": "2026-04-01",
+    "source_url": "https://unchainedcrypto.com/bitcoin-etfs-post-first-monthly-inflows-since-october-2025-as-btc-price-stabilizes/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Brazil's B3 exchange to offer bitcoin-linked 'event contracts' for the ultra-rich",
     "description": "The contracts are regulated by Brazil's securities regulator and designed for professional investors with at least 10 million reais ($1.9 million) in assets.",
     "date": "2026-04-01",
@@ -9481,83 +9558,6 @@
     ],
     "initiative_types": [
       "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Checkout.com Named Leader In Forrester Payments Ranking",
-    "description": "Hey Payments Fanatic! Checkout.com has been named a Leader in the Forrester Wave&#x2122;: Merchant Payment Providers, Q1 2026. The company was the only vendor to receive the highest possible score for Merchant Experience. Forrester highlighted Checkout.com&#x2019;s strength in extracting maximum performance from supported payment methods",
-    "date": "2026-03-06",
-    "source_url": "https://www.connectingthedotsinpayments.com/checkout-com-named-leader-in-forrester-payments-ranking/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "Georgios Kolovos: Inside NVIDIA’s Vision for AI in Payments",
-    "description": "In this episode of the Wrap Up Podcast, I sit down with Georgios Kolovos, NVIDIA fintech and payments lead, to explore how AI is reshaping the payments and fintech industry.",
-    "date": "2026-03-06",
-    "source_url": "https://www.fintechwrapup.com/p/georgios-kolovos-inside-nvidias-vision",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Generative AI for surveys on payment apps: AI views on privacy and technology",
-    "description": "by Koji Takahashi, Joon Suk Park This study uses ChatGPT to simulate survey responses about payment apps, focusing on privacy and perceived benefits. By designing prompts that mirror real user characteristics, the generated responses align with findings from a Dutch survey, especially when grouped by privacy concern. Privacy-concerned agents view apps less favorably, while users show more positive attitudes than non-users, even without such traits in the prompt.",
-    "date": "2026-03-06",
-    "source_url": "https://www.bis.org/publ/work1333.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "Crypto Crime in 2025 Was Primarily Driven by 694% Surge in State-Driven Sanctions Evasion Volume",
-    "description": "TL;DR The value received by sanctioned entities surged 694% in 2025, driving total illicit transaction volume to a record $154&#8230; The post Crypto Crime in 2025 Was Primarily Driven by 694% Surge in State-Driven Sanctions Evasion Volume appeared first on Chainalysis .",
-    "date": "2026-03-05",
-    "source_url": "https://www.chainalysis.com/blog/crypto-sanctions-2026/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
