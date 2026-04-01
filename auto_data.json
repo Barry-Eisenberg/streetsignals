@@ -1,6 +1,45 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Crypto Long & Short: Governance is the real Layer 1",
+    "description": "In this week’s Crypto Long & Short Newsletter, Nilmini Rubin writes on the challenge facing crypto and traditional markets to create a hybrid, shared governance structure. Then, Meredith Fitzpatrick covers how financial institutions must fundamentally rethink AML risk as crypto and TradFi converge.",
+    "date": "2026-04-01",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/01/crypto-long-and-short-governance-is-the-real-layer-1",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Crypto super PAC names Tether exec chairman as stablecoin debate in D.C. intensifies",
+    "description": "The debate over stablecoin rewards seems to be the final stumbling block to Congress passing the Clarity Act.",
+    "date": "2026-04-01",
+    "source_url": "https://www.theblock.co/post/396081/crypto-super-pac-names-tether-exec-chairman-as-stablecoin-debate-in-d-c-intensifies",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "The Protocol: Quantum computing could break Bitcoin sooner, says Google",
     "description": "Also: OpenAI raises $122 billion, crypto ecosystems diverging post-quantum strategies, and Base’s 2026 roadmap.",
     "date": "2026-04-01",
@@ -9525,50 +9564,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Stablecoins and the Rewiring of Global Finance",
-    "description": "How regulated digital assets and real-time cross-border integration are reshaping payments—and why r...",
-    "date": "2026-03-13",
-    "source_url": "https://www.finextra.com/blogposting/31135/stablecoins-and-the-rewiring-of-global-finance",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Ledger Insights",
-    "initiative": "Europe’s wCBDC Project Pontes drops pilot label as it readies for September launch",
-    "description": "Pontes, the first track of Europe&#8217;s DLT solution for wholesale central bank money and CBDC, plans to launch in September 2026. The Q3 launch was previously described as a pilot, but that label has been quietly dropped. Market participants have wanted continuity since the Eurosystem&#8217;s DLT trials ended in 2024, and the reframing signals the [&#8230;] The post Europe&#8217;s wCBDC Project Pontes drops pilot label as it readies for September launch appeared first on Ledger Insights - blockchain for enterprise .",
-    "date": "2026-03-13",
-    "source_url": "https://www.ledgerinsights.com/europes-wcbdc-project-pontes-drops-pilot-label-as-it-readies-for-september-launch/",
-    "category": "ecosystem",
-    "source_name": "Ledger Insights",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "CBDC",
-      "DLT / Blockchain Infrastructure"
-    ],
     "year": "2026"
   }
 ]
