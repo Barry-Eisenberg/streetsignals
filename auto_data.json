@@ -1,6 +1,26 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Some quantum-resistant tokens jump 50% as Google flags risks to Bitcoin security",
+    "description": "The so-called quantum-resistant coins rally as traders switch to potential long-term security.",
+    "date": "2026-04-01",
+    "source_url": "https://www.coindesk.com/markets/2026/04/01/the-first-winners-of-the-quantum-crypto-debate-are-already-clear-and-some-of-them-are-up-50",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "These catalysts could bump bitcoin as Trump hands three-week target to end Iran war",
     "description": "Asian stocks surged 4% and S&P 500 futures jumped after Trump said the conflict could conclude without a deal with Tehran, while Morgan Stanley's newly approved bitcoin ETF at 14 basis points opens a $6.2 trillion advisory channel.",
     "date": "2026-04-01",
@@ -9532,24 +9552,6 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Basel Committee publishes analysis of synthetic risk transfers",
-    "description": "The Basel Committee on Banking Supervision today published a report on synthetic risk transfer (SRT) transactions. The economic importance of SRT markets has grown rapidly over the last decade and they have become an important source of capital relief for corporate credit risk.",
-    "date": "2026-02-17",
-    "source_url": "https://www.bis.org/press/p260217.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
