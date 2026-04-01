@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Connecting the Dots",
+    "initiative": "FinTech dLocal Takes the Field with the Uruguay National Football Team",
+    "description": "Hey Payments Fanatic! While most of the industry fanatics were looking at Las Vegas&#x2019; FinTech Meetup yesterday, a big move happened in Montevideo. dLocal, Uruguay&#x2019;s cross-border payments powerhouse, just became an official global sponsor of their national football team. More than a logo on a jersey; it&",
+    "date": "2026-04-01",
+    "source_url": "https://www.connectingthedotsinpayments.com/fintech-dlocal-takes-the-field-with-the-uruguay-national-football-team/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Hong Kong hasn’t issued a single HKD stablecoin license after March target",
     "description": "Officials flagged March for initial approvals, but licensing has yet to begin with no updated timeline",
@@ -9530,26 +9549,6 @@
       "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "Deep Dive: JPMorgan’s Payments Strategy and Systems-Level Integration Analysis",
-    "description": "I&#8217;ve been following JPMorgan&#8217;s methodical buildout of a payments empire.",
-    "date": "2026-02-15",
-    "source_url": "https://www.fintechwrapup.com/p/deep-dive-jpmorgans-payments-strategy",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
