@@ -1,6 +1,26 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Europe's first blockchain IPO is here: France’s new exchange is taking aerospace firm public onchain",
+    "description": "The move positions Lise and ST Group as an early test case for going public directly on blockchain rails within EU rules.",
+    "date": "2026-04-02",
+    "source_url": "https://www.coindesk.com/business/2026/04/02/france-s-new-stock-exchange-is-taking-an-aerospace-giant-public-onchain",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "The ‘wash trading’ bust: Why the feds are finally calling out crypto’s dirty little liquidity secret",
     "description": "An FBI-created token helped expose how firms allegedly engineered fake volume and why the incentives behind it remain deeply entrenched",
     "date": "2026-04-02",
@@ -9546,23 +9566,6 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Chinese fintech FinVolution enters Australia through Fundo acquisition",
-    "description": "FinVolution Group (NYSE: FINV), a leading fintech company, announced its entry into the Australian market, following the acquisition of local lending platform Fundo.",
-    "date": "2026-03-18",
-    "source_url": "https://www.finextra.com/pressarticle/109224/chinese-fintech-finvolution-enters-australia-through-fundo-acquisition",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
