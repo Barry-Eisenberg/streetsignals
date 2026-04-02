@@ -1,5 +1,60 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "CFTC sues Illinois over state's cease-and-desist letters against prediction markets",
+    "description": "The CFTC argued in a lawsuit that the Commodity Exchange Act gave it \"exclusive jurisdiction\" over all swaps, which include prediction markets.",
+    "date": "2026-04-02",
+    "source_url": "https://www.coindesk.com/policy/2026/04/02/cftc-sues-illinois-over-state-s-cease-and-desist-letters-against-prediction-markets",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Coinbase wins initial bank regulator nod for trust charter, boosting custody push",
+    "description": "Coinbase’s conditional OCC approval moves it closer to operating as a federally regulated crypto custodian, pending compliance and final review.",
+    "date": "2026-04-02",
+    "source_url": "https://www.coindesk.com/policy/2026/04/02/coinbase-wins-initial-occ-nod-for-trust-charter-boosting-sustody-push",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Coinbase receives conditional approval for national trust charter from OCC",
+    "description": "\"This charter is about bringing federal regulatory uniformity to the custody and market infrastructure business,\" Coinbase said.",
+    "date": "2026-04-02",
+    "source_url": "https://www.theblock.co/post/396244/coinbase-receives-conditional-approval-national-trust-charter-occ",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Kroll gives Ripple Prime ‘medium quality’ rating citing strong backing, concentration risks",
     "description": "The rating, which is its lowest investment-grade tier, leans heavily on Ripple’s balance sheet of $57 billion in cash and XRP holdings.",
@@ -9496,66 +9551,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bitcoin OG sells $72 million in BTC as whales flood exchange deposits",
-    "description": "A whale who accumulated 5,000 BTC in 2013 sold $71.6 million worth of bitcoin on Wednesday, onchain data shows.",
-    "date": "2026-03-19",
-    "source_url": "https://www.theblock.co/post/394278/bitcoin-whale-sells-72-million-btc",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Venus’ XVS token plunges 9% as exploit leaves protocol with bad debt",
-    "description": "The exploit, which occurred on March 16, didn’t appear to impact XVS prices until analysis showed major holders moving large amounts to exchanges.",
-    "date": "2026-03-19",
-    "source_url": "https://www.coindesk.com/markets/2026/03/19/venus-xvs-token-plunges-9-as-exploit-leaves-protocol-with-bad-debt",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin slips to $70,000 as oil surge, Fed pause weigh on risk assets",
-    "description": "BTC dipped below $70,000 as energy prices spiked and the Fed held interest rates, pressuring crypto and equities.",
-    "date": "2026-03-19",
-    "source_url": "https://www.coindesk.com/markets/2026/03/19/bitcoin-slips-to-usd70-000-as-oil-surge-fed-pause-weigh-on-risk-assets",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
