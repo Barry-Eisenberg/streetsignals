@@ -1,6 +1,82 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "The 'time pain' trap: why bitcoin’s bear market might need a few more months of ‘boring’ to hit a true floor",
+    "description": "Long term holder trends suggest a maturing bear market, yet extended consolidation could test investor patience.",
+    "date": "2026-04-02",
+    "source_url": "https://www.coindesk.com/markets/2026/04/02/the-time-pain-trap-why-bitcoin-s-bear-market-might-need-a-few-more-months-of-boring-to-hit-a-true-floor",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "CoinDesk 20 performance update: index falls 4.5% as all constituents trade lower",
+    "description": "Uniswap (UNI) declined 7.7% and Solana (SOL) dropped 6.9%, leading the index lower.",
+    "date": "2026-04-02",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/02/coindesk-20-performance-update-index-falls-4-5-as-all-constituents-trade-lower",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Coinbase’s AI payments system joins Linux Foundation, gathers support from Google, Stripe, AWS and others",
+    "description": "The Coinbase-engineered agentic commerce protocol x402 has garnered support from a long list of big names like Google, Cloudflare and Stripe.",
+    "date": "2026-04-02",
+    "source_url": "https://www.coindesk.com/tech/2026/04/02/coinbase-s-ai-payments-system-joins-linux-foundation-gathers-support-from-google-stripe-aws-and-others",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Tech, crypto giants to help steward Coinbase’s neutral x402 payments protocol under Linux Foundation",
+    "description": "The x402 Foundation is moving the x402 protocol incubated by Coinbase under neutral, open-source governance at the Linux Foundation.",
+    "date": "2026-04-02",
+    "source_url": "https://www.theblock.co/post/396155/tech-crypto-giants-to-help-steward-coinbases-neutral-x402-payments-protocol-under-linux-foundation",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Startup lets researchers mine blockchain tasks on a quantum computer for the first time",
     "description": "Built with advice and hardware access from D-Wave, the testnet has drawn 13,000 sign-ups and early work from six research teams, but remains an experimental environment rather than a live mainnet.",
     "date": "2026-04-02",
@@ -9493,82 +9569,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Former Binance CEO CZ waves off accusations on Iran, terror ties",
-    "description": "The founder of the world's largest exchange distanced himself from reports about Binance activity that reports had recently suggested aided terrorism.",
-    "date": "2026-03-18",
-    "source_url": "https://www.coindesk.com/policy/2026/03/18/former-binance-ceo-cz-waves-off-accusations-on-iran-terror-ties",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Trump-linked American Bitcoin's BTC holdings overtake Mike Novogratz’s Galaxy Digital",
-    "description": "American Bitcoin (ABTC) has climbed to become the 16th-largest bitcoin holder, with 6,899 BTC, as firms compete to build bitcoin treasuries.",
-    "date": "2026-03-18",
-    "source_url": "https://www.coindesk.com/business/2026/03/18/trump-linked-american-bitcoin-just-overtook-mike-novogratz-s-galaxy-digital-in-the-bitcoin-rankings",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Ripple buyback, deals signal IPO ambitions",
-    "description": "Ripple announces a $750M share buyback and seeks an Australian Financial Services License through BC Payments, expanding its global infrastructure. The post Ripple buyback, deals signal IPO ambitions appeared first on CoinGeek .",
-    "date": "2026-03-18",
-    "source_url": "https://coingeek.com/ripple-buyback-deals-signal-ipo-ambitions/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "This Women’s Month, Coins.ph powers Filipina entrepreneurs to move faster and scale smarter",
-    "description": "Coins.ph empowers Filipina entrepreneurs with fast and secure digital payments, from QRPH in stores to Webpay online, helping women-led businesses thrive. The post This Women’s Month, Coins.ph powers Filipina entrepreneurs to move faster and scale smarter appeared first on CoinGeek .",
-    "date": "2026-03-18",
-    "source_url": "https://coingeek.com/this-women-month-coins-ph-powers-filipina-entrepreneurs-to-move-faster-and-scale-smarter/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
