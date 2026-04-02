@@ -1,6 +1,103 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Startup lets researchers mine blockchain tasks on a quantum computer for the first time",
+    "description": "Built with advice and hardware access from D-Wave, the testnet has drawn 13,000 sign-ups and early work from six research teams, but remains an experimental environment rather than a live mainnet.",
+    "date": "2026-04-02",
+    "source_url": "https://www.coindesk.com/markets/2026/04/02/startup-lets-researchers-mine-blockchain-tasks-on-a-quantum-computer-for-the-first-time",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "SoFi announces 24/7 banking hub that blends traditional cash with crypto",
+    "description": "The new service lets companies hold dollars, convert to stablecoins and move money instantly within a regulated bank.",
+    "date": "2026-04-02",
+    "source_url": "https://www.coindesk.com/business/2026/04/02/sofi-is-launching-a-24-7-banking-hub-that-blends-traditional-cash-with-crypto",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Forex goes live with Diebold Nixdorf ATM management tech",
+    "description": "Diebold Nixdorf (NYSE: DBD), a world leader in transforming the way people bank and shop, today announced that FOREX, the Nordic region's leader in travel money and foreign exchange, has gone live with Branch Automation Solutions for end-to-end ATM network management.",
+    "date": "2026-04-02",
+    "source_url": "https://www.finextra.com/pressarticle/109360/forex-goes-live-with-diebold-nixdorf-atm-management-tech",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bitcoin falls below $66K as crowded shorts hint at upside risk ahead of Easter holiday: analysts",
+    "description": "Bitcoin remains stuck below $70K as weak conviction and macro uncertainty weigh on markets, with analysts flagging a potential short squeeze.",
+    "date": "2026-04-02",
+    "source_url": "https://www.theblock.co/post/396204/bitcoin-falls-below-66k-as-crowded-shorts-hint-at-upside-risk-ahead-of-easter-holiday-analysts",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "SoFi launches ‘Big Business Banking’ combining fiat and crypto on a single regulated platform",
+    "description": "SoFi has launched a new enterprise banking platform with 24/7 payment support, combining fiat and crypto services.",
+    "date": "2026-04-02",
+    "source_url": "https://www.theblock.co/post/396195/sofi-launches-big-business-banking-combining-fiat-and-crypto-on-a-single-regulated-platform",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Europe's first blockchain IPO is here: France’s new exchange is taking aerospace firm public onchain",
     "description": "The move positions Lise and ST Group as an early test case for going public directly on blockchain rails within EU rules.",
     "date": "2026-04-02",
@@ -9467,99 +9564,6 @@
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Klarna smashes one million merchants milestone",
-    "description": "Klarna has grown the number of merchants offering its payment methods by 47% in the past year, adding 285,000 merchants in 2025 - 115,000 in the final quarter alone - and surpassing one million merchants globally.",
-    "date": "2026-03-18",
-    "source_url": "https://www.finextra.com/newsarticle/47458/klarna-smashes-one-million-merchants-milestone",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "HSBC invests in enterprise payments firm Candex",
-    "description": "HSBC has become the latest blue-chip investor in enterprise vendor payments specialist Candex.",
-    "date": "2026-03-18",
-    "source_url": "https://www.finextra.com/newsarticle/47453/hsbc-invests-in-enterprise-payments-firm-candex",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Mastercard takes wraps off new GenAI model",
-    "description": "Mastercard is betting that its new foundational AI model, trained on billions of anonymised transactions, will help improve everything from its cyber defences to loyalty programmes.",
-    "date": "2026-03-18",
-    "source_url": "https://www.finextra.com/newsarticle/47455/mastercard-takes-wraps-off-new-genai-model",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Bank fraud protection firm Cleafy secures €12 million",
-    "description": "Cleafy, an Italian provider of fraud prevention technology for digital banking, has raised€12 million in a Series B round co-led by United Ventures and eCAPITAL, bringing total funding to €22 million.",
-    "date": "2026-03-18",
-    "source_url": "https://www.finextra.com/newsarticle/47448/bank-fraud-protection-firm-cleafy-secures-12-million",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Ingenico and Visa team on 'unified commerce'",
-    "description": "Ingenico, a global leader in payment acceptance and services, has collaborated with Visa, a global leader in payments, to enhance and expand value with current and future clients.",
-    "date": "2026-03-18",
-    "source_url": "https://www.finextra.com/pressarticle/109227/ingenico-and-visa-team-on-unified-commerce",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
     "fmi_areas": [
       "Payments & Transfers"
     ],
