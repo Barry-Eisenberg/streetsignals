@@ -2978,10 +2978,19 @@
   max-width: 140px;
 }
 
+.priority-signal-card-headline {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-text);
+  line-height: 1.35;
+}
+
 .priority-signal-card-initiative {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 600;
-  color: var(--color-primary);
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
   line-height: 1.3;
 }
 
