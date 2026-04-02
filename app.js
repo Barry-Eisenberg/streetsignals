@@ -810,6 +810,12 @@ const REPORTER_SOURCE_NEEDLES = [
   'marketwatch'
 ];
 
+const INSTITUTION_ACTION_WORDS = [
+  'adds', 'launches', 'expands', 'extends', 'partners', 'acquires', 'announces', 'unveils',
+  'files', 'wins', 'integrates', 'opens', 'doubles', 'buys', 'invests', 'backs', 'joins',
+  'secures', 'rolls', 'paid', 'pays', 'reports', 'sues', 'drops', 'slides', 'falls', 'rises'
+];
+
 let institutionInferenceCache = {
   signalCount: -1,
   candidates: []
@@ -826,6 +832,8 @@ function getInstitutionInferenceCandidates() {
       .map(signal => String(signal?.institution || '').trim())
       .filter(Boolean)
       .filter(name => name.length >= 3)
+      .map(name => cleanInstitutionLabel(name))
+      .filter(Boolean)
       .filter(name => !excluded.has(name.toLowerCase()))
   )]
     .sort((a, b) => b.length - a.length);
@@ -838,6 +846,22 @@ function getInstitutionInferenceCandidates() {
   return candidates;
 }
 
+function cleanInstitutionLabel(label) {
+  let value = String(label || '').replace(/\s+/g, ' ').trim();
+  if (!value) return '';
+
+  const actionPattern = new RegExp(`\\b(?:${INSTITUTION_ACTION_WORDS.join('|')})\\b`, 'i');
+  const match = actionPattern.exec(value);
+  if (match && match.index > 0) {
+    value = value.slice(0, match.index).trim();
+  }
+
+  value = value.replace(/[,:;.!?].*$/, '').trim();
+  if (!value || value.length < 2 || value.length > 70) return '';
+  if (REPORTER_SOURCE_NEEDLES.some(needle => value.toLowerCase().includes(needle))) return '';
+  return value;
+}
+
 function inferDrivingInstitution(signal) {
   const institution = String(signal?.institution || '').trim();
   if (!isReporterSource(signal)) return institution;
@@ -847,29 +871,30 @@ function inferDrivingInstitution(signal) {
   if (!text) return '';
 
   const textLower = text.toLowerCase();
-  const candidates = getInstitutionInferenceCandidates();
 
-  // 1) Highest-confidence: match known institutions already in the dataset.
-  for (const candidate of candidates) {
-    const candidateLower = candidate.toLowerCase();
-    if (candidateLower.length < 3) continue;
-    const pattern = new RegExp(`\\b${escapeRegExp(candidateLower)}\\b`, 'i');
-    if (pattern.test(textLower)) return candidate;
-  }
-
-  // 2) Headline-context extraction for reporter-sourced titles (e.g., "Why Mastercard paid...").
+  // 1) Headline-context extraction for reporter-sourced titles (e.g., "Why Mastercard paid...", "CFTC sues ...").
   const contextPatterns = [
-    /\b([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,4})\s+(?:adds|launches|expands|extends|partners|acquires|announces|unveils|files|wins|integrates|opens|doubles|buys|invests|backs|joins|secures|rolls|paid|pays|reports)\b/i,
+    /\b([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,4})\s+(?:adds|launches|expands|extends|partners|acquires|announces|unveils|files|wins|integrates|opens|doubles|buys|invests|backs|joins|secures|rolls|paid|pays|reports|sues|drops|slides|falls|rises)\b/i,
     /\b(?:owner|parent company)\s+of\s+(?:the\s+)?([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,5})\b/i,
     /\b([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,4})['’]s\b/i
   ];
 
   for (const pattern of contextPatterns) {
     const match = headline.match(pattern);
-    const captured = String(match?.[1] || '').trim();
+    const captured = cleanInstitutionLabel(String(match?.[1] || '').trim());
     if (!captured) continue;
     if (REPORTER_SOURCE_NEEDLES.some(needle => captured.toLowerCase().includes(needle))) continue;
     return captured;
+  }
+
+  const candidates = getInstitutionInferenceCandidates();
+
+  // 2) Match known institutions already in the dataset.
+  for (const candidate of candidates) {
+    const candidateLower = candidate.toLowerCase();
+    if (candidateLower.length < 3) continue;
+    const pattern = new RegExp(`\\b${escapeRegExp(candidateLower)}\\b`, 'i');
+    if (pattern.test(textLower)) return cleanInstitutionLabel(candidate) || candidate;
   }
 
   return '';
@@ -4399,6 +4424,7 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
   const lensChip = selectedPersona !== DEFAULT_PERSONA
     ? `<span class="signal-chip signal-chip-lens" title="Relevance for ${escapeHtml(lensLabel)} lens">${escapeHtml(lensLabel)} fit ${lensRelevance.toFixed(1)}</span>`
     : '';
+  const displayInstitution = getPriorityDisplayInstitution(signal);
   const tierComparisonRow = selectedPersona !== DEFAULT_PERSONA
     ? `<div class="signal-tier-comparison">
         <div class="signal-tier-comparison-item">
@@ -4424,7 +4450,7 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
   return `
     <div class="signal-card" data-signal-key="${signalKey}">
       <div class="signal-card-top">
-        <div class="signal-institution"><span class="dot"></span>${signal.institution}</div>
+        <div class="signal-institution"><span class="dot"></span>${escapeHtml(displayInstitution)}</div>
         <span class="signal-date" title="Source publication date">${escapeHtml(date)}</span>
       </div>
       <div class="signal-initiative">${signal.initiative || ''}</div>
