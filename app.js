@@ -776,6 +776,30 @@ const SIGNAL_TYPE_DESCRIPTIONS = {
   'Research / Report': 'Published research, market analysis, or institutional position paper with strategic implications.'
 };
 
+const REPORTER_SOURCE_NEEDLES = [
+  'coindesk',
+  'coingeek',
+  'the block',
+  'theblock',
+  'unchained',
+  'finextra',
+  'ledger insights',
+  'cointelegraph',
+  'decrypt',
+  'blockworks',
+  'thedefiant',
+  'reuters',
+  'bloomberg',
+  'forbes',
+  'wsj',
+  'wall street journal',
+  'ft.com',
+  'financial times',
+  'yahoo finance',
+  'cnbc',
+  'marketwatch'
+];
+
 const DEPRECATED_SIGNAL_TYPES = new Set(['Intelligence Brief']);
 
 const COUNTRY_INSTITUTION_HINTS = [
@@ -1305,6 +1329,37 @@ function getUseCaseNarrative(useCase) {
   return copy[useCase] || copy.infrastructure_modernization;
 }
 
+function isReporterSource(signal) {
+  const institution = String(signal?.institution || '').trim().toLowerCase();
+  const sourceName = String(signal?.source_name || '').trim().toLowerCase();
+  const sourceUrl = String(signal?.source_url || '').trim().toLowerCase();
+  const combinedSource = `${sourceName} ${sourceUrl}`;
+
+  const hasReporterInstitution = REPORTER_SOURCE_NEEDLES.some(needle => institution.includes(needle));
+  const hasReporterSource = REPORTER_SOURCE_NEEDLES.some(needle => combinedSource.includes(needle));
+  return hasReporterInstitution || hasReporterSource;
+}
+
+function getSignalNarrativeSubject(signal) {
+  const institution = String(signal?.institution || 'A market participant').trim();
+  if (isReporterSource(signal)) return 'reported market participants';
+  return institution;
+}
+
+function getSignalContextImplications(signal, importance) {
+  const useCase = inferSignalUseCase(signal);
+  const useCaseNarrative = getUseCaseNarrative(useCase);
+  const initiatives = getSignalDetailInitiatives(signal).slice(0, 2);
+  const fmiAreas = getSignalDetailFmiAreas(signal).slice(0, 2);
+  const audience = getSignalDetailAudience(signal).slice(0, 2);
+
+  const initiativeText = initiatives.length ? initiatives.join(', ') : 'digital asset strategy';
+  const fmiText = fmiAreas.length ? fmiAreas.join(', ') : 'market infrastructure pathways';
+  const audienceText = audience.length ? audience.join(' and ') : 'institutional infrastructure teams';
+
+  return `${useCaseNarrative} This signal is most connected to ${initiativeText} across ${fmiText}, with primary implications for ${audienceText}. Stage: ${importance.stage || 'Unknown'} | Materiality: ${importance.materiality || 'Unknown'}.`;
+}
+
 function getPersonaAwareNarrative(signal, useCase, persona, stage) {
   // Extract signal-specific context for interpolation
   const inst = String(signal?.institution || 'this institution').trim();
@@ -1387,7 +1442,7 @@ function inferSignalPersona(signal) {
 }
 
 function buildSignalDirectionalInsight(signal, importance) {
-  const institution = String(signal?.institution || 'A market participant').trim();
+  const institution = getSignalNarrativeSubject(signal);
   const themes = Array.isArray(signal?.initiative_types) && signal.initiative_types.length > 0
     ? signal.initiative_types
     : Array.isArray(signal?.fmi_areas) && signal.fmi_areas.length > 0
@@ -1418,6 +1473,10 @@ function buildSignalDirectionalInsight(signal, importance) {
   };
   const stagePhrase = stagePhraseMap[importance.stage] || 'through active development';
   const confidence = lensRelevance >= 7 ? 'high' : lensRelevance >= 3 ? 'medium' : 'baseline';
+  if (isReporterSource(signal)) {
+    return `For ${lensLabel} teams, reporting indicates momentum in ${leadTheme} ${stagePhrase}. ${narrative} Most material audiences: ${audienceText}. Lens fit: ${confidence}.`;
+  }
+
   return `For ${lensLabel} teams, ${institution} is advancing ${leadTheme} ${stagePhrase}. ${narrative} Most material audiences: ${audienceText}. Lens fit: ${confidence}.`;
 }
 
@@ -3995,6 +4054,7 @@ function renderPrioritySignalsStrip() {
     const marketContext = getExternalMarketContext(signal, selectedPersona);
     const initiatives = Array.isArray(signal.initiative_types) ? signal.initiative_types.slice(0, 1) : [];
     const initiativeText = initiatives.length ? initiatives[0] : 'Digital asset infrastructure';
+    const headlineText = String(signal?.initiative || '').trim() || initiativeText;
     const signalKey = encodeURIComponent(getSignalKey(signal));
     const signalDate = escapeHtml(getSignalReferenceDateRaw(signal));
     const signalSource = escapeHtml(String(signal.source_url || ''));
@@ -4011,7 +4071,8 @@ function renderPrioritySignalsStrip() {
           </div>
           <span class="priority-signal-card-date" title="Source publication date">${escapeHtml(date)}</span>
         </div>
-        <div class="priority-signal-card-initiative">${initiativeText}</div>
+        <div class="priority-signal-card-headline">${escapeHtml(headlineText)}</div>
+        <div class="priority-signal-card-initiative">${escapeHtml(initiativeText)}</div>
         <div class="priority-signal-market-context">
           ${marketContext.available
             ? `<span class="priority-signal-market-chip" title="${escapeHtml(marketContext.source)} as of ${escapeHtml(marketContext.asOf)}">${escapeHtml(marketContext.segmentLabel)} ${escapeHtml(marketContext.trendLabel)} 30d</span>
@@ -4719,6 +4780,8 @@ function showSignalDetail(signalData) {
   const recencyWeight = getRecencyWeight(normalizedSignal, getSignalStage(normalizedSignal), getSignalMateriality(normalizedSignal));
   const detailImportance = fullSignal ? getSignalImportance(fullSignal) : { stage: 'Unknown', materiality: 'Unknown', sourceTier: 'Unknown' };
   const detailInsight = fullSignal ? buildSignalDetailInsight(fullSignal, detailImportance) : 'No directional insight available.';
+  const detailContextImplications = fullSignal ? getSignalContextImplications(fullSignal, detailImportance) : 'Context synthesis is unavailable for this signal.';
+  const sourceRole = fullSignal && isReporterSource(fullSignal) ? 'Reporting source (not necessarily the originating institution)' : 'Primary source / institution disclosure';
   const marketContext = fullSignal ? getExternalMarketContext(fullSignal, selectedPersona) : { available: false };
   const initiatives = getSignalDetailInitiatives(normalizedSignal).slice(0, 4);
   const fmiAreas = getSignalDetailFmiAreas(normalizedSignal).slice(0, 4);
@@ -4762,6 +4825,10 @@ function showSignalDetail(signalData) {
         <span class="signal-detail-value">${sourceUrl ? `<a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(signalData.source || 'Unknown source')}</a>` : escapeHtml(signalData.source || 'Unknown')}</span>
       </div>
       <div class="signal-detail-row">
+        <span class="signal-detail-label">Source Role:</span>
+        <span class="signal-detail-value">${escapeHtml(sourceRole)}</span>
+      </div>
+      <div class="signal-detail-row">
         <span class="signal-detail-label">Date:</span>
         <span class="signal-detail-value">${escapeHtml(formattedDate)} (${escapeHtml(dateStr)})</span>
       </div>
@@ -4784,6 +4851,10 @@ function showSignalDetail(signalData) {
       <div class="signal-detail-row">
         <span class="signal-detail-label">Market Context:</span>
         <span class="signal-detail-value">${marketContext.available ? `${escapeHtml(marketContext.segmentLabel)} ${escapeHtml(marketContext.trendLabel)} 30d | ${escapeHtml(marketContext.confidence)} (source: ${escapeHtml(marketContext.source)} as of ${escapeHtml(marketContext.asOf)})` : 'Not available'}</span>
+      </div>
+      <div class="signal-detail-row">
+        <span class="signal-detail-label">Context & Implications:</span>
+        <span class="signal-detail-value">${escapeHtml(detailContextImplications)}</span>
       </div>
       <div class="signal-detail-row">
         <span class="signal-detail-label">Recency Weight:</span>
