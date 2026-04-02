@@ -1,5 +1,62 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Onchain investment fintech Midas raises $50 million",
+    "description": "Midas, a platform for composable onchain investment products, has raised $50 million in Series A funding led by RRE and Creandum, with participation from Framework Ventures, HV Capital, Ledger Cathay, Franklin Templeton, Coinbase Ventures, M1 Capital, Anchorage Digital, FJ Labs, North Island Ventures, No Limit Holdings and GSR.",
+    "date": "2026-04-02",
+    "source_url": "https://www.finextra.com/pressarticle/109357/onchain-investment-fintech-midas-raises-50-million",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Paysecure and Yaspa team up to grow payments IQ",
+    "description": "Paysecure, a leading global payment orchestration platform, and Yaspa, a leading fintech specialising in payments and identity solutions, have today announced a strategic partnership to bring true intelligence to the payments market.",
+    "date": "2026-04-02",
+    "source_url": "https://www.finextra.com/pressarticle/109356/paysecure-and-yaspa-team-up-to-grow-payments-iq",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Bitget to issues Visa crypto card for spending across Apac",
+    "description": "Bitget, the world’s largest Universal Exchange (UEX), in partnership with Visa and DCS, launched the Bitget Card across selected markets in Asia Pacific (APAC), extending crypto out of exchanges into everyday spending and marking another step toward a more unified financial experience where digital assets work quietly in the background of daily life.",
+    "date": "2026-04-02",
+    "source_url": "https://www.finextra.com/pressarticle/109355/bitget-to-issues-visa-crypto-card-for-spending-across-apac",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinGeek",
     "initiative": "UK payments body urges platforms to help front APP fraud costs",
     "description": "The Payments Association urges shared regulation after report finds most APP scam losses in 2025 originated on platforms like Facebook and Instagram. The post UK payments body urges platforms to help front APP fraud costs appeared first on CoinGeek .",
@@ -9517,63 +9574,6 @@
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Polymarket acquires Brahma to scale blockchain trading infrastructure",
-    "description": "\"Building reliable infrastructure across blockchain networks and traditional financial rails is hard — there are no shortcuts,” said Polymarket CEO Shayne Coplan.",
-    "date": "2026-03-18",
-    "source_url": "https://www.coindesk.com/business/2026/03/18/polymarket-acquires-defi-brahma-to-build-reliable-financial-blockchain-infrastructure",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto Long & Short: When price stops working, yield starts mattering",
-    "description": "In this week’s Crypto Long & Short Newsletter, Ruchir Gupta writes on how we’re moving toward a true fixed-income market for crypto-native yield. Then, Clara García Prieto on bitcoin becoming mainstream collateral, but most are not prepared for its risks.",
-    "date": "2026-03-18",
-    "source_url": "https://www.coindesk.com/coindesk-indices/2026/03/18/crypto-long-and-short-when-price-stops-working-yield-starts-mattering",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto exchange Kraken freezes multibillion-dollar IPO plan due to difficult market conditions",
-    "description": "Kraken's parent company filed a draft S-1 registration statement with the SEC in November regarding the proposed initial public offering of its common stock.",
-    "date": "2026-03-18",
-    "source_url": "https://www.coindesk.com/business/2026/03/17/crypto-exchange-kraken-freezes-multibillion-dollar-ipo-plan-due-to-difficult-market-conditions",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
