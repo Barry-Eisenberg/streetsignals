@@ -1,5 +1,26 @@
 [
   {
+    "institution": "CoinGeek",
+    "initiative": "UK payments body urges platforms to help front APP fraud costs",
+    "description": "The Payments Association urges shared regulation after report finds most APP scam losses in 2025 originated on platforms like Facebook and Instagram. The post UK payments body urges platforms to help front APP fraud costs appeared first on CoinGeek .",
+    "date": "2026-04-02",
+    "source_url": "https://coingeek.com/uk-payments-body-urges-platforms-to-help-front-app-fraud-costs/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Ripple Treasury puts XRP and RLUSD inside corporate finance for the first time",
     "description": "The treasury management system, built on Ripple's 2025 acquisition of GTreasury, lets CFOs view and manage digital assets alongside fiat in a single dashboard without separate custody or wallet infrastructure.",
@@ -9553,26 +9574,6 @@
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Traders can now bet on the S&P 500 around the clock without ever touching a traditional stock exchange",
-    "description": "S&P Dow Jones Indices licenses its flagship index for crypto trading on Hyperliquid, as perpetual futures gain traction beyond traditional markets.",
-    "date": "2026-03-18",
-    "source_url": "https://www.coindesk.com/markets/2026/03/18/traders-can-now-bet-on-the-s-and-p-500-around-the-clock-without-ever-touching-a-traditional-stock-exchange",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
