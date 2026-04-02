@@ -1,5 +1,45 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "DeFi platform Drift suspends deposits and withdrawals after crypto hack",
+    "description": "DeFi platform Drift has suspended deposits and withdrawals after losing millions of dollars in a crypto hack.",
+    "date": "2026-04-02",
+    "source_url": "https://www.finextra.com/newsarticle/47531/defi-platform-drift-suspends-deposits-and-withdrawals-after-crypto-hack",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Non-custodial wallet provider Safe unveils security network to turn SAFE tokens into economic good",
+    "description": "Safenet aims to prevent common security lapses, attack vectors, and transaction errors, like phishing schemes or malicious code deployments.",
+    "date": "2026-04-02",
+    "source_url": "https://www.theblock.co/post/396147/non-custodial-wallet-safe-security-safenet-tokens",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "The bitcoin treasury boom is unwinding as some companies and governments sell holdings",
     "description": "Falling prices and prolonged consolidation are pushing public firms and sovereign holders to liquidate bitcoin reserves to shore up balance sheets.",
@@ -9523,46 +9563,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Whale investor buys $111 million worth of Ethereum one year after selling: onchain data",
-    "description": "A whale trader has reportedly bought 50,706 ETH with 111.62 million USDT on Wednesday, after selling holdings a year earlier.",
-    "date": "2026-03-18",
-    "source_url": "https://www.theblock.co/post/394263/whale-investor-buys-111-million-ethereum",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Algorand Foundation cuts 25% of its workforce citing global macro uncertainty and crypto market downturn",
-    "description": "The non-profit Algorand Foundation is the latest to cut staff amid rising macro uncertainty, crypto market stagnation, and the rise of AI.",
-    "date": "2026-03-18",
-    "source_url": "https://www.theblock.co/post/394255/algorand-foundation-cuts-25-workforce-global-macro-uncertainty-crypto-market-downturn",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
