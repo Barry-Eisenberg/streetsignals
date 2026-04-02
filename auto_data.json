@@ -1,5 +1,27 @@
 [
   {
+    "institution": "CoinGeek",
+    "initiative": "Fast, secure, and seamless payments: Coins launches ‘Link & Pay’ tokenized payments feature",
+    "description": "Coins.ph launches Link &#038; Pay, a tokenized payment feature enabling faster, secure one-tap transactions for everyday purchases and recurring bills. The post Fast, secure, and seamless payments: Coins launches &#8216;Link &#038; Pay&#8217; tokenized payments feature appeared first on CoinGeek .",
+    "date": "2026-04-02",
+    "source_url": "https://coingeek.com/fast-secure-and-seamless-payments-coins-launches-link-pay-tokenized-payments-feature/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Tokenization & Issuance",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Kulipa raises $6.2m for stablecoin-native card issuing infrastructure platform",
     "description": "Kulipa, a Paris-based stablecoin-native card issuing infrastructure platform, has raised $6.2 million in seed funding.",
@@ -34,6 +56,25 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Coinbase CLO Grewal says Clarity Act ‘very close’ to reaching deal on stablecoin yield",
+    "description": "Grewal said banks should not conflate the stablecoin yield issue with other challenges they are facing today.",
+    "date": "2026-04-01",
+    "source_url": "https://www.theblock.co/post/396170/coinbase-clo-grewal-clarity-act-very-close",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   },
@@ -9531,42 +9572,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "World and Coinbase Launch Toolkit for Human-Backed AI Agents",
-    "description": "World, the digital identity project co-founded by OpenAI CEO Sam Altman, has launched AgentKit, a developer toolkit designed to help AI agents prove they are backed by a real human when interacting online. The beta product integrates with x402, an open protocol developed by Coinbase and Cloudflare that allows automated ... The post World and Coinbase Launch Toolkit for Human-Backed AI Agents appeared first on Unchained .",
-    "date": "2026-03-17",
-    "source_url": "https://unchainedcrypto.com/world-and-coinbase-launch-toolkit-for-human-backed-ai-agents/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "OpenSea Shelves Token Launch as Its Quiet Pivot Away From NFTs Stalls",
-    "description": "The post OpenSea Shelves Token Launch as Its Quiet Pivot Away From NFTs Stalls appeared first on Unchained .",
-    "date": "2026-03-17",
-    "source_url": "https://unchainedcrypto.com/opensea-delays-sea-token-launch-amid-50-nft-market-drop/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
     ],
     "year": "2026"
   }
