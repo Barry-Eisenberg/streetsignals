@@ -1,6 +1,119 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Elon Musk's X to deploy scam kill switch by auto-locking first-time crypto mentioners",
+    "description": "The move comes in response to a wave of phishing attacks using fake copyright emails and is the latest in an attempt to shut down crypto-linked scams on the platform.",
+    "date": "2026-04-02",
+    "source_url": "https://www.coindesk.com/web3/2026/04/02/elon-musk-s-x-to-deploy-scam-kill-switch-by-auto-locking-first-time-crypto-mentioners",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "How a Solana feature designed for convenience let attackers drain more than $270 million from Drift",
+    "description": "The exploit did not involve a bug in Drift's code. It used \"durable nonces,\" a legitimate Solana transaction feature, to pre-sign administrative transfers weeks before executing them, bypassing the protocol's multisig security in minutes.",
+    "date": "2026-04-02",
+    "source_url": "https://www.coindesk.com/tech/2026/04/02/how-a-solana-feature-designed-for-convenience-let-an-attacker-drain-usd270-million-from-drift",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin trims big loss, stocks erase 2% decline, as Iran signals cooperation on key shipping route",
+    "description": "In the middle of a surge higher following President Trump's overnight comments, the price of WTI crude oil quickly fell nearly $6 per barrel on the news.",
+    "date": "2026-04-02",
+    "source_url": "https://www.coindesk.com/markets/2026/04/02/bitcoin-trims-big-loss-stocks-erase-2-decline-as-iran-signals-cooperation-on-key-shipping-route",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Crypto for Advisors: Crypto custody’s evolution",
+    "description": "Beyond simple storage, the next era of institutional crypto will be defined by the real-time connectivity and mobility of digital assets across a fragmented market.",
+    "date": "2026-04-02",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/01/crypto-for-advisors-crypto-custody-s-evolution",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "North Koreans hackers likely behind $286 million Drift Protocol exploit: Elliptic",
+    "description": "The blockchain analytics firm pointed to cross-chain laundering patterns and Solana-specific tracing challenges that mirror prior North Korean state-linked operations.",
+    "date": "2026-04-02",
+    "source_url": "https://www.coindesk.com/business/2026/04/02/north-koreans-hackers-likely-behind-the-usd286-million-drift-protocol-exploit-elliptic",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Interoperability & Standards",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Telegram Wallet integrates Lighter to roll out in-app perpetual futures trading to 150M+ users",
+    "description": "Telegram has rolled out perpetual futures trading directly into its app to its wallet users through a partnership with Lighter.",
+    "date": "2026-04-02",
+    "source_url": "https://www.theblock.co/post/396228/telegram-wallet-integrates-lighter-to-roll-out-in-app-perpetual-futures-trading-to-150m-users",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Oil shock, Iran war risk keep crypto investors on sidelines: Grayscale",
     "description": "The crypto asset manager said investors are sidelined by Middle East tensions, but resilient valuations and structural adoption trends could set up the next leg higher.",
     "date": "2026-04-02",
@@ -9450,123 +9563,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "LTC to ETH Swap in 2026: A Shift Toward Smart Contract Ecosystems",
-    "description": "March 18, 2026 — In crypto markets, a quiet shift is becoming more visible. More users are choosing ...",
-    "date": "2026-03-18",
-    "source_url": "https://www.finextra.com/blogposting/31171/ltc-to-eth-swap-in-2026-a-shift-toward-smart-contract-ecosystems",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Wise Unlocks Thailand With Multi-Licence Approval",
-    "description": "Hey Payments Fanatic! Wise just unlocked local operations in one of Southeast Asia&#x2019;s most protected payments markets: Thailand. &#x1F1F9;&#x1F1ED; The secured multi-licence approval from the Bank of Thailand and the Ministry of Commerce allowed the company to launch the country&#x2019;s first fully digital multi-currency wallet.",
-    "date": "2026-03-18",
-    "source_url": "https://www.connectingthedotsinpayments.com/wise-unlocks-thailand-with-multi-licence-approval/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Kraken Freezes IPO Plans as 2026 Crypto Listing Market Loses Steam",
-    "description": "The post Kraken Freezes IPO Plans as 2026 Crypto Listing Market Loses Steam appeared first on Unchained .",
-    "date": "2026-03-18",
-    "source_url": "https://unchainedcrypto.com/kraken-pauses-ipo-plans-amid-weak-market-conditions/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Stripe and Paradigm’s Tempo Blockchain Goes Live With AI Agent Payments Protocol",
-    "description": "The post Stripe and Paradigm&#8217;s Tempo Blockchain Goes Live With AI Agent Payments Protocol appeared first on Unchained .",
-    "date": "2026-03-18",
-    "source_url": "https://unchainedcrypto.com/tempo-mainnet-launches-with-ai-agent-payment-standard/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "S&P 500 Gets First Officially Licensed Onchain Perpetual, Landing on Hyperliquid",
-    "description": "The post S&#038;P 500 Gets First Officially Licensed Onchain Perpetual, Landing on Hyperliquid appeared first on Unchained .",
-    "date": "2026-03-18",
-    "source_url": "https://unchainedcrypto.com/sp-500-perpetual-debuts-on-hyperliquid-with-official-license/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "CFTC Clears Path for Phantom to Bridge Crypto Wallets and Derivatives",
-    "description": "The post CFTC Clears Path for Phantom to Bridge Crypto Wallets and Derivatives appeared first on Unchained .",
-    "date": "2026-03-18",
-    "source_url": "https://unchainedcrypto.com/cftc-allows-phantom-wallet-to-connect-users-to-derivatives-markets/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
