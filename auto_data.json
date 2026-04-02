@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bitcoin traders keep chasing Trump’s Iran noise. The real signals are elsewhere.",
+    "description": "Bitcoin and other risk assets have been whipsawed by President Donald J. Trump’s shifting rhetoric on Iran. Here are some indicators that help cut through the noise.",
+    "date": "2026-04-02",
+    "source_url": "https://www.coindesk.com/markets/2026/04/02/bitcoin-traders-keep-chasing-trump-s-iran-noise-the-real-signals-are-elsewhere",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Oil trader takes $17 million hit as tokenized crude rivals bitcoin liquidations",
     "description": "Brent crude futures on Hyperliquid recorded $46.6 million in liquidations, behind only ether and bitcoin. The single largest liquidation was a $17.17 million oil position.",
     "date": "2026-04-02",
@@ -9557,29 +9576,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bank of Korea adds two banks to digital won trials as real-world testing begins",
-    "description": "Korea's central bank and nine commercial lenders started real-world testing of deposit tokens, including subsidy payments and peer-to-peer transfers.",
-    "date": "2026-03-18",
-    "source_url": "https://www.coindesk.com/business/2026/03/18/bank-of-korea-adds-two-banks-to-digital-won-trials-as-real-world-testing-begins",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Tokenization & Issuance",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
