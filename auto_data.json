@@ -1,5 +1,95 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Beyond T-bills: OpenEden introduces tokenized high-yield corporate bond",
+    "description": "The product further expands the tokenized real-world asset market beyond cash-equivalent and treasury strategies, which currently dominate the sector.",
+    "date": "2026-04-02",
+    "source_url": "https://www.coindesk.com/business/2026/04/02/beyond-t-bills-openeden-introduces-tokenized-high-yield-corporate-bond",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Metaplanet acquires 5,075 BTC, jumps to third largest bitcoin treasury company",
+    "description": "Japan-based firm strengthens its position with nearly $400 million purchase, surpassing MARA Holdings in global rankings.",
+    "date": "2026-04-02",
+    "source_url": "https://www.coindesk.com/markets/2026/04/02/metaplanet-acquires-5-075-btc-jumps-to-third-largest-bitcoin-treasury-company",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Early-stage deepfake detection market on rise: UK report",
+    "description": "A U.K. report finds the deepfake detection market is still early but growing fast, with future growth depending on clear rules and fewer barriers. The post Early-stage deepfake detection market on rise: UK report appeared first on CoinGeek .",
+    "date": "2026-04-02",
+    "source_url": "https://coingeek.com/early-stage-deepfake-detection-market-on-rise-uk-report/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Drift says $280M exploit tied to ‘sophisticated’ admin takeover; ZachXBT criticizes Circle over USDC handling",
+    "description": "Drift said Wednesday's $280 million exploit was a result of unauthorized transaction approvals, facilitated through durable nonce mechanisms.",
+    "date": "2026-04-02",
+    "source_url": "https://www.theblock.co/post/396183/drift-280m-exploit-zachxbt-circle",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Alabama governor signs bill creating legal framework for DAO-like nonprofit entities",
+    "description": "The bill stipulates that members of a decentralized nonprofit association generally have no personal liability for its activities.",
+    "date": "2026-04-02",
+    "source_url": "https://www.theblock.co/post/396181/alabama-governor-signs-dao-bill",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Onchain investment fintech Midas raises $50 million",
     "description": "Midas, a platform for composable onchain investment products, has raised $50 million in Series A funding led by RRE and Creandum, with participation from Framework Ventures, HV Capital, Ledger Cathay, Franklin Templeton, Coinbase Ventures, M1 Capital, Anchorage Digital, FJ Labs, North Island Ventures, No Limit Holdings and GSR.",
@@ -9477,106 +9567,6 @@
     "initiative_types": [
       "Crypto / Digital Assets",
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Why tokenized assets are DeFi’s biggest unlock",
-    "description": "DeFi founders discuss why tokenized assets, liquidity, and real-world integration—not new primitives—will drive the next phase of growth.",
-    "date": "2026-03-18",
-    "source_url": "https://www.theblock.co/post/394169/why-tokenized-assets-are-defis-biggest-unlock",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Collateral & Lending",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Senate Banking Committee eyes April vote on crypto market structure bill, Sen. Lummis says",
-    "description": "A Senate panel plans to hold a hearing to amend and vote on a broad cryptocurrency market structure bill in April.",
-    "date": "2026-03-18",
-    "source_url": "https://www.theblock.co/post/394164/senate-banking-committee-april-vote-crypto-market-structure-bill-sen-lummis",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Polymarket acquires crypto startup Brahma as prediction platform looks to boost liquidity: Fortune",
-    "description": "Brahma might be able to bolster liquidity for Polymarket's lower-profile wagers that do not attract large pools of capital.",
-    "date": "2026-03-18",
-    "source_url": "https://www.theblock.co/post/394146/polymarket-acquires-crypto-startup-brahma-prediction-platform-looks-boost-liquidity-fortune",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "SEC approves Nasdaq's move to support tokenized securities trading",
-    "description": "The SEC’s approval lets Nasdaq test blockchain-based versions of stocks that trade and settle like traditional shares.",
-    "date": "2026-03-18",
-    "source_url": "https://www.coindesk.com/policy/2026/03/18/sec-approves-nasdaq-s-move-to-allow-tokenized-securities-trading",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Fairshake's $10 million Illinois misfire marks first big hitch in crypto political surge",
-    "description": "The crypto sector's leading political action committee devoted more than 5% of its war chest trying to defeat a Senate candidate who just won her primary.",
-    "date": "2026-03-18",
-    "source_url": "https://www.coindesk.com/news-analysis/2026/03/18/fairshake-s-usd10-million-illinois-misfire-marks-first-big-hitch-in-crypto-political-surge",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
