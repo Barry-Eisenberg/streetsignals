@@ -1,5 +1,25 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Crypto markets tumble as oil surges and traders pile into bearish bets: Crypto Markets Today",
+    "description": "Bitcoin and ether fell sharply alongside global risk assets after escalating tension in Iran drove oil higher, while derivatives data shows traders positioning for further downside.",
+    "date": "2026-04-02",
+    "source_url": "https://www.coindesk.com/markets/2026/04/02/crypto-markets-tumble-as-oil-surges-and-traders-pile-into-bearish-bets-crypto-markets-today",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "DeFi platform Drift suspends deposits and withdrawals after crypto hack",
     "description": "DeFi platform Drift has suspended deposits and withdrawals after losing millions of dollars in a crypto hack.",
@@ -9542,27 +9562,6 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Metro Bank expands foreign exchange service with Equals Money",
-    "description": "Metro Bank has partnered with Equals Money to make FX Forwards available to its Corporate and Commercial customers, expanding its foreign exchange offering.",
-    "date": "2026-03-18",
-    "source_url": "https://www.finextra.com/pressarticle/109225/metro-bank-expands-foreign-exchange-service-with-equals-money",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Tokenization & Issuance",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
     ],
     "year": "2026"
   }
