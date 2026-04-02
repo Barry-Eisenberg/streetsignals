@@ -1,6 +1,46 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Oil trader takes $17 million hit as tokenized crude rivals bitcoin liquidations",
+    "description": "Brent crude futures on Hyperliquid recorded $46.6 million in liquidations, behind only ether and bitcoin. The single largest liquidation was a $17.17 million oil position.",
+    "date": "2026-04-02",
+    "source_url": "https://www.coindesk.com/markets/2026/04/02/oil-trader-takes-usd17m-hit-as-tokenized-crude-rivals-bitcoin-liquidations",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Guyana fast-tracks national payments platform rollout",
+    "description": "Guyana plans to launch a national payment platform and expand access to digital wallets by the next six months, aiming to shift to a more cashless economy. The post Guyana fast-tracks national payments platform rollout appeared first on CoinGeek .",
+    "date": "2026-04-02",
+    "source_url": "https://coingeek.com/guyana-fast-tracks-national-payments-platform-rollout/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bitcoin, ether, solana slide further as Trump threatens to hit Iran 'extremely hard'",
     "description": "Crypto and equities sold off after the president's national address undermined a two-day rally built on expectations the war was ending. Oil jumped 5% to above $106.",
     "date": "2026-04-02",
@@ -9540,43 +9580,6 @@
       "Tokenized Securities / RWA",
       "Stablecoins & Deposit Tokens",
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Stripe-led payments blockchain Tempo goes live with protocol for AI agents",
-    "description": "The Stripe-led blockchain targets fast, low-cost digital payments and a new Machine Payments Protocol that allows AI agents pay autonomously.",
-    "date": "2026-03-18",
-    "source_url": "https://www.coindesk.com/tech/2026/03/18/stripe-led-payments-blockchain-tempo-goes-live-with-protocol-for-ai-agents",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Ben Gully appointed Secretary General of the Basel Committee on Banking Supervision",
-    "description": "Ben Gully will lead the international standard setter's Secretariat in Basel. Mr Gully has been appointed for a three-year term, starting in August. He is currently Deputy Superintendent at the Office of the Superintendent of Financial Institutions (OSFI) in Canada.",
-    "date": "2026-03-17",
-    "source_url": "https://www.bis.org/press/p260317.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
     ],
     "year": "2026"
   }
