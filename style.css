@@ -3050,6 +3050,13 @@
   font-size: 11px;
 }
 
+.priority-signal-card-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
 .priority-signal-card-source {
   display: flex;
   align-items: center;
@@ -3061,6 +3068,17 @@
 
 .priority-signal-card-source:hover {
   color: var(--color-primary-hover);
+}
+
+.priority-signal-card-catalogue-link {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.priority-signal-card-catalogue-link:hover {
+  text-decoration: underline;
 }
 
 .priority-signal-card-details-btn {
@@ -3213,6 +3231,10 @@
 
 .signal-detail-value a:hover {
   text-decoration: underline;
+}
+
+.signal-detail-catalogue-link {
+  font-weight: 600;
 }
 
 .tier-badge {

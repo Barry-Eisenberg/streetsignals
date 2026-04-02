@@ -126,6 +126,16 @@ function getSignalKey(signal) {
   return `${String(signal.institution || '').trim()}|${String(signal.initiative || '').trim()}`.toLowerCase();
 }
 
+function escapeRegExp(value) {
+  return String(value || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function sentenceCase(value) {
+  const text = String(value || '').trim();
+  if (!text) return text;
+  return text.replace(/^\s*([a-z])/, (_, c) => c.toUpperCase());
+}
+
   function getSignalReferenceDateRaw(signal) {
     return String(getSignalSourceDateRaw(signal) || signal?.date || '').trim();
   }
@@ -180,12 +190,12 @@ function getSignalKey(signal) {
   }
 
   function buildSignalDetailInsight(signal, importance) {
-    return buildSignalDirectionalInsight(signal, importance)
+    return sentenceCase(buildSignalDirectionalInsight(signal, importance)
       .replace(/^For [^,]+ teams,\s*/i, '')
       .replace(/\s*Most material audiences:[^.]*\./i, '')
       .replace(/\s*Lens fit:[^.]*\./i, '')
       .replace(/\s+/g, ' ')
-      .trim();
+      .trim());
   }
 
   function buildSignalDetailUrl(reference) {
@@ -800,6 +810,54 @@ const REPORTER_SOURCE_NEEDLES = [
   'marketwatch'
 ];
 
+let institutionInferenceCache = {
+  signalCount: -1,
+  candidates: []
+};
+
+function getInstitutionInferenceCandidates() {
+  if (institutionInferenceCache.signalCount === allSignals.length && institutionInferenceCache.candidates.length) {
+    return institutionInferenceCache.candidates;
+  }
+
+  const excluded = new Set(REPORTER_SOURCE_NEEDLES.map(v => v.toLowerCase()));
+  const candidates = [...new Set(
+    (Array.isArray(allSignals) ? allSignals : [])
+      .map(signal => String(signal?.institution || '').trim())
+      .filter(Boolean)
+      .filter(name => name.length >= 3)
+      .filter(name => !excluded.has(name.toLowerCase()))
+  )]
+    .sort((a, b) => b.length - a.length);
+
+  institutionInferenceCache = {
+    signalCount: allSignals.length,
+    candidates
+  };
+
+  return candidates;
+}
+
+function inferDrivingInstitution(signal) {
+  const institution = String(signal?.institution || '').trim();
+  if (!isReporterSource(signal)) return institution;
+
+  const text = `${String(signal?.initiative || '')} ${String(signal?.description || '')}`.trim();
+  if (!text) return '';
+
+  const textLower = text.toLowerCase();
+  const candidates = getInstitutionInferenceCandidates();
+
+  for (const candidate of candidates) {
+    const candidateLower = candidate.toLowerCase();
+    if (candidateLower.length < 3) continue;
+    const pattern = new RegExp(`\\b${escapeRegExp(candidateLower)}\\b`, 'i');
+    if (pattern.test(textLower)) return candidate;
+  }
+
+  return '';
+}
+
 const DEPRECATED_SIGNAL_TYPES = new Set(['Intelligence Brief']);
 
 const COUNTRY_INSTITUTION_HINTS = [
@@ -1342,7 +1400,11 @@ function isReporterSource(signal) {
 
 function getSignalNarrativeSubject(signal) {
   const institution = String(signal?.institution || 'A market participant').trim();
-  if (isReporterSource(signal)) return 'reported market participants';
+  if (isReporterSource(signal)) {
+    const inferred = inferDrivingInstitution(signal);
+    if (inferred) return inferred;
+    return 'reported market participants';
+  }
   return institution;
 }
 
@@ -4055,9 +4117,12 @@ function renderPrioritySignalsStrip() {
     const initiatives = Array.isArray(signal.initiative_types) ? signal.initiative_types.slice(0, 1) : [];
     const initiativeText = initiatives.length ? initiatives[0] : 'Digital asset infrastructure';
     const headlineText = String(signal?.initiative || '').trim() || initiativeText;
+    const displayInstitution = inferDrivingInstitution(signal) || String(signal?.institution || 'Institution').trim();
     const signalKey = encodeURIComponent(getSignalKey(signal));
     const signalDate = escapeHtml(getSignalReferenceDateRaw(signal));
     const signalSource = escapeHtml(String(signal.source_url || ''));
+    const encodedNavName = encodeURIComponent(String(signal?.initiative || '').trim() || displayInstitution);
+    const encodedNavCategory = encodeURIComponent(String(signal?.category || '').trim());
     const url = signal.source_url || '#';
     const domain = url !== '#' ? new URL(url).hostname.replace('www.','') : '';
     const textExcerpt = signal.description ? signal.description.substring(0, 100) + (signal.description.length > 100 ? '...' : '') : '';
@@ -4067,7 +4132,7 @@ function renderPrioritySignalsStrip() {
         <div class="priority-signal-card-header">
           <div class="priority-signal-card-institution">
             <span class="priority-signal-badge" title="${tierTooltip}">Structural</span>
-            <span class="priority-signal-card-institution-name">${signal.institution}</span>
+            <span class="priority-signal-card-institution-name">${escapeHtml(displayInstitution)}</span>
           </div>
           <span class="priority-signal-card-date" title="Source publication date">${escapeHtml(date)}</span>
         </div>
@@ -4081,7 +4146,10 @@ function renderPrioritySignalsStrip() {
         </div>
         <div class="priority-signal-card-insight">${escapeHtml(insight)}</div>
         <div class="priority-signal-card-footer">
-          ${url !== '#' ? `<a href="${url}" target="_blank" rel="noopener noreferrer" class="priority-signal-card-source"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>${domain}</a>` : '<span></span>'}
+          <div class="priority-signal-card-links">
+            ${url !== '#' ? `<a href="${url}" target="_blank" rel="noopener noreferrer" class="priority-signal-card-source"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>${domain}</a>` : ''}
+            <a href="#" class="priority-signal-card-catalogue-link" data-nav-signal-name="${encodedNavName}" data-nav-signal-category="${encodedNavCategory}">View in Signal Catalogue</a>
+          </div>
           <button type="button" class="priority-signal-card-details-btn" data-priority-signal-key="${signalKey}" data-priority-signal-date="${signalDate}" data-priority-signal-source="${signalSource}">Details</button>
         </div>
       </div>
@@ -4782,6 +4850,9 @@ function showSignalDetail(signalData) {
   const detailInsight = fullSignal ? buildSignalDetailInsight(fullSignal, detailImportance) : 'No directional insight available.';
   const detailContextImplications = fullSignal ? getSignalContextImplications(fullSignal, detailImportance) : 'Context synthesis is unavailable for this signal.';
   const sourceRole = fullSignal && isReporterSource(fullSignal) ? 'Reporting source (not necessarily the originating institution)' : 'Primary source / institution disclosure';
+  const displayInstitution = fullSignal ? (inferDrivingInstitution(fullSignal) || String(fullSignal?.institution || signalData.institution || '').trim()) : String(signalData.institution || 'Unknown institution').trim();
+  const encodedCatalogueName = encodeURIComponent(String(normalizedSignal?.initiative || displayInstitution || '').trim());
+  const encodedCatalogueCategory = encodeURIComponent(String(fullSignal?.category || '').trim());
   const marketContext = fullSignal ? getExternalMarketContext(fullSignal, selectedPersona) : { available: false };
   const initiatives = getSignalDetailInitiatives(normalizedSignal).slice(0, 4);
   const fmiAreas = getSignalDetailFmiAreas(normalizedSignal).slice(0, 4);
@@ -4798,7 +4869,7 @@ function showSignalDetail(signalData) {
   panel.innerHTML = `
     <div class="signal-detail-header">
       <div class="signal-detail-title">
-        <h3>${escapeHtml(signalData.institution)}</h3>
+        <h3>${escapeHtml(displayInstitution || signalData.institution)}</h3>
         <p class="signal-detail-initiative">${escapeHtml(signalData.initiative)}</p>
       </div>
       <div class="signal-detail-actions">
@@ -4827,6 +4898,10 @@ function showSignalDetail(signalData) {
       <div class="signal-detail-row">
         <span class="signal-detail-label">Source Role:</span>
         <span class="signal-detail-value">${escapeHtml(sourceRole)}</span>
+      </div>
+      <div class="signal-detail-row">
+        <span class="signal-detail-label">Open in Catalogue:</span>
+        <span class="signal-detail-value"><a href="#" class="signal-detail-catalogue-link" data-nav-signal-name="${encodedCatalogueName}" data-nav-signal-category="${encodedCatalogueCategory}">View this signal in Signal Catalogue</a></span>
       </div>
       <div class="signal-detail-row">
         <span class="signal-detail-label">Date:</span>
