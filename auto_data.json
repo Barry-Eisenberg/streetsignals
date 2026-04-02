@@ -1,5 +1,43 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Kulipa raises $6.2m for stablecoin-native card issuing infrastructure platform",
+    "description": "Kulipa, a Paris-based stablecoin-native card issuing infrastructure platform, has raised $6.2 million in seed funding.",
+    "date": "2026-04-02",
+    "source_url": "https://www.finextra.com/newsarticle/47529/kulipa-raises-62m-for-stablecoin-native-card-issuing-infrastructure-platform",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "UK fintechs VibePay and SmartLayer shut down",
+    "description": "Consumer payments app VibePay and AI-powered home finance specialist SmartLayer are the latest fintechs to shut up shop.",
+    "date": "2026-04-02",
+    "source_url": "https://www.finextra.com/newsarticle/47527/uk-fintechs-vibepay-and-smartlayer-shut-down",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Connecting the Dots",
     "initiative": "Q&A: Why it’s time to rethink your APM strategy: A conversation with Checkout.com’s Manika Singh",
     "description": "Payments are becoming an increasingly decisive lever for growth, particularly at checkout, where customer expectations, local preferences, and performance converge in seconds. I&#x2019;m joined by Manika Singh, VP of Product at Checkout.com, to explore how they approach alternative payment methods (APMs) at a global scale. In this",
@@ -9530,42 +9568,6 @@
     "initiative_types": [
       "Tokenized Securities / RWA"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Bitcoin Rallies as ETF Inflows Surge and Shorts Get Squeezed",
-    "description": "The post Bitcoin Rallies as ETF Inflows Surge and Shorts Get Squeezed appeared first on Unchained .",
-    "date": "2026-03-17",
-    "source_url": "https://unchainedcrypto.com/bitcoin-hits-73k-on-1b-etf-inflows-and-600m-short-squeeze/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Joachim Nagel: Presentation of the Deutsche Bundesbank's Annual Report 2025",
-    "description": "Introductory statement by Dr Joachim Nagel, President of the Deutsche Bundesbank, at the press conference presenting the Annual Report 2025, Frankfurt am Main, 5 March 2026.",
-    "date": "2026-03-17",
-    "source_url": "https://www.bis.org/review/r260316b.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
