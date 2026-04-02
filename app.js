@@ -842,12 +842,14 @@ function inferDrivingInstitution(signal) {
   const institution = String(signal?.institution || '').trim();
   if (!isReporterSource(signal)) return institution;
 
-  const text = `${String(signal?.initiative || '')} ${String(signal?.description || '')}`.trim();
+  const headline = sentenceCase(String(signal?.initiative || '').trim());
+  const text = `${headline} ${String(signal?.description || '')}`.trim();
   if (!text) return '';
 
   const textLower = text.toLowerCase();
   const candidates = getInstitutionInferenceCandidates();
 
+  // 1) Highest-confidence: match known institutions already in the dataset.
   for (const candidate of candidates) {
     const candidateLower = candidate.toLowerCase();
     if (candidateLower.length < 3) continue;
@@ -855,7 +857,28 @@ function inferDrivingInstitution(signal) {
     if (pattern.test(textLower)) return candidate;
   }
 
+  // 2) Headline-context extraction for reporter-sourced titles (e.g., "Why Mastercard paid...").
+  const contextPatterns = [
+    /\b([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,4})\s+(?:adds|launches|expands|extends|partners|acquires|announces|unveils|files|wins|integrates|opens|doubles|buys|invests|backs|joins|secures|rolls|paid|pays|reports)\b/i,
+    /\b(?:owner|parent company)\s+of\s+(?:the\s+)?([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,5})\b/i,
+    /\b([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,4})['’]s\b/i
+  ];
+
+  for (const pattern of contextPatterns) {
+    const match = headline.match(pattern);
+    const captured = String(match?.[1] || '').trim();
+    if (!captured) continue;
+    if (REPORTER_SOURCE_NEEDLES.some(needle => captured.toLowerCase().includes(needle))) continue;
+    return captured;
+  }
+
   return '';
+}
+
+function getPriorityDisplayInstitution(signal) {
+  const institution = String(signal?.institution || '').trim();
+  if (!isReporterSource(signal)) return institution || 'Institution';
+  return inferDrivingInstitution(signal) || 'Market-wide signal';
 }
 
 const DEPRECATED_SIGNAL_TYPES = new Set(['Intelligence Brief']);
@@ -4066,11 +4089,14 @@ function renderPrioritySignalsStrip() {
   if (!container) return;
   setupPrioritySignalsInteractions(container);
 
-  // Get Structural-tier signals only
+  // Get Structural-tier signals from the last 7 days only.
+  const PRIORITY_WINDOW_DAYS = 7;
+  const cutoffTs = Date.now() - (PRIORITY_WINDOW_DAYS * 24 * 60 * 60 * 1000);
   const allSignals = getOperationalSignals();
   const structuralSignals = allSignals.filter(s => {
     const importance = getSignalImportance(s);
-    return importance.tier === 'Structural';
+    const ts = getSignalDateTimestamp(s) || 0;
+    return importance.tier === 'Structural' && ts >= cutoffTs;
   });
 
   if (structuralSignals.length === 0) {
@@ -4102,7 +4128,7 @@ function renderPrioritySignalsStrip() {
   let html = `
     <div class="priority-signals-section">
       <div class="priority-signals-header">
-        <h2>Priority Signals – This Quarter</h2>
+        <h2>Priority Signals - This Week</h2>
         ${selectedPersona !== DEFAULT_PERSONA ? `<p class="priority-signals-persona-note">Ranked for ${lensLabel}</p>` : ''}
       </div>
       <div class="priority-signals-scroll">
@@ -4117,7 +4143,7 @@ function renderPrioritySignalsStrip() {
     const initiatives = Array.isArray(signal.initiative_types) ? signal.initiative_types.slice(0, 1) : [];
     const initiativeText = initiatives.length ? initiatives[0] : 'Digital asset infrastructure';
     const headlineText = String(signal?.initiative || '').trim() || initiativeText;
-    const displayInstitution = inferDrivingInstitution(signal) || String(signal?.institution || 'Institution').trim();
+    const displayInstitution = getPriorityDisplayInstitution(signal);
     const signalKey = encodeURIComponent(getSignalKey(signal));
     const signalDate = escapeHtml(getSignalReferenceDateRaw(signal));
     const signalSource = escapeHtml(String(signal.source_url || ''));
