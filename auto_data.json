@@ -1,5 +1,41 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "‘Alive and well:’ Solana memecoin honoring 193-year-old tortoise Jonathan rallies following April Fools’ prank",
+    "description": "The JONATHAN token, launched eight months ago, hit a high of approximately $0.00038 on April Fools' Day, in a single 1,400% candle.",
+    "date": "2026-04-02",
+    "source_url": "https://www.theblock.co/post/396264/alive-well-solana-memecoin-193-year-old-tortoise-jonathan-rallies-april-fools-prank",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Hyperliquid gains ground on centralized exchanges as perps market share nears 6%",
+    "description": "The platform's share of total perp futures volume has climbed to just under 6% in March with monthly volumes approaching $200 billion.",
+    "date": "2026-04-02",
+    "source_url": "https://www.theblock.co/post/395728/hyperliquid-gains-centralized-exchanges-perps-market-share-nears-6",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "CFTC sues Illinois over state's cease-and-desist letters against prediction markets",
     "description": "The CFTC argued in a lawsuit that the Commodity Exchange Act gave it \"exclusive jurisdiction\" over all swaps, which include prediction markets.",
@@ -9511,46 +9547,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "OpenClaw’s rise draws phishing campaign targeting developers’ crypto wallets",
-    "description": "OpenClaw creator Peter Steinberger warned that any crypto-themed outreach invoking the AI platform should be treated as fraudulent.",
-    "date": "2026-03-19",
-    "source_url": "https://www.theblock.co/post/394290/openclaw-phishing-crypto-wallets",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Crypto market maker Flow Traders enters tokenized assets via 24/7 OTC desk",
-    "description": "The move comes as tokenized assets gain traction, highlighting rising demand for round-the-clock liquidity and hedging.",
-    "date": "2026-03-19",
-    "source_url": "https://www.theblock.co/post/394215/crypto-market-maker-flow-traders-tokenized-assets-24-7-otc-desk",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
