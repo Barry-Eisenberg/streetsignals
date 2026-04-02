@@ -849,6 +849,7 @@ function getInstitutionInferenceCandidates() {
 function cleanInstitutionLabel(label) {
   let value = String(label || '').replace(/\s+/g, ' ').trim();
   if (!value) return '';
+  value = value.replace(/^the\s+/i, '').trim();
 
   const actionPattern = new RegExp(`\\b(?:${INSTITUTION_ACTION_WORDS.join('|')})\\b`, 'i');
   const match = actionPattern.exec(value);
@@ -2576,7 +2577,14 @@ function buildInstitutionSummaries(signals) {
   const instMap = {};
 
   signals.forEach(signal => {
-    const key = signal.institution;
+    const rawInstitution = String(signal?.institution || '').trim();
+    const inferredInstitution = inferDrivingInstitution(signal);
+    const key = cleanInstitutionLabel(inferredInstitution || rawInstitution);
+
+    // Directory should represent named institutions, not reporting outlets.
+    if (!key) return;
+    if (isReporterSource(signal) && !inferredInstitution) return;
+
     if (!instMap[key]) {
       instMap[key] = {
         name: key,
