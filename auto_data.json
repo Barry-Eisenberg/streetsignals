@@ -1,5 +1,39 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Kroll gives Ripple Prime ‘medium quality’ rating citing strong backing, concentration risks",
+    "description": "The rating, which is its lowest investment-grade tier, leans heavily on Ripple’s balance sheet of $57 billion in cash and XRP holdings.",
+    "date": "2026-04-02",
+    "source_url": "https://www.theblock.co/post/396233/kroll-ripple-prime-medium-quality-rating-strong-backing-concentration-risks",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "As World Cup nears, CZ–backed YZi Labs increases investment in prediction market startup Predict.fun",
+    "description": "The Binance co-founder recently said the upcoming World Cup should boost activity on prediction markets, which let user wager on sports.",
+    "date": "2026-04-02",
+    "source_url": "https://www.theblock.co/post/396231/world-cup-nears-cz-backed-yzi-labs-increases-investment-in-prediction-market-startup",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Elon Musk's X to deploy scam kill switch by auto-locking first-time crypto mentioners",
     "description": "The move comes in response to a wave of phishing attacks using fake copyright emails and is the latest in an attempt to shut down crypto-linked scams on the platform.",
@@ -9523,46 +9557,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin OGs dump over $100 million in BTC after hawkish Fed dents rate cut hopes",
-    "description": "OGs sell as Fed's hawkish stance on rates pressures crypto and other risk assets.",
-    "date": "2026-03-19",
-    "source_url": "https://www.coindesk.com/markets/2026/03/19/bitcoin-ogs-dump-over-usd100-million-in-btc-after-hawkish-fed-dents-rate-cut-hopes",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Forget market hours: Leading ETP firm just opened 24/7 liquidity for tokenized stocks, gold and money market funds",
-    "description": "ETP market giant Flow Traders just launched 24/7 over-the-counter (OTC) liquidity service for tokenized assets.",
-    "date": "2026-03-19",
-    "source_url": "https://www.coindesk.com/markets/2026/03/19/forget-market-hours-leading-etp-firm-just-opened-24-7-liquidity-for-tokenized-stocks-gold-and-money-market-funds",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
     ],
     "year": "2026"
   }
