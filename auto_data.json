@@ -1,6 +1,104 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "The ‘wash trading’ bust: Why the feds are finally calling out crypto’s dirty little liquidity secret",
+    "description": "An FBI-created token helped expose how firms allegedly engineered fake volume and why the incentives behind it remain deeply entrenched",
+    "date": "2026-04-02",
+    "source_url": "https://www.coindesk.com/business/2026/04/02/doj-sting-exposes-crypto-wash-trading-continues-to-be-far-more-common-than-expected",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "BitGo launches stablecoin minting and redemption for institutions",
+    "description": "The company is hoping to service 'market makers, liquidity providers, banks, exchanges, asset managers, and fintechs.'",
+    "date": "2026-04-02",
+    "source_url": "https://www.theblock.co/post/396152/bitgo-stablecoin-minting-redemption-institutions",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Franklin Templeton Forms Dedicated Crypto Division With 250 Digital Acquisition",
+    "description": "The post Franklin Templeton Forms Dedicated Crypto Division With 250 Digital Acquisition appeared first on Unchained .",
+    "date": "2026-04-02",
+    "source_url": "https://unchainedcrypto.com/franklin-templeton-forms-dedicated-crypto-division-with-250-digital-acquisition-unchained/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Metaplanet Becomes Third-Largest Corporate Bitcoin Holder After 5,075 BTC Purchase",
+    "description": "The post Metaplanet Becomes Third-Largest Corporate Bitcoin Holder After 5,075 BTC Purchase appeared first on Unchained .",
+    "date": "2026-04-02",
+    "source_url": "https://unchainedcrypto.com/metaplanet-becomes-third-largest-corporate-bitcoin-holder-after-5075-btc-purchase-unchained/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Drift Protocol Suffers $285 Million Exploit After Admin Key Compromise and Oracle Manipulation",
+    "description": "The post Drift Protocol Suffers $285 Million Exploit After Admin Key Compromise and Oracle Manipulation appeared first on Unchained .",
+    "date": "2026-04-02",
+    "source_url": "https://unchainedcrypto.com/drift-protocol-suffers-285-million-exploit-after-admin-key-compromise-and-oracle-manipulation-unchained/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Crypto markets tumble as oil surges and traders pile into bearish bets: Crypto Markets Today",
     "description": "Bitcoin and ether fell sharply alongside global risk assets after escalating tension in Iran drove oil higher, while derivatives data shows traders positioning for further downside.",
     "date": "2026-04-02",
@@ -9465,104 +9563,6 @@
       "Collateral & Lending"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "FTX to distribute another $2.2 billion to creditors starting March 31",
-    "description": "This marks the fourth distribution for the bankrupt FTX exchange, which has already repaid over $6 billion to former users and investors.",
-    "date": "2026-03-18",
-    "source_url": "https://www.theblock.co/post/394237/ftx-distribute-2-2-billion-creditors-march-31",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Fold reports $69.6 million net loss for 2025 as it looks to expand customer base with bitcoin credit card",
-    "description": "The bitcoin infrastructure firm’s full-year operating losses jumped to $27.7 million, widening significantly from $5.8 million YoY.",
-    "date": "2026-03-18",
-    "source_url": "https://www.theblock.co/post/394214/fold-reports-69-6-million-net-loss-for-2025-as-it-looks-to-expand-customer-base-with-bitcoin-credit-card",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "How blockchain will transform our world… silently",
-    "description": "Blockchain’s real breakthrough may be its quiet integration into everyday systems, powering supply chains, finance, identity and energy behind the scenes. The post How blockchain will transform our world… silently appeared first on CoinGeek .",
-    "date": "2026-03-18",
-    "source_url": "https://coingeek.com/how-blockchain-will-transform-our-world-silently-video/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Mastercard buys BVNK; England not budging on stablecoin reserves",
-    "description": "Mastercard invests nearly $2 billion in BVNK for stablecoin innovation, as major players like Wells Fargo and PayPal enter the crypto payments space. The post Mastercard buys BVNK; England not budging on stablecoin reserves appeared first on CoinGeek .",
-    "date": "2026-03-18",
-    "source_url": "https://coingeek.com/mastercard-buys-bvnk-england-not-budging-on-stablecoin-reserves/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Stripe-backed Tempo blockchain goes live with machine payments protocol",
-    "description": "Tempo, the payments blockchain backed by Stripe, has launched its mainnet and introduced an open standard for machine payments.",
-    "date": "2026-03-18",
-    "source_url": "https://www.finextra.com/newsarticle/47462/stripe-backed-tempo-blockchain-goes-live-with-machine-payments-protocol",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
