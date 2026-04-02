@@ -1,6 +1,27 @@
 [
   {
     "institution": "The Block",
+    "initiative": "How Securitize is working with NYSE to bring equities onchain",
+    "description": "Carlos Domingo explains how tokenized equities, regulatory clarity, and major partnerships like NYSE are pushing blockchain into mainstream finance.",
+    "date": "2026-04-02",
+    "source_url": "https://www.theblock.co/post/396282/how-securitize-is-working-with-nyse-to-bring-equities-onchain",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
     "initiative": "Bittensor breakout fuels AI token rally as distributed training gains credibility",
     "description": "The price of TAO nearly doubled in March, as the market is catching up to a realization of what the Bittensor network can do.",
     "date": "2026-04-02",
@@ -9530,29 +9551,6 @@
       "Regulation & Compliance",
       "Interoperability & Standards",
       "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA",
-    "initiative": "ESMA sets out clearing thresholds under EMIR 3",
-    "description": "ESMA sets out clearing thresholds under EMIR 3 25 February 2026 Post Trading The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published its draft Regulatory Technical Standards (RTS) setting out new and revised clearing thresholds (CTs) under EMIR 3. The proposed thresholds ensure continuity in the coverage of systemic risk in over‑the‑counter (OTC) derivative markets while avoiding unnecessary complexity and additional compliance burdens for market participants. &nbsp; To reduce unnecessary complexity and burden, ESMA has: &nbsp; retained five CTs categories, avoiding additional categories or more granular thresholds; &nbsp; clarified the timing of calculation of positions, allowing counterparties to apply the new CTs during their usual assessment window or earlier, if they wish to benefit sooner from the new regime; &nbsp; enhanced stability and visibility in the mechanism triggering the review of the CT. &nbsp; Additionally, ESMA suggests increasing the thresholds in the commodity, interest rate and credit derivatives asset classes compared to what was proposed in the Consultation Paper published in April 2025. These adjustments reflect recent price developments, inflation and other relevant market factors while ensuring a proportionate coverage of the systemic risk. &nbsp; Although respondents to the consultation requested broader recognition of structured hedging arrangements, including virtual power purchase agreement (VPPAs), ESMA confirms that any change to the hedging exemption would require amendments at Regulation level and therefore cannot be addressed in these RTS. &nbsp; As a reminder, entities active in OTC derivative markets and exceeding one or more CTs are subject to additional requirements, notably the clearing obligation. &nbsp; Next steps ESMA has submitted the final draft RTS to the European Commission for endorsement, following which they will be subject to adoption. &nbsp; &nbsp; Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu 25/02/2026 ESMA74-1049116226-944 Final Report on the draft technical standards to further detail the new EMIR clearing thresholds regime",
-    "date": "2026-03-19",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-sets-out-clearing-thresholds-under-emir-3",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
     ],
     "initiative_types": [
       "Payment Infrastructure"
