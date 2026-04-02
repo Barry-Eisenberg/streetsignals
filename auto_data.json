@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Ripple Treasury puts XRP and RLUSD inside corporate finance for the first time",
+    "description": "The treasury management system, built on Ripple's 2025 acquisition of GTreasury, lets CFOs view and manage digital assets alongside fiat in a single dashboard without separate custody or wallet infrastructure.",
+    "date": "2026-04-02",
+    "source_url": "https://www.coindesk.com/business/2026/04/02/ripple-treasury-puts-xrp-and-rlusd-inside-corporate-finance-for-the-first-time",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bitcoin traders keep chasing Trump’s Iran noise. The real signals are elsewhere.",
     "description": "Bitcoin and other risk assets have been whipsawed by President Donald J. Trump’s shifting rhetoric on Iran. Here are some indicators that help cut through the noise.",
     "date": "2026-04-02",
@@ -9554,25 +9573,6 @@
     "fmi_areas": [
       "Trading & Exchange",
       "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Key U.S. senator on crypto market structure bill negotiation: 'We think we've got it'",
-    "description": "Senator Cynthia Lummis, at the center of legislative talks, said the discussion is down to nuance and the bill will finally emerge from her committee in April.",
-    "date": "2026-03-18",
-    "source_url": "https://www.coindesk.com/policy/2026/03/18/key-u-s-senator-on-crypto-market-structure-bill-negotiation-we-think-we-ve-got-it",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
