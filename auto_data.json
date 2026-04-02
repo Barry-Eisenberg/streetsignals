@@ -1,6 +1,81 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "The bitcoin treasury boom is unwinding as some companies and governments sell holdings",
+    "description": "Falling prices and prolonged consolidation are pushing public firms and sovereign holders to liquidate bitcoin reserves to shore up balance sheets.",
+    "date": "2026-04-02",
+    "source_url": "https://www.coindesk.com/markets/2026/04/02/the-bitcoin-treasury-boom-is-unwinding-as-some-companies-and-governments-sell-holdings",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Cross River banks $50 million capital raise",
+    "description": "Embedded finance provider Cross River has secured a $50 million capital raise to fuel investment in AI and crypto.",
+    "date": "2026-04-02",
+    "source_url": "https://www.finextra.com/newsarticle/47530/cross-river-banks-50-million-capital-raise",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Asic inquiry slams ASX technology management",
+    "description": "ASIC has today published the ASX Inquiry Panel’s (the Panel) Final Report into the Australian Securities Exchange (ASX) group.",
+    "date": "2026-04-02",
+    "source_url": "https://www.finextra.com/pressarticle/109359/asic-inquiry-slams-asx-technology-management",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Metaplanet adds 5,075 bitcoin, bringing total holdings to 40,177 BTC to become third-largest among public companies",
+    "description": "Metaplanet added 5,075 BTC, increasing its total holdings to 40,177 BTC and placing it third among public treasury companies.",
+    "date": "2026-04-02",
+    "source_url": "https://www.theblock.co/post/396190/metaplanet-adds-5075-bitcoin-bringing-total-holdings-to-40177-btc-to-become-third-largest-among-public-companies",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Beyond T-bills: OpenEden introduces tokenized high-yield corporate bond",
     "description": "The product further expands the tokenized real-world asset market beyond cash-equivalent and treasury strategies, which currently dominate the sector.",
     "date": "2026-04-02",
@@ -9488,85 +9563,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "SEC approves Nasdaq tokenized equities trading pilot",
-    "description": "The move represents a significant and practical step toward potentially bringing market infrastructure onchain.",
-    "date": "2026-03-18",
-    "source_url": "https://www.theblock.co/post/394238/sec-approves-nasdaq-tokenized-equities-trading-pilot",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Crypto market sheds $100 billion as bitcoin price drops 5% amid Fed caution",
-    "description": "The sell-off extended beyond crypto as investors reassessed the macro outlook following the Fed’s latest guidance.",
-    "date": "2026-03-18",
-    "source_url": "https://www.theblock.co/post/394219/crypto-market-sheds-100-billion-bitcoin-price-drops-5-fed-caution",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "The Daily: SEC and CFTC declare most crypto assets aren’t securities, Tempo mainnet goes live with MPP for agents, and more",
-    "description": "The following article is adapted from The Block’s newsletter, The Daily, which comes out on weekday afternoons.",
-    "date": "2026-03-18",
-    "source_url": "https://www.theblock.co/post/394205/the-daily-sec-and-cftc-declare-most-crypto-assets-arent-securities-tempo-mainnet-goes-live-with-mpp-for-agents-and-more",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Visa Crypto Labs rolls out command line tool for AI bot payments",
-    "description": "Visa CLI provides automated bots with the ability to pay for web services without having to manage API keys or needing human interaction.",
-    "date": "2026-03-18",
-    "source_url": "https://www.theblock.co/post/394199/visa-crypto-labs-rolls-out-command-line-tool-for-ai-bot-payments",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
