@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Transforming Without Breaking: A CIO Strategy for Governance, Architecture, and Measurable Outcomes",
+    "description": "Digital transformation is no longer a discretionary programme — it is a structural requirement fo",
+    "date": "2026-04-03",
+    "source_url": "https://www.finextra.com/blogposting/30861/transforming-without-breaking-a-cio-strategy-for-governance-architecture-and-measurable-outcomes",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "CoinDesk 20 performance update: Bitcoin (BTC) trades flat while altcoins rise",
     "description": "NEAR Protocol (NEAR) gained 5.8% and Avalanche (AVAX) climbed 3.6%.",
@@ -9536,25 +9555,6 @@
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin, unusually, outperforms gold as hawkish Fed, oil price fuel risk-off sentiment",
-    "description": "Bitcoin fell 2% while gold and silver saw sharper declines as oil prices surged and the Fed flashed hawkish signals.",
-    "date": "2026-03-19",
-    "source_url": "https://www.coindesk.com/markets/2026/03/19/bitcoin-unusually-outperforms-gold-as-hawkish-fed-oil-price-fuel-risk-off-sentiment",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
     ],
