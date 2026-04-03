@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "CoinDesk 20 performance update: Bitcoin (BTC) trades flat while altcoins rise",
+    "description": "NEAR Protocol (NEAR) gained 5.8% and Avalanche (AVAX) climbed 3.6%.",
+    "date": "2026-04-03",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/03/coindesk-20-performance-update-bitcoin-btc-trades-flat-while-altcoins-rise",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "U.S. March jobs smash expectations, with 178,000 added",
     "description": "Bitcoin continued to trade near the $67,000 level just following the strong report.",
     "date": "2026-04-03",
@@ -9542,23 +9561,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Balkanization of Apple in the age of sovereign agents and actors",
-    "description": "Apple's 50-year legacy highlights Silicon Valley's aging and the rise of individual sovereignty with AI and edge computing. The post Balkanization of Apple in the age of sovereign agents and actors appeared first on CoinGeek .",
-    "date": "2026-03-19",
-    "source_url": "https://coingeek.com/balkanization-of-apple-in-the-age-of-sovereign-agents-and-actors/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
