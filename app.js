@@ -813,7 +813,8 @@ const REPORTER_SOURCE_NEEDLES = [
 const INSTITUTION_ACTION_WORDS = [
   'adds', 'launches', 'expands', 'extends', 'partners', 'acquires', 'announces', 'unveils',
   'files', 'wins', 'integrates', 'opens', 'doubles', 'buys', 'invests', 'backs', 'joins',
-  'secures', 'rolls', 'paid', 'pays', 'reports', 'sues', 'drops', 'slides', 'falls', 'rises'
+  'secures', 'rolls', 'paid', 'pays', 'reports', 'sues', 'drops', 'slides', 'falls', 'rises',
+  'pushes', 'advances', 'sets', 'keeps', 'chasing', 'embeds', 'messes', 'spikes', 'hits', 'reaches'
 ];
 
 const DEPRECATED_INSTITUTION_PATTERNS = [
@@ -821,14 +822,20 @@ const DEPRECATED_INSTITUTION_PATTERNS = [
   /^is\s+/i,
   /^was\s+/i,
   /^were\s+/i,
+  /^as\s+/i,
   /^finally\s+/i,
   /^analysts?\s+/i,
   /^reportedly\s+/i,
   /^according\s+to\s+/i,
   /^crypto\s+/i,
   /^the\s+market\s+/i,
-  /^market\s+/i
+  /^market\s+/i,
+  /^bitcoin\s+etf\b/i,
+  /^bitcoin\s+traders?\b/i,
+  /^building\s+the\s+infrastructure\s+for\s+web3\b/i
 ];
+
+const MONTH_NAME_PATTERN = /^(january|february|march|april|may|june|july|august|september|october|november|december)$/i;
 
 const INSTITUTION_DESCRIPTOR_WORDS = [
   'startup', 'platform', 'exchange', 'issuer', 'provider', 'firm', 'company', 'bank',
@@ -869,6 +876,7 @@ function getInstitutionInferenceCandidates() {
 function cleanInstitutionLabel(label) {
   let value = String(label || '').replace(/\s+/g, ' ').trim();
   if (!value) return '';
+  value = value.replace(/^["'“”‘’]+|["'“”‘’]+$/g, '').trim();
   value = value.replace(/^the\s+/i, '').trim();
 
   // Try to pull an institution entity out of descriptor-heavy strings,
@@ -882,6 +890,9 @@ function cleanInstitutionLabel(label) {
     value = String(descriptorMatch[1]).trim();
   }
 
+  // Drop trailing clause-like fragments such as "X as Institutional...".
+  value = value.replace(/\s+(?:as|amid|while)\s+.+$/i, '').trim();
+
   if (DEPRECATED_INSTITUTION_PATTERNS.some(pattern => pattern.test(value))) return '';
 
   const actionPattern = new RegExp(`\\b(?:${INSTITUTION_ACTION_WORDS.join('|')})\\b`, 'i');
@@ -891,6 +902,7 @@ function cleanInstitutionLabel(label) {
   }
 
   value = value.replace(/[,:;.!?].*$/, '').trim();
+  if (MONTH_NAME_PATTERN.test(value)) return '';
   if (!/[A-Za-z]/.test(value)) return '';
   if (!/[A-Z]/.test(value)) return '';
   if (!value || value.length < 2 || value.length > 70) return '';
@@ -900,7 +912,8 @@ function cleanInstitutionLabel(label) {
 
 function inferDrivingInstitution(signal) {
   const institution = String(signal?.institution || '').trim();
-  if (!isReporterSource(signal)) return institution;
+  const cleanedInstitution = cleanInstitutionLabel(institution);
+  if (cleanedInstitution && !isReporterSource(signal)) return cleanedInstitution;
 
   const headline = sentenceCase(String(signal?.initiative || '').trim());
   const text = `${headline} ${String(signal?.description || '')}`.trim();
@@ -910,9 +923,11 @@ function inferDrivingInstitution(signal) {
 
   // 1) Headline-context extraction for reporter-sourced titles (e.g., "Why Mastercard paid...", "CFTC sues ...").
   const contextPatterns = [
+    /^([A-Za-z][A-Za-z0-9&.'’\-]{1,40})\s*:\s+/,
     /\b([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,4})\s+(?:adds|launches|expands|extends|partners|acquires|announces|unveils|files|wins|integrates|opens|doubles|buys|invests|backs|joins|secures|rolls|paid|pays|reports|sues|drops|slides|falls|rises|sees)\b/i,
     /\b(?:owner|parent company)\s+of\s+(?:the\s+)?([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,5})\b/i,
     /\b([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,4})['’]s\b/i,
+    /\bas\s+([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,3})\s+(?:cuts|files|launches|announces|adds|acquires|expands|integrates|sets|sees|reports|sues|drops|slides|falls|rises)\b/i,
     /\b(?:on|for|with|at)\s+([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,3})\b/i,
     /\b[A-Za-z][A-Za-z0-9&.'’\-]*\s+(?:startup|platform|exchange|provider|firm|company|miner|note)\s+([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,2})\b/i
   ];
@@ -940,15 +955,16 @@ function inferDrivingInstitution(signal) {
 
 function getPriorityDisplayInstitution(signal) {
   const institution = String(signal?.institution || '').trim();
-  if (!isReporterSource(signal)) return institution || 'Institution';
+  const cleanedRaw = cleanInstitutionLabel(institution);
 
   const inferred = inferDrivingInstitution(signal);
   if (inferred) return inferred;
 
-  const cleanedRaw = cleanInstitutionLabel(institution);
   if (cleanedRaw && !REPORTER_SOURCE_NEEDLES.some(needle => cleanedRaw.toLowerCase().includes(needle))) {
     return cleanedRaw;
   }
+
+  if (!isReporterSource(signal)) return 'Institution';
 
   return 'Market-wide signal';
 }
