@@ -1,5 +1,26 @@
 [
   {
+    "institution": "Fintech Wrap Up",
+    "initiative": "Marc Boiron (CEO, Polygon Labs): Payments Will Define Blockchain’s Future",
+    "description": "In this episode of the Wrap Up Podcast, I sit down with Marc Boiron, CEO of Polygon Labs, to unpack how one of the biggest blockchain players is shifting its focus from scaling infrastructure to becoming a core layer for global payments.",
+    "date": "2026-04-03",
+    "source_url": "https://www.fintechwrapup.com/p/marc-boiron-ceo-polygon-labs-payments",
+    "category": "ecosystem",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "DeFi",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinGeek",
     "initiative": "Canada proposes curbs on crypto donations to parties",
     "description": "Canada proposes banning crypto donations to political parties under new elections bill aimed at protecting democracy from foreign interference and threats. The post Canada proposes curbs on crypto donations to parties appeared first on CoinGeek .",
@@ -8468,6 +8489,25 @@
     "year": "2026"
   },
   {
+    "institution": "Finextra",
+    "initiative": "How Technology Can Improve Financial Wellbeing Around the World",
+    "description": "Whilst in Miami, attending Communify Intelligence Experience, Helen Murdoch, CEO, DoughPro spoke with FinextraTV to provide an up-to-date definition of financial wellbeing, and the key obstacles to that existence. Murdoch contextualised the scope of the problem currently, and explained how Gen Z are one of the most indebted generations, with the same problem being felt across the world. She explained that many, following geopolitical shifts and staggered salaries, can be prone to financial nihilism. Solving this fundamental problem, Murdoch points to technology's role in education and social media's role in spreading awareness and burying the pre-existing misinformation.",
+    "date": "2026-03-19",
+    "source_url": "https://www.finextra.com/videoarticle/3467/how-technology-can-improve-financial-wellbeing-around-the-world",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Agencies request comment on proposals to modernize the regulatory capital framework and maintain the strength of the banking system",
     "description": "Agencies request comment on proposals to modernize the regulatory capital framework and maintain the strength of the banking system",
@@ -9511,46 +9551,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin’s biggest DeFi drawback under attack as OpNet unlocks smart contracts on mainnet",
-    "description": "Bitcoin’s biggest limitation is being challenged as OpNet brings native, yield-generating DeFi directly to the Bitcoin mainnet.",
-    "date": "2026-03-19",
-    "source_url": "https://www.coindesk.com/markets/2026/03/19/bitcoin-s-biggest-defi-drawback-under-attack-as-opnet-unlocks-smart-contracts-on-mainnet",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "US crypto market structure passage: April, May, August or never?",
-    "description": "U.S. crypto bill CLARITY nears deal amid SEC-CFTC shift, ethics clashes, and global scam crackdown; timeline tight as politics and rules collide. The post US crypto market structure passage: April, May, August or never? appeared first on CoinGeek .",
-    "date": "2026-03-19",
-    "source_url": "https://coingeek.com/us-crypto-market-structure-passage-april-may-august-or-never/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
