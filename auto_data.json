@@ -1,5 +1,24 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Ethereum Foundation stakes another $93 million ether, reaching its 70,000 ETH target",
+    "description": "The foundation deposited the bulk of its planned staking commitment in a single session, completing a program announced in February to turn dormant treasury holdings into a yield-generating position.",
+    "date": "2026-04-03",
+    "source_url": "https://www.coindesk.com/markets/2026/04/03/ethereum-foundation-stakes-another-usd93-million-ether-reaching-its-70-000-eth-target",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinGeek",
     "initiative": "Google to finance $5B Texas AI data center for Anthropic",
     "description": "Google plans to fund a multibillion-dollar Texas data center to lease to Anthropic, boosting AI infrastructure amid surging demand for advanced models. The post Google to finance $5B Texas AI data center for Anthropic appeared first on CoinGeek .",
@@ -9540,24 +9559,6 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Software firm Marquis says data of 672k bank customers stolen in ransomware attack",
-    "description": "Marquis Software Solutions, a provider of marketing and compliance technology to the financial services sector, says 672,075 people had their personal and financial information stolen in a ransomware attack last year.",
-    "date": "2026-03-19",
-    "source_url": "https://www.finextra.com/newsarticle/47461/software-firm-marquis-says-data-of--672k-bank-customers-stolen-in-ransomware-attack",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
