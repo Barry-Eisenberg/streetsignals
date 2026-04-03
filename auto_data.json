@@ -2846,6 +2846,26 @@
     "year": "2026"
   },
   {
+    "institution": "Finextra",
+    "initiative": "Key Innovations in Real-World Asset (RWA) Tokenization in 2026",
+    "description": "In 2026, real-world asset (RWA) tokenization has evolved from a niche blockchain experiment into a m...",
+    "date": "2026-03-31",
+    "source_url": "https://www.finextra.com/blogposting/31283/key-innovations-in-real-world-asset-rwa-tokenization-in-2026",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "New Hampshire authority to issue $100 million bitcoin-backed bond with speculative-grade rating from Moody’s",
     "description": "BitGo will serve as custodian and liquidation agent responsible for liquidating bitcoin to make interest and principal payments.",
@@ -9530,27 +9550,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Coinbase faces a multibillion-dollar threat from D.C. but a 'rewards' loophole could protect its stablecoin revenue",
-    "description": "The proposed rules could ban yield on stablecoins like USDC, though analysts say the exchange may adapt.",
-    "date": "2026-03-19",
-    "source_url": "https://www.coindesk.com/policy/2026/03/19/coinbase-faces-a-multibillion-dollar-threat-from-d-c-but-a-rewards-loophole-could-protect-its-stablecoin-revenue",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   }
