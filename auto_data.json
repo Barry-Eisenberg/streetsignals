@@ -1,6 +1,27 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Crypto consolidates as volatility cools and futures markets tilt bearish",
+    "description": "Bitcoin holds a tight range as altcoins rally on low liquidity, but derivatives data and options skew suggest traders are bracing for downside.",
+    "date": "2026-04-03",
+    "source_url": "https://www.coindesk.com/markets/2026/04/03/crypto-consolidates-as-volatility-cools-and-futures-markets-tilt-bearish",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Naoris Protocol's quantum-resistant blockchain goes live as Bitcoin and Ethereum face 'Q-Day' threats",
     "description": "Naoris debuts its quantum-resistant mainnet, which uses algorithms approved by the U.S. National Institute of Standards and Technology.",
     "date": "2026-04-03",
@@ -9530,27 +9551,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Zenith links Canton and Ethereum through atomic swaps",
-    "description": "Canton developers said supporting programming languages outside of its native Daml could open the network to a wider pool of developers.",
-    "date": "2026-03-19",
-    "source_url": "https://www.theblock.co/post/394288/zenith-links-canton-ethereum-through-atomic-swaps",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
