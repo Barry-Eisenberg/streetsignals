@@ -1,5 +1,63 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "What next as XRP rises to $1.33 but fails to break out",
+    "description": "Price tracks broader crypto flows, with range-bound structure intact until $1.35 breaks.",
+    "date": "2026-04-03",
+    "source_url": "https://www.coindesk.com/markets/2026/04/03/what-next-as-xrp-rises-to-usd1-33-but-fails-to-break-out",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Cambodia’s parliment passes law targeting online, crypto scam compounds",
+    "description": "The Law on Anti-Technology Fraud introduces five new offenses aimed at rooting out modern online scams and crimes.",
+    "date": "2026-04-03",
+    "source_url": "https://www.theblock.co/post/396313/cambodias-parliment-passes-law-targeting-online-scam-compounds",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Ethereum Foundation doubles staked ether, clearing two-thirds of 70,000 ETH target",
+    "description": "The foundation’s latest staking allocation mirrors its biggest-ever single-day move and is a major step-up from its initial February deployment.",
+    "date": "2026-04-03",
+    "source_url": "https://www.theblock.co/post/396297/ethereum-foundation-staked-ethereum-clearing-two-thirds-70000-eth-target",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Federal Reserve Board issues enforcement action with former employee of United Bank",
     "description": "Federal Reserve Board issues enforcement action with former employee of United Bank",
@@ -9504,63 +9562,6 @@
       "Data & Reporting"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA",
-    "initiative": "ESMA publishes the results of the annual transparency calculations for equity and equity-like instruments",
-    "description": "ESMA publishes the results of the annual transparency calculations for equity and equity-like instruments 27 February 2026 Market data Trading The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published today the results of the annual transparency calculations for equity and equity-like instruments, which will apply from 6 April 2026. The calculations made available include: the liquidity assessment as per Articles 1 to 5 of CDR 2017/567; the determination of the most relevant market in terms of liquidity as per Article 4 of CDR 2017/587 (RTS 1); the determination of the average daily turnover relevant for the determination of the pre-trade and post-trade large in scale thresholds; the determination of the average value of the transactions and the related the standard market size; and the determination of the average daily number of transactions on the most relevant market in terms of liquidity relevant for the determination of the tick-size regime. Market participants are invited to monitor the release of the transparency calculations for equity and equity-like instruments on a daily basis to obtain the estimates for newly traded instruments and the four-weeks calculations applicable to newly traded instruments after the first six-weeks of trading.&nbsp; The full list of assessed equity and equity-like instruments is available through ESMA’s&nbsp;FITRS in the XML files with publication date from 27 February 2026 ( see here ) and&nbsp;through the Register web interface ( see here ).&nbsp; ESMA also recalls that the application of the remaining revised rules on transparency of equity and equity-like financial instruments included in RTS 1 are applicable from 2 March 2026. Next steps The transparency requirements are based on the results of the annual transparency calculations published from 27 February 2026 for equity and equity-like instruments will apply from 6 April 2026 until 4 April 2027. The next annual transparency calculations for equity and equity-like instruments, to be published by 1 March 2027, will become applicable from 5 April 2027. &nbsp; Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu",
-    "date": "2026-03-19",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-results-annual-transparency-calculations-equity-and-equity-3",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA",
-    "initiative": "ESMA issues a supervisory briefing on algorithmic trading",
-    "description": "ESMA issues a supervisory briefing on algorithmic trading 26 February 2026 Trading The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, today published a supervisory briefing to support consistent supervision of algorithmic trading across the EU. &nbsp; The briefing provides National Competent Authorities (NCAs) with practical tools and clarified expectations for supervising firms engaged in algorithmic trading under MiFID II. It focuses on key areas where supervisory practices have diverged, including pre-trade controls, governance arrangements, testing frameworks and outsourcing of algorithmic trading systems.&nbsp; &nbsp; Given the extended use of artificial intelligence in algorithmic trading, the briefing also touches upon these emerging technological developments, outlining considerations for the use of AI. This section aims to help supervisors assess new risks and ensure that firms adopt robust and responsible approaches when deploying advanced technologies in their trading operations.&nbsp; &nbsp; As a nonbinding convergence tool, the briefing complements the existing requirements and supports NCAs in taking a harmonised approach to oversight. &nbsp; Next steps ESMA will share the supervisory briefing with NCAs to support day to day supervision. ESMA will continue to monitor market and technological developments and may update the briefing or develop further convergence tools as needed.&nbsp; &nbsp; Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu 26/02/2026 ESMA74-1505669079-10311 Supervisory briefing on algorithmic trading in the EU",
-    "date": "2026-03-19",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-issues-supervisory-briefing-algorithmic-trading",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA",
-    "initiative": "The EBA and ESMA consult on revised suitability assessment requirements for banks and investment firms",
-    "description": "The EBA and ESMA consult on revised suitability assessment requirements for banks and investment firms 25 February 2026 Investor protection The European Banking Authority (EBA) and the European Securities and Markets Authority (ESMA) today launched a consultation on the revised joint guidelines on the assessment of the suitability of members of the management body and key function holders . The revised guidelines form part of a broader package designed to harmonise suitability assessments and ensure supervisory convergence across the EU. The consultation runs until 25 May 2026. The draft revised EBA-ESMA joint guidelines new requirements introduced by the revised Capital Requirements Directive (CRD) for large institutions, and include updates applying to entities covered by CRD and to investment firms within the scope of Markets in Financial Instruments Directive (MiFID II). Stemming from CRD, the updates cover, among other elements, the use of ex‑ante applications for cases where competent authorities carry out ex‑post assessments, and mandatory suitability assessments for roles such as heads of control functions and chief financial officers. The guidelines also further specify new CRD requirements for third‑country branches, and strengthen links with the anti-money laundering and countering the financing of terrorism framework, providing guidance for identifying reasonable grounds to suspect money laundering or terrorist financing risks. The revised guidelines introduce targeted simplification and streamlining measures designed to reduce administrative burden and provide greater flexibility and clarity for institutions and supervisors. Consultation process Stakeholders are invited to submit their comments on the revised joint EBA and ESMA Guidelines on the assessment of the suitability of members of the management body and key function holders using \"send your comments\" button on the EBA’s consultation page . The deadline for submitting comments is 25 May 2026. All contributions received will be published on the EBA’s website following the end of the consultation, unless requested otherwise. A public hearing on the guidelines will take place on 15 April 2026 from 14:00 to 15:30. The EBA is also consulting on its draft Regulatory Technical Standards (RTS) specifying the documentation and information that large institutions should submit to competent authorities. Next steps Once the revised Guidelines enter into force, the 2021 Guidelines will be repealed. &nbsp; Further information: Iris Hude Communications Officer press@esma.europa.eu 25/02/2026 ESMA35-243228190-8034 Consultation paper on the joint ESMA and EBA guidelines on the assessment of the suitability of members of the management body and key function holders 25/02/2026 ESMA-EBA suitability guidelines Annex Consultation paper on the joint ESMA and EBA guidelines on the assessment of the suitability of members of the management body and key function holders - Annex 1 25/02/2026 ESMA35-243228190-8034 Consultation paper on the joint ESMA and EBA guidelines on the assessment of the suitability of members of the management body and key function holders - track changes 25/02/2026 ESMA-EBA suitability guidelines scope Scope of application - ESMA-EBA joint gudelines on suitability Consultation on the joint ESMA and EBA guidelines on the assessment of the suitability of members of the management body and key function holders Public hearing on the EBA-ESMA joint guidelines on the assessment of the suitability of members of the management body and key function holders",
-    "date": "2026-03-19",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/eba-and-esma-consult-revised-suitability-assessment-requirements-banks-and",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
     "year": "2026"
   }
 ]
