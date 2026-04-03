@@ -1,5 +1,78 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Schwab plans spot bitcoin, ether trading launch in first half of 2026",
+    "description": "The financial services giant with almost $12 trillion in client assets is moving closer to direct crypto trading, offering subscription for early access to the Schwab Crypto account.",
+    "date": "2026-04-03",
+    "source_url": "https://www.coindesk.com/business/2026/04/03/schwab-plans-spot-bitcoin-ether-trading-launch-in-first-half-of-2026",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Circle under fire after $285 million Drift hack over inaction to freeze stolen USDC",
+    "description": "Prominent blockchain sleuth ZachXBT alleged faster action by Circle could have limited crypto losses, but freezing asset without legal authorization carries legal risks.",
+    "date": "2026-04-03",
+    "source_url": "https://www.coindesk.com/business/2026/04/03/circle-under-fire-after-usd285-million-drift-hack-over-inaction-to-freeze-stolen-usdc",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "HypurrFi investigates domain hijacking, warns users from interacting with lending protocol",
+    "description": "HypurrFi alerted users against interacting with its website and lending platform while it investigates a potential domain hijacking.",
+    "date": "2026-04-03",
+    "source_url": "https://www.theblock.co/post/396336/hypurrfi-investigates-domain-hijacking-warns-users-interacting-lending-protocol",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Cosmos ecosystem’s Leap Wallet is shutting down",
+    "description": "After the collapse of Terra, Leap Wallet pivoted to provide support for the wider multi-chain Cosmos ecosystem.",
+    "date": "2026-04-03",
+    "source_url": "https://www.theblock.co/post/396325/cosmos-ecosystems-leap-wallet-is-shutting-down",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "JPMorgan says crypto flows drop to $11 billion in Q1, about one-third of first quarter last year",
     "description": "Earlier this year, JPMorgan expected flows to rise further in 2026 after a record inflow of nearly $130 billion in 2025.",
@@ -9488,80 +9561,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "JPMorgan notes Hyperliquid gaining traction as traders seek 24/7 oil trading",
-    "description": "Traction in such decentralized exchanges is likely to grow over time and extend beyond commodities to other assets, JPMorgan said.",
-    "date": "2026-03-19",
-    "source_url": "https://www.theblock.co/post/394380/jpmorgan-hyperliquid-crypto-traction-24-7-oil-trading",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "DDC adds 200 bitcoin as corporate treasuries lean into BTC price weakness",
-    "description": "DDC is continuing to build its bitcoin position despite falling short of earlier, more aggressive accumulation targets.",
-    "date": "2026-03-19",
-    "source_url": "https://www.theblock.co/post/394375/ddc-adds-200-bitcoin-corporate-treasuries-btc-price-weakness",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Celo floats one-time 160 million token grant to Opera to strengthen longterm alliance",
-    "description": "In 2023, Celo voted to pay quarterly CELO grants to Opera to fund its deployment across the web browser's Mini App ecosystem.",
-    "date": "2026-03-19",
-    "source_url": "https://www.theblock.co/post/394367/celo-token-grant-opera",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Forward Industries buys back $27 million in stock using Galaxy loan as SOL treasury faces drawdown",
-    "description": "The structure has Forward industries leaning on short-term, low-cost debt to amplify exposure to SOL per share.",
-    "date": "2026-03-19",
-    "source_url": "https://www.theblock.co/post/394346/forward-industries-buys-back-27-million-stock-galaxy-loan-sol-treasury-drawdown",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
     ],
     "year": "2026"
   }
