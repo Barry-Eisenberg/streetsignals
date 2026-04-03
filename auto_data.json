@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Todd Blanche, author of DOJ crypto enforcement memo, is now interim AG",
+    "description": "U.S. President Donald Trump named Todd Blanche, his former personal attorney and deputy attorney general, as the interim top prosecutor.",
+    "date": "2026-04-03",
+    "source_url": "https://www.coindesk.com/policy/2026/04/02/todd-blanche-author-of-doj-crypto-enforcement-memo-now-interim-ag",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Crypto market structure bill release pushed back as industries view revised stablecoin yield compromise this week",
     "description": "Crypto and banking industry representatives are viewing revised stablecoin yield compromise language this week.",
     "date": "2026-04-02",
@@ -9528,29 +9547,6 @@
       "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets",
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA",
-    "initiative": "New Q&As available",
-    "description": "New Q&amp;As available 27 February 2026 CCP Digital Finance and Innovation Financial reporting Issuer disclosure Transparency The European Securities and Markets Authority (ESMA), the EU's securities markets regulator, has published or updated the following Questions and Answers: European crowdfunding service providers for business Use of fiduciary (nominee) structures in equity crowdfunding (2601) Markets in Crypto-Assets Regulation (MiCA) Clarification on Withdrawal Requirements under Article 75 of MiCA for CASPs (2320) Calculation of fixed overheads (2349) Interests earned from client funds deposited at credit institutions (2486) Payouts in fiat currency by CASPs in the context of exchange services (2550) Overlap between offers of crypto-assets and placing (2551) Application of Title II requirements to CASPs operating a trading platform for crypto-assets (2552) OTC derivatives, central counterparties and trade repositories (EMIR) – CCPs AAR threshold calculation (2418) AAR representativeness obligation (2776) AAR representativeness obligation (2777) AAR stress testing (2778) AAR threshold calculation (2779) Transparency Directive New Q&amp;A (effective from 1 January 2027): Q&amp;A on the interaction of IFRS 18 &amp; APMs Guidelines&nbsp; (2775) Updated Q&amp;As (amendments effective from 1 January 2027): Measures presented simultaneously inside and outside financial statements (1868) Interim financial statements (1874) Concept of prominence (1875) Definition of an APM (1877) ▸&nbsp; Questions and Answers section",
-    "date": "2026-03-19",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/new-qas-available-26",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
