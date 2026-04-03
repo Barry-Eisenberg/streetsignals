@@ -816,6 +816,25 @@ const INSTITUTION_ACTION_WORDS = [
   'secures', 'rolls', 'paid', 'pays', 'reports', 'sues', 'drops', 'slides', 'falls', 'rises'
 ];
 
+const DEPRECATED_INSTITUTION_PATTERNS = [
+  /^are\s+/i,
+  /^is\s+/i,
+  /^was\s+/i,
+  /^were\s+/i,
+  /^finally\s+/i,
+  /^analysts?\s+/i,
+  /^reportedly\s+/i,
+  /^according\s+to\s+/i,
+  /^crypto\s+/i,
+  /^the\s+market\s+/i,
+  /^market\s+/i
+];
+
+const INSTITUTION_DESCRIPTOR_WORDS = [
+  'startup', 'platform', 'exchange', 'issuer', 'provider', 'firm', 'company', 'bank',
+  'custodian', 'regulator', 'operator', 'venture', 'protocol', 'network'
+];
+
 let institutionInferenceCache = {
   signalCount: -1,
   candidates: []
@@ -851,6 +870,19 @@ function cleanInstitutionLabel(label) {
   if (!value) return '';
   value = value.replace(/^the\s+/i, '').trim();
 
+  // Try to pull an institution entity out of descriptor-heavy strings,
+  // e.g. "Asset tokenization startup Brickken" -> "Brickken".
+  const descriptorPattern = new RegExp(
+    `^(?:[A-Za-z][A-Za-z0-9&.'’\\-]*\\s+){0,6}(?:${INSTITUTION_DESCRIPTOR_WORDS.join('|')})\\s+([A-Z][A-Za-z0-9&.'’\\-]*(?:\\s+[A-Z][A-Za-z0-9&.'’\\-]*){0,2})$`,
+    'i'
+  );
+  const descriptorMatch = value.match(descriptorPattern);
+  if (descriptorMatch?.[1]) {
+    value = String(descriptorMatch[1]).trim();
+  }
+
+  if (DEPRECATED_INSTITUTION_PATTERNS.some(pattern => pattern.test(value))) return '';
+
   const actionPattern = new RegExp(`\\b(?:${INSTITUTION_ACTION_WORDS.join('|')})\\b`, 'i');
   const match = actionPattern.exec(value);
   if (match && match.index > 0) {
@@ -858,6 +890,8 @@ function cleanInstitutionLabel(label) {
   }
 
   value = value.replace(/[,:;.!?].*$/, '').trim();
+  if (!/[A-Za-z]/.test(value)) return '';
+  if (!/[A-Z]/.test(value)) return '';
   if (!value || value.length < 2 || value.length > 70) return '';
   if (REPORTER_SOURCE_NEEDLES.some(needle => value.toLowerCase().includes(needle))) return '';
   return value;
