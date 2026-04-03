@@ -1,5 +1,24 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "JPMorgan says crypto flows drop to $11 billion in Q1, about one-third of first quarter last year",
+    "description": "Earlier this year, JPMorgan expected flows to rise further in 2026 after a record inflow of nearly $130 billion in 2025.",
+    "date": "2026-04-03",
+    "source_url": "https://www.theblock.co/post/396327/jpmorgan-crypto-flows-drop-11-billion-q1",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA",
     "initiative": "SEC confirms exemption for directors and officers of EEA Foreign Private Issuers",
     "description": "SEC confirms exemption for directors and officers of EEA Foreign Private Issuers 18 March 2026 Market Abuse Post Trading The United States Securities and Exchange Commission (SEC) has decided to exempt directors and officers of European Economic Area (EEA) foreign private issuers (FPIs) from the reporting requirements under Section 16(a) of the US Securities Exchange Act of 1934. &nbsp; The SEC’s decision means that directors and officers of EEA FPIs will not be required to comply with these specific US reporting obligations. The announcement ensures continued alignment with the EU regulatory framework, which already provides for substantially similar disclosure requirements for persons discharging managerial responsibilities set in the Market Abuse Regulation (MAR)&nbsp; &nbsp; The details of the SEC decision can be consulted here . &nbsp; &nbsp; Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu",
@@ -9543,26 +9562,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Europe’s largest asset manager Amundi debuts $100 million tokenized fund on Ethereum, Stellar",
-    "description": "Amundi launched the $100 million Spiko Amundi Overnight Swap Fund on Ethereum and Stellar with Chainlink support.",
-    "date": "2026-03-19",
-    "source_url": "https://www.theblock.co/post/394348/europes-largest-asset-manager-amundi-debuts-100-million-tokenized-fund-on-ethereum-stellar",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
