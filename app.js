@@ -814,7 +814,8 @@ const INSTITUTION_ACTION_WORDS = [
   'adds', 'launches', 'expands', 'extends', 'partners', 'acquires', 'announces', 'unveils',
   'files', 'wins', 'integrates', 'opens', 'doubles', 'buys', 'invests', 'backs', 'joins',
   'secures', 'rolls', 'paid', 'pays', 'reports', 'sues', 'drops', 'slides', 'falls', 'rises',
-  'pushes', 'advances', 'sets', 'keeps', 'chasing', 'embeds', 'messes', 'spikes', 'hits', 'reaches'
+  'pushes', 'advances', 'sets', 'keeps', 'chasing', 'embeds', 'messes', 'spikes', 'hits', 'reaches',
+  'raises'
 ];
 
 const DEPRECATED_INSTITUTION_PATTERNS = [
@@ -832,14 +833,20 @@ const DEPRECATED_INSTITUTION_PATTERNS = [
   /^market\s+/i,
   /^bitcoin\s+etf\b/i,
   /^bitcoin\s+traders?\b/i,
-  /^building\s+the\s+infrastructure\s+for\s+web3\b/i
+  /^bitcoin\s+miners?\b/i,
+  /^building\s+the\s+infrastructure\s+for\s+web3\b/i,
+  /^building\s+web3\s+for\s+all\b/i,
+  /^ai\b(?:\s+agents?)?$/i,
+  /^ai\s+code\s+verification$/i,
+  /^amended\s+s-?1\s+filing$/i
 ];
 
 const MONTH_NAME_PATTERN = /^(january|february|march|april|may|june|july|august|september|october|november|december)$/i;
+const GENERIC_INSTITUTION_TOKENS = new Set(['ai', 'web3', 'etf', 'crypto', 'bitcoin', 'institutional']);
 
 const INSTITUTION_DESCRIPTOR_WORDS = [
   'startup', 'platform', 'exchange', 'issuer', 'provider', 'firm', 'company', 'bank',
-  'custodian', 'regulator', 'operator', 'venture', 'protocol', 'network', 'miner', 'note'
+  'custodian', 'regulator', 'operator', 'venture', 'protocol', 'network', 'miner', 'note', 'fintech'
 ];
 
 let institutionInferenceCache = {
@@ -879,6 +886,15 @@ function cleanInstitutionLabel(label) {
   value = value.replace(/^["'“”‘’]+|["'“”‘’]+$/g, '').trim();
   value = value.replace(/^the\s+/i, '').trim();
 
+  // Common title forms where the institution appears after "of".
+  value = value.replace(/^(?:acquisition|purchase|merger)\s+of\s+/i, '').trim();
+
+  // Prefer the subject institution in forms like "Citadel-backed EDX".
+  const backedMatch = value.match(/^(?:[A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,3})-backed\s+([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,3})$/i);
+  if (backedMatch?.[1]) {
+    value = String(backedMatch[1]).trim();
+  }
+
   // Try to pull an institution entity out of descriptor-heavy strings,
   // e.g. "Asset tokenization startup Brickken" -> "Brickken".
   const descriptorPattern = new RegExp(
@@ -906,6 +922,8 @@ function cleanInstitutionLabel(label) {
   if (!/[A-Za-z]/.test(value)) return '';
   if (!/[A-Z]/.test(value)) return '';
   if (!value || value.length < 2 || value.length > 70) return '';
+  const lower = value.toLowerCase();
+  if (GENERIC_INSTITUTION_TOKENS.has(lower)) return '';
   if (REPORTER_SOURCE_NEEDLES.some(needle => value.toLowerCase().includes(needle))) return '';
   return value;
 }
@@ -927,6 +945,8 @@ function inferDrivingInstitution(signal) {
     /\b([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,4})\s+(?:adds|launches|expands|extends|partners|acquires|announces|unveils|files|wins|integrates|opens|doubles|buys|invests|backs|joins|secures|rolls|paid|pays|reports|sues|drops|slides|falls|rises|sees)\b/i,
     /\b(?:owner|parent company)\s+of\s+(?:the\s+)?([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,5})\b/i,
     /\b([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,4})['’]s\b/i,
+    /\b(?:acquisition|purchase|merger)\s+of\s+([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,4})\b/i,
+    /\b(?:[A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,3})-backed\s+([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,3})\b/i,
     /\bas\s+([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,3})\s+(?:cuts|files|launches|announces|adds|acquires|expands|integrates|sets|sees|reports|sues|drops|slides|falls|rises)\b/i,
     /\b(?:on|for|with|at)\s+([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,3})\b/i,
     /\b[A-Za-z][A-Za-z0-9&.'’\-]*\s+(?:startup|platform|exchange|provider|firm|company|miner|note)\s+([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,2})\b/i
