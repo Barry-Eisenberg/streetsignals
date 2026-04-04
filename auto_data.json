@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Here's what 'cracking' bitcoin in 9 minutes by quantum computers actually means",
+    "description": "Google's quantum paper made headlines with that number. Here's what it means, what's actually at risk, and why 6.9 million bitcoin are more exposed than the rest.",
+    "date": "2026-04-04",
+    "source_url": "https://www.coindesk.com/tech/2026/03/31/what-does-cracking-bitcoin-in-9-minutes-by-quantum-computers-actually-mean",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Schwab plans spot bitcoin, ether trading launch in first half of 2026",
     "description": "The financial services giant with almost $12 trillion in client assets is moving closer to direct crypto trading, offering subscription for early access to the Schwab Crypto account.",
     "date": "2026-04-03",
@@ -9539,25 +9558,6 @@
     "fmi_areas": [
       "Custody & Safekeeping",
       "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "The Daily: Bitcoin OG sells $72M in BTC as another whale scoops $111M in ETH, XRP treasury firm Evernorth files to go public, and more",
-    "description": "The following article is adapted from The Block’s newsletter, The Daily, which comes out on weekday afternoons.",
-    "date": "2026-03-19",
-    "source_url": "https://www.theblock.co/post/394386/the-daily-bitcoin-og-sells-72m-in-btc-as-another-whale-scoops-111m-in-eth-xrp-treasury-firm-evernorth-files-to-go-public-and-more",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
