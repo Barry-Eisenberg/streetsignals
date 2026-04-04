@@ -1,6 +1,44 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Ex-UK Chancellor backs bitcoin as alternative to failing systems",
+    "description": "Kwasi Kwarteng reflects on current UK market turmoil, fiscal “doom loop,” and his move into bitcoin with Stack BTC.",
+    "date": "2026-04-04",
+    "source_url": "https://www.coindesk.com/markets/2026/04/03/ex-uk-chancellor-backs-bitcoin-as-alternative-to-failing-systems",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Digital asset treasuries must now earn their keep",
+    "description": "For treasuries to do so and stay competitive, Kiernan unpacks three broad strategies that are emerging.",
+    "date": "2026-04-04",
+    "source_url": "https://www.coindesk.com/opinion/2026/04/04/digital-asset-treasuries-must-now-earn-their-keep",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Solana's quantum-threat readiness reveals harsh tradeoff: security vs speed",
     "description": "While Bitcoin developers scramble to find a solution and Ethereum prepares for 'Q-day,' Solana is trying to get ahead of that scenario.",
     "date": "2026-04-04",
@@ -9525,44 +9563,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Morgan Stanley advances bitcoin ETF application with amended S-1 filing",
-    "description": "The amendment confirmed that the Morgan Stanley Bitcoin Trust will list on the NYSE Arca under the ticker symbol MSBT.",
-    "date": "2026-03-19",
-    "source_url": "https://www.theblock.co/post/394448/morgan-stanley-amended-s-1-filing",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "FBI warns of fake tokens impersonating agency on the Tron network",
-    "description": "The Federal Bureau of Investigation warned the public on Thursday not to trust tokens claiming to be affiliated with the agency.tron",
-    "date": "2026-03-19",
-    "source_url": "https://www.theblock.co/post/394441/fbi-warns-fake-tokens-impersonating-agency-tron-network",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
     "year": "2026"
   }
 ]
