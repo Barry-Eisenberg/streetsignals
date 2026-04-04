@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Solana's quantum-threat readiness reveals harsh tradeoff: security vs speed",
+    "description": "While Bitcoin developers scramble to find a solution and Ethereum prepares for 'Q-day,' Solana is trying to get ahead of that scenario.",
+    "date": "2026-04-04",
+    "source_url": "https://www.coindesk.com/tech/2026/04/04/solana-s-quantum-threat-readiness-reveals-harsh-tradeoff-security-vs-speed",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Five data sources say the same thing about bitcoin market. It's thinning from the inside",
     "description": "CryptoQuant data shows overall bitcoin demand is contracting at -63,000 BTC per month even as institutional buyers accelerate purchases, with large holders distributing nearly 188,000 BTC over the past year.",
     "date": "2026-04-04",
@@ -9544,23 +9563,6 @@
     "initiative_types": [
       "Tokenized Securities / RWA"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Anchorage Digital rolls out collateral management services on institutional Atlas platform",
-    "description": "Collateral management is the administration, monitoring, and oversight of assets pledged to a counterparty during a financial transaction.",
-    "date": "2026-03-19",
-    "source_url": "https://www.theblock.co/post/394436/anchorage-digital-rolls-out-collateral-management-services-institutional-atlas",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
