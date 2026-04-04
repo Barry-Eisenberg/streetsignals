@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Five data sources say the same thing about bitcoin market. It's thinning from the inside",
+    "description": "CryptoQuant data shows overall bitcoin demand is contracting at -63,000 BTC per month even as institutional buyers accelerate purchases, with large holders distributing nearly 188,000 BTC over the past year.",
+    "date": "2026-04-04",
+    "source_url": "https://www.coindesk.com/markets/2026/04/03/five-data-sources-say-the-same-thing-about-bitcoin-market-it-s-thinning-from-the-inside",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Here's what 'cracking' bitcoin in 9 minutes by quantum computers actually means",
     "description": "Google's quantum paper made headlines with that number. Here's what it means, what's actually at risk, and why 6.9 million bitcoin are more exposed than the rest.",
     "date": "2026-04-04",
@@ -9542,26 +9561,6 @@
       "Collateral & Lending"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Kentucky crypto ATM bill adds hardware wallet clause critics say would ‘outlaw self-custody’",
-    "description": "The provision targets hardware wallet design, raising questions about whether non-custodial products could operate under the proposed rules.",
-    "date": "2026-03-19",
-    "source_url": "https://www.theblock.co/post/394426/kentucky-crypto-atm-bill-hardware-wallet-clause-critics-outlaw-self-custody",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
