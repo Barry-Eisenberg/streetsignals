@@ -1,6 +1,26 @@
 [
   {
     "institution": "The Block",
+    "initiative": "Charles Schwab opens waitlist for direct bitcoin and ether trading, targeting Q2 limited launch",
+    "description": "The service will be unavailable in New York and Louisiana at launch, and fee structure and custody arrangements have not yet been disclosed.",
+    "date": "2026-04-04",
+    "source_url": "https://www.theblock.co/post/396358/charles-schwab-opens-waitlist-for-direct-bitcoin-and-ether-trading-targeting-q2-limited-launch",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
     "initiative": "IMF warns tokenized finance could amplify market crises, urges central bank-anchored settlement",
     "description": "The report warns that instant settlement removes the time buffers to intervene during crises, and compared stablecoins to money market funds.",
     "date": "2026-04-04",
@@ -9547,26 +9567,6 @@
       "Trading & Exchange"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Apex Group and Coinbase Asset Management launch tokenised Coinbase bitcoin yield fund on base",
-    "description": "Apex Group Ltd (“Apex Group”), a global financial services provider with over $3.5 trillion in assets serviced, in collaboration with Coinbase Asset Management (“CBAM”), today announced the launch of the tokenized Coinbase Bitcoin Yield Fund on Base.",
-    "date": "2026-03-19",
-    "source_url": "https://www.finextra.com/pressarticle/109239/apex-group-and-coinbase-asset-management-launch-tokenised-coinbase-bitcoin-yield-fund-on-base",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
