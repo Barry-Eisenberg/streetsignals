@@ -1,5 +1,25 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin's $1.3 trillion security race: Key initiatives aimed at quantum-proofing the world's largest blockchain",
+    "description": "Developers are considering ways to quantum-proof the world's oldest cryptocurrency as the threat of this computing moves beyond a hypothetical.",
+    "date": "2026-04-05",
+    "source_url": "https://www.coindesk.com/tech/2026/04/04/bitcoin-s-usd1-3-trillion-security-race-key-initiatives-aimed-at-quantum-proofing-the-world-s-largest-blockchain",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Charles Schwab opens waitlist for direct bitcoin and ether trading, targeting Q2 limited launch",
     "description": "The service will be unavailable in New York and Louisiana at launch, and fee structure and custody arrangements have not yet been disclosed.",
@@ -9547,26 +9567,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "UK banks reject opportunity to lift £100 contactless limit",
-    "description": "The UK's biggest banks are not lifting the £100 limit on contactless payments despite being given the option to do so by regulators.",
-    "date": "2026-03-19",
-    "source_url": "https://www.finextra.com/newsarticle/47466/uk-banks-reject-opportunity-to-lift-100-contactless-limit",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
       "Payment Infrastructure"
     ],
     "year": "2026"
