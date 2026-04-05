@@ -1,5 +1,24 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Lucky solo bitcoin miner beats 1-in-28,000 daily odds to win $210,000 block reward",
+    "description": "A solo bitcoin miner using CKpool collected roughly $210,000 for solving the 312th solo block cracked with the software since its 2014 launch.",
+    "date": "2026-04-05",
+    "source_url": "https://www.theblock.co/post/396366/lucky-solo-bitcoin-miner-beats-1-in-28000-daily-odds-to-win-210000-block-reward",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "A simple explainer on what quantum computing actually is, and why it is terrifying for bitcoin",
     "description": "Most simplifies the complex process of quantum computing as \"it can be 0 and 1 at the same time.\" That is not an explanation for why it threatens Bitcoin. This is.",
@@ -9546,27 +9565,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Coinbase's bitcoin yield fund goes onchain with Apex's tokenization push",
-    "description": "The Coinbase Bitcoin Yield Fund's tokenized share class runs on Base as the $3.5 trillion fund services giant Apex applies tokenization across its business.",
-    "date": "2026-03-19",
-    "source_url": "https://www.coindesk.com/business/2026/03/19/coinbase-s-bitcoin-yield-fund-goes-onchain-with-apex-s-tokenization-push",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
