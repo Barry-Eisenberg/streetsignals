@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "AI is making crypto's security problem even worse, Ledger CTO warns",
+    "description": "Ledger’s Charles Guillemet says artificial intelligence is making hacks cheaper and faster, forcing a rethink of how crypto systems stay secure.",
+    "date": "2026-04-05",
+    "source_url": "https://www.coindesk.com/tech/2026/04/05/ai-is-making-crypto-s-security-problem-even-worse-ledger-cto-warns",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Drift says $270 million exploit was a six-month North Korean intelligence operation",
     "description": "Attackers posed as a trading firm, met Drift contributors in person across multiple countries, deposited $1 million of their own capital, and waited half a year before executing the drain CoinDesk detailed earlier this week.",
     "date": "2026-04-05",
@@ -9550,27 +9569,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "OpenClaw developers targeted in GitHub phishing scam offering fake token airdrops",
-    "description": "Security researchers said attackers are impersonating OpenClaw on GitHub, luring developers with bogus CLAW token giveaways that trick users into connecting their crypto wallets.",
-    "date": "2026-03-19",
-    "source_url": "https://www.coindesk.com/tech/2026/03/19/openclaw-developers-targeted-in-github-phishing-scam-offering-fake-token-airdrops",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
