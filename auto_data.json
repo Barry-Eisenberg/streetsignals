@@ -847,6 +847,25 @@
     "year": "2026"
   },
   {
+    "institution": "Finextra",
+    "initiative": "Top 7 fintech trends for 2026: AI orchestration, instant payments and embedded finance",
+    "description": "Fintech in 2026 is moving beyond the pilot stage. The market is shifting towards infrastructure that...",
+    "date": "2026-04-02",
+    "source_url": "https://www.finextra.com/blogposting/31310/top-7-fintech-trends-for-2026-ai-orchestration-instant-payments-and-embedded-finance",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Crypto market structure bill release pushed back as industries view revised stablecoin yield compromise this week",
     "description": "Crypto and banking industry representatives are viewing revised stablecoin yield compromise language this week.",
@@ -9549,25 +9568,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Citing AI, Crypto.com axes 12% of workforce",
-    "description": "Digital asset exchange Crypto.com is the latest firm to cite the rise of AI for job cuts as it lays off 12% of its workforce - around 150 people.",
-    "date": "2026-03-19",
-    "source_url": "https://www.finextra.com/newsarticle/47465/citing-ai-cryptocom-axes-12-of-workforce",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
