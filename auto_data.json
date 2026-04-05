@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "A simple explainer on what quantum computing actually is, and why it is terrifying for bitcoin",
+    "description": "Most simplifies the complex process of quantum computing as \"it can be 0 and 1 at the same time.\" That is not an explanation for why it threatens Bitcoin. This is.",
+    "date": "2026-04-05",
+    "source_url": "https://www.coindesk.com/tech/2026/04/05/a-simple-explainer-on-what-quantum-computing-actually-is-and-why-it-is-terrifying-for-bitcoin",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Polymarket pulls controversial Iran rescue markets after intense backlash",
     "description": "Prediction markets face rising regulatory pressure, with congressional Democrats proposing legislation to ban contracts tied to elections, war and government actions.",
     "date": "2026-04-05",
@@ -9541,25 +9560,6 @@
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Market maker IMC Trading hires Alex Casimo as chief commercial officer for its crypto business",
-    "description": "Casimo will be responsible for growing the Dutch market maker's institutional crypto offering.",
-    "date": "2026-03-19",
-    "source_url": "https://www.coindesk.com/business/2026/03/19/market-maker-imc-trading-hires-alex-casimo-as-chief-commercial-officer-for-its-crypto-business",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Trading & Exchange"
     ],
