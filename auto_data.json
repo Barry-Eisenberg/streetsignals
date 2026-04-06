@@ -1,6 +1,48 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bitcoin climbs above $70,000 as more contrarian bottoming signs emerge",
+    "description": "Sales of bitcoin by prominent holders and executive exits could give hope to the battered crypto sector.",
+    "date": "2026-04-06",
+    "source_url": "https://www.coindesk.com/markets/2026/04/06/bitcoin-climbs-above-usd70-000-as-more-contrarian-bottoming-signs-emerge",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Polymarket unveils plans for trading engine overhaul, native stablecoin",
+    "description": "“We're upgrading the entire Polymarket exchange stack over the next 2-3 weeks. New contracts. New order book. New collateral token,” Polymarket said.",
+    "date": "2026-04-06",
+    "source_url": "https://www.theblock.co/post/396450/polymarket-unveils-plans-trading-engine-overhaul-native-stablecoin",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Appeals court blocks New Jersey from shutting down Kalshi's sports markets",
     "description": "The Third Circuit Court of Appeals ruled that New Jersey could not bring an enforcement action against Kalshi, finding that the federal Commodity Exchange Act preempted state gambling laws.",
     "date": "2026-04-06",
@@ -9534,51 +9576,15 @@
     "year": "2026"
   },
   {
-    "institution": "BIS",
-    "initiative": "What needs to be done to improve the efficiency of the resolution framework of the banking union",
-    "description": "The resolution framework of the banking union is a significant achievement that has proved capable of managing idiosyncratic bank failures. However, certain features increase its complexity and undermine its efficiency compared with the frameworks of other major jurisdictions. These features include cumbersome decision-making procedures; detailed arrangements for coordination among EU/BU and national authorities; granular and complex regulation, including rules on MREL calibration; and a complicated interaction with insolvency regimes.",
+    "institution": "Federal Reserve",
+    "initiative": "Federal Reserve Board issues enforcement actions with former employee of Ally Bank and former employee of Regions Bank",
+    "description": "Federal Reserve Board issues enforcement actions with former employee of Ally Bank and former employee of Regions Bank",
     "date": "2026-03-20",
-    "source_url": "https://www.bis.org/fsi/fsipapers26.htm",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260320a.htm",
     "category": "regulators",
-    "source_name": "BIS — Research Papers",
+    "source_name": "Federal Reserve — Press Releases",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "EU Targets Turkey In Next SEPA Expansion Wave",
-    "description": "Hey Payments Fanatic! The&#xA0; EU &#xA0; pitched to Turkey to join&#xA0; SEPA . A 41-country payments system designed to make euro transfers as fast and cheap as domestic ones. The proposal came last month in Ankara. European Commissioner Marta Kos discussed it directly with Foreign Minister Hakan Fidan. This",
-    "date": "2026-03-20",
-    "source_url": "https://www.connectingthedotsinpayments.com/eu-targets-turkey-in-next-sepa-expansion-wave/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "Ben Winter (COO, Stuut): AI Coworkers in Finance",
-    "description": "In this episode of the Wrap Up Podcast, I sat down with Ben Winter, COO at Stuut, to explore how AI is actually reshaping finance teams beyond the usual &#8220;efficiency&#8221; narrative.",
-    "date": "2026-03-20",
-    "source_url": "https://www.fintechwrapup.com/p/ben-winter-coo-stuut-ai-coworkers",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
