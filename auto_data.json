@@ -1,6 +1,46 @@
 [
   {
     "institution": "The Block",
+    "initiative": "Galaxy taps Broadridge for onchain GLXY shareholder vote in May",
+    "description": "Broadridge now enables holders of tokenized shares to review proxy materials and cast votes on corporate matters.",
+    "date": "2026-04-06",
+    "source_url": "https://www.theblock.co/post/396428/galaxy-taps-broadridge-onchain-glxy-shareholder-vote-may",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "DeFi vs. Wall Street: Blockchain Association challenges Citadel over SEC’s innovation exemption",
+    "description": "The Blockchain Association is challenging Citadel Securities over how the SEC should treat DeFi protocols, in a Monday letter.",
+    "date": "2026-04-06",
+    "source_url": "https://www.theblock.co/post/396421/defi-vs-wall-street-blockchain-association-challenges-citadel-sec-innovation-exemption",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
     "initiative": "Strategy reports $14.5 billion unrealized loss on its bitcoin holdings for Q1 2026",
     "description": "Strategy's on-paper bitcoin losses generated a $2.42 billion deferred tax asset, according to its latest 8-K filing.",
     "date": "2026-04-06",
@@ -9401,6 +9441,23 @@
     "year": "2026"
   },
   {
+    "institution": "BIS",
+    "initiative": "What needs to be done to improve the efficiency of the resolution framework of the banking union",
+    "description": "The resolution framework of the banking union is a significant achievement that has proved capable of managing idiosyncratic bank failures. However, certain features increase its complexity and undermine its efficiency compared with the frameworks of other major jurisdictions. These features include cumbersome decision-making procedures; detailed arrangements for coordination among EU/BU and national authorities; granular and complex regulation, including rules on MREL calibration; and a complicated interaction with insolvency regimes.",
+    "date": "2026-03-20",
+    "source_url": "https://www.bis.org/fsi/fsipapers26.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Connecting the Dots",
     "initiative": "EU Targets Turkey In Next SEPA Expansion Wave",
     "description": "Hey Payments Fanatic! The&#xA0; EU &#xA0; pitched to Turkey to join&#xA0; SEPA . A 41-country payments system designed to make euro transfers as fast and cheap as domestic ones. The proposal came last month in Ankara. European Commissioner Marta Kos discussed it directly with Foreign Minister Hakan Fidan. This",
@@ -9524,66 +9581,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Ledger Insights",
-    "initiative": "Stripe, Paradigm launch Tempo blockchain alongside machine payments standard",
-    "description": "Stripe and crypto investment firm Paradigm launched the Tempo mainnet this week alongside a new open standard for autonomous agent payments, capping a six month development sprint that has drawn in an unusually broad coalition of institutional partners. While the announcement generated predictable coverage of the technical specs, the more significant story is what Tempo [&#8230;] The post Stripe, Paradigm launch Tempo blockchain alongside machine payments standard appeared first on Ledger Insights - blockchain for enterprise .",
-    "date": "2026-03-20",
-    "source_url": "https://www.ledgerinsights.com/stripe-paradigm-launch-tempo-blockchain-alongside-machine-payments-standard/",
-    "category": "ecosystem",
-    "source_name": "Ledger Insights",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Morgan Stanley Pushes Ahead With Bitcoin ETF as Institutional Race Heats Up",
-    "description": "Morgan Stanley is taking another step toward launching its own bitcoin ETF, filing a second amended S-1 with the SEC as the product moves closer to market. The updated filing confirms the fund will trade on NYSE Arca under the ticker MSBT, and outlines details like a 10,000 share basket ... The post Morgan Stanley Pushes Ahead With Bitcoin ETF as Institutional Race Heats Up appeared first on Unchained .",
-    "date": "2026-03-20",
-    "source_url": "https://unchainedcrypto.com/morgan-stanley-advances-bitcoin-etf-filing-as-institutional-competition-heats-up/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "FBI Warns of Fake Token Scam Targeting Tron Users",
-    "description": "The post FBI Warns of Fake Token Scam Targeting Tron Users appeared first on Unchained .",
-    "date": "2026-03-20",
-    "source_url": "https://unchainedcrypto.com/fbi-warns-of-fake-token-scam-targeting-tron-users-with-phishing-attack/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
     "year": "2026"
   }
 ]
