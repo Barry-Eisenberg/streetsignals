@@ -1,6 +1,44 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Circle future-proofs Arc blockchain against quantum threats",
+    "description": "Circle’s Arc blockchain said users will be able to create wallets that withstand future quantum computer attacks from day one.",
+    "date": "2026-04-06",
+    "source_url": "https://www.coindesk.com/markets/2026/04/06/stablecoin-issuer-circle-s-arc-blockchain-to-debut-with-quantum-era-features",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Bitcoin: Imperfect by design",
+    "description": "In this piece, Kurt Wuckert Jr. explores how Bitcoin's imperfections foster resilience, while chains seeking perfection face challenges. The post Bitcoin: Imperfect by design appeared first on CoinGeek .",
+    "date": "2026-04-06",
+    "source_url": "https://coingeek.com/bitcoin-imperfect-by-design/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "XRP drifts higher to $1.33, but range-bound trade still dominates",
     "description": "Rising volume and steady support near $1.30 suggest buyers are active, though XRP remains tied to broader crypto sentiment.",
     "date": "2026-04-06",
@@ -9532,44 +9570,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Decentralized social network Bluesky discloses $100 million Series B amid leadership change",
-    "description": "The company said it is now disclosing the April 2025 funding as it moves into 'a new era of leadership and further growth.'",
-    "date": "2026-03-20",
-    "source_url": "https://www.theblock.co/post/394460/bluesky-100-million-series-b",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Zerohash Expands Amsterdam HQ To Accelerate Regulated Crypto In Europe",
-    "description": "Hey Payments Fanatic! Amsterdam &#x1F1F3;&#x1F1F1;, my first home, continues to show up at the intersection of financial infrastructure and regulation... The city continues to position itself as a key gateway for financial infrastructure scaling across Europe, especially as regulation brings more clarity to digital assets. The news? zerohash has",
-    "date": "2026-03-19",
-    "source_url": "https://www.connectingthedotsinpayments.com/zerohash-expands-amsterdam-hq-to-accelerate-regulated-crypto-in-europe/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
