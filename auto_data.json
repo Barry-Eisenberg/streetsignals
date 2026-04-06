@@ -9580,20 +9580,23 @@
     "year": "2026"
   },
   {
-    "institution": "BIS",
-    "initiative": "Statement on the nomination of Hyun Song Shin as Governor of the Bank of Korea",
-    "description": "Following the nomination of Hyun Song Shin as Governor of the Bank of Korea, the BIS today announced that Mr. Shin will step back from his duties with immediate effect. In the interim, the Monetary and Economic Department will be led by Frank Smets, who will serve as Acting Head.",
+    "institution": "Chainalysis",
+    "initiative": "The Resolv Hack: How One Compromised Key Printed $23 Million",
+    "description": "On March 22, 2026, the Resolv DeFi protocol became the latest example of how quickly things can unravel in DeFi&#8230; The post The Resolv Hack: How One Compromised Key Printed $23 Million appeared first on Chainalysis .",
     "date": "2026-03-22",
-    "source_url": "https://www.bis.org/press/p260322.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
+    "source_url": "https://www.chainalysis.com/blog/lessons-from-the-resolv-hack/",
+    "category": "ecosystem",
+    "source_name": "Chainalysis — Blog",
     "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
     "fmi_areas": [
       "General Infrastructure"
     ],
-    "initiative_types": [],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "DeFi"
+    ],
     "year": "2026"
   }
 ]
