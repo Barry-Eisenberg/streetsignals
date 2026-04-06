@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "XRP drifts higher to $1.33, but range-bound trade still dominates",
+    "description": "Rising volume and steady support near $1.30 suggest buyers are active, though XRP remains tied to broader crypto sentiment.",
+    "date": "2026-04-06",
+    "source_url": "https://www.coindesk.com/markets/2026/04/06/xrp-drifts-higher-to-usd1-33-but-range-bound-trade-still-dominates",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bitcoin reclaims $69,000 as ceasefire talks surface and crypto shorts get squeezed",
     "description": "A report that the U.S. and Iran are discussing a 45-day ceasefire lifted risk assets across the board on Monday, with short liquidations outpacing longs nearly 3-to-1 in the past 12 hours.",
     "date": "2026-04-06",
@@ -1154,6 +1173,26 @@
       "General Infrastructure"
     ],
     "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "How Real-World Asset Tokenization Is Reshaping Digital Finance",
+    "description": "The evolution of digital finance is no longer limited to cryptocurrencies. A growing shift is now ta...",
+    "date": "2026-04-02",
+    "source_url": "https://www.finextra.com/blogposting/31308/how-real-world-asset-tokenization-is-reshaping-digital-finance",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -9532,42 +9571,6 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "How Technology Can Improve Financial Wellbeing Around the World",
-    "description": "Whilst in Miami, attending Communify Intelligence Experience, Helen Murdoch, CEO, DoughPro spoke with FinextraTV to provide an up-to-date definition of financial wellbeing, and the key obstacles to that existence. Murdoch contextualised the scope of the problem currently, and explained how Gen Z are one of the most indebted generations, with the same problem being felt across the world. She explained that many, following geopolitical shifts and staggered salaries, can be prone to financial nihilism. Solving this fundamental problem, Murdoch points to technology's role in education and social media's role in spreading awareness and burying the pre-existing misinformation.",
-    "date": "2026-03-19",
-    "source_url": "https://www.finextra.com/videoarticle/3467/how-technology-can-improve-financial-wellbeing-around-the-world",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Agencies request comment on proposals to modernize the regulatory capital framework and maintain the strength of the banking system",
-    "description": "Agencies request comment on proposals to modernize the regulatory capital framework and maintain the strength of the banking system",
-    "date": "2026-03-19",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260319a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
