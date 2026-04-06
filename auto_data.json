@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bitcoin reclaims $69,000 as ceasefire talks surface and crypto shorts get squeezed",
+    "description": "A report that the U.S. and Iran are discussing a 45-day ceasefire lifted risk assets across the board on Monday, with short liquidations outpacing longs nearly 3-to-1 in the past 12 hours.",
+    "date": "2026-04-06",
+    "source_url": "https://www.coindesk.com/markets/2026/04/06/bitcoin-reclaims-usd69-000-as-ceasefire-talks-surface-and-crypto-shorts-get-squeezed",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bitcoin meltdown to $10,000 remains likely unless prices reclaim $75,000, analyst says",
     "description": "Bloomberg's Mike McGlone has reiterated his forecast that Bitcoin could plunge to $10,000, this time anchoring his outlook to a clear line in the sand: $75,000.",
     "date": "2026-04-06",
@@ -9549,26 +9568,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "From Strategy to Scale: Implementing Stablecoin Programs and Measuring What Matters",
-    "description": "For many banks, the conversation around stablecoins has moved beyond theory. Leadership teams have already explored the strategic question of&#8230; The post From Strategy to Scale: Implementing Stablecoin Programs and Measuring What Matters appeared first on Chainalysis .",
-    "date": "2026-03-19",
-    "source_url": "https://www.chainalysis.com/blog/implementing-stablecoin-programs/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure"
-    ],
     "year": "2026"
   }
 ]
