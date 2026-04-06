@@ -1,5 +1,26 @@
 [
   {
+    "institution": "CoinGeek",
+    "initiative": "US CLARITY Act still spinning its wheels as time ticks away",
+    "description": "The United States digital asset market legislation faces delays as stakeholders await compromise on stablecoin \"yield v rewards\" in the CLARITY Act. The post US CLARITY Act still spinning its wheels as time ticks away appeared first on CoinGeek .",
+    "date": "2026-04-06",
+    "source_url": "https://coingeek.com/us-clarity-act-still-spinning-its-wheels-as-time-ticks-away/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Bitcoin rallies on report of Iran ceasefire talks, Algorand extends gains",
     "description": "If a ceasefire materializes, a relief rally could further benefit risk assets. For now, traders appear to be treating the headlines with skepticism.",
@@ -9174,6 +9195,23 @@
     "year": "2026"
   },
   {
+    "institution": "Fintech Wrap Up",
+    "initiative": "Ben Winter (COO, Stuut): AI Coworkers in Finance",
+    "description": "In this episode of the Wrap Up Podcast, I sat down with Ben Winter, COO at Stuut, to explore how AI is actually reshaping finance teams beyond the usual &#8220;efficiency&#8221; narrative.",
+    "date": "2026-03-20",
+    "source_url": "https://www.fintechwrapup.com/p/ben-winter-coo-stuut-ai-coworkers",
+    "category": "ecosystem",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Federal Reserve Board issues enforcement actions with former employee of Ally Bank and former employee of Regions Bank",
     "description": "Federal Reserve Board issues enforcement actions with former employee of Ally Bank and former employee of Regions Bank",
@@ -9545,42 +9583,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Mollie launches Tap payments solution for UK SMEs",
-    "description": "Mollie, one of Europe’s leading financial services providers, today announced the UK launch of Tap, its new in-person payments solution designed for small and medium sized businesses.",
-    "date": "2026-03-20",
-    "source_url": "https://www.finextra.com/pressarticle/109241/mollie-launches-tap-payments-solution-for-uk-smes",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Zempler Bank appoints Dominic Wade as new CEO",
-    "description": "Zempler, the digital bank that aims to make money simpler for UK businesses, has today confirmed Dominic Wade as the new Chief Executive Officer, subject to regulatory approval.",
-    "date": "2026-03-20",
-    "source_url": "https://www.finextra.com/pressarticle/109240/zempler-bank-appoints-dominic-wade-as-new-ceo",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
     ],
     "year": "2026"
   }
