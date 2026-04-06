@@ -1,5 +1,22 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Top Aave risk manager Chaos Labs exits amid governance dispute",
+    "description": "Chaos Labs is the latest major Aave contributor to walk away from the project following the departure of BGD Labs and ACI.",
+    "date": "2026-04-06",
+    "source_url": "https://www.theblock.co/post/396458/top-aave-risk-manager-chaos-labs-exits-amid-governance-dispute",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Polymarket reveals a 'full exchange upgrade' to take control of its own trading and truth",
     "description": "The $20 billion prediction market is overhauling its infrastructure and launching a native stablecoin to streamline trading as it prepares for a major U.S. expansion.",
@@ -9577,23 +9594,6 @@
       "DLT / Blockchain Infrastructure",
       "DeFi"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Deep Dive: Agentic AI in Financial Crime Fighting",
-    "description": "The global financial system is facing a structural crisis. In 2025, illicit financial activity surg...",
-    "date": "2026-03-22",
-    "source_url": "https://www.finextra.com/blogposting/31181/deep-dive-agentic-ai-in-financial-crime-fighting",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
