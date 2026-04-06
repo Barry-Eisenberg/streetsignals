@@ -1,6 +1,27 @@
 [
   {
     "institution": "The Block",
+    "initiative": "The Funding: Are crypto tokens trading at 90% discounts in secondary markets?",
+    "description": "The range of discounts in crypto token secondary markets has widened in recent months. Here’s what's going on in that market.",
+    "date": "2026-04-05",
+    "source_url": "https://www.theblock.co/post/396371/crypto-tokens-discounts-secondary-markets",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
     "initiative": "Lucky solo bitcoin miner beats 1-in-28,000 daily odds to win $210,000 block reward",
     "description": "A solo bitcoin miner using CKpool collected roughly $210,000 for solving the 312th solo block cracked with the software since its 2014 launch.",
     "date": "2026-04-05",
@@ -9546,25 +9567,6 @@
     ],
     "initiative_types": [
       "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto markets – and the American people – deserve clarity",
-    "description": "The SEC is pivoting away from its previous regulatory strategy.",
-    "date": "2026-03-19",
-    "source_url": "https://www.coindesk.com/opinion/2026/03/19/crypto-markets-and-the-american-people-deserve-clarity",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
