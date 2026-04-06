@@ -1,5 +1,25 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Jamie Dimon says JPMorgan must move faster as tokenization reshapes finance",
+    "description": "“A whole new set of competitors is emerging based on blockchain,\" said Dimon in his annual letter to shareholders.",
+    "date": "2026-04-06",
+    "source_url": "https://www.coindesk.com/markets/2026/04/06/jamie-dimon-says-jpmorgan-must-move-faster-as-tokenization-reshapes-finance",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Galaxy taps Broadridge for onchain GLXY shareholder vote in May",
     "description": "Broadridge now enables holders of tokenized shares to review proxy materials and cast votes on corporate matters.",
@@ -9562,23 +9582,6 @@
     "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
       "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "What the Oil Chart Isn't Telling You",
-    "description": "A capital markets perspective on three weeks that changed the investment landscape — not financial a...",
-    "date": "2026-03-20",
-    "source_url": "https://www.finextra.com/blogposting/31192/what-the-oil-chart-isnt-telling-you",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
     ],
     "initiative_types": [],
     "year": "2026"
