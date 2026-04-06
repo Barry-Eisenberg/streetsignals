@@ -1,6 +1,79 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Appeals court blocks New Jersey from shutting down Kalshi's sports markets",
+    "description": "The Third Circuit Court of Appeals ruled that New Jersey could not bring an enforcement action against Kalshi, finding that the federal Commodity Exchange Act preempted state gambling laws.",
+    "date": "2026-04-06",
+    "source_url": "https://www.coindesk.com/policy/2026/04/06/appeals-court-blocks-new-jersey-from-shutting-down-kalshi-s-sports-markets",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "OpenAI CEO urges U.S. to prepare for AI ‘superintelligence’ risks and gains",
+    "description": "The crypto industry faces growing cybersecurity risks as AI tools lower the cost and skill needed to exploit software flaws, with over $1.4 billion in assets stolen last year.",
+    "date": "2026-04-06",
+    "source_url": "https://www.coindesk.com/tech/2026/04/06/openai-ceo-urges-u-s-to-prepare-for-ai-superintelligence-risks-and-gains",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Argentina’s Milei had phone calls with leader of LIBRA crypto project that collapsed: NYT",
+    "description": "The president, who has denied wrongdoing, continues to be a person of interest in the federal investigation of LIBRA.",
+    "date": "2026-04-06",
+    "source_url": "https://www.theblock.co/post/396436/argentina-milei-phone-calls-leader-libra-crypto-project-collapsed-nyt",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Kalshi wins appeal against New Jersey over sports event contracts",
+    "description": "A court handed prediction markets a victory, ruling that New Jersey does not have explicit authority over sports-related event contracts.",
+    "date": "2026-04-06",
+    "source_url": "https://www.theblock.co/post/396437/kalshi-wins-appeal-new-jersey-sports-event-contracts",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Jamie Dimon says JPMorgan must move faster as tokenization reshapes finance",
     "description": "“A whole new set of competitors is emerging based on blockchain,\" said Dimon in his annual letter to shareholders.",
     "date": "2026-04-06",
@@ -9509,79 +9582,6 @@
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board issues enforcement actions with former employee of Ally Bank and former employee of Regions Bank",
-    "description": "Federal Reserve Board issues enforcement actions with former employee of Ally Bank and former employee of Regions Bank",
-    "date": "2026-03-20",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260320a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Q&A: From Bootstrap Mentality to $1B ARR: How Airwallex Built Profitability Without Taking Shortcuts",
-    "description": "Hey there, Global financial infrastructure has long been one of the most fragmented and complex challenges for businesses operating across borders, where compliance, FX exposure, and disconnected systems are the norm rather than the exception. Today, I&apos;m joined by Christos Chamberlain, General Manager of Airwallex UK and Europe,",
-    "date": "2026-03-20",
-    "source_url": "https://www.connectingthedotsinpayments.com/q-a-building-trust-in-the-worlds-toughest-payments-market-checkout-coms-north-american-playbook-2/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Tokenization & Issuance",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "JPMorgan pilots software to monitor junior bankers' working hours",
-    "description": "JPMorgan Chase is piloting a system that compares the self-reported time sheets of junior bankers with computer-generated estimates of their work weeks.",
-    "date": "2026-03-20",
-    "source_url": "https://www.finextra.com/newsarticle/47474/jpmorgan-pilots-software-to-monitor-junior-bankers-working-hours",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Intelligent Finance: The Governance-Led Path to AI-Powered Fintech",
-    "description": "Fintech has transformed financial services faster than traditional institutions once thought possib",
-    "date": "2026-03-20",
-    "source_url": "https://www.finextra.com/blogposting/31081/intelligent-finance-the-governance-led-path-to-ai-powered-fintech",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Regulation & Compliance"
     ],
     "initiative_types": [],
     "year": "2026"
