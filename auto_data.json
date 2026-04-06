@@ -1063,6 +1063,25 @@
     "year": "2026"
   },
   {
+    "institution": "Finextra",
+    "initiative": "From Booking Engines to AI And Payments: A Look at Top Companies Shaping Travel Technology in 2026",
+    "description": "At 9:12 AM (US Time), a user searches for a flight from New York to Dubai. Within 300–900 millisecon...",
+    "date": "2026-04-03",
+    "source_url": "https://www.finextra.com/blogposting/31322/from-booking-engines-to-ai-and-payments-a-look-at-top-companies-shaping-travel-technology-in-2026",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Ledger Insights",
     "initiative": "IMF charts cautious tokenization path amid US permissionless push",
     "description": "Tobias Adrian, the International Monetary Fund&#8217;s (IMF&#8217;s) Financial Counsellor and head of its Monetary and Capital Markets Department, has published an IMF Note arguing that tokenization is not merely a technology upgrade but a fundamental reconfiguration of how trust, settlement and risk management are organized in the financial system. The paper, &#8220;Tokenized Finance&#8221;, carries significant [&#8230;] The post IMF charts cautious tokenization path amid US permissionless push appeared first on Ledger Insights - blockchain for enterprise .",
@@ -9577,23 +9596,6 @@
     "initiative_types": [
       "DeFi"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Statement on the nomination of Hyun Song Shin as Governor of the Bank of Korea",
-    "description": "Following the nomination of Hyun Song Shin as Governor of the Bank of Korea, the BIS today announced that Mr. Shin will step back from his duties with immediate effect. In the interim, the Monetary and Economic Department will be led by Frank Smets, who will serve as Acting Head.",
-    "date": "2026-03-22",
-    "source_url": "https://www.bis.org/press/p260322.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
