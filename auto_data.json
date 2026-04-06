@@ -1,6 +1,82 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Solo bitcoin miner overcomes 1-in-28,000 odds to secure $210,000 block reward",
+    "description": "The win landed the same week listed miners Riot, MARA, and Genius Group disclosed selling more than 19,000 BTC from their treasuries.",
+    "date": "2026-04-06",
+    "source_url": "https://www.coindesk.com/tech/2026/04/06/solo-bitcoin-miner-overcomes-1-in-28-000-odds-to-secure-usd210-000-block-reward",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "A Deep Dive into the Future of Onchain Liquidity Routing",
+    "description": "Below is a summarized version of The Block Research&#8217;s A Deep Dive into the Future of Onchain Liquidity Routing report. The full PDF version of this report is accessible here. In a fragmented onchain market, best execution is no longer guaranteed by sticking to a single venue. Liquidity that once lived in a handful of [&hellip;]",
+    "date": "2026-04-06",
+    "source_url": "https://www.theblock.co/post/396391/a-deep-dive-into-the-future-of-onchain-liquidity-routing",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Tom Lee’s Bitmine accelerates Ethereum buying with 71,252 ETH, largest weekly haul since December",
+    "description": "With a 6.8% gain, and outperforming both the S&P 500 and gold, Ethereum remains a strong wartime store of value,\" said Lee.",
+    "date": "2026-04-06",
+    "source_url": "https://www.theblock.co/post/396398/tom-lees-bitmine-accelerates-ethereum-buying-with-71252-eth-largest-weekly-haul-since-december",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Strategy Acquires 4,871 Bitcoin for $330 Million, Restarting Accumulation After Week-Long Pause",
+    "description": "The post Strategy Acquires 4,871 Bitcoin for $330 Million, Restarting Accumulation After Week-Long Pause appeared first on Unchained .",
+    "date": "2026-04-06",
+    "source_url": "https://unchainedcrypto.com/strategy-acquires-4871-bitcoin-for-330-million-restarting-accumulation-after-week-long-pause-unchained/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "CoinDesk 20 performance update: NEAR Protocol (NEAR) jumps 8.1% over weekend",
     "description": "Avalanche (AVAX), up 5.5% since Friday, joined NEAR Protocol (NEAR) as a top performer.",
     "date": "2026-04-06",
@@ -9506,84 +9582,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto market steadies as derivatives signal caution, macro pressure builds",
-    "description": "BTC holds near $70,500 as derivatives turn defensive, macro risks weigh on sentiment and altcoins show pockets of strength.",
-    "date": "2026-03-20",
-    "source_url": "https://www.coindesk.com/markets/2026/03/20/crypto-market-steadies-as-derivatives-signal-caution-macro-pressure-builds",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Ripple data reveals stablecoins are becoming the go-to tool for corporate treasury",
-    "description": "A new Ripple survey of more than 1,000 global finance leaders finds that digital assets are now seen as a strategic necessity rather than an optional experiment.",
-    "date": "2026-03-20",
-    "source_url": "https://www.coindesk.com/markets/2026/03/20/ripple-s-survey-shows-banks-fintechs-and-corporates-are-all-in-on-digital-assets-prioritizing-stablecoins-and-custody",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin’s price action looks dangerously similar to the pattern that sent it crashing to $60,000",
-    "description": "The recent price action echoes the November–January pattern, showing weak conviction among the “buy the dip” crowd.",
-    "date": "2026-03-20",
-    "source_url": "https://www.coindesk.com/markets/2026/03/20/bitcoin-s-price-action-looks-dangerously-similar-to-the-pattern-that-sent-it-crashing-to-usd60-000",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin jumps to $70,800 as oil retreats; ether and XRP lag",
-    "description": "Oil prices slipped as major economies announced joint efforts to stabilize energy markets.",
-    "date": "2026-03-20",
-    "source_url": "https://www.coindesk.com/markets/2026/03/20/bitcoin-jumps-to-usd70-800-as-oil-retreats-ether-and-xrp-lag",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
