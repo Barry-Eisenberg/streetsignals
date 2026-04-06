@@ -1,5 +1,63 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Strategy added another 4,871 bitcoin for $330 million, with holdings nearing 767,000 BTC",
+    "description": "Last week's purchases were mostly funded via sales of the company's STRC preferred stock.",
+    "date": "2026-04-06",
+    "source_url": "https://www.coindesk.com/markets/2026/04/06/strategy-buys-another-4-871-bitcoin-for-usd330-million-as-holdings-near-767-000-btc",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Bitcoin Reclaims $69,000 as Trump’s Shifting Iran Rhetoric Lifts Risk Appetite",
+    "description": "The post Bitcoin Reclaims $69,000 as Trump&#8217;s Shifting Iran Rhetoric Lifts Risk Appetite appeared first on Unchained .",
+    "date": "2026-04-06",
+    "source_url": "https://unchainedcrypto.com/bitcoin-reclaims-69000-as-trumps-shifting-iran-rhetoric-lifts-risk-appetite-unchained/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Circle’s Arc Blockchain Introduces Post-Quantum Cryptography Ahead of Mainnet Launch",
+    "description": "The post Circle’s Arc Blockchain Introduces Post-Quantum Cryptography Ahead of Mainnet Launch appeared first on Unchained .",
+    "date": "2026-04-06",
+    "source_url": "https://unchainedcrypto.com/circles-arc-blockchain-introduces-post-quantum-cryptography-ahead-of-mainnet-launch-unchained/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Unchained",
     "initiative": "Drift Protocol Reveals $285 Million Exploit Was a Six-Month North Korean Intelligence Operation",
     "description": "The post Drift Protocol Reveals $285 Million Exploit Was a Six-Month North Korean Intelligence Operation appeared first on Unchained .",
@@ -9529,59 +9587,6 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "EU Targets Turkey In Next SEPA Expansion Wave",
-    "description": "Hey Payments Fanatic! The&#xA0; EU &#xA0; pitched to Turkey to join&#xA0; SEPA . A 41-country payments system designed to make euro transfers as fast and cheap as domestic ones. The proposal came last month in Ankara. European Commissioner Marta Kos discussed it directly with Foreign Minister Hakan Fidan. This",
-    "date": "2026-03-20",
-    "source_url": "https://www.connectingthedotsinpayments.com/eu-targets-turkey-in-next-sepa-expansion-wave/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Finextra & Visa Direct release new survey report on the global state of commercial banking",
-    "description": "Our latest Finextra global survey report ‘Commercial Banking in Transition: The Global Survey’, produced in association with Visa Direct, is now available to download.",
-    "date": "2026-03-20",
-    "source_url": "https://www.finextra.com/newsarticle/47470/finextra-visa-directreleasenewsurvey-reporton-theglobal-state-of-commercial-banking",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "IG Group mulls switching listing from London to New York",
-    "description": "Online trading platform IG Group is considering moving its listing from London to New York in an effort to boost its presence in the US's fast-growing predictions market.",
-    "date": "2026-03-20",
-    "source_url": "https://www.finextra.com/newsarticle/47468/ig-group-mulls-switching-listing-from-london-to-new-york",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
