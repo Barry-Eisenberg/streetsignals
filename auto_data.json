@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bitcoin rallies on report of Iran ceasefire talks, Algorand extends gains",
+    "description": "If a ceasefire materializes, a relief rally could further benefit risk assets. For now, traders appear to be treating the headlines with skepticism.",
+    "date": "2026-04-06",
+    "source_url": "https://www.coindesk.com/markets/2026/04/06/bitcoin-rallies-on-report-of-iran-ceasefire-talks-algorand-extends-gains",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "IMF warns tokenization could bring crypto risks into global financial markets",
     "description": "Tokenization could amplify volatility through automated markets and smart contracts, the report said.",
     "date": "2026-04-06",
@@ -9563,23 +9582,6 @@
     "initiative_types": [
       "Leadership & Governance"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "Ben Winter (COO, Stuut): AI Coworkers in Finance",
-    "description": "In this episode of the Wrap Up Podcast, I sat down with Ben Winter, COO at Stuut, to explore how AI is actually reshaping finance teams beyond the usual &#8220;efficiency&#8221; narrative.",
-    "date": "2026-03-20",
-    "source_url": "https://www.fintechwrapup.com/p/ben-winter-coo-stuut-ai-coworkers",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
