@@ -1,6 +1,49 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "IMF warns tokenization could bring crypto risks into global financial markets",
+    "description": "Tokenization could amplify volatility through automated markets and smart contracts, the report said.",
+    "date": "2026-04-06",
+    "source_url": "https://www.coindesk.com/markets/2026/04/06/imf-warns-tokenization-could-bring-crypto-risks-into-global-financial-markets",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Australia mandates licenses for crypto exchanges, custodians",
+    "description": "Australia's new digital assets legislation mandates crypto-related platforms to hold an AFSL, ensuring consumer protection akin to traditional finance. The post Australia mandates licenses for crypto exchanges, custodians appeared first on CoinGeek .",
+    "date": "2026-04-06",
+    "source_url": "https://coingeek.com/australia-mandates-licenses-for-crypto-exchanges-custodians/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Inflation takes center stage: Crypto Week Ahead",
     "description": "Your look at what's coming in the week starting April 6.",
     "date": "2026-04-06",
@@ -9533,40 +9576,6 @@
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Coinbase launches stock perpetual futures for ‘Magnificent 7’ names, including Apple, Tesla and Nvidia, expanding ‘everything exchange’ push",
-    "description": "Coinbase has introduced stock perpetual futures for eligible non-U.S. users, with selected ETF products also available.",
-    "date": "2026-03-20",
-    "source_url": "https://www.theblock.co/post/394485/coinbase-launches-stock-perpetual-futures-for-magnificent-7-names-including-apple-tesla-and-nvidia-expanding-everything-exchange-push",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Gemini hit with investor lawsuit over strategy shift, stock slump as losses widen and layoffs mount",
-    "description": "Gemini is facing a class-action lawsuit in New York accusing it of misleading investors about its strategy before and after its 2025 IPO.",
-    "date": "2026-03-20",
-    "source_url": "https://www.theblock.co/post/394477/gemini-faces-investor-lawsuit-earnings-layoffs",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
     "fmi_areas": [
       "General Infrastructure"
     ],
