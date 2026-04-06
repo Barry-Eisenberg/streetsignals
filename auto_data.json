@@ -1,5 +1,44 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin meltdown to $10,000 remains likely unless prices reclaim $75,000, analyst says",
+    "description": "Bloomberg's Mike McGlone has reiterated his forecast that Bitcoin could plunge to $10,000, this time anchoring his outlook to a clear line in the sand: $75,000.",
+    "date": "2026-04-06",
+    "source_url": "https://www.coindesk.com/markets/2026/04/06/bitcoin-meltdown-to-usd10-000-remains-likely-unless-prices-reclaim-usd75-000-analyst-says",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Connecting the Dots",
+    "initiative": "Adyen Expands Partnership with Adidas",
+    "description": "Hey Payments Fanatic! Adyen&#x2019;s partnerships department has been on fire in 2026. From Uber and Starbucks to Raptor&#x2019;s strategic integration, their momentum is only accelerating. The European payment powerhouse is expanding its partnership with Adidas through their Adyen Giving checkout donation feature.&#xA0; The goal is",
+    "date": "2026-04-06",
+    "source_url": "https://www.connectingthedotsinpayments.com/adyen-expands-partnership-with-adidas/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "The Funding: Are crypto tokens trading at 90% discounts in secondary markets?",
     "description": "The range of discounts in crypto token secondary markets has widened in recent months. Here’s what's going on in that market.",
@@ -9529,45 +9568,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto Clarity Act inches toward Senate hearing as lawmakers weigh legislative trades",
-    "description": "The White House may be reviewing fresh legislative text, and lawmakers are reportedly weighing offers to banks of other, unrelated provisions for their support.",
-    "date": "2026-03-19",
-    "source_url": "https://www.coindesk.com/policy/2026/03/19/crypto-clarity-act-inches-toward-senate-hearing-as-lawmakers-weigh-legislative-trades",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "DeFi risk management giant Gauntlet sees $380 million exit as OKX crypto campaign ends",
-    "description": "Gauntlet noted that deposits are now back to same levels before the campaign, and has navigated large capital swings before due to incentive campaign endings, airdrops, and shifts in market conditions which regularly produce short-period swings in either direction.",
-    "date": "2026-03-19",
-    "source_url": "https://www.coindesk.com/tech/2026/03/19/defi-risk-management-giant-gauntlet-sees-usd380-million-exit-as-okx-crypto-campaign-ends",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
