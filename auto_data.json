@@ -1,6 +1,42 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bitcoin ETF inflows hit highest level since February",
+    "description": "Spot bitcoin ETFs pulled in $471 million on April 6, the 6th-largest inflow of 2026, as prediction markets price little near-term Fed movement.",
+    "date": "2026-04-07",
+    "source_url": "https://www.coindesk.com/markets/2026/04/07/bitcoin-etf-inflows-hit-highest-level-since-february",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "XRP slips to $1.31 after failed breakout as liquidity dries up",
+    "description": "Rejection at $1.35 and collapsing depth raise risk of sharper moves as positioning builds.",
+    "date": "2026-04-07",
+    "source_url": "https://www.coindesk.com/markets/2026/04/07/xrp-slips-to-usd1-31-after-failed-breakout-as-liquidity-dries-up",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bitcoin miners face a new rival for cheap power as Anthropic signs multi-gigawatt compute deal",
     "description": "The AI company's partnership with Google and Broadcom for next-generation TPU capacity starting in 2027 adds to a wave of demand reshaping the economics of every industry that competes for cheap electricity, including bitcoin mining.",
     "date": "2026-04-07",
@@ -9568,40 +9604,6 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Aave V4 Clears First Governance Vote with 100% Support After Months of Internal Conflict",
-    "description": "The post Aave V4 Clears First Governance Vote with 100% Support After Months of Internal Conflict appeared first on Unchained .",
-    "date": "2026-03-24",
-    "source_url": "https://unchainedcrypto.com/aave-v4-clears-first-governance-vote-with-100-support-after-months-of-internal-conflict/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Kalshi and Polymarket Roll Out Insider Trading Controls as Congress Moves to Ban Sports Contracts",
-    "description": "The post Kalshi and Polymarket Roll Out Insider Trading Controls as Congress Moves to Ban Sports Contracts appeared first on Unchained .",
-    "date": "2026-03-24",
-    "source_url": "https://unchainedcrypto.com/kalshi-and-polymarket-roll-out-insider-trading-controls-as-congress-moves-to-ban-sports-contracts/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
