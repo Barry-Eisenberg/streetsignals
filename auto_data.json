@@ -1,6 +1,144 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "DeFi yields are crashing so hard that they can't compete with a traditional savings account",
+    "description": "DeFi yields have collapsed below TradFi rates, forcing investors to face higher smart contract risks for lower returns as regulation and exploits mount.",
+    "date": "2026-04-07",
+    "source_url": "https://www.coindesk.com/business/2026/04/07/defi-yields-are-crashing-so-hard-that-they-can-t-compete-with-a-traditional-savings-account",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Americans’ losses to crypto scams rose to over $11 billion last year, FBI reports",
+    "description": "Fraud schemes grew more sophisticated and targeted larger sums than in 2024.",
+    "date": "2026-04-07",
+    "source_url": "https://www.coindesk.com/business/2026/04/07/americans-losses-to-crypto-scams-rose-to-over-usd11-billion-last-year-fbi-reports",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Regulation by hostility: the real legacy of Biden-era crypto policy",
+    "description": "Thorn argues that a recent New York Times op-ed rewrites history through omission, glossing over the collateral damage caused by the previous administration.",
+    "date": "2026-04-07",
+    "source_url": "https://www.coindesk.com/opinion/2026/04/07/regulation-by-hostility-the-real-legacy-of-biden-era-crypto-policy",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Grayscale says bitcoin's quantum problem is governance, not engineering",
+    "description": "The asset manager's research arm argues the technical path to quantum-safe blockchains is clear but reaching consensus on protocol changes, especially what to do with Satoshi's coins, is the real obstacle.",
+    "date": "2026-04-07",
+    "source_url": "https://www.coindesk.com/tech/2026/04/07/grayscale-says-bitcoin-s-quantum-problem-is-governance-not-engineering",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Stablecoin startup Inxy raises $4 million",
+    "description": "INXY has raised $4 million in a new funding round led by Flashpoint, following a $3 million raise in 2025, bringing its total seed funding to $7 million.",
+    "date": "2026-04-07",
+    "source_url": "https://www.finextra.com/pressarticle/109383/stablecoin-startup-inxy-raises-4-million",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "MoneyHash strengthens presence in Bahrain witth EazyPay relationship",
+    "description": "MoneyHash, the leading payment orchestration platform in emerging and global markets, announced a new partnership with Eazy Financial Services (EazyPay), a Central Bank of Bahrain-licensed payment service provider and acquirer supporting businesses across the Kingdom of Bahrain and strengthening access to payment gateways in Bahrain for regional and global merchants.",
+    "date": "2026-04-07",
+    "source_url": "https://www.finextra.com/pressarticle/109382/moneyhash-strengthens-presence-in-bahrain-witth-eazypay-relationship",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Portfolio Construction and the Democratisation of Alternative Investments",
+    "description": "Discussing how the role of AI in Wealth Management is changing differentiation efforts, Kevin Barr, Independent Board Director, Communify spoke to FinextraTV at the Communify Intelligence Experience. Barr highlighted the need to not just differentiate the human model, but to build specific and relevant models for purpose most relevant to each firm, rather than relying on the same model across firms. Looking at portfolio construction, Barr explained his existing belief that diversification is still highly important and that having an element of stability is crucial to a strong portfolio, but he emphasised that stablecoins are not always, actually, stable. He equally defines an era of democratisation of alternative investments, which he sees as one of the most exciting changes currently unfolding.",
+    "date": "2026-04-07",
+    "source_url": "https://www.finextra.com/videoarticle/3482/portfolio-construction-and-the-democratisation-of-alternative-investments",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Schwab says even a 1% crypto allocation can reshape portfolio risk",
     "description": "The brokerage's research finds that even a tiny crypto allocation can dominate your portfolio's risk, suggesting that the \"right\" amount to own depends entirely on your stomach for 70% price swings.",
     "date": "2026-04-07",
@@ -9443,141 +9581,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "CoinDesk 20 performance update: Polkadot (DOT) drops 2.3% as index trades lower",
-    "description": "Ripple (XRP), down 1.3% since Monday, was also among the underperformers.",
-    "date": "2026-03-24",
-    "source_url": "https://www.coindesk.com/coindesk-indices/2026/03/24/coindesk-20-performance-update-polkadot-dot-drops-2-3-as-index-trades-lower",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin may have already bottomed out near $60,000. Here’s why.",
-    "description": "Implied volatility indicators DVOL and BVIV suggest peak fear has passed, with crypto leading traditional markets in pricing risk.",
-    "date": "2026-03-24",
-    "source_url": "https://www.coindesk.com/markets/2026/03/24/bitcoin-volatility-signals-a-bottom-as-tradfi-reels-in-uncertainty",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Solana Foundation taps Mastercard, Western Union, Worldpay for institutional developer platform",
-    "description": "The platform is a toolkit that lets enterprises create and scale financial applications on Solana without deep crypto infrastructure expertise.",
-    "date": "2026-03-24",
-    "source_url": "https://www.coindesk.com/tech/2026/03/24/solana-foundation-taps-mastercard-western-union-worldpay-for-institutional-developer-platform",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Coinbase says the ‘second wave’ of crypto investors are prioritizing income over price appreciation",
-    "description": "Coinbase’s head of institutional, Brett Tejpaul, says institutional priorities in crypto are evolving, and investors are increasingly hunting for yield.",
-    "date": "2026-03-24",
-    "source_url": "https://www.coindesk.com/markets/2026/03/24/coinbase-says-the-second-wave-of-institutional-money-for-crypto-is-here-and-it-is-all-about-yield",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Wall Street broker Bernstein calls bitcoin bottom, keeps $150,000 year-end target",
-    "description": "The broker sees bitcoin rebounding from its recent lows, supported by ETF flows and expanding corporate treasury demand.",
-    "date": "2026-03-24",
-    "source_url": "https://www.coindesk.com/markets/2026/03/24/wall-street-broker-bernstein-calls-bitcoin-bottom-keeps-usd150-000-year-end-target",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "ParaFi defies crypto market downturn with $125 million raise for new fund: Bloomberg",
-    "description": "The firm now manages about $2 billion, having already raised an additional $325 million for existing crypto investment strategies since last year.",
-    "date": "2026-03-24",
-    "source_url": "https://www.coindesk.com/business/2026/03/24/parafi-defies-crypto-market-downturn-with-usd125-million-raise-for-new-fund-bloomberg",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "New York Stock Exchange taps Securitize to build its tokenized stock platform",
-    "description": "The move comes as the race to bring equities to always-on blockchain markets is heating up after Nasdaq obtained regulatory approval for its tokenization plan.",
-    "date": "2026-03-24",
-    "source_url": "https://www.coindesk.com/business/2026/03/24/new-york-stock-exchange-taps-securitize-to-build-its-tokenized-stock-platform",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
   }
