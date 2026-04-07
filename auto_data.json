@@ -1,5 +1,128 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "Soledad Núñez: Climate risk and sustainable finance - bridging policy, research and practice",
+    "description": "Speech by Ms Soledad Núñez, Deputy Governor of the Bank of Spain, at the High-Level Conference \"Climate risk and sustainable finance: bridging policy, research and practice\", jointly organised with the Network for Greening the Financial System (NGFS), the Centre for Economic Transition Expertise (CETEx), and the TPI Global Climate Transition Centre, both at London School of Economics, Madrid, 25 March 2026.",
+    "date": "2026-04-07",
+    "source_url": "https://www.bis.org/review/r260331f.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Ida Wolden Bache: Policy rate kept unchanged at this meeting",
+    "description": "Introductory statement by Ms Ida Wolden Bache, Governor of Norges Bank (Central Bank of Norway), at the press conference following Norway's announcement of the policy rate, Oslo, 26 March 2026.",
+    "date": "2026-04-07",
+    "source_url": "https://www.bis.org/review/r260331h.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Agentic AI Startup Xccelera Raises ₹1.2 Crore",
+    "description": "In a strong vote of confidence for the future of autonomous enterprise execution, early-stage AI startup Xccelera today announced that it has raised ₹1.2 crore from a group of prominent founders, including Ramakant Sharma (Livspace), Asad Khan (TestMu AI), and Amiya Pathak (Zipdial).",
+    "date": "2026-04-07",
+    "source_url": "https://www.finextra.com/pressarticle/109371/agentic-ai-startup-xccelera-raises-12-crore",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Apex Group appoints Loïc Choquet as CEO of Apex Fund Services",
+    "description": "Apex Group Ltd (“Apex Group”), a global financial services provider with over $3.5 trillion in assets serviced, today announced the appointment of Loïc Choquet as CEO of Apex Fund Services S.A., subject to CSSF approval.",
+    "date": "2026-04-07",
+    "source_url": "https://www.finextra.com/pressarticle/109370/apex-group-appoints-loc-choquet-as-ceo-of-apex-fund-services",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "FinBox unveils MCP support for Sentinel AI",
+    "description": "FinBox, a leading credit infrastructure platform serving over 100 enterprise lenders across banks, NBFCs, fintechs, and conglomerates, today announced support for MCP (Model Context Protocol) in Sentinel AI, its decision management platform that has facilitated over 6.5 billion decisions till date.",
+    "date": "2026-04-07",
+    "source_url": "https://www.finextra.com/pressarticle/109369/finbox-unveils-mcp-support-for-sentinel-ai",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Snowdrop delivers merchant enrichment for new Solare debit card",
+    "description": "Solflare has partnered with Snowdrop Solutions to integrate its transaction enrichment API, supporting Solflare’s self-custody debit card, Solflare Card, ensuring a world-class digital neobanking experience for its users.",
+    "date": "2026-04-07",
+    "source_url": "https://www.finextra.com/pressarticle/109368/snowdrop-delivers-merchant-enrichment-for-new-solare-debit-card",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bitcoin whale moves over $20 million worth of BTC to Binance",
+    "description": "Between January and March 2025, the wallet accumulated 513 BTC, worth $50 million at the time, according to Arkham data.",
+    "date": "2026-04-07",
+    "source_url": "https://www.theblock.co/post/396504/bitcoin-whale-moves-20-million-worth-btc",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Spot bitcoin ETFs report largest single-day inflow in six weeks, worth $471 million",
     "description": "The return in inflows reflects renewed confidence among institutional participants in the crypto market, analysts said.",
@@ -9466,144 +9589,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Tether hires Big Four auditor for first full reserves audit",
-    "description": "Tether has hired a Big Four accounting firm for its first full USDT stablecoin audit after years of scrutiny over its reserves.",
-    "date": "2026-03-24",
-    "source_url": "https://www.theblock.co/post/394883/tether-hires-big-four-auditor-for-first-full-reserves-audit",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Mastercard, Western Union tap Solana Foundation’s new enterprise developer toolbox",
-    "description": "The platform offers three API modules to help issue RWAs, support payments, and enable onchain swaps supported by 20 launch partners.",
-    "date": "2026-03-24",
-    "source_url": "https://www.theblock.co/post/394756/mastercard-western-union-tap-solana-foundations-new-enterprise-developer-toolbox",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "NYSE taps Securitize to develop 24/7 tokenized securities platform",
-    "description": "The NYSE, part of Intercontinental Exchange, has partnered with Securitize to develop its 24/7 tokenized securities platform.",
-    "date": "2026-03-24",
-    "source_url": "https://www.theblock.co/post/394869/nyse-taps-securitize-to-develop-24-7-tokenized-securities-platform",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bitcoin sees rare two-block reorg as Foundry overtakes AntPool and ViaBTC in mining race",
-    "description": "Despite its relative rarity, the event reflects normal network behavior, as nodes adopt the chain with the most cumulative proof of work.",
-    "date": "2026-03-24",
-    "source_url": "https://www.theblock.co/post/394861/bitcoin-sees-rare-two-block-reorg-as-foundry-overtakes-antpool-and-viabtc-in-mining-race",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bitcoin hovers below key ‘air gap’ as geopolitical risks and Fed outlook cloud direction",
-    "description": "Analysts flag a resistance zone above $72,000 as bitcoin holds key support amid geopolitical tensions and macro headwinds.",
-    "date": "2026-03-24",
-    "source_url": "https://www.theblock.co/post/394860/bitcoin-hovers-below-key-air-gap-as-geopolitical-risks-and-fed-outlook-cloud-direction",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "BitGo offers OTC prediction market access to institutions via Susquehanna Crypto partnership",
-    "description": "BitGo's institutional clients will be able to access prediction markets via the custodian's platform and post cash or crypto as collateral.",
-    "date": "2026-03-24",
-    "source_url": "https://www.theblock.co/post/394803/bitgo-offers-otc-prediction-market-access-institutions",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Zama and T-REX Network launch privacy layer for tokenized assets targeting Wall Street institutions",
-    "description": "Zama and T-REX Network introduced a confidentiality layer for tokenized real-world assets, aiming to enable broader institutional adoption.",
-    "date": "2026-03-24",
-    "source_url": "https://www.theblock.co/post/394832/zama-and-t-rex-network-launch-privacy-layer-for-tokenized-assets-targeting-wall-street-institutions",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
     ],
     "year": "2026"
   }
