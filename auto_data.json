@@ -1,5 +1,61 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Stablecoin issuers get closer to U.S. federal rules with FDIC's new proposal",
+    "description": "The Federal Deposit Insurance Corp. approved a proposed rule to govern the issuers, even as the Senate continues to debate GENIUS Act details.",
+    "date": "2026-04-07",
+    "source_url": "https://www.coindesk.com/policy/2026/04/07/stablecoin-issuers-get-closer-to-u-s-federal-rules-with-fdic-s-new-proposal",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Trump-linked World Liberty faces scrutiny over ties to sanctioned network: The Times",
+    "description": "A deal with an Asia-based blockchain project followed recent links to individuals later sanctioned over alleged ties to a major fraud network",
+    "date": "2026-04-07",
+    "source_url": "https://www.coindesk.com/business/2026/04/07/trump-linked-world-liberty-faces-scrutiny-over-ties-to-sanctioned-network-the-times",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Solana-based Stabble tells LPs to withdraw funds after identifying former North Korean employee",
+    "description": "Worried about a former employee with alleged ties to North Korea, Stabble told liquidity providers to withdraw funds.",
+    "date": "2026-04-07",
+    "source_url": "https://www.theblock.co/post/396569/solana-stabble-lps-withdraw-funds-identifying-former-north-korean-employee",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Charles Schwab examines crypto investing approaches, says even small exposure can raise risk",
     "description": "Brokerage Charles Schwab said there is no \"correct\" allocation to crypto, and the decision depends on each investor.",
@@ -9520,64 +9576,6 @@
     "initiative_types": [
       "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "BNY CEO says the future of crypto runs through big banks",
-    "description": "Robin Vince says large banks can bridge digital assets and traditional finance as trust and regulation shape the next phase of growth.",
-    "date": "2026-03-24",
-    "source_url": "https://www.coindesk.com/business/2026/03/24/bny-mellon-ceo-says-the-future-of-crypto-runs-through-big-banks",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Wall Street’s crypto push has been years in the making, says Morgan Stanley",
-    "description": "Morgan Stanley’s Amy Oldenburg said banks are expanding into crypto not because of hype, but after years of infrastructure development.",
-    "date": "2026-03-24",
-    "source_url": "https://www.coindesk.com/business/2026/03/24/morgan-stanley-says-wall-street-s-crypto-push-isn-t-about-fomo-it-s-been-years-in-the-making",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Circle stock plunges 18% as a new draft of the Clarity Act threatens stablecoin rewards",
-    "description": "The latest version of the Clarity Act is pressuring stocks as it would restrict stablecoin rewards.",
-    "date": "2026-03-24",
-    "source_url": "https://www.coindesk.com/markets/2026/03/24/circle-stock-plunges-18-as-a-new-draft-of-the-clarity-act-threatens-stablecoin-rewards",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   }
