@@ -1,6 +1,121 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "CoinDesk 20 performance update: index drops 2.4% as all constituents trade lower",
+    "description": "Aave (AAVE) dropped 8.5% and Avalanche (AVAX) fell 7.6%, leading the index lower from Monday.",
+    "date": "2026-04-07",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/07/coindesk-20-performance-update-index-drops-2-4-as-all-constituents-trade-lower",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "'A whole civilization will die': Crypto markets under pressure as Trump ups rhetoric towards Iran",
+    "description": "Weekend gains for bitcoin have been mostly erased ahead of the president's Tuesday night deadline for the reopening of the Strait of Hormuz",
+    "date": "2026-04-07",
+    "source_url": "https://www.coindesk.com/markets/2026/04/07/a-whole-civilization-will-die-crypto-markets-under-pressure-as-trump-ups-rhetoric-towards-iran",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin quantum threat is real and closer than it looks, says Nobel physicist",
+    "description": "Former Google quantum hardware leader and winner of the 2025 Nobel Prize in Physics, John Martinis, warns that breaking encryption will be among the earliest uses of quantum computing",
+    "date": "2026-04-07",
+    "source_url": "https://www.coindesk.com/business/2026/04/07/bitcoin-quantum-threat-is-real-and-closer-than-it-looks-says-nobel-physicist",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "UninPay launches Agentic Payment Open Protocol framework",
+    "description": "On April 2, a special taxi booking transaction was successfully completed in Hong Kong, China.",
+    "date": "2026-04-07",
+    "source_url": "https://www.finextra.com/pressarticle/109380/uninpay-launches-agentic-payment-open-protocol-framework",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "EPAA and Monash Fintech Lab sign MoU",
+    "description": "Emerging Payments Association Asia (EPAA) and Monash University Malaysia have signed a Memorandum of Understanding (MoU) to bring together payments leaders and academic experts to shape a more resilient, inclusive and forward-looking payments system for Asia Pacific (APAC).",
+    "date": "2026-04-07",
+    "source_url": "https://www.finextra.com/pressarticle/109379/epaa-and-monash-fintech-lab-sign-mou",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "XRP leads $224 million weekly inflows into global crypto funds as bitcoin sentiment remains mixed and ether lags: CoinShares",
+    "description": "Global crypto funds saw $224 million worth of net inflows last week, led by XRP products with $119.6 million, per CoinShares.",
+    "date": "2026-04-07",
+    "source_url": "https://www.theblock.co/post/396519/xrp-leads-224-million-weekly-inflows-into-global-crypto-funds-as-bitcoin-sentiment-remains-mixed-and-ether-lags-coinshares",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "How North Korea's 6-month long secret espionage program has crypto community rethinking security",
     "description": "For years, the DeFi industry has treated security as a technical problem: something that could be solved with better code. But the Drift incident suggests something far more complex: that the real vulnerabilities may lie outside the codebase altogether.",
     "date": "2026-04-07",
@@ -679,6 +794,23 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Binance.US plots comeback with derivatives, prediction markets push",
+    "description": "Under new CEO Stephen Gregory, the U.S. arm of the crypto exchange giant look sot regain market share lost to Coinbase and Kraken.",
+    "date": "2026-04-06",
+    "source_url": "https://www.coindesk.com/business/2026/04/06/binance-s-u-s-comeback-bet-expand-beyond-crypto-trading-or-fall-behind",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
     ],
     "year": "2026"
   },
@@ -9447,140 +9579,6 @@
       "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Here’s how Treasuries could shape Trump’s Iran war and bitcoin moves",
-    "description": "Treasury yields and swap spreads could eventually pressure the Trump administration to moderate the conflict, analysts argue.",
-    "date": "2026-03-24",
-    "source_url": "https://www.coindesk.com/markets/2026/03/24/here-s-where-treasuries-could-shape-trump-s-iran-war-and-bitcoin-moves",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "International Women’s Month: Lavinia Osbourne leads assets talk",
-    "description": "At the London Blockchain Finance Summit, women leaders share insights on inclusion, impact, and the future of tech during Women’s Month celebrations. The post International Women’s Month: Lavinia Osbourne leads assets talk appeared first on CoinGeek .",
-    "date": "2026-03-24",
-    "source_url": "https://coingeek.com/international-women-month-lavinia-osbourne-leads-assets-talk/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "US Senate hypes crypto legislative ‘agreement’ no one’s agreed to yet",
-    "description": "U.S. senators reach a tentative agreement on digital asset legislation, addressing crypto rewards and banking concerns while aiming for bipartisan support. The post US Senate hypes crypto legislative ‘agreement’ no one’s agreed to yet appeared first on CoinGeek .",
-    "date": "2026-03-24",
-    "source_url": "https://coingeek.com/us-senate-hypes-crypto-legislative-agreement-no-one-agreed-to-yet/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Vietnam launches digital asset exchange program amid restrictions",
-    "description": "Vietnam launches a pilot program for digital currency exchanges, regulating its crypto market amid concerns over capital flow control and licensing. The post Vietnam launches digital asset exchange program amid restrictions appeared first on CoinGeek .",
-    "date": "2026-03-24",
-    "source_url": "https://coingeek.com/vietnam-launches-digital-asset-exchange-program-amid-restrictions/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Paysend Partners with BVNK to Expand Stablecoin Payments",
-    "description": "Hey Payments Fanatic! Paysend has partnered with BVNK to introduce stablecoin payments and settlement capabilities across its consumer and enterprise platforms. For Paysend, the partnership represents a strategic step toward expanding its digital payments ecosystem and reinforcing its position in the cross-border payments market. For BVNK, it is an indicator",
-    "date": "2026-03-24",
-    "source_url": "https://www.connectingthedotsinpayments.com/paysend-partners-with-bvnk-to-expand-stablecoin-payments/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "PRA hits The Bank of London with £2 million penalty for \"failing to act with integrity\"",
-    "description": "The Bank of London has been hit with a £2 million fine by the Prudential Regulatory Authority for under-stating its capital position and deliberately misleading the banking watchdog.",
-    "date": "2026-03-24",
-    "source_url": "https://www.finextra.com/newsarticle/47484/pra-hits-the-bank-of-london-with-2-million-penalty-for-failing-to-act-with-integrity",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Revolut reports bumper profits",
-    "description": "Fintech juggernaut Revolut has reported record gross profit of $2.3 billion for 2025 as revenue surges to $6 billion.",
-    "date": "2026-03-24",
-    "source_url": "https://www.finextra.com/newsarticle/47482/revolut-reports-bumper-profits",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
