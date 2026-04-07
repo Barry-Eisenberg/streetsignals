@@ -1,5 +1,82 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "SEC close to putting out 'reg crypto' for fundraising questions, Chair Atkins says",
+    "description": "The Securities and Exchange Commission will address fundraising and startup exemptions in this proposal, Paul Atkins told a crowd Monday.",
+    "date": "2026-04-07",
+    "source_url": "https://www.coindesk.com/policy/2026/04/07/sec-close-to-putting-out-reg-crypto-for-fundraising-questions-chair-atkins-says",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin drops toward $68,000 as demand weakens and whales sell",
+    "description": "Glassnode data shows soft participation, while a negative gamma setup below $68,000 leaves BTC exposed to a faster move toward $60,000.",
+    "date": "2026-04-07",
+    "source_url": "https://www.coindesk.com/markets/2026/04/07/bitcoin-drops-toward-usd68-000-as-demand-weakens-and-whales-sell",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Connecting the Dots",
+    "initiative": "INXY Raises $7M to Expand Global Payments Platform",
+    "description": "Hey Payments Fanatic! INXY, an EU-authorised payment platform with a presence in Cyprus, announced on Monday that it has raised $7 million in total seed funding to scale its cross-border payment infrastructure. The announcement comes amid a surge in demand for stablecoin payment infrastructure, which has seen significant growth over",
+    "date": "2026-04-07",
+    "source_url": "https://www.connectingthedotsinpayments.com/inxy-raises-7m-to-expand-global-payments-platform/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Polygon to activate Giugliano hardfork this week for faster finality",
+    "description": "The Giugliano upgrade is expected to occur on April 8 to improve finality and add fee parameters directly in block headers, the team said.",
+    "date": "2026-04-07",
+    "source_url": "https://www.theblock.co/post/396488/polygon-giugliano-hardfork",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Coinbase wins conditional approval for national trust bank charter",
     "description": "Coinbase is the latest digital asset firm to receive conditional approval from US regulators for a national trust bank charter.",
@@ -9520,85 +9597,6 @@
       "Interoperability & Standards"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Gemini loses $589M in 2025, prediction market future not so bright",
-    "description": "Gemini shifts from crypto to markets amid rising losses, legal risks and falling trading volumes, raising questions about its strategy and future growth. The post Gemini loses $589M in 2025, prediction market future not so bright appeared first on CoinGeek .",
-    "date": "2026-03-23",
-    "source_url": "https://coingeek.com/gemini-loses-589m-in-2025-prediction-market-future-not-so-bright/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "‘Timestamped’ can save your career with tamper-proof records",
-    "description": "A new service called \"Timestamped\" leverages one of blockchain's most useful built-in features to provide verifiable proof of a point in time. The post &#8216;Timestamped&#8217; can save your career with tamper-proof records appeared first on CoinGeek .",
-    "date": "2026-03-23",
-    "source_url": "https://coingeek.com/timestamped-can-save-your-career-with-tamper-proof-records/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "CAB Payments Rejects StoneX Takeover Proposal",
-    "description": "Hey Payments Fanatic! Takeover activity is picking up again across payments infrastructure. &#x1F440; But not every offer is landing. CAB Payments has rejected an unsolicited acquisition proposal from StoneX , which valued the company at 95 pence per share. The board unanimously concluded that the offer significantly undervalues the business and",
-    "date": "2026-03-23",
-    "source_url": "https://www.connectingthedotsinpayments.com/cab-payments-rejects-stonex-takeover-proposal/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Talos and Nasdaq forge path to managing both on- and off-chain collateral workflow",
-    "description": "Talos is to connect its digital asset infrastructure with Nasdaq's Calypso and trade surveillance platforms to develop a unified 'single lens' for managing tokenized collateral.",
-    "date": "2026-03-23",
-    "source_url": "https://www.finextra.com/newsarticle/47478/talos-and-nasdaq-forge-path-to-managing-both-on--and-off-chain-collateral-workflow",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Collateral & Lending",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
