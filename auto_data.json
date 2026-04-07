@@ -1,5 +1,22 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Freedom Bank contracts with InvestiFi",
+    "description": "InvestiFi, an award winning InvestTech platform designed to allow for investing to and from checking accounts, has engaged with Freedom Bank to embed its digital solutions into the bank’s online banking platform.",
+    "date": "2026-04-07",
+    "source_url": "https://www.finextra.com/pressarticle/109384/freedom-bank-contracts-with-investifi",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "DeFi yields are crashing so hard that they can't compete with a traditional savings account",
     "description": "DeFi yields have collapsed below TradFi rates, forcing investors to face higher smart contract risks for lower returns as regulation and exploits mount.",
@@ -9559,25 +9576,6 @@
     "fmi_areas": [
       "Regulation & Compliance",
       "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin slips below $70,000, Circle's 16% slide leads crypto stock sell-off",
-    "description": "Market participants are now pricing in rate hikes, and it could be weighing on risk assets.",
-    "date": "2026-03-24",
-    "source_url": "https://www.coindesk.com/markets/2026/03/24/bitcoin-slips-below-usd70-000-circle-s-16-slide-leading-crypto-stock-sell-off",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
