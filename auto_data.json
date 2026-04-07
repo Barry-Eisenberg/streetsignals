@@ -1,6 +1,115 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Why Michael Saylor's bitcoin buys aren’t moving the needle anymore",
+    "description": "Despite billions in purchases, MSTR demand is being outweighed by long term holder positioning and broader capital flows.",
+    "date": "2026-04-07",
+    "source_url": "https://www.coindesk.com/markets/2026/04/07/why-strategy-s-bitcoin-buying-isn-t-moving-the-market",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Solana Foundation unveils security overhaul days after $270 million Drift exploit",
+    "description": "The program includes 24/7 threat monitoring for protocols with more than $10 million in deposits and a dedicated incident response network of security firms.",
+    "date": "2026-04-07",
+    "source_url": "https://www.coindesk.com/tech/2026/04/07/solana-foundation-unveils-security-overhaul-days-after-usd270-million-drift-exploit",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "SEC Sends Crypto Safe Harbor Proposal to White House Review, Signaling Imminent Publication",
+    "description": "The post SEC Sends Crypto Safe Harbor Proposal to White House Review, Signaling Imminent Publication appeared first on Unchained .",
+    "date": "2026-04-07",
+    "source_url": "https://unchainedcrypto.com/sec-sends-crypto-safe-harbor-proposal-to-white-house-review-signaling-imminent-publication/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Ethena Overhauls USDe Reserves With Institutional Lending and Real-World Assets",
+    "description": "The post Ethena Overhauls USDe Reserves With Institutional Lending and Real-World Assets appeared first on Unchained .",
+    "date": "2026-04-07",
+    "source_url": "https://unchainedcrypto.com/ethena-overhauls-usde-reserves-with-institutional-lending-and-real-world-assets/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Polymarket Announces Native Stablecoin and Rebuilt Exchange Stack in Major Platform Overhaul",
+    "description": "The post Polymarket Announces Native Stablecoin and Rebuilt Exchange Stack in Major Platform Overhaul appeared first on Unchained .",
+    "date": "2026-04-07",
+    "source_url": "https://unchainedcrypto.com/polymarket-announces-native-stablecoin-and-rebuilt-exchange-stack-in-major-platform-overhaul/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Chaos Labs Exits Aave Risk Management Role, Citing V4 Workload and Funding Gap",
+    "description": "The post Chaos Labs Exits Aave Risk Management Role, Citing V4 Workload and Funding Gap appeared first on Unchained .",
+    "date": "2026-04-07",
+    "source_url": "https://unchainedcrypto.com/chaos-labs-exits-aave-risk-management-role-citing-v4-workload-and-funding-gap/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bitcoin price-drop speculation spurred by familiar price pattern",
     "description": "BTC and ETH remain stuck in a two-month range as oil prices and Iran tensions weigh on sentiment, while AI and privacy tokens show surprising relative strength.",
     "date": "2026-04-07",
@@ -9470,125 +9579,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Ixopay and ZIP develop unified trust layer for agentic commerce",
-    "description": "IXOPAY, the enterprise-grade global payment infrastructure platform built for the era of agentic commerce, and Zip, (ASX: ZIP), the digital financial services company offering innovative, people-centred products, today announced a joint initiative to define a Unified Trust Layer — an open industry framework designed to address emerging trust and liability challenges in agent-initiated commerce and payments.",
-    "date": "2026-03-24",
-    "source_url": "https://www.finextra.com/pressarticle/109270/ixopay-and-zip-develop-unified-trust-layer-for-agentic-commerce",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Amex Ventures backs $30 million Series A in fintech Worth",
-    "description": "Worth, the fintech platform modernizing onboarding and underwriting Small and Medium-sized Businesses (SMB) for Financial Institutions, has successfully closed a $30 million Series A funding round led by Fulcrum Equity Partners, with participation from Amex Ventures and TTV Capital.",
-    "date": "2026-03-24",
-    "source_url": "https://www.finextra.com/pressarticle/109269/amex-ventures-backs-30-million-series-a-in-fintech-worth",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Securitize to become first ETF issuer on NYSE-affiliated tokenized securities platform",
-    "description": "The New York Stock Exchange (NYSE), part of Intercontinental Exchange, Inc. (NYSE: ICE), one of the world’s leading providers of financial market technology and data powering global capital markets, and Securitize, the world’s leader in tokenizing real-world assets, today announced a collaboration to support the development of tokenized securities markets, with Securitize named as the first digital transfer agent eligible to mint blockchain-native securities for corporate or ETF issuers on the upcoming NYSE-affiliated tokenized securities platform (the Digital Trading Platform).",
-    "date": "2026-03-24",
-    "source_url": "https://www.finextra.com/pressarticle/109268/securitize-to-become-first-etf-issuer-on-nyse-affiliated-tokenized-securities-platform",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Tokenization & Issuance",
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Worldpay joins the the European Payments Initiative",
-    "description": "Global Payments Inc. announced its Worldpay business has joined the European Payments Initiative (EPI) as a Principal Member, enabling clients to begin offering Wero – the pan-European instant payment solution – over the coming months.",
-    "date": "2026-03-24",
-    "source_url": "https://www.finextra.com/pressarticle/109267/worldpay-joins-the-the-european-payments-initiative",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "MoonPay debuts open source wall standard for AI agents",
-    "description": "MoonPay, the leading global crypto payments network, launched the Open Wallet Standard (openwallet.sh), an open-source standard that gives AI agents a secure, universal way to hold value, sign transactions, and pay for services across every major blockchain, without ever exposing a private key.",
-    "date": "2026-03-24",
-    "source_url": "https://www.finextra.com/pressarticle/109264/moonpay-debuts-open-source-wall-standard-for-ai-agents",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Starling appoints new chief risk officer",
-    "description": "Starling Group today named Keith Algie as its new Group Chief Risk Officer, subject to regulatory approval.",
-    "date": "2026-03-24",
-    "source_url": "https://www.finextra.com/pressarticle/109263/starling-appoints-new-chief-risk-officer",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
     ],
     "year": "2026"
   }
