@@ -1,6 +1,102 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Schwab says even a 1% crypto allocation can reshape portfolio risk",
+    "description": "The brokerage's research finds that even a tiny crypto allocation can dominate your portfolio's risk, suggesting that the \"right\" amount to own depends entirely on your stomach for 70% price swings.",
+    "date": "2026-04-07",
+    "source_url": "https://www.coindesk.com/business/2026/04/07/your-crypto-strategy-should-be-about-how-much-pain-you-can-handle-not-how-much-money-you-ll-make-schwab-finds",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Crypto's $224 million inflow rebound was led by mostly one country and XRP",
+    "description": "Switzerland accounted for 70% of global crypto ETP inflows last week with XRP products contributing more than half the total.",
+    "date": "2026-04-07",
+    "source_url": "https://www.coindesk.com/markets/2026/04/07/crypto-s-usd224-million-inflow-rebound-was-led-by-mostly-one-country-and-xrp",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "UnionPay launches Agentic Payment Open Protocol framework",
+    "description": "On April 2, a special taxi booking transaction was successfully completed in Hong Kong, China.",
+    "date": "2026-04-07",
+    "source_url": "https://www.finextra.com/pressarticle/109380/unionpay-launches-agentic-payment-open-protocol-framework",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "CME Group to offer 24/7 crypto derivatives trading May 29, adding Avalanche and Sui contracts",
+    "description": "The world's largest derivatives exchange is also expanding its crypto suite to include Avalanche (AVAX) and Sui (SUI) contracts.",
+    "date": "2026-04-07",
+    "source_url": "https://www.theblock.co/post/396534/cme-group-24-7-crypto-derivatives-trading-may-29-avalanche-sui-contracts",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Split Capital winds down as founder cites $100 billion crypto venture ‘last dance’, joins Plasma",
+    "description": "Split Capital returned outside capital as founder joins Plasma, calling crypto hedge funds \"broken\" after $100 billion in venture funding.",
+    "date": "2026-04-07",
+    "source_url": "https://www.theblock.co/post/396533/split-capital-winds-down-founder-100-billion-crypto-venture-last-dance-joins-plasma",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "CoinDesk 20 performance update: index drops 2.4% as all constituents trade lower",
     "description": "Aave (AAVE) dropped 8.5% and Avalanche (AVAX) fell 7.6%, leading the index lower from Monday.",
     "date": "2026-04-07",
@@ -9020,6 +9116,28 @@
     "year": "2026"
   },
   {
+    "institution": "Connecting the Dots",
+    "initiative": "Paysend Partners with BVNK to Expand Stablecoin Payments",
+    "description": "Hey Payments Fanatic! Paysend has partnered with BVNK to introduce stablecoin payments and settlement capabilities across its consumer and enterprise platforms. For Paysend, the partnership represents a strategic step toward expanding its digital payments ecosystem and reinforcing its position in the cross-border payments market. For BVNK, it is an indicator",
+    "date": "2026-03-24",
+    "source_url": "https://www.connectingthedotsinpayments.com/paysend-partners-with-bvnk-to-expand-stablecoin-payments/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Defining True ROI Will Decide The Winners and Losers of AI",
     "description": "In this Finextra TV interview from the Communify Intelligence Experience in Miami, Phil Drury, Chief Investment Officer at poolside explores the recent tech stock selloff and how the general investment into AI has unfolded. Drury explained how there has been as much indiscriminate buying as indiscriminate selling of stocks, making the ability to investigate the market sentiment more complicated. Drury discussed how the market needs to refine their thinking of around the winners and losers of AI, creating a less broadly optimistic view on the initial 'success-for-everyone' concept. He discussed the ability to quantify ROI, and how strong consideration of this in relation to strategy will be a transformative factor for customers, as well as engineering design and user experience.",
@@ -9460,124 +9578,6 @@
     "initiative_types": [
       "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "BitGo, Susquehanna Crypto offering institutional OTC access to prediction markets",
-    "description": "New partnership lets hedge funds and other large investors trade event contracts using crypto collateral held on BitGo’s platform.",
-    "date": "2026-03-24",
-    "source_url": "https://www.coindesk.com/business/2026/03/24/bitgo-susquehanna-crypto-offering-institutional-otc-access-to-prediction-markets",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin finds stability at 2023 investor cost basis, echoing past cycle",
-    "description": "Onchain cost basis data suggests $60,000 is a critical support, with deeper historical support near $54,000.",
-    "date": "2026-03-24",
-    "source_url": "https://www.coindesk.com/markets/2026/03/24/bitcoin-finds-stability-at-2023-investor-cost-basis-echoing-past-cycle",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Invesco joins tokenization race as it takes over Superstate’s $900 million onchain fund",
-    "description": "The $2.2 trillion asset manager is stepping into the rapidly-growing tokenized Treasury market, joining global financial behemoths like BlackRock and Franklin Templeton.",
-    "date": "2026-03-24",
-    "source_url": "https://www.coindesk.com/business/2026/03/24/invesco-joins-tokenization-race-as-it-takes-over-superstate-s-usd900-million-onchain-fund",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto-friendly fintech Revolut sees profit soar 57% to $2.3 billion in 2025",
-    "description": "The company's customer base grew to 68.3 million, with total balances up 66% to $67.5 billion and transaction volume reaching $1.7 trillion.",
-    "date": "2026-03-24",
-    "source_url": "https://www.coindesk.com/business/2026/03/24/crypto-friendly-fintech-revolut-sees-profit-soar-57-to-usd2-3-billion-in-2025",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin leads crypto rebound to $71,000 as $550 million in shorts liquidated",
-    "description": "BTC climbs despite escalating Middle East tensions, outperforming gold as altcoins rally and derivatives data signals cautious but improving market sentiment.",
-    "date": "2026-03-24",
-    "source_url": "https://www.coindesk.com/markets/2026/03/24/bitcoin-leads-crypto-rebound-to-usd71-000-as-usd550-million-in-shorts-liquidated",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Fund services giant Apex to tokenize Bitcoin mining note on Coinbase’s Base platform",
-    "description": "Apex will tokenize the Omnes Mining Note “OMN,” an institutional-grade structured note backed by Bitcoin hashrate.",
-    "date": "2026-03-24",
-    "source_url": "https://www.coindesk.com/business/2026/03/24/fund-services-giant-apex-to-tokenize-bitcoin-mining-note-on-coinbase-s-base-platform",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
