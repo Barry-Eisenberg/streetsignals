@@ -1,5 +1,77 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin pulls away from software stocks as Iran war, AI reshape market dynamic",
+    "description": "BTC correlation with an ETF tracking software comany stocks broke sharply from near-total alignment to near zero after the conflict started.",
+    "date": "2026-04-07",
+    "source_url": "https://www.coindesk.com/markets/2026/04/07/bitcoin-pulls-away-from-software-stocks-as-iran-war-ai-reshape-market-dynamic",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "9fin valued at $1.3 billion on $170 million raise",
+    "description": "9fin, the AI-native platform for global debt markets, has been crowned Europe's latest unicorn with a $170 million Series C funding round.",
+    "date": "2026-04-07",
+    "source_url": "https://www.finextra.com/newsarticle/47537/9fin-valued-at-13-billion-on-170-million-raise",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Broadridge extends governance platform to support digital assets",
+    "description": "Broadridge Financial Solutions Inc. (NYSE: BR) today announced the extension of its governance platform to support digital assets.",
+    "date": "2026-04-07",
+    "source_url": "https://www.finextra.com/pressarticle/109374/broadridge-extends-governance-platform-to-support-digital-assets",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "From FI to OTC: The Impact of APRA’s Phasing Out of Bank Hybrids",
+    "description": "In this Finextra TV interview from the Communify Intelligence Experience in Miami, Patrick Salis, CEO, AUSIEX explores the phasing out of bank hybrids in Australia and how this impacts investors. Salis explains that bank hybrids were a desirable way to transfer retirement income and when the APRA decided to discontinue this, it had a huge impact on the market with many consequences to follow. The discussion follows on to discuss less risky options, particularly fixed-income bonds. He explores which options allow clients to be actively engaged with their portfolio and investments, seeking to better educate an audience on how to confidently manage their assets into retirement age.",
+    "date": "2026-04-07",
+    "source_url": "https://www.finextra.com/videoarticle/3479/from-fi-to-otc-the-impact-of-apras-phasing-out-of-bank-hybrids",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Gabriel Makhlouf: Bridge to the future - mobilising Europe's savings in a fragmenting world",
     "description": "Speech (virtually) by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at the 2026 Eurofi High Level Seminar, Nicosia, 27 March 2026.",
@@ -9512,81 +9584,6 @@
     ],
     "initiative_types": [
       "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Circle falls 20% as stablecoin reward limits loom, Tether adds Big Four auditor and wallets frozen",
-    "description": "The USDC stablecoin issuer faced headwinds on Tuesday amid developing stablecon legislation that could dent future revenue.",
-    "date": "2026-03-24",
-    "source_url": "https://www.theblock.co/post/394918/circle-falls-20-stablecoin-reward-limits-tether-big-four-auditor-wallets-frozen",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Ledger discloses $50 million Q4 secondary sale as IPO plans remain open",
-    "description": "The transaction comes years after Ledger’s last primary raise, which valued the company at $1.5 billion in 2023.",
-    "date": "2026-03-24",
-    "source_url": "https://www.theblock.co/post/394919/ledger-discloses-50-million-q4-secondary-sale-ipo-plans-open",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Hut 8 leans into modular ‘LEGO block’ model to switch between AI and bitcoin mining",
-    "description": "Hut 8 is trying to position itself less as a miner and more as an energy infrastructure player, with power allocation driving returns.",
-    "date": "2026-03-24",
-    "source_url": "https://www.theblock.co/post/394897/hut-8-modular-lego-block-model-switch-between-ai-bitcoin-mining",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "CFTC forms new innovation task force to shape crypto, artificial intelligence and prediction markets",
-    "description": "The CFTC launched a new task force focused on cryptocurrencies, artificial intelligence, and the rapidly emerging area of prediction markets.",
-    "date": "2026-03-24",
-    "source_url": "https://www.theblock.co/post/394910/cftc-innovation-task-force-crypto-artificial-intelligence-prediction-markets",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
