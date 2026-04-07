@@ -1,6 +1,45 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bitcoin rises past $69,000 as risk markets reverse big early losses on hope for Iran deal",
+    "description": "Iran's government is reportedly reviewing Pakistan's request for a two-week ceasefire positively, according to an Axios report.",
+    "date": "2026-04-07",
+    "source_url": "https://www.coindesk.com/markets/2026/04/07/bitcoin-rises-past-usd69-000-as-risk-markets-reverse-big-early-losses-on-hope-for-iran-deal",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "FDIC proposes ruleset for stablecoin issuers following GENIUS enactment",
+    "description": "The FDIC proposed a rule to establish a regulatory framework for stablecoin issuers and is seeking public input.",
+    "date": "2026-04-07",
+    "source_url": "https://www.theblock.co/post/396588/fdic-proposes-ruleset-stablecoin-issuers-following-genius-enactment",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Stablecoin issuers get closer to U.S. federal rules with FDIC's new proposal",
     "description": "The Federal Deposit Insurance Corp. approved a proposed rule to govern the issuers, even as the Senate continues to debate GENIUS Act details.",
     "date": "2026-04-07",
@@ -9536,45 +9575,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin jolted modestly higher on Iran ceasefire report; oil tumbles 4%",
-    "description": "An Israeli TV report said a one-month ceasefire could be announced soon.",
-    "date": "2026-03-24",
-    "source_url": "https://www.coindesk.com/markets/2026/03/24/bitcoin-jolted-modestly-higher-on-iran-ceasefire-report-oil-tumbles-4",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "BlackRock sees AI driving crypto’s next bull phase as altcoin interest fades",
-    "description": "The asset management giant's Robbie Mitchnic said clients are focused on bitcoin, ether and only a few other tokens, and aren't looking for broad exposure. Rather, they see opportunity for crypto in artificial intelligence.",
-    "date": "2026-03-24",
-    "source_url": "https://www.coindesk.com/business/2026/03/24/blackrock-flags-ai-as-crypto-s-next-big-use-case-not-token-boom",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
