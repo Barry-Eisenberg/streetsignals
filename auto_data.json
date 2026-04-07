@@ -1,5 +1,24 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Charles Schwab examines crypto investing approaches, says even small exposure can raise risk",
+    "description": "Brokerage Charles Schwab said there is no \"correct\" allocation to crypto, and the decision depends on each investor.",
+    "date": "2026-04-07",
+    "source_url": "https://www.theblock.co/post/396574/charles-schwab-crypto-investing-approaches-risk",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "‘Don’t waste time with crypto': Here is what Solana Foundation's cryptic message really means",
     "description": "The foundation says it is becoming a leading network for “agentic payments.”",
@@ -9559,26 +9578,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto finance is beginning to look at lot more traditional, Aave and Ethena founders say",
-    "description": "Until recently, crypto users mostly traded tokens or borrowed against them, often chasing high, but unpredictable yields. New tools allow them to lock in returns, even in a market known for big swings.",
-    "date": "2026-03-24",
-    "source_url": "https://www.coindesk.com/business/2026/03/24/crypto-finance-is-beginning-to-look-at-lot-more-traditional-aave-and-ethena-founders-say",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
