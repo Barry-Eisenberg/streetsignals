@@ -1,6 +1,26 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "How North Korea's 6-month long secret espionage program has crypto community rethinking security",
+    "description": "For years, the DeFi industry has treated security as a technical problem: something that could be solved with better code. But the Drift incident suggests something far more complex: that the real vulnerabilities may lie outside the codebase altogether.",
+    "date": "2026-04-07",
+    "source_url": "https://www.coindesk.com/tech/2026/04/07/how-north-korea-s-6-month-long-secret-espionage-program-has-crypto-community-rethinking-security",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Why Michael Saylor's bitcoin buys aren’t moving the needle anymore",
     "description": "Despite billions in purchases, MSTR demand is being outweighed by long term holder positioning and broader capital flows.",
     "date": "2026-04-07",
@@ -9561,25 +9581,6 @@
       "Collateral & Lending"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Venmo lets users send money to PayPal accounts around the world",
-    "description": "Users of US P2P payments app Venmo can now send and receive money to and from hundreds of millions of PayPal users across 90 markets.",
-    "date": "2026-03-24",
-    "source_url": "https://www.finextra.com/newsarticle/47479/venmo-lets-users-send-money-to-paypal-accounts-around-the-world",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
