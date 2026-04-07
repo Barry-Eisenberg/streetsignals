@@ -1,6 +1,60 @@
 [
   {
     "institution": "BIS",
+    "initiative": "Gabriel Makhlouf: Bridge to the future - mobilising Europe's savings in a fragmenting world",
+    "description": "Speech (virtually) by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at the 2026 Eurofi High Level Seminar, Nicosia, 27 March 2026.",
+    "date": "2026-04-07",
+    "source_url": "https://www.bis.org/review/r260330b.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Chainalysis unveils AI agents to fight on-chain crime",
+    "description": "Chainalysis unveils AI-powered blockchain intelligence agents to help investigators combat rising AI-driven crypto crime by leveraging vast data insights. The post Chainalysis unveils AI agents to fight on-chain crime appeared first on CoinGeek .",
+    "date": "2026-04-07",
+    "source_url": "https://coingeek.com/chainalysis-unveils-ai-agents-to-fight-on-chain-crime/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "CommBank mobile app to scan password chip for fast account onboarding",
+    "description": "Commonwealth Bank of Australia is to use the encrypted chip in passports to verify the identity of people applying for a bank account, eliminating the need to scan and approve multiple documents for verification.",
+    "date": "2026-04-07",
+    "source_url": "https://www.finextra.com/newsarticle/47536/commbank-mobile-app-to-scan-password-chip-for-fast-account-onboarding",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
     "initiative": "Soledad Núñez: Climate risk and sustainable finance - bridging policy, research and practice",
     "description": "Speech by Ms Soledad Núñez, Deputy Governor of the Bank of Spain, at the High-Level Conference \"Climate risk and sustainable finance: bridging policy, research and practice\", jointly organised with the Network for Greening the Financial System (NGFS), the Centre for Economic Transition Expertise (CETEx), and the TPI Global Climate Transition Centre, both at London School of Economics, Madrid, 25 March 2026.",
     "date": "2026-04-07",
@@ -9529,61 +9583,6 @@
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Silo V3 launches new liquidation mechanism opening door to new forms of crypto collateral",
-    "description": "Silo V3, unveiled Tuesday, adds a protocol-level insolvency protection mechanism to reduce the dependency on DEX liquidity.",
-    "date": "2026-03-24",
-    "source_url": "https://www.theblock.co/post/394810/silo-v3-launches-new-liquidation-mechanism-opening-door-to-new-forms-of-crypto-collateral",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Longevity pharma and RAIN treasury Enlivex secures $21 million debt financing",
-    "description": "The company struck the financing deal with New York-based The Lind Partners, an institutional fund manager.",
-    "date": "2026-03-24",
-    "source_url": "https://www.theblock.co/post/394893/longevity-pharma-and-rain-treasury-enlivex-secures-21-million-debt-financing",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bernstein says bitcoin looks bottomed, sees 226% upside for Strategy",
-    "description": "Bernstein said Strategy could see 226% upside if bitcoin has bottomed, with STRC central to its capital model.",
-    "date": "2026-03-24",
-    "source_url": "https://www.theblock.co/post/394878/bernstein-says-bitcoin-looks-bottomed-sees-226-upside-for-strategy",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
     ],
