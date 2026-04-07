@@ -1,5 +1,25 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Spot bitcoin ETFs report largest single-day inflow in six weeks, worth $471 million",
+    "description": "The return in inflows reflects renewed confidence among institutional participants in the crypto market, analysts said.",
+    "date": "2026-04-07",
+    "source_url": "https://www.theblock.co/post/396499/bitcoin-etfs-largest-day-inflow-six-weeks",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Bitcoin ETF inflows hit highest level since February",
     "description": "Spot bitcoin ETFs pulled in $471 million on April 6, the 6th-largest inflow of 2026, as prediction markets price little near-term Fed movement.",
@@ -9584,25 +9604,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Resolv issues 72-hour ultimatum to exploiter for 90% return of $25 million in funds",
-    "description": "Resolv Labs gave the exploiter 72 hours to return 90% of $25 million in stolen funds, offering a 10% settlement bonus.",
-    "date": "2026-03-24",
-    "source_url": "https://www.theblock.co/post/394838/resolv-issues-72-hour-ultimatum-to-exploiter-for-90-return-of-25-million-in-funds",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Settlement & Clearing"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
