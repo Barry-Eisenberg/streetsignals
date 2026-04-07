@@ -1,6 +1,64 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bitcoin miners face a new rival for cheap power as Anthropic signs multi-gigawatt compute deal",
+    "description": "The AI company's partnership with Google and Broadcom for next-generation TPU capacity starting in 2027 adds to a wave of demand reshaping the economics of every industry that competes for cheap electricity, including bitcoin mining.",
+    "date": "2026-04-07",
+    "source_url": "https://www.coindesk.com/tech/2026/04/07/bitcoin-miners-face-a-new-rival-for-cheap-power-as-anthropic-signs-multi-gigawatt-compute-deal",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin, ether, solana hold steady as Trump sets Tuesday night deadline for Iran deal",
+    "description": "Oil jumped above $112 on threats to destroy Iranian infrastructure if no agreement is reached by midnight, while crypto markets gave back Monday's ceasefire rally gains.",
+    "date": "2026-04-07",
+    "source_url": "https://www.coindesk.com/markets/2026/04/07/bitcoin-ether-solana-hold-steady-as-trump-sets-tuesday-night-deadline-for-iran-deal",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Rwanda to phase out ID cards, embrace digital ID by 2027",
+    "description": "Rwanda plans to phase out national ID cards by June 2027, introducing the Single Digital ID for improved access to public services and data security. The post Rwanda to phase out ID cards, embrace digital ID by 2027 appeared first on CoinGeek .",
+    "date": "2026-04-07",
+    "source_url": "https://coingeek.com/rwanda-to-phase-out-id-cards-embrace-digital-id-by-2027/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "SEC close to putting out 'reg crypto' for fundraising questions, Chair Atkins says",
     "description": "The Securities and Exchange Commission will address fundraising and startup exemptions in this proposal, Paul Atkins told a crowd Monday.",
     "date": "2026-04-07",
@@ -9542,59 +9600,6 @@
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Tiff Macklem: Release of the Monetary Policy Report",
-    "description": "Opening statement by Mr Tiff Macklem, Governor of the Bank of Canada and Ms Carolyn Rogers, Senior Deputy Governor of the Bank of Canada, at the press conference following the monetary policy decision, Ottawa, Ontario, 18 March 2026.",
-    "date": "2026-03-23",
-    "source_url": "https://www.bis.org/review/r260323b.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Primo&#382; Dolenc: Opening address - \"Stablecoins and their impact on financial stability\"",
-    "description": "Opening address by Mr Primo&#382; Dolenc, Acting Governor of Banka Slovenije, at the event \"Stablecoins and their impact on financial stability\", Split, 26 February 2026.",
-    "date": "2026-03-23",
-    "source_url": "https://www.bis.org/review/r260319e.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Kevin Greenidge: Shared seas, shared struggles - a Caribbean perspective on the challenges facing small island developing states",
-    "description": "Speech by Dr Kevin Greenidge, Governor of the Central Bank of Barbados, at the IMF Pacific Island High-Level Conference, Bridgetown, 12 March 2026.",
-    "date": "2026-03-23",
-    "source_url": "https://www.bis.org/review/r260319c.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Interoperability & Standards"
     ],
     "initiative_types": [],
     "year": "2026"
