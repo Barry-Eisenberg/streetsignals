@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Coinbase wins conditional approval for national trust bank charter",
+    "description": "Coinbase is the latest digital asset firm to receive conditional approval from US regulators for a national trust bank charter.",
+    "date": "2026-04-07",
+    "source_url": "https://www.finextra.com/newsarticle/47534/coinbase-wins-conditional-approval-for-national-trust-bank-charter",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "SEC crypto safe harbor heads to White House review, proposal due ‘shortly’ says Atkins",
     "description": "A proposed safe harbor framework to allow crypto projects to launch without needing to register right away is now in the White House's hands.",
@@ -9577,25 +9596,6 @@
       "Data & Reporting"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Bitcoin Miners Are Choosing AI Over Mining — and the Network Is Feeling It",
-    "description": "The post Bitcoin Miners Are Choosing AI Over Mining — and the Network Is Feeling It appeared first on Unchained .",
-    "date": "2026-03-23",
-    "source_url": "https://unchainedcrypto.com/bitcoin-miners-are-choosing-ai-over-mining-and-the-network-is-feeling-it/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
