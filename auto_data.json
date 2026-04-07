@@ -8760,6 +8760,25 @@
   },
   {
     "institution": "Finextra",
+    "initiative": "Defining True ROI Will Decide The Winners and Losers of AI",
+    "description": "In this Finextra TV interview from the Communify Intelligence Experience in Miami, Phil Drury, Chief Investment Officer at poolside explores the recent tech stock selloff and how the general investment into AI has unfolded. Drury explained how there has been as much indiscriminate buying as indiscriminate selling of stocks, making the ability to investigate the market sentiment more complicated. Drury discussed how the market needs to refine their thinking of around the winners and losers of AI, creating a less broadly optimistic view on the initial 'success-for-everyone' concept. He discussed the ability to quantify ROI, and how strong consideration of this in relation to strategy will be a transformative factor for customers, as well as engineering design and user experience.",
+    "date": "2026-03-24",
+    "source_url": "https://www.finextra.com/videoarticle/3461/defining-true-roi-will-decide-the-winners-and-losers-of-ai",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
     "initiative": "Prediction Market Platform Development in 2026: Companies, Costs, Timeline and Key Features",
     "description": "Prediction markets are no longer niche experiments confined to academic circles or crypto communitie...",
     "date": "2026-03-24",
@@ -9571,23 +9590,6 @@
     "initiative_types": [
       "Leadership & Governance"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Saviynt unveils identity control panel for AI agents",
-    "description": "Saviynt, the AI-era identity security platform, today announced the release of its Saviynt Identity Security for AI solution, establishing enterprise-grade capabilities to fully manage AI agents alongside all other human and non-human identities (NHIs).",
-    "date": "2026-03-24",
-    "source_url": "https://www.finextra.com/pressarticle/109261/saviynt-unveils-identity-control-panel-for-ai-agents",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
