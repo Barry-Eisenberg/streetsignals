@@ -1,6 +1,253 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Morgan Stanley's bitcoin ETF opens today, giving BlackRock’s $55 billion IBIT fund its toughest rival yet",
+    "description": "While BlackRock’s spot bitcoin ETF currently reigns as the liquidity king of crypto, Morgan Stanley’s MSBT will leverage a market-low 0.14% fee and $7 trillion wealth management engine to possibly challenge that dominance.",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/markets/2026/04/07/blackrock-s-usd55-billion-ibit-fund-faces-its-toughest-rival-yet-in-morgan-stanley-s-massive-advisor-network",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Iran eyes crypto toll for oil tanker transits through Strait of Hormuz, according to FT",
+    "description": "Iran plans to collect cryptocurrency and other digital payments as transit fees from fully loaded oil tankers passing through the Strait of Hormuz, said the report.",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/markets/2026/04/08/iran-eyes-crypto-toll-for-oil-tanker-transit-through-strait-of-hormuz",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "CoinDesk 20 performance update: Internet Computer (ICP) rises 12.1%",
+    "description": "NEAR Protocol (NEAR) joined Internet Computer (ICP) as a top performer, climbing 8.9% from Tuesday.",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/08/coindesk-20-performance-update-internet-computer-icp-rises-12-1",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin’s quantum threat is distant, but migration clock is ticking, says Adam Back",
+    "description": "Researchers are advancing post-quantum protections even as current hardware remains far from breaking crypto systems",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/tech/2026/04/08/bitcoin-s-quantum-threat-is-distant-but-migration-clock-is-ticking-says-adam-back-says",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Citing AI, Bolt lays off third of staff",
+    "description": "Bolt, the online checkout company that was once valued at $11 billion, has slashed its workforce by a third amid a greater reliance on AI and reports of financial struggles.",
+    "date": "2026-04-08",
+    "source_url": "https://www.finextra.com/newsarticle/47547/citing-ai-bolt-lays-off-third-of-staff",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "MillTech secures $60 million for expansion into the US market",
+    "description": "MillTech, a UK-based risk management platform which provides FX hedging and cash investments for fund managers and corporates, has secured a $60 million minority investment from the Apax Digital Funds.",
+    "date": "2026-04-08",
+    "source_url": "https://www.finextra.com/newsarticle/47543/milltech-secures-60-million-for-expansion-into-the-us-market",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "TNS Financial Markets and Radianz combine to form Waypoint Trading Solutions",
+    "description": "Today marks the official launch of Waypoint Trading Solutions, the new business formed from the combination of TNS’ Financial Markets business and Radianz.",
+    "date": "2026-04-08",
+    "source_url": "https://www.finextra.com/pressarticle/109393/tns-financial-markets-and-radianz-combine-to-form-waypoint-trading-solutions",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Helaba goes live with Murex for collateral management",
+    "description": "Helaba has gone live on the MX.3 for Collateral Management solution from Murex.",
+    "date": "2026-04-08",
+    "source_url": "https://www.finextra.com/pressarticle/109392/helaba-goes-live-with-murex-for-collateral-management",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Workplace pensions startup Compound raises £500K",
+    "description": "Compound, a next-generation workplace pension provider for growing businesses, has raised £500,000 to take on legacy giants like NEST and transform a market where 96% of employers report problems with their provider.",
+    "date": "2026-04-08",
+    "source_url": "https://www.finextra.com/pressarticle/109391/workplace-pensions-startup-compound-raises-500k",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Morgan Stanley’s low-cost spot Bitcoin ETF launches to meet ‘growing client interest’ in crypto",
+    "description": "The bank boasts \"the largest network of financial advisors [with] 16,000 advisors managing $6.2 trillion\" according to an analyst.",
+    "date": "2026-04-08",
+    "source_url": "https://www.theblock.co/post/396699/morgan-stanleys-low-cost-spot-bitcoin-etf-launches-to-meet-growing-client-interest-in-crypto",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Standard Chartered weighs integrating Zodia Custody with corporate bank arm: Bloomberg",
+    "description": "Standard Chartered reportedly plans to integrate Zodia Custody's crypto custody business into its corporate bank division",
+    "date": "2026-04-08",
+    "source_url": "https://www.theblock.co/post/396692/standard-chartered-weighs-integrating-zodia-custody-corporate-bank-arm-bloomberg",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Collateral & Lending",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Securitize tapped to tokenize Currenc’s ordinary shares",
+    "description": "Leading tokenization firm Securitize was recently named as the first digital transfer agent in the NYSE’s onchain securities initiative.",
+    "date": "2026-04-08",
+    "source_url": "https://www.theblock.co/post/396683/securitize-tapped-to-tokenize-currencs-ordinary-shares",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "White House study finds limited risk to banks from stablecoin yields amid regulatory debate",
+    "description": "White House economists say stablecoin rewards are unlikely to materially weaken bank lending, countering warnings of trillion-dollar outflows.",
+    "date": "2026-04-08",
+    "source_url": "https://www.theblock.co/post/396680/white-house-study-finds-limited-risk-to-banks-from-stablecoin-yields-amid-regulatory-debate",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Move over bitcoin and quantum risks. Anthropic's Mythos AI could have major implications for DeFi",
     "description": "Claude Mythos Preview identified thousands of zero-day vulnerabilities across every major operating system and browser, including in cryptography libraries that DeFi infrastructure depends on.",
     "date": "2026-04-08",
@@ -9348,258 +9595,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "Chainalysis Extends Sui Support with Automatic Token Support",
-    "description": "Chainalysis is excited to announce extended support for Sui, an emerging high-performance blockchain that has rapidly grown its ecosystem since&#8230; The post Chainalysis Extends Sui Support with Automatic Token Support appeared first on Chainalysis .",
-    "date": "2026-03-26",
-    "source_url": "https://www.chainalysis.com/blog/sui-automatic-token-support-march-2026/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "UK Government Designates Xinbi, Key Node in Chinese-Language Crypto-Enabled Scam Infrastructure",
-    "description": "TL;DR The UK’s Foreign, Commonwealth and Development Office (FCDO) has designated Xinbi, a major Chinese-language illicit guarantee marketplace. The designation&#8230; The post UK Government Designates Xinbi, Key Node in Chinese-Language Crypto-Enabled Scam Infrastructure appeared first on Chainalysis .",
-    "date": "2026-03-26",
-    "source_url": "https://www.chainalysis.com/blog/xinbi-designation-chinese-language-crypto-scam-infrastructure/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto edges off of worst levels after Trump extends Iran strike pause",
-    "description": "It was an ugly day all around in markets as the Iran war has sent oil prices and bond yields surging higher.",
-    "date": "2026-03-26",
-    "source_url": "https://www.coindesk.com/markets/2026/03/26/crypto-edges-off-of-worst-levels-after-trump-extends-iran-strike-pause",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "GameStop turned its $368 million bitcoin stash into an options income play",
-    "description": "The video retailer sparked speculations of selling bitcoin after it transferred nearly all its coins to Coinbase Prime in January.",
-    "date": "2026-03-26",
-    "source_url": "https://www.coindesk.com/business/2026/03/26/gamestop-turned-its-usd368-million-bitcoin-stash-into-an-options-income-play",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "OKX won’t rush IPO as exec warns poor listings hurt crypto industry",
-    "description": "OKX aims to deliver consistent shareholder returns, even after a $25 billion valuation tied to its deal with Intercontinental Exchange, the parent company of the New York Stock Exchange.",
-    "date": "2026-03-26",
-    "source_url": "https://www.coindesk.com/business/2026/03/26/okx-says-it-won-t-go-public-until-it-can-deliver-returns-to-investors",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Strategy’s 11.5% dividend equity bounces back faster than historical average to unlock more bitcoin buying",
-    "description": "Preferred shares recovered in nine days after their ex-dividend drop, enabling further bitcoin accumulation.",
-    "date": "2026-03-26",
-    "source_url": "https://www.coindesk.com/markets/2026/03/26/strategy-s-11-5-dividend-equity-bounces-back-faster-than-hostorical-average-to-unlock-more-bitcoin-buying",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Why big banks are snubbing open ledgers to build their own private blockchains",
-    "description": "DRW founder Don Wilson says public blockchains conflict with how institutions trade and manage risk, limiting adoption.",
-    "date": "2026-03-26",
-    "source_url": "https://www.coindesk.com/business/2026/03/26/why-big-banks-are-snubbing-open-ledgers-to-build-their-own-private-blockchains",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin slips below $69,000 as oil rebounds on fading Middle East peace hopes",
-    "description": "Crypto prices and risk assets remain at the mercy of macro headlines for now, one analyst said.",
-    "date": "2026-03-26",
-    "source_url": "https://www.coindesk.com/markets/2026/03/26/bitcoin-slips-below-usd69-000-as-oil-rebounds-on-fading-middle-east-peace-hopes",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin holds ground as gold, silver slide on ETF outflows and liquidity strains: JPMorgan",
-    "description": "The bank said institutional unwinding and weakening liquidity have hit precious metals, while bitcoin shows steadier flows and improving momentum amid geopolitical stress.",
-    "date": "2026-03-26",
-    "source_url": "https://www.coindesk.com/markets/2026/03/26/bitcoin-holds-ground-as-gold-silver-slide-on-etf-outflows-and-liquidity-strains-jpmorgan",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "The NYSE wants to bring blockchain to Wall Street without breaking the existing system",
-    "description": "The exchange's chief of product development, Jon Herrick, said blockchain technology will be layered into current systems rather than replace them.",
-    "date": "2026-03-26",
-    "source_url": "https://www.coindesk.com/markets/2026/03/26/the-nyse-wants-to-bring-blockchain-to-wall-street-without-breaking-the-current-system",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "As crypto firms replace staff with AI, how can you keep your job?",
-    "description": "AI is reshaping crypto payrolls as companies explore cutting headcount, using automation to replace human roles, and reducing workforce costs. The post As crypto firms replace staff with AI, how can you keep your job? appeared first on CoinGeek .",
-    "date": "2026-03-26",
-    "source_url": "https://coingeek.com/as-crypto-firms-replace-staff-with-ai-how-can-you-keep-your-job/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Stripe Brings a New Checkout Experience for Facebook",
-    "description": "Hey Payments Fanatic! Stripe is taking another big step toward embedding payments right where discovery happens. The programmable financial services company announced a new integration with Meta that brings one-click checkout directly to Facebook ads, powered by its Agentic Commerce Suite. Businesses can activate this feature from the Stripe Dashboard",
-    "date": "2026-03-26",
-    "source_url": "https://www.connectingthedotsinpayments.com/stripe-brings-a-new-checkout-experience-for-facebook/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Mastercard bids to offload Nets payments unit bought for $3.2bn - FT",
-    "description": "Mastercard is trying to find a buyer for the real-time payments business it acquired for $3.2 billion from Danish outfit Nets in 2019, according to the Financial Times.",
-    "date": "2026-03-26",
-    "source_url": "https://www.finextra.com/newsarticle/47500/mastercard-bids-to-offload-nets-payments-unit-bought-for-32bn---ft",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
