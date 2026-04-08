@@ -1,5 +1,66 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "XRP zooms 5% on bitcoin strength, but trend reversal still unconfirmed",
+    "description": "Breakout backed by institutional flows and whale buying, though broader downtrend and weak ETF demand cap conviction.",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/markets/2026/04/08/xrp-zooms-5-on-bitcoin-strength-but-trend-reversal-still-unconfirmed",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin, ether, oil shorts lead $427 million wipeout on US-Iran ceasefire",
+    "description": "Short sellers betting on continued war escalation lost $427 million in 24 hours as bitcoin vaulted past $72,000 on the ceasefire announcement.",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/markets/2026/04/08/bitcoin-ether-oil-shorts-lead-usd427-million-wipeout-on-us-iran-ceasefire",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Stablecoin liquidity: How Coins.ph is redefining corporate treasury for 24/7 markets",
+    "description": "Coins.ph is revolutionizing corporate treasury with stablecoin liquidity, enabling 24/7 access, instant settlements, and competitive pricing for businesses. The post Stablecoin liquidity: How Coins.ph is redefining corporate treasury for 24/7 markets appeared first on CoinGeek .",
+    "date": "2026-04-08",
+    "source_url": "https://coingeek.com/stablecoin-liquidity-how-coins-ph-is-redefining-corporate-treasury-for-24-7-markets/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DeFi",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Connecting the Dots",
     "initiative": "Yuno Is Bringing Autonomous AI Into Payment Operations",
     "description": "Hey Payments Fanatic! Payment teams usually find problems after revenue is already gone. Yuno&apos;s most recent product announcement, Payments Concierge, points to a better model: AI that watches routing, approval rates, and provider failures in real time, then acts before the damage compounds. &#x201C;This is what agentic",
@@ -9517,66 +9578,6 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "Chainalysis Joins Solana Developer Platform to Bring Real-Time Compliance to Every Builder",
-    "description": "Chainalysis is proud to be a compliance partner for Solana Developer Platform (SDP), integrating Chainalysis KYT (Know Your Transaction) directly&#8230; The post Chainalysis Joins Solana Developer Platform to Bring Real-Time Compliance to Every Builder appeared first on Chainalysis .",
-    "date": "2026-03-24",
-    "source_url": "https://www.chainalysis.com/blog/solana-developer-platform-real-time-compliance/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Paysend Partners with BVNK to Expand Stablecoin Payments",
-    "description": "Hey Payments Fanatic! Paysend has partnered with BVNK to introduce stablecoin payments and settlement capabilities across its consumer and enterprise platforms. For Paysend, the partnership represents a strategic step toward expanding its digital payments ecosystem and reinforcing its position in the cross-border payments market. For BVNK, it is an indicator",
-    "date": "2026-03-24",
-    "source_url": "https://www.connectingthedotsinpayments.com/paysend-partners-with-bvnk-to-expand-stablecoin-payments/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Defining True ROI Will Decide The Winners and Losers of AI",
-    "description": "In this Finextra TV interview from the Communify Intelligence Experience in Miami, Phil Drury, Chief Investment Officer at poolside explores the recent tech stock selloff and how the general investment into AI has unfolded. Drury explained how there has been as much indiscriminate buying as indiscriminate selling of stocks, making the ability to investigate the market sentiment more complicated. Drury discussed how the market needs to refine their thinking of around the winners and losers of AI, creating a less broadly optimistic view on the initial 'success-for-everyone' concept. He discussed the ability to quantify ROI, and how strong consideration of this in relation to strategy will be a transformative factor for customers, as well as engineering design and user experience.",
-    "date": "2026-03-24",
-    "source_url": "https://www.finextra.com/videoarticle/3461/defining-true-roi-will-decide-the-winners-and-losers-of-ai",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi"
     ],
     "year": "2026"
   }
