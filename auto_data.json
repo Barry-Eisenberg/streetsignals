@@ -39,6 +39,25 @@
     "year": "2026"
   },
   {
+    "institution": "The Block",
+    "initiative": "Bitcoin jumps on US-Iran ceasefire talks, long-term rally remains uncertain: analyst",
+    "description": "One analyst noted that a full resolution is needed for the current upward momentum to be translated into a long-term bull cycle.",
+    "date": "2026-04-07",
+    "source_url": "https://www.theblock.co/post/396607/bitcoin-jumps-us-iran-ceasefire",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Bitcoin vaults past $72,000 as U.S. stock futures surge on a two‑week U.S.–Iran ceasefire",
     "description": "Risk assets rose late Tuesday as oil collapsed after Trump and Iran confirmed the two-week ceasefire.",
@@ -9483,6 +9502,66 @@
     "year": "2026"
   },
   {
+    "institution": "BIS",
+    "initiative": "Basel III liquidity indicators increase slightly while risk-based capital and leverage ratios are stable for large internationally active banks, latest Basel III monitoring exercise shows",
+    "description": "Banks' liquidity ratios increased slightly while Basel III risk-based capital and leverage ratios are stable in the first half of 2025. The average impact of the Basel III framework on the Tier 1 minimum required capital (MRC) of Group 1 banks decreased, driven by implementation progress. The newly expanded cryptoasset exposures dashboard shows how banks are classifying their cryptoasset exposures.",
+    "date": "2026-03-24",
+    "source_url": "https://www.bis.org/press/p260324.htm",
+    "category": "regulators",
+    "source_name": "BIS — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "FSB",
+    "initiative": "Promoting Global Financial Stability: 2025 FSB Annual Report",
+    "description": "Against a backdrop of rising vulnerabilities, in 2025 the FSB delivered work in key areas such as NBFI leverage, crypto-assets and stablecoins, operational resilience and enhanced cross-border payments.",
+    "date": "2026-03-24",
+    "source_url": "https://www.fsb.org/2026/03/promoting-global-financial-stability-2025-fsb-annual-report/",
+    "category": "regulators",
+    "source_name": "FSB — Publications",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "FSB",
+    "initiative": "FSB publishes 2025 Annual Report",
+    "description": "In presenting the Report, FSB Chair Andrew Bailey reflects on current challenges to multilateralism and how the FSB will remain fit for purpose.",
+    "date": "2026-03-24",
+    "source_url": "https://www.fsb.org/2026/03/fsb-publishes-2025-annual-report/",
+    "category": "regulators",
+    "source_name": "FSB — Publications",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "FSB",
     "initiative": "FSB Chair’s foreword to the FSB Annual Report 2025",
     "description": "In presenting the Report, FSB Chair Andrew Bailey reflects on current challenges to multilateralism and how the FSB will remain fit for purpose.",
@@ -9497,85 +9576,6 @@
       "Collateral & Lending"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "Chainalysis Joins Solana Developer Platform to Bring Real-Time Compliance to Every Builder",
-    "description": "Chainalysis is proud to be a compliance partner for Solana Developer Platform (SDP), integrating Chainalysis KYT (Know Your Transaction) directly&#8230; The post Chainalysis Joins Solana Developer Platform to Bring Real-Time Compliance to Every Builder appeared first on Chainalysis .",
-    "date": "2026-03-24",
-    "source_url": "https://www.chainalysis.com/blog/solana-developer-platform-real-time-compliance/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Paysend Partners with BVNK to Expand Stablecoin Payments",
-    "description": "Hey Payments Fanatic! Paysend has partnered with BVNK to introduce stablecoin payments and settlement capabilities across its consumer and enterprise platforms. For Paysend, the partnership represents a strategic step toward expanding its digital payments ecosystem and reinforcing its position in the cross-border payments market. For BVNK, it is an indicator",
-    "date": "2026-03-24",
-    "source_url": "https://www.connectingthedotsinpayments.com/paysend-partners-with-bvnk-to-expand-stablecoin-payments/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Defining True ROI Will Decide The Winners and Losers of AI",
-    "description": "In this Finextra TV interview from the Communify Intelligence Experience in Miami, Phil Drury, Chief Investment Officer at poolside explores the recent tech stock selloff and how the general investment into AI has unfolded. Drury explained how there has been as much indiscriminate buying as indiscriminate selling of stocks, making the ability to investigate the market sentiment more complicated. Drury discussed how the market needs to refine their thinking of around the winners and losers of AI, creating a less broadly optimistic view on the initial 'success-for-everyone' concept. He discussed the ability to quantify ROI, and how strong consideration of this in relation to strategy will be a transformative factor for customers, as well as engineering design and user experience.",
-    "date": "2026-03-24",
-    "source_url": "https://www.finextra.com/videoarticle/3461/defining-true-roi-will-decide-the-winners-and-losers-of-ai",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Prediction Market Platform Development in 2026: Companies, Costs, Timeline and Key Features",
-    "description": "Prediction markets are no longer niche experiments confined to academic circles or crypto communitie...",
-    "date": "2026-03-24",
-    "source_url": "https://www.finextra.com/blogposting/31228/prediction-market-platform-development-in-2026-companies-costs-timeline-and-key-features",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
