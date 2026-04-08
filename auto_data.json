@@ -1,6 +1,47 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Yuga Labs settles Bored Ape NFT lawsuit, ending fight over alleged copycat tokens",
+    "description": "The settlement avoids a trial and ends the dispute over the RR/BAYC NFTs, which claimed to parody Bored Ape Yacht Club, one of the most recognizable NFT brands.",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/business/2026/04/08/yuga-labs-settles-bored-ape-nft-lawsuit-ending-fight-over-alleged-copycat-tokens",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "US Treasury unveils proposed stablecoin rules targeting money laundering, sanctions",
+    "description": "The U.S. Treasury's sanctions agency and its financial crimes bureau released a joint rule proposal for stablecoin issuers.",
+    "date": "2026-04-08",
+    "source_url": "https://www.theblock.co/post/396746/us-treasury-unveils-proposed-stablecoin-rules-targeting-money-laundering-sanctions",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "South Korea proposes cryptocurrency law with bank-style rules for stablecoins",
     "description": "Draft bill outlines comprehensive framework for digital assets, including licensing, issuance and oversight",
     "date": "2026-04-08",
@@ -9092,6 +9133,25 @@
     "year": "2026"
   },
   {
+    "institution": "Fintech Wrap Up",
+    "initiative": "John Caplan (CEO, Payoneer): Cross-Border Payments Are Still Broken",
+    "description": "In this episode of the Wrap Up Podcast, I sit down with John Caplan, CEO of Payoneer, to break down why global payments still fail the very businesses they are supposed to serve.",
+    "date": "2026-03-27",
+    "source_url": "https://www.fintechwrapup.com/p/john-caplan-ceo-payoneer-cross-border",
+    "category": "ecosystem",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Chainalysis",
     "initiative": "英国政府が Xinbi を制裁：中国語圏の暗号資産詐欺を支えるインフラの中核を指定",
     "description": "※この記事は自動翻訳されています。正確な内容につきましては原文をご参照ください。 要約 英国外務・英連邦・開発省（FCDO）が中国語圏の主要な不正担保マーケットプレイス Xinbi を制裁指定。個別の加害者のみを対象とする従来の手法から、大規模詐欺エコシステムを支える金融「担保プラットフォーム」そのものに切り込む戦略的転換 Chainalysis のデータによると、Xinbi は 2021 年から 2025 年にかけて 199 億ドル超の決済を仲介。「Black U」マネーロンダリング、無許可 OTC 取引、個人情報データベース販売、詐欺インフラの提供など、あらゆる不正取引を仲介 FCDO はグローバル人権制裁制度に基づき Xinbi&#8230; The post 英国政府が Xinbi を制裁：中国語圏の暗号資産詐欺を支えるインフラの中核を指定 appeared first on Chainalysis .",
@@ -9550,59 +9610,6 @@
       "Payments & Transfers",
       "Interoperability & Standards",
       "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Nyse parent invests $600m in Polymarket",
-    "description": "Nyse owner Intercontinental Exchange is doubling down on its bet on the growing popularity of prediction markets by investing $600 million in Polymarket.",
-    "date": "2026-03-27",
-    "source_url": "https://www.finextra.com/newsarticle/47508/nyse-parent-invests-600m-in-polymarket",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Nexi expands SEPA Direct Debit with Danish banks",
-    "description": "Italian fintech Nexi has forged an agreement with banks in Denmark to provide SEPA Direct Debit (SDD) services.",
-    "date": "2026-03-27",
-    "source_url": "https://www.finextra.com/newsarticle/47506/nexi-expands-sepa-direct-debit-with-danish-banks",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Saudi Arabia issues first Major Payment Institution licence to Lean Technologies",
-    "description": "The Saudi Central Bank (SAMA) issued its first Major Payment Institution licence for open banking services to Lean Technologies.",
-    "date": "2026-03-27",
-    "source_url": "https://www.finextra.com/newsarticle/47504/saudi-arabia-issues-first-major-payment-institution-licence-to-lean-technologies",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
     ],
     "initiative_types": [
       "Payment Infrastructure"
