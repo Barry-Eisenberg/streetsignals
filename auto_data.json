@@ -1,5 +1,43 @@
 [
   {
+    "institution": "CoinGeek",
+    "initiative": "Polymarket launching stablecoin, Circle slow to act in Drift exploit",
+    "description": "Polymarket eyes new USDC-backed stablecoin, while Circle faces criticism over exploit response and Russia pushes Africa toward sanctions evasion strategies. The post Polymarket launching stablecoin, Circle slow to act in Drift exploit appeared first on CoinGeek .",
+    "date": "2026-04-08",
+    "source_url": "https://coingeek.com/polymarket-launching-stablecoin-circle-slow-to-act-in-drift-exploit/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "SEC admits ‘flaws’ in past crypto enforcement, cites misreading of securities law",
+    "description": "The SEC said it addressed past enforcement flaws by dismissing seven crypto cases, including those against Binance and Coinbase.",
+    "date": "2026-04-08",
+    "source_url": "https://www.theblock.co/post/396620/sec-admits-flaws-past-crypto-enforcement",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "U.S. bank with $1.9 trillion in assets could debut its bitcoin ETF Wednesday",
     "description": "Morgan Stanley's bitcoin ETF could start trading on NYSE on Wednesday under the ticker MSBT.",
@@ -9540,42 +9578,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Only a Handful of Winners: How Wealth Management is Fundamentally Changing",
-    "description": "Joining FinextraTV at the Communify Intelligence Experience in Miami, Abbe Galvez Cordon, Managing Director, Wealth and WealthTech, Investment Banking, TD Securities explained how she believed not enough people understand the sheer speed of change in the investment space. Galvez Cordon describes a wealth management industry encountering a monumental shift in underlying operations and a level of change that will fundamentally affect margins and P&L outlooks. She further established a future with different tech shifts, different models and only a handful of true winners.",
-    "date": "2026-03-25",
-    "source_url": "https://www.finextra.com/videoarticle/3463/only-a-handful-of-winners-how-wealth-management-is-fundamentally-changing",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Beyond Zero Trust: How AI Is Redefining Enterprise Security Architecture",
-    "description": "Introduction For over a decade, Zero Trust has been the cornerstone of enterprise security. Its",
-    "date": "2026-03-25",
-    "source_url": "https://www.finextra.com/blogposting/31237/beyond-zero-trust-how-ai-is-redefining-enterprise-security-architecture",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi"
     ],
     "year": "2026"
   }
