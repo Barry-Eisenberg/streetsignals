@@ -1,6 +1,85 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Crypto markets rally as Trump announces two-week Iran ceasefire",
+    "description": "Digital assets spiked as a surprise geopolitical de-escalation triggered $600 million in liquidations, sending Bitcoin toward $73,000 and boosting altcoin demand.",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/markets/2026/04/08/crypto-markets-rally-as-trump-announces-two-week-iran-ceasefire",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "MEXC's new CEO wants to tame a memecoin machine without killing what made it work",
+    "description": "A Bitget veteran, Vugar Usi inherits a top-three exchange built on zero fees, 3,000 tokens and a compliance record he himself calls a \"missing point\" in its growth.",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/markets/2026/04/08/mexc-s-new-ceo-wants-to-tame-a-memecoin-machine-without-killing-what-made-it-work",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Swiss banks to test CHF stablecoin",
+    "description": "Six Swiss banks are banding together to test a regulated Swiss franc stablecoin.",
+    "date": "2026-04-08",
+    "source_url": "https://www.finextra.com/newsarticle/47544/swiss-banks-to-test-chf-stablecoin",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "South Korea to bring RWAs and stablecoins under existing financial frameworks: report",
+    "description": "South Korea’s ruling party has also reportedly proposed banning yield on stablecoins, amid ongoing debate in the U.S.",
+    "date": "2026-04-08",
+    "source_url": "https://www.theblock.co/post/396658/south-korea-rwa-stablecoin",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Pre-market crypto stocks are glowing green after the ceasefire news",
     "description": "Bitcoin, equities, and gold rise while oil and volatility drop amid improving risk sentiment.",
     "date": "2026-04-08",
@@ -466,6 +545,25 @@
       "Payments & Transfers"
     ],
     "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Argentine President Milei’s call logs link him to multimillion-dollar Libra rug pull: NYT",
+    "description": "Court records show repeated contact with a key operator before and after the token’s launch as prosecutors examine his role",
+    "date": "2026-04-07",
+    "source_url": "https://www.coindesk.com/business/2026/04/07/argentine-president-milei-s-call-logs-link-him-to-multimillion-dollar-libra-rug-pull-nyt",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
     "year": "2026"
   },
   {
@@ -9493,102 +9591,6 @@
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "JPMorgan says bitcoin shows safe-haven-like demand during Iran war as gold and silver weaken",
-    "description": "Bitcoin has held up better than gold and silver during the Iran war, with signs of inflows and rising activity, JPMorgan analysts said.",
-    "date": "2026-03-26",
-    "source_url": "https://www.theblock.co/post/395369/jpmorgan-bitcoin-crypto-iran-war-gold-silver",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bitcoin trades narrow corridor as macro pressures throttle liquidity ahead of potential breakout: analysts",
-    "description": "Bitcoin is holding near $70,000 as analysts flag $72,000K as a key breakout zone and note a mix of macro pressures and tight liquidity.",
-    "date": "2026-03-26",
-    "source_url": "https://www.theblock.co/post/395313/bitcoin-trades-narrow-corridor-macro-pressures-throttle-liquidity-potential-breakout",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Anchorage becomes first federally chartered US firm to bring Tron ‘inside the regulatory perimeter’",
-    "description": "Tron is a top chain for stablecoin usage, though it has largely operated outside the U.S. due to regulatory concerns.",
-    "date": "2026-03-26",
-    "source_url": "https://www.theblock.co/post/395318/anchorage-federally-chartered-tron-inside-regulatory-perimeter",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Circle Crashed Because of the Clarity Act Draft. But Is It Oversold?",
-    "description": "Circle had its worst day as a public company on Tuesday. CRCL fell 20%, erasing $5 billion in market cap on volume nearly 4x its 90-day average. Coinbase dropped 11% in sympathy. The catalyst: a new draft of the CLARITY Act that would ban passive yield on stablecoin balances. Since ... The post Circle Crashed Because of the Clarity Act Draft. But Is It Oversold? appeared first on Unchained .",
-    "date": "2026-03-26",
-    "source_url": "https://unchainedcrypto.com/circle-crashed-because-of-the-clarity-act-draft-but-is-it-oversold/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Fannie Mae Will Accept Crypto-Backed Mortgages for the First Time",
-    "description": "The post Fannie Mae Will Accept Crypto-Backed Mortgages for the First Time appeared first on Unchained .",
-    "date": "2026-03-26",
-    "source_url": "https://unchainedcrypto.com/fannie-mae-will-accept-crypto-backed-mortgages-for-the-first-time/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
