@@ -1,6 +1,143 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "RWA network Pharos lands a $1 billion valuation in $44M funding round ahead of mainnet debut",
+    "description": "The company is building an \"asset-native\" network designed to handle regulated financial activity at scale, targeting a market it values at $50 trillion.",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/business/2026/04/08/pharos-raises-usd44-million-in-series-a-to-power-real-world-asset-tokenization",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Adam Back denies he’s Satoshi Nakamoto after NYT report claims he’s Bitcoin’s creator",
+    "description": "Similarities reflect shared early research, not proof, said Back. Others have questions too.",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/markets/2026/04/08/adam-back-denies-he-s-satoshi-nakamoto-after-nyt-report-claims-he-s-bitcoin-s-creator",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "White House study bolsters crypto's stance in stablecoin yield fight against bankers",
+    "description": "White House economists said banning rewards wouldn't significantly boost banks' financial health, amplifying the crypto industry view in the Clarity Act debate.",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/policy/2026/04/08/white-house-study-bolsters-crypto-s-stance-in-stablecoin-yield-fight-against-bankers",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Quantum threat to Bitcoin is real, but manageable, according to Wall Street broker Bernstein",
+    "description": "The broker said advances in quantum computing are accelerating the timeline for crypto risk, but argued Bitcoin faces a multi-year upgrade cycle, not an existential crisis.",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/tech/2026/04/08/quantum-threat-to-bitcoin-is-real-but-manageable-according-to-wall-street-broker-bernstein",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Saylor’s solo act: JPMorgan says Strategy is practically the only thing keeping crypto flows alive",
+    "description": "Digital asset inflows totaled $11 billion in Q1, as institutional demand and ETF outflows left corporate buyers and venture capital as the primary sources of funding.",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/business/2026/04/08/crypto-inflows-slowed-sharply-in-first-quarter-as-investor-demand-weakened-says-jpmorgan",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bitcoin payments allowed for Hormuz tanker tolls as Iran seeks up to $2 million per ship: FT",
+    "description": "Iran is reportedly open transit tolls paid in bitcoin and crypto for ships crossing the Strait of Hormuz amid volatile ceasefire.",
+    "date": "2026-04-08",
+    "source_url": "https://www.theblock.co/post/396711/bitcoin-payments-allowed-hormuz-tanker-tolls-iran-2-million-per-ship-report",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bernstein says quantum is a ‘manageable upgrade cycle’ for Bitcoin, not an existential threat",
+    "description": "Commercial players, including Strategy, BlackRock, and Fidelity, are expected to play a \"constructive role\" in security, the analysts said.",
+    "date": "2026-04-08",
+    "source_url": "https://www.theblock.co/post/396709/bernstein-says-quantum-is-a-manageable-upgrade-cycle-for-bitcoin-not-an-existential-threat",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Morgan Stanley's bitcoin ETF opens today, giving BlackRock’s $55 billion IBIT fund its toughest rival yet",
     "description": "While BlackRock’s spot bitcoin ETF currently reigns as the liquidity king of crypto, Morgan Stanley’s MSBT will leverage a market-low 0.14% fee and $7 trillion wealth management engine to possibly challenge that dominance.",
     "date": "2026-04-08",
@@ -9464,137 +9601,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Ethereum ICO participant offloads $23 million in ETH: onchain analyst",
-    "description": "The address traces back to Ethereum's initial token sale, where the investor purchased ether at about $0.31 per token, said Lookonchain.",
-    "date": "2026-03-27",
-    "source_url": "https://www.theblock.co/post/395419/ethereum-ico-wallet-offloads-23-million-worth-eth",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "NYSE Owner ICE Pours Another $600 Million Into Polymarket, Nearing $2 Billion Total",
-    "description": "Intercontinental Exchange, the parent company of the New York Stock Exchange, invested another $600 million in prediction market platform Polymarket on Thursday, completing a funding arrangement that brings ICE&#8217;s total commitment close to $2 billion. ICE also plans to purchase up to $40 million in additional shares from existing holders. ... The post NYSE Owner ICE Pours Another $600 Million Into Polymarket, Nearing $2 Billion Total appeared first on Unchained .",
-    "date": "2026-03-27",
-    "source_url": "https://unchainedcrypto.com/nyse-owner-ice-pours-another-600-million-into-polymarket-nearing-2-billion-total/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "David Sacks Steps Down as White House Crypto Czar With Key Legislation Still in Limbo",
-    "description": "&#160; &#160; The post David Sacks Steps Down as White House Crypto Czar With Key Legislation Still in Limbo appeared first on Unchained .",
-    "date": "2026-03-27",
-    "source_url": "https://unchainedcrypto.com/david-sacks-steps-down-as-white-house-crypto-czar-with-key-legislation-still-in-limbo/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Destabilising the Stable: How Stablecoins Are Perfect for Fraudsters",
-    "description": "Once again, joining FinextraTV to talk about stablecoin development, Professor Andros Gregoriou, Head of REF, Liverpool Business School, Liverpool John Moores University provided his opinion on their use within financial crime. Gregoriou explains how the industry has grown exponentially and how, with this growth, the risk is lower both for regular investors and criminals. When it comes to 24/7 trading on a crypto exchange, Gregoriou describes how these provide even more risks: where later times in a relaxed sector provided ample space for vulnerability. He emphasises how Stablecoins are not just inherently risk-free, and in fact provide a certain flexibility and anonymity to criminal activity, something that needs to be considered when it comes to regulatory changes.",
-    "date": "2026-03-26",
-    "source_url": "https://www.finextra.com/videoarticle/3474/destabilising-the-stable-how-stablecoins-are-perfect-for-fraudsters",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Fintech 2026: From Experimentation to Execution",
-    "description": "How stablecoins, agentic AI, and infrastructure-led innovation are reshaping financial services into...",
-    "date": "2026-03-26",
-    "source_url": "https://www.finextra.com/blogposting/31249/fintech-2026-from-experimentation-to-execution",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Financial stability limits on fiscal space",
-    "description": "by Fabrizio Zampolli Conventional indicators of fiscal sustainability, such as the interest rate-growth differential that focus on long-term drivers do not always incorporate fluctuating financial conditions and risk. This paper proposes an analytical framework in which sovereign borrowing costs depend on the balance-sheet capacity of financial intermediaries, where financial amplification can generate an endogenously tighter debt limit even in the absence of fiscal fatigue or explicit default risk. Fiscal space becomes state-contingent: identical yield shocks compress fiscal space more strongly when the economy is closer to its debt limit. We examine four financial amplification mechanisms: the bank-sovereign nexus, \"original sin redux\" , duration matching, and deleveraging in repo markets.",
-    "date": "2026-03-26",
-    "source_url": "https://www.bis.org/publ/work1339.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board announces it has made the joint findings with the Office of the Comptroller of the Currency required for the OCC to approve a request by Morgan Stanley Bank, N.A., for an exemption under section 23A of the Federal Reserve Act",
-    "description": "Federal Reserve Board announces it has made the joint findings with the Office of the Comptroller of the Currency required for the OCC to approve a request by Morgan Stanley Bank, N.A., for an exemption under section 23A of the Federal Reserve Act",
-    "date": "2026-03-26",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260326a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
