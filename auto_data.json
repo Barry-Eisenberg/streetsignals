@@ -1,5 +1,154 @@
 [
   {
+    "institution": "Federal Reserve",
+    "initiative": "Federal Reserve Board invites public comment on proposal that would allow U.S. banks and credit unions to use intermediaries to transfer funds through the FedNow Service",
+    "description": "Federal Reserve Board invites public comment on proposal that would allow U.S. banks and credit unions to use intermediaries to transfer funds through the FedNow Service",
+    "date": "2026-04-08",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260408a.htm",
+    "category": "regulators",
+    "source_name": "Federal Reserve — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin is above $70,000 on Iran ceasefire, but rally is turning cautious for good reasons",
+    "description": "Leveraged bullish bitcoin positions remain near multi-year highs as bitcoin rebounds, hinting at underlying market uncertainty.",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/markets/2026/04/08/bitcoin-is-above-usd70-000-on-iran-ceasefire-but-rally-is-turning-cautious-for-good-reasons",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Standard Chartered is looking to take over crypto custody provider Zodia: Bloomberg",
+    "description": "While the British financial institution refused to comment on potential takeover plans, sources close to the matter revealed that plans are in place and could be announced as soon as this month.",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/business/2026/04/08/standard-chartered-is-looking-to-take-over-crypto-custody-provider-zodia-bloomberg",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "FDIC approves US Stablecoins Act",
+    "description": "The Federal Deposit Insurance Corporation (FDIC) Board of Directors today approved a notice of proposed rulemaking that would implement certain requirements and standards under the Guiding and Establishing National Innovation for U.S. Stablecoins Act (GENIUS Act).",
+    "date": "2026-04-08",
+    "source_url": "https://www.finextra.com/pressarticle/109400/fdic-approves-us-stablecoins-act",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Canton Network powers real-time collateral movement with Transcend",
+    "description": "Transcend, a leader in collateral and liquidity optimization technology, announced it has connected to the Canton Network to enable real-time mobility of tokenized assets.",
+    "date": "2026-04-08",
+    "source_url": "https://www.finextra.com/pressarticle/109399/canton-network-powers-real-time-collateral-movement-with-transcend",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Collateral & Lending",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Profile Software swallows up Contemi",
+    "description": "Following the completion of the acquisition of 100% of the shares of Contemi Solutions (London) UK Ltd on 2 February 2026, Profile (ATHEX: PROF), an international technology group, announces the integration of Contemi’s clients, products, technology and teams into Profile’s investment management business, further strengthening its presence in the United Kingdom – a strategic market for the Group.",
+    "date": "2026-04-08",
+    "source_url": "https://www.finextra.com/pressarticle/109398/profile-software-swallows-up-contemi",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Finastra joins witth Marketnode to automate credit agreement onboarding",
+    "description": "Finastra, a global leader in financial services software, today announced a strategic partnership with Marketnode to digitize and automate the credit agreement onboarding process for corporate lenders.",
+    "date": "2026-04-08",
+    "source_url": "https://www.finextra.com/pressarticle/109397/finastra-joins-witth-marketnode-to-automate-credit-agreement-onboarding",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Mastercard and Krunthai Card complete first agentic transaction in Thailand",
+    "description": "Mastercard announced the completion of a pilot that delivered its first authenticated agentic transaction in Thailand with Krungthai Card Public Company Limited (KTC).",
+    "date": "2026-04-08",
+    "source_url": "https://www.finextra.com/pressarticle/109396/mastercard-and-krunthai-card-complete-first-agentic-transaction-in-thailand",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "RWA network Pharos lands a $1 billion valuation in $44M funding round ahead of mainnet debut",
     "description": "The company is building an \"asset-native\" network designed to handle regulated financial activity at scale, targeting a market it values at $50 trillion.",
@@ -9453,153 +9602,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Early bitcoin whale sends another $33 million to Binance, extending long-running exchange deposits",
-    "description": "An OG bitcoin whale has sent another $33 million worth of BTC to Binance as a possible selling spree continues amid market pressure.",
-    "date": "2026-03-27",
-    "source_url": "https://www.theblock.co/post/395490/early-bitcoin-whale-sends-33-million-binance-extending-long-running-exchange-deposits",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Umbra opens privacy wallet to the public on Solana, powered by Arcium’s encrypted execution engine",
-    "description": "Umbra has opened its private wallet to the public, enabling shielded transfers, encrypted swaps, and compliance tools for Solana users.",
-    "date": "2026-03-27",
-    "source_url": "https://www.theblock.co/post/394892/umbra-opens-privacy-wallet-to-the-public-on-solana-powered-by-arciums-encrypted-execution-engine",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Prediction markets top $20 billion in monthly volume as geopolitics now drives majority of activity: TRM Labs",
-    "description": "Prediction markets have surged past $20 billion in monthly volume, driven by geopolitics, U.S. politics, and macroeconomic event trading.",
-    "date": "2026-03-27",
-    "source_url": "https://www.theblock.co/post/395454/prediction-markets-top-20-billion-in-monthly-volume-as-geopolitics-now-drives-majority-of-activity-trm-labs",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "NYSE parent ICE invests another $600 million in Polymarket, expanding bet on prediction markets",
-    "description": "NYSE parent ICE has invested another $600 million into Polymarket as prediction markets attract growing institutional interest.",
-    "date": "2026-03-27",
-    "source_url": "https://www.theblock.co/post/395458/nyse-parent-ice-invests-another-600-million-in-polymarket-expanding-bet-on-prediction-markets",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bitcoin dips below $67K, ether under $2K as ETF outflows and dollar strength pressure liquidity: analysts",
-    "description": "Bitcoin dropped below $67,000 and ether under $2,000 as ETF outflows resumed and the dollar strengthened amid macro and geopolitical tension.",
-    "date": "2026-03-27",
-    "source_url": "https://www.theblock.co/post/395446/bitcoin-dips-below-67k-ether-under-2k-as-etf-outflows-and-dollar-strength-pressure-liquidity-analysts",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Binance Australia Derivatives fined $6.9 million over compliance and onboarding failures",
-    "description": "The Federal Court fined Binance Australia Derivatives $6.9 million for misclassifying 524 retail clients as wholesale investors.",
-    "date": "2026-03-27",
-    "source_url": "https://www.theblock.co/post/395437/binance-australia-derivatives-fined-6-9-million-over-compliance-and-onboarding-failures",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "US bitcoin ETF outflows hit three-week high as Ark Invest cuts holdings in own BTC fund",
-    "description": "One analyst noted that this reflects short-term profit-taking rather than a shift in long-term conviction.",
-    "date": "2026-03-27",
-    "source_url": "https://www.theblock.co/post/395430/us-bitcoin-etf-outflows-reach-three-week-high",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Tether taps Big Four firm KPMG for first financial audit of $184 billion stablecoin issuer: FT",
-    "description": "Tether previously relied on monthly attestations from BDO Italia, which fall short of the full audit now planned with KPMG.",
-    "date": "2026-03-27",
-    "source_url": "https://www.theblock.co/post/395423/tether-taps-kpmg-for-first-financial-audit",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   }
