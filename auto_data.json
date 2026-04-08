@@ -1,6 +1,45 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "U.S. bank with $1.9 trillion in assets could debut its bitcoin ETF Wednesday",
+    "description": "Morgan Stanley's bitcoin ETF could start trading on NYSE on Wednesday under the ticker MSBT.",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/markets/2026/04/08/bitcoin-etf-by-a-major-u-s-bank-with-usd9-3-trillion-in-client-assets-could-debut-wednesday",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Attacking bitcoin mining with a quantum computer would require the energy of a star, academics say",
+    "description": "One paper finds that attacking the bitcoin blockchain through quantum mining would demand the energy output of a star. Another replicates every major \"quantum factoring breakthrough\" using a 1981 home computer and a dog.",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/tech/2026/04/08/attacking-bitcoin-mining-with-a-quantum-computer-would-require-the-energy-of-a-star-academics-say",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "XRP zooms 5% on bitcoin strength, but trend reversal still unconfirmed",
     "description": "Breakout backed by institutional flows and whale buying, though broader downtrend and weak ETF demand cap conviction.",
     "date": "2026-04-08",
@@ -9537,47 +9576,6 @@
     ],
     "initiative_types": [
       "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "SBI and Sony Back Startale’s $63 Million Push to Build Japan’s Tokenized Finance Infrastructure",
-    "description": "Startale Group closed a $63 million Series A on Wednesday, combining a $50 million second close from SBI Group with a $13 million first close from Sony Innovation Fund announced in January. The Singapore-based company, which operates primarily in Japan, builds blockchain infrastructure for both financial institutions and retail users. ... The post SBI and Sony Back Startale&#8217;s $63 Million Push to Build Japan&#8217;s Tokenized Finance Infrastructure appeared first on Unchained .",
-    "date": "2026-03-25",
-    "source_url": "https://unchainedcrypto.com/sbi-and-sony-back-startales-63-million-push-to-build-japans-tokenized-finance-infrastructure/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Visa Approves Its First Blockchain Governance Proposal, Joining Canton Network as Super Validator",
-    "description": "Visa announced Wednesday it has been selected as a Super Validator on the Canton Network, marking the first time the payments giant’s legal and compliance teams have formally approved a blockchain governance proposal. The company was granted the highest Super Validator Weight of 10, three days after submitting its application. ... The post Visa Approves Its First Blockchain Governance Proposal, Joining Canton Network as Super Validator appeared first on Unchained .",
-    "date": "2026-03-25",
-    "source_url": "https://unchainedcrypto.com/visa-approves-its-first-blockchain-governance-proposal-joining-canton-network-as-super-validator/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
