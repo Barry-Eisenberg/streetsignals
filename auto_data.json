@@ -1,5 +1,28 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Polygon Labs seeking to raise up to $100 million for stablecoin payments business: report",
+    "description": "The crypto firm aims to sell \"between $50 million and $100 million in equity\" in the new stablecoin payments business.",
+    "date": "2026-04-08",
+    "source_url": "https://www.theblock.co/post/396778/polygon-labs-seeking-raise-up-to-100-million-stablecoin-payments-business-report",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "BondXN integrates with BlackRock’s Aladdin platform to modernise MBS trading",
     "description": "BondXN Inc., a leading electronic trading and data venue for mortgage-backed securities (MBS), today announced a multi-year partnership with BlackRock Aladdin.",
@@ -9590,25 +9613,6 @@
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Investors yank $171 million from bitcoin ETFs in largest single-day outflow in three weeks",
-    "description": "ETFs show institutional demand for bitcoin is cooling after a strong start to the month.",
-    "date": "2026-03-27",
-    "source_url": "https://www.coindesk.com/markets/2026/03/27/investors-yank-usd171-million-from-bitcoin-etfs-in-largest-single-day-outflow-in-three-weeks",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
