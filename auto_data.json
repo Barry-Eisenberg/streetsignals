@@ -1,6 +1,145 @@
 [
   {
     "institution": "Finextra",
+    "initiative": "StraitsX and KBank enable real-time payments between Singapore and Thailand",
+    "description": "Cross-border travel in Southeast Asia continues to grow, but payments often remain fragmented, with travellers still needing to exchange cash, manage multiple payment apps, or face high FX and settlement costs.",
+    "date": "2026-04-08",
+    "source_url": "https://www.finextra.com/pressarticle/109389/straitsx-and-kbank-enable-real-time-payments-between-singapore-and-thailand",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "And Digital names Chris Hardy as US strategy and ops chief",
+    "description": "AND Digital has continued its expansion in the US market, appointing Chris Hardy as Chief for Strategy & Operations to strengthen the company’s senior leadership and lead growth in the fintech and payments space.",
+    "date": "2026-04-08",
+    "source_url": "https://www.finextra.com/pressarticle/109388/and-digital-names-chris-hardy-as-us-strategy-and-ops-chief",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Balboa Corp launches in Panama to bring stablecoins to shipping and trade finance",
+    "description": "BALBOA | CORP , Panama’s first local stablecoin issuer and infrastructure company focused on shipping, trade settlement and escrow, today announced its launch from stealth, unveiling infrastructure designed to reduce payment friction in shipping, trade-finance and international commerce.",
+    "date": "2026-04-08",
+    "source_url": "https://www.finextra.com/pressarticle/109387/balboa-corp-launches-in-panama-to-bring-stablecoins-to-shipping-and-trade-finance",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Equals Money makes four leadership appointments",
+    "description": "Equals Money | Railsr, one of Europe’s largest embedded finance providers, has today announced four key appointments expanding its specialist leadership in embedded finance and payments, including digital assets.",
+    "date": "2026-04-08",
+    "source_url": "https://www.finextra.com/pressarticle/109386/equals-money-makes-four-leadership-appointments",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "ClearToken appoints Fernando Cerezetti as CCP rchief risk officer",
+    "description": "ClearToken, the digital financial market infrastructure (FMI) provider, today announces that it has appointed Fernando Cerezetti as Chief Risk Officer of its subsidiary, ClearToken CCP Limited.",
+    "date": "2026-04-08",
+    "source_url": "https://www.finextra.com/pressarticle/109385/cleartoken-appoints-fernando-cerezetti-as-ccp-rchief-risk-officer",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "UBS, Sygnum, PostFinance join banks in Swiss franc stablecoin sandbox",
+    "description": "Seven financial institutions launched sandbox testing regulated Swiss franc stablecoin, running through 2026 as stablecoin usage accelerates globally.",
+    "date": "2026-04-08",
+    "source_url": "https://www.theblock.co/post/396650/swiss-franc-stablecoin-sandbox",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Coinbase secures Australian license, plans to offer crypto and equity perpetuals",
+    "description": "With the license, Coinbase plans to offer crypto and equity perpetuals in the region, and later futures and options trading.",
+    "date": "2026-04-08",
+    "source_url": "https://www.theblock.co/post/396642/coinbase-wins-australian-license",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
     "initiative": "Lorum files for US national bank charter",
     "description": "Lorum, a correspondent institution serving financial institutions has applied for national bank charter in the US in a move that the firm claims would pave the way for it to \"return clearing and custody to a fiduciary model\".",
     "date": "2026-04-08",
@@ -9400,6 +9539,26 @@
     "year": "2026"
   },
   {
+    "institution": "Connecting the Dots",
+    "initiative": "Yeeld and Checkout.com Team Up to Put Merchants Back in Control of Their Pricing",
+    "description": "Hey Payments Fanatic! The payments landscape grows ever more competitive, with customer expectations rising in tandem. Merchants must innovate to unlock new revenue streams without alienating their audience.&#xA0; Checkout.com and Yeeld&apos;s new partnership delivers exactly that. The integration allows dynamic fee application based on card type,",
+    "date": "2026-03-25",
+    "source_url": "https://www.connectingthedotsinpayments.com/yeeld-and-checkout-com-team-up-to-put-merchants-back-in-control-of-their-pricing/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Only a Handful of Winners: How Wealth Management is Fundamentally Changing",
     "description": "Joining FinextraTV at the Communify Intelligence Experience in Miami, Abbe Galvez Cordon, Managing Director, Wealth and WealthTech, Investment Banking, TD Securities explained how she believed not enough people understand the sheer speed of change in the investment space. Galvez Cordon describes a wealth management industry encountering a monumental shift in underlying operations and a level of change that will fundamentally affect margins and P&L outlooks. She further established a future with different tech shifts, different models and only a handful of true winners.",
@@ -9432,148 +9591,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Michael S Barr: Developing communities through public-private partnerships",
-    "description": "Speech by Mr Michael S Barr, Member of the Board of Governors of the Federal Reserve System, at the2026 National Community Investment Conference, Phoenix, Arizona, 24 March 2026.",
-    "date": "2026-03-25",
-    "source_url": "https://www.bis.org/review/r260325c.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Colm Kincaid: Opening statement - joint Oireachtas Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach",
-    "description": "Opening statement by Mr Colm Kincaid, Deputy Governor of the Central Bank of Ireland, before the Joint Oireachtas (National Parliament) Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach (Head of Parliament), Dublin, 18 March 2026.",
-    "date": "2026-03-25",
-    "source_url": "https://www.bis.org/review/r260324c.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Chiara Scotti: Financial stability and regulation in an age of transformation - how economic research can help reorient navigation",
-    "description": "Welcome address by Ms Chiara Scotti, Deputy Governor of the Bank of Italy, at the 5th Bank of Italy, Bocconi University, Einaudi Institute for Economics and Finance (EIEF) and Centre for Economic Policy Research (CEPR) conference \"Financial stability and regulation\", Rome, 23 March 2026.",
-    "date": "2026-03-25",
-    "source_url": "https://www.bis.org/review/r260324e.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Piero Cipollone: Building the rails for Europe's tokenised financial markets",
-    "description": "Keynote speech by Mr Piero Cipollone, Member of the Executive Board of the European Central Bank, at an event \"Building Europe's integrated digital asset ecosystem: from vision to implementation\", hosted by the House of the Euro, Brussels, 23 March 2026.",
-    "date": "2026-03-25",
-    "source_url": "https://www.bis.org/review/r260324d.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Liquidity preparedness for margin and collateral calls - Executive Summary",
-    "description": "Recent episodes of market turmoil, eg the Archegos Capital collapse in 2021 or the United Kingdom's liability-driven fund stress in September 2022, showed that rapid increases in margin and collateral requirements, while essential for managing counterparty risk, can amplify liquidity needs across the financial system, especially if market participants are unprepared.",
-    "date": "2026-03-25",
-    "source_url": "https://www.bis.org/fsi/fsisummaries/exsum_23913.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Sound management of third-party risk - Executive Summary",
-    "description": "A third-party service provider (TPSP) is an entity or individual that performs services, activities, functions, processes or tasks directly for a bank. Banks enter into formal arrangements with TPSPs for various reasons, including enabling access to specialised expertise, reducing costs and improving scalability, efficiency and operational resilience.",
-    "date": "2026-03-25",
-    "source_url": "https://www.bis.org/fsi/fsisummaries/exsum_23911.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Supervising DEI in insurance - Executive Summary",
-    "description": "In 2021, the International Association of Insurance Supervisors (IAIS) published a statement that explained the importance of diversity, equity and inclusion (DEI) considerations in insurance supervision. Its Application Paper on supervising diversity, equity and inclusion: the governance, risk management and culture perspective elaborates on the significance of DEI in the supervision of risk management and corporate culture of insurers, in accordance with the IAIS Insurance Core Principles (ICPs).",
-    "date": "2026-03-25",
-    "source_url": "https://www.bis.org/fsi/fsisummaries/exsum_23910.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Tether commits to ‘Big Four’ audit; Circle’s share price falls 20%",
-    "description": "Tether plans first audit amid transparency concerns, while Circle faces pressure, EU reforms advance, and a stablecoin exploit triggers USR depeg. The post Tether commits to ‘Big Four’ audit; Circle’s share price falls 20% appeared first on CoinGeek .",
-    "date": "2026-03-25",
-    "source_url": "https://coingeek.com/tether-commits-to-big-four-audit-circle-share-price-falls-20/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   }
