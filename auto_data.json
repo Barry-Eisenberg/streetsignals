@@ -1,5 +1,22 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Canary Capital files spot PEPE ETF application with SEC",
+    "description": "Last year, Canary also filed an application to list a fund tracking the price of MOG, a then lesser-known memecoin.",
+    "date": "2026-04-08",
+    "source_url": "https://www.theblock.co/post/396794/canary-capital-files-spot-pepe-etf-application-with-sec",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Morgan Stanley’s bitcoin ETF draws $34 million on day one",
     "description": "Morgan Stanley’s low-fee bitcoin ETF debuted with strong early trading, signaling demand as competition shifts to cost and distribution.",
@@ -9598,25 +9615,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Anchorage Digital adds Tron custody, opens U.S. institutional access to TRX trading",
-    "description": "The integration provides institutions with a compliant way to hold TRX and will be expanded to include TRC-20 assets and native TRX staking.",
-    "date": "2026-03-27",
-    "source_url": "https://www.coindesk.com/business/2026/03/27/anchorage-digital-adds-tron-custody-opens-u-s-institutional-access-to-trx-trading",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Trading & Exchange",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
