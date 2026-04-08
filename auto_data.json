@@ -1,5 +1,25 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Lorum files for US national bank charter",
+    "description": "Lorum, a correspondent institution serving financial institutions has applied for national bank charter in the US in a move that the firm claims would pave the way for it to \"return clearing and custody to a fiduciary model\".",
+    "date": "2026-04-08",
+    "source_url": "https://www.finextra.com/newsarticle/47541/lorum-files-for-us-national-bank-charter",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinGeek",
     "initiative": "Polymarket launching stablecoin, Circle slow to act in Drift exploit",
     "description": "Polymarket eyes new USDC-backed stablecoin, while Circle faces criticism over exploit response and Russia pushes Africa toward sanctions evasion strategies. The post Polymarket launching stablecoin, Circle slow to act in Drift exploit appeared first on CoinGeek .",
@@ -9380,6 +9400,23 @@
     "year": "2026"
   },
   {
+    "institution": "Finextra",
+    "initiative": "Only a Handful of Winners: How Wealth Management is Fundamentally Changing",
+    "description": "Joining FinextraTV at the Communify Intelligence Experience in Miami, Abbe Galvez Cordon, Managing Director, Wealth and WealthTech, Investment Banking, TD Securities explained how she believed not enough people understand the sheer speed of change in the investment space. Galvez Cordon describes a wealth management industry encountering a monumental shift in underlying operations and a level of change that will fundamentally affect margins and P&L outlooks. She further established a future with different tech shifts, different models and only a handful of true winners.",
+    "date": "2026-03-25",
+    "source_url": "https://www.finextra.com/videoarticle/3463/only-a-handful-of-winners-how-wealth-management-is-fundamentally-changing",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Brad Jones: After Acacia - the next era of financial system innovation?",
     "description": "Remarks by Mr Brad Jones, Assistant Governor (Financial System) of the Reserve Bank of Australia, at the Australian Payments Plus \"Beyond Tomorrow\" Forum, Sydney, 25 March 2026.",
@@ -9537,47 +9574,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "bOpen: Building the infrastructure for Web3’s agentic future",
-    "description": "bOpen develops infrastructure for Web3, enabling user-owned data, cross-platform access, and secure on-chain systems for payments, identity, and trust. The post bOpen: Building the infrastructure for Web3&#8217;s agentic future appeared first on CoinGeek .",
-    "date": "2026-03-25",
-    "source_url": "https://coingeek.com/bopen-building-the-infrastructure-for-web3s-agentic-future/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Yeeld and Checkout.com Team Up to Put Merchants Back in Control of Their Pricing",
-    "description": "Hey Payments Fanatic! The payments landscape grows ever more competitive, with customer expectations rising in tandem. Merchants must innovate to unlock new revenue streams without alienating their audience.&#xA0; Checkout.com and Yeeld&apos;s new partnership delivers exactly that. The integration allows dynamic fee application based on card type,",
-    "date": "2026-03-25",
-    "source_url": "https://www.connectingthedotsinpayments.com/yeeld-and-checkout-com-team-up-to-put-merchants-back-in-control-of-their-pricing/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
