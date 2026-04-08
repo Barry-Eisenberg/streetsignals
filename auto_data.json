@@ -1,5 +1,145 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "South Korea proposes cryptocurrency law with bank-style rules for stablecoins",
+    "description": "Draft bill outlines comprehensive framework for digital assets, including licensing, issuance and oversight",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/policy/2026/04/08/south-korea-proposes-cryptocurrency-law-with-bank-style-rules-for-stablecoins",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "The Protocol: Bernstein says quantum threat to Bitcoin is real but manageable",
+    "description": "Also: North Korea’s 6-month plot with Drift, Solana Foundation’s new ad and Alchemy AI.",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/tech/2026/04/08/the-protocol-bernstein-says-quantum-threat-to-bitcoin-is-real-but-manageable",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Crypto Long & Short: Asia’s digital asset crackdown: accountability gets personal",
+    "description": "In this week’s Crypto Long & Short Newsletter, Bob Williams covers how stricter crypto regulations in Asia are putting more personal responsibility on senior leaders, making strong governance and D&O insurance essential. Then, the FBI’s Haidy Grigsby writes on how crypto scams are increasingly targeting experienced investors by building trust and tricking them into making larger deposits until their money is gone.",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/08/crypto-long-and-short-asia-s-digital-asset-crackdown-accountability-gets-personal",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "U.S. Treasury proposes demands that stablecoin firms be set to police bad transactions",
+    "description": "The U.S. is pitching new rules for stablecoin issuers to treat them like every other financial firm that must maintain armor against illicit uses.",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/policy/2026/04/08/u-s-treasury-to-propose-demands-that-stablecoin-firms-be-set-to-police-bad-transactions",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Nevermind integrates with Visa Intelligent Commerce",
+    "description": "Nevermined today announced its integration with Visa Intelligent Commerce, enabling AI agents to buy digital goods and services autonomously (with cardholder defined guardrails) on behalf of users and businesses.",
+    "date": "2026-04-08",
+    "source_url": "https://www.finextra.com/pressarticle/109401/nevermind-integrates-with-visa-intelligent-commerce",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Circle rolls out USDC payments platform that lets users pay without holding stablecoins",
+    "description": "The platform allows PSPs, fintechs, and banks benefit from the efficiency of using stablecoins without having to hold USDC.",
+    "date": "2026-04-08",
+    "source_url": "https://www.theblock.co/post/396727/circle-rolls-out-usdc-payments-platform-that-lets-users-pay-without-holding-stablecoins",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Ethereum Foundation swaps 5,000 ETH into stablecoins for operational and grant funding",
+    "description": "So far, the CoWSwap TWAP transactions have been drawn from a wallet associated with the Ethereum Foundation's DeFi activities.",
+    "date": "2026-04-08",
+    "source_url": "https://www.theblock.co/post/396728/ethereum-foundation-swaps-5000-eth-stablecoins-operational-grant-funding",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Federal Reserve Board invites public comment on proposal that would allow U.S. banks and credit unions to use intermediaries to transfer funds through the FedNow Service",
     "description": "Federal Reserve Board invites public comment on proposal that would allow U.S. banks and credit unions to use intermediaries to transfer funds through the FedNow Service",
@@ -9466,142 +9606,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Visa Direct partners with Moonrise by Lunar for Nordic expansion",
-    "description": "Visa Direct has announced its partnership with banking platform Moonrise, powered by Lunar, to expand payments rails across the Nordics.",
-    "date": "2026-03-27",
-    "source_url": "https://www.finextra.com/newsarticle/47503/visa-direct-partners-with-moonrise-by-lunar-for-nordic-expansion",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Solaris to axe 20% of staff amid ‘AI-native bank’ transformation",
-    "description": "German fintech Solaris will reportedly cut 20% of its staff after an announcement to become an “AI-native bank”.",
-    "date": "2026-03-27",
-    "source_url": "https://www.finextra.com/newsarticle/47501/solaris-to-axe-20-of-staff-amid-ai-native-bank-transformation",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "PSR to prioritise tackling high card fees in 26/27",
-    "description": "The Payment Systems Regulator has today set out its work programme for 2026/27 highlighting its focus on tackling high card fees, maintaining world-leading protections against Authorised Push Payment (APP) fraud and supporting innovation and competition across UK payments.",
-    "date": "2026-03-27",
-    "source_url": "https://www.finextra.com/pressarticle/109309/psr-to-prioritise-tackling-high-card-fees-in-2627",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "GoCardless completes first Pay by Bank transaction for Jellyfish Energy",
-    "description": "Bank payment company GoCardless has today announced the successful completion of the first recurring Pay by Bank transaction, processed on behalf of Jellyfish Energy, the fast-growing business energy supplier.",
-    "date": "2026-03-27",
-    "source_url": "https://www.finextra.com/pressarticle/109306/gocardless-completes-first-pay-by-bank-transaction-for-jellyfish-energy",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "John Caplan (CEO, Payoneer): Cross-Border Payments Are Still Broken",
-    "description": "In this episode of the Wrap Up Podcast, I sit down with John Caplan, CEO of Payoneer, to break down why global payments still fail the very businesses they are supposed to serve.",
-    "date": "2026-03-27",
-    "source_url": "https://www.fintechwrapup.com/p/john-caplan-ceo-payoneer-cross-border",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "ECB paper finds DeFi governance concentrated, warns results could affect ‘regulatory anchor points’",
-    "description": "ECB research finds large percentages of DeFi governance tokens are tied to exchanges and protocol-linked wallets.",
-    "date": "2026-03-27",
-    "source_url": "https://www.theblock.co/post/395492/ecb-paper-defi-governance-concentrated-results-affect-regulatory-anchor-points",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Crypto’s popularity among kids drove X Games-MoonPay deal: ‘New energy and new transformation’",
-    "description": "Crypto companies eager to attract new users have been sponsoring sports teams across various leagues for years.",
-    "date": "2026-03-27",
-    "source_url": "https://www.theblock.co/post/395128/cryptos-popularity-among-kids-drove-x-games-moonpay-deal-new-energy",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
