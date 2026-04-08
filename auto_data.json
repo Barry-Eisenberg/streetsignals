@@ -1,6 +1,26 @@
 [
   {
     "institution": "The Block",
+    "initiative": "Crypto card boom hits $600 million monthly volume as USDC gains ground on USDT",
+    "description": "Stablecoin composition of card volume is worth watching as a proxy for geographic and demographic shifts in users.",
+    "date": "2026-04-08",
+    "source_url": "https://www.theblock.co/post/396724/crypto-card-boom-600-million-monthly-volume-usdc-gains-ground-usdt",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
     "initiative": "Canary Capital files spot PEPE ETF application with SEC",
     "description": "Last year, Canary also filed an application to list a fund tracking the price of MOG, a then lesser-known memecoin.",
     "date": "2026-04-08",
@@ -9592,25 +9612,6 @@
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin drops to two-week low as $300 million in longs are liquidated",
-    "description": "Bitcoin fell below $67,000 and ether dropped toward $2,000 as equities weakened, oil topped $100 and leveraged longs unwound, signaling fragile sentiment.",
-    "date": "2026-03-27",
-    "source_url": "https://www.coindesk.com/markets/2026/03/27/bitcoin-drops-to-two-week-low-as-usd300-million-in-longs-are-liquidated",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
