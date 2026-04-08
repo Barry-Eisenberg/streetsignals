@@ -1,5 +1,67 @@
 [
   {
+    "institution": "Chainalysis",
+    "initiative": "The $100 Trillion Wealth Shift: Stablecoin Utility and the Future of Payments",
+    "description": "This blog is a preview of our forthcoming report, &#8220;The New Rails: How Digital Assets Are Reshaping the Foundations of&#8230; The post The $100 Trillion Wealth Shift: Stablecoin Utility and the Future of Payments appeared first on Chainalysis .",
+    "date": "2026-04-08",
+    "source_url": "https://www.chainalysis.com/blog/stablecoin-utility-future-of-payments/",
+    "category": "ecosystem",
+    "source_name": "Chainalysis — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin buyers gobbled up nearly 850,000 BTC between $60,000 and $70,000",
+    "description": "A ton of BTC was recently traded below $70,000 in a sign of strong dip demand.",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/markets/2026/04/08/bitcoin-buyers-gobbled-up-nearly-850-000-btc-between-usd60-000-and-usd70-000",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "‘Blocks Are Dead. Long Live Blobs’: Ethereum researchers explore upgrade to ease validator data burden",
+    "description": "The proposal builds on Ethereum's EIP-4844, which introduced blobs for more efficient data availability, and aims to support Layer 1 scaling.",
+    "date": "2026-04-08",
+    "source_url": "https://www.theblock.co/post/396669/blocks-are-dead-long-live-blobs-ethereum-researchers-explore-upgrade-to-ease-validator-data-burden",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Ceasefire lifts bitcoin, but animal spirits may not return just yet",
     "description": "Bitcoin clears a key technical hurdle and eyes $76,000 as a temporary ceasefire with Iran and Morgan Stanley’s landmark ETF debut restore market confidence.",
@@ -9194,6 +9256,28 @@
   },
   {
     "institution": "Finextra",
+    "initiative": "Destabilising the Stable: How Stablecoins Are Perfect for Fraudsters",
+    "description": "Once again, joining FinextraTV to talk about stablecoin development, Professor Andros Gregoriou, Head of REF, Liverpool Business School, Liverpool John Moores University provided his opinion on their use within financial crime. Gregoriou explains how the industry has grown exponentially and how, with this growth, the risk is lower both for regular investors and criminals. When it comes to 24/7 trading on a crypto exchange, Gregoriou describes how these provide even more risks: where later times in a relaxed sector provided ample space for vulnerability. He emphasises how Stablecoins are not just inherently risk-free, and in fact provide a certain flexibility and anonymity to criminal activity, something that needs to be considered when it comes to regulatory changes.",
+    "date": "2026-03-26",
+    "source_url": "https://www.finextra.com/videoarticle/3474/destabilising-the-stable-how-stablecoins-are-perfect-for-fraudsters",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
     "initiative": "Fintech 2026: From Experimentation to Execution",
     "description": "How stablecoins, agentic AI, and infrastructure-led innovation are reshaping financial services into...",
     "date": "2026-03-26",
@@ -9514,88 +9598,6 @@
       "Data & Reporting"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "EU, UK and Switzerland issue T+1 testing plan ahead of joint move on 11 October 2027",
-    "description": "In collaboration, the EU T+1 Industry Committee (IC), UK Accelerated Settlement Taskforce (AST) and Swiss Securities Post-Trade Council (swissSPTC) have outlined logistics and timelines, testing touchpoints and scenarios, and are encouraging firms to analyse their own metrics in order to de-risk the European transition to T+1.",
-    "date": "2026-03-26",
-    "source_url": "https://www.finextra.com/newsarticle/47496/eu-uk-and-switzerland-issue-t1-testing-plan-ahead-of-joint-move-on-11-october-2027",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Settlement & Clearing"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "TradeStation integrates with Trade Ideas for real-time market intelligence execution",
-    "description": "TradeStation Securities, Inc. (“TradeStation”), an award-winning*, self-clearing online brokerage firm for trading stocks, options, futures, and futures options, announced its API integration with Trade Ideas†, a real-time market intelligence platform.",
-    "date": "2026-03-26",
-    "source_url": "https://www.finextra.com/pressarticle/109304/tradestation-integrates-with-trade-ideas-for-real-time-market-intelligence-execution",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Trading & Exchange",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Flywire adds Christine Katziff to board",
-    "description": "Flywire Corporation (Flywire) (Nasdaq: FLYW), a global payments enablement and software company, today announced the appointment of Christine Katziff to its Board of Directors. In connection with her appointment, Ms. Katziff will also join the Audit Committee of the Board of Directors.",
-    "date": "2026-03-26",
-    "source_url": "https://www.finextra.com/pressarticle/109303/flywire-adds-christine-katziff-to-board",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Finix partners Plaid to enhance bank verification and streamline money movement",
-    "description": "Finix, the full-stack payment processor enabling businesses to accept and send payments online and in-store, today announced a partnership and integration with Plaid, a data network that serves as the analytics layer for financial services.",
-    "date": "2026-03-26",
-    "source_url": "https://www.finextra.com/pressarticle/109297/finix-partners-plaid-to-enhance-bank-verification-and-streamline-money-movement",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance",
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
