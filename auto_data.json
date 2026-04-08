@@ -1,5 +1,59 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "BondXN integrates with BlackRock’s Aladdin platform to modernise MBS trading",
+    "description": "BondXN Inc., a leading electronic trading and data venue for mortgage-backed securities (MBS), today announced a multi-year partnership with BlackRock Aladdin.",
+    "date": "2026-04-08",
+    "source_url": "https://www.finextra.com/pressarticle/109404/bondxn-integrates-with-blackrocks-aladdin-platform-to-modernise-mbs-trading",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Arizona Financial Credit Union modernises wire transfer ops with Alacriti",
+    "description": "Arizona Financial Credit Union, a leading Arizona-based credit union serving more than 178,000 members, has partnered with Alacriti to modernize its wire transfer operations as part of a broader payments transformation strategy.",
+    "date": "2026-04-08",
+    "source_url": "https://www.finextra.com/pressarticle/109403/arizona-financial-credit-union-modernises-wire-transfer-ops-with-alacriti",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "SEC appoints David Woodcock as new enforcement director amid concerns over previous lead, agency’s crypto cases",
+    "description": "The SEC has appointed a new enforcement director following the departure of its former chief, a transition that raised concerns.",
+    "date": "2026-04-08",
+    "source_url": "https://www.theblock.co/post/396770/sec-appoints-david-woodcock-new-enforcement-director-amid-concerns-over-previous-lead-crypto-cases",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Michael Saylor says bitcoin has likely bottomed, quantum risk overblown",
     "description": "Speaking at a Mizuho event, the Strategy (MSTR) executive chairman said the formation of banking credit pairing with digital credit will be the catalyst for the next bull market.",
@@ -9194,6 +9248,27 @@
     "year": "2026"
   },
   {
+    "institution": "Connecting the Dots",
+    "initiative": "Visa Deepens Focus on Recurring Payments with Enhanced Subscription Manager",
+    "description": "Hey Payments Fanatic! Visa has introduced its Enhanced Subscription Manager, a new feature aimed at improving consumer transparency and control over recurring payments.&#xA0; The solution leverages technology from Pinwheel, a payroll connectivity firm that joined the Visa FinTech Partner Connect program back in March 2023.&#xA0; That early collaboration",
+    "date": "2026-03-27",
+    "source_url": "https://www.connectingthedotsinpayments.com/visa-deepens-focus-on-recurring-payments-with-enhanced-subscription-manager/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Interoperability & Standards",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Fintech Wrap Up",
     "initiative": "John Caplan (CEO, Payoneer): Cross-Border Payments Are Still Broken",
     "description": "In this episode of the Wrap Up Podcast, I sit down with John Caplan, CEO of Payoneer, to break down why global payments still fail the very businesses they are supposed to serve.",
@@ -9534,83 +9609,6 @@
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin macro risks spike as Ukraine messes with Trump's plan to stabilize oil markets",
-    "description": "Ukraine’s disruption of Russian oil flows has added fresh uncertainty to already strained energy markets, complicating inflation outlooks and keeping pressure on risk assets including bitcoin.",
-    "date": "2026-03-27",
-    "source_url": "https://www.coindesk.com/markets/2026/03/27/bitcoin-macro-risks-spike-as-ukraine-throws-a-spanner-in-trump-s-plan-to-stabilize-oil-markets",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin slides below $68,500 as Trump extends Iran deadline but war risks persist",
-    "description": "Every major is red on the day as the war enters its fifth week with no resolution, though ETF inflows of $2.5 billion over the past month and net exchange outflows suggest institutional accumulation beneath the surface.",
-    "date": "2026-03-27",
-    "source_url": "https://www.coindesk.com/markets/2026/03/27/bitcoin-slides-below-usd68-500-as-trump-extends-iran-deadline-but-war-risks-persist",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Tether hires KPMG for USDT audit, brings in PwC as it gears up for U.S. expansion",
-    "description": "FT identifies KPMG as auditor as stablecoin giant eyes fundraising and expansion under new U.S. rules",
-    "date": "2026-03-27",
-    "source_url": "https://www.coindesk.com/markets/2026/03/27/tether-hires-kpmg-for-usdt-audit-brings-in-pwc-as-it-gears-up-for-u-s-expansion",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "White House crypto czar David Sacks transfers to presidential advisory committee role",
-    "description": "White House AI and Crypto Czar David Sacks said Thursday he was joining the President’s Council of Advisors on Science and Technology and leaving the czar role.",
-    "date": "2026-03-27",
-    "source_url": "https://www.coindesk.com/policy/2026/03/26/white-house-crypto-czar-david-sacks-transfers-to-presidential-advisory-committee-role",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
