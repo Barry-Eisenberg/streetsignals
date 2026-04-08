@@ -1,6 +1,67 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Michael Saylor says bitcoin has likely bottomed, quantum risk overblown",
+    "description": "Speaking at a Mizuho event, the Strategy (MSTR) executive chairman said the formation of banking credit pairing with digital credit will be the catalyst for the next bull market.",
+    "date": "2026-04-08",
+    "source_url": "https://www.coindesk.com/markets/2026/04/08/michael-saylor-says-bitcoin-has-likely-bottomed-quantum-risk-overblown",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "New XFUNDS ETF toggles between bitcoin overnight and Treasuries by day",
+    "description": "NGHT gives investors exposure to overnight bitcoin price swings, switching to less volatile Treasuries during U.S. trading hours.",
+    "date": "2026-04-08",
+    "source_url": "https://www.theblock.co/post/396742/new-xfunds-etf-toggles-between-bitcoin-overnight-treasuries-day",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Stablecoin volumes could hit $1.5 quadrillion by 2035 as onchain payments begin to rival Mastercard, Visa: Chainalysis",
+    "description": "Stablecoins volumes could rival Visa and Mastercard, processing up to $1.5 quadrillion annually by 2035 per a new Chainalysis report.",
+    "date": "2026-04-08",
+    "source_url": "https://www.theblock.co/post/396745/stablecoin-volumes-onchain-payments-rival-mastercard-visa-chainalysis",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Yuga Labs settles Bored Ape NFT lawsuit, ending fight over alleged copycat tokens",
     "description": "The settlement avoids a trial and ends the dispute over the RR/BAYC NFTs, which claimed to parody Bored Ape Yacht Club, one of the most recognizable NFT brands.",
     "date": "2026-04-08",
@@ -9553,66 +9614,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "This is fine: BTC miners losing money, selling tokens, pivoting to AI",
-    "description": "Block reward miners are turning to AI amid profitability decline. Popular miners like MARA sell BTC amid challenges and shift their focus to new revenue streams. The post This is fine: BTC miners losing money, selling tokens, pivoting to AI appeared first on CoinGeek .",
-    "date": "2026-03-27",
-    "source_url": "https://coingeek.com/this-is-fine-btc-miners-losing-money-selling-tokens-pivoting-to-ai/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "FSB annual report warns gaps in ‘crypto’ regulation",
-    "description": "International body FSB warns of regulatory gaps in digital currencies that threaten financial stability; calls for a resilient digital asset ecosystem. The post FSB annual report warns gaps in &#8216;crypto&#8217; regulation appeared first on CoinGeek .",
-    "date": "2026-03-27",
-    "source_url": "https://coingeek.com/fsb-annual-report-warns-gaps-in-crypto-regulation/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Visa Deepens Focus on Recurring Payments with Enhanced Subscription Manager",
-    "description": "Hey Payments Fanatic! Visa has introduced its Enhanced Subscription Manager, a new feature aimed at improving consumer transparency and control over recurring payments.&#xA0; The solution leverages technology from Pinwheel, a payroll connectivity firm that joined the Visa FinTech Partner Connect program back in March 2023.&#xA0; That early collaboration",
-    "date": "2026-03-27",
-    "source_url": "https://www.connectingthedotsinpayments.com/visa-deepens-focus-on-recurring-payments-with-enhanced-subscription-manager/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
