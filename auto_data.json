@@ -1,5 +1,63 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Top Cryptocurrency Exchange Script Providers in the Market",
+    "description": "The cryptocurrency industry in 2026 is no longer defined by experiments. It is driven by the executi...",
+    "date": "2026-04-09",
+    "source_url": "https://www.finextra.com/blogposting/31355/top-cryptocurrency-exchange-script-providers-in-the-market",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "AlphaTON Capital looks to raise $43 million to bolster Telegram’s Cocoon AI infrastructure",
+    "description": "In addition to its sizable TON token treasury, AlphaTON is also focused on supporting Telegram's native decentralized AI platform, Cocoon.",
+    "date": "2026-04-09",
+    "source_url": "https://www.theblock.co/post/396914/alphaton-capital-looks-raise-43-million-bolster-telegram-cocoon-ai",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "US Secret Service freezes $12 million in crypto tied to global fraud in Operation Atlantic",
+    "description": "Authorities disrupted more than 120 cryptocurrency fraud domains, cutting off key infrastructure used to target victims.",
+    "date": "2026-04-09",
+    "source_url": "https://www.theblock.co/post/396911/us-secret-service-freezes-12-million-crypto-global-fraud-operation-atlantic",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Securitize names ex-SEC official Brett Redfearn as president ahead of public listing",
     "description": "Brett Redfearn joins as president as the firm works to build regulated infrastructure for tokenized assets.",
@@ -9521,66 +9579,6 @@
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Coinbase’s Base to focus on tokenized markets, stablecoins, developers this year",
-    "description": "The move comes as the chain distances itself from Optimism technology and toward in-house infrastructure as it seeks greater independence and scale.",
-    "date": "2026-03-31",
-    "source_url": "https://www.coindesk.com/tech/2026/03/31/coinbase-s-base-to-focus-on-tokenized-markets-stablecoins-developers-this-year",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Downside risk remains as bitcoin nears record-tying six-month losing streak",
-    "description": "A close below $67,300 for bitcoin would confirm six straight monthly losses amid ongoing macro pressures.",
-    "date": "2026-03-31",
-    "source_url": "https://www.coindesk.com/markets/2026/03/31/downside-risk-remains-as-bitcoin-nears-record-tying-six-month-losing-streak",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Google warns five quantum attack paths could put $100 billion on Ethereum at risk",
-    "description": "A 57-page whitepaper identifies how future quantum computers could target Ethereum's wallets, smart contracts, staking system, Layer 2 networks and data verification layer, with combined exposure exceeding $100 billion.",
-    "date": "2026-03-31",
-    "source_url": "https://www.coindesk.com/tech/2026/03/31/google-warns-five-quantum-attack-paths-could-put-usd100-billion-on-ethereum-at-risk",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Data & Reporting"
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
