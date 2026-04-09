@@ -1,6 +1,23 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "CFTC presses case that sports betting is finance, seeks to block Arizona enforcement",
+    "description": "Federal lawsuit argues event contracts are swaps under U.S. law, not state-level gaming law, deepening a split with states that view the products as illegal gambling",
+    "date": "2026-04-09",
+    "source_url": "https://www.coindesk.com/policy/2026/04/09/cftc-presses-case-that-sports-betting-is-finance-seeks-to-block-arizona-enforcement",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "XRP slips 4% as selling pressure builds despite ETF inflows",
     "description": "Elevated volume and modest institutional buying fail to support price, with sellers continuing to dominate near resistance.",
     "date": "2026-04-09",
@@ -1949,6 +1966,25 @@
       "Payments & Transfers"
     ],
     "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Where Are Prediction Markets Legal? Polymarket, Kalshi, and Pariflow Availability by Country",
+    "description": "Prediction markets let people trade on real-world outcomes such as elections, sports, crypto prices,...",
+    "date": "2026-04-07",
+    "source_url": "https://www.finextra.com/blogposting/31345/where-are-prediction-markets-legal-polymarket-kalshi-and-pariflow-availability-by-country",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
     "year": "2026"
   },
   {
@@ -9567,43 +9603,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Crypto Startup Bet on Its Own Fundraise on Polymarket, Then Apologized",
-    "description": "P2P.me, a decentralized trading platform, disclosed Thursday that its team opened positions on Polymarket wagering on the outcome of its own capital raise, then issued a public apology after the trades surfaced on-chain. The team placed bets 10 days before the raise went live that the project would hit its ... The post Crypto Startup Bet on Its Own Fundraise on Polymarket, Then Apologized appeared first on Unchained .",
-    "date": "2026-03-28",
-    "source_url": "https://unchainedcrypto.com/crypto-startup-bet-on-its-own-fundraise-on-polymarket-then-apologized/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "BIS extends term for John Williams as Chair of the Markets Committee",
-    "description": "John C. Williams, President and Chief Executive Officer of the Federal Reserve Bank of New York, is to continue as Chair of the Bank for International Settlements' Markets Committee.",
-    "date": "2026-03-27",
-    "source_url": "https://www.bis.org/press/p260327.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
     ],
     "year": "2026"
   }
