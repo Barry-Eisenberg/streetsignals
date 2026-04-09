@@ -1,5 +1,43 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "CryptoQuant says bitcoin, ether rally driven by new long positions in perpetual futures",
+    "description": "Open interest in BTC and ETH perpetual futures rose by over $2 billion each in 24 hours after the U.S.-Iran ceasefire announcement.",
+    "date": "2026-04-09",
+    "source_url": "https://www.theblock.co/post/396943/cryptoquant-bitcoin-ether-price-rally-perpetual-futures",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Binance’s Changpeng Zhao claims U.S. crypto rivals ‘paid millions’ to block his pardon",
+    "description": "The Binance founder also says friends told him firms funded \"smear articles\" because they opposed Binance doing business in the U.S.",
+    "date": "2026-04-09",
+    "source_url": "https://www.theblock.co/post/396926/binance-changpeng-zhao-claims-crypto-rivals-paid-millions-block-pardon",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Kalshi now controls 89% of the U.S. prediction market as regulated trading takes over",
     "description": "As Kalshi captures a dominant 89% of the market, a high-stakes legal battle between federal regulators and individual states will determine if these platforms are treated as sophisticated financial tools or just another form of gambling.",
@@ -9542,44 +9580,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitfarms targets zero bitcoin on the balance sheet as it pivots to AI",
-    "description": "The company is actively selling bitcoin and redeploying capital into AI-focused data centers as part of a broader transformation away from mining.",
-    "date": "2026-03-31",
-    "source_url": "https://www.coindesk.com/markets/2026/03/31/bitfarms-targets-zero-bitcoin-on-the-balance-sheet-as-it-pivots-to-ai",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "CoinDesk 20 performance update: Bitcoin Cash (BCH) gains 1.5% as index trades flat",
-    "description": "NEAR Protocol (NEAR), up 1.9% from Monday, joined Bitcoin Cash (BCH) as a top performer.",
-    "date": "2026-03-31",
-    "source_url": "https://www.coindesk.com/coindesk-indices/2026/03/31/coindesk-20-performance-update-bitcoin-cash-bch-gains-1-5-as-index-trades-flat",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
