@@ -1,6 +1,101 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bithumb moves to seize assets over mistaken $8 million bitcoin dispute",
+    "description": "On Feb. 6, staff mistakenly entered \"BTC\" instead of \"KRW\" in a promotion, crediting roughly 620,000 bitcoin worth over $40 billion.",
+    "date": "2026-04-09",
+    "source_url": "https://www.coindesk.com/business/2026/04/09/bithumb-moves-to-seize-assets-over-mistaken-usd8-million-bitcoin-dispute",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "The ‘bottom is in’: Why Tom Lee says the Iran ceasefire is the starting gun for a massive bitcoin rally",
+    "description": "The Fundstrat co-founder and largest corporate ether buyer on earth said the ceasefire means the worst is over. His company bought 71,252 ETH last week.",
+    "date": "2026-04-09",
+    "source_url": "https://www.coindesk.com/markets/2026/04/09/fundstrat-s-tom-lee-says-the-bottom-is-in-for-stocks-paving-a-bull-case-for-bitcoin-and-ether",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "APAC tops world digital wallet use; US sticks to cards, for now",
+    "description": "The Global Payments Report highlights a surge in digital wallet use, especially in APAC, forecasting significant shifts in payment trends by 2030. The post APAC tops world digital wallet use; US sticks to cards, for now appeared first on CoinGeek .",
+    "date": "2026-04-09",
+    "source_url": "https://coingeek.com/apac-tops-world-digital-wallet-use-us-sticks-to-cards-for-now/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Perpetuals rolls out Quantum-Resilience-as-a-Service",
+    "description": "Nasdaq-listed fintech Perpetuals has unveiled Quantum-Resilience-as-a-Service (QRaaS), a security offering built to help financial institutions, trading platforms, and payment networks strengthen encryption against emerging quantum threats without overhauling existing systems.",
+    "date": "2026-04-09",
+    "source_url": "https://www.finextra.com/newsarticle/47553/perpetuals-rolls-out-quantum-resilience-as-a-service",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Revolut introduces AI assistant for money management",
+    "description": "Revolut has launched a new AI assistant to help customers with money management tasks, enabling users to get instant spending insights, check investments, manage subscriptions or plan a trip all through a single in-app conversation",
+    "date": "2026-04-09",
+    "source_url": "https://www.finextra.com/newsarticle/47551/revolut-introduces-ai-assistant-for-money-management",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Iran's crypto tanker tolls are the latest step in its sanctions‑busting trade network",
     "description": "The Iranian regime has been increasingly using cryptocurrency over the last few years to facilitate cross border oil trading, according to data from Chainalysis.",
     "date": "2026-04-09",
@@ -9510,99 +9605,6 @@
       "DLT / Blockchain Infrastructure",
       "DeFi"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Philippines’ Marcos pushes digital payments for fuel subsidies",
-    "description": "The Philippines boosts fuel subsidies for PUV drivers amid rising oil prices, embracing digital payments as cashless transactions surge to 43% in 2026. The post Philippines&#8217; Marcos pushes digital payments for fuel subsidies appeared first on CoinGeek .",
-    "date": "2026-03-30",
-    "source_url": "https://coingeek.com/philippines-marcos-pushes-digital-payments-for-fuel-subsidies/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Vipps Sells Checkout to Kustom: A Nordic Payments Power Shift",
-    "description": "Hey Payments Fanatic! Vipps MobilePay is shaking up the Nordic payments landscape by selling its Checkout solution to Kustom, the emerging payments platform spun out from Klarna. Rather than keeping its own online checkout stack, Vipps is doubling down on its core identity as a mobile&#x2011;first payment brand",
-    "date": "2026-03-30",
-    "source_url": "https://www.connectingthedotsinpayments.com/vipps-sells-checkout-to-kustom-a-nordic-payments-power-shift/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Nium launches dual-network stablecoin card issuance platform",
-    "description": "B2B cross-border payments infrastructure provider Nium has launched a duel-network stablecoin card issuance platform, enabling businesses to spend digital dollars at hundreds of millions of merchant locations worldwide.",
-    "date": "2026-03-30",
-    "source_url": "https://www.finextra.com/newsarticle/47509/nium-launches-dual-network-stablecoin-card-issuance-platform",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Wise launches UK Current Account",
-    "description": "Money transfer outfit Wise is launching current accounts for its three million active UK customers and business clients.",
-    "date": "2026-03-30",
-    "source_url": "https://www.finextra.com/newsarticle/47514/wise-launches-uk-current-account",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Lloyds Bank and University of Glasgow to research impact of AI on software engineering",
-    "description": "The University of Glasgow and Lloyds Banking Group have launched a four‑year research partnership to explore how AI can support software and data engineering.",
-    "date": "2026-03-30",
-    "source_url": "https://www.finextra.com/newsarticle/47513/lloyds-bank-and-university-of-glasgow-to-research-impact-of-ai-on-software-engineering",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
