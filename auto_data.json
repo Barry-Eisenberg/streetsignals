@@ -1,5 +1,83 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin shoots above $72,000 as optimism grows over Middle East ceasefire",
+    "description": "Israeli Prime Minister Netanyahu reportedly has signaled a willingness to negotiate with Lebanon.",
+    "date": "2026-04-09",
+    "source_url": "https://www.coindesk.com/markets/2026/04/09/bitcoin-shoots-above-usd72-000-as-optimism-grows-over-middle-east-ceasefire",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "TD Cowen says White House stablecoin report unlikely to change hurdles for crypto bill, sees even tougher path ahead",
+    "description": "TD Cowen said the path for the crypto bill could become even tougher following the recent White House report on stablecoins.",
+    "date": "2026-04-09",
+    "source_url": "https://www.theblock.co/post/396891/td-cowen-white-house-stablecoin-report-crypto-bill-update",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Telegram’s Pavel Durov touts TON’s upgraded ‘one second’ transaction speed",
+    "description": "TON, the Telegram-focused blockchain, said the network upgrade will deliver sub-second finality on mainnet starting April 10.",
+    "date": "2026-04-09",
+    "source_url": "https://www.theblock.co/post/396889/telegrams-pavel-durov-touts-tons-upgraded-one-second-transaction-speed",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "CME Bitcoin futures activity slumps to 14-month low as basis trade unwind drains institutional demand",
+    "description": "CME has lost its position as the largest Bitcoin futures exchange to Binance for the first time since November 2023.",
+    "date": "2026-04-09",
+    "source_url": "https://www.theblock.co/post/396722/cme-bitcoin-futures-activity-slumps-to-14-month-low-as-basis-trade-unwind-drains-institutional-demand",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Federal Reserve Board announces termination of enforcement actions with Crédit Agricole S.A. and Crédit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.",
     "description": "Federal Reserve Board announces termination of enforcement actions with Cr&eacute;dit Agricole S.A. and Cr&eacute;dit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.",
@@ -8951,6 +9029,28 @@
     "year": "2026"
   },
   {
+    "institution": "Connecting the Dots",
+    "initiative": "VaulFi and Noah Launch First Direct-to-Bank Stablecoin Bridge for North Africa",
+    "description": "Hey Payments Fanatic! VaulFi, the stablecoin-powered neobank, and Noah, the global payments infrastructure provider, are partnering to eliminate the &quot;Triple Extraction Problem&quot; in North Africa. This problem represents a combination of high commissions, predatory FX rates, and a widening 80% gap between official and parallel currency markets. With",
+    "date": "2026-03-31",
+    "source_url": "https://www.connectingthedotsinpayments.com/vaulfi-and-noah-launch-first-direct-to-bank-stablecoin-bridge-for-north-africa/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Have The Rules of Data Interpretation Changed for Wealth Management?",
     "description": "Joining FinextraTV at Communify Intelligence Experience in Miami, Padman Perumal, Managing Partner, RPM Investors, discussed the evolving role of data interpretation, with the invent of new technologies. Perumal first addresses the complexity of wealth management, explaining how - in order to stay competitive - firms need to rely on both structured and unstructured data and must have the capability to interpret both. While technology complicates, Perumal also asserts that it also provides an ability to handle that additional complexity. When looking toward where technology most of all, he tells firms to ask two fundamental questions: What outcome are you looking for? And where does friction exist?",
@@ -9485,102 +9585,6 @@
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "David Bailey’s Nakamoto sells roughly 5% of its bitcoin holdings, offloading 284 BTC",
-    "description": "The sale underscores liquidity pressures as the company continues its pivot to a bitcoin treasury strategy.",
-    "date": "2026-03-31",
-    "source_url": "https://www.coindesk.com/markets/2026/03/31/david-bailey-s-nakamoto-sells-roughly-5-of-its-bitcoin-holdings-offloading-284-btc",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Hashdex’s diversified crypto ETF adds options for hedging, income generation",
-    "description": "Options on Hashdex’s diversified NCIQ ETF now let investors hedge, generate income and manage risk across a broad basket of digital assets.",
-    "date": "2026-03-31",
-    "source_url": "https://www.coindesk.com/markets/2026/03/31/hashdex-s-diversified-crypto-etf-adds-options-for-hedging-income-generation",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto investment firm Keyrock valued at $1.1 billion in Series C led by SC Ventures",
-    "description": "The Brussels-based digital asset firm said the new capital will bolster its balance sheet and support expansion and acquisitions.",
-    "date": "2026-03-31",
-    "source_url": "https://www.coindesk.com/business/2026/03/31/crypto-investment-firm-keyrock-valued-at-usd1-1-billion-in-series-c-led-by-sc-ventures",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin demand falters as 'real' interest rates surge",
-    "description": "Rising U.S. real yields, especially on 10-year TIPS, pose a headwind to zero-yielding risk assets like bitcoin.",
-    "date": "2026-03-31",
-    "source_url": "https://www.coindesk.com/markets/2026/03/31/bitcoin-demand-falters-as-real-interest-rates-surge",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin holds $67,500 as Trump signals he may end Iran war with Hormuz still shut",
-    "description": "Equity futures rallied and oil erased gains on the report, but the S&P 500 is on its longest losing streak since 2022 and MSCI Asia Pacific is heading for its worst month since 2008.",
-    "date": "2026-03-31",
-    "source_url": "https://www.coindesk.com/markets/2026/03/31/bitcoin-holds-usd67-500-as-trump-signals-he-may-end-iran-war-with-hormuz-still-shut",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
       "Trading & Exchange"
     ],
     "initiative_types": [
