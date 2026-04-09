@@ -1,5 +1,177 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "Denis Beau: Stablecoins - what strategic choices for Europe?",
+    "description": "Speaking points (virtually) by Mr Denis Beau, First Deputy Governor of the Bank of France, at the EUROFI High Level Seminar, session \"Stablecoins: what strategic choices for Europe?\", Nicosia, 26 March 2026.",
+    "date": "2026-04-09",
+    "source_url": "https://www.bis.org/review/r260331b.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Gabriel Makhlouf: Inflation, growth, and monetary policy in a fractured world",
+    "description": "Speech by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at MNI Connect, Dublin, 1 April 2026.",
+    "date": "2026-04-09",
+    "source_url": "https://www.bis.org/review/r260409b.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainalysis",
+    "initiative": "Operation Atlantic: How Public-Private Collaboration Is Freezing Millions in Crypto Scam Proceeds",
+    "description": "Last week, Chainalysis joined a proactive joint operation co-hosted by the UK’s National Crime Agency (NCA), the US Secret Service,&#8230; The post Operation Atlantic: How Public-Private Collaboration Is Freezing Millions in Crypto Scam Proceeds appeared first on Chainalysis .",
+    "date": "2026-04-09",
+    "source_url": "https://www.chainalysis.com/blog/operation-atlantic-freezing-crypto-scam-proceeds/",
+    "category": "ecosystem",
+    "source_name": "Chainalysis — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Trump's World Liberty Financial borrowed millions from a protocol its own advisor co-founded",
+    "description": "Onchain data shows WLFI deposited 5 billion of its own tokens as collateral to borrow stablecoins it then sent to Coinbase Prime, pushing a lending pool to 100% utilization and leaving depositors unable to withdraw.",
+    "date": "2026-04-09",
+    "source_url": "https://www.coindesk.com/markets/2026/04/09/trump-s-world-liberty-financial-borrows-usd75-million-against-its-own-token-trapping-depositors-on-dolomite",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "BitMEX co-founder donates $5 million to Nigel Farage’s Reform UK party",
+    "description": "Delo did not specify whether he made the donation in fiat currency or crypto, but he expressed support for a proposed U.K. government moratorium on political donations made in cryptoassets",
+    "date": "2026-04-09",
+    "source_url": "https://www.coindesk.com/business/2026/04/09/bitmex-co-founder-donates-usd5-million-to-nigel-farage-s-reform-uk-party",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Mike Novogratz spotlights Helios as $15 billion powerhouse in Galaxy Digital annual report",
+    "description": "The company's Nasdaq debut was a turning point toward infrastructure-led growth in the digital economy, said Novogratz.",
+    "date": "2026-04-09",
+    "source_url": "https://www.coindesk.com/markets/2026/04/09/mike-novogratz-spotlights-helios-as-usd15-billion-powerhouse-in-galaxy-digital-annual-report",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Synthetic identities and agentic bots posing as humans contribute to 8% rise in fraud",
+    "description": "LexisNexis Risk Solutions' latest Cybercrime Report reveals key global fraud trends emerging over the past year. Derived from analysis of more than 116 billion online transactions detected through our LexisNexis Digital Identity Network in 2025, the report shows a significant 8% rise in global fraud rates driven by attacks targeting the gaming and gambling and ecommerce sectors, cost of living pressures and new emerging fraud tactics.",
+    "date": "2026-04-09",
+    "source_url": "https://www.finextra.com/pressarticle/109417/synthetic-identities-and-agentic-bots-posing-as-humans-contribute-to-8-rise-in-fraud",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Stablecoin FX nears ‘institutional-grade’ parity with bank rails in LATAM and East Africa: report",
+    "description": "Borderless data shows stablecoin FX is nearing parity with traditional banking rails across key markets like LATAM and East Africa.",
+    "date": "2026-04-09",
+    "source_url": "https://www.theblock.co/post/396866/stablecoin-fx-nears-institutional-grade-parity-with-bank-rails-in-latam-and-east-africa-report",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Tom Lee’s Bitmine uplists to NYSE with 4.8M ETH and $4 billion buyback authorization",
+    "description": "Bitmine uplists to the NYSE, expands its share buyback, and continues building one of the largest ETH treasuries.",
+    "date": "2026-04-09",
+    "source_url": "https://www.theblock.co/post/396865/tom-lees-bitmine-uplists-nyse-eth-4-billion-buyback-authorization",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "CoinDesk 20 performance update: Bitcoin (BTC) trades flat as index declines",
     "description": "Aave (AAVE) dropped 3.6% and Stellar (XLM) fell 2.7%, leading the index lower.",
@@ -9416,181 +9588,6 @@
     "signal_type": "Strategic Partnership",
     "fmi_areas": [
       "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Ethical savings app Zero ceases trading",
-    "description": "Customers of sustainable money app Zero are being urged to draw down their funds as the firm ceases trading today.",
-    "date": "2026-03-31",
-    "source_url": "https://www.finextra.com/newsarticle/47518/ethical-savings-app-zero-ceases-trading",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Reserve Bank of Australia to introduce caps on interchange fees",
-    "description": "The Reserve Bank of Australia is to ban merchant surcharging and cap interchange fees in an effort to boost competition in the payments sector.",
-    "date": "2026-03-31",
-    "source_url": "https://www.finextra.com/newsarticle/47517/reserve-bank-of-australia-to-introduce-caps-on-interchange-fees",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "TPA calls on Government to take action over Meta's role in fraud crisis",
-    "description": "The Payments Association is calling for a shared responsibility regulatory framework after revealing that two-thirds of the £250 million lost to APP fraud in early 2025 originated on digital platforms like Facebook and Instagram.",
-    "date": "2026-03-31",
-    "source_url": "https://www.finextra.com/newsarticle/47516/tpa-calls-on-government-to-take-action-over-metas-role-in-fraud-crisis",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Swift says blockchain-based shared ledger will go live with real transactions this year",
-    "description": "Swift has begun building the first iteration of its blockchain-based shared ledger, enabling interoperability between banks’ tokenised deposits to facilitate 24/7 cross-border payments.",
-    "date": "2026-03-31",
-    "source_url": "https://www.finextra.com/newsarticle/47515/swift-says-blockchain-based-shared-ledger-will-go-live-with-real-transactions-this-year",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Tokenization & Issuance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Daylit launches AI agents for AR collections & real-time cash intelligence",
-    "description": "Daylit today launched its AI agents platform for accounts receivable (AR), enabling finance teams to accelerate collection and transform receivables into a strategic driver of working capital performance.",
-    "date": "2026-03-31",
-    "source_url": "https://www.finextra.com/pressarticle/109334/daylit-launches-ai-agents-for-ar-collections--real-time-cash-intelligence",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Convera taps Ripple for stablecoin-based cross-border payments",
-    "description": "Convera, a global leader in commercial payments, today announced a new strategic collaboration with Ripple, a leading provider of blockchain-based enterprise solutions across traditional and digital finance, to offer crypto-enabled payment and treasury solutions for businesses.",
-    "date": "2026-03-31",
-    "source_url": "https://www.finextra.com/pressarticle/109332/convera-taps-ripple-for-stablecoin-based-cross-border-payments",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Regnology adds agentic AI layer to regulatory reporting platform",
-    "description": "Regnology, a global leading provider at the intersection of regulatory, risk, finance and supervisory technology, today announced the evolution of Ascend, the next‑generation Regnology platform.",
-    "date": "2026-03-31",
-    "source_url": "https://www.finextra.com/pressarticle/109331/regnology-adds-agentic-ai-layer-to-regulatory-reporting-platform",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Liberis expands embedded finance partnership with Elavon into Canada",
-    "description": "Liberis (Liberis US Inc.), a leading global embedded finance platform, today announced an extended partnership with Elavon, a leading payments provider and subsidiary of U.S. Bank (NYSE: USB), to launch Quick Capital, a seamless funding solution for small businesses across Canada.",
-    "date": "2026-03-31",
-    "source_url": "https://www.finextra.com/pressarticle/109330/liberis-expands-embedded-finance-partnership-with-elavon-into-canada",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Marqeta introduces AI-powered risk decisioning",
-    "description": "Marqeta, Inc. (NASDAQ: MQ), the modern card issuing platform, today announced it enhanced its Real-Time Decisioning (RTD) offering with an AI-powered risk score that analyzes transaction risk levels at the point of the authorization decision.",
-    "date": "2026-03-31",
-    "source_url": "https://www.finextra.com/pressarticle/109329/marqeta-introduces-ai-powered-risk-decisioning",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
     ],
     "initiative_types": [],
     "year": "2026"
