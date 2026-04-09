@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bitcoin tops $72,000, but Circle and Bullish drop sharply after downgrades",
+    "description": "Eased Middle East tensions pushed crypto prices and U.S. stocks sizable hjigher.",
+    "date": "2026-04-09",
+    "source_url": "https://www.coindesk.com/markets/2026/04/09/bitcoin-tops-usd72-000-but-circle-and-bullish-drop-sharply-after-downgrades",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "These 3 crypto stocks could actually beat bitcoin ETFs, says TD Cowen",
     "description": "Analyst Lance Vitanza is betting that digital asset treasury\"companies like Nakamoto, SharpLink and Strive can outperform standard crypto ETFs by aggressively stacking coins and capturing staking yields.",
     "date": "2026-04-09",
@@ -9562,27 +9581,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Why 12 European banks are teaming up to save the euro from digital dollarization",
-    "description": "In an interview with CoinDesk, the CEO of a 12-member consortium explains why Europe is racing to put the euro onchain and compete with dollar dominance in crypto markets.",
-    "date": "2026-03-31",
-    "source_url": "https://www.coindesk.com/business/2026/03/31/europe-faces-digital-dollarization-without-a-euro-stablecoin-of-its-own-warns-qivalis-ceo",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
