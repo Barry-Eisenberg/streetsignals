@@ -1,5 +1,81 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "CoinDesk 20 performance update: Bitcoin (BTC) trades flat as index declines",
+    "description": "Aave (AAVE) dropped 3.6% and Stellar (XLM) fell 2.7%, leading the index lower.",
+    "date": "2026-04-09",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/09/coindesk-20-performance-update-bitcoin-btc-trades-flat-as-index-declines",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Banks are treading carefully on stablecoins despite market growth, S&P Global says",
+    "description": "Most U.S. lenders remain in a wait-and-see mode as deposit risks, regulatory shifts and new competition complicate strategy, according to the report.",
+    "date": "2026-04-09",
+    "source_url": "https://www.coindesk.com/business/2026/04/09/banks-are-treading-carefully-on-stablecoins-despite-market-growth-s-and-p-global-says",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Fartcoin's price crashed 50% after $145 million manipulation bet went wrong",
+    "description": "The liquidation was so large relative to the order book that Hyperliquid's auto-deleveraging mechanism activated, forcibly closing profitable short positions on the other side of the trade to prevent the system from accumulating bad debt.",
+    "date": "2026-04-09",
+    "source_url": "https://www.coindesk.com/markets/2026/04/09/someone-tried-to-manipulate-fartcoin-s-price-with-a-usd145-million-long-it-crashed-50",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "PayPal brings payment links to Canva creators",
+    "description": "PayPal is integrating payment links into visual communication and graphic design platform Canva.",
+    "date": "2026-04-09",
+    "source_url": "https://www.finextra.com/newsarticle/47554/paypal-brings-payment-links-to-canva-creators",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Chainalysis",
     "initiative": "The Drift Protocol Hack: How Privileged Access Led to a $285 Million Loss",
     "description": "TL;DR On April 1, 2026, Solana’s Drift Protocol was drained of $285 million (over 50% of its TVL) in a&#8230; The post The Drift Protocol Hack: How Privileged Access Led to a $285 Million Loss appeared first on Chainalysis .",
@@ -8574,6 +8650,24 @@
   },
   {
     "institution": "Finextra",
+    "initiative": "Have The Rules of Data Interpretation Changed for Wealth Management?",
+    "description": "Joining FinextraTV at Communify Intelligence Experience in Miami, Padman Perumal, Managing Partner, RPM Investors, discussed the evolving role of data interpretation, with the invent of new technologies. Perumal first addresses the complexity of wealth management, explaining how - in order to stay competitive - firms need to rely on both structured and unstructured data and must have the capability to interpret both. While technology complicates, Perumal also asserts that it also provides an ability to handle that additional complexity. When looking toward where technology most of all, he tells firms to ask two fundamental questions: What outcome are you looking for? And where does friction exist?",
+    "date": "2026-03-31",
+    "source_url": "https://www.finextra.com/videoarticle/3465/have-the-rules-of-data-interpretation-changed-for-wealth-management",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
     "initiative": "Key Innovations in Real-World Asset (RWA) Tokenization in 2026",
     "description": "In 2026, real-world asset (RWA) tokenization has evolved from a niche blockchain experiment into a m...",
     "date": "2026-03-31",
@@ -9495,95 +9589,6 @@
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "CGI puts AI agents to work on credit default management",
-    "description": "CGI (TSX: GIB.A) (NYSE: GIB) today announced the launch of new AI capabilities within CGI Credit Studio, its cloud-native platform for default management.",
-    "date": "2026-03-31",
-    "source_url": "https://www.finextra.com/pressarticle/109328/cgi-puts-ai-agents-to-work-on-credit-default-management",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Due dilligence startup Eunice raises $8 million",
-    "description": "Eunice, the London-based company building institutional-grade due diligence infrastructure for regulated markets, raised $8 million in seed and pre-seed funding led by Moonfire Ventures and Speedinvest, with participation from Openspace Ventures.",
-    "date": "2026-03-31",
-    "source_url": "https://www.finextra.com/pressarticle/109327/due-dilligence-startup-eunice-raises-8-million",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Nexi expands partnership with PayPal",
-    "description": "Nexi, the European PayTech, and PayPal, the global leader in digital payments, today announced an expansion of their partnership.",
-    "date": "2026-03-31",
-    "source_url": "https://www.finextra.com/pressarticle/109325/nexi-expands-partnership-with-paypal",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "BMO introduces tokenized cash and deposit platform with CME Group and Google Cloud",
-    "description": "BMO, in collaboration with CME Group and Google Cloud, today announced plans to introduce new 24/7 tokenized cash capabilities that will allow institutional clients to move value more easily and securely using CME Group's permissioned network on Google Cloud Universal Ledger (GCUL).",
-    "date": "2026-03-31",
-    "source_url": "https://www.finextra.com/pressarticle/109324/bmo-introduces-tokenized-cash-and-deposit-platform-with-cme-group-and-google-cloud",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Qodo raises $70 million for AI code verification",
-    "description": "Today, we are thrilled to announce that Qodo has raised $70 million in Series B funding, bringing total capital raised to $120 million.",
-    "date": "2026-03-31",
-    "source_url": "https://www.finextra.com/pressarticle/109323/qodo-raises-70-million-for-ai-code-verification",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
     "fmi_areas": [
       "General Infrastructure"
     ],
