@@ -1,5 +1,135 @@
 [
   {
+    "institution": "Federal Reserve",
+    "initiative": "Federal Reserve Board announces termination of enforcement actions with Crédit Agricole S.A. and Crédit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.",
+    "description": "Federal Reserve Board announces termination of enforcement actions with Cr&eacute;dit Agricole S.A. and Cr&eacute;dit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.",
+    "date": "2026-04-09",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260409a.htm",
+    "category": "regulators",
+    "source_name": "Federal Reserve — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Crypto for Advisors: Crypto’s Performance Q1",
+    "description": "Q1 digital asset review: geopolitical conflict and Fed caution led to declines, but institutional flows and regulatory clarity returned in March, building a durable foundation for Q2",
+    "date": "2026-04-09",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/08/crypto-for-advisors-crypto-s-performance-q1",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Stablecoin volumes to reach $719T by 2035 as generational wealth shift speeds up crypto adoption",
+    "description": "Massive transfer of wealth to younger, crypto-native users and rising payment volumes challenge dominance of Visa and Mastercard",
+    "date": "2026-04-09",
+    "source_url": "https://www.coindesk.com/business/2026/04/09/stablecoin-volumes-to-reach-usd719t-by-2035-as-generational-wealth-shift-speeds-up-crypto-adoption",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Tom Lee's Bitmine uplists to NYSE, expands buyback authorization to $4 billion",
+    "description": "The company holds nearly 4% of ether's (ETH) total supply, but shares have struggled alongside that crypto.",
+    "date": "2026-04-09",
+    "source_url": "https://www.coindesk.com/markets/2026/04/09/tom-lee-s-bitmine-lists-on-nyse-expands-usd4-billion-buyback-as-eth-bet-deepens",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Oracle introduces Fusion agentic applications for finance and supply chains",
+    "description": "Oracle today announced Fusion Agentic Applications for finance and supply chain operations. The new agentic applications are powered by coordinated teams of specialized AI agents that are outcome-driven, proactive, reasoning-based, and engineered for enterprise execution.",
+    "date": "2026-04-09",
+    "source_url": "https://www.finextra.com/pressarticle/109418/oracle-introduces-fusion-agentic-applications-for-finance-and-supply-chains",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Oracle applies AI agents to financial crime and compliance suite",
+    "description": "Oracle continues to strengthen its financial crime and compliance portfolio with new AI capabilities that accelerate investigations, insights, and results.",
+    "date": "2026-04-09",
+    "source_url": "https://www.finextra.com/pressarticle/109419/oracle-applies-ai-agents-to-financial-crime-and-compliance-suite",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Former SEC, JPMorgan exec Brett Redfearn joins Securitize as president",
+    "description": "The tokenization firm Securitize accounts for roughly 70% of the U.S. tokenization market and works with BlackRock and Apollo.",
+    "date": "2026-04-09",
+    "source_url": "https://www.theblock.co/post/396875/former-sec-jpmorgan-exec-brett-redfearn-joins-securitize",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Denis Beau: Stablecoins - what strategic choices for Europe?",
     "description": "Speaking points (virtually) by Mr Denis Beau, First Deputy Governor of the Bank of France, at the EUROFI High Level Seminar, session \"Stablecoins: what strategic choices for Europe?\", Nicosia, 26 March 2026.",
@@ -9456,140 +9586,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Maryland man charged in $50 million Uranium Finance hack after U.S. seized $31 million in crypto",
-    "description": "Prosecutors say Jonathan Spalletta exploited smart contract bugs twice in April 2021, laundering funds through Tornado Cash and spending proceeds on rare collectibles.",
-    "date": "2026-03-31",
-    "source_url": "https://www.coindesk.com/policy/2026/03/31/maryland-man-charged-in-usd50-million-uranium-finance-hack-after-u-s-seized-usd31-million-in-crypto",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Binance Australia fined $6.9M over trading losses",
-    "description": "Oztures Trading, operating as Binance Australia Derivatives, faces a $6.86M penalty for misclassifying clients and exposing them to high-risk products. The post Binance Australia fined $6.9M over trading losses appeared first on CoinGeek .",
-    "date": "2026-03-31",
-    "source_url": "https://coingeek.com/binance-australia-fined-6-9m-over-trading-losses/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "UK bans digital asset donations to political parties",
-    "description": "The U.K. imposes an emergency ban on crypto donations to political parties to prevent foreign interference and enhance transparency in political finance. The post UK bans digital asset donations to political parties appeared first on CoinGeek .",
-    "date": "2026-03-31",
-    "source_url": "https://coingeek.com/uk-bans-digital-asset-donations-to-political-parties/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "US stablecoin compromise making enemies on both sides",
-    "description": "Stablecoin clashes and CLARITY Act debates deepen as Trump influence, SEC scrutiny, and crypto lobbying intensify ahead of U.S. midterms. The post US stablecoin compromise making enemies on both sides appeared first on CoinGeek .",
-    "date": "2026-03-31",
-    "source_url": "https://coingeek.com/us-stablecoin-compromise-making-enemies-on-both-sides/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "VaulFi and Noah Launch First Direct-to-Bank Stablecoin Bridge for North Africa",
-    "description": "Hey Payments Fanatic! VaulFi, the stablecoin-powered neobank, and Noah, the global payments infrastructure provider, are partnering to eliminate the &quot;Triple Extraction Problem&quot; in North Africa. This problem represents a combination of high commissions, predatory FX rates, and a widening 80% gap between official and parallel currency markets. With",
-    "date": "2026-03-31",
-    "source_url": "https://www.connectingthedotsinpayments.com/vaulfi-and-noah-launch-first-direct-to-bank-stablecoin-bridge-for-north-africa/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Crypto investment specialist Keyrock hits $1.1n valuation",
-    "description": "Keyrock, an investment group built for digital assets, has joined the unicorn club after securing Series C funding led by SC Ventures with support from Ripple.",
-    "date": "2026-03-31",
-    "source_url": "https://www.finextra.com/newsarticle/47522/crypto-investment-specialist-keyrock-hits-11n-valuation",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "LSEG partners Dell to build private cloud platform",
-    "description": "Stock exchange operator LSEG is set to build a private cloud platform as part of a multi-year deal with Dell Technologies.",
-    "date": "2026-03-31",
-    "source_url": "https://www.finextra.com/newsarticle/47519/lseg-partners-dell-to-build-private-cloud-platform",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
