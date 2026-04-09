@@ -1,5 +1,308 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "Michael S Barr: Brief remarks on stablecoins",
+    "description": "Speech by Mr Michael S Barr, Member of the Board of Governors of the Federal Reserve System, at \"The GENIUS Act in practice: key questions for stablecoin regulation\", The Federalist Society, Washington DC, 31 March 2026.",
+    "date": "2026-04-09",
+    "source_url": "https://www.bis.org/review/r260408b.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Piero Cipollone: The digital euro - preparing for a potential launch",
+    "description": "Introductory statement by Mr Piero Cipollone, Member of the Executive Board of the European Central Bank, at the Committee on Economic and Monetary Affairs of the European Parliament, Brussels, 24 March 2026.",
+    "date": "2026-04-09",
+    "source_url": "https://www.bis.org/review/r260407e.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "CBDC"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Piero Cipollone: Building the rails for Europe's tokenised financial markets",
+    "description": "Keynote speech by Mr Piero Cipollone, Member of the Executive Board of the European Central Bank, at an event on \"Building Europe's integrated digital asset ecosystem: from vision to implementation\", hosted by the House of the Euro, Brussels, 23 March 2026.",
+    "date": "2026-04-09",
+    "source_url": "https://www.bis.org/review/r260407g.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Michelle W Bowman: Supporting small businesses",
+    "description": "Speech by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the CBA LIVE 26, organised by the Consumer Bankers Association, San Diego, California, 31 March 2026.",
+    "date": "2026-04-09",
+    "source_url": "https://www.bis.org/review/r260408a.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Gabriel Makhlouf: Opening remarks - Savings and Investment Forum",
+    "description": "Opening remarks by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, for the Savings and Investment Forum, 31 March 2026.",
+    "date": "2026-04-09",
+    "source_url": "https://www.bis.org/review/r260407h.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin stalls below key resistance as analysts clash over next move",
+    "description": "Despite a geopolitical \"risk-on\" boost, crypto markets remain range-bound with BTC hovering at $71,200 while altcoins like MANA and AERO show strength.",
+    "date": "2026-04-09",
+    "source_url": "https://www.coindesk.com/markets/2026/04/09/bitcoin-stalls-below-key-resistance-as-analysts-clash-over-next-move",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Strategy’s STRC sees one of its highest volume days, with just one penny of volatility",
+    "description": "High yield structure keeps STRC pinned at par while enabling large scale bitcoin purchases.",
+    "date": "2026-04-09",
+    "source_url": "https://www.coindesk.com/markets/2026/04/09/strategy-s-strc-sees-one-of-its-highest-volume-days-with-just-one-penny-of-volatility",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Circle launches full-stack platform for stablecoin settlement",
+    "description": "Circle Internet Group, Inc. (NYSE: CRCL), one of the world’s leading financial platform companies, today announced the launch of Circle Payments Network (CPN) Managed Payments.",
+    "date": "2026-04-09",
+    "source_url": "https://www.finextra.com/pressarticle/109409/circle-launches-full-stack-platform-for-stablecoin-settlement",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Worldline joins Circle Payment Network",
+    "description": "Worldline (EURONEXT: WLN), a European global leader in payment services, today announces its partnership with Circle Internet Group, Inc. (NYSE: CRCL), a global ﬁnancial technology company, in support of the launch of Circle Payments Network (CPN) Managed Payments.",
+    "date": "2026-04-09",
+    "source_url": "https://www.finextra.com/pressarticle/109408/worldline-joins-circle-payment-network",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "The Power of Approach: Innovation and Compliance in the AI Era",
+    "description": "At the Communify Intelligence Experience, Mark Bordeaux, Client Executive, NTT Data joined FinextraTV to discuss how Agentic and Generative AI are driving operational efficiencies in wealth management. He mentioned cautions around Generative AI and client data, emphasising the need for careful deployment to avoid privacy and to prioritise a selective usage. Providing top tips to innovation in the face of increased regulation, Bordeaux said to ensure you really understand the impact of the steps that go into the process and marrying the regulation with design. Overall, Bordeaux encouraged firms and wealth managers to be pragmatic and aggressive and break each element down into value-added, logical elements.",
+    "date": "2026-04-09",
+    "source_url": "https://www.finextra.com/videoarticle/3480/the-power-of-approach-innovation-and-compliance-in-the-ai-era",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Strategy’s Michael Saylor says bitcoin likely bottomed near $60K, suggests quantum risk is overblown",
+    "description": "Strategy's Michael Saylor said bitcoin has likely bottomed near $60,000 and downplayed quantum computing risks.",
+    "date": "2026-04-09",
+    "source_url": "https://www.theblock.co/post/396836/strategys-michael-saylor-says-bitcoin-likely-bottomed-near-60k-suggests-quantum-risk-is-overblown",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "DOJ, CFTC argue Kalshi’s sports and event contracts are financial swaps as Arizona enforcement escalates",
+    "description": "The DOJ and CFTC asked a federal court to block Arizona from prosecuting Kalshi, citing event contracts as federally regulated swaps.",
+    "date": "2026-04-09",
+    "source_url": "https://www.theblock.co/post/396833/doj-cftc-argue-sports-event-contracts-are-financial-swaps",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Bitcoin Falls Below $71,000 as Iran Ceasefire Frays Within 48 Hours and Oil Rebounds",
+    "description": "The post Bitcoin Falls Below $71,000 as Iran Ceasefire Frays Within 48 Hours and Oil Rebounds appeared first on Unchained .",
+    "date": "2026-04-09",
+    "source_url": "https://unchainedcrypto.com/bitcoin-falls-below-71000-as-iran-ceasefire-frays-within-48-hours-and-oil-rebounds-unchained/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Morgan Stanley’s MSBT Debuts as the Cheapest Spot Bitcoin ETF, Logs $34 Million on Day One",
+    "description": "The post Morgan Stanley&#8217;s MSBT Debuts as the Cheapest Spot Bitcoin ETF, Logs $34 Million on Day One appeared first on Unchained .",
+    "date": "2026-04-09",
+    "source_url": "https://unchainedcrypto.com/morgan-stanleys-msbt-debuts-as-the-cheapest-spot-bitcoin-etf-logs-34-million-on-day-one-unchained/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "NYT Names Adam Back as Satoshi Nakamoto. He Denies It — and the Crypto Community Agrees with Him.",
+    "description": "The post NYT Names Adam Back as Satoshi Nakamoto. He Denies It — and the Crypto Community Agrees with Him. appeared first on Unchained .",
+    "date": "2026-04-09",
+    "source_url": "https://unchainedcrypto.com/nyt-names-adam-back-as-satoshi-nakamoto-he-denies-it-and-the-crypto-community-agrees-with-him-unchained/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Iran Demands Bitcoin Payments for Strait of Hormuz Transit, Turning Crypto Into a Geopolitical Toll Mechanism",
+    "description": "The post Iran Demands Bitcoin Payments for Strait of Hormuz Transit, Turning Crypto Into a Geopolitical Toll Mechanism appeared first on Unchained .",
+    "date": "2026-04-09",
+    "source_url": "https://unchainedcrypto.com/iran-demands-bitcoin-payments-for-strait-of-hormuz-transit-turning-crypto-into-a-geopolitical-toll-mechanism-unchained/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Bithumb moves to seize assets over mistaken $8 million bitcoin dispute",
     "description": "On Feb. 6, staff mistakenly entered \"BTC\" instead of \"KRW\" in a promotion, crediting roughly 620,000 bitcoin worth over $40 billion.",
@@ -9282,328 +9585,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Core Foundation franchises Satoshi Plus bitcoin consensus model for new Zcash scaling layer",
-    "description": "Kieran Dennis, co-founder of Z and an initial contributor to Core, claims Z is the first attempt to bring native EVM capabilities to Zcash.",
-    "date": "2026-03-31",
-    "source_url": "https://www.theblock.co/post/395826/core-foundation-franchise-satoshi-plus-bitcoin-zcash-evm",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Dubai’s VARA imposes margin, governance, and disclosure rules on crypto trading and derivatives",
-    "description": "Dubai’s VARA issued new rules mandating governance, disclosure and risk controls for VASPs offering crypto derivatives and exchange services.",
-    "date": "2026-03-31",
-    "source_url": "https://www.theblock.co/post/395873/dubais-vara-imposes-margin-governance-and-disclosure-rules-on-crypto-trading-and-derivatives",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "‘Unstable velocity’: Standard Chartered says stablecoin usage rising faster than expected as new use cases emerge",
-    "description": "The bank maintained its $2 trillion stablecoin market cap forecast by 2028 amid a sharp increase in turnover from use cases like AI payments.",
-    "date": "2026-03-31",
-    "source_url": "https://www.theblock.co/post/395867/unstable-velocity-standard-chartered-says-stablecoin-usage-rising-faster-than-expected-as-new-use-cases-emerge",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "SC Ventures, Ripple back Keyrock’s open Series C at $1.1 billion valuation",
-    "description": "Standard Chartered’s investment arm SC Ventures is leading Keyrock's Series C, which is expected to close in the coming months.",
-    "date": "2026-03-31",
-    "source_url": "https://www.theblock.co/post/395769/sc-ventures-ripple-keyrock-series-c-1-1-billion-valuation",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "South Korea’s KB Card taps Avalanche for ‘hybrid’ stablecoin credit card",
-    "description": "KB previously stated that it is developing a hybrid card that enables customers to use stablecoins on their existing credit cards.",
-    "date": "2026-03-31",
-    "source_url": "https://www.theblock.co/post/395846/kb-card-taps-avalanche-stablecoin",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Google warns quantum computing may break bitcoin earlier than thought, prepares 2029 transition",
-    "description": "Google Research said the necessary resources for quantum computers to break cryptocurrencies have seen a 20-fold reduction.",
-    "date": "2026-03-31",
-    "source_url": "https://www.theblock.co/post/395814/google-quantum-computing-earlier",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Cross-Border FX Startup OpenFX Raises $94 Million, Hits $45 Billion in Annual Volume",
-    "description": "OpenFX, the cross-border payments startup using stablecoins as a settlement layer, raised $94 million in a Series A led by Accel, Lightspeed Faction, M13, Northzone, and Pantera, with participation from Atomico. The round values the company at roughly $500 million, according to a Reuters report citing sources familiar with the ... The post Cross-Border FX Startup OpenFX Raises $94 Million, Hits $45 Billion in Annual Volume appeared first on Unchained .",
-    "date": "2026-03-31",
-    "source_url": "https://unchainedcrypto.com/cross-border-fx-startup-openfx-raises-94-million-hits-45-billion-in-annual-volume/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Google Whitepaper Finds Ethereum’s Quantum Exposure Runs Deeper Than Bitcoin’s",
-    "description": "A 57-page whitepaper from Google Quantum AI, co-authored with Ethereum Foundation researcher Justin Drake and Stanford cryptographer Dan Boneh, mapped five separate ways a future quantum computer could attack Ethereum. The paper estimated combined exposure exceeding $100 billion, and noted that most public reaction to the report focused on bitcoin. ... The post Google Whitepaper Finds Ethereum&#8217;s Quantum Exposure Runs Deeper Than Bitcoin&#8217;s appeared first on Unchained .",
-    "date": "2026-03-31",
-    "source_url": "https://unchainedcrypto.com/google-whitepaper-finds-ethereums-quantum-exposure-runs-deeper-than-bitcoins/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Chainalysis Launches AI-Powered ‘Blockchain Intelligence Agents’ to Counter Surging Crypto Crime",
-    "description": "Chainalysis announced the launch of &#8220;blockchain intelligence agents&#8221; at its annual Links conference in New York on Tuesday, marking the biggest platform shift in the company&#8217;s history. The agents are designed to put the full depth of Chainalysis&#8217;s dataset, which the company says has powered over 10 million investigations and ... The post Chainalysis Launches AI-Powered &#8216;Blockchain Intelligence Agents&#8217; to Counter Surging Crypto Crime appeared first on Unchained .",
-    "date": "2026-03-31",
-    "source_url": "https://unchainedcrypto.com/chainalysis-launches-ai-powered-blockchain-intelligence-agents-to-counter-surging-crypto-crime/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "David Bailey’s Nakamoto Sells 284 Bitcoin at 40% Loss to Fund Operations",
-    "description": "Nakamoto Holdings (Nasdaq: NAKA), the bitcoin treasury firm founded by crypto entrepreneur David Bailey, sold 284 BTC for $20 million in March at an average price of roughly $70,422 per coin, according to its annual filing released Monday. That sale price sits 40% below the company&#8217;s weighted-average acquisition cost of ... The post David Bailey&#8217;s Nakamoto Sells 284 Bitcoin at 40% Loss to Fund Operations appeared first on Unchained .",
-    "date": "2026-03-31",
-    "source_url": "https://unchainedcrypto.com/david-baileys-nakamoto-sells-284-bitcoin-at-40-loss-to-fund-operations/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Labor Department Proposes Rule Opening $10 Trillion 401(k) Market to Crypto",
-    "description": "The U.S. Department of Labor on Monday proposed a rule that would create a legal safe harbor for retirement plan fiduciaries who add cryptocurrencies and other alternative assets to 401(k) investment menus. The proposal carries out a directive from President Donald Trump&#8217;s August executive order to expand access to digital ... The post Labor Department Proposes Rule Opening $10 Trillion 401(k) Market to Crypto appeared first on Unchained .",
-    "date": "2026-03-31",
-    "source_url": "https://unchainedcrypto.com/labor-department-proposes-rule-opening-10-trillion-401k-market-to-crypto/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Opening doors to open finance: evidence from the international experience",
-    "description": "Open finance is transforming the financial system, with rapid adoption in several jurisdictions in the years since its introduction. By enabling the sharing and use of customer-permissioned data, open finance can foster innovation, competition and financial inclusion. Early evidence highlights a role for open finance in breaking through data silos, reducing information asymmetries and driving venture capital investment.",
-    "date": "2026-03-30",
-    "source_url": "https://www.bis.org/publ/bppdf/bispap168.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "From the Battlefield to the Blockchain: How Cryptocurrency Is Helping Finance the Drone Revolution",
-    "description": "TL;DR Low-cost, commercially available drones have become central to modern conflict, allowing state and non-state actors, such as pro-Russia militias&#8230; The post From the Battlefield to the Blockchain: How Cryptocurrency Is Helping Finance the Drone Revolution appeared first on Chainalysis .",
-    "date": "2026-03-30",
-    "source_url": "https://www.chainalysis.com/blog/cryptocurrency-drones-research/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "Chainalysis Supports Tempo with Automatic Token Coverage",
-    "description": "Chainalysis is excited to announce support for Tempo, an EVM-compatible Layer 1 blockchain purpose-built for stablecoin payments at scale. Tempo&#8230; The post Chainalysis Supports Tempo with Automatic Token Coverage appeared first on Chainalysis .",
-    "date": "2026-03-30",
-    "source_url": "https://www.chainalysis.com/blog/tempo-automatic-token-coverage-march-2026/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Tokenization & Issuance",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Digital euro vital for tokens, stablecoins: ECB board member",
-    "description": "Piero Cipollone says tokenized deposits and stablecoins need central bank money, as the EU plans digital euro standards and Pontes' launch in 2026. The post Digital euro vital for tokens, stablecoins: ECB board member appeared first on CoinGeek .",
-    "date": "2026-03-30",
-    "source_url": "https://coingeek.com/digital-euro-vital-for-tokens-stablecoins-ecb-board-member/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Digital Currency & Stablecoins",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Stablecoins & Deposit Tokens",
-      "CBDC"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "London Blockchain Finance Summit: TradFi, DeFi talk adoption barriers",
-    "description": "At the London Blockchain Finance Summit, finance leaders pinpoint interoperability as the key barrier holding blockchain back, not just regulation. The post London Blockchain Finance Summit: TradFi, DeFi talk adoption barriers appeared first on CoinGeek .",
-    "date": "2026-03-30",
-    "source_url": "https://coingeek.com/london-blockchain-finance-summit-tradfi-defi-talk-adoption-barriers/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "DeFi"
     ],
     "year": "2026"
   }
