@@ -1,5 +1,45 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "These 3 crypto stocks could actually beat bitcoin ETFs, says TD Cowen",
+    "description": "Analyst Lance Vitanza is betting that digital asset treasury\"companies like Nakamoto, SharpLink and Strive can outperform standard crypto ETFs by aggressively stacking coins and capturing staking yields.",
+    "date": "2026-04-09",
+    "source_url": "https://www.coindesk.com/markets/2026/04/09/td-cowen-says-these-3-crypto-stocks-could-actually-beat-bitcoin-etfs",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Galaxy stock rallies 11% after annual report shows core business profitable despite $241 million net loss",
+    "description": "Galaxy's Digital Assets segment, housing its trading, lending, asset management, and staking services, generated a $505 million profit.",
+    "date": "2026-04-09",
+    "source_url": "https://www.theblock.co/post/396948/galaxy-stock-rallies-11-after-annual-report-shows-core-business-profitable-despite-241-million-net-loss",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "CryptoQuant says bitcoin, ether rally driven by new long positions in perpetual futures",
     "description": "Open interest in BTC and ETH perpetual futures rose by over $2 billion each in 24 hours after the U.S.-Iran ceasefire announcement.",
@@ -9543,43 +9583,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "The time for clear financial privacy rules is now",
-    "description": "Despite recent regulatory progress in the industry, privacy remains an area that needs to be addressed, says Yelderman.",
-    "date": "2026-03-31",
-    "source_url": "https://www.coindesk.com/opinion/2026/03/31/the-time-for-clear-financial-privacy-rules-is-now",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Mercado Libre shuts down Mercado Coin, ending its loyalty-driven crypto experiment",
-    "description": "Starting April 17, users will no longer be able to buy, sell or earn cashback in Mercado Coin, but can sell, spend, or have the token converted to local currency.",
-    "date": "2026-03-31",
-    "source_url": "https://www.coindesk.com/business/2026/03/31/mercado-libre-shuts-down-mercado-coin-ending-its-loyalty-driven-crypto-experiment",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
