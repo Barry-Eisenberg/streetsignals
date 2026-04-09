@@ -1,5 +1,25 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Bhutan moves $23 million worth of bitcoin; total holdings down 70% from peak",
+    "description": "One of the recipient wallets had previously been used to route funds for selling via Galaxy Digital and OKX, Onchain Lens said.",
+    "date": "2026-04-09",
+    "source_url": "https://www.theblock.co/post/396818/bhutan-moves-23-million-worth-bitcoin",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "CFTC presses case that sports betting is finance, seeks to block Arizona enforcement",
     "description": "Federal lawsuit argues event contracts are swaps under U.S. law, not state-level gaming law, deepening a split with states that view the products as illegal gambling",
@@ -9584,25 +9604,6 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "World Foundation Sells $65 Million in WLD Tokens at Near All-Time Low",
-    "description": "World Foundation disclosed Saturday that its token issuance arm, World Assets, completed $65 million in over-the-counter WLD sales to four counterparties over the past week. The first tranche settled on March 20, with the full block moving at an average price of roughly $0.27 per token, implying approximately 239 million ... The post World Foundation Sells $65 Million in WLD Tokens at Near All-Time Low appeared first on Unchained .",
-    "date": "2026-03-28",
-    "source_url": "https://unchainedcrypto.com/world-foundation-sells-65-million-in-wld-tokens-at-near-all-time-low/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
     ],
     "year": "2026"
   }
