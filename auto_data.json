@@ -1,5 +1,63 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Australian Payments Plus offloads consumer payments app Beem",
+    "description": "Australian Payments Plus (AP+) has agreed to sell its consumer payments app Beem to local fintech Bolt Group. Financial terms were not disclosed.",
+    "date": "2026-04-09",
+    "source_url": "https://www.finextra.com/newsarticle/47548/australian-payments-plus-offloads-consumer-payments-app-beem",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Mimir acquires platform from Swedbank’s PayEx to launch new fintech company",
+    "description": "Swedbank-owned PayEx is spinning out part of its operations to form a new company together with investment firm Mimir.",
+    "date": "2026-04-09",
+    "source_url": "https://www.finextra.com/newsarticle/47546/mimir-acquires-platform-from-swedbanks-payex-to-launch-new-fintech-company",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Central Bank of Ireland grants dual authorisation to stablecoin provider Confirmo",
+    "description": "Confirmo, a stablecoin-first payment platform serving businesses globally, today announces that its Irish entity, Confirmo Limited, has received authorisation as Payment Institution under the Payment Services Regulations 2018 (PSR) from the Central Bank of Ireland (CBI).",
+    "date": "2026-04-09",
+    "source_url": "https://www.finextra.com/pressarticle/109402/central-bank-of-ireland-grants-dual-authorisation-to-stablecoin-provider-confirmo",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Crypto card boom hits $600 million monthly volume as USDC gains ground on USDT",
     "description": "Stablecoin composition of card volume is worth watching as a proxy for geographic and demographic shifts in users.",
@@ -9557,61 +9615,6 @@
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "CoinDesk 20 performance update: AAVE drops 3.2% as nearly all constituents decline",
-    "description": "Bitcoin Cash (BCH), up 0.8% from Thursday, was the only gainer.",
-    "date": "2026-03-27",
-    "source_url": "https://www.coindesk.com/coindesk-indices/2026/03/27/coindesk-20-performance-update-aave-drops-3-2-as-nearly-all-constituents-decline",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "NYSE owner doubles down on Polymarket with fresh $600 million investment",
-    "description": "The parent company of the New York Stock Exchange is cementing its bet on the future of prediction markets, bringing its total commitment to nearly $2 billion.",
-    "date": "2026-03-27",
-    "source_url": "https://www.coindesk.com/markets/2026/03/27/nyse-owner-doubles-down-on-polymarket-with-fresh-usd600-million-investment",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Retail investors drive widespread bitcoin selling as prices fall",
-    "description": "Glassnode data shows distribution across cohorts as BTC falls below $67,000, with whales remaining largely neutral.",
-    "date": "2026-03-27",
-    "source_url": "https://www.coindesk.com/markets/2026/03/27/retail-investors-drive-widespread-bitcoin-selling-as-prices-fall",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Data & Reporting"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
