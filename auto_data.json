@@ -1,6 +1,83 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Securitize names ex-SEC official Brett Redfearn as president ahead of public listing",
+    "description": "Brett Redfearn joins as president as the firm works to build regulated infrastructure for tokenized assets.",
+    "date": "2026-04-09",
+    "source_url": "https://www.coindesk.com/business/2026/04/09/securitize-names-ex-sec-official-president-ahead-of-public-listing",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Potential buyers are circling Winklevoss-backed crypto exchange Gemini",
+    "description": "Interested parties are considering buying select parts of the business, particularly its shuttered European operations, to secure regulatory licenses, rather than pursuing a full takeover.",
+    "date": "2026-04-09",
+    "source_url": "https://www.coindesk.com/business/2026/04/02/potential-buyers-are-circling-winklevoss-backed-crypto-exchange-gemini",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "U.S. Treasury to loop in crypto sector on hacker warnings shared with traditional firms",
+    "description": "The Department of the Treasury announced it's letting crypto firms sign up for timely information-sharing on cybersecurity threats.",
+    "date": "2026-04-09",
+    "source_url": "https://www.coindesk.com/policy/2026/04/09/u-s-treasury-to-loop-in-crypto-sector-on-hacker-warnings-shared-with-traditional-firms",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Nymbus launches secure MCP server for AI-driven core banking actions",
+    "description": "Nymbus, a modern banking platform for U.S. banks and credit unions, today announced the launch of the Nymbus MCP Server, one of the first secure Model Context Protocol (MCP) servers purpose-made for core banking.",
+    "date": "2026-04-09",
+    "source_url": "https://www.finextra.com/pressarticle/109420/nymbus-launches-secure-mcp-server-for-ai-driven-core-banking-actions",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bitcoin shoots above $72,000 as optimism grows over Middle East ceasefire",
     "description": "Israeli Prime Minister Netanyahu reportedly has signaled a willingness to negotiate with Lebanon.",
     "date": "2026-04-09",
@@ -9507,87 +9584,6 @@
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Forex startup OpenFX raises $94 million to expand stablecoin-powered cross-border payments",
-    "description": "The company acts as a bridge between traditional banking and digital assets, enabling faster and cheaper foreign-exchange conversions for businesses moving large sums of money.",
-    "date": "2026-03-31",
-    "source_url": "https://www.coindesk.com/business/2026/03/31/forex-startup-openfx-raises-usd94-million-to-expand-stablecoin-powered-cross-border-payments",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin bulls scramble for post-quantum protection as Google drops bombshell paper",
-    "description": "Google's finding that breaking bitcoin's cryptography requires 20x fewer qubits than previously estimated has triggered the strongest industry response to quantum threats since the Willow chip in 2024. Here's how builders, investors, and researchers are reacting.",
-    "date": "2026-03-31",
-    "source_url": "https://www.coindesk.com/tech/2026/03/31/bitcoin-bulls-scramble-for-post-quantum-protection-as-google-drops-bombshell-paper",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "A quantum computer may need just 10,000 qubits to empty your crypto wallets, researchers say",
-    "description": "The research shows quantum computers may break bitcoin and ether wallet encryption with far fewer qubits than previously thought, accelerating the push toward post-quantum security.",
-    "date": "2026-03-31",
-    "source_url": "https://www.coindesk.com/markets/2026/03/31/quantum-computers-could-break-crypto-wallet-encryption-with-just-10-000-qubits-researchers-say",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bearish sentiment builds in crypto as volatility and hedging rise",
-    "description": "Bitcoin’s brief rally faded amid war-driven oil price surge, rising volatility and declining futures interest, signaling growing caution across crypto markets.",
-    "date": "2026-03-31",
-    "source_url": "https://www.coindesk.com/markets/2026/03/31/bearish-sentiment-builds-in-crypto-as-volatility-and-hedging-rise",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
