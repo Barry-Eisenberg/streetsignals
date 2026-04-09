@@ -1,5 +1,60 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "XRP slips 4% as selling pressure builds despite ETF inflows",
+    "description": "Elevated volume and modest institutional buying fail to support price, with sellers continuing to dominate near resistance.",
+    "date": "2026-04-09",
+    "source_url": "https://www.coindesk.com/markets/2026/04/09/xrp-slips-4-as-selling-pressure-builds-despite-etf-inflows",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin's next big move hinges on oil, and right now it's a total coin flip",
+    "description": "Analysts say a sustained 15%–16% decline in crude could revive Fed rate cut bets, sending BTC higher.",
+    "date": "2026-04-09",
+    "source_url": "https://www.coindesk.com/markets/2026/04/09/bitcoin-s-next-big-move-hinges-on-oil-and-right-now-it-s-a-total-coin-flip",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bithumb turns to legal action to recover lost bitcoin in ‘fat finger’ incident: report",
+    "description": "Most recipients of the 'fat finger' error have voluntarily returned the bitcoin, but some insisted they are not obligated to do so.",
+    "date": "2026-04-09",
+    "source_url": "https://www.theblock.co/post/396812/bithumb-legal-action-bitcoin-fat-finger",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA",
     "initiative": "ESAs spring risk update highlights geopolitical pressures and rising private finance risks",
     "description": "ESAs spring risk update highlights geopolitical pressures and rising private finance risks 27 March 2026 Joint Committee Risk monitoring The European Supervisory Authorities (EBA, EIOPA and ESMA – the ESAs) today published their spring 2026 Joint Committee update on risks and vulnerabilities in the EU financial system. The update focuses on the challenges arising from ongoing geopolitical tensions and developments in private finance. Geopolitical tensions continue to pose significant risks The ESAs warn that ongoing geopolitical tensions, namely the war in the Middle East, pose significant risks&nbsp;to the global financial landscape through higher energy prices, potential inflationary pressures and weaker economic growth. The ESAs&nbsp; had previously warned about the risks of sudden repricing and liquidity reductions at times of elevated equity market valuations and compressed spreads in bond markets. Such developments can exacerbate market vulnerabilities, triggering volatility and revaluations. Higher interest rates may further tighten funding conditions and affect asset quality. Tensions around the Strait of Hormuz and airspace closures raise multi-line risk, although war exclusions are expected to limit net losses for insurers. More broadly, geopolitical events and cyber-attacks could generate shocks and disruptions to critical infrastructures. &nbsp;- Risks linked to private finance The update also highlights emerging risks in private finance driven by limited data, low transparency, prolonged growth and complex, opaque interconnections with the broader financial system. These factors increase the potential for sudden market shifts in investor liquidity and spillovers to other parts of the financial system.&nbsp; Recent developments in certain US private credit funds, linked to AI replacing more traditional software businesses, illustrate potential vulnerabilities related to changes in investor sentiment.&nbsp; EU financial sector remains resilient overall Despite the challenging geopolitical environment, European financial markets have continued to demonstrate resilience. The insurance and Institutions for Occupational Retirement Provision (IORP) sectors maintain robust capital and funding positions.&nbsp; In the banking sector, capital ratios remain high, while liquidity positions and asset quality are solid. Direct exposures to countries most affected by the war remain limited. Supervisors and market participants to maintain vigilance Given the ongoing geopolitical tensions, the Joint Committee of the ESAs calls on supervisors and market participants to maintain a high level of readiness. This includes proactive risk assessments with appropriate tools, the prudent management of sovereign exposures and the inclusion of geopolitical context in risk management. Possible indirect effects stemming from energy prices and exposures to highly affected sectors should also be closely monitored. &nbsp; Financial institutions, authorities and investors are also encouraged to closely monitor and manage risks associated with private markets, considering limited transparency, rising exposures, and potential shifts in risk profiles, linked to the upcoming Solvency II 2027 changes. &nbsp; Further information: Tayfun Yilmaz Communications Officer press@esma.europa.eu 27/03/2026 JC 2026 06 Joint Committee Update on Risks and Vulnerabilities in the EU Financial System – Spring 2026",
@@ -9536,81 +9591,19 @@
     "year": "2026"
   },
   {
-    "institution": "Connecting the Dots",
-    "initiative": "Visa Deepens Focus on Recurring Payments with Enhanced Subscription Manager",
-    "description": "Hey Payments Fanatic! Visa has introduced its Enhanced Subscription Manager, a new feature aimed at improving consumer transparency and control over recurring payments.&#xA0; The solution leverages technology from Pinwheel, a payroll connectivity firm that joined the Visa FinTech Partner Connect program back in March 2023.&#xA0; That early collaboration",
+    "institution": "BIS",
+    "initiative": "BIS extends term for John Williams as Chair of the Markets Committee",
+    "description": "John C. Williams, President and Chief Executive Officer of the Federal Reserve Bank of New York, is to continue as Chair of the Bank for International Settlements' Markets Committee.",
     "date": "2026-03-27",
-    "source_url": "https://www.connectingthedotsinpayments.com/visa-deepens-focus-on-recurring-payments-with-enhanced-subscription-manager/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
+    "source_url": "https://www.bis.org/press/p260327.htm",
+    "category": "regulators",
+    "source_name": "BIS — Press Releases",
     "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
     "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "John Caplan (CEO, Payoneer): Cross-Border Payments Are Still Broken",
-    "description": "In this episode of the Wrap Up Podcast, I sit down with John Caplan, CEO of Payoneer, to break down why global payments still fail the very businesses they are supposed to serve.",
-    "date": "2026-03-27",
-    "source_url": "https://www.fintechwrapup.com/p/john-caplan-ceo-payoneer-cross-border",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "英国政府が Xinbi を制裁：中国語圏の暗号資産詐欺を支えるインフラの中核を指定",
-    "description": "※この記事は自動翻訳されています。正確な内容につきましては原文をご参照ください。 要約 英国外務・英連邦・開発省（FCDO）が中国語圏の主要な不正担保マーケットプレイス Xinbi を制裁指定。個別の加害者のみを対象とする従来の手法から、大規模詐欺エコシステムを支える金融「担保プラットフォーム」そのものに切り込む戦略的転換 Chainalysis のデータによると、Xinbi は 2021 年から 2025 年にかけて 199 億ドル超の決済を仲介。「Black U」マネーロンダリング、無許可 OTC 取引、個人情報データベース販売、詐欺インフラの提供など、あらゆる不正取引を仲介 FCDO はグローバル人権制裁制度に基づき Xinbi&#8230; The post 英国政府が Xinbi を制裁：中国語圏の暗号資産詐欺を支えるインフラの中核を指定 appeared first on Chainalysis .",
-    "date": "2026-03-27",
-    "source_url": "https://www.chainalysis.com/blog/xinbi-designation-chinese-language-crypto-scam-infrastructure-japanese/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "From Pilots to Powerhouses: How Agentic AI and Tokenization Are Redefining Wholesale Banking in 2026",
-    "description": "Introduction Wholesale banking has always been a domain defined by scale, speed, and razor-thin ma",
-    "date": "2026-03-27",
-    "source_url": "https://www.finextra.com/blogposting/31267/from-pilots-to-powerhouses-how-agentic-ai-and-tokenization-are-redefining-wholesale-banking-in-2026",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DeFi"
+      "Leadership & Governance"
     ],
     "year": "2026"
   }
