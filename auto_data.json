@@ -59,6 +59,25 @@
   },
   {
     "institution": "The Block",
+    "initiative": "Morgan Stanley’s MSBT bitcoin ETF logs $34 million in first-day volume",
+    "description": "Morgan Stanley Bitcoin Trust's first-day volume exceeded the $30 million estimate from Bloomberg Senior Analyst Eric Balchunas.",
+    "date": "2026-04-08",
+    "source_url": "https://www.theblock.co/post/396785/morgan-stanley-msbt-bitcoin-etf-volume",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
     "initiative": "Crypto card boom hits $600 million monthly volume as USDC gains ground on USDT",
     "description": "Stablecoin composition of card volume is worth watching as a proxy for geographic and demographic shifts in users.",
     "date": "2026-04-08",
@@ -9589,25 +9608,6 @@
     "description": "The Friday plunge fits into a pattern since the war in Iran broke out, with gains on Monday turning into losses by the end of the week.",
     "date": "2026-03-27",
     "source_url": "https://www.coindesk.com/markets/2026/03/27/crypto-stocks-battered-as-nasdaq-enters-correction-in-usd17-trillion-market-rout",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Anthropic’s massive 'Claude Mythos' leak sends software names — and crypto — sharply lower",
-    "description": "The model could significantly heighten cybersecurity risks by rapidly finding and exploiting software vulnerabilities, potentially accelerating a cyber arms race.",
-    "date": "2026-03-27",
-    "source_url": "https://www.coindesk.com/markets/2026/03/27/anthropic-s-massive-claude-mythos-leak-reveals-a-new-ai-model-that-could-be-a-cybersecurity-nightmare",
     "category": "ecosystem",
     "source_name": "CoinDesk",
     "auto_generated": true,
