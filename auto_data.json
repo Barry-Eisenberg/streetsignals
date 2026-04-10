@@ -1,5 +1,43 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Morgan Stanley launches Bitcoin ETF",
+    "description": "Morgan Stanley has become the first major Wall Street bank to launch a Bitcoin exchange traded fund.",
+    "date": "2026-04-10",
+    "source_url": "https://www.finextra.com/newsarticle/47560/morgan-stanley-launches-bitcoin-etf",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "BPC moves to help merchants move money instantly across Latin America",
+    "description": "BPC, a global leader in payments solutions, has launched BPC Payments, a new business line focused on helping merchants move money instantly across Latin America and beyond through a unified platform for pay-ins, pay-outs and digital commerce.",
+    "date": "2026-04-10",
+    "source_url": "https://www.finextra.com/pressarticle/109425/bpc-moves-to-help-merchants-move-money-instantly-across-latin-america",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA",
     "initiative": "ESMA publishes latest edition of its newsletter",
     "description": "ESMA publishes latest edition of its newsletter 10 April 2026 ESMA newsletter The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published today its latest edition of the Spotlight on Markets newsletter. This edition opens with ESMA’s actions to simplify the retail investor journey and make investing more accessible, setting out steps to support retail participation in capital markets. Top news highlights include the publication of the first Trends, Risks and Vulnerabilities (TRV) report of 2026, which points to a high-risk environment for EU financial markets, as well as analysis showing that new investment funds are helping to reduce costs for investors. Key publications featured in this edition include: Annual transparency calculations for equity and equity-like instruments ; a joint EBA-ESMA consultation on revised suitability assessment requirements for banks and investment firms ; ESMA’s proposals to simplify MiFID II/MiFIR obligations on market data ; and Statement supporting the smooth implementation of the Listing Act and simplified prospectus compliance for issuers . Other updates in this edition cover new Q&amp;As , EMIR 3, supervisory and enforcement actions, market abuse guidelines , sustainability reporting , and upcoming events. For regular updates, follow ESMA on LinkedIn , X and Instagram . 10/04/2026 ESMA newsletter Newsletter February and March 2026",
@@ -9546,42 +9584,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Moniepoint enters Kenya with acquisition of Sumac Microfinance Bank",
-    "description": "Moniepoint Inc. (\"Moniepoint\" or the \"Company\"), Africa's all-in-one financial platform, announces the completion of its acquisition of Sumac Microfinance Bank Limited (\"Sumac\"), a Central Bank of Kenya-licensed microfinance institution.",
-    "date": "2026-04-01",
-    "source_url": "https://www.finextra.com/pressarticle/109346/moniepoint-enters-kenya-with-acquisition-of-sumac-microfinance-bank",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "CoinShares enters US public markets via Nasdaq after $1.2 billion Vine Hill SPAC merger",
-    "description": "CoinShares joins a growing wave of crypto firms tapping U.S. public markets after its $1.2 billion SPAC merger announced last September.",
-    "date": "2026-04-01",
-    "source_url": "https://www.theblock.co/post/396021/coinshares-enters-us-public-markets-via-nasdaq-after-1-2-billion-vine-hill-spac-merger",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
