@@ -1,5 +1,43 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Star Xu calls CZ a ‘liar’ as founders of world’s largest crypto exchanges argue over past allegations",
+    "description": "The dispute between the crypto exchange founders, which included a $1 billion wager from CZ, revives allegations dating back 11 years to Zhao’s time at OKCoin.",
+    "date": "2026-04-10",
+    "source_url": "https://www.coindesk.com/business/2026/04/10/star-xu-calls-cz-a-liar-as-founders-of-world-s-largest-crypto-exchanges-argue-over-past-allegations",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "The magic word for digital assets adoption and success: choice",
+    "description": "For the digital asset ecosystem of the future to flourish, investors need options, explains Sullivan.",
+    "date": "2026-04-10",
+    "source_url": "https://www.coindesk.com/opinion/2026/04/10/the-magic-word-for-digital-assets-adoption-and-success-choice",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Morgan Stanley launches Bitcoin ETF",
     "description": "Morgan Stanley has become the first major Wall Street bank to launch a Bitcoin exchange traded fund.",
@@ -9546,44 +9584,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "‘BSV Browser’ an elegant step toward a more Web3 world",
-    "description": "The BSV Browser combines secure web browsing with identity management and built-in payments, making Web3 accessible and user-friendly. The post &#8216;BSV Browser&#8217; an elegant step toward a more Web3 world appeared first on CoinGeek .",
-    "date": "2026-04-01",
-    "source_url": "https://coingeek.com/bsv-browser-an-elegant-step-toward-a-more-web3-world/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Visa and Ramp to use agentic AI to automate corporate bill pay",
-    "description": "Visa and financial operations platform Ramp are introducing AI agents to automate corporate bill payments.",
-    "date": "2026-04-01",
-    "source_url": "https://www.finextra.com/newsarticle/47526/visa-and-ramp-to-use-agentic-ai-to-automate-corporate-bill-pay",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
