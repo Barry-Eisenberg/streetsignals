@@ -1,5 +1,84 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "HSBC and Standard Chartered-led group land Hong Kong’s first stablecoin licenses",
+    "description": "The approvals by the Hong Kong Monetary Authority, the territory's central bank, mark the first batch under the Stablecoins Ordinance, which took effect in August 2025.",
+    "date": "2026-04-10",
+    "source_url": "https://www.coindesk.com/policy/2026/03/24/hong-kong-awards-first-stablecoin-licenses-to-hsbc-standard-chartered-led-group",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "David Bailey’s bitcoin holder Nakamoto is trying to stay on Nasdaq with a reverse stock split",
+    "description": "The stock has plunged roughly 99% from its May 2025 peak as pressure builds on the bitcoin treasury firm.",
+    "date": "2026-04-10",
+    "source_url": "https://www.coindesk.com/markets/2026/04/10/david-bailey-s-nakamoto-is-trying-to-stay-on-nasdaq-and-it-s-turning-to-a-reverse-stock-split",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Japan moves to classify cryptocurrencies as financial products",
+    "description": "The new rules ban insider trading, require issuers to publish annual disclosures, and impose stricter penalties: up to 10 years in prison and 10 million yen in fines for operating without registration.",
+    "date": "2026-04-10",
+    "source_url": "https://www.coindesk.com/policy/2026/04/10/japan-moves-to-classify-cryptocurrencies-as-financial-products",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Binance launches prediction markets feature",
+    "description": "Cryptocurrency app Binance now offers access to prediction markets, the company announced on Thursday.",
+    "date": "2026-04-10",
+    "source_url": "https://www.finextra.com/newsarticle/47557/binance-launches-prediction-markets-feature",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "OwlTing integrates Visa Direct into OwlPay to expand stablecoin offerings",
     "description": "OwlTing Group (NASDAQ: OWLS) (“OwlTing” or the “Company”), the operating brand of OBOOK Holdings Inc., a blockchain technology company, today announced an expansion of its collaboration with Visa, a world leader in digital payments, to support the use of Visa Direct within OwlPay’s payment infrastructure.",
@@ -5006,6 +5085,23 @@
     "year": "2026"
   },
   {
+    "institution": "Finextra",
+    "initiative": "Top Decentralized Exchange DEX Development Companies",
+    "description": "In this Fintech market, decentralised exchanges (DEXs) are moving beyond being the alternatives to t...",
+    "date": "2026-04-06",
+    "source_url": "https://www.finextra.com/blogposting/31336/top-decentralized-exchange-dex-development-companies",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Binance.US plots comeback with derivatives, prediction markets push",
     "description": "Under new CEO Stephen Gregory, the U.S. arm of the crypto exchange giant look sot regain market share lost to Coinbase and Kraken.",
@@ -9491,98 +9587,6 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Hong Kong hasn’t issued a single HKD stablecoin license after March target",
-    "description": "Officials flagged March for initial approvals, but licensing has yet to begin with no updated timeline",
-    "date": "2026-04-01",
-    "source_url": "https://www.coindesk.com/policy/2026/04/01/hong-kong-hasn-t-issued-a-single-hkd-stablecoin-license-after-march-target",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin is closer to its 'buy zone' than it's been in three years",
-    "description": "The gap between bitcoin's spot price and realized price is compressing toward levels that historically marked cycle bottoms, but the on-chain data shows the capitulation that typically precedes those bottoms hasn't happened.",
-    "date": "2026-04-01",
-    "source_url": "https://www.coindesk.com/markets/2026/03/31/bitcoin-is-closer-to-its-buy-zone-than-it-s-been-in-three-years",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Mastercard carries out agentic transaction in Hong Kong",
-    "description": "Hong Kong is the latest market to get its first live Mastercard agentic transaction, with an AI booking a ride with mobility provider hoppa.",
-    "date": "2026-04-01",
-    "source_url": "https://www.finextra.com/newsarticle/47521/mastercard-carries-out-agentic-transaction-in-hong-kong",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "OpenFX raises $94m",
-    "description": "Foreign exchange infrastructure company OpenFX has raised $94 million in Series A funding.",
-    "date": "2026-04-01",
-    "source_url": "https://www.finextra.com/newsarticle/47520/openfx-raises-94m",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Priscilla Muthoora Thakoor: Supervision of climate risks",
-    "description": "Speech by Dr Priscilla Muthoora Thakoor, Governor of the Bank of Mauritius, at the workshop on supervision of climate risks, Port Louis, 26 February 2026.",
-    "date": "2026-03-31",
-    "source_url": "https://www.bis.org/review/r260326f.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
