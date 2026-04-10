@@ -1,6 +1,25 @@
 [
   {
     "institution": "The Block",
+    "initiative": "AI agents reshaping crypto development, trading and risk, with Cambrian and Ethereum Foundation",
+    "description": "Builders and researchers discuss how AI agents are transforming crypto, from development and trading to entirely new financial systems.",
+    "date": "2026-04-10",
+    "source_url": "https://www.theblock.co/post/397076/ai-agents-reshaping-crypto-development-trading-and-risk-with-cambrian-and-ethereum-foundation",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
     "initiative": "How Telegram plans to turn crypto into a global payments network",
     "description": "Nikola Plecas explains how TON is building crypto payments into Telegram and where the biggest opportunities for adoption lie.",
     "date": "2026-04-10",
@@ -9566,23 +9585,6 @@
     "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "OpenAI raises a record $122 billion as revenue crosses $2 billion per month",
-    "description": "The funding round, anchored by Amazon, Nvidia, and SoftBank, is the largest private funding in history.",
-    "date": "2026-04-01",
-    "source_url": "https://www.coindesk.com/tech/2026/04/01/openai-raises-a-record-usd122-billion-at-as-revenue-crosses-usd2-billion-per-month",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
     ],
     "initiative_types": [],
     "year": "2026"
