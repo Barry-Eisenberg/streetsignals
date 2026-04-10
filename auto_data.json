@@ -1,5 +1,22 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Federal judge blocks Arizona from bringing criminal charges against Kalshi",
+    "description": "Judge Michael Liburdi ordered Arizona not to bring any enforcement actions under state law against Kalshi, at least temporarily.",
+    "date": "2026-04-10",
+    "source_url": "https://www.coindesk.com/policy/2026/04/10/federal-judge-blocks-arizona-from-bringing-criminal-charges-against-kalshi",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "US government moves bitcoin possibly linked to steroid distribution conspiracy",
     "description": "The U.S. government currently holds roughly 328,000 bitcoins, worth more than $22 billion at current prices, among other crypto assets.",
@@ -9568,25 +9585,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Lightyear Capital completes acquisition of PayByPhone",
-    "description": "Lightyear Capital, a New York-based private equity firm with over US$8 billion in assets under management, has completed its acquisition of PayByPhone, a leading provider of digital parking payments and mission-critical parking management software to more than 1,300 clients globally, from Corpay",
-    "date": "2026-04-01",
-    "source_url": "https://www.finextra.com/pressarticle/109347/lightyear-capital-completes-acquisition-of-paybyphone",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
