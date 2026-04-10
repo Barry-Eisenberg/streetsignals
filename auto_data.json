@@ -1,5 +1,22 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "‘One basis point’: Benchmark says a fraction of NYSE’s $44 trillion market could drive Securitize growth",
+    "description": "Benchmark’s base case notes that even 0.01% of NYSE’s roughly $44 trillion market could exceed Securitize’s $4 billion asset base.",
+    "date": "2026-04-10",
+    "source_url": "https://www.theblock.co/post/397043/one-basis-point-benchmark-fraction-nyse-44-trillion-market-drive-securitize-growth",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Star Xu calls CZ a ‘liar’ as founders of world’s largest crypto exchanges argue over past allegations",
     "description": "The dispute between the crypto exchange founders, which included a $1 billion wager from CZ, revives allegations dating back 11 years to Zhao’s time at OKCoin.",
@@ -9561,26 +9578,6 @@
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Brazil's B3 exchange to offer bitcoin-linked 'event contracts' for the ultra-rich",
-    "description": "The contracts are regulated by Brazil's securities regulator and designed for professional investors with at least 10 million reais ($1.9 million) in assets.",
-    "date": "2026-04-01",
-    "source_url": "https://www.coindesk.com/markets/2026/04/01/brazil-s-b3-stock-exchange-to-launch-bitcoin-linked-event-contracts",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
