@@ -1,6 +1,61 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "XRP edges higher to $1.35 on breakout, but bullish momentum still lacks",
+    "description": "Strong volume pushed price above $1.34, though weak fundamentals and overhead resistance continue to cap follow-through.",
+    "date": "2026-04-10",
+    "source_url": "https://www.coindesk.com/markets/2026/04/10/xrp-edges-higher-to-usd1-35-on-breakout-but-bullish-momentum-still-lacks",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "ETH, SOL, DOGE slide as Bitcoin fails to break $73,000 for the third time since the ceasefire",
+    "description": "The level that has capped every rally during the six-week war remains intact, with analysts saying $75,000 needs to break before the market enters a genuine bullish phase.",
+    "date": "2026-04-10",
+    "source_url": "https://www.coindesk.com/markets/2026/04/10/eth-sol-doge-slide-as-bitcoin-fails-to-break-usd73-000-for-the-third-time-since-the-ceasefire",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Digital payments rise but cash still leads in the Philippines",
+    "description": "Digital wallets and A2A payments gain ground in the Philippines, yet cash remains key as the country moves toward a cash-lite economy. The post Digital payments rise but cash still leads in the Philippines appeared first on CoinGeek .",
+    "date": "2026-04-10",
+    "source_url": "https://coingeek.com/digital-payments-rise-but-cash-still-leads-in-the-philippines/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Quantum-safe bitcoin now possible without a soft fork, but costs $200 a pop, new research shows",
     "description": "A new scheme from a StarkWare researcher works under existing consensus rules, offering an emergency fallback while BIP-360 awaits activation.",
     "date": "2026-04-10",
@@ -9375,6 +9430,25 @@
     "year": "2026"
   },
   {
+    "institution": "Chainalysis",
+    "initiative": "Chainalysis Introduces the First Blockchain Intelligence Agents",
+    "description": "Bad actors are already using AI to accelerate fraud, theft, money laundering, and more. We need to move fast to&#8230; The post Chainalysis Introduces the First Blockchain Intelligence Agents appeared first on Chainalysis .",
+    "date": "2026-03-31",
+    "source_url": "https://www.chainalysis.com/blog/introducing-first-blockchain-intelligence-agents-2026/",
+    "category": "ecosystem",
+    "source_name": "Chainalysis — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Connecting the Dots",
     "initiative": "VaulFi and Noah Launch First Direct-to-Bank Stablecoin Bridge for North Africa",
     "description": "Hey Payments Fanatic! VaulFi, the stablecoin-powered neobank, and Noah, the global payments infrastructure provider, are partnering to eliminate the &quot;Triple Extraction Problem&quot; in North Africa. This problem represents a combination of high commissions, predatory FX rates, and a widening 80% gap between official and parallel currency markets. With",
@@ -9511,81 +9585,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Benchmark initiates coverage on Securitize, calls it a ‘picks and shovels’ play for tokenization",
-    "description": "Securitize’s business model ties revenue to tokenized asset growth and activity across issuance, trading and servicing.",
-    "date": "2026-03-31",
-    "source_url": "https://www.theblock.co/post/395955/benchmark-initiates-coverage-securitize-picks-shovels-play-tokenization",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Clarity Act ‘not a gatekeeper’ for crypto innovation, WisdomTree exec says",
-    "description": "The asset manager says innovation can proceed under current SEC rules as the Clarity Act faces debate in Congress.",
-    "date": "2026-03-31",
-    "source_url": "https://www.coindesk.com/policy/2026/03/30/clarity-act-not-a-gatekeeper-for-crypto-innovation-wisdomtree-exec-says",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Crypto investment specialist Keyrock hits $1.1bn valuation",
-    "description": "Keyrock, an investment group built for digital assets, has joined the unicorn club after securing Series C funding led by SC Ventures with support from Ripple.",
-    "date": "2026-03-31",
-    "source_url": "https://www.finextra.com/newsarticle/47522/crypto-investment-specialist-keyrock-hits-11bn-valuation",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Priscilla Muthoora Thakoor: Supervision of climate risks",
-    "description": "Speech by Dr Priscilla Muthoora Thakoor, Governor of the Bank of Mauritius, at the workshop on supervision of climate risks, Port Louis, 26 February 2026.",
-    "date": "2026-03-31",
-    "source_url": "https://www.bis.org/review/r260326f.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
