@@ -4397,6 +4397,26 @@
   },
   {
     "institution": "Finextra",
+    "initiative": "Top Crypto Payment Gateway Development Companies",
+    "description": "As institutional and retail demand for crypto payment infrastructure grows, choosing the right devel...",
+    "date": "2026-04-07",
+    "source_url": "https://www.finextra.com/blogposting/31340/top-crypto-payment-gateway-development-companies",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
     "initiative": "Where Are Prediction Markets Legal? Polymarket, Kalshi, and Pariflow Availability by Country",
     "description": "Prediction markets let people trade on real-world outcomes such as elections, sports, crypto prices,...",
     "date": "2026-04-07",
@@ -9563,25 +9583,6 @@
     ],
     "initiative_types": [
       "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Franklin Templeton agrees to buy CoinFund spinoff to expand crypto investment offering: WSJ",
-    "description": "Following the close of the deal, its new crypto arm will be called Franklin Crypto, with strategies focused on institutional investors.",
-    "date": "2026-04-01",
-    "source_url": "https://www.theblock.co/post/396030/franklin-templeton-agrees-to-buy-coinfund-spinoff-to-expand-crypto-investment-offering-wsj",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
