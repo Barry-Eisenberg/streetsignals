@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "US launches cybersecurity sharing channel for crypto firms",
+    "description": "The US government has launched a cybersecurity information sharing initiative for the digital asset industry.",
+    "date": "2026-04-10",
+    "source_url": "https://www.finextra.com/newsarticle/47556/us-launches-cybersecurity-sharing-channel-for-crypto-firms",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Bitcoin tops $72,000, but Circle and Bullish drop sharply after downgrades",
     "description": "Eased Middle East tensions pushed crypto prices and U.S. stocks sizable hjigher.",
@@ -9560,25 +9579,6 @@
     "signal_type": "Research / Report",
     "fmi_areas": [
       "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Charles Hoskinson not a fan of CLARITY Act, warns of 'weaponization' by future lawmakers",
-    "description": "The Cardano founder says post-FTX politics, flawed design and a narrow U.S.-only approach risk stifling new crypto projects while benefiting established players",
-    "date": "2026-03-31",
-    "source_url": "https://www.coindesk.com/policy/2026/03/31/charles-hoskinson-not-a-fan-of-u-s-clarity-act-warns-of-weaponization-by-future-lawmakers",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
