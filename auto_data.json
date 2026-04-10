@@ -1,5 +1,64 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "How Telegram plans to turn crypto into a global payments network",
+    "description": "Nikola Plecas explains how TON is building crypto payments into Telegram and where the biggest opportunities for adoption lie.",
+    "date": "2026-04-10",
+    "source_url": "https://www.theblock.co/post/397077/how-telegram-plans-to-turn-crypto-into-a-global-payments-network",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "World decreasing WLD token unlock rate by over 40% starting in July",
+    "description": "OpenAI CEO Sam Altman is a co-founder of Tools for Humanity, the chief developer behind the World project.",
+    "date": "2026-04-10",
+    "source_url": "https://www.theblock.co/post/397069/world-decreasing-wld-token-unlock-rate-by-over-40-starting-in-july",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Justin Sun’s frozen WLFI takes $11 million hit as World Liberty brushes off liquidation fears",
+    "description": "Tron founder Justin Sun’s World Liberty token position is down by more than $80 million, according to Bubblemaps data.",
+    "date": "2026-04-10",
+    "source_url": "https://www.theblock.co/post/397066/justin-sun-frozen-wlfi-11-million-hit-world-liberty-brushes-off-liquidation-fears",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Chainalysis",
     "initiative": "Iran’s Strait of Hormuz Crypto Toll: An Evolution of Tehran’s Expanding Use of Digital Assets",
     "description": "TL;DR Bloomberg reported on April 1, 2026 that Iran’s Islamic Revolutionary Guard Corps (IRGC) was already extracting transit tolls from&#8230; The post Iran&#8217;s Strait of Hormuz Crypto Toll: An Evolution of Tehran&#8217;s Expanding Use of Digital Assets appeared first on Chainalysis .",
@@ -9526,64 +9585,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Google Quantum Paper Speeds Up Timeline for Threat to Crypto to 3 Years",
-    "description": "Google&#8217;s Quantum AI team published a landmark whitepaper Tuesday that sharply compresses the estimated timeline for a quantum computer to break the cryptographic foundations of Bitcoin and Ethereum, triggering an industry-wide debate about how much runway remains before a potentially existential threat becomes actionable. The core finding: the number of ... The post Google Quantum Paper Speeds Up Timeline for Threat to Crypto to 3 Years appeared first on Unchained .",
-    "date": "2026-04-01",
-    "source_url": "https://unchainedcrypto.com/google-quantum-paper-speeds-up-timeline-for-threat-to-crypto-to-3-years/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Grayscale’s research head says tokenization will happen in waves and explains how to play it",
-    "description": "Investors looking to bet on tokenization should think in phases, with institution-friendly networks like Canton likely winning first and Avalanche, Ethereum capturing more upside later, Grayscale's Zach Pandl said.",
-    "date": "2026-04-01",
-    "source_url": "https://www.coindesk.com/markets/2026/04/01/grayscale-s-research-head-says-tokenization-will-happen-in-waves-and-explains-how-to-play-it",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Uniswap Foundation projects funding runway through January 2027 as treasury reaches $85.8 million",
-    "description": "Uniswap Foundation disclosed $85.8 million in assets and projected funding through 2027 while ranking high among monthly DeFi fees.",
-    "date": "2026-04-01",
-    "source_url": "https://www.theblock.co/post/396027/uniswap-foundation-projects-funding-runway-through-january-2027-as-treasury-reaches-85-8-million",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi"
-    ],
     "year": "2026"
   }
 ]
