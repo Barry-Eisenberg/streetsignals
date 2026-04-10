@@ -1,6 +1,45 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "XRP may be less exposed to quantum threats than bitcoin, experts say",
+    "description": "XRP’s design leaves a smaller share of its supply exposed to future quantum attacks than Bitcoin’s, experts said, pointing to additional XRPL features that stand out.",
+    "date": "2026-04-10",
+    "source_url": "https://www.coindesk.com/tech/2026/04/10/xrp-may-be-less-exposed-to-quantum-threats-than-bitcoin-experts-say",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "World Liberty defends borrowing position on Dolomite, dismisses liquidation concerns as ‘FUD’",
+    "description": "The project said it did supply WLFI as collateral and borrowed stablecoins, but it is 'nowhere near liquidation.'",
+    "date": "2026-04-10",
+    "source_url": "https://www.theblock.co/post/396967/world-liberty-rebuts-dolomite-criticism",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "XRP edges higher to $1.35 on breakout, but bullish momentum still lacks",
     "description": "Strong volume pushed price above $1.34, though weak fundamentals and overhead resistance continue to cap follow-through.",
     "date": "2026-04-10",
@@ -9430,6 +9469,23 @@
     "year": "2026"
   },
   {
+    "institution": "BIS",
+    "initiative": "Priscilla Muthoora Thakoor: Supervision of climate risks",
+    "description": "Speech by Dr Priscilla Muthoora Thakoor, Governor of the Bank of Mauritius, at the workshop on supervision of climate risks, Port Louis, 26 February 2026.",
+    "date": "2026-03-31",
+    "source_url": "https://www.bis.org/review/r260326f.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Chainalysis",
     "initiative": "Chainalysis Introduces the First Blockchain Intelligence Agents",
     "description": "Bad actors are already using AI to accelerate fraud, theft, money laundering, and more. We need to move fast to&#8230; The post Chainalysis Introduces the First Blockchain Intelligence Agents appeared first on Chainalysis .",
@@ -9526,64 +9582,6 @@
     "initiative_types": [
       "Crypto / Digital Assets",
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin enters the public bond market as Moody’s gives a first-of-its-kind crypto deal a rating",
-    "description": "A New Hampshire state authority is set to issue a first-of-its-kind bitcoin-backed bond with a Ba2 rating, marking an early test of how crypto can function as collateral inside traditional public finance markets.",
-    "date": "2026-03-31",
-    "source_url": "https://www.coindesk.com/markets/2026/03/31/bitcoin-enters-the-public-bond-market-as-moody-s-gives-a-first-of-its-kind-crypto-deal-a-rating",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Fed’s Barr invokes ‘long and painful history’ while encouraging strong stablecoin oversight",
-    "description": "Michael Barr called for for regulatory and technological measures that ensure stablecoins will not be used for illicit activities.",
-    "date": "2026-03-31",
-    "source_url": "https://www.theblock.co/post/395970/feds-barr-invokes-long-painful-history-encouraging-strong-stablecoin-oversight",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "What's next after bitcoin's historic underperformance stretch against stocks",
-    "description": "With a few hours to go, bitcoin has tumbled 22% in the first quarter, following a 25% drop in the last quarter of 2025.",
-    "date": "2026-03-31",
-    "source_url": "https://www.coindesk.com/markets/2026/03/31/bitcoin-held-firm-in-march-but-remains-in-historic-underperformance-stretch",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
