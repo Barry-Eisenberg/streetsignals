@@ -1,5 +1,44 @@
 [
   {
+    "institution": "CoinGeek",
+    "initiative": "Chronicle upgrade on BSV mainnet clears path for Teranode",
+    "description": "BSV blockchain achieves a milestone with the Chronicle upgrade, restoring Bitcoin's original vision and paving the way for the Teranode Era. The post Chronicle upgrade on BSV mainnet clears path for Teranode appeared first on CoinGeek .",
+    "date": "2026-04-10",
+    "source_url": "https://coingeek.com/chronicle-upgrade-on-bsv-mainnet-clears-path-for-teranode/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "NextGen Nordics to reveal data on innovation divide, AI integration and fraud prevention readiness",
+    "description": "Returning for its ninth year, NextGen Nordics will welcome decision makers from banks, central banks, regulators, trade associations, technology firms and fintechs to the Münchenbryggeriet in Stockholm, Sweden on 28 April 2026.",
+    "date": "2026-04-10",
+    "source_url": "https://www.finextra.com/newsarticle/47555/nextgen-nordics-to-reveal-data-on-innovation-divide-ai-integration-and-fraud-prevention-readiness",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance",
+      "Interoperability & Standards",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "XRP may be less exposed to quantum threats than bitcoin, experts say",
     "description": "XRP’s design leaves a smaller share of its supply exposed to future quantum attacks than Bitcoin’s, experts said, pointing to additional XRPL features that stand out.",
@@ -9542,47 +9581,6 @@
       "Data & Reporting"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Key Innovations in Real-World Asset (RWA) Tokenization in 2026",
-    "description": "In 2026, real-world asset (RWA) tokenization has evolved from a niche blockchain experiment into a m...",
-    "date": "2026-03-31",
-    "source_url": "https://www.finextra.com/blogposting/31283/key-innovations-in-real-world-asset-rwa-tokenization-in-2026",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "New Hampshire authority to issue $100 million bitcoin-backed bond with speculative-grade rating from Moody’s",
-    "description": "BitGo will serve as custodian and liquidation agent responsible for liquidating bitcoin to make interest and principal payments.",
-    "date": "2026-03-31",
-    "source_url": "https://www.theblock.co/post/395979/new-hampshire-bitcoin-backed-bond",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
