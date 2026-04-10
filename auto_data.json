@@ -1,5 +1,66 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "OwlTing integrates Visa Direct into OwlPay to expand stablecoin offerings",
+    "description": "OwlTing Group (NASDAQ: OWLS) (“OwlTing” or the “Company”), the operating brand of OBOOK Holdings Inc., a blockchain technology company, today announced an expansion of its collaboration with Visa, a world leader in digital payments, to support the use of Visa Direct within OwlPay’s payment infrastructure.",
+    "date": "2026-04-10",
+    "source_url": "https://www.finextra.com/pressarticle/109421/owlting-integrates-visa-direct-into-owlpay-to-expand-stablecoin-offerings",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Fintech Wrap Up",
+    "initiative": "Michael Tannenbaum (CEO, Figure): Most tokenization projects are solving the wrong problem",
+    "description": "Everyone talks about tokenization as if it&#8217;s inevitable.",
+    "date": "2026-04-10",
+    "source_url": "https://www.fintechwrapup.com/p/polygon",
+    "category": "ecosystem",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Japan’s cabinet approves bill to classify crypto assets as financial products: Nikkei",
+    "description": "If passed during the current parliamentary session, the legislation would take effect as early as fiscal 2027, Nikkei reported.",
+    "date": "2026-04-10",
+    "source_url": "https://www.theblock.co/post/396982/japans-bill-classify-crypto-financial-products",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinGeek",
     "initiative": "Chronicle upgrade on BSV mainnet clears path for Teranode",
     "description": "BSV blockchain achieves a milestone with the Chronicle upgrade, restoring Bitcoin's original vision and paving the way for the Teranode Era. The post Chronicle upgrade on BSV mainnet clears path for Teranode appeared first on CoinGeek .",
@@ -9520,65 +9581,6 @@
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "Chainalysis Introduces the First Blockchain Intelligence Agents",
-    "description": "Bad actors are already using AI to accelerate fraud, theft, money laundering, and more. We need to move fast to&#8230; The post Chainalysis Introduces the First Blockchain Intelligence Agents appeared first on Chainalysis .",
-    "date": "2026-03-31",
-    "source_url": "https://www.chainalysis.com/blog/introducing-first-blockchain-intelligence-agents-2026/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "VaulFi and Noah Launch First Direct-to-Bank Stablecoin Bridge for North Africa",
-    "description": "Hey Payments Fanatic! VaulFi, the stablecoin-powered neobank, and Noah, the global payments infrastructure provider, are partnering to eliminate the &quot;Triple Extraction Problem&quot; in North Africa. This problem represents a combination of high commissions, predatory FX rates, and a widening 80% gap between official and parallel currency markets. With",
-    "date": "2026-03-31",
-    "source_url": "https://www.connectingthedotsinpayments.com/vaulfi-and-noah-launch-first-direct-to-bank-stablecoin-bridge-for-north-africa/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Have The Rules of Data Interpretation Changed for Wealth Management?",
-    "description": "Joining FinextraTV at Communify Intelligence Experience in Miami, Padman Perumal, Managing Partner, RPM Investors, discussed the evolving role of data interpretation, with the invent of new technologies. Perumal first addresses the complexity of wealth management, explaining how - in order to stay competitive - firms need to rely on both structured and unstructured data and must have the capability to interpret both. While technology complicates, Perumal also asserts that it also provides an ability to handle that additional complexity. When looking toward where technology most of all, he tells firms to ask two fundamental questions: What outcome are you looking for? And where does friction exist?",
-    "date": "2026-03-31",
-    "source_url": "https://www.finextra.com/videoarticle/3465/have-the-rules-of-data-interpretation-changed-for-wealth-management",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Regulation & Compliance",
-      "Data & Reporting"
     ],
     "initiative_types": [],
     "year": "2026"
