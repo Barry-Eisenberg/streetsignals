@@ -1,6 +1,82 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bitcoin holds steady as inflation data looms, bittensor drama unfolds",
+    "description": "Traders face a pivotal Friday as narrowing volatility on bitcoin's chart hints at a massive price move while bittensor faces a high-profile developer exit.",
+    "date": "2026-04-10",
+    "source_url": "https://www.coindesk.com/markets/2026/04/10/bitcoin-flatlines-as-inflation-data-looms-bittensor-drama-unfolds",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "StarkWare researcher proposes ‘quantum-safe’ Bitcoin transactions without a soft fork",
+    "description": "It may face limited adoption due to higher costs and a complex user experience, with the proposal described as a “last-resort measure.”",
+    "date": "2026-04-10",
+    "source_url": "https://www.theblock.co/post/396987/starkware-quantum-safe-bitcoin",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "World Liberty Financial Borrows $75 Million Against Its Own Token on a Protocol Its Advisor Co-Founded",
+    "description": "The post World Liberty Financial Borrows $75 Million Against Its Own Token on a Protocol Its Advisor Co-Founded appeared first on Unchained .",
+    "date": "2026-04-10",
+    "source_url": "https://unchainedcrypto.com/world-liberty-financial-borrows-75-million-against-its-own-token-on-a-protocol-its-advisor-co-founded-unchained/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "StarkWare’s Quantum-Safe Bitcoin Scheme Requires No Protocol Changes, Just $150 in GPU Compute",
+    "description": "The post StarkWare&#8217;s Quantum-Safe Bitcoin Scheme Requires No Protocol Changes, Just $150 in GPU Compute appeared first on Unchained .",
+    "date": "2026-04-10",
+    "source_url": "https://unchainedcrypto.com/starkwares-quantum-safe-bitcoin-scheme-requires-no-protocol-changes-just-150-in-gpu-compute-unchained/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "XRP adjacent Flare proposes protocol-level MEV capture and 40% inflation cut",
     "description": "The proposal would move block building away from individual validators, create a revenue entity called FIRE to buy and burn FLR, and reduce annual token inflation to 3%.",
     "date": "2026-04-10",
@@ -8334,6 +8410,25 @@
     "year": "2026"
   },
   {
+    "institution": "Connecting the Dots",
+    "initiative": "FinTech dLocal Takes the Field with the Uruguay National Football Team",
+    "description": "Hey Payments Fanatic! While most of the industry fanatics were looking at Las Vegas&#x2019; FinTech Meetup yesterday, a big move happened in Montevideo. dLocal, Uruguay&#x2019;s cross-border payments powerhouse, just became an official global sponsor of their national football team. More than a logo on a jersey; it&",
+    "date": "2026-04-01",
+    "source_url": "https://www.connectingthedotsinpayments.com/fintech-dlocal-takes-the-field-with-the-uruguay-national-football-team/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Coinbase CLO Grewal says Clarity Act ‘very close’ to reaching deal on stablecoin yield",
     "description": "Grewal said banks should not conflate the stablecoin yield issue with other challenges they are facing today.",
@@ -9484,106 +9579,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "SBI Holdings’ B2C2 designates Solana as primary stablecoin network for institutional clients",
-    "description": "Institutional liquidity provider B2C2 will now route and settle large-scale stablecoin transactions for its institutional clients on Solana.",
-    "date": "2026-04-01",
-    "source_url": "https://www.theblock.co/post/395985/b2c2-solana-institutional-stablecoin-network-sbi-holdings",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Australia passes crypto regulation requiring exchanges to obtain financial services licenses",
-    "description": "Exchanges and custody platforms must obtain financial services licenses within six months under the new framework.",
-    "date": "2026-04-01",
-    "source_url": "https://www.coindesk.com/policy/2026/04/01/australia-passes-crypto-licensing-bill-as-ausd24-billion-opportunity-comes-into-focus",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "US indicts 10 foreign nationals for alleged crypto wash trading scheme",
-    "description": "US juries indicted 10 executives and employees at Gotbit, Vortex, Antier, and Contrarian for allegedly conducting wash trading.",
-    "date": "2026-04-01",
-    "source_url": "https://www.theblock.co/post/395997/us-indicts-crypto-wash-trading",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "KPMG to audit Tether, Circle sets stablecoin transaction record",
-    "description": "Tether taps KPMG as its auditor, with PwC helping prepare systems, as Circle reaches a stablecoin milestone and euro tokens gain broader use. The post KPMG to audit Tether, Circle sets stablecoin transaction record appeared first on CoinGeek .",
-    "date": "2026-04-01",
-    "source_url": "https://coingeek.com/kpmg-to-audit-tether-circle-sets-stablecoin-transaction-record/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bitcoin posts worst first quarter since 2018, falling 24%",
-    "description": "Analysts said long-term conviction in bitcoin is still intact, noting that the decline is more cyclical than fundamental.",
-    "date": "2026-04-01",
-    "source_url": "https://www.theblock.co/post/395991/bitcoin-worst-q1-since-2018",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
