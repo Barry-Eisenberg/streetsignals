@@ -1,5 +1,63 @@
 [
   {
+    "institution": "CoinGeek",
+    "initiative": "For stablecoins to grow, baby boomers must die",
+    "description": "Stablecoin growth could hit $719 trillion by 2035 as wealth shifts to younger users, while banks test digital assets and push back on dollar dominance. The post For stablecoins to grow, baby boomers must die appeared first on CoinGeek .",
+    "date": "2026-04-10",
+    "source_url": "https://coingeek.com/for-stablecoins-to-grow-baby-boomers-must-die/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "TD Cowen cuts Strategy price target to $350, initiates coverage of Sharplink, Strive, Nakamoto and Smarter Web with buy ratings",
+    "description": "TD Cowen cut its Strategy price target to $350 on lower bitcoin assumptions while assigning buy ratings to four digital asset treasury firms.",
+    "date": "2026-04-10",
+    "source_url": "https://www.theblock.co/post/396989/td-cowen-cuts-strategy-price-target-sharplink-strive-nakamoto-smarter-web-buy-ratings",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Bessent Presses Senate on Clarity Act, Labels Resistant Crypto Leaders ‘Nihilists’",
+    "description": "The post Bessent Presses Senate on Clarity Act, Labels Resistant Crypto Leaders &#8216;Nihilists&#8217; appeared first on Unchained .",
+    "date": "2026-04-10",
+    "source_url": "https://unchainedcrypto.com/bessent-presses-senate-on-clarity-act-labels-resistant-crypto-leaders-nihilists-unchained/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Bitcoin holds steady as inflation data looms, bittensor drama unfolds",
     "description": "Traders face a pivotal Friday as narrowing volatility on bitcoin's chart hints at a massive price move while bittensor faces a high-profile developer exit.",
@@ -9520,67 +9578,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "ECB sets out strategy for future of European payments",
-    "description": "The Eurosystem has today published its comprehensive payments strategy, outlining its vision for the evolution of Europe’s payments amid rapid technological change.",
-    "date": "2026-04-01",
-    "source_url": "https://www.finextra.com/pressarticle/109336/ecb-sets-out-strategy-for-future-of-european-payments",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Crypto hack, exploit losses reach $52 million in March: PeckShield",
-    "description": "A significant portion of the losses came from an exploit on Resolv Labs, which lost $25 million worth of USR stablecoins.",
-    "date": "2026-04-01",
-    "source_url": "https://www.theblock.co/post/396010/crypto-hack-exploit-losses-52-million",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Australia passes bill requiring financial licenses for crypto platforms",
-    "description": "The bill mandates that digital asset platforms and tokenized custody platforms hold an Australian Financial Services Licence.",
-    "date": "2026-04-01",
-    "source_url": "https://www.theblock.co/post/396009/australia-passes-crypto-bill",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Tokenization & Issuance",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
