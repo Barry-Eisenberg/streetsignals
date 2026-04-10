@@ -1,6 +1,47 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Quantum-safe bitcoin now possible without a soft fork, but costs $200 a pop, new research shows",
+    "description": "A new scheme from a StarkWare researcher works under existing consensus rules, offering an emergency fallback while BIP-360 awaits activation.",
+    "date": "2026-04-10",
+    "source_url": "https://www.coindesk.com/markets/2026/04/10/quantum-safe-bitcoin-now-possible-without-a-soft-fork-but-costs-usd200-a-pop",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Connecting the Dots",
+    "initiative": "Noah-Hyperbeat Deal Unlocks $300B On-Chain Banking",
+    "description": "Hey Payments Fanatic! Noah has partnered with the on-chain banking layer, Hyperbeat, to give users a faster and easier way to move money between bank accounts and on-chain trading for the first time. As part of the partnership , Noah is now the default EUR, USD, and major currency settlement provider",
+    "date": "2026-04-10",
+    "source_url": "https://www.connectingthedotsinpayments.com/noah-hyperbeat-deal-unlocks-300b-on-chain-banking/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "OKX and HashKey invest in new Vietnam exchange ahead of crypto licensing push",
     "description": "The partnership will help the exchange meet Vietnam's $380 million capital requirement to enter a government pilot program aimed at licensing local platforms and curbing offshore trading.",
     "date": "2026-04-10",
@@ -9545,42 +9586,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Soledad Núñez: Sustainability, competitiveness and geopolitics - new dimensions shaping the prudential framework",
-    "description": "Speech by Ms Soledad Núñez, Deputy Governor of the Bank of Spain, at the Annual Assembly of FINRESP (el Centro de Finanzas Sostenibles y Responsables de España), Madrid, 2 March 2026.",
-    "date": "2026-03-31",
-    "source_url": "https://www.bis.org/review/r260326b.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "Chainalysis Introduces the First Blockchain Intelligence Agents",
-    "description": "Bad actors are already using AI to accelerate fraud, theft, money laundering, and more. We need to move fast to&#8230; The post Chainalysis Introduces the First Blockchain Intelligence Agents appeared first on Chainalysis .",
-    "date": "2026-03-31",
-    "source_url": "https://www.chainalysis.com/blog/introducing-first-blockchain-intelligence-agents-2026/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
     "year": "2026"
   }
 ]
