@@ -1,6 +1,82 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "XRP adjacent Flare proposes protocol-level MEV capture and 40% inflation cut",
+    "description": "The proposal would move block building away from individual validators, create a revenue entity called FIRE to buy and burn FLR, and reduce annual token inflation to 3%.",
+    "date": "2026-04-10",
+    "source_url": "https://www.coindesk.com/tech/2026/04/10/xrp-adjacent-flare-proposes-protocol-level-mev-capture-and-40-inflation-cut",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "US Treasury Secretary warns bank CEOs on Anthropic's new AI model",
+    "description": "AI platform Anthropic announced its new general-purpose language model, Claude Mythos Preview to enhance detection of cybercrime on Wednesday, alongside its launch of Claude Managed Agents, which allows users to deploy AI agents within its platform.",
+    "date": "2026-04-10",
+    "source_url": "https://www.finextra.com/newsarticle/47558/us-treasury-secretary-warns-bank-ceos-on-anthropics-new-ai-model",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "HSBC and Anchorpoint Financial gain first Hong Kong stablecoin issuer licenses",
+    "description": "Anchorpoint Financial is a joint venture between Standard Chartered, Animoca Brands, and Hong Kong Telecommunications.",
+    "date": "2026-04-10",
+    "source_url": "https://www.theblock.co/post/396990/hsbc-and-anchorpoint-financial-gain-first-hong-kong-stablecoin-issuer-licenses",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bitget debuts IPO Prime market with SpaceX pre-IPO exposure token",
+    "description": "Bitget has launched IPO Prime, a subscription-based market for pre-IPO tokenized allocations, with SpaceX's preSPAX as its first offering.",
+    "date": "2026-04-10",
+    "source_url": "https://www.theblock.co/post/396976/bitget-debuts-ipo-prime",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "HSBC and Standard Chartered-led group land Hong Kong’s first stablecoin licenses",
     "description": "The approvals by the Hong Kong Monetary Authority, the territory's central bank, mark the first batch under the Stablecoins Ordinance, which took effect in August 2025.",
     "date": "2026-04-10",
@@ -9509,83 +9585,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Some quantum-resistant tokens jump 50% as Google flags risks to Bitcoin security",
-    "description": "The so-called quantum-resistant coins rally as traders switch to potential long-term security.",
-    "date": "2026-04-01",
-    "source_url": "https://www.coindesk.com/markets/2026/04/01/the-first-winners-of-the-quantum-crypto-debate-are-already-clear-and-some-of-them-are-up-50",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "These catalysts could bump bitcoin as Trump hands three-week target to end Iran war",
-    "description": "Asian stocks surged 4% and S&P 500 futures jumped after Trump said the conflict could conclude without a deal with Tehran, while Morgan Stanley's newly approved bitcoin ETF at 14 basis points opens a $6.2 trillion advisory channel.",
-    "date": "2026-04-01",
-    "source_url": "https://www.coindesk.com/markets/2026/04/01/these-catalysts-could-bump-bitcoin-as-trump-hands-three-week-target-to-end-iran-war",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Myanmar eyes cashless future for rice industry",
-    "description": "Myanmar's MRF RICE initiative promotes digital payments and financial literacy in the agricultural sector, enhancing farming efficiency. The post Myanmar eyes cashless future for rice industry appeared first on CoinGeek .",
-    "date": "2026-04-01",
-    "source_url": "https://coingeek.com/myanmar-eyes-cashless-future-for-rice-industry/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "FinTech dLocal Takes the Field with the Uruguay National Football Team",
-    "description": "Hey Payments Fanatic! While most of the industry fanatics were looking at Las Vegas&#x2019; FinTech Meetup yesterday, a big move happened in Montevideo. dLocal, Uruguay&#x2019;s cross-border payments powerhouse, just became an official global sponsor of their national football team. More than a logo on a jersey; it&",
-    "date": "2026-04-01",
-    "source_url": "https://www.connectingthedotsinpayments.com/fintech-dlocal-takes-the-field-with-the-uruguay-national-football-team/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
