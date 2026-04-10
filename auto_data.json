@@ -1,6 +1,25 @@
 [
   {
     "institution": "The Block",
+    "initiative": "US government moves bitcoin possibly linked to steroid distribution conspiracy",
+    "description": "The U.S. government currently holds roughly 328,000 bitcoins, worth more than $22 billion at current prices, among other crypto assets.",
+    "date": "2026-04-10",
+    "source_url": "https://www.theblock.co/post/397104/us-government-bitcoin-possibly-linked-steroid-distribution-conspiracy",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
     "initiative": "Crypto bill negotiations enter critical week as lawmakers return amid pressure to resolve stablecoin rewards",
     "description": "Negotiations over how to treat stablecoin rewards are intensifying as lawmakers return to Washington D.C. next week.",
     "date": "2026-04-10",
@@ -8966,6 +8985,23 @@
     "year": "2026"
   },
   {
+    "institution": "BIS",
+    "initiative": "Quantum Bayesian inference: an exploration",
+    "description": "by Jon Frost, Carlos Madeira, Yash Rastogi, Harald Uhlig This paper introduces a framework for performing Bayesian inference using quantum computation. It presents a proof-of-concept quantum algorithm that performs posterior sampling. We provide an accessible introduction to quantum computation for economists and a practical demonstration of quantum-based posterior sampling for Bayesian estimation.",
+    "date": "2026-04-01",
+    "source_url": "https://www.bis.org/publ/work1342.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Connecting the Dots",
     "initiative": "FinTech dLocal Takes the Field with the Uruguay National Football Team",
     "description": "Hey Payments Fanatic! While most of the industry fanatics were looking at Las Vegas&#x2019; FinTech Meetup yesterday, a big move happened in Montevideo. dLocal, Uruguay&#x2019;s cross-border payments powerhouse, just became an official global sponsor of their national football team. More than a logo on a jersey; it&",
@@ -9550,45 +9586,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "OpenEden issues first tokenized access to BNY’s Global Short-Dated High-Yield Bond strategy",
-    "description": "OpenEden launches HYBOND token offering onchain access to BNY Investments’ Global Short-Dated High-Yield Bond strategy.",
-    "date": "2026-04-01",
-    "source_url": "https://www.theblock.co/post/395910/openeden-issues-first-tokenized-access-to-bnys-global-short-dated-high-yield-bond-strategy",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bitcoin traders show ‘aggressive caution’ heading into typically low-volume Easter period: K33",
-    "description": "Bitcoin defensive positioning is building into a potential Easter-driven slowdown, according to analysts at K33.",
-    "date": "2026-04-01",
-    "source_url": "https://www.theblock.co/post/396039/bitcoin-traders-show-aggressive-caution-heading-into-typically-low-volume-easter-period-k33",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
