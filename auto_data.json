@@ -1,5 +1,45 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Total Payments opens Norwich office",
+    "description": "A fast-growing UK payments firm is continuing its national expansion with the launch of a new office in Norwich, as demand for flexible merchant services continues to rise.",
+    "date": "2026-04-10",
+    "source_url": "https://www.finextra.com/pressarticle/109423/total-payments-opens-norwich-office",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "How B2B Payment Leaders Can Avoid Losing Their Competitive Advantage",
+    "description": "In this FinextraTV 2026 interview, Saskia Devolder, Head of Visa Direct, Central Europe, discussed how banks can avoid losing their grip on B2B payments and maintain leadership in B2B cross-border payments. Devolder discusses the shifting expectations around transparency for clients, real-time payments, user experience, and how these expectations create a new era for cross-border payments. Devolder highlights why SMBs are willing to trade higher costs to ensure predictability and reliability. She notes how, in an ever changing industry, there is an an emerging need for my hybrid integrations across banks and fintech firms.",
+    "date": "2026-04-10",
+    "source_url": "https://www.finextra.com/videoarticle/3478/how-b2b-payment-leaders-can-avoid-losing-their-competitive-advantage",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Interoperability & Standards",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Institutions' bitcoin positioning lacks conviction; CPI, Iran talks might help",
     "description": "Institutions are betting on the bitcoin price hitting $80,000 through call options, but they are also buying downside protection.",
@@ -9537,42 +9577,6 @@
     "signal_type": "Pilot / Trial",
     "fmi_areas": [
       "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "TikTok seeks financial services licences in Brazil",
-    "description": "Social media platform TikTok is reportedly seeking approval from the Brazilian central bank for financial services licences that would allow it to operate as an electronic money and credit company.",
-    "date": "2026-04-01",
-    "source_url": "https://www.finextra.com/newsarticle/47525/tiktok-seeks-financial-services-licences-in-brazil",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "CaixaBank rolls out crypto investment services",
-    "description": "CaixaBank is to roll out two bitcoin-based crypto-asset investment vehicles in the coming months, offering custody, reception and execution of buy and sell orders.",
-    "date": "2026-04-01",
-    "source_url": "https://www.finextra.com/newsarticle/47524/caixabank-rolls-out-crypto-investment-services",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Custody & Safekeeping"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
