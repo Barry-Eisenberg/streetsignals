@@ -1,6 +1,26 @@
 [
   {
     "institution": "The Block",
+    "initiative": "Crypto bill negotiations enter critical week as lawmakers return amid pressure to resolve stablecoin rewards",
+    "description": "Negotiations over how to treat stablecoin rewards are intensifying as lawmakers return to Washington D.C. next week.",
+    "date": "2026-04-10",
+    "source_url": "https://www.theblock.co/post/397092/crypto-bill-negotiations-critical-week-lawmakers-return-resolve-stablecoin-rewards",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
     "initiative": "AI agents reshaping crypto development, trading and risk, with Cambrian and Ethereum Foundation",
     "description": "Builders and researchers discuss how AI agents are transforming crypto, from development and trading to entirely new financial systems.",
     "date": "2026-04-10",
@@ -9570,23 +9590,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Quantum Bayesian inference: an exploration",
-    "description": "by Jon Frost, Carlos Madeira, Yash Rastogi, Harald Uhlig This paper introduces a framework for performing Bayesian inference using quantum computation. It presents a proof-of-concept quantum algorithm that performs posterior sampling. We provide an accessible introduction to quantum computation for economists and a practical demonstration of quantum-based posterior sampling for Bayesian estimation.",
-    "date": "2026-04-01",
-    "source_url": "https://www.bis.org/publ/work1342.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
