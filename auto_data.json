@@ -1,5 +1,46 @@
 [
   {
+    "institution": "ESMA",
+    "initiative": "ESMA clarifies expectations in the run-up to the launch of EU’s Consolidated Tapes",
+    "description": "ESMA clarifies expectations in the run-up to the launch of EU’s Consolidated Tapes 01 April 2026 Market data Trading The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published Questions and Answers (Q&amp;As) on the onboarding of data contributors to the EU’s Consolidated Tapes (CTs), and on the operational rules for the Consolidated Tape Providers (CTPs). The goal is to increase certainty for all market participants in anticipation of the go-live of the EU’s CTs for bonds and for equities.&nbsp; &nbsp; The Q&amp;As are available via ESMA’s online Q&amp;A tool. &nbsp; In collaboration with National Competent Authorities, ESMA reminds that trading venues and Authorised Publication Arrangements have the legal obligation to contribute data to the CTPs from the CTs’ go‑live.&nbsp; &nbsp; In this context, ESMA expects the relevant data contributors to engage with the selected CTPs ahead of their formal authorisation, to ensure that the data transmission setup is in place before the CTs’ go‑live. This cooperation may include agreeing on the relevant transmission protocols and conducting connectivity and end‑to‑end testing. &nbsp; ESMA expects the selected CTPs to put appropriate arrangements in place to safeguard the confidentiality and integrity of information received during this preparatory phase. &nbsp; Background In 2025, ESMA selected fairCT as the provider of the EU’s bonds CT and EuroCTP as the provider of the equities CT. The authorisation processes for both CTPs are currently ongoing. &nbsp; The selection procedure for the provider of the derivatives CT was launched in January 2026, and ESMA expects to announce the selected candidate by July 2026. &nbsp; &nbsp; Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu",
+    "date": "2026-04-11",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-clarifies-expectations-run-launch-eus-consolidated-tapes",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance",
+      "Interoperability & Standards",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "The crypto honeymoon is over for now as analysts warn of a major first-quarter profit squeeze",
+    "description": "Several major investment firms have preemptively downgraded Coinbase and other platforms as a sharp drop in trading activity and falling token prices threaten to derail upcoming first-quarter earnings results.",
+    "date": "2026-04-11",
+    "source_url": "https://www.coindesk.com/markets/2026/04/11/the-crypto-honeymoon-is-over-for-now-as-analysts-warn-of-a-major-first-quarter-profit-squeeze",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Bitcoin, broader market flat as U.S.-Iran negotiations begin",
     "description": "The market rose over the week after a two-week ceasefire was announced, triggering a derivatives short squeeze that wiped out over $430 million in bearish positions.",
@@ -9549,46 +9590,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Stablecoin card issuing infrastructure platform Kulipa raises $6.2 million seed round",
-    "description": "Kulipa helps fintechs and wallets issue white-label stablecoin payment cards without managing card operations themselves.",
-    "date": "2026-04-01",
-    "source_url": "https://www.theblock.co/post/396063/stablecoin-card-kulipa-seed-round",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bitcoin miner Cango secures financing as NYSE delisting looms amid low stock price",
-    "description": "NYSE-listed Cango raised a total of $75 million from a strategic investment and a convertible note financing deal.",
-    "date": "2026-04-01",
-    "source_url": "https://www.theblock.co/post/396056/bitcoin-miner-cango-secures-financing-nyse-delisting-looms-low-stock-price",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
