@@ -1,6 +1,43 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Crypto Clarity bill has 30% chance of passing this year, Wintermute’s Hammond says",
+    "description": "Wintermute’s head of policy Ron Hammond pegs chances at 30%, citing political friction, stalled negotiations and shifting timelines despite signs of progress.",
+    "date": "2026-04-11",
+    "source_url": "https://www.coindesk.com/policy/2026/04/11/crypto-clarity-bill-has-30-chance-of-passing-this-year-wintermute-s-hammond-says",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitwise files updated S-1 for Hyperliquid ETF as HYPE fund race heats up",
+    "description": "HYPE has surged around 200% over the last 12 months. Other asset managers including Grayscale, 21Shares, and VanEck are also eyeing HYPE-linked ETFs.",
+    "date": "2026-04-11",
+    "source_url": "https://www.coindesk.com/markets/2026/04/11/bitwise-files-updated-s-1-for-hyperliquid-etf-as-hype-fund-race-heats-up",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "The bitcoin market is splitting in two. Here's who is buying and selling amid the war",
     "description": "Six weeks of war have revealed that bitcoin's floor depends entirely on a handful of mandated buyers absorbing what everyone else is trying to get rid of.",
     "date": "2026-04-11",
@@ -9547,46 +9584,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin’s crashes are shrinking, and Wall Street is starting to notice",
-    "description": "Not all analysts agree that further drawdowns are over, as Bloomberg Analyst Mike McGlone insists the crypto bubble is over and bitcoin could still revisit $10,000.",
-    "date": "2026-04-01",
-    "source_url": "https://www.coindesk.com/markets/2026/04/01/bitcoin-s-crashes-are-shrinking-and-wall-street-is-starting-to-notice",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Rain and Episode Six form stablecoin alliance",
-    "description": "Rain, the enterprise-grade infrastructure for stablecoin-powered payments, today announced a strategic partnership with Episode Six, a leading global payment technology company and card issuer processor.",
-    "date": "2026-04-01",
-    "source_url": "https://www.finextra.com/pressarticle/109350/rain-and-episode-six-form-stablecoin-alliance",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
