@@ -1,6 +1,26 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Crypto perpetuals predict the direction of Wall Street’s Monday open with 89% accuracy, data shows",
+    "description": "Over half (57%) of Monday market opens is s already reflected in crypto markets' perpetual futures products.",
+    "date": "2026-04-11",
+    "source_url": "https://www.coindesk.com/markets/2026/04/11/crypto-perpetuals-predict-the-direction-of-wall-street-s-monday-open-with-89-accuracy-data-shows",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Crypto Clarity bill has 30% chance of passing this year, Wintermute’s Hammond says",
     "description": "Wintermute’s head of policy Ron Hammond pegs chances at 30%, citing political friction, stalled negotiations and shifting timelines despite signs of progress.",
     "date": "2026-04-11",
@@ -9565,23 +9585,6 @@
     "signal_type": "Strategic Partnership",
     "fmi_areas": [
       "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "CoinDesk 20 performance update: Avalanche (AVAX) gains 4% as index moves higher",
-    "description": "Hedera (HBAR), up 3.6% from Tuesday, was also among the top performers.",
-    "date": "2026-04-01",
-    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/01/coindesk-20-performance-update-avalanche-avax-gains-4-as-index-moves-higher",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
     ],
     "initiative_types": [],
     "year": "2026"
