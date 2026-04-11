@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bhutan has sold 70% of its bitcoin in 18 months. It may have stopped BTC mining too.",
+    "description": "The kingdom's holdings have dropped from 13,000 BTC to 3,954 since October 2024, with $215.7 million moved out this year alone. Its last mining inflow over $100,000 was recorded more than a year ago.",
+    "date": "2026-04-11",
+    "source_url": "https://www.coindesk.com/markets/2026/04/11/bhutan-has-sold-70-of-its-bitcoin-in-18-months-it-may-have-stopped-btc-mining-too",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Federal judge blocks Arizona from bringing criminal charges against Kalshi",
     "description": "Judge Michael Liburdi ordered Arizona not to bring any enforcement actions under state law against Kalshi, at least temporarily.",
     "date": "2026-04-10",
@@ -9568,23 +9587,6 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "FactSet launches AI-powered ecosystem for banking",
-    "description": "FactSet (NYSE:FDS | NASDAQ:FDS), a global financial digital platform and enterprise solutions provider, today announced the alpha launch of FactSet AI for Banking, an AI-powered workflow automation ecosystem.",
-    "date": "2026-04-01",
-    "source_url": "https://www.finextra.com/pressarticle/109348/factset-launches-ai-powered-ecosystem-for-banking",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
