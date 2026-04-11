@@ -1,5 +1,28 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Iran war oil-price shock revives inflation trade and a new stablecoin play",
+    "description": "As oil shocks revive investor anxiety, stablecoins solved payments, but not purchasing power, says Michael Ashton, who's USDi token aims to fix that.",
+    "date": "2026-04-11",
+    "source_url": "https://www.coindesk.com/business/2026/04/11/iran-war-oil-price-shock-revives-inflation-trade-and-a-new-stablecoin-play",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Tokenization & Issuance",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Ether Machine and Dynamix mutually scrap SPAC merger, blame ‘unfavorable market conditions’",
     "description": "Under the Termination Agreement effective April 8, an unnamed \"Payor\" likely connected to The Ether Machine must pay Dynamix $50 million within 15 days.",
@@ -9568,25 +9591,6 @@
       "Data & Reporting"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Franklin Templeton launches crypto division with 250 Digital acquisition",
-    "description": "The asset manager is creating a new “Franklin Crypto” unit to expand beyond ETFs and target institutional demand for active digital asset strategies.",
-    "date": "2026-04-01",
-    "source_url": "https://www.coindesk.com/business/2026/04/01/franklin-templeton-launches-crypto-division-with-250-digital-acquisition",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
