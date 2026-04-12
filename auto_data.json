@@ -328,6 +328,23 @@
     "year": "2026"
   },
   {
+    "institution": "Finextra",
+    "initiative": "Why the UK Leads Fintech: Inside Companies and Infrastructure Powering Financial Innovation",
+    "description": "The UK is a global leader in fintech, ranking second worldwide and first in Europe by investment. Ac...",
+    "date": "2026-04-10",
+    "source_url": "https://www.finextra.com/blogposting/31365/why-the-uk-leads-fintech-inside-companies-and-infrastructure-powering-financial-innovation",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Federal judge blocks Arizona from bringing criminal charges against Kalshi",
     "description": "Judge Michael Liburdi ordered Arizona not to bring any enforcement actions under state law against Kalshi, at least temporarily.",
@@ -9569,23 +9586,6 @@
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Treasury issues GENIUS Act rule proposal, seeks comment on state oversight for smaller issuers",
-    "description": "Members of the public will have 60 days to respond to the Treasury’s notice of proposed rulemaking in the Federal Register.",
-    "date": "2026-04-01",
-    "source_url": "https://www.theblock.co/post/396093/treasury-genius-act-rule-proposal-seeks-comment-oversight-smaller-issuers",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
     ],
     "initiative_types": [],
     "year": "2026"
