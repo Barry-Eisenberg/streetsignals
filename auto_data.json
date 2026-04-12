@@ -1,6 +1,26 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Trump token sees whale accumulation ahead of Mar-a-Lago gala; senators raise questions over event",
+    "description": "Some whales have withdrawn large amounts of TRUMP tokens to private wallets, according to Lookonchain.",
+    "date": "2026-04-12",
+    "source_url": "https://www.coindesk.com/markets/2026/04/12/trump-token-sees-whale-accumulation-ahead-of-mar-a-lago-gala-senators-raise-questions-over-event",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Why North Korea keeps stealing billions in crypto — out in the open",
     "description": "As North Korea's infiltration tactics grow more sophisticated, security experts say the crypto industry needs to understand what sets the regime apart from every other state-backed hacker — and why that difference makes it a dangerous threat to the ecosystem.",
     "date": "2026-04-12",
@@ -9571,25 +9591,6 @@
       "Trading & Exchange"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Galaxy Digital's testnet suffers hack but no client funds or information were compromised",
-    "description": "Mike Novogratz’s crypto financial services firm said unauthorized access was limited to a segregated R&D workspace; trading systems and client accounts were unaffected.",
-    "date": "2026-04-01",
-    "source_url": "https://www.coindesk.com/tech/2026/04/01/galaxy-digital-suffers-hack-but-no-client-funds-or-information-were-compromised",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
