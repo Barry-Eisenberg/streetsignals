@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "CFTC Chair Mike Selig argues for agency's 'exclusive regulatory authority' in prediction markets fight: State of Crypto",
+    "description": "Selig said states do not have the ability to police prediction market providers, echoing his agency's stance as it pursues court cases to cement its authority.",
+    "date": "2026-04-12",
+    "source_url": "https://www.coindesk.com/policy/2026/04/12/cftc-chair-mike-selig-argues-for-agency-s-exclusive-regulatory-authority-in-prediction-markets-fight-state-of-crypto",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "DeFi’s shakeout is a stress test, not a death sentence",
     "description": "Novozhenov argues that despite lingering governance, security and regulatory hurdles that have shuttered several protocols, DeFi remains resilient.",
     "date": "2026-04-12",
@@ -9566,38 +9585,21 @@
   },
   {
     "institution": "Connecting the Dots",
-    "initiative": "Q&A: Why it’s time to rethink your APM strategy: A conversation with Checkout.com’s Manika Singh",
-    "description": "Payments are becoming an increasingly decisive lever for growth, particularly at checkout, where customer expectations, local preferences, and performance converge in seconds. I&#x2019;m joined by Manika Singh, VP of Product at Checkout.com, to explore how they approach alternative payment methods (APMs) at a global scale. In this",
+    "initiative": "FinTech dLocal Takes the Field with the Uruguay National Football Team",
+    "description": "Hey Payments Fanatic! While most of the industry fanatics were looking at Las Vegas&#x2019; FinTech Meetup yesterday, a big move happened in Montevideo. dLocal, Uruguay&#x2019;s cross-border payments powerhouse, just became an official global sponsor of their national football team. More than a logo on a jersey; it&",
     "date": "2026-04-01",
-    "source_url": "https://www.connectingthedotsinpayments.com/q-a-why-its-time-to-rethink-your-apm-strategy-a-conversation-with-checkout-coms-manika-singh/",
+    "source_url": "https://www.connectingthedotsinpayments.com/fintech-dlocal-takes-the-field-with-the-uruguay-national-football-team/",
     "category": "ecosystem",
     "source_name": "Connecting the Dots in Payments",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Payments & Transfers"
     ],
     "initiative_types": [
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Quantum Bayesian inference: an exploration",
-    "description": "by Jon Frost, Carlos Madeira, Yash Rastogi, Harald Uhlig This paper introduces a framework for performing Bayesian inference using quantum computation. It presents a proof-of-concept quantum algorithm that performs posterior sampling. We provide an accessible introduction to quantum computation for economists and a practical demonstration of quantum-based posterior sampling for Bayesian estimation.",
-    "date": "2026-04-01",
-    "source_url": "https://www.bis.org/publ/work1342.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
