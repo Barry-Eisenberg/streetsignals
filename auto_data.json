@@ -1,5 +1,24 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin and other cryptos fall as U.S., Iranian negotiators fail to reach war resolution",
+    "description": "U.S. Vice President J.D. Vance said negotiations had ended after a daylong session in Pakistan, sending crypto prices down between 1.5% and 2%.",
+    "date": "2026-04-12",
+    "source_url": "https://www.coindesk.com/markets/2026/04/11/bitcoin-and-other-cryptos-fall-as-u-s-iranian-negotiators-fail-to-reach-war-resolution",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "ECB backs EU plan to centralize crypto supervision under Paris-based ESMA watchdog: Reuters",
     "description": "The ECB warned that ESMA must receive adequate staffing and funding, and recommended a phased transition to avoid disruption.",
@@ -9568,25 +9587,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "The Protocol: Quantum computing could break Bitcoin sooner, says Google",
-    "description": "Also: OpenAI raises $122 billion, crypto ecosystems diverging post-quantum strategies, and Base’s 2026 roadmap.",
-    "date": "2026-04-01",
-    "source_url": "https://www.coindesk.com/tech/2026/04/01/the-protocol-quantum-computing-could-break-bitcoin-sooner-says-google",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
