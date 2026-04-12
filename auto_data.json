@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "XRP drops to $1.33 as bitcoin weakness pulls down majors",
+    "description": "Sudden selloff triggered liquidation-style move, with weak recovery reinforcing bearish structure despite compressed volatility setup.",
+    "date": "2026-04-12",
+    "source_url": "https://www.coindesk.com/markets/2026/04/12/xrp-drops-to-usd1-33-as-bitcoin-weakness-pulls-down-majors",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bitcoin and other cryptos fall as U.S., Iranian negotiators fail to reach war resolution",
     "description": "U.S. Vice President J.D. Vance said negotiations had ended after a daylong session in Pakistan, sending crypto prices down between 1.5% and 2%.",
     "date": "2026-04-12",
@@ -9567,26 +9586,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Crypto super PAC names Tether exec chairman as stablecoin debate in D.C. intensifies",
-    "description": "The debate over stablecoin rewards seems to be the final stumbling block to Congress passing the Clarity Act.",
-    "date": "2026-04-01",
-    "source_url": "https://www.theblock.co/post/396081/crypto-super-pac-names-tether-exec-chairman-as-stablecoin-debate-in-d-c-intensifies",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
