@@ -9584,22 +9584,20 @@
     "year": "2026"
   },
   {
-    "institution": "Connecting the Dots",
-    "initiative": "FinTech dLocal Takes the Field with the Uruguay National Football Team",
-    "description": "Hey Payments Fanatic! While most of the industry fanatics were looking at Las Vegas&#x2019; FinTech Meetup yesterday, a big move happened in Montevideo. dLocal, Uruguay&#x2019;s cross-border payments powerhouse, just became an official global sponsor of their national football team. More than a logo on a jersey; it&",
+    "institution": "BIS",
+    "initiative": "Quantum Bayesian inference: an exploration",
+    "description": "by Jon Frost, Carlos Madeira, Yash Rastogi, Harald Uhlig This paper introduces a framework for performing Bayesian inference using quantum computation. It presents a proof-of-concept quantum algorithm that performs posterior sampling. We provide an accessible introduction to quantum computation for economists and a practical demonstration of quantum-based posterior sampling for Bayesian estimation.",
     "date": "2026-04-01",
-    "source_url": "https://www.connectingthedotsinpayments.com/fintech-dlocal-takes-the-field-with-the-uruguay-national-football-team/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
+    "source_url": "https://www.bis.org/publ/work1342.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
     "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
     "fmi_areas": [
-      "Payments & Transfers"
+      "Regulation & Compliance"
     ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2026"
   }
 ]
