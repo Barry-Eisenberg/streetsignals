@@ -1,5 +1,24 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "‘See you in court’: WLFI threatens Justin Sun after he alleges hidden blacklist backdoor in token contract",
+    "description": "Sun called himself \"the first and single largest victim\" of World Liberty's blacklist, referencing his own wallet which has been frozen since Sep. 2025.",
+    "date": "2026-04-12",
+    "source_url": "https://www.theblock.co/post/397126/see-you-in-court-wlfi-threatens-justin-sun-after-he-alleges-hidden-blacklist-backdoor-in-token-contract",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Bitcoin may be forming a base at $65,000 as 'paper hands' have been flushed out",
     "description": "Jurrien Timmer, director of global macro at Fidelity Investments, says strong earnings are helping markets absorb geopolitical shocks, despite ongoing risks.",
@@ -9575,26 +9594,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "eToro rolls out crypto trading in New York three years after receiving BitLicense",
-    "description": "Andrew McCormick, head of eToro U.S., said it was the first firm to receive a BitLicense in 2023 following the collapse of FTX.",
-    "date": "2026-04-01",
-    "source_url": "https://www.theblock.co/post/396136/etoro-crypto-trading-new-york-three-years-after-bitlicense",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
