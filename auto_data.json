@@ -1,6 +1,23 @@
 [
   {
     "institution": "The Block",
+    "initiative": "Aave DAO approves $25 million Aave Labs funding grant in binding ‘Aave Will Win’ vote",
+    "description": "The Aave Chan Initiative cast the largest dissenting vote on the proposal, in line with founder Marc Zeller's prior opposition to Aave's actions.",
+    "date": "2026-04-12",
+    "source_url": "https://www.theblock.co/post/397138/aave-dao-approves-25-million-aave-labs-funding-grant-in-binding-aave-will-win-vote",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
     "initiative": "FBI says crypto-related fraud losses hit record $11.4 billion in 2025, with seniors bearing the brunt",
     "description": "Americans 60 and older accounted for $4.4 billion of those crypto losses across 44,555 complaints, nearly double the next-closest age group.",
     "date": "2026-04-12",
@@ -9581,25 +9598,6 @@
     "initiative_types": [
       "Tokenized Securities / RWA",
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Kulipa raises $6.2m for stablecoin-native card issuing infrastructure platform",
-    "description": "Kulipa, a Paris-based stablecoin-native card issuing infrastructure platform, has raised $6.2 million in seed funding.",
-    "date": "2026-04-02",
-    "source_url": "https://www.finextra.com/newsarticle/47529/kulipa-raises-62m-for-stablecoin-native-card-issuing-infrastructure-platform",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   }
