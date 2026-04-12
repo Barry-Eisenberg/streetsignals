@@ -1,5 +1,24 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "ECB backs EU plan to centralize crypto supervision under Paris-based ESMA watchdog: Reuters",
+    "description": "The ECB warned that ESMA must receive adequate staffing and funding, and recommended a phased transition to avoid disruption.",
+    "date": "2026-04-11",
+    "source_url": "https://www.theblock.co/post/397121/ecb-backs-eu-plan-to-centralize-crypto-supervision-under-paris-based-esma-watchdog-reuters",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Musk’s SpaceX holds $603 million in bitcoin despite $5 billion loss stemming from xAI",
     "description": "Arkham data shows 8,285 BTC in Coinbase Prime custody as the company swings from $8 billion profit to nearly $5 billion loss ahead of its IPO push.",
@@ -9564,25 +9583,6 @@
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Jamie Dimon signals JPMorgan entry into prediction markets as competition surges",
-    "description": "JPMorgan is weighing a move into prediction markets as crypto firms, startups and rivals like Goldman Sachs race to dominate the fast-growing sector.",
-    "date": "2026-04-01",
-    "source_url": "https://www.coindesk.com/markets/2026/04/01/jamie-dimon-signals-jpmorgan-entry-into-prediction-markets-as-competition-surges",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
     ],
