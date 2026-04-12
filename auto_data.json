@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bitcoin may be forming a base at $65,000 as 'paper hands' have been flushed out",
+    "description": "Jurrien Timmer, director of global macro at Fidelity Investments, says strong earnings are helping markets absorb geopolitical shocks, despite ongoing risks.",
+    "date": "2026-04-12",
+    "source_url": "https://www.coindesk.com/markets/2026/04/07/oil-at-usd100-vs-bitcoin-at-usd70k-the-wild-ride-that-fidelity-strategist-says-is-a-real-buying-opportunity",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Market makers are fleeing public blockchains to protect their secret trading playbooks",
     "description": "Crypto trading is almost entirely public. One startup thinks it has borrowed an idea from Wall Street that could change that.",
     "date": "2026-04-12",
@@ -9573,25 +9592,6 @@
     "fmi_areas": [
       "Trading & Exchange",
       "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Charles Schwab, Citadel-backed EDX joins list of crypto firms seeking national trust bank charter",
-    "description": "Crypto organizations to have applied for the charter include Bridge, Ripple, Circle, BitGo, Fidelity Digital Assets, and Paxos.",
-    "date": "2026-04-01",
-    "source_url": "https://www.theblock.co/post/396133/charles-schwab-citadel-backed-edx-joins-list-of-crypto-firms-seeking-national-trust-bank-charter",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Interoperability & Standards"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
