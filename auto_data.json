@@ -584,6 +584,26 @@
     "year": "2026"
   },
   {
+    "institution": "Ledger Insights",
+    "initiative": "Banks now 20% of MiCAR CASP licensees as CaixaBank joins the list",
+    "description": "CaixaBank has received authorization from Spain&#8217;s securities regulator CNMV as a crypto asset service provider (CASP) under the EU&#8217;s MiCA Regulation, making it the last of Spain&#8217;s big three banks to secure a license. BBVA launched crypto services in July 2025, while Santander&#8217;s Openbank went live in Germany in September before expanding to Spain weeks [&#8230;] The post Banks now 20% of MiCAR CASP licensees as CaixaBank joins the list appeared first on Ledger Insights - blockchain for enterprise .",
+    "date": "2026-04-10",
+    "source_url": "https://www.ledgerinsights.com/banks-now-20-of-micar-casp-licensees-as-caixabank-joins-the-list/",
+    "category": "ecosystem",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Why the UK Leads Fintech: Inside Companies and Infrastructure Powering Financial Innovation",
     "description": "The UK is a global leader in fintech, ranking second worldwide and first in Europe by investment. Ac...",
@@ -9580,25 +9600,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "UK fintechs VibePay and SmartLayer shut down",
-    "description": "Consumer payments app VibePay and AI-powered home finance specialist SmartLayer are the latest fintechs to shut up shop.",
-    "date": "2026-04-02",
-    "source_url": "https://www.finextra.com/newsarticle/47527/uk-fintechs-vibepay-and-smartlayer-shut-down",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
