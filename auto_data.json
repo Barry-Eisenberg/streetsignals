@@ -9584,20 +9584,22 @@
     "year": "2026"
   },
   {
-    "institution": "BIS",
-    "initiative": "Quantum Bayesian inference: an exploration",
-    "description": "by Jon Frost, Carlos Madeira, Yash Rastogi, Harald Uhlig This paper introduces a framework for performing Bayesian inference using quantum computation. It presents a proof-of-concept quantum algorithm that performs posterior sampling. We provide an accessible introduction to quantum computation for economists and a practical demonstration of quantum-based posterior sampling for Bayesian estimation.",
+    "institution": "Connecting the Dots",
+    "initiative": "Q&A: Why it’s time to rethink your APM strategy: A conversation with Checkout.com’s Manika Singh",
+    "description": "Payments are becoming an increasingly decisive lever for growth, particularly at checkout, where customer expectations, local preferences, and performance converge in seconds. I&#x2019;m joined by Manika Singh, VP of Product at Checkout.com, to explore how they approach alternative payment methods (APMs) at a global scale. In this",
     "date": "2026-04-01",
-    "source_url": "https://www.bis.org/publ/work1342.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
+    "source_url": "https://www.connectingthedotsinpayments.com/q-a-why-its-time-to-rethink-your-apm-strategy-a-conversation-with-checkout-coms-manika-singh/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
     "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
-      "Regulation & Compliance"
+      "Payments & Transfers"
     ],
-    "initiative_types": [],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
     "year": "2026"
   }
 ]
