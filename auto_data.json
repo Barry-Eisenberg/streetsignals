@@ -1,5 +1,24 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Why North Korea keeps stealing billions in crypto — out in the open",
+    "description": "As North Korea's infiltration tactics grow more sophisticated, security experts say the crypto industry needs to understand what sets the regime apart from every other state-backed hacker — and why that difference makes it a dangerous threat to the ecosystem.",
+    "date": "2026-04-12",
+    "source_url": "https://www.coindesk.com/tech/2026/04/12/why-north-korea-keeps-stealing-billions-in-crypto-out-in-the-open",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Fintech Wrap Up",
     "initiative": "Deep Dive: An Analytical Breakdown of Revolut’s 2025 Performance",
     "description": "The fiscal year 2025 represents a landmark epoch for Revolut, marking a decade of operational existence and a definitive transition from a high-growth fintech disruptor to a globally systemic financial institution.",
@@ -9571,23 +9590,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Paradigm mulls prediction market entry with trading terminal, market making desk: Fortune",
-    "description": "Paradigm founder and Kalshi board member Matt Huang has previously said that prediction markets represent a trillion-dollar opportunity.",
-    "date": "2026-04-01",
-    "source_url": "https://www.theblock.co/post/396099/paradigm-prediction-market-trading-terminal-market-making-desk-fortune",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
