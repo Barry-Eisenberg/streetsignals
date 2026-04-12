@@ -1,6 +1,47 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Commodity traders are getting debanked due to Iran war, pushing them to rely on stablecoins",
+    "description": "As banks retreat from trade finance amid Iran-linked risk fears, non-bank lenders and traders are increasingly turning to stablecoins for settlement, according to Haycen’s Luke Sully.",
+    "date": "2026-04-12",
+    "source_url": "https://www.coindesk.com/business/2026/04/12/commodity-traders-are-getting-debanked-due-to-iran-war-pushing-them-to-rely-on-stablecoins",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Tron’s Justin Sun slams Trump-backed WLFI for treating users as ‘personal ATM’ after $75 Million DeFi loan",
+    "description": "Once WLFI's largest outside backer, Sun is going public days after the Trump-family venture borrowed $75 million against its own token on a DeFi protocol advised by one of its own insiders.",
+    "date": "2026-04-12",
+    "source_url": "https://www.coindesk.com/markets/2026/04/12/tron-s-justin-sun-slams-trump-backed-wlfi-for-treating-users-as-personal-atm-after-usd75-million-defi-loan",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Trump token sees whale accumulation ahead of Mar-a-Lago gala; senators raise questions over event",
     "description": "Some whales have withdrawn large amounts of TRUMP tokens to private wallets, according to Lookonchain.",
     "date": "2026-04-12",
@@ -9554,43 +9595,6 @@
     "initiative_types": [
       "DeFi"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Ripple launches treasury management system with native digital asset capabilities",
-    "description": "Ripple, a provider of blockchain-based enterprise solutions across traditional and digital finance, today announced the launch of Digital Asset Accounts and Unified Treasury within Ripple Treasury – the first native digital asset capabilities embedded directly into a treasury management system.",
-    "date": "2026-04-01",
-    "source_url": "https://www.finextra.com/pressarticle/109354/ripple-launches-treasury-management-system-with-native-digital-asset-capabilities",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "‘Not an April Fools joke’: Major Solana-based trading platform Drift exploited for at least $200 million",
-    "description": "The exploit, which started over two hours ago, seems to be targeting multiple Drift vaults, totaling at least $200 million.",
-    "date": "2026-04-01",
-    "source_url": "https://www.theblock.co/post/396107/solana-trading-platform-drift-exploited-at-least-200-million",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
