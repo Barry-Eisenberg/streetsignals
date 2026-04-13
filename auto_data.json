@@ -1,6 +1,66 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "ClearBank secures MiCA approval, targets Circle euro, dollar stablecoins for institutional clients",
+    "description": "The U.K.- and EU-regulated credit institution gains crypto-asset service provider status and said it will connect clients to regulated stablecoin rails over Circle Mint",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/business/2026/04/13/clearbank-secures-mica-approval-targets-circle-euro-dollar-stablecoins-for-institutional-clients",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "SEC carves out path for some crypto interfaces to bypass broker registration",
+    "description": "The SEC said certain user interfaces that allow users to transact and use their crypto wallets may not need to register as broker-dealer.",
+    "date": "2026-04-13",
+    "source_url": "https://www.theblock.co/post/397237/sec-carves-out-path-for-some-crypto-interfaces-to-bypass-broker-registration",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bitmine holds 4% of ethereum supply as total holdings reach $11.8 billion",
+    "description": "Bitmine expanded its Ethereum treasury to 4.87 million ETH, controlling 4% of supply as total holdings climb to $11.8 billion.",
+    "date": "2026-04-13",
+    "source_url": "https://www.theblock.co/post/397229/bitmine-holds-4-of-ethereum-supply-as-total-holdings-reach-11-8-billion",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Nearly $120 million of XRP just moved to Coinbase in whale transaction",
     "description": "XRP is flat over the past 24 hours, but down more than 60% from its summer 2025 peak.",
     "date": "2026-04-13",
@@ -9556,60 +9616,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Hyperliquid gains ground on centralized exchanges as perps market share nears 6%",
-    "description": "The platform's share of total perp futures volume has climbed to just under 6% in March with monthly volumes approaching $200 billion.",
-    "date": "2026-04-02",
-    "source_url": "https://www.theblock.co/post/395728/hyperliquid-gains-centralized-exchanges-perps-market-share-nears-6",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "CFTC sues Illinois over state's cease-and-desist letters against prediction markets",
-    "description": "The CFTC argued in a lawsuit that the Commodity Exchange Act gave it \"exclusive jurisdiction\" over all swaps, which include prediction markets.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/policy/2026/04/02/cftc-sues-illinois-over-state-s-cease-and-desist-letters-against-prediction-markets",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Coinbase wins initial bank regulator nod for trust charter, boosting custody push",
-    "description": "Coinbase’s conditional OCC approval moves it closer to operating as a federally regulated crypto custodian, pending compliance and final review.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/policy/2026/04/02/coinbase-wins-initial-occ-nod-for-trust-charter-boosting-sustody-push",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
