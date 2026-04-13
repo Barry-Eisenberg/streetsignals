@@ -1,6 +1,43 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "U.S. SEC says software allowing crypto wallet transactions not considered broker",
+    "description": "The latest crypto view from the securities agency concludes software that clears the way for securities transactions with individual wallets won't trip regulations.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/policy/2026/04/13/u-s-sec-says-software-allowing-crypto-wallet-transactions-aren-t-considered-brokers",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Kraken security chief says exchange won’t negotiate as it faces extortion threat",
+    "description": "The attackers obtained videos showing Kraken support staff accessing internal client support systems and limited client data.",
+    "date": "2026-04-13",
+    "source_url": "https://www.theblock.co/post/397260/kraken-security-says-exchange-wont-negotiate-faces-extortion-threat",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Crypto exchange Kraken targeted in extortion attempt but says there was no breach and no client funds at risk",
     "description": "The firm said a criminal group is attempting to extort it over limited insider-related data access incidents affecting about 2,000 accounts. Kraken says it will not pay and is working with law enforcement.",
     "date": "2026-04-13",
@@ -9568,46 +9605,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "Chainalysis Links NYC 2026: AI Amplification, TradFi Convergence, and the Power of Networked Intelligence",
-    "description": "Chainalysis Links 2026 brought together the brightest minds across cryptocurrency exchanges, global law enforcement, and traditional finance (TradFi) for an&#8230; The post Chainalysis Links NYC 2026: AI Amplification, TradFi Convergence, and the Power of Networked Intelligence appeared first on Chainalysis .",
-    "date": "2026-04-02",
-    "source_url": "https://www.chainalysis.com/blog/links-2026-recap/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Here’s why bitcoin’s drop below $68,000 raises the risk of a crash under $60,000",
-    "description": "The negative gamma zone below $68,000 can trigger a self-reinforcing sell-off, leading to an ever larger slump.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/markets/2026/04/02/here-s-why-bitcoin-s-drop-below-usd68-000-puts-it-at-risk-of-a-crash-under-usd60-000",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
