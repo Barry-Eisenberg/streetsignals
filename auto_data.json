@@ -1,6 +1,66 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Attacker mints $1 billion Polkadot tokens on Ethereum, ends up stealing just $250,000",
+    "description": "A forged cross-chain message bypassed state proof validation on the bridge contract, granting admin control over the bridged DOT token and allowing the attacker to mint and dump the entire supply for $237,000.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/tech/2026/04/13/attacker-mints-usd1-billion-polkadot-tokens-on-ethereum-ends-up-stealing-just-usd250-000",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Aave passes landmark vote ending months-long fight over protocol revenue control",
+    "description": "The proposal directs 100% of application and product revenue back to AAVE token holders, resolving a governance dispute that began when swap fees were quietly redirected away from the DAO treasury in late 2025.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/tech/2026/04/13/aave-passes-landmark-vote-ending-months-long-fight-over-who-controls-protocol-revenue",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Chronicle and the 16-year restoration of Bitcoin’s original protocol",
+    "description": "Bitcoin's Chronicle upgrade restores key Satoshi opcodes and expands script limits, reigniting potential for innovation in the Bitcoin space. The post Chronicle and the 16-year restoration of Bitcoin&#8217;s original protocol appeared first on CoinGeek .",
+    "date": "2026-04-13",
+    "source_url": "https://coingeek.com/chronicle-and-the-16-year-restoration-of-bitcoins-original-protocol/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Alameda moves $16 million in Solana's SOL token for possible creditor distribution",
     "description": "Alameda unstakes $16 million worth of Solana's SOL token, according to Arkham.",
     "date": "2026-04-13",
@@ -9546,59 +9606,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Drift says $280M exploit tied to ‘sophisticated’ admin takeover; ZachXBT criticizes Circle over USDC handling",
-    "description": "Drift said Wednesday's $280 million exploit was a result of unauthorized transaction approvals, facilitated through durable nonce mechanisms.",
-    "date": "2026-04-02",
-    "source_url": "https://www.theblock.co/post/396183/drift-280m-exploit-zachxbt-circle",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Alabama governor signs bill creating legal framework for DAO-like nonprofit entities",
-    "description": "The bill stipulates that members of a decentralized nonprofit association generally have no personal liability for its activities.",
-    "date": "2026-04-02",
-    "source_url": "https://www.theblock.co/post/396181/alabama-governor-signs-dao-bill",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Onchain investment fintech Midas raises $50 million",
-    "description": "Midas, a platform for composable onchain investment products, has raised $50 million in Series A funding led by RRE and Creandum, with participation from Framework Ventures, HV Capital, Ledger Cathay, Franklin Templeton, Coinbase Ventures, M1 Capital, Anchorage Digital, FJ Labs, North Island Ventures, No Limit Holdings and GSR.",
-    "date": "2026-04-02",
-    "source_url": "https://www.finextra.com/pressarticle/109357/onchain-investment-fintech-midas-raises-50-million",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
     "year": "2026"
   }
 ]
