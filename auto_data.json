@@ -1,5 +1,164 @@
 [
   {
+    "institution": "ESMA",
+    "initiative": "ESMA releases reporting templates and instructions for the Active Account Requirement",
+    "description": "ESMA releases reporting templates and instructions for the Active Account Requirement 13 April 2026 CCP Market data The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published the reporting templates and instructions for the Active Account Requirement (AAR) reporting under European Market Infrastructure Regulation (EMIR 3). The new templates set out in detail how entities subject to the AAR should report the required information to their competent authorities. Through this development, ESMA aims to ensure a harmonised and efficient approach to AAR reporting across the EU, providing standardised templates and clear instructions while facilitating consistent supervisory practices. Next steps The first AAR reporting submission is expected on 31 July 2026, covering the period from 25 June 2025, when the AAR became applicable, to 30 June 2026.&nbsp; Thereafter, reporting will take place on six months basis, with submissions due on 31 January and 31 July each year, each covering a twelve‑month reference period. &nbsp; Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu",
+    "date": "2026-04-13",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-releases-reporting-templates-and-instructions-active-account-requirement",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance",
+      "Interoperability & Standards",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "EU seeks public review for digital IDs amid Austria scam alerts",
+    "description": "Scammers are reportedly targeting 300,000 expiring Austrian digital ID certificates, while ENISA seeks public feedback on new cybersecurity proposals. The post EU seeks public review for digital IDs amid Austria scam alerts appeared first on CoinGeek .",
+    "date": "2026-04-13",
+    "source_url": "https://coingeek.com/eu-seeks-public-review-for-digital-ids-amid-austria-scam-alerts/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "EBA sets out plans to harmonise Sepa reporting",
+    "description": "The European Banking Authority (EBA) today published a Decision harmonising how National Competent Authorities (NCAs) report under the SEPA Regulation.",
+    "date": "2026-04-13",
+    "source_url": "https://www.finextra.com/pressarticle/109435/eba-sets-out-plans-to-harmonise-sepa-reporting",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Deutsche Börse invests $15 million in MerQube",
+    "description": "Deutsche Börse Group has invested in MerQube, a rapidly growing US-based technology-led research and index firm specializing in the design and calculation of innovative rules-based investment strategies and passive solutions.",
+    "date": "2026-04-13",
+    "source_url": "https://www.finextra.com/pressarticle/109434/deutsche-brse-invests-15-million-in-merqube",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "HSBC completes tokenized deposit pilot on Canton",
+    "description": "HSBC, through its Global Payments Solutions (GPS) business, has successfully completed a pilot simulating the issuance, transfer and atomic settlement of its Tokenised Deposit Service (TDS) on the Canton Network, a public network for regulated institutions with configurable privacy.",
+    "date": "2026-04-13",
+    "source_url": "https://www.finextra.com/pressarticle/109433/hsbc-completes-tokenized-deposit-pilot-on-canton",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Tokenization & Issuance",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Profitus taps Axiology for digital bonds",
+    "description": "The crowdfunding platform Profitus is launching digital bonds in collaboration with the EU-licensed distributed ledger technology (DLT) capital markets infrastructure provider Axiology.",
+    "date": "2026-04-13",
+    "source_url": "https://www.finextra.com/pressarticle/109430/profitus-taps-axiology-for-digital-bonds",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "TransferMate extends payroll offfering to 70+ counries with Cadana integration",
+    "description": "TransferMate, the world's leading provider of embedded B2B payments infrastructure, today announced a strategic partnership with Cadana, a global workforce payments and compliance infrastructure provider.",
+    "date": "2026-04-13",
+    "source_url": "https://www.finextra.com/pressarticle/109429/transfermate-extends-payroll-offfering-to-70-counries-with-cadana-integration",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Icon Solutions hires Anders Olofsson as Emea sales lead",
+    "description": "Icon Solutions – the UK fintech enabling banks globally to design and implement state-of-the-art payment systems – has appointed Anders Olofsson as Sales Director, EMEA to drive adoption of the Icon Payments Framework (IPF) across the region.",
+    "date": "2026-04-13",
+    "source_url": "https://www.finextra.com/pressarticle/109428/icon-solutions-hires-anders-olofsson-as-emea-sales-lead",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Clarity Act returns to U.S. Senate, Bank earnings: Crypto Week Ahead",
     "description": "Your look at what's coming in the week starting April 13.",
@@ -9450,161 +9609,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "BitGo launches stablecoin minting and redemption for institutions",
-    "description": "The company is hoping to service 'market makers, liquidity providers, banks, exchanges, asset managers, and fintechs.'",
-    "date": "2026-04-02",
-    "source_url": "https://www.theblock.co/post/396152/bitgo-stablecoin-minting-redemption-institutions",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Franklin Templeton Forms Dedicated Crypto Division With 250 Digital Acquisition",
-    "description": "The post Franklin Templeton Forms Dedicated Crypto Division With 250 Digital Acquisition appeared first on Unchained .",
-    "date": "2026-04-02",
-    "source_url": "https://unchainedcrypto.com/franklin-templeton-forms-dedicated-crypto-division-with-250-digital-acquisition-unchained/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Metaplanet Becomes Third-Largest Corporate Bitcoin Holder After 5,075 BTC Purchase",
-    "description": "The post Metaplanet Becomes Third-Largest Corporate Bitcoin Holder After 5,075 BTC Purchase appeared first on Unchained .",
-    "date": "2026-04-02",
-    "source_url": "https://unchainedcrypto.com/metaplanet-becomes-third-largest-corporate-bitcoin-holder-after-5075-btc-purchase-unchained/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Drift Protocol Suffers $285 Million Exploit After Admin Key Compromise and Oracle Manipulation",
-    "description": "The post Drift Protocol Suffers $285 Million Exploit After Admin Key Compromise and Oracle Manipulation appeared first on Unchained .",
-    "date": "2026-04-02",
-    "source_url": "https://unchainedcrypto.com/drift-protocol-suffers-285-million-exploit-after-admin-key-compromise-and-oracle-manipulation-unchained/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto markets tumble as oil surges and traders pile into bearish bets: Crypto Markets Today",
-    "description": "Bitcoin and ether fell sharply alongside global risk assets after escalating tension in Iran drove oil higher, while derivatives data shows traders positioning for further downside.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/markets/2026/04/02/crypto-markets-tumble-as-oil-surges-and-traders-pile-into-bearish-bets-crypto-markets-today",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "DeFi platform Drift suspends deposits and withdrawals after crypto hack",
-    "description": "DeFi platform Drift has suspended deposits and withdrawals after losing millions of dollars in a crypto hack.",
-    "date": "2026-04-02",
-    "source_url": "https://www.finextra.com/newsarticle/47531/defi-platform-drift-suspends-deposits-and-withdrawals-after-crypto-hack",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Non-custodial wallet provider Safe unveils security network to turn SAFE tokens into economic good",
-    "description": "Safenet aims to prevent common security lapses, attack vectors, and transaction errors, like phishing schemes or malicious code deployments.",
-    "date": "2026-04-02",
-    "source_url": "https://www.theblock.co/post/396147/non-custodial-wallet-safe-security-safenet-tokens",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "The bitcoin treasury boom is unwinding as some companies and governments sell holdings",
-    "description": "Falling prices and prolonged consolidation are pushing public firms and sovereign holders to liquidate bitcoin reserves to shore up balance sheets.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/markets/2026/04/02/the-bitcoin-treasury-boom-is-unwinding-as-some-companies-and-governments-sell-holdings",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
