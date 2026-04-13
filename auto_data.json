@@ -1,6 +1,198 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "AI agents are set to power crypto payments, but a hidden flaw could expose wallets",
+    "description": "Researchers say a largely invisible layer of AI infrastructure can intercept sensitive data and has already been linked to stolen credentials and a $500,000 wallet drain",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/tech/2026/04/13/ai-agents-are-set-to-power-crypto-payments-but-a-hidden-flaw-could-expose-wallets",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin anchors near $70,000 as RAVE's 3,400% surge signals speculative froth",
+    "description": "Bitcoin and major cryptocurrencies remain relatively resilient. Surges in some smaller tokens showed there's still froth left in the market.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/daybook-us/2026/04/13/bitcoin-anchors-near-usd70-000-as-rave-s-3-400-surge-signals-speculative-froth",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "What’s easier, passing CLARITY Act or escaping from Mordor?",
+    "description": "U.S. crypto rules stall as CLARITY faces opposition, while stablecoin yield debates and rising fraud reshape the regulation and enforcement landscape. The post What’s easier, passing CLARITY Act or escaping from Mordor? appeared first on CoinGeek .",
+    "date": "2026-04-13",
+    "source_url": "https://coingeek.com/what-easier-passing-clarity-act-or-escaping-from-mordor/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Coadjute brings AI to bear on AML checks for property sales",
+    "description": "Coadjute, the leading PropTech company backed by Lloyds Banking Group, NatWest, and Nationwide and championed by Phil Spencer, today announced the deployment of Clara, the UK’s first digital human designed to support estate agents and their buyers and sellers with essential anti-money laundering (AML) checks.",
+    "date": "2026-04-13",
+    "source_url": "https://www.finextra.com/pressarticle/109438/coadjute-brings-ai-to-bear-on-aml-checks-for-property-sales",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Tribe Payments joins EPAA",
+    "description": "Tribe Payments, the payments fintech specialising in issuer and acquirer processing, has joined the Emerging Payments Association Asia (EPAA), strengthening its engagement with banks, fintechs and payment providers across the Asia-Pacific payments ecosystem.",
+    "date": "2026-04-13",
+    "source_url": "https://www.finextra.com/pressarticle/109437/tribe-payments-joins-epaa",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Crypto funds pull in $1.1 billion as bitcoin products lead strongest inflow week since January: CoinShares",
+    "description": "Crypto funds brought in $1.1 billion last week, their strongest inflow since January, as inflation and geopolitical tensions eased.",
+    "date": "2026-04-13",
+    "source_url": "https://www.theblock.co/post/397191/crypto-funds-pull-in-1-1-billion-as-bitcoin-products-lead-strongest-inflow-week-since-january-coinshares",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Aave DAO Passes “Aave Will Win” Proposal, Directing 100% of Product Revenue to Token Holders",
+    "description": "The post Aave DAO Passes &#8220;Aave Will Win&#8221; Proposal, Directing 100% of Product Revenue to Token Holders appeared first on Unchained .",
+    "date": "2026-04-13",
+    "source_url": "https://unchainedcrypto.com/aave-dao-passes-aave-will-win-proposal-directing-100-of-product-revenue-to-token-holders-unchained/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Attacker Mints $1 Billion in Fake Polkadot Tokens on Ethereum but Steals Only $250,000",
+    "description": "The post Attacker Mints $1 Billion in Fake Polkadot Tokens on Ethereum but Steals Only $250,000 appeared first on Unchained .",
+    "date": "2026-04-13",
+    "source_url": "https://unchainedcrypto.com/attacker-mints-1-billion-in-fake-polkadot-tokens-on-ethereum-but-steals-only-250000-unchained/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Bitcoin Drops to $71,000 After Trump Orders Naval Blockade of Strait of Hormuz",
+    "description": "The post Bitcoin Drops to $71,000 After Trump Orders Naval Blockade of Strait of Hormuz appeared first on Unchained .",
+    "date": "2026-04-13",
+    "source_url": "https://unchainedcrypto.com/bitcoin-drops-to-71000-after-trump-orders-naval-blockade-of-strait-of-hormuz-unchained/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "World Liberty Financial Threatens Legal Action Against Justin Sun Over Blacklist Allegations",
+    "description": "The post World Liberty Financial Threatens Legal Action Against Justin Sun Over Blacklist Allegations appeared first on Unchained .",
+    "date": "2026-04-13",
+    "source_url": "https://unchainedcrypto.com/world-liberty-financial-threatens-legal-action-against-justin-sun-over-blacklist-allegations-unchained/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Crypto markets stall as oil surges past $100 on Strait of Hormuz blockade",
     "description": "Bitcoin and ether retreated Monday as tensions in the Middle East triggered a spike in crude oil, forcing traders into defensive derivatives positioning.",
     "date": "2026-04-13",
@@ -9413,192 +9605,6 @@
       "Trading & Exchange"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Oil shock, Iran war risk keep crypto investors on sidelines: Grayscale",
-    "description": "The crypto asset manager said investors are sidelined by Middle East tensions, but resilient valuations and structural adoption trends could set up the next leg higher.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/markets/2026/04/02/oil-shock-iran-war-risk-keep-crypto-investors-on-sidelines-grayscale",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Italy fines Revolut €11.5m",
-    "description": "The Italian competition authority has fined Revolut €11.5 million for spreading misleading information about investment services and deceptive practices in the management of its banking offering.",
-    "date": "2026-04-02",
-    "source_url": "https://www.finextra.com/newsarticle/47532/italy-fines-revolut-115m",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "SoFi launches platform to help enterprises power fiat and crypto banking",
-    "description": "SoFi Technologies, Inc. (NASDAQ: SOFI), the one-stop shop for digital financial services, today announced the launch of SoFi Big Business Banking, a new offering that gives enterprise partners the ability to manage both fiat and crypto banking from a single, nationally chartered bank.",
-    "date": "2026-04-02",
-    "source_url": "https://www.finextra.com/pressarticle/109361/sofi-launches-platform-to-help-enterprises-power-fiat-and-crypto-banking",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "CryptoQuant says bitcoin demand remains in ‘deep contraction,’ but price could bounce to $71,500–$81,200",
-    "description": "If macro risks ease, particularly the U.S.-Iran conflict, bitcoin could bounce toward $71,500–$81,200 in the short term, CryptoQuant said.",
-    "date": "2026-04-02",
-    "source_url": "https://www.theblock.co/post/396215/cryptoquant-bitcoin-price-outlook",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Pump.fun leads $1 million pre-seed funding round into livestream prediction markets startup Pumpcade",
-    "description": "Pumpcade's prediction markets are embedded into livestreams, supporting markets that can resolve in a matter of minutes or seconds.",
-    "date": "2026-04-02",
-    "source_url": "https://www.theblock.co/post/396213/pump-fun-pre-seed-funding-round-livestream-prediction-markets-pumpcade",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "The 'time pain' trap: why bitcoin’s bear market might need a few more months of ‘boring’ to hit a true floor",
-    "description": "Long term holder trends suggest a maturing bear market, yet extended consolidation could test investor patience.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/markets/2026/04/02/the-time-pain-trap-why-bitcoin-s-bear-market-might-need-a-few-more-months-of-boring-to-hit-a-true-floor",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "CoinDesk 20 performance update: index falls 4.5% as all constituents trade lower",
-    "description": "Uniswap (UNI) declined 7.7% and Solana (SOL) dropped 6.9%, leading the index lower.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/02/coindesk-20-performance-update-index-falls-4-5-as-all-constituents-trade-lower",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Coinbase’s AI payments system joins Linux Foundation, gathers support from Google, Stripe, AWS and others",
-    "description": "The Coinbase-engineered agentic commerce protocol x402 has garnered support from a long list of big names like Google, Cloudflare and Stripe.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/tech/2026/04/02/coinbase-s-ai-payments-system-joins-linux-foundation-gathers-support-from-google-stripe-aws-and-others",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Tech, crypto giants to help steward Coinbase’s neutral x402 payments protocol under Linux Foundation",
-    "description": "The x402 Foundation is moving the x402 protocol incubated by Coinbase under neutral, open-source governance at the Linux Foundation.",
-    "date": "2026-04-02",
-    "source_url": "https://www.theblock.co/post/396155/tech-crypto-giants-to-help-steward-coinbases-neutral-x402-payments-protocol-under-linux-foundation",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Startup lets researchers mine blockchain tasks on a quantum computer for the first time",
-    "description": "Built with advice and hardware access from D-Wave, the testnet has drawn 13,000 sign-ups and early work from six research teams, but remains an experimental environment rather than a live mainnet.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/markets/2026/04/02/startup-lets-researchers-mine-blockchain-tasks-on-a-quantum-computer-for-the-first-time",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
     "year": "2026"
   }
 ]
