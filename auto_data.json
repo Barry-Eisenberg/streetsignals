@@ -8373,6 +8373,28 @@
     "year": "2026"
   },
   {
+    "institution": "Connecting the Dots",
+    "initiative": "Former Stripe and Coinbase Employees Raise $8M for Stablecoin Payouts Startup Latitude",
+    "description": "Hey Payments Fanatic! Cross&#x2011;border payouts are one of those problems everyone in FinTech has felt. Whether you&#x2019;re a marketplace, a platform paying freelancers, or a payroll system trying to hit 100+ countries.&#xA0; That&#x2019;s why the news that former Stripe and Coinbase founders have",
+    "date": "2026-04-02",
+    "source_url": "https://www.connectingthedotsinpayments.com/former-stripe-and-coinbase-employees-raise-8m-for-stablecoin-payouts-startup-latitude/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "How Real-World Asset Tokenization Is Reshaping Digital Finance",
     "description": "The evolution of digital finance is no longer limited to cryptocurrencies. A growing shift is now ta...",
@@ -9573,25 +9595,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin, ether, solana slide further as Trump threatens to hit Iran 'extremely hard'",
-    "description": "Crypto and equities sold off after the president's national address undermined a two-day rally built on expectations the war was ending. Oil jumped 5% to above $106.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/markets/2026/04/02/bitcoin-ether-solana-slide-further-as-trump-threatens-to-hit-iran-extremely-hard",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
