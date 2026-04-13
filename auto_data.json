@@ -1,6 +1,84 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "WLFI mints $25 million in fresh USD1 and burns $3 million, days after repayment claim",
+    "description": "The mint and a simultaneous $3 million burn come days after the venture said it had repaid $25 million of the borrowing position that left depositors unable to withdraw from a DeFi lending pool.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/markets/2026/04/13/wlfi-mints-usd25-million-in-fresh-usd1-and-burns-usd3-million-days-after-repayment-claim",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Strategy buys 13,927 bitcoin for $1 billion, entirely through STRC",
+    "description": "Last week's purchases were completely funded by sales of Stretch, the companies perpetual preferred stock.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/markets/2026/04/13/michael-saylor-s-strategy-added-13-927-bitcoin-for-usd1-billion",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bank of Korea calls for stock-style circuit breakers on BTC exchanges",
+    "description": "Crypto's 24/7 global trading across hundreds of venues makes it difficult for any single country to halt the market.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/markets/2026/04/13/bank-of-korea-calls-for-stock-style-circuit-breakers-on-btc-exchanges",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "‘Think bigger’: Michael Saylor’s Strategy buys another 13,927 bitcoin for $1 billion as holdings reach 780,897 BTC",
+    "description": "Strategy's holdings now account for more than 3.7% of the total 21 million bitcoin supply — worth around $55 billion.",
+    "date": "2026-04-13",
+    "source_url": "https://www.theblock.co/post/397188/think-bigger-michael-saylors-strategy-buys-more-bitcoin",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "AI agents are set to power crypto payments, but a hidden flaw could expose wallets",
     "description": "Researchers say a largely invisible layer of AI infrastructure can intercept sensitive data and has already been linked to stolen credentials and a $500,000 wallet drain",
     "date": "2026-04-13",
@@ -9526,83 +9604,6 @@
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin trims big loss, stocks erase 2% decline, as Iran signals cooperation on key shipping route",
-    "description": "In the middle of a surge higher following President Trump's overnight comments, the price of WTI crude oil quickly fell nearly $6 per barrel on the news.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/markets/2026/04/02/bitcoin-trims-big-loss-stocks-erase-2-decline-as-iran-signals-cooperation-on-key-shipping-route",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto for Advisors: Crypto custody’s evolution",
-    "description": "Beyond simple storage, the next era of institutional crypto will be defined by the real-time connectivity and mobility of digital assets across a fragmented market.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/01/crypto-for-advisors-crypto-custody-s-evolution",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "North Koreans hackers likely behind $286 million Drift Protocol exploit: Elliptic",
-    "description": "The blockchain analytics firm pointed to cross-chain laundering patterns and Solana-specific tracing challenges that mirror prior North Korean state-linked operations.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/business/2026/04/02/north-koreans-hackers-likely-behind-the-usd286-million-drift-protocol-exploit-elliptic",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Telegram Wallet integrates Lighter to roll out in-app perpetual futures trading to 150M+ users",
-    "description": "Telegram has rolled out perpetual futures trading directly into its app to its wallet users through a partnership with Lighter.",
-    "date": "2026-04-02",
-    "source_url": "https://www.theblock.co/post/396228/telegram-wallet-integrates-lighter-to-roll-out-in-app-perpetual-futures-trading-to-150m-users",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Trading & Exchange"
     ],
     "initiative_types": [],
     "year": "2026"
