@@ -1,6 +1,119 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Clarity Act returns to U.S. Senate, Bank earnings: Crypto Week Ahead",
+    "description": "Your look at what's coming in the week starting April 13.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/markets/2026/04/13/clarity-act-returns-to-u-s-senate-bank-earnings-crypto-week-ahead",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin hit by $20 million-an-hour selling pressure above $70,000",
+    "description": "Bitcoin has once again seen heavy profit-taking above $70,000, according to Glassnode.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/markets/2026/04/13/bitcoin-hit-by-usd20-million-an-hour-selling-pressure-above-usd70-000",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "AI fintech startup Round raises $6 million",
+    "description": "AI-powered finance automation platform Round has raised $6 million in Seed funding to strip out the human layer in automating treasury, payments and payroll.",
+    "date": "2026-04-13",
+    "source_url": "https://www.finextra.com/newsarticle/47564/ai-fintech-startup-round-raises-6-million",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Wise to shift primary listing to US next month",
+    "description": "Cross-border payments fintech Wise is on the brink of transferring its primary listing from London to the United States after reporting strong Q4 growth in volumes, customers and income.",
+    "date": "2026-04-13",
+    "source_url": "https://www.finextra.com/newsarticle/47563/wise-to-shift-primary-listing-to-us-next-month",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Lombard signs deal with Simply Asset Finance",
+    "description": "Specialist SME lender, Simply Asset Finance, has announced a ground-breaking new partnership with Lombard, part of NatWest Group, that will combine the unique strengths of each business to significantly extend Lombard’s reach into the scale-up market and deliver the support of tech-enabled lending to businesses across the UK.",
+    "date": "2026-04-13",
+    "source_url": "https://www.finextra.com/pressarticle/109426/lombard-signs-deal-with-simply-asset-finance",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Attacker exploits Polkadot-based Hyperbridge to mint 1 billion bridged DOT, nets $237K",
+    "description": "Upbit and Bithumb have since temporarily suspended deposits and withdrawals of Polkadot's DOT, citing signs of a security incident.",
+    "date": "2026-04-13",
+    "source_url": "https://www.theblock.co/post/397167/bridged-dot-hyperbridge-exploit",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Attacker mints $1 billion Polkadot tokens on Ethereum, ends up stealing just $250,000",
     "description": "A forged cross-chain message bypassed state proof validation on the bridge contract, granting admin control over the bridged DOT token and allowing the attacker to mint and dump the entire supply for $237,000.",
     "date": "2026-04-13",
@@ -9494,118 +9607,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Cross River banks $50 million capital raise",
-    "description": "Embedded finance provider Cross River has secured a $50 million capital raise to fuel investment in AI and crypto.",
-    "date": "2026-04-02",
-    "source_url": "https://www.finextra.com/newsarticle/47530/cross-river-banks-50-million-capital-raise",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Asic inquiry slams ASX technology management",
-    "description": "ASIC has today published the ASX Inquiry Panel’s (the Panel) Final Report into the Australian Securities Exchange (ASX) group.",
-    "date": "2026-04-02",
-    "source_url": "https://www.finextra.com/pressarticle/109359/asic-inquiry-slams-asx-technology-management",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Metaplanet adds 5,075 bitcoin, bringing total holdings to 40,177 BTC to become third-largest among public companies",
-    "description": "Metaplanet added 5,075 BTC, increasing its total holdings to 40,177 BTC and placing it third among public treasury companies.",
-    "date": "2026-04-02",
-    "source_url": "https://www.theblock.co/post/396190/metaplanet-adds-5075-bitcoin-bringing-total-holdings-to-40177-btc-to-become-third-largest-among-public-companies",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Beyond T-bills: OpenEden introduces tokenized high-yield corporate bond",
-    "description": "The product further expands the tokenized real-world asset market beyond cash-equivalent and treasury strategies, which currently dominate the sector.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/business/2026/04/02/beyond-t-bills-openeden-introduces-tokenized-high-yield-corporate-bond",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Metaplanet acquires 5,075 BTC, jumps to third largest bitcoin treasury company",
-    "description": "Japan-based firm strengthens its position with nearly $400 million purchase, surpassing MARA Holdings in global rankings.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/markets/2026/04/02/metaplanet-acquires-5-075-btc-jumps-to-third-largest-bitcoin-treasury-company",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Early-stage deepfake detection market on rise: UK report",
-    "description": "A U.K. report finds the deepfake detection market is still early but growing fast, with future growth depending on clear rules and fewer barriers. The post Early-stage deepfake detection market on rise: UK report appeared first on CoinGeek .",
-    "date": "2026-04-02",
-    "source_url": "https://coingeek.com/early-stage-deepfake-detection-market-on-rise-uk-report/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
