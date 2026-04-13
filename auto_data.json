@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Connecting the Dots",
+    "initiative": "Google’s New \"Digital Pocket Money\" Is Here",
+    "description": "Hey Payments Fanatic! Imagine giving your teenager an allowance or helping an elderly parent pay for groceries without ever needing to visit an ATM or hand over your credit card.&#xA0; Google Pay has just launched a feature that lets you do exactly that. It&#x2019;s called &quot;Pocket",
+    "date": "2026-04-13",
+    "source_url": "https://www.connectingthedotsinpayments.com/googles-new-digital-pocket-money-is-here/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Fed consults on FedNow cross-border payments",
     "description": "The US Federal Reserve is consulting on a proposal that would enable participants in its FedNow real-time payments system make cross-border transfers.",
@@ -9576,25 +9595,6 @@
     "initiative_types": [
       "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Guyana fast-tracks national payments platform rollout",
-    "description": "Guyana plans to launch a national payment platform and expand access to digital wallets by the next six months, aiming to shift to a more cashless economy. The post Guyana fast-tracks national payments platform rollout appeared first on CoinGeek .",
-    "date": "2026-04-02",
-    "source_url": "https://coingeek.com/guyana-fast-tracks-national-payments-platform-rollout/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
