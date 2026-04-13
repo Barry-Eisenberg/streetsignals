@@ -20,6 +20,25 @@
   },
   {
     "institution": "The Block",
+    "initiative": "Bitcoin slides to $71,000 after Trump’s blockade order in Strait of Hormuz",
+    "description": "High-level negotiations between the US and Iran failed to reach a meaningful resolution earlier on Sunday.",
+    "date": "2026-04-12",
+    "source_url": "https://www.theblock.co/post/397147/bitcoin-trump-blockade-hormuz",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
     "initiative": "Aave DAO approves $25 million Aave Labs funding grant in binding ‘Aave Will Win’ vote",
     "description": "The Aave Chan Initiative cast the largest dissenting vote on the proposal, in line with founder Marc Zeller's prior opposition to Aave's actions.",
     "date": "2026-04-12",
@@ -9573,28 +9592,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Former Stripe and Coinbase Employees Raise $8M for Stablecoin Payouts Startup Latitude",
-    "description": "Hey Payments Fanatic! Cross&#x2011;border payouts are one of those problems everyone in FinTech has felt. Whether you&#x2019;re a marketplace, a platform paying freelancers, or a payroll system trying to hit 100+ countries.&#xA0; That&#x2019;s why the news that former Stripe and Coinbase founders have",
-    "date": "2026-04-02",
-    "source_url": "https://www.connectingthedotsinpayments.com/former-stripe-and-coinbase-employees-raise-8m-for-stablecoin-payouts-startup-latitude/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
