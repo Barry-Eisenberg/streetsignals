@@ -1,6 +1,99 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Nearly $120 million of XRP just moved to Coinbase in whale transaction",
+    "description": "XRP is flat over the past 24 hours, but down more than 60% from its summer 2025 peak.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/markets/2026/04/13/nearly-usd120-million-of-xrp-just-moved-to-coinbase-in-whale-transaction",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitmine's Tom Lee calls ether 'the wartime store of value' as holdings hit 4.87 million tokens",
+    "description": "The company now holds 4.04% of all ether in existence and currently earns $212 million in annualized revenue from staking.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/markets/2026/04/13/bitmine-s-tom-lee-calls-ether-the-wartime-store-of-value-as-holdings-hit-4-87-million-eth",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "CoinDesk 20 performance update: index falls 2.9% as all constituents trade lower",
+    "description": "Polkadot (DOT) declined 11.5% and Cardano (ADA) dropped 6.8%, leading the index lower over the weekend.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/13/coindesk-20-performance-update-index-falls-2-9-as-all-constituents-trade-lower",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bitcoin pulls back as ceasefire rally fades amid renewed Hormuz tensions: analysts",
+    "description": "Analysts said bitcoin ETF inflows and a cleaner derivatives setup are keeping the market from breaking down.",
+    "date": "2026-04-13",
+    "source_url": "https://www.theblock.co/post/397207/bitcoin-pulls-back-as-ceasefire-rally-fades-amid-renewed-hormuz-tensions-analysts",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Coinone hit with $3.5 million fine, three-month partial suspension over AML violations: reports",
+    "description": "Crypto exchange Coinone has been fined $3.5 million and hit with a three-month partial suspension over AML violations in South Korea.",
+    "date": "2026-04-13",
+    "source_url": "https://www.theblock.co/post/397206/coinone-hit-with-3-5-million-fine-three-month-partial-suspension-over-aml-violations-reports",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "WLFI mints $25 million in fresh USD1 and burns $3 million, days after repayment claim",
     "description": "The mint and a simultaneous $3 million burn come days after the venture said it had repaid $25 million of the borrowing position that left depositors unable to withdraw from a DeFi lending pool.",
     "date": "2026-04-13",
@@ -9518,94 +9611,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Coinbase receives conditional approval for national trust charter from OCC",
-    "description": "\"This charter is about bringing federal regulatory uniformity to the custody and market infrastructure business,\" Coinbase said.",
-    "date": "2026-04-02",
-    "source_url": "https://www.theblock.co/post/396244/coinbase-receives-conditional-approval-national-trust-charter-occ",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Kroll gives Ripple Prime ‘medium quality’ rating citing strong backing, concentration risks",
-    "description": "The rating, which is its lowest investment-grade tier, leans heavily on Ripple’s balance sheet of $57 billion in cash and XRP holdings.",
-    "date": "2026-04-02",
-    "source_url": "https://www.theblock.co/post/396233/kroll-ripple-prime-medium-quality-rating-strong-backing-concentration-risks",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "As World Cup nears, CZ–backed YZi Labs increases investment in prediction market startup Predict.fun",
-    "description": "The Binance co-founder recently said the upcoming World Cup should boost activity on prediction markets, which let user wager on sports.",
-    "date": "2026-04-02",
-    "source_url": "https://www.theblock.co/post/396231/world-cup-nears-cz-backed-yzi-labs-increases-investment-in-prediction-market-startup",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Elon Musk's X to deploy scam kill switch by auto-locking first-time crypto mentioners",
-    "description": "The move comes in response to a wave of phishing attacks using fake copyright emails and is the latest in an attempt to shut down crypto-linked scams on the platform.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/web3/2026/04/02/elon-musk-s-x-to-deploy-scam-kill-switch-by-auto-locking-first-time-crypto-mentioners",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "How a Solana feature designed for convenience let attackers drain more than $270 million from Drift",
-    "description": "The exploit did not involve a bug in Drift's code. It used \"durable nonces,\" a legitimate Solana transaction feature, to pre-sign administrative transfers weeks before executing them, bypassing the protocol's multisig security in minutes.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/tech/2026/04/02/how-a-solana-feature-designed-for-convenience-let-an-attacker-drain-usd270-million-from-drift",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
