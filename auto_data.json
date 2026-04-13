@@ -1,5 +1,66 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin hits a wall – the chart just challenged the $88,000 bull case",
+    "description": "The price action is sending a clear warning signal that analysts' optimism may be running ahead of itself.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/markets/2026/04/13/bitcoin-hits-a-wall-the-chart-just-delayed-the-bull-case",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Strategy signals another bitcoin buy as company needs just 2% annual BTC growth to cover dividends",
+    "description": "The company bought nearly three times more bitcoin than miners produced in March and is signaling it isn't done, even as its holdings remain billions underwater.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/markets/2026/04/13/strategy-signals-another-bitcoin-buy-as-company-needs-just-2-annual-btc-growth-to-cover-dividends",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "IMF warns tokenized finance may raise crisis risk",
+    "description": "IMF warns tokenized finance can speed up financial crises, leaving less time to respond, while stablecoins risk confidence-driven runs without clear rules. The post IMF warns tokenized finance may raise crisis risk appeared first on CoinGeek .",
+    "date": "2026-04-13",
+    "source_url": "https://coingeek.com/imf-warns-tokenized-finance-may-raise-crisis-risk/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Connecting the Dots",
     "initiative": "Google’s New \"Digital Pocket Money\" Is Here",
     "description": "Hey Payments Fanatic! Imagine giving your teenager an allowance or helping an elderly parent pay for groceries without ever needing to visit an ATM or hand over your credit card.&#xA0; Google Pay has just launched a feature that lets you do exactly that. It&#x2019;s called &quot;Pocket",
@@ -9536,65 +9597,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Ripple Treasury puts XRP and RLUSD inside corporate finance for the first time",
-    "description": "The treasury management system, built on Ripple's 2025 acquisition of GTreasury, lets CFOs view and manage digital assets alongside fiat in a single dashboard without separate custody or wallet infrastructure.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/business/2026/04/02/ripple-treasury-puts-xrp-and-rlusd-inside-corporate-finance-for-the-first-time",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Custody & Safekeeping"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin traders keep chasing Trump’s Iran noise. The real signals are elsewhere.",
-    "description": "Bitcoin and other risk assets have been whipsawed by President Donald J. Trump’s shifting rhetoric on Iran. Here are some indicators that help cut through the noise.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/markets/2026/04/02/bitcoin-traders-keep-chasing-trump-s-iran-noise-the-real-signals-are-elsewhere",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Oil trader takes $17 million hit as tokenized crude rivals bitcoin liquidations",
-    "description": "Brent crude futures on Hyperliquid recorded $46.6 million in liquidations, behind only ether and bitcoin. The single largest liquidation was a $17.17 million oil position.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/markets/2026/04/02/oil-trader-takes-usd17m-hit-as-tokenized-crude-rivals-bitcoin-liquidations",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
