@@ -1,6 +1,43 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Crypto exchange Kraken targeted in extortion attempt but says there was no breach and no client funds at risk",
+    "description": "The firm said a criminal group is attempting to extort it over limited insider-related data access incidents affecting about 2,000 accounts. Kraken says it will not pay and is working with law enforcement.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/business/2026/04/13/crypto-exchange-kraken-targeted-in-extortion-attempt-but-says-there-was-no-breach-and-no-client-funds-at-risk",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Circle CEO says he won’t freeze USDC without a court order even as hackers walk away with millions",
+    "description": "Circle defends its hands-off approach to freezing funds as critics point to hundreds of millions in losses tied to delayed action.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/business/2026/04/13/circle-ceo-says-he-won-t-freeze-usdc-without-a-court-order-even-as-hackers-walk-away-with-millions",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bankers rebuff White House claim that stablecoin yield doesn't threaten deposits",
     "description": "A new study from the American Bankers Association says the White House economists went after the wrong premise in their recent look at the issue.",
     "date": "2026-04-13",
@@ -9571,46 +9608,6 @@
     "initiative_types": [
       "DeFi",
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Stripe and Coinbase vets raise $8m for stablecoin startup",
-    "description": "Latitude, a global payments infrastructure company building a new foundation for cross-border money movement, today announced its launch out of stealth alongside an $8 million seed round led by NEA with participation from Lightspeed Faction, Coinbase Ventures, Paxos, Bitso, and Solana Foundation, among others.",
-    "date": "2026-04-02",
-    "source_url": "https://www.finextra.com/pressarticle/109366/stripe-and-coinbase-vets-raise-8m-for-stablecoin-startup",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Cash App adds instalment plans for P2P payments",
-    "description": "Cash App announced today a first-of-its-kind feature that allows customers to convert peer-to-peer (P2P) money transfers into installment plans, becoming the first major U.S. finance app to bring pay-over-time flexibility to everyday money movement.",
-    "date": "2026-04-02",
-    "source_url": "https://www.finextra.com/pressarticle/109364/cash-app-adds-instalment-plans-for-p2p-payments",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
