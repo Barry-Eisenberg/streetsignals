@@ -1,5 +1,113 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Crypto markets stall as oil surges past $100 on Strait of Hormuz blockade",
+    "description": "Bitcoin and ether retreated Monday as tensions in the Middle East triggered a spike in crude oil, forcing traders into defensive derivatives positioning.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/markets/2026/04/13/crypto-markets-stall-as-oil-surges-past-usd100-on-strait-of-hormuz-blockade",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "The one metric investors are overlooking in Michael Saylor’s Strategy",
+    "description": "Increased preferred-equity issuance and surging STRC trading volumes are reshaping how Strategy's common stock trades.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/markets/2026/04/13/the-one-metric-investors-are-overlooking-in-michael-saylor-s-strategy",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "StarkWare cuts jobs in reorganization as Starknet revenue plunges 99% from peak",
+    "description": "Days after unveiling a quantum-safe bitcoin method, a StarkWare researcher was tapped to lead a new applications unit as Layer-2 revenue dries up.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/markets/2026/04/13/starkware-cuts-jobs-in-reorganization-as-starknet-revenue-plunges-99-from-peak",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Regulators scramble to brief banks on Anthropic cyber risk",
+    "description": "UK regulators are holding urgent talks with bank and cyber security authorities amid fears over the potential danger to critical infrastructure exposed by Anthopic's latest AI model, Mythos.",
+    "date": "2026-04-13",
+    "source_url": "https://www.finextra.com/newsarticle/47566/regulators-scramble-to-brief-banks-on-anthropic-cyber-risk",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Circle CEO Allaire defends decision not to freeze USDC in Drift exploit, citing ‘moral quandary’",
+    "description": "Circle CEO Jeremy Allaire emphasized that the stablecoin issuer has a \"very clear performance obligation\" to act under the law.",
+    "date": "2026-04-13",
+    "source_url": "https://www.theblock.co/post/397180/circle-ceo-allaire-defends-decision-not-to-freeze-usdc-in-drift-exploit-citing-moral-quandary",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "StarkWare cuts staff, reorganizes into two units as it targets revenue",
+    "description": "StarkWare is cutting staff and restructuring under two units as CEO Eli Ben-Sasson says the firm is \"simply too big\" to move fast.",
+    "date": "2026-04-13",
+    "source_url": "https://www.theblock.co/post/397173/starkware-cuts-staff-reorganizes-into-two-units-as-it-targets-revenue",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA",
     "initiative": "ESMA releases reporting templates and instructions for the Active Account Requirement",
     "description": "ESMA releases reporting templates and instructions for the Active Account Requirement 13 April 2026 CCP Market data The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published the reporting templates and instructions for the Active Account Requirement (AAR) reporting under European Market Infrastructure Regulation (EMIR 3). The new templates set out in detail how entities subject to the AAR should report the required information to their competent authorities. Through this development, ESMA aims to ensure a harmonised and efficient approach to AAR reporting across the EU, providing standardised templates and clear instructions while facilitating consistent supervisory practices. Next steps The first AAR reporting submission is expected on 31 July 2026, covering the period from 25 June 2025, when the AAR became applicable, to 30 June 2026.&nbsp; Thereafter, reporting will take place on six months basis, with submissions due on 31 January and 31 July each year, each covering a twelve‑month reference period. &nbsp; Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu",
@@ -9490,126 +9598,6 @@
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "SoFi announces 24/7 banking hub that blends traditional cash with crypto",
-    "description": "The new service lets companies hold dollars, convert to stablecoins and move money instantly within a regulated bank.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/business/2026/04/02/sofi-is-launching-a-24-7-banking-hub-that-blends-traditional-cash-with-crypto",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Forex goes live with Diebold Nixdorf ATM management tech",
-    "description": "Diebold Nixdorf (NYSE: DBD), a world leader in transforming the way people bank and shop, today announced that FOREX, the Nordic region's leader in travel money and foreign exchange, has gone live with Branch Automation Solutions for end-to-end ATM network management.",
-    "date": "2026-04-02",
-    "source_url": "https://www.finextra.com/pressarticle/109360/forex-goes-live-with-diebold-nixdorf-atm-management-tech",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bitcoin falls below $66K as crowded shorts hint at upside risk ahead of Easter holiday: analysts",
-    "description": "Bitcoin remains stuck below $70K as weak conviction and macro uncertainty weigh on markets, with analysts flagging a potential short squeeze.",
-    "date": "2026-04-02",
-    "source_url": "https://www.theblock.co/post/396204/bitcoin-falls-below-66k-as-crowded-shorts-hint-at-upside-risk-ahead-of-easter-holiday-analysts",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "SoFi launches ‘Big Business Banking’ combining fiat and crypto on a single regulated platform",
-    "description": "SoFi has launched a new enterprise banking platform with 24/7 payment support, combining fiat and crypto services.",
-    "date": "2026-04-02",
-    "source_url": "https://www.theblock.co/post/396195/sofi-launches-big-business-banking-combining-fiat-and-crypto-on-a-single-regulated-platform",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Europe's first blockchain IPO is here: France’s new exchange is taking aerospace firm public onchain",
-    "description": "The move positions Lise and ST Group as an early test case for going public directly on blockchain rails within EU rules.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/business/2026/04/02/france-s-new-stock-exchange-is-taking-an-aerospace-giant-public-onchain",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "The ‘wash trading’ bust: Why the feds are finally calling out crypto’s dirty little liquidity secret",
-    "description": "An FBI-created token helped expose how firms allegedly engineered fake volume and why the incentives behind it remain deeply entrenched",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/business/2026/04/02/doj-sting-exposes-crypto-wash-trading-continues-to-be-far-more-common-than-expected",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
