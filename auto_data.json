@@ -1,5 +1,63 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Crypto wallet firm Exodus sues W3C and its CEO Garth Howat, seeking to compel $175M acquisition",
+    "description": "A lawsuit in the Delaware Court of Chancery seeks to compel Howat to comply with obligations under the November 24, 2025 Stock Purchase Agreement.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/policy/2026/04/13/crypto-wallet-firm-exodus-sues-w3c-and-its-ceo-garth-howat-to-complete-usd175m-acquisition",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "White House crypto adviser Witt says other Clarity Act hurdles being cleared",
+    "description": "Patrick Witt told CoinDesk that a recent compromise on stablecoin yield should hold as the Senate tries to advance its crypto bill, even as bankers continue warnings.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/policy/2026/04/13/white-house-s-top-crypto-adviser-witt-says-talks-clearing-other-points-on-clarity-act",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "PayPal adds Pix option for SMBs in Brazil",
+    "description": "PayPal is bringing Pix, the instant payment method used by more than 170 million Brazilians, to small and medium-sized businesses (SMBs), enabling faster checkout and helping merchants capture more sales in one of the world’s most dynamic digital payments markets.",
+    "date": "2026-04-13",
+    "source_url": "https://www.finextra.com/pressarticle/109444/paypal-adds-pix-option-for-smbs-in-brazil",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "FSB",
     "initiative": "FSB Chair warns of rising financial risks stemming from Middle East conflict",
     "description": "FSB Chair’s letter to G20 central bank Governors and Finance Ministers highlights the significant challenges posed by the ongoing conflict in the Middle East and its impact on global financial stability.",
@@ -9540,68 +9598,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "Chainalysis Links NYC 2026: AI Amplification, TradFi Convergence, and the Power of Networked Intelligence",
-    "description": "Chainalysis Links 2026 brought together the brightest minds across cryptocurrency exchanges, global law enforcement, and traditional finance (TradFi) for an&#8230; The post Chainalysis Links NYC 2026: AI Amplification, TradFi Convergence, and the Power of Networked Intelligence appeared first on Chainalysis .",
-    "date": "2026-04-02",
-    "source_url": "https://www.chainalysis.com/blog/links-2026-recap/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Former Stripe and Coinbase Employees Raise $8M for Stablecoin Payouts Startup Latitude",
-    "description": "Hey Payments Fanatic! Cross&#x2011;border payouts are one of those problems everyone in FinTech has felt. Whether you&#x2019;re a marketplace, a platform paying freelancers, or a payroll system trying to hit 100+ countries.&#xA0; That&#x2019;s why the news that former Stripe and Coinbase founders have",
-    "date": "2026-04-02",
-    "source_url": "https://www.connectingthedotsinpayments.com/former-stripe-and-coinbase-employees-raise-8m-for-stablecoin-payouts-startup-latitude/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "How Real-World Asset Tokenization Is Reshaping Digital Finance",
-    "description": "The evolution of digital finance is no longer limited to cryptocurrencies. A growing shift is now ta...",
-    "date": "2026-04-02",
-    "source_url": "https://www.finextra.com/blogposting/31308/how-real-world-asset-tokenization-is-reshaping-digital-finance",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
