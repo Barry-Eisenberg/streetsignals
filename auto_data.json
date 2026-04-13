@@ -1,5 +1,62 @@
 [
   {
+    "institution": "FSB",
+    "initiative": "FSB Chair warns of rising financial risks stemming from Middle East conflict",
+    "description": "FSB Chair’s letter to G20 central bank Governors and Finance Ministers highlights the significant challenges posed by the ongoing conflict in the Middle East and its impact on global financial stability.",
+    "date": "2026-04-13",
+    "source_url": "https://www.fsb.org/2026/04/fsb-chair-warns-of-rising-financial-risks-stemming-from-middle-east-conflict/",
+    "category": "regulators",
+    "source_name": "FSB — Publications",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Ondo seeks SEC clearance for tokenized equities model on Ethereum",
+    "description": "The SEC is signaling openness to tokenization, encouraging firms to engage directly as it fine-tunes regulations.",
+    "date": "2026-04-13",
+    "source_url": "https://www.theblock.co/post/397258/ondo-seeks-sec-clearance-tokenized-equities-model-ethereum",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "List of ‘unsolvable’ issues have shrunk, top White House crypto advisory says as momentum builds to pass legislation",
+    "description": "President Donald Trump's top crypto advisor is sparking optimism in getting broader cryptocurrency legislation passed into law.",
+    "date": "2026-04-13",
+    "source_url": "https://www.theblock.co/post/397266/list-of-unsolvable-issues-have-shrunk-top-white-house-crypto-advisory-says-as-momentum-builds-to-pass-legislation",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "U.S. SEC says software allowing crypto wallet transactions not considered broker",
     "description": "The latest crypto view from the securities agency concludes software that clears the way for securities transactions with individual wallets won't trip regulations.",
@@ -9488,6 +9545,26 @@
     "year": "2026"
   },
   {
+    "institution": "Chainalysis",
+    "initiative": "Chainalysis Links NYC 2026: AI Amplification, TradFi Convergence, and the Power of Networked Intelligence",
+    "description": "Chainalysis Links 2026 brought together the brightest minds across cryptocurrency exchanges, global law enforcement, and traditional finance (TradFi) for an&#8230; The post Chainalysis Links NYC 2026: AI Amplification, TradFi Convergence, and the Power of Networked Intelligence appeared first on Chainalysis .",
+    "date": "2026-04-02",
+    "source_url": "https://www.chainalysis.com/blog/links-2026-recap/",
+    "category": "ecosystem",
+    "source_name": "Chainalysis — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Connecting the Dots",
     "initiative": "Former Stripe and Coinbase Employees Raise $8M for Stablecoin Payouts Startup Latitude",
     "description": "Hey Payments Fanatic! Cross&#x2011;border payouts are one of those problems everyone in FinTech has felt. Whether you&#x2019;re a marketplace, a platform paying freelancers, or a payroll system trying to hit 100+ countries.&#xA0; That&#x2019;s why the news that former Stripe and Coinbase founders have",
@@ -9526,85 +9603,6 @@
     "initiative_types": [
       "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Top 7 fintech trends for 2026: AI orchestration, instant payments and embedded finance",
-    "description": "Fintech in 2026 is moving beyond the pilot stage. The market is shifting towards infrastructure that...",
-    "date": "2026-04-02",
-    "source_url": "https://www.finextra.com/blogposting/31310/top-7-fintech-trends-for-2026-ai-orchestration-instant-payments-and-embedded-finance",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto market structure bill release pushed back as industries view revised stablecoin yield compromise this week",
-    "description": "Crypto and banking industry representatives are viewing revised stablecoin yield compromise language this week.",
-    "date": "2026-04-02",
-    "source_url": "https://www.coindesk.com/policy/2026/04/02/crypto-market-structure-bill-release-pushed-back-as-industries-view-revised-stablecoin-yield-compromise-this-week",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "How Securitize is working with NYSE to bring equities onchain",
-    "description": "Carlos Domingo explains how tokenized equities, regulatory clarity, and major partnerships like NYSE are pushing blockchain into mainstream finance.",
-    "date": "2026-04-02",
-    "source_url": "https://www.theblock.co/post/396282/how-securitize-is-working-with-nyse-to-bring-equities-onchain",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bittensor breakout fuels AI token rally as distributed training gains credibility",
-    "description": "The price of TAO nearly doubled in March, as the market is catching up to a realization of what the Bittensor network can do.",
-    "date": "2026-04-02",
-    "source_url": "https://www.theblock.co/post/395730/bittensor-fuels-ai-token-rally-distributed-training-gains-credibility",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
     ],
     "year": "2026"
   }
