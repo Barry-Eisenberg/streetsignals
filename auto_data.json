@@ -1,6 +1,44 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bankers rebuff White House claim that stablecoin yield doesn't threaten deposits",
+    "description": "A new study from the American Bankers Association says the White House economists went after the wrong premise in their recent look at the issue.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/policy/2026/04/13/bankers-rebuff-white-house-claim-that-stablecoin-yield-doesn-t-threaten-deposits",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin moves off lowest levels as worst of weekend fears slip away",
+    "description": "As the U.S. blockade of the Strait of Hormuz goes into effect, reports say Iran is considering the abandonment of uranium enrichment as a way to end the war.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/markets/2026/04/13/bitcoin-moves-off-lowest-level-as-worst-of-weekend-fears-slip-away",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "ClearBank secures MiCA approval, targets Circle euro, dollar stablecoins for institutional clients",
     "description": "The U.K.- and EU-regulated credit institution gains crypto-asset service provider status and said it will connect clients to regulated stablecoin rails over Circle Mint",
     "date": "2026-04-13",
@@ -9573,49 +9611,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Circle unveils plans for wrapped bitcoin token cirBTC",
-    "description": "Circle's bitcoin payments app Circle Pay was sunsetted in 2019 as the firm pivoted to focus solely on stablecoins.",
-    "date": "2026-04-02",
-    "source_url": "https://www.theblock.co/post/396275/circle-plans-wrapped-bitcoin-token-cirbtc",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Tokenization & Issuance",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "‘Alive and well:’ Solana memecoin honoring 193-year-old tortoise Jonathan rallies following April Fools’ prank",
-    "description": "The JONATHAN token, launched eight months ago, hit a high of approximately $0.00038 on April Fools' Day, in a single 1,400% candle.",
-    "date": "2026-04-02",
-    "source_url": "https://www.theblock.co/post/396264/alive-well-solana-memecoin-193-year-old-tortoise-jonathan-rallies-april-fools-prank",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
     ],
     "year": "2026"
   }
