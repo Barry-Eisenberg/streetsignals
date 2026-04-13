@@ -1,6 +1,66 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Alameda moves $16 million in Solana's SOL token for possible creditor distribution",
+    "description": "Alameda unstakes $16 million worth of Solana's SOL token, according to Arkham.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/markets/2026/04/13/alameda-moves-usd16-million-in-solana-s-sol-token-for-possible-creditor-distribution",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "WLFI threatens legal action against Justin Sun after he accuses Trump-linked project of deceptive DeFi deals",
+    "description": "Trump-backed crypto project says it has ‘contracts’ and ‘evidence’ after Sun accused it of exploiting users.",
+    "date": "2026-04-13",
+    "source_url": "https://www.coindesk.com/markets/2026/04/13/see-you-in-court-wlfi-threatens-justin-sun-as-feud-over-usd75-million-defi-loan-escalates",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bank of Korea calls for ‘circuit breaker’ in local crypto market, citing Bithumb incident",
+    "description": "The BOK called for stricter internal control regulations for local crypto exchanges, citing Bithumb's mistaken transfer of 620,000 BTC.",
+    "date": "2026-04-13",
+    "source_url": "https://www.theblock.co/post/397162/bank-of-korea-circuit-breaker",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bitcoin hits a wall – the chart just challenged the $88,000 bull case",
     "description": "The price action is sending a clear warning signal that analysts' optimism may be running ahead of itself.",
     "date": "2026-04-13",
@@ -9538,65 +9598,6 @@
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Paysecure and Yaspa team up to grow payments IQ",
-    "description": "Paysecure, a leading global payment orchestration platform, and Yaspa, a leading fintech specialising in payments and identity solutions, have today announced a strategic partnership to bring true intelligence to the payments market.",
-    "date": "2026-04-02",
-    "source_url": "https://www.finextra.com/pressarticle/109356/paysecure-and-yaspa-team-up-to-grow-payments-iq",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Bitget to issues Visa crypto card for spending across Apac",
-    "description": "Bitget, the world’s largest Universal Exchange (UEX), in partnership with Visa and DCS, launched the Bitget Card across selected markets in Asia Pacific (APAC), extending crypto out of exchanges into everyday spending and marking another step toward a more unified financial experience where digital assets work quietly in the background of daily life.",
-    "date": "2026-04-02",
-    "source_url": "https://www.finextra.com/pressarticle/109355/bitget-to-issues-visa-crypto-card-for-spending-across-apac",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "UK payments body urges platforms to help front APP fraud costs",
-    "description": "The Payments Association urges shared regulation after report finds most APP scam losses in 2025 originated on platforms like Facebook and Instagram. The post UK payments body urges platforms to help front APP fraud costs appeared first on CoinGeek .",
-    "date": "2026-04-02",
-    "source_url": "https://coingeek.com/uk-payments-body-urges-platforms-to-help-front-app-fraud-costs/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
