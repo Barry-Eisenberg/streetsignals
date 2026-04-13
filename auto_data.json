@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Fed consults on FedNow cross-border payments",
+    "description": "The US Federal Reserve is consulting on a proposal that would enable participants in its FedNow real-time payments system make cross-border transfers.",
+    "date": "2026-04-13",
+    "source_url": "https://www.finextra.com/newsarticle/47561/fed-consults-on-fednow-cross-border-payments",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Aave DAO approves $25 million Aave Labs funding grant in binding ‘Aave Will Win’ vote",
     "description": "The Aave Chan Initiative cast the largest dissenting vote on the proposal, in line with founder Marc Zeller's prior opposition to Aave's actions.",
@@ -9575,28 +9594,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Fast, secure, and seamless payments: Coins launches ‘Link & Pay’ tokenized payments feature",
-    "description": "Coins.ph launches Link &#038; Pay, a tokenized payment feature enabling faster, secure one-tap transactions for everyday purchases and recurring bills. The post Fast, secure, and seamless payments: Coins launches &#8216;Link &#038; Pay&#8217; tokenized payments feature appeared first on CoinGeek .",
-    "date": "2026-04-02",
-    "source_url": "https://coingeek.com/fast-secure-and-seamless-payments-coins-launches-link-pay-tokenized-payments-feature/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Tokenization & Issuance",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
       "Payment Infrastructure"
     ],
     "year": "2026"
