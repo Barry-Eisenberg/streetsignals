@@ -1,6 +1,106 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Visa throws its weight behind Stripe’s Tempo blockchain",
+    "description": "The card network configured and managed the validator node entirely in-house, it said, following six months of joint work with Tempo’s engineering team.",
+    "date": "2026-04-14",
+    "source_url": "https://www.coindesk.com/business/2026/04/14/visa-throws-its-weight-behind-stripe-s-tempo-blockchain",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin passes halfway point in halving cycle as price gains trail prior cycles",
+    "description": "Slower post-halving gains reflect bitcoin’s shift toward a more mature asset.",
+    "date": "2026-04-14",
+    "source_url": "https://www.coindesk.com/markets/2026/04/14/bitcoin-passes-halfway-point-in-halving-cycle-as-price-gains-trail-prior-cycles",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "UK-listed recruitment business XCE takes payments in bitcoin",
+    "description": "Connecting Excellence Group Plc (AQSE: XCE / OTCQB: XCELF), the international executive recruitment group with a long-term, ambitious and disciplined Bitcoin (BTC) treasury strategy, is pleased to announce that Spencer Riley Limited, its flagship executive recruitment business, has received payment in Bitcoin for the provision of executive recruitment services.",
+    "date": "2026-04-14",
+    "source_url": "https://www.finextra.com/pressarticle/109455/uk-listed-recruitment-business-xce-takes-payments-in-bitcoin",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Paxos Labs raises $12 million, launches Amplify platform for onchain financial products",
+    "description": "The round was led by Blockchain Capital, with participation from Robot Ventures, Arthur Hayes' family office Maelstrom, and Uniswap.",
+    "date": "2026-04-14",
+    "source_url": "https://www.theblock.co/post/397348/paxos-labs-raises-12-million-amplify-onchain-financial-products",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Visa, Stripe and Zodia Custody by Standard Chartered become validators on Tempo’s payments blockchain",
+    "description": "Visa, Stripe and Zodia by Standard Chartered are notable early additions for Tempo as it begins to build out its validator set.",
+    "date": "2026-04-14",
+    "source_url": "https://www.theblock.co/post/397286/visa-stripe-zodia-custody-standard-chartered-validators-tempo",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Payments & Transfers",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bitcoin, ether in Goldilocks rally while smaller coins take a back seat",
     "description": "What you need to know for April 14, 2026",
     "date": "2026-04-14",
@@ -9494,101 +9594,6 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "Deep Dive: The Machine Payments Protocol",
-    "description": "The financial infrastructure of the internet is being re-architected.",
-    "date": "2026-04-05",
-    "source_url": "https://www.fintechwrapup.com/p/deep-dive-the-machine-payments-protocol",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "The Funding: Are crypto tokens trading at 90% discounts in secondary markets?",
-    "description": "The range of discounts in crypto token secondary markets has widened in recent months. Here’s what's going on in that market.",
-    "date": "2026-04-05",
-    "source_url": "https://www.theblock.co/post/396371/crypto-tokens-discounts-secondary-markets",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Lucky solo bitcoin miner beats 1-in-28,000 daily odds to win $210,000 block reward",
-    "description": "A solo bitcoin miner using CKpool collected roughly $210,000 for solving the 312th solo block cracked with the software since its 2014 launch.",
-    "date": "2026-04-05",
-    "source_url": "https://www.theblock.co/post/396366/lucky-solo-bitcoin-miner-beats-1-in-28000-daily-odds-to-win-210000-block-reward",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "A simple explainer on what quantum computing actually is, and why it is terrifying for bitcoin",
-    "description": "Most simplifies the complex process of quantum computing as \"it can be 0 and 1 at the same time.\" That is not an explanation for why it threatens Bitcoin. This is.",
-    "date": "2026-04-05",
-    "source_url": "https://www.coindesk.com/tech/2026/04/05/a-simple-explainer-on-what-quantum-computing-actually-is-and-why-it-is-terrifying-for-bitcoin",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Polymarket pulls controversial Iran rescue markets after intense backlash",
-    "description": "Prediction markets face rising regulatory pressure, with congressional Democrats proposing legislation to ban contracts tied to elections, war and government actions.",
-    "date": "2026-04-05",
-    "source_url": "https://www.coindesk.com/policy/2026/04/05/polymarket-pulls-controversial-iran-rescue-markets-after-intense-backlash",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
