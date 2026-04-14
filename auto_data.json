@@ -1,6 +1,224 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "CoinDesk 20 performance update: Ethereum (ETH) price rises 5.4%",
+    "description": "Aave (AAVE), up 3.6% from Monday, joined Ethereum as a top performer.",
+    "date": "2026-04-14",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/14/coindesk-20-performance-update-ethereum-eth-price-rises-5-4",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "XRP Ledger adds zero-knowledge proofs targeting institutional privacy gap",
+    "description": "The Boundless integration enables private transaction execution on XRPL while maintaining compliance, addressing what the company calls the \"transparency tax\" that has held back institutional adoption of public blockchains.",
+    "date": "2026-04-14",
+    "source_url": "https://www.coindesk.com/tech/2026/04/14/xrp-ledger-adds-zero-knowledge-proofs-targeting-institutional-privacy-gap",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance",
+      "Interoperability & Standards",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "From DeFi to deep space: How SkyMapper and Avalanche are securing the world's telescope records",
+    "description": "SkyMapper has introduced a dedicated Avalanche-based network that records observations from telescopes around the world, turning each data point into a secure, verifiable digital record.",
+    "date": "2026-04-14",
+    "source_url": "https://www.coindesk.com/tech/2026/04/13/avalanche-heads-to-the-stars-seti-telescope-data-goes-onchain",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin is closing in on $75,000 and analysts say a breakout could trigger a massive new rally",
+    "description": "Several crypto market experts including Mati Greenspan, former senior eToro market analyst, explain what might happen if bitcoin manages to hold $75,000 and if it does not.",
+    "date": "2026-04-14",
+    "source_url": "https://www.coindesk.com/markets/2026/04/14/bitcoin-hits-usd75-000-for-first-time-since-early-february-but-will-it-hold-and-what-it-means-if-it-does",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Tether introduces crypto wallet to bring stablecoin and bitcoin payments directly to users",
+    "description": "The stablecoin issuer's crypto wallet lets users send digital dollars, tokenized gold and bitcoin without intermediaries or gas tokens across multiple blockchains.",
+    "date": "2026-04-14",
+    "source_url": "https://www.coindesk.com/business/2026/04/14/tether-introduces-crypto-wallet-to-bring-stablecoin-and-bitcoin-payments-directly-to-users",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Tokenization & Issuance",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "BlueSnap intergates with SAP",
+    "description": "BlueSnap, Powered by Payroc, the global payment orchestration platform for leading B2B and B2C enterprises, has launched a direct integration with SAP’s flagship Enterprise Resource Planning (ERP) software SAP Cloud ERP and S/4HANA, giving businesses a direct, cost-efficient way to manage payments worldwide - without the limitations of third-party connectors.",
+    "date": "2026-04-14",
+    "source_url": "https://www.finextra.com/pressarticle/109461/bluesnap-intergates-with-sap",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Ozone API provides open banking APIs to iFast Global Bank",
+    "description": "Ozone API, the global leader in standards-based Open Banking technology, today announced a strategic partnership with iFAST Global Bank, the fast-growing UK-licensed digital bank.",
+    "date": "2026-04-14",
+    "source_url": "https://www.finextra.com/pressarticle/109459/ozone-api-provides-open-banking-apis-to-ifast-global-bank",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Regulation & Compliance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Meow Technologies introduces Banking for AI Agents",
+    "description": "Meow, one of the U.S.’s largest fintechs, today announced the launch of the world’s first agentic platform enabling AI agents to open and manage business bank accounts on behalf of users.",
+    "date": "2026-04-14",
+    "source_url": "https://www.finextra.com/pressarticle/109458/meow-technologies-introduces-banking-for-ai-agents",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "TS Imagine announces fixed income, event-driven trading automation platform",
+    "description": "TS Imagine, a leading provider of trading, portfolio, and risk management solutions for capital markets, today announced Automation 2.0, an event-driven trading automation platform that will enable institutional desks to define, manage, and execute sophisticated rule-based workflows across asset classes from a single platform.",
+    "date": "2026-04-14",
+    "source_url": "https://www.finextra.com/pressarticle/109457/ts-imagine-announces-fixed-income-event-driven-trading-automation-platform",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Omnichain token launchpad Printr rolls out V2 aiming for greater flexibility",
+    "description": "Printr V2 is looking to fix the “incentive misalignment\" in token launches on platforms like Pump.fun, co-founder Fed said.",
+    "date": "2026-04-14",
+    "source_url": "https://www.theblock.co/post/397357/omnichain-token-launchpad-printr-rolls-out-v2-aiming-for-greater-flexibility",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Tether launches self-custodial wallet supporting USDT, bitcoin and tokenized gold",
+    "description": "Tether has launched tether.wallet, a self-custodial crypto wallet supporting USDT, bitcoin, and tokenized gold.",
+    "date": "2026-04-14",
+    "source_url": "https://www.theblock.co/post/397358/tether-launches-self-custodial-wallet-supporting-usdt-bitcoin-and-tokenized-gold",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Visa throws its weight behind Stripe’s Tempo blockchain",
     "description": "The card network configured and managed the validator node entirely in-house, it said, following six months of joint work with Tempo’s engineering team.",
     "date": "2026-04-14",
@@ -9377,223 +9595,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "US CLARITY Act still spinning its wheels as time ticks away",
-    "description": "The United States digital asset market legislation faces delays as stakeholders await compromise on stablecoin \"yield v rewards\" in the CLARITY Act. The post US CLARITY Act still spinning its wheels as time ticks away appeared first on CoinGeek .",
-    "date": "2026-04-06",
-    "source_url": "https://coingeek.com/us-clarity-act-still-spinning-its-wheels-as-time-ticks-away/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin rallies on report of Iran ceasefire talks, Algorand extends gains",
-    "description": "If a ceasefire materializes, a relief rally could further benefit risk assets. For now, traders appear to be treating the headlines with skepticism.",
-    "date": "2026-04-06",
-    "source_url": "https://www.coindesk.com/markets/2026/04/06/bitcoin-rallies-on-report-of-iran-ceasefire-talks-algorand-extends-gains",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "IMF warns tokenization could bring crypto risks into global financial markets",
-    "description": "Tokenization could amplify volatility through automated markets and smart contracts, the report said.",
-    "date": "2026-04-06",
-    "source_url": "https://www.coindesk.com/markets/2026/04/06/imf-warns-tokenization-could-bring-crypto-risks-into-global-financial-markets",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Australia mandates licenses for crypto exchanges, custodians",
-    "description": "Australia's new digital assets legislation mandates crypto-related platforms to hold an AFSL, ensuring consumer protection akin to traditional finance. The post Australia mandates licenses for crypto exchanges, custodians appeared first on CoinGeek .",
-    "date": "2026-04-06",
-    "source_url": "https://coingeek.com/australia-mandates-licenses-for-crypto-exchanges-custodians/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Inflation takes center stage: Crypto Week Ahead",
-    "description": "Your look at what's coming in the week starting April 6.",
-    "date": "2026-04-06",
-    "source_url": "https://www.coindesk.com/markets/2026/04/06/inflation-takes-center-stage-crypto-week-ahead",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Circle future-proofs Arc blockchain against quantum threats",
-    "description": "Circle’s Arc blockchain said users will be able to create wallets that withstand future quantum computer attacks from day one.",
-    "date": "2026-04-06",
-    "source_url": "https://www.coindesk.com/markets/2026/04/06/stablecoin-issuer-circle-s-arc-blockchain-to-debut-with-quantum-era-features",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Bitcoin: Imperfect by design",
-    "description": "In this piece, Kurt Wuckert Jr. explores how Bitcoin's imperfections foster resilience, while chains seeking perfection face challenges. The post Bitcoin: Imperfect by design appeared first on CoinGeek .",
-    "date": "2026-04-06",
-    "source_url": "https://coingeek.com/bitcoin-imperfect-by-design/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "XRP drifts higher to $1.33, but range-bound trade still dominates",
-    "description": "Rising volume and steady support near $1.30 suggest buyers are active, though XRP remains tied to broader crypto sentiment.",
-    "date": "2026-04-06",
-    "source_url": "https://www.coindesk.com/markets/2026/04/06/xrp-drifts-higher-to-usd1-33-but-range-bound-trade-still-dominates",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin reclaims $69,000 as ceasefire talks surface and crypto shorts get squeezed",
-    "description": "A report that the U.S. and Iran are discussing a 45-day ceasefire lifted risk assets across the board on Monday, with short liquidations outpacing longs nearly 3-to-1 in the past 12 hours.",
-    "date": "2026-04-06",
-    "source_url": "https://www.coindesk.com/markets/2026/04/06/bitcoin-reclaims-usd69-000-as-ceasefire-talks-surface-and-crypto-shorts-get-squeezed",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin meltdown to $10,000 remains likely unless prices reclaim $75,000, analyst says",
-    "description": "Bloomberg's Mike McGlone has reiterated his forecast that Bitcoin could plunge to $10,000, this time anchoring his outlook to a clear line in the sand: $75,000.",
-    "date": "2026-04-06",
-    "source_url": "https://www.coindesk.com/markets/2026/04/06/bitcoin-meltdown-to-usd10-000-remains-likely-unless-prices-reclaim-usd75-000-analyst-says",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Adyen Expands Partnership with Adidas",
-    "description": "Hey Payments Fanatic! Adyen&#x2019;s partnerships department has been on fire in 2026. From Uber and Starbucks to Raptor&#x2019;s strategic integration, their momentum is only accelerating. The European payment powerhouse is expanding its partnership with Adidas through their Adyen Giving checkout donation feature.&#xA0; The goal is",
-    "date": "2026-04-06",
-    "source_url": "https://www.connectingthedotsinpayments.com/adyen-expands-partnership-with-adidas/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
