@@ -1,5 +1,24 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "U.S. lawmakers take another swing at crypto tax policy with revised bill",
+    "description": "A bill would amend how the IRS would approach crypto taxes.",
+    "date": "2026-04-14",
+    "source_url": "https://www.coindesk.com/policy/2026/04/13/u-s-lawmakers-take-another-swing-at-crypto-tax-policy-with-revised-bill",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "BMO opens institute for AI and quantum",
     "description": "Canadian bank BMO has established an enterprise‑wide centre of excellence focused on the responsible innovation, application and governance of AI and the development of quantum capabilities.",
@@ -9570,26 +9589,6 @@
     "initiative_types": [
       "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "x402 Foundation Joins Linux Foundation with Backing from Google, Microsoft, and Amazon",
-    "description": "The x402 Foundation — formed by Coinbase, Cloudflare, and Stripe to govern an open standard for AI-native payments — announced Thursday it is joining the Linux Foundation, the nonprofit hub for open-source software development. The move brings a wide coalition of major companies into the fold, with early participants including ... The post x402 Foundation Joins Linux Foundation with Backing from Google, Microsoft, and Amazon appeared first on Unchained .",
-    "date": "2026-04-03",
-    "source_url": "https://unchainedcrypto.com/x402-foundation-joins-linux-foundation-with-backing-from-google-microsoft-and-amazon/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
