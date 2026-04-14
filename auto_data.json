@@ -1,5 +1,43 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Ethereum Foundation launches $1 million crypto security subsidy, providing access to over 20 audit firms",
+    "description": "The EF tapped Areta's audit marketplace to provide access to over 20 security firms like Blocksec, Cetora, Hacken, Immunefi and Quantstamp.",
+    "date": "2026-04-14",
+    "source_url": "https://www.theblock.co/post/397427/ethereum-foundation-launches-1-million-crypto-security-subsidy-providing-access-to-over-20-audit-firms",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Goldman Sachs files for Bitcoin ETF that invests in other Bitcoin exchange-traded products",
+    "description": "The fund would provide exposure to ETPs that hold bitcoin, options on spot Bitcoin ETPs and options on “Bitcoin ETP Indices.\"",
+    "date": "2026-04-14",
+    "source_url": "https://www.theblock.co/post/397412/goldman-sachs-files-for-bitcoin-etf-that-invests-in-other-bitcoin-etfs",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Goldman Sachs files for bitcoin income ETF in crypto push",
     "description": "The bank is moving deeper into crypto with a bitcoin ETF that generates income by selling options on bitcoin-linked funds, following BlackRock’s push into similar yield-focused products.",
@@ -9554,43 +9592,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Kalshi wins appeal against New Jersey over sports event contracts",
-    "description": "A court handed prediction markets a victory, ruling that New Jersey does not have explicit authority over sports-related event contracts.",
-    "date": "2026-04-06",
-    "source_url": "https://www.theblock.co/post/396437/kalshi-wins-appeal-new-jersey-sports-event-contracts",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Jamie Dimon says JPMorgan must move faster as tokenization reshapes finance",
-    "description": "“A whole new set of competitors is emerging based on blockchain,\" said Dimon in his annual letter to shareholders.",
-    "date": "2026-04-06",
-    "source_url": "https://www.coindesk.com/markets/2026/04/06/jamie-dimon-says-jpmorgan-must-move-faster-as-tokenization-reshapes-finance",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
   }
