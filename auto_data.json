@@ -1,6 +1,124 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bitcoin, ether in Goldilocks rally while smaller coins take a back seat",
+    "description": "What you need to know for April 14, 2026",
+    "date": "2026-04-14",
+    "source_url": "https://www.coindesk.com/daybook-us/2026/04/14/bitcoin-ether-in-goldilocks-rally-while-smaller-coins-take-a-back-seat",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "A fake Ledger app on the Apple App Store drained $9.5 million in crypto",
+    "description": "A malicious Ledger Live clone slipped onto Apple’s App Store, draining millions from dozens of victims across multiple blockchains in a week-long phishing campaign.",
+    "date": "2026-04-14",
+    "source_url": "https://www.coindesk.com/business/2026/04/14/a-fake-ledger-app-on-the-apple-app-store-just-drained-usd9-5-million-in-crypto",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Deutsche Börse takes 1.5% stake in crypto exchange Kraken for $200 million",
+    "description": "Deutsche Börse teamed up with Kraken in December to bridge traditional and digital markets and help expedite institutional cryptocurrency adoption in Europe.",
+    "date": "2026-04-14",
+    "source_url": "https://www.coindesk.com/business/2026/04/14/deutsche-boerse-takes-1-5-stake-in-crypto-exchange-kraken-for-usd200-million",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "US Senate re-enters the digital asset market structure arena",
+    "description": "Congress returns from recess with no timeline for CLARITY Act markup, as the long-delayed digital asset market structure bill remains stalled in Senate. The post US Senate re-enters the digital asset market structure arena appeared first on CoinGeek .",
+    "date": "2026-04-14",
+    "source_url": "https://coingeek.com/us-senate-re-enters-the-digital-asset-market-structure-arena/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "UK-listed recruitment bisiness XCE takes payments in bitcoin",
+    "description": "Connecting Excellence Group Plc (AQSE: XCE / OTCQB: XCELF), the international executive recruitment group with a long-term, ambitious and disciplined Bitcoin (BTC) treasury strategy, is pleased to announce that Spencer Riley Limited, its flagship executive recruitment business, has received payment in Bitcoin for the provision of executive recruitment services.",
+    "date": "2026-04-14",
+    "source_url": "https://www.finextra.com/pressarticle/109455/uk-listed-recruitment-bisiness-xce-takes-payments-in-bitcoin",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "UK lawmaker calls for FCA probe of Farage’s crypto promotion, citing ‘Trump playbook’",
+    "description": "A UK lawmaker called for an FCA probe into Nigel Farage's crypto promotion, citing \"Trump playbook\" and market abuse concerns.",
+    "date": "2026-04-14",
+    "source_url": "https://www.theblock.co/post/397333/uk-lawmaker-calls-for-fca-probe-farage-crypto-promotion",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bitcoin tests $75,000 as $200 million in shorts face liquidation risk",
     "description": "Bitcoin price approaches $75,000 level with $200 million in shorts at risk of liquidation, rising open interest and shifting volatility dynamics in focus.",
     "date": "2026-04-14",
@@ -9470,123 +9588,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Drift links $280 million exploit to six-month social engineering op run by suspected North Korean actors",
-    "description": "With \"medium-high\" confidence, Drift and the SEAL 911 team assess the operation was run by the same North Korean actors behind the Radiant Capital hack.",
-    "date": "2026-04-05",
-    "source_url": "https://www.theblock.co/post/396361/drift-links-280-million-exploit-to-six-month-social-engineering-op-run-by-suspected-north-korean-actors",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "AI is making crypto's security problem even worse, Ledger CTO warns",
-    "description": "Ledger’s Charles Guillemet says artificial intelligence is making hacks cheaper and faster, forcing a rethink of how crypto systems stay secure.",
-    "date": "2026-04-05",
-    "source_url": "https://www.coindesk.com/tech/2026/04/05/ai-is-making-crypto-s-security-problem-even-worse-ledger-cto-warns",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Drift says $270 million exploit was a six-month North Korean intelligence operation",
-    "description": "Attackers posed as a trading firm, met Drift contributors in person across multiple countries, deposited $1 million of their own capital, and waited half a year before executing the drain CoinDesk detailed earlier this week.",
-    "date": "2026-04-05",
-    "source_url": "https://www.coindesk.com/markets/2026/04/05/drift-says-usd270-million-exploit-was-a-six-month-north-korean-intelligence-operation",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Ant Group’s blockchain arm unveils platform for AI agents to transact on crypto rails",
-    "description": "Anvita includes tokenization services and a platform for agents to coordinate tasks and settle payments in real time using stablecoins.",
-    "date": "2026-04-05",
-    "source_url": "https://www.coindesk.com/business/2026/04/02/ant-group-s-blockchain-arm-unveils-platform-for-ai-agents-to-transact-on-crypto-rails",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Tokenization & Issuance",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin holds steady as sentiment hits worst levels since Iran war began",
-    "description": "Social sentiment, on-chain data, and positioning metrics all hit extremes not seen since late February, even as institutional buying remains elevated.",
-    "date": "2026-04-05",
-    "source_url": "https://www.coindesk.com/markets/2026/04/05/bitcoin-enters-april-at-its-most-hated-level-since-the-war-began",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "Deep Dive: The Machine Payments Protocol",
-    "description": "The financial infrastructure of the internet is being re-architected.",
-    "date": "2026-04-05",
-    "source_url": "https://www.fintechwrapup.com/p/deep-dive-the-machine-payments-protocol",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
