@@ -1,5 +1,63 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Popular DeFi platform warns users to stay away from its site after security breach",
+    "description": "The team that helps operate the platform, CoW Swap, said that it was working to resolve the issue for the DEX aggregator.",
+    "date": "2026-04-14",
+    "source_url": "https://www.coindesk.com/tech/2026/04/14/popular-defi-platform-warns-users-to-stay-away-from-its-site-after-security-breach",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Ethereum Foundation unveils $1M audit subsidy program to boost crypto security and cut costs for builders",
+    "description": "The new initiative aims to address a persistent challenge in crypto development—the high cost of smart contract security audits.",
+    "date": "2026-04-14",
+    "source_url": "https://www.coindesk.com/tech/2026/04/14/ethereum-foundation-unveils-usd1m-audit-subsidy-program-to-boost-crypto-security-and-cut-costs-for-builders",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Hive, Bitfarms lead bitcoin miner-turned-AI rally with 11% gains as BTC hits two-month high",
+    "description": "Bitcoin climbed above $76,100 to a two-month high, while U.S. equities recovered most of their losses tied to the conflict in Iran.",
+    "date": "2026-04-14",
+    "source_url": "https://www.theblock.co/post/397425/hive-bitfarms-bitcoin-miner-ai-rally-11-gains-btc-two-month-high",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Visa launches validator node on Tempo blockchain",
     "description": "Visa, Stripe, and Zodia Custody by Standard Chartered have become the first external validators to join the Tempo stablecoin payments blockchain.",
@@ -9536,69 +9594,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Polymarket reveals a 'full exchange upgrade' to take control of its own trading and truth",
-    "description": "The $20 billion prediction market is overhauling its infrastructure and launching a native stablecoin to streamline trading as it prepares for a major U.S. expansion.",
-    "date": "2026-04-06",
-    "source_url": "https://www.coindesk.com/markets/2026/04/06/polymarket-reveals-a-full-exchange-upgrade-to-take-control-of-its-own-trading-and-truth",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin climbs above $70,000 as more contrarian bottoming signs emerge",
-    "description": "Sales of bitcoin by prominent holders and executive exits could give hope to the battered crypto sector.",
-    "date": "2026-04-06",
-    "source_url": "https://www.coindesk.com/markets/2026/04/06/bitcoin-climbs-above-usd70-000-as-more-contrarian-bottoming-signs-emerge",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Polymarket unveils plans for trading engine overhaul, native stablecoin",
-    "description": "“We're upgrading the entire Polymarket exchange stack over the next 2-3 weeks. New contracts. New order book. New collateral token,” Polymarket said.",
-    "date": "2026-04-06",
-    "source_url": "https://www.theblock.co/post/396450/polymarket-unveils-plans-trading-engine-overhaul-native-stablecoin",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Stablecoins & Deposit Tokens"
-    ],
     "year": "2026"
   }
 ]
