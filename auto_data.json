@@ -1,6 +1,99 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Goldman Sachs files for bitcoin income ETF in crypto push",
+    "description": "The bank is moving deeper into crypto with a bitcoin ETF that generates income by selling options on bitcoin-linked funds, following BlackRock’s push into similar yield-focused products.",
+    "date": "2026-04-14",
+    "source_url": "https://www.coindesk.com/business/2026/04/14/goldman-sachs-files-for-bitcoin-income-etf-in-crypto-push",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "High Roller stock more than doubles on prediction markets partnership with Crypto.com",
+    "description": "The announcement comes as an increasing number of companies move into prediction markets, an industry that is estimated to grow to $1 trillion by 2030",
+    "date": "2026-04-14",
+    "source_url": "https://www.coindesk.com/markets/2026/04/14/high-roller-stock-more-than-doubles-on-prediction-markets-partnership-with-crypto-com",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin climbs to highest level since Feb. 5 crash that sent price plunging to $60,000",
+    "description": "Optimism over developments in the Middle East sparked a sharp decline in oil prices and rallies across risk markets.",
+    "date": "2026-04-14",
+    "source_url": "https://www.coindesk.com/markets/2026/04/14/bitcoin-climbs-to-highest-level-since-feb-5-crash-that-sent-price-plunging-to-usd60-000",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Barclays US Consumer Bank extends FIS partnership",
+    "description": "Barclays US Consumer Bank, a leading digital banking partner, and FIS® (NYSE: FIS), a global leader in financial technology, today announced a multi-year extension of their core banking partnership agreement, supporting the bank's retail deposits growth ambitions and continued focus on modernizing its digital platforms and capabilities.",
+    "date": "2026-04-14",
+    "source_url": "https://www.finextra.com/pressarticle/109463/barclays-us-consumer-bank-extends-fis-partnership",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Ahead of Senate confirmation hearing, Fed pick Kevin Warsh discloses investments in a slew of crypto firms",
+    "description": "Federal Reserve chair nominee Kevin Warsh is set to have a confirmation hearing next week, according to multiple news reports.",
+    "date": "2026-04-14",
+    "source_url": "https://www.theblock.co/post/397409/ahead-senate-confirmation-fed-pick-kevin-warsh-crypto-investments",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Why Cantor Fitzgerald thinks Robinhood and Coinbase are the best ways to play the prediction market boom",
     "description": "Cantor Fitzgerald says Robinhood and Coinbase are best positioned to dominate the prediction market space by leveraging their massive retail scale and existing trading infrastructure.",
     "date": "2026-04-14",
@@ -9497,103 +9590,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Galaxy taps Broadridge for onchain GLXY shareholder vote in May",
-    "description": "Broadridge now enables holders of tokenized shares to review proxy materials and cast votes on corporate matters.",
-    "date": "2026-04-06",
-    "source_url": "https://www.theblock.co/post/396428/galaxy-taps-broadridge-onchain-glxy-shareholder-vote-may",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "DeFi vs. Wall Street: Blockchain Association challenges Citadel over SEC’s innovation exemption",
-    "description": "The Blockchain Association is challenging Citadel Securities over how the SEC should treat DeFi protocols, in a Monday letter.",
-    "date": "2026-04-06",
-    "source_url": "https://www.theblock.co/post/396421/defi-vs-wall-street-blockchain-association-challenges-citadel-sec-innovation-exemption",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Strategy reports $14.5 billion unrealized loss on its bitcoin holdings for Q1 2026",
-    "description": "Strategy's on-paper bitcoin losses generated a $2.42 billion deferred tax asset, according to its latest 8-K filing.",
-    "date": "2026-04-06",
-    "source_url": "https://www.theblock.co/post/396408/strategy-14-5-billion-unrealized-loss-bitcoin-holdings-q1-2026",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Solo bitcoin miner overcomes 1-in-28,000 odds to secure $210,000 block reward",
-    "description": "The win landed the same week listed miners Riot, MARA, and Genius Group disclosed selling more than 19,000 BTC from their treasuries.",
-    "date": "2026-04-06",
-    "source_url": "https://www.coindesk.com/tech/2026/04/06/solo-bitcoin-miner-overcomes-1-in-28-000-odds-to-secure-usd210-000-block-reward",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "A Deep Dive into the Future of Onchain Liquidity Routing",
-    "description": "Below is a summarized version of The Block Research&#8217;s A Deep Dive into the Future of Onchain Liquidity Routing report. The full PDF version of this report is accessible here. In a fragmented onchain market, best execution is no longer guaranteed by sticking to a single venue. Liquidity that once lived in a handful of [&hellip;]",
-    "date": "2026-04-06",
-    "source_url": "https://www.theblock.co/post/396391/a-deep-dive-into-the-future-of-onchain-liquidity-routing",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
       "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
