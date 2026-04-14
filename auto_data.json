@@ -1,5 +1,67 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Visa launches validator node on Tempo blockchain",
+    "description": "Visa, Stripe, and Zodia Custody by Standard Chartered have become the first external validators to join the Tempo stablecoin payments blockchain.",
+    "date": "2026-04-14",
+    "source_url": "https://www.finextra.com/newsarticle/47580/visa-launches-validator-node-on-tempo-blockchain",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "CoW Swap pauses protocol amid domain hijacking",
+    "description": "The DEX aggregator is a particularly important component of the Ethereum ecosystem with integrations in protocols like Aave and Safe.",
+    "date": "2026-04-14",
+    "source_url": "https://www.theblock.co/post/397432/cow-swap-pauses-protocol-amid-domain-hijacking",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Goldman Sachs Files Preliminary Prospectus for Bitcoin Premium Income ETF",
+    "description": "The post Goldman Sachs Files Preliminary Prospectus for Bitcoin Premium Income ETF appeared first on Unchained .",
+    "date": "2026-04-14",
+    "source_url": "https://unchainedcrypto.com/goldman-sachs-files-preliminary-prospectus-for-bitcoin-premium-income-etf-unchained/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Ethereum Foundation launches $1 million crypto security subsidy, providing access to over 20 audit firms",
     "description": "The EF tapped Areta's audit marketplace to provide access to over 20 security firms like Blocksec, Cetora, Hacken, Immunefi and Quantstamp.",
@@ -9536,62 +9598,6 @@
     "initiative_types": [
       "Tokenized Securities / RWA",
       "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Appeals court blocks New Jersey from shutting down Kalshi's sports markets",
-    "description": "The Third Circuit Court of Appeals ruled that New Jersey could not bring an enforcement action against Kalshi, finding that the federal Commodity Exchange Act preempted state gambling laws.",
-    "date": "2026-04-06",
-    "source_url": "https://www.coindesk.com/policy/2026/04/06/appeals-court-blocks-new-jersey-from-shutting-down-kalshi-s-sports-markets",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "OpenAI CEO urges U.S. to prepare for AI ‘superintelligence’ risks and gains",
-    "description": "The crypto industry faces growing cybersecurity risks as AI tools lower the cost and skill needed to exploit software flaws, with over $1.4 billion in assets stolen last year.",
-    "date": "2026-04-06",
-    "source_url": "https://www.coindesk.com/tech/2026/04/06/openai-ceo-urges-u-s-to-prepare-for-ai-superintelligence-risks-and-gains",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Argentina’s Milei had phone calls with leader of LIBRA crypto project that collapsed: NYT",
-    "description": "The president, who has denied wrongdoing, continues to be a person of interest in the federal investigation of LIBRA.",
-    "date": "2026-04-06",
-    "source_url": "https://www.theblock.co/post/396436/argentina-milei-phone-calls-leader-libra-crypto-project-collapsed-nyt",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
