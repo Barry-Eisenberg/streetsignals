@@ -1,6 +1,44 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Ether outpaces bitcoin as ETF flows split and Ethereum activity jumps 41% on-week",
+    "description": "Ether is outperforming bitcoin as ETF flows, spot prices and a 41% jump in Ethereum transactions move in the same direction for the first time in months.",
+    "date": "2026-04-14",
+    "source_url": "https://www.coindesk.com/markets/2026/04/14/ether-outpaces-bitcoin-as-etf-flows-split-and-ethereum-activity-jumps-41-on-week",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Connecting the Dots",
+    "initiative": "Colombian Bre-B Surpasses 600 Million Transactions",
+    "description": "Hey Payments Fanatic! Colombia&#x2019;s instant payment revolution has reached a massive milestone as Bre-B concludes its first six months of operations.&#xA0; Developed by the Central Bank in partnership with ACI Worldwide, the system has already surpassed 600 million transactions and secured over 34 million registered users since",
+    "date": "2026-04-14",
+    "source_url": "https://www.connectingthedotsinpayments.com/colombian-bre-b-surpasses-600-million-transactions/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "U.S. lawmakers take another swing at crypto tax policy with revised bill",
     "description": "A bill would amend how the IRS would approach crypto taxes.",
     "date": "2026-04-14",
@@ -87,6 +125,25 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Y Combinator settles first all-stablecoin funding in USDC on Solana",
+    "description": "The accelerator settled $500,000 in USDC funding on Solana for Totalis, marking its first all-stablecoin investment.",
+    "date": "2026-04-13",
+    "source_url": "https://www.theblock.co/post/397304/y-combinator-first-all-stablecoin-funding-usdc-solana",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   },
@@ -9529,65 +9586,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Google to finance $5B Texas AI data center for Anthropic",
-    "description": "Google plans to fund a multibillion-dollar Texas data center to lease to Anthropic, boosting AI infrastructure amid surging demand for advanced models. The post Google to finance $5B Texas AI data center for Anthropic appeared first on CoinGeek .",
-    "date": "2026-04-03",
-    "source_url": "https://coingeek.com/google-to-finance-5b-texas-ai-data-center-for-anthropic/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "North Korean Hackers Suspected in $285 Million Drift Protocol Heist",
-    "description": "Attackers drained approximately $285 million from Drift Protocol — the largest decentralized perpetual futures exchange on Solana — on April 1, emptying its vaults in roughly 12 minutes and bridging most stolen funds to Ethereum within hours. Blockchain analytics firms Elliptic and TRM Labs both flagged the attack as bearing ... The post North Korean Hackers Suspected in $285 Million Drift Protocol Heist appeared first on Unchained .",
-    "date": "2026-04-03",
-    "source_url": "https://unchainedcrypto.com/north-korean-hackers-suspected-in-285-million-drift-protocol-heist/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Bitcoin Hits 2026 Low as Trump Escalates Iran War Rhetoric",
-    "description": "Bitcoin dropped to $65,834 Thursday after President Trump delivered a primetime address vowing to strike Iran &#8220;extremely hard&#8221; in the coming weeks, marking the cryptocurrency&#8217;s lowest price of 2026. Ethereum fell 5% and BNB declined 6.8%, with most top-ten tokens finishing the week in the red. Spot Bitcoin ETFs saw ... The post Bitcoin Hits 2026 Low as Trump Escalates Iran War Rhetoric appeared first on Unchained .",
-    "date": "2026-04-03",
-    "source_url": "https://unchainedcrypto.com/bitcoin-hits-2026-low-as-trump-escalates-iran-war-rhetoric/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
