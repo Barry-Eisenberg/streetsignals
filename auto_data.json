@@ -9073,6 +9073,27 @@
     "year": "2026"
   },
   {
+    "institution": "Fintech Wrap Up",
+    "initiative": "Marc Boiron (CEO, Polygon Labs): Payments Will Define Blockchain’s Future",
+    "description": "In this episode of the Wrap Up Podcast, I sit down with Marc Boiron, CEO of Polygon Labs, to unpack how one of the biggest blockchain players is shifting its focus from scaling infrastructure to becoming a core layer for global payments.",
+    "date": "2026-04-03",
+    "source_url": "https://www.fintechwrapup.com/p/marc-boiron-ceo-polygon-labs-payments",
+    "category": "ecosystem",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "DeFi",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Connecting the Dots",
     "initiative": "Is Buy Now, Pay Later Dead on Arrival?",
     "description": "Hey Payments Fanatic! Klarna just hit a massive regulatory speed bump that could force a total rethink of what BNPL (Buy Now, Pay Later) payments really are. Two consumers in the Netherlands who used Klarna&#x2019;s &#x201C;Pay Later&#x201D; service were told they owed nothing, because the Nordic",
@@ -9569,25 +9590,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "MARA Holdings Cuts 15% of Staff as Bitcoin Miners Sell Reserves and Retrench",
-    "description": "MARA Holdings conducted a series of company-wide layoffs this week affecting multiple departments, with sources describing the cuts as &#8220;ongoing&#8221; and carried out across at least two rounds on Wednesday and Thursday. Unconfirmed reports put the reduction at approximately 15% of MARA&#8217;s workforce — roughly 40 positions based on the ... The post MARA Holdings Cuts 15% of Staff as Bitcoin Miners Sell Reserves and Retrench appeared first on Unchained .",
-    "date": "2026-04-03",
-    "source_url": "https://unchainedcrypto.com/mara-holdings-cuts-15-of-staff-as-bitcoin-miners-sell-reserves-and-retrench/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
