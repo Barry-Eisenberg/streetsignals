@@ -9497,6 +9497,25 @@
     "year": "2026"
   },
   {
+    "institution": "Fintech Wrap Up",
+    "initiative": "Deep Dive: The Machine Payments Protocol",
+    "description": "The financial infrastructure of the internet is being re-architected.",
+    "date": "2026-04-05",
+    "source_url": "https://www.fintechwrapup.com/p/deep-dive-the-machine-payments-protocol",
+    "category": "ecosystem",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "The Funding: Are crypto tokens trading at 90% discounts in secondary markets?",
     "description": "The range of discounts in crypto token secondary markets has widened in recent months. Here’s what's going on in that market.",
@@ -9570,25 +9589,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin is now front-running the Fed rather than reacting to it. ETFs are the cause",
-    "description": "Bitcoin's correlation with global central bank easing has turned strongly negative since 2024, suggesting BTC now leads rather than lags monetary policy signals.",
-    "date": "2026-04-05",
-    "source_url": "https://www.coindesk.com/markets/2026/04/05/bitcoin-is-now-front-running-the-fed-rather-than-reacting-to-it-etfs-are-the-cause",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
