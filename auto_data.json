@@ -1,5 +1,26 @@
 [
   {
+    "institution": "CoinGeek",
+    "initiative": "BSV blockchain reaches 7B total transactions as scaling vision forms",
+    "description": "BSV blockchain reaches 7 billion transactions, showcasing unmatched scalability and efficiency for data and payments in a secure proof-of-work network. The post BSV blockchain reaches 7B total transactions as scaling vision forms appeared first on CoinGeek .",
+    "date": "2026-04-14",
+    "source_url": "https://coingeek.com/bsv-blockchain-reaches-7b-total-transactions-as-scaling-vision-forms/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "NFT bull Steve Aoki sells his SHIB, ETH, and PEPE. His Bored Apes are down 88%.",
     "description": "The DJ who told CoinDesk in 2021 that NFTs would be \"part of culture\" within five years is quietly exiting crypto.",
@@ -2304,6 +2325,23 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Customer due diligence requirements in 2026: three regulators have rewritten the rulebook, and most",
+    "description": "The opening: why 2026 is the year customer due diligence requirements stopped being paperwork If you...",
+    "date": "2026-04-10",
+    "source_url": "https://www.finextra.com/blogposting/31368/customer-due-diligence-requirements-in-2026-three-regulators-have-rewritten-the-rulebook-and-most",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -9309,6 +9347,23 @@
     "year": "2026"
   },
   {
+    "institution": "Federal Reserve",
+    "initiative": "Federal Reserve Board issues enforcement action with former employee of United Bank",
+    "description": "Federal Reserve Board issues enforcement action with former employee of United Bank",
+    "date": "2026-04-03",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260403a.htm",
+    "category": "regulators",
+    "source_name": "Federal Reserve — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Fintech Wrap Up",
     "initiative": "Marc Boiron (CEO, Polygon Labs): Payments Will Define Blockchain’s Future",
     "description": "In this episode of the Wrap Up Podcast, I sit down with Marc Boiron, CEO of Polygon Labs, to unpack how one of the biggest blockchain players is shifting its focus from scaling infrastructure to becoming a core layer for global payments.",
@@ -9538,65 +9593,6 @@
       "Data & Reporting"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA",
-    "initiative": "ESMA publishes the results of the annual transparency calculations for equity and equity-like instruments",
-    "description": "ESMA publishes the results of the annual transparency calculations for equity and equity-like instruments 27 February 2026 Market data Trading The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published today the results of the annual transparency calculations for equity and equity-like instruments, which will apply from 6 April 2026. The calculations made available include: the liquidity assessment as per Articles 1 to 5 of CDR 2017/567; the determination of the most relevant market in terms of liquidity as per Article 4 of CDR 2017/587 (RTS 1); the determination of the average daily turnover relevant for the determination of the pre-trade and post-trade large in scale thresholds; the determination of the average value of the transactions and the related the standard market size; and the determination of the average daily number of transactions on the most relevant market in terms of liquidity relevant for the determination of the tick-size regime. Market participants are invited to monitor the release of the transparency calculations for equity and equity-like instruments on a daily basis to obtain the estimates for newly traded instruments and the four-weeks calculations applicable to newly traded instruments after the first six-weeks of trading.&nbsp; The full list of assessed equity and equity-like instruments is available through ESMA’s&nbsp;FITRS in the XML files with publication date from 27 February 2026 ( see here ) and&nbsp;through the Register web interface ( see here ).&nbsp; ESMA also recalls that the application of the remaining revised rules on transparency of equity and equity-like financial instruments included in RTS 1 are applicable from 2 March 2026. Next steps The transparency requirements are based on the results of the annual transparency calculations published from 27 February 2026 for equity and equity-like instruments will apply from 6 April 2026 until 4 April 2027. The next annual transparency calculations for equity and equity-like instruments, to be published by 1 March 2027, will become applicable from 5 April 2027. &nbsp; Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu",
-    "date": "2026-04-03",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-results-annual-transparency-calculations-equity-and-equity-3",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA",
-    "initiative": "ESMA issues a supervisory briefing on algorithmic trading",
-    "description": "ESMA issues a supervisory briefing on algorithmic trading 26 February 2026 Trading The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, today published a supervisory briefing to support consistent supervision of algorithmic trading across the EU. &nbsp; The briefing provides National Competent Authorities (NCAs) with practical tools and clarified expectations for supervising firms engaged in algorithmic trading under MiFID II. It focuses on key areas where supervisory practices have diverged, including pre-trade controls, governance arrangements, testing frameworks and outsourcing of algorithmic trading systems.&nbsp; &nbsp; Given the extended use of artificial intelligence in algorithmic trading, the briefing also touches upon these emerging technological developments, outlining considerations for the use of AI. This section aims to help supervisors assess new risks and ensure that firms adopt robust and responsible approaches when deploying advanced technologies in their trading operations.&nbsp; &nbsp; As a nonbinding convergence tool, the briefing complements the existing requirements and supports NCAs in taking a harmonised approach to oversight. &nbsp; Next steps ESMA will share the supervisory briefing with NCAs to support day to day supervision. ESMA will continue to monitor market and technological developments and may update the briefing or develop further convergence tools as needed.&nbsp; &nbsp; Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu 26/02/2026 ESMA74-1505669079-10311 Supervisory briefing on algorithmic trading in the EU",
-    "date": "2026-04-03",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-issues-supervisory-briefing-algorithmic-trading",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "What next as XRP rises to $1.33 but fails to break out",
-    "description": "Price tracks broader crypto flows, with range-bound structure intact until $1.35 breaks.",
-    "date": "2026-04-03",
-    "source_url": "https://www.coindesk.com/markets/2026/04/03/what-next-as-xrp-rises-to-usd1-33-but-fails-to-break-out",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
