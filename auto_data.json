@@ -1,6 +1,48 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "The next Fed chair has crypto exposure in portfolio. Here are the details",
+    "description": "Kevin Warsh's financial disclosure reveals stakes in DeFi protocols, Ethereum scaling networks, a Bitcoin Lightning startup, and prediction markets — all of which he's promised to sell.",
+    "date": "2026-04-14",
+    "source_url": "https://www.coindesk.com/policy/2026/04/14/the-next-fed-chair-has-a-crypto-portfolio-here-s-everything-that-s-in-it",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Rakuten to allow XRP to be used as payment method by its 44 million customers",
+    "description": "Rakuten Pay users will also be able to spot trade XRP via the Rakuten Pay app and exchange the Japanese e-commerce giant’s points to purchase Ripple’s token",
+    "date": "2026-04-14",
+    "source_url": "https://www.coindesk.com/business/2026/04/14/rakuten-to-allow-xrp-to-be-used-as-payment-method-by-its-44-million-customers",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Tokenization & Issuance",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Popular DeFi platform warns users to stay away from its site after security breach",
     "description": "The team that helps operate the platform, CoW Swap, said that it was working to resolve the issue for the DEX aggregator.",
     "date": "2026-04-14",
@@ -9557,43 +9599,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin options market is quietly pricing a major downside move",
-    "description": "Options data shows traders are bracing for a sharp bitcoin drop as weak demand and fragile positioning leave the market exposed to a break below key levels, a report from Bitfinex shows.",
-    "date": "2026-04-06",
-    "source_url": "https://www.coindesk.com/markets/2026/04/06/bitcoin-options-market-is-quietly-pricing-a-major-downside-move",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Top Aave risk manager Chaos Labs exits amid governance dispute",
-    "description": "Chaos Labs is the latest major Aave contributor to walk away from the project following the departure of BGD Labs and ACI.",
-    "date": "2026-04-06",
-    "source_url": "https://www.theblock.co/post/396458/top-aave-risk-manager-chaos-labs-exits-amid-governance-dispute",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
