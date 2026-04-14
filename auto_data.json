@@ -1,5 +1,162 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin tests $75,000 as $200 million in shorts face liquidation risk",
+    "description": "Bitcoin price approaches $75,000 level with $200 million in shorts at risk of liquidation, rising open interest and shifting volatility dynamics in focus.",
+    "date": "2026-04-14",
+    "source_url": "https://www.coindesk.com/markets/2026/04/14/bitcoin-tests-usd75-000-as-usd200-million-in-shorts-face-liquidation-risk",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bank of Korea nominee backs central bank-led digital currency, sees limited role for stablecoins",
+    "description": "The nominee, Shin Huyn-song, supported a central bank digital currency model, emphasizing the need for strict anti-money laundering and compliance controls.",
+    "date": "2026-04-14",
+    "source_url": "https://www.coindesk.com/policy/2026/04/14/bank-of-korea-nominee-backs-central-bank-led-digital-currency-sees-limited-role-for-stablecoins",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "CBDC"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Deutsche Börse invests in Kraken",
+    "description": "Deutsche Börse has spent $200 million to buy a 1.5% fully diluted stake in crypto platform Kraken, deepening an existing strategic partnership between the two firms.",
+    "date": "2026-04-14",
+    "source_url": "https://www.finextra.com/newsarticle/47574/deutsche-brse-invests-in-kraken",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "EMVCo issues open payments spec for electric vehicle charging",
+    "description": "EMVCo – the technical body that creates and manages EMV® Specifications and programmes that enable seamless and secure card-based payments worldwide – has published Version 1.0 of the Electric Vehicle (EV) Open Payments Use Case document, which outlines an interoperable open payment solution for EV charging.",
+    "date": "2026-04-14",
+    "source_url": "https://www.finextra.com/pressarticle/109454/emvco-issues-open-payments-spec-for-electric-vehicle-charging",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Deutsche Borse invests $200 million in Kraken parent Payward",
+    "description": "Deutsche Borse Group has taken a $200 million stake in Kraken parent Payward, deepening ties between traditional finance and crypto markets.",
+    "date": "2026-04-14",
+    "source_url": "https://www.theblock.co/post/397332/deutsche-borse-invests-200-million-in-kraken-parent-payward",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "SEC Staff Exempt Certain Crypto Wallet Interfaces From Broker-Dealer Registration Requirements",
+    "description": "The post SEC Staff Exempt Certain Crypto Wallet Interfaces From Broker-Dealer Registration Requirements appeared first on Unchained .",
+    "date": "2026-04-14",
+    "source_url": "https://unchainedcrypto.com/sec-staff-exempt-certain-crypto-wallet-interfaces-from-broker-dealer-registration-requirements-unchained/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Bitcoin Surges to Four-Week High Above $74,000 on US-Iran Peace Talks Optimism",
+    "description": "The post Bitcoin Surges to Four-Week High Above $74,000 on US-Iran Peace Talks Optimism appeared first on Unchained .",
+    "date": "2026-04-14",
+    "source_url": "https://unchainedcrypto.com/bitcoin-surges-to-four-week-high-above-74000-on-us-iran-peace-talks-optimism-unchained/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Tillis Plans to Release Stablecoin Yield Draft This Week As Senate Targets Late April for CLARITY Act Markup",
+    "description": "The post Tillis Plans to Release Stablecoin Yield Draft This Week As Senate Targets Late April for CLARITY Act Markup appeared first on Unchained .",
+    "date": "2026-04-14",
+    "source_url": "https://unchainedcrypto.com/tillis-plans-to-release-stablecoin-yield-draft-this-week-with-clarity-act-markup-targeted-for-late-april-unchained/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA",
     "initiative": "SEC confirms exemption for directors and officers of EEA Foreign Private Issuers",
     "description": "SEC confirms exemption for directors and officers of EEA Foreign Private Issuers 18 March 2026 Market Abuse Post Trading The United States Securities and Exchange Commission (SEC) has decided to exempt directors and officers of European Economic Area (EEA) foreign private issuers (FPIs) from the reporting requirements under Section 16(a) of the US Securities Exchange Act of 1934. &nbsp; The SEC’s decision means that directors and officers of EEA FPIs will not be required to comply with these specific US reporting obligations. The announcement ensures continued alignment with the EU regulatory framework, which already provides for substantially similar disclosure requirements for persons discharging managerial responsibilities set in the Market Abuse Regulation (MAR)&nbsp; &nbsp; The details of the SEC decision can be consulted here . &nbsp; &nbsp; Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu",
@@ -9430,163 +9587,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin's $1.3 trillion security race: Key initiatives aimed at quantum-proofing the world's largest blockchain",
-    "description": "Developers are considering ways to quantum-proof the world's oldest cryptocurrency as the threat of this computing moves beyond a hypothetical.",
-    "date": "2026-04-05",
-    "source_url": "https://www.coindesk.com/tech/2026/04/04/bitcoin-s-usd1-3-trillion-security-race-key-initiatives-aimed-at-quantum-proofing-the-world-s-largest-blockchain",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Charles Schwab opens waitlist for direct bitcoin and ether trading, targeting Q2 limited launch",
-    "description": "The service will be unavailable in New York and Louisiana at launch, and fee structure and custody arrangements have not yet been disclosed.",
-    "date": "2026-04-04",
-    "source_url": "https://www.theblock.co/post/396358/charles-schwab-opens-waitlist-for-direct-bitcoin-and-ether-trading-targeting-q2-limited-launch",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "IMF warns tokenized finance could amplify market crises, urges central bank-anchored settlement",
-    "description": "The report warns that instant settlement removes the time buffers to intervene during crises, and compared stablecoins to money market funds.",
-    "date": "2026-04-04",
-    "source_url": "https://www.theblock.co/post/396353/imf-warns-tokenized-finance-could-amplify-market-crises-urges-central-bank-anchored-settlement",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Tokenization & Issuance",
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Nevada judge extends Kalshi ban, calls sports contracts ‘indistinguishable’ from gambling",
-    "description": "The judge extended a temporary restraining order from March 20, calling Kalshi's baseball game contracts \"indistinguishable\" from ordinary betting.",
-    "date": "2026-04-04",
-    "source_url": "https://www.theblock.co/post/396350/nevada-judge-extends-kalshi-ban-calls-sports-contracts-indistinguishable-from-gambling",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin tends to outperform gold and stocks after global shocks, Mercado Bitcoin finds",
-    "description": "The study analyzed 60-day windows after economic or geopolitical shocks and found that Bitcoin posted stronger returns than gold and the S&P 500 in each period.",
-    "date": "2026-04-04",
-    "source_url": "https://www.coindesk.com/markets/2026/03/30/bitcoin-tends-to-outperform-gold-and-stocks-after-global-shocks-mercado-bitcoin-finds",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Ex-UK Chancellor backs bitcoin as alternative to failing systems",
-    "description": "Kwasi Kwarteng reflects on current UK market turmoil, fiscal “doom loop,” and his move into bitcoin with Stack BTC.",
-    "date": "2026-04-04",
-    "source_url": "https://www.coindesk.com/markets/2026/04/03/ex-uk-chancellor-backs-bitcoin-as-alternative-to-failing-systems",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Digital asset treasuries must now earn their keep",
-    "description": "For treasuries to do so and stay competitive, Kiernan unpacks three broad strategies that are emerging.",
-    "date": "2026-04-04",
-    "source_url": "https://www.coindesk.com/opinion/2026/04/04/digital-asset-treasuries-must-now-earn-their-keep",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Solana's quantum-threat readiness reveals harsh tradeoff: security vs speed",
-    "description": "While Bitcoin developers scramble to find a solution and Ethereum prepares for 'Q-day,' Solana is trying to get ahead of that scenario.",
-    "date": "2026-04-04",
-    "source_url": "https://www.coindesk.com/tech/2026/04/04/solana-s-quantum-threat-readiness-reveals-harsh-tradeoff-security-vs-speed",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
