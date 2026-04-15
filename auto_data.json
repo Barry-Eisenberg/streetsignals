@@ -1,6 +1,44 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Wall Street won’t buy ‘trustless’ security promises",
+    "description": "Chen argues that crypto exchange security is still mostly theater, and that stricter enforcement is essential.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/opinion/2026/04/15/wall-street-won-t-buy-trustless-security-promises",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bitdeer hits 70 EH/s in self-mining bitcoin operations, claims top spot by compute",
+    "description": "Bitdeer's total hashrate under management grew to 78.1 EH/s, including its massive self-mining fleet and hosted machines.",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397631/bitdeer-self-mining-bitcoin-70-eh-s-canaan-cleanspark",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Crypto Long & Short: Fighting fraud in the digital age: why state-led identity is the future",
     "description": "In this week’s Crypto Long & Short Newsletter, Tricia Gallagher writes how the fix for broken digital identity systems will need to be state-led and user-controlled.",
     "date": "2026-04-15",
@@ -9567,47 +9605,6 @@
       "Payments & Transfers"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "INXY Raises $7M to Expand Global Payments Platform",
-    "description": "Hey Payments Fanatic! INXY, an EU-authorised payment platform with a presence in Cyprus, announced on Monday that it has raised $7 million in total seed funding to scale its cross-border payment infrastructure. The announcement comes amid a surge in demand for stablecoin payment infrastructure, which has seen significant growth over",
-    "date": "2026-04-07",
-    "source_url": "https://www.connectingthedotsinpayments.com/inxy-raises-7m-to-expand-global-payments-platform/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Top Crypto Payment Gateway Development Companies",
-    "description": "As institutional and retail demand for crypto payment infrastructure grows, choosing the right devel...",
-    "date": "2026-04-07",
-    "source_url": "https://www.finextra.com/blogposting/31340/top-crypto-payment-gateway-development-companies",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
