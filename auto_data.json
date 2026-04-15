@@ -1,5 +1,64 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Banking and fintech vet Derek White launches Primitive AI agent operating system",
+    "description": "Veteran banking and fintech executive Derek White has unveiled his latest venture, an AI agent operating system purpose-built for regulated financial institutions.",
+    "date": "2026-04-15",
+    "source_url": "https://www.finextra.com/newsarticle/47576/banking-and-fintech-vet-derek-white-launches-primitive-ai-agent-operating-system",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Fintech Wrap Up",
+    "initiative": "Reports: Let's dive into 9 fintech predictions in 2026; From Click to Command: The Shift to Agentic Payments; The Agentic AI Advantage: Finance agents that move the numbers",
+    "description": "This week&#8217;s reports all point to the same shift: finance is moving toward a more programmable, real-time, and autonomous operating model.",
+    "date": "2026-04-15",
+    "source_url": "https://www.fintechwrapup.com/p/reports-lets-dive-into-9-fintech",
+    "category": "ecosystem",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Societe Generale unit adds MiCA-compliant stablecoin to MetaMask",
+    "description": "Societe Generale's digital asset unit added its MiCA compliant USD stablecoin to MetaMask for fiat on- and off-ramps and trading.",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397490/societe-generale-adds-stablecoin-metamask",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinGeek",
     "initiative": "Goji Wallet and the social future of money",
     "description": "Revolutionizing the African digital economy, Goji Wallet offers innovative features like savings circles and automated fairness for seamless transactions. The post Goji Wallet and the social future of money appeared first on CoinGeek .",
@@ -9550,57 +9609,6 @@
     "signal_type": "Pilot / Trial",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Apex Group appoints Loïc Choquet as CEO of Apex Fund Services",
-    "description": "Apex Group Ltd (“Apex Group”), a global financial services provider with over $3.5 trillion in assets serviced, today announced the appointment of Loïc Choquet as CEO of Apex Fund Services S.A., subject to CSSF approval.",
-    "date": "2026-04-07",
-    "source_url": "https://www.finextra.com/pressarticle/109370/apex-group-appoints-loc-choquet-as-ceo-of-apex-fund-services",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "FinBox unveils MCP support for Sentinel AI",
-    "description": "FinBox, a leading credit infrastructure platform serving over 100 enterprise lenders across banks, NBFCs, fintechs, and conglomerates, today announced support for MCP (Model Context Protocol) in Sentinel AI, its decision management platform that has facilitated over 6.5 billion decisions till date.",
-    "date": "2026-04-07",
-    "source_url": "https://www.finextra.com/pressarticle/109369/finbox-unveils-mcp-support-for-sentinel-ai",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Snowdrop delivers merchant enrichment for new Solare debit card",
-    "description": "Solflare has partnered with Snowdrop Solutions to integrate its transaction enrichment API, supporting Solflare’s self-custody debit card, Solflare Card, ensuring a world-class digital neobanking experience for its users.",
-    "date": "2026-04-07",
-    "source_url": "https://www.finextra.com/pressarticle/109368/snowdrop-delivers-merchant-enrichment-for-new-solare-debit-card",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping"
     ],
     "initiative_types": [],
     "year": "2026"
