@@ -1,5 +1,43 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "SOL, ADA, DOGE pullback, bitcoin holds above $74,000 as Asia recoups Iran war losses",
+    "description": "China's CSI 300 joins Taiwan and Singapore in erasing war-related declines as US-Iran talk optimism keeps oil below $100; spot ETFs posted $471 million in single-day inflows last week.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/markets/2026/04/15/sol-ada-doge-pullback-bitcoin-holds-above-usd74-000-as-asia-recoups-iran-war-losses",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Connecting the Dots",
+    "initiative": "PayPal Adds Pix to the Mix",
+    "description": "Hey Payments Fanatic! PayPal is bringing Pix, the instant payment method that has become Brazil&apos;s financial backbone with over 170 million users, to its SMB merchant base. With Pix now available through PayPal Complete Payments (PPCP), businesses can offer Brazil&#x2019;s most widely used payment method directly",
+    "date": "2026-04-15",
+    "source_url": "https://www.connectingthedotsinpayments.com/paypal-adds-pix-to-the-mix/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Danske Bank leaks customer address details to outside payment recipients",
     "description": "Human error during a planned system update led to the leaking of protected address data of Danske bank customers to outsiders.",
@@ -9564,42 +9602,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Polygon to activate Giugliano hardfork this week for faster finality",
-    "description": "The Giugliano upgrade is expected to occur on April 8 to improve finality and add fee parameters directly in block headers, the team said.",
-    "date": "2026-04-07",
-    "source_url": "https://www.theblock.co/post/396488/polygon-giugliano-hardfork",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Coinbase wins conditional approval for national trust bank charter",
-    "description": "Coinbase is the latest digital asset firm to receive conditional approval from US regulators for a national trust bank charter.",
-    "date": "2026-04-07",
-    "source_url": "https://www.finextra.com/newsarticle/47534/coinbase-wins-conditional-approval-for-national-trust-bank-charter",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
