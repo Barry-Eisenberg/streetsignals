@@ -1,5 +1,124 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Why Morgan Stanley's CFO sees tokenization as the next big step for its multi-trillion wealth business",
+    "description": "Morgan Stanley CFO Sharon Yeshaya says the bank is eyeing a \"tokenized world\" where blockchain technology allows client assets and liabilities to move more efficiently across its wealth management platform.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/business/2026/04/15/why-morgan-stanley-s-cfo-thinks-tokenization-is-the-next-big-step-for-its-multi-trillion-wealth-business",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "EToro to buy crypto wallet Zengo",
+    "description": "Trading and investment platform eToro has agreed to buy self-custodial crypto wallet provider Zengo in a deal reportedly worth around $70 million.",
+    "date": "2026-04-15",
+    "source_url": "https://www.finextra.com/newsarticle/47586/etoro-to-buy-crypto-wallet-zengo",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "DLocal and Italy's NEC to power global remittance payouts",
+    "description": "dLocal (NASDAQ: DLO), the leading cross-border payment platform connecting global merchants to emerging markets, and National Exchange Company, an Italy-based international money transfer operator serving over 5 million customers across 90+ countries worldwide, have announced a partnership to power cross-border remittance payouts across markets in Africa, APAC, and Latin America.",
+    "date": "2026-04-15",
+    "source_url": "https://www.finextra.com/pressarticle/109484/dlocal-and-italys-nec-to-power-global-remittance-payouts",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Trading & Exchange",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "EuroCTP slects Exegy as technology partner for equities consolidated tape",
+    "description": "EuroCTP, the European initiative delivering the EU’s first real-time pre- and post-trade Consolidated Tape for shares and ETFs, has selected Exegy, the global leader in high-performance market data and trading technology, as its core technology partner.",
+    "date": "2026-04-15",
+    "source_url": "https://www.finextra.com/pressarticle/109483/euroctp-slects-exegy-as-technology-partner-for-equities-consolidated-tape",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "FCA opens consultation on the UK's future crypto regime",
+    "description": "Crypto will be regulated in the UK from October 2027.",
+    "date": "2026-04-15",
+    "source_url": "https://www.finextra.com/pressarticle/109482/fca-opens-consultation-on-the-uks-future-crypto-regime",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Gr4vy launches Agentic Developer Kit for merchants",
+    "description": "Gr4vy, the cloud-native payment orchestration platform, today announced it is fully ready to support agentic payment transactions through its orchestration layer, allowing merchants to manage and process transactions within AI-driven environments.",
+    "date": "2026-04-15",
+    "source_url": "https://www.finextra.com/pressarticle/109481/gr4vy-launches-agentic-developer-kit-for-merchants",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Trump-backed World Liberty proposes vesting overhaul for 62.3 billion tokens, would burn up to 10% of insider allocation",
     "description": "WLFI proposes moving 62.3B locked tokens to fixed vesting schedules, requiring insiders to burn 10% of their allocation.",
@@ -9489,120 +9608,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin rises past $69,000 as risk markets reverse big early losses on hope for Iran deal",
-    "description": "Iran's government is reportedly reviewing Pakistan's request for a two-week ceasefire positively, according to an Axios report.",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/markets/2026/04/07/bitcoin-rises-past-usd69-000-as-risk-markets-reverse-big-early-losses-on-hope-for-iran-deal",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "FDIC proposes ruleset for stablecoin issuers following GENIUS enactment",
-    "description": "The FDIC proposed a rule to establish a regulatory framework for stablecoin issuers and is seeking public input.",
-    "date": "2026-04-07",
-    "source_url": "https://www.theblock.co/post/396588/fdic-proposes-ruleset-stablecoin-issuers-following-genius-enactment",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Stablecoin issuers get closer to U.S. federal rules with FDIC's new proposal",
-    "description": "The Federal Deposit Insurance Corp. approved a proposed rule to govern the issuers, even as the Senate continues to debate GENIUS Act details.",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/policy/2026/04/07/stablecoin-issuers-get-closer-to-u-s-federal-rules-with-fdic-s-new-proposal",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Trump-linked World Liberty faces scrutiny over ties to sanctioned network: The Times",
-    "description": "A deal with an Asia-based blockchain project followed recent links to individuals later sanctioned over alleged ties to a major fraud network",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/business/2026/04/07/trump-linked-world-liberty-faces-scrutiny-over-ties-to-sanctioned-network-the-times",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Solana-based Stabble tells LPs to withdraw funds after identifying former North Korean employee",
-    "description": "Worried about a former employee with alleged ties to North Korea, Stabble told liquidity providers to withdraw funds.",
-    "date": "2026-04-07",
-    "source_url": "https://www.theblock.co/post/396569/solana-stabble-lps-withdraw-funds-identifying-former-north-korean-employee",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Charles Schwab examines crypto investing approaches, says even small exposure can raise risk",
-    "description": "Brokerage Charles Schwab said there is no \"correct\" allocation to crypto, and the decision depends on each investor.",
-    "date": "2026-04-07",
-    "source_url": "https://www.theblock.co/post/396574/charles-schwab-crypto-investing-approaches-risk",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
