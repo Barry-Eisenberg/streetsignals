@@ -1,6 +1,61 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Ethereum treasury firm Bitmine reports $3.8 billion Q1 loss in latest filing",
+    "description": "The largest corporate ether holder posted a $3.8 billion quarterly loss as its pivot from mining to ETH accumulation continues.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/markets/2026/04/15/ethereum-treasury-firm-bitmine-reports-usd3-8-billion-q1-loss-in-latest-filing",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin developers are trying to build quantum defenses. Your coins could pay the price.",
+    "description": "A proposal has been updated on Bitcoin's official repository, calling for freezing of quantum-vulnerable coins.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/tech/2026/04/15/bitcoin-developers-are-trying-to-build-quantum-defenses-your-coins-could-pay-the-price",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Central Bank of the UAE rolls out e-KYC platform",
+    "description": "The Central Bank of the UAE is launching a nationwide unified know your customer (KYC) platform.",
+    "date": "2026-04-15",
+    "source_url": "https://www.finextra.com/newsarticle/47581/central-bank-of-the-uae-rolls-out-e-kyc-platform",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "XRP climbs toward $1.38 as Japan's Rakuten integrates token for payments",
     "description": "Breakout backed by institutional flows and whale buying, with Japan adoption adding a fresh demand narrative.",
     "date": "2026-04-15",
@@ -8404,6 +8459,27 @@
     "year": "2026"
   },
   {
+    "institution": "Connecting the Dots",
+    "initiative": "INXY Raises $7M to Expand Global Payments Platform",
+    "description": "Hey Payments Fanatic! INXY, an EU-authorised payment platform with a presence in Cyprus, announced on Monday that it has raised $7 million in total seed funding to scale its cross-border payment infrastructure. The announcement comes amid a surge in demand for stablecoin payment infrastructure, which has seen significant growth over",
+    "date": "2026-04-07",
+    "source_url": "https://www.connectingthedotsinpayments.com/inxy-raises-7m-to-expand-global-payments-platform/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Top Crypto Payment Gateway Development Companies",
     "description": "As institutional and retail demand for crypto payment infrastructure grows, choosing the right devel...",
@@ -9528,81 +9604,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "XRP slips to $1.31 after failed breakout as liquidity dries up",
-    "description": "Rejection at $1.35 and collapsing depth raise risk of sharper moves as positioning builds.",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/markets/2026/04/07/xrp-slips-to-usd1-31-after-failed-breakout-as-liquidity-dries-up",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin miners face a new rival for cheap power as Anthropic signs multi-gigawatt compute deal",
-    "description": "The AI company's partnership with Google and Broadcom for next-generation TPU capacity starting in 2027 adds to a wave of demand reshaping the economics of every industry that competes for cheap electricity, including bitcoin mining.",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/tech/2026/04/07/bitcoin-miners-face-a-new-rival-for-cheap-power-as-anthropic-signs-multi-gigawatt-compute-deal",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin, ether, solana hold steady as Trump sets Tuesday night deadline for Iran deal",
-    "description": "Oil jumped above $112 on threats to destroy Iranian infrastructure if no agreement is reached by midnight, while crypto markets gave back Monday's ceasefire rally gains.",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/markets/2026/04/07/bitcoin-ether-solana-hold-steady-as-trump-sets-tuesday-night-deadline-for-iran-deal",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Rwanda to phase out ID cards, embrace digital ID by 2027",
-    "description": "Rwanda plans to phase out national ID cards by June 2027, introducing the Single Digital ID for improved access to public services and data security. The post Rwanda to phase out ID cards, embrace digital ID by 2027 appeared first on CoinGeek .",
-    "date": "2026-04-07",
-    "source_url": "https://coingeek.com/rwanda-to-phase-out-id-cards-embrace-digital-id-by-2027/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
     ],
     "year": "2026"
   }
