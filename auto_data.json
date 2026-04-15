@@ -1,5 +1,25 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Justin Sun blasts Trump-linked WLFI's 'absurd' governance vote, escalating feud",
+    "description": "The Tron founder claimed that dissenters would face token lockups and exclusion from voting, while the project said the proposal aims to align all participants for the long-run.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/business/2026/04/15/justin-sun-blasts-trump-linked-wlfi-s-absurd-governance-vote-escalating-feud",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "CryptoQuant says bitcoin rally faces rising profit-taking risk as exchange inflows jump",
     "description": "BTC's recent rally is facing rising profit-taking risk, with several indicators showing growing signs of selling pressure, according to CQ.",
@@ -9598,25 +9618,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "SEC admits ‘flaws’ in past crypto enforcement, cites misreading of securities law",
-    "description": "The SEC said it addressed past enforcement flaws by dismissing seven crypto cases, including those against Binance and Coinbase.",
-    "date": "2026-04-08",
-    "source_url": "https://www.theblock.co/post/396620/sec-admits-flaws-past-crypto-enforcement",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
