@@ -38,6 +38,25 @@
   },
   {
     "institution": "The Block",
+    "initiative": "X rolls out ‘Cashtags’ for in-timeline crypto and stock data",
+    "description": "Nikita Bier, head of product at X, said the 'Cashtags' feature enables users to browse stock and cryptocurrency data such as price charts.",
+    "date": "2026-04-14",
+    "source_url": "https://www.theblock.co/post/397470/x-rolls-out-cashtags",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
     "initiative": "Ether.fi commits $3 billion in ETH as ‘validator liquidity’ to ETHGas over three years",
     "description": "ETHGas is a marketplace for Ethereum blockspace futures that allows blockspace to be bought and sold in advance for guaranteed execution.",
     "date": "2026-04-14",
@@ -9581,26 +9600,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Adyen Expands Partnership with Adidas",
-    "description": "Hey Payments Fanatic! Adyen&#x2019;s partnerships department has been on fire in 2026. From Uber and Starbucks to Raptor&#x2019;s strategic integration, their momentum is only accelerating. The European payment powerhouse is expanding its partnership with Adidas through their Adyen Giving checkout donation feature.&#xA0; The goal is",
-    "date": "2026-04-06",
-    "source_url": "https://www.connectingthedotsinpayments.com/adyen-expands-partnership-with-adidas/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
