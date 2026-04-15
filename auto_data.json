@@ -1,6 +1,89 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "The Protocol: Bitcoin proposal that could freeze quantum-related coins",
+    "description": "Also: AI agents & crypto payments, CoW Swap hijack, ZK proofs on XRPL.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/tech/2026/04/15/the-protocol-bitcoin-proposal-that-could-freeze-quantum-related-coins",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Airwallex makes POS play",
+    "description": "Most businesses have spent the last decade getting their online house in order. Payments, customer data, and financial operations all talk to each other. Continuous innovations deliver better, more seamless online shopping experiences.",
+    "date": "2026-04-15",
+    "source_url": "https://www.finextra.com/pressarticle/109486/airwallex-makes-pos-play",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Tokenization & Issuance",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "HIP-3 open interest tops $2 billion as demand for 24/7 tokenized equity exposure surges",
+    "description": "On Hyperliquid, just three of the top 10 markets by volume are crypto pairs and the rest are tokenized equity or commodity futures.",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397276/hip-3-open-interest-2-billion-demand-24-7-tokenized-equity-exposure",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Tether moves over $70 million in bitcoin to reserve wallet: Arkham",
+    "description": "The move is consistent with Tether's pattern of accumulating bitcoin and moving the asset to its reserve wallet periodically.",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397632/tether-moves-over-70-million-in-bitcoin-to-reserve-wallet-arkham",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Wall Street won’t buy ‘trustless’ security promises",
     "description": "Chen argues that crypto exchange security is still mostly theater, and that stricter enforcement is essential.",
     "date": "2026-04-15",
@@ -9531,76 +9614,6 @@
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Gabriel Makhlouf: Bridge to the future - mobilising Europe's savings in a fragmenting world",
-    "description": "Speech (virtually) by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at the 2026 Eurofi High Level Seminar, Nicosia, 27 March 2026.",
-    "date": "2026-04-07",
-    "source_url": "https://www.bis.org/review/r260330b.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Soledad Núñez: Climate risk and sustainable finance - bridging policy, research and practice",
-    "description": "Speech by Ms Soledad Núñez, Deputy Governor of the Bank of Spain, at the High-Level Conference \"Climate risk and sustainable finance: bridging policy, research and practice\", jointly organised with the Network for Greening the Financial System (NGFS), the Centre for Economic Transition Expertise (CETEx), and the TPI Global Climate Transition Centre, both at London School of Economics, Madrid, 25 March 2026.",
-    "date": "2026-04-07",
-    "source_url": "https://www.bis.org/review/r260331f.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Ida Wolden Bache: Policy rate kept unchanged at this meeting",
-    "description": "Introductory statement by Ms Ida Wolden Bache, Governor of Norges Bank (Central Bank of Norway), at the press conference following Norway's announcement of the policy rate, Oslo, 26 March 2026.",
-    "date": "2026-04-07",
-    "source_url": "https://www.bis.org/review/r260331h.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "From FI to OTC: The Impact of APRA’s Phasing Out of Bank Hybrids",
-    "description": "In this Finextra TV interview from the Communify Intelligence Experience in Miami, Patrick Salis, CEO, AUSIEX explores the phasing out of bank hybrids in Australia and how this impacts investors. Salis explains that bank hybrids were a desirable way to transfer retirement income and when the APRA decided to discontinue this, it had a huge impact on the market with many consequences to follow. The discussion follows on to discuss less risky options, particularly fixed-income bonds. He explores which options allow clients to be actively engaged with their portfolio and investments, seeking to better educate an audience on how to confidently manage their assets into retirement age.",
-    "date": "2026-04-07",
-    "source_url": "https://www.finextra.com/videoarticle/3479/from-fi-to-otc-the-impact-of-apras-phasing-out-of-bank-hybrids",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Payments & Transfers"
     ],
