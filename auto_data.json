@@ -1,6 +1,48 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "UK asset manager puts $68 billion of funds on-chain via Calastone token network",
+    "description": "Legal & General Asset Management brings decades-old money market funds onto blockchain rails to expand access and enable faster settlement.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/business/2026/04/15/uk-asset-manager-puts-usd68-billion-of-liquidity-funds-onchain-via-calastone-token-network",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Tether adds $70 million in bitcoin to reserves, bringing holdings above 97,000 BTC",
+    "description": "The USDT stablecoin issuer has now accumulated over $7.1 billion in bitcoin as part of its strategy to recycle up 15% of its profit into BTC.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/business/2026/04/15/tether-adds-usd70-million-in-bitcoin-to-reserves-bringing-holdings-above-97-000-btc",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "The Protocol: Bitcoin proposal that could freeze quantum-related coins",
     "description": "Also: AI agents & crypto payments, CoW Swap hijack, ZK proofs on XRPL.",
     "date": "2026-04-15",
@@ -9579,45 +9621,6 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Stablecoins gain traction in B2B payments",
-    "description": "Stablecoins have reached a market cap of $312 billion — a 60-fold increase since 2020 — and now facilitate $33 trillion in annual transaction volume, according to a report from Morph.",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/newsarticle/47540/stablecoins-gain-traction-in-b2b-payments",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Paysend raises $25 million",
-    "description": "UK-based international money transfer firm Paysend has secured a $25 million follow-on investment from Claret Capital Partners.",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/newsarticle/47539/paysend-raises-25-million",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
