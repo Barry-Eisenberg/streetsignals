@@ -1,5 +1,22 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "SimCorp introduces AI-powered stress testing for investment managers",
+    "description": "SimCorp, a global leader in financial technology, today introduced a new AI-powered stress testing capability within Axioma Risk, allowing investment managers to focus on insights and decision-making for their portfolios instead of spending valuable time and specialized expertise on manual configuration.",
+    "date": "2026-04-15",
+    "source_url": "https://www.finextra.com/pressarticle/109474/simcorp-introduces-ai-powered-stress-testing-for-investment-managers",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Income ETFs could be bitcoin’s volatility kill switch",
     "description": "What you need to know for April 15, 2026",
@@ -9589,25 +9606,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "CME Group to offer 24/7 crypto derivatives trading May 29, adding Avalanche and Sui contracts",
-    "description": "The world's largest derivatives exchange is also expanding its crypto suite to include Avalanche (AVAX) and Sui (SUI) contracts.",
-    "date": "2026-04-07",
-    "source_url": "https://www.theblock.co/post/396534/cme-group-24-7-crypto-derivatives-trading-may-29-avalanche-sui-contracts",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
