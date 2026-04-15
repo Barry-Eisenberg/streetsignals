@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Crypto's new $11 million PAC booked millions in ads with firm started by Tether US CEO",
+    "description": "While Tether has been closely associated with the emerging political action committee, the opening funding came from Cantor Fitzgerald and Anchorage Digital.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/policy/2026/04/15/crypto-s-new-usd11-million-pac-booked-millions-in-ads-with-firm-started-by-tether-us-ceo",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "UK asset manager puts $68 billion of funds on-chain via Calastone token network",
     "description": "Legal & General Asset Management brings decades-old money market funds onto blockchain rails to expand access and enable faster settlement.",
     "date": "2026-04-15",
@@ -9600,25 +9619,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "DeFi",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Yuno Is Bringing Autonomous AI Into Payment Operations",
-    "description": "Hey Payments Fanatic! Payment teams usually find problems after revenue is already gone. Yuno&apos;s most recent product announcement, Payments Concierge, points to a better model: AI that watches routing, approval rates, and provider failures in real time, then acts before the damage compounds. &#x201C;This is what agentic",
-    "date": "2026-04-08",
-    "source_url": "https://www.connectingthedotsinpayments.com/yuno-is-bringing-autonomous-ai-into-payment-operations/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
       "Payment Infrastructure"
     ],
     "year": "2026"
