@@ -1,6 +1,139 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bitcoin pulls back as $75,000 remains 'both the milestone and the ceiling'",
+    "description": "Bitcoin is struggling to break and hold above the key $75,000 resistance level while ether, solana decline.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/markets/2026/04/15/bitcoin-pulls-back-as-usd75-000-remains-both-the-milestone-and-the-ceiling",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "The 100% debt trap: Why the IMF’s latest warning is a massive long-term signal for bitcoin",
+    "description": "The IMF warns that global public debt could reach about 100% of world GDP by 2029.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/markets/2026/04/15/the-imf-just-repriced-the-macro-backdrop-for-bitcoin-with-a-global-debt-warning",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Winklevoss Capital moves $43 million in bitcoin to custody after hitting lowest balance since 2012",
+    "description": "Arkham data shows 572 BTC moved from Gemini's hot wallet to Winklevoss custody addresses in two transactions in 17 hours, reversing part of last month's $128.5 million deposit.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/markets/2026/04/15/winklevoss-capital-moves-usd43-million-in-bitcoin-to-custody-after-hitting-lowest-balance-since-2012",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Tether launches stablecoin wallet, Circle’s Arc chain going proof-of-stake",
+    "description": "Tether launches a self-custodial stablecoin wallet as Circle defends USDC freeze stance and the U.S. Fed questions claims of real-world stablecoin usage. The post Tether launches stablecoin wallet, Circle’s Arc chain going proof-of-stake appeared first on CoinGeek .",
+    "date": "2026-04-15",
+    "source_url": "https://coingeek.com/tether-launches-stablecoin-wallet-circle-arc-chain-going-proof-of-stake/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Flagright introduces AI Forensics for Monitoring",
+    "description": "Flagright, a financial crime compliance software company serving regulated fintechs and banks in more than 30 countries, has made available AI Forensics for Monitoring, a module within its AI Forensics suite that automates the collection and presentation of investigative context for transaction monitoring alerts.",
+    "date": "2026-04-15",
+    "source_url": "https://www.finextra.com/pressarticle/109473/flagright-introduces-ai-forensics-for-monitoring",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bitcoin breakout odds rise as negative funding streak mirrors past bottoming regimes, K33 says",
+    "description": "The bitcoin 30-day average funding rate has been negative for 46 consecutive days, matching the duration of the 2022 bear market bottom.",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397531/bitcoin-breakout-odds-rise-negative-funding-streak-mirrors-bottoming-regimes-k33",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "eToro bets on self-custody with $70 million acquisition of crypto wallet startup Zengo",
+    "description": "eToro has agreed to acquire crypto wallet startup Zengo for $70 million, adding self-custody and Web3 capabilities after a New York debut.",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397524/etoro-bets-on-self-custody-with-70-million-acquisition-of-crypto-wallet-startup-zengo",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "A new class of crypto treasury companies is forming around Strategy’s high-yield stock",
     "description": "Firms and protocols are accumulating Strategy’s preferred stock to capture yield and bitcoin-linked exposure.",
     "date": "2026-04-15",
@@ -9474,141 +9607,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "CoinDesk 20 performance update: index drops 2.4% as all constituents trade lower",
-    "description": "Aave (AAVE) dropped 8.5% and Avalanche (AVAX) fell 7.6%, leading the index lower from Monday.",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/07/coindesk-20-performance-update-index-drops-2-4-as-all-constituents-trade-lower",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "'A whole civilization will die': Crypto markets under pressure as Trump ups rhetoric towards Iran",
-    "description": "Weekend gains for bitcoin have been mostly erased ahead of the president's Tuesday night deadline for the reopening of the Strait of Hormuz",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/markets/2026/04/07/a-whole-civilization-will-die-crypto-markets-under-pressure-as-trump-ups-rhetoric-towards-iran",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin quantum threat is real and closer than it looks, says Nobel physicist",
-    "description": "Former Google quantum hardware leader and winner of the 2025 Nobel Prize in Physics, John Martinis, warns that breaking encryption will be among the earliest uses of quantum computing",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/business/2026/04/07/bitcoin-quantum-threat-is-real-and-closer-than-it-looks-says-nobel-physicist",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "UninPay launches Agentic Payment Open Protocol framework",
-    "description": "On April 2, a special taxi booking transaction was successfully completed in Hong Kong, China.",
-    "date": "2026-04-07",
-    "source_url": "https://www.finextra.com/pressarticle/109380/uninpay-launches-agentic-payment-open-protocol-framework",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "EPAA and Monash Fintech Lab sign MoU",
-    "description": "Emerging Payments Association Asia (EPAA) and Monash University Malaysia have signed a Memorandum of Understanding (MoU) to bring together payments leaders and academic experts to shape a more resilient, inclusive and forward-looking payments system for Asia Pacific (APAC).",
-    "date": "2026-04-07",
-    "source_url": "https://www.finextra.com/pressarticle/109379/epaa-and-monash-fintech-lab-sign-mou",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "XRP leads $224 million weekly inflows into global crypto funds as bitcoin sentiment remains mixed and ether lags: CoinShares",
-    "description": "Global crypto funds saw $224 million worth of net inflows last week, led by XRP products with $119.6 million, per CoinShares.",
-    "date": "2026-04-07",
-    "source_url": "https://www.theblock.co/post/396519/xrp-leads-224-million-weekly-inflows-into-global-crypto-funds-as-bitcoin-sentiment-remains-mixed-and-ether-lags-coinshares",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "How North Korea's 6-month long secret espionage program has crypto community rethinking security",
-    "description": "For years, the DeFi industry has treated security as a technical problem: something that could be solved with better code. But the Drift incident suggests something far more complex: that the real vulnerabilities may lie outside the codebase altogether.",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/tech/2026/04/07/how-north-korea-s-6-month-long-secret-espionage-program-has-crypto-community-rethinking-security",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
