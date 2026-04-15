@@ -1,6 +1,100 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Crypto Long & Short: Fighting fraud in the digital age: why state-led identity is the future",
+    "description": "In this week’s Crypto Long & Short Newsletter, Tricia Gallagher writes how the fix for broken digital identity systems will need to be state-led and user-controlled.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/15/crypto-long-and-short-fighting-fraud-in-the-digital-age-why-state-led-identity-is-the-future",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin developer Jameson Lopp says it's better to freeze 5.6 million BTC than let hackers have them",
+    "description": "Lopp says dormant coins could pose systemic risk if quantum computing gives attackers the ability to grab them, intensifying the growing “freeze or not freeze” debate.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/business/2026/04/15/bitcoin-developer-jameson-lopp-says-it-s-better-to-freeze-5-6-million-btc-than-let-hackers-have-them",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Beyond ‘digital gold,’ Iran conflict forces a rethink of the nature of bitcoin",
+    "description": "Bitcoin's 12% gain since the Iran war began isn't a risk-on trade. It's the market repricing bitcoin's role as a neutral settlement layer, Bitwise's CIO argues.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/markets/2026/04/15/bitcoin-s-war-rally-is-forcing-a-rethink-beyond-digital-gold",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bitwise launches Avalanche ETF with plans to stake AVAX held",
+    "description": "\"Avalanche is emerging as one of the leading platforms for businesses, governments, and real-world use cases,\" says Bitwise.",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397615/bitwise-launches-avalanche-etf-with-plans-to-stake-avax-held",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Riot loses top data center exec as AI and hyperscale buildout ramps up; shares dip 6%",
+    "description": "To help fund its recent infrastructure investments, Riot Platforms has been selling off the bitcoin on its balance sheet.",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397605/riot-loses-top-data-center-exec-ai-hyperscale-buildout-ramps-shares-dip-6",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Why Morgan Stanley's CFO sees tokenization as the next big step for its multi-trillion wealth business",
     "description": "Morgan Stanley CFO Sharon Yeshaya says the bank is eyeing a \"tokenized world\" where blockchain technology allows client assets and liabilities to move more efficiently across its wealth management platform.",
     "date": "2026-04-15",
@@ -9513,102 +9607,6 @@
     "initiative_types": [
       "Crypto / Digital Assets",
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Where Are Prediction Markets Legal? Polymarket, Kalshi, and Pariflow Availability by Country",
-    "description": "Prediction markets let people trade on real-world outcomes such as elections, sports, crypto prices,...",
-    "date": "2026-04-07",
-    "source_url": "https://www.finextra.com/blogposting/31345/where-are-prediction-markets-legal-polymarket-kalshi-and-pariflow-availability-by-country",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Argentine President Milei’s call logs link him to multimillion-dollar Libra rug pull: NYT",
-    "description": "Court records show repeated contact with a key operator before and after the token’s launch as prosecutors examine his role",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/business/2026/04/07/argentine-president-milei-s-call-logs-link-him-to-multimillion-dollar-libra-rug-pull-nyt",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bitcoin jumps on US-Iran ceasefire talks, long-term rally remains uncertain: analyst",
-    "description": "One analyst noted that a full resolution is needed for the current upward momentum to be translated into a long-term bull cycle.",
-    "date": "2026-04-07",
-    "source_url": "https://www.theblock.co/post/396607/bitcoin-jumps-us-iran-ceasefire",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin vaults past $72,000 as U.S. stock futures surge on a two‑week U.S.–Iran ceasefire",
-    "description": "Risk assets rose late Tuesday as oil collapsed after Trump and Iran confirmed the two-week ceasefire.",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/markets/2026/04/08/bitcoin-u-s-stock-futures-surge-on-a-two-week-u-s-iran-ceasefire",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "GSR partners with SC Ventures-backed tokenization firm supporting its web3 ‘investment bank’ strategy",
-    "description": "By partnering with Libeara, GSR is positioning itself as a full-service, end-to-end, global digital asset and RWA capital markets partner.",
-    "date": "2026-04-07",
-    "source_url": "https://www.theblock.co/post/396594/gsr-partners-sc-ventures-tokenization-web3-investment-bank",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
