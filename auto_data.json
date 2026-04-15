@@ -1,6 +1,67 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "XRP climbs toward $1.38 as Japan's Rakuten integrates token for payments",
+    "description": "Breakout backed by institutional flows and whale buying, with Japan adoption adding a fresh demand narrative.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/markets/2026/04/15/xrp-climbs-toward-usd1-38-as-japan-s-rakuten-integrates-token-into-payments",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Ether-bitcoin ratio bounces from 2026 lows, signaling broader crypto recovery",
+    "description": "The ETH/BTC ratio hit its highest since January as Ethereum's network added 284,000 new users in Q1 and stablecoin supply reached a record $180 billion.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/markets/2026/04/15/ether-bitcoin-ratio-bounces-from-2026-lows-in-signs-of-broader-crypto-recovery",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Major European SIX Group stock exchanges feeding data to Chainlink",
+    "description": "SIX Groups' two primary stock exchanges, SIX Swiss Exchange and BME Exchange, will now push their equities market data onchain.",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397450/major-european-six-group-stock-exchanges-feeding-data-to-chainlink",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "SOL, ADA, DOGE pullback, bitcoin holds above $74,000 as Asia recoups Iran war losses",
     "description": "China's CSI 300 joins Taiwan and Singapore in erasing war-related declines as US-Iran talk optimism keeps oil below $100; spot ETFs posted $471 million in single-day inflows last week.",
     "date": "2026-04-15",
@@ -9542,66 +9603,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "SEC close to putting out 'reg crypto' for fundraising questions, Chair Atkins says",
-    "description": "The Securities and Exchange Commission will address fundraising and startup exemptions in this proposal, Paul Atkins told a crowd Monday.",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/policy/2026/04/07/sec-close-to-putting-out-reg-crypto-for-fundraising-questions-chair-atkins-says",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin drops toward $68,000 as demand weakens and whales sell",
-    "description": "Glassnode data shows soft participation, while a negative gamma setup below $68,000 leaves BTC exposed to a faster move toward $60,000.",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/markets/2026/04/07/bitcoin-drops-toward-usd68-000-as-demand-weakens-and-whales-sell",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "INXY Raises $7M to Expand Global Payments Platform",
-    "description": "Hey Payments Fanatic! INXY, an EU-authorised payment platform with a presence in Cyprus, announced on Monday that it has raised $7 million in total seed funding to scale its cross-border payment infrastructure. The announcement comes amid a surge in demand for stablecoin payment infrastructure, which has seen significant growth over",
-    "date": "2026-04-07",
-    "source_url": "https://www.connectingthedotsinpayments.com/inxy-raises-7m-to-expand-global-payments-platform/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
