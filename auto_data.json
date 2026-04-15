@@ -1,5 +1,243 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "EToro to acquire crypto wallet Zengo in $70 million deal",
+    "description": "The acquisition ties in the retail trading platform with advanced wallet technology meant to help protect users' assets.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/business/2026/04/15/etoro-to-acquire-crypto-wallet-zengo-in-usd70-million-deal",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "UniCredit selects Slate to deliver retail investment services",
+    "description": "Unicredit has selected Slate to deliver a digital investment platform combing brokerage and robo-advisory tech in Poland.",
+    "date": "2026-04-15",
+    "source_url": "https://www.finextra.com/newsarticle/47582/unicredit-selects-slate-to-deliver-retail-investment-services",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "WealthArc boards the AI Agent train",
+    "description": "WealthArc today announced the launch of its new AI Agent, designed to automatically interpret financial documents such as account statements, portfolio reports, and private market investment documents and convert them into structured investment data available within the company’s global data infrastructure service.",
+    "date": "2026-04-15",
+    "source_url": "https://www.finextra.com/pressarticle/109471/wealtharc-boards-the-ai-agent-train",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Rest selects Rimes to modernize investment operations",
+    "description": "Rimes, a leading provider of enterprise data management and investment intelligence solutions to the global investment community, today announced that Retail Employees Superannuation Trust (Rest), one of Australia’s largest superannuation funds with more than $100 billion in assets under management, has selected Rimes’ investment intelligence platform Matrix following a competitive procurement process.",
+    "date": "2026-04-15",
+    "source_url": "https://www.finextra.com/pressarticle/109470/rest-selects-rimes-to-modernize-investment-operations",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Australia’s fastest-growing fintech Zeller launches in the UK",
+    "description": "Australian fintech unicorn, Zeller, launched today in the United Kingdom, bringing its all-in-one payment and financial solution to the country’s 5.7 million small and medium-sized businesses (SMEs).",
+    "date": "2026-04-15",
+    "source_url": "https://www.finextra.com/pressarticle/109468/australias-fastest-growing-fintech-zeller-launches-in-the-uk",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "ClearBank achieves third consecutive year of UK profitability",
+    "description": "ClearBank, the enabler of real-time clearing and embedded banking which is celebrating its 10th year, today released its financial results for the year ended 31 December 2025 and its 2025 Annual Report.",
+    "date": "2026-04-15",
+    "source_url": "https://www.finextra.com/pressarticle/109467/clearbank-achieves-third-consecutive-year-of-uk-profitability",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Finom selects Portes to automate back office operations",
+    "description": "Finom, a leading European financial platform serving over 200,000 SMEs and freelancers, has selected Porters, the agentic AI infrastructure provider purpose-built for regulated banking operations, as its strategic automation partner.",
+    "date": "2026-04-15",
+    "source_url": "https://www.finextra.com/pressarticle/109466/finom-selects-portes-to-automate-back-office-operations",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "TeraWulf shares fall after upsized $900 million equity raise to fund AI data center buildout",
+    "description": "TeraWulf shares slid in pre-market trading after upsizing its equity raise to $900 million to fund an AI data center campus.",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397514/terawulf-shares-fall-after-upsized-900-million-equity-raise-to-fund-ai-data-center-buildout",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "21Shares files second amendment to Hyperliquid ETF filing, seeks Nasdaq listing under THYP",
+    "description": "The issuer plans to buy 20,000 shares from the trust at $25 per share as an initial seed creation basket to buy HYPE prior to the listing.",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397501/21shares-second-amendment-hyperliquid-etf-thyp",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Ripple, Kyobo Life Insurance partner to enable tokenized government bond settlement in South Korea",
+    "description": "The partnership could shorten settlement cycles from the typical two-day window to near real-time, the firms said.",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397491/ripple-kyobo-life-insurance",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "CoW Swap Pauses Protocol After DNS Hijacking Redirects Frontend to Malicious Site",
+    "description": "Blockaid flagged CoW Swap's frontend as malicious after attackers hijacked the protocol's DNS, prompting CoW DAO to pause the backend and warn users to revoke approvals. The post CoW Swap Pauses Protocol After DNS Hijacking Redirects Frontend to Malicious Site appeared first on Unchained .",
+    "date": "2026-04-15",
+    "source_url": "https://unchainedcrypto.com/cow-swap-pauses-protocol-after-dns-hijacking-redirects-frontend-to-malicious-site/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Circle CEO Reveals Arc Network Token Plans and Proof-of-Stake Roadmap",
+    "description": "Circle CEO Jeremy Allaire said the company is exploring a native token for its Arc blockchain that would support governance and enable a shift to proof-of-stake. The post Circle CEO Reveals Arc Network Token Plans and Proof-of-Stake Roadmap appeared first on Unchained .",
+    "date": "2026-04-15",
+    "source_url": "https://unchainedcrypto.com/circle-ceo-reveals-arc-network-token-plans-and-proof-of-stake-roadmap/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Polymarket Audits Builders Program Startups Over Insider Trading Concerns",
+    "description": "Polymarket launched an audit of startups in its developer program after some began marketing tools that helped users copy trades from accounts suspected of insider activity. The post Polymarket Audits Builders Program Startups Over Insider Trading Concerns appeared first on Unchained .",
+    "date": "2026-04-15",
+    "source_url": "https://unchainedcrypto.com/polymarket-audits-builders-program-startups-over-insider-trading-concerns/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Banking and fintech vet Derek White launches Primitive AI agent operating system",
     "description": "Veteran banking and fintech executive Derek White has unveiled his latest venture, an AI agent operating system purpose-built for regulated financial institutions.",
@@ -9379,238 +9617,6 @@
       "Stablecoins & Deposit Tokens",
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "BanCoppel selects BPC tto modernize cards and payment operations",
-    "description": "BanCoppel, one of Mexico’s most prominent retail banks and part of Grupo Coppel, has chosen BPC, a global leader in payment solutions, to modernize its cards and payments operations on the next-generation SmartVista platform.",
-    "date": "2026-04-07",
-    "source_url": "https://www.finextra.com/pressarticle/109377/bancoppel-selects-bpc-tto-modernize-cards-and-payment-operations",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Bitget and MuleRun to launch AI trading assistant",
-    "description": "Bitget, the world’s largest Universal Exchange (UEX), announced a strategic product partnership with MuleRun, an industry-leading self-evolving AI Agent, to launch a personal AI-powered trading assistant that brings institutional-grade market signals to everyday investors through natural language.",
-    "date": "2026-04-07",
-    "source_url": "https://www.finextra.com/pressarticle/109376/bitget-and-mulerun-to-launch-ai-trading-assistant",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Lucky completes $23 million Series B funding round",
-    "description": "Lucky, a leading financial technology company in Egypt and the Middle East, today announced the successful closing of a $23 million Series B funding round, including a mix of equity and debt.",
-    "date": "2026-04-07",
-    "source_url": "https://www.finextra.com/pressarticle/109375/lucky-completes-23-million-series-b-funding-round",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin pulls away from software stocks as Iran war, AI reshape market dynamic",
-    "description": "BTC correlation with an ETF tracking software comany stocks broke sharply from near-total alignment to near zero after the conflict started.",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/markets/2026/04/07/bitcoin-pulls-away-from-software-stocks-as-iran-war-ai-reshape-market-dynamic",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "9fin valued at $1.3 billion on $170 million raise",
-    "description": "9fin, the AI-native platform for global debt markets, has been crowned Europe's latest unicorn with a $170 million Series C funding round.",
-    "date": "2026-04-07",
-    "source_url": "https://www.finextra.com/newsarticle/47537/9fin-valued-at-13-billion-on-170-million-raise",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Broadridge extends governance platform to support digital assets",
-    "description": "Broadridge Financial Solutions Inc. (NYSE: BR) today announced the extension of its governance platform to support digital assets.",
-    "date": "2026-04-07",
-    "source_url": "https://www.finextra.com/pressarticle/109374/broadridge-extends-governance-platform-to-support-digital-assets",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "From FI to OTC: The Impact of APRA’s Phasing Out of Bank Hybrids",
-    "description": "In this Finextra TV interview from the Communify Intelligence Experience in Miami, Patrick Salis, CEO, AUSIEX explores the phasing out of bank hybrids in Australia and how this impacts investors. Salis explains that bank hybrids were a desirable way to transfer retirement income and when the APRA decided to discontinue this, it had a huge impact on the market with many consequences to follow. The discussion follows on to discuss less risky options, particularly fixed-income bonds. He explores which options allow clients to be actively engaged with their portfolio and investments, seeking to better educate an audience on how to confidently manage their assets into retirement age.",
-    "date": "2026-04-07",
-    "source_url": "https://www.finextra.com/videoarticle/3479/from-fi-to-otc-the-impact-of-apras-phasing-out-of-bank-hybrids",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Gabriel Makhlouf: Bridge to the future - mobilising Europe's savings in a fragmenting world",
-    "description": "Speech (virtually) by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at the 2026 Eurofi High Level Seminar, Nicosia, 27 March 2026.",
-    "date": "2026-04-07",
-    "source_url": "https://www.bis.org/review/r260330b.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Chainalysis unveils AI agents to fight on-chain crime",
-    "description": "Chainalysis unveils AI-powered blockchain intelligence agents to help investigators combat rising AI-driven crypto crime by leveraging vast data insights. The post Chainalysis unveils AI agents to fight on-chain crime appeared first on CoinGeek .",
-    "date": "2026-04-07",
-    "source_url": "https://coingeek.com/chainalysis-unveils-ai-agents-to-fight-on-chain-crime/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "CommBank mobile app to scan password chip for fast account onboarding",
-    "description": "Commonwealth Bank of Australia is to use the encrypted chip in passports to verify the identity of people applying for a bank account, eliminating the need to scan and approve multiple documents for verification.",
-    "date": "2026-04-07",
-    "source_url": "https://www.finextra.com/newsarticle/47536/commbank-mobile-app-to-scan-password-chip-for-fast-account-onboarding",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Soledad Núñez: Climate risk and sustainable finance - bridging policy, research and practice",
-    "description": "Speech by Ms Soledad Núñez, Deputy Governor of the Bank of Spain, at the High-Level Conference \"Climate risk and sustainable finance: bridging policy, research and practice\", jointly organised with the Network for Greening the Financial System (NGFS), the Centre for Economic Transition Expertise (CETEx), and the TPI Global Climate Transition Centre, both at London School of Economics, Madrid, 25 March 2026.",
-    "date": "2026-04-07",
-    "source_url": "https://www.bis.org/review/r260331f.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Ida Wolden Bache: Policy rate kept unchanged at this meeting",
-    "description": "Introductory statement by Ms Ida Wolden Bache, Governor of Norges Bank (Central Bank of Norway), at the press conference following Norway's announcement of the policy rate, Oslo, 26 March 2026.",
-    "date": "2026-04-07",
-    "source_url": "https://www.bis.org/review/r260331h.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Agentic AI Startup Xccelera Raises ₹1.2 Crore",
-    "description": "In a strong vote of confidence for the future of autonomous enterprise execution, early-stage AI startup Xccelera today announced that it has raised ₹1.2 crore from a group of prominent founders, including Ramakant Sharma (Livspace), Asad Khan (TestMu AI), and Amiya Pathak (Zipdial).",
-    "date": "2026-04-07",
-    "source_url": "https://www.finextra.com/pressarticle/109371/agentic-ai-startup-xccelera-raises-12-crore",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
