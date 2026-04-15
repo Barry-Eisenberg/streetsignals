@@ -1,6 +1,81 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "A new class of crypto treasury companies is forming around Strategy’s high-yield stock",
+    "description": "Firms and protocols are accumulating Strategy’s preferred stock to capture yield and bitcoin-linked exposure.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/markets/2026/04/15/a-new-class-of-crypto-treasury-companies-is-forming-around-strategy-s-high-yield-stock",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Why this ex-Solana exec is using a Wall Street trick to level the playing field in DeFi",
+    "description": "DoubleZero’s private fiber network aims to eliminate latency advantages like Hyperliquid’s Tokyo edge, but exchanges have yet to show an interest.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/tech/2026/04/15/why-this-ex-solana-exec-is-using-a-wall-street-trick-to-level-the-playing-field-in-defi",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "SIX equities data goes live on Chainlink",
+    "description": "For the first time, data of equities listed on SIX Swiss Exchange and BME Exchange with a value of over €2 trillion is now available to over 2,600 applications in the Chainlink ecosystem across more than 75 public and private blockchains.",
+    "date": "2026-04-15",
+    "source_url": "https://www.finextra.com/pressarticle/109472/six-equities-data-goes-live-on-chainlink",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Pakistan allows banks to open accounts for licensed VASPs, ending 2018 ban",
+    "description": "The State Bank of Pakistan ended a 2018 ban, allowing regulated entities to open accounts for licensed virtual asset service providers.",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397521/pakistan-allows-banks-to-open-accounts-for-licensed-vasps-ending-2018-ban",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "EToro to acquire crypto wallet Zengo in $70 million deal",
     "description": "The acquisition ties in the retail trading platform with advanced wallet technology meant to help protect users' assets.",
     "date": "2026-04-15",
@@ -8812,6 +8887,76 @@
     "year": "2026"
   },
   {
+    "institution": "BIS",
+    "initiative": "Gabriel Makhlouf: Bridge to the future - mobilising Europe's savings in a fragmenting world",
+    "description": "Speech (virtually) by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at the 2026 Eurofi High Level Seminar, Nicosia, 27 March 2026.",
+    "date": "2026-04-07",
+    "source_url": "https://www.bis.org/review/r260330b.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Soledad Núñez: Climate risk and sustainable finance - bridging policy, research and practice",
+    "description": "Speech by Ms Soledad Núñez, Deputy Governor of the Bank of Spain, at the High-Level Conference \"Climate risk and sustainable finance: bridging policy, research and practice\", jointly organised with the Network for Greening the Financial System (NGFS), the Centre for Economic Transition Expertise (CETEx), and the TPI Global Climate Transition Centre, both at London School of Economics, Madrid, 25 March 2026.",
+    "date": "2026-04-07",
+    "source_url": "https://www.bis.org/review/r260331f.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Ida Wolden Bache: Policy rate kept unchanged at this meeting",
+    "description": "Introductory statement by Ms Ida Wolden Bache, Governor of Norges Bank (Central Bank of Norway), at the press conference following Norway's announcement of the policy rate, Oslo, 26 March 2026.",
+    "date": "2026-04-07",
+    "source_url": "https://www.bis.org/review/r260331h.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "From FI to OTC: The Impact of APRA’s Phasing Out of Bank Hybrids",
+    "description": "In this Finextra TV interview from the Communify Intelligence Experience in Miami, Patrick Salis, CEO, AUSIEX explores the phasing out of bank hybrids in Australia and how this impacts investors. Salis explains that bank hybrids were a desirable way to transfer retirement income and when the APRA decided to discontinue this, it had a huge impact on the market with many consequences to follow. The discussion follows on to discuss less risky options, particularly fixed-income bonds. He explores which options allow clients to be actively engaged with their portfolio and investments, seeking to better educate an audience on how to confidently manage their assets into retirement age.",
+    "date": "2026-04-07",
+    "source_url": "https://www.finextra.com/videoarticle/3479/from-fi-to-otc-the-impact-of-apras-phasing-out-of-bank-hybrids",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Connecting the Dots",
     "initiative": "INXY Raises $7M to Expand Global Payments Platform",
     "description": "Hey Payments Fanatic! INXY, an EU-authorised payment platform with a presence in Cyprus, announced on Monday that it has raised $7 million in total seed funding to scale its cross-border payment infrastructure. The announcement comes amid a surge in demand for stablecoin payment infrastructure, which has seen significant growth over",
@@ -9465,157 +9610,6 @@
     "initiative_types": [
       "DeFi",
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Why Michael Saylor's bitcoin buys aren’t moving the needle anymore",
-    "description": "Despite billions in purchases, MSTR demand is being outweighed by long term holder positioning and broader capital flows.",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/markets/2026/04/07/why-strategy-s-bitcoin-buying-isn-t-moving-the-market",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Solana Foundation unveils security overhaul days after $270 million Drift exploit",
-    "description": "The program includes 24/7 threat monitoring for protocols with more than $10 million in deposits and a dedicated incident response network of security firms.",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/tech/2026/04/07/solana-foundation-unveils-security-overhaul-days-after-usd270-million-drift-exploit",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "SEC Sends Crypto Safe Harbor Proposal to White House Review, Signaling Imminent Publication",
-    "description": "The post SEC Sends Crypto Safe Harbor Proposal to White House Review, Signaling Imminent Publication appeared first on Unchained .",
-    "date": "2026-04-07",
-    "source_url": "https://unchainedcrypto.com/sec-sends-crypto-safe-harbor-proposal-to-white-house-review-signaling-imminent-publication/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Ethena Overhauls USDe Reserves With Institutional Lending and Real-World Assets",
-    "description": "The post Ethena Overhauls USDe Reserves With Institutional Lending and Real-World Assets appeared first on Unchained .",
-    "date": "2026-04-07",
-    "source_url": "https://unchainedcrypto.com/ethena-overhauls-usde-reserves-with-institutional-lending-and-real-world-assets/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Polymarket Announces Native Stablecoin and Rebuilt Exchange Stack in Major Platform Overhaul",
-    "description": "The post Polymarket Announces Native Stablecoin and Rebuilt Exchange Stack in Major Platform Overhaul appeared first on Unchained .",
-    "date": "2026-04-07",
-    "source_url": "https://unchainedcrypto.com/polymarket-announces-native-stablecoin-and-rebuilt-exchange-stack-in-major-platform-overhaul/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Chaos Labs Exits Aave Risk Management Role, Citing V4 Workload and Funding Gap",
-    "description": "The post Chaos Labs Exits Aave Risk Management Role, Citing V4 Workload and Funding Gap appeared first on Unchained .",
-    "date": "2026-04-07",
-    "source_url": "https://unchainedcrypto.com/chaos-labs-exits-aave-risk-management-role-citing-v4-workload-and-funding-gap/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin price-drop speculation spurred by familiar price pattern",
-    "description": "BTC and ETH remain stuck in a two-month range as oil prices and Iran tensions weigh on sentiment, while AI and privacy tokens show surprising relative strength.",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/markets/2026/04/07/bitcoin-price-drop-speculation-spurred-by-familiar-price-pattern",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Merge introduces named EUR Ibans to power fiat/stablecoin payments",
-    "description": "Merge, a regulated fintech backed by Octopus Ventures and Coinbase, today announced the launch of Named EUR IBANs, a major enhancement to its API-first payments infrastructure.",
-    "date": "2026-04-07",
-    "source_url": "https://www.finextra.com/pressarticle/109378/merge-introduces-named-eur-ibans-to-power-fiatstablecoin-payments",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
