@@ -1,5 +1,61 @@
 [
   {
+    "institution": "CoinGeek",
+    "initiative": "Goji Wallet and the social future of money",
+    "description": "Revolutionizing the African digital economy, Goji Wallet offers innovative features like savings circles and automated fairness for seamless transactions. The post Goji Wallet and the social future of money appeared first on CoinGeek .",
+    "date": "2026-04-15",
+    "source_url": "https://coingeek.com/goji-wallet-and-the-social-future-of-money/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "BMLL historical data now available via Databricks",
+    "description": "BMLL, the leading independent provider of historical market data and analytics across global equity, ETFs, futures and options, today announced that the BMLL Historical Data is now available via Databricks.",
+    "date": "2026-04-15",
+    "source_url": "https://www.finextra.com/pressarticle/109441/bmll-historical-data-now-available-via-databricks",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Virginia to hold dormant crypto ‘in-kind’ for at least one year under new law",
+    "description": "The legislation stipulates that unclaimed crypto assets in customer accounts will be transferred to state custody in-kind.",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397484/virginia-approves-bill-unclaimed-crypto-assets",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Ethereum treasury firm Bitmine reports $3.8 billion Q1 loss in latest filing",
     "description": "The largest corporate ether holder posted a $3.8 billion quarterly loss as its pivot from mining to ETH accumulation continues.",
@@ -9547,64 +9603,6 @@
       "Custody & Safekeeping"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bitcoin whale moves over $20 million worth of BTC to Binance",
-    "description": "Between January and March 2025, the wallet accumulated 513 BTC, worth $50 million at the time, according to Arkham data.",
-    "date": "2026-04-07",
-    "source_url": "https://www.theblock.co/post/396504/bitcoin-whale-moves-20-million-worth-btc",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Spot bitcoin ETFs report largest single-day inflow in six weeks, worth $471 million",
-    "description": "The return in inflows reflects renewed confidence among institutional participants in the crypto market, analysts said.",
-    "date": "2026-04-07",
-    "source_url": "https://www.theblock.co/post/396499/bitcoin-etfs-largest-day-inflow-six-weeks",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin ETF inflows hit highest level since February",
-    "description": "Spot bitcoin ETFs pulled in $471 million on April 6, the 6th-largest inflow of 2026, as prediction markets price little near-term Fed movement.",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/markets/2026/04/07/bitcoin-etf-inflows-hit-highest-level-since-february",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
