@@ -1,5 +1,62 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Trump-backed World Liberty proposes vesting overhaul for 62.3 billion tokens, would burn up to 10% of insider allocation",
+    "description": "WLFI proposes moving 62.3B locked tokens to fixed vesting schedules, requiring insiders to burn 10% of their allocation.",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397597/trump-backed-world-liberty-proposes-vesting-overhaul-for-62-3-billion-tokens-would-burn-up-to-10-of-insider-allocation",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Justin Sun says Tron launching post-quantum upgrade plan",
+    "description": "Sun's comments follow recent debate over whether quantum computers could eventually break the cryptography that underpins cryptocurrencies.",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397572/justin-sun-says-tron-launching-post-quantum-upgrade-plan",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "OP Mainnet records ‘largest TVL event’ in its history as crypto card provider Etherfi goes live",
+    "description": "Crypto credit cards see roughly 100,000 average daily transactions, with Etherfi accounting for about a third of that volume.",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397465/op-mainnet-largest-tvl-event-history-crypto-card-provider-etherfi-live",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "TeraWulf stock declines on $900 million share sale to fund AI data center expansion",
     "description": "The shares had been on a big run higher, rising more than 50% since late March.",
@@ -939,6 +996,26 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "AI, Portfolio Construction and the Democratisation of Alternative Investments",
+    "description": "Discussing how the role of AI in Wealth Management is changing differentiation efforts, Kevin Barr, Independent Board Director, Communify spoke to FinextraTV at the Communify Intelligence Experience. Barr highlighted the need to not just differentiate the human model, but to build specific and relevant models for purpose most relevant to each firm, rather than relying on the same model across firms. Looking at portfolio construction, Barr explained his existing belief that diversification is still highly important and that having an element of stability is crucial to a strong portfolio, but he emphasised that stablecoins are not always, actually, stable. He equally defines an era of democratisation of alternative investments, which he sees as one of the most exciting changes currently unfolding.",
+    "date": "2026-04-14",
+    "source_url": "https://www.finextra.com/videoarticle/3484/ai-portfolio-construction-and-the-democratisation-of-alternative-investments",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DeFi"
+    ],
     "year": "2026"
   },
   {
@@ -9524,82 +9601,6 @@
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "‘Don’t waste time with crypto': Here is what Solana Foundation's cryptic message really means",
-    "description": "The foundation says it is becoming a leading network for “agentic payments.”",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/tech/2026/04/07/don-t-waste-time-with-crypto-here-is-what-solana-foundation-s-cryptic-message-really-means",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Freedom Bank contracts with InvestiFi",
-    "description": "InvestiFi, an award winning InvestTech platform designed to allow for investing to and from checking accounts, has engaged with Freedom Bank to embed its digital solutions into the bank’s online banking platform.",
-    "date": "2026-04-07",
-    "source_url": "https://www.finextra.com/pressarticle/109384/freedom-bank-contracts-with-investifi",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "DeFi yields are crashing so hard that they can't compete with a traditional savings account",
-    "description": "DeFi yields have collapsed below TradFi rates, forcing investors to face higher smart contract risks for lower returns as regulation and exploits mount.",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/business/2026/04/07/defi-yields-are-crashing-so-hard-that-they-can-t-compete-with-a-traditional-savings-account",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Americans’ losses to crypto scams rose to over $11 billion last year, FBI reports",
-    "description": "Fraud schemes grew more sophisticated and targeted larger sums than in 2024.",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/business/2026/04/07/americans-losses-to-crypto-scams-rose-to-over-usd11-billion-last-year-fbi-reports",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
