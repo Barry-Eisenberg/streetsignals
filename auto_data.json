@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Income ETFs could be bitcoin’s volatility kill switch",
+    "description": "What you need to know for April 15, 2026",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/daybook-us/2026/04/15/income-etfs-could-be-bitcoin-s-volatility-kill-switch",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bitcoin pulls back as $75,000 remains 'both the milestone and the ceiling'",
     "description": "Bitcoin is struggling to break and hold above the key $75,000 resistance level while ether, solana decline.",
     "date": "2026-04-15",
@@ -9586,25 +9605,6 @@
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Split Capital winds down as founder cites $100 billion crypto venture ‘last dance’, joins Plasma",
-    "description": "Split Capital returned outside capital as founder joins Plasma, calling crypto hedge funds \"broken\" after $100 billion in venture funding.",
-    "date": "2026-04-07",
-    "source_url": "https://www.theblock.co/post/396533/split-capital-winds-down-founder-100-billion-crypto-venture-last-dance-joins-plasma",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
