@@ -1,5 +1,159 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "TeraWulf stock declines on $900 million share sale to fund AI data center expansion",
+    "description": "The shares had been on a big run higher, rising more than 50% since late March.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/markets/2026/04/15/terawulf-stock-declines-on-usd900-million-share-sale-to-fund-ai-data-center-expansion",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Pakistan lifts seven-year ban, allowing banks to service crypto providers",
+    "description": "Pakistan sent a letter to all banks and financial regulatory firms notifying them that they may provide crypto services,, but remain barred from trading or holding crypto assets.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/policy/2026/04/15/pakistan-lifts-seven-year-ban-allowing-banks-to-service-virtual-asset-providers",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Prediction market volumes to hit $1 trillion by 2030 with Robinhood, Coinbase as key players, Bernstein says",
+    "description": "The broker said prediction markets are scaling into a trillion-dollar asset class, driven by regulatory clarity, crypto rails and distribution via major trading platforms.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/markets/2026/04/15/prediction-market-volumes-to-hit-usd1-trillion-by-2030-with-robinhood-coinbase-as-key-players-bernstein-says",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Trump-backed WLFI moves to unlock 62 billion tokens after $75 million loan controversy",
+    "description": "The project would burn 4.5 billion tokens while beginning to vest 40.7 billion tokens for founders and the team, restructuring locks that were originally set to be indefinite.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/markets/2026/04/15/trump-backed-world-liberty-financial-proposes-unlocking-62-billion-tokens",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Backbase and Ninth Wave partner to bring secure ERP-to-bank connectivity to commercial banking",
+    "description": "Backbase, the leader in AI-native banking technology, and Ninth Wave, a leading provider of secure Open Finance connectivity, announced a strategic partnership today that will enable banks to offer a seamless connection between their business clients’ ERP and accounting systems and their banking data.",
+    "date": "2026-04-15",
+    "source_url": "https://www.finextra.com/pressarticle/109475/backbase-and-ninth-wave-partner-to-bring-secure-erp-to-bank-connectivity-to-commercial-banking",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Regulation & Compliance",
+      "Interoperability & Standards",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "8B and PayU to bring UPI and other Indian paymentt methods to central Asia",
+    "description": "8B, a Central Asian fintech infrastructure company, and PayU, India’s leading diversified fintech platform, have signed a strategic partnership to bring UPI, one of the world’s fastest-growing digital payment systems, and other Indian payment offerings to Central Asia.",
+    "date": "2026-04-15",
+    "source_url": "https://www.finextra.com/pressarticle/109476/8b-and-payu-to-bring-upi-and-other-indian-paymentt-methods-to-central-asia",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bitcoin researchers propose phased sunset of legacy signatures to address quantum risks",
+    "description": "A new Bitcoin proposal outlines a phased plan to restrict and eventually render quantum-vulnerable funds unspendable.",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397556/bitcoin-researchers-propose-phased-sunset-of-legacy-signatures-to-address-quantum-risks",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Brix raises $5.5 million to tokenize emerging market assets, plans debut on MegaETH",
+    "description": "Brix plans to bring emerging market assets onchain, launching a Turkish lira-backed token as its first product on MegaETH.",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397546/brix-raises-5-5m-to-tokenize-emerging-market-assets-megaeth",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "SimCorp introduces AI-powered stress testing for investment managers",
     "description": "SimCorp, a global leader in financial technology, today introduced a new AI-powered stress testing capability within Axioma Risk, allowing investment managers to focus on insights and decision-making for their portfolios instead of spending valuable time and specialized expertise on manual configuration.",
@@ -9449,163 +9603,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Regulation by hostility: the real legacy of Biden-era crypto policy",
-    "description": "Thorn argues that a recent New York Times op-ed rewrites history through omission, glossing over the collateral damage caused by the previous administration.",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/opinion/2026/04/07/regulation-by-hostility-the-real-legacy-of-biden-era-crypto-policy",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Grayscale says bitcoin's quantum problem is governance, not engineering",
-    "description": "The asset manager's research arm argues the technical path to quantum-safe blockchains is clear but reaching consensus on protocol changes, especially what to do with Satoshi's coins, is the real obstacle.",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/tech/2026/04/07/grayscale-says-bitcoin-s-quantum-problem-is-governance-not-engineering",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Stablecoin startup Inxy raises $4 million",
-    "description": "INXY has raised $4 million in a new funding round led by Flashpoint, following a $3 million raise in 2025, bringing its total seed funding to $7 million.",
-    "date": "2026-04-07",
-    "source_url": "https://www.finextra.com/pressarticle/109383/stablecoin-startup-inxy-raises-4-million",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "MoneyHash strengthens presence in Bahrain witth EazyPay relationship",
-    "description": "MoneyHash, the leading payment orchestration platform in emerging and global markets, announced a new partnership with Eazy Financial Services (EazyPay), a Central Bank of Bahrain-licensed payment service provider and acquirer supporting businesses across the Kingdom of Bahrain and strengthening access to payment gateways in Bahrain for regional and global merchants.",
-    "date": "2026-04-07",
-    "source_url": "https://www.finextra.com/pressarticle/109382/moneyhash-strengthens-presence-in-bahrain-witth-eazypay-relationship",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Portfolio Construction and the Democratisation of Alternative Investments",
-    "description": "Discussing how the role of AI in Wealth Management is changing differentiation efforts, Kevin Barr, Independent Board Director, Communify spoke to FinextraTV at the Communify Intelligence Experience. Barr highlighted the need to not just differentiate the human model, but to build specific and relevant models for purpose most relevant to each firm, rather than relying on the same model across firms. Looking at portfolio construction, Barr explained his existing belief that diversification is still highly important and that having an element of stability is crucial to a strong portfolio, but he emphasised that stablecoins are not always, actually, stable. He equally defines an era of democratisation of alternative investments, which he sees as one of the most exciting changes currently unfolding.",
-    "date": "2026-04-07",
-    "source_url": "https://www.finextra.com/videoarticle/3482/portfolio-construction-and-the-democratisation-of-alternative-investments",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Schwab says even a 1% crypto allocation can reshape portfolio risk",
-    "description": "The brokerage's research finds that even a tiny crypto allocation can dominate your portfolio's risk, suggesting that the \"right\" amount to own depends entirely on your stomach for 70% price swings.",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/business/2026/04/07/your-crypto-strategy-should-be-about-how-much-pain-you-can-handle-not-how-much-money-you-ll-make-schwab-finds",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto's $224 million inflow rebound was led by mostly one country and XRP",
-    "description": "Switzerland accounted for 70% of global crypto ETP inflows last week with XRP products contributing more than half the total.",
-    "date": "2026-04-07",
-    "source_url": "https://www.coindesk.com/markets/2026/04/07/crypto-s-usd224-million-inflow-rebound-was-led-by-mostly-one-country-and-xrp",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "UnionPay launches Agentic Payment Open Protocol framework",
-    "description": "On April 2, a special taxi booking transaction was successfully completed in Hong Kong, China.",
-    "date": "2026-04-07",
-    "source_url": "https://www.finextra.com/pressarticle/109380/unionpay-launches-agentic-payment-open-protocol-framework",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
