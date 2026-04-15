@@ -1,5 +1,45 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Tether backs Stablecoin Development Corporation’s $134 million private placement used to acquire SKY tokens",
+    "description": "The Stablecoin Development Corporation is a publicly-traded holding company with an approximately 2.15 billion SKY token treasury.",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397654/tether-stablecoin-development-corporation-134-million-private-placement-acquire-sky-tokens",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Ethereum DEX aggregator market grows more competitive as Kyber, CowSwap rise",
+    "description": "Kyber currently leads with ~30% market share, followed by CowSwap at 22%, while 1inch has seen its share decline to 15% over the same period.",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397278/ethereum-dex-aggregator-competitive-kyber-cowswap-gain",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Crypto's new $11 million PAC booked millions in ads with firm started by Tether US CEO",
     "description": "While Tether has been closely associated with the emerging political action committee, the opening funding came from Cantor Fitzgerald and Anchorage Digital.",
@@ -7956,6 +7996,25 @@
     "year": "2026"
   },
   {
+    "institution": "Connecting the Dots",
+    "initiative": "Yuno Is Bringing Autonomous AI Into Payment Operations",
+    "description": "Hey Payments Fanatic! Payment teams usually find problems after revenue is already gone. Yuno&apos;s most recent product announcement, Payments Concierge, points to a better model: AI that watches routing, approval rates, and provider failures in real time, then acts before the damage compounds. &#x201C;This is what agentic",
+    "date": "2026-04-08",
+    "source_url": "https://www.connectingthedotsinpayments.com/yuno-is-bringing-autonomous-ai-into-payment-operations/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Bitcoin Depot reveals $3.7 million stolen from company wallets in security breach",
     "description": "The crypto ATM operator has suffered a security breach that resulted in 50.9 BTC being drained from its company wallets.",
@@ -9559,67 +9618,6 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "XRP zooms 5% on bitcoin strength, but trend reversal still unconfirmed",
-    "description": "Breakout backed by institutional flows and whale buying, though broader downtrend and weak ETF demand cap conviction.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/markets/2026/04/08/xrp-zooms-5-on-bitcoin-strength-but-trend-reversal-still-unconfirmed",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin, ether, oil shorts lead $427 million wipeout on US-Iran ceasefire",
-    "description": "Short sellers betting on continued war escalation lost $427 million in 24 hours as bitcoin vaulted past $72,000 on the ceasefire announcement.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/markets/2026/04/08/bitcoin-ether-oil-shorts-lead-usd427-million-wipeout-on-us-iran-ceasefire",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Stablecoin liquidity: How Coins.ph is redefining corporate treasury for 24/7 markets",
-    "description": "Coins.ph is revolutionizing corporate treasury with stablecoin liquidity, enabling 24/7 access, instant settlements, and competitive pricing for businesses. The post Stablecoin liquidity: How Coins.ph is redefining corporate treasury for 24/7 markets appeared first on CoinGeek .",
-    "date": "2026-04-08",
-    "source_url": "https://coingeek.com/stablecoin-liquidity-how-coins-ph-is-redefining-corporate-treasury-for-24-7-markets/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DeFi",
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
