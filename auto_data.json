@@ -1,6 +1,44 @@
 [
   {
     "institution": "The Block",
+    "initiative": "CryptoQuant says bitcoin rally faces rising profit-taking risk as exchange inflows jump",
+    "description": "BTC's recent rally is facing rising profit-taking risk, with several indicators showing growing signs of selling pressure, according to CQ.",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397664/cryptoquant-bitcoin-rally-profit-taking-risk",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Former Lutnick-run Cantor Fitzgerald donates $10 million to crypto PAC led by Tether exec",
+    "description": "Cantor Fitzgerald donated $10 million to a super political action committee backing pro-crypto candidates as election season ramps up.",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397655/former-lutnick-run-cantor-fitzgerald-donates-10-million-to-crypto-pac-led-by-tether-exec",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
     "initiative": "Tether backs Stablecoin Development Corporation’s $134 million private placement used to acquire SKY tokens",
     "description": "The Stablecoin Development Corporation is a publicly-traded holding company with an approximately 2.15 billion SKY token treasury.",
     "date": "2026-04-15",
@@ -9578,45 +9616,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "U.S. bank with $1.9 trillion in assets could debut its bitcoin ETF Wednesday",
-    "description": "Morgan Stanley's bitcoin ETF could start trading on NYSE on Wednesday under the ticker MSBT.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/markets/2026/04/08/bitcoin-etf-by-a-major-u-s-bank-with-usd9-3-trillion-in-client-assets-could-debut-wednesday",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Attacking bitcoin mining with a quantum computer would require the energy of a star, academics say",
-    "description": "One paper finds that attacking the bitcoin blockchain through quantum mining would demand the energy output of a star. Another replicates every major \"quantum factoring breakthrough\" using a 1981 home computer and a dog.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/tech/2026/04/08/attacking-bitcoin-mining-with-a-quantum-computer-would-require-the-energy-of-a-star-academics-say",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
