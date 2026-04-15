@@ -1,6 +1,42 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Solana Policy Institute-backed PAC spends millions to jam Sherrod Brown's Senate run",
+    "description": "The Sentinel Action Fund is supporting Republican John Husted in that race, with funding from the Solana network's advocacy group and Multicoin Capital.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/policy/2026/04/15/solana-policy-institute-backed-pac-spends-millions-to-jam-sherrod-brown-s-senate-run",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin capped at $75,000 as Nasdaq and S&P 500 fly to new record highs",
+    "description": "The Nasdaq was higher for the 11th consecutive session as investors looked past the conflict in the Middle East.",
+    "date": "2026-04-15",
+    "source_url": "https://www.coindesk.com/markets/2026/04/15/bitcoin-capped-at-usd75-000-as-nasdaq-and-s-and-p-500-fly-to-new-record-highs",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Justin Sun blasts Trump-linked WLFI's 'absurd' governance vote, escalating feud",
     "description": "The Tron founder claimed that dissenters would face token lockups and exclusion from voting, while the project said the proposal aims to align all participants for the long-run.",
     "date": "2026-04-15",
@@ -9579,45 +9615,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Lorum files for US national bank charter",
-    "description": "Lorum, a correspondent institution serving financial institutions has applied for national bank charter in the US in a move that the firm claims would pave the way for it to \"return clearing and custody to a fiduciary model\".",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/newsarticle/47541/lorum-files-for-us-national-bank-charter",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Custody & Safekeeping"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Polymarket launching stablecoin, Circle slow to act in Drift exploit",
-    "description": "Polymarket eyes new USDC-backed stablecoin, while Circle faces criticism over exploit response and Russia pushes Africa toward sanctions evasion strategies. The post Polymarket launching stablecoin, Circle slow to act in Drift exploit appeared first on CoinGeek .",
-    "date": "2026-04-08",
-    "source_url": "https://coingeek.com/polymarket-launching-stablecoin-circle-slow-to-act-in-drift-exploit/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   }
