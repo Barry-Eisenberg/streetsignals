@@ -1,6 +1,154 @@
 [
   {
     "institution": "BIS",
+    "initiative": "Cyber risk stress testing for banks",
+    "description": "In the context of growing frequency and sophistication, and increasing potential impacts of cyber incidents, some authorities have disclosed that they are conducting cyber stress tests to enhance firm and sector resilience to operational disruptions, such as those caused by cyber attacks.",
+    "date": "2026-04-16",
+    "source_url": "https://www.bis.org/fsi/fsibriefs30.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "ABN Amro opens access to crypto investments",
+    "description": "ABN Amro is to give customers indirect exposure to cryptocurrencies through the introduction Crypto Exchange Traded Products (ETPs) and Capital Protected Notes (CPNs)",
+    "date": "2026-04-16",
+    "source_url": "https://www.finextra.com/newsarticle/47588/abn-amro-opens-access-to-crypto-investments",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "CaixaBank collaborates with Flanks to give wealth clients aggregated view of financial assets",
+    "description": "CaixaBank has launched GlobalView, its global financial positions aggregator, which enables the bank’s Wealth Management clients—the entity’s private banking division—to consolidate and analyse all their financial positions across multiple financial institutions under a single, unified framework.",
+    "date": "2026-04-16",
+    "source_url": "https://www.finextra.com/pressarticle/109495/caixabank-collaborates-with-flanks-to-give-wealth-clients-aggregated-view-of-financial-assets",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bitcoin miner HIVE lines up $75 million note offering to fund AI infrastructure expansion",
+    "description": "HIVE Digital plans a $75 million zero-coupon note offering to fund GPUs and data centers as it moves to the TSX.",
+    "date": "2026-04-16",
+    "source_url": "https://www.theblock.co/post/397698/bitcoin-miner-hive-75-million-note-offering-gpu-data-center-expansion",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "World Liberty Financial Proposes Burning 4.5 Billion Insider Tokens in 62-Billion Token Vesting Overhaul",
+    "description": "The Trump-linked DeFi project is asking founders and team members to permanently destroy 10% of their allocation, or remain locked indefinitely, as it tries to restore credibility after a bruising week. The post World Liberty Financial Proposes Burning 4.5 Billion Insider Tokens in 62-Billion Token Vesting Overhaul appeared first on Unchained .",
+    "date": "2026-04-16",
+    "source_url": "https://unchainedcrypto.com/world-liberty-financial-proposes-burning-4-5-billion-insider-tokens-in-62-billion-token-vesting-overhaul/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Bitcoin Developers Debate ‘Quantum Canary’ That Would Freeze Coins Only After an Attack Is Proven",
+    "description": "BitMEX Research proposes a bounty-driven tripwire as a gentler alternative to BIP-361's mandatory coin freeze, but it hinges on trusting an attacker to take a payout instead of a heist. The post Bitcoin Developers Debate &#8216;Quantum Canary&#8217; That Would Freeze Coins Only After an Attack Is Proven appeared first on Unchained .",
+    "date": "2026-04-16",
+    "source_url": "https://unchainedcrypto.com/bitcoin-developers-debate-quantum-canary-that-would-freeze-coins-only-after-an-attack-is-proven/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Justin Sun Says Tron Will Be First Major Blockchain to Deploy Post-Quantum Cryptography",
+    "description": "With Bitcoin still debating whether to freeze vulnerable coins, Sun is positioning Tron as the network willing to move first on quantum-resistant signatures, though no technical roadmap has been released yet. The post Justin Sun Says Tron Will Be First Major Blockchain to Deploy Post-Quantum Cryptography appeared first on Unchained .",
+    "date": "2026-04-16",
+    "source_url": "https://unchainedcrypto.com/justin-sun-says-tron-will-be-first-major-blockchain-to-deploy-post-quantum-cryptography/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Warren Accuses Musk of Dismantling Consumer Watchdog to Clear Path for X Money",
+    "description": "The Senate's top banking Democrat warned that Musk's \"track record operating X\" puts consumers, national security, and financial stability at risk, and pressed him to answer for gutting the agency that would have regulated X Money. The post Warren Accuses Musk of Dismantling Consumer Watchdog to Clear Path for X Money appeared first on Unchained .",
+    "date": "2026-04-16",
+    "source_url": "https://unchainedcrypto.com/warren-accuses-musk-of-dismantling-consumer-watchdog-to-clear-path-for-x-money/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
     "initiative": "Michael S Barr: Rural communities - worth the investment",
     "description": "Speech by Mr Michael S Barr, Member of the Board of Governors of the Federal Reserve System, at \"Strengthening America's economy through rural investment: a working forum\", Washington DC, 14 April 2026.",
     "date": "2026-04-16",
@@ -8777,6 +8925,30 @@
     "year": "2026"
   },
   {
+    "institution": "Chainalysis",
+    "initiative": "The $100 Trillion Wealth Shift: Stablecoin Utility and the Future of Payments",
+    "description": "This blog is a preview of our forthcoming report, &#8220;The New Rails: How Digital Assets Are Reshaping the Foundations of&#8230; The post The $100 Trillion Wealth Shift: Stablecoin Utility and the Future of Payments appeared first on Chainalysis .",
+    "date": "2026-04-08",
+    "source_url": "https://www.chainalysis.com/blog/stablecoin-utility-future-of-payments/",
+    "category": "ecosystem",
+    "source_name": "Chainalysis — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Connecting the Dots",
     "initiative": "Yuno Is Bringing Autonomous AI Into Payment Operations",
     "description": "Hey Payments Fanatic! Payment teams usually find problems after revenue is already gone. Yuno&apos;s most recent product announcement, Payments Concierge, points to a better model: AI that watches routing, approval rates, and provider failures in real time, then acts before the damage compounds. &#x201C;This is what agentic",
@@ -9452,177 +9624,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bitcoin payments allowed for Hormuz tanker tolls as Iran seeks up to $2 million per ship: FT",
-    "description": "Iran is reportedly open transit tolls paid in bitcoin and crypto for ships crossing the Strait of Hormuz amid volatile ceasefire.",
-    "date": "2026-04-08",
-    "source_url": "https://www.theblock.co/post/396711/bitcoin-payments-allowed-hormuz-tanker-tolls-iran-2-million-per-ship-report",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bernstein says quantum is a ‘manageable upgrade cycle’ for Bitcoin, not an existential threat",
-    "description": "Commercial players, including Strategy, BlackRock, and Fidelity, are expected to play a \"constructive role\" in security, the analysts said.",
-    "date": "2026-04-08",
-    "source_url": "https://www.theblock.co/post/396709/bernstein-says-quantum-is-a-manageable-upgrade-cycle-for-bitcoin-not-an-existential-threat",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Morgan Stanley's bitcoin ETF opens today, giving BlackRock’s $55 billion IBIT fund its toughest rival yet",
-    "description": "While BlackRock’s spot bitcoin ETF currently reigns as the liquidity king of crypto, Morgan Stanley’s MSBT will leverage a market-low 0.14% fee and $7 trillion wealth management engine to possibly challenge that dominance.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/markets/2026/04/07/blackrock-s-usd55-billion-ibit-fund-faces-its-toughest-rival-yet-in-morgan-stanley-s-massive-advisor-network",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Iran eyes crypto toll for oil tanker transits through Strait of Hormuz, according to FT",
-    "description": "Iran plans to collect cryptocurrency and other digital payments as transit fees from fully loaded oil tankers passing through the Strait of Hormuz, said the report.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/markets/2026/04/08/iran-eyes-crypto-toll-for-oil-tanker-transit-through-strait-of-hormuz",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "CoinDesk 20 performance update: Internet Computer (ICP) rises 12.1%",
-    "description": "NEAR Protocol (NEAR) joined Internet Computer (ICP) as a top performer, climbing 8.9% from Tuesday.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/08/coindesk-20-performance-update-internet-computer-icp-rises-12-1",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin’s quantum threat is distant, but migration clock is ticking, says Adam Back",
-    "description": "Researchers are advancing post-quantum protections even as current hardware remains far from breaking crypto systems",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/tech/2026/04/08/bitcoin-s-quantum-threat-is-distant-but-migration-clock-is-ticking-says-adam-back-says",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Citing AI, Bolt lays off third of staff",
-    "description": "Bolt, the online checkout company that was once valued at $11 billion, has slashed its workforce by a third amid a greater reliance on AI and reports of financial struggles.",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/newsarticle/47547/citing-ai-bolt-lays-off-third-of-staff",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "MillTech secures $60 million for expansion into the US market",
-    "description": "MillTech, a UK-based risk management platform which provides FX hedging and cash investments for fund managers and corporates, has secured a $60 million minority investment from the Apax Digital Funds.",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/newsarticle/47543/milltech-secures-60-million-for-expansion-into-the-us-market",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "TNS Financial Markets and Radianz combine to form Waypoint Trading Solutions",
-    "description": "Today marks the official launch of Waypoint Trading Solutions, the new business formed from the combination of TNS’ Financial Markets business and Radianz.",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/pressarticle/109393/tns-financial-markets-and-radianz-combine-to-form-waypoint-trading-solutions",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
