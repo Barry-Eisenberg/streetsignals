@@ -1,5 +1,46 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "Piero Cipollone: The digital euro in a fragmenting world - ensuring Europe's resilience and autonomy in payments",
+    "description": "Public lecture by Mr Piero Cipollone, Member of the Executive Board of the European Central Bank, at an event hosted by the Stockholm School of Economics in Riga and Latvijas Banka, Riga, 1 April 2026.",
+    "date": "2026-04-16",
+    "source_url": "https://www.bis.org/review/r260410g.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "CBDC",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin's quantum debate splits as Adam Back pushes optional upgrades over forced freeze",
+    "description": "The Blockstream CEO told Paris Blockchain Week that Bitcoin should build quantum-resistant upgrades now, a day after Jameson Lopp proposed freezing vulnerable coins instead.",
+    "date": "2026-04-16",
+    "source_url": "https://www.coindesk.com/tech/2026/04/16/bitcoin-s-quantum-debate-splits-as-adam-back-pushes-optional-upgrades-over-forced-freeze",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Bitcoin rally is taking a breather near $75,000. Onchain data shows why",
     "description": "BTC is up 10% for the month, but the bull run has stalled near $75,000 in the past 48 hours. Here's why.",
@@ -9571,49 +9612,6 @@
     "fmi_areas": [],
     "initiative_types": [
       "Leadership & Governance"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Swiss banks to test CHF stablecoin",
-    "description": "Six Swiss banks are banding together to test a regulated Swiss franc stablecoin.",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/newsarticle/47544/swiss-banks-to-test-chf-stablecoin",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "South Korea to bring RWAs and stablecoins under existing financial frameworks: report",
-    "description": "South Korea’s ruling party has also reportedly proposed banning yield on stablecoins, amid ongoing debate in the U.S.",
-    "date": "2026-04-08",
-    "source_url": "https://www.theblock.co/post/396658/south-korea-rwa-stablecoin",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   }
