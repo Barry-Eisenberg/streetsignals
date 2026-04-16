@@ -1,5 +1,63 @@
 [
   {
+    "institution": "ESMA",
+    "initiative": "ESMA launches a call for evidence on restricted subscription and private credit ratings",
+    "description": "ESMA launches a call for evidence on restricted subscription and private credit ratings 16 April 2026 Credit Rating Agencies The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, today launched a call for evidence to gather stakeholder views on the purposes, market practices, needs and risks associated with restricted subscription and private credit ratings. ESMA is encouraging all interested stakeholders to share views, data and analysis including:&nbsp; The characteristics and use cases of restricted subscription and private credit ratings, including their benefits compared with publicly disclosed ratings. The characteristics of the parties who are contracting for restricted subscription and private credit ratings and those to whom they are disclosed or distributed. Evidence on whether, and to what extent, the analytical processes, governance arrangements, and internal controls applied to restricted subscription and private credit ratings are comparable to those applied to public credit ratings. Stakeholders are invited to provide evidence‑based responses, including quantitative information where available, as well as concrete examples drawn from market practice. ESMA will consider all responses received by 31 May 2026 . Background The use of restricted subscription and private credit ratings has been increasing in recent years. This development raises questions about the purposes and market needs these products are intended to serve; how they are produced, distributed and used in practice; and the potential benefits and risks associated with selective access to rating information. Calls for evidence form part of ESMA’s commitment to evidence‑based policymaking and stakeholder engagement, enabling ESMA to better understand market developments and practices. Next steps ESMA will review the responses received in the second quarter of 2026 with a view to assessing whether specific regulatory adjustments or clarifications may be needed to enhance clarity on the application of the CRA Regulation.&nbsp; &nbsp; Further information: Tayfun Yilmaz Communications Officer press@esma.europa.eu 16/04/2026 ESMA00-666616337-488 Call for Evidence on the restricted subscription and private credit ratings Call for Evidence on the restricted subscription and private credit ratings",
+    "date": "2026-04-16",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-launches-call-evidence-restricted-subscription-and-private-credit-ratings",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Testlio takes on AI chatbot risk",
+    "description": "Testlio, a leading AI-powered crowdsourced testing platform, today launched its AI Chatbot Testing solution, a human-led assessment service built around a four-domain risk framework designed to surface the failures that erode customer trust.",
+    "date": "2026-04-16",
+    "source_url": "https://www.finextra.com/pressarticle/109480/testlio-takes-on-ai-chatbot-risk",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "UK FCA seeks fresh feedback on crypto rules ahead of October 2027 rollout",
+    "description": "Ahead of a planned implementation in 2027, the FCA is seeking feedback on stablecoins, trading platforms, custody, and staking.",
+    "date": "2026-04-16",
+    "source_url": "https://www.theblock.co/post/397711/uk-fca-seeks-fresh-feedback-on-crypto-rules",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Keep an eye on XRP, Plasma, DOGE as bitcoin drifts",
     "description": "What you need to know for April 16, 2026",
@@ -9573,65 +9631,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "FDIC approves US Stablecoins Act",
-    "description": "The Federal Deposit Insurance Corporation (FDIC) Board of Directors today approved a notice of proposed rulemaking that would implement certain requirements and standards under the Guiding and Establishing National Innovation for U.S. Stablecoins Act (GENIUS Act).",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/pressarticle/109400/fdic-approves-us-stablecoins-act",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Canton Network powers real-time collateral movement with Transcend",
-    "description": "Transcend, a leader in collateral and liquidity optimization technology, announced it has connected to the Canton Network to enable real-time mobility of tokenized assets.",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/pressarticle/109399/canton-network-powers-real-time-collateral-movement-with-transcend",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Collateral & Lending",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Profile Software swallows up Contemi",
-    "description": "Following the completion of the acquisition of 100% of the shares of Contemi Solutions (London) UK Ltd on 2 February 2026, Profile (ATHEX: PROF), an international technology group, announces the integration of Contemi’s clients, products, technology and teams into Profile’s investment management business, further strengthening its presence in the United Kingdom – a strategic market for the Group.",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/pressarticle/109398/profile-software-swallows-up-contemi",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
