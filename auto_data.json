@@ -1,5 +1,43 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin devs bet a quantum attacker will play nice with a ‘wait and react’ plan",
+    "description": "BitMEX Research proposes a canary system that pays a bounty to the first quantum attacker and activates a network-wide freeze, offering an alternative to a fixed five-year timeline.",
+    "date": "2026-04-16",
+    "source_url": "https://www.coindesk.com/tech/2026/04/16/bitcoin-devs-float-quantum-tripwire-that-triggers-coin-freeze-only-if-attack-is-proven",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Connecting the Dots",
+    "initiative": "Paddle Powers Lovable’s Payments",
+    "description": "Hey Payments Fanatic! Lovable just launched Lovable Payments, powered by Paddle, a game-changing feature that lets vibe coders monetize AI-built apps instantly through natural language prompts. Paddle is embedded directly into the Lovable experience, with the agent helping handle account creation, product setup, checkout configuration, and billing logic as part",
+    "date": "2026-04-16",
+    "source_url": "https://www.connectingthedotsinpayments.com/paddle-powers-lovables-payments/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Italy's UniCredit invests €4 million in BlockInvest",
     "description": "Italy's UniCredit has invested €4 million to acquire a 16% stake in BlockInvest, furthering its ambitions to export tokenized financial assets across the bank's main markets",
@@ -76,6 +114,23 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "‘Absurd governance scam’: World Liberty Financial’s new proposal prompts harsh criticism from Justin Sun and other holders",
+    "description": "Tron Founder Justin Sun issued harsh criticism of the new proposal, calling it one of the 'most absurd governance scams.'",
+    "date": "2026-04-15",
+    "source_url": "https://www.theblock.co/post/397675/world-liberty-financial-new-proposal-criticism-justin-sun",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -9556,68 +9611,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "StraitsX and KBank enable real-time payments between Singapore and Thailand",
-    "description": "Cross-border travel in Southeast Asia continues to grow, but payments often remain fragmented, with travellers still needing to exchange cash, manage multiple payment apps, or face high FX and settlement costs.",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/pressarticle/109389/straitsx-and-kbank-enable-real-time-payments-between-singapore-and-thailand",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "And Digital names Chris Hardy as US strategy and ops chief",
-    "description": "AND Digital has continued its expansion in the US market, appointing Chris Hardy as Chief for Strategy & Operations to strengthen the company’s senior leadership and lead growth in the fintech and payments space.",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/pressarticle/109388/and-digital-names-chris-hardy-as-us-strategy-and-ops-chief",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Balboa Corp launches in Panama to bring stablecoins to shipping and trade finance",
-    "description": "BALBOA | CORP , Panama’s first local stablecoin issuer and infrastructure company focused on shipping, trade settlement and escrow, today announced its launch from stealth, unveiling infrastructure designed to reduce payment friction in shipping, trade-finance and international commerce.",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/pressarticle/109387/balboa-corp-launches-in-panama-to-bring-stablecoins-to-shipping-and-trade-finance",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
