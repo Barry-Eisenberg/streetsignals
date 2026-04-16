@@ -7980,6 +7980,25 @@
     "year": "2026"
   },
   {
+    "institution": "Connecting the Dots",
+    "initiative": "Mastercard Pushes Agentic Commerce Into Reality",
+    "description": "Hey Payments Fanatic! Agentic commerce is moving from theory to action, and Mastercard is at the center of it. The global card network announced the completion of a pilot that delivered its first authenticated agentic transaction in Thailand with Krungthai Card Public Company Limited (KTC).&#xA0; The pilot leveraged Mastercard",
+    "date": "2026-04-09",
+    "source_url": "https://www.connectingthedotsinpayments.com/mastercard-pushes-agentic-commerce-into-reality/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "‘It is decentralization theatre’: Covenant AI exits Bittensor, TAO drops 15%",
     "description": "Covenant AI claimed Bittensor's decentralization promise is false, citing 'punitive actions' from the network's co-founder, Jacob Steeves.",
@@ -9590,25 +9609,6 @@
       "Collateral & Lending"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin under $71,000, ETH, SOL, XRP drop as Iran ceasefire frays within 48 hours of being signed",
-    "description": "Tehran says three clauses of the ceasefire have been breached, oil is rebounding toward $97, and the Strait of Hormuz remains effectively closed despite the deal.",
-    "date": "2026-04-09",
-    "source_url": "https://www.coindesk.com/markets/2026/04/09/bitcoin-under-usd71-000-eth-sol-xrp-drop-as-iran-ceasefire-frays-within-48-hours-of-being-signed",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
