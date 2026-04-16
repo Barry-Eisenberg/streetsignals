@@ -1,6 +1,187 @@
 [
   {
     "institution": "BIS",
+    "initiative": "Michael S Barr: Rural communities - worth the investment",
+    "description": "Speech by Mr Michael S Barr, Member of the Board of Governors of the Federal Reserve System, at \"Strengthening America's economy through rural investment: a working forum\", Washington DC, 14 April 2026.",
+    "date": "2026-04-16",
+    "source_url": "https://www.bis.org/review/r260416h.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Bas ter Weel: Resilient payments - cash, card, connected",
+    "description": "Opening address by Mr Bas ter Weel, Executive Board Member of Monetary Affairs of De Nederlandsche Bank, at the DNB's Retail Payments Research Conference 2026 \"Future-proof payments: innovative, resilient and inclusive\", Amsterdam, 9 April 2026.",
+    "date": "2026-04-16",
+    "source_url": "https://www.bis.org/review/r260416g.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Richard Byles: Redefining economic leadership - building resilient financial ecosystems in emerging markets",
+    "description": "Speech by Mr Richard Byles, Governor of the Bank of Jamaica, at the Caribbean CFO Summit 2026 \"Redefining economic leadership - building resilient financial ecosystems in emerging markets\", Kingston, 24 March 2026.",
+    "date": "2026-04-16",
+    "source_url": "https://www.bis.org/review/r260416c.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "South Korea to test blockchain deposit tokens for government spending in Q4",
+    "description": "Token-based payments can be programmed with spending limits and which industries can use them, reducing audits and lowering transaction fees by removing intermediaries.",
+    "date": "2026-04-16",
+    "source_url": "https://www.coindesk.com/policy/2026/04/16/south-korea-to-test-blockchain-deposit-tokens-for-government-spending-in-q4",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Tokenization & Issuance",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "DeFi",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "The cheapest bitcoin ETF yet: Morgan Stanley uses 0.14% fee to draw $100 million in first week",
+    "description": "Morgan Stanley’s new MSBT fund has quickly attracted over $100 million by offering the market's lowest fees, sparking a fresh wave of competition from rivals like Goldman Sachs.",
+    "date": "2026-04-16",
+    "source_url": "https://www.coindesk.com/markets/2026/04/16/morgan-stanley-s-bitcoin-etf-reaches-usd100m-in-first-week-marking-the-bank-s-strongest-launch",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Crypto fund manager probed in the suspicious death of his fiancé’s death in Zanzibar",
+    "description": "The couple argued according to hotel staff and were separated. Despite confirming Ashly Robinson died by suicide, police said they are still investigating her death.",
+    "date": "2026-04-16",
+    "source_url": "https://www.coindesk.com/business/2026/04/16/crypto-fund-manager-probed-in-the-suspicious-death-of-his-fiance-s-death-in-zanzibar",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Circle CEO says China could launch yuan stablecoin within 3 to 5 years as currency race heats up",
+    "description": "The pitch is global scale for the yuan, but capital controls, offshore limits and convertibility gaps still stand in the way",
+    "date": "2026-04-16",
+    "source_url": "https://www.coindesk.com/policy/2026/04/16/circle-ceo-says-china-could-launch-yuan-stablecoin-within-3-to-5-years-as-currency-race-heats-up",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Buying coffee with bitcoin is easy, the resulting tax burden is not",
+    "description": "A libertarian think tank argues that treating bitcoin as a capital asset for tax purposes makes everyday payments impractical due to the complex reporting requirements.",
+    "date": "2026-04-16",
+    "source_url": "https://www.coindesk.com/policy/2026/04/16/buying-coffee-with-bitcoin-is-easy-the-resulting-tax-burden-is-not",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "The CLARITY Act breakthrough: Why JPMorgan says the U.S. crypto rulebook is ‘close to completion’",
+    "description": "Analysts at the bank say negotiations for the CLARITY Act are reaching a final breakthrough as lawmakers resolve long-standing disputes over stablecoin rewards and agency oversight.",
+    "date": "2026-04-16",
+    "source_url": "https://www.coindesk.com/policy/2026/04/15/jpmorgan-says-clarity-close-to-deal-as-stablecoin-fight-enters-final-stage",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
     "initiative": "Dimitar Radev: Economic prospects in an uncertain global environment",
     "description": "Address by Mr Dimitar Radev, Governor of the Bulgarian National Bank, at AmCham Business Breakfast Bulgaria 2026, Sofia, 3 April 2026.",
     "date": "2026-04-16",
@@ -9442,185 +9623,6 @@
       "Trading & Exchange"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Helaba goes live with Murex for collateral management",
-    "description": "Helaba has gone live on the MX.3 for Collateral Management solution from Murex.",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/pressarticle/109392/helaba-goes-live-with-murex-for-collateral-management",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Workplace pensions startup Compound raises £500K",
-    "description": "Compound, a next-generation workplace pension provider for growing businesses, has raised £500,000 to take on legacy giants like NEST and transform a market where 96% of employers report problems with their provider.",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/pressarticle/109391/workplace-pensions-startup-compound-raises-500k",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Morgan Stanley’s low-cost spot Bitcoin ETF launches to meet ‘growing client interest’ in crypto",
-    "description": "The bank boasts \"the largest network of financial advisors [with] 16,000 advisors managing $6.2 trillion\" according to an analyst.",
-    "date": "2026-04-08",
-    "source_url": "https://www.theblock.co/post/396699/morgan-stanleys-low-cost-spot-bitcoin-etf-launches-to-meet-growing-client-interest-in-crypto",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Standard Chartered weighs integrating Zodia Custody with corporate bank arm: Bloomberg",
-    "description": "Standard Chartered reportedly plans to integrate Zodia Custody's crypto custody business into its corporate bank division",
-    "date": "2026-04-08",
-    "source_url": "https://www.theblock.co/post/396692/standard-chartered-weighs-integrating-zodia-custody-corporate-bank-arm-bloomberg",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Collateral & Lending",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Securitize tapped to tokenize Currenc’s ordinary shares",
-    "description": "Leading tokenization firm Securitize was recently named as the first digital transfer agent in the NYSE’s onchain securities initiative.",
-    "date": "2026-04-08",
-    "source_url": "https://www.theblock.co/post/396683/securitize-tapped-to-tokenize-currencs-ordinary-shares",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "White House study finds limited risk to banks from stablecoin yields amid regulatory debate",
-    "description": "White House economists say stablecoin rewards are unlikely to materially weaken bank lending, countering warnings of trillion-dollar outflows.",
-    "date": "2026-04-08",
-    "source_url": "https://www.theblock.co/post/396680/white-house-study-finds-limited-risk-to-banks-from-stablecoin-yields-amid-regulatory-debate",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Move over bitcoin and quantum risks. Anthropic's Mythos AI could have major implications for DeFi",
-    "description": "Claude Mythos Preview identified thousands of zero-day vulnerabilities across every major operating system and browser, including in cryptography libraries that DeFi infrastructure depends on.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/markets/2026/04/08/move-over-bitcoin-and-quantum-risks-anthropic-s-mythos-ai-changes-everything-for-defi",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "The $100 Trillion Wealth Shift: Stablecoin Utility and the Future of Payments",
-    "description": "This blog is a preview of our forthcoming report, &#8220;The New Rails: How Digital Assets Are Reshaping the Foundations of&#8230; The post The $100 Trillion Wealth Shift: Stablecoin Utility and the Future of Payments appeared first on Chainalysis .",
-    "date": "2026-04-08",
-    "source_url": "https://www.chainalysis.com/blog/stablecoin-utility-future-of-payments/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin buyers gobbled up nearly 850,000 BTC between $60,000 and $70,000",
-    "description": "A ton of BTC was recently traded below $70,000 in a sign of strong dip demand.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/markets/2026/04/08/bitcoin-buyers-gobbled-up-nearly-850-000-btc-between-usd60-000-and-usd70-000",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
