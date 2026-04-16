@@ -1,5 +1,176 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "CoinDesk 20 performance update: Ethereum (ETH) price drops 1.3% as index trades lower",
+    "description": "Aave (AAVE), down 1.1% from Wednesday, was also an underperformer.",
+    "date": "2026-04-16",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/16/coindesk-20-performance-update-ethereum-eth-price-drops-1-3-as-index-trades-lower",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Wall Street trading-tech is coming to crypto as DoubleZero rolls out high-speed data for Solana",
+    "description": "The project, called DoubleZero Edge, offers a real-time feed of raw data from the Solana blockchain, giving traders faster access to information that can influence prices.",
+    "date": "2026-04-16",
+    "source_url": "https://www.coindesk.com/tech/2026/04/16/wall-street-trading-tech-is-coming-to-crypto-as-doublezero-rolls-out-high-speed-data-for-solana",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Drift gets $148 million funding from Tether and partners as it replaces Circle stablecoin with USDT after massive exploit",
+    "description": "The money will be used by Drift to recover user funds after more than $270 million in clients assets were exploited this month, and will relaunch the protocol as a USDT-based perpetuals DEX on Solana.",
+    "date": "2026-04-16",
+    "source_url": "https://www.coindesk.com/business/2026/04/16/drift-gets-usd148-million-funding-from-tether-and-partners-as-it-replaces-circle-stablecoin-with-usdt-after-massive-exploit",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "BackBase taps Ninth Wave to provide a bridge between banks and client ERP systems",
+    "description": "Backbase, the leader in AI-native banking technology, and Ninth Wave, a leading provider of secure Open Finance connectivity, announced a strategic partnership today that will enable banks to offer a seamless connection between their business clients’ ERP and accounting systems and their banking data.",
+    "date": "2026-04-16",
+    "source_url": "https://www.finextra.com/pressarticle/109501/backbase-taps-ninth-wave-to-provide-a-bridge-between-banks-and-client-erp-systems",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Regulation & Compliance",
+      "Interoperability & Standards",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "MUFG expands relationship with Finastra to power US ACH payments",
+    "description": "Finastra, a global leader in financial services software, today announced that MUFG (Mitsubishi UFJ Financial Group), Japan’s largest bank, has selected Global PAYplus to support ACH services in the United States.",
+    "date": "2026-04-16",
+    "source_url": "https://www.finextra.com/pressarticle/109500/mufg-expands-relationship-with-finastra-to-power-us-ach-payments",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bitcoin ETFs add $186M as Morgan Stanley’s MSBT inflows top $100M in first six trading days",
+    "description": "U.S. spot bitcoin ETFs added $186 million in their second straight day of positive flows, as Morgan Stanley's MSBT topped WisdomTree's fund.",
+    "date": "2026-04-16",
+    "source_url": "https://www.theblock.co/post/397730/bitcoin-etfs-add-186m-as-morgan-stanleys-msbt-inflows-top-100m-in-first-six-trading-days",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Drift secures up to $127 million from Tether for user recovery, pivots from Circle’s USDC to USDT after $280 million exploit",
+    "description": "Drift Protocol said it has secured up to $127.5 million from Tether to support user recovery after the April 1 exploit.",
+    "date": "2026-04-16",
+    "source_url": "https://www.theblock.co/post/397735/drift-127-million-tether-recovery-pivots-circle-usdc-usdt-280-million-exploit",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "DoubleZero rolls out Edge, a low-latency onchain data delivery service on its global fiber DePIN infrastructure",
+    "description": "Edge is a permissionless platform delivering ultra-fast onchain market data over DoubleZero's global fiber network.",
+    "date": "2026-04-16",
+    "source_url": "https://www.theblock.co/post/397715/doublezero-rolls-out-edge-a-low-latency-onchain-data-delivery-service-on-its-global-fiber-depin-infrastructure",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Crypto fund manager questioned in Zanzibar police probe into fiancee’s death: reports",
+    "description": "Zanzibar police are investigating the death of influencer Ashly Robinson, with crypto fund manager Joe McCann reportedly being questioned.",
+    "date": "2026-04-16",
+    "source_url": "https://www.theblock.co/post/397721/crypto-fund-manager-questioned-in-zanzibar-police-probe-into-fiancees-death-reports",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA",
     "initiative": "ESMA launches a call for evidence on restricted subscription and private credit ratings",
     "description": "ESMA launches a call for evidence on restricted subscription and private credit ratings 16 April 2026 Credit Rating Agencies The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, today launched a call for evidence to gather stakeholder views on the purposes, market practices, needs and risks associated with restricted subscription and private credit ratings. ESMA is encouraging all interested stakeholders to share views, data and analysis including:&nbsp; The characteristics and use cases of restricted subscription and private credit ratings, including their benefits compared with publicly disclosed ratings. The characteristics of the parties who are contracting for restricted subscription and private credit ratings and those to whom they are disclosed or distributed. Evidence on whether, and to what extent, the analytical processes, governance arrangements, and internal controls applied to restricted subscription and private credit ratings are comparable to those applied to public credit ratings. Stakeholders are invited to provide evidence‑based responses, including quantitative information where available, as well as concrete examples drawn from market practice. ESMA will consider all responses received by 31 May 2026 . Background The use of restricted subscription and private credit ratings has been increasing in recent years. This development raises questions about the purposes and market needs these products are intended to serve; how they are produced, distributed and used in practice; and the potential benefits and risks associated with selective access to rating information. Calls for evidence form part of ESMA’s commitment to evidence‑based policymaking and stakeholder engagement, enabling ESMA to better understand market developments and practices. Next steps ESMA will review the responses received in the second quarter of 2026 with a view to assessing whether specific regulatory adjustments or clarifications may be needed to enhance clarity on the application of the CRA Regulation.&nbsp; &nbsp; Further information: Tayfun Yilmaz Communications Officer press@esma.europa.eu 16/04/2026 ESMA00-666616337-488 Call for Evidence on the restricted subscription and private credit ratings Call for Evidence on the restricted subscription and private credit ratings",
@@ -9454,181 +9625,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "The Protocol: Bernstein says quantum threat to Bitcoin is real but manageable",
-    "description": "Also: North Korea’s 6-month plot with Drift, Solana Foundation’s new ad and Alchemy AI.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/tech/2026/04/08/the-protocol-bernstein-says-quantum-threat-to-bitcoin-is-real-but-manageable",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto Long & Short: Asia’s digital asset crackdown: accountability gets personal",
-    "description": "In this week’s Crypto Long & Short Newsletter, Bob Williams covers how stricter crypto regulations in Asia are putting more personal responsibility on senior leaders, making strong governance and D&O insurance essential. Then, the FBI’s Haidy Grigsby writes on how crypto scams are increasingly targeting experienced investors by building trust and tricking them into making larger deposits until their money is gone.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/08/crypto-long-and-short-asia-s-digital-asset-crackdown-accountability-gets-personal",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "U.S. Treasury proposes demands that stablecoin firms be set to police bad transactions",
-    "description": "The U.S. is pitching new rules for stablecoin issuers to treat them like every other financial firm that must maintain armor against illicit uses.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/policy/2026/04/08/u-s-treasury-to-propose-demands-that-stablecoin-firms-be-set-to-police-bad-transactions",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Nevermind integrates with Visa Intelligent Commerce",
-    "description": "Nevermined today announced its integration with Visa Intelligent Commerce, enabling AI agents to buy digital goods and services autonomously (with cardholder defined guardrails) on behalf of users and businesses.",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/pressarticle/109401/nevermind-integrates-with-visa-intelligent-commerce",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Circle rolls out USDC payments platform that lets users pay without holding stablecoins",
-    "description": "The platform allows PSPs, fintechs, and banks benefit from the efficiency of using stablecoins without having to hold USDC.",
-    "date": "2026-04-08",
-    "source_url": "https://www.theblock.co/post/396727/circle-rolls-out-usdc-payments-platform-that-lets-users-pay-without-holding-stablecoins",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Ethereum Foundation swaps 5,000 ETH into stablecoins for operational and grant funding",
-    "description": "So far, the CoWSwap TWAP transactions have been drawn from a wallet associated with the Ethereum Foundation's DeFi activities.",
-    "date": "2026-04-08",
-    "source_url": "https://www.theblock.co/post/396728/ethereum-foundation-swaps-5000-eth-stablecoins-operational-grant-funding",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board invites public comment on proposal that would allow U.S. banks and credit unions to use intermediaries to transfer funds through the FedNow Service",
-    "description": "Federal Reserve Board invites public comment on proposal that would allow U.S. banks and credit unions to use intermediaries to transfer funds through the FedNow Service",
-    "date": "2026-04-08",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260408a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin is above $70,000 on Iran ceasefire, but rally is turning cautious for good reasons",
-    "description": "Leveraged bullish bitcoin positions remain near multi-year highs as bitcoin rebounds, hinting at underlying market uncertainty.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/markets/2026/04/08/bitcoin-is-above-usd70-000-on-iran-ceasefire-but-rally-is-turning-cautious-for-good-reasons",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Standard Chartered is looking to take over crypto custody provider Zodia: Bloomberg",
-    "description": "While the British financial institution refused to comment on potential takeover plans, sources close to the matter revealed that plans are in place and could be announced as soon as this month.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/business/2026/04/08/standard-chartered-is-looking-to-take-over-crypto-custody-provider-zodia-bloomberg",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
