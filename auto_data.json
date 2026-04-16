@@ -1,5 +1,65 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Cardano's Charles Hoskinson says Bitcoin's quantum fix is a hard fork that can't save Satoshi's coins",
+    "description": "The Cardano founder argues BIP-361 is mislabeled as a soft fork and that its zero-knowledge recovery plan cannot rescue roughly 1.7 million pre-2013 bitcoin, including Satoshi's holdings.",
+    "date": "2026-04-16",
+    "source_url": "https://www.coindesk.com/tech/2026/04/16/cardano-s-hoskinson-says-bitcoin-s-quantum-fix-is-a-hard-fork-that-can-t-save-satoshi-s-coins",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Elon Musk’s X Money stands to disrupt payments and pressure PayPal, but crypto plans may hit regulatory hurdles: Mizuho",
+    "description": "X launched a new feature this week where users can view financial data on stocks and cryptocurrencies directly.",
+    "date": "2026-04-16",
+    "source_url": "https://www.theblock.co/post/397771/elon-musk-x-money-disrupt-payments-pressure-paypal-crypto-regulatory-hurdles-mizuho",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Ethereum Foundation exec Josh Stark is stepping down",
+    "description": "The move comes amid ongoing changes at the EF, including a renewed focus on scaling and developing the Ethereum mainnet.",
+    "date": "2026-04-16",
+    "source_url": "https://www.theblock.co/post/397777/ethereum-foundation-exec-josh-stark-is-stepping-down",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Federal Reserve Board issues enforcement action with Community Bankshares, Inc.",
     "description": "Federal Reserve Board issues enforcement action with Community Bankshares, Inc.",
@@ -9558,63 +9618,6 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets",
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Yuno Is Bringing Autonomous AI Into Payment Operations",
-    "description": "Hey Payments Fanatic! Payment teams usually find problems after revenue is already gone. Yuno&apos;s most recent product announcement, Payments Concierge, points to a better model: AI that watches routing, approval rates, and provider failures in real time, then acts before the damage compounds. &#x201C;This is what agentic",
-    "date": "2026-04-08",
-    "source_url": "https://www.connectingthedotsinpayments.com/yuno-is-bringing-autonomous-ai-into-payment-operations/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bitcoin Depot reveals $3.7 million stolen from company wallets in security breach",
-    "description": "The crypto ATM operator has suffered a security breach that resulted in 50.9 BTC being drained from its company wallets.",
-    "date": "2026-04-08",
-    "source_url": "https://www.theblock.co/post/396804/bitcoin-depot-3-7-million-stolen",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Morgan Stanley’s MSBT bitcoin ETF logs $34 million in first-day volume",
-    "description": "Morgan Stanley Bitcoin Trust's first-day volume exceeded the $30 million estimate from Bloomberg Senior Analyst Eric Balchunas.",
-    "date": "2026-04-08",
-    "source_url": "https://www.theblock.co/post/396785/morgan-stanley-msbt-bitcoin-etf-volume",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
