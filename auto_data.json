@@ -1,5 +1,68 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin is testing a level that capped its rally in January, CryptoQuant says",
+    "description": "Macro-driven ETF inflows have lifted prices, but CryptoQuant data signals large holders are positioning to sell near a key breakeven zone",
+    "date": "2026-04-16",
+    "source_url": "https://www.coindesk.com/markets/2026/04/16/bitcoin-is-testing-a-level-that-capped-its-rally-in-january",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "STAS 3.0: The first true layer 1 DEX on Bitcoin",
+    "description": "Learn about STAS 3.0, a revolutionary DEX protocol on BSV that eliminates counterparty risks with on-chain token swaps and enhanced security features. The post STAS 3.0: The first true layer 1 DEX on Bitcoin appeared first on CoinGeek .",
+    "date": "2026-04-16",
+    "source_url": "https://coingeek.com/stas-3-0-the-first-true-layer-1-dex-on-bitcoin/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "South Korea to pilot blockchain-based deposit tokens for government spending",
+    "description": "South Korea's Ministry of Finance and Economy is launching a new pilot to substitute government expense credit cards with deposit tokens.",
+    "date": "2026-04-16",
+    "source_url": "https://www.theblock.co/post/397688/south-korea-deposit-token-pilot",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Piero Cipollone: The digital euro in a fragmenting world - ensuring Europe's resilience and autonomy in payments",
     "description": "Public lecture by Mr Piero Cipollone, Member of the Executive Board of the European Central Bank, at an event hosted by the Stockholm School of Economics in Riga and Latvijas Banka, Riga, 1 April 2026.",
@@ -5526,6 +5589,23 @@
   },
   {
     "institution": "Finextra",
+    "initiative": "Europe’s opportunity to become an AI-leader in practical terms",
+    "description": "EU is aiming high: &quot;The European Union is actively pursuing a strategy to become a global leade...",
+    "date": "2026-04-10",
+    "source_url": "https://www.finextra.com/blogposting/31375/europes-opportunity-to-become-an-ai-leader-in-practical-terms",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
     "initiative": "Customer due diligence requirements in 2026: three regulators have rewritten the rulebook, and most",
     "description": "The opening: why 2026 is the year customer due diligence requirements stopped being paperwork If you...",
     "date": "2026-04-10",
@@ -9537,81 +9617,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "World Liberty Financial Partnered With Firm Linked to Sanctioned Cambodian Crime Network",
-    "description": "World Liberty Financial (WLFI), the cryptocurrency venture co-founded by the Trump family, partnered with a Southeast Asian blockchain project that had ties to a U.S.-sanctioned transnational crime network, according to an investigation by The Times. The revelation adds to mounting questions about the venture’s due diligence and governance. The partner, ... The post World Liberty Financial Partnered With Firm Linked to Sanctioned Cambodian Crime Network appeared first on Unchained .",
-    "date": "2026-04-08",
-    "source_url": "https://unchainedcrypto.com/world-liberty-financial-partnered-with-firm-linked-to-sanctioned-cambodian-crime-network/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "CZ’s Memoir Reveals SBF’s Casual Plea for Billions and Early Ties to Gensler",
-    "description": "Changpeng Zhao, the founder of Binance and one of the wealthiest figures in crypto, published his 457-page memoir Freedom of Money on Wednesday, offering the most detailed first-person account yet of the events surrounding the collapse of FTX and his own fall from the helm of the world’s largest exchange. ... The post CZ’s Memoir Reveals SBF’s Casual Plea for Billions and Early Ties to Gensler appeared first on Unchained .",
-    "date": "2026-04-08",
-    "source_url": "https://unchainedcrypto.com/czs-memoir-reveals-sbfs-casual-plea-for-billions-and-early-ties-to-gensler/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto markets rally as Trump announces two-week Iran ceasefire",
-    "description": "Digital assets spiked as a surprise geopolitical de-escalation triggered $600 million in liquidations, sending Bitcoin toward $73,000 and boosting altcoin demand.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/markets/2026/04/08/crypto-markets-rally-as-trump-announces-two-week-iran-ceasefire",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "MEXC's new CEO wants to tame a memecoin machine without killing what made it work",
-    "description": "A Bitget veteran, Vugar Usi inherits a top-three exchange built on zero fees, 3,000 tokens and a compliance record he himself calls a \"missing point\" in its growth.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/markets/2026/04/08/mexc-s-new-ceo-wants-to-tame-a-memecoin-machine-without-killing-what-made-it-work",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
     ],
     "year": "2026"
   }
