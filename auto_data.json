@@ -1,5 +1,84 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Italy's UniCredit invests €4 million in BlockInvest",
+    "description": "Italy's UniCredit has invested €4 million to acquire a 16% stake in BlockInvest, furthering its ambitions to export tokenized financial assets across the bank's main markets",
+    "date": "2026-04-16",
+    "source_url": "https://www.finextra.com/newsarticle/47584/italys-unicredit-invests-4-million-in-blockinvest",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "DTCC makes public cloud move with AWS and Microsoft",
+    "description": "The Depository Trust & Clearing Corporation (DTCC) is working with AWS and Microsoft to migrate its core market and digital market infrastructure to the public cloud.",
+    "date": "2026-04-16",
+    "source_url": "https://www.finextra.com/newsarticle/47585/dtcc-makes-public-cloud-move-with-aws-and-microsoft",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "SocGen brings stablecoin to MetaMask wallet users",
+    "description": "Societe Generale's digital asset unit SG-Forge is joining forces with blockchain outfit Consensys to expand global access to its USD CoinVertible stablecoin through integration with the MetaMask Web3 wallet.",
+    "date": "2026-04-16",
+    "source_url": "https://www.finextra.com/newsarticle/47587/socgen-brings-stablecoin-to-metamask-wallet-users",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Payabl. launches Click to pay with Visa",
+    "description": "payabl. has launched Click to pay with Visa, a new card payment experience designed to help merchants reduce checkout friction, improve authorisation rates, and deliver a faster, more secure online payment journey.",
+    "date": "2026-04-16",
+    "source_url": "https://www.finextra.com/pressarticle/109469/payabl-launches-click-to-pay-with-visa",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Solana Policy Institute-backed PAC spends millions to jam Sherrod Brown's Senate run",
     "description": "The Sentinel Action Fund is supporting Republican John Husted in that race, with funding from the Solana network's advocacy group and Multicoin Capital.",
@@ -9538,83 +9617,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Equals Money makes four leadership appointments",
-    "description": "Equals Money | Railsr, one of Europe’s largest embedded finance providers, has today announced four key appointments expanding its specialist leadership in embedded finance and payments, including digital assets.",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/pressarticle/109386/equals-money-makes-four-leadership-appointments",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "ClearToken appoints Fernando Cerezetti as CCP rchief risk officer",
-    "description": "ClearToken, the digital financial market infrastructure (FMI) provider, today announces that it has appointed Fernando Cerezetti as Chief Risk Officer of its subsidiary, ClearToken CCP Limited.",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/pressarticle/109385/cleartoken-appoints-fernando-cerezetti-as-ccp-rchief-risk-officer",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "UBS, Sygnum, PostFinance join banks in Swiss franc stablecoin sandbox",
-    "description": "Seven financial institutions launched sandbox testing regulated Swiss franc stablecoin, running through 2026 as stablecoin usage accelerates globally.",
-    "date": "2026-04-08",
-    "source_url": "https://www.theblock.co/post/396650/swiss-franc-stablecoin-sandbox",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Coinbase secures Australian license, plans to offer crypto and equity perpetuals",
-    "description": "With the license, Coinbase plans to offer crypto and equity perpetuals in the region, and later futures and options trading.",
-    "date": "2026-04-08",
-    "source_url": "https://www.theblock.co/post/396642/coinbase-wins-australian-license",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
