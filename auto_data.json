@@ -1,5 +1,144 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Keep an eye on XRP, Plasma, DOGE as bitcoin drifts",
+    "description": "What you need to know for April 16, 2026",
+    "date": "2026-04-16",
+    "source_url": "https://www.coindesk.com/daybook-us/2026/04/16/keep-an-eye-on-xrp-plasma-doge-as-bitcoin-drifts",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin funding rates hit most negative since 2023, history suggests bottom is in",
+    "description": "Despite a surge in short positioning, bitcoin has climbed toward $75,000, with past episodes of negative funding rates often aligning with local market bottoms.",
+    "date": "2026-04-16",
+    "source_url": "https://www.coindesk.com/markets/2026/04/16/bitcoin-funding-rates-hit-most-negative-since-2023-history-suggests-bottom-is-in",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin holds near $75,000 as short-term holders look for profit opportunities",
+    "description": "Bitcoin is hovering near $75,000 as steady institutional demand meets a wall of supply, while the options market is biased toward downside hedges.",
+    "date": "2026-04-16",
+    "source_url": "https://www.coindesk.com/markets/2026/04/16/bitcoin-holds-near-usd75-000-as-short-term-holders-look-for-profit-opportunities",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Agentic payments startup SolvaPay scores €2.4 million in pre-seed funding",
+    "description": "SolvaPay, an AI payments platform based in Stockholm, today announces €2.4 million ($2.8M) in pre-seed funding to build out its new payment infrastructure platform, built to power the emerging era of agentic commerce.",
+    "date": "2026-04-16",
+    "source_url": "https://www.finextra.com/pressarticle/109499/agentic-payments-startup-solvapay-scores-24-million-in-pre-seed-funding",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "MegPrime introdcues consumer app",
+    "description": "MegPrime, the universal payments platform powered by digital currency, today launched its consumer app and unveiled the Builder Partner Incentive Program, paying homebuyers up to $15,000 in rewards while their new home is under construction.",
+    "date": "2026-04-16",
+    "source_url": "https://www.finextra.com/pressarticle/109498/megprime-introdcues-consumer-app",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "MoonPay integrates with Moonshot for on-chain trading",
+    "description": "MoonPay, the leading global crypto payments network, announced a partnership with Moonshot, the popular Solana-based mobile app for onchain trading.",
+    "date": "2026-04-16",
+    "source_url": "https://www.finextra.com/pressarticle/109497/moonpay-integrates-with-moonshot-for-on-chain-trading",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "‘Bitcoin taxes make no sense’: Washington think tank argues US rules hinder everyday payments",
+    "description": "The Cato Institute says U.S. bitcoin tax rules are overly complex and discourage everyday use despite growing crypto adoption.",
+    "date": "2026-04-16",
+    "source_url": "https://www.theblock.co/post/397703/bitcoin-taxes-make-no-sense-washington-think-tank-argues-us-rules-hinder-everyday-payments",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Cyber risk stress testing for banks",
     "description": "In the context of growing frequency and sophistication, and increasing potential impacts of cyber incidents, some authorities have disclosed that they are conducting cyber stress tests to enhance firm and sector resilience to operational disruptions, such as those caused by cyber attacks.",
@@ -9493,137 +9632,6 @@
       "Interoperability & Standards"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Finastra joins witth Marketnode to automate credit agreement onboarding",
-    "description": "Finastra, a global leader in financial services software, today announced a strategic partnership with Marketnode to digitize and automate the credit agreement onboarding process for corporate lenders.",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/pressarticle/109397/finastra-joins-witth-marketnode-to-automate-credit-agreement-onboarding",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Mastercard and Krunthai Card complete first agentic transaction in Thailand",
-    "description": "Mastercard announced the completion of a pilot that delivered its first authenticated agentic transaction in Thailand with Krungthai Card Public Company Limited (KTC).",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/pressarticle/109396/mastercard-and-krunthai-card-complete-first-agentic-transaction-in-thailand",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "RWA network Pharos lands a $1 billion valuation in $44M funding round ahead of mainnet debut",
-    "description": "The company is building an \"asset-native\" network designed to handle regulated financial activity at scale, targeting a market it values at $50 trillion.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/business/2026/04/08/pharos-raises-usd44-million-in-series-a-to-power-real-world-asset-tokenization",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Adam Back denies he’s Satoshi Nakamoto after NYT report claims he’s Bitcoin’s creator",
-    "description": "Similarities reflect shared early research, not proof, said Back. Others have questions too.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/markets/2026/04/08/adam-back-denies-he-s-satoshi-nakamoto-after-nyt-report-claims-he-s-bitcoin-s-creator",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "White House study bolsters crypto's stance in stablecoin yield fight against bankers",
-    "description": "White House economists said banning rewards wouldn't significantly boost banks' financial health, amplifying the crypto industry view in the Clarity Act debate.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/policy/2026/04/08/white-house-study-bolsters-crypto-s-stance-in-stablecoin-yield-fight-against-bankers",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Quantum threat to Bitcoin is real, but manageable, according to Wall Street broker Bernstein",
-    "description": "The broker said advances in quantum computing are accelerating the timeline for crypto risk, but argued Bitcoin faces a multi-year upgrade cycle, not an existential crisis.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/tech/2026/04/08/quantum-threat-to-bitcoin-is-real-but-manageable-according-to-wall-street-broker-bernstein",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Saylor’s solo act: JPMorgan says Strategy is practically the only thing keeping crypto flows alive",
-    "description": "Digital asset inflows totaled $11 billion in Q1, as institutional demand and ETF outflows left corporate buyers and venture capital as the primary sources of funding.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/business/2026/04/08/crypto-inflows-slowed-sharply-in-first-quarter-as-investor-demand-weakened-says-jpmorgan",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
