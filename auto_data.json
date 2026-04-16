@@ -1,5 +1,62 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Russia-linked Grinex exchange suspends operations after $15 million hack, blames ‘hostile states’",
+    "description": "Liquidity and users of the sanctioned Garantex exchange have flowed into Grinex over the past year, Elliptic claims.",
+    "date": "2026-04-16",
+    "source_url": "https://www.theblock.co/post/397814/russia-linked-grinex-exchange-suspends-operations-15-million-hack-hostile-states",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Texas man gets 23 years for $20 million crypto scam supposedly backed by Picasso and Van Gogh artwork",
+    "description": "A Texas man was sentenced to over two decades in prison after prosecutors said he scammed investors of more than $20 million.",
+    "date": "2026-04-16",
+    "source_url": "https://www.theblock.co/post/397821/texas-man-gets-23-years-for-20-million-crypto-scam-supposedly-backed-by-picasso-and-van-gogh-artwork",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Tempo unveils pragmatic privacy solution called Zones, a way to run permissioned parallel blockchains",
+    "description": "Each Zone will offer a private execution environment managed by a trusted entity, Tempo wrote in an announcement.",
+    "date": "2026-04-16",
+    "source_url": "https://www.theblock.co/post/397820/tempo-unveils-pragmatic-privacy-solution-called-zones-a-way-to-run-permissioned-parallel-blockchains",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Pricing Infrastructure as a Missing Layer in Private Markets",
     "description": "Private markets are often defined by one persistent complaint: illiquidity. Founders want more flexi...",
@@ -9553,62 +9610,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA",
-    "initiative": "ESAs spring risk update highlights geopolitical pressures and rising private finance risks",
-    "description": "ESAs spring risk update highlights geopolitical pressures and rising private finance risks 27 March 2026 Joint Committee Risk monitoring The European Supervisory Authorities (EBA, EIOPA and ESMA – the ESAs) today published their spring 2026 Joint Committee update on risks and vulnerabilities in the EU financial system. The update focuses on the challenges arising from ongoing geopolitical tensions and developments in private finance. Geopolitical tensions continue to pose significant risks The ESAs warn that ongoing geopolitical tensions, namely the war in the Middle East, pose significant risks&nbsp;to the global financial landscape through higher energy prices, potential inflationary pressures and weaker economic growth. The ESAs&nbsp; had previously warned about the risks of sudden repricing and liquidity reductions at times of elevated equity market valuations and compressed spreads in bond markets. Such developments can exacerbate market vulnerabilities, triggering volatility and revaluations. Higher interest rates may further tighten funding conditions and affect asset quality. Tensions around the Strait of Hormuz and airspace closures raise multi-line risk, although war exclusions are expected to limit net losses for insurers. More broadly, geopolitical events and cyber-attacks could generate shocks and disruptions to critical infrastructures. &nbsp;- Risks linked to private finance The update also highlights emerging risks in private finance driven by limited data, low transparency, prolonged growth and complex, opaque interconnections with the broader financial system. These factors increase the potential for sudden market shifts in investor liquidity and spillovers to other parts of the financial system.&nbsp; Recent developments in certain US private credit funds, linked to AI replacing more traditional software businesses, illustrate potential vulnerabilities related to changes in investor sentiment.&nbsp; EU financial sector remains resilient overall Despite the challenging geopolitical environment, European financial markets have continued to demonstrate resilience. The insurance and Institutions for Occupational Retirement Provision (IORP) sectors maintain robust capital and funding positions.&nbsp; In the banking sector, capital ratios remain high, while liquidity positions and asset quality are solid. Direct exposures to countries most affected by the war remain limited. Supervisors and market participants to maintain vigilance Given the ongoing geopolitical tensions, the Joint Committee of the ESAs calls on supervisors and market participants to maintain a high level of readiness. This includes proactive risk assessments with appropriate tools, the prudent management of sovereign exposures and the inclusion of geopolitical context in risk management. Possible indirect effects stemming from energy prices and exposures to highly affected sectors should also be closely monitored. &nbsp; Financial institutions, authorities and investors are also encouraged to closely monitor and manage risks associated with private markets, considering limited transparency, rising exposures, and potential shifts in risk profiles, linked to the upcoming Solvency II 2027 changes. &nbsp; Further information: Tayfun Yilmaz Communications Officer press@esma.europa.eu 27/03/2026 JC 2026 06 Joint Committee Update on Risks and Vulnerabilities in the EU Financial System – Spring 2026",
-    "date": "2026-04-09",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esas-spring-risk-update-highlights-geopolitical-pressures-and-rising-private",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA",
-    "initiative": "Postponement of the rollout for Commodity Derivatives Weekly Position Reporting",
-    "description": "Postponement of the rollout for Commodity Derivatives Weekly Position Reporting 27 March 2026 Trading The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, is postponing the rollout of the new solution for Commodity Derivatives Weekly Position Reporting, originally scheduled for 1 April 2026. The decision follows the identification of issues during the final testing phase, which require further corrective actions to ensure system stability and data quality. &nbsp; A revised go live date will be communicated once the necessary fixes have been fully implemented and validated. Until then, stakeholders should continue using the current version. &nbsp; ESMA appreciates the cooperation and understanding of all reporting entities during this process. &nbsp; Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu &nbsp;",
-    "date": "2026-04-09",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/postponement-rollout-commodity-derivatives-weekly-position-reporting",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "AI use surges across governments, reaching 82%: report",
-    "description": "Government agencies are rapidly adopting AI, reshaping operations and job roles, with 82% already adopting AI in public sector operations. The post AI use surges across governments, reaching 82%: report appeared first on CoinGeek .",
-    "date": "2026-04-09",
-    "source_url": "https://coingeek.com/ai-use-surges-across-governments-reaching-82-report/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
