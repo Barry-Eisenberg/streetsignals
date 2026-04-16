@@ -1,6 +1,76 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "U.S. CFTC's Selig says AI has helped make up for staffing cuts at key crypto watchdog",
+    "description": "Chairman Mike Selig faces explosive new market duties with crypto and prediction markets, where he said \"numerous investigations\" have begun.",
+    "date": "2026-04-16",
+    "source_url": "https://www.coindesk.com/policy/2026/04/16/u-s-cftc-s-selig-says-ai-has-helped-make-up-for-staffing-cuts-at-key-crypto-watchdog",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Business banking fintech Slash hits unicorn status",
+    "description": "Slash Financial, a Gen Z-founded business banking platform, has achieved unicorn status off the back of a $100 million Series C funding round.",
+    "date": "2026-04-16",
+    "source_url": "https://www.finextra.com/newsarticle/47593/business-banking-fintech-slash-hits-unicorn-status",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "The End of the &quot;Black Box&quot; Era: Why AI Agents Demand Source Code Sovereignty in Fintech",
+    "description": "The fintech industry is moving past the &quot;ChatGPT for support&quot; phase. We are entering the e...",
+    "date": "2026-04-16",
+    "source_url": "https://www.finextra.com/blogposting/31432/the-end-of-the-quotblack-boxquot-era-why-ai-agents-demand-source-code-sovereignty-in-fintech",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "When Your Card Gets Stolen, a Factory Goes to Work",
+    "description": "Your card details were stolen. A skimmer. A phishing page. Malware on a device you trusted. The mon",
+    "date": "2026-04-16",
+    "source_url": "https://www.finextra.com/blogposting/31428/when-your-card-gets-stolen-a-factory-goes-to-work",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Cardano's Charles Hoskinson says Bitcoin's quantum fix is a hard fork that can't save Satoshi's coins",
     "description": "The Cardano founder argues BIP-361 is mislabeled as a soft fork and that its zero-knowledge recovery plan cannot rescue roughly 1.7 million pre-2013 bitcoin, including Satoshi's holdings.",
     "date": "2026-04-16",
@@ -9537,86 +9607,6 @@
       "Payments & Transfers"
     ],
     "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Mimir acquires platform from Swedbank’s PayEx to launch new fintech company",
-    "description": "Swedbank-owned PayEx is spinning out part of its operations to form a new company together with investment firm Mimir.",
-    "date": "2026-04-09",
-    "source_url": "https://www.finextra.com/newsarticle/47546/mimir-acquires-platform-from-swedbanks-payex-to-launch-new-fintech-company",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Central Bank of Ireland grants dual authorisation to stablecoin provider Confirmo",
-    "description": "Confirmo, a stablecoin-first payment platform serving businesses globally, today announces that its Irish entity, Confirmo Limited, has received authorisation as Payment Institution under the Payment Services Regulations 2018 (PSR) from the Central Bank of Ireland (CBI).",
-    "date": "2026-04-09",
-    "source_url": "https://www.finextra.com/pressarticle/109402/central-bank-of-ireland-grants-dual-authorisation-to-stablecoin-provider-confirmo",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board invites public comment on proposal that would allow U.S. banks and credit unions to use intermediaries to transfer funds through the FedNow Service",
-    "description": "Federal Reserve Board invites public comment on proposal that would allow U.S. banks and credit unions to use intermediaries to transfer funds through the FedNow Service",
-    "date": "2026-04-08",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260408a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "The $100 Trillion Wealth Shift: Stablecoin Utility and the Future of Payments",
-    "description": "This blog is a preview of our forthcoming report, &#8220;The New Rails: How Digital Assets Are Reshaping the Foundations of&#8230; The post The $100 Trillion Wealth Shift: Stablecoin Utility and the Future of Payments appeared first on Chainalysis .",
-    "date": "2026-04-08",
-    "source_url": "https://www.chainalysis.com/blog/stablecoin-utility-future-of-payments/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
     "year": "2026"
