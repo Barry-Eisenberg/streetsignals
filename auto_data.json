@@ -1,5 +1,155 @@
 [
   {
+    "institution": "Federal Reserve",
+    "initiative": "Federal Reserve Board issues enforcement action with Community Bankshares, Inc.",
+    "description": "Federal Reserve Board issues enforcement action with Community Bankshares, Inc.",
+    "date": "2026-04-16",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260416a.htm",
+    "category": "regulators",
+    "source_name": "Federal Reserve — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Crypto for Advisors: Tokenization’s evolution",
+    "description": "Tokenized assets are moving from concept to portfolio allocation. Learn how compliance architecture and institutional movement are redefining risk and opportunity for advisors.",
+    "date": "2026-04-16",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/15/crypto-for-advisors-tokenization-s-evolution",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin slides back below $74,000 as breakout to higher levels fails again",
+    "description": "The $75,000-$76,000 range has proven to be stiff resistance as bitcoin attempts to claw back this year's losses.",
+    "date": "2026-04-16",
+    "source_url": "https://www.coindesk.com/markets/2026/04/16/bitcoin-slides-back-below-usd74-000-as-breakout-to-higher-levels-fails-again",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "SEC seeks public comment on consolidated audit trail and other data sources",
+    "description": "The Securities and Exchange Commission today issued a concept release soliciting public comment in support of a comprehensive review of the Consolidated Audit Trail (CAT) and other audit trails and related data sources currently used in the regulation of U.S. securities markets.",
+    "date": "2026-04-16",
+    "source_url": "https://www.finextra.com/pressarticle/109505/sec-seeks-public-comment-on-consolidated-audit-trail-and-other-data-sources",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Charles Schwab to roll out spot crypto trading product",
+    "description": "Charles Schwab today announced Schwab Crypto, a spot crypto trading offer that will begin a phased rollout to retail clients in the coming weeks.",
+    "date": "2026-04-16",
+    "source_url": "https://www.finextra.com/pressarticle/109504/charles-schwab-to-roll-out-spot-crypto-trading-product",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Alkami unveils AI Code Studio",
+    "description": "Alkami Technology, Inc. (Nasdaq: ALKT) (\"Alkami\"), a leading digital sales and service platform provider for financial institutions in the U.S., today announced the introduction of Alkami Code Studio, a new artificial intelligence (AI)-powered development capability that underscores the company's continued investment in generative AI and open architecture as part of its Digital Sales & Service Platform strategy.",
+    "date": "2026-04-16",
+    "source_url": "https://www.finextra.com/pressarticle/109503/alkami-unveils-ai-code-studio",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Q2 launches AI-development platform for digital banking system",
+    "description": "Q2 Holdings, Inc. (NYSE: QTWO), a leading provider of digital transformation solutions for financial services, today announced Q2 Code, a governed AI-powered development environment designed to help financial institutions and partners build extensions and integrations on the Q2 Digital Banking Platform faster and with greater confidence.",
+    "date": "2026-04-16",
+    "source_url": "https://www.finextra.com/pressarticle/109502/q2-launches-ai-development-platform-for-digital-banking-system",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Polkadot-based Hyperbridge revises exploit losses to $2.5 million, ten times initial estimate",
+    "description": "Hyperbridge has raised its loss estimate from $237,000 to $2.5 million after a Token Gateway exploit, with some funds traced to Binance.",
+    "date": "2026-04-16",
+    "source_url": "https://www.theblock.co/post/397773/polkadot-hyperbridge-exploit-losses-2-5-million-ten-times-initial-estimate",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "The 24-hour trap: Why the UK’s new crypto rules could catch some firms off guard",
     "description": "The new regulations revealed by the Financial Conduct Authority include several technical traps which crypto software providers need to watch for to avoid sanctions",
@@ -9462,158 +9612,6 @@
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Crypto card boom hits $600 million monthly volume as USDC gains ground on USDT",
-    "description": "Stablecoin composition of card volume is worth watching as a proxy for geographic and demographic shifts in users.",
-    "date": "2026-04-08",
-    "source_url": "https://www.theblock.co/post/396724/crypto-card-boom-600-million-monthly-volume-usdc-gains-ground-usdt",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Canary Capital files spot PEPE ETF application with SEC",
-    "description": "Last year, Canary also filed an application to list a fund tracking the price of MOG, a then lesser-known memecoin.",
-    "date": "2026-04-08",
-    "source_url": "https://www.theblock.co/post/396794/canary-capital-files-spot-pepe-etf-application-with-sec",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Morgan Stanley’s bitcoin ETF draws $34 million on day one",
-    "description": "Morgan Stanley’s low-fee bitcoin ETF debuted with strong early trading, signaling demand as competition shifts to cost and distribution.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/markets/2026/04/08/morgan-stanley-s-bitcoin-etf-draws-usd34-million-on-day-one",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Polygon Labs seeking to raise up to $100 million for stablecoin payments business: report",
-    "description": "The crypto firm aims to sell \"between $50 million and $100 million in equity\" in the new stablecoin payments business.",
-    "date": "2026-04-08",
-    "source_url": "https://www.theblock.co/post/396778/polygon-labs-seeking-raise-up-to-100-million-stablecoin-payments-business-report",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "BondXN integrates with BlackRock’s Aladdin platform to modernise MBS trading",
-    "description": "BondXN Inc., a leading electronic trading and data venue for mortgage-backed securities (MBS), today announced a multi-year partnership with BlackRock Aladdin.",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/pressarticle/109404/bondxn-integrates-with-blackrocks-aladdin-platform-to-modernise-mbs-trading",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Arizona Financial Credit Union modernises wire transfer ops with Alacriti",
-    "description": "Arizona Financial Credit Union, a leading Arizona-based credit union serving more than 178,000 members, has partnered with Alacriti to modernize its wire transfer operations as part of a broader payments transformation strategy.",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/pressarticle/109403/arizona-financial-credit-union-modernises-wire-transfer-ops-with-alacriti",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "SEC appoints David Woodcock as new enforcement director amid concerns over previous lead, agency’s crypto cases",
-    "description": "The SEC has appointed a new enforcement director following the departure of its former chief, a transition that raised concerns.",
-    "date": "2026-04-08",
-    "source_url": "https://www.theblock.co/post/396770/sec-appoints-david-woodcock-new-enforcement-director-amid-concerns-over-previous-lead-crypto-cases",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Michael Saylor says bitcoin has likely bottomed, quantum risk overblown",
-    "description": "Speaking at a Mizuho event, the Strategy (MSTR) executive chairman said the formation of banking credit pairing with digital credit will be the catalyst for the next bull market.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/markets/2026/04/08/michael-saylor-says-bitcoin-has-likely-bottomed-quantum-risk-overblown",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
