@@ -1,6 +1,124 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bitcoin rally is taking a breather near $75,000. Onchain data shows why",
+    "description": "BTC is up 10% for the month, but the bull run has stalled near $75,000 in the past 48 hours. Here's why.",
+    "date": "2026-04-16",
+    "source_url": "https://www.coindesk.com/markets/2026/04/16/bitcoin-rally-is-taking-a-breather-near-usd75-000-onchain-data-shows-why",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Dogecoin jumps 4.5% to nearly 10-cents, outperforming bitcoin and ether",
+    "description": "Breakout backed by heavy participation and late-session buying, though weak on-chain activity raises questions over durability.",
+    "date": "2026-04-16",
+    "source_url": "https://www.coindesk.com/markets/2026/04/16/dogecoin-jumps-4-5-to-nearly-10-cents-outperforming-bitcoin-and-ether",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Ripple partners with Korea's Kyobo Life to tokenize government bond settlement",
+    "description": "The deal is Ripple's first with a Korean insurer and targets near real-time settlement of Korean treasuries, though the release stops short of committing to a live volume or timeline.",
+    "date": "2026-04-16",
+    "source_url": "https://www.coindesk.com/business/2026/04/16/ripple-partners-with-korea-s-kyobo-life-to-tokenize-government-bond-settlement",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin steady as S&P 500 hits record, but options market isn't buying the peace trade",
+    "description": "Crypto's derivatives desks still want downside protection, QCP says, and long-end yields and gold aren't confirming the risk-on move.",
+    "date": "2026-04-16",
+    "source_url": "https://www.coindesk.com/markets/2026/04/16/bitcoin-steady-as-s-and-p-500-hits-record-but-options-market-isn-t-buying-the-peace-trade",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Thailand eyes stricter checks on crypto firm backers",
+    "description": "Thailand’s securities regulator is seeking approval mandates for funding providers and major shareholder supporters to curb financial crime and abuse. The post Thailand eyes stricter checks on crypto firm backers appeared first on CoinGeek .",
+    "date": "2026-04-16",
+    "source_url": "https://coingeek.com/thailand-eyes-stricter-checks-on-crypto-firm-backers/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Solana Institute-backed super PAC pours $8 million against Sherrod Brown in Ohio race",
+    "description": "Sentinel Action Fund has received backing from the Solana Institute and Multicoin Capital, a crypto-focused venture capital firm.",
+    "date": "2026-04-16",
+    "source_url": "https://www.theblock.co/post/397681/super-pac-8-million-sherrod-brown",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bitcoin devs bet a quantum attacker will play nice with a ‘wait and react’ plan",
     "description": "BitMEX Research proposes a canary system that pays a bounty to the first quantum attacker and activates a network-wide freeze, offering an alternative to a fixed five-year timeline.",
     "date": "2026-04-16",
@@ -9497,120 +9615,6 @@
       "Tokenized Securities / RWA",
       "Stablecoins & Deposit Tokens"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Pre-market crypto stocks are glowing green after the ceasefire news",
-    "description": "Bitcoin, equities, and gold rise while oil and volatility drop amid improving risk sentiment.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/markets/2026/04/08/pre-market-crypto-stocks-are-glowing-green-after-the-ceasefire-news",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto's 'AWS' Alchemy unveils tool to make AI payment systems talk to each other",
-    "description": "Alchemy’s AgentPay addresses the problem that the agentic payment systems currently coming online don’t talk to one another.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/tech/2026/04/08/blockchain-development-firm-alchemy-unveils-interoperable-layer-for-ai-payments",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto whale holding oil shorts walks away with $2 million in profit",
-    "description": "A trader named Loracle closed his short position in oil futures early Wednesday, pocketing $2 million in profit.",
-    "date": "2026-04-08",
-    "source_url": "https://www.coindesk.com/markets/2026/04/08/crypto-whale-holding-oil-shorts-walks-away-with-usd2-million-in-profit",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Namibia sets 2030 vision for digital payments growth",
-    "description": "Bank of Namibia unveils NPS Strategy 2026–2030 to modernize payments, expand digital transformation, and support inclusive economic development. The post Namibia sets 2030 vision for digital payments growth appeared first on CoinGeek .",
-    "date": "2026-04-08",
-    "source_url": "https://coingeek.com/namibia-sets-2030-vision-for-digital-payments-growth/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "MillTech raises $60 million for expansion into the US market",
-    "description": "MillTech, a UK-based risk management platform which provides FX hedging and cash investments for fund managers and corporates, has secured a $60 million minority investment from the Apax Digital Funds.",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/newsarticle/47543/milltech-raises-60-million-for-expansion-into-the-us-market",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Aussie watchdog warns of rise in AI scam threats",
-    "description": "The Australian Securities and Investment Commission (Asic) is warning the public that artificial intelligence is \"super-charging\" online scam threats after taking down almost thousands of phishing and fraudulent Websites.",
-    "date": "2026-04-08",
-    "source_url": "https://www.finextra.com/newsarticle/47542/aussie-watchdog-warns-of-rise-in-ai-scam-threats",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
