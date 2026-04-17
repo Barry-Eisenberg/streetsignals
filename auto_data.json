@@ -1,6 +1,81 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Back in the black: Strategy surges 8% as bitcoin's rise to $77,000 puts holdings in profit",
+    "description": "Bitcoin climbed above its 100-day moving average, while Strategy moves back above its 200-week trend level.",
+    "date": "2026-04-17",
+    "source_url": "https://www.coindesk.com/markets/2026/04/17/strategy-back-in-profit-as-bitcoin-hits-two-and-a-half-month-high-above-usd76-300",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Moody’s agentic workflows land on AWS Marketplace",
+    "description": "Moody’s Corporation (NYSE: MCO) today announced that its Moody’s Agentic Solutions (MAS) workflows are now available in AWS Marketplace.",
+    "date": "2026-04-17",
+    "source_url": "https://www.finextra.com/pressarticle/109510/moodys-agentic-workflows-land-on-aws-marketplace",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Polish PM says crypto firm tied to Russian mafia and secret service backed political rivals",
+    "description": "The comments came during a parliamentary vote to overrule the Polish president's vetoing of crypto legislation.",
+    "date": "2026-04-17",
+    "source_url": "https://www.theblock.co/post/397889/polish-pm-says-crypto-firm-tied-to-russian-mafia-and-secret-service-backed-political-rivals",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Kraken parent Payward agrees to acquire Bitnomial for up to $550 million",
+    "description": "Kraken parent Payward has agreed to buy Bitnomial for up to $550 million, securing a fully CFTC-licensed U.S. crypto derivatives venue.",
+    "date": "2026-04-17",
+    "source_url": "https://www.theblock.co/post/397890/kraken-parent-payward-agrees-to-acquire-bitnomial-for-up-to-550-million",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "CoinDesk 20 performance update: Stellar (XLM) gains 1.5%, leading index higher",
     "description": "Hedera (HBAR) joined Stellar (XLM) as a top performer, rising 1.4% from Thursday.",
     "date": "2026-04-17",
@@ -9535,82 +9610,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Banks are treading carefully on stablecoins despite market growth, S&P Global says",
-    "description": "Most U.S. lenders remain in a wait-and-see mode as deposit risks, regulatory shifts and new competition complicate strategy, according to the report.",
-    "date": "2026-04-09",
-    "source_url": "https://www.coindesk.com/business/2026/04/09/banks-are-treading-carefully-on-stablecoins-despite-market-growth-s-and-p-global-says",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Fartcoin's price crashed 50% after $145 million manipulation bet went wrong",
-    "description": "The liquidation was so large relative to the order book that Hyperliquid's auto-deleveraging mechanism activated, forcibly closing profitable short positions on the other side of the trade to prevent the system from accumulating bad debt.",
-    "date": "2026-04-09",
-    "source_url": "https://www.coindesk.com/markets/2026/04/09/someone-tried-to-manipulate-fartcoin-s-price-with-a-usd145-million-long-it-crashed-50",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "PayPal brings payment links to Canva creators",
-    "description": "PayPal is integrating payment links into visual communication and graphic design platform Canva.",
-    "date": "2026-04-09",
-    "source_url": "https://www.finextra.com/newsarticle/47554/paypal-brings-payment-links-to-canva-creators",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "The Drift Protocol Hack: How Privileged Access Led to a $285 Million Loss",
-    "description": "TL;DR On April 1, 2026, Solana’s Drift Protocol was drained of $285 million (over 50% of its TVL) in a&#8230; The post The Drift Protocol Hack: How Privileged Access Led to a $285 Million Loss appeared first on Chainalysis .",
-    "date": "2026-04-09",
-    "source_url": "https://www.chainalysis.com/blog/lessons-from-the-drift-hack/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
   }
