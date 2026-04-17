@@ -1,5 +1,22 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Judge says Caitlyn Jenner’s JENNER memecoin is not a security in class action lawsuit",
+    "description": "A judge ruled that a memecoin launched by media personality Caitlyn Jenner is not a security despite claims in a class action lawsuit.",
+    "date": "2026-04-17",
+    "source_url": "https://www.theblock.co/post/397976/judge-says-caitlyn-jenners-jenner-memecoin-not-a-security-class-action-lawsuit",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Chainalysis",
     "initiative": "Sanctioned Russia-Linked Exchange Grinex Suspends Operations Following Alleged Cyberattack",
     "description": "TL;DR Grinex, the sanctioned successor to the Russian exchange Garantex, suspended operations yesterday following a claimed 1 billion ruble ($13.7&#8230; The post Sanctioned Russia-Linked Exchange Grinex Suspends Operations Following Alleged Cyberattack appeared first on Chainalysis .",
@@ -9587,27 +9604,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Securitize names ex-SEC official Brett Redfearn as president ahead of public listing",
-    "description": "Brett Redfearn joins as president as the firm works to build regulated infrastructure for tokenized assets.",
-    "date": "2026-04-09",
-    "source_url": "https://www.coindesk.com/business/2026/04/09/securitize-names-ex-sec-official-president-ahead-of-public-listing",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
     ],
     "year": "2026"
   }
