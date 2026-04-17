@@ -1,6 +1,80 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "CoinDesk 20 performance update: Stellar (XLM) gains 1.5%, leading index higher",
+    "description": "Hedera (HBAR) joined Stellar (XLM) as a top performer, rising 1.4% from Thursday.",
+    "date": "2026-04-17",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/17/coindesk-20-performance-update-stellar-xlm-gains-1-5-leading-index-higher",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin rises past $76,000, aiming at major breakout as oil plunges on Iran cooldown",
+    "description": "Iran's foreign minister said the Strait of Hormuz will remain completely open for the remainder of the ceasefire.",
+    "date": "2026-04-17",
+    "source_url": "https://www.coindesk.com/markets/2026/04/17/bitcoin-rises-past-usd76-000-aiming-at-major-breakout-as-oil-plunges-on-iran-cooldown",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "France's finance minister calls for more euro stablecoins in sign of government policy shift",
+    "description": "The statements signal a potential shift in stance within the French government and its central bank.",
+    "date": "2026-04-17",
+    "source_url": "https://www.coindesk.com/policy/2026/04/17/french-government-pivots-from-slamming-privately-issued-stablecoins-to-supporting-them",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Ebanx expands into five new countries",
+    "description": "Ebanx, a global technology company specialising in cross-border payment services for emerging markets, will begin operating in five new countries: Thailand, Indonesia, Malaysia, Vietnam, and Turkey.",
+    "date": "2026-04-17",
+    "source_url": "https://www.finextra.com/pressarticle/109508/ebanx-expands-into-five-new-countries",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Kraken's parent company Payward to acquire derivatives exchange Bitnomial for $550 million in cash and stock",
     "description": "The deal gives Payward control of a fully licensed U.S. crypto derivatives stack, accelerating its expansion in regulated markets.",
     "date": "2026-04-17",
@@ -9537,83 +9611,6 @@
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "The $21 billion AI bet: Meta and CoreWeave ink deal for NVIDIA’s next-gen superchips",
-    "description": "Long-term agreement between Meta and CoreWeave signals growing demand for scalable AI compute and inference capacity.",
-    "date": "2026-04-09",
-    "source_url": "https://www.coindesk.com/markets/2026/04/09/meta-expands-ai-infrastructure-bet-with-usd21-billion-coreweave-deal",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Tokenized perpetual swaps hit $31 billion weekly volume on commodities volatility",
-    "description": "Commodities led the growth, with oil trading reaching $6.9 billion in weekly volume after geopolitical tensions, while stock perpetual swaps grew 908% to roughly $4.9 billion.",
-    "date": "2026-04-09",
-    "source_url": "https://www.coindesk.com/markets/2026/04/09/tokenized-perpetual-swaps-hit-usd31-billion-weekly-volume-on-commodities-volatility",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Adyen launches Intelligent Money Movement",
-    "description": "Adyen, the global financial technology platform of choice for leading businesses, today announced Intelligent Money Movement, a new product offering that connects payments, liquidity management, and payouts together on a single platform.",
-    "date": "2026-04-09",
-    "source_url": "https://www.finextra.com/pressarticle/109414/adyen-launches-intelligent-money-movement",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "RealFi unveils yield-bearing stablecoin USDr",
-    "description": "RealFi today announced the launch of its platform alongside the introduction of USDr, a decentralised, yield-bearing stablecoin pegged to the US dollar.",
-    "date": "2026-04-09",
-    "source_url": "https://www.finextra.com/pressarticle/109411/realfi-unveils-yield-bearing-stablecoin-usdr",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   }
