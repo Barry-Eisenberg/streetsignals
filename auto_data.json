@@ -1,6 +1,63 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "The U.S. government moves $606,000 in bitcoin linked to the 2016 Bitfinex hack to Coinbase",
+    "description": "Bitfinex plans to use the returned coins to redeem all Recovery Right Tokens and devote at least 80 percent of remaining net proceeds to repurchasing and burning its UNUS SED LEO token.",
+    "date": "2026-04-17",
+    "source_url": "https://www.coindesk.com/markets/2026/04/17/the-u-s-government-moves-usd606-000-in-bitcoin-linked-to-the-2016-bitfinex-hack-to-coinbase",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "XRP leads bitcoin and ether on weekly gains, but muted volume keeps breakout in check",
+    "description": "Token outperforms bitcoin and ether over seven days, though thinning participation signals consolidation rather than conviction.",
+    "date": "2026-04-17",
+    "source_url": "https://www.coindesk.com/markets/2026/04/17/xrp-leads-bitcoin-and-ether-on-weekly-gains-but-muted-volume-keeps-breakout-in-check",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Finextra & FICO release new survey report on AI’s growing role in fraud",
+    "description": "Our latest Finextra global survey report ‘Fraud in the age of AI: Trends, Threats, and Management Tactics’ is now available to download.",
+    "date": "2026-04-17",
+    "source_url": "https://www.finextra.com/newsarticle/47577/finextra--fico-release-new-survey-report-on-ais-growing-role-in-fraud",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bitcoin bulls target $125,000 as U.S.-Iran peace talks trigger risk-on mood",
     "description": "Funding rates at 2023 lows signal the market is heavily short against bitcoin, ZeroStack's Daniel Reis-Faria says, setting up conditions for a forced unwind if prices push higher.",
     "date": "2026-04-17",
@@ -9548,63 +9605,6 @@
     "description": "Revolut has launched a new AI assistant to help customers with money management tasks, enabling users to get instant spending insights, check investments, manage subscriptions or plan a trip all through a single in-app conversation",
     "date": "2026-04-09",
     "source_url": "https://www.finextra.com/newsarticle/47551/revolut-introduces-ai-assistant-for-money-management",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Iran's crypto tanker tolls are the latest step in its sanctions‑busting trade network",
-    "description": "The Iranian regime has been increasingly using cryptocurrency over the last few years to facilitate cross border oil trading, according to data from Chainalysis.",
-    "date": "2026-04-09",
-    "source_url": "https://www.coindesk.com/policy/2026/04/09/crypto-payments-to-pass-strait-of-hormuz-is-the-next-logical-step-for-iran-s-sanctions-skirting-trade-network",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Everyone’s awaiting U.S. inflation figures, but bitcoin traders couldn’t care less",
-    "description": "There’s a wide gap between how experts are viewing Friday’s inflation data and how the bitcoin market is pricing in the impending figures.",
-    "date": "2026-04-09",
-    "source_url": "https://www.coindesk.com/markets/2026/04/09/everyone-s-awaiting-u-s-inflation-figures-but-bitcoin-traders-couldn-t-care-less",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Revolut rolls out AI assistant for money management",
-    "description": "Revolut has launched a new AI assistant to help customers with money management tasks, enabling users to get instant spending insights, check investments, manage subscriptions or plan a trip all through a single in-app conversation",
-    "date": "2026-04-09",
-    "source_url": "https://www.finextra.com/newsarticle/47551/revolut-rolls-out-ai-assistant-for-money-management",
     "category": "ecosystem",
     "source_name": "Finextra",
     "auto_generated": true,
