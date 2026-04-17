@@ -1,5 +1,26 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Wrapped XRP launches on Solana, enabling broader DeFi access for token holders",
+    "description": "The move follows Hex Trust saying in December wXRP would become available on Solana, Optimism, Ethereum, and HyperEVM.",
+    "date": "2026-04-17",
+    "source_url": "https://www.theblock.co/post/397951/wrapped-xrp-launches-solana-enabling-defi-access-token-holders",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Clear Street scores MiFID II licence",
     "description": "Clear Street (“Clear Street” or “the Company”), a cloud-native financial infrastructure technology firm on a mission to give every sophisticated investor access to every asset in every market, today announced it has received authorization from the Netherlands Authority for the Financial Markets (AFM) to operate as an investment firm.",
@@ -9596,23 +9617,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board announces termination of enforcement actions with Crédit Agricole S.A. and Crédit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.",
-    "description": "Federal Reserve Board announces termination of enforcement actions with Cr&eacute;dit Agricole S.A. and Cr&eacute;dit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.",
-    "date": "2026-04-09",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260409a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
