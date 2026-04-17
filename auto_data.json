@@ -8996,6 +8996,43 @@
     "year": "2026"
   },
   {
+    "institution": "BIS",
+    "initiative": "Gabriel Makhlouf: Inflation, growth, and monetary policy in a fractured world",
+    "description": "Speech by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at MNI Connect, Dublin, 1 April 2026.",
+    "date": "2026-04-09",
+    "source_url": "https://www.bis.org/review/r260409b.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainalysis",
+    "initiative": "Operation Atlantic: How Public-Private Collaboration Is Freezing Millions in Crypto Scam Proceeds",
+    "description": "Last week, Chainalysis joined a proactive joint operation co-hosted by the UK’s National Crime Agency (NCA), the US Secret Service,&#8230; The post Operation Atlantic: How Public-Private Collaboration Is Freezing Millions in Crypto Scam Proceeds appeared first on Chainalysis .",
+    "date": "2026-04-09",
+    "source_url": "https://www.chainalysis.com/blog/operation-atlantic-freezing-crypto-scam-proceeds/",
+    "category": "ecosystem",
+    "source_name": "Chainalysis — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Chainalysis",
     "initiative": "The Drift Protocol Hack: How Privileged Access Led to a $285 Million Loss",
     "description": "TL;DR On April 1, 2026, Solana’s Drift Protocol was drained of $285 million (over 50% of its TVL) in a&#8230; The post The Drift Protocol Hack: How Privileged Access Led to a $285 Million Loss appeared first on Chainalysis .",
@@ -9578,44 +9615,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Former SEC, JPMorgan exec Brett Redfearn joins Securitize as president",
-    "description": "The tokenization firm Securitize accounts for roughly 70% of the U.S. tokenization market and works with BlackRock and Apollo.",
-    "date": "2026-04-09",
-    "source_url": "https://www.theblock.co/post/396875/former-sec-jpmorgan-exec-brett-redfearn-joins-securitize",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Denis Beau: Stablecoins - what strategic choices for Europe?",
-    "description": "Speaking points (virtually) by Mr Denis Beau, First Deputy Governor of the Bank of France, at the EUROFI High Level Seminar, session \"Stablecoins: what strategic choices for Europe?\", Nicosia, 26 March 2026.",
-    "date": "2026-04-09",
-    "source_url": "https://www.bis.org/review/r260331b.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
     "year": "2026"
   }
 ]
