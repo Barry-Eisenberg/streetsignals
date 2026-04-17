@@ -1,5 +1,45 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin bulls target $125,000 as U.S.-Iran peace talks trigger risk-on mood",
+    "description": "Funding rates at 2023 lows signal the market is heavily short against bitcoin, ZeroStack's Daniel Reis-Faria says, setting up conditions for a forced unwind if prices push higher.",
+    "date": "2026-04-17",
+    "source_url": "https://www.coindesk.com/markets/2026/04/17/bitcoin-bulls-target-usd125-000-as-u-s-iran-peace-talks-trigger-risk-on-mood",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Connecting the Dots",
+    "initiative": "Bancomat, EPI, SIBS Enable Seamless Cross‑Border Payments",
+    "description": "Hey Payments Fanatic! Bancomat, SIBS-MB WAY, and EPI Company announced yesterday the successful completion of a joint Proof of Concept (PoC) demonstrating interoperability of their respective mobile payment solutions for cross&#x2011;border in&#x2011;store transactions. This delivers real progress on the February 2026 MoU (Memorandum of Understanding) between",
+    "date": "2026-04-17",
+    "source_url": "https://www.connectingthedotsinpayments.com/bancomat-epi-sibs-enable-seamless-cross-border-payments/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Spektr raises $20m for AI-based compliance platform",
     "description": "Danish fintech spektr has raised $20 million in Series A funding to build out its AI infrastructure platform for compliance in financial services.",
@@ -33,6 +73,25 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Clarity Act’s stablecoin yield language pushed back; ban on idle balances still intact",
+    "description": "A source told The Block that the latest text reflects previous language that bans rewards on idle stablecoin holdings.",
+    "date": "2026-04-16",
+    "source_url": "https://www.theblock.co/post/397838/clarity-act-stablecoin-yield-delayed",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   },
@@ -9555,62 +9614,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Clearbank EU to offer stablecoins including Euro Coin and USD Coin",
-    "description": "ClearBank has won regulatory approval to provide European clients with access to stablecoins, including Euro Coin and USD Coin",
-    "date": "2026-04-09",
-    "source_url": "https://www.finextra.com/newsarticle/47552/clearbank-eu-to-offer-stablecoins-including-euro-coin-and-usd-coin",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Snap Finance appoints three seasoned bankers to leadership team",
-    "description": "Snap Finance UK (Snap) has announced three senior appointments to its business development team, reinforcing the company’s commitment to expanding its retail and lending partner network to provide inclusive finance solutions across the UK.",
-    "date": "2026-04-09",
-    "source_url": "https://www.finextra.com/pressarticle/109407/snap-finance-appoints-three-seasoned-bankers-to-leadership-team",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Spot bitcoin ETFs post net outflows despite $31 million inflows into Morgan Stanley’s MSBT",
-    "description": "Institutions appear to be taking profits from the bitcoin rally rather than joining the momentum, one analyst said.",
-    "date": "2026-04-09",
-    "source_url": "https://www.theblock.co/post/396823/spot-bitcoin-etfs-outflows-despite-morgan-stanley",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
