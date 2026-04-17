@@ -1,5 +1,82 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Don’t get AI agents and stablecoin transfers? Enroll in CoinDesk University",
+    "description": "CoinDesk University’s School of Stablecoin and Agentic Commerce will give you the tools to move beyond understanding to action.",
+    "date": "2026-04-17",
+    "source_url": "https://www.coindesk.com/opinion/2026/04/17/don-t-get-ai-agents-and-stablecoin-transfers-enroll-in-coindesk-university",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bitcoin retakes $78,000 as Trump declares Hormuz ‘open and ready for business’",
+    "description": "The bitcoin move spread to other major cryptocurrencies, lifting the total market cap back above $2.7 trillion.",
+    "date": "2026-04-17",
+    "source_url": "https://www.theblock.co/post/397898/bitcoin-retakes-78000-trump-hormuz-open-ready-business",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Sen. Blumenthal presses DOJ and Treasury on Binance monitor amid Iran sanctions concerns",
+    "description": "Blumenthal asked about the status of a monitor put in place after Binance pleaded guilty and if that person had filed any misconduct reports.",
+    "date": "2026-04-17",
+    "source_url": "https://www.theblock.co/post/397915/sen-blumenthal-presses-doj-and-treasury-on-binance-monitor-amid-iran-sanctions-concerns",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Circle rolls out USDC Bridge for native cross-chain stablecoin transfers",
+    "description": "USDC Bridge is Circle’s official, native cross-chain bridging solution powered by its Cross-Chain Transfer Protocol.",
+    "date": "2026-04-17",
+    "source_url": "https://www.theblock.co/post/397907/circle-rolls-out-usdc-bridge-for-native-cross-chain-stablecoin-transfers",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "French minister urges banks to expand euro stablecoins, tokenized deposits: report",
     "description": "French minister urges European banks to expand euro stablecoins and tokenized deposits as dollar-pegged supply tops $300 billion.",
@@ -9540,81 +9617,6 @@
       "Tokenized Securities / RWA",
       "Stablecoins & Deposit Tokens",
       "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "BitMEX co-founder donates $5 million to Nigel Farage’s Reform UK party",
-    "description": "Delo did not specify whether he made the donation in fiat currency or crypto, but he expressed support for a proposed U.K. government moratorium on political donations made in cryptoassets",
-    "date": "2026-04-09",
-    "source_url": "https://www.coindesk.com/business/2026/04/09/bitmex-co-founder-donates-usd5-million-to-nigel-farage-s-reform-uk-party",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Mike Novogratz spotlights Helios as $15 billion powerhouse in Galaxy Digital annual report",
-    "description": "The company's Nasdaq debut was a turning point toward infrastructure-led growth in the digital economy, said Novogratz.",
-    "date": "2026-04-09",
-    "source_url": "https://www.coindesk.com/markets/2026/04/09/mike-novogratz-spotlights-helios-as-usd15-billion-powerhouse-in-galaxy-digital-annual-report",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Synthetic identities and agentic bots posing as humans contribute to 8% rise in fraud",
-    "description": "LexisNexis Risk Solutions' latest Cybercrime Report reveals key global fraud trends emerging over the past year. Derived from analysis of more than 116 billion online transactions detected through our LexisNexis Digital Identity Network in 2025, the report shows a significant 8% rise in global fraud rates driven by attacks targeting the gaming and gambling and ecommerce sectors, cost of living pressures and new emerging fraud tactics.",
-    "date": "2026-04-09",
-    "source_url": "https://www.finextra.com/pressarticle/109417/synthetic-identities-and-agentic-bots-posing-as-humans-contribute-to-8-rise-in-fraud",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Stablecoin FX nears ‘institutional-grade’ parity with bank rails in LATAM and East Africa: report",
-    "description": "Borderless data shows stablecoin FX is nearing parity with traditional banking rails across key markets like LATAM and East Africa.",
-    "date": "2026-04-09",
-    "source_url": "https://www.theblock.co/post/396866/stablecoin-fx-nears-institutional-grade-parity-with-bank-rails-in-latam-and-east-africa-report",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   }
