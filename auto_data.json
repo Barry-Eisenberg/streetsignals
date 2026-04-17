@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "MiCA: Why Entity Identification Is Now a Compliance Cornerstone",
+    "description": "As the EU's landmark crypto regulation moves from aspiration to enforcement, the humble Legal Entity...",
+    "date": "2026-04-17",
+    "source_url": "https://www.finextra.com/blogposting/31450/mica-why-entity-identification-is-now-a-compliance-cornerstone",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Wrapped XRP launches on Solana, enabling broader DeFi access for token holders",
     "description": "The move follows Hex Trust saying in December wXRP would become available on Solana, Optimism, Ethereum, and HyperEVM.",
@@ -9090,6 +9109,23 @@
     "year": "2026"
   },
   {
+    "institution": "Federal Reserve",
+    "initiative": "Federal Reserve Board announces termination of enforcement actions with Crédit Agricole S.A. and Crédit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.",
+    "description": "Federal Reserve Board announces termination of enforcement actions with Cr&eacute;dit Agricole S.A. and Cr&eacute;dit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.",
+    "date": "2026-04-09",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260409a.htm",
+    "category": "regulators",
+    "source_name": "Federal Reserve — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Denis Beau: Stablecoins - what strategic choices for Europe?",
     "description": "Speaking points (virtually) by Mr Denis Beau, First Deputy Governor of the Bank of France, at the EUROFI High Level Seminar, session \"Stablecoins: what strategic choices for Europe?\", Nicosia, 26 March 2026.",
@@ -9577,44 +9613,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Telegram’s Pavel Durov touts TON’s upgraded ‘one second’ transaction speed",
-    "description": "TON, the Telegram-focused blockchain, said the network upgrade will deliver sub-second finality on mainnet starting April 10.",
-    "date": "2026-04-09",
-    "source_url": "https://www.theblock.co/post/396889/telegrams-pavel-durov-touts-tons-upgraded-one-second-transaction-speed",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "CME Bitcoin futures activity slumps to 14-month low as basis trade unwind drains institutional demand",
-    "description": "CME has lost its position as the largest Bitcoin futures exchange to Binance for the first time since November 2023.",
-    "date": "2026-04-09",
-    "source_url": "https://www.theblock.co/post/396722/cme-bitcoin-futures-activity-slumps-to-14-month-low-as-basis-trade-unwind-drains-institutional-demand",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
