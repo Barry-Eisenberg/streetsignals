@@ -1,5 +1,29 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Tether launches stablecoin wallet",
+    "description": "Tether launched a stablecoin wallet on Tuesday, allowing users to transfer digital dollars, tokenised gold, and bitcoin across multiple blockchains.",
+    "date": "2026-04-17",
+    "source_url": "https://www.finextra.com/newsarticle/47595/tether-launches-stablecoin-wallet",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Tokenization & Issuance",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "The 4.5 signal: Why Glassnode’s RHODL ratio says the bitcoin bottom may be in",
     "description": "RHODL ratio suggests market conditions resemble cycle corrections rather than late-stage tops, as long-term holders regain dominance.",
@@ -9596,23 +9620,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "DOJ, CFTC argue Kalshi’s sports and event contracts are financial swaps as Arizona enforcement escalates",
-    "description": "The DOJ and CFTC asked a federal court to block Arizona from prosecuting Kalshi, citing event contracts as federally regulated swaps.",
-    "date": "2026-04-09",
-    "source_url": "https://www.theblock.co/post/396833/doj-cftc-argue-sports-event-contracts-are-financial-swaps",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
