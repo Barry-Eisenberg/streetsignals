@@ -1,5 +1,45 @@
 [
   {
+    "institution": "Fintech Wrap Up",
+    "initiative": "AI will control your payments sooner than you think - Bunita Sawhney (CPO, Mastercard)",
+    "description": "In this episode of the WRAP UP Podcast, I sat down with Bunita Sawhney, Chief Consumer Product Officer at Mastercard, to reflect on how consumer payments are changing beneath the surface.",
+    "date": "2026-04-17",
+    "source_url": "https://www.fintechwrapup.com/p/ai-will-control-your-payments-sooner",
+    "category": "ecosystem",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Hong Kong’s Flow Capital plans to bring $150 million private credit fund onchain: report",
+    "description": "The company also seeks to raise an additional $30 million in tokenized shares by the end of this year, according to Bloomberg.",
+    "date": "2026-04-17",
+    "source_url": "https://www.theblock.co/post/397849/hong-kongs-flow-capital-plans-to-bring-150-million-private-credit-fund-onchain-report",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Ethereum just had its busiest quarter ever, capping a three-year comeback",
     "description": "Quarterly transactions hit 200.4 million in Q1 2026, the first time above 200 million and more than double the 2023 lows.",
@@ -9575,44 +9615,6 @@
     "initiative_types": [
       "Crypto / Digital Assets",
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bithumb moves to seize assets over mistaken $8 million bitcoin dispute",
-    "description": "On Feb. 6, staff mistakenly entered \"BTC\" instead of \"KRW\" in a promotion, crediting roughly 620,000 bitcoin worth over $40 billion.",
-    "date": "2026-04-09",
-    "source_url": "https://www.coindesk.com/business/2026/04/09/bithumb-moves-to-seize-assets-over-mistaken-usd8-million-bitcoin-dispute",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "The ‘bottom is in’: Why Tom Lee says the Iran ceasefire is the starting gun for a massive bitcoin rally",
-    "description": "The Fundstrat co-founder and largest corporate ether buyer on earth said the ceasefire means the worst is over. His company bought 71,252 ETH last week.",
-    "date": "2026-04-09",
-    "source_url": "https://www.coindesk.com/markets/2026/04/09/fundstrat-s-tom-lee-says-the-bottom-is-in-for-stocks-paving-a-bull-case-for-bitcoin-and-ether",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
