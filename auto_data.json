@@ -1,5 +1,27 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "French minister urges banks to expand euro stablecoins, tokenized deposits: report",
+    "description": "French minister urges European banks to expand euro stablecoins and tokenized deposits as dollar-pegged supply tops $300 billion.",
+    "date": "2026-04-17",
+    "source_url": "https://www.theblock.co/post/397902/french-minister-urges-banks-to-expand-euro-stablecoins-tokenized-deposits-report",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Back in the black: Strategy surges 8% as bitcoin's rise to $77,000 puts holdings in profit",
     "description": "Bitcoin climbed above its 100-day moving average, while Strategy moves back above its 200-week trend level.",
@@ -8838,6 +8860,25 @@
     "year": "2026"
   },
   {
+    "institution": "Chainalysis",
+    "initiative": "The Drift Protocol Hack: How Privileged Access Led to a $285 Million Loss",
+    "description": "TL;DR On April 1, 2026, Solana’s Drift Protocol was drained of $285 million (over 50% of its TVL) in a&#8230; The post The Drift Protocol Hack: How Privileged Access Led to a $285 Million Loss appeared first on Chainalysis .",
+    "date": "2026-04-09",
+    "source_url": "https://www.chainalysis.com/blog/lessons-from-the-drift-hack/",
+    "category": "ecosystem",
+    "source_name": "Chainalysis — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Michael S Barr: Brief remarks on stablecoins",
     "description": "Speech by Mr Michael S Barr, Member of the Board of Governors of the Federal Reserve System, at \"The GENIUS Act in practice: key questions for stablecoin regulation\", The Federalist Society, Washington DC, 31 March 2026.",
@@ -9574,42 +9615,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Tom Lee’s Bitmine uplists to NYSE with 4.8M ETH and $4 billion buyback authorization",
-    "description": "Bitmine uplists to the NYSE, expands its share buyback, and continues building one of the largest ETH treasuries.",
-    "date": "2026-04-09",
-    "source_url": "https://www.theblock.co/post/396865/tom-lees-bitmine-uplists-nyse-eth-4-billion-buyback-authorization",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "CoinDesk 20 performance update: Bitcoin (BTC) trades flat as index declines",
-    "description": "Aave (AAVE) dropped 3.6% and Stellar (XLM) fell 2.7%, leading the index lower.",
-    "date": "2026-04-09",
-    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/09/coindesk-20-performance-update-bitcoin-btc-trades-flat-as-index-declines",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
