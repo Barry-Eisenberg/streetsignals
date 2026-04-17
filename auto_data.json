@@ -1,5 +1,22 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Strategy proposes semi-monthly dividends on its popular STRC preferred stock",
+    "description": "\"[The] proposed changes are intended to stabilize price, dampen cyclicality, drive liquidity, and grow demand,\" said Executive Chairman Michael Saylor.",
+    "date": "2026-04-17",
+    "source_url": "https://www.coindesk.com/markets/2026/04/17/strategy-proposes-semi-monthly-dividends-on-its-popular-strc-preferred-stock",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "MiCA: Why Entity Identification Is Now a Compliance Cornerstone",
     "description": "As the EU's landmark crypto regulation moves from aspiration to enforcement, the humble Legal Entity...",
@@ -9592,27 +9609,6 @@
       "Collateral & Lending"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "TD Cowen says White House stablecoin report unlikely to change hurdles for crypto bill, sees even tougher path ahead",
-    "description": "TD Cowen said the path for the crypto bill could become even tougher following the recent White House report on stablecoins.",
-    "date": "2026-04-09",
-    "source_url": "https://www.theblock.co/post/396891/td-cowen-white-house-stablecoin-report-crypto-bill-update",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
