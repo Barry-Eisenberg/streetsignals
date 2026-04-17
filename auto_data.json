@@ -1,6 +1,103 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Kraken's parent company Payward to acquire derivatives exchange Bitnomial for $550 million in cash and stock",
+    "description": "The deal gives Payward control of a fully licensed U.S. crypto derivatives stack, accelerating its expansion in regulated markets.",
+    "date": "2026-04-17",
+    "source_url": "https://www.coindesk.com/business/2026/04/17/kraken-s-parent-company-payward-to-acquire-derivatives-exchange-bitnomial-for-usd550-million-in-cash-and-stock",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Regulation isn’t slowing fintech down—it’s forcing it to operate like an industry",
+    "description": "Fintech has long been defined by speed, but not always by control. For years, innovation has been d",
+    "date": "2026-04-17",
+    "source_url": "https://www.finextra.com/blogposting/31446/regulation-isnt-slowing-fintech-downits-forcing-it-to-operate-like-an-industry",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Crypto KYC Runs on a Calendar. The Travel Rule Runs on Transactions.",
+    "description": "Most crypto exchanges run their KYC process on a calendar. Every twelve months, the compliance team ...",
+    "date": "2026-04-17",
+    "source_url": "https://www.finextra.com/blogposting/31442/crypto-kyc-runs-on-a-calendar-the-travel-rule-runs-on-transactions",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Is friendly fraud the payments industry's problem to solve or its problem to admit?",
+    "description": "Here is the uncomfortable truth about friendly fraud: we created it. Not consumers. Not fraudsters. ...",
+    "date": "2026-04-17",
+    "source_url": "https://www.finextra.com/blogposting/31313/is-friendly-fraud-the-payments-industrys-problem-to-solve-or-its-problem-to-admit",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bitcoin outlook still clouded by ‘extreme fear’ amid macro uncertainty and profit-taking despite rally to $76K, analysts say",
+    "description": "Bitcoin climbed toward $76,000 as ETF demand improves and Wall Street hits record highs, but analysts say the rally still looks fragile.",
+    "date": "2026-04-17",
+    "source_url": "https://www.theblock.co/post/397874/bitcoin-outlook-still-clouded-by-extreme-fear-amid-macro-uncertainty-and-profit-taking-despite-rally-to-76k-analysts-say",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bitcoin’s ceasefire boost is starting to fizzle out as investors look for real-world results",
     "description": "What you need to know for April 17, 2026",
     "date": "2026-04-17",
@@ -8593,6 +8690,45 @@
   },
   {
     "institution": "BIS",
+    "initiative": "Michael S Barr: Brief remarks on stablecoins",
+    "description": "Speech by Mr Michael S Barr, Member of the Board of Governors of the Federal Reserve System, at \"The GENIUS Act in practice: key questions for stablecoin regulation\", The Federalist Society, Washington DC, 31 March 2026.",
+    "date": "2026-04-09",
+    "source_url": "https://www.bis.org/review/r260408b.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Piero Cipollone: The digital euro - preparing for a potential launch",
+    "description": "Introductory statement by Mr Piero Cipollone, Member of the Executive Board of the European Central Bank, at the Committee on Economic and Monetary Affairs of the European Parliament, Brussels, 24 March 2026.",
+    "date": "2026-04-09",
+    "source_url": "https://www.bis.org/review/r260407e.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "CBDC"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
     "initiative": "Michelle W Bowman: Supporting small businesses",
     "description": "Speech by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the CBA LIVE 26, organised by the Consumer Bankers Association, San Diego, California, 31 March 2026.",
     "date": "2026-04-09",
@@ -9478,141 +9614,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "ZachXBT uncovers North Korea-linked IT worker network generating $1M monthly via crypto payment flows",
-    "description": "ZachXBT said a 390-account North Korean IT worker network has generated over $3.5 million in crypto flows since November 2025.",
-    "date": "2026-04-09",
-    "source_url": "https://www.theblock.co/post/396847/zachxbt-uncovers-north-korea-linked-it-worker-network-generating-1m-monthly-via-crypto-payment-flows",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Lucky solo bitcoin miner beats roughly one-in-300-year odds to win $222,000 block reward",
-    "description": "The bitcoin miner earned $222,012 in subsidy and fees for mining block 944,306 using CKpool in a solo mining configuration.",
-    "date": "2026-04-09",
-    "source_url": "https://www.theblock.co/post/396848/lucky-solo-bitcoin-miner-beats-roughly-one-in-300-year-odds-to-win-222000-block-reward",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin’s $80,000 bull bet just took over the market",
-    "description": "Whales and options traders are betting on a massive BTC reversal toward $80,000 as a fragile Iran ceasefire fuels hopes for a supply squeeze and a breakout.",
-    "date": "2026-04-09",
-    "source_url": "https://www.coindesk.com/markets/2026/04/09/bitcoin-s-usd80-000-bull-bet-just-took-over-the-market",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "US Treasury outlines proposed AML rules for stablecoin issuers",
-    "description": "Today, the U.S. Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN) and the Office of Foreign Assets Control (OFAC) issued a joint proposed rule to implement provisions of the Guiding and Establishing National Innovation for U.S. Stablecoins Act (GENIUS Act).",
-    "date": "2026-04-09",
-    "source_url": "https://www.finextra.com/pressarticle/109413/us-treasury-outlines-proposed-aml-rules-for-stablecoin-issuers",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Arizona FCU implements Alactri's Orbipay Payments Hub",
-    "description": "Arizona Financial Credit Union, a leading Arizona-based credit union serving more than 178,000 members, has partnered with Alacriti to modernize its wire transfer operations as part of a broader payments transformation strategy.",
-    "date": "2026-04-09",
-    "source_url": "https://www.finextra.com/pressarticle/109412/arizona-fcu-implements-alactris-orbipay-payments-hub",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "RealFi unveils yield-bearing sttablecoin USDr",
-    "description": "RealFi today announced the launch of its platform alongside the introduction of USDr, a decentralised, yield-bearing stablecoin pegged to the US dollar.",
-    "date": "2026-04-09",
-    "source_url": "https://www.finextra.com/pressarticle/109411/realfi-unveils-yield-bearing-sttablecoin-usdr",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Aspire turns to JPMorgan Payments for FX",
-    "description": "Aspire, the leading finance stack that serves over 50,000 businesses globally, today announced a global strategic collaboration with J.P. Morgan Payments to enhance FX efficiency and wallet-based fund conversion for clients operating across international markets.",
-    "date": "2026-04-09",
-    "source_url": "https://www.finextra.com/pressarticle/109410/aspire-turns-to-jpmorgan-payments-for-fx",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
