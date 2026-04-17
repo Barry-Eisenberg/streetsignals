@@ -37,6 +37,23 @@
     "year": "2026"
   },
   {
+    "institution": "The Block",
+    "initiative": "Circle hit with class action lawsuit over alleged inaction in $280 million Drift exploit",
+    "description": "The lawsuit, filed by law firm Gibbs Mura, alleged that Circle failed to act swiftly to freeze the stolen USDC tied to the attack.",
+    "date": "2026-04-16",
+    "source_url": "https://www.theblock.co/post/397840/circle-class-action-lawsuit-drift-exploit",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA",
     "initiative": "ESAs spring risk update highlights geopolitical pressures and rising private finance risks",
     "description": "ESAs spring risk update highlights geopolitical pressures and rising private finance risks 27 March 2026 Joint Committee Risk monitoring The European Supervisory Authorities (EBA, EIOPA and ESMA – the ESAs) today published their spring 2026 Joint Committee update on risks and vulnerabilities in the EU financial system. The update focuses on the challenges arising from ongoing geopolitical tensions and developments in private finance. Geopolitical tensions continue to pose significant risks The ESAs warn that ongoing geopolitical tensions, namely the war in the Middle East, pose significant risks&nbsp;to the global financial landscape through higher energy prices, potential inflationary pressures and weaker economic growth. The ESAs&nbsp; had previously warned about the risks of sudden repricing and liquidity reductions at times of elevated equity market valuations and compressed spreads in bond markets. Such developments can exacerbate market vulnerabilities, triggering volatility and revaluations. Higher interest rates may further tighten funding conditions and affect asset quality. Tensions around the Strait of Hormuz and airspace closures raise multi-line risk, although war exclusions are expected to limit net losses for insurers. More broadly, geopolitical events and cyber-attacks could generate shocks and disruptions to critical infrastructures. &nbsp;- Risks linked to private finance The update also highlights emerging risks in private finance driven by limited data, low transparency, prolonged growth and complex, opaque interconnections with the broader financial system. These factors increase the potential for sudden market shifts in investor liquidity and spillovers to other parts of the financial system.&nbsp; Recent developments in certain US private credit funds, linked to AI replacing more traditional software businesses, illustrate potential vulnerabilities related to changes in investor sentiment.&nbsp; EU financial sector remains resilient overall Despite the challenging geopolitical environment, European financial markets have continued to demonstrate resilience. The insurance and Institutions for Occupational Retirement Provision (IORP) sectors maintain robust capital and funding positions.&nbsp; In the banking sector, capital ratios remain high, while liquidity positions and asset quality are solid. Direct exposures to countries most affected by the war remain limited. Supervisors and market participants to maintain vigilance Given the ongoing geopolitical tensions, the Joint Committee of the ESAs calls on supervisors and market participants to maintain a high level of readiness. This includes proactive risk assessments with appropriate tools, the prudent management of sovereign exposures and the inclusion of geopolitical context in risk management. Possible indirect effects stemming from energy prices and exposures to highly affected sectors should also be closely monitored. &nbsp; Financial institutions, authorities and investors are also encouraged to closely monitor and manage risks associated with private markets, considering limited transparency, rising exposures, and potential shifts in risk profiles, linked to the upcoming Solvency II 2027 changes. &nbsp; Further information: Tayfun Yilmaz Communications Officer press@esma.europa.eu 27/03/2026 JC 2026 06 Joint Committee Update on Risks and Vulnerabilities in the EU Financial System – Spring 2026",
@@ -9592,26 +9609,6 @@
       "Trading & Exchange"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bhutan moves $23 million worth of bitcoin; total holdings down 70% from peak",
-    "description": "One of the recipient wallets had previously been used to route funds for selling via Galaxy Digital and OKX, Onchain Lens said.",
-    "date": "2026-04-09",
-    "source_url": "https://www.theblock.co/post/396818/bhutan-moves-23-million-worth-bitcoin",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
