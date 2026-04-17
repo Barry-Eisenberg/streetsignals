@@ -1,5 +1,78 @@
 [
   {
+    "institution": "Chainalysis",
+    "initiative": "Sanctioned Russia-Linked Exchange Grinex Suspends Operations Following Alleged Cyberattack",
+    "description": "TL;DR Grinex, the sanctioned successor to the Russian exchange Garantex, suspended operations yesterday following a claimed 1 billion ruble ($13.7&#8230; The post Sanctioned Russia-Linked Exchange Grinex Suspends Operations Following Alleged Cyberattack appeared first on Chainalysis .",
+    "date": "2026-04-17",
+    "source_url": "https://www.chainalysis.com/blog/sanctioned-grinex-exchange-suspends-operations/",
+    "category": "ecosystem",
+    "source_name": "Chainalysis — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Strategy looks to boost preferred stock STRC’s dividend payments to semi-monthly",
+    "description": "STRC is a perpetual preferred stock designed to trade near a $100 par value that currently pays a dividend at an annualized rate of 11.5%.",
+    "date": "2026-04-17",
+    "source_url": "https://www.theblock.co/post/397971/strategy-to-boost-preferred-stock-strcs-dividend-payments-to-semi-monthly",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Rhea Finance post-mortem puts exploit losses at $18.4 million, more than double initial estimates",
+    "description": "Using what the team described as a \"deliberately constructed swap route,\" the attacker opened a large number of margin trading positions.",
+    "date": "2026-04-17",
+    "source_url": "https://www.theblock.co/post/397961/rhea-finance-post-mortem-exploit-losses-18-4-million-double-initial-estimates",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Crypto Council for Innovation gains Digital Energy Council as its first energy-focused acquisition",
+    "description": "CCI is adding the Digital Energy Council to its roster, marking the first member dedicated specifically to digital energy policy.",
+    "date": "2026-04-17",
+    "source_url": "https://www.theblock.co/post/397928/crypto-council-for-innovation-gains-digital-energy-council-as-its-first-energy-focused-acquisition",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Strategy proposes semi-monthly dividends on its popular STRC preferred stock",
     "description": "\"[The] proposed changes are intended to stabilize price, dampen cyclicality, drive liquidity, and grow demand,\" said Executive Chairman Michael Saylor.",
@@ -9535,81 +9608,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Potential buyers are circling Winklevoss-backed crypto exchange Gemini",
-    "description": "Interested parties are considering buying select parts of the business, particularly its shuttered European operations, to secure regulatory licenses, rather than pursuing a full takeover.",
-    "date": "2026-04-09",
-    "source_url": "https://www.coindesk.com/business/2026/04/02/potential-buyers-are-circling-winklevoss-backed-crypto-exchange-gemini",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "U.S. Treasury to loop in crypto sector on hacker warnings shared with traditional firms",
-    "description": "The Department of the Treasury announced it's letting crypto firms sign up for timely information-sharing on cybersecurity threats.",
-    "date": "2026-04-09",
-    "source_url": "https://www.coindesk.com/policy/2026/04/09/u-s-treasury-to-loop-in-crypto-sector-on-hacker-warnings-shared-with-traditional-firms",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Nymbus launches secure MCP server for AI-driven core banking actions",
-    "description": "Nymbus, a modern banking platform for U.S. banks and credit unions, today announced the launch of the Nymbus MCP Server, one of the first secure Model Context Protocol (MCP) servers purpose-made for core banking.",
-    "date": "2026-04-09",
-    "source_url": "https://www.finextra.com/pressarticle/109420/nymbus-launches-secure-mcp-server-for-ai-driven-core-banking-actions",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin shoots above $72,000 as optimism grows over Middle East ceasefire",
-    "description": "Israeli Prime Minister Netanyahu reportedly has signaled a willingness to negotiate with Lebanon.",
-    "date": "2026-04-09",
-    "source_url": "https://www.coindesk.com/markets/2026/04/09/bitcoin-shoots-above-usd72-000-as-optimism-grows-over-middle-east-ceasefire",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
