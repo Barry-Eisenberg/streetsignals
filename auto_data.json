@@ -1,5 +1,79 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "The 4.5 signal: Why Glassnode’s RHODL ratio says the bitcoin bottom may be in",
+    "description": "RHODL ratio suggests market conditions resemble cycle corrections rather than late-stage tops, as long-term holders regain dominance.",
+    "date": "2026-04-17",
+    "source_url": "https://www.coindesk.com/markets/2026/04/17/the-4-5-signal-why-glassnode-s-rhodl-ratio-says-the-bitcoin-bottom-may-be-in",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Russia-linked Grinex exchange halts operations after $13 million ‘state-backed’ hack",
+    "description": "The exchange, formerly known as Garantex and based in Kyrgyzstan, has been sanctioned by the U.S., U.K. and EU for helping users bypass sanctions.",
+    "date": "2026-04-17",
+    "source_url": "https://www.coindesk.com/business/2026/04/17/russia-linked-grinex-exchange-halts-operations-after-usd13-million-state-backed-hack",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Japan reclassifies digital assets as financial instruments",
+    "description": "Japan approves FIEA rules classifying digital assets as financial instruments, shifting oversight from PSA, and banning insider trading on non-public data. The post Japan reclassifies digital assets as financial instruments appeared first on CoinGeek .",
+    "date": "2026-04-17",
+    "source_url": "https://coingeek.com/japan-reclassifies-digital-assets-as-financial-instruments/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Boerse Stuttgart Group launches premium investment program BISON Select",
+    "description": "With BISON Select, Boerse Stuttgart Group is introducing a premium program for investors with larger investment goals. The aim of the new customer program is to offer additional services, personalized conditions, a dedicated trader community, and useful tools, such as the holding period tracker.",
+    "date": "2026-04-17",
+    "source_url": "https://www.finextra.com/pressarticle/109506/boerse-stuttgart-group-launches-premium-investment-program-bison-select",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Fintech Wrap Up",
     "initiative": "AI will control your payments sooner than you think - Bunita Sawhney (CPO, Mastercard)",
     "description": "In this episode of the WRAP UP Podcast, I sat down with Bunita Sawhney, Chief Consumer Product Officer at Mastercard, to reflect on how consumer payments are changing beneath the surface.",
@@ -9539,83 +9613,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Bitcoin Falls Below $71,000 as Iran Ceasefire Frays Within 48 Hours and Oil Rebounds",
-    "description": "The post Bitcoin Falls Below $71,000 as Iran Ceasefire Frays Within 48 Hours and Oil Rebounds appeared first on Unchained .",
-    "date": "2026-04-09",
-    "source_url": "https://unchainedcrypto.com/bitcoin-falls-below-71000-as-iran-ceasefire-frays-within-48-hours-and-oil-rebounds-unchained/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Morgan Stanley’s MSBT Debuts as the Cheapest Spot Bitcoin ETF, Logs $34 Million on Day One",
-    "description": "The post Morgan Stanley&#8217;s MSBT Debuts as the Cheapest Spot Bitcoin ETF, Logs $34 Million on Day One appeared first on Unchained .",
-    "date": "2026-04-09",
-    "source_url": "https://unchainedcrypto.com/morgan-stanleys-msbt-debuts-as-the-cheapest-spot-bitcoin-etf-logs-34-million-on-day-one-unchained/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "NYT Names Adam Back as Satoshi Nakamoto. He Denies It — and the Crypto Community Agrees with Him.",
-    "description": "The post NYT Names Adam Back as Satoshi Nakamoto. He Denies It — and the Crypto Community Agrees with Him. appeared first on Unchained .",
-    "date": "2026-04-09",
-    "source_url": "https://unchainedcrypto.com/nyt-names-adam-back-as-satoshi-nakamoto-he-denies-it-and-the-crypto-community-agrees-with-him-unchained/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Iran Demands Bitcoin Payments for Strait of Hormuz Transit, Turning Crypto Into a Geopolitical Toll Mechanism",
-    "description": "The post Iran Demands Bitcoin Payments for Strait of Hormuz Transit, Turning Crypto Into a Geopolitical Toll Mechanism appeared first on Unchained .",
-    "date": "2026-04-09",
-    "source_url": "https://unchainedcrypto.com/iran-demands-bitcoin-payments-for-strait-of-hormuz-transit-turning-crypto-into-a-geopolitical-toll-mechanism-unchained/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
