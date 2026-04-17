@@ -1,6 +1,63 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Ethereum just had its busiest quarter ever, capping a three-year comeback",
+    "description": "Quarterly transactions hit 200.4 million in Q1 2026, the first time above 200 million and more than double the 2023 lows.",
+    "date": "2026-04-17",
+    "source_url": "https://www.coindesk.com/tech/2026/04/17/ethereum-just-had-its-busiest-quarter-ever-completing-a-three-year-comeback-on-chain",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "This simple indicator has called every bottom since 2015. It hasn't triggered yet",
+    "description": "A bitcoin indicator based on key moving averages has accurately marked every bear market bottom since 2015. That signal hasn't fired yet.",
+    "date": "2026-04-17",
+    "source_url": "https://www.coindesk.com/markets/2026/04/17/this-simple-indicator-has-called-every-bottom-since-2015-it-hasn-t-triggered-yet",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "UK lawmaker urges FCA probe of Farage crypto promotion",
+    "description": "UK lawmaker urges FCA probe into Nigel Farage over Stack BTC promo, citing possible market abuse, conflicts of interest, and risks to investors. The post UK lawmaker urges FCA probe of Farage crypto promotion appeared first on CoinGeek .",
+    "date": "2026-04-17",
+    "source_url": "https://coingeek.com/uk-lawmaker-urges-fca-probe-of-farage-crypto-promotion/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "The U.S. government moves $606,000 in bitcoin linked to the 2016 Bitfinex hack to Coinbase",
     "description": "Bitfinex plans to use the returned coins to redeem all Recovery Right Tokens and devote at least 80 percent of remaining net proceeds to repurchasing and burning its UNUS SED LEO token.",
     "date": "2026-04-17",
@@ -9557,63 +9614,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "APAC tops world digital wallet use; US sticks to cards, for now",
-    "description": "The Global Payments Report highlights a surge in digital wallet use, especially in APAC, forecasting significant shifts in payment trends by 2030. The post APAC tops world digital wallet use; US sticks to cards, for now appeared first on CoinGeek .",
-    "date": "2026-04-09",
-    "source_url": "https://coingeek.com/apac-tops-world-digital-wallet-use-us-sticks-to-cards-for-now/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Perpetuals rolls out Quantum-Resilience-as-a-Service",
-    "description": "Nasdaq-listed fintech Perpetuals has unveiled Quantum-Resilience-as-a-Service (QRaaS), a security offering built to help financial institutions, trading platforms, and payment networks strengthen encryption against emerging quantum threats without overhauling existing systems.",
-    "date": "2026-04-09",
-    "source_url": "https://www.finextra.com/newsarticle/47553/perpetuals-rolls-out-quantum-resilience-as-a-service",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Revolut introduces AI assistant for money management",
-    "description": "Revolut has launched a new AI assistant to help customers with money management tasks, enabling users to get instant spending insights, check investments, manage subscriptions or plan a trip all through a single in-app conversation",
-    "date": "2026-04-09",
-    "source_url": "https://www.finextra.com/newsarticle/47551/revolut-introduces-ai-assistant-for-money-management",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
