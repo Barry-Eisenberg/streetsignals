@@ -1,5 +1,45 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "X exec says Cashtags crypto, stock token feature has driven $1 billion in trading volume",
+    "description": "The Cashtags feature aligns with Musk's broader ambitions to transform X into a super app.",
+    "date": "2026-04-17",
+    "source_url": "https://www.theblock.co/post/397924/x-exec-cashtags-crypto-stock-token-feature-1-billion-trading-volume",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Crypto Council for Innovation adds Digital Energy Council as its first energy-focused member",
+    "description": "CCI is adding the Digital Energy Council to its roster, marking the first member dedicated specifically to digital energy policy.",
+    "date": "2026-04-17",
+    "source_url": "https://www.theblock.co/post/397928/crypto-council-for-innovation-adds-digital-energy-council-as-its-first-energy-focused-member",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Beaten-down digital asset treasury names lead crypto stock surge as bitcoin hits $78,000",
     "description": "Oil prices slumped as Trump said Iran committed to open the Strait of Hormuz and the U.S. plans to acquire that country's enriched uranium as part of a deal.",
@@ -9575,43 +9615,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Gabriel Makhlouf: Inflation, growth, and monetary policy in a fractured world",
-    "description": "Speech by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at MNI Connect, Dublin, 1 April 2026.",
-    "date": "2026-04-09",
-    "source_url": "https://www.bis.org/review/r260409b.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "Operation Atlantic: How Public-Private Collaboration Is Freezing Millions in Crypto Scam Proceeds",
-    "description": "Last week, Chainalysis joined a proactive joint operation co-hosted by the UK’s National Crime Agency (NCA), the US Secret Service,&#8230; The post Operation Atlantic: How Public-Private Collaboration Is Freezing Millions in Crypto Scam Proceeds appeared first on Chainalysis .",
-    "date": "2026-04-09",
-    "source_url": "https://www.chainalysis.com/blog/operation-atlantic-freezing-crypto-scam-proceeds/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
