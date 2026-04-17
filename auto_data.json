@@ -1,5 +1,78 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Clear Street scores MiFID II licence",
+    "description": "Clear Street (“Clear Street” or “the Company”), a cloud-native financial infrastructure technology firm on a mission to give every sophisticated investor access to every asset in every market, today announced it has received authorization from the Netherlands Authority for the Financial Markets (AFM) to operate as an investment firm.",
+    "date": "2026-04-17",
+    "source_url": "https://www.finextra.com/pressarticle/109512/clear-street-scores-mifid-ii-licence",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Tabby secures UAE licence",
+    "description": "Tabby has been granted a Stored Value Facilities (SVF) licence by the Central Bank of the UAE (CBUAE), authorising the company to hold customer funds and introduce a new suite of financial products, including spending accounts, cards and money management tools.",
+    "date": "2026-04-17",
+    "source_url": "https://www.finextra.com/pressarticle/109511/tabby-secures-uae-licence",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Transport Ticketing Outlook: Data Proves a Demand for Digital",
+    "description": "Traditionally, users of public transport were issued with a physical ticket as proof of payment, iss...",
+    "date": "2026-04-17",
+    "source_url": "https://www.finextra.com/blogposting/31448/transport-ticketing-outlook-data-proves-a-demand-for-digital",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Congresswoman Biggs discloses six-figure BlackRock bitcoin ETF buy as BTC rebounds",
+    "description": "Rep. Sheri Biggs disclosed a purchase of up to $250,000 in BlackRock’s iShares Bitcoin Trust ETF for the second time in a year.",
+    "date": "2026-04-17",
+    "source_url": "https://www.theblock.co/post/397939/congresswoman-biggs-six-figure-blackrock-bitcoin-etf-buy-btc-rebounds",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "X exec says Cashtags crypto, stock token feature has driven $1 billion in trading volume",
     "description": "The Cashtags feature aligns with Musk's broader ambitions to transform X into a super app.",
@@ -8997,6 +9070,25 @@
   },
   {
     "institution": "BIS",
+    "initiative": "Denis Beau: Stablecoins - what strategic choices for Europe?",
+    "description": "Speaking points (virtually) by Mr Denis Beau, First Deputy Governor of the Bank of France, at the EUROFI High Level Seminar, session \"Stablecoins: what strategic choices for Europe?\", Nicosia, 26 March 2026.",
+    "date": "2026-04-09",
+    "source_url": "https://www.bis.org/review/r260331b.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
     "initiative": "Gabriel Makhlouf: Inflation, growth, and monetary policy in a fractured world",
     "description": "Speech by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at MNI Connect, Dublin, 1 April 2026.",
     "date": "2026-04-09",
@@ -9519,100 +9611,6 @@
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto for Advisors: Crypto’s Performance Q1",
-    "description": "Q1 digital asset review: geopolitical conflict and Fed caution led to declines, but institutional flows and regulatory clarity returned in March, building a durable foundation for Q2",
-    "date": "2026-04-09",
-    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/08/crypto-for-advisors-crypto-s-performance-q1",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Stablecoin volumes to reach $719T by 2035 as generational wealth shift speeds up crypto adoption",
-    "description": "Massive transfer of wealth to younger, crypto-native users and rising payment volumes challenge dominance of Visa and Mastercard",
-    "date": "2026-04-09",
-    "source_url": "https://www.coindesk.com/business/2026/04/09/stablecoin-volumes-to-reach-usd719t-by-2035-as-generational-wealth-shift-speeds-up-crypto-adoption",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Tom Lee's Bitmine uplists to NYSE, expands buyback authorization to $4 billion",
-    "description": "The company holds nearly 4% of ether's (ETH) total supply, but shares have struggled alongside that crypto.",
-    "date": "2026-04-09",
-    "source_url": "https://www.coindesk.com/markets/2026/04/09/tom-lee-s-bitmine-lists-on-nyse-expands-usd4-billion-buyback-as-eth-bet-deepens",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Oracle introduces Fusion agentic applications for finance and supply chains",
-    "description": "Oracle today announced Fusion Agentic Applications for finance and supply chain operations. The new agentic applications are powered by coordinated teams of specialized AI agents that are outcome-driven, proactive, reasoning-based, and engineered for enterprise execution.",
-    "date": "2026-04-09",
-    "source_url": "https://www.finextra.com/pressarticle/109418/oracle-introduces-fusion-agentic-applications-for-finance-and-supply-chains",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Oracle applies AI agents to financial crime and compliance suite",
-    "description": "Oracle continues to strengthen its financial crime and compliance portfolio with new AI capabilities that accelerate investigations, insights, and results.",
-    "date": "2026-04-09",
-    "source_url": "https://www.finextra.com/pressarticle/109419/oracle-applies-ai-agents-to-financial-crime-and-compliance-suite",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
     ],
     "initiative_types": [],
     "year": "2026"
