@@ -1,6 +1,28 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Stripe doubles down on blockchain and stablecoins, aiming to become 'AWS for money'",
+    "description": "Demand is emerging fastest in the Global South and cross-border use cases, where cards fail and currencies are unstable, said Adrien Duchâteau, Stripe's crypto GTM lead.",
+    "date": "2026-04-18",
+    "source_url": "https://www.coindesk.com/business/2026/04/18/stripe-doubles-down-on-blockchain-and-stablecoins-aiming-to-become-aws-for-money",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Zondacrypto under fire as Poland's prime minister links exchange to legislative interference",
     "description": "The company also disclosed a 4,500 BTC wallet that it can't access due to missing private keys linked to a former CEO, who's now missing.",
     "date": "2026-04-18",
@@ -9586,26 +9608,6 @@
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "These 3 crypto stocks could actually beat bitcoin ETFs, says TD Cowen",
-    "description": "Analyst Lance Vitanza is betting that digital asset treasury\"companies like Nakamoto, SharpLink and Strive can outperform standard crypto ETFs by aggressively stacking coins and capturing staking yields.",
-    "date": "2026-04-09",
-    "source_url": "https://www.coindesk.com/markets/2026/04/09/td-cowen-says-these-3-crypto-stocks-could-actually-beat-bitcoin-etfs",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Interoperability & Standards"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
