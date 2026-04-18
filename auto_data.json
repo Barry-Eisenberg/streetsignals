@@ -1,6 +1,26 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "XRP leads majors with 8% weekly outperformance, what next after breakout",
+    "description": "Token edges ahead of bitcoin and ether over seven days, though thinning participation keeps the move in consolidation territory.",
+    "date": "2026-04-18",
+    "source_url": "https://www.coindesk.com/markets/2026/04/18/xrp-leads-majors-with-8-weekly-outperformance-what-next-after-breakout",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "How a quantum computer can be used to actually steal your bitcoin in '9 minutes'",
     "description": "Part one explained the physics of quantum computing. This piece explains the target — how bitcoin's encryption works, why a quantum algorithm breaks it, and what Google's paper changed about the timeline.",
     "date": "2026-04-18",
@@ -9585,25 +9605,6 @@
     "initiative_types": [
       "DeFi",
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "AlphaTON Capital looks to raise $43 million to bolster Telegram’s Cocoon AI infrastructure",
-    "description": "In addition to its sizable TON token treasury, AlphaTON is also focused on supporting Telegram's native decentralized AI platform, Cocoon.",
-    "date": "2026-04-09",
-    "source_url": "https://www.theblock.co/post/396914/alphaton-capital-looks-raise-43-million-bolster-telegram-cocoon-ai",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
     ],
     "year": "2026"
   }
