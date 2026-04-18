@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bitcoin falls back to $76,000 as Iran shuts Hormuz again",
+    "description": "One of the biggest short liquidations 2026 wiped $593 million in bearish bets overnight. Saturday afternoon as Iran reportedly reversed the Hormuz reopening.",
+    "date": "2026-04-18",
+    "source_url": "https://www.coindesk.com/markets/2026/04/18/bearish-bets-lose-usd593-million-as-bitcoin-jumps-with-iran-fully-opening-hormuz",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "XRP leads majors with 8% weekly outperformance, what next after breakout",
     "description": "Token edges ahead of bitcoin and ether over seven days, though thinning participation keeps the move in consolidation territory.",
     "date": "2026-04-18",
@@ -9586,26 +9605,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Top Cryptocurrency Exchange Script Providers in the Market",
-    "description": "The cryptocurrency industry in 2026 is no longer defined by experiments. It is driven by the executi...",
-    "date": "2026-04-09",
-    "source_url": "https://www.finextra.com/blogposting/31355/top-cryptocurrency-exchange-script-providers-in-the-market",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
