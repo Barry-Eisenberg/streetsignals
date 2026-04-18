@@ -1,6 +1,27 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Binance and Biget to probe RAVE’s 4,500% token surge as claims of insider-orchestrated rally grow",
+    "description": "Nearly 90% of RAVE's supply was concentrated in just three wallets, and millions of tokens were transferred to exchanges before the price surge.",
+    "date": "2026-04-18",
+    "source_url": "https://www.coindesk.com/business/2026/04/18/binance-and-biget-to-probe-rave-s-4-500-token-surge-as-claims-of-insider-orchestrated-rally-grow",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Tokenization & Issuance",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Stripe doubles down on blockchain and stablecoins, aiming to become 'AWS for money'",
     "description": "Demand is emerging fastest in the Global South and cross-border use cases, where cards fail and currencies are unstable, said Adrien Duchâteau, Stripe's crypto GTM lead.",
     "date": "2026-04-18",
@@ -9593,25 +9614,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin tops $72,000, but Circle and Bullish drop sharply after downgrades",
-    "description": "Eased Middle East tensions pushed crypto prices and U.S. stocks sizable hjigher.",
-    "date": "2026-04-09",
-    "source_url": "https://www.coindesk.com/markets/2026/04/09/bitcoin-tops-usd72-000-but-circle-and-bullish-drop-sharply-after-downgrades",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
