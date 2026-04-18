@@ -1,6 +1,64 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Why Michael Saylor's Strategy decided to make STRC's dividend bi-monthly",
+    "description": "Strategy aim to reduce volatility, enable consistent bitcoin buying, and create the only bi-monthly paying preferred shares in the market.",
+    "date": "2026-04-18",
+    "source_url": "https://www.coindesk.com/markets/2026/04/18/why-michael-saylor-s-strategy-decided-to-make-strc-s-dividend-bi-monthly",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "From smelters to servers: Alcoa to cash in on crypto’s thirst for energy",
+    "description": "Alcoa is in advanced negotiations to sell its dormant Massena East smelter in upstate New York to Bitcoin mining firm NYDIG.",
+    "date": "2026-04-18",
+    "source_url": "https://www.coindesk.com/business/2026/04/18/from-smelters-to-servers-alcoa-to-cash-in-on-crypto-s-thirst-for-energy",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "RaveDAO team denies role in RAVE token pump as Binance, Bitget open investigations",
+    "description": "Onchain investigator ZachXBT alleged a pump-and-dump scheme and has offered a $25,000 bounty for whistleblowers.",
+    "date": "2026-04-18",
+    "source_url": "https://www.theblock.co/post/397991/ravedao-team-denies-role-in-rave-token-pump-as-binance-bitget-open-investigations",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "AI is increasingly eating into VC fundings and here is how crypto firms are adapting",
     "description": "AI companies raised $242 billion (80% of global venture funding) in early 2026, with Gartner projecting total AI spending will reach $2.52 trillion this year.",
     "date": "2026-04-18",
@@ -9473,6 +9531,61 @@
   },
   {
     "institution": "BIS",
+    "initiative": "Denis Beau: Stablecoins - what strategic choices for Europe?",
+    "description": "Speaking points (virtually) by Mr Denis Beau, First Deputy Governor of the Bank of France, at the EUROFI High Level Seminar, session \"Stablecoins: what strategic choices for Europe?\", Nicosia, 26 March 2026.",
+    "date": "2026-04-09",
+    "source_url": "https://www.bis.org/review/r260331b.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Federal Reserve Board announces termination of enforcement actions with Crédit Agricole S.A. and Crédit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.",
+    "description": "Federal Reserve Board announces termination of enforcement actions with Cr&eacute;dit Agricole S.A. and Cr&eacute;dit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.",
+    "date": "2026-04-09",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260409a.htm",
+    "category": "regulators",
+    "source_name": "Federal Reserve — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Connecting the Dots",
+    "initiative": "Mastercard Pushes Agentic Commerce Into Reality",
+    "description": "Hey Payments Fanatic! Agentic commerce is moving from theory to action, and Mastercard is at the center of it. The global card network announced the completion of a pilot that delivered its first authenticated agentic transaction in Thailand with Krungthai Card Public Company Limited (KTC).&#xA0; The pilot leveraged Mastercard",
+    "date": "2026-04-09",
+    "source_url": "https://www.connectingthedotsinpayments.com/mastercard-pushes-agentic-commerce-into-reality/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
     "initiative": "Gabriel Makhlouf: Inflation, growth, and monetary policy in a fractured world",
     "description": "Speech by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at MNI Connect, Dublin, 1 April 2026.",
     "date": "2026-04-09",
@@ -9506,116 +9619,6 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "The Drift Protocol Hack: How Privileged Access Led to a $285 Million Loss",
-    "description": "TL;DR On April 1, 2026, Solana’s Drift Protocol was drained of $285 million (over 50% of its TVL) in a&#8230; The post The Drift Protocol Hack: How Privileged Access Led to a $285 Million Loss appeared first on Chainalysis .",
-    "date": "2026-04-09",
-    "source_url": "https://www.chainalysis.com/blog/lessons-from-the-drift-hack/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Michael S Barr: Brief remarks on stablecoins",
-    "description": "Speech by Mr Michael S Barr, Member of the Board of Governors of the Federal Reserve System, at \"The GENIUS Act in practice: key questions for stablecoin regulation\", The Federalist Society, Washington DC, 31 March 2026.",
-    "date": "2026-04-09",
-    "source_url": "https://www.bis.org/review/r260408b.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Piero Cipollone: The digital euro - preparing for a potential launch",
-    "description": "Introductory statement by Mr Piero Cipollone, Member of the Executive Board of the European Central Bank, at the Committee on Economic and Monetary Affairs of the European Parliament, Brussels, 24 March 2026.",
-    "date": "2026-04-09",
-    "source_url": "https://www.bis.org/review/r260407e.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "CBDC"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Michelle W Bowman: Supporting small businesses",
-    "description": "Speech by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the CBA LIVE 26, organised by the Consumer Bankers Association, San Diego, California, 31 March 2026.",
-    "date": "2026-04-09",
-    "source_url": "https://www.bis.org/review/r260408a.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Gabriel Makhlouf: Opening remarks - Savings and Investment Forum",
-    "description": "Opening remarks by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, for the Savings and Investment Forum, 31 March 2026.",
-    "date": "2026-04-09",
-    "source_url": "https://www.bis.org/review/r260407h.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "The Power of Approach: Innovation and Compliance in the AI Era",
-    "description": "At the Communify Intelligence Experience, Mark Bordeaux, Client Executive, NTT Data joined FinextraTV to discuss how Agentic and Generative AI are driving operational efficiencies in wealth management. He mentioned cautions around Generative AI and client data, emphasising the need for careful deployment to avoid privacy and to prioritise a selective usage. Providing top tips to innovation in the face of increased regulation, Bordeaux said to ensure you really understand the impact of the steps that go into the process and marrying the regulation with design. Overall, Bordeaux encouraged firms and wealth managers to be pragmatic and aggressive and break each element down into value-added, logical elements.",
-    "date": "2026-04-09",
-    "source_url": "https://www.finextra.com/videoarticle/3480/the-power-of-approach-innovation-and-compliance-in-the-ai-era",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
