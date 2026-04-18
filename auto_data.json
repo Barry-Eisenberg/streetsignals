@@ -1,5 +1,24 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "How a quantum computer can be used to actually steal your bitcoin in '9 minutes'",
+    "description": "Part one explained the physics of quantum computing. This piece explains the target — how bitcoin's encryption works, why a quantum algorithm breaks it, and what Google's paper changed about the timeline.",
+    "date": "2026-04-18",
+    "source_url": "https://www.coindesk.com/tech/2026/04/18/how-a-quantum-computer-can-be-used-to-actually-steal-your-bitcoin-in-9-minutes",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Judge says Caitlyn Jenner’s JENNER memecoin is not a security in class action lawsuit",
     "description": "A judge ruled that a memecoin launched by media personality Caitlyn Jenner is not a security despite claims in a class action lawsuit.",
@@ -9585,25 +9604,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "US Secret Service freezes $12 million in crypto tied to global fraud in Operation Atlantic",
-    "description": "Authorities disrupted more than 120 cryptocurrency fraud domains, cutting off key infrastructure used to target victims.",
-    "date": "2026-04-09",
-    "source_url": "https://www.theblock.co/post/396911/us-secret-service-freezes-12-million-crypto-global-fraud-operation-atlantic",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
