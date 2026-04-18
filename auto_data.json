@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Zondacrypto under fire as Poland's prime minister links exchange to legislative interference",
+    "description": "The company also disclosed a 4,500 BTC wallet that it can't access due to missing private keys linked to a former CEO, who's now missing.",
+    "date": "2026-04-18",
+    "source_url": "https://www.coindesk.com/business/2026/04/18/zondacrypto-under-fire-as-poland-s-prime-minister-links-exchange-to-legislative-interference",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Wrapped XRP goes live on Solana, broadening DeFi access for Ripple-linked token",
     "description": "Wrapped XRP on Solana lets XRP holders access Jupiter, Phantom, and Meteora without selling the asset, the latest step in Hex Trust's multi-chain wXRP rollout first announced in December.",
     "date": "2026-04-18",
@@ -9587,26 +9606,6 @@
     "fmi_areas": [
       "Trading & Exchange",
       "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Galaxy stock rallies 11% after annual report shows core business profitable despite $241 million net loss",
-    "description": "Galaxy's Digital Assets segment, housing its trading, lending, asset management, and staking services, generated a $505 million profit.",
-    "date": "2026-04-09",
-    "source_url": "https://www.theblock.co/post/396948/galaxy-stock-rallies-11-after-annual-report-shows-core-business-profitable-despite-241-million-net-loss",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
