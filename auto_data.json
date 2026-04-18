@@ -1,6 +1,49 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Wrapped XRP goes live on Solana, broadening DeFi access for Ripple-linked token",
+    "description": "Wrapped XRP on Solana lets XRP holders access Jupiter, Phantom, and Meteora without selling the asset, the latest step in Hex Trust's multi-chain wXRP rollout first announced in December.",
+    "date": "2026-04-18",
+    "source_url": "https://www.coindesk.com/markets/2026/04/18/wrapped-xrp-goes-live-on-solana-broadening-defi-access-for-ripple-linked-token",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Ethereum co-founder Joseph Lubin warns of the dangers of AI being controlled by a few big tech firms",
+    "description": "In an interview with CoinDesk, the Ethereum co-founder spoke also about Ethereum’s evolution through MetaMask, stablecoins and tokenization, while downplaying quantum computing as a long-term, manageable issue.",
+    "date": "2026-04-18",
+    "source_url": "https://www.coindesk.com/tech/2026/04/18/ethereum-co-founder-joseph-lubin-warns-of-the-dangers-of-ai-being-controlled-by-a-few-big-tech-firms",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Former UK Prime Minister sees economy on 'very negative trajectory,' indicates support for bitcoin",
     "description": "Truss criticized central banking and defended her mini-budget, suggesting bitcoin and a CPAC UK conference could help push for economic reform.",
     "date": "2026-04-18",
@@ -9564,44 +9607,6 @@
     "fmi_areas": [
       "Collateral & Lending",
       "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "CryptoQuant says bitcoin, ether rally driven by new long positions in perpetual futures",
-    "description": "Open interest in BTC and ETH perpetual futures rose by over $2 billion each in 24 hours after the U.S.-Iran ceasefire announcement.",
-    "date": "2026-04-09",
-    "source_url": "https://www.theblock.co/post/396943/cryptoquant-bitcoin-ether-price-rally-perpetual-futures",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Binance’s Changpeng Zhao claims U.S. crypto rivals ‘paid millions’ to block his pardon",
-    "description": "The Binance founder also says friends told him firms funded \"smear articles\" because they opposed Binance doing business in the U.S.",
-    "date": "2026-04-09",
-    "source_url": "https://www.theblock.co/post/396926/binance-changpeng-zhao-claims-crypto-rivals-paid-millions-block-pardon",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
