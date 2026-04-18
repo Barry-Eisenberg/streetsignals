@@ -1,5 +1,24 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Alcoa nears deal to sell dormant New York smelter site to Bitcoin miner NYDIG: Bloomberg",
+    "description": "Oplinger said the transaction should close in the middle part of this year, as the aluminum giant works to offload 10 dormant US smelter sites.",
+    "date": "2026-04-18",
+    "source_url": "https://www.theblock.co/post/397983/alcoa-nears-deal-to-sell-dormant-new-york-smelter-site-to-bitcoin-miner-nydig-bloomberg",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Binance and Biget to probe RAVE’s 4,500% token surge as claims of insider-orchestrated rally grow",
     "description": "Nearly 90% of RAVE's supply was concentrated in just three wallets, and millions of tokens were transferred to exchanges before the price surge.",
@@ -9597,23 +9616,6 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "‘It is decentralization theatre’: Covenant AI exits Bittensor, TAO drops 15%",
-    "description": "Covenant AI claimed Bittensor's decentralization promise is false, citing 'punitive actions' from the network's co-founder, Jacob Steeves.",
-    "date": "2026-04-09",
-    "source_url": "https://www.theblock.co/post/396959/covenant-ai-exits-bittensor-tao",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
