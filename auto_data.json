@@ -1,5 +1,24 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin 'plebs eat first' mining pool Parasite finds its second BTC block",
+    "description": "Parasite Pool, which pays 1 BTC to the block finder and splits the rest among all participants, mined block 945,601 on Friday, about 48 days after its first.",
+    "date": "2026-04-18",
+    "source_url": "https://www.coindesk.com/tech/2026/04/18/bitcoin-plebs-eat-first-mining-pool-parasite-finds-its-second-btc-block",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Alcoa nears deal to sell dormant New York smelter site to Bitcoin miner NYDIG: Bloomberg",
     "description": "Oplinger said the transaction should close in the middle part of this year, as the aluminum giant works to offload 10 dormant US smelter sites.",
@@ -9597,25 +9616,6 @@
       "Data & Reporting"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Mastercard Pushes Agentic Commerce Into Reality",
-    "description": "Hey Payments Fanatic! Agentic commerce is moving from theory to action, and Mastercard is at the center of it. The global card network announced the completion of a pilot that delivered its first authenticated agentic transaction in Thailand with Krungthai Card Public Company Limited (KTC).&#xA0; The pilot leveraged Mastercard",
-    "date": "2026-04-09",
-    "source_url": "https://www.connectingthedotsinpayments.com/mastercard-pushes-agentic-commerce-into-reality/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
