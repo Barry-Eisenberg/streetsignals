@@ -1,6 +1,42 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "AI is increasingly eating into VC fundings and here is how crypto firms are adapting",
+    "description": "AI companies raised $242 billion (80% of global venture funding) in early 2026, with Gartner projecting total AI spending will reach $2.52 trillion this year.",
+    "date": "2026-04-18",
+    "source_url": "https://www.coindesk.com/business/2026/04/18/ai-is-increasingly-eating-into-vc-fundings-and-here-is-how-crypto-firms-are-adapting",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Kelp DAO’s rsETH bridge apparently exploited for roughly $292 million in LayerZero-based attack",
+    "description": "Kelp's emergency pauser multisig froze the protocol's core contracts roughly 46 minutes after the successful drain, blocking two follow-up attempts.",
+    "date": "2026-04-18",
+    "source_url": "https://www.theblock.co/post/397988/kelp-daos-rseth-bridge-apparently-exploited-for-roughly-292-million-in-layerzero-based-attack",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bitcoin 'plebs eat first' mining pool Parasite finds its second BTC block",
     "description": "Parasite Pool, which pays 1 BTC to the block finder and splits the rest among all participants, mined block 945,601 on Friday, about 48 days after its first.",
     "date": "2026-04-18",
@@ -9436,6 +9472,23 @@
     "year": "2026"
   },
   {
+    "institution": "BIS",
+    "initiative": "Gabriel Makhlouf: Opening remarks - Savings and Investment Forum",
+    "description": "Opening remarks by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, for the Savings and Investment Forum, 31 March 2026.",
+    "date": "2026-04-09",
+    "source_url": "https://www.bis.org/review/r260407h.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "The Power of Approach: Innovation and Compliance in the AI Era",
     "description": "At the Communify Intelligence Experience, Mark Bordeaux, Client Executive, NTT Data joined FinextraTV to discuss how Agentic and Generative AI are driving operational efficiencies in wealth management. He mentioned cautions around Generative AI and client data, emphasising the need for careful deployment to avoid privacy and to prioritise a selective usage. Providing top tips to innovation in the face of increased regulation, Bordeaux said to ensure you really understand the impact of the steps that go into the process and marrying the regulation with design. Overall, Bordeaux encouraged firms and wealth managers to be pragmatic and aggressive and break each element down into value-added, logical elements.",
@@ -9562,62 +9615,6 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Michael S Barr: Brief remarks on stablecoins",
-    "description": "Speech by Mr Michael S Barr, Member of the Board of Governors of the Federal Reserve System, at \"The GENIUS Act in practice: key questions for stablecoin regulation\", The Federalist Society, Washington DC, 31 March 2026.",
-    "date": "2026-04-09",
-    "source_url": "https://www.bis.org/review/r260408b.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Piero Cipollone: The digital euro - preparing for a potential launch",
-    "description": "Introductory statement by Mr Piero Cipollone, Member of the Executive Board of the European Central Bank, at the Committee on Economic and Monetary Affairs of the European Parliament, Brussels, 24 March 2026.",
-    "date": "2026-04-09",
-    "source_url": "https://www.bis.org/review/r260407e.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "CBDC"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Michelle W Bowman: Supporting small businesses",
-    "description": "Speech by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the CBA LIVE 26, organised by the Consumer Bankers Association, San Diego, California, 31 March 2026.",
-    "date": "2026-04-09",
-    "source_url": "https://www.bis.org/review/r260408a.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
