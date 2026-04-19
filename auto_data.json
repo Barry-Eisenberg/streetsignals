@@ -1,6 +1,27 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Aave records $6 billion TVL drop as Kelp hack exposes structural risk at DeFi lender",
+    "description": "The AAVE token fell 16% and deposits fled the protocol after attackers used drained rsETH as collateral to borrow wrapped ether, leaving Aave to quantify how much bad debt it is now carrying.",
+    "date": "2026-04-19",
+    "source_url": "https://www.coindesk.com/tech/2026/04/19/aave-records-usd6-billion-tvl-drop-as-kelp-hack-exposes-structural-risk-at-defi-lender",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "RaveDAO's RAVE token collapses 90% in a day as exchange probes widen",
     "description": "The token traded at $1.15 on Sunday, down from a $27.33 peak on Friday, wiping out more than $5 billion in market cap while Binance and Bitget investigations advance.",
     "date": "2026-04-19",
@@ -9600,25 +9621,6 @@
     "signal_type": "Strategic Partnership",
     "fmi_areas": [
       "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "US launches cybersecurity sharing channel for crypto firms",
-    "description": "The US government has launched a cybersecurity information sharing initiative for the digital asset industry.",
-    "date": "2026-04-10",
-    "source_url": "https://www.finextra.com/newsarticle/47556/us-launches-cybersecurity-sharing-channel-for-crypto-firms",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
