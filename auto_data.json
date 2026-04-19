@@ -1,5 +1,24 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "The $292 million Kelp exploit: how it happened, and what it means for DeFi",
+    "description": "2026 is shaping up to be DeFi's \"worst year in terms of hacks,\" Ledger's CTO said, as the Kelp exploit shows how a single point of failure can cascade across systems.",
+    "date": "2026-04-19",
+    "source_url": "https://www.coindesk.com/business/2026/04/19/the-usd292-million-kelp-exploit-how-it-happened-and-what-it-means-for-defi",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Web3 hosting backbone Vercel confirms breach as supposed hacker demands $2 million ransom",
     "description": "Many crypto and Web3 projects deploy frontends on Vercel, raising the risk that secrets stored as non-sensitive environment variables may now be exposed.",
@@ -9612,25 +9631,6 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "NextGen Nordics to reveal data on innovation divide, AI integration and fraud prevention readiness",
-    "description": "Returning for its ninth year, NextGen Nordics will welcome decision makers from banks, central banks, regulators, trade associations, technology firms and fintechs to the Münchenbryggeriet in Stockholm, Sweden on 28 April 2026.",
-    "date": "2026-04-10",
-    "source_url": "https://www.finextra.com/newsarticle/47555/nextgen-nordics-to-reveal-data-on-innovation-divide-ai-integration-and-fraud-prevention-readiness",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance",
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
