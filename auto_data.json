@@ -1,5 +1,24 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Web3 hosting backbone Vercel confirms breach as supposed hacker demands $2 million ransom",
+    "description": "Many crypto and Web3 projects deploy frontends on Vercel, raising the risk that secrets stored as non-sensitive environment variables may now be exposed.",
+    "date": "2026-04-19",
+    "source_url": "https://www.theblock.co/post/398010/web3-hosting-backbone-vercel-confirms-breach-as-supposed-hacker-demands-2-million-ransom",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Previewing Consensus' Policy Summit: State of Crypto",
     "description": "Every year policy discussions get more important, and this year's even more so.",
@@ -524,6 +543,28 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Ledger Insights",
+    "initiative": "NYSE files first SEC rule change on tokenization journey",
+    "description": "The New York Stock Exchange (NYSE) has filed a rule change with the SEC to enable the trading of tokenized securities on its main order book. This closely mirrors a March Nasdaq rule change that allows stocks tokenized by the DTC to be traded in the same way as conventional stocks. This is one step [&#8230;] The post NYSE files first SEC rule change on tokenization journey appeared first on Ledger Insights - blockchain for enterprise .",
+    "date": "2026-04-17",
+    "source_url": "https://www.ledgerinsights.com/nyse-files-first-sec-rule-change-on-tokenization-journey/",
+    "category": "ecosystem",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
   },
@@ -9590,45 +9631,6 @@
       "Data & Reporting"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "XRP may be less exposed to quantum threats than bitcoin, experts say",
-    "description": "XRP’s design leaves a smaller share of its supply exposed to future quantum attacks than Bitcoin’s, experts said, pointing to additional XRPL features that stand out.",
-    "date": "2026-04-10",
-    "source_url": "https://www.coindesk.com/tech/2026/04/10/xrp-may-be-less-exposed-to-quantum-threats-than-bitcoin-experts-say",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "World Liberty defends borrowing position on Dolomite, dismisses liquidation concerns as ‘FUD’",
-    "description": "The project said it did supply WLFI as collateral and borrowed stablecoins, but it is 'nowhere near liquidation.'",
-    "date": "2026-04-10",
-    "source_url": "https://www.theblock.co/post/396967/world-liberty-rebuts-dolomite-criticism",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
     "year": "2026"
   }
 ]
