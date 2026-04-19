@@ -1,6 +1,44 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Previewing Consensus' Policy Summit: State of Crypto",
+    "description": "Every year policy discussions get more important, and this year's even more so.",
+    "date": "2026-04-19",
+    "source_url": "https://www.coindesk.com/policy/2026/04/19/previewing-consensus-policy-summit-state-of-crypto",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "EasyDNS accepts responsibility for eth.limo hijack, its first social engineering breach in 28 years",
+    "description": "The incident joins a growing list of crypto front-ends compromised at the DNS layer in recent months, where even decentralized protocols are vulnerable.",
+    "date": "2026-04-19",
+    "source_url": "https://www.theblock.co/post/398005/easydns-accepts-responsibility-for-eth-limo-hijack-its-first-social-engineering-breach-in-28-years",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Web3 VCs have a differentiation problem",
     "description": "When every fund claims the same great networks and strong relationships, nobody wins. Bauer, Co-Founder of TBV, offers a more rigorous framework for emerging managers to build a unique value proposition.",
     "date": "2026-04-19",
@@ -8559,6 +8597,28 @@
     "year": "2026"
   },
   {
+    "institution": "Connecting the Dots",
+    "initiative": "Noah-Hyperbeat Deal Unlocks $300B On-Chain Banking",
+    "description": "Hey Payments Fanatic! Noah has partnered with the on-chain banking layer, Hyperbeat, to give users a faster and easier way to move money between bank accounts and on-chain trading for the first time. As part of the partnership , Noah is now the default EUR, USD, and major currency settlement provider",
+    "date": "2026-04-10",
+    "source_url": "https://www.connectingthedotsinpayments.com/noah-hyperbeat-deal-unlocks-300b-on-chain-banking/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Europe’s opportunity to become an AI-leader in practical terms",
     "description": "EU is aiming high: &quot;The European Union is actively pursuing a strategy to become a global leade...",
@@ -9568,61 +9628,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "XRP edges higher to $1.35 on breakout, but bullish momentum still lacks",
-    "description": "Strong volume pushed price above $1.34, though weak fundamentals and overhead resistance continue to cap follow-through.",
-    "date": "2026-04-10",
-    "source_url": "https://www.coindesk.com/markets/2026/04/10/xrp-edges-higher-to-usd1-35-on-breakout-but-bullish-momentum-still-lacks",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "ETH, SOL, DOGE slide as Bitcoin fails to break $73,000 for the third time since the ceasefire",
-    "description": "The level that has capped every rally during the six-week war remains intact, with analysts saying $75,000 needs to break before the market enters a genuine bullish phase.",
-    "date": "2026-04-10",
-    "source_url": "https://www.coindesk.com/markets/2026/04/10/eth-sol-doge-slide-as-bitcoin-fails-to-break-usd73-000-for-the-third-time-since-the-ceasefire",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Digital payments rise but cash still leads in the Philippines",
-    "description": "Digital wallets and A2A payments gain ground in the Philippines, yet cash remains key as the country moves toward a cash-lite economy. The post Digital payments rise but cash still leads in the Philippines appeared first on CoinGeek .",
-    "date": "2026-04-10",
-    "source_url": "https://coingeek.com/digital-payments-rise-but-cash-still-leads-in-the-philippines/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
