@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Inside the rise of wrench attacks against crypto holders and how France has become the focus",
+    "description": "France has seen 41 crypto-related kidnappings this year, roughly one every 2.5 days, prompting authorities to step up security.",
+    "date": "2026-04-19",
+    "source_url": "https://www.coindesk.com/business/2026/04/19/inside-the-rise-of-wrench-attacks-against-crypto-holders-and-how-france-has-become-the-focus",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Nomura study says 65% of institutional investors see crypto as a vital portfolio diversifier",
     "description": "A new survey from Nomura and Laser Digital shows improving sentiment among institutional investors, as regulatory clarity and new products drive deeper engagement with digital assets.",
     "date": "2026-04-19",
@@ -9588,38 +9607,22 @@
   },
   {
     "institution": "BIS",
-    "initiative": "Denis Beau: Stablecoins - what strategic choices for Europe?",
-    "description": "Speaking points (virtually) by Mr Denis Beau, First Deputy Governor of the Bank of France, at the EUROFI High Level Seminar, session \"Stablecoins: what strategic choices for Europe?\", Nicosia, 26 March 2026.",
+    "initiative": "Michael S Barr: Brief remarks on stablecoins",
+    "description": "Speech by Mr Michael S Barr, Member of the Board of Governors of the Federal Reserve System, at \"The GENIUS Act in practice: key questions for stablecoin regulation\", The Federalist Society, Washington DC, 31 March 2026.",
     "date": "2026-04-09",
-    "source_url": "https://www.bis.org/review/r260331b.htm",
+    "source_url": "https://www.bis.org/review/r260408b.htm",
     "category": "regulators",
     "source_name": "BIS — Central Banker Speeches",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
+    "signal_type": "Regulatory Action",
     "fmi_areas": [
-      "Digital Currency & Stablecoins"
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Gabriel Makhlouf: Inflation, growth, and monetary policy in a fractured world",
-    "description": "Speech by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at MNI Connect, Dublin, 1 April 2026.",
-    "date": "2026-04-09",
-    "source_url": "https://www.bis.org/review/r260409b.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
