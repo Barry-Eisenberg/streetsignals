@@ -9569,17 +9569,18 @@
   },
   {
     "institution": "BIS",
-    "initiative": "Denis Beau: Stablecoins - what strategic choices for Europe?",
-    "description": "Speaking points (virtually) by Mr Denis Beau, First Deputy Governor of the Bank of France, at the EUROFI High Level Seminar, session \"Stablecoins: what strategic choices for Europe?\", Nicosia, 26 March 2026.",
+    "initiative": "Michael S Barr: Brief remarks on stablecoins",
+    "description": "Speech by Mr Michael S Barr, Member of the Board of Governors of the Federal Reserve System, at \"The GENIUS Act in practice: key questions for stablecoin regulation\", The Federalist Society, Washington DC, 31 March 2026.",
     "date": "2026-04-09",
-    "source_url": "https://www.bis.org/review/r260331b.htm",
+    "source_url": "https://www.bis.org/review/r260408b.htm",
     "category": "regulators",
     "source_name": "BIS — Central Banker Speeches",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
+    "signal_type": "Regulatory Action",
     "fmi_areas": [
-      "Digital Currency & Stablecoins"
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
@@ -9588,32 +9589,34 @@
   },
   {
     "institution": "BIS",
-    "initiative": "Gabriel Makhlouf: Inflation, growth, and monetary policy in a fractured world",
-    "description": "Speech by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at MNI Connect, Dublin, 1 April 2026.",
+    "initiative": "Piero Cipollone: The digital euro - preparing for a potential launch",
+    "description": "Introductory statement by Mr Piero Cipollone, Member of the Executive Board of the European Central Bank, at the Committee on Economic and Monetary Affairs of the European Parliament, Brussels, 24 March 2026.",
     "date": "2026-04-09",
-    "source_url": "https://www.bis.org/review/r260409b.htm",
+    "source_url": "https://www.bis.org/review/r260407e.htm",
     "category": "regulators",
     "source_name": "BIS — Central Banker Speeches",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
+    "signal_type": "Product Launch",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "Digital Currency & Stablecoins"
     ],
-    "initiative_types": [],
+    "initiative_types": [
+      "CBDC"
+    ],
     "year": "2026"
   },
   {
     "institution": "BIS",
-    "initiative": "Gabriel Makhlouf: Opening remarks - Savings and Investment Forum",
-    "description": "Opening remarks by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, for the Savings and Investment Forum, 31 March 2026.",
+    "initiative": "Michelle W Bowman: Supporting small businesses",
+    "description": "Speech by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the CBA LIVE 26, organised by the Consumer Bankers Association, San Diego, California, 31 March 2026.",
     "date": "2026-04-09",
-    "source_url": "https://www.bis.org/review/r260407h.htm",
+    "source_url": "https://www.bis.org/review/r260408a.htm",
     "category": "regulators",
     "source_name": "BIS — Central Banker Speeches",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
+    "signal_type": "Product Launch",
     "fmi_areas": [
       "General Infrastructure"
     ],
