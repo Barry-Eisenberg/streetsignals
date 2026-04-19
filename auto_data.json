@@ -1,6 +1,28 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Stablecoins can help businesses turn costs into revenue, Paxos Labs cofounder says",
+    "description": "Firms using stablecoins can reshape margins by cutting costs, unlock credit and earn yield, but not every company needs to issue a token, Paxos Labs' Chunda McCain said.",
+    "date": "2026-04-19",
+    "source_url": "https://www.coindesk.com/business/2026/04/19/stablecoins-can-help-businesses-turn-costs-into-revenue-paxos-labs-cofounder-says",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Aave records $6 billion TVL drop as Kelp hack exposes structural risk at DeFi lender",
     "description": "The AAVE token fell 16% and deposits fled the protocol after attackers used drained rsETH as collateral to borrow wrapped ether, leaving Aave to quantify how much bad debt it is now carrying.",
     "date": "2026-04-19",
@@ -9605,25 +9627,6 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "OKX and HashKey invest in new Vietnam exchange ahead of crypto licensing push",
-    "description": "The partnership will help the exchange meet Vietnam's $380 million capital requirement to enter a government pilot program aimed at licensing local platforms and curbing offshore trading.",
-    "date": "2026-04-10",
-    "source_url": "https://www.coindesk.com/markets/2026/04/10/okx-hashkey-back-usd380-million-vietnam-crypto-push-as-new-rules-near-rollout",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
