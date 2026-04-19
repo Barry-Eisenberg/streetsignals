@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "One person holds the keys to $200 million of a project’s crypto. His co-founder says that has to end",
+    "description": "Co-founders Da Hongfei and Erik Zhang have conflicting restructuring plans, Da wants independent governance and multi-sig protection; Zhang wants accountability investigations and to remain on the board.",
+    "date": "2026-04-19",
+    "source_url": "https://www.coindesk.com/business/2026/04/16/one-person-holds-the-keys-to-usd200-million-of-a-project-s-crypto-his-co-founder-says-that-has-to-end",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "2026's biggest crypto exploit: $292 million gets drained from Kelp DAO with wrapped ether stranded across 20 chains",
     "description": "An attacker drained 116,500 rsETH, roughly 18% of circulating supply, from Kelp's LayerZero-powered bridge on Saturday, triggering emergency freezes across Aave, SparkLend, Fluid and Upshift.",
     "date": "2026-04-18",
@@ -9550,18 +9569,17 @@
   },
   {
     "institution": "BIS",
-    "initiative": "Michael S Barr: Brief remarks on stablecoins",
-    "description": "Speech by Mr Michael S Barr, Member of the Board of Governors of the Federal Reserve System, at \"The GENIUS Act in practice: key questions for stablecoin regulation\", The Federalist Society, Washington DC, 31 March 2026.",
+    "initiative": "Denis Beau: Stablecoins - what strategic choices for Europe?",
+    "description": "Speaking points (virtually) by Mr Denis Beau, First Deputy Governor of the Bank of France, at the EUROFI High Level Seminar, session \"Stablecoins: what strategic choices for Europe?\", Nicosia, 26 March 2026.",
     "date": "2026-04-09",
-    "source_url": "https://www.bis.org/review/r260408b.htm",
+    "source_url": "https://www.bis.org/review/r260331b.htm",
     "category": "regulators",
     "source_name": "BIS — Central Banker Speeches",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
+      "Digital Currency & Stablecoins"
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
@@ -9570,48 +9588,29 @@
   },
   {
     "institution": "BIS",
-    "initiative": "Piero Cipollone: The digital euro - preparing for a potential launch",
-    "description": "Introductory statement by Mr Piero Cipollone, Member of the Executive Board of the European Central Bank, at the Committee on Economic and Monetary Affairs of the European Parliament, Brussels, 24 March 2026.",
+    "initiative": "Gabriel Makhlouf: Inflation, growth, and monetary policy in a fractured world",
+    "description": "Speech by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at MNI Connect, Dublin, 1 April 2026.",
     "date": "2026-04-09",
-    "source_url": "https://www.bis.org/review/r260407e.htm",
+    "source_url": "https://www.bis.org/review/r260409b.htm",
     "category": "regulators",
     "source_name": "BIS — Central Banker Speeches",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "CBDC"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Michelle W Bowman: Supporting small businesses",
-    "description": "Speech by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the CBA LIVE 26, organised by the Consumer Bankers Association, San Diego, California, 31 March 2026.",
-    "date": "2026-04-09",
-    "source_url": "https://www.bis.org/review/r260408a.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
+      "Interoperability & Standards"
     ],
     "initiative_types": [],
     "year": "2026"
   },
   {
-    "institution": "BIS",
-    "initiative": "Gabriel Makhlouf: Opening remarks - Savings and Investment Forum",
-    "description": "Opening remarks by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, for the Savings and Investment Forum, 31 March 2026.",
+    "institution": "Federal Reserve",
+    "initiative": "Federal Reserve Board announces termination of enforcement actions with Crédit Agricole S.A. and Crédit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.",
+    "description": "Federal Reserve Board announces termination of enforcement actions with Cr&eacute;dit Agricole S.A. and Cr&eacute;dit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.",
     "date": "2026-04-09",
-    "source_url": "https://www.bis.org/review/r260407h.htm",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260409a.htm",
     "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
+    "source_name": "Federal Reserve — Press Releases",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
     "signal_type": "Investment / M&A",
