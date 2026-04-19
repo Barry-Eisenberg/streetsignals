@@ -9550,18 +9550,17 @@
   },
   {
     "institution": "BIS",
-    "initiative": "Michael S Barr: Brief remarks on stablecoins",
-    "description": "Speech by Mr Michael S Barr, Member of the Board of Governors of the Federal Reserve System, at \"The GENIUS Act in practice: key questions for stablecoin regulation\", The Federalist Society, Washington DC, 31 March 2026.",
+    "initiative": "Denis Beau: Stablecoins - what strategic choices for Europe?",
+    "description": "Speaking points (virtually) by Mr Denis Beau, First Deputy Governor of the Bank of France, at the EUROFI High Level Seminar, session \"Stablecoins: what strategic choices for Europe?\", Nicosia, 26 March 2026.",
     "date": "2026-04-09",
-    "source_url": "https://www.bis.org/review/r260408b.htm",
+    "source_url": "https://www.bis.org/review/r260331b.htm",
     "category": "regulators",
     "source_name": "BIS — Central Banker Speeches",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
+      "Digital Currency & Stablecoins"
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
@@ -9570,48 +9569,29 @@
   },
   {
     "institution": "BIS",
-    "initiative": "Piero Cipollone: The digital euro - preparing for a potential launch",
-    "description": "Introductory statement by Mr Piero Cipollone, Member of the Executive Board of the European Central Bank, at the Committee on Economic and Monetary Affairs of the European Parliament, Brussels, 24 March 2026.",
+    "initiative": "Gabriel Makhlouf: Inflation, growth, and monetary policy in a fractured world",
+    "description": "Speech by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at MNI Connect, Dublin, 1 April 2026.",
     "date": "2026-04-09",
-    "source_url": "https://www.bis.org/review/r260407e.htm",
+    "source_url": "https://www.bis.org/review/r260409b.htm",
     "category": "regulators",
     "source_name": "BIS — Central Banker Speeches",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "CBDC"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Michelle W Bowman: Supporting small businesses",
-    "description": "Speech by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the CBA LIVE 26, organised by the Consumer Bankers Association, San Diego, California, 31 March 2026.",
-    "date": "2026-04-09",
-    "source_url": "https://www.bis.org/review/r260408a.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
+      "Interoperability & Standards"
     ],
     "initiative_types": [],
     "year": "2026"
   },
   {
-    "institution": "BIS",
-    "initiative": "Gabriel Makhlouf: Opening remarks - Savings and Investment Forum",
-    "description": "Opening remarks by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, for the Savings and Investment Forum, 31 March 2026.",
+    "institution": "Federal Reserve",
+    "initiative": "Federal Reserve Board announces termination of enforcement actions with Crédit Agricole S.A. and Crédit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.",
+    "description": "Federal Reserve Board announces termination of enforcement actions with Cr&eacute;dit Agricole S.A. and Cr&eacute;dit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.",
     "date": "2026-04-09",
-    "source_url": "https://www.bis.org/review/r260407h.htm",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260409a.htm",
     "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
+    "source_name": "Federal Reserve — Press Releases",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
     "signal_type": "Investment / M&A",
@@ -9619,6 +9599,26 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainalysis",
+    "initiative": "Operation Atlantic: How Public-Private Collaboration Is Freezing Millions in Crypto Scam Proceeds",
+    "description": "Last week, Chainalysis joined a proactive joint operation co-hosted by the UK’s National Crime Agency (NCA), the US Secret Service,&#8230; The post Operation Atlantic: How Public-Private Collaboration Is Freezing Millions in Crypto Scam Proceeds appeared first on Chainalysis .",
+    "date": "2026-04-09",
+    "source_url": "https://www.chainalysis.com/blog/operation-atlantic-freezing-crypto-scam-proceeds/",
+    "category": "ecosystem",
+    "source_name": "Chainalysis — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
     "year": "2026"
   }
 ]
