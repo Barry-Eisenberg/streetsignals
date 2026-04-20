@@ -20,6 +20,25 @@
     "year": "2026"
   },
   {
+    "institution": "The Block",
+    "initiative": "Singapore-based Cobo launches agentic wallet with guardrails for AI-led onchain execution",
+    "description": "Cobo has launched Cobo Agentic Wallet, enabling AI agents to perform onchain tasks and incorporating multi-party computation for safety.",
+    "date": "2026-04-19",
+    "source_url": "https://www.theblock.co/post/397856/cobo-launches-agentic-wallet",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "The $292 million Kelp exploit: how it happened, and what it means for DeFi",
     "description": "2026 is shaping up to be DeFi's \"worst year in terms of hacks,\" Ledger's CTO said, as the Kelp exploit shows how a single point of failure can cascade across systems.",
@@ -9610,26 +9629,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Japan’s cabinet approves bill to classify crypto assets as financial products: Nikkei",
-    "description": "If passed during the current parliamentary session, the legislation would take effect as early as fiscal 2027, Nikkei reported.",
-    "date": "2026-04-10",
-    "source_url": "https://www.theblock.co/post/396982/japans-bill-classify-crypto-financial-products",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
