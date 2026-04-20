@@ -1,6 +1,178 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bitcoin drops from recent highs as traders watch CME gap, DeFi hack fallout",
+    "description": "Bitcoin pulled back after Friday’s surge as traders considered a CME futures gap, a DeFi exploit rattled altcoins and macro pressures weighed on sentiment.",
+    "date": "2026-04-20",
+    "source_url": "https://www.coindesk.com/markets/2026/04/20/bitcoin-drops-from-recent-highs-as-traders-watch-cme-gap-defi-hack-fallout",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin is rallying as flagship conference approaches, data shows the gains rarely last",
+    "description": "After a 50% slide and partial recovery for bitcoin, traders are watching whether the Las Vegas event marks another short-term top for bitcoin.",
+    "date": "2026-04-20",
+    "source_url": "https://www.coindesk.com/markets/2026/04/18/bitcoin-is-rallying-as-flagship-conference-approaches-data-shows-the-gains-rarely-last",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "BoE governor urges quick action on global stablecoin standards",
+    "description": "Bank of England Governor Andrew Bailey calls for global standards on stablecoins to ensure stable value and enhance regulatory consistency. The post BoE governor urges quick action on global stablecoin standards appeared first on CoinGeek .",
+    "date": "2026-04-20",
+    "source_url": "https://coingeek.com/boe-governor-urges-quick-action-on-global-stablecoin-standards/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "What are AI agent tokens?",
+    "description": "While early blockchain AI projects focused on infrastructure, such as decentralized compute or data networks, a newer wave is shifting toward AI agents themselves. These AI agent tokens are crypto assets tied to a specific agent, rather than a broader network or infrastructure layer. As these autonomous bots become more capable — generating content, managing [&hellip;]",
+    "date": "2026-04-20",
+    "source_url": "https://www.theblock.co/learn/396621/what-are-ai-agent-tokens",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Coinbase expands USDC borrowing to UK, allowing loans against bitcoin, ether",
+    "description": "Coinbase's facility allows UK users to borrow up to $5 million in USDC against bitcoin, ether, and cbETH via Morpho on Base.",
+    "date": "2026-04-20",
+    "source_url": "https://www.theblock.co/post/398056/coinbase-expands-usdc-borrowing-to-uk-allowing-loans-against-bitcoin-ether",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "LayerZero Links $292 Million Kelp DAO Bridge Exploit to North Korea’s Lazarus Group",
+    "description": "North Korea’s Lazarus Group likely stole $292 million from Kelp DAO’s rsETH bridge by exploiting a single-verifier configuration that LayerZero says it had warned against. The post LayerZero Links $292 Million Kelp DAO Bridge Exploit to North Korea’s Lazarus Group appeared first on Unchained .",
+    "date": "2026-04-20",
+    "source_url": "https://unchainedcrypto.com/layerzero-links-292-million-kelp-dao-bridge-exploit-to-north-koreas-lazarus-group/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Aave’s TVL Tanks $6.6 Billion as Kelp DAO Hack Sparks Bad Debt and Structural Fears",
+    "description": "After the Kelp DAO exploit, the attacker used $292 million in stolen rsETH as collateral on Aave V3, generating roughly $196 million in bad debt and triggering a $6.6 billion TVL collapse. The post Aave’s TVL Tanks $6.6 Billion as Kelp DAO Hack Sparks Bad Debt and Structural Fears appeared first on Unchained .",
+    "date": "2026-04-20",
+    "source_url": "https://unchainedcrypto.com/aaves-6-6-billion-tvl-drop-exposes-structural-risk-from-liquid-restaking-tokens/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Vercel Confirms Security Breach as Hacker Demands $2 Million and Claims to Sell Internal Access",
+    "description": "Vercel traced the breach to a compromised third-party AI tool and says sensitive environment variables were not accessed, but Web3 teams hosting on the platform are rotating credentials. The post Vercel Confirms Security Breach as Hacker Demands $2 Million and Claims to Sell Internal Access appeared first on Unchained .",
+    "date": "2026-04-20",
+    "source_url": "https://unchainedcrypto.com/vercel-confirms-security-breach-as-hacker-demands-2-million-and-claims-to-sell-internal-access/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Bitcoin Reaches Two-Month High Over $78,000 as Iran Says the Strait of Hormuz Is Open",
+    "description": "Bitcoin broke above $78,000 for the first time since early February after Iran declared the Strait of Hormuz fully open and US-Iran peace talks moved forward. The post Bitcoin Reaches Two-Month High Over $78,000 as Iran Says the Strait of Hormuz Is Open appeared first on Unchained .",
+    "date": "2026-04-20",
+    "source_url": "https://unchainedcrypto.com/bitcoin-reaches-two-month-high-of-78155-as-iran-reopens-the-strait-of-hormuz/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Here's how bitcoin's $7.9 billion April options expiry impact prices",
     "description": "With the bitcoin price above max pain and heavy positioning at $75K, traders face a potential squeeze or pullback into \"max pain\" expiry.",
     "date": "2026-04-20",
@@ -9453,178 +9625,6 @@
       "Trading & Exchange"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin gains after core CPI rose a less-than-forecast 0.2% in March.",
-    "description": "Headline inflation rose 0.9% last month, driven by the sharp rise in energy costs due to the Iran war.",
-    "date": "2026-04-10",
-    "source_url": "https://www.coindesk.com/markets/2026/04/10/bitcoin-rises-after-core-cpi-rose-a-less-than-forecast-0-2-in-march",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Fed consults on letting US banks use intermediaries to transfer funds through FedNow",
-    "description": "The Federal Reserve Board on Wednesday invited public comment on a proposal that would allow U.S. banks and credit unions to use intermediaries to transfer funds through the FedNow Service.",
-    "date": "2026-04-10",
-    "source_url": "https://www.finextra.com/pressarticle/109424/fed-consults-on-letting-us-banks-use-intermediaries-to-transfer-funds-through-fednow",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bitcoin rebound faces oil shock, inflation test despite ceasefire relief as macro jitters persist: analysts",
-    "description": "Bitcoin trades at a macro crossroads, with derivatives positioning signaling caution despite ceasefire relief, analysts said.",
-    "date": "2026-04-10",
-    "source_url": "https://www.theblock.co/post/397016/bitcoin-rebound-faces-oil-shock-inflation-test-despite-ceasefire-relief-as-macro-jitters-persist-analysts",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Total Payments opens Norwich office",
-    "description": "A fast-growing UK payments firm is continuing its national expansion with the launch of a new office in Norwich, as demand for flexible merchant services continues to rise.",
-    "date": "2026-04-10",
-    "source_url": "https://www.finextra.com/pressarticle/109423/total-payments-opens-norwich-office",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "How B2B Payment Leaders Can Avoid Losing Their Competitive Advantage",
-    "description": "In this FinextraTV 2026 interview, Saskia Devolder, Head of Visa Direct, Central Europe, discussed how banks can avoid losing their grip on B2B payments and maintain leadership in B2B cross-border payments. Devolder discusses the shifting expectations around transparency for clients, real-time payments, user experience, and how these expectations create a new era for cross-border payments. Devolder highlights why SMBs are willing to trade higher costs to ensure predictability and reliability. She notes how, in an ever changing industry, there is an an emerging need for my hybrid integrations across banks and fintech firms.",
-    "date": "2026-04-10",
-    "source_url": "https://www.finextra.com/videoarticle/3478/how-b2b-payment-leaders-can-avoid-losing-their-competitive-advantage",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Institutions' bitcoin positioning lacks conviction; CPI, Iran talks might help",
-    "description": "Institutions are betting on the bitcoin price hitting $80,000 through call options, but they are also buying downside protection.",
-    "date": "2026-04-10",
-    "source_url": "https://www.coindesk.com/daybook-us/2026/04/10/institutions-bitcoin-positioning-lacks-conviction-cpi-iran-talks-might-help",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "HSBC granted Hong Kong stablecoin issuer licence",
-    "description": "HSBC has been granted a stablecoin issuer licence by the Hong Kong Monetary Authority (HKMA).",
-    "date": "2026-04-10",
-    "source_url": "https://www.finextra.com/newsarticle/47559/hsbc-granted-hong-kong-stablecoin-issuer-licence",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "‘It’s time to pass the Clarity Act’: Coinbase CEO Brian Armstrong backs Bessent’s crypto bill push",
-    "description": "Coinbase CEO Brian Armstrong backed passing the Clarity Act after the firm previously withheld support for earlier versions of the bill.",
-    "date": "2026-04-10",
-    "source_url": "https://www.theblock.co/post/396992/coinbase-ceo-brian-armstrong-clarity-act",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "For stablecoins to grow, baby boomers must die",
-    "description": "Stablecoin growth could hit $719 trillion by 2035 as wealth shifts to younger users, while banks test digital assets and push back on dollar dominance. The post For stablecoins to grow, baby boomers must die appeared first on CoinGeek .",
-    "date": "2026-04-10",
-    "source_url": "https://coingeek.com/for-stablecoins-to-grow-baby-boomers-must-die/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
