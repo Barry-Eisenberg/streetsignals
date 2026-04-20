@@ -1,5 +1,86 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin, ether, solana slide, oil jumps on renewed U.S.-Iran war risks",
+    "description": "Bitcoin traded at $74,335 after Iran reimposed controls on the Strait of Hormuz over the weekend, with the modest 1.6% pullback standing out against a 5.7% jump in Brent and a 1.2% drop in European equity futures.",
+    "date": "2026-04-20",
+    "source_url": "https://www.coindesk.com/markets/2026/04/20/bitcoin-ether-solana-slide-oil-jumps-on-renewed-u-s-iran-war-risks",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "The $13 billion DeFi wipeout in two days, and it started with KelpDAO attack",
+    "description": "Multiple lending and yield protocols are posting double-digit percentage declines in TVL, though token prices are seeing a limited decline.",
+    "date": "2026-04-20",
+    "source_url": "https://www.coindesk.com/markets/2026/04/20/defi-tvl-drops-more-than-usd13-billion-in-two-days-following-kelp-dao-hack",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Bank of France calls for ‘strengthening of MiCA’ on stablecoins",
+    "description": "Bank of France Deputy Governor Denis Beau is advocating for stricter MiCA regulations on stablecoins to mitigate risks in the EU payment system. The post Bank of France calls for &#8216;strengthening of MiCA&#8217; on stablecoins appeared first on CoinGeek .",
+    "date": "2026-04-20",
+    "source_url": "https://coingeek.com/bank-of-france-calls-for-strengthening-of-mica-on-stablecoins/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "LayerZero says North Korea’s Lazarus likely behind Kelp DAO exploit; blames single-point setup",
+    "description": "The entire total value locked in the DeFi sector fell 7% in the past 24 hours to $86 billion, according to DefiLlama data.",
+    "date": "2026-04-20",
+    "source_url": "https://www.theblock.co/post/398028/layerzero-kelp-dao-lazarus",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Connecting the Dots",
     "initiative": "American Express to Acquire Hyper",
     "description": "Hey Payments Fanatic! American Express announced that it has entered into an agreement to acquire Hypercard (Hyper), an agentic expense management company, adding to Amex&#x2019;s AI expertise and capabilities. According to the announcement, Hyper&#x2019;s team of AI experts will help American Express continue to build agentic",
@@ -9547,84 +9628,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "US Treasury Secretary warns bank CEOs on Anthropic's new AI model",
-    "description": "AI platform Anthropic announced its new general-purpose language model, Claude Mythos Preview to enhance detection of cybercrime on Wednesday, alongside its launch of Claude Managed Agents, which allows users to deploy AI agents within its platform.",
-    "date": "2026-04-10",
-    "source_url": "https://www.finextra.com/newsarticle/47558/us-treasury-secretary-warns-bank-ceos-on-anthropics-new-ai-model",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "HSBC and Anchorpoint Financial gain first Hong Kong stablecoin issuer licenses",
-    "description": "Anchorpoint Financial is a joint venture between Standard Chartered, Animoca Brands, and Hong Kong Telecommunications.",
-    "date": "2026-04-10",
-    "source_url": "https://www.theblock.co/post/396990/hsbc-and-anchorpoint-financial-gain-first-hong-kong-stablecoin-issuer-licenses",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bitget debuts IPO Prime market with SpaceX pre-IPO exposure token",
-    "description": "Bitget has launched IPO Prime, a subscription-based market for pre-IPO tokenized allocations, with SpaceX's preSPAX as its first offering.",
-    "date": "2026-04-10",
-    "source_url": "https://www.theblock.co/post/396976/bitget-debuts-ipo-prime",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "HSBC and Standard Chartered-led group land Hong Kong’s first stablecoin licenses",
-    "description": "The approvals by the Hong Kong Monetary Authority, the territory's central bank, mark the first batch under the Stablecoins Ordinance, which took effect in August 2025.",
-    "date": "2026-04-10",
-    "source_url": "https://www.coindesk.com/policy/2026/03/24/hong-kong-awards-first-stablecoin-licenses-to-hsbc-standard-chartered-led-group",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   }
