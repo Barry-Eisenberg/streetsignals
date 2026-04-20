@@ -1,5 +1,25 @@
 [
   {
+    "institution": "ESMA",
+    "initiative": "ESMA clarifies expectations in the run-up to the launch of EU’s Consolidated Tapes",
+    "description": "ESMA clarifies expectations in the run-up to the launch of EU’s Consolidated Tapes 01 April 2026 Market data Trading The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published Questions and Answers (Q&amp;As) on the onboarding of data contributors to the EU’s Consolidated Tapes (CTs), and on the operational rules for the Consolidated Tape Providers (CTPs). The goal is to increase certainty for all market participants in anticipation of the go-live of the EU’s CTs for bonds and for equities.&nbsp; &nbsp; The Q&amp;As are available via ESMA’s online Q&amp;A tool. &nbsp; In collaboration with National Competent Authorities, ESMA reminds that trading venues and Authorised Publication Arrangements have the legal obligation to contribute data to the CTPs from the CTs’ go‑live.&nbsp; &nbsp; In this context, ESMA expects the relevant data contributors to engage with the selected CTPs ahead of their formal authorisation, to ensure that the data transmission setup is in place before the CTs’ go‑live. This cooperation may include agreeing on the relevant transmission protocols and conducting connectivity and end‑to‑end testing. &nbsp; ESMA expects the selected CTPs to put appropriate arrangements in place to safeguard the confidentiality and integrity of information received during this preparatory phase. &nbsp; Background In 2025, ESMA selected fairCT as the provider of the EU’s bonds CT and EuroCTP as the provider of the equities CT. The authorisation processes for both CTPs are currently ongoing. &nbsp; The selection procedure for the provider of the derivatives CT was launched in January 2026, and ESMA expects to announce the selected candidate by July 2026. &nbsp; &nbsp; Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu",
+    "date": "2026-04-20",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-clarifies-expectations-run-launch-eus-consolidated-tapes",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance",
+      "Interoperability & Standards",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "North Korea’s crypto heist playbook is expanding and DeFi keeps getting hit",
     "description": "More than $500 million was siphoned across the Drift and Kelp exploits in just over two weeks. What once looked like isolated breaches now resembles a sustained campaign, likely driven by the financial needs of a sanctioned state.",
@@ -9617,26 +9637,6 @@
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Musk’s SpaceX holds $603 million in bitcoin despite $5 billion loss stemming from xAI",
-    "description": "Arkham data shows 8,285 BTC in Coinbase Prime custody as the company swings from $8 billion profit to nearly $5 billion loss ahead of its IPO push.",
-    "date": "2026-04-11",
-    "source_url": "https://www.coindesk.com/markets/2026/04/11/musk-s-spacex-holds-usd603-million-in-bitcoin-despite-usd5-billion-loss-stemming-from-xai",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Data & Reporting"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
