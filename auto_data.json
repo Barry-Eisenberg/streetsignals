@@ -1,6 +1,25 @@
 [
   {
     "institution": "The Block",
+    "initiative": "DeFi losses top $600 million in weeks as Kelp DAO exploit drags TVL to one-year low",
+    "description": "Kelp Dao, Aave and LayerZero are pointing the finger at each other and it is still unclear how losses will be distributed.",
+    "date": "2026-04-20",
+    "source_url": "https://www.theblock.co/post/398154/defi-losses-1-billion-weeks-kelp-dao-exploit-drags-tvl-one-year-low",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
     "initiative": "Grayscale’s amended Hyperliquid ETF filing drops Coinbase as custodian, names Anchorage",
     "description": "Grayscale previously tapped Anchorage as a secondary custodian for a portion of the firm’s Bitcoin and Ethereum trusts’ holdings.",
     "date": "2026-04-20",
@@ -9616,29 +9635,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Iran war oil-price shock revives inflation trade and a new stablecoin play",
-    "description": "As oil shocks revive investor anxiety, stablecoins solved payments, but not purchasing power, says Michael Ashton, who's USDi token aims to fix that.",
-    "date": "2026-04-11",
-    "source_url": "https://www.coindesk.com/business/2026/04/11/iran-war-oil-price-shock-revives-inflation-trade-and-a-new-stablecoin-play",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Tokenization & Issuance",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
