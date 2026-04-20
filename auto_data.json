@@ -1,5 +1,101 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "UK gas-investment firm weighs bitcoin mining, draws criticism",
+    "description": "Reabold Resources' gas field is so large it could theoretically mine 50,000 BTC, local media said. The firm said it will test bitcoin mining before pivoting to data centers.",
+    "date": "2026-04-20",
+    "source_url": "https://www.coindesk.com/business/2026/04/20/uk-gas-investment-firm-weighs-bitcoin-mining-draws-criticism",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Blockchain sleuth accuses RaveDAO of knowing who manipulated the price of its token",
+    "description": "The on-chain sleuth cited \"suspicious\" exchange-linked activity as RAVE swung from $60 million in market capitalization to $6 billion and back.",
+    "date": "2026-04-20",
+    "source_url": "https://www.coindesk.com/business/2026/04/20/blockchain-sleuth-accuses-ravedao-of-knowing-who-manipulated-the-price-of-its-token",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "U.S. crypto adoption is rebounding, bitcoin still dominates, Deutsche Bank says",
+    "description": "Retail participation in the U.S. has bounced back to mid-2025 levels even as most consumers expect lower bitcoin prices ahead, the bank said.",
+    "date": "2026-04-20",
+    "source_url": "https://www.coindesk.com/markets/2026/04/20/u-s-crypto-adoption-is-rebounding-bitcoin-still-dominates-deutsche-bank-says",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Kelp DAO claims LayerZero’s 'default' settings are what actually caused the massive $290 million disaster",
+    "description": "The liquid restaking protocol said the compromised verifier was LayerZero's own infrastructure, and the setup it was faulted for running was LayerZero's onboarding default.",
+    "date": "2026-04-20",
+    "source_url": "https://www.coindesk.com/tech/2026/04/20/kelp-dao-claims-layerzero-s-default-settings-are-what-actually-caused-the-usd290-million-disaster",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Ripple races to make XRP Ledger quantum-ready as computing threat turns ‘credible’",
+    "description": "The company also made the case that XRP Ledger is better prepared than other blockchains, including Ethereum.",
+    "date": "2026-04-20",
+    "source_url": "https://www.theblock.co/post/398105/ripple-races-to-make-xrp-ledger-quantum-ready-as-computing-threat-turns-credible",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Piero Cipollone: Sparking the transformation of finance - tokenisation and the role of central banks",
     "description": "Keynote address by Mr Piero Cipollone, Member of the Executive Board of the European Central Bank, at the 24th Annual Symposium \"Building the financial system of the 21st century: an agenda for Europe and the United States\", hosted by the Harvard Law School and the Program on International Financial Systems, Washington DC, 15 April 2026.",
@@ -9541,101 +9637,6 @@
     "signal_type": "Research / Report",
     "fmi_areas": [
       "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "Michael Tannenbaum (CEO, Figure): Most tokenization projects are solving the wrong problem",
-    "description": "Everyone talks about tokenization as if it&#8217;s inevitable.",
-    "date": "2026-04-10",
-    "source_url": "https://www.fintechwrapup.com/p/polygon",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Noah-Hyperbeat Deal Unlocks $300B On-Chain Banking",
-    "description": "Hey Payments Fanatic! Noah has partnered with the on-chain banking layer, Hyperbeat, to give users a faster and easier way to move money between bank accounts and on-chain trading for the first time. As part of the partnership , Noah is now the default EUR, USD, and major currency settlement provider",
-    "date": "2026-04-10",
-    "source_url": "https://www.connectingthedotsinpayments.com/noah-hyperbeat-deal-unlocks-300b-on-chain-banking/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Europe’s opportunity to become an AI-leader in practical terms",
-    "description": "EU is aiming high: &quot;The European Union is actively pursuing a strategy to become a global leade...",
-    "date": "2026-04-10",
-    "source_url": "https://www.finextra.com/blogposting/31375/europes-opportunity-to-become-an-ai-leader-in-practical-terms",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Customer due diligence requirements in 2026: three regulators have rewritten the rulebook, and most",
-    "description": "The opening: why 2026 is the year customer due diligence requirements stopped being paperwork If you...",
-    "date": "2026-04-10",
-    "source_url": "https://www.finextra.com/blogposting/31368/customer-due-diligence-requirements-in-2026-three-regulators-have-rewritten-the-rulebook-and-most",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Ledger Insights",
-    "initiative": "Banks now 20% of MiCAR CASP licensees as CaixaBank joins the list",
-    "description": "CaixaBank has received authorization from Spain&#8217;s securities regulator CNMV as a crypto asset service provider (CASP) under the EU&#8217;s MiCA Regulation, making it the last of Spain&#8217;s big three banks to secure a license. BBVA launched crypto services in July 2025, while Santander&#8217;s Openbank went live in Germany in September before expanding to Spain weeks [&#8230;] The post Banks now 20% of MiCAR CASP licensees as CaixaBank joins the list appeared first on Ledger Insights - blockchain for enterprise .",
-    "date": "2026-04-10",
-    "source_url": "https://www.ledgerinsights.com/banks-now-20-of-micar-casp-licensees-as-caixabank-joins-the-list/",
-    "category": "ecosystem",
-    "source_name": "Ledger Insights",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance"
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
