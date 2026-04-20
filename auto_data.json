@@ -1,6 +1,48 @@
 [
   {
     "institution": "The Block",
+    "initiative": "Pokémon TCG marketplaces near record as tokenized collectibles show staying power",
+    "description": "The tokenization layer of these platforms is being used as a liquidity wrapper, as opposed to a purely speculative venue.",
+    "date": "2026-04-20",
+    "source_url": "https://www.theblock.co/post/398139/pokemon-tcg-marketplaces-near-record-tokenized-collectibles-staying-power",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Inside Bitwise’s Avalanche ETP and institutional strategy with Matt Hougan",
+    "description": "Matt Hougan explains how ETFs, tokenization, and institutional capital are reshaping crypto and driving the next phase of growth.",
+    "date": "2026-04-20",
+    "source_url": "https://www.theblock.co/post/398172/inside-bitwises-avalanche-etp-and-institutional-strategy-with-matt-hougan",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
     "initiative": "DeFi losses top $600 million in weeks as Kelp DAO exploit drags TVL to one-year low",
     "description": "Kelp Dao, Aave and LayerZero are pointing the finger at each other and it is still unclear how losses will be distributed.",
     "date": "2026-04-20",
@@ -9596,46 +9638,6 @@
       "Data & Reporting"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "The crypto honeymoon is over for now as analysts warn of a major first-quarter profit squeeze",
-    "description": "Several major investment firms have preemptively downgraded Coinbase and other platforms as a sharp drop in trading activity and falling token prices threaten to derail upcoming first-quarter earnings results.",
-    "date": "2026-04-11",
-    "source_url": "https://www.coindesk.com/markets/2026/04/11/the-crypto-honeymoon-is-over-for-now-as-analysts-warn-of-a-major-first-quarter-profit-squeeze",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin, broader market flat as U.S.-Iran negotiations begin",
-    "description": "The market rose over the week after a two-week ceasefire was announced, triggering a derivatives short squeeze that wiped out over $430 million in bearish positions.",
-    "date": "2026-04-11",
-    "source_url": "https://www.coindesk.com/markets/2026/04/11/bitcoin-broader-market-flat-as-u-s-iran-negotiations-begin",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
