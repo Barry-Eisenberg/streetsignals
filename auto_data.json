@@ -1,5 +1,25 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Hack at Vercel sends crypto developers scrambling to lock down API keys",
+    "description": "Breach tied to compromised AI tool may have exposed credentials used by app frontends, the user-facing layer that connects web3 wallets and trading interfaces to backend services.",
+    "date": "2026-04-20",
+    "source_url": "https://www.coindesk.com/tech/2026/04/20/hack-at-vercel-sends-crypto-developers-scrambling-to-lock-down-api-keys",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Kraken parent to pay $550m for CFTC-licensed derivatives platform Bitnomial",
     "description": "The parent company of crypto exchange Kraken has struck a $550 million deal to buy Bitnomial, a fully CFTC-licensed derivatives platform built for digital assets.",
@@ -13,6 +33,25 @@
     "fmi_areas": [
       "Trading & Exchange",
       "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "The Funding: Why the bar for crypto VC is higher than ever",
+    "description": "Venture funding in crypto is no longer as fast or easy as before. I spoke to several top VCs to understand why.",
+    "date": "2026-04-19",
+    "source_url": "https://www.theblock.co/post/398015/the-funding-why-the-bar-for-crypto-vc-is-higher-than-ever",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
@@ -9588,47 +9627,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "OwlTing integrates Visa Direct into OwlPay to expand stablecoin offerings",
-    "description": "OwlTing Group (NASDAQ: OWLS) (“OwlTing” or the “Company”), the operating brand of OBOOK Holdings Inc., a blockchain technology company, today announced an expansion of its collaboration with Visa, a world leader in digital payments, to support the use of Visa Direct within OwlPay’s payment infrastructure.",
-    "date": "2026-04-10",
-    "source_url": "https://www.finextra.com/pressarticle/109421/owlting-integrates-visa-direct-into-owlpay-to-expand-stablecoin-offerings",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "Michael Tannenbaum (CEO, Figure): Most tokenization projects are solving the wrong problem",
-    "description": "Everyone talks about tokenization as if it&#8217;s inevitable.",
-    "date": "2026-04-10",
-    "source_url": "https://www.fintechwrapup.com/p/polygon",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
     ],
     "year": "2026"
   }
