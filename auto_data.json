@@ -1,5 +1,105 @@
 [
   {
+    "institution": "ESMA",
+    "initiative": "ESMA publishes latest edition of its newsletter",
+    "description": "ESMA publishes latest edition of its newsletter 10 April 2026 ESMA newsletter The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published today its latest edition of the Spotlight on Markets newsletter. This edition opens with ESMA’s actions to simplify the retail investor journey and make investing more accessible, setting out steps to support retail participation in capital markets. Top news highlights include the publication of the first Trends, Risks and Vulnerabilities (TRV) report of 2026, which points to a high-risk environment for EU financial markets, as well as analysis showing that new investment funds are helping to reduce costs for investors. Key publications featured in this edition include: Annual transparency calculations for equity and equity-like instruments ; a joint EBA-ESMA consultation on revised suitability assessment requirements for banks and investment firms ; ESMA’s proposals to simplify MiFID II/MiFIR obligations on market data ; and Statement supporting the smooth implementation of the Listing Act and simplified prospectus compliance for issuers . Other updates in this edition cover new Q&amp;As , EMIR 3, supervisory and enforcement actions, market abuse guidelines , sustainability reporting , and upcoming events. For regular updates, follow ESMA on LinkedIn , X and Instagram . 10/04/2026 ESMA newsletter Newsletter February and March 2026",
+    "date": "2026-04-20",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-latest-edition-its-newsletter-42",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "CoinDesk 20 performance update: AAVE price plummets 22.9% over weekend",
+    "description": "Bitcoin (BTC) price dropped 2.5% and BNB Token (BNB) fell 2.3% from Friday.",
+    "date": "2026-04-20",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/20/coindesk-20-performance-update-aave-price-plummets-22-9-over-weekend",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitmine buys 101,627 ether worth over $230 million, its largest weekly haul of 2026",
+    "description": "The Ethereum treasury firm is nearing 5 million ETH holdings as it increased its accumulation pace over the past weeks.",
+    "date": "2026-04-20",
+    "source_url": "https://www.coindesk.com/business/2026/04/20/bitmine-buys-101-627-ether-worth-over-usd230-million-its-largest-weekly-haul-of-2026",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "UK gas firm downplays bitcoin mining plans after report suggested pivot",
+    "description": "The firm said it is exploring the potential to deploy bitcoin mining, but remains committed to progressing the site for UK energy security.",
+    "date": "2026-04-20",
+    "source_url": "https://www.theblock.co/post/398091/uk-gas-firm-downplays-bitcoin-mining-plans-after-report-suggested-pivot",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bitcoin holds ‘fragile equilibrium’ near $75K as ETF demand cushions crypto market despite Hormuz tensions: analysts",
+    "description": "Nearly $1 billion in spot bitcoin ETF inflows and rising stablecoin liquidity suggest institutional demand is still stemming pullbacks.",
+    "date": "2026-04-20",
+    "source_url": "https://www.theblock.co/post/398082/bitcoin-holds-fragile-equilibrium-near-75k-as-etf-demand-cushions-crypto-market-despite-hormuz-tensions-analysts",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "The geography of AI firms",
     "description": "by Kumar Rishabh, Vatsala Shreeti In this paper, we trace the geography and economic characteristics of firms that produce artificial intelligence (AI) products and services. Many economies around the world are evaluating their strategic priorities in AI, yet relatively little is documented about the global distribution of AI production.",
@@ -9533,100 +9633,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "Iran’s Strait of Hormuz Crypto Toll: An Evolution of Tehran’s Expanding Use of Digital Assets",
-    "description": "TL;DR Bloomberg reported on April 1, 2026 that Iran’s Islamic Revolutionary Guard Corps (IRGC) was already extracting transit tolls from&#8230; The post Iran&#8217;s Strait of Hormuz Crypto Toll: An Evolution of Tehran&#8217;s Expanding Use of Digital Assets appeared first on Chainalysis .",
-    "date": "2026-04-10",
-    "source_url": "https://www.chainalysis.com/blog/iran-strait-of-hormuz-crypto-toll/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "‘One basis point’: Benchmark says a fraction of NYSE’s $44 trillion market could drive Securitize growth",
-    "description": "Benchmark’s base case notes that even 0.01% of NYSE’s roughly $44 trillion market could exceed Securitize’s $4 billion asset base.",
-    "date": "2026-04-10",
-    "source_url": "https://www.theblock.co/post/397043/one-basis-point-benchmark-fraction-nyse-44-trillion-market-drive-securitize-growth",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Star Xu calls CZ a ‘liar’ as founders of world’s largest crypto exchanges argue over past allegations",
-    "description": "The dispute between the crypto exchange founders, which included a $1 billion wager from CZ, revives allegations dating back 11 years to Zhao’s time at OKCoin.",
-    "date": "2026-04-10",
-    "source_url": "https://www.coindesk.com/business/2026/04/10/star-xu-calls-cz-a-liar-as-founders-of-world-s-largest-crypto-exchanges-argue-over-past-allegations",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "The magic word for digital assets adoption and success: choice",
-    "description": "For the digital asset ecosystem of the future to flourish, investors need options, explains Sullivan.",
-    "date": "2026-04-10",
-    "source_url": "https://www.coindesk.com/opinion/2026/04/10/the-magic-word-for-digital-assets-adoption-and-success-choice",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Morgan Stanley launches Bitcoin ETF",
-    "description": "Morgan Stanley has become the first major Wall Street bank to launch a Bitcoin exchange traded fund.",
-    "date": "2026-04-10",
-    "source_url": "https://www.finextra.com/newsarticle/47560/morgan-stanley-launches-bitcoin-etf",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
