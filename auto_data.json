@@ -1,6 +1,64 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "U.S.-Iran ceasefire ends, Tesla earnings: Crypto Week Ahead",
+    "description": "Your look at what's coming in the week starting April 20.",
+    "date": "2026-04-20",
+    "source_url": "https://www.coindesk.com/markets/2026/04/20/u-s-iran-ceasefire-ends-tesla-earnings-crypto-week-ahead",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Nearly $1 billion in bitcoin ETF inflows power bull case as Kelp hack fuels DeFi jitters",
+    "description": "What you need to know for April 20, 2026",
+    "date": "2026-04-20",
+    "source_url": "https://www.coindesk.com/daybook-us/2026/04/20/nearly-usd1-billion-in-bitcoin-etf-inflows-power-bull-case-as-kelp-hack-fuels-defi-jitters",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Global crypto funds see $1.4 billion in weekly inflows as bitcoin rebound boosts risk appetite: CoinShares",
+    "description": "Crypto ETPs drew $1.4 billion in weekly inflows as improved demand from bitcoin's move above $76,000 lifted sentiment, per CoinShares.",
+    "date": "2026-04-20",
+    "source_url": "https://www.theblock.co/post/398062/global-crypto-funds-see-1-4-billion-in-weekly-inflows-as-bitcoin-rebound-boosts-risk-appetite-coinshares",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bitcoin drops from recent highs as traders watch CME gap, DeFi hack fallout",
     "description": "Bitcoin pulled back after Friday’s surge as traders considered a CME futures gap, a DeFi exploit rattled altcoins and macro pressures weighed on sentiment.",
     "date": "2026-04-20",
@@ -9569,63 +9627,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bhutan moves another $18 million in bitcoin as tracked holdings continue to shrink: Arkham",
-    "description": "Bhutan moved more bitcoin to a new wallet, continuing an outflow streak that has cut its holdings to 3,774 BTC from a peak of 13,000 BTC.",
-    "date": "2026-04-10",
-    "source_url": "https://www.theblock.co/post/397032/bhutan-moves-another-18-million-in-bitcoin-as-tracked-holdings-continue-to-shrink-arkham",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bittensor co-founder denies suspending subnet emissions after Covenant AI exit",
-    "description": "Bittensor co-founder Jacob Steeves denied suspending subnet emissions, and said token sales were less than 1% of his holdings.",
-    "date": "2026-04-10",
-    "source_url": "https://www.theblock.co/post/397028/bittensor-co-founder-denies-suspending-subnet-emissions-after-covenant-ai-exit",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Binance offers UAE staff temporary relocation as Middle East conflict disrupts region",
-    "description": "The crypto exchange said its operations in the United Arab Emirates remain unchanged and that many employees have chosen to remain",
-    "date": "2026-04-10",
-    "source_url": "https://www.coindesk.com/business/2026/04/10/binance-offers-uae-staff-temporary-relocation-as-middle-east-conflict-disrupts-region",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
