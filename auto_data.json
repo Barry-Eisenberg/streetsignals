@@ -1,5 +1,61 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Lydian launches Visa crypto card",
+    "description": "Lydian, a digital assets payment infrastructure provider backed by Tether and Cantor Fitzgerald, is launching a co-branded Visa Platinum card issued by Rain.",
+    "date": "2026-04-20",
+    "source_url": "https://www.finextra.com/newsarticle/47598/lydian-launches-visa-crypto-card",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Ant International, IFC, GCash pioneer sustainability impact scorecard for MSMEs",
+    "description": "Furthering its mission of driving digital financial inclusion, Ant International, International Finance Corp. (IFC), and GCash are developing a Sustainability Impact Scorecard that will make it easier for micro, small, and medium enterprises (MSMEs) to track their environmental and social impact, easily adopt sustainability practices in business operations, and align with global standards.",
+    "date": "2026-04-20",
+    "source_url": "https://www.finextra.com/pressarticle/109517/ant-international-ifc-gcash-pioneer-sustainability-impact-scorecard-for-msmes",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Spot bitcoin ETFs log nearly $1 billion in weekly inflows, highest since mid-January",
+    "description": "Morgan Stanley's MSBT logged a weekly net inflow of $71 million in the first full trading week since its debut.",
+    "date": "2026-04-20",
+    "source_url": "https://www.theblock.co/post/398044/spot-bitcoin-etfs-1-billion-weekly-inflows",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinGeek",
     "initiative": "Three BSV apps are solving what creator economy got wrong",
     "description": "Revolutionizing the creator economy, BSV apps La Mint, PaiyBit, and Project Access offer solutions to efficiently monetize content through micropayments. The post Three BSV apps are solving what creator economy got wrong appeared first on CoinGeek .",
@@ -9569,63 +9625,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin holds steady as inflation data looms, bittensor drama unfolds",
-    "description": "Traders face a pivotal Friday as narrowing volatility on bitcoin's chart hints at a massive price move while bittensor faces a high-profile developer exit.",
-    "date": "2026-04-10",
-    "source_url": "https://www.coindesk.com/markets/2026/04/10/bitcoin-flatlines-as-inflation-data-looms-bittensor-drama-unfolds",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "StarkWare researcher proposes ‘quantum-safe’ Bitcoin transactions without a soft fork",
-    "description": "It may face limited adoption due to higher costs and a complex user experience, with the proposal described as a “last-resort measure.”",
-    "date": "2026-04-10",
-    "source_url": "https://www.theblock.co/post/396987/starkware-quantum-safe-bitcoin",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "World Liberty Financial Borrows $75 Million Against Its Own Token on a Protocol Its Advisor Co-Founded",
-    "description": "The post World Liberty Financial Borrows $75 Million Against Its Own Token on a Protocol Its Advisor Co-Founded appeared first on Unchained .",
-    "date": "2026-04-10",
-    "source_url": "https://unchainedcrypto.com/world-liberty-financial-borrows-75-million-against-its-own-token-on-a-protocol-its-advisor-co-founded-unchained/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
     ],
     "year": "2026"
   }
