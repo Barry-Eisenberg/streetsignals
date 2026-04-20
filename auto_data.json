@@ -1,5 +1,143 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "Piero Cipollone: Sparking the transformation of finance - tokenisation and the role of central banks",
+    "description": "Keynote address by Mr Piero Cipollone, Member of the Executive Board of the European Central Bank, at the 24th Annual Symposium \"Building the financial system of the 21st century: an agenda for Europe and the United States\", hosted by the Harvard Law School and the Program on International Financial Systems, Washington DC, 15 April 2026.",
+    "date": "2026-04-20",
+    "source_url": "https://www.bis.org/review/r260416k.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Vasileios Madouros: Minding the tails - safeguarding resilience of non-bank finance",
+    "description": "Speech by Mr Vasileios Madouros, Deputy Governor of the Central Bank of Ireland, at an event, organised by Irish Funds, Dublin, 9 April 2026.",
+    "date": "2026-04-20",
+    "source_url": "https://www.bis.org/review/r260416d.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Dimitar Radev: The current environment is not defined primarily by the baseline scenario. It is defined by the widening range of outcomes around it",
+    "description": "Statement by Mr Dimitar Radev, Governor of the Bulgarian National Bank, at a meeting organised by the Bulgarian Spirit Diplomatic Society with Heads of diplomatic missions in the Republic of Bulgaria, Sofia, 30 March 2026.",
+    "date": "2026-04-20",
+    "source_url": "https://www.bis.org/review/r260416b.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Global stablecoin rulemaking slows, prompting BIS to urge cooperation to avoid fragmentation risks",
+    "description": "To mitigate risks like sudden withdrawals, policymakers are debating safeguards such as limiting interest payments and offering issuers access to central bank backstops.",
+    "date": "2026-04-20",
+    "source_url": "https://www.coindesk.com/policy/2026/04/20/global-stablecoin-rulemaking-slows-prompting-bis-to-urge-cooperation-to-avoid-fragmentation-risks",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Tether backs UAE tokenization firm KAIO in $8M funding round to bring Emirati funds onchain",
+    "description": "The Abu Dhabi regulated firm build infrastruture to distribute insitutional funds on blockchain rails, lowering entry barrier for investors.",
+    "date": "2026-04-20",
+    "source_url": "https://www.coindesk.com/business/2026/04/20/tether-backs-uae-tokenization-firm-kaio-in-usd8m-funding-round-to-bring-emirati-funds-onchain",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Coinbase, Bybit said to be working together on tokenization, custody and distribution of U.S. stocks",
+    "description": "The talks do not involve any sort of stake acquisition or similar deal to enter the U.S., as was reported elsewhere last month.",
+    "date": "2026-04-20",
+    "source_url": "https://www.coindesk.com/business/2026/04/20/coinbase-bybit-said-to-be-working-together-on-tokenization-custody-and-distribution-of-u-s-stocks",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Tokenization & Issuance",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Tom Lee says ‘crypto winter is much closer to ending’ as Bitmine buys another 101,627 ETH",
+    "description": "Bitmine bought 101,627 ETH in a week, pushing its treasury to 4.12% of ether's supply as chairman Lee calls crypto winter's end.",
+    "date": "2026-04-20",
+    "source_url": "https://www.theblock.co/post/398096/tom-lee-says-crypto-winter-is-much-closer-to-ending-as-bitmine-buys-another-101627-eth",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA",
     "initiative": "ESMA publishes latest edition of its newsletter",
     "description": "ESMA publishes latest edition of its newsletter 10 April 2026 ESMA newsletter The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published today its latest edition of the Spotlight on Markets newsletter. This edition opens with ESMA’s actions to simplify the retail investor journey and make investing more accessible, setting out steps to support retail participation in capital markets. Top news highlights include the publication of the first Trends, Risks and Vulnerabilities (TRV) report of 2026, which points to a high-risk environment for EU financial markets, as well as analysis showing that new investment funds are helping to reduce costs for investors. Key publications featured in this edition include: Annual transparency calculations for equity and equity-like instruments ; a joint EBA-ESMA consultation on revised suitability assessment requirements for banks and investment firms ; ESMA’s proposals to simplify MiFID II/MiFIR obligations on market data ; and Statement supporting the smooth implementation of the Listing Act and simplified prospectus compliance for issuers . Other updates in this edition cover new Q&amp;As , EMIR 3, supervisory and enforcement actions, market abuse guidelines , sustainability reporting , and upcoming events. For regular updates, follow ESMA on LinkedIn , X and Instagram . 10/04/2026 ESMA newsletter Newsletter February and March 2026",
@@ -9391,6 +9529,26 @@
     "year": "2026"
   },
   {
+    "institution": "Chainalysis",
+    "initiative": "Iran’s Strait of Hormuz Crypto Toll: An Evolution of Tehran’s Expanding Use of Digital Assets",
+    "description": "TL;DR Bloomberg reported on April 1, 2026 that Iran’s Islamic Revolutionary Guard Corps (IRGC) was already extracting transit tolls from&#8230; The post Iran&#8217;s Strait of Hormuz Crypto Toll: An Evolution of Tehran&#8217;s Expanding Use of Digital Assets appeared first on Chainalysis .",
+    "date": "2026-04-10",
+    "source_url": "https://www.chainalysis.com/blog/iran-strait-of-hormuz-crypto-toll/",
+    "category": "ecosystem",
+    "source_name": "Chainalysis — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Fintech Wrap Up",
     "initiative": "Michael Tannenbaum (CEO, Figure): Most tokenization projects are solving the wrong problem",
     "description": "Everyone talks about tokenization as if it&#8217;s inevitable.",
@@ -9482,157 +9640,6 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Why the UK Leads Fintech: Inside Companies and Infrastructure Powering Financial Innovation",
-    "description": "The UK is a global leader in fintech, ranking second worldwide and first in Europe by investment. Ac...",
-    "date": "2026-04-10",
-    "source_url": "https://www.finextra.com/blogposting/31365/why-the-uk-leads-fintech-inside-companies-and-infrastructure-powering-financial-innovation",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Federal judge blocks Arizona from bringing criminal charges against Kalshi",
-    "description": "Judge Michael Liburdi ordered Arizona not to bring any enforcement actions under state law against Kalshi, at least temporarily.",
-    "date": "2026-04-10",
-    "source_url": "https://www.coindesk.com/policy/2026/04/10/federal-judge-blocks-arizona-from-bringing-criminal-charges-against-kalshi",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "US government moves bitcoin possibly linked to steroid distribution conspiracy",
-    "description": "The U.S. government currently holds roughly 328,000 bitcoins, worth more than $22 billion at current prices, among other crypto assets.",
-    "date": "2026-04-10",
-    "source_url": "https://www.theblock.co/post/397104/us-government-bitcoin-possibly-linked-steroid-distribution-conspiracy",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Crypto bill negotiations enter critical week as lawmakers return amid pressure to resolve stablecoin rewards",
-    "description": "Negotiations over how to treat stablecoin rewards are intensifying as lawmakers return to Washington D.C. next week.",
-    "date": "2026-04-10",
-    "source_url": "https://www.theblock.co/post/397092/crypto-bill-negotiations-critical-week-lawmakers-return-resolve-stablecoin-rewards",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "AI agents reshaping crypto development, trading and risk, with Cambrian and Ethereum Foundation",
-    "description": "Builders and researchers discuss how AI agents are transforming crypto, from development and trading to entirely new financial systems.",
-    "date": "2026-04-10",
-    "source_url": "https://www.theblock.co/post/397076/ai-agents-reshaping-crypto-development-trading-and-risk-with-cambrian-and-ethereum-foundation",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "How Telegram plans to turn crypto into a global payments network",
-    "description": "Nikola Plecas explains how TON is building crypto payments into Telegram and where the biggest opportunities for adoption lie.",
-    "date": "2026-04-10",
-    "source_url": "https://www.theblock.co/post/397077/how-telegram-plans-to-turn-crypto-into-a-global-payments-network",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "World decreasing WLD token unlock rate by over 40% starting in July",
-    "description": "OpenAI CEO Sam Altman is a co-founder of Tools for Humanity, the chief developer behind the World project.",
-    "date": "2026-04-10",
-    "source_url": "https://www.theblock.co/post/397069/world-decreasing-wld-token-unlock-rate-by-over-40-starting-in-july",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Justin Sun’s frozen WLFI takes $11 million hit as World Liberty brushes off liquidation fears",
-    "description": "Tron founder Justin Sun’s World Liberty token position is down by more than $80 million, according to Bubblemaps data.",
-    "date": "2026-04-10",
-    "source_url": "https://www.theblock.co/post/397066/justin-sun-frozen-wlfi-11-million-hit-world-liberty-brushes-off-liquidation-fears",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
     ],
     "year": "2026"
   }
