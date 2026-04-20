@@ -1,5 +1,42 @@
 [
   {
+    "institution": "Connecting the Dots",
+    "initiative": "American Express to Acquire Hyper",
+    "description": "Hey Payments Fanatic! American Express announced that it has entered into an agreement to acquire Hypercard (Hyper), an agentic expense management company, adding to Amex&#x2019;s AI expertise and capabilities. According to the announcement, Hyper&#x2019;s team of AI experts will help American Express continue to build agentic",
+    "date": "2026-04-20",
+    "source_url": "https://www.connectingthedotsinpayments.com/american-express-to-acquire-hyper/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Polymarket seeks $400 million raise at $15 billion valuation: report",
+    "description": "Polymarket had a $9 billion post-money valuation in October after Intercontinental Exchange agreed to invest up to $2 billion.",
+    "date": "2026-04-20",
+    "source_url": "https://www.theblock.co/post/398022/polymarket-funding-15-billion-valuation",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Hack at Vercel sends crypto developers scrambling to lock down API keys",
     "description": "Breach tied to compromised AI tool may have exposed credentials used by app frontends, the user-facing layer that connects web3 wallets and trading interfaces to backend services.",
@@ -8735,6 +8772,25 @@
     "year": "2026"
   },
   {
+    "institution": "Fintech Wrap Up",
+    "initiative": "Michael Tannenbaum (CEO, Figure): Most tokenization projects are solving the wrong problem",
+    "description": "Everyone talks about tokenization as if it&#8217;s inevitable.",
+    "date": "2026-04-10",
+    "source_url": "https://www.fintechwrapup.com/p/polygon",
+    "category": "ecosystem",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Connecting the Dots",
     "initiative": "Noah-Hyperbeat Deal Unlocks $300B On-Chain Banking",
     "description": "Hey Payments Fanatic! Noah has partnered with the on-chain banking layer, Hyperbeat, to give users a faster and easier way to move money between bank accounts and on-chain trading for the first time. As part of the partnership , Noah is now the default EUR, USD, and major currency settlement provider",
@@ -9569,64 +9625,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "David Bailey’s bitcoin holder Nakamoto is trying to stay on Nasdaq with a reverse stock split",
-    "description": "The stock has plunged roughly 99% from its May 2025 peak as pressure builds on the bitcoin treasury firm.",
-    "date": "2026-04-10",
-    "source_url": "https://www.coindesk.com/markets/2026/04/10/david-bailey-s-nakamoto-is-trying-to-stay-on-nasdaq-and-it-s-turning-to-a-reverse-stock-split",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Japan moves to classify cryptocurrencies as financial products",
-    "description": "The new rules ban insider trading, require issuers to publish annual disclosures, and impose stricter penalties: up to 10 years in prison and 10 million yen in fines for operating without registration.",
-    "date": "2026-04-10",
-    "source_url": "https://www.coindesk.com/policy/2026/04/10/japan-moves-to-classify-cryptocurrencies-as-financial-products",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Binance launches prediction markets feature",
-    "description": "Cryptocurrency app Binance now offers access to prediction markets, the company announced on Thursday.",
-    "date": "2026-04-10",
-    "source_url": "https://www.finextra.com/newsarticle/47557/binance-launches-prediction-markets-feature",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
