@@ -1,5 +1,25 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Kraken parent to pay $550m for CFTC-licensed derivatives platform Bitnomial",
+    "description": "The parent company of crypto exchange Kraken has struck a $550 million deal to buy Bitnomial, a fully CFTC-licensed derivatives platform built for digital assets.",
+    "date": "2026-04-20",
+    "source_url": "https://www.finextra.com/newsarticle/47597/kraken-parent-to-pay-550m-for-cftc-licensed-derivatives-platform-bitnomial",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "The $292 million Kelp exploit: how it happened, and what it means for DeFi",
     "description": "2026 is shaping up to be DeFi's \"worst year in terms of hacks,\" Ledger's CTO said, as the Kelp exploit shows how a single point of failure can cascade across systems.",
@@ -9609,26 +9629,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Chronicle upgrade on BSV mainnet clears path for Teranode",
-    "description": "BSV blockchain achieves a milestone with the Chronicle upgrade, restoring Bitcoin's original vision and paving the way for the Teranode Era. The post Chronicle upgrade on BSV mainnet clears path for Teranode appeared first on CoinGeek .",
-    "date": "2026-04-10",
-    "source_url": "https://coingeek.com/chronicle-upgrade-on-bsv-mainnet-clears-path-for-teranode/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
