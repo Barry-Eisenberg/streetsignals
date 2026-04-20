@@ -1,5 +1,25 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Grayscale’s amended Hyperliquid ETF filing drops Coinbase as custodian, names Anchorage",
+    "description": "Grayscale previously tapped Anchorage as a secondary custodian for a portion of the firm’s Bitcoin and Ethereum trusts’ holdings.",
+    "date": "2026-04-20",
+    "source_url": "https://www.theblock.co/post/398161/grayscales-amended-hyperliquid-etf-filing-drops-coinbase-custodian-anchorage",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Five times President Trump made a statement that moved bitcoin, and why it might happen again this week",
     "description": "Trump’s social media posts and statements to news reporters have triggered 5% to 12% swings in the price of bitcoin, blurring the lines between policy and market manipulation.",
@@ -9620,23 +9640,6 @@
       "Stablecoins & Deposit Tokens",
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Ether Machine and Dynamix mutually scrap SPAC merger, blame ‘unfavorable market conditions’",
-    "description": "Under the Termination Agreement effective April 8, an unnamed \"Payor\" likely connected to The Ether Machine must pay Dynamix $50 million within 15 days.",
-    "date": "2026-04-11",
-    "source_url": "https://www.theblock.co/post/397114/ether-machine-and-dynamix-mutually-scrap-spac-merger-blame-unfavorable-market-conditions",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
