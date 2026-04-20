@@ -1,5 +1,41 @@
 [
   {
+    "institution": "CoinGeek",
+    "initiative": "Three BSV apps are solving what creator economy got wrong",
+    "description": "Revolutionizing the creator economy, BSV apps La Mint, PaiyBit, and Project Access offer solutions to efficiently monetize content through micropayments. The post Three BSV apps are solving what creator economy got wrong appeared first on CoinGeek .",
+    "date": "2026-04-20",
+    "source_url": "https://coingeek.com/three-bsv-apps-are-solving-what-creator-economy-got-wrong/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Coinbase tests AI agents that offer high-level feedback to staff",
+    "description": "Coinbase CEO Brian Armstrong said the AI agents are modeled after former executives Fred Ehrsam and Balaji Srinivasan.",
+    "date": "2026-04-20",
+    "source_url": "https://www.theblock.co/post/398038/coinbase-tests-ai-agents",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Bitcoin, ether, solana slide, oil jumps on renewed U.S.-Iran war risks",
     "description": "Bitcoin traded at $74,335 after Iran reimposed controls on the Strait of Hormuz over the weekend, with the modest 1.6% pullback standing out against a 5.7% jump in Brent and a 1.2% drop in European equity futures.",
@@ -9585,44 +9621,6 @@
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "StarkWare’s Quantum-Safe Bitcoin Scheme Requires No Protocol Changes, Just $150 in GPU Compute",
-    "description": "The post StarkWare&#8217;s Quantum-Safe Bitcoin Scheme Requires No Protocol Changes, Just $150 in GPU Compute appeared first on Unchained .",
-    "date": "2026-04-10",
-    "source_url": "https://unchainedcrypto.com/starkwares-quantum-safe-bitcoin-scheme-requires-no-protocol-changes-just-150-in-gpu-compute-unchained/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "XRP adjacent Flare proposes protocol-level MEV capture and 40% inflation cut",
-    "description": "The proposal would move block building away from individual validators, create a revenue entity called FIRE to buy and burn FLR, and reduce annual token inflation to 3%.",
-    "date": "2026-04-10",
-    "source_url": "https://www.coindesk.com/tech/2026/04/10/xrp-adjacent-flare-proposes-protocol-level-mev-capture-and-40-inflation-cut",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
     "fmi_areas": [
       "Tokenization & Issuance"
     ],
