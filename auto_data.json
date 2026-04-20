@@ -1,6 +1,116 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Five times President Trump made a statement that moved bitcoin, and why it might happen again this week",
+    "description": "Trump’s social media posts and statements to news reporters have triggered 5% to 12% swings in the price of bitcoin, blurring the lines between policy and market manipulation.",
+    "date": "2026-04-20",
+    "source_url": "https://www.coindesk.com/markets/2026/04/20/five-times-president-trump-made-a-statement-that-moved-bitcoin-and-why-it-might-happen-again-this-week",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin faces near-term pressure as liquidity tightens, Hilbert Group CIO says",
+    "description": "Russell Thompson warned of a sharp tightening in global liquidity that could weigh on risk assets and bitcoin in the near term, before expected U.S. policy action provides relief.",
+    "date": "2026-04-20",
+    "source_url": "https://www.coindesk.com/markets/2026/04/20/bitcoin-faces-near-term-pressure-as-liquidity-tightens-hilbert-group-cio-says",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "A year under Paul Atkins: SEC crypto embrace grows as prediction markets draw scrutiny",
+    "description": "About a year into the job, SEC Chair Paul Atkins says he is on a mission to \"advance, clarify and transform\" or (ACT).",
+    "date": "2026-04-20",
+    "source_url": "https://www.theblock.co/post/398117/a-year-under-paul-atkins-sec-crypto-embrace-grows-as-prediction-markets-draw-scrutiny",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Coinbase-incubated x402 protocol unveils app-store for AI bots",
+    "description": "X402 creator Erik Reppel noted agentic commerce is already reshaping activation costs with bots accessing services on a per-use basis.",
+    "date": "2026-04-20",
+    "source_url": "https://www.theblock.co/post/398123/coinbase-incubated-x402-protocol-unveils-app-store-for-ai-bots",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Tether joins $8 million strategic funding round in RWA firm Kaio",
+    "description": "\"Kaio’s unique position unlocks new pathways for capital formation and investment,\" Tether CEO Paolo Ardoino said.",
+    "date": "2026-04-20",
+    "source_url": "https://www.theblock.co/post/398108/tether-joins-8-million-strategic-funding-round-in-rwa-firm-kaio",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Tether discloses nearly 2 million-share stake in Bitmain-linked Antalpha",
+    "description": "Nasdaq-listed Antalpha’s lending business is growing quickly despite a more than 27% drop in its stock price.",
+    "date": "2026-04-20",
+    "source_url": "https://www.theblock.co/post/398101/tether-discloses-2-million-share-stake-bitmain-linked-antalpha-ipo",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "UK gas-investment firm weighs bitcoin mining, draws criticism",
     "description": "Reabold Resources' gas field is so large it could theoretically mine 50,000 BTC, local media said. The firm said it will test bitcoin mining before pivoting to data centers.",
     "date": "2026-04-20",
@@ -9527,121 +9637,6 @@
       "Interoperability & Standards"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto perpetuals predict the direction of Wall Street’s Monday open with 89% accuracy, data shows",
-    "description": "Over half (57%) of Monday market opens is s already reflected in crypto markets' perpetual futures products.",
-    "date": "2026-04-11",
-    "source_url": "https://www.coindesk.com/markets/2026/04/11/crypto-perpetuals-predict-the-direction-of-wall-street-s-monday-open-with-89-accuracy-data-shows",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto Clarity bill has 30% chance of passing this year, Wintermute’s Hammond says",
-    "description": "Wintermute’s head of policy Ron Hammond pegs chances at 30%, citing political friction, stalled negotiations and shifting timelines despite signs of progress.",
-    "date": "2026-04-11",
-    "source_url": "https://www.coindesk.com/policy/2026/04/11/crypto-clarity-bill-has-30-chance-of-passing-this-year-wintermute-s-hammond-says",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitwise files updated S-1 for Hyperliquid ETF as HYPE fund race heats up",
-    "description": "HYPE has surged around 200% over the last 12 months. Other asset managers including Grayscale, 21Shares, and VanEck are also eyeing HYPE-linked ETFs.",
-    "date": "2026-04-11",
-    "source_url": "https://www.coindesk.com/markets/2026/04/11/bitwise-files-updated-s-1-for-hyperliquid-etf-as-hype-fund-race-heats-up",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "The bitcoin market is splitting in two. Here's who is buying and selling amid the war",
-    "description": "Six weeks of war have revealed that bitcoin's floor depends entirely on a handful of mandated buyers absorbing what everyone else is trying to get rid of.",
-    "date": "2026-04-11",
-    "source_url": "https://www.coindesk.com/markets/2026/04/10/the-bitcoin-market-is-splitting-in-two-here-s-who-is-buying-and-selling-amid-the-war",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bhutan has sold 70% of its bitcoin in 18 months. It may have stopped BTC mining too.",
-    "description": "The kingdom's holdings have dropped from 13,000 BTC to 3,954 since October 2024, with $215.7 million moved out this year alone. Its last mining inflow over $100,000 was recorded more than a year ago.",
-    "date": "2026-04-11",
-    "source_url": "https://www.coindesk.com/markets/2026/04/11/bhutan-has-sold-70-of-its-bitcoin-in-18-months-it-may-have-stopped-btc-mining-too",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "Iran’s Strait of Hormuz Crypto Toll: An Evolution of Tehran’s Expanding Use of Digital Assets",
-    "description": "TL;DR Bloomberg reported on April 1, 2026 that Iran’s Islamic Revolutionary Guard Corps (IRGC) was already extracting transit tolls from&#8230; The post Iran&#8217;s Strait of Hormuz Crypto Toll: An Evolution of Tehran&#8217;s Expanding Use of Digital Assets appeared first on Chainalysis .",
-    "date": "2026-04-10",
-    "source_url": "https://www.chainalysis.com/blog/iran-strait-of-hormuz-crypto-toll/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
