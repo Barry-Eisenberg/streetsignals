@@ -1,5 +1,137 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "Anna Breman: Global shockwaves to Kiwi shores - the impact of the Iran conflict on New Zealand",
+    "description": "Keynote speech by Dr Anna Breman, Governor of the Reserve Bank of New Zealand, to Business NZ's CEO Forum, Auckland, 24 March 2026.",
+    "date": "2026-04-21",
+    "source_url": "https://www.bis.org/review/r260420d.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Fabio Panetta: Statement - meeting of the Development Committee",
+    "description": "Statement by Mr Fabio Panetta, Governor of the Bank of Italy and Governor of the Constituency of Albania, Greece, Italy, Malta, Portugal, San Marino and Timor-Leste, at the 113th Meeting of the Development Committee (Joint Ministerial Committee of the Boards of Governors of the Bank and the Fund on the Transfer of Real Resources to Developing Countries), Washington DC, 16 April 2026.",
+    "date": "2026-04-21",
+    "source_url": "https://www.bis.org/review/r260420c.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "ESMA",
+    "initiative": "ESMA support ESEF implementation with updated taxonomy",
+    "description": "ESMA support ESEF implementation with updated taxonomy 21 April 2026 Electronic reporting The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published the 2025 European Single Electronic Format (ESEF) XBRL taxonomy files , together with an updated ESEF Conformance Suite . These materials support issuers and software vendors in preparing 2026 IFRS consolidated financial statements using the most up‑to‑date ESEF format.&nbsp; The 2025 taxonomy reflects the introduction of IFRS 18 Presentation and Disclosure in Financial Statements , effective from 1 January 2027, with early application permitted. The ESEF taxonomy includes two entry points, allowing issuers to report under either IAS 1 and IFRS 18. This approach facilitates prompt understanding of the new structure, encourages timely preparation, and lowers implementation risks. ESMA does not plan to amend the ESEF RTS or taxonomy in 2026. This follows the&nbsp; IFRS Foundation’s decision not to issue a 2026 IFRS Accounting Taxonomy update and will provide greater regulatory stability and more time for implementation. Next steps &nbsp; ESMA encourages issuers and software providers to consult the IFRS Foundation’s guidance on the use of the 2025 IFRS Accounting Taxonomy for 2026 reporting periods when preparing for upcoming reporting requirements. Stakeholders wishing to provide feedback or raise questions on the 2025 ESEF Taxonomy and Conformance Suite are invited to contact esef@esma.europa.eu. &nbsp; Further information: Iris Hude Communications Officer press@esma.europa.eu 21/04/2026 ESEF Taxonomy 2025 ESEF Taxonomy 2025 21/04/2026 ESEF Conformance Suite 2025 ESEF Conformance Suite 2025",
+    "date": "2026-04-21",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-support-esef-implementation-updated-taxonomy",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Almost 80% of Japan's institutional investors plan to buy crypto within 3 years, survey finds",
+    "description": "A survey by Nomura reveals that roughly 80% of Japan's investment professionals plan to allocate up to 5% of their portfolios to digital assets by 2029.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/markets/2026/04/21/almost-80-of-japanese-institutional-investors-are-eyeing-crypto-for-their-portfolios-by-2029",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "UK sets out plan to integrate payments rules covering stablecoins and tokenized deposits",
+    "description": "HM Treasury proposed unifying UK payments rules for traditional services, stablecoins, and tokenized deposits during Fintech Week in London.",
+    "date": "2026-04-21",
+    "source_url": "https://www.theblock.co/post/398244/uk-sets-out-plan-to-integrate-payments-rules-covering-stablecoins-and-tokenized-deposits",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Tokenization & Issuance",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Securitize names former IMF representative to board",
+    "description": "Sunil Sabharwal served as a Senate-confirmed U.S. representative to the International Monetary Fund between 2016 and 2018.",
+    "date": "2026-04-21",
+    "source_url": "https://www.theblock.co/post/398181/securitize-names-former-imf-representative-to-board",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Kelp DAO exploiter begins moving stolen funds across chains after Arbitrum ETH freeze",
+    "description": "Wallets tied to the approximate $292 million Kelp DAO exploit have begun moving funds across chains following Arbitrum’s ETH freeze.",
+    "date": "2026-04-21",
+    "source_url": "https://www.theblock.co/post/398239/kelp-dao-exploiter-begins-moving-stolen-funds-across-chains-after-arbitrum-eth-freeze",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Bitcoin trades above a make-or-break level ahead of Warsh hearing",
     "description": "What you need to know for April 21, 2026",
@@ -9509,139 +9641,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Lombard signs deal with Simply Asset Finance",
-    "description": "Specialist SME lender, Simply Asset Finance, has announced a ground-breaking new partnership with Lombard, part of NatWest Group, that will combine the unique strengths of each business to significantly extend Lombard’s reach into the scale-up market and deliver the support of tech-enabled lending to businesses across the UK.",
-    "date": "2026-04-13",
-    "source_url": "https://www.finextra.com/pressarticle/109426/lombard-signs-deal-with-simply-asset-finance",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Attacker exploits Polkadot-based Hyperbridge to mint 1 billion bridged DOT, nets $237K",
-    "description": "Upbit and Bithumb have since temporarily suspended deposits and withdrawals of Polkadot's DOT, citing signs of a security incident.",
-    "date": "2026-04-13",
-    "source_url": "https://www.theblock.co/post/397167/bridged-dot-hyperbridge-exploit",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Attacker mints $1 billion Polkadot tokens on Ethereum, ends up stealing just $250,000",
-    "description": "A forged cross-chain message bypassed state proof validation on the bridge contract, granting admin control over the bridged DOT token and allowing the attacker to mint and dump the entire supply for $237,000.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/tech/2026/04/13/attacker-mints-usd1-billion-polkadot-tokens-on-ethereum-ends-up-stealing-just-usd250-000",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Aave passes landmark vote ending months-long fight over protocol revenue control",
-    "description": "The proposal directs 100% of application and product revenue back to AAVE token holders, resolving a governance dispute that began when swap fees were quietly redirected away from the DAO treasury in late 2025.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/tech/2026/04/13/aave-passes-landmark-vote-ending-months-long-fight-over-who-controls-protocol-revenue",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Chronicle and the 16-year restoration of Bitcoin’s original protocol",
-    "description": "Bitcoin's Chronicle upgrade restores key Satoshi opcodes and expands script limits, reigniting potential for innovation in the Bitcoin space. The post Chronicle and the 16-year restoration of Bitcoin&#8217;s original protocol appeared first on CoinGeek .",
-    "date": "2026-04-13",
-    "source_url": "https://coingeek.com/chronicle-and-the-16-year-restoration-of-bitcoins-original-protocol/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Alameda moves $16 million in Solana's SOL token for possible creditor distribution",
-    "description": "Alameda unstakes $16 million worth of Solana's SOL token, according to Arkham.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/markets/2026/04/13/alameda-moves-usd16-million-in-solana-s-sol-token-for-possible-creditor-distribution",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "WLFI threatens legal action against Justin Sun after he accuses Trump-linked project of deceptive DeFi deals",
-    "description": "Trump-backed crypto project says it has ‘contracts’ and ‘evidence’ after Sun accused it of exploiting users.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/markets/2026/04/13/see-you-in-court-wlfi-threatens-justin-sun-as-feud-over-usd75-million-defi-loan-escalates",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
