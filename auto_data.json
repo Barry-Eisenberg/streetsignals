@@ -1,6 +1,23 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Arbitrum freezes $71 million in ether tied to Kelp DAO exploit",
+    "description": "The layer-2 network's security council moved 30,766 ETH to a frozen intermediary wallet, accessible only via further governance action.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/markets/2026/04/21/arbitrum-freezes-usd71-million-in-ether-tied-to-kelp-dao-exploit",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bitcoin reclaims $75,000 as Iran ceasefire talks advance, equities rally resumes",
     "description": "Bitcoin traded at $75,733 on Tuesday morning, up 1.5% over 24 hours, as Iran signaled it will send a team to Pakistan talks and Brent crude slipped ahead of the Wednesday ceasefire deadline.",
     "date": "2026-04-21",
@@ -9368,6 +9385,25 @@
     "year": "2026"
   },
   {
+    "institution": "Fintech Wrap Up",
+    "initiative": "Deep Dive: An Analytical Breakdown of Revolut’s 2025 Performance",
+    "description": "The fiscal year 2025 represents a landmark epoch for Revolut, marking a decade of operational existence and a definitive transition from a high-growth fintech disruptor to a globally systemic financial institution.",
+    "date": "2026-04-12",
+    "source_url": "https://www.fintechwrapup.com/p/deep-dive-an-analytical-breakdown",
+    "category": "ecosystem",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Bitcoin slides to $71,000 after Trump’s blockade order in Strait of Hormuz",
     "description": "High-level negotiations between the US and Iran failed to reach a meaningful resolution earlier on Sunday.",
@@ -9595,45 +9631,6 @@
     "initiative_types": [
       "Tokenized Securities / RWA",
       "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Trump token sees whale accumulation ahead of Mar-a-Lago gala; senators raise questions over event",
-    "description": "Some whales have withdrawn large amounts of TRUMP tokens to private wallets, according to Lookonchain.",
-    "date": "2026-04-12",
-    "source_url": "https://www.coindesk.com/markets/2026/04/12/trump-token-sees-whale-accumulation-ahead-of-mar-a-lago-gala-senators-raise-questions-over-event",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Why North Korea keeps stealing billions in crypto — out in the open",
-    "description": "As North Korea's infiltration tactics grow more sophisticated, security experts say the crypto industry needs to understand what sets the regime apart from every other state-backed hacker — and why that difference makes it a dangerous threat to the ecosystem.",
-    "date": "2026-04-12",
-    "source_url": "https://www.coindesk.com/tech/2026/04/12/why-north-korea-keeps-stealing-billions-in-crypto-out-in-the-open",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
