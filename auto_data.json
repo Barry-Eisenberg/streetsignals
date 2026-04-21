@@ -1,6 +1,83 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Mob boss John Gotti’s grandson is headed to prison for a $1.1 million Covid fraud and crypto scheme",
+    "description": "he mob boss’ grandson defrauded the U.S. government’s Covid-19 relief system out of $1.1 million and invested at least half of it to invest in crypto businesses.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/business/2026/04/21/mob-boss-john-gotti-s-grandson-is-headed-to-prison-for-a-usd1-1-million-covid-fraud-and-crypto-scheme",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Fed pick Warsh backs crypto’s place in finance as Warren raises ‘sock puppet’ concerns in hearing",
+    "description": "Digital assets are already ingrained in the financial industry, said Federal Reserve chair pick Kevin Warsh during his nomination hearing.",
+    "date": "2026-04-21",
+    "source_url": "https://www.theblock.co/post/398364/fed-pick-warsh-backs-cryptos-place-in-finance-as-warren-raises-sock-puppet-concerns-in-hearing",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "SoFi adds XRP deposits but users criticize lack of external wallet transfers",
+    "description": "According to SoFi's support page, the crypto platform does not permit XR transfers to outside wallets.",
+    "date": "2026-04-21",
+    "source_url": "https://www.theblock.co/post/398348/sofi-xrp-deposits-users-criticize-lack-external-transfers",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Peter Thiel-backed unicorn Ramp rolls out $0 conversions between USDT and dollars across product suite",
+    "description": "The fintech provider has rolled out support for Ethereum, Solana and Plasma-issued USDT tokens across its entire product suite.",
+    "date": "2026-04-21",
+    "source_url": "https://www.theblock.co/post/398354/peter-thiel-backed-unicorn-ramp-rolls-out-0-conversions-between-usdt-and-dollars-across-product-suite",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Crypto's massive exploit may force big banks to rethink their blockchain plans, Jefferies warns",
     "description": "The $293 million Kelp DAO exploit has exposed critical infrastructure risks, leading Jefferies to suggest that traditional financial firms may pause their blockchain initiatives to prioritize security.",
     "date": "2026-04-21",
@@ -9565,83 +9642,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin anchors near $70,000 as RAVE's 3,400% surge signals speculative froth",
-    "description": "Bitcoin and major cryptocurrencies remain relatively resilient. Surges in some smaller tokens showed there's still froth left in the market.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/daybook-us/2026/04/13/bitcoin-anchors-near-usd70-000-as-rave-s-3-400-surge-signals-speculative-froth",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "What’s easier, passing CLARITY Act or escaping from Mordor?",
-    "description": "U.S. crypto rules stall as CLARITY faces opposition, while stablecoin yield debates and rising fraud reshape the regulation and enforcement landscape. The post What’s easier, passing CLARITY Act or escaping from Mordor? appeared first on CoinGeek .",
-    "date": "2026-04-13",
-    "source_url": "https://coingeek.com/what-easier-passing-clarity-act-or-escaping-from-mordor/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Coadjute brings AI to bear on AML checks for property sales",
-    "description": "Coadjute, the leading PropTech company backed by Lloyds Banking Group, NatWest, and Nationwide and championed by Phil Spencer, today announced the deployment of Clara, the UK’s first digital human designed to support estate agents and their buyers and sellers with essential anti-money laundering (AML) checks.",
-    "date": "2026-04-13",
-    "source_url": "https://www.finextra.com/pressarticle/109438/coadjute-brings-ai-to-bear-on-aml-checks-for-property-sales",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Tribe Payments joins EPAA",
-    "description": "Tribe Payments, the payments fintech specialising in issuer and acquirer processing, has joined the Emerging Payments Association Asia (EPAA), strengthening its engagement with banks, fintechs and payment providers across the Asia-Pacific payments ecosystem.",
-    "date": "2026-04-13",
-    "source_url": "https://www.finextra.com/pressarticle/109437/tribe-payments-joins-epaa",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
       "Payment Infrastructure"
     ],
     "year": "2026"
