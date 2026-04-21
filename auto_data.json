@@ -1,6 +1,47 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bitcoin trades above a make-or-break level ahead of Warsh hearing",
+    "description": "What you need to know for April 21, 2026",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/daybook-us/2026/04/21/bitcoin-trades-above-a-make-or-break-level-ahead-of-warsh-hearing",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "UK FCA opens consultation on crypto scope",
+    "description": "The U.K.'s FCA is seekign feedback on its digital currency regulation, defining qualifying cryptoassets and stablecoins, ahead of new rules taking effect in October 2027. The post UK FCA opens consultation on crypto scope appeared first on CoinGeek .",
+    "date": "2026-04-21",
+    "source_url": "https://coingeek.com/uk-fca-opens-consultation-on-crypto-scope/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bitcoin climbs as risk sentiment improves, altcoins hit by exploit concerns",
     "description": "Bitcoin advanced while altcoins continued to struggle after the weekend's DeFi exploit, with markets eyeing Middle East tensions and shifting risk sentiment.",
     "date": "2026-04-21",
@@ -8308,6 +8349,25 @@
     "year": "2026"
   },
   {
+    "institution": "Connecting the Dots",
+    "initiative": "Google’s New \"Digital Pocket Money\" Is Here",
+    "description": "Hey Payments Fanatic! Imagine giving your teenager an allowance or helping an elderly parent pay for groceries without ever needing to visit an ATM or hand over your credit card.&#xA0; Google Pay has just launched a feature that lets you do exactly that. It&#x2019;s called &quot;Pocket",
+    "date": "2026-04-13",
+    "source_url": "https://www.connectingthedotsinpayments.com/googles-new-digital-pocket-money-is-here/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Y Combinator settles first all-stablecoin funding in USDC on Solana",
     "description": "The accelerator settled $500,000 in USDC funding on Solana for Totalis, marking its first all-stablecoin investment.",
@@ -9581,66 +9641,6 @@
     ],
     "initiative_types": [
       "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bank of Korea calls for ‘circuit breaker’ in local crypto market, citing Bithumb incident",
-    "description": "The BOK called for stricter internal control regulations for local crypto exchanges, citing Bithumb's mistaken transfer of 620,000 BTC.",
-    "date": "2026-04-13",
-    "source_url": "https://www.theblock.co/post/397162/bank-of-korea-circuit-breaker",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin hits a wall – the chart just challenged the $88,000 bull case",
-    "description": "The price action is sending a clear warning signal that analysts' optimism may be running ahead of itself.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/markets/2026/04/13/bitcoin-hits-a-wall-the-chart-just-delayed-the-bull-case",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Strategy signals another bitcoin buy as company needs just 2% annual BTC growth to cover dividends",
-    "description": "The company bought nearly three times more bitcoin than miners produced in March and is signaling it isn't done, even as its holdings remain billions underwater.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/markets/2026/04/13/strategy-signals-another-bitcoin-buy-as-company-needs-just-2-annual-btc-growth-to-cover-dividends",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
