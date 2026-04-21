@@ -1,5 +1,41 @@
 [
   {
+    "institution": "Connecting the Dots",
+    "initiative": "Razorpay Set for Confidential IPO Filing",
+    "description": "Hey Payments Fanatic! FinTech unicorn Razorpay is preparing to confidentially file for an initial public offering (IPO) within the next few weeks.&#xA0; The payments company from India looks to raise between $600 million and $700 million , at an expected valuation of $5-6 billion, a markdown from its peak of",
+    "date": "2026-04-21",
+    "source_url": "https://www.connectingthedotsinpayments.com/razorpay-set-for-confidential-ipo-filing/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Arbitrum freezes $71 million worth of ETH stolen in Kelp DAO exploit",
+    "description": "The Arbitrum Security Council said the frozen funds will only be moved by further action through Arbitrum governance.",
+    "date": "2026-04-21",
+    "source_url": "https://www.theblock.co/post/398212/arbitrum-freezes-eth-kelp-dao-exploit",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Senate crypto bill faces April setback amid growing pressure to get legislation through: report",
     "description": "Tensions are building to schedule a hearing to advance crypto market structure legislation, which could reportedly be pushed to May.",
@@ -9599,47 +9635,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin and other cryptos fall as U.S., Iranian negotiators fail to reach war resolution",
-    "description": "U.S. Vice President J.D. Vance said negotiations had ended after a daylong session in Pakistan, sending crypto prices down between 1.5% and 2%.",
-    "date": "2026-04-12",
-    "source_url": "https://www.coindesk.com/markets/2026/04/11/bitcoin-and-other-cryptos-fall-as-u-s-iranian-negotiators-fail-to-reach-war-resolution",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "How U.S. sports teams can launch their fan-token strategies right now",
-    "description": "Dreyfus, CEO of Chiliz, examines the implications of the SEC and CFTC’s recent joint guidance on digital assets and what the regulatory clarity means for the future of blockchain fan engagement.",
-    "date": "2026-04-11",
-    "source_url": "https://www.coindesk.com/opinion/2026/04/10/how-u-s-sports-teams-can-launch-their-fan-token-strategies-right-now",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
