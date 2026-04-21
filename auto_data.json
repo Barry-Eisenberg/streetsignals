@@ -1,6 +1,103 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bitget exchange brings pre-IPO tokens to masses starting with SpaceX on Solana",
+    "description": "The crypto exchange opens IPO Prime access with Republic to offer Solana-based tokens tied to private firms ahead of public listings.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/business/2026/04/21/bitget-exchange-brings-pre-ipo-tokens-to-masses-starting-with-spacex-on-solana",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Coinbase advisory board says quantum computing threat is on the horizon, crypto needs a plan",
+    "description": "The 50-page paper concludes that while today’s blockchains remain secure, a future “fault-tolerant quantum computer” capable of breaking widely used encryption is increasingly plausible, and preparation must begin now.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/tech/2026/04/21/coinbase-advisory-board-says-quantum-computing-threat-is-on-the-horizon-crypto-needs-a-plan",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "UK invites crypto giant Bybit to London to win over some of UAE’s innovation shine",
+    "description": "Bybit CEO Ben Zhou was invited to meetings in the U.K. this week with government-linked bodies including the FCA and House of Lords.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/business/2026/04/21/uk-invites-crypto-giant-bybit-to-london-to-win-over-some-of-uae-s-innovation-shine",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "‘Are we an industry of clowns?’: DeFi grapples with security tradeoffs after $292M Kelp DAO fallout",
+    "description": "Aftermath conditions from Kelp DAO’s exploit has opened a broader debate over DeFi’s security model, after billions left Aave.",
+    "date": "2026-04-21",
+    "source_url": "https://www.theblock.co/post/398280/industry-of-clowns-defi-grapples-security-tradeoffs-292m-kelp-dao-fallout",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Pompliano’s ProCap Financial partners with Kalshi to incorporate real-time prediction market data in research",
+    "description": "ProCap Insights will feature reports on individual prediction markets, follow platform trends, and use Kalshi for investment decisions.",
+    "date": "2026-04-21",
+    "source_url": "https://www.theblock.co/post/398292/pomplianos-procap-financial-kalshi-prediction-market-data-research",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Cut the red tape: 39 financial giants demand an emergency fast-track for Europe's blockchain pilot",
     "description": "The firms requested separating the DLT pilot regime from a larger package of 18 financial laws to allow for quicker updates and build real markets.",
     "date": "2026-04-21",
@@ -9537,100 +9634,6 @@
     "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Circle CEO Allaire defends decision not to freeze USDC in Drift exploit, citing ‘moral quandary’",
-    "description": "Circle CEO Jeremy Allaire emphasized that the stablecoin issuer has a \"very clear performance obligation\" to act under the law.",
-    "date": "2026-04-13",
-    "source_url": "https://www.theblock.co/post/397180/circle-ceo-allaire-defends-decision-not-to-freeze-usdc-in-drift-exploit-citing-moral-quandary",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "StarkWare cuts staff, reorganizes into two units as it targets revenue",
-    "description": "StarkWare is cutting staff and restructuring under two units as CEO Eli Ben-Sasson says the firm is \"simply too big\" to move fast.",
-    "date": "2026-04-13",
-    "source_url": "https://www.theblock.co/post/397173/starkware-cuts-staff-reorganizes-into-two-units-as-it-targets-revenue",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA",
-    "initiative": "ESMA releases reporting templates and instructions for the Active Account Requirement",
-    "description": "ESMA releases reporting templates and instructions for the Active Account Requirement 13 April 2026 CCP Market data The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published the reporting templates and instructions for the Active Account Requirement (AAR) reporting under European Market Infrastructure Regulation (EMIR 3). The new templates set out in detail how entities subject to the AAR should report the required information to their competent authorities. Through this development, ESMA aims to ensure a harmonised and efficient approach to AAR reporting across the EU, providing standardised templates and clear instructions while facilitating consistent supervisory practices. Next steps The first AAR reporting submission is expected on 31 July 2026, covering the period from 25 June 2025, when the AAR became applicable, to 30 June 2026.&nbsp; Thereafter, reporting will take place on six months basis, with submissions due on 31 January and 31 July each year, each covering a twelve‑month reference period. &nbsp; Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu",
-    "date": "2026-04-13",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-releases-reporting-templates-and-instructions-active-account-requirement",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "EU seeks public review for digital IDs amid Austria scam alerts",
-    "description": "Scammers are reportedly targeting 300,000 expiring Austrian digital ID certificates, while ENISA seeks public feedback on new cybersecurity proposals. The post EU seeks public review for digital IDs amid Austria scam alerts appeared first on CoinGeek .",
-    "date": "2026-04-13",
-    "source_url": "https://coingeek.com/eu-seeks-public-review-for-digital-ids-amid-austria-scam-alerts/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "EBA sets out plans to harmonise Sepa reporting",
-    "description": "The European Banking Authority (EBA) today published a Decision harmonising how National Competent Authorities (NCAs) report under the SEPA Regulation.",
-    "date": "2026-04-13",
-    "source_url": "https://www.finextra.com/pressarticle/109435/eba-sets-out-plans-to-harmonise-sepa-reporting",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Data & Reporting"
     ],
     "initiative_types": [],
     "year": "2026"
