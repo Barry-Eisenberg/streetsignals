@@ -1,5 +1,25 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Senate crypto bill faces April setback amid growing pressure to get legislation through: report",
+    "description": "Tensions are building to schedule a hearing to advance crypto market structure legislation, which could reportedly be pushed to May.",
+    "date": "2026-04-20",
+    "source_url": "https://www.theblock.co/post/398197/senate-crypto-bill-faces-april-setback",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA",
     "initiative": "ESMA clarifies expectations in the run-up to the launch of EU’s Consolidated Tapes",
     "description": "ESMA clarifies expectations in the run-up to the launch of EU’s Consolidated Tapes 01 April 2026 Market data Trading The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published Questions and Answers (Q&amp;As) on the onboarding of data contributors to the EU’s Consolidated Tapes (CTs), and on the operational rules for the Consolidated Tape Providers (CTPs). The goal is to increase certainty for all market participants in anticipation of the go-live of the EU’s CTs for bonds and for equities.&nbsp; &nbsp; The Q&amp;As are available via ESMA’s online Q&amp;A tool. &nbsp; In collaboration with National Competent Authorities, ESMA reminds that trading venues and Authorised Publication Arrangements have the legal obligation to contribute data to the CTPs from the CTs’ go‑live.&nbsp; &nbsp; In this context, ESMA expects the relevant data contributors to engage with the selected CTPs ahead of their formal authorisation, to ensure that the data transmission setup is in place before the CTs’ go‑live. This cooperation may include agreeing on the relevant transmission protocols and conducting connectivity and end‑to‑end testing. &nbsp; ESMA expects the selected CTPs to put appropriate arrangements in place to safeguard the confidentiality and integrity of information received during this preparatory phase. &nbsp; Background In 2025, ESMA selected fairCT as the provider of the EU’s bonds CT and EuroCTP as the provider of the equities CT. The authorisation processes for both CTPs are currently ongoing. &nbsp; The selection procedure for the provider of the derivatives CT was launched in January 2026, and ESMA expects to announce the selected candidate by July 2026. &nbsp; &nbsp; Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu",
@@ -9620,25 +9640,6 @@
     "initiative_types": [
       "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "ECB backs EU plan to centralize crypto supervision under Paris-based ESMA watchdog: Reuters",
-    "description": "The ECB warned that ESMA must receive adequate staffing and funding, and recommended a phased transition to avoid disruption.",
-    "date": "2026-04-11",
-    "source_url": "https://www.theblock.co/post/397121/ecb-backs-eu-plan-to-centralize-crypto-supervision-under-paris-based-esma-watchdog-reuters",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
