@@ -1,6 +1,45 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bitcoin slides toward $75,000 as Warsh says Trump didn't demand he cut rates",
+    "description": "The S&P 500 and Nasdaq gave back their early morning gains alongside BTC as markets digested the Fed Chair nominee's Senate confirmation hearing.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/markets/2026/04/21/bitcoin-slides-toward-usd75-000-as-warsh-says-trump-didn-t-demand-he-cut-rates",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Kalshi eyes crypto expansion with perpetual futures trading: report",
+    "description": "Both Coinbase and Binance are offering users access to prediction markets as interest in wagering on the outcomes of different events swells.",
+    "date": "2026-04-21",
+    "source_url": "https://www.theblock.co/post/398325/kalshi-take-on-exchanges-binance-hyperliquid-perpetual-futures-trading-report",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Kalshi takes on Coinbase, Robinhood with new plan to offer crypto perpetual futures: The Information",
     "description": "Prediction market platform Kalshi is moving onto Coinbase’s turf by launching crypto perpetual futures, aiming to capture the massive demand for digital asset derivatives within a regulated U.S. framework.",
     "date": "2026-04-21",
@@ -9602,45 +9641,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Aave DAO Passes “Aave Will Win” Proposal, Directing 100% of Product Revenue to Token Holders",
-    "description": "The post Aave DAO Passes &#8220;Aave Will Win&#8221; Proposal, Directing 100% of Product Revenue to Token Holders appeared first on Unchained .",
-    "date": "2026-04-13",
-    "source_url": "https://unchainedcrypto.com/aave-dao-passes-aave-will-win-proposal-directing-100-of-product-revenue-to-token-holders-unchained/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Attacker Mints $1 Billion in Fake Polkadot Tokens on Ethereum but Steals Only $250,000",
-    "description": "The post Attacker Mints $1 Billion in Fake Polkadot Tokens on Ethereum but Steals Only $250,000 appeared first on Unchained .",
-    "date": "2026-04-13",
-    "source_url": "https://unchainedcrypto.com/attacker-mints-1-billion-in-fake-polkadot-tokens-on-ethereum-but-steals-only-250000-unchained/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
