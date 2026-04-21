@@ -1,5 +1,22 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "New York sues Coinbase, Gemini over prediction market offerings",
+    "description": "New York has become the latest state to argue that prediction market contracts touching on sports and entertainment violate state gambling laws.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/policy/2026/04/21/new-york-sues-coinbase-gemini-over-prediction-market-offerings",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Etherealize updates long-term ETH price prediction to $250,000",
     "description": "ETH would trade above $250,000 if Ethereum can capture the same monetary premium as bitcoin and gold carry as stores-of-value.",
@@ -9617,25 +9634,6 @@
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bank of Korea calls for stock-style circuit breakers on BTC exchanges",
-    "description": "Crypto's 24/7 global trading across hundreds of venues makes it difficult for any single country to halt the market.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/markets/2026/04/13/bank-of-korea-calls-for-stock-style-circuit-breakers-on-btc-exchanges",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
