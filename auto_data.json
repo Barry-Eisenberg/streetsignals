@@ -1,5 +1,43 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "A dozen banks want a euro stablecoin. Fireblocks is making it happen",
+    "description": "The Qivalis consortium is made up of: Banca Sella, BBVA, BNP Paribas, CaixaBank, Danske Bank, DekaBank, DZ BANK, ING, KBC, Raiffeisen Bank International, SEB, and UniCredit.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/business/2026/04/21/crypto-custody-firm-fireblocks-powers-bank-backed-euro-stablecoin",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Japan’s JSCC partners with Mizuho, Nomura to test government bonds on blockchain",
+    "description": "The proof-of-concept trial will test the onchain transfer and management of Japanese government bonds on Canton Network.",
+    "date": "2026-04-21",
+    "source_url": "https://www.theblock.co/post/398228/japan-jscc-tests-blockchain-government-bonds",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinGeek",
     "initiative": "ElectrumSVP v0.1.0 launches, with self-custody security upgrades",
     "description": "ElectrumSVP v0.1.0 brings advanced self-custody tools for BSV users, enhancing transaction handling, fee logic, and UTXO management. The post ElectrumSVP v0.1.0 launches, with self-custody security upgrades appeared first on CoinGeek .",
@@ -9579,45 +9617,6 @@
     "description": "Crypto trading is almost entirely public. One startup thinks it has borrowed an idea from Wall Street that could change that.",
     "date": "2026-04-12",
     "source_url": "https://www.coindesk.com/markets/2026/04/12/market-makers-are-fleeing-public-blockchains-to-protect-their-secret-trading-playbooks",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin slips below $71,000 as Trump orders blockade of Strait of Hormuz",
-    "description": "\"Effective immediately, the United States Navy ... will begin the process of blockading any and all ships trying to enter, or leave, the Strait of Hormuz,\" said the president in a social media post.",
-    "date": "2026-04-12",
-    "source_url": "https://www.coindesk.com/markets/2026/04/12/bitcoin-slips-below-usd71-000-as-trump-orders-blockade-of-strait-of-hormuz",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin analysts flag triggers for a massive surge to $88,000 even as war risks linger",
-    "description": "Key factors, such as ETF flows, macro factors and on-chain supply favor a rally in bitcoin even as war risks linger.",
-    "date": "2026-04-12",
-    "source_url": "https://www.coindesk.com/markets/2026/04/12/bitcoin-analysts-flag-triggers-for-a-massive-surge-to-usd88-000-even-as-war-risks-linger",
     "category": "ecosystem",
     "source_name": "CoinDesk",
     "auto_generated": true,
