@@ -1,6 +1,57 @@
 [
   {
     "institution": "BIS",
+    "initiative": "Björk Sigurgísladóttir: Financial supervision from the perspective of the Deputy Governor for Financial Supervision",
+    "description": "Speech by Ms Björk Sigurgísladóttir, Deputy Governor for Financial Supervision of the Central Bank of Iceland, at the Central Bank of Iceland's Annual Financial Supervision Day, Reykjavik, 19 March 2026.",
+    "date": "2026-04-21",
+    "source_url": "https://www.bis.org/review/r260421d.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Joachim Nagel: Already here, not yet everywhere - shaping the economic impact of artificial intelligence",
+    "description": "Keynote speech by Dr Joachim Nagel, President of the Deutsche Bundesbank, at the International Economic Symposium, Rome, 21 April 2026.",
+    "date": "2026-04-21",
+    "source_url": "https://www.bis.org/review/r260421a.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "CoinDesk 20 performance update: Stellar (XLM) gains 3.3% while index moves lower",
+    "description": "Aave (AAVE), up 1.9% from Monday, joined Stellar (XLM) as a top performer.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/21/coindesk-20-performance-update-stellar-xlm-gains-3-3-while-index-moves-lower",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
     "initiative": "Anna Breman: Global shockwaves to Kiwi shores - the impact of the Iran conflict on New Zealand",
     "description": "Keynote speech by Dr Anna Breman, Governor of the Reserve Bank of New Zealand, to Business NZ's CEO Forum, Auckland, 24 March 2026.",
     "date": "2026-04-21",
@@ -9581,66 +9632,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin hit by $20 million-an-hour selling pressure above $70,000",
-    "description": "Bitcoin has once again seen heavy profit-taking above $70,000, according to Glassnode.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/markets/2026/04/13/bitcoin-hit-by-usd20-million-an-hour-selling-pressure-above-usd70-000",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "AI fintech startup Round raises $6 million",
-    "description": "AI-powered finance automation platform Round has raised $6 million in Seed funding to strip out the human layer in automating treasury, payments and payroll.",
-    "date": "2026-04-13",
-    "source_url": "https://www.finextra.com/newsarticle/47564/ai-fintech-startup-round-raises-6-million",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Wise to shift primary listing to US next month",
-    "description": "Cross-border payments fintech Wise is on the brink of transferring its primary listing from London to the United States after reporting strong Q4 growth in volumes, customers and income.",
-    "date": "2026-04-13",
-    "source_url": "https://www.finextra.com/newsarticle/47563/wise-to-shift-primary-listing-to-us-next-month",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
