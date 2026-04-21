@@ -1,6 +1,126 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bitcoin climbs as risk sentiment improves, altcoins hit by exploit concerns",
+    "description": "Bitcoin advanced while altcoins continued to struggle after the weekend's DeFi exploit, with markets eyeing Middle East tensions and shifting risk sentiment.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/markets/2026/04/21/bitcoin-climbs-as-risk-sentiment-improves-altcoins-hit-by-exploit-concerns",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Crypto scammers offer ‘safe passage’ through Hormuz. At least one ship may have been conned.",
+    "description": "Marisks, a maritime risk company, alerted ships stranded by the Hormuz blockade to scammers posing as Iranian authorities asking for bitcoin or USDT.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/business/2026/04/21/crypto-scammers-offer-safe-passage-through-hormuz-at-least-one-ship-may-have-been-conned",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bank of Korea’s new governor signals CBDC and bank token push, skips stablecoins in key address",
+    "description": "The BOK will increase scrutiny of crypto markets and non-bank finance, and will also modernize currency markets for 24-hour foreign exchange trading, he said.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/policy/2026/04/21/bank-of-korea-s-new-governor-signals-cbdc-and-bank-token-push-skips-stablecoins-in-key-address",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Stablecoins & Deposit Tokens",
+      "CBDC",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Arbitrum Security Council Freezes $71 Million in ETH Tied to Kelp DAO Exploit",
+    "description": "Arbitrum's Security Council froze 30,766 ETH worth $71 million linked to the Kelp DAO exploit, recovering roughly a quarter of the $292 million stolen, pending a governance vote on the funds' fate. The post Arbitrum Security Council Freezes $71 Million in ETH Tied to Kelp DAO Exploit appeared first on Unchained .",
+    "date": "2026-04-21",
+    "source_url": "https://unchainedcrypto.com/arbitrum-security-council-freezes-71-million-in-eth-tied-to-kelp-dao-exploit/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Ripple Unveils Four-Phase Roadmap to Make the XRP Ledger Quantum-Resistant by 2028",
+    "description": "Ripple's four-phase plan targets full post-quantum cryptography on the XRP Ledger by 2028, with a Quantum-Day contingency already in place and NIST-standard testing underway in 2026. The post Ripple Unveils Four-Phase Roadmap to Make the XRP Ledger Quantum-Resistant by 2028 appeared first on Unchained .",
+    "date": "2026-04-21",
+    "source_url": "https://unchainedcrypto.com/ripple-unveils-four-phase-roadmap-to-make-the-xrp-ledger-quantum-resistant-by-2028/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Aave Faces Up to $230 Million in Losses After Kelp DAO Exploit, Incident Report Finds",
+    "description": "An Aave Labs and LlamaRisk incident report puts bad debt exposure at $124 million to $230 million depending on how Kelp DAO socializes losses from its $292 million bridge exploit. The post Aave Faces Up to $230 Million in Losses After Kelp DAO Exploit, Incident Report Finds appeared first on Unchained .",
+    "date": "2026-04-21",
+    "source_url": "https://unchainedcrypto.com/aave-faces-up-to-230-million-in-losses-after-kelp-dao-exploit-incident-report-finds/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Strategy overtakes BlackRock IBIT in bitcoin holdings after bear market buying",
     "description": "Leveraged accumulation and new capital tools push MSTR ahead of the world’s largest spot bitcoin ETF.",
     "date": "2026-04-21",
@@ -9523,121 +9643,6 @@
       "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "IMF warns tokenized finance may raise crisis risk",
-    "description": "IMF warns tokenized finance can speed up financial crises, leaving less time to respond, while stablecoins risk confidence-driven runs without clear rules. The post IMF warns tokenized finance may raise crisis risk appeared first on CoinGeek .",
-    "date": "2026-04-13",
-    "source_url": "https://coingeek.com/imf-warns-tokenized-finance-may-raise-crisis-risk/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "Google’s New \"Digital Pocket Money\" Is Here",
-    "description": "Hey Payments Fanatic! Imagine giving your teenager an allowance or helping an elderly parent pay for groceries without ever needing to visit an ATM or hand over your credit card.&#xA0; Google Pay has just launched a feature that lets you do exactly that. It&#x2019;s called &quot;Pocket",
-    "date": "2026-04-13",
-    "source_url": "https://www.connectingthedotsinpayments.com/googles-new-digital-pocket-money-is-here/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Fed consults on FedNow cross-border payments",
-    "description": "The US Federal Reserve is consulting on a proposal that would enable participants in its FedNow real-time payments system make cross-border transfers.",
-    "date": "2026-04-13",
-    "source_url": "https://www.finextra.com/newsarticle/47561/fed-consults-on-fednow-cross-border-payments",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "Deep Dive: An Analytical Breakdown of Revolut’s 2025 Performance",
-    "description": "The fiscal year 2025 represents a landmark epoch for Revolut, marking a decade of operational existence and a definitive transition from a high-growth fintech disruptor to a globally systemic financial institution.",
-    "date": "2026-04-12",
-    "source_url": "https://www.fintechwrapup.com/p/deep-dive-an-analytical-breakdown",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bitcoin slides to $71,000 after Trump’s blockade order in Strait of Hormuz",
-    "description": "High-level negotiations between the US and Iran failed to reach a meaningful resolution earlier on Sunday.",
-    "date": "2026-04-12",
-    "source_url": "https://www.theblock.co/post/397147/bitcoin-trump-blockade-hormuz",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Aave DAO approves $25 million Aave Labs funding grant in binding ‘Aave Will Win’ vote",
-    "description": "The Aave Chan Initiative cast the largest dissenting vote on the proposal, in line with founder Marc Zeller's prior opposition to Aave's actions.",
-    "date": "2026-04-12",
-    "source_url": "https://www.theblock.co/post/397138/aave-dao-approves-25-million-aave-labs-funding-grant-in-binding-aave-will-win-vote",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
