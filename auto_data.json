@@ -1,5 +1,81 @@
 [
   {
+    "institution": "ESMA",
+    "initiative": "ESMA releases reporting templates and instructions for the Active Account Requirement",
+    "description": "ESMA releases reporting templates and instructions for the Active Account Requirement 13 April 2026 CCP Market data The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published the reporting templates and instructions for the Active Account Requirement (AAR) reporting under European Market Infrastructure Regulation (EMIR 3). The new templates set out in detail how entities subject to the AAR should report the required information to their competent authorities. Through this development, ESMA aims to ensure a harmonised and efficient approach to AAR reporting across the EU, providing standardised templates and clear instructions while facilitating consistent supervisory practices. Next steps The first AAR reporting submission is expected on 31 July 2026, covering the period from 25 June 2025, when the AAR became applicable, to 30 June 2026.&nbsp; Thereafter, reporting will take place on six months basis, with submissions due on 31 January and 31 July each year, each covering a twelve‑month reference period. &nbsp; Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu",
+    "date": "2026-04-21",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-releases-reporting-templates-and-instructions-active-account-requirement",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance",
+      "Interoperability & Standards",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Aave’s core markets hit 100% utilization at once, and that's not a good thing",
+    "description": "CertiK says the lending protocol is in serious trouble while CEO Stani Kulechov tells CoinDesk he does “not have anything useful to say.”",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/business/2026/04/21/aave-s-core-markets-hit-100-utilization-at-once-here-is-what-it-means-and-it-s-not-good",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "AI slop has created a search problem crypto companies can’t ignore",
+    "description": "Rechler argues that if these companies don’t adopt better content strategies and overly misuse AI-generated tools, their platforms, exchanges or dapps won’t be discovered via search.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/opinion/2026/04/21/ai-slop-has-created-a-search-problem-crypto-companies-can-t-ignore",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bipartisan PACE Act looks to open Fed payment rails to nonbanks, draws crypto support",
+    "description": "California Reps. Sam Liccardo and Young Kim introduced a bill that would allow certain providers access to the central bank.",
+    "date": "2026-04-21",
+    "source_url": "https://www.theblock.co/post/398319/bipartisan-pace-act-looks-open-fed-payment-rails-nonbanks-crypto-support",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Bitget exchange brings pre-IPO tokens to masses starting with SpaceX on Solana",
     "description": "The crypto exchange opens IPO Prime access with Republic to offer Solana-based tokens tied to private firms ahead of public listings.",
@@ -9562,78 +9638,6 @@
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto markets stall as oil surges past $100 on Strait of Hormuz blockade",
-    "description": "Bitcoin and ether retreated Monday as tensions in the Middle East triggered a spike in crude oil, forcing traders into defensive derivatives positioning.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/markets/2026/04/13/crypto-markets-stall-as-oil-surges-past-usd100-on-strait-of-hormuz-blockade",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "The one metric investors are overlooking in Michael Saylor’s Strategy",
-    "description": "Increased preferred-equity issuance and surging STRC trading volumes are reshaping how Strategy's common stock trades.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/markets/2026/04/13/the-one-metric-investors-are-overlooking-in-michael-saylor-s-strategy",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "StarkWare cuts jobs in reorganization as Starknet revenue plunges 99% from peak",
-    "description": "Days after unveiling a quantum-safe bitcoin method, a StarkWare researcher was tapped to lead a new applications unit as Layer-2 revenue dries up.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/markets/2026/04/13/starkware-cuts-jobs-in-reorganization-as-starknet-revenue-plunges-99-from-peak",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Regulators scramble to brief banks on Anthropic cyber risk",
-    "description": "UK regulators are holding urgent talks with bank and cyber security authorities amid fears over the potential danger to critical infrastructure exposed by Anthopic's latest AI model, Mythos.",
-    "date": "2026-04-13",
-    "source_url": "https://www.finextra.com/newsarticle/47566/regulators-scramble-to-brief-banks-on-anthropic-cyber-risk",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
     ],
     "initiative_types": [],
     "year": "2026"
