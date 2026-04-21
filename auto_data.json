@@ -1,5 +1,125 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Cut the red tape: 39 financial giants demand an emergency fast-track for Europe's blockchain pilot",
+    "description": "The firms requested separating the DLT pilot regime from a larger package of 18 financial laws to allow for quicker updates and build real markets.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/policy/2026/04/21/cut-the-red-tape-39-financial-giants-demand-an-emergency-fast-track-for-europe-s-blockchain-pilot",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "European banks are at risk of losing customers to rivals with better crypto tools",
+    "description": "A new study found that while European investors find crypto complex, they are increasingly willing to switch banks to find a trusted partner that offers secure and regulated digital asset services.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/business/2026/04/21/european-banks-are-at-risk-of-losing-customers-to-rivals-with-better-crypto-tools",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "DoorDash is bringing stablecoin payments to masses with Stripe-backed blockchain",
+    "description": "The delivery service is working with the Stripe-led blockchain firm Tempo to bring stablecoin payouts to its global marketplace, replacing fragmented regional rails.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/business/2026/04/21/doordash-is-bringing-stablecoin-payments-to-masses-with-stripe-backed-blockchain",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Circle tops crypto stocks with 30% gain as stablecoin growth outpaces Coinbase slump",
+    "description": "Every crypto-related stock in the market now has its own differentiated business models that respond to different drivers.",
+    "date": "2026-04-21",
+    "source_url": "https://www.theblock.co/post/398141/circle-tops-crypto-stocks-with-30-gain-as-stablecoin-growth-outpaces-coinbase-slump",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Core Scientific plans $3.3 billion debt offering, with proceeds to help repay credit facility loans",
+    "description": "Core Scientific plans a $3.3 billion private notes offering, with proceeds partly earmarked to repay credit facility borrowings.",
+    "date": "2026-04-21",
+    "source_url": "https://www.theblock.co/post/398278/core-scientific-plans-3-3-billion-debt-offering-with-proceeds-to-help-repay-credit-facility-loans",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "DoorDash to offer stablecoin payouts with Tempo in push toward everyday crypto payments",
+    "description": "Stripe, Coastal Bank and ARQ are also deploying stablecoin payment flows on Tempo's network alongside DoorDash.",
+    "date": "2026-04-21",
+    "source_url": "https://www.theblock.co/post/398270/doordash-to-offer-stablecoin-payouts-with-tempo-in-push-toward-everyday-crypto-payments",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Björk Sigurgísladóttir: Financial supervision from the perspective of the Deputy Governor for Financial Supervision",
     "description": "Speech by Ms Björk Sigurgísladóttir, Deputy Governor for Financial Supervision of the Central Bank of Iceland, at the Central Bank of Iceland's Annual Financial Supervision Day, Reykjavik, 19 March 2026.",
@@ -9513,126 +9633,6 @@
       "Data & Reporting"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Deutsche Börse invests $15 million in MerQube",
-    "description": "Deutsche Börse Group has invested in MerQube, a rapidly growing US-based technology-led research and index firm specializing in the design and calculation of innovative rules-based investment strategies and passive solutions.",
-    "date": "2026-04-13",
-    "source_url": "https://www.finextra.com/pressarticle/109434/deutsche-brse-invests-15-million-in-merqube",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "HSBC completes tokenized deposit pilot on Canton",
-    "description": "HSBC, through its Global Payments Solutions (GPS) business, has successfully completed a pilot simulating the issuance, transfer and atomic settlement of its Tokenised Deposit Service (TDS) on the Canton Network, a public network for regulated institutions with configurable privacy.",
-    "date": "2026-04-13",
-    "source_url": "https://www.finextra.com/pressarticle/109433/hsbc-completes-tokenized-deposit-pilot-on-canton",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Tokenization & Issuance",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Profitus taps Axiology for digital bonds",
-    "description": "The crowdfunding platform Profitus is launching digital bonds in collaboration with the EU-licensed distributed ledger technology (DLT) capital markets infrastructure provider Axiology.",
-    "date": "2026-04-13",
-    "source_url": "https://www.finextra.com/pressarticle/109430/profitus-taps-axiology-for-digital-bonds",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "TransferMate extends payroll offfering to 70+ counries with Cadana integration",
-    "description": "TransferMate, the world's leading provider of embedded B2B payments infrastructure, today announced a strategic partnership with Cadana, a global workforce payments and compliance infrastructure provider.",
-    "date": "2026-04-13",
-    "source_url": "https://www.finextra.com/pressarticle/109429/transfermate-extends-payroll-offfering-to-70-counries-with-cadana-integration",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Icon Solutions hires Anders Olofsson as Emea sales lead",
-    "description": "Icon Solutions – the UK fintech enabling banks globally to design and implement state-of-the-art payment systems – has appointed Anders Olofsson as Sales Director, EMEA to drive adoption of the Icon Payments Framework (IPF) across the region.",
-    "date": "2026-04-13",
-    "source_url": "https://www.finextra.com/pressarticle/109428/icon-solutions-hires-anders-olofsson-as-emea-sales-lead",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Clarity Act returns to U.S. Senate, Bank earnings: Crypto Week Ahead",
-    "description": "Your look at what's coming in the week starting April 13.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/markets/2026/04/13/clarity-act-returns-to-u-s-senate-bank-earnings-crypto-week-ahead",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
