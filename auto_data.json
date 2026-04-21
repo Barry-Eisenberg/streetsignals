@@ -1,5 +1,44 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Kalshi takes on Coinbase, Robinhood with new plan to offer crypto perpetual futures: The Information",
+    "description": "Prediction market platform Kalshi is moving onto Coinbase’s turf by launching crypto perpetual futures, aiming to capture the massive demand for digital asset derivatives within a regulated U.S. framework.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/markets/2026/04/21/kalshi-takes-on-coinbase-robinhood-with-new-plan-to-offer-crypto-perpetual-futures-the-information",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Revolut targets a $200 billion IPO just months after its $75 billion share sale",
+    "description": "The crypto-friendly fintech is planning its initial public offering (IPO) no sooner than 2028, according to an FT report.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/business/2026/04/21/revolut-targets-a-usd200-billion-valuation-or-125-more-than-in-november-in-upcoming-ipo-ft",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA",
     "initiative": "ESMA releases reporting templates and instructions for the Active Account Requirement",
     "description": "ESMA releases reporting templates and instructions for the Active Account Requirement 13 April 2026 CCP Market data The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published the reporting templates and instructions for the Active Account Requirement (AAR) reporting under European Market Infrastructure Regulation (EMIR 3). The new templates set out in detail how entities subject to the AAR should report the required information to their competent authorities. Through this development, ESMA aims to ensure a harmonised and efficient approach to AAR reporting across the EU, providing standardised templates and clear instructions while facilitating consistent supervisory practices. Next steps The first AAR reporting submission is expected on 31 July 2026, covering the period from 25 June 2025, when the AAR became applicable, to 30 June 2026.&nbsp; Thereafter, reporting will take place on six months basis, with submissions due on 31 January and 31 July each year, each covering a twelve‑month reference period. &nbsp; Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu",
@@ -9604,42 +9643,6 @@
       "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Bitcoin Drops to $71,000 After Trump Orders Naval Blockade of Strait of Hormuz",
-    "description": "The post Bitcoin Drops to $71,000 After Trump Orders Naval Blockade of Strait of Hormuz appeared first on Unchained .",
-    "date": "2026-04-13",
-    "source_url": "https://unchainedcrypto.com/bitcoin-drops-to-71000-after-trump-orders-naval-blockade-of-strait-of-hormuz-unchained/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "World Liberty Financial Threatens Legal Action Against Justin Sun Over Blacklist Allegations",
-    "description": "The post World Liberty Financial Threatens Legal Action Against Justin Sun Over Blacklist Allegations appeared first on Unchained .",
-    "date": "2026-04-13",
-    "source_url": "https://unchainedcrypto.com/world-liberty-financial-threatens-legal-action-against-justin-sun-over-blacklist-allegations-unchained/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
