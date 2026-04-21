@@ -1,6 +1,26 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Crypto's great hope in Senate's Clarity Act still has a path to survive tight calendar",
+    "description": "A sideshow stablecoin yield debate has dragged the market structure bill through months of delay, even as the Senate's available floor time diminishes for 2026.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/news-analysis/2026/04/21/crypto-s-great-hope-in-senate-s-clarity-act-still-has-a-path-to-survive-tight-calendar",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Inside the hunt for Satoshi: Filmmakers chase crypto’s biggest mystery",
     "description": "A new documentary digs into Bitcoin’s origins, reframing the search for Satoshi Nakamoto as both a technical investigation and a deeply human story.",
     "date": "2026-04-21",
@@ -9616,27 +9636,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "WLFI mints $25 million in fresh USD1 and burns $3 million, days after repayment claim",
-    "description": "The mint and a simultaneous $3 million burn come days after the venture said it had repaid $25 million of the borrowing position that left depositors unable to withdraw from a DeFi lending pool.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/markets/2026/04/13/wlfi-mints-usd25-million-in-fresh-usd1-and-burns-usd3-million-days-after-repayment-claim",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
