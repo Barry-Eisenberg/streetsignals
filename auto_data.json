@@ -1,6 +1,105 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Strategy overtakes BlackRock IBIT in bitcoin holdings after bear market buying",
+    "description": "Leveraged accumulation and new capital tools push MSTR ahead of the world’s largest spot bitcoin ETF.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/markets/2026/04/21/strategy-overtakes-blackrock-ibit-in-bitcoin-holdings-after-bear-market-buying",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin is less volatile than South Korea's stock market right now",
+    "description": "Bitcoin's comparative stability during geopolitical turmoil has reinforced its appeal as a hedge.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/markets/2026/04/21/bitcoin-is-less-volatile-than-south-korea-s-stock-market-right-now",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "KelpDAO hackers are laundering millions in stolen crypto, data show",
+    "description": "KelpDAO hackers are moving $290M in stolen crypto across blockchains, using privacy tools to mask the trail as DeFi contagion fears move through the sector.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/business/2026/04/21/data-shows-the-kelpdao-hackers-are-already-laundering-millions-in-stolen-crypto",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "ECB backs centralized oversight of major crypto firms",
+    "description": "The ECB backs plan to shift oversight of crypto firms and major cross-border markets to ESMA, supporting deeper financial market integration. The post ECB backs centralized oversight of major crypto firms appeared first on CoinGeek .",
+    "date": "2026-04-21",
+    "source_url": "https://coingeek.com/ecb-backs-centralized-oversight-of-major-crypto-firms/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Scammers demand crypto ‘clearance’ fees from ships near Strait of Hormuz: report",
+    "description": "Greek maritime risk firm MARISKS warned shippers of fraudulent Hormuz transit demands paid in bitcoin or USDT, according to Reuters.",
+    "date": "2026-04-21",
+    "source_url": "https://www.theblock.co/post/398233/scammers-demand-crypto-clearance-fees-from-ships-near-strait-of-hormuz-report",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "A dozen banks want a euro stablecoin. Fireblocks is making it happen",
     "description": "The Qivalis consortium is made up of: Banca Sella, BBVA, BNP Paribas, CaixaBank, Danske Bank, DekaBank, DZ BANK, ING, KBC, Raiffeisen Bank International, SEB, and UniCredit.",
     "date": "2026-04-21",
@@ -163,6 +262,31 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Ledger Insights",
+    "initiative": "Nomura, Mizuho, JSCC to trial tokenized collateral on Canton Network",
+    "description": "Today Nomura, Mizuho and the Japan Securities Clearing Corporation (JSCC) and Digital Asset Holdings unveiled plans for a tokenized collateral trial for Japanese government bonds (JGBs) on the Canton Network. Two fo the proof of concept (PoC) participants, Nomura and Mizuho, were previously announced as participants of an FSA sandbox, the Payment Innovation Project (PIP), [&#8230;] The post Nomura, Mizuho, JSCC to trial tokenized collateral on Canton Network appeared first on Ledger Insights - blockchain for enterprise .",
+    "date": "2026-04-20",
+    "source_url": "https://www.ledgerinsights.com/nomura-mizuho-jscc-to-trial-tokenized-collateral-on-canton-network/",
+    "category": "ecosystem",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Tokenization & Issuance",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
     "year": "2026"
   },
   {
@@ -9514,121 +9638,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "FBI says crypto-related fraud losses hit record $11.4 billion in 2025, with seniors bearing the brunt",
-    "description": "Americans 60 and older accounted for $4.4 billion of those crypto losses across 44,555 complaints, nearly double the next-closest age group.",
-    "date": "2026-04-12",
-    "source_url": "https://www.theblock.co/post/397134/fbi-says-crypto-related-fraud-losses-hit-record-11-4-billion-in-2025-with-seniors-bearing-the-brunt",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "CFTC Chair Mike Selig argues for agency's 'exclusive regulatory authority' in prediction markets fight: State of Crypto",
-    "description": "Selig said states do not have the ability to police prediction market providers, echoing his agency's stance as it pursues court cases to cement its authority.",
-    "date": "2026-04-12",
-    "source_url": "https://www.coindesk.com/policy/2026/04/12/cftc-chair-mike-selig-argues-for-agency-s-exclusive-regulatory-authority-in-prediction-markets-fight-state-of-crypto",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "DeFi’s shakeout is a stress test, not a death sentence",
-    "description": "Novozhenov argues that despite lingering governance, security and regulatory hurdles that have shuttered several protocols, DeFi remains resilient.",
-    "date": "2026-04-12",
-    "source_url": "https://www.coindesk.com/opinion/2026/04/10/defi-s-shakeout-is-a-stress-test-not-a-death-sentence",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "‘See you in court’: WLFI threatens Justin Sun after he alleges hidden blacklist backdoor in token contract",
-    "description": "Sun called himself \"the first and single largest victim\" of World Liberty's blacklist, referencing his own wallet which has been frozen since Sep. 2025.",
-    "date": "2026-04-12",
-    "source_url": "https://www.theblock.co/post/397126/see-you-in-court-wlfi-threatens-justin-sun-after-he-alleges-hidden-blacklist-backdoor-in-token-contract",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin may be forming a base at $65,000 as 'paper hands' have been flushed out",
-    "description": "Jurrien Timmer, director of global macro at Fidelity Investments, says strong earnings are helping markets absorb geopolitical shocks, despite ongoing risks.",
-    "date": "2026-04-12",
-    "source_url": "https://www.coindesk.com/markets/2026/04/07/oil-at-usd100-vs-bitcoin-at-usd70k-the-wild-ride-that-fidelity-strategist-says-is-a-real-buying-opportunity",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Market makers are fleeing public blockchains to protect their secret trading playbooks",
-    "description": "Crypto trading is almost entirely public. One startup thinks it has borrowed an idea from Wall Street that could change that.",
-    "date": "2026-04-12",
-    "source_url": "https://www.coindesk.com/markets/2026/04/12/market-makers-are-fleeing-public-blockchains-to-protect-their-secret-trading-playbooks",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
