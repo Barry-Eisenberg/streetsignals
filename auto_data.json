@@ -1,5 +1,41 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin reclaims $75,000 as Iran ceasefire talks advance, equities rally resumes",
+    "description": "Bitcoin traded at $75,733 on Tuesday morning, up 1.5% over 24 hours, as Iran signaled it will send a team to Pakistan talks and Brent crude slipped ahead of the Wednesday ceasefire deadline.",
+    "date": "2026-04-21",
+    "source_url": "https://www.coindesk.com/markets/2026/04/21/bitcoin-reclaims-usd75-000-as-iran-ceasefire-talks-advance-equities-rally-resumes",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Healthcare digital signage market to reach $20.85B by 2034: report",
+    "description": "Healthcare digital signage hits $7.85B in 2025, driven by tech such as AI, IoT, and patient engagement tools, with strong growth expected through 2034. The post Healthcare digital signage market to reach $20.85B by 2034: report appeared first on CoinGeek .",
+    "date": "2026-04-21",
+    "source_url": "https://coingeek.com/healthcare-digital-signage-market-to-reach-20-85b-by-2034-report/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Connecting the Dots",
     "initiative": "Razorpay Set for Confidential IPO Filing",
     "description": "Hey Payments Fanatic! FinTech unicorn Razorpay is preparing to confidentially file for an initial public offering (IPO) within the next few weeks.&#xA0; The payments company from India looks to raise between $600 million and $700 million , at an expected valuation of $5-6 billion, a markdown from its peak of",
@@ -9593,44 +9629,6 @@
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "Deep Dive: An Analytical Breakdown of Revolut’s 2025 Performance",
-    "description": "The fiscal year 2025 represents a landmark epoch for Revolut, marking a decade of operational existence and a definitive transition from a high-growth fintech disruptor to a globally systemic financial institution.",
-    "date": "2026-04-12",
-    "source_url": "https://www.fintechwrapup.com/p/deep-dive-an-analytical-breakdown",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "XRP drops to $1.33 as bitcoin weakness pulls down majors",
-    "description": "Sudden selloff triggered liquidation-style move, with weak recovery reinforcing bearish structure despite compressed volatility setup.",
-    "date": "2026-04-12",
-    "source_url": "https://www.coindesk.com/markets/2026/04/12/xrp-drops-to-usd1-33-as-bitcoin-weakness-pulls-down-majors",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
     ],
