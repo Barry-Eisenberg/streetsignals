@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Bitcoin's 'Coinbase premium' just posted its longest bullish streak since October's record high of $126,000",
+    "description": "Bitcoin's Coinbase premium has been positive for 14 straight days, the longest bullish streak since BTC hit its all time high of $126,000 in October.",
+    "date": "2026-04-22",
+    "source_url": "https://www.coindesk.com/markets/2026/04/22/bitcoin-s-coinbase-premium-just-posted-its-longest-bullish-streak-since-october-s-record-high-of-usd126-000",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bitcoin climbs to $78,100 on Trump ceasefire extension, Strategy's $2.5 billion buy",
     "description": "Bitcoin traded at $77,541 on Wednesday morning, up 2.2% over 24 hours and 4.3% on the week, after Trump extended the Iran ceasefire and Strategy disclosed its largest BTC purchase in 17 months.",
     "date": "2026-04-22",
@@ -9616,25 +9635,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin moves off lowest levels as worst of weekend fears slip away",
-    "description": "As the U.S. blockade of the Strait of Hormuz goes into effect, reports say Iran is considering the abandonment of uranium enrichment as a way to end the war.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/markets/2026/04/13/bitcoin-moves-off-lowest-level-as-worst-of-weekend-fears-slip-away",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
