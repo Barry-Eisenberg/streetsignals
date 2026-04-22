@@ -1,6 +1,121 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Crypto giant GSR launches its first ETF to give investors an easy way to bet on the big 3 tokens",
+    "description": "GSR is entering the asset management space with a new Nasdaq-listed ETF that actively manages a basket of bitcoin, ether and solana while offering investors a chance to earn staking yields.",
+    "date": "2026-04-22",
+    "source_url": "https://www.coindesk.com/markets/2026/04/21/crypto-giant-gsr-launches-its-first-etf-to-give-investors-an-easy-way-to-bet-on-the-big-3-tokens",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "HIVE, Keel push deeper into AI data centers with capital raise, asset sale",
+    "description": "HIVE raises $115M to expand data centers while Keel exits Latin America, redirecting funds into HPC and AI as both stocks climb 4%.",
+    "date": "2026-04-22",
+    "source_url": "https://www.coindesk.com/markets/2026/04/22/hive-keel-push-deeper-into-ai-data-centers-with-capital-raise-asset-sale",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Tax-free bitcoin is back: How UK investors can avoid paying duty on crypto investments once more",
+    "description": "Stratiphy will offer access to three ETNs provided by 21Shares: those covering bitcoin, ether and one combining BTC and gold.",
+    "date": "2026-04-22",
+    "source_url": "https://www.coindesk.com/business/2026/04/22/tax-free-bitcoin-is-back-how-uk-investors-can-avoid-paying-duty-on-crypto-investments-once-more",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "UK FCA carries out first crackdown on illegal peer-to-peer crypto trading",
+    "description": "The Financial Conduct Authority said it has carried out its first operation targeting illegal peer-to-peer crypto trading in the UK.",
+    "date": "2026-04-22",
+    "source_url": "https://www.theblock.co/post/398473/uk-fca-carries-out-first-crackdown-on-illegal-peer-to-peer-crypto-trading",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Binance.US slashes trading fees across listed cryptocurrencies in a bid to attract users",
+    "description": "“American crypto traders have been paying too much for too long,” Binance.US CEO Stephen Gregory said about the move to slash fees.",
+    "date": "2026-04-22",
+    "source_url": "https://www.theblock.co/post/398477/binance-us-slashes-trading-fees-cryptocurrencies-bid-to-attract-users",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Armed intruders force French family to transfer $820,000 in crypto: report",
+    "description": "Two armed men forced a French family to transfer $820,000 in crypto during a home invasion, local media reported.",
+    "date": "2026-04-22",
+    "source_url": "https://www.theblock.co/post/398465/armed-intruders-force-french-family-to-transfer-820000-in-crypto-report",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "CoinDesk 20 performance update: Aptos (APT) rises 5.5%, leading index higher",
     "description": "Internet Computer (ICP) up 5.3% from Tuesday, joined Aptos (APT) as a top performer.",
     "date": "2026-04-22",
@@ -9528,118 +9643,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "CMC Markets taps Upvest for multi-currency securities",
-    "description": "CMC Markets, a global leader in online trading for retail investors and platform technology solutions for institutional partners, has entered into a partnership with Europe’s leading investment infrastructure provider, Upvest.",
-    "date": "2026-04-14",
-    "source_url": "https://www.finextra.com/pressarticle/109449/cmc-markets-taps-upvest-for-multi-currency-securities",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Beyond by RS2 and Hakisa to launch digital expense management for the social and public sector",
-    "description": "Beyond by RS2, the innovation brand of RS2 Financial Services GmbH, a BaFin-licensed e-money institution and part of the RS2 Group, has partnered with Hakisa GmbH, a member of the investment holding Maffei & Co., to launch an integrated card-based expense management solution for social service organisations and municipalities.",
-    "date": "2026-04-14",
-    "source_url": "https://www.finextra.com/pressarticle/109448/beyond-by-rs2-and-hakisa-to-launch-digital-expense-management-for-the-social-and-public-sector",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Worldline and YouLend bring cash advance to Poland",
-    "description": "Worldline [Euronext: WLN], a European leader in payment services, in cooperation with YouLend, is launching Cash Advance in Poland - a solution offering additional financing for small and medium-sized enterprises (SMEs).",
-    "date": "2026-04-14",
-    "source_url": "https://www.finextra.com/pressarticle/109447/worldline-and-youlend-bring-cash-advance-to-poland",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Clowd9 and Sphere for Good to embed climate action into everyday payments",
-    "description": "Sphere for Good, a pioneering platform dedicated to integrating environmental sustainability and loyalty offerings into financial services, today announced a strategic partnership with CLOWD9, a leading cloud-native B Corp certified payments processing platform, to embed climate action into financial transactions.",
-    "date": "2026-04-14",
-    "source_url": "https://www.finextra.com/pressarticle/109442/clowd9-and-sphere-for-good-to-embed-climate-action-into-everyday-payments",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "BSV blockchain reaches 7B total transactions as scaling vision forms",
-    "description": "BSV blockchain reaches 7 billion transactions, showcasing unmatched scalability and efficiency for data and payments in a secure proof-of-work network. The post BSV blockchain reaches 7B total transactions as scaling vision forms appeared first on CoinGeek .",
-    "date": "2026-04-14",
-    "source_url": "https://coingeek.com/bsv-blockchain-reaches-7b-total-transactions-as-scaling-vision-forms/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "NFT bull Steve Aoki sells his SHIB, ETH, and PEPE. His Bored Apes are down 88%.",
-    "description": "The DJ who told CoinDesk in 2021 that NFTs would be \"part of culture\" within five years is quietly exiting crypto.",
-    "date": "2026-04-14",
-    "source_url": "https://www.coindesk.com/markets/2026/04/14/nft-bull-steve-aoki-sells-his-shib-eth-and-pepe-his-bored-apes-are-down-88",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
