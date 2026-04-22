@@ -1,6 +1,65 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "A make or break moment: why $79,200 could act as a launchpad or a ceiling for bitcoin",
+    "description": "True Market Mean and Short-Term Holder cost basis form a critical $78.2K to $79.2K range that could define the next major move.",
+    "date": "2026-04-22",
+    "source_url": "https://www.coindesk.com/markets/2026/04/22/bitcoin-faces-make-or-break-moment-at-two-major-on-chain-resistance-levels",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Switzerland crypto sector reached new funding heights in 2025",
+    "description": "Switzerland’s Crypto Valley secured $728M across 31 deals in 2025, capturing 5% of global and 47% of Europe’s blockchain funding despite a slowdown. The post Switzerland crypto sector reached new funding heights in 2025 appeared first on CoinGeek .",
+    "date": "2026-04-22",
+    "source_url": "https://coingeek.com/switzerland-crypto-sector-reached-new-funding-heights-in-2025/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bitcoin rises above $78,000, Fear & Greed Index exits ‘extreme fear’ zone",
+    "description": "Bitcoin climbed above $78,000 early Wednesday, with analysts citing short squeezes and strong ETF inflows as drivers of the move.",
+    "date": "2026-04-22",
+    "source_url": "https://www.theblock.co/post/398407/bitcoin-78000-escapes-extreme-fear",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Another DeFi protocol loses millions in hack days after KelpDAO breach",
     "description": "Volo Protocol lost about $3.5 million from three vaults holding WBTC, XAUm, and USDC.",
     "date": "2026-04-22",
@@ -9587,65 +9646,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Ondo seeks SEC clearance for tokenized equities model on Ethereum",
-    "description": "The SEC is signaling openness to tokenization, encouraging firms to engage directly as it fine-tunes regulations.",
-    "date": "2026-04-13",
-    "source_url": "https://www.theblock.co/post/397258/ondo-seeks-sec-clearance-tokenized-equities-model-ethereum",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "List of ‘unsolvable’ issues have shrunk, top White House crypto advisory says as momentum builds to pass legislation",
-    "description": "President Donald Trump's top crypto advisor is sparking optimism in getting broader cryptocurrency legislation passed into law.",
-    "date": "2026-04-13",
-    "source_url": "https://www.theblock.co/post/397266/list-of-unsolvable-issues-have-shrunk-top-white-house-crypto-advisory-says-as-momentum-builds-to-pass-legislation",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "U.S. SEC says software allowing crypto wallet transactions not considered broker",
-    "description": "The latest crypto view from the securities agency concludes software that clears the way for securities transactions with individual wallets won't trip regulations.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/policy/2026/04/13/u-s-sec-says-software-allowing-crypto-wallet-transactions-aren-t-considered-brokers",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
