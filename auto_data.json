@@ -1,5 +1,47 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Another DeFi protocol loses millions in hack days after KelpDAO breach",
+    "description": "Volo Protocol lost about $3.5 million from three vaults holding WBTC, XAUm, and USDC.",
+    "date": "2026-04-22",
+    "source_url": "https://www.coindesk.com/markets/2026/04/22/another-defi-protocol-loses-millions-in-hack-days-after-kelpdao-breach",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Fintech Wrap Up",
+    "initiative": "Reports: The Know-Your-Customer Agentic AI Revolution; The Definitive Stablecoin Landscape Series; The Shift to Agentic Payments",
+    "description": "The reports highlight a major shift in financial infrastructure driven by agentic AI, stablecoins, and automation.",
+    "date": "2026-04-22",
+    "source_url": "https://www.fintechwrapup.com/p/reports-the-know-your-customer-agentic",
+    "category": "ecosystem",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DeFi",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinGeek",
     "initiative": "Stablecoins are becoming the rails for 24/7 global trade",
     "description": "Hong Kong's HKMA issues stablecoin licenses, signaling a shift in digital assets towards a regulated financial system driven by major banks. The post Stablecoins are becoming the rails for 24/7 global trade appeared first on CoinGeek .",
@@ -9600,44 +9642,6 @@
     "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Kraken security chief says exchange won’t negotiate as it faces extortion threat",
-    "description": "The attackers obtained videos showing Kraken support staff accessing internal client support systems and limited client data.",
-    "date": "2026-04-13",
-    "source_url": "https://www.theblock.co/post/397260/kraken-security-says-exchange-wont-negotiate-faces-extortion-threat",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto exchange Kraken targeted in extortion attempt but says there was no breach and no client funds at risk",
-    "description": "The firm said a criminal group is attempting to extort it over limited insider-related data access incidents affecting about 2,000 accounts. Kraken says it will not pay and is working with law enforcement.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/business/2026/04/13/crypto-exchange-kraken-targeted-in-extortion-attempt-but-says-there-was-no-breach-and-no-client-funds-at-risk",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Data & Reporting"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
