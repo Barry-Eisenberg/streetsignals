@@ -1,5 +1,181 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Banks seek to slow down implementation of crypto's GENIUS Act on stablecoin oversight",
+    "description": "U.S. banking groups argued that a number of federal agencies are moving quickly on stablecoin regulations, making it hard to understand how rules will interact.",
+    "date": "2026-04-22",
+    "source_url": "https://www.coindesk.com/policy/2026/04/22/banks-seek-to-slow-down-implementation-of-crypto-s-genius-act-on-stablecoin-oversight",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "The Protocol: Kelp DAO exploited for $292 million",
+    "description": "Also: DPRK hacking crypto, Aave contagion and Coinbase on quantum computing.",
+    "date": "2026-04-22",
+    "source_url": "https://www.coindesk.com/tech/2026/04/22/the-protocol-kelp-dao-exploited-for-usd292-million",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Crypto Long & Short: Protecting the people building DeFi infrastructure",
+    "description": "In this week’s Crypto Long & Short Newsletter, Jennifer Rosenthal writes on the need to protect the people actually building DeFi infrastructure. Then, Alexis Sirkia comments on how Ethereum's L2 strategy is failing due to a fundamental design flaw.",
+    "date": "2026-04-22",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/22/crypto-long-and-short-protecting-the-people-building-defi-infrastructure",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "The $292 million Kelp DAO exploit shows why crypto bridges are still one of the industry's weakest links",
+    "description": "The problem is structural and as long as bridges depend on complex systems with shared infrastructure and hidden trust assumptions, they will remain vulnerable.",
+    "date": "2026-04-22",
+    "source_url": "https://www.coindesk.com/tech/2026/04/21/the-usd292-million-kelp-dao-exploit-shows-why-crypto-bridges-are-still-one-of-the-industry-s-weakest-links",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Trump-linked American Bitcoin shares spike over 12% after announcing more mining power",
+    "description": "The Trump family-linked mining and treasury company announced 11,298 additional bitcoin mining ASICs at its Drumheller site.",
+    "date": "2026-04-22",
+    "source_url": "https://www.coindesk.com/business/2026/04/22/trump-linked-american-bitcoin-shares-spike-over-12-after-announcing-more-mining-power",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin breaks Strategy's STRC ex-dividend date slump for the first time in six months",
+    "description": "Bitcoin is seeing a short squeeze dynamic and steady U.S. demand to support gains.",
+    "date": "2026-04-22",
+    "source_url": "https://www.coindesk.com/markets/2026/04/22/bitcoin-rises-a-week-after-strc-s-dividend-payout-a-first-in-six-months",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin tops $79,000 as crypto rally gathers steam; Circle, Coinbase, Strategy lead",
+    "description": "BTC pushed to an 11-week high with dynamics for a short squeeze building, one analyst noted.",
+    "date": "2026-04-22",
+    "source_url": "https://www.coindesk.com/markets/2026/04/22/bitcoin-tops-usd79-000-as-crypto-rally-gathers-steam-circle-coinbase-strategy-lead",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "TD Cowen flags five hurdles to crypto bill beyond stablecoin yield issue",
+    "description": "These include a lack of CFTC commissioners, conflicts tied to World Liberty Financial, and concerns around Iran's use of crypto payments.",
+    "date": "2026-04-22",
+    "source_url": "https://www.theblock.co/post/398499/td-cowen-crypto-bill-hurdles-beyond-stablecoin-yield-issue",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Kalshi taps Pyth for new ‘Commodities Hub,’ offering gold, oil and lithium markets",
+    "description": "Pyth aggregates price feeds from over 125 institutions, including exchanges and market makers, to provide 24/7 pricing data.",
+    "date": "2026-04-22",
+    "source_url": "https://www.theblock.co/post/398501/kalshi-taps-pyth-commodities-hub-gold-oil-lithium-markets",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Crypto bill nears stablecoin rewards breakthrough as talks hit ‘good spot,’ but ethics concerns set to resurface",
     "description": "After months of negotiations over how a crypto bill should treat stablecoin rewards, a key negotiator says discussions are in a \"good spot.\"",
@@ -9468,183 +9644,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Bitcoin Surges to Four-Week High Above $74,000 on US-Iran Peace Talks Optimism",
-    "description": "The post Bitcoin Surges to Four-Week High Above $74,000 on US-Iran Peace Talks Optimism appeared first on Unchained .",
-    "date": "2026-04-14",
-    "source_url": "https://unchainedcrypto.com/bitcoin-surges-to-four-week-high-above-74000-on-us-iran-peace-talks-optimism-unchained/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Tillis Plans to Release Stablecoin Yield Draft This Week As Senate Targets Late April for CLARITY Act Markup",
-    "description": "The post Tillis Plans to Release Stablecoin Yield Draft This Week As Senate Targets Late April for CLARITY Act Markup appeared first on Unchained .",
-    "date": "2026-04-14",
-    "source_url": "https://unchainedcrypto.com/tillis-plans-to-release-stablecoin-yield-draft-this-week-with-clarity-act-markup-targeted-for-late-april-unchained/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA",
-    "initiative": "SEC confirms exemption for directors and officers of EEA Foreign Private Issuers",
-    "description": "SEC confirms exemption for directors and officers of EEA Foreign Private Issuers 18 March 2026 Market Abuse Post Trading The United States Securities and Exchange Commission (SEC) has decided to exempt directors and officers of European Economic Area (EEA) foreign private issuers (FPIs) from the reporting requirements under Section 16(a) of the US Securities Exchange Act of 1934. &nbsp; The SEC’s decision means that directors and officers of EEA FPIs will not be required to comply with these specific US reporting obligations. The announcement ensures continued alignment with the EU regulatory framework, which already provides for substantially similar disclosure requirements for persons discharging managerial responsibilities set in the Market Abuse Regulation (MAR)&nbsp; &nbsp; The details of the SEC decision can be consulted here . &nbsp; &nbsp; Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu",
-    "date": "2026-04-14",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/sec-confirms-exemption-directors-and-officers-eea-foreign-private-issuers",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA",
-    "initiative": "New investment funds drive reduction in costs to investors",
-    "description": "New investment funds drive reduction in costs to investors 03 March 2026 Fund Management Press Releases Risk monitoring The European Securities and Markets Authority (ESMA), the EU financial markets regulator and supervisor, today publishes its 2025 market report on the costs and performance of EU retail investment products . This eighth Costs and Performance report shows that ongoing costs in the EU continued to decline in 2024. This is however mostly due to new investment funds entering the market, as they usually charge lower fees. Cost reductions for long-standing funds remained more limited. Verena Ross, ESMA Chair said: “In 2024, EU retail investment fund market saw stronger performance and gradually declining costs, driven largely by new funds. The data we publish today shows gradual cost pressure in EU markets and - with that – improving investor outcomes. The report highlights however that benefits are uneven and product choice matters. Transparency and competition remain key to translating market improvements into real gains for investors.”&nbsp; The cost and performance of products are key determinants of the benefits retail investors in the EU can get from their investments. Clear and comprehensive information enables investors to assess costs and past performance and supports informed decision-making and retail participation in capital markets. The findings also demonstrate the importance of cost transparency, as well as the obligation for asset managers and investment firms to act in the best interest of investors. The key findings in the report are: UCITS costs declined gradually, driven mainly by new funds , &nbsp; with ongoing costs falling by 8% for retail equity funds, and by almost 15% for retail bond funds. Cost reductions were more limited for existing funds, at 3% for equity funds and 9% for bond funds. UCITS performance improved significantly in 2024 . Equity and mixed funds achieved their second-best results since 2020, while bond funds reached their highest level of returns. Real net returns were positive across all fund categories, marking a clear turnaround from 2023. ESG UCITS continued to have lower costs than non-ESG . However, in 2024, ESG funds underperformed their non-ESG equivalents. Similarly, funds classified under SFDR Article 9 recorded lower returns than Article 6 funds. Alternative Investment Funds (AIFs) remained dominated by professional investors,&nbsp; and between 2022 and 2024 the share of retail investors investing in these products decreased from 14% to 9%. Annual net returns were positive across all categories of AIFs in 2024. Structured Retail Product costs remained broadly stable&nbsp; in 2024, while interest-rate linked products continued to gain market share, reaching 27% – up from just 1% in 2021. Structured products that matured in 2024 delivered positive gross returns, although these figures do not reflect the costs paid by investors. &nbsp; Further information: Ana Dilaverakis Communications Officer press@esma.europa.eu 03/03/2026 ESMA50-1949966494-4065 Market report on Costs and performance of EU retail investment products 2025 03/03/2026 ESMA50-1949966494-4048 Market report on Costs and performance of EU retail investment products 2025 - Annex",
-    "date": "2026-04-14",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/new-investment-funds-drive-reduction-costs-investors",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Strategy's STRC sees record-breaking trading day, may surpass that on Tuesday",
-    "description": "Estimated bitcoin purchase from STRC of around 7,800 BTC could mark the largest single-day addition since the preferred stock's debut.",
-    "date": "2026-04-14",
-    "source_url": "https://www.coindesk.com/markets/2026/04/14/strategy-s-strc-sees-record-breaking-trading-day-may-surpass-that-on-tuesday",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Here are key bitcoin price levels to watch as the rally gathers steam",
-    "description": "BTC's price has hit four-week highs above $74,000. Here are next key levels that could amplify volatility or create resistance.",
-    "date": "2026-04-14",
-    "source_url": "https://www.coindesk.com/markets/2026/04/14/here-are-key-bitcoin-price-levels-to-watch-as-the-rally-gathers-steam",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "China favors blockchain; Sweden flags digital bank risks",
-    "description": "China backs blockchain for innovation despite crypto bans, while Sweden warns citizens to keep cash amid risks to digital financial systems. The post China favors blockchain; Sweden flags digital bank risks appeared first on CoinGeek .",
-    "date": "2026-04-14",
-    "source_url": "https://coingeek.com/china-favors-blockchain-sweden-flags-digital-bank-risks/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "PayDo rolls out C2B settlement acounts for A2A payments",
-    "description": "PayDo has launched customer-to-business (C2B) settlement accounts, a new feature within its all-in-one electronic money solution designed to help merchants accept and settle payments made directly from customers’ bank accounts.",
-    "date": "2026-04-14",
-    "source_url": "https://www.finextra.com/pressarticle/109453/paydo-rolls-out-c2b-settlement-acounts-for-a2a-payments",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA",
-    "initiative": "ESMA publishes the results of the annual transparency calculations for equity and equity-like instruments",
-    "description": "ESMA publishes the results of the annual transparency calculations for equity and equity-like instruments 27 February 2026 Market data Trading The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published today the results of the annual transparency calculations for equity and equity-like instruments, which will apply from 6 April 2026. The calculations made available include: the liquidity assessment as per Articles 1 to 5 of CDR 2017/567; the determination of the most relevant market in terms of liquidity as per Article 4 of CDR 2017/587 (RTS 1); the determination of the average daily turnover relevant for the determination of the pre-trade and post-trade large in scale thresholds; the determination of the average value of the transactions and the related the standard market size; and the determination of the average daily number of transactions on the most relevant market in terms of liquidity relevant for the determination of the tick-size regime. Market participants are invited to monitor the release of the transparency calculations for equity and equity-like instruments on a daily basis to obtain the estimates for newly traded instruments and the four-weeks calculations applicable to newly traded instruments after the first six-weeks of trading.&nbsp; The full list of assessed equity and equity-like instruments is available through ESMA’s&nbsp;FITRS in the XML files with publication date from 27 February 2026 ( see here ) and&nbsp;through the Register web interface ( see here ).&nbsp; ESMA also recalls that the application of the remaining revised rules on transparency of equity and equity-like financial instruments included in RTS 1 are applicable from 2 March 2026. Next steps The transparency requirements are based on the results of the annual transparency calculations published from 27 February 2026 for equity and equity-like instruments will apply from 6 April 2026 until 4 April 2027. The next annual transparency calculations for equity and equity-like instruments, to be published by 1 March 2027, will become applicable from 5 April 2027. &nbsp; Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu",
-    "date": "2026-04-14",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-results-annual-transparency-calculations-equity-and-equity-3",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
