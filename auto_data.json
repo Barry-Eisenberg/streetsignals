@@ -1,5 +1,47 @@
 [
   {
+    "institution": "CoinGeek",
+    "initiative": "Stablecoins are becoming the rails for 24/7 global trade",
+    "description": "Hong Kong's HKMA issues stablecoin licenses, signaling a shift in digital assets towards a regulated financial system driven by major banks. The post Stablecoins are becoming the rails for 24/7 global trade appeared first on CoinGeek .",
+    "date": "2026-04-22",
+    "source_url": "https://coingeek.com/stablecoins-are-becoming-the-rails-for-24-7-global-trade/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Russia passes crypto bill in first reading; permits use in foreign trade settlements",
+    "description": "The bill would prohibit the use of crypto for domestic payments but allow its use in foreign economic activities, according to TASS.",
+    "date": "2026-04-22",
+    "source_url": "https://www.theblock.co/post/398402/russias-crypto-bill-first-reading",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Bitcoin's 'Coinbase premium' just posted its longest bullish streak since October's record high of $126,000",
     "description": "Bitcoin's Coinbase premium has been positive for 14 straight days, the longest bullish streak since BTC hit its all time high of $126,000 in October.",
@@ -9599,42 +9641,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Circle CEO says he won’t freeze USDC without a court order even as hackers walk away with millions",
-    "description": "Circle defends its hands-off approach to freezing funds as critics point to hundreds of millions in losses tied to delayed action.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/business/2026/04/13/circle-ceo-says-he-won-t-freeze-usdc-without-a-court-order-even-as-hackers-walk-away-with-millions",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bankers rebuff White House claim that stablecoin yield doesn't threaten deposits",
-    "description": "A new study from the American Bankers Association says the White House economists went after the wrong premise in their recent look at the issue.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/policy/2026/04/13/bankers-rebuff-white-house-claim-that-stablecoin-yield-doesn-t-threaten-deposits",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   }
