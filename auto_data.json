@@ -1,5 +1,82 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "CoinDesk 20 performance update: Aptos (APT) rises 5.5%, leading index higher",
+    "description": "Internet Computer (ICP) up 5.3% from Tuesday, joined Aptos (APT) as a top performer.",
+    "date": "2026-04-22",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/22/coindesk-20-performance-update-aptos-apt-rises-5-5-leading-index-higher",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Kraken filed 56 million crypto tax forms for 2025. One-third were below $1",
+    "description": "The lack of a de minimis exemption for crypto payments and staking rewards taxed at receipt creates a huge reporting burden, the data shows.",
+    "date": "2026-04-22",
+    "source_url": "https://www.coindesk.com/policy/2026/04/22/kraken-filed-56-million-crypto-tax-forms-for-2025-one-third-were-below-usd1",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "‘I suspect you got to the right answer’: New Satoshi documentary makes the case Hal Finney and Len Sassaman were Bitcoin’s co-creators",
+    "description": "The film follows a four-year investigation led by New York Times bestselling author William D. Cohan and private investigator Tyler Maroney.",
+    "date": "2026-04-22",
+    "source_url": "https://www.theblock.co/post/398423/finding-satoshi-documentary-makes-case-hal-finney-len-sassaman-bitcoins-co-creators",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "GSR enters crypto ETF field with actively managed multi-asset fund tracking Bitcoin, Ethereum and Solana",
+    "description": "Core3 marks GSR's first crypto ETF offering amid a period of expansion for the major market maker and the wider crypto fund sector.",
+    "date": "2026-04-22",
+    "source_url": "https://www.theblock.co/post/398443/gsr-crypto-etf-actively-managed-multi-asset-core3-bitcoin-ethereum-solana",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Petra Tschudin, Thomas Moser: Swipe, scan, tap - the cashless payments market",
     "description": "Speech by Ms Petra Tschudin, Member of the Governing Board of the Swiss National Bank, and Mr Thomas Moser, Alternate Member of the Governing Board of the Swiss National Bank, at the Money Market Event, Zurich, 16 April 2026.",
@@ -8131,6 +8208,25 @@
     "year": "2026"
   },
   {
+    "institution": "Connecting the Dots",
+    "initiative": "Colombian Bre-B Surpasses 600 Million Transactions",
+    "description": "Hey Payments Fanatic! Colombia&#x2019;s instant payment revolution has reached a massive milestone as Bre-B concludes its first six months of operations.&#xA0; Developed by the Central Bank in partnership with ACI Worldwide, the system has already surpassed 600 million transactions and secured over 34 million registered users since",
+    "date": "2026-04-14",
+    "source_url": "https://www.connectingthedotsinpayments.com/colombian-bre-b-surpasses-600-million-transactions/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "AI, Portfolio Construction and the Democratisation of Alternative Investments",
     "description": "Discussing how the role of AI in Wealth Management is changing differentiation efforts, Kevin Barr, Independent Board Director, Communify spoke to FinextraTV at the Communify Intelligence Experience. Barr highlighted the need to not just differentiate the human model, but to build specific and relevant models for purpose most relevant to each firm, rather than relying on the same model across firms. Looking at portfolio construction, Barr explained his existing belief that diversification is still highly important and that having an element of stability is crucial to a strong portfolio, but he emphasised that stablecoins are not always, actually, stable. He equally defines an era of democratisation of alternative investments, which he sees as one of the most exciting changes currently unfolding.",
@@ -9535,106 +9631,6 @@
     "source_url": "https://www.coindesk.com/markets/2026/04/14/nft-bull-steve-aoki-sells-his-shib-eth-and-pepe-his-bored-apes-are-down-88",
     "category": "ecosystem",
     "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Nikita Bier says crypto has had a rough year, hints at building something new as X Money launch nears",
-    "description": "The head of product's viral one-liner lands weeks before Elon Musk's fiat payments app goes live with a 6% yield and a Visa card",
-    "date": "2026-04-14",
-    "source_url": "https://www.coindesk.com/tech/2026/04/14/crypto-has-had-a-rough-year-x-s-nikita-bier-hints-as-x-money-launch-nears",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Little-known token ranks alongside bitcoin and ether in the top three — just not in the way you think",
-    "description": "RAVE has surged several thousand percent in seven days, driving frenzied trading activity and large liquidations, second only to industry leaders bitcoin and ether.",
-    "date": "2026-04-14",
-    "source_url": "https://www.coindesk.com/markets/2026/04/14/rave-ranks-alongside-bitcoin-and-ether-in-the-top-three-just-not-in-the-way-you-think",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Japan's central bank cools rate hike expectations, removing a key risk for bitcoin's rally",
-    "description": "The BOJ's dovish shift keeps the yen carry trade alive, the same trade whose unwind crashed bitcoin 24% in two days in August 2024.",
-    "date": "2026-04-14",
-    "source_url": "https://www.coindesk.com/markets/2026/04/14/japan-s-central-bank-cools-rate-hike-expectations-removing-a-key-risk-for-bitcoin-s-rally",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Sen. Tillis aims to release draft resolving Clarity Act’s stablecoin yield dispute this week: report",
-    "description": "Banks have been strongly pushing back against allowing crypto firms to pay rewards on idle stablecoin balances.",
-    "date": "2026-04-14",
-    "source_url": "https://www.theblock.co/post/397314/thom-tillis-draft-stablecoin-yield",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bitcoin rebounds above $74,000 in ‘risk-on snapback’ despite persisting Middle East tensions",
-    "description": "Crypto-related stocks closed higher on Monday, with Circle jumping 12%, Bullish rising 7.5%, and Coinbase gaining 3.9%.",
-    "date": "2026-04-14",
-    "source_url": "https://www.theblock.co/post/397308/bitcoin-rebounds-74000",
-    "category": "ecosystem",
-    "source_name": "The Block",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Strategic Initiative",
