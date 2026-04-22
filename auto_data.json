@@ -1,5 +1,44 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Crypto bill nears stablecoin rewards breakthrough as talks hit ‘good spot,’ but ethics concerns set to resurface",
+    "description": "After months of negotiations over how a crypto bill should treat stablecoin rewards, a key negotiator says discussions are in a \"good spot.\"",
+    "date": "2026-04-22",
+    "source_url": "https://www.theblock.co/post/398498/crypto-bill-nears-stablecoin-rewards-breakthrough-ethics-concerns-resurface",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Eric Trump’s American Bitcoin rises 12% amid increase in BTC mining capacity",
+    "description": "American Bitcoin said that it completed the \"energization of ~11,298 Bitcoin miners at its Drumheller site.",
+    "date": "2026-04-22",
+    "source_url": "https://www.theblock.co/post/398491/eric-trumps-american-bitcoin-rises-12-amid-increase-in-btc-mining-capacity",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Federal Reserve Board issues enforcement action with former employee of First Financial Bank",
     "description": "Federal Reserve Board issues enforcement action with former employee of First Financial Bank",
@@ -9604,43 +9643,6 @@
       "Regulation & Compliance",
       "Interoperability & Standards",
       "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "PayDo rolls out B2C settlement acounts for A2A payments",
-    "description": "PayDo has launched customer-to-business (C2B) settlement accounts, a new feature within its all-in-one electronic money solution designed to help merchants accept and settle payments made directly from customers’ bank accounts.",
-    "date": "2026-04-14",
-    "source_url": "https://www.finextra.com/pressarticle/109453/paydo-rolls-out-b2c-settlement-acounts-for-a2a-payments",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "GBST deploys agentic AI to automate complex wealth administration processes",
-    "description": "GBST has built and deployed agentic artificial intelligence into its Composer Software as a Service (SaaS) platform to automate complex, high-volume wealth administration processes in line with regulatory requirements while removing manual intervention.",
-    "date": "2026-04-14",
-    "source_url": "https://www.finextra.com/pressarticle/109452/gbst-deploys-agentic-ai-to-automate-complex-wealth-administration-processes",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
     ],
     "initiative_types": [],
     "year": "2026"
