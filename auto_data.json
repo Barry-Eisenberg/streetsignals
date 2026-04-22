@@ -1,5 +1,172 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "Investment funds' de facto currency risk exposure",
+    "description": "by Inês Lindoso, Andreas Schrimpf, Vladyslav Sushko, Toma Tomov",
+    "date": "2026-04-22",
+    "source_url": "https://www.bis.org/publ/bisbull123.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin tests $78,000 resistance as short-squeeze risks mount, altcoins rally",
+    "description": "BTC hovers at key $78,000 level with $180 million liquidations at stake, while altcoins and memecoins surge as risk-on sentiment returns.",
+    "date": "2026-04-22",
+    "source_url": "https://www.coindesk.com/markets/2026/04/22/bitcoin-tests-usd78-000-resistance-as-short-squeeze-risks-mount-altcoins-rally",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Flight to safety: How Maker’s Spark and USDC are winning the $10 billion Aave breakup",
+    "description": "Funds leaving Aave are splitting across safer lending, simpler ETH exposure and off-chain yield, with stablecoins acting as a temporary refuge.",
+    "date": "2026-04-22",
+    "source_url": "https://www.coindesk.com/markets/2026/04/22/aave-s-usdtvl-slump-sends-capital-to-spark-lido-while-usdc-becomes-a-parking-spot",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Traders don’t see Kelp socializing losses after $292 million exploit",
+    "description": "Polymarket prices low odds of a system-wide redistribution, as the protocol weighs how to handle an undercollateralized rsETH supply",
+    "date": "2026-04-22",
+    "source_url": "https://www.coindesk.com/markets/2026/04/22/traders-don-t-see-kelp-socializing-losses-after-usd292-million-exploit",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "UK investors regain tax-free access to crypto ETNs via Innovative Finance ISA route",
+    "description": "Stratiphy secured IFISA approval, reopening a tax-free ISA route for UK retail investors to hold 21Shares crypto ETNs.",
+    "date": "2026-04-22",
+    "source_url": "https://www.theblock.co/post/398415/uk-investors-regain-tax-free-access-to-crypto-etns-via-innovative-finance-isa-route",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Bitcoin Climbs to 11-Week High Over $78,400 After Trump Extends the US-Iran Ceasefire",
+    "description": "Bitcoin hit its highest price since early February after President Trump announced an open-ended extension of the US-Iran ceasefire at the request of Pakistani mediators, keeping hostilities on pause. The post Bitcoin Climbs to 11-Week High Over $78,400 After Trump Extends the US-Iran Ceasefire appeared first on Unchained .",
+    "date": "2026-04-22",
+    "source_url": "https://unchainedcrypto.com/bitcoin-climbs-to-78400-an-11-week-high-after-trump-extends-the-us-iran-ceasefire/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Kelp DAO Exploiter Moves $175 Million in Stolen ETH Into New Wallets, Routing Funds Through THORChain",
+    "description": "Arkham Intelligence tracked 75,701 ETH moving into freshly created wallets on April 21 as the suspected Lazarus Group actors behind the $292 million Kelp DAO exploit began routing stolen funds through THORChain and Umbra. The post Kelp DAO Exploiter Moves $175 Million in Stolen ETH Into New Wallets, Routing Funds Through THORChain appeared first on Unchained .",
+    "date": "2026-04-22",
+    "source_url": "https://unchainedcrypto.com/kelp-dao-exploiter-moves-175-million-in-stolen-eth-into-new-wallets-routing-funds-through-thorchain/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Kalshi and Polymarket Race to Launch Crypto Perpetual Futures, Challenging Coinbase and Robinhood",
+    "description": "Kalshi is launching crypto perpetual futures on April 27 and Polymarket announced the same product the same day, putting both prediction market giants in direct competition with established crypto exchanges. The post Kalshi and Polymarket Race to Launch Crypto Perpetual Futures, Challenging Coinbase and Robinhood appeared first on Unchained .",
+    "date": "2026-04-22",
+    "source_url": "https://unchainedcrypto.com/kalshi-and-polymarket-race-to-launch-crypto-perpetual-futures-challenging-coinbase-and-robinhood/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Justin Sun Sues World Liberty Financial, Alleging Fraud and Unlawful Token Freeze in $75 Million Dispute",
+    "description": "Justin Sun filed a federal lawsuit against the Trump-linked World Liberty Financial project, alleging it froze his $75 million WLFI stake, stripped his governance rights, and threatened to burn his tokens to coerce further investment. The post Justin Sun Sues World Liberty Financial, Alleging Fraud and Unlawful Token Freeze in $75 Million Dispute appeared first on Unchained .",
+    "date": "2026-04-22",
+    "source_url": "https://unchainedcrypto.com/justin-sun-sues-world-liberty-financial-alleging-fraud-and-unlawful-token-freeze-in-75-million-dispute/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "A make or break moment: why $79,200 could act as a launchpad or a ceiling for bitcoin",
     "description": "True Market Mean and Short-Term Holder cost basis form a critical $78.2K to $79.2K range that could define the next major move.",
@@ -9464,188 +9631,6 @@
     "initiative_types": [
       "Tokenized Securities / RWA"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA",
-    "initiative": "EU financial markets enter 2026 amid high-risk environment",
-    "description": "EU financial markets enter 2026 amid high-risk environment 11 March 2026 Press Releases Risk monitoring The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, published today its first&nbsp;risk monitoring report of 2026 , outlining the key risks and vulnerabilities in EU financial markets. ESMA finds that risks of market and systemic stress remain high despite resilient market performance in the second half of 2025. Our risk assessment for the second half of 2025 has been completed well before the current shocks to the global economy from the war in the Middle East commenced in late February this year. Yet first market reactions in the EU and elsewhere to that war underline the transmission channels and sensitivities we have highlighted in our risk monitoring. The likelihood of sudden and significant market price swings continues, driven by increasing geopolitical tensions, stretched equity valuations, and an uncertain economic outlook in the EU. Rising price correlations across asset classes heighten contagion risk while cyber and hybrid threats continue to grow in scale and sophistication, increasing the risk of operational disruptions in financial markets.&nbsp; Verena Ross, ESMA’s Chair, said: “The recent escalation of conflict in the Middle East continues to significantly affect markets, leading to sharp increases in energy and commodity prices, as well as elevated volatility.&nbsp; ESMA’s latest risk monitoring analysis highlights the potential for disorderly corrections that could spill over across markets. In this context, disciplined risk monitoring and risk management remain essential to ensure orderly markets, a core objective for ESMA.” Beyond the risk drivers, ESMA’s report sets out market developments and conditions across key segments of EU financial markets during the second half of 2025. It also provides deep dives on selected topics such as EU sovereign bonds’ sensitivity to unexpected events, funds’ exposure to private finance, EU listings trends, and physical risk and catastrophe bonds. Market developments Securities markets and crypto-assets Record-high global equity valuations in the second half of 2025 and early 2026 increased the risk of disorderly market corrections. &nbsp;European sovereign bond spreads versus Germany narrowed, although liquidity weakened slightly amid macroeconomic uncertainty. At the same time, credit-quality signals in the EU remained mixed, with growing concerns especially around US private credit. The October flash crash triggered an extended sell-off in crypto markets, although stablecoins continued to grow, albeit at a slower pace.&nbsp; Infrastructures and services Financial firms and infrastructures are increasingly targeted by cyber and hybrid threats and vulnerable to operational dependencies likely to propagate shocks. CSDs experienced a surge in settlement fails for ETFs in April, and UCITS and equities in August and September. Asset management Equity funds saw strong performance.&nbsp; This was largely driven by valuations, through increased exposure to the US market. The growth of private finance funds contributes to the funding of the real economy, but requires monitoring given opacity and interconnectedness concerns. Consumers As investors continued shifting from active to passive strategies, ETF inflows remained high. The growing influence of social media on younger investors increases bubble risks, while leveraged products, such as turbos, often deliver negative returns for retail investors. Structural developments Market-based finance Equity issuance remained weak as IPO activity continued to decline and secondary offerings provided limited support. ESMA’s analysis found no clear evidence of rising delistings in Europe, but it highlighted a persistent downward trend in IPOs.&nbsp; Sustainable finance A cooling in global climate policy sentiment weighed on ESG investing, even as ESMA’s fund naming guidelines improved portfolio transparency. Meanwhile, rising awareness of physical climate risks drove catastrophe bond issuance to record highs in 2025, with EU funds increasingly offering exposure to these instruments. Financial innovation Tokenisation adoption remained low but gained momentum, including with the growth of tokenised money market funds. &nbsp;Interest in quantum computing applications increased, although applications remain experimental and far from commercial use. &nbsp; Further information: Ana Dilaverakis Communications Officer press@esma.europa.eu 11/03/2026 ESMA50-1949966494-4041 Trends, Risks and Vulnerabilities (TRV) Report, No. 1, 2026 11/03/2026 ESMA50-1949966494-4042 Trends, Risks and Vulnerabilities (TRV) Report, No. 1, 2026 - Statistical Annex 11/03/2026 ESMA71-545613100-2904 EU financial markets enter 2026 amid high-risk environment - Press Release (TRV 1, 2026)",
-    "date": "2026-04-13",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/eu-financial-markets-enter-2026-amid-high-risk-environment",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Tokenization & Issuance",
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance",
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "This little-known token just posted a 6,000% rally — and traders are trying to figure out why",
-    "description": "RAVE’s sudden surge into crypto’s top ranks has drawn intense attention, with a mix of unusual trading patterns, tight supply and market dynamics fueling debate over what’s really behind the move.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/markets/2026/04/13/this-little-known-token-just-posted-a-6-000-rally-and-traders-are-trying-to-figure-out-why",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin erases weekend decline, returns to $73,400 as oil retreats back under $100",
-    "description": "Risk assets shrugged off the failed weekend negotiations between the U.S. and Iran, and the U.S. blockade of the Strait of Hormuz.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/markets/2026/04/13/bitcoin-erases-weekend-decline-returns-to-usd73-400-as-oil-retreats-back-under-usd100",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "SoFI adds FedNow instant bank transfers",
-    "description": "Galileo Financial Technologies, SoFi’s technology platform (NASDAQ: SOFI), today announced that SoFi, N.A. is offering instant bank transfers via the FedNow Service powered by Galileo’s payment technology.",
-    "date": "2026-04-13",
-    "source_url": "https://www.finextra.com/pressarticle/109445/sofi-adds-fednow-instant-bank-transfers",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Former CFTC Chair Chris Giancarlo goes full-time as a tech and crypto advisor",
-    "description": "Former CFTC Chair Chris Giancarlo has advised several firms since leaving public office, including Polymarket and Paxos.",
-    "date": "2026-04-13",
-    "source_url": "https://www.theblock.co/post/397280/former-cftc-chair-chris-giancarlo-full-time-tech-crypto-advisor",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto wallet firm Exodus sues W3C and its CEO Garth Howat, seeking to compel $175M acquisition",
-    "description": "A lawsuit in the Delaware Court of Chancery seeks to compel Howat to comply with obligations under the November 24, 2025 Stock Purchase Agreement.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/policy/2026/04/13/crypto-wallet-firm-exodus-sues-w3c-and-its-ceo-garth-howat-to-complete-usd175m-acquisition",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "White House crypto adviser Witt says other Clarity Act hurdles being cleared",
-    "description": "Patrick Witt told CoinDesk that a recent compromise on stablecoin yield should hold as the Senate tries to advance its crypto bill, even as bankers continue warnings.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/policy/2026/04/13/white-house-s-top-crypto-adviser-witt-says-talks-clearing-other-points-on-clarity-act",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "PayPal adds Pix option for SMBs in Brazil",
-    "description": "PayPal is bringing Pix, the instant payment method used by more than 170 million Brazilians, to small and medium-sized businesses (SMBs), enabling faster checkout and helping merchants capture more sales in one of the world’s most dynamic digital payments markets.",
-    "date": "2026-04-13",
-    "source_url": "https://www.finextra.com/pressarticle/109444/paypal-adds-pix-option-for-smbs-in-brazil",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FSB",
-    "initiative": "FSB Chair warns of rising financial risks stemming from Middle East conflict",
-    "description": "FSB Chair’s letter to G20 central bank Governors and Finance Ministers highlights the significant challenges posed by the ongoing conflict in the Middle East and its impact on global financial stability.",
-    "date": "2026-04-13",
-    "source_url": "https://www.fsb.org/2026/04/fsb-chair-warns-of-rising-financial-risks-stemming-from-middle-east-conflict/",
-    "category": "regulators",
-    "source_name": "FSB — Publications",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
