@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Connecting the Dots",
+    "initiative": "A Richer Deal, Blocked",
+    "description": "Hey Payments Fanatic! Imagine a FinTech company caught in a fierce battle: one side wants to sell at a juicy premium, the other holds the keys and says, &quot;No deal.&quot;&#xA0; That&apos;s CAB Payments, a London-listed payments processor, right now.&#xA0; Turns out their biggest shareholder,",
+    "date": "2026-04-22",
+    "source_url": "https://www.connectingthedotsinpayments.com/a-richer-deal-blocked/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinGeek",
     "initiative": "From crypto to sweet treats: Get awesome perks when you pay or trade, with Coins.ph’s new rewards program",
     "description": "Coins.ph launches a rewards program that turns every scan and crypto trade into treats, bridging user's digital wallet with real-world cravings. The post From crypto to sweet treats: Get awesome perks when you pay or trade, with Coins.ph’s new rewards program appeared first on CoinGeek .",
@@ -16,6 +35,23 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Sui-based Volo Protocol exploited; team pledges to absorb losses",
+    "description": "Sui-based liquid staking platform Volo reported that it was exploited for roughly $3.5 million from its WBTC, XAUm, and USDC vaults.",
+    "date": "2026-04-21",
+    "source_url": "https://www.theblock.co/post/398393/sui-volo-protocol-exploited",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -9590,42 +9626,6 @@
     "description": "XRP is flat over the past 24 hours, but down more than 60% from its summer 2025 peak.",
     "date": "2026-04-13",
     "source_url": "https://www.coindesk.com/markets/2026/04/13/nearly-usd120-million-of-xrp-just-moved-to-coinbase-in-whale-transaction",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitmine's Tom Lee calls ether 'the wartime store of value' as holdings hit 4.87 million tokens",
-    "description": "The company now holds 4.04% of all ether in existence and currently earns $212 million in annualized revenue from staking.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/markets/2026/04/13/bitmine-s-tom-lee-calls-ether-the-wartime-store-of-value-as-holdings-hit-4-87-million-eth",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "CoinDesk 20 performance update: index falls 2.9% as all constituents trade lower",
-    "description": "Polkadot (DOT) declined 11.5% and Cardano (ADA) dropped 6.8%, leading the index lower over the weekend.",
-    "date": "2026-04-13",
-    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/13/coindesk-20-performance-update-index-falls-2-9-as-all-constituents-trade-lower",
     "category": "ecosystem",
     "source_name": "CoinDesk",
     "auto_generated": true,
