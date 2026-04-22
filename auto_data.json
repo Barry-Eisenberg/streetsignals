@@ -1,5 +1,44 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "The question isn't whether privacy. It's what sort of privacy",
+    "description": "Blockchains are going private. The only question left is what kind of privacy the industry will build, argues Schiller.",
+    "date": "2026-04-22",
+    "source_url": "https://www.coindesk.com/opinion/2026/04/22/the-question-isn-t-whether-privacy-it-s-what-sort-of-privacy",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Inside Plasma with Zaheer: The Future of Stablecoins",
+    "description": "Zaheer explains why stablecoins, better UX, and focused execution are key to crypto’s next phase of adoption.",
+    "date": "2026-04-22",
+    "source_url": "https://www.theblock.co/post/398515/inside-plasma-with-zaheer-the-future-of-stablecoins",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA",
     "initiative": "SEC confirms exemption for directors and officers of EEA Foreign Private Issuers",
     "description": "SEC confirms exemption for directors and officers of EEA Foreign Private Issuers 18 March 2026 Market Abuse Post Trading The United States Securities and Exchange Commission (SEC) has decided to exempt directors and officers of European Economic Area (EEA) foreign private issuers (FPIs) from the reporting requirements under Section 16(a) of the US Securities Exchange Act of 1934. &nbsp; The SEC’s decision means that directors and officers of EEA FPIs will not be required to comply with these specific US reporting obligations. The announcement ensures continued alignment with the EU regulatory framework, which already provides for substantially similar disclosure requirements for persons discharging managerial responsibilities set in the Market Abuse Regulation (MAR)&nbsp; &nbsp; The details of the SEC decision can be consulted here . &nbsp; &nbsp; Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu",
@@ -9598,47 +9637,6 @@
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "EMVCo issues open payments spec for electric vehicle charging",
-    "description": "EMVCo – the technical body that creates and manages EMV® Specifications and programmes that enable seamless and secure card-based payments worldwide – has published Version 1.0 of the Electric Vehicle (EV) Open Payments Use Case document, which outlines an interoperable open payment solution for EV charging.",
-    "date": "2026-04-14",
-    "source_url": "https://www.finextra.com/pressarticle/109454/emvco-issues-open-payments-spec-for-electric-vehicle-charging",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Deutsche Borse invests $200 million in Kraken parent Payward",
-    "description": "Deutsche Borse Group has taken a $200 million stake in Kraken parent Payward, deepening ties between traditional finance and crypto markets.",
-    "date": "2026-04-14",
-    "source_url": "https://www.theblock.co/post/397332/deutsche-borse-invests-200-million-in-kraken-parent-payward",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
     "fmi_areas": [
       "General Infrastructure"
     ],
