@@ -1,5 +1,25 @@
 [
   {
+    "institution": "ESMA",
+    "initiative": "SEC confirms exemption for directors and officers of EEA Foreign Private Issuers",
+    "description": "SEC confirms exemption for directors and officers of EEA Foreign Private Issuers 18 March 2026 Market Abuse Post Trading The United States Securities and Exchange Commission (SEC) has decided to exempt directors and officers of European Economic Area (EEA) foreign private issuers (FPIs) from the reporting requirements under Section 16(a) of the US Securities Exchange Act of 1934. &nbsp; The SEC’s decision means that directors and officers of EEA FPIs will not be required to comply with these specific US reporting obligations. The announcement ensures continued alignment with the EU regulatory framework, which already provides for substantially similar disclosure requirements for persons discharging managerial responsibilities set in the Market Abuse Regulation (MAR)&nbsp; &nbsp; The details of the SEC decision can be consulted here . &nbsp; &nbsp; Further information: Cristina Bonillo Senior Communications Officer press@esma.europa.eu",
+    "date": "2026-04-22",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/sec-confirms-exemption-directors-and-officers-eea-foreign-private-issuers",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Banks seek to slow down implementation of crypto's GENIUS Act on stablecoin oversight",
     "description": "U.S. banking groups argued that a number of federal agencies are moving quickly on stablecoin regulations, making it hard to understand how rules will interact.",
@@ -9619,25 +9639,6 @@
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "SEC Staff Exempt Certain Crypto Wallet Interfaces From Broker-Dealer Registration Requirements",
-    "description": "The post SEC Staff Exempt Certain Crypto Wallet Interfaces From Broker-Dealer Registration Requirements appeared first on Unchained .",
-    "date": "2026-04-14",
-    "source_url": "https://unchainedcrypto.com/sec-staff-exempt-certain-crypto-wallet-interfaces-from-broker-dealer-registration-requirements-unchained/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
     ],
