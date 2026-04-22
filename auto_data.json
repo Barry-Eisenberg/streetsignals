@@ -1,5 +1,39 @@
 [
   {
+    "institution": "Federal Reserve",
+    "initiative": "Federal Reserve Board issues enforcement action with former employee of First Financial Bank",
+    "description": "Federal Reserve Board issues enforcement action with former employee of First Financial Bank",
+    "date": "2026-04-22",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260422a.htm",
+    "category": "regulators",
+    "source_name": "Federal Reserve — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "The London P2P sweep: UK FCA raids eight illegal peer-to-peer trading hubs",
+    "description": "The sites were targeted for facilitating P2P trading without required registration or anti-money laundering controls, posing a financial crime risk.",
+    "date": "2026-04-22",
+    "source_url": "https://www.coindesk.com/policy/2026/04/22/uk-fca-carries-out-coordinated-crackdown-on-illegal-peer-to-peer-crypto-trading",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Crypto giant GSR launches its first ETF to give investors an easy way to bet on the big 3 tokens",
     "description": "GSR is entering the asset management space with a new Nasdaq-listed ETF that actively manages a basket of bitcoin, ether and solana while offering investors a chance to earn staking yields.",
@@ -9607,40 +9641,6 @@
     "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Basware introduces Ai agent training course for finance professionals",
-    "description": "Basware, the global leader in Invoice Lifecycle Management (ILM), has launched AI agent training to prepare Accounts Payable (AP) professionals for the future of finance.",
-    "date": "2026-04-14",
-    "source_url": "https://www.finextra.com/pressarticle/109451/basware-introduces-ai-agent-training-course-for-finance-professionals",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "CIMB Niaga, Google Cloud, and Artefact debut enterprise AI agents",
-    "description": "PT Bank CIMB Niaga Tbk (CIMB Niaga), Google Cloud, and Artefact today announced the launch of purpose-built AI agents to enhance the banking experience for millions of Indonesians.",
-    "date": "2026-04-14",
-    "source_url": "https://www.finextra.com/pressarticle/109450/cimb-niaga-google-cloud-and-artefact-debut-enterprise-ai-agents",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
     ],
     "initiative_types": [],
     "year": "2026"
