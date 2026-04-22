@@ -1,5 +1,43 @@
 [
   {
+    "institution": "CoinGeek",
+    "initiative": "From crypto to sweet treats: Get awesome perks when you pay or trade, with Coins.ph’s new rewards program",
+    "description": "Coins.ph launches a rewards program that turns every scan and crypto trade into treats, bridging user's digital wallet with real-world cravings. The post From crypto to sweet treats: Get awesome perks when you pay or trade, with Coins.ph’s new rewards program appeared first on CoinGeek .",
+    "date": "2026-04-22",
+    "source_url": "https://coingeek.com/from-crypto-to-sweet-treats-get-awesome-perks-when-you-pay-or-trade-with-coins-ph-new-rewards-program/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Kelp DAO exploiter launders $80 million worth of ETH, mostly through THORChain: onchain analyst",
+    "description": "The 24-hour swap volume on THORChain surged to $394 million, significantly exceeding usual daily volumes of under $35 million.",
+    "date": "2026-04-21",
+    "source_url": "https://www.theblock.co/post/398382/kelp-dao-exploiter-launders-thorchain",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Crypto's great hope in Senate's Clarity Act still has a path to survive tight calendar",
     "description": "A sideshow stablecoin yield debate has dragged the market structure bill through months of delay, even as the Senate's available floor time diminishes for 2026.",
@@ -9597,46 +9635,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bitcoin pulls back as ceasefire rally fades amid renewed Hormuz tensions: analysts",
-    "description": "Analysts said bitcoin ETF inflows and a cleaner derivatives setup are keeping the market from breaking down.",
-    "date": "2026-04-13",
-    "source_url": "https://www.theblock.co/post/397207/bitcoin-pulls-back-as-ceasefire-rally-fades-amid-renewed-hormuz-tensions-analysts",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Coinone hit with $3.5 million fine, three-month partial suspension over AML violations: reports",
-    "description": "Crypto exchange Coinone has been fined $3.5 million and hit with a three-month partial suspension over AML violations in South Korea.",
-    "date": "2026-04-13",
-    "source_url": "https://www.theblock.co/post/397206/coinone-hit-with-3-5-million-fine-three-month-partial-suspension-over-aml-violations-reports",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
