@@ -1,6 +1,25 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Elon Musk's Tesla reports unchanged bitcoin holdings, books $173 million digital asset loss",
+    "description": "The company's bitcoin stash remained at 11,509 BTC, worth about $880 million at bitcoin's current price of around $78,000.",
+    "date": "2026-04-22",
+    "source_url": "https://www.coindesk.com/markets/2026/04/22/elon-musk-s-tesla-reports-unchanged-bitcoin-holdings-books-usd173-million-digital-asset-loss",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "The question isn't whether privacy. It's what sort of privacy",
     "description": "Blockchains are going private. The only question left is what kind of privacy the industry will build, argues Schiller.",
     "date": "2026-04-22",
@@ -9623,25 +9642,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "CBDC"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Deutsche Börse invests in Kraken",
-    "description": "Deutsche Börse has spent $200 million to buy a 1.5% fully diluted stake in crypto platform Kraken, deepening an existing strategic partnership between the two firms.",
-    "date": "2026-04-14",
-    "source_url": "https://www.finextra.com/newsarticle/47574/deutsche-brse-invests-in-kraken",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
