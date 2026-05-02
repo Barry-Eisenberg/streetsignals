@@ -3839,9 +3839,9 @@ function renderFilterPills() {
   const countSource = personaScoped.length > 0 ? personaScoped : nonBriefs;
   const counts = {};
   countSource.forEach(s => { counts[s.category] = (counts[s.category] || 0) + 1; });
-  let html = `<button class="filter-pill${activeFilter === 'all' ? ' active' : ''}" data-filter="all">All<span class="count">${countSource.length}</span></button>`;
+  let html = `<button class="filter-pill${activeFilter === 'all' ? ' active' : ''}" data-filter="all">All <span class="count">${countSource.length}</span></button>`;
   for (const [key, cat] of Object.entries(CATEGORIES)) {
-    html += `<button class="filter-pill${activeFilter === key ? ' active' : ''}" data-filter="${key}">${cat.name.split(' ')[0]}<span class="count">${counts[key] || 0}</span></button>`;
+    html += `<button class="filter-pill${activeFilter === key ? ' active' : ''}" data-filter="${key}">${cat.name.split(' ')[0]} <span class="count">${counts[key] || 0}</span></button>`;
   }
   container.innerHTML = html;
   container.querySelectorAll('.filter-pill').forEach(btn => {
