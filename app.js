@@ -4204,14 +4204,17 @@ function renderPrioritySignalsStrip() {
   if (!container) return;
   setupPrioritySignalsInteractions(container);
 
-  // Get Structural-tier signals from the last 7 days only.
+  // Prefer Structural signals from the last 7 days.
+  // If none exist (for example when feeds are stale), fall back to the latest available 7-day window.
   const PRIORITY_WINDOW_DAYS = 7;
-  const cutoffTs = Date.now() - (PRIORITY_WINDOW_DAYS * 24 * 60 * 60 * 1000);
+  const windowMs = PRIORITY_WINDOW_DAYS * 24 * 60 * 60 * 1000;
+  const nowTs = Date.now();
+  const cutoffTs = nowTs - windowMs;
   const allSignals = getOperationalSignals();
   const structuralSignals = allSignals.filter(s => {
     const importance = getSignalImportance(s);
     const ts = getSignalDateTimestamp(s) || 0;
-    return importance.tier === 'Structural' && ts >= cutoffTs;
+    return importance.tier === 'Structural' && ts > 0;
   });
 
   if (structuralSignals.length === 0) {
@@ -4219,8 +4222,33 @@ function renderPrioritySignalsStrip() {
     return;
   }
 
+  let windowSignals = structuralSignals.filter(s => {
+    const ts = getSignalDateTimestamp(s) || 0;
+    return ts >= cutoffTs;
+  });
+
+  let usingLatestWindowFallback = false;
+  if (windowSignals.length === 0) {
+    usingLatestWindowFallback = true;
+    const latestTs = structuralSignals.reduce((maxTs, signal) => {
+      const ts = getSignalDateTimestamp(signal) || 0;
+      return ts > maxTs ? ts : maxTs;
+    }, 0);
+    const fallbackStartTs = latestTs - windowMs;
+
+    windowSignals = structuralSignals.filter(s => {
+      const ts = getSignalDateTimestamp(s) || 0;
+      return ts >= fallbackStartTs && ts <= latestTs;
+    });
+  }
+
+  if (windowSignals.length === 0) {
+    container.innerHTML = '';
+    return;
+  }
+
   // Sort by persona relevance if selected, else by date + importance
-  const sortedSignals = [...structuralSignals].sort((a, b) => {
+  const sortedSignals = [...windowSignals].sort((a, b) => {
     if (selectedPersona !== DEFAULT_PERSONA) {
       const relevanceA = getPersonaRelevance(a, selectedPersona);
       const relevanceB = getPersonaRelevance(b, selectedPersona);
@@ -4243,7 +4271,7 @@ function renderPrioritySignalsStrip() {
   let html = `
     <div class="priority-signals-section">
       <div class="priority-signals-header">
-        <h2>Priority Signals - This Week</h2>
+        <h2>${usingLatestWindowFallback ? 'Priority Signals - Latest Available Week' : 'Priority Signals - This Week'}</h2>
         ${selectedPersona !== DEFAULT_PERSONA ? `<p class="priority-signals-persona-note">Ranked for ${lensLabel}</p>` : ''}
       </div>
       <div class="priority-signals-scroll">
