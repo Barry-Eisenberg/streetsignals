@@ -61,6 +61,17 @@ INST_TYPE_MAP = {
     "intel_briefs": "Intelligence & Research",
 }
 
+_KNOWN_CATEGORY_KEYS = set(INST_TYPE_MAP.keys())
+
+CATEGORY_ALIASES = {
+    "financial_services": "global_banks",
+    "global_financial_services": "global_banks",
+    "central_banks": "regulators",
+    "digital_asset_services": "exchanges_intermediaries",
+    "exchanges": "exchanges_intermediaries",
+    "financial_infrastructure": "ecosystem",
+}
+
 TOPIC_KEYWORDS = [
     # Tokenization & Digital Assets
     "token", "tokeniz", "digitalis",
@@ -146,6 +157,50 @@ def title_fingerprint(title):
     words = re.sub(r"[^a-z0-9\s]", "", (title or "").lower()).split()
     meaningful = [w for w in words if w not in _STOPWORDS and len(w) > 2]
     return " ".join(meaningful[:8])
+
+
+def normalize_institution_name(name):
+    text = re.sub(r"\s+", " ", str(name or "").strip())
+    text = re.sub(r"\([^)]*\)", "", text).strip()
+    return text
+
+
+def normalize_category(value):
+    category = str(value or "").strip().lower()
+    if category in _KNOWN_CATEGORY_KEYS:
+        return category
+    return CATEGORY_ALIASES.get(category, "ecosystem")
+
+
+def build_institution_category_lookup(signals):
+    """Build canonical institution -> category map from existing records."""
+    lookup = {}
+    for signal in signals:
+        category = normalize_category(signal.get("category", ""))
+        institution = normalize_institution_name(signal.get("institution", ""))
+        if len(institution) < 3:
+            continue
+        lookup.setdefault(institution, category)
+
+    # Longest names first to reduce partial-match collisions.
+    ordered = sorted(lookup.items(), key=lambda kv: len(kv[0]), reverse=True)
+    return ordered
+
+
+def infer_institution_category_from_text(text, institution_category_pairs):
+    haystack = str(text or "").lower()
+    if not haystack:
+        return None, None
+
+    for institution, category in institution_category_pairs:
+        needle = institution.lower()
+        if len(needle) < 4:
+            continue
+        pattern = re.compile(rf"\b{re.escape(needle)}\b", re.IGNORECASE)
+        if pattern.search(haystack):
+            return institution, category
+
+    return None, None
 
 
 def safe_iso_date(value):
@@ -325,6 +380,7 @@ def classify_initiative_types(signal):
 
 
 def enrich(signal):
+    signal["category"] = normalize_category(signal.get("category", ""))
     signal["institution_type"] = INST_TYPE_MAP.get(signal.get("category", ""), "Infrastructure & Technology")
     signal["signal_type"] = classify_signal_type(signal)
     signal["fmi_areas"] = classify_fmi_areas(signal)
@@ -423,6 +479,7 @@ def fetch_auto_signals(config, manual_data, existing_auto):
     """
     seen_urls, seen_fps = _build_seen_sets(manual_data + existing_auto)
     new_signals = []
+    institution_category_pairs = build_institution_category_lookup(manual_data + existing_auto)
 
     sources = sorted(
         [s for s in config.get("rss_sources", []) if s.get("enabled", True)],
@@ -475,6 +532,15 @@ def fetch_auto_signals(config, manual_data, existing_auto):
                 "source_name": name,
                 "auto_generated": True,
             }
+
+            inferred_institution, inferred_category = infer_institution_category_from_text(
+                combined,
+                institution_category_pairs,
+            )
+            if inferred_institution and inferred_category:
+                signal["institution"] = inferred_institution
+                signal["category"] = inferred_category
+
             enrich(signal)
             new_signals.append(signal)
             seen_urls.add(url)
@@ -631,6 +697,9 @@ def main():
     # Merge new signals with existing accumulator, prune to rolling window, cap
     merged = new_signals + existing_auto
     merged = prune_and_cap(merged)
+    for signal in merged:
+        signal["category"] = normalize_category(signal.get("category", ""))
+        signal["institution_type"] = INST_TYPE_MAP.get(signal.get("category", ""), "Infrastructure & Technology")
 
     # Update intel briefs
     intel_briefs = fetch_nextfi_briefs(config, current_briefs)

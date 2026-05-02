@@ -263,6 +263,42 @@
     "year": "2026"
   },
   {
+    "institution": "Finextra",
+    "initiative": "Has regulation helped or hindered the fight against scams in the UK?",
+    "description": "For much of the past decade, the UK’s response to fraud has been driven by regulatory compulsion rat...",
+    "date": "2026-05-01",
+    "source_url": "https://www.finextra.com/blogposting/31580/has-regulation-helped-or-hindered-the-fight-against-scams-in-the-uk",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "EU Stablecoin policy: combating US stablecoin dominance",
+    "description": "The discussion on stablecoins in the EU is intensifying. Euro-based stablecoins are now part of a la...",
+    "date": "2026-05-01",
+    "source_url": "https://www.finextra.com/blogposting/31573/eu-stablecoin-policy-combating-us-stablecoin-dominance",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Clarity Act text lets crypto firms offer stablecoin rewards while shielding bank yield",
     "description": "The text released Friday blocks crypto firms from offering stablecoin yield offerings that look like bank deposits, but \"bona fide\" transactions are allowed.",
@@ -9308,6 +9344,46 @@
     "year": "2026"
   },
   {
+    "institution": "PayPal",
+    "initiative": "PayPal Adds Pix to the Mix",
+    "description": "Hey Payments Fanatic! PayPal is bringing Pix, the instant payment method that has become Brazil&apos;s financial backbone with over 170 million users, to its SMB merchant base. With Pix now available through PayPal Complete Payments (PPCP), businesses can offer Brazil&#x2019;s most widely used payment method directly",
+    "date": "2026-04-15",
+    "source_url": "https://www.connectingthedotsinpayments.com/paypal-adds-pix-to-the-mix/",
+    "category": "payments",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Fintech Wrap Up",
+    "initiative": "Reports: Let's dive into 9 fintech predictions in 2026; From Click to Command: The Shift to Agentic Payments; The Agentic AI Advantage: Finance agents that move the numbers",
+    "description": "This week&#8217;s reports all point to the same shift: finance is moving toward a more programmable, real-time, and autonomous operating model.",
+    "date": "2026-04-15",
+    "source_url": "https://www.fintechwrapup.com/p/reports-lets-dive-into-9-fintech",
+    "category": "ecosystem",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "‘Absurd governance scam’: World Liberty Financial’s new proposal prompts harsh criticism from Justin Sun and other holders",
     "description": "Tron Founder Justin Sun issued harsh criticism of the new proposal, calling it one of the 'most absurd governance scams.'",
@@ -9579,82 +9655,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Tether moves over $70 million in bitcoin to reserve wallet: Arkham",
-    "description": "The move is consistent with Tether's pattern of accumulating bitcoin and moving the asset to its reserve wallet periodically.",
-    "date": "2026-04-15",
-    "source_url": "https://www.theblock.co/post/397632/tether-moves-over-70-million-in-bitcoin-to-reserve-wallet-arkham",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Wall Street won’t buy ‘trustless’ security promises",
-    "description": "Chen argues that crypto exchange security is still mostly theater, and that stricter enforcement is essential.",
-    "date": "2026-04-15",
-    "source_url": "https://www.coindesk.com/opinion/2026/04/15/wall-street-won-t-buy-trustless-security-promises",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bitdeer hits 70 EH/s in self-mining bitcoin operations, claims top spot by compute",
-    "description": "Bitdeer's total hashrate under management grew to 78.1 EH/s, including its massive self-mining fleet and hosted machines.",
-    "date": "2026-04-15",
-    "source_url": "https://www.theblock.co/post/397631/bitdeer-self-mining-bitcoin-70-eh-s-canaan-cleanspark",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto Long & Short: Fighting fraud in the digital age: why state-led identity is the future",
-    "description": "In this week’s Crypto Long & Short Newsletter, Tricia Gallagher writes how the fix for broken digital identity systems will need to be state-led and user-controlled.",
-    "date": "2026-04-15",
-    "source_url": "https://www.coindesk.com/coindesk-indices/2026/04/15/crypto-long-and-short-fighting-fraud-in-the-digital-age-why-state-led-identity-is-the-future",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
