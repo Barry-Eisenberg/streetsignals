@@ -89,6 +89,8 @@ PUBLISHER_INSTITUTIONS = {
 
 GENERIC_INSTITUTION_PATTERNS = [
     (re.compile(r"\bbrazil(?:'s)? central bank\b|\bcentral bank of brazil\b", re.IGNORECASE), "Brazil Central Bank", "regulators"),
+    (re.compile(r"\baustralian regulator\b|\baustralian securities and investments commission\b|\basic\b", re.IGNORECASE), "Australian Securities and Investments Commission (ASIC)", "regulators"),
+    (re.compile(r"\bbank of korea\b", re.IGNORECASE), "Bank of Korea", "regulators"),
     (re.compile(r"\bu\.?s\.? treasury\b|\bunited states treasury\b", re.IGNORECASE), "U.S. Treasury Department", "regulators"),
     (re.compile(r"\bfederal reserve\b|\bthe fed\b", re.IGNORECASE), "Federal Reserve", "regulators"),
     (re.compile(r"\becb\b|\beuropean central bank\b", re.IGNORECASE), "ECB (European Central Bank)", "regulators"),
@@ -103,6 +105,16 @@ GENERIC_INSTITUTION_PATTERNS = [
     (re.compile(r"\biosco\b", re.IGNORECASE), "IOSCO (International Organization of Securities Commissions)", "regulators"),
     (re.compile(r"\bbis\b|\bbank for international settlements\b", re.IGNORECASE), "BIS", "regulators"),
     (re.compile(r"\bfsb\b|\bfinancial stability board\b", re.IGNORECASE), "FSB", "regulators"),
+    (re.compile(r"\bsantander uk\b|\bsantander\b", re.IGNORECASE), "Santander", "global_banks"),
+    (re.compile(r"\btsb\b", re.IGNORECASE), "TSB", "global_banks"),
+    (re.compile(r"\bcaixabank\b", re.IGNORECASE), "CaixaBank", "global_banks"),
+    (re.compile(r"\bcommbank\b|\bcommonwealth bank\b", re.IGNORECASE), "Commonwealth Bank", "global_banks"),
+    (re.compile(r"\bmizuho\b", re.IGNORECASE), "Mizuho", "global_banks"),
+    (re.compile(r"\bnomura\b", re.IGNORECASE), "Nomura", "asset_management"),
+    (re.compile(r"\bcoinbase\b", re.IGNORECASE), "Coinbase", "exchanges_intermediaries"),
+    (re.compile(r"\bnobitex\b|\bbitbank\b|\bbitget\b|\bbybit\b", re.IGNORECASE), "Digital Asset Exchange", "exchanges_intermediaries"),
+    (re.compile(r"\banchorage\b|\bsecuritize\b", re.IGNORECASE), "Digital Asset Platform", "exchanges_intermediaries"),
+    (re.compile(r"\btether\b|\bwirex\b|\bvisa\b|\bmastercard\b|\bpaypal\b|\bstripe\b|\bcircle\b", re.IGNORECASE), "Payments Network", "payments"),
 ]
 
 LOW_SIGNAL_MARKET_PATTERNS = [
