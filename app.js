@@ -849,22 +849,65 @@ const BAD_INSTITUTION_TOKENS = new Set([
   'hearing', 'report', 'reports', 'launches', 'raises', 'takes', 'deal', 'invites'
 ]);
 const INSTITUTION_CANONICAL_ALIASES = {
+  // Federal Reserve
   'fed': 'Federal Reserve',
   'the fed': 'Federal Reserve',
   'federal reserve': 'Federal Reserve',
   'federal reserve board': 'Federal Reserve',
   'federal reserve board of governors': 'Federal Reserve',
+  // Bank of England
   'boe': 'Bank of England',
   'bank of england': 'Bank of England',
   'of england': 'Bank of England',
+  // Bank of Korea
   'bank of korea': 'Bank of Korea',
   'of korea': 'Bank of Korea',
+  // ECB
   'ecb': 'ECB (European Central Bank)',
   'european central bank': 'ECB (European Central Bank)',
-  'uk fca': 'FCA',
-  'fca (financial conduct authority, uk)': 'FCA',
-  'cftc (commodity futures trading commission)': 'CFTC',
-  'sec (u.s. securities and exchange commission)': 'SEC'
+  'ecb (european central bank)': 'ECB (European Central Bank)',
+  // FCA
+  'fca': 'FCA (Financial Conduct Authority, UK)',
+  'uk fca': 'FCA (Financial Conduct Authority, UK)',
+  'fca (financial conduct authority, uk)': 'FCA (Financial Conduct Authority, UK)',
+  'financial conduct authority': 'FCA (Financial Conduct Authority, UK)',
+  // CFTC
+  'cftc': 'CFTC (Commodity Futures Trading Commission)',
+  'cftc (commodity futures trading commission)': 'CFTC (Commodity Futures Trading Commission)',
+  'commodity futures trading commission': 'CFTC (Commodity Futures Trading Commission)',
+  // SEC
+  'sec': 'SEC (U.S. Securities and Exchange Commission)',
+  'sec (u.s. securities and exchange commission)': 'SEC (U.S. Securities and Exchange Commission)',
+  'securities and exchange commission': 'SEC (U.S. Securities and Exchange Commission)',
+  // BIS
+  'bis': 'BIS (Bank for International Settlements)',
+  'bis (bank for international settlements)': 'BIS (Bank for International Settlements)',
+  'bank for international settlements': 'BIS (Bank for International Settlements)',
+  // ESMA
+  'esma': 'ESMA (European Securities and Markets Authority)',
+  'esma (european securities and markets authority)': 'ESMA (European Securities and Markets Authority)',
+  'european securities and markets authority': 'ESMA (European Securities and Markets Authority)',
+  // FSB
+  'fsb': 'FSB (Financial Stability Board)',
+  'fsb (financial stability board)': 'FSB (Financial Stability Board)',
+  'financial stability board': 'FSB (Financial Stability Board)',
+  // HKMA
+  'hkma': 'HKMA (Hong Kong Monetary Authority)',
+  'hkma (hong kong monetary authority)': 'HKMA (Hong Kong Monetary Authority)',
+  'hong kong monetary authority': 'HKMA (Hong Kong Monetary Authority)',
+  // MAS
+  'mas': 'MAS (Monetary Authority of Singapore)',
+  'mas (monetary authority of singapore)': 'MAS (Monetary Authority of Singapore)',
+  'monetary authority of singapore': 'MAS (Monetary Authority of Singapore)',
+  // IOSCO
+  'iosco': 'IOSCO (International Organization of Securities Commissions)',
+  'iosco (international organization of securities commissions)': 'IOSCO (International Organization of Securities Commissions)',
+  // SEBI
+  'sebi': 'SEBI (Securities and Exchange Board of India)',
+  'sebi (securities and exchange board of india)': 'SEBI (Securities and Exchange Board of India)',
+  // OCC
+  'occ': 'OCC (Office of the Comptroller of the Currency)',
+  'occ (office of the comptroller of the currency)': 'OCC (Office of the Comptroller of the Currency)',
 };
 
 const INSTITUTION_DESCRIPTOR_WORDS = [

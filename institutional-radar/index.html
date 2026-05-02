@@ -579,6 +579,21 @@
     'Infrastructure & Technology'
   ];
 
+  var RADAR_INSTITUTION_DISPLAY_NAMES = {
+    'BIS': 'BIS (Bank for International Settlements)',
+    'ESMA': 'ESMA (European Securities and Markets Authority)',
+    'FSB': 'FSB (Financial Stability Board)',
+    'FCA': 'FCA (Financial Conduct Authority, UK)',
+    'CFTC': 'CFTC (Commodity Futures Trading Commission)',
+    'SEC': 'SEC (U.S. Securities and Exchange Commission)',
+    'HKMA': 'HKMA (Hong Kong Monetary Authority)',
+    'MAS': 'MAS (Monetary Authority of Singapore)',
+    'IOSCO': 'IOSCO (International Organization of Securities Commissions)',
+    'SEBI': 'SEBI (Securities and Exchange Board of India)',
+    'OCC': 'OCC (Office of the Comptroller of the Currency)',
+    'ECB': 'ECB (European Central Bank)'
+  };
+
   var RADAR_INSTITUTION_TYPE_NORMALIZATION = {
     'Central Banks & Regulators': 'Regulatory Agencies',
     'Digital Asset Infrastructure': 'Infrastructure & Technology',
@@ -1227,6 +1242,10 @@
     buildPositionBullets(selectedInstName, effectivePeerGroup, scores);
   }
 
+  function normalizeInstitutionDisplayName(name) {
+    return RADAR_INSTITUTION_DISPLAY_NAMES[String(name || '').trim()] || name;
+  }
+
   function populateInstitutionDropdown(signals) {
     var institutionCounts = {};
 
@@ -1255,7 +1274,7 @@
     institutions.forEach(function(inst) {
       var opt = document.createElement('option');
       opt.value = inst;
-      opt.textContent = inst;
+      opt.textContent = normalizeInstitutionDisplayName(inst);
       sel.appendChild(opt);
     });
     sel.value = 'demo';
