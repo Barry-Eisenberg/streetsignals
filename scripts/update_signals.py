@@ -87,12 +87,60 @@ PUBLISHER_INSTITUTIONS = {
     "Unchained Crypto",
 }
 
+CANONICAL_INSTITUTION_ALIASES = {
+    "fed": "Federal Reserve",
+    "the fed": "Federal Reserve",
+    "federal reserve": "Federal Reserve",
+    "federal reserve board": "Federal Reserve",
+    "federal reserve board of governors": "Federal Reserve",
+    "boe": "Bank of England",
+    "bank of england": "Bank of England",
+    "bank of korea": "Bank of Korea",
+    "ecb": "ECB (European Central Bank)",
+    "european central bank": "ECB (European Central Bank)",
+}
+
+BAD_INSTITUTION_PREFIXES = (
+    "of ",
+    "for ",
+    "from ",
+    "in ",
+    "on ",
+    "by ",
+    "with ",
+)
+
+BAD_INSTITUTION_TOKENS = {
+    "pick",
+    "backs",
+    "urges",
+    "warns",
+    "says",
+    "calls",
+    "hearing",
+    "report",
+    "launches",
+    "raises",
+    "takes",
+    "deal",
+}
+
+PRIORITY_INSTITUTION_PATTERNS = [
+    (re.compile(r"\bsbi holdings?\b", re.IGNORECASE), "SBI Holdings", "global_banks"),
+    (re.compile(r"\bcoinshares\b", re.IGNORECASE), "CoinShares", "asset_management"),
+    (re.compile(r"\brevolut\b", re.IGNORECASE), "Revolut", "payments"),
+    (re.compile(r"\bmoonpay\b", re.IGNORECASE), "MoonPay", "payments"),
+    (re.compile(r"\bboe\b|\bbank of england\b", re.IGNORECASE), "Bank of England", "regulators"),
+    (re.compile(r"\bfederal reserve\b|\bthe fed\b|\bfed\b", re.IGNORECASE), "Federal Reserve", "regulators"),
+]
+
 GENERIC_INSTITUTION_PATTERNS = [
     (re.compile(r"\bbrazil(?:'s)? central bank\b|\bcentral bank of brazil\b", re.IGNORECASE), "Brazil Central Bank", "regulators"),
     (re.compile(r"\baustralian regulator\b|\baustralian securities and investments commission\b|\basic\b", re.IGNORECASE), "Australian Securities and Investments Commission (ASIC)", "regulators"),
     (re.compile(r"\bbank of korea\b", re.IGNORECASE), "Bank of Korea", "regulators"),
     (re.compile(r"\bu\.?s\.? treasury\b|\bunited states treasury\b", re.IGNORECASE), "U.S. Treasury Department", "regulators"),
-    (re.compile(r"\bfederal reserve\b|\bthe fed\b", re.IGNORECASE), "Federal Reserve", "regulators"),
+    (re.compile(r"\bfederal reserve\b|\bthe fed\b|\bfed\b", re.IGNORECASE), "Federal Reserve", "regulators"),
+    (re.compile(r"\bboe\b|\bbank of england\b", re.IGNORECASE), "Bank of England", "regulators"),
     (re.compile(r"\becb\b|\beuropean central bank\b", re.IGNORECASE), "ECB (European Central Bank)", "regulators"),
     (re.compile(r"\besma\b", re.IGNORECASE), "ESMA", "regulators"),
     (re.compile(r"\bfca\b|\bfinancial conduct authority\b", re.IGNORECASE), "FCA (Financial Conduct Authority, UK)", "regulators"),
@@ -110,10 +158,13 @@ GENERIC_INSTITUTION_PATTERNS = [
     (re.compile(r"\bcaixabank\b", re.IGNORECASE), "CaixaBank", "global_banks"),
     (re.compile(r"\bcommbank\b|\bcommonwealth bank\b", re.IGNORECASE), "Commonwealth Bank", "global_banks"),
     (re.compile(r"\bmizuho\b", re.IGNORECASE), "Mizuho", "global_banks"),
+    (re.compile(r"\bsbi holdings?\b", re.IGNORECASE), "SBI Holdings", "global_banks"),
     (re.compile(r"\bnomura\b", re.IGNORECASE), "Nomura", "asset_management"),
+    (re.compile(r"\bcoinshares\b", re.IGNORECASE), "CoinShares", "asset_management"),
     (re.compile(r"\bcoinbase\b", re.IGNORECASE), "Coinbase", "exchanges_intermediaries"),
     (re.compile(r"\bnobitex\b|\bbitbank\b|\bbitget\b|\bbybit\b", re.IGNORECASE), "Digital Asset Exchange", "exchanges_intermediaries"),
     (re.compile(r"\banchorage\b|\bsecuritize\b", re.IGNORECASE), "Digital Asset Platform", "exchanges_intermediaries"),
+    (re.compile(r"\brevolut\b|\bmoonpay\b", re.IGNORECASE), "Digital Payments Platform", "payments"),
     (re.compile(r"\btether\b|\bwirex\b|\bvisa\b|\bmastercard\b|\bpaypal\b|\bstripe\b|\bcircle\b", re.IGNORECASE), "Payments Network", "payments"),
 ]
 
@@ -222,7 +273,34 @@ def title_fingerprint(title):
 def normalize_institution_name(name):
     text = re.sub(r"\s+", " ", str(name or "").strip())
     text = re.sub(r"\([^)]*\)", "", text).strip()
+    text = text.strip("-:;,./ ")
+    lower_text = text.lower()
+    if lower_text in CANONICAL_INSTITUTION_ALIASES:
+        return CANONICAL_INSTITUTION_ALIASES[lower_text]
+    if re.fullmatch(r"bank of england(?: governor [a-z .'-]+)?", lower_text):
+        return "Bank of England"
+    if re.fullmatch(r"(?:the fed|federal reserve(?: board(?: of governors)?)?)", lower_text):
+        return "Federal Reserve"
     return text
+
+
+def is_usable_institution_name(name):
+    institution = normalize_institution_name(name)
+    if len(institution) < 3:
+        return False
+
+    lower_institution = institution.lower()
+    if lower_institution.startswith(BAD_INSTITUTION_PREFIXES):
+        return False
+
+    words = re.findall(r"[a-zA-Z]+", lower_institution)
+    if not words:
+        return False
+
+    if any(token in BAD_INSTITUTION_TOKENS for token in words):
+        return False
+
+    return True
 
 
 def normalize_category(value):
@@ -238,7 +316,7 @@ def build_institution_category_lookup(signals):
     for signal in signals:
         category = normalize_category(signal.get("category", ""))
         institution = normalize_institution_name(signal.get("institution", ""))
-        if len(institution) < 3:
+        if not is_usable_institution_name(institution):
             continue
         if institution in PUBLISHER_INSTITUTIONS:
             continue
@@ -256,6 +334,10 @@ def infer_institution_category_from_text(text, institution_category_pairs):
     haystack = str(text or "").lower()
     if not haystack:
         return None, None
+
+    for pattern, institution, category in PRIORITY_INSTITUTION_PATTERNS:
+        if pattern.search(haystack):
+            return institution, category
 
     for institution, category in institution_category_pairs:
         needle = institution.lower()
@@ -300,7 +382,8 @@ def sanitize_auto_signal(signal, institution_category_pairs):
 
     updated = dict(signal)
     if inferred_institution and inferred_category:
-        updated["institution"] = inferred_institution
+        if is_usable_institution_name(inferred_institution):
+            updated["institution"] = normalize_institution_name(inferred_institution)
         updated["category"] = inferred_category
 
     enrich(updated)
@@ -649,7 +732,8 @@ def fetch_auto_signals(config, manual_data, existing_auto):
                 "auto_generated": True,
             }
             if inferred_institution and inferred_category:
-                signal["institution"] = inferred_institution
+                if is_usable_institution_name(inferred_institution):
+                    signal["institution"] = normalize_institution_name(inferred_institution)
                 signal["category"] = inferred_category
 
             enrich(signal)

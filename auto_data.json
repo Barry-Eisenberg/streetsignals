@@ -201,15 +201,15 @@
     "year": "2026"
   },
   {
-    "institution": "Visa",
+    "institution": "SBI Holdings",
     "initiative": "SBI Holdings eyes stake in crypto exchange Bitbank to build digital asset powerhouse",
     "description": "The Tokyo-based broker is betting big on crypto with plans in Singapore and a Visa partnership for bank cards that allows users to accumulate digital assets.",
     "date": "2026-05-01",
     "source_url": "https://www.coindesk.com/business/2026/05/01/sbi-holdings-continues-its-crypto-expansion-with-plans-for-a-stake-in-bitbank",
-    "category": "payments",
+    "category": "global_banks",
     "source_name": "CoinDesk",
     "auto_generated": true,
-    "institution_type": "Payments Providers",
+    "institution_type": "Global Banks",
     "signal_type": "Strategic Partnership",
     "fmi_areas": [
       "Trading & Exchange"
@@ -254,7 +254,7 @@
     "year": "2026"
   },
   {
-    "institution": "Mastercard",
+    "institution": "MoonPay",
     "initiative": "MoonPay launches Mastercard debit card for AI agents",
     "description": "MoonPay, the leading crypto payments network, today announced it will launch MoonAgents Card, a virtual Mastercard debit card that lets users and AI agents spend stablecoins directly from their onchain balances. Through seamless crypto to fiat conversion at the point of purchase, the card can be used at any online merchant globally that accepts Mastercard.",
     "date": "2026-05-01",
@@ -278,15 +278,15 @@
     "year": "2026"
   },
   {
-    "institution": "Nasdaq",
+    "institution": "Revolut",
     "initiative": "Rezolve Ai SQD token goes live on Revolut",
     "description": "Rezolve Ai (NASDAQ: RZLV), a global leader in Agentic Commerce and AI-powered retail infrastructure, today announced that the native token of its decentralized data layer, SQD, is now officially listed on Revolut, Europe’s leading financial super-app.",
     "date": "2026-05-01",
     "source_url": "https://www.finextra.com/pressarticle/109679/rezolve-ai-sqd-token-goes-live-on-revolut",
-    "category": "exchanges_intermediaries",
+    "category": "payments",
     "source_name": "Finextra",
     "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
+    "institution_type": "Payments Providers",
     "signal_type": "Product Launch",
     "fmi_areas": [
       "Tokenization & Issuance",
@@ -357,15 +357,15 @@
     "year": "2026"
   },
   {
-    "institution": "Nasdaq",
+    "institution": "CoinShares",
     "initiative": "European crypto asset manager CoinShares records $7.4 billion AUM in first annual filing since Nasdaq listing",
     "description": "CoinShare saw revenue of $126.4 million on its asset management business in 2025, up 13% from the $111.7 million the year prior.",
     "date": "2026-05-01",
     "source_url": "https://www.theblock.co/post/399741/european-crypto-asset-manager-coinshares-2025-earnings",
-    "category": "exchanges_intermediaries",
+    "category": "asset_management",
     "source_name": "The Block",
     "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
+    "institution_type": "Asset & Investment Management",
     "signal_type": "Strategic Filing / Plan",
     "fmi_areas": [
       "Trading & Exchange"
@@ -416,7 +416,7 @@
     "year": "2026"
   },
   {
-    "institution": "Mastercard",
+    "institution": "MoonPay",
     "initiative": "MoonPay launches stablecoin debit card for AI agents on Mastercard network",
     "description": "MoonPay has launched \"MoonAgents Card,\" a stablecoin debit card for AI agents and users to spend directly from onchain wallets.",
     "date": "2026-05-01",
@@ -457,15 +457,15 @@
     "year": "2026"
   },
   {
-    "institution": "Digital Asset Exchange",
+    "institution": "SBI Holdings",
     "initiative": "SBI Holdings in talks to acquire stake in crypto exchange Bitbank, eyes subsidiary status",
     "description": "The talks are at an early stage, pending due diligence and internal procedures, with more details on the acquisition timing to come.",
     "date": "2026-05-01",
     "source_url": "https://www.theblock.co/post/399709/sbi-holdings-in-talks-to-acquire-stake-in-crypto-exchange-bitbank-eyes-subsidiary-status",
-    "category": "exchanges_intermediaries",
+    "category": "global_banks",
     "source_name": "The Block",
     "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
+    "institution_type": "Global Banks",
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Trading & Exchange"
@@ -612,7 +612,7 @@
     "year": "2026"
   },
   {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "institution": "SEC",
     "initiative": "Philippines: dYdX among 7 ‘crypto’ platforms flagged by SEC",
     "description": "The Philippine SEC flags dYdX and six other \"crypto\" platforms as unregistered, warning of risks, penalties, and tighter enforcement on digital asset firms. The post Philippines: dYdX among 7 &#8216;crypto&#8217; platforms flagged by SEC appeared first on CoinGeek .",
     "date": "2026-04-30",
@@ -669,7 +669,7 @@
     "year": "2026"
   },
   {
-    "institution": "Australian Securities and Investments Commission (ASIC)",
+    "institution": "Australian Securities and Investments Commission",
     "initiative": "Australian regulator warns of ungoverned AI risks to banks",
     "description": "The Australian Prudential Regulation Authority (Apra) has called for a step-change in how banks, insurers and superannuation trustees manage AI-related risks as the technology continues to rapidly evolve.",
     "date": "2026-04-30",
@@ -935,7 +935,7 @@
     "year": "2026"
   },
   {
-    "institution": "HKMA (Hong Kong Monetary Authority)",
+    "institution": "HKMA",
     "initiative": "Eddie Yue: Opening remarks - International Conference \"Climate, capital, and policy: advancing sustainable economic frameworks\"",
     "description": "Opening remarks by Mr Eddie Yue, Chief Executive of the Hong Kong Monetary Authority, at the International Conference \"Climate, capital, and policy: advancing sustainable economic frameworks\", Hong Kong, 20 April 2026.",
     "date": "2026-04-28",
@@ -1173,15 +1173,15 @@
     "year": "2026"
   },
   {
-    "institution": "Circle",
+    "institution": "Coinbase",
     "initiative": "Bitcoin tops $79,000 as crypto rally gathers steam; Circle, Coinbase, Strategy lead",
     "description": "BTC pushed to an 11-week high with dynamics for a short squeeze building, one analyst noted.",
     "date": "2026-04-22",
     "source_url": "https://www.coindesk.com/markets/2026/04/22/bitcoin-tops-usd79-000-as-crypto-rally-gathers-steam-circle-coinbase-strategy-lead",
-    "category": "payments",
+    "category": "exchanges_intermediaries",
     "source_name": "CoinDesk",
     "auto_generated": true,
-    "institution_type": "Payments Providers",
+    "institution_type": "Exchanges & Central Intermediaries",
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
@@ -1231,7 +1231,7 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
+    "institution": "FCA",
     "initiative": "The London P2P sweep: UK FCA raids eight illegal peer-to-peer trading hubs",
     "description": "The sites were targeted for facilitating P2P trading without required registration or anti-money laundering controls, posing a financial crime risk.",
     "date": "2026-04-22",
@@ -1269,7 +1269,7 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
+    "institution": "FCA",
     "initiative": "UK FCA carries out first crackdown on illegal peer-to-peer crypto trading",
     "description": "The Financial Conduct Authority said it has carried out its first operation targeting illegal peer-to-peer crypto trading in the UK.",
     "date": "2026-04-22",
@@ -1514,15 +1514,15 @@
     "year": "2026"
   },
   {
-    "institution": "Nasdaq",
+    "institution": "Federal Reserve",
     "initiative": "Bitcoin slides toward $75,000 as Warsh says Trump didn't demand he cut rates",
     "description": "The S&P 500 and Nasdaq gave back their early morning gains alongside BTC as markets digested the Fed Chair nominee's Senate confirmation hearing.",
     "date": "2026-04-21",
     "source_url": "https://www.coindesk.com/markets/2026/04/21/bitcoin-slides-toward-usd75-000-as-warsh-says-trump-didn-t-demand-he-cut-rates",
-    "category": "exchanges_intermediaries",
+    "category": "regulators",
     "source_name": "CoinDesk",
     "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
+    "institution_type": "Regulatory Agencies",
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
@@ -1553,15 +1553,15 @@
     "year": "2026"
   },
   {
-    "institution": "The Block",
+    "institution": "Federal Reserve",
     "initiative": "Bipartisan PACE Act looks to open Fed payment rails to nonbanks, draws crypto support",
     "description": "California Reps. Sam Liccardo and Young Kim introduced a bill that would allow certain providers access to the central bank.",
     "date": "2026-04-21",
     "source_url": "https://www.theblock.co/post/398319/bipartisan-pace-act-looks-open-fed-payment-rails-nonbanks-crypto-support",
-    "category": "ecosystem",
+    "category": "regulators",
     "source_name": "The Block",
     "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
+    "institution_type": "Regulatory Agencies",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Payments & Transfers"
@@ -1594,7 +1594,7 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
+    "institution": "FCA",
     "initiative": "UK invites crypto giant Bybit to London to win over some of UAE’s innovation shine",
     "description": "Bybit CEO Ben Zhou was invited to meetings in the U.K. this week with government-linked bodies including the FCA and House of Lords.",
     "date": "2026-04-21",
@@ -1655,15 +1655,15 @@
     "year": "2026"
   },
   {
-    "institution": "Circle",
+    "institution": "Coinbase",
     "initiative": "Circle tops crypto stocks with 30% gain as stablecoin growth outpaces Coinbase slump",
     "description": "Every crypto-related stock in the market now has its own differentiated business models that respond to different drivers.",
     "date": "2026-04-21",
     "source_url": "https://www.theblock.co/post/398141/circle-tops-crypto-stocks-with-30-gain-as-stablecoin-growth-outpaces-coinbase-slump",
-    "category": "payments",
+    "category": "exchanges_intermediaries",
     "source_name": "The Block",
     "auto_generated": true,
-    "institution_type": "Payments Providers",
+    "institution_type": "Exchanges & Central Intermediaries",
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Digital Currency & Stablecoins"
@@ -1803,7 +1803,7 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
+    "institution": "FCA",
     "initiative": "UK FCA opens consultation on crypto scope",
     "description": "The U.K.'s FCA is seekign feedback on its digital currency regulation, defining qualifying cryptoassets and stablecoins, ahead of new rules taking effect in October 2027. The post UK FCA opens consultation on crypto scope appeared first on CoinGeek .",
     "date": "2026-04-21",
@@ -2051,7 +2051,7 @@
     "year": "2026"
   },
   {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "institution": "SEC",
     "initiative": "A year under Paul Atkins: SEC crypto embrace grows as prediction markets draw scrutiny",
     "description": "About a year into the job, SEC Chair Paul Atkins says he is on a mission to \"advance, clarify and transform\" or (ACT).",
     "date": "2026-04-20",
@@ -2701,7 +2701,7 @@
     "year": "2026"
   },
   {
-    "institution": "MAS (Monetary Authority of Singapore)",
+    "institution": "MAS",
     "initiative": "Moody’s agentic workflows land on AWS Marketplace",
     "description": "Moody’s Corporation (NYSE: MCO) today announced that its Moody’s Agentic Solutions (MAS) workflows are now available in AWS Marketplace.",
     "date": "2026-04-17",
@@ -2913,7 +2913,7 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
+    "institution": "FCA",
     "initiative": "UK lawmaker urges FCA probe of Farage crypto promotion",
     "description": "UK lawmaker urges FCA probe into Nigel Farage over Stack BTC promo, citing possible market abuse, conflicts of interest, and risks to investors. The post UK lawmaker urges FCA probe of Farage crypto promotion appeared first on CoinGeek .",
     "date": "2026-04-17",
@@ -3103,7 +3103,7 @@
     "year": "2026"
   },
   {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "institution": "SEC",
     "initiative": "SEC seeks public comment on consolidated audit trail and other data sources",
     "description": "The Securities and Exchange Commission today issued a concept release soliciting public comment in support of a comprehensive review of the Consolidated Audit Trail (CAT) and other audit trails and related data sources currently used in the regulation of U.S. securities markets.",
     "date": "2026-04-16",
@@ -3139,7 +3139,7 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
+    "institution": "FCA",
     "initiative": "The 24-hour trap: Why the UK’s new crypto rules could catch some firms off guard",
     "description": "The new regulations revealed by the Financial Conduct Authority include several technical traps which crypto software providers need to watch for to avoid sanctions",
     "date": "2026-04-16",
@@ -3289,7 +3289,7 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
+    "institution": "FCA",
     "initiative": "UK FCA seeks fresh feedback on crypto rules ahead of October 2027 rollout",
     "description": "Ahead of a planned implementation in 2027, the FCA is seeking feedback on stablecoins, trading platforms, custody, and staking.",
     "date": "2026-04-16",
@@ -3890,6 +3890,25 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Revolut",
+    "initiative": "Deep Dive: An Analytical Breakdown of Revolut’s 2025 Performance",
+    "description": "The fiscal year 2025 represents a landmark epoch for Revolut, marking a decade of operational existence and a definitive transition from a high-growth fintech disruptor to a globally systemic financial institution.",
+    "date": "2026-04-12",
+    "source_url": "https://www.fintechwrapup.com/p/deep-dive-an-analytical-breakdown",
+    "category": "payments",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
     "year": "2026"
   },
   {
@@ -4545,7 +4564,7 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
+    "institution": "FCA",
     "initiative": "FCA calls on law firms and claims management companies to consider the position of their clients",
     "description": "We’ve no vested interest in setting up a motor finance redress scheme. What matters to us is getting fair compensation for consumers as quickly as possible and supporting a healthy motor finance market for the future.That's what our scheme will do, and it's free for consumers to use.Learn more about our motor finance redress scheme.Any law firm or claims management company (CMC) involved in a potential challenge against the scheme that also has clients making motor finance claims should consider their position and that of their clients carefully.At the very least, they should write to those clients to explain they’re involved in a challenge that’s likely to delay compensation.They should give those clients the option of exiting the contract and strongly consider waiving any fees.Our scheme will put £7.5bn back in people’s pockets. Some have already waited over 2 years for a response to their complaint. With pressure on household bills rising, they shouldn’t be made to wait longer.Over 12m agreements made between 2007 and 2024 are eligible for compensation under the scheme. Our analysis shows millions of those did not involve the particularly serious misconduct identified in the case considered by the Supreme Court.Advice for consumersIf you’ve used a CMC authorised by the FCA, and you're unhappy with how it's handled your case or the fees it’s charged, you should complain. If you’re dissatisfied with the response, you can take your complaint to the Claims Management Ombudsman.If you’ve used a law firm regulated by the Solicitors Regulation Authority, and you're unhappy with how it's handled your case or the fees it’s charged, you should complain. If you’re dissatisfied with the response, you can take your complaint to the Legal Ombudsman.Our compensation scheme is free to use. Consumers do not need to use a CMC or a law firm, and those who do may lose up to 36% of any compensation. If you decide to go through the courts, this may cost you more.Don’t sign up to multiple CMCs or law firms to represent you. Doing so may lead to multiple fees.Be cautious of potential scammers who may try to contact you via cold calls, texts or emails, claiming you are owed motor finance commission compensation or offering to check eligibility.Report nuisance calls and texts to the Information Commissioner’s Office (ICO).Report misleading advertising to the Advertising Standards Agency (ASA).",
     "date": "2026-01-01",
@@ -4566,7 +4585,7 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
+    "institution": "FCA",
     "initiative": "FCA publishes findings from financial adviser market survey",
     "description": "We have published findings from our Financial Adviser Survey. The findings provide an updated picture of how the UK financial advice market is evolving and what this means for firms, consumers and future growth. The survey brings together responses from more than 4,100 financial advice firms; alongside analysis of data we already hold on around 31,000 advisers.Overall, it shows a market that remains broadly stable and continues to support millions of clients, even as firms adapt to consolidation, new business models and technology.Key findings include:Firms responding to the survey advise on around £1 trillion of assets for more than 4.1 million clients, highlighting the scale of advice being delivered.Large firms account for around 50% of assets under advice, all firms play an important role through relationship led and local advice.Adviser numbers have remained broadly steady at around 31,000 since 2023, despite a 15% fall in the number of authorised advice firms since 2021. This points to consolidation across the market rather than a reduction in advice provision.Women account for around 18% of financial advisers, despite being part of around 60% of advised client relationships, highlighting an opportunity for the sector to better reflect the consumers it advises by strengthening recruitment, retention and progression.Financial advice remains concentrated among older and wealthier consumers, with regulated advice currently reaching only around 9% of UK adults. Nearly a third of firms are considering offering a form of simplified advice propositions to help expand access, particularly for mass affluent consumers.The survey also shows positive engagement with the Consumer Duty, particularly in pensions and retirement advice, which account for 69% of clients’ main advice objectives.We are publishing this analysis to help firms benchmark their practices and to inform our supervisory and policy work, as we continue to take a more data led and proportionate approach to supporting good consumer outcomes.",
     "date": "2026-01-01",
@@ -4584,7 +4603,7 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
+    "institution": "FCA",
     "initiative": "FCA looks for members for its advisory committee on secondary markets",
     "description": "The FCA is looking for expressions of interest from market participants to join our advisory committee. The committee was established in 2022, and we are renewing the membership in line with our terms of reference.The purpose of the committee is to support our work in wholesale secondary markets for equities, derivatives, fixed income and commodity derivatives.The committee’s task is to:help develop reforms that improve market competition, increase consumer protection and enhance the integrity of marketsidentify market changes that may affect the proper functioning of secondary marketsprovide data and analysis to support policy reformsThe committee is chaired by the FCA and is composed of 25 senior individuals from firms active in financial markets, who are experts in how secondary markets function.Members are appointed in a personal capacity.We will aim to have a balanced representation across the different types of firms active in wholesale markets.We will also seek to ensure appropriate diversity of the membership of the committee, in line with our commitment to promote diverse and inclusive financial services.What to expectThe appointment lasts 2 years, and it can be renewed.The committee meets on a regular basis, normally quarterly, but can meet more frequently, if necessary, to carry out its functions.How to applyMarket participants who are interested in joining the committee are invited to apply.Email the Second Markets Advisory Committee at smac@fca.org.uk with your:CVcover letterThe deadline is 18 May 2026.Please read the terms of reference before applying.Next stepsMembers appointed to the committee will be announced once in place.",
     "date": "2026-01-01",
@@ -4601,7 +4620,7 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
+    "institution": "FCA",
     "initiative": "Three arrested in FCA investigation into suspected unlawful financial promotions",
     "description": "Three people have been arrested as part of a crackdown on suspected illegal financial promotions. Two homes in the Chelmsford and Romford areas were searched, as part of an operation led by the FCA and the Eastern Regional Special Operations Unit (ERSOU), a specialist policing unit that tackles serious and organised crime.Adverts from firms that aren't FCA-regulated can be a warning sign of a scam. If something goes wrong, these firms aren't covered by the rules that protect people's money – meaning you could lose it with no way to get it back. If you're thinking of investing or dealing with a firm, use the FCA Firm Checker to confirm it’s authorised.All 3 individuals have been interviewed under caution.The investigation is ongoing, and further updates will be provided in due course.Notes to editorsThe Financial Services and Markets Act 2000 gives the FCA powers to investigate and prosecute unauthorised business cases.Breaching the General Prohibition is an offence under Sections 19 and 23 of the Financial Services and Markets Act 2000, punishable upon conviction by a fine and/or up to 2 years’ imprisonment.Communicating unauthorised financial promotions is an offence under Sections 21 and 25 of the Financial Services and Markets Act 2000 punishable upon conviction by a fine and/or up to 2 years’ imprisonment.Making false or misleading statements is an offence under Section 89 of the Financial Services Act 2012 by providing misleading statements, punishable upon conviction by a fine and/or up to 10 years’ imprisonment.Almost all firms offering financial services in the UK must be authorised by the FCA. Consumers are urged to search our Warning List of unauthorised firms and individuals and remain especially wary of companies operating without permission, as this increases the risk of financial harm.Consumers are encouraged to use the FCA’s firm checker to check whether a firm is authorised before engaging with its financial services.The FCA cannot comment further at this time but will make further announcements when appropriate.The FCA enables a fair and thriving financial services market for the good of consumers and the economy. Find out more about the FCA.",
     "date": "2026-01-01",
@@ -4618,7 +4637,7 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
+    "institution": "FCA",
     "initiative": "FCA statement on legal challenges to motor finance scheme",
     "description": "Our objective has been, and remains, to ensure consumers receive fair compensation as quickly as possible and to maintain a healthy motor finance market. An industry-wide scheme is the fastest, simplest route for consumers and the most efficient way for firms to put things right and give certainty to their investors. Alternative approaches would be slower and much more costly for firms.We engaged widely in designing the scheme. While being clear not everyone would get everything they would like, we made changes to reflect feedback from both consumer groups and lenders. The final scheme is fair to consumers and proportionate for firms.We welcome the broad support for the scheme and the commitment from most lenders to implement it. They have taken a pragmatic approach, recognising that introducing a scheme on this scale promptly has required us to make judgements to simplify in a reasonable and lawful way some complex legal and operational issues.We recognise that for some lenders this has been a difficult decision. We appreciate that they have ultimately decided to put a resolution for their customers first, many of whom have been waiting for more than two years for an answer. They have also chosen to provide certainty for investors and to help rebuild trust in the market.However, we have received four legal challenges: one from Consumer Voice (a limited company), represented by Courmacs Legal Ltd; and three from lenders - Volkswagen Financial Services, Mercedes Benz Financial Services, and Crédit Agricole Auto Finance.We respect the right of any party that the Courts decide has standing to challenge the scheme. We also note that none of the claims received are expressly in the name of individual consumers.We will defend the scheme robustly as lawful and the best way to resolve such a widespread, long-running and complex issue.These legal challenges create fresh uncertainty for millions of consumers and for the second-largest consumer credit market, with £39bn borrowed in 2024. We are therefore engaging at pace with lenders and consumer groups to understand the breadth of views as we determine next steps for the scheme, including contingency planning.We will provide further advice to firms next week. Our current advice to consumers remains that the best step, if you have concerns, is to complain directly to your lender.This is free - weexplain how to do it and the contact details for lenders. You do not need to use a law firm or claims management company, which may charge over 30% of anycompensation.",
     "date": "2026-01-01",
@@ -4654,7 +4673,7 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
+    "institution": "FCA",
     "initiative": "A reform-minded regulator",
     "description": "Speech by Nikhil Rathi, FCA chief executive, at the Association of Foreign Banks (AFB) luncheon. When I saw that a boxing ring had been temporarily installed in this room last autumn, I wasn’t quite sure whether it was a warning to us regulators…Or some kind of art installation commenting on the past few years in financial markets.At some points it has felt bruising, to say the least.Some pressures have been sharp and immediate – geopolitical shocks, sudden market events.Others slower but no less significant – shifting liquidity, evolving market structures.And then areas moving at exceptional pace – particularly in technology – where the direction of travel is clear, even if the endpoint is not.We are hearing how difficult it is to make decisions with confidence, not just today, but for the longer term.So the question for regulators is: how do we contribute to the conditions you and your customers need to succeed?Not just stability and predictability, but also the space and confidence to innovate and take risk.And how do we do that in a way that supports the UK’s competitiveness and growth?",
     "date": "2026-01-01",
@@ -4672,7 +4691,7 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
+    "institution": "FCA",
     "initiative": "FCA charges Shaun Lawrence for unauthorised mortgage broking",
     "description": "The FCA has charged Shaun Lawrence for operating as a mortgage broker without authorisation. Mr Lawrence, who also goes by the names Shaun Lawrence-Bright and Shaun Bright, was previously authorised to give mortgage advice.However, in 2008 he had his permissions revoked and was fined. He was also banned from working in a regulated role within financial services.The FCA alleges that Mr Lawrence has breached the Financial Services and Markets Act by continuing to provide mortgage broking services when already banned.Mr Lawrence will appear before Hull Magistrates' Court on 2 July 2026.Notes to editorsShaun Lawrence was born on 15 August 1967.The FCA alleges that Mr Lawrence breached Section 19 of FSMA by carrying on regulated activities without FCA authorisation. The alleged regulated activity being carried out was Article 25A of the Regulated Activities Order – arranging regulated mortgage contracts.Find out more about the FCA.",
     "date": "2026-01-01",
@@ -4689,7 +4708,7 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
+    "institution": "FCA",
     "initiative": "FCA sets out guidance to support innovation in fund tokenisation",
     "description": "Asset managers will find it easier to unlock the benefits of fund tokenisation, following the publication of new guidance by the FCA. The guidance sets out how firms can use distributed ledger technology (DLT) within the regulator’s existing rules.New rules will also make fund dealing more efficient, including an optional Direct to Fund (D2F) model. This enables investors to deal directly with the fund, whether traditional or tokenised.Tokenisation is a way of representing an asset, or ownership of an asset, using distributed ledger technology. Tokenisation has the potential to lower costs and open up investment opportunities to a wider audience.The FCA has worked closely with industry to develop this guidance and rules to support innovation and improve efficiency for asset managers.Simon Walls, executive director of markets at the FCA said:'Tokenisation has the potential to play an important role in asset management, and its adoption will be driven by firms and investors. We have focused on delivering what the market has asked for: a clear, practical framework that provides confidence in how fund tokenisation can operate within our rules, both now and into the future.'John Allan, director, innovation and operations unit and director, Engine at the Investment Association, said:'This milestone represents a meaningful advance in the UK’s approach to innovating funds market infrastructure. Working in collaboration with the investment management industry, the FCA has produced detailed guidance that provides confidence around public chain models where the right controls are in place, and the use of digital cash tools for operational needs. Alongside wider work on wholesale digital market infrastructure, this guidance and the increased optionality provided by D2F gives firms a stronger foundation to align innovation ambitions with long term operating choices.'The UK is a leading asset management hub, with around 2,600 firms managing £16.5 trillion of assets for UK and global clients. Supporting growth and innovation in the sector is a core part of the FCA’s strategy.The policy statement also sets out how fund tokenisation could develop over time as part of the FCA’s roadmap for digital assets.Notes to editorsRead the Policy Statement: PS26/7: Progressing fund tokenisation. Read the FCA’s Consultation Paper: CP25/28: Progressing fund tokenisation.In its letter to the Prime Minister, the FCA committed to progress a roadmap for digital assets within asset management to accelerate the adoption of tokenisation and support the growth in the sector. Read more on the FCA’s work on fund tokenisation. The FCA will also be engaging with industry on distributed ledger technology in UK wholesale markets. The FCA enables a fair and thriving financial services market for the good of consumers and the economy.Find out more about the FCA.",
     "date": "2026-01-01",
@@ -4711,7 +4730,7 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
+    "institution": "FCA",
     "initiative": "Statement on complaints about Wellesley & Co Ltd",
     "description": "We have written to people who complained about how we handled Wellesley &amp; Co Ltd (WCL). Complainants raised concerns about our actions in relation to the wider Wellesley Group. WCL was the only FCA-regulated company in the Group and was responsible for approving financial promotions marketed to investors.We carefully reviewed all the complaints that were made and upheld one about how part of WCL's authorisation process was handled at the time. However, we found this did not cause investors' losses. Those losses resulted from the failure of unregulated companies within the Wellesley Group, not from how WCL was authorised. We have not found that WCL should not have been authorised.We are sorry that complainants suffered financial loss and have a great deal of sympathy for their situation.We have apologised to complainants for the failing identified. A decision letter has been issued to complainants today.",
     "date": "2026-01-01",
@@ -4728,7 +4747,7 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
+    "institution": "FCA",
     "initiative": "FCA reviewing whether APRs support consumers’ choices",
     "description": "The FCA is reviewing whether Annual Percentage Rates (APRs) help consumers understand borrowing costs andis seeking views on whetherit should changehow these are communicated in credit advertising. APRsindicatethe yearly cost of borrowing, including interest and fees. A representative APR means at least half of consumers receive that rate or better. Current rules require representative APRs in most credit advertising.Research, published today, shows APRs are useful for comparing products, butadditionalinformation like total repayment figures can also help consumer understanding.But providing different information tailored todifferent productscan sometimes make comparison harder and confusing.Theresearch showed that, among those shown APR alone,80% of people correctlyidentifiedthe cheapest product when the lower APR meant a lower repayment. Fewer than 1 in 5 did so when the lower APRdidn'tmean cheaper borrowing.Proposals to simplify parts of the Consumer Credit rule book on credit advertisinghavealso been published.Theseaimto remove duplication and outdated requirements where the Consumer Duty already sets clear expectations for firms to support consumer understanding.AlisonWalters, director of consumer financeat the FCA, said:'Clear information advertising credit helps people shop around. But there’s evidence that APRsdonot always allow people to understand thetrue costof credit. To help people navigate their financial lives,we’reasking for views on whetherthere’sa better way.'The Discussion Paper published today, alongside the Consultation Paper on stripping back overly prescriptive requirements, focuses on whether more flexible ways of presenting loan costs could help borrowers make better informed choices.The Discussion and Consultation Paper closes on 17June 2026.Notes to editorsRead the Consultation and Discussion Paper.This discussion paper is supported by two research papers:Abehavioural experimentconducted by the FCA’s behavioural economics teamwith consumers,which examines howdifferent typesof cost-of-credit information affect consumers’ ability to both understand and compare the cost of credit products.PwC’s consumer researchcommissioned by the FCAexamineshow credit consumers engage with information communicated to them across the consumer journey and consumer credit products. The research explores consumers’ understanding of APRs and how consumers use APRs to compare and choosedifferentcredit products.Most of thefinancialpromotionsrulesintheConsumer Credit rule bookpre-date the FCA taking over regulation in 2014, with some going back to 2004.TheConsultation andDiscussionPaperisin response to our commitment in the Feedback Statementon the Consumer Duty rule review (FS25/2) to simplify our requirements on firms, including a review of the advertising rules for consumer credit.",
     "date": "2026-01-01",
@@ -4748,7 +4767,7 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
+    "institution": "FCA",
     "initiative": "LCM Family Limited enters administration",
     "description": "On 28 April 2026, LCM Family Limited (LCM) went into administration. Louise Longley and Gary Shankland of BTG Begbies Traynor (Central) LLP were appointed as joint administrators of the firm. The joint administrators are responsible for managing the affairs of the firm during the administration process.LCM (previously known as LCM Wealth Management Limited) is authorised by the FCA and provided financial advice and related investment services. LCM is also regulated by the Solicitors Regulation Authority (SRA) to provide legal services. On 14 April 2026 LCM agreed to a voluntary requirement with the FCA, restricting the activities it can undertake.The FCA continues to supervise LCM and will work closely with the joint administrators. Below we set out:What to do if you are concerned about your investments.How to contact the joint administrators.How to protect yourself from fraudsters claiming to act on behalf of the firm or the joint administrators.",
     "date": "2026-01-01",
@@ -4765,7 +4784,7 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
+    "institution": "FCA",
     "initiative": "Trust, tradition and the future of mutual growth",
     "description": "Speech by Sarah Pritchard, FCA deputy chief executive, at the BSA Annual Conference, Edinburgh. As a history lover, it’s thrilling to be in a city like Edinburgh – called a ‘hot-bed of genius’ during the Scottish Enlightenment.What defined the Enlightenment spirit was the refusal to settle, and a determination to make things better for the future.It’s the kind of approach I’m taking to this moment of regulatory reform.Working with others to solve difficult problems, protecting trust and good outcomes, and modernising where we can – so the framework supports growth and innovation.Both now, and in the future.Everyone in this room is well-placed to help shape what comes next.You’ve already laid a strong foundation, bringing diversity, competition and resilience to the financial sector.And helping consumers build their financial confidence, buy their first homes and find community.Now is the time to build on that foundation and create the space to grow.",
     "date": "2026-01-01",
@@ -4784,7 +4803,7 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
+    "institution": "FCA",
     "initiative": "FCA invites ESG rating providers to join a voluntary reporting pilot",
     "description": "Help us develop a proportionate reporting regime for ESG ratings. Register your interest by 13 May 2026. We're inviting ESG rating providers to join a pilot to inform future regulatory reporting once the regime is live.Our aim is to avoid unnecessary reporting burden for firms over time.The pilot aims to help us assess whether the proposed metrics for ESG ratings reporting are:clearfeasibleproportionate across different business modelsuseful for supervisory purposesParticipants will have a direct opportunity to inform:the design of the future reporting frameworkregulatory reporting requirementsBased on your feedback, we may revise the metrics for the eventual reporting regime.",
     "date": "2026-01-01",
@@ -4846,7 +4865,7 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
+    "institution": "FCA",
     "initiative": "FCA consults on changes to IPO research rules",
     "description": "The FCA is seeking views on proposals to change rules that govern the publication of research during the initial public offering (IPO) process. The FCA is consulting on removing the requirement for a 7-day delay before connected research on an IPO can be published. It also consults on removing rules that require firms to provide independent analysts with the same information as their own research analysts.These rules were introduced in 2018 to encourage the production of unconnected research, but they have not achieved that aim. However, feedback from the market suggests that they have also added complexity, risk and cost to the IPO process, and have put the UK at a competitive disadvantage compared with other international listing venues.Removing these requirements would simplify the IPO process and improve the conditions for listing in the UK. This would support the FCA’s work to strengthen the UK’s capital markets and to support growth and competitiveness.Jon Relleen, director of infrastructure &amp; exchanges, supervision, policy &amp; competition division, said:'Market feedback has been clear that these rules can introduce additional risk, cost and complexity without delivering the intended benefits. We are committed to reducing friction, supporting growth, and ensuring the UK remains a competitive and trusted place for companies to raise capital.'No other rule changes are proposed at this stage. However, the paper includes discussion questions on whether further reform of the 2018 IPO information flow rules may be appropriate.This consultation helps to deliver one of the commitments set out in the FCA’s letter to the Prime Minister in December 2025.The FCA welcomes feedback by 29 May 2026.Notes to editorsCP26/14: Changes to information flows for UK equity IPOs.Find out more information about the FCA.",
     "date": "2026-01-01",
@@ -4865,7 +4884,7 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
+    "institution": "FCA",
     "initiative": "FCA Board appoints 2 new members to the Regulatory Decisions Committee",
     "description": "The FCA Board appoints new members to decision-making committee. The Board of the FCA has appointed Jonathan Peddie and Raymond Cox KC as new members of the FCA’s Regulatory Decisions Committee (RDC).The RDC is responsible for taking certain regulatory decisions on behalf of the FCA relating to contested enforcement action. Committee members bring a broad range of professional experience to support fair, independent and evidence-based decision-making.Alison Potter, the chair of the RDC, said:'I am delighted to welcome our new members to the committee. Both Raymond and Jonathan bring significant legal and financial services expertise and regulatory enforcement experience, which will complement existing committee members and enhance the overall capability and effectiveness of the RDC.'Notes to editorsMore detail about the work of the RDC is available on the FCA website, including the biographies of all committee members.The RDC is an FCA Board Committee that is operationally separate from the rest of the FCA. The FCA Board appoints the RDC chair and members, who are drawn from across a spectrum of business, consumer and industry backgrounds.Find out more information about the FCA.",
     "date": "2026-01-01",
