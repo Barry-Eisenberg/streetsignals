@@ -34,13 +34,20 @@ jobs:
       - name: Commit and push if changed
         env:
           DATA_PUSH_TOKEN: ${{ secrets.DATA_PUSH_TOKEN }}
+          GITHUB_TOKEN_FALLBACK: ${{ github.token }}
         run: |
           set -euo pipefail
           echo "Workflow SHA: ${GITHUB_SHA}"
           echo "Actor: ${GITHUB_ACTOR}"
           echo "Ref: ${GITHUB_REF}"
-          if [ -z "${DATA_PUSH_TOKEN:-}" ]; then
-            echo "DATA_PUSH_TOKEN is empty or unavailable to this run."
+
+          PUSH_TOKEN="${DATA_PUSH_TOKEN:-}"
+          if [ -z "${PUSH_TOKEN}" ]; then
+            echo "DATA_PUSH_TOKEN unavailable. Falling back to github.token."
+            PUSH_TOKEN="${GITHUB_TOKEN_FALLBACK}"
+          fi
+          if [ -z "${PUSH_TOKEN}" ]; then
+            echo "No push token available."
             exit 1
           fi
 
@@ -55,6 +62,6 @@ jobs:
           # Use token-authenticated remote so the push is accepted even when
           # the checkout URL doesn't carry credentials.
           git config --global --unset-all http.https://github.com/.extraheader || true
-          git remote set-url origin "https://x-access-token:${DATA_PUSH_TOKEN}@github.com/${{ github.repository }}.git"
+          git remote set-url origin "https://x-access-token:${PUSH_TOKEN}@github.com/${{ github.repository }}.git"
           echo "Attempting push to main..."
           git push --verbose origin HEAD:main 2>&1 || { echo "Push failed — see error above."; exit 1; }
