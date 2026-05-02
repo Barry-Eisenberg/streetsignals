@@ -843,6 +843,29 @@ const DEPRECATED_INSTITUTION_PATTERNS = [
 
 const MONTH_NAME_PATTERN = /^(january|february|march|april|may|june|july|august|september|october|november|december)$/i;
 const GENERIC_INSTITUTION_TOKENS = new Set(['ai', 'web3', 'etf', 'crypto', 'bitcoin', 'institutional']);
+const BAD_INSTITUTION_PREFIXES = ['of ', 'for ', 'from ', 'in ', 'on ', 'by ', 'with '];
+const BAD_INSTITUTION_TOKENS = new Set([
+  'pick', 'picks', 'wins', 'win', 'backs', 'urges', 'warns', 'says', 'calls',
+  'hearing', 'report', 'reports', 'launches', 'raises', 'takes', 'deal', 'invites'
+]);
+const INSTITUTION_CANONICAL_ALIASES = {
+  'fed': 'Federal Reserve',
+  'the fed': 'Federal Reserve',
+  'federal reserve': 'Federal Reserve',
+  'federal reserve board': 'Federal Reserve',
+  'federal reserve board of governors': 'Federal Reserve',
+  'boe': 'Bank of England',
+  'bank of england': 'Bank of England',
+  'of england': 'Bank of England',
+  'bank of korea': 'Bank of Korea',
+  'of korea': 'Bank of Korea',
+  'ecb': 'ECB (European Central Bank)',
+  'european central bank': 'ECB (European Central Bank)',
+  'uk fca': 'FCA',
+  'fca (financial conduct authority, uk)': 'FCA',
+  'cftc (commodity futures trading commission)': 'CFTC',
+  'sec (u.s. securities and exchange commission)': 'SEC'
+};
 
 const INSTITUTION_DESCRIPTOR_WORDS = [
   'startup', 'platform', 'exchange', 'issuer', 'provider', 'firm', 'company', 'bank',
@@ -886,6 +909,9 @@ function cleanInstitutionLabel(label) {
   value = value.replace(/^["'“”‘’]+|["'“”‘’]+$/g, '').trim();
   value = value.replace(/^the\s+/i, '').trim();
 
+  const earlyAlias = INSTITUTION_CANONICAL_ALIASES[value.toLowerCase()];
+  if (earlyAlias) return earlyAlias;
+
   // Common title forms where the institution appears after "of".
   value = value.replace(/^(?:acquisition|purchase|merger)\s+of\s+/i, '').trim();
 
@@ -922,7 +948,19 @@ function cleanInstitutionLabel(label) {
   if (!/[A-Za-z]/.test(value)) return '';
   if (!/[A-Z]/.test(value)) return '';
   if (!value || value.length < 2 || value.length > 70) return '';
+
   const lower = value.toLowerCase();
+  if (BAD_INSTITUTION_PREFIXES.some(prefix => lower.startsWith(prefix))) return '';
+
+  const alias = INSTITUTION_CANONICAL_ALIASES[lower];
+  if (alias) return alias;
+
+  if (/^bank of england(?: governor [a-z .'-]+)?$/i.test(value)) return 'Bank of England';
+  if (/^(?:the fed|federal reserve(?: board(?: of governors)?)?)$/i.test(value)) return 'Federal Reserve';
+
+  const words = lower.match(/[a-z]+/g) || [];
+  if (words.some(token => BAD_INSTITUTION_TOKENS.has(token))) return '';
+
   if (GENERIC_INSTITUTION_TOKENS.has(lower)) return '';
   if (REPORTER_SOURCE_NEEDLES.some(needle => value.toLowerCase().includes(needle))) return '';
   return value;
@@ -2660,12 +2698,14 @@ function buildInstitutionSummaries(signals) {
 
   signals.forEach(signal => {
     const rawInstitution = String(signal?.institution || '').trim();
+    const cleanedRawInstitution = cleanInstitutionLabel(rawInstitution);
     const inferredInstitution = inferDrivingInstitution(signal);
-    const key = cleanInstitutionLabel(inferredInstitution || rawInstitution);
+    const cleanedInferredInstitution = cleanInstitutionLabel(inferredInstitution);
+    const key = cleanedRawInstitution || cleanedInferredInstitution;
 
     // Directory should represent named institutions, not reporting outlets.
     if (!key) return;
-    if (isReporterSource(signal) && !inferredInstitution) return;
+    if (isReporterSource(signal) && !cleanedRawInstitution && !cleanedInferredInstitution) return;
 
     if (!instMap[key]) {
       instMap[key] = {

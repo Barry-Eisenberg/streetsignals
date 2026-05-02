@@ -53,3 +53,35 @@ Workflow file: `.github/workflows/update-signals.yml`
 - `data.json` remains your curated manual dataset.
 - Keep high-confidence institutional records in `data.json`.
 - Use `rss_sources` for broad monitoring and regular refresh.
+
+## 2026-05-02 remediation summary
+
+This release cycle resolved production data freshness, UI regressions, and institution-label quality issues.
+
+### Completed fixes
+
+- Restored missing weekly priority strip behavior above the signal catalogue with fallback rendering.
+- Set default date window to 14 days for top-level signal views.
+- Fixed analytics CSP allowances and favicon/secondary-page consistency issues.
+- Hardened scheduled refresh workflow to avoid secret-dependent failures by adding token fallback behavior.
+- Improved institution inference in `scripts/update_signals.py` with:
+  - canonical institution aliases (for example, Fed/BoE normalization)
+  - priority institution pattern matching before generic matching
+  - quality gates to reject fragmentary labels and headline-token leakage
+  - stronger regulator/global-bank/payments/exchange pattern coverage
+
+### Data quality outcome
+
+Post-rebuild verification confirms that fragmentary regulator labels such as "of Korea", "of England", and "Fed pick Warsh" are not present as institution values in current generated data.
+
+Current regulator institution set is normalized to canonical labels (for example: Federal Reserve, Bank of Korea, Bank of England, CFTC, SEC, FCA, ECB).
+
+### Operational verification
+
+- Manual workflow dispatch executed successfully (`update-signals.yml`, run `25260781058`).
+- Latest production data refresh completed and integrity checks passed locally.
+- UI regression checks previously executed and passing after the main fix set.
+
+### Follow-up guidance
+
+If stale labels still appear in-browser after deployment, force-refresh and clear browser cache for the site origin to bypass client/CDN cache artifacts.
