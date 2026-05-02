@@ -72,6 +72,54 @@ CATEGORY_ALIASES = {
     "financial_infrastructure": "ecosystem",
 }
 
+PUBLISHER_INSTITUTIONS = {
+    "Chainalysis — Blog",
+    "CoinDesk",
+    "CoinGeek",
+    "Connecting the Dots",
+    "Connecting the Dots in Payments",
+    "Finextra",
+    "Fintech Wrap Up",
+    "Ledger Insights",
+    "The Block",
+    "The Paypers",
+    "Unchained",
+    "Unchained Crypto",
+}
+
+GENERIC_INSTITUTION_PATTERNS = [
+    (re.compile(r"\bbrazil(?:'s)? central bank\b|\bcentral bank of brazil\b", re.IGNORECASE), "Brazil Central Bank", "regulators"),
+    (re.compile(r"\bu\.?s\.? treasury\b|\bunited states treasury\b", re.IGNORECASE), "U.S. Treasury Department", "regulators"),
+    (re.compile(r"\bfederal reserve\b|\bthe fed\b", re.IGNORECASE), "Federal Reserve", "regulators"),
+    (re.compile(r"\becb\b|\beuropean central bank\b", re.IGNORECASE), "ECB (European Central Bank)", "regulators"),
+    (re.compile(r"\besma\b", re.IGNORECASE), "ESMA", "regulators"),
+    (re.compile(r"\bfca\b|\bfinancial conduct authority\b", re.IGNORECASE), "FCA (Financial Conduct Authority, UK)", "regulators"),
+    (re.compile(r"\bsec\b|\bu\.?s\.? securities and exchange commission\b", re.IGNORECASE), "SEC (U.S. Securities and Exchange Commission)", "regulators"),
+    (re.compile(r"\bcftc\b|\bcommodity futures trading commission\b", re.IGNORECASE), "CFTC (Commodity Futures Trading Commission)", "regulators"),
+    (re.compile(r"\bocc\b|\boffice of the comptroller of the currency\b", re.IGNORECASE), "OCC (Office of the Comptroller of the Currency)", "regulators"),
+    (re.compile(r"\bfdic\b", re.IGNORECASE), "FDIC (Federal Deposit Insurance Corporation)", "regulators"),
+    (re.compile(r"\bmas\b|\bmonetary authority of singapore\b", re.IGNORECASE), "MAS (Monetary Authority of Singapore)", "regulators"),
+    (re.compile(r"\bhkma\b|\bhong kong monetary authority\b", re.IGNORECASE), "HKMA (Hong Kong Monetary Authority)", "regulators"),
+    (re.compile(r"\biosco\b", re.IGNORECASE), "IOSCO (International Organization of Securities Commissions)", "regulators"),
+    (re.compile(r"\bbis\b|\bbank for international settlements\b", re.IGNORECASE), "BIS", "regulators"),
+    (re.compile(r"\bfsb\b|\bfinancial stability board\b", re.IGNORECASE), "FSB", "regulators"),
+]
+
+LOW_SIGNAL_MARKET_PATTERNS = [
+    re.compile(r"\bbitcoin\b.*\b(above|below|edges|ticks|surges|falls|drops|rises)\b", re.IGNORECASE),
+    re.compile(r"\bethereum\b.*\b(finalizes|sale of|price|rises|drops|gains)\b", re.IGNORECASE),
+    re.compile(r"\bshares jump\b|\bbuys the dip\b|\bunrealized gain\b|\bshort bias\b", re.IGNORECASE),
+    re.compile(r"\bperformance update\b|\bleading index higher\b|\bmarket cap\b", re.IGNORECASE),
+    re.compile(r"\bairdrop\b|\bquantum proposal\b|\bnew narrative for bitcoin\b", re.IGNORECASE),
+    re.compile(r"\bprediction markets?\b.*\bcasino\b", re.IGNORECASE),
+]
+
+INSTITUTIONAL_FOCUS_PATTERNS = [
+    re.compile(r"\b(bank|banks|asset manager|asset management|custodian|custody|exchange|clearing|settlement|fmi|stablecoin issuer|payments provider|payment network)\b", re.IGNORECASE),
+    re.compile(r"\b(central bank|regulator|regulatory|treasury department|monetary authority|securities commission)\b", re.IGNORECASE),
+    re.compile(r"\b(tokenized fund|money market fund|mmf|treasury operations|cross-border payments?|collateral|post-trade)\b", re.IGNORECASE),
+]
+
 TOPIC_KEYWORDS = [
     # Tokenization & Digital Assets
     "token", "tokeniz", "digitalis",
@@ -180,6 +228,11 @@ def build_institution_category_lookup(signals):
         institution = normalize_institution_name(signal.get("institution", ""))
         if len(institution) < 3:
             continue
+        if institution in PUBLISHER_INSTITUTIONS:
+            continue
+        source_name = normalize_institution_name(signal.get("source_name", ""))
+        if source_name and institution == source_name:
+            continue
         lookup.setdefault(institution, category)
 
     # Longest names first to reduce partial-match collisions.
@@ -200,7 +253,46 @@ def infer_institution_category_from_text(text, institution_category_pairs):
         if pattern.search(haystack):
             return institution, category
 
+    for pattern, institution, category in GENERIC_INSTITUTION_PATTERNS:
+        if pattern.search(haystack):
+            return institution, category
+
     return None, None
+
+
+def is_low_signal_market_story(text):
+    haystack = str(text or "")
+    return any(pattern.search(haystack) for pattern in LOW_SIGNAL_MARKET_PATTERNS)
+
+
+def has_institutional_focus(text, inferred_institution, inferred_category):
+    if inferred_institution and inferred_category:
+        return True
+    haystack = str(text or "")
+    return any(pattern.search(haystack) for pattern in INSTITUTIONAL_FOCUS_PATTERNS)
+
+
+def sanitize_auto_signal(signal, institution_category_pairs):
+    combined = f"{signal.get('initiative', '')} {signal.get('description', '')}"
+    source_category = normalize_category(signal.get("category", "ecosystem"))
+    inferred_institution, inferred_category = infer_institution_category_from_text(
+        combined,
+        institution_category_pairs,
+    )
+
+    if source_category == "ecosystem":
+        if is_low_signal_market_story(combined):
+            return None
+        if not has_institutional_focus(combined, inferred_institution, inferred_category):
+            return None
+
+    updated = dict(signal)
+    if inferred_institution and inferred_category:
+        updated["institution"] = inferred_institution
+        updated["category"] = inferred_category
+
+    enrich(updated)
+    return updated
 
 
 def safe_iso_date(value):
@@ -519,6 +611,18 @@ def fetch_auto_signals(config, manual_data, existing_auto):
             if not relevant_topic(combined):
                 continue
 
+            inferred_institution, inferred_category = infer_institution_category_from_text(
+                combined,
+                institution_category_pairs,
+            )
+
+            source_category = normalize_category(source.get("category", "ecosystem"))
+            if source_category == "ecosystem":
+                if is_low_signal_market_story(combined):
+                    continue
+                if not has_institutional_focus(combined, inferred_institution, inferred_category):
+                    continue
+
             if len(item["description"]) < MIN_DESC_LENGTH:
                 continue
 
@@ -528,15 +632,10 @@ def fetch_auto_signals(config, manual_data, existing_auto):
                 "description": item["description"],
                 "date": item["published"],
                 "source_url": url,
-                "category": source.get("category", "ecosystem"),
+                "category": source_category,
                 "source_name": name,
                 "auto_generated": True,
             }
-
-            inferred_institution, inferred_category = infer_institution_category_from_text(
-                combined,
-                institution_category_pairs,
-            )
             if inferred_institution and inferred_category:
                 signal["institution"] = inferred_institution
                 signal["category"] = inferred_category
@@ -691,15 +790,20 @@ def main():
     print(f"Loaded: {len(manual_data)} manual, {len(existing_auto)} existing auto signals")
     print("Fetching RSS sources...")
 
+    institution_category_pairs = build_institution_category_lookup(manual_data + existing_auto)
+
     # Fetch new signals — only items not already in manual or existing auto
     new_signals = fetch_auto_signals(config, manual_data, existing_auto)
 
     # Merge new signals with existing accumulator, prune to rolling window, cap
     merged = new_signals + existing_auto
-    merged = prune_and_cap(merged)
+    sanitized = []
     for signal in merged:
-        signal["category"] = normalize_category(signal.get("category", ""))
-        signal["institution_type"] = INST_TYPE_MAP.get(signal.get("category", ""), "Infrastructure & Technology")
+        cleaned = sanitize_auto_signal(signal, institution_category_pairs)
+        if cleaned is not None:
+            sanitized.append(cleaned)
+    merged = sanitized
+    merged = prune_and_cap(merged)
 
     # Update intel briefs
     intel_briefs = fetch_nextfi_briefs(config, current_briefs)
