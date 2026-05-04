@@ -657,12 +657,46 @@ function normalizeSignalDescriptionText(value) {
     .replace(/\n{3,}/g, '\n\n')
     .trim();
 
+  // Preserve paragraph/list intent, but collapse source-inserted hard wraps.
+  text = text
+    .split(/\n{2,}/)
+    .map(block => {
+      const lines = block.split('\n').map(line => line.trim()).filter(Boolean);
+      if (!lines.length) return '';
+      const isBulletList = lines.every(line => /^[-*•]\s+/.test(line));
+      return isBulletList ? lines.join('\n') : lines.join(' ');
+    })
+    .filter(Boolean)
+    .join('\n\n');
+
   return text || 'N/A';
+}
+
+function chunkDescriptionParagraph(block) {
+  const text = String(block || '').trim();
+  if (!text) return [];
+  const sentences = text.match(/[^.!?]+[.!?]+(?:\s+|$)|[^.!?]+$/g) || [text];
+  if (sentences.length <= 3) return [text];
+
+  const chunks = [];
+  let current = [];
+  sentences.forEach(sentence => {
+    current.push(sentence.trim());
+    if (current.length >= 2) {
+      chunks.push(current.join(' '));
+      current = [];
+    }
+  });
+  if (current.length) chunks.push(current.join(' '));
+  return chunks;
 }
 
 function formatSignalDescriptionHtml(value) {
   const normalized = normalizeSignalDescriptionText(value);
-  const blocks = normalized.split(/\n{2,}/).map(block => block.trim()).filter(Boolean);
+  let blocks = normalized.split(/\n{2,}/).map(block => block.trim()).filter(Boolean);
+  if (blocks.length === 1 && blocks[0].length > 420) {
+    blocks = chunkDescriptionParagraph(blocks[0]);
+  }
   if (!blocks.length) return '<p>N/A</p>';
   return blocks
     .map(block => `<p>${escapeHtml(block).replace(/\n/g, '<br>')}</p>`)

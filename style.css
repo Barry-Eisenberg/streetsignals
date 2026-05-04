@@ -3228,6 +3228,7 @@
 .signal-detail-row {
   display: grid;
   grid-template-columns: 140px 1fr;
+  align-items: start;
   gap: var(--space-2);
   font-size: var(--text-xs);
 }
@@ -3245,6 +3246,9 @@
 
 .signal-detail-value.signal-detail-description {
   line-height: 1.6;
+  max-width: none;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .signal-detail-value.signal-detail-description p {
