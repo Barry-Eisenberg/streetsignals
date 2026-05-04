@@ -289,12 +289,9 @@
     "institution_type": "Payments Providers",
     "signal_type": "Product Launch",
     "fmi_areas": [
-      "Tokenization & Issuance",
       "Data & Reporting"
     ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -508,9 +505,7 @@
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
     "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
+    "fmi_areas": [],
     "initiative_types": [],
     "year": "2026"
   },
@@ -524,13 +519,9 @@
     "source_name": "BIS — Central Banker Speeches",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -582,9 +573,7 @@
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
     "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
+    "fmi_areas": [],
     "initiative_types": [],
     "year": "2026"
   },
@@ -601,11 +590,9 @@
     "signal_type": "Pilot / Trial",
     "fmi_areas": [
       "Payments & Transfers",
-      "Tokenization & Issuance",
       "Digital Currency & Stablecoins"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "Stablecoins & Deposit Tokens",
       "DeFi"
     ],
@@ -1025,12 +1012,10 @@
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Custody & Safekeeping",
-      "Tokenization & Issuance",
       "Collateral & Lending",
       "Trading & Exchange"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "DeFi",
       "Crypto / Digital Assets"
     ],
@@ -1259,11 +1244,9 @@
     "institution_type": "Exchanges & Central Intermediaries",
     "signal_type": "Product Launch",
     "fmi_areas": [
-      "Tokenization & Issuance",
       "Trading & Exchange"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -1316,10 +1299,8 @@
     "source_name": "BIS — Central Banker Speeches",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
     "initiative_types": [],
     "year": "2026"
   },
@@ -1420,7 +1401,6 @@
     "signal_type": "Product Launch",
     "fmi_areas": [
       "Settlement & Clearing",
-      "Tokenization & Issuance",
       "Collateral & Lending",
       "Trading & Exchange",
       "Digital Currency & Stablecoins",
@@ -1429,7 +1409,6 @@
       "Data & Reporting"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets",
       "Payment Infrastructure"
@@ -1584,11 +1563,9 @@
     "institution_type": "Exchanges & Central Intermediaries",
     "signal_type": "Investment / M&A",
     "fmi_areas": [
-      "Tokenization & Issuance",
       "Trading & Exchange"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -1706,10 +1683,8 @@
     "source_name": "BIS — Central Banker Speeches",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
     "initiative_types": [],
     "year": "2026"
   },
@@ -1723,10 +1698,8 @@
     "source_name": "BIS — Central Banker Speeches",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
     "initiative_types": [],
     "year": "2026"
   },
@@ -1740,10 +1713,8 @@
     "source_name": "BIS — Central Banker Speeches",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
     "initiative_types": [],
     "year": "2026"
   },
@@ -1757,10 +1728,8 @@
     "source_name": "BIS — Central Banker Speeches",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
     "initiative_types": [],
     "year": "2026"
   },
@@ -1836,12 +1805,10 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Tokenization & Issuance",
       "Trading & Exchange",
       "Digital Currency & Stablecoins"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "Stablecoins & Deposit Tokens",
       "CBDC",
       "Crypto / Digital Assets"
@@ -1975,11 +1942,9 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Tokenization & Issuance",
       "Digital Currency & Stablecoins"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "Stablecoins & Deposit Tokens",
       "CBDC"
     ],
@@ -2117,11 +2082,9 @@
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Tokenization & Issuance",
       "Trading & Exchange"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
@@ -2175,13 +2138,9 @@
     "source_name": "BIS — Central Banker Speeches",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -2194,10 +2153,8 @@
     "source_name": "BIS — Central Banker Speeches",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
     "initiative_types": [],
     "year": "2026"
   },
@@ -2211,13 +2168,9 @@
     "source_name": "BIS — Central Banker Speeches",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi"
-    ],
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -2492,11 +2445,9 @@
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Tokenization & Issuance",
       "Collateral & Lending"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "DeFi"
     ],
     "year": "2026"
@@ -2573,11 +2524,9 @@
     "institution_type": "Payments Providers",
     "signal_type": "Product Launch",
     "fmi_areas": [
-      "Tokenization & Issuance",
       "Interoperability & Standards"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "DeFi"
     ],
     "year": "2026"
@@ -2865,11 +2814,9 @@
     "signal_type": "Product Launch",
     "fmi_areas": [
       "Payments & Transfers",
-      "Tokenization & Issuance",
       "Digital Currency & Stablecoins"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "Stablecoins & Deposit Tokens",
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
@@ -3374,10 +3321,8 @@
     "source_name": "BIS — Central Banker Speeches",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
     "initiative_types": [],
     "year": "2026"
   },
@@ -3411,13 +3356,9 @@
     "source_name": "BIS — Central Banker Speeches",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi"
-    ],
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -3489,10 +3430,8 @@
     "source_name": "BIS — Central Banker Speeches",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
     "initiative_types": [],
     "year": "2026"
   },
@@ -3806,11 +3745,9 @@
     "institution_type": "Payments Providers",
     "signal_type": "Investment / M&A",
     "fmi_areas": [
-      "Tokenization & Issuance",
       "Digital Currency & Stablecoins"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
@@ -3846,11 +3783,9 @@
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
-      "Settlement & Clearing",
-      "Tokenization & Issuance"
+      "Settlement & Clearing"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
@@ -4419,10 +4354,9 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
-      "Tokenization & Issuance"
+      "General Infrastructure"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
@@ -4719,11 +4653,9 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Product Launch",
     "fmi_areas": [
-      "Tokenization & Issuance",
       "Regulation & Compliance"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
