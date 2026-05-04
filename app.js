@@ -1649,31 +1649,85 @@ function computePersonaAssessment(signal, personaKey = selectedPersona) {
 
 function inferSignalUseCase(signal) {
   const text = getSignalSearchCorpus(signal);
-  if (text.includes('stablecoin') || text.includes('deposit token') || text.includes('payment') || text.includes('transfer')) {
-    return 'stablecoin_rails';
-  }
-  if (text.includes('collateral') || text.includes('lending') || text.includes('repo') || text.includes('margin')) {
-    return 'collateral_mobility';
-  }
-  if (text.includes('settlement') || text.includes('clearing')) {
-    return 'settlement_flow';
-  }
-  if (text.includes('tokenization') || text.includes('tokenized') || text.includes('rwa') || text.includes('custody')) {
-    return 'tokenized_asset_ops';
+  if (/stress\s*test|reverse\s*stress|recovery\s*and\s*resolution|resilien|central\s*counterpart|\bccp\b|\bemir\b/.test(text)) {
+    return 'resilience_controls';
   }
   if (text.includes('regulation') || text.includes('regulatory') || text.includes('compliance') || text.includes('policy')) {
     return 'policy_controls';
   }
+  if (text.includes('settlement') || text.includes('clearing')) {
+    return 'settlement_flow';
+  }
+  if (text.includes('collateral') || text.includes('lending') || text.includes('repo') || text.includes('margin')) {
+    return 'collateral_mobility';
+  }
+  if (text.includes('tokenization') || text.includes('tokenized') || text.includes('rwa') || text.includes('custody')) {
+    return 'tokenized_asset_ops';
+  }
+  if (text.includes('stablecoin') || text.includes('deposit token') || text.includes('digital cash') || text.includes('cross-border payment')) {
+    return 'stablecoin_rails';
+  }
+  if (text.includes('payment') || text.includes('transfer')) return 'stablecoin_rails';
   return 'infrastructure_modernization';
 }
 
-function getUseCaseNarrative(useCase) {
+function inferSignalContextMode(signal) {
+  const text = getSignalSearchCorpus(signal);
+  if (/stress\s*test|reverse\s*stress|recovery\s*and\s*resolution|resilien|central\s*counterpart|\bccp\b|\bemir\b/.test(text)) {
+    return 'resilience_supervision';
+  }
+  if (/call\s+for\s+evidence|consultation|guideline|draft\s+guidelines|feedback\s+statement/.test(text)) {
+    return 'policy_consultation';
+  }
+  if (/final\s+report|framework|annual\s+report|publication/.test(text)) {
+    return 'supervisory_publication';
+  }
+  return 'general';
+}
+
+function getSignalNarrativeTheme(signal) {
+  const text = getSignalSearchCorpus(signal);
+  const mode = inferSignalContextMode(signal);
+  if (mode === 'resilience_supervision') {
+    if (/central\s*counterpart|\bccp\b/.test(text)) return 'central counterparty resilience and stress testing';
+    return 'stress testing and market infrastructure resilience controls';
+  }
+  if (mode === 'policy_consultation') return 'market structure policy calibration and supervisory design';
+  if (mode === 'supervisory_publication') return 'supervisory guidance and implementation planning';
+
+  const fmiArea = getSignalDetailFmiAreas(signal)[0] || '';
+  const fmiThemeMap = {
+    'Settlement & Clearing': 'settlement and clearing operations',
+    'Payments & Transfers': 'payments and transfer rails',
+    'Regulation & Compliance': 'regulatory controls and compliance frameworks',
+    'Collateral & Lending': 'collateral and funding workflows',
+    'Trading & Exchange': 'trading venue and market structure operations',
+    'Data & Reporting': 'market data and reporting controls',
+    'Digital Currency & Stablecoins': 'digital money rails and settlement instruments'
+  };
+  if (fmiArea && fmiThemeMap[fmiArea]) return fmiThemeMap[fmiArea];
+
+  const initiative = getSignalDetailInitiatives(signal)[0] || '';
+  if (initiative && initiative !== 'Not yet classified') return initiative;
+
+  return String(signal?.signal_type || 'digital asset infrastructure').trim() || 'digital asset infrastructure';
+}
+
+function getUseCaseNarrative(useCase, contextMode = 'general') {
+  const contextualCopy = {
+    resilience_supervision: 'This is primarily a supervisory resilience signal, focused on scenario stress performance, default management, and recovery/resolution readiness in core market infrastructure.',
+    policy_consultation: 'This is primarily a policy consultation signal, shaping supervisory expectations and the next set of implementation choices for regulated market participants.',
+    supervisory_publication: 'This is primarily a supervisory publication signal, clarifying implementation direction and expected control standards for institutions in scope.'
+  };
+  if (contextualCopy[contextMode]) return contextualCopy[contextMode];
+
   const copy = {
     stablecoin_rails: 'This points to stablecoin and digital money rails moving closer to production payment flows.',
     collateral_mobility: 'This signals faster collateral mobility and balance-sheet efficiency opportunities across funding workflows.',
     settlement_flow: 'This has direct implications for settlement timing, counterparty exposure windows, and post-trade operating design.',
     tokenized_asset_ops: 'This advances tokenized asset issuance, servicing, or custody workflows that can reshape front-to-back operations.',
     policy_controls: 'This changes the policy and control perimeter that determines where institutions can execute and scale.',
+    resilience_controls: 'This elevates resilience assurance and control expectations for systemically important market infrastructure.',
     infrastructure_modernization: 'This indicates meaningful modernization of institutional digital infrastructure and integration pathways.'
   };
   return copy[useCase] || copy.infrastructure_modernization;
@@ -1702,7 +1756,8 @@ function getSignalNarrativeSubject(signal) {
 
 function getSignalContextImplications(signal, importance) {
   const useCase = inferSignalUseCase(signal);
-  const useCaseNarrative = getUseCaseNarrative(useCase);
+  const contextMode = inferSignalContextMode(signal);
+  const useCaseNarrative = getUseCaseNarrative(useCase, contextMode);
   const initiatives = getSignalDetailInitiatives(signal).slice(0, 2);
   const fmiAreas = getSignalDetailFmiAreas(signal).slice(0, 2);
   const audience = getSignalDetailAudience(signal).slice(0, 2);
@@ -1731,6 +1786,7 @@ function getPersonaAwareNarrative(signal, useCase, persona, stage) {
       settlement_flow: `${inst}'s settlement advance directly compresses counterparty exposure windows and optimizes working capital for fintech payment operators.`,
       tokenized_asset_ops: `${inst}'s move into ${theme} creates programmable cash and deposit instrument infrastructure relevant to fintech product and treasury strategy.`,
       policy_controls: `${inst}'s policy signal updates the compliance perimeter that fintech payment products must navigate to scale cross-border operations.`,
+      resilience_controls: `${inst}'s resilience-testing signal matters for treasury and payment operators because outages or stress events in core market infrastructure can directly affect liquidity movement and settlement continuity.`,
       infrastructure_modernization: `${inst}'s ${theme} modernization shapes the integration standards and API infrastructure that fintech products are building on top of.`
     },
     collateral_markets: {
@@ -1739,6 +1795,7 @@ function getPersonaAwareNarrative(signal, useCase, persona, stage) {
       settlement_flow: `${inst}'s settlement modernization shortens margin periods of risk and frees capital in institutional trading and asset management workflows.`,
       tokenized_asset_ops: `${inst}'s ${theme} work enables tokenized securities and RWA infrastructure where asset managers can modernize collateral servicing and settlement.`,
       policy_controls: `${inst}'s policy signal expands the framework within which asset managers can deploy and manage digital asset exposures compliantly.`,
+      resilience_controls: `${inst}'s resilience-testing program is directly relevant to collateral and clearing participants because it tests default scenarios, concentration risk, and recovery/resolution capacity under stress.`,
       infrastructure_modernization: `${inst}'s infrastructure advance improves the custody, venue, and settlement systems that institutional investors rely on for portfolio operations.`
     },
     risk_compliance: {
@@ -1747,6 +1804,7 @@ function getPersonaAwareNarrative(signal, useCase, persona, stage) {
       settlement_flow: `${inst}'s settlement change introduces new control and reporting obligations that compliance programs must embed in operational architecture.`,
       tokenized_asset_ops: `${inst}'s ${theme} initiative sets custody, ownership, and compliance control precedents for tokenized asset operations that regulate the whole sector.`,
       policy_controls: `${inst}'s regulatory signal directly updates the rules and oversight standards your compliance framework must align with to remain in scope.`,
+      resilience_controls: `${inst}'s resilience-focused supervision raises expectations for stress governance, scenario testing, and documented recovery and resolution playbooks.`,
       infrastructure_modernization: `${inst}'s infrastructure change introduces new technology risk, audit scope, and resilience obligations for risk and compliance oversight.`
     },
     infra_product: {
@@ -1755,6 +1813,7 @@ function getPersonaAwareNarrative(signal, useCase, persona, stage) {
       settlement_flow: `${inst}'s settlement infrastructure advance sets new norms for messaging, finality, and operational integration in institutional banking systems.`,
       tokenized_asset_ops: `${inst}'s ${theme} initiative defines tokenization infrastructure standards—custody APIs, ledger integration, and asset servicing—that banks and FMIs are operationalizing.`,
       policy_controls: `${inst}'s policy signal updates the compliance and infrastructure requirements that platform and operations architects must embed in system design.`,
+      resilience_controls: `${inst}'s stress and resilience signal is directly relevant to infrastructure teams because it sets expectations for default handling, scenario coverage, and operational continuity controls.`,
       infrastructure_modernization: `${inst}'s ${theme} advance directly shapes the next-generation integration architecture and interoperability standards that banks and FMIs are building today.`
     }
   };
@@ -1797,12 +1856,7 @@ function inferSignalPersona(signal) {
 
 function buildSignalDirectionalInsight(signal, importance) {
   const institution = getSignalNarrativeSubject(signal);
-  const themes = Array.isArray(signal?.initiative_types) && signal.initiative_types.length > 0
-    ? signal.initiative_types
-    : Array.isArray(signal?.fmi_areas) && signal.fmi_areas.length > 0
-      ? signal.fmi_areas
-      : [String(signal?.signal_type || 'digital asset infrastructure').trim()];
-  const leadTheme = themes[0] || 'digital asset infrastructure';
+  const leadTheme = getSignalNarrativeTheme(signal);
   const audience = inferSignalPersona(signal);
   const audienceText = audience.length > 0
     ? audience.slice(0, 2).join(' and ')
@@ -1810,13 +1864,14 @@ function buildSignalDirectionalInsight(signal, importance) {
   const lensLabel = getPersonaLabel(selectedPersona);
   const lensRelevance = getPersonaRelevance(signal, selectedPersona);
   const useCase = inferSignalUseCase(signal);
+  const contextMode = inferSignalContextMode(signal);
   
   // Use persona-specific narrative when a persona is selected
   let narrative;
   if (selectedPersona !== DEFAULT_PERSONA) {
     narrative = getPersonaAwareNarrative(signal, useCase, selectedPersona, importance.stage);
   } else {
-    narrative = getUseCaseNarrative(useCase);
+    narrative = getUseCaseNarrative(useCase, contextMode);
   }
   
   const stagePhraseMap = {
