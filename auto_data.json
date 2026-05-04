@@ -1,5 +1,63 @@
 [
   {
+    "institution": "Securitize",
+    "initiative": "Latest FINRA okay means Securitize becomes tokenized securities one stop shop",
+    "description": "FINRA has granted the tokenization firm Securitize approval to custody tokenized securities as part of its regular broker dealer authorization. Securitize Markets already operates an alternative trading system (ATS) and a sister company is a transfer agent. Other companies such as tZERO had approval to provide custody, but only through a special purpose broker dealer, […] The post Latest FINRA okay means Securitize becomes tokenized securities one stop shop appeared first on Ledger Insights - blockchain for enterprise .",
+    "date": "2026-05-04",
+    "source_url": "https://www.ledgerinsights.com/latest-finra-okay-means-securitize-becomes-tokenized-securities-one-stop-shop/",
+    "category": "ecosystem",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Payments & Transfers",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Kraken parent sues ex-custodian Etana over alleged $25M “Ponzi scheme”",
+    "description": "In a second amended complaint submitted to the U.S. District Court for the District of Colorado, Payward Interactive and Payward Trading — doing business as Kraken — accuse Etana Custody Limited, Etana Custody Inc., CEO Dion Brandon Russell, and others…",
+    "date": "2026-05-04",
+    "source_url": "https://crypto.news/kraken-parent-sues-ex-custodian-etana-over-alleged-25m-ponzi-scheme/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Brian Armstrong tells the Senate to “mark it up” after CLARITY Act stablecoin yield deal lands",
+    "description": "Coinbase CEO Brian Armstrong posted a three-word response on X on May 1 after Senators Thom Tillis and Angela Alsobrooks released the final stablecoin yield compromise text for the CLARITY Act: “Mark it up,” urging the Senate Banking Committee to…",
+    "date": "2026-05-04",
+    "source_url": "https://crypto.news/why-brian-armstrong-said-mark-it-up-on-clarity-act/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "Hut 8 swaps Coinbase loan for cheaper FalconX deal, slashing borrowing costs as it bets big on AI",
     "description": "A new $200 million, 364-day bitcoin-backed facility replaces the Coinbase Credit arrangement, cutting debt costs by 200 basis points.",
