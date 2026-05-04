@@ -186,7 +186,8 @@ function getSignalEvidenceProfile(signal) {
 
 function isPriorityEvidenceSufficient(signal) {
   const profile = getSignalEvidenceProfile(signal);
-  return profile.hasAnyEvidence;
+  // Priority strip should only surface signals with explicit dual classification.
+  return profile.hasTaggedInitiative && profile.hasSpecificFmiArea;
 }
 
 function isLowSignalSpeech(signal) {
