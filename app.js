@@ -152,9 +152,20 @@ function isSpeechStyleSignal(signal) {
     || initiative.includes(':') && description.startsWith('speech by');
 }
 
+function getSignalRawTextCorpus(signal) {
+  return [
+    signal?.institution,
+    signal?.initiative,
+    signal?.description,
+    signal?.source_name,
+    signal?.source_url
+  ].join(' ').toLowerCase();
+}
+
 function hasMaterialInfrastructureContext(signal) {
-  const corpus = getSignalSearchCorpus(signal);
-  return /tokeniz|rwa|stablecoin|deposit token|cbdc|digital (euro|currency|asset)|dlt|blockchain|settlement|clearing|collateral|payment|cross-border|regulat|compliance|framework|guidance|consultation|stress test|ccp|central counterpart|emir|market infrastructure/.test(corpus);
+  // Use only raw source text, not existing classified tags, to avoid circular bias.
+  const corpus = getSignalRawTextCorpus(signal);
+  return /tokeniz|rwa|stablecoin|deposit token|cbdc|digital (euro|currency|asset)|dlt|blockchain|settlement|clearing|collateral|payment|cross-border|consultation|guidance|stress test|ccp|central counterpart|emir|market infrastructure|supervisory framework|regulatory framework/.test(corpus);
 }
 
 function isLowSignalSpeech(signal) {
