@@ -3,7 +3,7 @@ name: Update Signals
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "0 * * * *"
 
 concurrency:
   group: update-signals
