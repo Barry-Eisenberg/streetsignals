@@ -1,5 +1,63 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Shopify and National Bank of Canada are among backers of a new digital currency built to settle trades 24/7",
+    "description": "Tetra Trust's new stablecoin, CADD, is aimed at institutional use for 24/7 cross-border settlement, real-time corporate treasury, and direct fintech transfers, replacing legacy batch systems.",
+    "date": "2026-05-04",
+    "source_url": "https://www.coindesk.com/business/2026/05/04/shopify-and-national-bank-of-canada-are-among-backers-of-a-new-digital-currency-built-to-settle-trades-24-7",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BlackRock",
+    "initiative": "DTC to begin tokenized asset rollout in July ahead of full launch as it gets feedback from BlackRock, Circle and others",
+    "description": "The Depository Trust & Clearing Corporation will roll out its tokenization service as it gathers feedback from firms like BlackRock to Circle.",
+    "date": "2026-05-04",
+    "source_url": "https://www.theblock.co/post/399914/dtc-to-begin-tokenized-asset-rollout-in-july-ahead-of-full-launch-as-it-gets-feedback-from-blackrock-circle-and-others",
+    "category": "asset_management",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "SEC pumps the brakes on prediction market ETFs set to debut this week: Reuters",
+    "description": "The prediction market ETFs covered U.S. election outcomes, layoffs in the tech sector and the liklihood of a recession.",
+    "date": "2026-05-04",
+    "source_url": "https://www.theblock.co/post/399881/sec-pumps-brakes-prediction-market-etfs-set-debut-this-week-reuters",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "DTCC",
     "initiative": "Wall Street giant DTCC plans tokenized securities platform with July pilot, October launch",
     "description": "Clearing giant's move toward live tokenization market adds weight to Wall Street's blockchain push.",
