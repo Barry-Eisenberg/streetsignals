@@ -498,6 +498,19 @@ def is_event_style_url(url):
     )
 
 
+_MATERIAL_CONTEXT_RE = re.compile(
+    r"tokeniz|\brwa\b|stablecoin|deposit token|\bcbdc\b|digital\s+(?:euro|currency|asset)|"
+    r"\bdlt\b|blockchain|settlement|clearing|collateral|payment|cross-border|stress\s*test|"
+    r"\bccp\b|central\s*counterpart|\bemir\b|margin|\brepo\b|post-trade|"
+    r"default\s+waterfall|recovery\s+and\s+resolution",
+    re.IGNORECASE,
+)
+
+
+def has_material_context(text):
+    return bool(_MATERIAL_CONTEXT_RE.search(str(text or "")))
+
+
 def classify_signal_type(signal):
     text = f"{signal.get('initiative', '')} {signal.get('description', '')}".lower()
     source_name = str(signal.get('source_name', '')).lower()
@@ -508,14 +521,9 @@ def classify_signal_type(signal):
         or bool(re.search(r"/review/r\d+", source_url))
         or text.startswith('speech by ')
     )
-    has_material_context = bool(re.search(
-        r"tokeniz|rwa|stablecoin|deposit token|cbdc|digital (euro|currency|asset)|dlt|blockchain|"
-        r"settlement|clearing|collateral|payment|cross-border|stress test|ccp|central counterpart|"
-        r"emir|margin|repo|post-trade|default waterfall|recovery and resolution",
-        text,
-    ))
+    material_context = has_material_context(text)
 
-    if is_speech and not has_material_context:
+    if is_speech and not material_context:
         return "Research / Report"
 
     # Leadership & personnel changes — evaluated first to prevent downstream mismatches.
@@ -568,12 +576,7 @@ def classify_fmi_areas(signal):
     text = f"{signal.get('initiative', '')} {signal.get('description', '')}".lower()
     source_name = str(signal.get('source_name', '')).lower()
     source_url = str(signal.get('source_url', '')).lower()
-    if ('speech' in source_name or re.search(r"/review/r\d+", source_url) or text.startswith('speech by ')) and not re.search(
-        r"tokeniz|rwa|stablecoin|deposit token|cbdc|digital (euro|currency|asset)|dlt|blockchain|"
-        r"settlement|clearing|collateral|payment|cross-border|stress test|ccp|central counterpart|"
-        r"emir|margin|repo|post-trade|default waterfall|recovery and resolution",
-        text,
-    ):
+    if ('speech' in source_name or re.search(r"/review/r\d+", source_url) or text.startswith('speech by ')) and not has_material_context(text):
         return []
     areas = []
 
@@ -608,12 +611,7 @@ def classify_initiative_types(signal):
     text = f"{signal.get('initiative', '')} {signal.get('description', '')}".lower()
     source_name = str(signal.get('source_name', '')).lower()
     source_url = str(signal.get('source_url', '')).lower()
-    if ('speech' in source_name or re.search(r"/review/r\d+", source_url) or text.startswith('speech by ')) and not re.search(
-        r"tokeniz|rwa|stablecoin|deposit token|cbdc|digital (euro|currency|asset)|dlt|blockchain|"
-        r"settlement|clearing|collateral|payment|cross-border|stress test|ccp|central counterpart|"
-        r"emir|margin|repo|post-trade|default waterfall|recovery and resolution",
-        text,
-    ):
+    if ('speech' in source_name or re.search(r"/review/r\d+", source_url) or text.startswith('speech by ')) and not has_material_context(text):
         return []
     kinds = []
 

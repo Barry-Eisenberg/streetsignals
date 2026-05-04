@@ -165,7 +165,7 @@ function getSignalRawTextCorpus(signal) {
 function hasMaterialInfrastructureContext(signal) {
   // Use only raw source text, not existing classified tags, to avoid circular bias.
   const corpus = getSignalRawTextCorpus(signal);
-  return /tokeniz|rwa|stablecoin|deposit token|cbdc|digital (euro|currency|asset)|dlt|blockchain|settlement|clearing|collateral|payment|cross-border|stress test|ccp|central counterpart|emir|margin|repo|post-trade|default waterfall|recovery and resolution/.test(corpus);
+  return /(tokeniz|\brwa\b|stablecoin|deposit token|\bcbdc\b|digital\s+(euro|currency|asset)|\bdlt\b|blockchain|settlement|clearing|collateral|payment|cross-border|stress\s*test|\bccp\b|central\s*counterpart|\bemir\b|margin|\brepo\b|post-trade|default\s+waterfall|recovery\s+and\s+resolution)/.test(corpus);
 }
 
 function isLowSignalSpeech(signal) {

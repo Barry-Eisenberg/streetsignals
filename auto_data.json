@@ -505,9 +505,7 @@
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
     "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
+    "fmi_areas": [],
     "initiative_types": [],
     "year": "2026"
   },
@@ -575,9 +573,7 @@
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
     "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
+    "fmi_areas": [],
     "initiative_types": [],
     "year": "2026"
   },
@@ -879,13 +875,9 @@
     "source_name": "BIS — Central Banker Speeches",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -898,11 +890,8 @@
     "source_name": "BIS — Central Banker Speeches",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance"
-    ],
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
     "initiative_types": [],
     "year": "2026"
   },
