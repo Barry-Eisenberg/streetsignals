@@ -184,10 +184,28 @@ function getSignalEvidenceProfile(signal) {
   };
 }
 
+// Initiative types that indicate genuine digital asset / FMI infrastructure relevance.
+// "Crypto / Digital Assets" alone is insufficient — it captures all crypto business news
+// (fund AUMs, exchange M&A, sanctions stories) without requiring an infrastructure angle.
+const CORE_INITIATIVE_TYPES = new Set([
+  'Tokenized Securities / RWA',
+  'Stablecoins & Deposit Tokens',
+  'CBDC',
+  'DLT / Blockchain Infrastructure',
+  'DeFi',
+  'Payment Infrastructure',
+]);
+
+function hasCoreInitiativeType(signal) {
+  const types = normalizeInitiativeTypes(signal?.initiative_types) || [];
+  return types.some(t => CORE_INITIATIVE_TYPES.has(t));
+}
+
 function isPriorityEvidenceSufficient(signal) {
   const profile = getSignalEvidenceProfile(signal);
-  // Priority strip should only surface signals with explicit dual classification.
-  return profile.hasTaggedInitiative && profile.hasSpecificFmiArea;
+  // Require a core digital infrastructure initiative type AND a specific FMI area.
+  // Bare "Crypto / Digital Assets" (crypto exchange M&A, fund AUM reports) does not qualify.
+  return hasCoreInitiativeType(signal) && profile.hasSpecificFmiArea;
 }
 
 function isLowSignalSpeech(signal) {

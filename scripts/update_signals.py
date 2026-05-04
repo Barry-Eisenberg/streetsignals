@@ -586,11 +586,12 @@ def classify_fmi_areas(signal):
         areas.append("Custody & Safekeeping")
     if any(w in text for w in ["payment", "cross-border", "cross border", "remittance", "transfer", "fx "]):
         areas.append("Payments & Transfers")
-    if any(w in text for w in ["tokeniz", "digital bond", "digital fund", "digital share", "digital secur", "rwa", "real world asset"]):
+    if re.search(r'\btokeniz\b|digital bond|digital fund|digital share|\brwa\b|real world asset', text):
         areas.append("Tokenization & Issuance")
     if any(w in text for w in ["collateral", "repo", "lending", "margin", "liquidity", "hqla"]):
         areas.append("Collateral & Lending")
-    if any(w in text for w in ["trading", "exchange", "marketplace", "listing", "derivatives", "futures", "etf", "etp"]):
+    # etf/etp removed — investment products, not trading infrastructure
+    if any(w in text for w in ["trading", "exchange", "marketplace", "listing", "derivatives", "futures"]):
         areas.append("Trading & Exchange")
     if any(w in text for w in ["stablecoin", "stable coin", "cbdc", "digital currency", "deposit token", "tokenized deposit", "digital dollar", "digital euro"]):
         areas.append("Digital Currency & Stablecoins")
@@ -615,7 +616,7 @@ def classify_initiative_types(signal):
         return []
     kinds = []
 
-    if any(w in text for w in ["tokeniz", "digital bond", "digital fund", "digital share", "digital gilt", "rwa", "real world asset"]):
+    if re.search(r'\btokeniz\b|digital bond|digital fund|digital share|digital gilt|\brwa\b|real world asset', text):
         kinds.append("Tokenized Securities / RWA")
     if any(w in text for w in ["stablecoin", "stable coin", "deposit token", "tokenized deposit", "digital dollar"]):
         kinds.append("Stablecoins & Deposit Tokens")
@@ -623,11 +624,12 @@ def classify_initiative_types(signal):
         kinds.append("CBDC")
     if any(w in text for w in ["dlt", "distributed ledger", "blockchain", "smart contract", "on-chain", "onchain", "on chain"]):
         kinds.append("DLT / Blockchain Infrastructure")
-    if any(w in text for w in ["defi", "decentralized finance", "decentralised finance", "amm"]):
+    if re.search(r'\bdefi\b', text) or any(w in text for w in ["decentralized finance", "decentralised finance", "amm"]):
         kinds.append("DeFi")
     if any(w in text for w in ["crypto", "bitcoin", "ethereum", "digital asset"]):
         kinds.append("Crypto / Digital Assets")
-    if any(w in text for w in ["payment", "cross-border payment", "settlement", "clearing"]):
+    # bare "payment" removed — too broad (fires on AI fraud detection, financial inclusion papers, etc.)
+    if any(w in text for w in ["cross-border payment", "settlement", "clearing"]):
         kinds.append("Payment Infrastructure")
 
     return kinds or []

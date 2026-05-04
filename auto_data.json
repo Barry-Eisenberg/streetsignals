@@ -70,14 +70,11 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Product Launch",
     "fmi_areas": [
-      "Tokenization & Issuance",
       "Collateral & Lending",
       "Trading & Exchange",
       "Regulation & Compliance"
     ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -272,8 +269,7 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
+      "Crypto / Digital Assets"
     ],
     "year": "2026"
   },
@@ -384,8 +380,7 @@
     "institution_type": "Asset & Investment Management",
     "signal_type": "Research / Report",
     "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
+      "Collateral & Lending"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
@@ -633,9 +628,7 @@
       "Regulation & Compliance",
       "Data & Reporting"
     ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -689,8 +682,7 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
+      "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
   },
@@ -745,9 +737,7 @@
     "fmi_areas": [
       "Payments & Transfers"
     ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -799,9 +789,7 @@
     "fmi_areas": [
       "Regulation & Compliance"
     ],
-    "initiative_types": [
-      "DeFi"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -818,9 +806,7 @@
     "fmi_areas": [
       "Regulation & Compliance"
     ],
-    "initiative_types": [
-      "DeFi"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -837,9 +823,7 @@
     "fmi_areas": [
       "Regulation & Compliance"
     ],
-    "initiative_types": [
-      "DeFi"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -854,12 +838,10 @@
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
-      "Tokenization & Issuance",
       "Digital Currency & Stablecoins",
       "Regulation & Compliance"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
     ],
@@ -1043,11 +1025,9 @@
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Investment / M&A",
     "fmi_areas": [
-      "Tokenization & Issuance",
       "Collateral & Lending"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
@@ -1067,9 +1047,7 @@
     "fmi_areas": [
       "Payments & Transfers"
     ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -1184,8 +1162,7 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
+      "Crypto / Digital Assets"
     ],
     "year": "2026"
   },
@@ -1235,7 +1212,7 @@
     "institution_type": "Exchanges & Central Intermediaries",
     "signal_type": "Product Launch",
     "fmi_areas": [
-      "Trading & Exchange"
+      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
@@ -1275,9 +1252,7 @@
     "fmi_areas": [
       "Payments & Transfers"
     ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -1328,14 +1303,11 @@
     "signal_type": "Product Launch",
     "fmi_areas": [
       "Payments & Transfers",
-      "Tokenization & Issuance",
       "Collateral & Lending",
       "Regulation & Compliance",
       "Interoperability & Standards"
     ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -1537,8 +1509,7 @@
       "Payments & Transfers"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
+      "Crypto / Digital Assets"
     ],
     "year": "2026"
   },
@@ -1617,8 +1588,7 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
+      "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
   },
@@ -1659,8 +1629,7 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
+      "Crypto / Digital Assets"
     ],
     "year": "2026"
   },
@@ -1755,11 +1724,9 @@
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Tokenization & Issuance"
+      "General Infrastructure"
     ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -1779,7 +1746,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
-      "DeFi",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -1818,11 +1784,9 @@
     "institution_type": "Payments Providers",
     "signal_type": "Pilot / Trial",
     "fmi_areas": [
-      "Tokenization & Issuance",
       "Interoperability & Standards"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -1839,7 +1803,7 @@
     "institution_type": "Asset & Investment Management",
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Trading & Exchange"
+      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
@@ -1955,11 +1919,9 @@
     "fmi_areas": [
       "Settlement & Clearing",
       "Payments & Transfers",
-      "Tokenization & Issuance",
       "Collateral & Lending"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets",
       "Payment Infrastructure"
@@ -1998,8 +1960,7 @@
     "institution_type": "Exchanges & Central Intermediaries",
     "signal_type": "Strategic Filing / Plan",
     "fmi_areas": [
-      "Custody & Safekeeping",
-      "Trading & Exchange"
+      "Custody & Safekeeping"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
@@ -2181,8 +2142,7 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
+      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   },
@@ -2198,11 +2158,9 @@
     "institution_type": "Payments Providers",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
-      "Tokenization & Issuance",
       "Regulation & Compliance"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
@@ -2220,12 +2178,9 @@
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Custody & Safekeeping",
-      "Tokenization & Issuance",
       "Collateral & Lending"
     ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -2278,7 +2233,6 @@
     "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Collateral & Lending",
-      "Trading & Exchange",
       "Digital Currency & Stablecoins",
       "Regulation & Compliance"
     ],
@@ -2340,8 +2294,7 @@
       "Payments & Transfers"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
+      "Crypto / Digital Assets"
     ],
     "year": "2026"
   },
@@ -2381,8 +2334,7 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
+      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   },
@@ -2534,12 +2486,10 @@
     "institution_type": "Exchanges & Central Intermediaries",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
-      "Tokenization & Issuance",
       "Trading & Exchange",
       "Regulation & Compliance"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
@@ -2590,7 +2540,7 @@
     "institution_type": "Asset & Investment Management",
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Trading & Exchange"
+      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
@@ -2630,12 +2580,10 @@
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Research / Report",
     "fmi_areas": [
-      "Tokenization & Issuance",
       "Collateral & Lending",
       "Digital Currency & Stablecoins"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
@@ -2845,9 +2793,7 @@
     "fmi_areas": [
       "Payments & Transfers"
     ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -2975,7 +2921,7 @@
     "institution_type": "Global Banks",
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Trading & Exchange"
+      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
@@ -3018,8 +2964,7 @@
       "Data & Reporting"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
+      "Crypto / Digital Assets"
     ],
     "year": "2026"
   },
@@ -3110,9 +3055,7 @@
       "Payments & Transfers",
       "Interoperability & Standards"
     ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -3167,9 +3110,7 @@
     "fmi_areas": [
       "Payments & Transfers"
     ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -3332,9 +3273,7 @@
       "Payments & Transfers",
       "Interoperability & Standards"
     ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -3364,7 +3303,7 @@
     "institution_type": "Global Banks",
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Trading & Exchange"
+      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
@@ -3462,9 +3401,7 @@
       "Payments & Transfers",
       "Trading & Exchange"
     ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -3482,9 +3419,7 @@
       "Payments & Transfers",
       "Regulation & Compliance"
     ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -3524,8 +3459,7 @@
       "Digital Currency & Stablecoins"
     ],
     "initiative_types": [
-      "CBDC",
-      "Payment Infrastructure"
+      "CBDC"
     ],
     "year": "2026"
   },
@@ -3541,11 +3475,9 @@
     "institution_type": "Payments Providers",
     "signal_type": "Product Launch",
     "fmi_areas": [
-      "Settlement & Clearing",
-      "Tokenization & Issuance"
+      "Settlement & Clearing"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "Payment Infrastructure"
     ],
     "year": "2026"
@@ -3581,11 +3513,9 @@
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Investment / M&A",
     "fmi_areas": [
-      "Tokenization & Issuance"
+      "General Infrastructure"
     ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -3643,9 +3573,7 @@
     "fmi_areas": [
       "Payments & Transfers"
     ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -3662,9 +3590,7 @@
     "fmi_areas": [
       "Payments & Transfers"
     ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -3796,9 +3722,7 @@
     "fmi_areas": [
       "Payments & Transfers"
     ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -3832,9 +3756,7 @@
     "fmi_areas": [
       "General Infrastructure"
     ],
-    "initiative_types": [
-      "DeFi"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -4460,13 +4382,11 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Strategic Partnership",
     "fmi_areas": [
-      "Tokenization & Issuance",
       "Trading & Exchange",
       "Regulation & Compliance",
       "Data & Reporting"
     ],
     "initiative_types": [
-      "Tokenized Securities / RWA",
       "DeFi"
     ],
     "year": "2026"
@@ -4684,9 +4604,7 @@
       "Payments & Transfers",
       "Regulation & Compliance"
     ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -4720,9 +4638,7 @@
     "fmi_areas": [
       "Regulation & Compliance"
     ],
-    "initiative_types": [
-      "DeFi"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -4757,17 +4673,12 @@
     "signal_type": "Product Launch",
     "fmi_areas": [
       "Payments & Transfers",
-      "Tokenization & Issuance",
       "Collateral & Lending",
       "Regulation & Compliance",
       "Interoperability & Standards",
       "Data & Reporting"
     ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DeFi",
-      "Payment Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -4950,9 +4861,7 @@
       "Regulation & Compliance",
       "Interoperability & Standards"
     ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2025"
   },
   {
