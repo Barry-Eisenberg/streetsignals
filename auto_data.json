@@ -1,5 +1,102 @@
 [
   {
+    "institution": "DTCC",
+    "initiative": "Wall Street giant DTCC plans tokenized securities platform with July pilot, October launch",
+    "description": "Clearing giant's move toward live tokenization market adds weight to Wall Street's blockchain push.",
+    "date": "2026-05-04",
+    "source_url": "https://www.coindesk.com/business/2026/05/04/wall-street-giant-dtcc-plans-tokenized-securities-platform-with-july-pilot-october-launch",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Digital Asset Platform",
+    "initiative": "Western Union launches USDPT stablecoin issued by Anchorage on Solana",
+    "description": "Western Union launched a dollar stablecoin on Solana for 24/7 settlement across 200+ countries, the company said Monday.",
+    "date": "2026-05-04",
+    "source_url": "https://www.theblock.co/post/399890/western-union-launches-usdpt-stablecoin-anchorage-solana",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Kraken’s parent company alleges custodian Etana misappropriated $25 million",
+    "description": "Etana is accused of operating a \"Ponzi-like enterprise\" the resulted in using capital to fund expenses and risky investments.",
+    "date": "2026-05-04",
+    "source_url": "https://www.theblock.co/post/399880/krakens-parent-company-alleges-custodian-etana-misappropriated-25-million",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Securitize",
+    "initiative": "FINRA green lights Securitize for tokenized IPO underwriting and custody",
+    "description": "Securitize is the first firm to receive FINRA approval to custody tokenized securities and underwrite onchain IPOs and secondary offerings.",
+    "date": "2026-05-04",
+    "source_url": "https://www.theblock.co/post/399895/finra-green-lights-securitize-for-tokenized-ipo-underwriting-and-custody",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "DeFi Development launches $200M ATM to keep buying Solana",
+    "description": "Nasdaq-listed DeFi Development Corp has launched a $200M at-the-market equity program, pledging to issue stock only when it boosts “SOL per share” and fuels its Solana reserve strategy. DeFi Development Corp, a Nasdaq-listed digital asset treasury company focused on Solana…",
+    "date": "2026-05-04",
+    "source_url": "https://crypto.news/defi-development-launches-200m-atm-to-keep-buying-solana/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Mastercard",
     "initiative": "Stablecoin startup Rain joins Mastercard as a Principal Member",
     "description": "Rain, which was valued at $1.95 billion during a Series C round announced in January, has an existing relationship with card issuer Visa.",
