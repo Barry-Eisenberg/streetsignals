@@ -215,6 +215,34 @@
       "institution": "Connecting the Dots",
       "category": "ecosystem",
       "max_items": 20
+    },
+    {
+      "enabled": true,
+      "priority": 2,
+      "name": "crypto.news",
+      "url": "https://crypto.news/feed/",
+      "institution": "crypto.news",
+      "category": "ecosystem",
+      "max_items": 25
+    },
+    {
+      "enabled": true,
+      "priority": 1,
+      "name": "ECB — Speeches",
+      "url": "https://www.ecb.europa.eu/rss/speeches.html",
+      "institution": "ECB",
+      "category": "regulators",
+      "max_items": 15
+    },
+    {
+      "enabled": false,
+      "priority": 2,
+      "name": "Yahoo Finance — News",
+      "url": "https://finance.yahoo.com/rss/",
+      "institution": "Yahoo Finance",
+      "category": "ecosystem",
+      "max_items": 20,
+      "_comment": "Disabled: broad aggregator with low crypto/fintech signal ratio; enable if general financial news coverage is desired"
     }
   ]
 }
