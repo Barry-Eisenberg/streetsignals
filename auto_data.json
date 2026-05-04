@@ -1,5 +1,44 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "Coinbase boosts Solana trading with DFlow integration",
+    "description": "Coinbase adding DFlow as its primary router will mean eight times less trade failures.",
+    "date": "2026-05-04",
+    "source_url": "https://www.coindesk.com/business/2026/05/04/coinbase-boosts-solana-trading-with-dflow-integration",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Senators Release CLARITY Act Stablecoin Yield Compromise as White House Pushes for May Markup",
+    "description": "The bipartisan compromise bans passive stablecoin yield but allows activity-based rewards, clearing the final major hurdle to a Senate Banking Committee markup on the market structure bill. The post Senators Release CLARITY Act Stablecoin Yield Compromise as White House Pushes for May Markup appeared first on Unchained .",
+    "date": "2026-05-04",
+    "source_url": "https://unchainedcrypto.com/senators-release-clarity-act-stablecoin-yield-compromise-as-white-house-pushes-for-may-markup/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Acting under uncertainty - the case for supervisory risk appetite frameworks",
     "description": "Periodic episodes of banking sector distress invariably expose weaknesses in banks' governance and risk management and shortcomings in supervision. A recurring challenge for supervisory authorities (SAs) is the lack of an explicit framework to define, manage, and communicate their tolerance for supervisory risk: the risk that supervisory actions or inaction fail to achieve prudential objectives. This gap can lead to unclear, inconsistent or ineffective supervisory practices, undermining authorities' ability to address problems in banks in a timely manner.",
