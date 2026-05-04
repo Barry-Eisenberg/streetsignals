@@ -437,10 +437,12 @@ document.addEventListener('click', (e) => {
     e.preventDefault();
     const encodedName = String(navSignalTarget.getAttribute('data-nav-signal-name') || '');
     const encodedCategory = String(navSignalTarget.getAttribute('data-nav-signal-category') || '');
+    const encodedSignalKey = String(navSignalTarget.getAttribute('data-nav-signal-key') || '');
     if (!encodedName) return;
     const name = decodeURIComponent(encodedName);
     const catKey = encodedCategory ? decodeURIComponent(encodedCategory) : '';
-    navigateToSignal(name, catKey || undefined);
+    const signalKey = encodedSignalKey ? decodeURIComponent(encodedSignalKey).toLowerCase().trim() : '';
+    navigateToSignal(name, catKey || undefined, { signalKey });
     return;
   }
 
@@ -621,6 +623,50 @@ function escapeHtml(value) {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#39;');
+}
+
+function decodeHtmlEntities(value) {
+  let decoded = String(value || '');
+  for (let i = 0; i < 2; i += 1) {
+    const textarea = document.createElement('textarea');
+    textarea.innerHTML = decoded;
+    const next = textarea.value;
+    if (next === decoded) break;
+    decoded = next;
+  }
+  return decoded;
+}
+
+function normalizeSignalDescriptionText(value) {
+  const raw = String(value || '').trim();
+  if (!raw) return 'N/A';
+
+  let text = decodeHtmlEntities(raw)
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<\/p>\s*<p[^>]*>/gi, '\n\n')
+    .replace(/<li[^>]*>/gi, '\n- ')
+    .replace(/<\/li>/gi, '')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\u00A0/g, ' ')
+    .replace(/\r\n?/g, '\n');
+
+  text = text
+    .split('\n')
+    .map(line => line.replace(/[ \t]+/g, ' ').trim())
+    .join('\n')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+
+  return text || 'N/A';
+}
+
+function formatSignalDescriptionHtml(value) {
+  const normalized = normalizeSignalDescriptionText(value);
+  const blocks = normalized.split(/\n{2,}/).map(block => block.trim()).filter(Boolean);
+  if (!blocks.length) return '<p>N/A</p>';
+  return blocks
+    .map(block => `<p>${escapeHtml(block).replace(/\n/g, '<br>')}</p>`)
+    .join('');
 }
 
 const INSTITUTION_TYPE_NORMALIZATION = {
@@ -5106,6 +5152,7 @@ function showSignalDetail(signalData) {
   const displayInstitution = fullSignal ? (inferDrivingInstitution(fullSignal) || String(fullSignal?.institution || signalData.institution || '').trim()) : String(signalData.institution || 'Unknown institution').trim();
   const encodedCatalogueName = encodeURIComponent(String(normalizedSignal?.initiative || displayInstitution || '').trim());
   const encodedCatalogueCategory = encodeURIComponent(String(fullSignal?.category || '').trim());
+  const encodedCatalogueSignalKey = encodeURIComponent(String(effectiveSignalKey || '').trim().toLowerCase());
   const marketContext = fullSignal ? getExternalMarketContext(fullSignal, selectedPersona) : { available: false };
   const initiatives = getSignalDetailInitiatives(normalizedSignal).slice(0, 4);
   const fmiAreas = getSignalDetailFmiAreas(normalizedSignal).slice(0, 4);
@@ -5113,6 +5160,7 @@ function showSignalDetail(signalData) {
   const sourceUrl = String(fullSignal?.source_url || signalData.sourceUrl || '').trim();
   const effectiveSignalKey = signalKey || getSignalKey(normalizedSignal);
   const effectiveSignalDate = getSignalReferenceDateRaw(normalizedSignal);
+  const descriptionHtml = formatSignalDescriptionHtml(normalizedSignal.description || 'N/A');
   
   const tierBadge = signalData.tier ? 
     `<span class="tier-badge tier-${signalData.tier.toLowerCase()}">${signalData.tier}</span>` : '';
@@ -5142,7 +5190,7 @@ function showSignalDetail(signalData) {
       </div>
       <div class="signal-detail-row">
         <span class="signal-detail-label">Description:</span>
-        <span class="signal-detail-value">${escapeHtml(normalizedSignal.description || 'N/A')}</span>
+        <div class="signal-detail-value signal-detail-description">${descriptionHtml}</div>
       </div>
       <div class="signal-detail-row">
         <span class="signal-detail-label">Source:</span>
@@ -5154,7 +5202,7 @@ function showSignalDetail(signalData) {
       </div>
       <div class="signal-detail-row">
         <span class="signal-detail-label">Open in Catalogue:</span>
-        <span class="signal-detail-value"><a href="#" class="signal-detail-catalogue-link" data-nav-signal-name="${encodedCatalogueName}" data-nav-signal-category="${encodedCatalogueCategory}">View this signal in Signal Catalogue</a></span>
+        <span class="signal-detail-value"><a href="#" class="signal-detail-catalogue-link" data-nav-signal-name="${encodedCatalogueName}" data-nav-signal-category="${encodedCatalogueCategory}" data-nav-signal-key="${encodedCatalogueSignalKey}">View this signal in Signal Catalogue</a></span>
       </div>
       <div class="signal-detail-row">
         <span class="signal-detail-label">Date:</span>
@@ -5786,8 +5834,39 @@ function navigateToCatalogueByCountry(country) {
   updateResetBars();
 }
 
+function normalizeNavText(value) {
+  return String(value || '').replace(/\s+/g, ' ').trim().toLowerCase();
+}
+
+function focusSignalCardInCatalogue({ signalKey = '', query = '' } = {}) {
+  let targetCard = null;
+
+  if (signalKey) {
+    const cards = Array.from(document.querySelectorAll('.signal-card[data-signal-key]'));
+    targetCard = cards.find(card => {
+      const rawKey = String(card.getAttribute('data-signal-key') || '').trim();
+      const decodedKey = decodeURIComponent(rawKey).toLowerCase();
+      return decodedKey === signalKey;
+    }) || null;
+  }
+
+  if (!targetCard && query) {
+    const normalizedQuery = normalizeNavText(query);
+    const cards = Array.from(document.querySelectorAll('.signal-card'));
+    targetCard = cards.find(card => {
+      const initiativeText = normalizeNavText(card.querySelector('.signal-initiative')?.textContent || '');
+      return initiativeText === normalizedQuery;
+    }) || cards.find(card => {
+      const institutionText = normalizeNavText(card.querySelector('.signal-institution')?.textContent || '');
+      return institutionText === normalizedQuery;
+    }) || null;
+  }
+
+  return targetCard;
+}
+
 // ===== NAVIGATE TO SIGNAL LIBRARY =====
-function navigateToSignal(query, catKey) {
+function navigateToSignal(query, catKey, options = {}) {
   // 1. Open the signal library if closed
   const libSection = document.querySelector('.signal-library-section');
   const libBody = document.getElementById('libraryBody');
@@ -5832,8 +5911,23 @@ function navigateToSignal(query, catKey) {
   // 5. Open all matching category sections so results are visible
   setTimeout(() => {
     document.querySelectorAll('.category-section').forEach(s => s.classList.add('cat-open'));
-    // Scroll to the signal library
-    libSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    const targetCard = focusSignalCardInCatalogue({
+      signalKey: String(options.signalKey || '').trim().toLowerCase(),
+      query
+    });
+
+    if (targetCard) {
+      targetCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      targetCard.classList.remove('signal-card-nav-target');
+      // Force reflow so the highlight animation can replay on repeated navigations.
+      void targetCard.offsetWidth;
+      targetCard.classList.add('signal-card-nav-target');
+      setTimeout(() => targetCard.classList.remove('signal-card-nav-target'), 2600);
+    } else {
+      // Fallback when a precise card is not available in the current filtered result.
+      libSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   }, 100);
 
   // Show reset bars

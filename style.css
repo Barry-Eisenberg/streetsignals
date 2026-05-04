@@ -2266,6 +2266,25 @@
   box-shadow: var(--shadow-glow);
   transform: translateY(-2px);
 }
+
+.signal-card.signal-card-nav-target {
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-glow);
+  animation: signalCardTargetPulse 2.2s ease;
+}
+
+@keyframes signalCardTargetPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 212, 255, 0.45);
+  }
+  40% {
+    box-shadow: 0 0 0 12px rgba(0, 212, 255, 0);
+  }
+  100% {
+    box-shadow: var(--shadow-glow);
+  }
+}
+
 .signal-card-top {
   display: flex;
   align-items: flex-start;
@@ -3222,6 +3241,18 @@
 
 .signal-detail-value {
   color: var(--color-text);
+}
+
+.signal-detail-value.signal-detail-description {
+  line-height: 1.6;
+}
+
+.signal-detail-value.signal-detail-description p {
+  margin: 0 0 var(--space-2);
+}
+
+.signal-detail-value.signal-detail-description p:last-child {
+  margin-bottom: 0;
 }
 
 .signal-detail-value a {
