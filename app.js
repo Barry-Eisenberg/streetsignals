@@ -4555,6 +4555,7 @@ function renderPrioritySignalsStrip() {
     const date = formatExactSignalDate(signal);
     const insight = buildSignalDirectionalInsight(signal, importance);
     const marketContext = getExternalMarketContext(signal, selectedPersona);
+    const evidenceProfile = getSignalEvidenceProfile(signal);
     const initiatives = getSignalDetailInitiatives(signal).slice(0, 1);
     const initiativeText = initiatives.length ? initiatives[0] : 'Digital asset infrastructure';
     const headlineText = String(signal?.initiative || '').trim() || initiativeText;
@@ -4578,6 +4579,9 @@ function renderPrioritySignalsStrip() {
         </div>
         <div class="priority-signal-card-headline">${formatDisplayText(headlineText)}</div>
         <div class="priority-signal-card-initiative">${formatDisplayText(initiativeText)}</div>
+        <div class="priority-signal-quality-badge" title="Evidence gate passed (${evidenceProfile.evidenceStrength}/3): Initiative classification + specific Market Context classification required for priority inclusion.">
+          Classified: Initiative + Market Context
+        </div>
         <div class="priority-signal-market-context">
           ${marketContext.available
             ? `<span class="priority-signal-market-chip" title="${escapeHtml(marketContext.source)} as of ${escapeHtml(marketContext.asOf)}">${escapeHtml(marketContext.segmentLabel)} ${escapeHtml(marketContext.trendLabel)} 30d</span>
