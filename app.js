@@ -136,6 +136,31 @@ function sentenceCase(value) {
   return text.replace(/^\s*([a-z])/, (_, c) => c.toUpperCase());
 }
 
+function formatDisplayText(value) {
+  return escapeHtml(decodeHtmlEntities(value));
+}
+
+function isSpeechStyleSignal(signal) {
+  const sourceName = String(signal?.source_name || '').toLowerCase();
+  const sourceUrl = String(signal?.source_url || '').toLowerCase();
+  const description = String(signal?.description || '').toLowerCase();
+  const initiative = String(signal?.initiative || '').toLowerCase();
+
+  return sourceName.includes('speech')
+    || /\/review\/r\d+/i.test(sourceUrl)
+    || description.startsWith('speech by ')
+    || initiative.includes(':') && description.startsWith('speech by');
+}
+
+function hasMaterialInfrastructureContext(signal) {
+  const corpus = getSignalSearchCorpus(signal);
+  return /tokeniz|rwa|stablecoin|deposit token|cbdc|digital (euro|currency|asset)|dlt|blockchain|settlement|clearing|collateral|payment|cross-border|regulat|compliance|framework|guidance|consultation|stress test|ccp|central counterpart|emir|market infrastructure/.test(corpus);
+}
+
+function isLowSignalSpeech(signal) {
+  return isSpeechStyleSignal(signal) && !hasMaterialInfrastructureContext(signal);
+}
+
   function getSignalReferenceDateRaw(signal) {
     return String(getSignalSourceDateRaw(signal) || signal?.date || '').trim();
   }
@@ -146,11 +171,13 @@ function sentenceCase(value) {
   }
 
   function getSignalDetailInitiatives(signal) {
+    if (isLowSignalSpeech(signal)) return ['Not yet classified'];
     const initiatives = normalizeDetailList(normalizeInitiativeTypes(signal?.initiative_types));
     return initiatives.length ? initiatives : ['Not yet classified'];
   }
 
   function getSignalDetailFmiAreas(signal) {
+    if (isLowSignalSpeech(signal)) return ['Not yet mapped'];
     const areas = normalizeDetailList(normalizeFmiAreas(signal?.fmi_areas));
     const specificAreas = areas.filter(area => area !== 'General Infrastructure');
     if (specificAreas.length) return specificAreas;
@@ -2473,6 +2500,7 @@ const IMPORTANCE_STAGE_MATERIALITY_CAP = 1.3;
 function getSignalStage(signal) {
   const explicitStage = String(signal?.signal_stage || '').trim();
   if (explicitStage) return explicitStage;
+  if (isLowSignalSpeech(signal)) return 'Concept';
 
   const type = String(signal?.signal_type || '').trim();
   return IMPORTANCE_STAGE_BY_SIGNAL_TYPE[type] || 'Unknown';
@@ -2481,6 +2509,7 @@ function getSignalStage(signal) {
 function getSignalMateriality(signal) {
   const explicitMateriality = String(signal?.signal_materiality || '').trim();
   if (explicitMateriality) return explicitMateriality;
+  if (isLowSignalSpeech(signal)) return 'Low';
 
   const type = String(signal?.signal_type || '').trim();
   return IMPORTANCE_MATERIALITY_BY_SIGNAL_TYPE[type] || 'Unknown';
@@ -4478,7 +4507,7 @@ function renderPrioritySignalsStrip() {
     const date = formatExactSignalDate(signal);
     const insight = buildSignalDirectionalInsight(signal, importance);
     const marketContext = getExternalMarketContext(signal, selectedPersona);
-    const initiatives = Array.isArray(signal.initiative_types) ? signal.initiative_types.slice(0, 1) : [];
+    const initiatives = getSignalDetailInitiatives(signal).slice(0, 1);
     const initiativeText = initiatives.length ? initiatives[0] : 'Digital asset infrastructure';
     const headlineText = String(signal?.initiative || '').trim() || initiativeText;
     const displayInstitution = getPriorityDisplayInstitution(signal);
@@ -4495,19 +4524,19 @@ function renderPrioritySignalsStrip() {
         <div class="priority-signal-card-header">
           <div class="priority-signal-card-institution">
             <span class="priority-signal-badge" title="${tierTooltip}">${tierLabel}</span>
-            <span class="priority-signal-card-institution-name">${escapeHtml(displayInstitution)}</span>
+            <span class="priority-signal-card-institution-name">${formatDisplayText(displayInstitution)}</span>
           </div>
           <span class="priority-signal-card-date" title="Source publication date">${escapeHtml(date)}</span>
         </div>
-        <div class="priority-signal-card-headline">${escapeHtml(headlineText)}</div>
-        <div class="priority-signal-card-initiative">${escapeHtml(initiativeText)}</div>
+        <div class="priority-signal-card-headline">${formatDisplayText(headlineText)}</div>
+        <div class="priority-signal-card-initiative">${formatDisplayText(initiativeText)}</div>
         <div class="priority-signal-market-context">
           ${marketContext.available
             ? `<span class="priority-signal-market-chip" title="${escapeHtml(marketContext.source)} as of ${escapeHtml(marketContext.asOf)}">${escapeHtml(marketContext.segmentLabel)} ${escapeHtml(marketContext.trendLabel)} 30d</span>
                <span class="priority-signal-market-confidence" title="External context confidence classification">${escapeHtml(marketContext.confidence)}</span>`
             : `<span class="priority-signal-market-unavailable">Market context unavailable</span>`}
         </div>
-        <div class="priority-signal-card-insight">${escapeHtml(insight)}</div>
+        <div class="priority-signal-card-insight">${formatDisplayText(insight)}</div>
         <div class="priority-signal-card-footer">
           <div class="priority-signal-card-links">
             ${url !== '#' ? `<a href="${url}" target="_blank" rel="noopener noreferrer" class="priority-signal-card-source"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>${domain}</a>` : ''}
@@ -4710,8 +4739,8 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
   const tierClass = String(importance.tier || 'Noise').toLowerCase().replace(/\s+/g, '-');
   const directionalInsight = buildSignalDirectionalInsight(signal, importance);
   const audience = inferSignalPersona(signal);
-  const initiatives = Array.isArray(signal.initiative_types) ? signal.initiative_types.slice(0, 3) : [];
-  const fmiAreas = Array.isArray(signal.fmi_areas) ? signal.fmi_areas.slice(0, 3) : [];
+  const initiatives = getSignalDetailInitiatives(signal).slice(0, 3);
+  const fmiAreas = getSignalDetailFmiAreas(signal).slice(0, 3);
   const cardMeta = signalMeta[getSignalKey(signal)] || {};
   const momentum = cardMeta.momentum || { status: 'Stable', score: 50, cssClass: 'stable' };
   const initiativeRankText = cardMeta.initiativeRank ? `#${cardMeta.initiativeRank} ${cardMeta.initiativeTheme}` : cardMeta.initiativeTheme || 'Unclassified Theme';
@@ -4762,10 +4791,10 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
   return `
     <div class="signal-card" data-signal-key="${signalKey}">
       <div class="signal-card-top">
-        <div class="signal-institution"><span class="dot"></span>${escapeHtml(displayInstitution)}</div>
+        <div class="signal-institution"><span class="dot"></span>${formatDisplayText(displayInstitution)}</div>
         <span class="signal-date" title="Source publication date">${escapeHtml(date)}</span>
       </div>
-      <div class="signal-initiative">${signal.initiative || ''}</div>
+      <div class="signal-initiative">${formatDisplayText(signal.initiative || '')}</div>
       <div class="signal-meta-chips">
         <span class="signal-chip signal-chip-momentum momentum-${momentum.cssClass}" title="Momentum score ${Math.round(momentum.score)}/100">
           <span class="signal-momentum-label">${momentum.status}</span>
@@ -4787,9 +4816,9 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
       <div class="signal-why">Global lens: ${importance.stage} stage | ${importance.materiality} materiality | ${importance.sourceTier} source credibility</div>
       <div class="signal-ai-insight">
         <div class="signal-ai-title">AI Why This Matters</div>
-        <p>${directionalInsight}</p>
+        <p>${formatDisplayText(directionalInsight)}</p>
       </div>
-      <div class="signal-description">${signal.description || ''}</div>
+      <div class="signal-description">${formatDisplayText(signal.description || '')}</div>
       ${hasLong ? '<button class="description-expand-btn">Read more</button>' : ''}
       <button class="signal-details-toggle" type="button" aria-expanded="false">Show relevance breakdown</button>
       <div class="signal-details">
@@ -5235,8 +5264,8 @@ function showSignalDetail(signalData) {
   panel.innerHTML = `
     <div class="signal-detail-header">
       <div class="signal-detail-title">
-        <h3>${escapeHtml(displayInstitution || signalData.institution)}</h3>
-        <p class="signal-detail-initiative">${escapeHtml(signalData.initiative)}</p>
+        <h3>${formatDisplayText(displayInstitution || signalData.institution)}</h3>
+        <p class="signal-detail-initiative">${formatDisplayText(signalData.initiative)}</p>
       </div>
       <div class="signal-detail-actions">
         ${tierBadge}

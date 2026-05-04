@@ -11,6 +11,7 @@ Strategy:
 """
 
 import json
+import html
 import re
 import sys
 import xml.etree.ElementTree as ET
@@ -279,6 +280,7 @@ def fetch_text(url):
 
 
 def clean_text(value):
+    value = html.unescape(value or "")
     value = re.sub(r"<[^>]+>", " ", value or "")
     value = re.sub(r"\s+", " ", value).strip()
     return value
@@ -498,6 +500,23 @@ def is_event_style_url(url):
 
 def classify_signal_type(signal):
     text = f"{signal.get('initiative', '')} {signal.get('description', '')}".lower()
+    source_name = str(signal.get('source_name', '')).lower()
+    source_url = str(signal.get('source_url', '')).lower()
+
+    is_speech = (
+        'speech' in source_name
+        or bool(re.search(r"/review/r\d+", source_url))
+        or text.startswith('speech by ')
+    )
+    has_material_context = bool(re.search(
+        r"tokeniz|rwa|stablecoin|deposit token|cbdc|digital (euro|currency|asset)|dlt|blockchain|"
+        r"settlement|clearing|collateral|payment|cross-border|regulat|compliance|framework|"
+        r"guidance|consultation|stress test|ccp|central counterpart|emir|market infrastructure",
+        text,
+    ))
+
+    if is_speech and not has_material_context:
+        return "Research / Report"
 
     # Leadership & personnel changes — evaluated first to prevent downstream mismatches.
     # A headline like "appoints new CEO, subject to regulatory approval" must NOT be scored
@@ -547,6 +566,15 @@ def classify_fmi_areas(signal):
     if signal.get("signal_type") == "Leadership & Governance":
         return []
     text = f"{signal.get('initiative', '')} {signal.get('description', '')}".lower()
+    source_name = str(signal.get('source_name', '')).lower()
+    source_url = str(signal.get('source_url', '')).lower()
+    if ('speech' in source_name or re.search(r"/review/r\d+", source_url) or text.startswith('speech by ')) and not re.search(
+        r"tokeniz|rwa|stablecoin|deposit token|cbdc|digital (euro|currency|asset)|dlt|blockchain|"
+        r"settlement|clearing|collateral|payment|cross-border|regulat|compliance|framework|"
+        r"guidance|consultation|stress test|ccp|central counterpart|emir|market infrastructure",
+        text,
+    ):
+        return []
     areas = []
 
     if any(w in text for w in ["settlement", "clearing", "post-trade", "post trade", "dvp", "delivery versus", "t+0", "atomic"]):
@@ -555,7 +583,7 @@ def classify_fmi_areas(signal):
         areas.append("Custody & Safekeeping")
     if any(w in text for w in ["payment", "cross-border", "cross border", "remittance", "transfer", "fx "]):
         areas.append("Payments & Transfers")
-    if any(w in text for w in ["token", "tokeniz", "digital bond", "digital fund", "digital share", "digital secur", "rwa", "real world asset"]):
+    if any(w in text for w in ["tokeniz", "digital bond", "digital fund", "digital share", "digital secur", "rwa", "real world asset"]):
         areas.append("Tokenization & Issuance")
     if any(w in text for w in ["collateral", "repo", "lending", "margin", "liquidity", "hqla"]):
         areas.append("Collateral & Lending")
@@ -578,9 +606,18 @@ def classify_initiative_types(signal):
     if signal.get("signal_type") == "Leadership & Governance":
         return ["Leadership & Governance"]
     text = f"{signal.get('initiative', '')} {signal.get('description', '')}".lower()
+    source_name = str(signal.get('source_name', '')).lower()
+    source_url = str(signal.get('source_url', '')).lower()
+    if ('speech' in source_name or re.search(r"/review/r\d+", source_url) or text.startswith('speech by ')) and not re.search(
+        r"tokeniz|rwa|stablecoin|deposit token|cbdc|digital (euro|currency|asset)|dlt|blockchain|"
+        r"settlement|clearing|collateral|payment|cross-border|regulat|compliance|framework|"
+        r"guidance|consultation|stress test|ccp|central counterpart|emir|market infrastructure",
+        text,
+    ):
+        return []
     kinds = []
 
-    if any(w in text for w in ["tokeniz", "token", "digital bond", "digital fund", "digital share", "digital gilt", "rwa", "real world asset"]):
+    if any(w in text for w in ["tokeniz", "digital bond", "digital fund", "digital share", "digital gilt", "rwa", "real world asset"]):
         kinds.append("Tokenized Securities / RWA")
     if any(w in text for w in ["stablecoin", "stable coin", "deposit token", "tokenized deposit", "digital dollar"]):
         kinds.append("Stablecoins & Deposit Tokens")
