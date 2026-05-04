@@ -1,5 +1,27 @@
 [
   {
+    "institution": "Ripple",
+    "initiative": "Ripple Custody signs South Korea’s first insurance deal to pilot near real-time bond settlement",
+    "description": "Ripple Custody entered a strategic partnership with Kyobo Life Insurance on April 15, making Ripple Custody Korea’s first blockchain-based government bond settlement platform for a Tier 1 insurer, targeting a compression of the standard T+2 settlement cycle to near real-time…",
+    "date": "2026-05-04",
+    "source_url": "https://crypto.news/ripple-custody-pilots-korean-bond-settlement/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Custody & Safekeeping",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "Coinbase to open BILL-USD spot trading for Billions token",
     "description": "BILL-USD pair to launch once liquidity is ready. According to Coinbase’s latest listing update, the exchange “will launch BILL (Billions) spot trading” and expects to open the BILL-USD order book later today in supported trading regions, contingent on sufficient liquidity…",
