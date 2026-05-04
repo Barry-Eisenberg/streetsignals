@@ -1,5 +1,88 @@
 [
   {
+    "institution": "ESMA (European Securities and Markets Authority)",
+    "initiative": "ESMA advances the simplification of EU reporting frameworks for funds and transactions",
+    "description": "ESMA advances the simplification of EU reporting frameworks for funds and transactions 04 May 2026 Fund Management Market data Press Releases Securities Financing Transactions Simplification and Burden Reduction The European Securities and Markets Authority (ESMA), the EU financial markets regulator and supervisor, has launched a harmonised approach to funds reporting and has set a clear path towards streamlined, more efficient transaction reporting across European markets. The two reports published today are complementary pillars of ESMA’s broader simplification and burden reduction agenda, launched last year . Verena Ross, ESMA’s chair said: “ESMA is advancing on the EU‑wide simplification of regulatory reporting, targeting both funds reporting and transaction reporting. The objective is to reduce operational burden for market participants by introducing the principle of ‘reporting once’, while also improving data quality and supervisory effectiveness. This will be achieved through harmonisation and enhanced data sharing between authorities across the EU. The data we collect from market participants is and will continue to be central to how ESMA and the NCAs supervise markets. It underpins our risk assessments and allows us to identify vulnerabilities early, supporting our work to safeguard integrity and financial stability across EU markets.” Final Report on the integrated collection of funds’ data In the report, ESMA sets out a strategic move away from fragmented national reporting towards a common EU reporting framework, centred on a common and single reporting template designed to remain proportionate for different fund sizes and investment strategies, while meeting supervisory needs. The aim is to reduce duplication, improve data consistency and enhance the usability of data for authorities. To support this approach, ESMA outlines a hybrid operational model, under which data validation, storage and analytics would be organised at EU level, while data collection would remain at national level. By facilitating data sharing across authorities, the centralised hub will offer efficiency gains not only for authorities but will also contribute further to burden reduction by limiting duplicative data requests. Next steps on funds reporting include the development of regulatory and implementing technical standards (RTS, ITS), that will be presented next year. After that, the implementation of the new template and the rest of recommendations will be gradually introduced, with the first phase focusing on the integration of reporting under AIMFD and UCITS, and the second phase that would expand the integrated framework to other reporting obligations. Interim report on the holistic review of transaction reporting Based on the feedback received from more than 100 respondents to the previous call for evidence on transaction reporting simplification , ESMA has identified the main challenges in the current reporting frameworks, and the most promising approaches to overcome them: instrument‑based and dual-side simplifications and the implementation of a “report once” framework across EMIR, MiFIR and SFTR in the long term. Most respondents indicated that overlapping and inconsistent reporting requirements, frequent and unsynchronised regulatory changes, fragmented reporting channels and dual reporting are major drivers of cost and complexity. Considering the need to perform a thorough cost-benefit analysis, the report does not contain policy recommendations yet. As part of the next steps, ESMA will further engage with markets participants, including through an The registration link will be available shortly.\" data-tooltip-title data-tooltip-content=\"The registration link will be available shortly.\" data-tooltip-placeholder-is-selection=\"true\" data-tooltip-placeholder-is-selection-text=\"open hearing\" data-tooltip-data=\"%5B%7B%22tooltipTitle%22%3A%22%22%2C%22tooltipContent%22%3A%22The%20registration%20link%20will%20be%20available%20shortly.%22%2C%22placeholderIsSelection%22%3A%22true%22%2C%22placeholderIsSelectionText%22%3A%22open%20hearing%22%7D%5D\">open hearing that will be held on 28 May, before moving forward with final recommendations to be published by mid-year. Background Both reports are flagship deliverables of ESMA’s wider Simplification and Burden Reduction (SBR) initiative, to address growing complexity and operational costs stemming from EU reporting requirements. 04/05/2026 ESMA12-2121844265-5150 Final report on the integrated collection of funds’ data 04/05/2026 ESMA12-1406959660-3175 Interim report on the Call for Evidence on a comprehensive approach for the simplification of financial transaction reporting 04/05/2026 ESMA71-545613100-2925 ESMA advances the simplification of EU reporting frameworks for funds and transactions - Press release",
+    "date": "2026-05-04",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-advances-simplification-eu-reporting-frameworks-funds-and-transactions",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance",
+      "Interoperability & Standards",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Kraken's parent company Payward alleges $25 million crypto custody fraud in lawsuit against Etana and firm's CEO",
+    "description": "The crypto exchange claims client funds were misused, commingled and concealed in a “Ponzi-like” scheme that unraveled amid a liquidity crisis.",
+    "date": "2026-05-04",
+    "source_url": "https://www.coindesk.com/business/2026/05/04/kraken-s-parent-company-payward-alleges-usd25-million-crypto-custody-fraud-in-lawsuit-against-etana-and-firm-s-ceo",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Ledger Insights",
+    "initiative": "Brazil imposes partial ban on stablecoins, crypto for cross border payments and FX",
+    "description": "Brazil’s central bank has banned fintech and payment provider cross border services from using stablecoins or crypto to settle with overseas counterparties. Resolution BCB 561, published last Thursday and effective from October 2026, states that settlement between an eFX provider and its overseas counterparty must occur exclusively through traditional FX operations or non-resident BRL accounts. […] The post Brazil imposes partial ban on stablecoins, crypto for cross border payments and FX appeared first on Ledger Insights - blockchain for enterprise .",
+    "date": "2026-05-04",
+    "source_url": "https://www.ledgerinsights.com/brazil-imposes-partial-ban-on-stablecoins-crypto-for-cross-border-payments-and-fx/",
+    "category": "ecosystem",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Digital Asset Exchange",
+    "initiative": "Bitget CFD daily volume hits record $8B on gold surge",
+    "description": "Bitget’s CFD platform has logged a record $8B day, with gold-linked contracts driving 95% of the jump as Chinese-speaking, European, and Southeast Asian traders pile into metals. Bitget reported that daily trading volume on its CFD segment has broken through…",
+    "date": "2026-05-04",
+    "source_url": "https://crypto.news/bitget-cfd-daily-volume-hits-record-8b-on-gold-surge/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CFTC (Commodity Futures Trading Commission)",
     "initiative": "Kraken parent Payward closes $550 million Bitnomial deal, securing full CFTC derivatives stack",
     "description": "The deal gives Payward a full CFTC-regulated derivatives stack in the U.S.",
