@@ -4422,64 +4422,40 @@ function renderPrioritySignalsStrip() {
   if (!container) return;
   setupPrioritySignalsInteractions(container);
 
-  // Prefer Structural signals from the last 7 days.
-  // If none exist (for example when feeds are stale), fall back to the latest available 7-day window.
+  // Priority row policy: strict recent window and top impact tiers.
   const PRIORITY_WINDOW_DAYS = 7;
+  const PRIORITY_TIERS = new Set(['Structural', 'Material']);
   const windowMs = PRIORITY_WINDOW_DAYS * 24 * 60 * 60 * 1000;
   const nowTs = Date.now();
   const cutoffTs = nowTs - windowMs;
   const allSignals = getOperationalSignals();
-  const structuralSignals = allSignals.filter(s => {
+  const windowSignals = allSignals.filter(s => {
     const importance = getSignalImportance(s);
     const ts = getSignalDateTimestamp(s) || 0;
-    return importance.tier === 'Structural' && ts > 0;
+    return PRIORITY_TIERS.has(importance.tier) && ts >= cutoffTs && ts <= nowTs;
   });
-
-  if (structuralSignals.length === 0) {
-    container.innerHTML = '';
-    return;
-  }
-
-  let windowSignals = structuralSignals.filter(s => {
-    const ts = getSignalDateTimestamp(s) || 0;
-    return ts >= cutoffTs;
-  });
-
-  let usingLatestWindowFallback = false;
-  if (windowSignals.length === 0) {
-    usingLatestWindowFallback = true;
-    const latestTs = structuralSignals.reduce((maxTs, signal) => {
-      const ts = getSignalDateTimestamp(signal) || 0;
-      return ts > maxTs ? ts : maxTs;
-    }, 0);
-    const fallbackStartTs = latestTs - windowMs;
-
-    windowSignals = structuralSignals.filter(s => {
-      const ts = getSignalDateTimestamp(s) || 0;
-      return ts >= fallbackStartTs && ts <= latestTs;
-    });
-  }
 
   if (windowSignals.length === 0) {
     container.innerHTML = '';
     return;
   }
 
-  // Sort by persona relevance if selected, else by date + importance
+  // Sort by significance first, then recency.
   const sortedSignals = [...windowSignals].sort((a, b) => {
     if (selectedPersona !== DEFAULT_PERSONA) {
       const relevanceA = getPersonaRelevance(a, selectedPersona);
       const relevanceB = getPersonaRelevance(b, selectedPersona);
       if (relevanceB !== relevanceA) return relevanceB - relevanceA;
     }
-    
-    const tsA = getSignalDateTimestamp(a) || 0;
-    const tsB = getSignalDateTimestamp(b) || 0;
-    if (tsB !== tsA) return tsB - tsA;
 
     const scoreA = getSignalImportance(a).importanceScore || 0;
     const scoreB = getSignalImportance(b).importanceScore || 0;
-    return scoreB - scoreA;
+    if (scoreB !== scoreA) return scoreB - scoreA;
+
+    const tsA = getSignalDateTimestamp(a) || 0;
+    const tsB = getSignalDateTimestamp(b) || 0;
+    if (tsB !== tsA) return tsB - tsA;
+    return 0;
   });
 
   // Take top 5 signals
@@ -4489,7 +4465,7 @@ function renderPrioritySignalsStrip() {
   let html = `
     <div class="priority-signals-section">
       <div class="priority-signals-header">
-        <h2>${usingLatestWindowFallback ? 'Priority Signals - Latest Available Week' : 'Priority Signals - This Week'}</h2>
+        <h2>Priority Signals - Last ${PRIORITY_WINDOW_DAYS} Days</h2>
         ${selectedPersona !== DEFAULT_PERSONA ? `<p class="priority-signals-persona-note">Ranked for ${lensLabel}</p>` : ''}
       </div>
       <div class="priority-signals-scroll">
@@ -4497,7 +4473,8 @@ function renderPrioritySignalsStrip() {
 
   topSignals.forEach(signal => {
     const importance = getSignalImportance(signal);
-    const tierTooltip = escapeHtml(getImportanceTierTooltip('Structural'));
+    const tierLabel = escapeHtml(getImportanceTierLabel(importance.tier || 'Material'));
+    const tierTooltip = escapeHtml(getImportanceTierTooltip(importance.tier || 'Material'));
     const date = formatExactSignalDate(signal);
     const insight = buildSignalDirectionalInsight(signal, importance);
     const marketContext = getExternalMarketContext(signal, selectedPersona);
@@ -4512,13 +4489,12 @@ function renderPrioritySignalsStrip() {
     const encodedNavCategory = encodeURIComponent(String(signal?.category || '').trim());
     const url = signal.source_url || '#';
     const domain = url !== '#' ? new URL(url).hostname.replace('www.','') : '';
-    const textExcerpt = signal.description ? signal.description.substring(0, 100) + (signal.description.length > 100 ? '...' : '') : '';
 
     html += `
       <div class="priority-signal-card">
         <div class="priority-signal-card-header">
           <div class="priority-signal-card-institution">
-            <span class="priority-signal-badge" title="${tierTooltip}">Structural</span>
+            <span class="priority-signal-badge" title="${tierTooltip}">${tierLabel}</span>
             <span class="priority-signal-card-institution-name">${escapeHtml(displayInstitution)}</span>
           </div>
           <span class="priority-signal-card-date" title="Source publication date">${escapeHtml(date)}</span>
