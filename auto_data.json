@@ -1,5 +1,105 @@
 [
   {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "Kraken parent Payward closes $550 million Bitnomial deal, securing full CFTC derivatives stack",
+    "description": "The deal gives Payward a full CFTC-regulated derivatives stack in the U.S.",
+    "date": "2026-05-04",
+    "source_url": "https://www.coindesk.com/business/2026/05/04/kraken-parent-payward-closes-usd550-million-bitnomial-deal-securing-full-cftc-derivatives-stack",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Mastercard",
+    "initiative": "Rain adds Mastercard support as $1.95B stablecoin startup targets on-chain settlement",
+    "description": "Rain, a $1.95B-valued stablecoin infrastructure firm, is adding Mastercard support to extend its Visa-based model and plug on-chain settlement into legacy payment systems. Stablecoin payments startup Rain, fresh off a $250 million Series C at a $1.95 billion valuation, has…",
+    "date": "2026-05-04",
+    "source_url": "https://crypto.news/rain-adds-mastercard-support-as-1-95b-stablecoin-startup-targets-on-chain-settlement/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Digital Asset Platform",
+    "initiative": "Western Union brings USDPT to Solana in global payments push",
+    "description": "Western Union launched USDPT on Solana with Anchorage issuing the stablecoin, while SOL traded near $86 as traders watch $90 resistance now.",
+    "date": "2026-05-04",
+    "source_url": "https://crypto.news/western-union-brings-usdpt-to-solana-in-global-payments-push/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Digital Asset Exchange",
+    "initiative": "Korean crypto exchanges push back against strict 10M won AML trigger",
+    "description": "South Korea’s Digital Asset Exchange Alliance (DAXA), representing 27 registered virtual asset service providers, has lodged formal objections with the Financial Services Commission and the Financial Intelligence Unit over proposed amendments to the enforcement decree of the Specific Financial Information…",
+    "date": "2026-05-04",
+    "source_url": "https://crypto.news/korean-crypto-exchanges-push-back-against-strict-10m-won-aml-trigger/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Digital Asset Exchange",
+    "initiative": "Bitget and WIW3CH expand Blockchain4Her for women in Web3",
+    "description": "Bitget has entered a strategic partnership with women-focused Web3 collective WIW3CH to deliver more structured education, networking, and career support under its Blockchain4Her initiative. Bitget said it has formed a strategic alliance with WIW3CH, describing the group as a Web3…",
+    "date": "2026-05-04",
+    "source_url": "https://crypto.news/bitget-and-wiw3ch-expand-blockchain4her-for-women-in-web3/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinGeek",
     "initiative": "Prediction markets under fire as insiders game the system",
     "description": "Insider trading scandals, U.S. regulatory turf wars, and data showing that top users dominate profits put the future of prediction markets at risk. The post Prediction markets under fire as insiders game the system appeared first on CoinGeek .",
