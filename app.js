@@ -5150,6 +5150,7 @@ function showSignalDetail(signalData) {
   const detailContextImplications = fullSignal ? getSignalContextImplications(fullSignal, detailImportance) : 'Context synthesis is unavailable for this signal.';
   const sourceRole = fullSignal && isReporterSource(fullSignal) ? 'Reporting source (not necessarily the originating institution)' : 'Primary source / institution disclosure';
   const displayInstitution = fullSignal ? (inferDrivingInstitution(fullSignal) || String(fullSignal?.institution || signalData.institution || '').trim()) : String(signalData.institution || 'Unknown institution').trim();
+  const effectiveSignalKey = signalKey || getSignalKey(normalizedSignal);
   const encodedCatalogueName = encodeURIComponent(String(normalizedSignal?.initiative || displayInstitution || '').trim());
   const encodedCatalogueCategory = encodeURIComponent(String(fullSignal?.category || '').trim());
   const encodedCatalogueSignalKey = encodeURIComponent(String(effectiveSignalKey || '').trim().toLowerCase());
@@ -5158,7 +5159,6 @@ function showSignalDetail(signalData) {
   const fmiAreas = getSignalDetailFmiAreas(normalizedSignal).slice(0, 4);
   const audience = getSignalDetailAudience(normalizedSignal).slice(0, 4);
   const sourceUrl = String(fullSignal?.source_url || signalData.sourceUrl || '').trim();
-  const effectiveSignalKey = signalKey || getSignalKey(normalizedSignal);
   const effectiveSignalDate = getSignalReferenceDateRaw(normalizedSignal);
   const descriptionHtml = formatSignalDescriptionHtml(normalizedSignal.description || 'N/A');
   
