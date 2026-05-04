@@ -1,6 +1,85 @@
 [
   {
     "institution": "Coinbase",
+    "initiative": "Hut 8 swaps Coinbase loan for cheaper FalconX deal, slashing borrowing costs as it bets big on AI",
+    "description": "A new $200 million, 364-day bitcoin-backed facility replaces the Coinbase Credit arrangement, cutting debt costs by 200 basis points.",
+    "date": "2026-05-04",
+    "source_url": "https://www.coindesk.com/markets/2026/04/28/hut-8-swaps-coinbase-credit-line-for-cheaper-falconx-deal-slashing-borrowing-costs-as-it-bets-big-on-ai",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "DTCC",
+    "initiative": "DTCC shares tokenization launch date. 50 firms join Industry Working Group",
+    "description": "The Depository Trust & Clearing Corporation (DTCC) has announced the launch timescale for its tokenization solution, with limited live transactions from July 2026 and a launch in October. The systemically important market infrastructure received a no action letter from the SEC in December 2025 allowing it to tokenize stocks in the Russell 1000 alongside ETFs […] The post DTCC shares tokenization launch date. 50 firms join Industry Working Group appeared first on Ledger Insights - blockchain for enterprise .",
+    "date": "2026-05-04",
+    "source_url": "https://www.ledgerinsights.com/dtcc-shares-tokenization-launch-date-50-firms-join-industry-working-group/",
+    "category": "exchanges_intermediaries",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "South Korea’s largest crypto exchange Upbit launches Ethereum blockchain with Optimism Foundation support",
+    "description": "Upbit is the Optimism Foundation's first client on its \"self-managed\" enterprise tier, giving it control over its core rollup architecture.",
+    "date": "2026-05-04",
+    "source_url": "https://www.theblock.co/post/399935/south-koreas-largest-crypto-exchange-upbit-launches-ethereum-blockchain-with-optimism-foundation-support",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BlackRock",
+    "initiative": "Ondo joins DTCC tokenization working group for U.S. markets",
+    "description": "DTCC has formed a tokenization working group for U.S. markets and tapped Ondo alongside BlackRock, Goldman, JPMorgan, Circle, and others to help design how equities and Treasuries move on-chain. The Depository Trust & Clearing Corporation has launched an industry working…",
+    "date": "2026-05-04",
+    "source_url": "https://crypto.news/ondo-joins-dtcc-tokenization-working-group-for-u-s-markets/",
+    "category": "asset_management",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
     "initiative": "Circle, Coinbase lead crypto stocks rally amid Clarity Act progress, bitcoin hitting $80,000",
     "description": "The market is starting to price in potential winners as stablecoin yield compromise opens path for passing key U.S. digital asset regulation, one analyst said.",
     "date": "2026-05-04",
