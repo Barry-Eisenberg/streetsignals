@@ -1,5 +1,58 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "Acting under uncertainty - the case for supervisory risk appetite frameworks",
+    "description": "Periodic episodes of banking sector distress invariably expose weaknesses in banks' governance and risk management and shortcomings in supervision. A recurring challenge for supervisory authorities (SAs) is the lack of an explicit framework to define, manage, and communicate their tolerance for supervisory risk: the risk that supervisory actions or inaction fail to achieve prudential objectives. This gap can lead to unclear, inconsistent or ineffective supervisory practices, undermining authorities' ability to address problems in banks in a timely manner.",
+    "date": "2026-05-04",
+    "source_url": "https://www.bis.org/fsi/publ/insights74.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Goldman Sachs",
+    "initiative": "Anthropic lines up $1.5B AI venture with Blackstone, Goldman Sachs",
+    "description": "Anthropic is close to finalizing a roughly $1.5 billion joint venture with Blackstone, Goldman Sachs, and several other Wall Street firms to distribute artificial intelligence tools to private-equity-backed companies. A report by The Wall Street Journal said the platform will…",
+    "date": "2026-05-04",
+    "source_url": "https://crypto.news/anthropic-lines-up-1-5b-ai-venture-with-blackstone-goldman-sachs/",
+    "category": "global_banks",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Morgan Stanley",
+    "initiative": "Morgan Stanley advises 2%–4% Bitcoin exposure as demand grows",
+    "description": "Morgan Stanley advises 2%–4% Bitcoin exposure as MSBT demand grows, while bank balance sheet adoption faces regulatory hurdles.",
+    "date": "2026-05-04",
+    "source_url": "https://crypto.news/morgan-stanley-advises-2-4-bitcoin-exposure-as-demand-grows/",
+    "category": "global_banks",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CFTC (Commodity Futures Trading Commission)",
     "initiative": "Kraken parent Payward completes Bitnomial acquisition, unlocking US crypto derivatives offering",
     "description": "With the deal closed, Payward now holds a full suite of U.S. derivatives licenses issued by the Commodity Futures Trading Commission.",
