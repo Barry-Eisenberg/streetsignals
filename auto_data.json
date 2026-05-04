@@ -1,5 +1,43 @@
 [
   {
+    "institution": "CoinGeek",
+    "initiative": "Prediction markets under fire as insiders game the system",
+    "description": "Insider trading scandals, U.S. regulatory turf wars, and data showing that top users dominate profits put the future of prediction markets at risk. The post Prediction markets under fire as insiders game the system appeared first on CoinGeek .",
+    "date": "2026-05-04",
+    "source_url": "https://coingeek.com/prediction-markets-under-fire-as-insiders-game-the-system/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Hut 8 unlocks $260M in Bitcoin as it refinances $200M FalconX loan",
+    "description": "Bitcoin miner Hut 8 has refinanced its $200 million Bitcoin-backed credit facility with FalconX at a 7% fixed rate, replacing its Coinbase loan and unlocking approximately 3,300 BTC worth $260 million from collateral. Bitcoin (BTC) miner and energy infrastructure firm…",
+    "date": "2026-05-04",
+    "source_url": "https://crypto.news/hut-8-unlocks-260m-in-bitcoin-as-it-refinances-200m-falconx-loan/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "Coinbase boosts Solana trading with DFlow integration",
     "description": "Coinbase adding DFlow as its primary router will mean eight times less trade failures.",
