@@ -168,6 +168,27 @@ function hasMaterialInfrastructureContext(signal) {
   return /(tokeniz|\brwa\b|stablecoin|deposit token|\bcbdc\b|digital\s+(euro|currency|asset)|\bdlt\b|blockchain|settlement|clearing|collateral|payment|cross-border|stress\s*test|\bccp\b|central\s*counterpart|\bemir\b|margin|\brepo\b|post-trade|default\s+waterfall|recovery\s+and\s+resolution)/.test(corpus);
 }
 
+function getSignalEvidenceProfile(signal) {
+  const initiatives = normalizeDetailList(normalizeInitiativeTypes(signal?.initiative_types));
+  const areas = normalizeDetailList(normalizeFmiAreas(signal?.fmi_areas)).filter(area => area !== 'General Infrastructure');
+  const hasTaggedInitiative = initiatives.length > 0;
+  const hasSpecificFmiArea = areas.length > 0;
+  const hasMaterialContext = hasMaterialInfrastructureContext(signal);
+
+  return {
+    hasTaggedInitiative,
+    hasSpecificFmiArea,
+    hasMaterialContext,
+    hasAnyEvidence: hasTaggedInitiative || hasSpecificFmiArea || hasMaterialContext,
+    evidenceStrength: (hasTaggedInitiative ? 1 : 0) + (hasSpecificFmiArea ? 1 : 0) + (hasMaterialContext ? 1 : 0)
+  };
+}
+
+function isPriorityEvidenceSufficient(signal) {
+  const profile = getSignalEvidenceProfile(signal);
+  return profile.hasAnyEvidence;
+}
+
 function isLowSignalSpeech(signal) {
   return isSpeechStyleSignal(signal) && !hasMaterialInfrastructureContext(signal);
 }
@@ -2575,10 +2596,17 @@ function computeSignalImportance(signal, sourceCounts, maxSourceCount) {
   }
 
   const rawImportanceScore = credibilityWeight * recencyWeight * sourcePrevalenceWeight * stageMaterialityWeight;
+  const evidenceProfile = getSignalEvidenceProfile(signal);
+  const evidencePenaltyFactor = evidenceProfile.hasAnyEvidence ? 1 : 0.72;
+  const evidenceAdjustedScore = rawImportanceScore * evidencePenaltyFactor;
   const metadataPenaltyApplied = stage === 'Unknown' || materiality === 'Unknown';
-  const importanceScore = metadataPenaltyApplied ? rawImportanceScore * 0.9 : rawImportanceScore;
+  const importanceScore = metadataPenaltyApplied ? evidenceAdjustedScore * 0.9 : evidenceAdjustedScore;
   const mappedTier = mapImportanceTier(importanceScore);
-  const tier = applyImportanceTierCaps(mappedTier, stage, sourceTier);
+  let tier = applyImportanceTierCaps(mappedTier, stage, sourceTier);
+  if (!evidenceProfile.hasAnyEvidence) {
+    if (tier === 'Structural') tier = 'Material';
+    else if (tier === 'Material') tier = 'Context';
+  }
 
   return {
     importanceScore,
@@ -2596,7 +2624,10 @@ function computeSignalImportance(signal, sourceCounts, maxSourceCount) {
     stageWeight,
     materialityWeight,
     stageMaterialityWeight,
-    metadataPenaltyApplied
+    metadataPenaltyApplied,
+    evidencePenaltyApplied: evidencePenaltyFactor < 1,
+    evidencePenaltyFactor,
+    evidenceStrength: evidenceProfile.evidenceStrength
   };
 }
 
@@ -2632,7 +2663,10 @@ function getSignalImportance(signal) {
     stageWeight: IMPORTANCE_STAGE_WEIGHTS.Unknown,
     materialityWeight: IMPORTANCE_MATERIALITY_WEIGHTS.Unknown,
     stageMaterialityWeight: IMPORTANCE_STAGE_WEIGHTS.Unknown * IMPORTANCE_MATERIALITY_WEIGHTS.Unknown,
-    metadataPenaltyApplied: true
+    metadataPenaltyApplied: true,
+    evidencePenaltyApplied: false,
+    evidencePenaltyFactor: 1,
+    evidenceStrength: 0
   };
 }
 
@@ -4473,7 +4507,8 @@ function renderPrioritySignalsStrip() {
     const importance = getSignalImportance(s);
     const ts = getSignalDateTimestamp(s) || 0;
     const suppressSpeechPriority = isLowSignalSpeech(s);
-    return PRIORITY_TIERS.has(importance.tier) && ts >= cutoffTs && ts <= nowTs && !suppressSpeechPriority;
+    const hasPriorityEvidence = isPriorityEvidenceSufficient(s);
+    return PRIORITY_TIERS.has(importance.tier) && ts >= cutoffTs && ts <= nowTs && !suppressSpeechPriority && hasPriorityEvidence;
   });
 
   if (windowSignals.length === 0) {
