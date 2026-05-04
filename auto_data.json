@@ -1,5 +1,23 @@
 [
   {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "CFTC prediction market rules spark industry debate",
+    "description": "The U.S. Commodity Futures Trading Commission has received more than 1,500 public responses on its proposed rule for prediction market event contracts. According to the CFTC, the comment period for its March proposal closed Thursday after drawing submissions from prediction…",
+    "date": "2026-05-04",
+    "source_url": "https://crypto.news/cftc-prediction-market-rules-spark-industry-debate/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Mastercard",
     "initiative": "Mastercard’s AI agent Payment in the Netherlands",
     "description": "Hey Payments Fanatic! Mastercard and Rabobank executed a payment via an AI agent for the first time in the Netherlands. In this case, an AI agent booked a coffee tasting via Priceless.com, Mastercard’s platform for unique experiences, based on a simple prompt from the consumer. The payment",
