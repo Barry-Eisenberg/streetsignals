@@ -165,7 +165,7 @@ function getSignalRawTextCorpus(signal) {
 function hasMaterialInfrastructureContext(signal) {
   // Use only raw source text, not existing classified tags, to avoid circular bias.
   const corpus = getSignalRawTextCorpus(signal);
-  return /tokeniz|rwa|stablecoin|deposit token|cbdc|digital (euro|currency|asset)|dlt|blockchain|settlement|clearing|collateral|payment|cross-border|consultation|guidance|stress test|ccp|central counterpart|emir|market infrastructure|supervisory framework|regulatory framework/.test(corpus);
+  return /tokeniz|rwa|stablecoin|deposit token|cbdc|digital (euro|currency|asset)|dlt|blockchain|settlement|clearing|collateral|payment|cross-border|stress test|ccp|central counterpart|emir|margin|repo|post-trade|default waterfall|recovery and resolution/.test(corpus);
 }
 
 function isLowSignalSpeech(signal) {
@@ -4472,7 +4472,8 @@ function renderPrioritySignalsStrip() {
   const windowSignals = allSignals.filter(s => {
     const importance = getSignalImportance(s);
     const ts = getSignalDateTimestamp(s) || 0;
-    return PRIORITY_TIERS.has(importance.tier) && ts >= cutoffTs && ts <= nowTs;
+    const suppressSpeechPriority = isLowSignalSpeech(s);
+    return PRIORITY_TIERS.has(importance.tier) && ts >= cutoffTs && ts <= nowTs && !suppressSpeechPriority;
   });
 
   if (windowSignals.length === 0) {

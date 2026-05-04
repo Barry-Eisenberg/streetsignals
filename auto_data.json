@@ -505,7 +505,9 @@
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
     "signal_type": "Research / Report",
-    "fmi_areas": [],
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
     "initiative_types": [],
     "year": "2026"
   },
@@ -573,7 +575,9 @@
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
     "signal_type": "Research / Report",
-    "fmi_areas": [],
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
     "initiative_types": [],
     "year": "2026"
   },
@@ -931,10 +935,8 @@
     "source_name": "BIS — Central Banker Speeches",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
     "initiative_types": [],
     "year": "2026"
   },

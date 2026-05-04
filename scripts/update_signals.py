@@ -510,8 +510,8 @@ def classify_signal_type(signal):
     )
     has_material_context = bool(re.search(
         r"tokeniz|rwa|stablecoin|deposit token|cbdc|digital (euro|currency|asset)|dlt|blockchain|"
-        r"settlement|clearing|collateral|payment|cross-border|regulat|compliance|framework|"
-        r"guidance|consultation|stress test|ccp|central counterpart|emir|market infrastructure",
+        r"settlement|clearing|collateral|payment|cross-border|stress test|ccp|central counterpart|"
+        r"emir|margin|repo|post-trade|default waterfall|recovery and resolution",
         text,
     ))
 
@@ -570,8 +570,8 @@ def classify_fmi_areas(signal):
     source_url = str(signal.get('source_url', '')).lower()
     if ('speech' in source_name or re.search(r"/review/r\d+", source_url) or text.startswith('speech by ')) and not re.search(
         r"tokeniz|rwa|stablecoin|deposit token|cbdc|digital (euro|currency|asset)|dlt|blockchain|"
-        r"settlement|clearing|collateral|payment|cross-border|regulat|compliance|framework|"
-        r"guidance|consultation|stress test|ccp|central counterpart|emir|market infrastructure",
+        r"settlement|clearing|collateral|payment|cross-border|stress test|ccp|central counterpart|"
+        r"emir|margin|repo|post-trade|default waterfall|recovery and resolution",
         text,
     ):
         return []
@@ -610,8 +610,8 @@ def classify_initiative_types(signal):
     source_url = str(signal.get('source_url', '')).lower()
     if ('speech' in source_name or re.search(r"/review/r\d+", source_url) or text.startswith('speech by ')) and not re.search(
         r"tokeniz|rwa|stablecoin|deposit token|cbdc|digital (euro|currency|asset)|dlt|blockchain|"
-        r"settlement|clearing|collateral|payment|cross-border|regulat|compliance|framework|"
-        r"guidance|consultation|stress test|ccp|central counterpart|emir|market infrastructure",
+        r"settlement|clearing|collateral|payment|cross-border|stress test|ccp|central counterpart|"
+        r"emir|margin|repo|post-trade|default waterfall|recovery and resolution",
         text,
     ):
         return []
