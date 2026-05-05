@@ -267,7 +267,7 @@
     ctx.lineTo(W, BY + BRAND_H);
     ctx.stroke();
 
-    const MY = BY + BRAND_H / 2;
+    const MY = Math.round(BY + BRAND_H / 2);
     ctx.textBaseline = "middle";
     let bx = MX;
 
@@ -417,7 +417,7 @@
     ctx.textBaseline = "middle";
     ctx.fillText(importanceText, badgeX + BADGE_PAD, cy + 2 + BADGE_H / 2);
 
-    // ---- Eyebrow: INSTITUTION · CATEGORY · DATE ----
+    // ---- Eyebrow: INSTITUTION · DATE ----
     const catalogueName = normalizeCatalogueName(data.institutionCategory).toUpperCase();
     ctx.font = "bold 13px 'JetBrains Mono', ui-monospace, monospace";
     const institutionMaxW = Math.max(120, CW * 0.40);
@@ -429,7 +429,6 @@
     const eyebrowParts = [
       fittedInstitution,
       (data.date || "").toUpperCase(),
-      catalogueName + " SIGNAL CATALOGUE",
     ].filter(Boolean);
     const eyebrow = eyebrowParts.join("  ·  ");
 
@@ -571,9 +570,16 @@
     ctx.fillStyle = C.muted;
     ctx.fillText("SOURCE:", CX, FMY);
 
-    ctx.font = "600 12px 'Inter', -apple-system, sans-serif";
+    ctx.font = "600 11px 'Inter', -apple-system, sans-serif";
     ctx.fillStyle = C.mid;
-    ctx.fillText(data.source || "", CX + 52, FMY);
+    ctx.fillText(data.source || "", CX + 44, FMY);
+
+    // Catalogue label moved to lower-right area (from eyebrow)
+    const catCopy = catalogueName + " SIGNAL CATALOGUE";
+    ctx.font = "bold 10px 'Inter', -apple-system, sans-serif";
+    ctx.fillStyle = C.navy;
+    ctx.textAlign = "right";
+    ctx.fillText(catCopy, CX + CW, FMY);
 
     ctx.textAlign = "left";
 
