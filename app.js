@@ -1997,11 +1997,18 @@ function buildSignalDirectionalInsight(signal, importance) {
   };
   const stagePhrase = stagePhraseMap[importance.stage] || 'through active development';
   const confidence = lensRelevance >= 7 ? 'high' : lensRelevance >= 3 ? 'medium' : 'baseline';
+  const teamPrefix = /^all roles$/i.test(lensLabel)
+    ? 'For all teams'
+    : `For ${lensLabel} teams`;
+  const confidenceClause = confidence === 'baseline'
+    ? ''
+    : ` Lens fit: ${confidence}.`;
+
   if (isReporterSource(signal)) {
-    return `For ${lensLabel} teams, reporting indicates momentum in ${leadTheme} ${stagePhrase}. ${narrative} Most material audiences: ${audienceText}. Lens fit: ${confidence}.`;
+    return `${teamPrefix}, reporting indicates momentum in ${leadTheme} ${stagePhrase}. ${narrative} Most material audiences: ${audienceText}.${confidenceClause}`;
   }
 
-  return `For ${lensLabel} teams, ${institution} is advancing ${leadTheme} ${stagePhrase}. ${narrative} Most material audiences: ${audienceText}. Lens fit: ${confidence}.`;
+  return `${teamPrefix}, ${institution} is advancing ${leadTheme} ${stagePhrase}. ${narrative} Most material audiences: ${audienceText}.${confidenceClause}`;
 }
 
 const EXTERNAL_MARKET_CONTEXT = {
