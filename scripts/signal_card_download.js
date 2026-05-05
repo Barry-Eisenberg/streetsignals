@@ -23,7 +23,7 @@
 
   // ---------- Config ----------
   const HTML2CANVAS_CDN =
-    "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js";
+    "/assets/vendor/html2canvas.min.js";
   const LOGO_URL = window.SS_LOGO_URL || "/assets/nextfi_logo_navy.png";
   // ^^ point this to wherever you serve the logo from on the live site,
   //    or set window.SS_LOGO_URL to a base64 data URL for inline embedding
@@ -490,7 +490,7 @@
       document.body.removeChild(stage);
     } catch (err) {
       console.error("[StreetSignals] Image generation failed:", err);
-      alert("Sorry — image generation failed. Check the console for details.");
+      alert("Image generation failed:\n\n" + (err && err.message ? err.message : String(err)));
     } finally {
       button.disabled = false;
       button.innerHTML = originalLabel;
