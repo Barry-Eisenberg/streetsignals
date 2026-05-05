@@ -18,7 +18,6 @@
   const BUTTON_LABEL = "Download";
   const CARD_SELECTORS = [
     ".signal-card",
-    ".priority-signal-card",
   ];
 
   // ---------- Layout constants (1080x1080 canvas) ----------
@@ -631,10 +630,10 @@
 
   // ---------- Button injection ----------
   function injectButtonIntoCard(card) {
+    if (card.matches(".priority-signal-card")) return;
     if (card.querySelector(".ss-download-btn")) return;
 
-    const footer = card.querySelector(".signal-footer") ||
-                   card.querySelector(".priority-signal-card-footer");
+    const footer = card.querySelector(".signal-footer");
     if (!footer) return;
 
     const btn = document.createElement("button");
