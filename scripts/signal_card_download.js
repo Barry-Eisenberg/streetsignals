@@ -253,7 +253,7 @@
     ctx.textAlign = "left";
   }
 
-  function drawBrandBar(ctx, logo) {
+  function drawBrandBar(ctx, data, logo) {
     const BY = TICKER_H;
 
     ctx.fillStyle = C.white;
@@ -287,15 +287,31 @@
     ctx.stroke();
     bx += 16;
 
-    // Brand name
+    // Move catalogue copy from card footer to top brand line
+    const category = (data.institutionCategory || "Institutional").toUpperCase();
+    let leftText = "SIGNALS FROM THE STREET";
+    let rightText = "  |  " + category + " SIGNAL CATALOGUE";
+
+    ctx.font = "bold 12px 'Inter', -apple-system, BlinkMacSystemFont, sans-serif";
+    const maxBrandW = W - MX - bx;
+    while ((ctx.measureText(leftText + rightText).width > maxBrandW) && rightText.length > 18) {
+      rightText = rightText.slice(0, -1);
+    }
+    if (ctx.measureText(leftText + rightText).width > maxBrandW) {
+      rightText = "  |  SIGNAL CATALOGUE";
+    }
+    if (!rightText.endsWith("CATALOGUE") && rightText.length > 4) {
+      rightText = rightText.trimEnd() + "...";
+    }
+
     ctx.fillStyle = C.navy;
     ctx.font = "bold 12px 'Inter', -apple-system, BlinkMacSystemFont, sans-serif";
-    ctx.fillText("STREET SIGNALS", bx, MY);
-    const ssW = ctx.measureText("STREET SIGNALS").width;
+    ctx.fillText(leftText, bx, MY);
+    const leftW = ctx.measureText(leftText).width;
 
     ctx.fillStyle = C.muted;
     ctx.font = "500 12px 'Inter', -apple-system, BlinkMacSystemFont, sans-serif";
-    ctx.fillText("  .  DLT & Digital Asset Intelligence", bx + ssW, MY);
+    ctx.fillText(rightText, bx + leftW, MY);
   }
 
   // ---------- Hook extraction ----------
@@ -462,12 +478,12 @@
       cy += 18;
     }
 
-    // ---- Content strips ("WHAT HAPPENED" / "SO WHAT") ----
+    // ---- Content strips ("SIGNAL" / "SO WHAT") ----
     const STRIP_ACCENT  = 3;
     const STRIP_PAD_X   = 16;
     const STRIP_PAD_Y   = 12;
     const STRIP_LABEL_H = 16;
-    const STRIP_LH      = 21;
+    const STRIP_LH      = 17;
     const STRIP_TX_OFFSET = STRIP_ACCENT + 8 + STRIP_PAD_X; // left edge of text within strip
 
     function drawStrip(label, text, maxLines) {
@@ -514,8 +530,8 @@
     const whatHappened = (data.description || "").trim();
     const soWhat = (data.aiInsight || "").replace(/^AI WHY THIS MATTERS\s*\n+/i, "").trim();
 
-    drawStrip("WHAT HAPPENED", whatHappened, 4);
-    drawStrip("SO WHAT", soWhat, 4);
+    drawStrip("SIGNAL", whatHappened, Number.MAX_SAFE_INTEGER);
+    drawStrip("SO WHAT", soWhat, 6);
 
     // ---- Pinned card footer ----
     ctx.strokeStyle = C.border;
@@ -536,13 +552,6 @@
     ctx.fillStyle = C.mid;
     ctx.fillText(data.source || "", CX + 72, FMY);
 
-    const catCopy = "SIGNALS FROM THE STREET  |  "
-      + (data.institutionCategory || "Institutional").toUpperCase()
-      + " CATALOGUE";
-    ctx.font = "bold 10px 'Inter', -apple-system, sans-serif";
-    ctx.fillStyle = C.navy;
-    ctx.textAlign = "right";
-    ctx.fillText(catCopy, CX + CW, FMY);
     ctx.textAlign = "left";
 
     ctx.restore(); // end clip
@@ -600,7 +609,7 @@
       ctx.fillRect(0, 0, W, H);
 
       drawTicker(ctx, data);
-      drawBrandBar(ctx, logo);
+      drawBrandBar(ctx, data, logo);
       drawCard(ctx, data);
       drawOuterFooter(ctx);
 
