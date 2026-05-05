@@ -1,5 +1,119 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Citi exec says fragmented crypto systems risk repeating old banking problems",
+    "description": "Tokenized money efforts face limits as corporate clients demand real-time payments that work seamlessly across banks, Citi’s Ryan Rugg said at Consensus in Miami.",
+    "date": "2026-05-05",
+    "source_url": "https://www.coindesk.com/business/2026/05/05/citi-exec-says-fragmented-crypto-systems-risk-repeating-old-banking-problems",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Overseas demand for U.S. equities is growing, says Robinhood's Johan Kerbrart",
+    "description": "The trading app's senior vice president said tokenization, 24-hour trading, and regulatory shifts are driving broader investor access beyond domestic markets.",
+    "date": "2026-05-05",
+    "source_url": "https://www.coindesk.com/business/2026/05/05/robinhood-vp-johann-kerbrat-recommends-global-portfolios-as-demand-for-u-s-stocks-rises",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Securitize",
+    "initiative": "Securitize taps Jump as market maker for trading tokenized stocks on ATS",
+    "description": "Securitize, the company best known for tokenizing BlackRock’s BUIDL money market fund, is gradually announcing the building blocks of its tokenized stock and trading strategy. The latest announcement is the addition of Jump Trading as liquidity provider for its trading venue, the Securitize Markets alternative trading system (ATS), plus a collaboration with Jupiter to provide",
+    "date": "2026-05-05",
+    "source_url": "https://www.ledgerinsights.com/securitize-taps-jump-as-market-maker-for-trading-tokenized-stocks-on-ats/",
+    "category": "ecosystem",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainlink",
+    "initiative": "Kelp DAO ditches LayerZero for Chainlink’s cross-chain infrastructure following $292 million exploit",
+    "description": "Many onlookers blame LayerZero's default infrastructure setup because the cross-chain bridge that was attacked used a 1-of-1 configuration.",
+    "date": "2026-05-05",
+    "source_url": "https://www.theblock.co/post/400131/kelp-dao-ditches-layerzero-chainlink-cross-chain-infrastructure-292-million-exploit",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CME Group",
+    "initiative": "CME Group to launch cash-settled bitcoin volatility futures",
+    "description": "Traders use volatility products to speculate on or hedge against swings without having to take a directional bet on prices.",
+    "date": "2026-05-05",
+    "source_url": "https://www.theblock.co/post/400121/cme-group-to-launch-cash-settled-bitcoin-volatility-futures",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Mastercard",
+    "initiative": "GoMining unveils GoBTC payments protocol with 0.2% merchant fee",
+    "description": "GoMining’s GoBTC protocol promises instant authorization and on-chain Bitcoin settlement with a 0.2% merchant fee, positioning miner-run rails as a low-cost challenger to Visa and Mastercard. According to Forbes, GoMining will formally debut its GoBTC payment protocol at this year’s Consensus…",
+    "date": "2026-05-05",
+    "source_url": "https://crypto.news/gomining-unveils-gobtc-payments-protocol-with-0-2-merchant-fee/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Chainlink",
     "initiative": "Kelp claims that LayerZero approved the setup it blamed for $292 million bridge hack",
     "description": "The $292M exploit, linked to North Korean hackers, led Kelp to migrate its rsETH off LayerZero's \"OFT\" standard to Chainlink's \"CCIP.\"",
