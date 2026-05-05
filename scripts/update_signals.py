@@ -35,6 +35,28 @@ ROLLING_DAYS = 365       # prune entries older than this
 MIN_DESC_LENGTH = 40     # reject items with very thin descriptions
 TARGET_SUMMARY_LENGTH = 420
 
+_MOJIBAKE_FIXES = {
+    "ΓÇª": "…",
+    "ΓÇô": "-",
+    "ΓÇö": "-",
+    "ΓÇ£": '"',
+    "ΓÇ¥": '"',
+    "ΓÇÿ": "'",
+    "ΓÇÖ": "'",
+}
+
+_DESC_BOILERPLATE_PATTERNS = [
+    re.compile(r"^\s*tl;dr[:\s-]*", re.IGNORECASE),
+    re.compile(r"\bthe post\b.*?\bappeared first on\b.*?(?:[.!?]|$)", re.IGNORECASE),
+    re.compile(r"\bappeared first on\b.*?(?:[.!?]|$)", re.IGNORECASE),
+    re.compile(r"\bthe post\b[^.]{0,220}$", re.IGNORECASE),
+    re.compile(r"\bthe post\b\s+[A-Z0-9].*?(?=\s+\bthe post\b|$)", re.IGNORECASE),
+    re.compile(r"\bdata-tooltip-[a-z0-9_-]+\b[^.]*", re.IGNORECASE),
+    re.compile(r"\bdata-tooltip-data\b\s*=\s*\"[^\"]+\"", re.IGNORECASE),
+    re.compile(r"\bthe registration link will be available shortly\b.*?(?:[.!?]|$)", re.IGNORECASE),
+    re.compile(r"\[\s*…\s*\]|\[\s*\.\.\.\s*\]", re.IGNORECASE),
+]
+
 # Tracking query params to strip from URLs before dedup
 _TRACKING_PARAMS = re.compile(
     r"[?&](utm_[a-z_]+|ref|source|medium|campaign|cid|gclid|fbclid)=[^&]*",
@@ -282,9 +304,21 @@ def fetch_text(url):
 
 def clean_text(value):
     value = html.unescape(value or "")
+    for bad, good in _MOJIBAKE_FIXES.items():
+        value = value.replace(bad, good)
     value = re.sub(r"<[^>]+>", " ", value or "")
     value = re.sub(r"\s+", " ", value).strip()
     return value
+
+
+def strip_description_boilerplate(value):
+    text = clean_text(value)
+    if not text:
+        return ""
+    for pattern in _DESC_BOILERPLATE_PATTERNS:
+        text = pattern.sub(" ", text)
+    text = re.sub(r"\s+", " ", text).strip(" -|,;:")
+    return text
 
 
 def _split_sentences(text):
@@ -306,7 +340,7 @@ def _compress_to_length(text, max_chars=TARGET_SUMMARY_LENGTH):
 def summarize_signal_description(title, description):
     """Build a concise, insight-led card description from RSS title + summary text."""
     title_text = clean_text(title)
-    desc_text = clean_text(description)
+    desc_text = strip_description_boilerplate(description)
     if not desc_text:
         return title_text
 
@@ -347,9 +381,9 @@ def summarize_signal_description(title, description):
         if len(combined) >= TARGET_SUMMARY_LENGTH * 0.8 or len(chosen) >= 2:
             break
 
-    summary = clean_text(" ".join(chosen))
+    summary = strip_description_boilerplate(" ".join(chosen))
     if title_text and title_text.lower() not in summary.lower() and len(summary) < TARGET_SUMMARY_LENGTH * 0.6:
-        summary = clean_text(f"{summary} {title_text}")
+        summary = strip_description_boilerplate(f"{summary} {title_text}")
 
     return _compress_to_length(summary)
 
