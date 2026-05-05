@@ -1,5 +1,62 @@
 [
   {
+    "institution": "CoinGeek",
+    "initiative": "Stablecoins to hit $5T in B2B payments by 2035: Juniper Research",
+    "description": "New research sees cross-border B2B stablecoin flows hitting $5T by 2035, reaching 85% share as enterprise use and 24/7 settlement drive payments shift.",
+    "date": "2026-05-05",
+    "source_url": "https://coingeek.com/stablecoins-to-hit-5t-in-b2b-payments-by-2035-juniper-research/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Brazil Central Bank",
+    "initiative": "Brazil's Central Bank Tightens Control Over Digital Payments",
+    "description": "Hey Payments Fanatic! Brazil's regulator is sending a clear message this week: the country wants tighter oversight of its rapidly evolving digital payments ecosystem. Just as the Central Bank announced new security restrictions on Pix, capping transactions at R$ 200 (≈$35 USD) on unregistered devices with",
+    "date": "2026-05-05",
+    "source_url": "https://www.connectingthedotsinpayments.com/brazils-central-bank-tightens-control-over-digital-payments/",
+    "category": "regulators",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "DTCC",
+    "initiative": "DTCC lines up 50 giants for tokenized securities launch",
+    "description": "DTCC plans July tokenized securities pilots and an October launch with 50 firms, covering ETFs, Russell 1000 stocks and U.S. Treasuries.",
+    "date": "2026-05-05",
+    "source_url": "https://crypto.news/dtcc-lines-up-50-giants-for-tokenized-securities-launch/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Circle",
     "initiative": "Crypto stocks rally amid Clarity Act momentum; Circle jumps nearly 20%",
     "description": "Sens. Alsobrooks and Tillis finalized a compromise Friday on language governing stablecoin yields in the Clarity Act.",
