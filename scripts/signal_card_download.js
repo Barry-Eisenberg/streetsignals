@@ -142,8 +142,14 @@
       aiInsight:      readField(card, ".signal-ai-insight") ||
                       readField(card, ".priority-signal-card-insight"),
       description:    readField(card, ".signal-description"),
-      source:         readField(card, ".signal-source") ||
-                      readField(card, ".priority-signal-card-source"),
+      source: (() => {
+        const multiSrc = card.querySelector(".signal-multi-source");
+        if (multiSrc) {
+          const links = multiSrc.querySelectorAll(".signal-multi-source-tooltip a, .signal-multi-source-tooltip span");
+          return Array.from(links).map(el => el.innerText.trim()).filter(Boolean).join(" | ");
+        }
+        return readField(card, ".signal-source") || readField(card, ".priority-signal-card-source");
+      })(),
       institutionCategory: extractInstitutionCategory(card),
     };
   }
@@ -391,7 +397,17 @@
     let cy = CARD_Y + CPT;
 
     // ---- Pinned footer geometry (computed early, drawn last) ----
-    const FOOTER_H = 44;
+    const catalogueName = normalizeCatalogueName(data.institutionCategory).toUpperCase();
+    ctx.font = "bold 10px 'Inter', -apple-system, sans-serif";
+    const catCopyW = ctx.measureText(catalogueName + " SIGNAL CATALOGUE").width;
+    ctx.font = "bold 10px 'JetBrains Mono', ui-monospace, monospace";
+    const sourceLabelW = ctx.measureText("SOURCE:").width + 8;
+    const sourceAvailW = Math.max(120, CW - sourceLabelW - catCopyW - 24);
+    ctx.font = "600 11px 'Inter', -apple-system, sans-serif";
+    const sourceTextLines = getWrappedLines(ctx, data.source || "", sourceAvailW);
+    const FOOTER_LINE_H = 15;
+    const FOOTER_PAD_V  = 12;
+    const FOOTER_H = Math.max(44, FOOTER_PAD_V + (sourceTextLines.length || 1) * FOOTER_LINE_H + FOOTER_PAD_V);
     const FOOTER_Y = CARD_Y + CARD_H - CPB - FOOTER_H;
     const BODY_MAX_Y = FOOTER_Y - 14;
 
@@ -418,7 +434,6 @@
     ctx.fillText(importanceText, badgeX + BADGE_PAD, cy + 2 + BADGE_H / 2);
 
     // ---- Eyebrow: INSTITUTION · DATE ----
-    const catalogueName = normalizeCatalogueName(data.institutionCategory).toUpperCase();
     ctx.font = "bold 13px 'JetBrains Mono', ui-monospace, monospace";
     const institutionMaxW = Math.max(120, CW * 0.40);
     const fittedInstitution = fitTextToWidth(
@@ -585,23 +600,27 @@
     ctx.lineTo(CX + CW, FOOTER_Y);
     ctx.stroke();
 
-    const FMY = FOOTER_Y + FOOTER_H / 2;
+    const sourceBlockH = (sourceTextLines.length || 1) * FOOTER_LINE_H;
+    const sourceBlockTop = FOOTER_Y + (FOOTER_H - sourceBlockH) / 2;
     ctx.textBaseline = "middle";
 
     ctx.font = "bold 10px 'JetBrains Mono', ui-monospace, monospace";
     ctx.fillStyle = C.muted;
-    ctx.fillText("SOURCE:", CX, FMY);
+    ctx.fillText("SOURCE:", CX, sourceBlockTop + FOOTER_LINE_H / 2);
 
     ctx.font = "600 11px 'Inter', -apple-system, sans-serif";
     ctx.fillStyle = C.mid;
-    ctx.fillText(data.source || "", CX + 44, FMY);
+    const sourceTextX = CX + sourceLabelW;
+    sourceTextLines.forEach((line, i) => {
+      ctx.fillText(line, sourceTextX, sourceBlockTop + FOOTER_LINE_H * i + FOOTER_LINE_H / 2);
+    });
 
-    // Catalogue label moved to lower-right area (from eyebrow)
+    // Catalogue label — vertically centered in footer
     const catCopy = catalogueName + " SIGNAL CATALOGUE";
     ctx.font = "bold 10px 'Inter', -apple-system, sans-serif";
     ctx.fillStyle = C.navy;
     ctx.textAlign = "right";
-    ctx.fillText(catCopy, CX + CW, FMY);
+    ctx.fillText(catCopy, CX + CW, FOOTER_Y + FOOTER_H / 2);
 
     ctx.textAlign = "left";
 
