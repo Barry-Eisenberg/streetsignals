@@ -1,4 +1,4 @@
-// ===== THEME TOGGLE =====
+﻿// ===== THEME TOGGLE =====
 (function(){
   const t = document.querySelector('[data-theme-toggle]');
   const r = document.documentElement;
@@ -988,6 +988,11 @@ const REPORTER_SOURCE_NEEDLES = [
   'decrypt',
   'blockworks',
   'thedefiant',
+  'crypto.news',
+  'cryptonews',
+  'cryptoslate',
+  'cryptobriefing',
+  'beincrypto',
   'reuters',
   'bloomberg',
   'forbes',
@@ -1222,7 +1227,7 @@ function inferDrivingInstitution(signal) {
   // 1) Headline-context extraction for reporter-sourced titles (e.g., "Why Mastercard paid...", "CFTC sues ...").
   const contextPatterns = [
     /^([A-Za-z][A-Za-z0-9&.'’\-]{1,40})\s*:\s+/,
-    /\b([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,4})\s+(?:adds|launches|expands|extends|partners|acquires|announces|unveils|files|wins|integrates|opens|doubles|buys|invests|backs|joins|secures|rolls|paid|pays|reports|sues|drops|slides|falls|rises|sees)\b/i,
+    /\b([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,4})\s+(?:adds|launches|expands|extends|partners|acquires|announces|unveils|files|wins|integrates|opens|doubles|buys|invests|backs|joins|secures|rolls|paid|pays|reports|sues|drops|slides|falls|rises|sees|moves|steps|pushes|advances|taps|sets|gains|seeks|plans|gets|takes|preps|closes|raises|cuts|brings|builds|deploys|pilots|trials|tests)\b/i,
     /\b(?:owner|parent company)\s+of\s+(?:the\s+)?([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,5})\b/i,
     /\b([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,4})['’]s\b/i,
     /\b(?:acquisition|purchase|merger)\s+of\s+([A-Z][A-Za-z0-9&.'’\-]*(?:\s+[A-Z][A-Za-z0-9&.'’\-]*){0,4})\b/i,
