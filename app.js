@@ -792,7 +792,21 @@ function resolveSignalCardDescription(signal, directionalInsight) {
     return normalizedInsight;
   }
 
-  return normalizedDescription;
+  let displayDescription = sentenceCase(normalizedDescription);
+
+  if (/(?:\.\.\.|…)\s*$/.test(displayDescription)) {
+    const withoutEllipsis = displayDescription.replace(/\s*(?:\.\.\.|…)\s*$/, '').trim();
+    const completeSentences = withoutEllipsis.match(/[^.!?]+[.!?]+(?=\s+|$)/g);
+    if (completeSentences && completeSentences.length) {
+      displayDescription = completeSentences.map(sentence => sentence.trim()).join(' ');
+    } else if (withoutEllipsis) {
+      displayDescription = withoutEllipsis + '.';
+    }
+  } else if (!/[.!?]["')\]]?$/.test(displayDescription)) {
+    displayDescription += '.';
+  }
+
+  return displayDescription;
 }
 
 const INSTITUTION_TYPE_NORMALIZATION = {
