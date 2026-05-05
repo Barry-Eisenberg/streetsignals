@@ -1,5 +1,41 @@
 [
   {
+    "institution": "Chainlink",
+    "initiative": "Kelp claims that LayerZero approved the setup it blamed for $292 million bridge hack",
+    "description": "The $292M exploit, linked to North Korean hackers, led Kelp to migrate its rsETH off LayerZero's \"OFT\" standard to Chainlink's \"CCIP.\"",
+    "date": "2026-05-05",
+    "source_url": "https://www.coindesk.com/web3/2026/05/05/kelp-claims-that-layerzero-approved-the-setup-it-blamed-for-usd292-million-bridge-hack",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinShares",
+    "initiative": "Crypto ETPs log five straight weeks of inflows, topping $4B",
+    "description": "Crypto asset ETPs just notched a fifth straight week of inflows, lifting five-week net flows above $4B and pushing AUM near $155B despite sharp midweek outflows. CoinShares said that digital asset ETPs took in $117.8 million last week, extending their…",
+    "date": "2026-05-05",
+    "source_url": "https://crypto.news/crypto-etps-log-five-straight-weeks-of-inflows-topping-4b/",
+    "category": "asset_management",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Citigroup",
     "initiative": "Tokenization won't disrupt banking rails but improve them, Wall Street executives say",
     "description": "Executives from Citigroup, JPMorgan and DTCC said at Consensus that genuine client demand is driving real-world use of tokenized assets.",
