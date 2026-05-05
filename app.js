@@ -2971,6 +2971,98 @@ function signalsAreSameStory(a, b) {
   return shared.length >= 2 && overlapRatio >= 0.34;
 }
 
+function getSentenceList(text) {
+  return String(text || '').match(/[^.!?]+[.!?]+(?=\s+|$)|[^.!?]+$/g) || [];
+}
+
+function getTokenOverlapRatio(tokensA, tokensB) {
+  if (!tokensA.length || !tokensB.length) return 0;
+  const setB = new Set(tokensB);
+  const shared = tokensA.filter(token => setB.has(token));
+  return shared.length / Math.min(tokensA.length, tokensB.length);
+}
+
+function buildMergedStoryDescription(group, representative) {
+  const anchorTokens = [...new Set(group.flatMap(signal => extractStoryTokens(signal)))];
+  const anchorSet = new Set(anchorTokens);
+  const candidates = [];
+
+  group.forEach(signal => {
+    const cleaned = resolveSignalCardDescription({ description: signal?.description || '' }, '');
+    const sentences = getSentenceList(cleaned);
+    sentences.forEach((sentence, index) => {
+      const text = sentenceCase(String(sentence || '').trim());
+      if (!text || text === 'N/A') return;
+      const tokens = extractStoryTokens({
+        institution: signal?.institution,
+        initiative: '',
+        description: text
+      });
+      const shared = tokens.filter(token => anchorSet.has(token)).length;
+      if (!shared && index > 0) return;
+      const sourceWeight = resolveSourceMeta(signal).weight || 0;
+      candidates.push({
+        text,
+        tokens,
+        score: sourceWeight + shared - (index * 0.1)
+      });
+    });
+  });
+
+  const chosen = [];
+  candidates
+    .sort((a, b) => b.score - a.score)
+    .forEach(candidate => {
+      if (!candidate.tokens.length) return;
+      const tooSimilar = chosen.some(existing => getTokenOverlapRatio(existing.tokens, candidate.tokens) >= 0.7);
+      if (tooSimilar) return;
+      chosen.push(candidate);
+    });
+
+  const merged = [];
+  let totalLength = 0;
+  chosen.forEach(candidate => {
+    if (merged.length >= 3) return;
+    if (totalLength > 0 && totalLength + candidate.text.length > 380) return;
+    merged.push(candidate.text);
+    totalLength += candidate.text.length + 1;
+  });
+
+  if (merged.length) return merged.join(' ');
+  return resolveSignalCardDescription(representative, '');
+}
+
+function buildMergedStorySignal(group) {
+  const representative = [...group].sort((a, b) => {
+    const importanceA = getSignalImportance(a).importanceScore || 0;
+    const importanceB = getSignalImportance(b).importanceScore || 0;
+    if (importanceB !== importanceA) return importanceB - importanceA;
+
+    const sourceWeightA = resolveSourceMeta(a).weight || 0;
+    const sourceWeightB = resolveSourceMeta(b).weight || 0;
+    if (sourceWeightB !== sourceWeightA) return sourceWeightB - sourceWeightA;
+
+    const tsA = getSignalDateTimestamp(a) || 0;
+    const tsB = getSignalDateTimestamp(b) || 0;
+    return tsB - tsA;
+  })[0];
+
+  const sourceLabels = [...new Set(group.map(getSignalSourceName).filter(Boolean))];
+  const mergedInitiatives = normalizeDetailList(group.flatMap(signal => signal?.initiative_types || []));
+  const mergedFmiAreas = normalizeDetailList(group.flatMap(signal => signal?.fmi_areas || []));
+
+  return {
+    ...representative,
+    description: buildMergedStoryDescription(group, representative),
+    initiative_types: mergedInitiatives.length ? mergedInitiatives : representative.initiative_types,
+    fmi_areas: mergedFmiAreas.length ? mergedFmiAreas : representative.fmi_areas,
+    source_name: sourceLabels.join(' | '),
+    _storySourceCount: group.length,
+    _storySources: sourceLabels,
+    _storyGroup: group
+  };
+}
+
 function collapseSignalsByStory(signals) {
   const groups = [];
 
@@ -2986,25 +3078,7 @@ function collapseSignalsByStory(signals) {
   return groups.map(group => {
     if (group.length === 1) return group[0];
 
-    const representative = [...group].sort((a, b) => {
-      const importanceA = getSignalImportance(a).importanceScore || 0;
-      const importanceB = getSignalImportance(b).importanceScore || 0;
-      if (importanceB !== importanceA) return importanceB - importanceA;
-
-      const sourceWeightA = resolveSourceMeta(a).weight || 0;
-      const sourceWeightB = resolveSourceMeta(b).weight || 0;
-      if (sourceWeightB !== sourceWeightA) return sourceWeightB - sourceWeightA;
-
-      const tsA = getSignalDateTimestamp(a) || 0;
-      const tsB = getSignalDateTimestamp(b) || 0;
-      return tsB - tsA;
-    })[0];
-
-    return {
-      ...representative,
-      _storySourceCount: group.length,
-      _storySources: group.map(getSignalSourceName).filter(Boolean)
-    };
+    return buildMergedStorySignal(group);
   });
 }
 
@@ -4979,6 +5053,9 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
   const date = formatExactSignalDate(signal);
   const url = signal.source_url || '#';
   const domain = url !== '#' ? new URL(url).hostname.replace('www.','') : '';
+  const sourceLabel = signal._storySourceCount > 1
+    ? signal._storySources.join(' | ')
+    : domain;
   const signalKey = encodeURIComponent(getSignalKey(signal));
   const importance = getSignalImportance(signal);
   const displayTierLabel = getImportanceTierLabel(importance.tier);
@@ -5089,7 +5166,11 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
         ${personaDebug}
       </div>
       <div class="signal-footer">
-        ${url !== '#' ? `<a href="${url}" target="_blank" rel="noopener noreferrer" class="signal-source" data-signal-key="${signalKey}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>${domain}</a>` : '<span></span>'}
+        ${signal._storySourceCount > 1
+          ? `<span class="signal-source" data-signal-key="${signalKey}" title="${escapeHtml(sourceLabel)}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>${escapeHtml(sourceLabel)}</span>`
+          : url !== '#'
+            ? `<a href="${url}" target="_blank" rel="noopener noreferrer" class="signal-source" data-signal-key="${signalKey}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>${domain}</a>`
+            : '<span></span>'}
         <span class="signal-tag tag-${catKey}">${TAG_LABELS[catKey]}</span>
       </div>
     </div>

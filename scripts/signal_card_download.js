@@ -506,18 +506,34 @@
     const STRIP_LABEL_H = 16;
     const STRIP_FONT_SIZE = 20;
     const STRIP_LH        = 26;
+    const STRIP_PARA_GAP  = 10;
     const STRIP_TX_OFFSET = STRIP_ACCENT + 8 + STRIP_PAD_X; // left edge of text within strip
 
     function drawStrip(label, text, maxLines) {
       if (!text || cy >= BODY_MAX_Y - 40) return;
       const contentW = CW - STRIP_TX_OFFSET - STRIP_PAD_X;
       ctx.font = `${STRIP_FONT_SIZE}px 'Inter', -apple-system, sans-serif`;
-      const lines  = getWrappedLines(ctx, text, contentW);
+      const paragraphs = String(text || "")
+        .split(/\n{2,}/)
+        .map(para => getWrappedLines(ctx, para, contentW).filter(Boolean))
+        .filter(lines => lines.length > 0);
       const avail  = Math.floor((BODY_MAX_Y - cy - STRIP_PAD_Y * 2 - STRIP_LABEL_H - 8) / STRIP_LH);
-      const shown  = Math.min(lines.length, maxLines, Math.max(avail, 0));
+      let remainingLines = Math.min(Math.max(avail, 0), maxLines);
+      const drawParagraphs = [];
+
+      paragraphs.forEach(lines => {
+        if (remainingLines <= 0) return;
+        const shownLines = lines.slice(0, remainingLines);
+        if (!shownLines.length) return;
+        drawParagraphs.push(shownLines);
+        remainingLines -= shownLines.length;
+      });
+
+      const shown = drawParagraphs.reduce((sum, lines) => sum + lines.length, 0);
       if (shown <= 0) return;
 
-      const stripH = STRIP_PAD_Y + STRIP_LABEL_H + 8 + shown * STRIP_LH + STRIP_PAD_Y;
+      const paragraphGaps = Math.max(0, drawParagraphs.length - 1) * STRIP_PARA_GAP;
+      const stripH = STRIP_PAD_Y + STRIP_LABEL_H + 8 + shown * STRIP_LH + paragraphGaps + STRIP_PAD_Y;
 
       ctx.fillStyle = C.rowBg;
       roundRectPath(ctx, CX, cy, CW, stripH, 8);
@@ -543,9 +559,15 @@
       // Body lines
       ctx.font = `${STRIP_FONT_SIZE}px 'Inter', -apple-system, sans-serif`;
       ctx.fillStyle = C.mid;
-      for (let i = 0; i < shown; i++) {
-        ctx.fillText(lines[i], tx, cy + STRIP_PAD_Y + STRIP_LABEL_H + 8 + STRIP_LH * (i + 1) - 4);
-      }
+      let lineIndex = 0;
+      let paragraphOffset = 0;
+      drawParagraphs.forEach((lines, paragraphIndex) => {
+        if (paragraphIndex > 0) paragraphOffset += STRIP_PARA_GAP;
+        lines.forEach(line => {
+          ctx.fillText(line, tx, cy + STRIP_PAD_Y + STRIP_LABEL_H + 8 + paragraphOffset + STRIP_LH * (lineIndex + 1) - 4);
+          lineIndex += 1;
+        });
+      });
       cy += stripH + 24;
     }
 
