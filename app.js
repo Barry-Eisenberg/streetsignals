@@ -786,11 +786,9 @@ function resolveSignalCardDescription(signal, directionalInsight) {
   const normalizedDescription = normalizeSignalDescriptionText(rawDescription);
   const normalizedInsight = normalizeSignalDescriptionText(directionalInsight || '');
 
-  const descriptionLooksTruncated = /(?:\.\.\.|…)\s*$/.test(normalizedDescription);
-  const descriptionTooThin = normalizedDescription.length < 120;
   const descriptionUnavailable = !normalizedDescription || normalizedDescription === 'N/A';
 
-  if ((descriptionUnavailable || descriptionLooksTruncated || descriptionTooThin) && normalizedInsight && normalizedInsight !== 'N/A') {
+  if (descriptionUnavailable && normalizedInsight && normalizedInsight !== 'N/A') {
     return normalizedInsight;
   }
 
