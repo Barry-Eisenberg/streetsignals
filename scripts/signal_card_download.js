@@ -61,13 +61,13 @@
 
     /* Off-screen render container — never visible to the user */
     .ss-render-stage {
-      position: fixed;
-      top: -10000px;
-      left: -10000px;
+      position: absolute;
+      top: 0;
+      left: -99999px;
       width: 1080px;
       height: 1080px;
       pointer-events: none;
-      z-index: -1;
+      overflow: hidden;
     }
   `;
 
@@ -427,24 +427,28 @@
     button.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2 v6 m0 0 -3 -3 m3 3 3 -3" /></svg>Generating…`;
 
     try {
+      console.log("[StreetSignals] Loading html2canvas…");
       const html2canvas = await loadHtml2Canvas();
+      console.log("[StreetSignals] html2canvas loaded.");
 
       const data = extractSignalData(card);
 
       // Build the off-screen stage
       const stage = document.createElement("div");
       stage.className = "ss-render-stage";
+      // Inline style ensures correct positioning even if stylesheet loads late
+      stage.style.cssText = "position:absolute;top:0;left:-99999px;width:1080px;height:1080px;pointer-events:none;overflow:hidden;";
       stage.innerHTML = `<style>${stageStyle}</style>${buildStageHTML(data)}`;
       document.body.appendChild(stage);
 
       // Wait one tick for layout + image load
-      await new Promise(r => setTimeout(r, 100));
+      await new Promise(r => setTimeout(r, 150));
       // Wait for logo image to load (so it's not blank)
       const logoImg = stage.querySelector("img.ss-logo");
       if (logoImg && !logoImg.complete) {
         await new Promise(r => {
           logoImg.onload = r;
-          logoImg.onerror = r;
+          logoImg.onerror = () => { console.warn("[StreetSignals] Logo failed to load:", LOGO_URL); r(); };
         });
       }
       // Wait for fonts
@@ -452,7 +456,11 @@
         await document.fonts.ready;
       }
 
-      const canvas = await html2canvas(stage.querySelector(".ss-stage-card"), {
+      console.log("[StreetSignals] Rendering canvas…");
+      const stageCard = stage.querySelector(".ss-stage-card");
+      if (!stageCard) throw new Error("Stage card element not found in DOM");
+
+      const canvas = await html2canvas(stageCard, {
         scale: 2,                  // retina output (2160 × 2160)
         backgroundColor: "#f5f6fa",
         useCORS: true,
@@ -460,7 +468,10 @@
         logging: false,
         width: 1080,
         height: 1080,
+        scrollX: 0,
+        scrollY: 0,
       });
+      console.log("[StreetSignals] Canvas rendered:", canvas.width, "×", canvas.height);
 
       // Trigger download
       const filename = `signal-${slugify(data.institution)}-${slugify(data.date)}.png`;
