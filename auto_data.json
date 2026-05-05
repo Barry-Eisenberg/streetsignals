@@ -1,5 +1,43 @@
 [
   {
+    "institution": "crypto.news",
+    "initiative": "Uphold rejects NYAG claims after $5M CredEarn settlement",
+    "description": "Uphold disputes NYAG claims after a $5M CredEarn settlement, saying Cred misled the company and users before its 2020 collapse.",
+    "date": "2026-05-05",
+    "source_url": "https://crypto.news/uphold-rejects-nyag-claims-after-5m-credearn-settlement/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Bank groups challenge Senator Thom Tillis over stablecoin proposal",
+    "description": "banking groups have pushed back against the latest CLARITY Act language on stablecoin rewards, arguing it does not sufficiently prevent risks to bank deposits. According to a joint statement from the American Bankers Association, Bank Policy Institute, Consumer Bankers…",
+    "date": "2026-05-05",
+    "source_url": "https://crypto.news/bank-groups-challenge-senator-thom-tillis-over-stablecoin-proposal/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Ripple",
     "initiative": "Ripple to share North Korean threat intelligence with crypto firms",
     "description": "Ripple said April's $285 million Drift breach revealed a new pattern of long-cycle social engineering replacing traditional smart contract exploits.",
