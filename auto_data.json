@@ -1,5 +1,44 @@
 [
   {
+    "institution": "Ripple",
+    "initiative": "Ripple begins sharing DPRK threat intel with crypto firms",
+    "description": "Ripple has begun sharing its internal threat intelligence on North Korean hacking operations with the crypto industry, expanding how firms respond to insider-driven attacks. According to Crypto ISAC, the move follows incidents where attackers bypassed code vulnerabilities and instead infiltrated…",
+    "date": "2026-05-05",
+    "source_url": "https://crypto.news/ripple-begins-sharing-dprk-threat-intel-with-crypto-firms/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase opens crypto access for Australia’s self-managed retirement funds",
+    "description": "Coinbase Australia launched crypto support for SMSFs, offering trustees reporting tools and fund verification after securing an AFSL.",
+    "date": "2026-05-05",
+    "source_url": "https://crypto.news/coinbase-opens-crypto-access-for-australias-self-managed-retirement-funds/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "The impact of stablecoins on the international monetary and financial system",
     "description": "Widespread use of stablecoins could have an important impact on the international monetary and financial system, particularly for emerging market and developing economies (EMDEs). Using the framework of international currency functions to analyse their effect, we argue that stablecoins are most likely to affect private sector store of value and medium of exchange roles, particularly in economies facing macroeconomic",
