@@ -1,5 +1,81 @@
 [
   {
+    "institution": "Tether",
+    "initiative": "Tether begins first stablecoin audit as Lutnick loan scrutiny mounts",
+    "description": "Tether posts strong Q1 profits as its long-awaited audit begins, while Senate scrutiny, controversial loans, and global stablecoin regulations intensify.",
+    "date": "2026-05-05",
+    "source_url": "https://coingeek.com/tether-begins-first-stablecoin-audit-as-lutnick-loan-scrutiny-mounts/",
+    "category": "payments",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bank of Italy calls for EU to explore tokenized SEPA payments",
+    "description": "Bank of Italy's Chiara Scotti said the EU should explore a tokenized extension of its payments system as tokenization grows more \"relevant.\"",
+    "date": "2026-05-05",
+    "source_url": "https://www.theblock.co/post/400001/bank-of-italy-tokenized-sepa",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "Elon Musk settles SEC Twitter case with $1.5M fine",
+    "description": "Elon Musk settled the SEC’s Twitter stock disclosure case with a $1.5M penalty, avoiding repayment of the alleged $150M saving.",
+    "date": "2026-05-05",
+    "source_url": "https://crypto.news/elon-musk-settles-sec-twitter-case-with-1-5m-fine/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Bullish bets $4.2B on tokenized securities with Equiniti deal",
+    "description": "Bullish agreed to buy Equiniti for $4.2B, aiming to offer issuer tokenization, 24/7 securities trading and stablecoin settlement.",
+    "date": "2026-05-05",
+    "source_url": "https://crypto.news/bullish-bets-4-2b-on-tokenized-securities-with-equiniti-deal/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA (European Securities and Markets Authority)",
     "initiative": "ESMA consults on a new simplified approach to updating MMF stress test parameters",
     "description": "ESMA consults on a new simplified approach to updating MMF stress test parameters 05 May 2026 Fund Management Simplification and Burden Reduction The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has today launched a consultation on a new approach to updating the parameters for stress test scenarios under the Money Market Funds framework.",
