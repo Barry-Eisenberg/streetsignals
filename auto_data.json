@@ -1,5 +1,276 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "Santiago Bausili: Finance, economics and investments",
+    "description": "Speech by Mr Santiago Bausili, President of the Central Bank of Argentina, at a presentation on \"Finance, economics and investments\", at the Expo EFI, Buenos Aires, 29 April 2026.",
+    "date": "2026-05-05",
+    "source_url": "https://www.bis.org/review/r260505h.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Sanjay Malhotra: Indian financial markets - resilience and resurgence",
+    "description": "Keynote address by Mr Sanjay Malhotra, Governor of the Reserve Bank of India, at the 25th Fixed Income Money Market and Derivatives Association of India - Primary Dealers Association of India (FIMMDA-PDAI) Annual Conference, Amsterdam, 1 May 2026.",
+    "date": "2026-05-05",
+    "source_url": "https://www.bis.org/review/r260504c.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Aleš Michl: Forever hawkish",
+    "description": "Guest lecture by Mr Aleš Michl, Governor of the Czech National Bank, at the MIT Sloan School of Management, Cambridge, MA, 30 April 2026.",
+    "date": "2026-05-05",
+    "source_url": "https://www.bis.org/review/r260505g.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Michelle W Bowman: Artificial intelligence in the financial system",
+    "description": "Speech by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the Financial Stability Oversight Council Artificial Intelligence Series Roundtable on Cybersecurity and Risk Management, Washington DC, 1 May 2026.",
+    "date": "2026-05-05",
+    "source_url": "https://www.bis.org/review/r260504b.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "ECB (European Central Bank)",
+    "initiative": "Chiara Scotti: Digital money and the architecture of trust",
+    "description": "Welcome address by Ms Chiara Scotti, Deputy Governor of the Bank of Italy, at a workshop \"Digital assets and monetary policy transmission\", organised by the Bank of Italy, European Central Bank, Euro Area Business Cycle Network and Centre for Economic Policy Research, Rome, 4 May 2026.",
+    "date": "2026-05-05",
+    "source_url": "https://www.bis.org/review/r260505d.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "ECB (European Central Bank)",
+    "initiative": "Piero Cipollone: Digital assets, payment efficiency and monetary policy",
+    "description": "Speech by Mr Piero Cipollone, Member of the Executive Board of the European Central Bank, at a workshop \"Digital assets and monetary policy transmission\", organised by the European Central Bank, Bank of Italy, Euro Area Business Cycle Network and Centre for Economic Policy Research, Rome, 4 May 2026.",
+    "date": "2026-05-05",
+    "source_url": "https://www.bis.org/review/r260505a.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Crypto's value is from being outside regulatory apparatus, says Arthur Hayes",
+    "description": "All that matters for bitcoin’s value proposition is fiat liquidity, said Arthur Hayes, CIO of Maelstrom, at Consensus Miami 2026.",
+    "date": "2026-05-05",
+    "source_url": "https://www.coindesk.com/business/2026/05/05/crypto-doesn-t-need-regulation-its-value-is-being-outside-regulatory-apparatus-says-arthur-hayes",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Jito Labs launches self-custody trading tool as activity heats up on Solana",
+    "description": "JTX is the company’s first product built specifically for traders. It allows users to trade tokens on Solana while maintaining self-custody.",
+    "date": "2026-05-05",
+    "source_url": "https://www.coindesk.com/tech/2026/05/05/jito-labs-launches-jtx-as-self-custody-trading-heats-up-on-solana",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase taps Centrifuge as preferred tokenization backbone, takes equity stake",
+    "description": "The partnership includes a strategic investment by Coinbase and is focused on expanding tokenized ETFs, credit, and structured products.",
+    "date": "2026-05-05",
+    "source_url": "https://www.coindesk.com/business/2026/05/05/coinbase-taps-centrifuge-as-preferred-tokenization-backbone-takes-equity-stake",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "State Street",
+    "initiative": "State Street and Galaxy launch tokenized fund to bring cash management onchain",
+    "description": "The fund lets institutions earn yield on stablecoins while moving cash onchain with round-the-clock access.",
+    "date": "2026-05-05",
+    "source_url": "https://www.coindesk.com/markets/2026/05/05/state-street-and-galaxy-launch-tokenized-fund-to-bring-cash-management-onchain",
+    "category": "asset_management",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "K Wave Media scraps massive bitcoin treasury plan to redirect $485 million to AI",
+    "description": "The Nasdaq-listed firm raised $500 million to invest in bitcoin. Less than a year later, it is chasing the market's current hot sector of AI.",
+    "date": "2026-05-05",
+    "source_url": "https://www.coindesk.com/markets/2026/05/05/nasdaq-firm-scraps-massive-bitcoin-treasury-plan-to-redirect-usd485-million-to-ai",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Standard Chartered",
+    "initiative": "StanChart’s SC Ventures invests in crypto market maker GSR",
+    "description": "Standard Chartered’s SC Ventures has become the first outside strategic investor in London-based crypto market maker and OTC trading desk GSR. The investment valued GSR at $1 billion according to Bloomberg. The two firms have an existing relationship following last month’s funding round for Libeara, the SC Ventures incubated tokenization firm, where GSR led the",
+    "date": "2026-05-05",
+    "source_url": "https://www.ledgerinsights.com/stancharts-sc-ventures-invests-in-crypto-market-maker-gsr/",
+    "category": "global_banks",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Securitize",
+    "initiative": "Securitize taps Jump and Jupiter as it rolls out fully onchain, regulated onchain stocks",
+    "description": "Jump will provide institutional liquidity via its PropAMM, while Solana DeFi aggregator Jupiter will support retail and institutional access.",
+    "date": "2026-05-05",
+    "source_url": "https://www.theblock.co/post/400051/securitize-taps-jump-and-jupiter-as-it-rolls-out-fully-onchain-regulated-onchain-stocks",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase doubles down on Centrifuge investment, taps platform as Base’s main tokenization partner",
+    "description": "Centrifuge will be the go-to platform for launching tokenized assets on Base, the Ethereum blockchain incubated by Coinbase.",
+    "date": "2026-05-05",
+    "source_url": "https://www.theblock.co/post/399963/coinbase-figure-investment-centrifuge-base-main-tokenization-partner",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "State Street",
+    "initiative": "Galaxy and State Street launch Solana-based SWEEP tokenized cash fund",
+    "description": "stocks opened higher on Tuesday, with major indexes gaining and AI‑linked storage names outperforming, even as PayPal sank about 10% after disappointing profit guidance. According to CoinDesk, State Street and Galaxy have rolled out SWEEP, a “tokenized private liquidity fund”…",
+    "date": "2026-05-05",
+    "source_url": "https://crypto.news/galaxy-and-state-street-launch-solana-based-sweep-tokenized-cash-fund/",
+    "category": "asset_management",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Standard Chartered",
     "initiative": "Standard Chartered expands further into crypto with stake in GSR at $1 billion valuation",
     "description": "SC Ventures, Standard Chartered’s venture capital division takes a $150 million stake in crypto trading firm GSR at a valuation of more than $1 billion, according to Bloomberg.",
