@@ -101,6 +101,30 @@
     return el ? el.innerText.trim() : "";
   }
 
+  function extractTopInitiativeClassifications(card) {
+    const rows = card.querySelectorAll(".signal-details-grid > div");
+    for (const row of rows) {
+      const label = row.querySelector(".signal-details-label")?.innerText?.trim() || "";
+      if (/^top initiative relevance$/i.test(label)) {
+        return row.querySelector(".signal-details-values")?.innerText?.trim() || "";
+      }
+    }
+    return "";
+  }
+
+  function extractInstitutionCategory(card) {
+    const segmentChip = Array.from(card.querySelectorAll(".signal-chip-rank"))
+      .map((el) => el.innerText.trim())
+      .find((text) => /^segment\s+/i.test(text));
+    if (segmentChip) return segmentChip.replace(/^segment\s+/i, "").trim();
+
+    const signalTag = readField(card, ".signal-tag");
+    if (signalTag) return signalTag;
+
+    const tier = readField(card, ".priority-signal-badge") || readField(card, ".signal-importance-badge");
+    return tier || "Institutional";
+  }
+
   // ---------- Extract all relevant fields from a catalogue card ----------
   function extractSignalData(card) {
     return {
@@ -110,20 +134,25 @@
                       readField(card, ".priority-signal-card-date"),
       headline:       readField(card, ".signal-initiative") ||
                       readField(card, ".priority-signal-card-headline"),
+      initiative:     readField(card, ".priority-signal-card-initiative") ||
+                      extractTopInitiativeClassifications(card),
       momentum:       readField(card, ".signal-momentum-label"),
       momentumScore:  readField(card, ".signal-momentum-score"),
       importance:     readField(card, ".signal-importance-badge") ||
                       readField(card, ".priority-signal-badge"),
       importanceScore:readField(card, ".signal-importance-score"),
+      marketLabel:    readField(card, ".signal-market-context-label") || "Market Context",
       marketChip:     readField(card, ".signal-market-context-chip") ||
                       readField(card, ".priority-signal-market-chip"),
       marketConf:     readField(card, ".signal-market-context-confidence") ||
                       readField(card, ".priority-signal-market-confidence"),
+      marketSummary:  readField(card, ".signal-market-context-summary"),
       aiInsight:      readField(card, ".signal-ai-insight") ||
                       readField(card, ".priority-signal-card-insight"),
       description:    readField(card, ".signal-description"),
       source:         readField(card, ".signal-source") ||
                       readField(card, ".priority-signal-card-source"),
+      institutionCategory: extractInstitutionCategory(card),
       tags:           Array.from(card.querySelectorAll(".signal-tag"))
                           .map(t => t.innerText.trim()).slice(0, 3),
     };
@@ -138,6 +167,14 @@
     if (insight.length > 380) {
       insight = insight.slice(0, 377).replace(/\s+\S*$/, "") + "…";
     }
+    let description = (data.description || "").trim();
+    if (description.length > 340) {
+      description = description.slice(0, 337).replace(/\s+\S*$/, "") + "…";
+    }
+    let initiative = (data.initiative || "").trim();
+    if (initiative.length > 180) {
+      initiative = initiative.slice(0, 177).replace(/\s+\S*$/, "") + "…";
+    }
 
     const tierBadge = (data.importance || "Signal").toUpperCase();
     const tierClass = tierBadge.toLowerCase().includes("system")
@@ -146,7 +183,7 @@
       ? "strategic" : tierBadge.toLowerCase().includes("tactic")
       ? "tactical" : "monitoring";
 
-    const showMarket = data.marketChip && data.marketChip.length > 0;
+    const showMarket = (data.marketChip && data.marketChip.length > 0) || (data.marketSummary && data.marketSummary.length > 0);
 
     return `
       <div class="ss-stage-card">
@@ -191,24 +228,31 @@
 
           <h1 class="ss-headline">${escapeHTML(data.headline || "")}</h1>
 
+          ${initiative ? `
+            <div class="ss-initiative-row">
+              <span class="ss-initiative-label">Initiative Classification</span>
+              <span class="ss-initiative-value">${escapeHTML(initiative)}</span>
+            </div>
+          ` : ""}
+
           ${showMarket ? `
             <div class="ss-market-context">
-              <span class="ss-market-chip">${escapeHTML(data.marketChip)}</span>
-              ${data.marketConf ? `
-                <div class="ss-market-divider"></div>
-                <span class="ss-market-conf">Confidence: ${escapeHTML(data.marketConf)}</span>
-              ` : ""}
+              <span class="ss-market-label">${escapeHTML(data.marketLabel || "Market Context")}</span>
+              ${data.marketChip ? `<span class="ss-market-chip">${escapeHTML(data.marketChip)}</span>` : ""}
+              ${data.marketConf ? `<span class="ss-market-conf">Confidence: ${escapeHTML(data.marketConf)}</span>` : ""}
+              ${!data.marketChip && data.marketSummary ? `<span class="ss-market-conf">${escapeHTML(data.marketSummary)}</span>` : ""}
             </div>
           ` : ""}
 
           <div class="ss-insight">${escapeHTML(insight)}</div>
+          ${description ? `<div class="ss-description">${escapeHTML(description)}</div>` : ""}
 
           <div class="ss-footer">
             <div class="ss-source">
               <span class="ss-source-label">Source</span>
               <span class="ss-source-value">${escapeHTML(data.source || "")}</span>
             </div>
-            <div class="ss-cta">View in Signal Catalogue →</div>
+            <div class="ss-catalogue-copy">NextFi Advisors Signals from the Street | ${escapeHTML(data.institutionCategory || "Institutional")} Signal Catalogue</div>
           </div>
         </div>
 
@@ -307,10 +351,13 @@
       margin-bottom: 22px;
     }
     .ss-tier-badge {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
       padding: 6px 14px; border-radius: 999px;
       font-size: 11.5px; font-weight: 700;
       letter-spacing: 0.22em; text-transform: uppercase;
+      line-height: 1;
     }
     .ss-tier-badge[data-tier="system"]      { color: #cc3366; background: rgba(255,92,138,0.14); }
     .ss-tier-badge[data-tier="directional"] { color: #cc9900; background: rgba(255,194,51,0.16); }
@@ -352,6 +399,26 @@
       margin: 0 0 22px 0;
     }
 
+    .ss-initiative-row {
+      display: flex; align-items: center; gap: 10px;
+      margin: -6px 0 16px;
+      padding: 9px 12px;
+      border-radius: 8px;
+      background: #f7f9fc;
+      border: 1px solid #e7e9ef;
+    }
+    .ss-initiative-label {
+      font-family: 'JetBrains Mono', ui-monospace, monospace;
+      font-size: 10px; font-weight: 700;
+      letter-spacing: 0.14em; text-transform: uppercase;
+      color: #73798a;
+      white-space: nowrap;
+    }
+    .ss-initiative-value {
+      font-size: 13px; font-weight: 650;
+      color: #2a2e3a;
+    }
+
     .ss-market-context {
       display: flex; align-items: center; gap: 10px;
       padding: 10px 14px;
@@ -361,18 +428,37 @@
       margin-bottom: 22px;
       font-size: 13px;
     }
-    .ss-market-chip { font-weight: 700; color: #1a1c24; }
-    .ss-market-divider { width: 1px; height: 12px; background: #e7e9ef; }
-    .ss-market-conf { color: #9498a8; font-size: 12px; }
+    .ss-market-label {
+      font-family: 'JetBrains Mono', ui-monospace, monospace;
+      font-size: 10px; font-weight: 700;
+      letter-spacing: 0.14em; text-transform: uppercase;
+      color: #73798a;
+      white-space: nowrap;
+    }
+    .ss-market-chip {
+      display: inline-flex; align-items: center;
+      font-weight: 700; color: #1a1c24;
+      line-height: 1.25;
+    }
+    .ss-market-conf {
+      color: #9498a8; font-size: 12px;
+      display: inline-flex; align-items: center;
+      line-height: 1.25;
+    }
 
     .ss-insight {
       font-size: 17.5px; line-height: 1.55;
       color: #383b48;
-      flex: 1;
+    }
+
+    .ss-description {
+      margin-top: 16px;
+      font-size: 15px; line-height: 1.55;
+      color: #4a4f5f;
     }
 
     .ss-footer {
-      margin-top: 24px;
+      margin-top: auto;
       padding-top: 18px;
       border-top: 1px solid #e7e9ef;
       display: flex; align-items: center;
@@ -386,10 +472,13 @@
       color: #9498a8;
     }
     .ss-source-value { font-weight: 600; color: #383b48; }
-    .ss-cta {
-      font-size: 12.5px; font-weight: 700;
-      letter-spacing: 0.16em; text-transform: uppercase;
+    .ss-catalogue-copy {
+      font-size: 11.5px; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase;
       color: #1e3263;
+      text-align: right;
+      max-width: 56%;
+      line-height: 1.35;
     }
 
     /* Outer footer */
