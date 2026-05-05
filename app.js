@@ -140,6 +140,10 @@ function formatDisplayText(value) {
   return escapeHtml(decodeHtmlEntities(value));
 }
 
+function formatDisplayTextWithBreaks(value) {
+  return formatDisplayText(value).replace(/\n/g, '<br>');
+}
+
 function isSpeechStyleSignal(signal) {
   const sourceName = String(signal?.source_name || '').toLowerCase();
   const sourceUrl = String(signal?.source_url || '').toLowerCase();
@@ -2003,12 +2007,13 @@ function buildSignalDirectionalInsight(signal, importance) {
   const confidenceClause = confidence === 'baseline'
     ? ''
     : ` Lens fit: ${confidence}.`;
+  const audienceClause = `Most material audiences: ${audienceText}.${confidenceClause}`;
 
   if (isReporterSource(signal)) {
-    return `${teamPrefix}, reporting indicates momentum in ${leadTheme} ${stagePhrase}. ${narrative} Most material audiences: ${audienceText}.${confidenceClause}`;
+    return `${teamPrefix}, reporting indicates momentum in ${leadTheme} ${stagePhrase}. ${narrative}\n\n${audienceClause}`;
   }
 
-  return `${teamPrefix}, ${institution} is advancing ${leadTheme} ${stagePhrase}. ${narrative} Most material audiences: ${audienceText}.${confidenceClause}`;
+  return `${teamPrefix}, ${institution} is advancing ${leadTheme} ${stagePhrase}. ${narrative}\n\n${audienceClause}`;
 }
 
 const EXTERNAL_MARKET_CONTEXT = {
@@ -2521,6 +2526,33 @@ function getRecencyWeight(signal, stage = 'Unknown', materiality = 'Unknown') {
   return getMarketRecencyProfile(signal, stage, materiality).recencyWeight;
 }
 
+function getSignalStoryKey(signal) {
+  const institution = String(signal?.institution || '').toLowerCase();
+  const headline = String(signal?.initiative || '').toLowerCase();
+  const stopwords = new Set([
+    'the', 'and', 'for', 'with', 'from', 'into', 'onto', 'over', 'under', 'launch', 'launches', 'launched',
+    'fund', 'funds', 'designed', 'based', 'tokenized', 'vehicle', 'productive', 'cash', 'management', 'rolls',
+    'rolled', 'rollout', 'brings', 'bring', 'state', 'street', 'galaxy', 'announces', 'announce', 'on', 'to'
+  ]);
+  const tokens = `${institution} ${headline}`
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .split(/\s+/)
+    .map(token => token.trim())
+    .filter(token => token.length >= 4 && !stopwords.has(token));
+  const uniqueSorted = [...new Set(tokens)].sort();
+  if (!uniqueSorted.length) return getSignalKey(signal);
+  return `${String(signal?.institution_type || '').toLowerCase()}|${String(signal?.signal_type || '').toLowerCase()}|${uniqueSorted.slice(0, 6).join('|')}`;
+}
+
+function getStoryCorroborationWeight(signal, storyCounts, maxStoryCount) {
+  const storyKey = getSignalStoryKey(signal);
+  if (!storyKey) return 1;
+  const count = Math.max(1, storyCounts[storyKey] || 1);
+  const maxCount = Math.max(1, maxStoryCount || 1);
+  const normalized = Math.log1p(count) / Math.log1p(maxCount);
+  return 1 + (0.18 * normalized);
+}
+
 function getSourcePrevalenceWeight(sourceName, sourceCounts, maxSourceCount) {
   if (!sourceName) return 1;
   const count = Math.max(1, sourceCounts[sourceName] || 1);
@@ -2529,12 +2561,13 @@ function getSourcePrevalenceWeight(sourceName, sourceCounts, maxSourceCount) {
   return 1 + (0.35 * normalized);
 }
 
-function getSignalStrengthScore(signal, sourceCounts, maxSourceCount) {
+function getSignalStrengthScore(signal, sourceCounts, maxSourceCount, storyCounts = {}, maxStoryCount = 1) {
   const source = getSignalSourceName(signal);
   const meta = resolveSourceMeta(signal);
   const recencyWeight = getRecencyWeight(signal, getSignalStage(signal), getSignalMateriality(signal));
   const prevalenceWeight = getSourcePrevalenceWeight(source, sourceCounts, maxSourceCount);
-  return (meta.weight || 0.9) * recencyWeight * prevalenceWeight;
+  const corroborationWeight = getStoryCorroborationWeight(signal, storyCounts, maxStoryCount);
+  return (meta.weight || 0.9) * recencyWeight * prevalenceWeight * corroborationWeight;
 }
 
 const IMPORTANCE_STAGE_BY_SIGNAL_TYPE = {
@@ -2637,13 +2670,14 @@ function getImportanceSourcePrevalenceWeight(sourceName, sourceCounts, maxSource
   return 1 + (0.1 * normalized);
 }
 
-function computeSignalImportance(signal, sourceCounts, maxSourceCount) {
+function computeSignalImportance(signal, sourceCounts, maxSourceCount, storyCounts = {}, maxStoryCount = 1) {
   const source = getSignalSourceName(signal);
   const sourceMeta = resolveSourceMeta(signal);
 
   const sourceTier = sourceMeta.tier || 'Unclassified';
   const credibilityWeight = sourceMeta.weight || 0.7;
   const sourcePrevalenceWeight = getImportanceSourcePrevalenceWeight(source, sourceCounts, maxSourceCount);
+  const storyCorroborationWeight = getStoryCorroborationWeight(signal, storyCounts, maxStoryCount);
 
   const stage = getSignalStage(signal);
   const materiality = getSignalMateriality(signal);
@@ -2658,7 +2692,7 @@ function computeSignalImportance(signal, sourceCounts, maxSourceCount) {
     stageMaterialityWeight = Math.min(stageMaterialityWeight, IMPORTANCE_STAGE_MATERIALITY_CAP);
   }
 
-  const rawImportanceScore = credibilityWeight * recencyWeight * sourcePrevalenceWeight * stageMaterialityWeight;
+  const rawImportanceScore = credibilityWeight * recencyWeight * sourcePrevalenceWeight * storyCorroborationWeight * stageMaterialityWeight;
   const evidenceProfile = getSignalEvidenceProfile(signal);
   const evidencePenaltyFactor = evidenceProfile.hasAnyEvidence ? 1 : 0.72;
   const evidenceAdjustedScore = rawImportanceScore * evidencePenaltyFactor;
@@ -2684,6 +2718,7 @@ function computeSignalImportance(signal, sourceCounts, maxSourceCount) {
     freshnessWeight: recencyProfile.freshnessWeight,
     durabilityFloor: recencyProfile.durabilityFloor,
     sourcePrevalenceWeight,
+    storyCorroborationWeight,
     stageWeight,
     materialityWeight,
     stageMaterialityWeight,
@@ -2697,16 +2732,20 @@ function computeSignalImportance(signal, sourceCounts, maxSourceCount) {
 function recomputeSignalImportanceScores() {
   const signals = getOperationalSignals();
   const sourceCounts = {};
+  const storyCounts = {};
 
   signals.forEach(signal => {
     const source = getSignalSourceName(signal);
     if (!source) return;
     sourceCounts[source] = (sourceCounts[source] || 0) + 1;
+    const storyKey = getSignalStoryKey(signal);
+    if (storyKey) storyCounts[storyKey] = (storyCounts[storyKey] || 0) + 1;
   });
 
   const maxSourceCount = Math.max(1, ...Object.values(sourceCounts));
+  const maxStoryCount = Math.max(1, ...Object.values(storyCounts));
   signals.forEach(signal => {
-    signal._importance = computeSignalImportance(signal, sourceCounts, maxSourceCount);
+    signal._importance = computeSignalImportance(signal, sourceCounts, maxSourceCount, storyCounts, maxStoryCount);
   });
 }
 
@@ -2741,14 +2780,18 @@ function recalibrateImportanceThresholds(targetDistribution = { structural: 0.07
   }
 
   const sourceCounts = {};
+  const storyCounts = {};
   signals.forEach(s => {
     const source = getSignalSourceName(s);
     if (source) sourceCounts[source] = (sourceCounts[source] || 0) + 1;
+    const storyKey = getSignalStoryKey(s);
+    if (storyKey) storyCounts[storyKey] = (storyCounts[storyKey] || 0) + 1;
   });
   const maxSourceCount = Math.max(1, ...Object.values(sourceCounts));
+  const maxStoryCount = Math.max(1, ...Object.values(storyCounts));
 
   const scores = signals.map(s => {
-    const imp = computeSignalImportance(s, sourceCounts, maxSourceCount);
+    const imp = computeSignalImportance(s, sourceCounts, maxSourceCount, storyCounts, maxStoryCount);
     return imp.importanceScore;
   }).sort((a, b) => b - a);
 
@@ -4648,7 +4691,7 @@ function renderPrioritySignalsStrip() {
                <span class="priority-signal-market-confidence" title="External context confidence classification">${escapeHtml(marketContext.confidence)}</span>`
             : `<span class="priority-signal-market-unavailable">Market context unavailable</span>`}
         </div>
-        <div class="priority-signal-card-insight">${formatDisplayText(insight)}</div>
+        <div class="priority-signal-card-insight">${formatDisplayTextWithBreaks(insight)}</div>
         <div class="priority-signal-card-footer">
           <div class="priority-signal-card-links">
             ${url !== '#' ? `<a href="${url}" target="_blank" rel="noopener noreferrer" class="priority-signal-card-source"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>${domain}</a>` : ''}
@@ -4929,7 +4972,7 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
       <div class="signal-why">Global lens: ${importance.stage} stage | ${importance.materiality} materiality | ${importance.sourceTier} source credibility</div>
       <div class="signal-ai-insight">
         <div class="signal-ai-title">AI Why This Matters</div>
-        <p>${formatDisplayText(directionalInsight)}</p>
+        <p>${formatDisplayTextWithBreaks(directionalInsight)}</p>
       </div>
       <div class="signal-description">${formatDisplayText(cardDescription)}</div>
       ${hasLong ? '<button class="description-expand-btn">Read more</button>' : ''}
@@ -5022,12 +5065,16 @@ function renderPopularityAnalysis() {
         .replace('Digital Asset Strategy', 'Digital Strategy'));
 
   const sourceCounts = {};
+  const storyCounts = {};
   signals.forEach(signal => {
     const source = getSignalSourceName(signal);
     if (!source) return;
     sourceCounts[source] = (sourceCounts[source] || 0) + 1;
+    const storyKey = getSignalStoryKey(signal);
+    if (storyKey) storyCounts[storyKey] = (storyCounts[storyKey] || 0) + 1;
   });
   const maxSourceCount = Math.max(1, ...Object.values(sourceCounts));
+  const maxStoryCount = Math.max(1, ...Object.values(storyCounts));
   const cellDetails = {};
 
   const strengthMatrix = instTypes.map(() => colTypes.map(() => 0));
@@ -5038,7 +5085,7 @@ function renderPopularityAnalysis() {
     const rowIndex = instTypes.indexOf(signal.institution_type);
     if (rowIndex < 0) return;
 
-    const score = getSignalStrengthScore(signal, sourceCounts, maxSourceCount);
+    const score = getSignalStrengthScore(signal, sourceCounts, maxSourceCount, storyCounts, maxStoryCount);
 
     const colField = isFmiMode ? (signal.fmi_areas || []) : (signal.initiative_types || []);
     colField.forEach(col => {
