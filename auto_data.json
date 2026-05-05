@@ -1,5 +1,25 @@
 [
   {
+    "institution": "Circle",
+    "initiative": "Crypto stocks rally amid Clarity Act momentum; Circle jumps nearly 20%",
+    "description": "Sens. Alsobrooks and Tillis finalized a compromise Friday on language governing stablecoin yields in the Clarity Act.",
+    "date": "2026-05-04",
+    "source_url": "https://www.theblock.co/post/399973/crypto-stocks-rally-circle-jumps",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Bank trade groups say Senate stablecoin reward fix ‘falls short’ amid deposit protection concerns",
     "description": "Major banking trade groups said a proposed fix to a key sticking point in passing crypto market structure legislation 'falls short.'",
@@ -30,9 +50,9 @@
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Collateral & Lending"
+      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
@@ -110,13 +130,9 @@
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Pilot / Trial",
     "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Trading & Exchange"
+      "Custody & Safekeeping"
     ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -187,12 +203,9 @@
     "institution_type": "Exchanges & Central Intermediaries",
     "signal_type": "Product Launch",
     "fmi_areas": [
-      "Settlement & Clearing"
+      "General Infrastructure"
     ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -216,21 +229,20 @@
     "year": "2026"
   },
   {
-    "institution": "BlackRock",
+    "institution": "DTCC",
     "initiative": "Ondo joins DTCC tokenization working group for U.S. markets",
     "description": "The Depository Trust & Clearing Corporation has launched an industry working… DTCC has formed a tokenization working group for U.S. Ondo joins DTCC tokenization working group for U.S. markets",
     "date": "2026-05-04",
     "source_url": "https://crypto.news/ondo-joins-dtcc-tokenization-working-group-for-u-s-markets/",
-    "category": "asset_management",
+    "category": "exchanges_intermediaries",
     "source_name": "crypto.news",
     "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
+    "institution_type": "Exchanges & Central Intermediaries",
     "signal_type": "Product Launch",
     "fmi_areas": [
       "Settlement & Clearing"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
     "year": "2026"
@@ -444,7 +456,6 @@
     "fmi_areas": [
       "Collateral & Lending",
       "Regulation & Compliance",
-      "Interoperability & Standards",
       "Data & Reporting"
     ],
     "initiative_types": [],
@@ -489,7 +500,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
@@ -1078,14 +1088,9 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Product Launch",
     "fmi_areas": [
-      "Settlement & Clearing",
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Data & Reporting"
+      "Regulation & Compliance"
     ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -1102,7 +1107,6 @@
     "fmi_areas": [
       "Collateral & Lending",
       "Trading & Exchange",
-      "Regulation & Compliance",
       "Data & Reporting"
     ],
     "initiative_types": [],
@@ -1138,7 +1142,6 @@
     "signal_type": "Product Launch",
     "fmi_areas": [
       "Collateral & Lending",
-      "Trading & Exchange",
       "Regulation & Compliance"
     ],
     "initiative_types": [],
@@ -1561,14 +1564,12 @@
     "institution_type": "Payments Providers",
     "signal_type": "Product Launch",
     "fmi_areas": [
-      "Settlement & Clearing",
       "Payments & Transfers",
       "Digital Currency & Stablecoins"
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
+      "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
   },
@@ -2153,67 +2154,6 @@
     "year": "2026"
   },
   {
-    "institution": "Chainalysis",
-    "initiative": "Australia’s Crypto Crossroads: Regulation is Here, Now Comes the Hard Part",
-    "description": "Australian exchanges should not treat April 2027 as the first compliance date. AUSTRAC obligations and readiness expectations are already… Australia’s Crypto Crossroads: Regulation is Here, Now Comes the Hard Part",
-    "date": "2026-04-28",
-    "source_url": "https://www.chainalysis.com/blog/australia-crypto-crossroads-2026/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "U.S. Government Unveils Sweeping Enforcement Actions Against Southeast Asian Scam Centers and Crypto Fraud Networks",
-    "description": "In a massive coordinated interagency effort, the Department of Justice (DOJ), the Department of the Treasury’s Office of Foreign… U.S. Government Unveils Sweeping Enforcement Actions Against Southeast Asian Scam Centers and Crypto Fraud Networks",
-    "date": "2026-04-24",
-    "source_url": "https://www.chainalysis.com/blog/asian-scam-centers-crypto-fraud-april-2026/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "EU’s 20th Russia Sanctions Package Signals a New Era of Crypto-Specific Enforcement",
-    "description": "The EU’s 20th Russia sanctions package introduces a total sectoral ban on Russia-based crypto service providers and decentralized platforms,… EU’s 20th Russia Sanctions Package Signals a New Era of Crypto-Specific Enforcement",
-    "date": "2026-04-24",
-    "source_url": "https://www.chainalysis.com/blog/eu-russia-sactions-package-april-2026/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
     "institution": "BIS",
     "initiative": "Cryptoasset service providers as financial intermediaries: risks and policy approaches",
     "description": "The largest firms now offer a broad range of products, including yield/earn programmes, margin and secured lending, derivatives and token issuance. Some of these products closely resemble financial intermediation activities traditionally performed by banks and prime brokers.",
@@ -2223,53 +2163,13 @@
     "source_name": "BIS — Research Papers",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
+    "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
-      "Custody & Safekeeping",
       "Collateral & Lending",
       "Trading & Exchange"
     ],
     "initiative_types": [
       "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "Inside the KelpDAO Bridge Exploit: How ~$292 Million in rsETH Was Released Against a Non-Existent Burn",
-    "description": "On April 18, 2026, attackers linked to North Korea’s Lazarus Group stole ~$292 million (116,500 rsETH) from KelpDAO’s LayerZero… Inside the KelpDAO Bridge Exploit: How ~$292 Million in rsETH Was Released Against a Non-Existent Burn",
-    "date": "2026-04-23",
-    "source_url": "https://www.chainalysis.com/blog/kelpdao-bridge-exploit-april-2026/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "$30 Billion and Counting: How Tokenized RWAs Are Becoming a Mainstream Investment for Institutional Capital",
-    "description": "This blog is a preview of our forthcoming report, “The New Rails: How Digital Assets Are Reshaping the Foundations of… $30 Billion and Counting: How Tokenized RWAs Are Becoming a Mainstream Investment for Institutional Capital",
-    "date": "2026-04-23",
-    "source_url": "https://www.chainalysis.com/blog/tokenized-real-world-assets-on-chain-commodities/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -2303,7 +2203,7 @@
     "institution_type": "Global Banks",
     "signal_type": "Investment / M&A",
     "fmi_areas": [
-      "Data & Reporting"
+      "General Infrastructure"
     ],
     "initiative_types": [],
     "year": "2026"
@@ -2327,7 +2227,7 @@
     "year": "2026"
   },
   {
-    "institution": "ESMA (European Securities and Markets Authority)",
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "SEC confirms exemption for directors and officers of EEA Foreign Private Issuers",
     "description": "SEC confirms exemption for directors and officers of EEA Foreign Private Issuers 18 March 2026 Market Abuse Post Trading The United States Securities and Exchange Commission (SEC) has decided to exempt directors and officers of European Economic Area (EEA) foreign private issuers (FPIs) from the reporting requirements under Section 16(a) of the US Securities Exchange Act of 1934.",
     "date": "2026-04-22",
@@ -2340,7 +2240,6 @@
     "fmi_areas": [
       "Collateral & Lending",
       "Trading & Exchange",
-      "Regulation & Compliance",
       "Data & Reporting"
     ],
     "initiative_types": [],
@@ -2541,12 +2440,9 @@
     "source_name": "ESMA — News",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
+    "signal_type": "Regulatory Action",
     "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
+      "Regulation & Compliance"
     ],
     "initiative_types": [],
     "year": "2026"
@@ -2602,21 +2498,12 @@
     "source_name": "ESMA — News",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
+    "signal_type": "Regulatory Action",
     "fmi_areas": [
-      "Settlement & Clearing",
       "Collateral & Lending",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance",
-      "Interoperability & Standards",
-      "Data & Reporting"
+      "Regulation & Compliance"
     ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -2729,7 +2616,6 @@
     "fmi_areas": [
       "Collateral & Lending",
       "Regulation & Compliance",
-      "Interoperability & Standards",
       "Data & Reporting"
     ],
     "initiative_types": [],
@@ -3163,7 +3049,6 @@
       "Collateral & Lending"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
@@ -3183,7 +3068,6 @@
     "fmi_areas": [
       "Trading & Exchange",
       "Regulation & Compliance",
-      "Interoperability & Standards",
       "Data & Reporting"
     ],
     "initiative_types": [],
@@ -3436,8 +3320,6 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Strategic Partnership",
     "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
       "Regulation & Compliance",
       "Data & Reporting"
     ],
@@ -3730,9 +3612,7 @@
       "Trading & Exchange",
       "Regulation & Compliance"
     ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -4103,10 +3983,9 @@
     "source_name": "ESMA — News",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
+    "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Collateral & Lending",
-      "Interoperability & Standards",
       "Data & Reporting"
     ],
     "initiative_types": [],
@@ -4122,7 +4001,7 @@
     "source_name": "ESMA — News",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
+    "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Collateral & Lending",
       "Trading & Exchange",
@@ -4402,8 +4281,7 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Product Launch",
     "fmi_areas": [
-      "Regulation & Compliance",
-      "Data & Reporting"
+      "Regulation & Compliance"
     ],
     "initiative_types": [],
     "year": "2026"
@@ -5001,26 +4879,6 @@
     "year": "2026"
   },
   {
-    "institution": "Chainalysis",
-    "initiative": "Iran’s Strait of Hormuz Crypto Toll: An Evolution of Tehran’s Expanding Use of Digital Assets",
-    "description": "Bloomberg reported on April 1, 2026 that Iran’s Islamic Revolutionary Guard Corps (IRGC) was already extracting transit tolls from… Iran’s Strait of Hormuz Crypto Toll: An Evolution of Tehran’s Expanding Use of Digital Assets",
-    "date": "2026-04-10",
-    "source_url": "https://www.chainalysis.com/blog/iran-strait-of-hormuz-crypto-toll/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
     "institution": "Visa",
     "initiative": "How B2B Payment Leaders Can Avoid Losing Their Competitive Advantage",
     "description": "In this FinextraTV 2026 interview, Saskia Devolder, Head of Visa Direct, Central Europe, discussed how banks can avoid losing their grip on B2B payments and maintain leadership in B2B cross-border payments. Devolder discusses the shifting expectations around transparency for clients, real-time payments, user experience, and how these expectations create a new era for cross-border payments.",
@@ -5033,7 +4891,6 @@
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Payments & Transfers",
-      "Interoperability & Standards",
       "Data & Reporting"
     ],
     "initiative_types": [
@@ -5073,27 +4930,7 @@
       "General Infrastructure"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "The Drift Protocol Hack: How Privileged Access Led to a $285 Million Loss",
-    "description": "On April 1, 2026, Solana’s Drift Protocol was drained of $285 million (over 50% of its TVL) in a… The Drift Protocol Hack: How Privileged Access Led to a $285 Million Loss",
-    "date": "2026-04-09",
-    "source_url": "https://www.chainalysis.com/blog/lessons-from-the-drift-hack/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
   },
@@ -5158,7 +4995,7 @@
     "source_name": "BIS — Research Papers",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
+    "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
       "Data & Reporting"
     ],
@@ -5233,10 +5070,9 @@
     "source_name": "BIS — Research Papers",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Investment / M&A",
     "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance"
+      "Collateral & Lending"
     ],
     "initiative_types": [],
     "year": "2026"
@@ -5268,7 +5104,7 @@
     "source_name": "Finextra",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
+    "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Trading & Exchange",
       "Digital Currency & Stablecoins",
@@ -5621,27 +5457,23 @@
     "source_name": "FCA — News",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
+    "signal_type": "Regulatory Action",
     "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Data & Reporting"
+      "Regulation & Compliance"
     ],
-    "initiative_types": [
-      "DeFi"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
-    "institution": "Barclays",
+    "institution": "FCA (Financial Conduct Authority, UK)",
     "initiative": "Sapia agrees to pay more than £19m to WealthTek clients after failing to protect client money",
     "description": "Sapia has agreed to make a voluntary payment of £19,637,950 to WealthTek clients and the FCA has censured the firm. Sapia began working with WealthTek in 2013 and later appointed it as one of its appointed representatives. Sapia agrees to pay more than £19m to WealthTek clients after failing to protect client money",
     "date": "2026-01-01",
     "source_url": "https://www.fca.org.uk/news/press-releases/sapia-agrees-pay-more-than-19m-to-wealthtek-clients",
-    "category": "global_banks",
+    "category": "regulators",
     "source_name": "FCA — News",
     "auto_generated": true,
-    "institution_type": "Global Banks",
+    "institution_type": "Regulatory Agencies",
     "signal_type": "Leadership & Governance",
     "fmi_areas": [],
     "initiative_types": [
@@ -5659,15 +5491,11 @@
     "source_name": "FCA — News",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
+      "General Infrastructure"
     ],
-    "initiative_types": [
-      "DeFi"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -5680,10 +5508,9 @@
     "source_name": "FCA — News",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Regulation & Compliance",
-      "Data & Reporting"
+      "General Infrastructure"
     ],
     "initiative_types": [],
     "year": "2026"
@@ -5698,11 +5525,11 @@
     "source_name": "FCA — News",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
     ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -5717,7 +5544,7 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
-      "Regulation & Compliance"
+      "General Infrastructure"
     ],
     "initiative_types": [],
     "year": "2026"
@@ -5732,7 +5559,7 @@
     "source_name": "FCA — News",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
     ],
@@ -5749,9 +5576,9 @@
     "source_name": "FCA — News",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
-      "Regulation & Compliance"
+      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
@@ -5770,7 +5597,6 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
-      "Collateral & Lending",
       "Regulation & Compliance"
     ],
     "initiative_types": [],
@@ -5807,10 +5633,7 @@
     "fmi_areas": [
       "Regulation & Compliance"
     ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -5840,9 +5663,8 @@
     "source_name": "FCA — News",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
+    "signal_type": "Regulatory Action",
     "fmi_areas": [
-      "Payments & Transfers",
       "Regulation & Compliance"
     ],
     "initiative_types": [],
@@ -5858,11 +5680,11 @@
     "source_name": "FCA — News",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
     ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -5913,10 +5735,6 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Product Launch",
     "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Interoperability & Standards",
       "Data & Reporting"
     ],
     "initiative_types": [],
@@ -5952,8 +5770,7 @@
     "signal_type": "Product Launch",
     "fmi_areas": [
       "Trading & Exchange",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
+      "Regulation & Compliance"
     ],
     "initiative_types": [],
     "year": "2026"
