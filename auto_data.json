@@ -1,5 +1,25 @@
 [
   {
+    "institution": "Ripple",
+    "initiative": "Ripple to share North Korean threat intelligence with crypto firms",
+    "description": "Ripple said April's $285 million Drift breach revealed a new pattern of long-cycle social engineering replacing traditional smart contract exploits.",
+    "date": "2026-05-05",
+    "source_url": "https://www.coindesk.com/tech/2026/05/05/ripple-to-share-north-korean-threat-intelligence-with-crypto-firms",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinGeek",
     "initiative": "Stablecoins to hit $5T in B2B payments by 2035: Juniper Research",
     "description": "New research sees cross-border B2B stablecoin flows hitting $5T by 2035, reaching 85% share as enterprise use and 24/7 settlement drive payments shift.",
