@@ -1,5 +1,80 @@
 [
   {
+    "institution": "Standard Chartered",
+    "initiative": "Standard Chartered expands further into crypto with stake in GSR at $1 billion valuation",
+    "description": "SC Ventures, Standard Chartered’s venture capital division takes a $150 million stake in crypto trading firm GSR at a valuation of more than $1 billion, according to Bloomberg.",
+    "date": "2026-05-05",
+    "source_url": "https://www.coindesk.com/business/2026/05/05/standard-chartered-expands-further-into-crypto-with-stake-in-gsr-at-usd1-billion-valuation",
+    "category": "global_banks",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase cuts 14% of staff as AI reshapes how crypto companies operate",
+    "description": "Brian Armstrong, the CEO at Coinbase, announced a workforce reduction of roughly 660 from its current 4,700.",
+    "date": "2026-05-05",
+    "source_url": "https://www.coindesk.com/business/2026/05/05/coinbase-cuts-14-of-staff-as-ai-reshapes-how-crypto-companies-operate",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinShares",
+    "initiative": "Global crypto ETP inflow streak extends to five weeks, masking sharp intraweek reversal: CoinShares",
+    "description": "The inflows mark the fifth straight positive week, though the total masked strong outflows that were reversed by a single session on Friday.",
+    "date": "2026-05-05",
+    "source_url": "https://www.theblock.co/post/400016/global-crypto-etp-inflow-streak-extends-to-five-weeks-masking-sharp-intraweek-reversal-coinshares",
+    "category": "asset_management",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase to cut 14% of workforce as Armstrong pushes AI-native structure",
+    "description": "Coinbase will cut 14% of its workforce as Brian Armstrong moves the exchange toward leaner teams, fewer layers and AI-native operations.",
+    "date": "2026-05-05",
+    "source_url": "https://crypto.news/coinbase-to-cut-14-of-workforce-as-armstrong-pushes-ai-native-structure/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Tether",
     "initiative": "Tether begins first stablecoin audit as Lutnick loan scrutiny mounts",
     "description": "Tether posts strong Q1 profits as its long-awaited audit begins, while Senate scrutiny, controversial loans, and global stablecoin regulations intensify.",
