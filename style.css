@@ -2693,6 +2693,43 @@
 .signal-source:hover {
   text-decoration: underline;
 }
+.signal-multi-source {
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+.signal-multi-source:hover {
+  text-decoration: none;
+}
+.signal-multi-source-tooltip {
+  display: none;
+  position: absolute;
+  bottom: calc(100% + 4px);
+  left: 0;
+  background: #fff;
+  border: 1px solid var(--color-divider);
+  border-radius: var(--radius-sm);
+  padding: 6px 10px;
+  min-width: 160px;
+  z-index: 20;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  flex-direction: column;
+  gap: 4px;
+}
+.signal-multi-source:hover .signal-multi-source-tooltip,
+.signal-multi-source:focus .signal-multi-source-tooltip {
+  display: flex;
+}
+.signal-multi-source-tooltip a,
+.signal-multi-source-tooltip span {
+  font-size: var(--text-xs);
+  color: var(--color-primary);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.signal-multi-source-tooltip a:hover {
+  text-decoration: underline;
+}
 .signal-source svg {
   width: 12px;
   height: 12px;
