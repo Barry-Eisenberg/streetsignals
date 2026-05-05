@@ -290,7 +290,8 @@
     // Brand name
     ctx.fillStyle = C.navy;
     ctx.font = "bold 12px 'Inter', -apple-system, BlinkMacSystemFont, sans-serif";
-    const brandLabel = "SIGNALS FROM THE STREET (SftS)";
+    const brandMaxW = Math.max(140, (W - MX) - (bx + 220));
+    const brandLabel = fitTextToWidth(ctx, "SIGNALS FROM THE STREET (SftS)", brandMaxW);
     ctx.fillText(brandLabel, bx, MY);
     const ssW = ctx.measureText(brandLabel).width;
 
@@ -305,12 +306,27 @@
 
     ctx.fillStyle = C.muted;
     ctx.font = "500 12px 'Inter', -apple-system, BlinkMacSystemFont, sans-serif";
-    ctx.fillText("DLT & Digital Asset Intelligence", afterBrandX + 12, MY);
+    const descriptorX = afterBrandX + 12;
+    const descriptorMaxW = Math.max(90, W - MX - descriptorX);
+    const descriptor = fitTextToWidth(ctx, "DLT & Digital Asset Intelligence", descriptorMaxW);
+    ctx.fillText(descriptor, descriptorX, MY);
   }
 
   function normalizeCatalogueName(name) {
     const raw = String(name || "Institutional").trim();
     return raw.replace(/^(?:#|no\.?\s*)?\s*\d+\s*[.)\-:]?\s*/i, "").trim() || "Institutional";
+  }
+
+  function fitTextToWidth(ctx, text, maxWidth) {
+    const src = String(text || "").trim();
+    if (!src) return "";
+    if (ctx.measureText(src).width <= maxWidth) return src;
+    const ell = "...";
+    let out = src;
+    while (out.length > 1 && ctx.measureText(out + ell).width > maxWidth) {
+      out = out.slice(0, -1);
+    }
+    return out.length > 1 ? out.trimEnd() + ell : ell;
   }
 
   // ---------- Hook extraction ----------
@@ -403,14 +419,20 @@
 
     // ---- Eyebrow: INSTITUTION · CATEGORY · DATE ----
     const catalogueName = normalizeCatalogueName(data.institutionCategory).toUpperCase();
-    const eyebrowParts = [
+    ctx.font = "bold 13px 'JetBrains Mono', ui-monospace, monospace";
+    const institutionMaxW = Math.max(120, CW * 0.40);
+    const fittedInstitution = fitTextToWidth(
+      ctx,
       (data.institution || "").toUpperCase(),
+      institutionMaxW
+    );
+    const eyebrowParts = [
+      fittedInstitution,
       (data.date || "").toUpperCase(),
       catalogueName + " SIGNAL CATALOGUE",
     ].filter(Boolean);
     const eyebrow = eyebrowParts.join("  ·  ");
 
-    ctx.font = "bold 13px 'JetBrains Mono', ui-monospace, monospace";
     ctx.fillStyle = C.accent;
     ctx.textBaseline = "middle";
     // truncate eyebrow so it doesn't overlap the badge
