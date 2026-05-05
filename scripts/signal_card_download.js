@@ -299,6 +299,43 @@
     ctx.fillText("  .  DLT & Digital Asset Intelligence", bx + ssW, MY);
   }
 
+  // ---------- Hook extraction ----------
+  // Returns { hook, subtitle } — hook is the short anchor word/stat, subtitle explains it.
+  function extractHook(data) {
+    const combined = (data.headline || "") + " " + (data.aiInsight || "");
+
+    // Priority 1: recognisable stat/number pattern ($390B, <1%, 27%, $1.4T, >50x)
+    const numMatch = combined.match(/[<>$€£][\d.,]+[%BMKTbmkt]?|\d[\d.,]*[%BMKTbmkt]/);
+    if (numMatch) {
+      const s = numMatch[0].replace(/\s+/g, "");
+      if (s.length >= 2 && s.length <= 9) {
+        return { hook: s, subtitle: data.marketSummary || _firstSentence(data.aiInsight) };
+      }
+    }
+
+    // Priority 2: short marketChip (asset name / label, ≤ 12 chars)
+    if (data.marketChip && data.marketChip.trim().length <= 12) {
+      return { hook: data.marketChip.trim(), subtitle: data.marketSummary || _firstSentence(data.aiInsight) };
+    }
+
+    // Priority 3: first all-caps token from initiative that looks like a ticker
+    const initWords = (data.initiative || "").split(/[\s,·\/]+/);
+    const ticker = initWords.find(w => /^[A-Z]{2,8}$/.test(w));
+    if (ticker) {
+      return { hook: ticker, subtitle: data.marketSummary || _firstSentence(data.aiInsight) };
+    }
+
+    return { hook: null, subtitle: "" };
+  }
+
+  function _firstSentence(text) {
+    if (!text) return "";
+    const clean = text.replace(/^AI WHY THIS MATTERS\s*\n+/i, "").trim();
+    const m = clean.match(/^[^.!?]+[.!?]/);
+    return m ? m[0].trim() : clean.split(/\n/)[0].trim();
+  }
+
+  // ---------- Card drawing (template-aligned layout) ----------
   function drawCard(ctx, data) {
     // Shadow
     ctx.save();
@@ -323,194 +360,165 @@
 
     let cy = CARD_Y + CPT;
 
-    // ---- Tier badge ----
-    const importanceText = (data.importance || "Signal").toUpperCase();
-    const tierKey = importanceText.toLowerCase().includes("system")     ? "system"
-                  : importanceText.toLowerCase().includes("direct")     ? "directional"
-                  : importanceText.toLowerCase().includes("strateg")    ? "strategic"
-                  : importanceText.toLowerCase().includes("tactic")     ? "tactical"
-                  : "monitoring";
-    const tier = TIER_COLORS[tierKey];
-
-    const BADGE_H   = 26;
-    const BADGE_PAD = 14;
-    ctx.font = "bold 11px 'Inter', -apple-system, sans-serif";
-    const badgeTextW = ctx.measureText(importanceText).width;
-    const badgeW     = badgeTextW + BADGE_PAD * 2;
-
-    ctx.fillStyle = tier.bg;
-    roundRectPath(ctx, CX, cy, badgeW, BADGE_H, 999);
-    ctx.fill();
-
-    ctx.fillStyle = tier.text;
-    ctx.textBaseline = "middle";
-    ctx.fillText(importanceText, CX + BADGE_PAD, cy + BADGE_H / 2);
-
-    // Momentum
-    if (data.momentum) {
-      const mText = data.momentum.toUpperCase();
-      const DOT_X = CX + badgeW + 16 + 3;
-      const DOT_Y = cy + BADGE_H / 2;
-      ctx.fillStyle = C.accent;
-      ctx.beginPath();
-      ctx.arc(DOT_X, DOT_Y, 3, 0, Math.PI * 2);
-      ctx.fill();
-      ctx.font = "bold 11px 'Inter', -apple-system, sans-serif";
-      ctx.fillStyle = C.accent;
-      ctx.textBaseline = "middle";
-      ctx.fillText(mText, DOT_X + 10, DOT_Y);
-    }
-
-    cy += BADGE_H + 20;
-
-    // ---- Institution + Date ----
-    ctx.textBaseline = "alphabetic";
-    ctx.font = "bold 21px 'Inter', -apple-system, sans-serif";
-    ctx.fillStyle = C.dark;
-    ctx.fillText(data.institution || "", CX, cy + 21);
-
-    ctx.font = "500 13px 'Inter', -apple-system, sans-serif";
-    ctx.fillStyle = C.muted;
-    ctx.textAlign = "right";
-    ctx.fillText(data.date || "", CX + CW, cy + 21);
-    ctx.textAlign = "left";
-
-    cy += 21 + 16;
-
-    // Divider below institution
-    ctx.strokeStyle = C.border;
-    ctx.lineWidth = 1;
-    ctx.beginPath();
-    ctx.moveTo(CX, cy);
-    ctx.lineTo(CX + CW, cy);
-    ctx.stroke();
-    cy += 18;
-
-    // ---- Headline ----
-    ctx.font = "bold 34px 'Inter', -apple-system, sans-serif";
-    ctx.fillStyle = C.dark;
-    ctx.textBaseline = "alphabetic";
-    const LH_H = 34 * 1.18;
-    const hLines = getWrappedLines(ctx, data.headline || "", CW);
-    const hShown = Math.min(hLines.length, 3);
-    for (let i = 0; i < hShown; i++) {
-      ctx.fillText(hLines[i], CX, cy + LH_H * (i + 1) - 6);
-    }
-    cy += hShown * LH_H + 22;
-
-    // ---- Initiative row ----
-    if (data.initiative) {
-      const ROW_H = 42;
-      ctx.fillStyle = C.rowBg;
-      roundRectPath(ctx, CX, cy, CW, ROW_H, 8);
-      ctx.fill();
-      ctx.strokeStyle = C.border;
-      ctx.lineWidth = 1;
-      roundRectPath(ctx, CX, cy, CW, ROW_H, 8);
-      ctx.stroke();
-
-      const rMY = cy + ROW_H / 2;
-      ctx.textBaseline = "middle";
-      ctx.font = "bold 10px 'JetBrains Mono', ui-monospace, monospace";
-      ctx.fillStyle = "#73798a";
-      ctx.fillText("INITIATIVE CLASSIFICATION", CX + 14, rMY);
-
-      ctx.font = "700 13px 'Inter', -apple-system, sans-serif";
-      ctx.fillStyle = "#2a2e3a";
-      ctx.fillText(data.initiative, CX + 232, rMY);
-
-      cy += ROW_H + 14;
-    }
-
-    // ---- Market context row ----
-    const marketText = data.marketChip || data.marketSummary || "";
-    if (marketText) {
-      const ROW_H = 42;
-      ctx.fillStyle = C.rowBg;
-      roundRectPath(ctx, CX, cy, CW, ROW_H, 8);
-      ctx.fill();
-      ctx.strokeStyle = C.border;
-      ctx.lineWidth = 1;
-      roundRectPath(ctx, CX, cy, CW, ROW_H, 8);
-      ctx.stroke();
-
-      const rMY = cy + ROW_H / 2;
-      ctx.textBaseline = "middle";
-
-      ctx.font = "bold 10px 'JetBrains Mono', ui-monospace, monospace";
-      ctx.fillStyle = "#73798a";
-      ctx.fillText("MARKET CONTEXT", CX + 14, rMY);
-
-      // Measure confidence text so chip doesn't overlap
-      const confStr = data.marketConf ? "Confidence: " + data.marketConf : "";
-      ctx.font = "12px 'Inter', -apple-system, sans-serif";
-      const confW = confStr ? ctx.measureText(confStr).width + 24 : 0;
-
-      // Chip text — truncate to fit
-      const chipMaxW = CW - 186 - confW - 20;
-      ctx.font = "bold 13px 'Inter', -apple-system, sans-serif";
-      ctx.fillStyle = C.dark;
-      let chipText = marketText;
-      while (chipText.length > 4 && ctx.measureText(chipText).width > chipMaxW) {
-        chipText = chipText.slice(0, -1);
-      }
-      if (chipText !== marketText) chipText = chipText.trimEnd() + "\u2026";
-      ctx.fillText(chipText, CX + 186, rMY);
-
-      if (confStr) {
-        ctx.font = "12px 'Inter', -apple-system, sans-serif";
-        ctx.fillStyle = C.muted;
-        ctx.textAlign = "right";
-        ctx.fillText(confStr, CX + CW - 14, rMY);
-        ctx.textAlign = "left";
-      }
-
-      cy += ROW_H + 20;
-    }
-
-    // ---- Footer — pinned to card bottom ----
+    // ---- Pinned footer geometry (computed early, drawn last) ----
     const FOOTER_H = 44;
     const FOOTER_Y = CARD_Y + CARD_H - CPB - FOOTER_H;
     const BODY_MAX_Y = FOOTER_Y - 14;
 
-    // ---- AI Insight ----
-    let insight = (data.aiInsight || "").replace(/^AI WHY THIS MATTERS\s*\n+/i, "").trim();
-    if (!insight) insight = (data.description || "").trim();
+    // ---- Tier badge (right-aligned) ----
+    const importanceText = (data.importance || "Signal").toUpperCase();
+    const tierKey = importanceText.toLowerCase().includes("system")    ? "system"
+                  : importanceText.toLowerCase().includes("direct")    ? "directional"
+                  : importanceText.toLowerCase().includes("strateg")   ? "strategic"
+                  : importanceText.toLowerCase().includes("tactic")    ? "tactical"
+                  : "monitoring";
+    const tier = TIER_COLORS[tierKey];
+    const BADGE_H   = 22;
+    const BADGE_PAD = 12;
+    ctx.font = "bold 10px 'Inter', -apple-system, sans-serif";
+    const badgeTextW = ctx.measureText(importanceText).width;
+    const badgeW     = badgeTextW + BADGE_PAD * 2;
+    const badgeX     = CX + CW - badgeW;
 
-    if (insight && cy < BODY_MAX_Y - 30) {
-      const LH = Math.round(15.5 * 1.48);
-      ctx.font = "15.5px 'Inter', -apple-system, sans-serif";
+    ctx.fillStyle = tier.bg;
+    roundRectPath(ctx, badgeX, cy + 2, badgeW, BADGE_H, 999);
+    ctx.fill();
+    ctx.fillStyle = tier.text;
+    ctx.textBaseline = "middle";
+    ctx.fillText(importanceText, badgeX + BADGE_PAD, cy + 2 + BADGE_H / 2);
+
+    // ---- Eyebrow: INSTITUTION · CATEGORY · DATE ----
+    const eyebrowParts = [
+      (data.institution || "").toUpperCase(),
+      (data.institutionCategory || "").toUpperCase(),
+      (data.date || "").toUpperCase(),
+    ].filter(Boolean);
+    const eyebrow = eyebrowParts.join("  ·  ");
+
+    ctx.font = "bold 11px 'JetBrains Mono', ui-monospace, monospace";
+    ctx.fillStyle = C.accent;
+    ctx.textBaseline = "middle";
+    // truncate eyebrow so it doesn't overlap the badge
+    let eyebrowText = eyebrow;
+    const eyebrowMaxW = badgeX - CX - 20;
+    while (eyebrowText.length > 4 && ctx.measureText(eyebrowText).width > eyebrowMaxW) {
+      eyebrowText = eyebrowText.slice(0, eyebrowText.lastIndexOf("  ·  ")) || eyebrowText.slice(0, -1);
+    }
+    ctx.fillText(eyebrowText, CX, cy + BADGE_H / 2 + 2);
+
+    cy += BADGE_H + 20;
+
+    // ---- Headline ----
+    const HEADLINE_SIZE = 40;
+    const HEADLINE_LH   = HEADLINE_SIZE * 1.2;
+    ctx.font = `bold ${HEADLINE_SIZE}px 'Inter', -apple-system, sans-serif`;
+    ctx.fillStyle = C.dark;
+    ctx.textBaseline = "alphabetic";
+    const hLines = getWrappedLines(ctx, data.headline || "", CW);
+    const hShown = Math.min(hLines.length, 3);
+    for (let i = 0; i < hShown; i++) {
+      ctx.fillText(hLines[i], CX, cy + HEADLINE_LH * (i + 1) - 4);
+    }
+    cy += hShown * HEADLINE_LH + 22;
+
+    // ---- Hook zone ----
+    const { hook, subtitle: hookSubtitle } = extractHook(data);
+    if (hook && cy + 90 < BODY_MAX_Y - 160) {
+      // Scale font size so hook fits within card width
+      let hookSize = 110;
+      ctx.font = `bold ${hookSize}px 'Inter', -apple-system, sans-serif`;
+      while (ctx.measureText(hook).width > CW && hookSize > 48) {
+        hookSize -= 4;
+        ctx.font = `bold ${hookSize}px 'Inter', -apple-system, sans-serif`;
+      }
+      ctx.fillStyle = C.accent;
+      ctx.textBaseline = "alphabetic";
+      ctx.fillText(hook, CX, cy + hookSize * 0.88);
+      cy += Math.round(hookSize * 0.96) + 10;
+
+      // Hook subtitle
+      if (hookSubtitle && cy < BODY_MAX_Y - 160) {
+        const SUB_LH = 22;
+        ctx.font = "15px 'Inter', -apple-system, sans-serif";
+        ctx.fillStyle = C.muted;
+        ctx.textBaseline = "alphabetic";
+        const subLines = getWrappedLines(ctx, hookSubtitle, CW);
+        const subShown = Math.min(subLines.length, 2, Math.floor((BODY_MAX_Y - 160 - cy) / SUB_LH));
+        for (let i = 0; i < subShown; i++) {
+          ctx.fillText(subLines[i], CX, cy + SUB_LH * (i + 1) - 2);
+        }
+        cy += subShown * SUB_LH + 14;
+      }
+    }
+
+    // ---- Divider ----
+    if (cy < BODY_MAX_Y - 100) {
+      cy += 6;
+      ctx.strokeStyle = C.border;
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(CX, cy);
+      ctx.lineTo(CX + CW, cy);
+      ctx.stroke();
+      cy += 18;
+    }
+
+    // ---- Content strips ("WHAT HAPPENED" / "SO WHAT") ----
+    const STRIP_ACCENT  = 3;
+    const STRIP_PAD_X   = 16;
+    const STRIP_PAD_Y   = 12;
+    const STRIP_LABEL_H = 16;
+    const STRIP_LH      = 21;
+    const STRIP_TX_OFFSET = STRIP_ACCENT + 8 + STRIP_PAD_X; // left edge of text within strip
+
+    function drawStrip(label, text, maxLines) {
+      if (!text || cy >= BODY_MAX_Y - 40) return;
+      const contentW = CW - STRIP_TX_OFFSET - STRIP_PAD_X;
+      ctx.font = `${STRIP_LH}px 'Inter', -apple-system, sans-serif`;
+      const lines  = getWrappedLines(ctx, text, contentW);
+      const avail  = Math.floor((BODY_MAX_Y - cy - STRIP_PAD_Y * 2 - STRIP_LABEL_H - 8) / STRIP_LH);
+      const shown  = Math.min(lines.length, maxLines, Math.max(avail, 0));
+      if (shown <= 0) return;
+
+      const stripH = STRIP_PAD_Y + STRIP_LABEL_H + 8 + shown * STRIP_LH + STRIP_PAD_Y;
+
+      ctx.fillStyle = C.rowBg;
+      roundRectPath(ctx, CX, cy, CW, stripH, 8);
+      ctx.fill();
+      ctx.strokeStyle = C.border;
+      ctx.lineWidth = 1;
+      roundRectPath(ctx, CX, cy, CW, stripH, 8);
+      ctx.stroke();
+
+      // Accent left bar
+      ctx.fillStyle = C.accent;
+      roundRectPath(ctx, CX, cy, STRIP_ACCENT, stripH, 2);
+      ctx.fill();
+
+      const tx = CX + STRIP_TX_OFFSET;
+
+      // Label
+      ctx.font = "bold 10px 'JetBrains Mono', ui-monospace, monospace";
+      ctx.fillStyle = C.accent;
+      ctx.textBaseline = "alphabetic";
+      ctx.fillText(label, tx, cy + STRIP_PAD_Y + STRIP_LABEL_H - 2);
+
+      // Body lines
+      ctx.font = `${STRIP_LH}px 'Inter', -apple-system, sans-serif`;
       ctx.fillStyle = C.mid;
-      ctx.textBaseline = "alphabetic";
-
-      const lines    = getWrappedLines(ctx, insight, CW);
-      const avail    = BODY_MAX_Y - cy;
-      const maxLines = Math.min(lines.length, Math.floor(avail / LH), 5);
-
-      for (let i = 0; i < maxLines; i++) {
-        ctx.fillText(lines[i], CX, cy + LH * (i + 1) - 4);
+      for (let i = 0; i < shown; i++) {
+        ctx.fillText(lines[i], tx, cy + STRIP_PAD_Y + STRIP_LABEL_H + 8 + STRIP_LH * (i + 1) - 4);
       }
-      cy += maxLines * LH + 14;
+      cy += stripH + 12;
     }
 
-    // ---- Description (fills remaining space) ----
-    const desc = (data.description || "").trim();
-    if (desc && desc !== insight && cy < BODY_MAX_Y - 30) {
-      const LH = Math.round(14 * 1.48);
-      ctx.font = "14px 'Inter', -apple-system, sans-serif";
-      ctx.fillStyle = C.sub;
-      ctx.textBaseline = "alphabetic";
+    const whatHappened = (data.description || "").trim();
+    const soWhat = (data.aiInsight || "").replace(/^AI WHY THIS MATTERS\s*\n+/i, "").trim();
 
-      const lines    = getWrappedLines(ctx, desc, CW);
-      const avail    = BODY_MAX_Y - cy;
-      const maxLines = Math.min(lines.length, Math.floor(avail / LH));
+    drawStrip("WHAT HAPPENED", whatHappened, 4);
+    drawStrip("SO WHAT", soWhat, 4);
 
-      for (let i = 0; i < maxLines; i++) {
-        ctx.fillText(lines[i], CX, cy + LH * (i + 1) - 4);
-      }
-    }
-
-    // ---- Card footer ----
+    // ---- Pinned card footer ----
     ctx.strokeStyle = C.border;
     ctx.lineWidth = 1;
     ctx.beginPath();
