@@ -345,11 +345,12 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      min-height: 26px;
-      padding: 6px 14px; border-radius: 999px;
+      height: 26px;
+      padding: 0 14px; border-radius: 999px;
       font-size: 11.5px; font-weight: 700;
       letter-spacing: 0.22em; text-transform: uppercase;
-      line-height: 1.1;
+      line-height: 1;
+      white-space: nowrap;
     }
     .ss-tier-badge[data-tier="system"]      { color: #cc3366; background: rgba(255,92,138,0.14); }
     .ss-tier-badge[data-tier="directional"] { color: #cc9900; background: rgba(255,194,51,0.16); }
@@ -392,22 +393,26 @@
     }
 
     .ss-initiative-row {
-      display: flex; align-items: center; gap: 10px;
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      align-items: center;
+      column-gap: 10px;
       margin: -6px 0 16px;
-      padding: 9px 12px;
+      padding: 10px 12px;
       border-radius: 8px;
       background: #f7f9fc;
       border: 1px solid #e7e9ef;
+      min-height: 40px;
     }
     .ss-initiative-label {
       display: inline-flex;
       align-items: center;
       font-family: 'JetBrains Mono', ui-monospace, monospace;
       font-size: 10px; font-weight: 700;
-      letter-spacing: 0.14em; text-transform: uppercase;
+      letter-spacing: 0.12em; text-transform: uppercase;
       color: #73798a;
       white-space: nowrap;
-      line-height: 1.1;
+      line-height: 1;
     }
     .ss-initiative-value {
       display: inline-flex;
@@ -415,49 +420,65 @@
       font-size: 13px; font-weight: 650;
       color: #2a2e3a;
       line-height: 1.25;
+      min-height: 20px;
     }
 
     .ss-market-context {
-      display: flex; align-items: center; gap: 10px;
+      display: grid;
+      grid-template-columns: 170px 1fr auto;
+      align-items: center;
+      column-gap: 10px;
       padding: 10px 14px;
       background: #f7f9fc;
       border: 1px solid #e7e9ef;
       border-radius: 8px;
       margin-bottom: 22px;
       font-size: 13px;
+      min-height: 42px;
     }
     .ss-market-label {
       display: inline-flex;
       align-items: center;
       font-family: 'JetBrains Mono', ui-monospace, monospace;
       font-size: 10px; font-weight: 700;
-      letter-spacing: 0.14em; text-transform: uppercase;
+      letter-spacing: 0.12em; text-transform: uppercase;
       color: #73798a;
       white-space: nowrap;
-      line-height: 1.1;
+      line-height: 1;
     }
     .ss-market-chip {
       display: inline-flex;
       align-items: center;
       font-weight: 700; color: #1a1c24;
       line-height: 1.25;
+      min-height: 20px;
     }
     .ss-market-conf {
       color: #9498a8; font-size: 12px;
-      display: inline-flex; align-items: center;
+      display: inline-flex;
+      align-items: center;
+      justify-self: end;
       line-height: 1.25;
+      min-height: 20px;
+      white-space: nowrap;
     }
 
     .ss-insight {
-      font-size: 16.5px; line-height: 1.5;
+      font-size: 15.5px; line-height: 1.45;
       color: #383b48;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
     }
 
     .ss-description {
       margin-top: 14px;
       font-size: 14px; line-height: 1.45;
       color: #4a4f5f;
-      max-height: 145px;
+      display: -webkit-box;
+      -webkit-line-clamp: 8;
+      -webkit-box-orient: vertical;
       overflow: hidden;
     }
 
