@@ -1,5 +1,83 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "The impact of stablecoins on the international monetary and financial system",
+    "description": "Widespread use of stablecoins could have an important impact on the international monetary and financial system, particularly for emerging market and developing economies (EMDEs). Using the framework of international currency functions to analyse their effect, we argue that stablecoins are most likely to affect private sector store of value and medium of exchange roles, particularly in economies facing macroeconomic",
+    "date": "2026-05-05",
+    "source_url": "https://www.bis.org/publ/bppdf/bispap170.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase Australia launches crypto support for self-directed retirement funds",
+    "description": "Coinbase Australia has launched crypto support for self-directed retirement funds, offering investors another avenue to diversify portfolios.",
+    "date": "2026-05-05",
+    "source_url": "https://www.theblock.co/post/399982/coinbase-australia-launches-smsf-support",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "Strive pushes past 15,000 BTC with fresh $33.9M bitcoin buy",
+    "description": "Securities and Exchange Commission, the Dallas-based firm bought 444 BTC for $33.9… has pushed its Bitcoin treasury past 15,000 BTC after its latest purchase added to a months-long accumulation run. Strive pushes past 15,000 BTC with fresh $33.9M bitcoin buy",
+    "date": "2026-05-05",
+    "source_url": "https://crypto.news/strive-pushes-past-15000-btc-with-fresh-33-9m-bitcoin-buy/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Digital Asset Exchange",
+    "initiative": "Moscow Exchange bets bigger on crypto with SOL, XRP, TRX and BNB indexes",
+    "description": "Moscow Exchange will launch SOL, XRP, TRX and BNB indexes on May 13, using weighted pricing from Binance, Bybit, OKX and Bitget.",
+    "date": "2026-05-05",
+    "source_url": "https://crypto.news/moscow-exchange-bets-bigger-on-crypto-with-sol-xrp-trx-and-bnb-indexes/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "crypto.news",
     "initiative": "Uphold rejects NYAG claims after $5M CredEarn settlement",
     "description": "Uphold disputes NYAG claims after a $5M CredEarn settlement, saying Cred misled the company and users before its 2020 collapse.",
