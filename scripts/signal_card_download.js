@@ -290,17 +290,27 @@
     // Brand name
     ctx.fillStyle = C.navy;
     ctx.font = "bold 12px 'Inter', -apple-system, BlinkMacSystemFont, sans-serif";
-    ctx.fillText("STREET SIGNALS", bx, MY);
-    const ssW = ctx.measureText("STREET SIGNALS").width;
+    const brandLabel = "SIGNALS FROM THE STREET (SftS)";
+    ctx.fillText(brandLabel, bx, MY);
+    const ssW = ctx.measureText(brandLabel).width;
+
+    // Vertical divider between brand label and descriptor
+    const afterBrandX = bx + ssW + 12;
+    ctx.strokeStyle = C.border;
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(afterBrandX, MY - 11);
+    ctx.lineTo(afterBrandX, MY + 11);
+    ctx.stroke();
 
     ctx.fillStyle = C.muted;
     ctx.font = "500 12px 'Inter', -apple-system, BlinkMacSystemFont, sans-serif";
-    ctx.fillText("  .  DLT & Digital Asset Intelligence", bx + ssW, MY);
+    ctx.fillText("DLT & Digital Asset Intelligence", afterBrandX + 12, MY);
   }
 
   function normalizeCatalogueName(name) {
     const raw = String(name || "Institutional").trim();
-    return raw.replace(/^\d+\s*[.)\-:]?\s*/i, "").trim() || "Institutional";
+    return raw.replace(/^(?:#|no\.?\s*)?\s*\d+\s*[.)\-:]?\s*/i, "").trim() || "Institutional";
   }
 
   // ---------- Hook extraction ----------
@@ -473,13 +483,14 @@
     const STRIP_PAD_X   = 16;
     const STRIP_PAD_Y   = 12;
     const STRIP_LABEL_H = 16;
-    const STRIP_LH      = 22;
+    const STRIP_FONT_SIZE = 20;
+    const STRIP_LH        = 26;
     const STRIP_TX_OFFSET = STRIP_ACCENT + 8 + STRIP_PAD_X; // left edge of text within strip
 
     function drawStrip(label, text, maxLines) {
       if (!text || cy >= BODY_MAX_Y - 40) return;
       const contentW = CW - STRIP_TX_OFFSET - STRIP_PAD_X;
-      ctx.font = `${STRIP_LH}px 'Inter', -apple-system, sans-serif`;
+      ctx.font = `${STRIP_FONT_SIZE}px 'Inter', -apple-system, sans-serif`;
       const lines  = getWrappedLines(ctx, text, contentW);
       const avail  = Math.floor((BODY_MAX_Y - cy - STRIP_PAD_Y * 2 - STRIP_LABEL_H - 8) / STRIP_LH);
       const shown  = Math.min(lines.length, maxLines, Math.max(avail, 0));
@@ -509,12 +520,12 @@
       ctx.fillText(label, tx, cy + STRIP_PAD_Y + STRIP_LABEL_H - 2);
 
       // Body lines
-      ctx.font = `${STRIP_LH}px 'Inter', -apple-system, sans-serif`;
+      ctx.font = `${STRIP_FONT_SIZE}px 'Inter', -apple-system, sans-serif`;
       ctx.fillStyle = C.mid;
       for (let i = 0; i < shown; i++) {
         ctx.fillText(lines[i], tx, cy + STRIP_PAD_Y + STRIP_LABEL_H + 8 + STRIP_LH * (i + 1) - 4);
       }
-      cy += stripH + 12;
+      cy += stripH + 24;
     }
 
     const whatHappened = (data.description || "").trim();
@@ -536,11 +547,11 @@
 
     ctx.font = "bold 10px 'JetBrains Mono', ui-monospace, monospace";
     ctx.fillStyle = C.muted;
-    ctx.fillText("SOURCE", CX, FMY);
+    ctx.fillText("SOURCE:", CX, FMY);
 
     ctx.font = "600 12px 'Inter', -apple-system, sans-serif";
     ctx.fillStyle = C.mid;
-    ctx.fillText(data.source || "", CX + 72, FMY);
+    ctx.fillText(data.source || "", CX + 52, FMY);
 
     ctx.textAlign = "left";
 
