@@ -1,77 +1,88 @@
 /* ============================================================
-   STREET SIGNALS — Signal Card Image Download
+   STREET SIGNALS — Signal Card Image Download (Canvas 2D)
    --------------------------------------------------------------
-   Drop this script into the Street Signals page. It:
-     1. Injects a "Download Image" button into every .signal-card
-        footer (and .priority-signal-card-footer if you want).
-     2. On click, generates a 1080×1080 LinkedIn-ready PNG that
-        mirrors the card's data, with the news/ticker treatment.
-     3. Triggers a browser download of the PNG.
-
-   Dependencies:
-     - html2canvas (loaded from CDN at runtime, cached after first use)
-     - Inter font (already loaded by the site as Satoshi fallback)
+   Generates a 1080x1080 LinkedIn-ready PNG by drawing directly
+   to a Canvas 2D context — no html2canvas, no off-screen DOM,
+   no CSS rendering quirks. Pixel-perfect and deterministic.
 
    Usage:
      <script src="signal_card_download.js" defer></script>
-
-   No build step. No backend. Works on the live static site.
    ============================================================ */
 
 (function () {
   "use strict";
 
   // ---------- Config ----------
-  const HTML2CANVAS_CDN =
-    "/assets/vendor/html2canvas.min.js";
-  const LOGO_URL = window.SS_LOGO_URL || "/assets/nextfi_logo_navy.png";
-  // ^^ point this to wherever you serve the logo from on the live site,
-  //    or set window.SS_LOGO_URL to a base64 data URL for inline embedding
-  const SITE_URL = "streetsignals.nextfiadvisors.com";
+  const LOGO_URL   = window.SS_LOGO_URL || "/assets/nextfi_logo_navy.png";
+  const SITE_URL   = "streetsignals.nextfiadvisors.com";
   const BUTTON_LABEL = "Download";
   const CARD_SELECTORS = [
-    ".signal-card",            // catalogue cards
-    ".priority-signal-card",   // priority cards (optional - delete if not wanted)
+    ".signal-card",
+    ".priority-signal-card",
   ];
 
-  // ---------- Style for the injected button ----------
+  // ---------- Layout constants (1080x1080 canvas) ----------
+  const W  = 1080;
+  const H  = 1080;
+  const SCALE = 2;           // retina — actual canvas pixels = W*SCALE x H*SCALE
+  const MX  = 56;            // outer horizontal margin
+
+  const TICKER_H       = 54;
+  const BRAND_H        = 74;
+  const CARD_GAP_TOP   = 36;
+  const OUTER_FOOTER_H = 70;
+
+  const CARD_X  = MX;
+  const CARD_Y  = TICKER_H + BRAND_H + CARD_GAP_TOP;  // 164
+  const CARD_W  = W - MX * 2;                           // 968
+  const CARD_H  = H - CARD_Y - OUTER_FOOTER_H;          // 846
+
+  const CPX = 40;            // card inner padding X
+  const CPT = 34;            // card inner padding top
+  const CPB = 34;            // card inner padding bottom
+  const CX  = CARD_X + CPX; // content X  = 96
+  const CW  = CARD_W - CPX * 2; // content W = 888
+
+  // Tier badge colours
+  const TIER_COLORS = {
+    system:      { text: "#cc3366", bg: "rgba(255,92,138,0.14)" },
+    directional: { text: "#cc9900", bg: "rgba(255,194,51,0.16)" },
+    strategic:   { text: "#b07a00", bg: "rgba(212,160,23,0.14)" },
+    tactical:    { text: "#2563b3", bg: "rgba(80,140,220,0.14)" },
+    monitoring:  { text: "#5d6573", bg: "rgba(93,101,115,0.10)" },
+  };
+
+  // ---------- Brand colours ----------
+  const C = {
+    navy:    "#1e3263",
+    dark:    "#1a1c24",
+    mid:     "#383b48",
+    sub:     "#4a4f5f",
+    muted:   "#9498a8",
+    border:  "#e7e9ef",
+    rowBg:   "#f7f9fc",
+    bg:      "#f5f6fa",
+    white:   "#ffffff",
+    accent:  "#ff8c42",
+    pink:    "#cc3366",
+  };
+
+  // ---------- Button style ----------
   const buttonStyle = `
     .ss-download-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 6px 12px;
-      background: #1e3263;
-      color: #fff;
-      border: none;
-      border-radius: 6px;
-      font-family: inherit;
-      font-size: 11px;
-      font-weight: 600;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      cursor: pointer;
-      transition: background 0.15s, transform 0.15s;
-      white-space: nowrap;
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 6px 12px; background: #1e3263; color: #fff;
+      border: none; border-radius: 6px; font-family: inherit;
+      font-size: 11px; font-weight: 600; letter-spacing: 0.05em;
+      text-transform: uppercase; cursor: pointer;
+      transition: background 0.15s, transform 0.15s; white-space: nowrap;
     }
-    .ss-download-btn:hover { background: #2a4180; transform: translateY(-1px); }
+    .ss-download-btn:hover  { background: #2a4180; transform: translateY(-1px); }
     .ss-download-btn:active { transform: translateY(0); }
     .ss-download-btn[disabled] { opacity: 0.6; cursor: wait; }
     .ss-download-btn svg { width: 13px; height: 13px; flex-shrink: 0; }
-
-    /* Off-screen render container — never visible to the user */
-    .ss-render-stage {
-      position: absolute;
-      top: 0;
-      left: -99999px;
-      width: 1080px;
-      height: 1080px;
-      pointer-events: none;
-      overflow: hidden;
-    }
   `;
 
-  // ---------- Inject button stylesheet once ----------
   function injectStyle() {
     if (document.getElementById("ss-download-style")) return;
     const s = document.createElement("style");
@@ -80,22 +91,7 @@
     document.head.appendChild(s);
   }
 
-  // ---------- Lazy-load html2canvas ----------
-  let html2canvasReady = null;
-  function loadHtml2Canvas() {
-    if (window.html2canvas) return Promise.resolve(window.html2canvas);
-    if (html2canvasReady) return html2canvasReady;
-    html2canvasReady = new Promise((resolve, reject) => {
-      const s = document.createElement("script");
-      s.src = HTML2CANVAS_CDN;
-      s.onload = () => resolve(window.html2canvas);
-      s.onerror = () => reject(new Error("Failed to load html2canvas"));
-      document.head.appendChild(s);
-    });
-    return html2canvasReady;
-  }
-
-  // ---------- Read field from a card with safe fallback ----------
+  // ---------- Data extraction ----------
   function readField(card, selector) {
     const el = card.querySelector(selector);
     return el ? el.innerText.trim() : "";
@@ -114,8 +110,8 @@
 
   function extractInstitutionCategory(card) {
     const segmentChip = Array.from(card.querySelectorAll(".signal-chip-rank"))
-      .map((el) => el.innerText.trim())
-      .find((text) => /^segment\s+/i.test(text));
+      .map(el => el.innerText.trim())
+      .find(text => /^segment\s+/i.test(text));
     if (segmentChip) return segmentChip.replace(/^segment\s+/i, "").trim();
 
     const signalTag = readField(card, ".signal-tag");
@@ -125,7 +121,6 @@
     return tier || "Institutional";
   }
 
-  // ---------- Extract all relevant fields from a catalogue card ----------
   function extractSignalData(card) {
     return {
       institution:    readField(card, ".signal-institution") ||
@@ -137,10 +132,8 @@
       initiative:     readField(card, ".priority-signal-card-initiative") ||
                       extractTopInitiativeClassifications(card),
       momentum:       readField(card, ".signal-momentum-label"),
-      momentumScore:  readField(card, ".signal-momentum-score"),
       importance:     readField(card, ".signal-importance-badge") ||
                       readField(card, ".priority-signal-badge"),
-      importanceScore:readField(card, ".signal-importance-score"),
       marketLabel:    readField(card, ".signal-market-context-label") || "Market Context",
       marketChip:     readField(card, ".signal-market-context-chip") ||
                       readField(card, ".priority-signal-market-chip"),
@@ -153,379 +146,414 @@
       source:         readField(card, ".signal-source") ||
                       readField(card, ".priority-signal-card-source"),
       institutionCategory: extractInstitutionCategory(card),
-      tags:           Array.from(card.querySelectorAll(".signal-tag"))
-                          .map(t => t.innerText.trim()).slice(0, 3),
     };
   }
 
-  // ---------- Build the 1080×1080 stage HTML ----------
-  function buildStageHTML(data) {
-    // Strip "AI WHY THIS MATTERS\n\n" prefix if present
-    let insight = data.aiInsight || data.description || "";
-    insight = insight.replace(/^AI WHY THIS MATTERS\s*\n+/i, "").trim();
-    // Keep full insight; CSS/layout handles containment.
-    const description = (data.description || "").trim();
-    const initiative = (data.initiative || "").trim();
-
-    const tierBadge = (data.importance || "Signal").toUpperCase();
-    const tierClass = tierBadge.toLowerCase().includes("system")
-      ? "system" : tierBadge.toLowerCase().includes("direct")
-      ? "directional" : tierBadge.toLowerCase().includes("strateg")
-      ? "strategic" : tierBadge.toLowerCase().includes("tactic")
-      ? "tactical" : "monitoring";
-
-    const showMarket = (data.marketChip && data.marketChip.length > 0) || (data.marketSummary && data.marketSummary.length > 0);
-
-    return `
-      <div class="ss-stage-card">
-        <!-- Ticker strip -->
-        <div class="ss-ticker">
-          <div class="ss-live-dot"></div>
-          <span class="ss-live-label">Signal · Live</span>
-          <div class="ss-ticker-divider"></div>
-          <span class="ss-ticker-meta">${escapeHTML(data.date || "")}</span>
-          <div class="ss-ticker-divider"></div>
-          <span class="ss-ticker-meta">From the Catalogue</span>
-          <div class="ss-ticker-spacer"></div>
-          <span class="ss-signal-id">${SITE_URL}</span>
-        </div>
-
-        <!-- Brand bar -->
-        <div class="ss-brand">
-          <div class="ss-brand-left">
-            <img class="ss-logo" src="${LOGO_URL}" alt="NextFi Advisors" crossorigin="anonymous" />
-            <div class="ss-brand-divider"></div>
-            <span class="ss-brand-property">Street Signals
-              <em>· DLT &amp; Digital Asset Intelligence</em>
-            </span>
-          </div>
-        </div>
-
-        <!-- Inner signal card -->
-        <div class="ss-inner">
-          <div class="ss-tier-row">
-            <span class="ss-tier-badge" data-tier="${tierClass}">${escapeHTML(tierBadge)}</span>
-            ${data.momentum ? `
-              <span class="ss-momentum">
-                <span class="ss-momentum-dot"></span>
-                ${escapeHTML(data.momentum)}
-              </span>` : ""}
-          </div>
-
-          <div class="ss-header">
-            <div class="ss-institution">${escapeHTML(data.institution || "")}</div>
-            <div class="ss-date">${escapeHTML(data.date || "")}</div>
-          </div>
-
-          <h1 class="ss-headline">${escapeHTML(data.headline || "")}</h1>
-
-          ${initiative ? `
-            <div class="ss-initiative-row">
-              <span class="ss-initiative-label">Initiative Classification</span>
-              <span class="ss-initiative-value">${escapeHTML(initiative)}</span>
-            </div>
-          ` : ""}
-
-          ${showMarket ? `
-            <div class="ss-market-context">
-              <span class="ss-market-label">${escapeHTML(data.marketLabel || "Market Context")}</span>
-              ${data.marketChip ? `<span class="ss-market-chip">${escapeHTML(data.marketChip)}</span>` : ""}
-              ${data.marketConf ? `<span class="ss-market-conf">Confidence: ${escapeHTML(data.marketConf)}</span>` : ""}
-              ${!data.marketChip && data.marketSummary ? `<span class="ss-market-conf">${escapeHTML(data.marketSummary)}</span>` : ""}
-            </div>
-          ` : ""}
-
-          <div class="ss-insight">${escapeHTML(insight)}</div>
-          ${description ? `<div class="ss-description">${escapeHTML(description)}</div>` : ""}
-
-          <div class="ss-footer">
-            <div class="ss-source">
-              <span class="ss-source-label">Source</span>
-              <span class="ss-source-value">${escapeHTML(data.source || "")}</span>
-            </div>
-            <div class="ss-catalogue-copy">Signals from the Street | ${escapeHTML(data.institutionCategory || "Institutional")} Catalogue</div>
-          </div>
-        </div>
-
-        <!-- Outer footer -->
-        <div class="ss-outer-footer">
-          <span class="ss-outer-tag">Market Intelligence by <strong>NextFi Advisors</strong></span>
-          <span class="ss-outer-tag">${SITE_URL}</span>
-        </div>
-      </div>
-    `;
+  // ---------- Canvas helpers ----------
+  function loadImage(src) {
+    return new Promise(resolve => {
+      const img = new Image();
+      img.crossOrigin = "anonymous";
+      img.onload  = () => resolve(img);
+      img.onerror = () => resolve(null);
+      img.src = src;
+    });
   }
 
-  // ---------- Stage CSS (inlined into the off-screen DOM) ----------
-  // Keep this in sync with the HTML template package — they share visual identity.
-  const stageStyle = `
-    .ss-stage-card {
-      width: 1080px; height: 1080px;
-      background: #f5f6fa;
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-      color: #1a1c24;
-      display: flex; flex-direction: column;
-      position: relative; overflow: hidden;
-      box-sizing: border-box;
+  /** Draw a rounded rect path. Call ctx.fill() / ctx.stroke() after. */
+  function roundRectPath(ctx, x, y, w, h, r) {
+    const R = Math.min(r, w / 2, h / 2);
+    ctx.beginPath();
+    ctx.moveTo(x + R, y);
+    ctx.lineTo(x + w - R, y);
+    ctx.arcTo(x + w, y,     x + w, y + R,     R);
+    ctx.lineTo(x + w, y + h - R);
+    ctx.arcTo(x + w, y + h, x + w - R, y + h, R);
+    ctx.lineTo(x + R, y + h);
+    ctx.arcTo(x,     y + h, x,     y + h - R, R);
+    ctx.lineTo(x,     y + R);
+    ctx.arcTo(x,     y,     x + R, y,         R);
+    ctx.closePath();
+  }
+
+  /**
+   * Split text into lines that fit within maxWidth.
+   * Respects existing newlines in the source string.
+   */
+  function getWrappedLines(ctx, text, maxWidth) {
+    const paragraphs = String(text || "").split(/\n+/);
+    const lines = [];
+    for (const para of paragraphs) {
+      if (!para.trim()) continue;
+      const words = para.split(/\s+/);
+      let line = "";
+      for (const word of words) {
+        const test = line ? line + " " + word : word;
+        if (ctx.measureText(test).width > maxWidth && line) {
+          lines.push(line);
+          line = word;
+        } else {
+          line = test;
+        }
+      }
+      if (line) lines.push(line);
     }
-    .ss-stage-card *, .ss-stage-card *::before, .ss-stage-card *::after {
-      box-sizing: border-box;
+    return lines;
+  }
+
+  // ---------- Drawing sections ----------
+
+  function drawTicker(ctx, data) {
+    ctx.fillStyle = C.navy;
+    ctx.fillRect(0, 0, W, TICKER_H);
+
+    const MY = TICKER_H / 2;
+    ctx.textBaseline = "middle";
+
+    let tx = MX;
+
+    // Live dot
+    ctx.fillStyle = C.pink;
+    ctx.beginPath();
+    ctx.arc(tx + 4, MY, 4, 0, Math.PI * 2);
+    ctx.fill();
+    tx += 18;
+
+    // "SIGNAL . LIVE"
+    ctx.fillStyle = C.white;
+    ctx.font = "bold 12px 'JetBrains Mono', ui-monospace, monospace";
+    ctx.fillText("SIGNAL  .  LIVE", tx, MY);
+    tx += ctx.measureText("SIGNAL  .  LIVE").width + 18;
+
+    // divider
+    ctx.fillStyle = "rgba(255,255,255,0.30)";
+    ctx.fillRect(tx, MY - 7, 1, 14);
+    tx += 19;
+
+    // Date
+    const dateStr = (data.date || "").toUpperCase();
+    ctx.fillStyle = "rgba(255,255,255,0.78)";
+    ctx.font = "500 11px 'JetBrains Mono', ui-monospace, monospace";
+    ctx.fillText(dateStr, tx, MY);
+    tx += ctx.measureText(dateStr).width + 18;
+
+    // divider
+    ctx.fillStyle = "rgba(255,255,255,0.30)";
+    ctx.fillRect(tx, MY - 7, 1, 14);
+    tx += 19;
+
+    // "FROM THE CATALOGUE"
+    ctx.fillStyle = "rgba(255,255,255,0.78)";
+    ctx.fillText("FROM THE CATALOGUE", tx, MY);
+
+    // Site URL — right
+    ctx.fillStyle = "rgba(255,255,255,0.55)";
+    ctx.font = "11px 'JetBrains Mono', ui-monospace, monospace";
+    ctx.textAlign = "right";
+    ctx.fillText(SITE_URL, W - MX, MY);
+    ctx.textAlign = "left";
+  }
+
+  function drawBrandBar(ctx, logo) {
+    const BY = TICKER_H;
+
+    ctx.fillStyle = C.white;
+    ctx.fillRect(0, BY, W, BRAND_H);
+
+    // Bottom border
+    ctx.strokeStyle = C.border;
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(0, BY + BRAND_H);
+    ctx.lineTo(W, BY + BRAND_H);
+    ctx.stroke();
+
+    const MY = BY + BRAND_H / 2;
+    ctx.textBaseline = "middle";
+    let bx = MX;
+
+    if (logo) {
+      const LH = 30;
+      const LW = Math.round((logo.width / logo.height) * LH);
+      ctx.drawImage(logo, bx, MY - LH / 2, LW, LH);
+      bx += LW + 16;
     }
 
-    /* Ticker */
-    .ss-ticker {
-      background: #1e3263; color: #fff;
-      padding: 16px 56px;
-      display: flex; align-items: center; gap: 18px;
-      font-family: 'JetBrains Mono', ui-monospace, monospace;
-      font-size: 12.5px; font-weight: 500; letter-spacing: 0.10em;
-    }
-    .ss-live-dot {
-      width: 8px; height: 8px; border-radius: 50%;
-      background: #cc3366;
-    }
-    .ss-live-label {
-      font-weight: 700; letter-spacing: 0.20em; text-transform: uppercase;
-      color: #fff;
-    }
-    .ss-ticker-divider {
-      width: 1px; height: 14px; background: rgba(255,255,255,0.30);
-    }
-    .ss-ticker-meta {
-      color: rgba(255,255,255,0.78);
-      text-transform: uppercase; letter-spacing: 0.16em; font-size: 11.5px;
-    }
-    .ss-ticker-spacer { flex: 1; }
-    .ss-signal-id {
-      color: rgba(255,255,255,0.55); font-size: 11px; letter-spacing: 0.10em;
-      font-family: 'JetBrains Mono', ui-monospace, monospace;
+    // Vertical divider
+    ctx.strokeStyle = C.border;
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(bx, MY - 11);
+    ctx.lineTo(bx, MY + 11);
+    ctx.stroke();
+    bx += 16;
+
+    // Brand name
+    ctx.fillStyle = C.navy;
+    ctx.font = "bold 12px 'Inter', -apple-system, BlinkMacSystemFont, sans-serif";
+    ctx.fillText("STREET SIGNALS", bx, MY);
+    const ssW = ctx.measureText("STREET SIGNALS").width;
+
+    ctx.fillStyle = C.muted;
+    ctx.font = "500 12px 'Inter', -apple-system, BlinkMacSystemFont, sans-serif";
+    ctx.fillText("  .  DLT & Digital Asset Intelligence", bx + ssW, MY);
+  }
+
+  function drawCard(ctx, data) {
+    // Shadow
+    ctx.save();
+    ctx.shadowColor = "rgba(20,30,60,0.10)";
+    ctx.shadowBlur = 28;
+    ctx.shadowOffsetY = 6;
+    ctx.fillStyle = C.white;
+    roundRectPath(ctx, CARD_X, CARD_Y, CARD_W, CARD_H, 14);
+    ctx.fill();
+    ctx.restore();
+
+    // Border
+    ctx.strokeStyle = C.border;
+    ctx.lineWidth = 1;
+    roundRectPath(ctx, CARD_X, CARD_Y, CARD_W, CARD_H, 14);
+    ctx.stroke();
+
+    // Clip to card
+    ctx.save();
+    roundRectPath(ctx, CARD_X, CARD_Y, CARD_W, CARD_H, 14);
+    ctx.clip();
+
+    let cy = CARD_Y + CPT;
+
+    // ---- Tier badge ----
+    const importanceText = (data.importance || "Signal").toUpperCase();
+    const tierKey = importanceText.toLowerCase().includes("system")     ? "system"
+                  : importanceText.toLowerCase().includes("direct")     ? "directional"
+                  : importanceText.toLowerCase().includes("strateg")    ? "strategic"
+                  : importanceText.toLowerCase().includes("tactic")     ? "tactical"
+                  : "monitoring";
+    const tier = TIER_COLORS[tierKey];
+
+    const BADGE_H   = 26;
+    const BADGE_PAD = 14;
+    ctx.font = "bold 11px 'Inter', -apple-system, sans-serif";
+    const badgeTextW = ctx.measureText(importanceText).width;
+    const badgeW     = badgeTextW + BADGE_PAD * 2;
+
+    ctx.fillStyle = tier.bg;
+    roundRectPath(ctx, CX, cy, badgeW, BADGE_H, 999);
+    ctx.fill();
+
+    ctx.fillStyle = tier.text;
+    ctx.textBaseline = "middle";
+    ctx.fillText(importanceText, CX + BADGE_PAD, cy + BADGE_H / 2);
+
+    // Momentum
+    if (data.momentum) {
+      const mText = data.momentum.toUpperCase();
+      const DOT_X = CX + badgeW + 16 + 3;
+      const DOT_Y = cy + BADGE_H / 2;
+      ctx.fillStyle = C.accent;
+      ctx.beginPath();
+      ctx.arc(DOT_X, DOT_Y, 3, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.font = "bold 11px 'Inter', -apple-system, sans-serif";
+      ctx.fillStyle = C.accent;
+      ctx.textBaseline = "middle";
+      ctx.fillText(mText, DOT_X + 10, DOT_Y);
     }
 
-    /* Brand bar */
-    .ss-brand {
-      padding: 22px 56px;
-      background: #fff;
-      border-bottom: 1px solid #e7e9ef;
-      display: flex; align-items: center;
+    cy += BADGE_H + 20;
+
+    // ---- Institution + Date ----
+    ctx.textBaseline = "alphabetic";
+    ctx.font = "bold 21px 'Inter', -apple-system, sans-serif";
+    ctx.fillStyle = C.dark;
+    ctx.fillText(data.institution || "", CX, cy + 21);
+
+    ctx.font = "500 13px 'Inter', -apple-system, sans-serif";
+    ctx.fillStyle = C.muted;
+    ctx.textAlign = "right";
+    ctx.fillText(data.date || "", CX + CW, cy + 21);
+    ctx.textAlign = "left";
+
+    cy += 21 + 16;
+
+    // Divider below institution
+    ctx.strokeStyle = C.border;
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(CX, cy);
+    ctx.lineTo(CX + CW, cy);
+    ctx.stroke();
+    cy += 18;
+
+    // ---- Headline ----
+    ctx.font = "bold 34px 'Inter', -apple-system, sans-serif";
+    ctx.fillStyle = C.dark;
+    ctx.textBaseline = "alphabetic";
+    const LH_H = 34 * 1.18;
+    const hLines = getWrappedLines(ctx, data.headline || "", CW);
+    const hShown = Math.min(hLines.length, 3);
+    for (let i = 0; i < hShown; i++) {
+      ctx.fillText(hLines[i], CX, cy + LH_H * (i + 1) - 6);
     }
-    .ss-brand-left {
-      display: flex; align-items: center; gap: 16px;
-    }
-    .ss-logo {
-      height: 30px; width: auto; display: block;
-    }
-    .ss-brand-divider {
-      width: 1px; height: 22px; background: #e7e9ef;
-    }
-    .ss-brand-property {
-      font-size: 12.5px; font-weight: 700;
-      letter-spacing: 0.22em; text-transform: uppercase;
-      color: #1e3263;
-    }
-    .ss-brand-property em {
-      font-style: normal; color: #9498a8; font-weight: 500;
+    cy += hShown * LH_H + 22;
+
+    // ---- Initiative row ----
+    if (data.initiative) {
+      const ROW_H = 42;
+      ctx.fillStyle = C.rowBg;
+      roundRectPath(ctx, CX, cy, CW, ROW_H, 8);
+      ctx.fill();
+      ctx.strokeStyle = C.border;
+      ctx.lineWidth = 1;
+      roundRectPath(ctx, CX, cy, CW, ROW_H, 8);
+      ctx.stroke();
+
+      const rMY = cy + ROW_H / 2;
+      ctx.textBaseline = "middle";
+      ctx.font = "bold 10px 'JetBrains Mono', ui-monospace, monospace";
+      ctx.fillStyle = "#73798a";
+      ctx.fillText("INITIATIVE CLASSIFICATION", CX + 14, rMY);
+
+      ctx.font = "700 13px 'Inter', -apple-system, sans-serif";
+      ctx.fillStyle = "#2a2e3a";
+      ctx.fillText(data.initiative, CX + 232, rMY);
+
+      cy += ROW_H + 14;
     }
 
-    /* Inner card */
-    .ss-inner {
-      flex: 1;
-      margin: 36px 56px 0;
-      padding: 34px 40px 28px;
-      background: #fff;
-      border-radius: 14px;
-      border: 1px solid #e7e9ef;
-      box-shadow: 0 1px 2px rgba(20,30,60,0.04), 0 8px 24px rgba(20,30,60,0.06);
-      display: flex; flex-direction: column;
-    }
-    .ss-tier-row {
-      display: flex; align-items: center; gap: 14px;
-      margin-bottom: 22px;
-    }
-    .ss-tier-badge {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      height: 26px;
-      padding: 0 14px; border-radius: 999px;
-      font-size: 11.5px; font-weight: 700;
-      letter-spacing: 0.22em; text-transform: uppercase;
-      line-height: 1;
-      white-space: nowrap;
-    }
-    .ss-tier-badge[data-tier="system"]      { color: #cc3366; background: rgba(255,92,138,0.14); }
-    .ss-tier-badge[data-tier="directional"] { color: #cc9900; background: rgba(255,194,51,0.16); }
-    .ss-tier-badge[data-tier="strategic"]   { color: #b07a00; background: rgba(212,160,23,0.14); }
-    .ss-tier-badge[data-tier="tactical"]    { color: #2563b3; background: rgba(80,140,220,0.14); }
-    .ss-tier-badge[data-tier="monitoring"]  { color: #5d6573; background: rgba(93,101,115,0.10); }
+    // ---- Market context row ----
+    const marketText = data.marketChip || data.marketSummary || "";
+    if (marketText) {
+      const ROW_H = 42;
+      ctx.fillStyle = C.rowBg;
+      roundRectPath(ctx, CX, cy, CW, ROW_H, 8);
+      ctx.fill();
+      ctx.strokeStyle = C.border;
+      ctx.lineWidth = 1;
+      roundRectPath(ctx, CX, cy, CW, ROW_H, 8);
+      ctx.stroke();
 
-    .ss-momentum {
-      display: inline-flex; align-items: center; gap: 7px;
-      font-size: 11px; font-weight: 700;
-      letter-spacing: 0.18em; text-transform: uppercase;
-      color: #ff8c42;
-    }
-    .ss-momentum-dot {
-      width: 6px; height: 6px; border-radius: 50%;
-      background: #ff8c42;
-    }
+      const rMY = cy + ROW_H / 2;
+      ctx.textBaseline = "middle";
 
-    .ss-header {
-      display: flex; align-items: baseline;
-      justify-content: space-between; gap: 24px;
-      margin-bottom: 18px;
-      padding-bottom: 18px;
-      border-bottom: 1px solid #e7e9ef;
-    }
-    .ss-institution {
-      font-size: 22px; font-weight: 700;
-      color: #1a1c24; line-height: 1.2;
-    }
-    .ss-date {
-      font-size: 14px; font-weight: 500;
-      color: #9498a8; white-space: nowrap; flex-shrink: 0;
+      ctx.font = "bold 10px 'JetBrains Mono', ui-monospace, monospace";
+      ctx.fillStyle = "#73798a";
+      ctx.fillText("MARKET CONTEXT", CX + 14, rMY);
+
+      // Measure confidence text so chip doesn't overlap
+      const confStr = data.marketConf ? "Confidence: " + data.marketConf : "";
+      ctx.font = "12px 'Inter', -apple-system, sans-serif";
+      const confW = confStr ? ctx.measureText(confStr).width + 24 : 0;
+
+      // Chip text — truncate to fit
+      const chipMaxW = CW - 186 - confW - 20;
+      ctx.font = "bold 13px 'Inter', -apple-system, sans-serif";
+      ctx.fillStyle = C.dark;
+      let chipText = marketText;
+      while (chipText.length > 4 && ctx.measureText(chipText).width > chipMaxW) {
+        chipText = chipText.slice(0, -1);
+      }
+      if (chipText !== marketText) chipText = chipText.trimEnd() + "\u2026";
+      ctx.fillText(chipText, CX + 186, rMY);
+
+      if (confStr) {
+        ctx.font = "12px 'Inter', -apple-system, sans-serif";
+        ctx.fillStyle = C.muted;
+        ctx.textAlign = "right";
+        ctx.fillText(confStr, CX + CW - 14, rMY);
+        ctx.textAlign = "left";
+      }
+
+      cy += ROW_H + 20;
     }
 
-    .ss-headline {
-      font-size: 36px; font-weight: 700;
-      line-height: 1.18; letter-spacing: -0.018em;
-      color: #1a1c24;
-      margin: 0 0 22px 0;
+    // ---- Footer — pinned to card bottom ----
+    const FOOTER_H = 44;
+    const FOOTER_Y = CARD_Y + CARD_H - CPB - FOOTER_H;
+    const BODY_MAX_Y = FOOTER_Y - 14;
+
+    // ---- AI Insight ----
+    let insight = (data.aiInsight || "").replace(/^AI WHY THIS MATTERS\s*\n+/i, "").trim();
+    if (!insight) insight = (data.description || "").trim();
+
+    if (insight && cy < BODY_MAX_Y - 30) {
+      const LH = Math.round(15.5 * 1.48);
+      ctx.font = "15.5px 'Inter', -apple-system, sans-serif";
+      ctx.fillStyle = C.mid;
+      ctx.textBaseline = "alphabetic";
+
+      const lines    = getWrappedLines(ctx, insight, CW);
+      const avail    = BODY_MAX_Y - cy;
+      const maxLines = Math.min(lines.length, Math.floor(avail / LH), 5);
+
+      for (let i = 0; i < maxLines; i++) {
+        ctx.fillText(lines[i], CX, cy + LH * (i + 1) - 4);
+      }
+      cy += maxLines * LH + 14;
     }
 
-    .ss-initiative-row {
-      display: grid;
-      grid-template-columns: 220px 1fr;
-      align-items: center;
-      column-gap: 10px;
-      margin: -6px 0 16px;
-      padding: 10px 12px;
-      border-radius: 8px;
-      background: #f7f9fc;
-      border: 1px solid #e7e9ef;
-      min-height: 40px;
-    }
-    .ss-initiative-label {
-      display: inline-flex;
-      align-items: center;
-      font-family: 'JetBrains Mono', ui-monospace, monospace;
-      font-size: 10px; font-weight: 700;
-      letter-spacing: 0.12em; text-transform: uppercase;
-      color: #73798a;
-      white-space: nowrap;
-      line-height: 1;
-    }
-    .ss-initiative-value {
-      display: inline-flex;
-      align-items: center;
-      font-size: 13px; font-weight: 650;
-      color: #2a2e3a;
-      line-height: 1.25;
-      min-height: 20px;
+    // ---- Description (fills remaining space) ----
+    const desc = (data.description || "").trim();
+    if (desc && desc !== insight && cy < BODY_MAX_Y - 30) {
+      const LH = Math.round(14 * 1.48);
+      ctx.font = "14px 'Inter', -apple-system, sans-serif";
+      ctx.fillStyle = C.sub;
+      ctx.textBaseline = "alphabetic";
+
+      const lines    = getWrappedLines(ctx, desc, CW);
+      const avail    = BODY_MAX_Y - cy;
+      const maxLines = Math.min(lines.length, Math.floor(avail / LH));
+
+      for (let i = 0; i < maxLines; i++) {
+        ctx.fillText(lines[i], CX, cy + LH * (i + 1) - 4);
+      }
     }
 
-    .ss-market-context {
-      display: grid;
-      grid-template-columns: 170px 1fr auto;
-      align-items: center;
-      column-gap: 10px;
-      padding: 10px 14px;
-      background: #f7f9fc;
-      border: 1px solid #e7e9ef;
-      border-radius: 8px;
-      margin-bottom: 22px;
-      font-size: 13px;
-      min-height: 42px;
-    }
-    .ss-market-label {
-      display: inline-flex;
-      align-items: center;
-      font-family: 'JetBrains Mono', ui-monospace, monospace;
-      font-size: 10px; font-weight: 700;
-      letter-spacing: 0.12em; text-transform: uppercase;
-      color: #73798a;
-      white-space: nowrap;
-      line-height: 1;
-    }
-    .ss-market-chip {
-      display: inline-flex;
-      align-items: center;
-      font-weight: 700; color: #1a1c24;
-      line-height: 1.25;
-      min-height: 20px;
-    }
-    .ss-market-conf {
-      color: #9498a8; font-size: 12px;
-      display: inline-flex;
-      align-items: center;
-      justify-self: end;
-      line-height: 1.25;
-      min-height: 20px;
-      white-space: nowrap;
-    }
+    // ---- Card footer ----
+    ctx.strokeStyle = C.border;
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(CX, FOOTER_Y);
+    ctx.lineTo(CX + CW, FOOTER_Y);
+    ctx.stroke();
 
-    .ss-insight {
-      font-size: 15.5px; line-height: 1.45;
-      color: #383b48;
-      display: -webkit-box;
-      -webkit-line-clamp: 4;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
+    const FMY = FOOTER_Y + FOOTER_H / 2;
+    ctx.textBaseline = "middle";
 
-    .ss-description {
-      margin-top: 14px;
-      font-size: 14px; line-height: 1.45;
-      color: #4a4f5f;
-      display: -webkit-box;
-      -webkit-line-clamp: 8;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
+    ctx.font = "bold 10px 'JetBrains Mono', ui-monospace, monospace";
+    ctx.fillStyle = C.muted;
+    ctx.fillText("SOURCE", CX, FMY);
 
-    .ss-footer {
-      margin-top: auto;
-      padding-top: 18px;
-      border-top: 1px solid #e7e9ef;
-      display: flex; align-items: center;
-      justify-content: space-between; gap: 16px;
-    }
-    .ss-source { display: flex; align-items: center; gap: 10px; font-size: 12.5px; }
-    .ss-source-label {
-      font-family: 'JetBrains Mono', ui-monospace, monospace;
-      font-size: 10px; font-weight: 600;
-      letter-spacing: 0.22em; text-transform: uppercase;
-      color: #9498a8;
-    }
-    .ss-source-value { font-weight: 600; color: #383b48; }
-    .ss-catalogue-copy {
-      font-size: 10.5px; font-weight: 700;
-      letter-spacing: 0.10em; text-transform: uppercase;
-      color: #1e3263;
-      text-align: right;
-      white-space: nowrap;
-      line-height: 1.15;
-    }
+    ctx.font = "600 12px 'Inter', -apple-system, sans-serif";
+    ctx.fillStyle = C.mid;
+    ctx.fillText(data.source || "", CX + 72, FMY);
 
-    /* Outer footer */
-    .ss-outer-footer {
-      padding: 26px 56px 28px;
-      display: flex; align-items: center; justify-content: space-between;
-      font-size: 12px; color: #9498a8;
-    }
-    .ss-outer-tag {
-      font-family: 'JetBrains Mono', ui-monospace, monospace;
-      letter-spacing: 0.16em; text-transform: uppercase;
-    }
-    .ss-outer-tag strong { color: #1e3263; font-weight: 700; }
-  `;
+    const catCopy = "SIGNALS FROM THE STREET  |  "
+      + (data.institutionCategory || "Institutional").toUpperCase()
+      + " CATALOGUE";
+    ctx.font = "bold 10px 'Inter', -apple-system, sans-serif";
+    ctx.fillStyle = C.navy;
+    ctx.textAlign = "right";
+    ctx.fillText(catCopy, CX + CW, FMY);
+    ctx.textAlign = "left";
+
+    ctx.restore(); // end clip
+  }
+
+  function drawOuterFooter(ctx) {
+    const FMY = H - OUTER_FOOTER_H / 2;
+    ctx.textBaseline = "middle";
+    ctx.font = "500 11px 'JetBrains Mono', ui-monospace, monospace";
+    ctx.fillStyle = C.muted;
+    ctx.fillText("MARKET INTELLIGENCE BY NEXTFI ADVISORS", MX, FMY);
+
+    ctx.textAlign = "right";
+    ctx.fillText(SITE_URL.toUpperCase(), W - MX, FMY);
+    ctx.textAlign = "left";
+  }
 
   // ---------- Helpers ----------
-  function escapeHTML(s) {
-    return String(s || "")
-      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
-  }
-
   function slugify(s) {
     return String(s || "signal")
       .toLowerCase()
@@ -534,65 +562,49 @@
       .slice(0, 60) || "signal";
   }
 
-  // ---------- Generate and download ----------
+  // ---------- Main render ----------
   async function generateImage(card, button) {
-    const originalLabel = button.innerHTML;
+    const originalHTML = button.innerHTML;
     button.disabled = true;
-    button.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2 v6 m0 0 -3 -3 m3 3 3 -3" /></svg>Generating…`;
+    button.innerHTML = `
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+           stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2 v6 m0 0 -3 -3 m3 3 3 -3" />
+      </svg>Generating...`;
 
     try {
-      console.log("[StreetSignals] Loading html2canvas…");
-      const html2canvas = await loadHtml2Canvas();
-      console.log("[StreetSignals] html2canvas loaded.");
-
       const data = extractSignalData(card);
 
-      // Build the off-screen stage
-      const stage = document.createElement("div");
-      stage.className = "ss-render-stage";
-      // Inline style ensures correct positioning even if stylesheet loads late
-      stage.style.cssText = "position:absolute;top:0;left:-99999px;width:1080px;height:1080px;pointer-events:none;overflow:hidden;";
-      stage.innerHTML = `<style>${stageStyle}</style>${buildStageHTML(data)}`;
-      document.body.appendChild(stage);
-
-      // Wait one tick for layout + image load
-      await new Promise(r => setTimeout(r, 150));
-      // Wait for logo image to load (so it's not blank)
-      const logoImg = stage.querySelector("img.ss-logo");
-      if (logoImg && !logoImg.complete) {
-        await new Promise(r => {
-          logoImg.onload = r;
-          logoImg.onerror = () => { console.warn("[StreetSignals] Logo failed to load:", LOGO_URL); r(); };
-        });
-      }
-      // Wait for fonts
       if (document.fonts && document.fonts.ready) {
         await document.fonts.ready;
       }
 
-      console.log("[StreetSignals] Rendering canvas…");
-      const stageCard = stage.querySelector(".ss-stage-card");
-      if (!stageCard) throw new Error("Stage card element not found in DOM");
+      const logo = await loadImage(LOGO_URL);
 
-      const canvas = await html2canvas(stageCard, {
-        scale: 2,                  // retina output (2160 × 2160)
-        backgroundColor: "#f5f6fa",
-        useCORS: true,
-        allowTaint: false,
-        logging: false,
-        width: 1080,
-        height: 1080,
-        scrollX: 0,
-        scrollY: 0,
-      });
-      console.log("[StreetSignals] Canvas rendered:", canvas.width, "×", canvas.height);
+      // Retina canvas: draw at 2x, export at 2160x2160
+      const canvas = document.createElement("canvas");
+      canvas.width  = W * SCALE;
+      canvas.height = H * SCALE;
+      const ctx = canvas.getContext("2d");
+      ctx.scale(SCALE, SCALE);
 
-      // Trigger download
-      const filename = `signal-${slugify(data.institution)}-${slugify(data.date)}.png`;
-      canvas.toBlob((blob) => {
+      // Background
+      ctx.fillStyle = C.bg;
+      ctx.fillRect(0, 0, W, H);
+
+      drawTicker(ctx, data);
+      drawBrandBar(ctx, logo);
+      drawCard(ctx, data);
+      drawOuterFooter(ctx);
+
+      const filename = "signal-"
+        + slugify(data.institution) + "-"
+        + slugify(data.date) + ".png";
+
+      canvas.toBlob(blob => {
         const url = URL.createObjectURL(blob);
-        const a = document.createElement("a");
-        a.href = url;
+        const a   = document.createElement("a");
+        a.href     = url;
         a.download = filename;
         document.body.appendChild(a);
         a.click();
@@ -600,22 +612,19 @@
         URL.revokeObjectURL(url);
       }, "image/png");
 
-      // Cleanup
-      document.body.removeChild(stage);
     } catch (err) {
-      console.error("[StreetSignals] Image generation failed:", err);
-      alert("Image generation failed:\n\n" + (err && err.message ? err.message : String(err)));
+      console.error("[StreetSignals] Export failed:", err);
+      alert("Export failed:\n" + (err && err.message ? err.message : String(err)));
     } finally {
       button.disabled = false;
-      button.innerHTML = originalLabel;
+      button.innerHTML = originalHTML;
     }
   }
 
-  // ---------- Inject button into a card ----------
+  // ---------- Button injection ----------
   function injectButtonIntoCard(card) {
-    if (card.querySelector(".ss-download-btn")) return;  // already injected
+    if (card.querySelector(".ss-download-btn")) return;
 
-    // Find the footer (where to attach the button)
     const footer = card.querySelector(".signal-footer") ||
                    card.querySelector(".priority-signal-card-footer");
     if (!footer) return;
@@ -624,33 +633,30 @@
     btn.className = "ss-download-btn";
     btn.type = "button";
     btn.innerHTML = `
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+           stroke-linecap="round" stroke-linejoin="round">
         <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
         <polyline points="7 10 12 15 17 10" />
         <line x1="12" y1="15" x2="12" y2="3" />
       </svg>
       ${BUTTON_LABEL}
     `;
-    btn.addEventListener("click", (e) => {
+    btn.addEventListener("click", e => {
       e.preventDefault();
       e.stopPropagation();
       generateImage(card, btn);
     });
-
     footer.appendChild(btn);
   }
 
-  // ---------- Process all cards on the page ----------
   function processAllCards() {
-    CARD_SELECTORS.forEach(sel => {
-      document.querySelectorAll(sel).forEach(injectButtonIntoCard);
-    });
+    CARD_SELECTORS.forEach(sel =>
+      document.querySelectorAll(sel).forEach(injectButtonIntoCard)
+    );
   }
 
-  // ---------- Watch for dynamically added cards ----------
   function observeNewCards() {
     const obs = new MutationObserver(() => {
-      // Debounce slightly
       clearTimeout(obs._t);
       obs._t = setTimeout(processAllCards, 150);
     });
