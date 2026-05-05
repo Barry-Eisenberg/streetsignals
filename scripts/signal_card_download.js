@@ -28,7 +28,7 @@
   // ^^ point this to wherever you serve the logo from on the live site,
   //    or set window.SS_LOGO_URL to a base64 data URL for inline embedding
   const SITE_URL = "streetsignals.nextfiadvisors.com";
-  const BUTTON_LABEL = "Download Image";
+  const BUTTON_LABEL = "Download";
   const CARD_SELECTORS = [
     ".signal-card",            // catalogue cards
     ".priority-signal-card",   // priority cards (optional - delete if not wanted)
@@ -163,18 +163,9 @@
     // Strip "AI WHY THIS MATTERS\n\n" prefix if present
     let insight = data.aiInsight || data.description || "";
     insight = insight.replace(/^AI WHY THIS MATTERS\s*\n+/i, "").trim();
-    // Truncate insight if too long for the layout
-    if (insight.length > 380) {
-      insight = insight.slice(0, 377).replace(/\s+\S*$/, "") + "…";
-    }
-    let description = (data.description || "").trim();
-    if (description.length > 340) {
-      description = description.slice(0, 337).replace(/\s+\S*$/, "") + "…";
-    }
-    let initiative = (data.initiative || "").trim();
-    if (initiative.length > 180) {
-      initiative = initiative.slice(0, 177).replace(/\s+\S*$/, "") + "…";
-    }
+    // Keep full insight; CSS/layout handles containment.
+    const description = (data.description || "").trim();
+    const initiative = (data.initiative || "").trim();
 
     const tierBadge = (data.importance || "Signal").toUpperCase();
     const tierClass = tierBadge.toLowerCase().includes("system")
@@ -252,7 +243,7 @@
               <span class="ss-source-label">Source</span>
               <span class="ss-source-value">${escapeHTML(data.source || "")}</span>
             </div>
-            <div class="ss-catalogue-copy">NextFi Advisors Signals from the Street | ${escapeHTML(data.institutionCategory || "Institutional")} Signal Catalogue</div>
+            <div class="ss-catalogue-copy">Signals from the Street | ${escapeHTML(data.institutionCategory || "Institutional")} Catalogue</div>
           </div>
         </div>
 
@@ -339,7 +330,7 @@
     .ss-inner {
       flex: 1;
       margin: 36px 56px 0;
-      padding: 36px 40px 32px;
+      padding: 34px 40px 28px;
       background: #fff;
       border-radius: 14px;
       border: 1px solid #e7e9ef;
@@ -354,10 +345,11 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
+      min-height: 26px;
       padding: 6px 14px; border-radius: 999px;
       font-size: 11.5px; font-weight: 700;
       letter-spacing: 0.22em; text-transform: uppercase;
-      line-height: 1;
+      line-height: 1.1;
     }
     .ss-tier-badge[data-tier="system"]      { color: #cc3366; background: rgba(255,92,138,0.14); }
     .ss-tier-badge[data-tier="directional"] { color: #cc9900; background: rgba(255,194,51,0.16); }
@@ -408,15 +400,21 @@
       border: 1px solid #e7e9ef;
     }
     .ss-initiative-label {
+      display: inline-flex;
+      align-items: center;
       font-family: 'JetBrains Mono', ui-monospace, monospace;
       font-size: 10px; font-weight: 700;
       letter-spacing: 0.14em; text-transform: uppercase;
       color: #73798a;
       white-space: nowrap;
+      line-height: 1.1;
     }
     .ss-initiative-value {
+      display: inline-flex;
+      align-items: center;
       font-size: 13px; font-weight: 650;
       color: #2a2e3a;
+      line-height: 1.25;
     }
 
     .ss-market-context {
@@ -429,14 +427,18 @@
       font-size: 13px;
     }
     .ss-market-label {
+      display: inline-flex;
+      align-items: center;
       font-family: 'JetBrains Mono', ui-monospace, monospace;
       font-size: 10px; font-weight: 700;
       letter-spacing: 0.14em; text-transform: uppercase;
       color: #73798a;
       white-space: nowrap;
+      line-height: 1.1;
     }
     .ss-market-chip {
-      display: inline-flex; align-items: center;
+      display: inline-flex;
+      align-items: center;
       font-weight: 700; color: #1a1c24;
       line-height: 1.25;
     }
@@ -447,14 +449,16 @@
     }
 
     .ss-insight {
-      font-size: 17.5px; line-height: 1.55;
+      font-size: 16.5px; line-height: 1.5;
       color: #383b48;
     }
 
     .ss-description {
-      margin-top: 16px;
-      font-size: 15px; line-height: 1.55;
+      margin-top: 14px;
+      font-size: 14px; line-height: 1.45;
       color: #4a4f5f;
+      max-height: 145px;
+      overflow: hidden;
     }
 
     .ss-footer {
@@ -473,12 +477,12 @@
     }
     .ss-source-value { font-weight: 600; color: #383b48; }
     .ss-catalogue-copy {
-      font-size: 11.5px; font-weight: 700;
-      letter-spacing: 0.12em; text-transform: uppercase;
+      font-size: 10.5px; font-weight: 700;
+      letter-spacing: 0.10em; text-transform: uppercase;
       color: #1e3263;
       text-align: right;
-      max-width: 56%;
-      line-height: 1.35;
+      white-space: nowrap;
+      line-height: 1.15;
     }
 
     /* Outer footer */
