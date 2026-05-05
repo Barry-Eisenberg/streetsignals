@@ -33,6 +33,7 @@ FETCH_TIMEOUT = 20
 MAX_AUTO_SIGNALS = 500   # hard cap on accumulated auto signals
 ROLLING_DAYS = 365       # prune entries older than this
 MIN_DESC_LENGTH = 40     # reject items with very thin descriptions
+TARGET_SUMMARY_LENGTH = 420
 
 # Tracking query params to strip from URLs before dedup
 _TRACKING_PARAMS = re.compile(
@@ -284,6 +285,73 @@ def clean_text(value):
     value = re.sub(r"<[^>]+>", " ", value or "")
     value = re.sub(r"\s+", " ", value).strip()
     return value
+
+
+def _split_sentences(text):
+    text = clean_text(text)
+    if not text:
+        return []
+    return [s.strip() for s in re.split(r"(?<=[.!?])\s+", text) if s.strip()]
+
+
+def _compress_to_length(text, max_chars=TARGET_SUMMARY_LENGTH):
+    text = clean_text(text)
+    if len(text) <= max_chars:
+        return text
+    cut = text[: max_chars + 1]
+    cut = re.sub(r"\s+\S*$", "", cut).rstrip(" ,;:-")
+    return cut
+
+
+def summarize_signal_description(title, description):
+    """Build a concise, insight-led card description from RSS title + summary text."""
+    title_text = clean_text(title)
+    desc_text = clean_text(description)
+    if not desc_text:
+        return title_text
+
+    # If the feed gives us a complete enough short paragraph, keep it.
+    if len(desc_text) <= TARGET_SUMMARY_LENGTH and not re.search(r"(?:\.\.\.|…)\s*$", desc_text):
+        return desc_text
+
+    sentences = _split_sentences(desc_text)
+    if not sentences:
+        return _compress_to_length(desc_text)
+
+    key_terms = [
+        "regulat", "compliance", "approval", "launch", "settlement", "custody",
+        "token", "stablecoin", "exchange", "clearing", "payments", "adoption",
+        "infrastructure", "framework", "institution", "bank", "market",
+    ]
+
+    def score_sentence(s):
+        lower = s.lower()
+        score = 0
+        if re.search(r"\d", lower):
+            score += 1
+        score += sum(1 for term in key_terms if term in lower)
+        if len(s) > 240:
+            score -= 1
+        return score
+
+    ranked = sorted(sentences, key=score_sentence, reverse=True)
+    chosen = []
+    used = set()
+    for sentence in ranked:
+        norm = sentence.lower()
+        if norm in used:
+            continue
+        chosen.append(sentence)
+        used.add(norm)
+        combined = " ".join(chosen)
+        if len(combined) >= TARGET_SUMMARY_LENGTH * 0.8 or len(chosen) >= 2:
+            break
+
+    summary = clean_text(" ".join(chosen))
+    if title_text and title_text.lower() not in summary.lower() and len(summary) < TARGET_SUMMARY_LENGTH * 0.6:
+        summary = clean_text(f"{summary} {title_text}")
+
+    return _compress_to_length(summary)
 
 
 def normalize_url(url):
@@ -793,7 +861,7 @@ def fetch_auto_signals(config, manual_data, existing_auto):
             signal = {
                 "institution": source.get("institution", name),
                 "initiative": item["title"],
-                "description": item["description"],
+                "description": summarize_signal_description(item["title"], item["description"]),
                 "date": item["published"],
                 "source_url": url,
                 "category": source_category,

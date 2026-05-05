@@ -781,6 +781,22 @@ function formatSignalDescriptionHtml(value) {
     .join('');
 }
 
+function resolveSignalCardDescription(signal, directionalInsight) {
+  const rawDescription = String(signal?.description || '').trim();
+  const normalizedDescription = normalizeSignalDescriptionText(rawDescription);
+  const normalizedInsight = normalizeSignalDescriptionText(directionalInsight || '');
+
+  const descriptionLooksTruncated = /(?:\.\.\.|…)\s*$/.test(normalizedDescription);
+  const descriptionTooThin = normalizedDescription.length < 120;
+  const descriptionUnavailable = !normalizedDescription || normalizedDescription === 'N/A';
+
+  if ((descriptionUnavailable || descriptionLooksTruncated || descriptionTooThin) && normalizedInsight && normalizedInsight !== 'N/A') {
+    return normalizedInsight;
+  }
+
+  return normalizedDescription;
+}
+
 const INSTITUTION_TYPE_NORMALIZATION = {
   'Central Banks & Regulators': 'Regulatory Agencies',
   'Digital Asset Infrastructure': 'Infrastructure & Technology',
@@ -4806,7 +4822,6 @@ function renderSignals() {
 
 function renderCard(signal, catKey, _index, signalMeta = {}) {
   const date = formatExactSignalDate(signal);
-  const hasLong = signal.description && signal.description.length > 200;
   const url = signal.source_url || '#';
   const domain = url !== '#' ? new URL(url).hostname.replace('www.','') : '';
   const signalKey = encodeURIComponent(getSignalKey(signal));
@@ -4815,6 +4830,8 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
   const displayTierTooltip = escapeHtml(getImportanceTierTooltip(importance.tier));
   const tierClass = String(importance.tier || 'Noise').toLowerCase().replace(/\s+/g, '-');
   const directionalInsight = buildSignalDirectionalInsight(signal, importance);
+  const cardDescription = resolveSignalCardDescription(signal, directionalInsight);
+  const hasLong = cardDescription && cardDescription.length > 280;
   const audience = inferSignalPersona(signal);
   const initiatives = getSignalDetailInitiatives(signal).slice(0, 3);
   const fmiAreas = getSignalDetailFmiAreas(signal).slice(0, 3);
@@ -4895,7 +4912,7 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
         <div class="signal-ai-title">AI Why This Matters</div>
         <p>${formatDisplayText(directionalInsight)}</p>
       </div>
-      <div class="signal-description">${formatDisplayText(signal.description || '')}</div>
+      <div class="signal-description">${formatDisplayText(cardDescription)}</div>
       ${hasLong ? '<button class="description-expand-btn">Read more</button>' : ''}
       <button class="signal-details-toggle" type="button" aria-expanded="false">Show relevance breakdown</button>
       <div class="signal-details">
