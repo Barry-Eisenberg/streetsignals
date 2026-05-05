@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "Banking groups reject Clarity Act yield compromise",
+    "description": "Major US banking associations rejected the Clarity Act’s stablecoin yield compromise, splitting publicly from Coinbase and Circle Major US banking associations publicly rejected the stablecoin yield compromise brokered by Senators Tillis and Alsobrooks in the Clarity Act. The banking groups…",
+    "date": "2026-05-05",
+    "source_url": "https://crypto.news/banking-groups-reject-clarity-act-yield-deal/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Anchorage Digital",
     "initiative": "Western Union’s Solana-based stablecoin could reshape its payment model, analyst says",
     "description": "Western Union launched USDPT, a dollar-backed stablecoin on Solana, issued by Anchorage Digital Bank, for 24/7 settlement with agents and partners.",
