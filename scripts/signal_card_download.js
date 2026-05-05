@@ -253,7 +253,7 @@
     ctx.textAlign = "left";
   }
 
-  function drawBrandBar(ctx, data, logo) {
+  function drawBrandBar(ctx, logo) {
     const BY = TICKER_H;
 
     ctx.fillStyle = C.white;
@@ -287,31 +287,20 @@
     ctx.stroke();
     bx += 16;
 
-    // Move catalogue copy from card footer to top brand line
-    const category = (data.institutionCategory || "Institutional").toUpperCase();
-    let leftText = "SIGNALS FROM THE STREET";
-    let rightText = "  |  " + category + " SIGNAL CATALOGUE";
-
-    ctx.font = "bold 12px 'Inter', -apple-system, BlinkMacSystemFont, sans-serif";
-    const maxBrandW = W - MX - bx;
-    while ((ctx.measureText(leftText + rightText).width > maxBrandW) && rightText.length > 18) {
-      rightText = rightText.slice(0, -1);
-    }
-    if (ctx.measureText(leftText + rightText).width > maxBrandW) {
-      rightText = "  |  SIGNAL CATALOGUE";
-    }
-    if (!rightText.endsWith("CATALOGUE") && rightText.length > 4) {
-      rightText = rightText.trimEnd() + "...";
-    }
-
+    // Brand name
     ctx.fillStyle = C.navy;
     ctx.font = "bold 12px 'Inter', -apple-system, BlinkMacSystemFont, sans-serif";
-    ctx.fillText(leftText, bx, MY);
-    const leftW = ctx.measureText(leftText).width;
+    ctx.fillText("STREET SIGNALS", bx, MY);
+    const ssW = ctx.measureText("STREET SIGNALS").width;
 
     ctx.fillStyle = C.muted;
     ctx.font = "500 12px 'Inter', -apple-system, BlinkMacSystemFont, sans-serif";
-    ctx.fillText(rightText, bx + leftW, MY);
+    ctx.fillText("  .  DLT & Digital Asset Intelligence", bx + ssW, MY);
+  }
+
+  function normalizeCatalogueName(name) {
+    const raw = String(name || "Institutional").trim();
+    return raw.replace(/^\d+\s*[.)\-:]?\s*/i, "").trim() || "Institutional";
   }
 
   // ---------- Hook extraction ----------
@@ -403,14 +392,15 @@
     ctx.fillText(importanceText, badgeX + BADGE_PAD, cy + 2 + BADGE_H / 2);
 
     // ---- Eyebrow: INSTITUTION · CATEGORY · DATE ----
+    const catalogueName = normalizeCatalogueName(data.institutionCategory).toUpperCase();
     const eyebrowParts = [
       (data.institution || "").toUpperCase(),
-      (data.institutionCategory || "").toUpperCase(),
       (data.date || "").toUpperCase(),
+      catalogueName + " SIGNAL CATALOGUE",
     ].filter(Boolean);
     const eyebrow = eyebrowParts.join("  ·  ");
 
-    ctx.font = "bold 11px 'JetBrains Mono', ui-monospace, monospace";
+    ctx.font = "bold 13px 'JetBrains Mono', ui-monospace, monospace";
     ctx.fillStyle = C.accent;
     ctx.textBaseline = "middle";
     // truncate eyebrow so it doesn't overlap the badge
@@ -424,7 +414,7 @@
     cy += BADGE_H + 20;
 
     // ---- Headline ----
-    const HEADLINE_SIZE = 40;
+    const HEADLINE_SIZE = 44;
     const HEADLINE_LH   = HEADLINE_SIZE * 1.2;
     ctx.font = `bold ${HEADLINE_SIZE}px 'Inter', -apple-system, sans-serif`;
     ctx.fillStyle = C.dark;
@@ -440,7 +430,7 @@
     const { hook, subtitle: hookSubtitle } = extractHook(data);
     if (hook && cy + 90 < BODY_MAX_Y - 160) {
       // Scale font size so hook fits within card width
-      let hookSize = 110;
+      let hookSize = 124;
       ctx.font = `bold ${hookSize}px 'Inter', -apple-system, sans-serif`;
       while (ctx.measureText(hook).width > CW && hookSize > 48) {
         hookSize -= 4;
@@ -483,7 +473,7 @@
     const STRIP_PAD_X   = 16;
     const STRIP_PAD_Y   = 12;
     const STRIP_LABEL_H = 16;
-    const STRIP_LH      = 17;
+    const STRIP_LH      = 22;
     const STRIP_TX_OFFSET = STRIP_ACCENT + 8 + STRIP_PAD_X; // left edge of text within strip
 
     function drawStrip(label, text, maxLines) {
@@ -513,7 +503,7 @@
       const tx = CX + STRIP_TX_OFFSET;
 
       // Label
-      ctx.font = "bold 10px 'JetBrains Mono', ui-monospace, monospace";
+      ctx.font = "bold 12px 'JetBrains Mono', ui-monospace, monospace";
       ctx.fillStyle = C.accent;
       ctx.textBaseline = "alphabetic";
       ctx.fillText(label, tx, cy + STRIP_PAD_Y + STRIP_LABEL_H - 2);
@@ -609,7 +599,7 @@
       ctx.fillRect(0, 0, W, H);
 
       drawTicker(ctx, data);
-      drawBrandBar(ctx, data, logo);
+      drawBrandBar(ctx, logo);
       drawCard(ctx, data);
       drawOuterFooter(ctx);
 
