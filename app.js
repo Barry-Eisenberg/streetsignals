@@ -2919,16 +2919,71 @@ function getOperationalSignals() {
   return allSignals.filter(s => !s._isBrief && isSignalWithinRecencyWindow(s));
 }
 
+function extractStoryTokens(signal) {
+  const institutionTokens = String(signal?.institution || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .split(/\s+/)
+    .filter(Boolean);
+  const institutionStop = new Set(institutionTokens);
+  const stopwords = new Set([
+    'the', 'and', 'for', 'with', 'from', 'into', 'onto', 'over', 'under', 'launch', 'launches', 'launched',
+    'announces', 'announce', 'says', 'report', 'reporting', 'reports', 'designed', 'based', 'brings', 'bring',
+    'opens', 'opened', 'higher', 'major', 'indexes', 'gaining', 'according', 'tuesday', 'about', 'after',
+    'have', 'rolled', 'rollout', 'this', 'that', 'their', 'they', 'will', 'would', 'into', 'across', 'first'
+  ]);
+
+  const combined = `${signal?.initiative || ''} ${signal?.initiative || ''} ${signal?.description || ''}`
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .split(/\s+/)
+    .map(token => token.replace(/s$/, ''))
+    .filter(token => token.length >= 4 && !stopwords.has(token) && !institutionStop.has(token));
+
+  return [...new Set(combined)];
+}
+
+function signalsAreSameStory(a, b) {
+  if (String(a?.institution || '').trim().toLowerCase() !== String(b?.institution || '').trim().toLowerCase()) {
+    return false;
+  }
+
+  if (String(a?.signal_type || '').trim() !== String(b?.signal_type || '').trim()) {
+    return false;
+  }
+
+  const dateA = String(getSignalReferenceDateRaw(a) || '').trim();
+  const dateB = String(getSignalReferenceDateRaw(b) || '').trim();
+  if (dateA && dateB && dateA !== dateB) {
+    return false;
+  }
+
+  const tokensA = extractStoryTokens(a);
+  const tokensB = extractStoryTokens(b);
+  if (!tokensA.length || !tokensB.length) {
+    return getSignalStoryKey(a) === getSignalStoryKey(b);
+  }
+
+  const setB = new Set(tokensB);
+  const shared = tokensA.filter(token => setB.has(token));
+  const overlapRatio = shared.length / Math.min(tokensA.length, tokensB.length);
+
+  return shared.length >= 2 && overlapRatio >= 0.34;
+}
+
 function collapseSignalsByStory(signals) {
-  const grouped = new Map();
+  const groups = [];
 
   signals.forEach(signal => {
-    const storyKey = getSignalStoryKey(signal);
-    if (!grouped.has(storyKey)) grouped.set(storyKey, []);
-    grouped.get(storyKey).push(signal);
+    const match = groups.find(group => signalsAreSameStory(group[0], signal));
+    if (match) {
+      match.push(signal);
+    } else {
+      groups.push([signal]);
+    }
   });
 
-  return Array.from(grouped.values()).map(group => {
+  return groups.map(group => {
     if (group.length === 1) return group[0];
 
     const representative = [...group].sort((a, b) => {
