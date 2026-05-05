@@ -1,5 +1,61 @@
 [
   {
+    "institution": "Citigroup",
+    "initiative": "Tokenization won't disrupt banking rails but improve them, Wall Street executives say",
+    "description": "Executives from Citigroup, JPMorgan and DTCC said at Consensus that genuine client demand is driving real-world use of tokenized assets.",
+    "date": "2026-05-05",
+    "source_url": "https://www.coindesk.com/business/2026/05/05/tokenization-won-t-disrupt-banking-rails-but-improve-them-wall-street-executives-say",
+    "category": "global_banks",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "SoFi Bank",
+    "initiative": "SoFi to launch its stablecoin on Solana, citing speed and cost",
+    "description": "SoFiUSD is a fully reserved U.S. dollar stablecoin issued by SoFi Bank, a nationally chartered bank.",
+    "date": "2026-05-05",
+    "source_url": "https://www.theblock.co/post/400098/sofi-to-launch-its-stablecoin-on-solana-citing-speed-and-cost",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Bullish acquisition of Equiniti targets tokenized securities",
+    "description": "The Bullish acquisition of Equiniti, announced today, values the transfer agent at $4.2 billion The Bullish acquisition of Equiniti, announced on May 5, positions the crypto exchange as a core piece of infrastructure for tokenized securities markets. Equiniti currently serves…",
+    "date": "2026-05-05",
+    "source_url": "https://crypto.news/bullish-acquisition-of-equiniti-targets-tokens/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "Banking groups reject Clarity Act yield compromise",
     "description": "Major US banking associations rejected the Clarity Act’s stablecoin yield compromise, splitting publicly from Coinbase and Circle Major US banking associations publicly rejected the stablecoin yield compromise brokered by Senators Tillis and Alsobrooks in the Clarity Act. The banking groups…",
