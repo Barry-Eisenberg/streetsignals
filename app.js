@@ -2919,8 +2919,42 @@ function getOperationalSignals() {
   return allSignals.filter(s => !s._isBrief && isSignalWithinRecencyWindow(s));
 }
 
+function collapseSignalsByStory(signals) {
+  const grouped = new Map();
+
+  signals.forEach(signal => {
+    const storyKey = getSignalStoryKey(signal);
+    if (!grouped.has(storyKey)) grouped.set(storyKey, []);
+    grouped.get(storyKey).push(signal);
+  });
+
+  return Array.from(grouped.values()).map(group => {
+    if (group.length === 1) return group[0];
+
+    const representative = [...group].sort((a, b) => {
+      const importanceA = getSignalImportance(a).importanceScore || 0;
+      const importanceB = getSignalImportance(b).importanceScore || 0;
+      if (importanceB !== importanceA) return importanceB - importanceA;
+
+      const sourceWeightA = resolveSourceMeta(a).weight || 0;
+      const sourceWeightB = resolveSourceMeta(b).weight || 0;
+      if (sourceWeightB !== sourceWeightA) return sourceWeightB - sourceWeightA;
+
+      const tsA = getSignalDateTimestamp(a) || 0;
+      const tsB = getSignalDateTimestamp(b) || 0;
+      return tsB - tsA;
+    })[0];
+
+    return {
+      ...representative,
+      _storySourceCount: group.length,
+      _storySources: group.map(getSignalSourceName).filter(Boolean)
+    };
+  });
+}
+
 function getCatalogueSignals(options = {}) {
-  const { includeCategory = true } = options;
+  const { includeCategory = true, collapseStories = false } = options;
   let filtered = allSignals.filter(signal => !signal._isBrief && isSignalWithinRecencyWindow(signal));
 
   if (Array.isArray(importanceTierFilter) && importanceTierFilter.length > 0) {
@@ -2993,6 +3027,10 @@ function getCatalogueSignals(options = {}) {
 
   if (searchQuery) {
     filtered = filtered.filter(signal => `${signal.institution} ${signal.initiative} ${signal.description} ${signal.category} ${signal.signal_type || ''}`.toLowerCase().includes(searchQuery));
+  }
+
+  if (collapseStories) {
+    filtered = collapseSignalsByStory(filtered);
   }
 
   return filtered;
@@ -4791,7 +4829,7 @@ function renderSignals() {
   renderFilterPills();
   renderCatalogueSortNote();
   renderPrioritySignalsStrip();
-  const filtered = getCatalogueSignals();
+  const filtered = getCatalogueSignals({ collapseStories: true });
   renderSignalsPlaybookBanner(filtered);
   const signalMeta = buildCatalogueSignalMeta(filtered);
 
