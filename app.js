@@ -6088,7 +6088,7 @@ function sortInstitutions(insts, sortMode) {
 function renderDirectory() {
   const container = document.getElementById('directoryContainer');
   if (!container) return;
-  const signals = getCatalogueSignals().filter(signal => !dirCountryFilter || getSignalCountryValue(signal) === dirCountryFilter);
+  const signals = getCatalogueSignals({ collapseStories: true }).filter(signal => !dirCountryFilter || getSignalCountryValue(signal) === dirCountryFilter);
   const institutions = buildInstitutionSummaries(signals);
 
   const grouped = {};
@@ -6135,7 +6135,7 @@ function renderCountryDirectory() {
   const container = document.getElementById('countryDirectoryContainer');
   if (!container) return;
 
-  const signals = getCatalogueSignals().filter(signal => !countryDirTypeFilter || signal.institution_type === countryDirTypeFilter);
+  const signals = getCatalogueSignals({ collapseStories: true }).filter(signal => !countryDirTypeFilter || signal.institution_type === countryDirTypeFilter);
   const institutions = buildInstitutionSummaries(signals).filter(inst => !countryDirSearch || inst.name.toLowerCase().includes(countryDirSearch));
   const grouped = {};
 
