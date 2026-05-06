@@ -785,32 +785,125 @@ function formatSignalDescriptionHtml(value) {
     .join('');
 }
 
+function ensureSentencePunctuation(value) {
+  const text = String(value || '').trim();
+  if (!text) return '';
+  if (/[.!?]["')\]]?$/.test(text)) return text;
+  return `${text}.`;
+}
+
+function normalizeLeadClause(value) {
+  let text = String(value || '').replace(/[�]/g, "'").replace(/\s+/g, ' ').trim();
+  if (!text) return '';
+  text = text.replace(/^(?:and|but|so|then)\s+/i, '');
+  text = text.replace(/^(?:according\s+to|reported\s+by)\s+[^,]+,\s*/i, '');
+  text = sentenceCase(text);
+  return ensureSentencePunctuation(text);
+}
+
+function isLowQualityDescriptionText(value) {
+  const text = String(value || '').replace(/\s+/g, ' ').trim();
+  if (!text) return true;
+
+  const hasTerminalPunctuation = /[.!?]["')\]]?$/.test(text);
+  const hasAnySentencePunctuation = /[.!?]/.test(text);
+  const hasMojibake = /�/.test(text);
+  const hasBoilerplate = /press\s+releases?|read\s+more|all\s+rights\s+reserved|cookie\s+policy|privacy\s+policy/i.test(text);
+  const endsWithDanglingConnector = /\b(?:and|or|but|with|for|to|of|in|on|at|by|from|as|that|which|who|while|because|if|when|where|like)\s*$/i.test(text);
+  const likelyTruncated = (!hasTerminalPunctuation && text.length > 90)
+    || (!hasAnySentencePunctuation && text.length > 140)
+    || endsWithDanglingConnector;
+
+  return hasMojibake || hasBoilerplate || likelyTruncated;
+}
+
+function extractDescriptionSentences(value) {
+  const text = String(value || '').replace(/\s+/g, ' ').trim();
+  if (!text) return [];
+
+  const rawSentences = text.match(/[^.!?]+[.!?]+(?:\s+|$)|[^.!?]+$/g) || [text];
+  return rawSentences
+    .map(part => normalizeLeadClause(part))
+    .filter(Boolean)
+    .filter(part => !/^(?:read\s+more|source|click\s+here)\b/i.test(part));
+}
+
+function buildSignalOverviewFallback(signal, directionalInsight) {
+  const initiative = normalizeLeadClause(signal?.initiative || '');
+  const subject = getSignalNarrativeSubject(signal);
+  const theme = getSignalNarrativeTheme(signal);
+  const audience = getSignalDetailAudience(signal).slice(0, 2);
+  const audienceText = audience.length
+    ? audience.join(' and ').toLowerCase()
+    : 'institutional infrastructure teams';
+
+  const insightSentence = extractDescriptionSentences(directionalInsight || '')[0] || '';
+  const contextSentence = `${subject} is advancing ${theme}, with direct implications for ${audienceText}.`;
+
+  const pieces = [];
+  if (initiative) pieces.push(initiative);
+  if (insightSentence) pieces.push(insightSentence);
+  if (!insightSentence) pieces.push(contextSentence);
+
+  const deduped = [];
+  const seen = new Set();
+  pieces.forEach(piece => {
+    const key = piece.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+    if (!key || seen.has(key)) return;
+    seen.add(key);
+    deduped.push(piece);
+  });
+
+  return deduped.join(' ').trim() || 'Signal details are being updated.';
+}
+
 function resolveSignalCardDescription(signal, directionalInsight) {
   const rawDescription = String(signal?.description || '').trim();
   const normalizedDescription = normalizeSignalDescriptionText(rawDescription);
   const normalizedInsight = normalizeSignalDescriptionText(directionalInsight || '');
+  const initiativeSentence = normalizeLeadClause(signal?.initiative || '');
+  const lowQualityDescription = isLowQualityDescriptionText(normalizedDescription);
 
   const descriptionUnavailable = !normalizedDescription || normalizedDescription === 'N/A';
 
   if (descriptionUnavailable && normalizedInsight && normalizedInsight !== 'N/A') {
-    return normalizedInsight;
+    const fallback = buildSignalOverviewFallback(signal, normalizedInsight);
+    return sentenceCase(fallback);
   }
 
-  let displayDescription = sentenceCase(normalizedDescription);
+  const sentences = extractDescriptionSentences(normalizedDescription);
+  let lead = sentences[0] || '';
+  let follow = sentences[1] || '';
 
-  if (/(?:\.\.\.|…)\s*$/.test(displayDescription)) {
-    const withoutEllipsis = displayDescription.replace(/\s*(?:\.\.\.|…)\s*$/, '').trim();
-    const completeSentences = withoutEllipsis.match(/[^.!?]+[.!?]+(?=\s+|$)/g);
-    if (completeSentences && completeSentences.length) {
-      displayDescription = completeSentences.map(sentence => sentence.trim()).join(' ');
-    } else if (withoutEllipsis) {
-      displayDescription = withoutEllipsis + '.';
-    }
-  } else if (!/[.!?]["')\]]?$/.test(displayDescription)) {
-    displayDescription += '.';
+  const hasEllipsis = /(?:\.\.\.|…)\s*$/.test(normalizedDescription);
+  const looksThin = !lead || lead.split(/\s+/).length < 8 || hasEllipsis || lowQualityDescription;
+
+  const initiativeKey = initiativeSentence.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+  const leadKey = lead.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+  const shouldPrefixInitiative = initiativeSentence
+    && initiativeKey
+    && (!leadKey || !leadKey.includes(initiativeKey));
+
+  const assembled = [];
+  if (shouldPrefixInitiative && looksThin) assembled.push(initiativeSentence);
+  if (lead) assembled.push(lead);
+  if (follow && (looksThin || assembled.join(' ').length < 180)) assembled.push(follow);
+
+  let displayDescription = assembled.join(' ').trim();
+
+  if (lowQualityDescription && !follow) {
+    displayDescription = buildSignalOverviewFallback(signal, normalizedInsight);
   }
 
-  return displayDescription;
+  if (!displayDescription || displayDescription.length < 70) {
+    displayDescription = buildSignalOverviewFallback(signal, normalizedInsight);
+  }
+
+  if (displayDescription.length > 420) {
+    displayDescription = `${displayDescription.slice(0, 417).replace(/\s+\S*$/, '').trim()}...`;
+  }
+
+  return sentenceCase(ensureSentencePunctuation(displayDescription));
 }
 
 const INSTITUTION_TYPE_NORMALIZATION = {
@@ -1978,9 +2071,36 @@ function inferSignalPersona(signal) {
   return Array.from(audience).slice(0, 3);
 }
 
+function buildSignalEvidenceAnchor(signal) {
+  const initiative = sentenceCase(normalizeSignalDescriptionText(signal?.initiative || ''));
+  const description = normalizeSignalDescriptionText(signal?.description || '');
+  let anchor = '';
+
+  if (initiative && initiative !== 'N/A') {
+    anchor = initiative;
+  } else if (description && description !== 'N/A') {
+    const firstSentence = (description.match(/[^.!?]+[.!?]+(?:\s+|$)|[^.!?]+$/) || [description])[0] || '';
+    anchor = firstSentence.trim();
+  }
+
+  anchor = String(anchor || '').replace(/\s+/g, ' ').trim();
+  if (!anchor) return '';
+
+  if (anchor.length > 170) {
+    const clipped = anchor.slice(0, 167).replace(/\s+\S*$/, '').trim();
+    anchor = `${clipped}...`;
+  }
+
+  if (!/[.!?]["')\]]?$/.test(anchor)) anchor += '.';
+  return `Signal focus: ${anchor}`;
+}
+
 function buildSignalDirectionalInsight(signal, importance) {
   const institution = getSignalNarrativeSubject(signal);
   const leadTheme = getSignalNarrativeTheme(signal);
+  const signalFocus = buildSignalEvidenceAnchor(signal);
+  const topInitiative = getSignalDetailInitiatives(signal).find(v => v && v !== 'Not yet classified') || '';
+  const topFmiArea = getSignalDetailFmiAreas(signal).find(v => v && v !== 'Not yet mapped' && v !== 'General Infrastructure') || '';
   const audience = inferSignalPersona(signal);
   const audienceText = audience.length > 0
     ? audience.slice(0, 2).join(' and ')
@@ -2013,12 +2133,17 @@ function buildSignalDirectionalInsight(signal, importance) {
     ? ''
     : ` Lens fit: ${confidence}.`;
   const audienceClause = `Most material audiences: ${audienceText}.${confidenceClause}`;
+  const scopeBits = [];
+  if (topInitiative) scopeBits.push(`initiative: ${topInitiative}`);
+  if (topFmiArea) scopeBits.push(`FMI area: ${topFmiArea}`);
+  const scopeClause = scopeBits.length ? ` Primary scope: ${scopeBits.join(' | ')}.` : '';
+  const focusClause = signalFocus ? ` ${signalFocus}` : '';
 
   if (isReporterSource(signal)) {
-    return `${teamPrefix}, reporting indicates momentum in ${leadTheme} ${stagePhrase}. ${narrative}\n\n${audienceClause}`;
+    return `${teamPrefix}, reporting indicates momentum in ${leadTheme} ${stagePhrase}.${focusClause}${scopeClause} ${narrative}\n\n${audienceClause}`;
   }
 
-  return `${teamPrefix}, ${institution} is advancing ${leadTheme} ${stagePhrase}. ${narrative}\n\n${audienceClause}`;
+  return `${teamPrefix}, ${institution} is advancing ${leadTheme} ${stagePhrase}.${focusClause}${scopeClause} ${narrative}\n\n${audienceClause}`;
 }
 
 const EXTERNAL_MARKET_CONTEXT = {
@@ -5146,7 +5271,7 @@ function renderCard(signal, catKey, _index, signalMeta = {}) {
       ${marketContextRow}
       <div class="signal-why">Global lens: ${importance.stage} stage | ${importance.materiality} materiality | ${importance.sourceTier} source credibility</div>
       <div class="signal-ai-insight">
-        <div class="signal-ai-title">AI Why This Matters</div>
+        <div class="signal-ai-title">Why This Matters</div>
         <p>${formatDisplayTextWithBreaks(directionalInsight)}</p>
       </div>
       <div class="signal-description">${formatDisplayText(cardDescription)}</div>
