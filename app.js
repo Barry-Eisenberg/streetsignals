@@ -2095,6 +2095,47 @@ function buildSignalEvidenceAnchor(signal) {
   return `Signal focus: ${anchor}`;
 }
 
+function buildSignalTypeImplication(signal, importance, topInitiative, topFmiArea) {
+  const signalType = String(signal?.signal_type || '').trim();
+  const headline = String(signal?.initiative || '').trim();
+  const description = normalizeSignalDescriptionText(signal?.description || '');
+  const combined = `${headline} ${description}`.toLowerCase();
+
+  const stageWindowMap = {
+    Structural: 'next 12 to 24 months',
+    Production: 'next 6 to 12 months',
+    Pilot: 'next 2 to 4 quarters',
+    Concept: 'next 12 to 18 months'
+  };
+  const stageWindow = stageWindowMap[String(importance?.stage || '').trim()] || 'coming planning cycles';
+  const scopeLabel = topFmiArea || topInitiative || 'core market infrastructure';
+
+  if (/^Regulatory Action$/i.test(signalType)) {
+    let policyMove = 'supervisory direction';
+    if (/\b(approve|approval|green\s*light|authorize|authoriz|permit|clear|clearing\s+path)\b/.test(combined)) policyMove = 'policy enablement';
+    else if (/\b(reject|ban|block|prohibit|den(y|ied)|falls\s+short|challenge|oppose)\b/.test(combined)) policyMove = 'policy constraint';
+    else if (/\b(compromise|amend|mark\s*up|framework|rule|guidance|consultation|proposal)\b/.test(combined)) policyMove = 'rule-shaping negotiation';
+    else if (/\b(sue|lawsuit|enforcement|probe|investigation|scrutiny|settlement)\b/.test(combined)) policyMove = 'enforcement pressure';
+
+    return `Signal type context: this is a regulatory decision point (${policyMove}) that resets execution assumptions for ${scopeLabel} over the ${stageWindow}.`;
+  }
+
+  if (/^Strategic Initiative$/i.test(signalType)) {
+    let executionMode = 'institutional transformation program';
+    if (/\b(acquire|acquisition|buy|purchase|deal|merger|m\s*&\s*a|m&a)\b/.test(combined)) executionMode = 'capital-led capability build';
+    else if (/\b(partner|partnership|alliance|joint)\b/.test(combined)) executionMode = 'partner-led execution model';
+    else if (/\b(launch|roll\s*out|deploy|go\s*live|implementation|program)\b/.test(combined)) executionMode = 'execution-phase operating shift';
+
+    return `Signal type context: this is a strategic initiative with ${executionMode}, indicating budget and operating-model commitment around ${scopeLabel} over the ${stageWindow}.`;
+  }
+
+  if (/^Strategic Partnership$/i.test(signalType)) {
+    return `Signal type context: this partnership changes go-to-market and integration pathways for ${scopeLabel}, with near-term implications for vendor selection and implementation sequencing.`;
+  }
+
+  return '';
+}
+
 function buildSignalDirectionalInsight(signal, importance) {
   const institution = getSignalNarrativeSubject(signal);
   const leadTheme = getSignalNarrativeTheme(signal);
@@ -2137,13 +2178,15 @@ function buildSignalDirectionalInsight(signal, importance) {
   if (topInitiative) scopeBits.push(`initiative: ${topInitiative}`);
   if (topFmiArea) scopeBits.push(`FMI area: ${topFmiArea}`);
   const scopeClause = scopeBits.length ? ` Primary scope: ${scopeBits.join(' | ')}.` : '';
+  const typeImplicationClause = buildSignalTypeImplication(signal, importance, topInitiative, topFmiArea);
+  const typeClause = typeImplicationClause ? ` ${typeImplicationClause}` : '';
   const focusClause = signalFocus ? ` ${signalFocus}` : '';
 
   if (isReporterSource(signal)) {
-    return `${teamPrefix}, reporting indicates momentum in ${leadTheme} ${stagePhrase}.${focusClause}${scopeClause} ${narrative}\n\n${audienceClause}`;
+    return `${teamPrefix}, reporting indicates momentum in ${leadTheme} ${stagePhrase}.${focusClause}${scopeClause}${typeClause} ${narrative}\n\n${audienceClause}`;
   }
 
-  return `${teamPrefix}, ${institution} is advancing ${leadTheme} ${stagePhrase}.${focusClause}${scopeClause} ${narrative}\n\n${audienceClause}`;
+  return `${teamPrefix}, ${institution} is advancing ${leadTheme} ${stagePhrase}.${focusClause}${scopeClause}${typeClause} ${narrative}\n\n${audienceClause}`;
 }
 
 const EXTERNAL_MARKET_CONTEXT = {
