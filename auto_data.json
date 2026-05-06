@@ -1,5 +1,60 @@
 [
   {
+    "institution": "Revolut",
+    "initiative": "Crypto’s mainstream moment has arrived, say industry leaders speaking at Consensus Miami",
+    "description": "Executives from Binance, Revolut and Circle say crypto is evolving beyond speculation into the financial infrastructure powering payments, remittances and broader global access.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/business/2026/05/06/crypto-s-mainstream-moment-has-arrived-say-industry-leaders-speaking-at-consensus-miami",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinShares",
+    "initiative": "Spot Bitcoin ETFs solved access, but custody, advisors and plumbing still lag, panelists say",
+    "description": "Senior figures from CoinShares, Calamos, ProShares and Flow Traders flagged Coinbase-heavy custody concentration, modest advisor uptake and creation-flow inefficiency as being among the next set of problems to solve.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/business/2026/05/06/spot-bitcoin-etfs-solved-access-but-custody-advisors-and-plumbing-still-lag-panelists-say",
+    "category": "asset_management",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Securitize",
+    "initiative": "NYSE warns synthetic tokens are misleading retail",
+    "description": "NYSE parent ICE and Securitize warned at Consensus Miami 2026 that offshore synthetic tokenized stocks are misleading retail investors and creating serious risks for the broader market. NYSE executives and partners raised the alarm at Consensus Miami 2026 on Wednesday…",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/nyse-warns-fake-tokenized-stocks-threaten-retail/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Circle",
     "initiative": "Dominance of Tether and Circle is a net bad for stablecoins, says Bridge executive",
     "description": "Circle and Tether are going to make it harder for stablecoins to feel like money, said Ben O'Neill, head of money movement at Bridge.",
