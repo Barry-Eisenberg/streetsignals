@@ -1,5 +1,68 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "From 'what' to 'how': Robinhood and Bitstamp say banks are ready to build on-chain",
+    "description": "Executives from Ondo, Robinhood and Babylon Labs said at Consensus Miami 2026 that banks and traditional finance firms are embracing crypto infrastructure, though institutional adoption remains constrained.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/business/2026/05/06/wall-street-is-finally-coming-to-crypto-but-on-its-own-terms",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Banks reject US stablecoin compromise, public shrugs at crypto",
+    "description": "Crypto firms are pushing a stablecoin compromise to revive stalled U.S. legislation, but banks resist, while the public remains indifferent.",
+    "date": "2026-05-06",
+    "source_url": "https://coingeek.com/banks-reject-us-stablecoin-compromise-public-shrugs-at-crypto/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "RootData maps 30 Hyperliquid Web3 partners as it builds an on-chain liquidity OS",
+    "description": "RootData’s new map shows 30 core Web3 partners plugging custody, trading, wallets, and infra into Hyperliquid’s L1 as it pushes toward an on-chain liquidity OS. RootData’s latest ecosystem map shows Hyperliquid positioning itself as a performant L1 “optimized from the ground up”…",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/rootdata-maps-30-hyperliquid-web3-partners-as-it-builds-an-on-chain-liquidity-os/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Monetary policy transmission to exchange rates: the role of currency carry trades",
     "description": "by Ryan Niladri Banerjee, Lena Boneva, Gabor Pinter, Vladyslav Sushko",
