@@ -1,5 +1,63 @@
 [
   {
+    "institution": "JPMorgan",
+    "initiative": "Eric Trump takes shot at JPMorgan rethinking bitcoin after 'crapping' on asset",
+    "description": "The U.S. president's son, who co-founded American Bitcoin, said there's been a turnaround from traditional institutional firms now embracing bitcoin.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/policy/2026/05/06/eric-trump-takes-shot-at-jpmorgan-rethinking-bitcoin-after-crapping-on-asset",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "Ripple, JPMorgan and others use XRP Ledger to cash out tokenized Treasurys fund internationally",
+    "description": "The transaction represents an example of crypto firms and Wall Street institutions jointly exploring 24/7 settlement systems.",
+    "date": "2026-05-06",
+    "source_url": "https://www.theblock.co/post/400281/ripple-jpmorgan-xrp-ledger-transfer-tokenized-treasury-across-borders",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Arthur Hayes rejects crypto regulation at Consensus Miami",
+    "description": "Arthur Hayes told Consensus Miami 2026 that the CLARITY Act misses the point of crypto, arguing that bitcoin’s value comes precisely from operating outside any regulatory system. BitMEX co-founder and Maelstrom CIO Arthur Hayes took the stage at Consensus Miami…",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/arthur-hayes-rejects-the-clarity-act-at-consensus/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "The end of ads: Coinbase engineer says AI agents could kill the internet’s favorite business model",
     "description": "Erik Reppel, who created the x402 protocol, said that the web economy depends heavily on advertising revenue generated from humans. AI agents bypass that system entirely.",
