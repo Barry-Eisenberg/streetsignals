@@ -1,5 +1,22 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "The end of ads: Coinbase engineer says AI agents could kill the internet’s favorite business model",
+    "description": "Erik Reppel, who created the x402 protocol, said that the web economy depends heavily on advertising revenue generated from humans. AI agents bypass that system entirely.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/tech/2026/05/06/the-end-of-ads-coinbase-engineer-says-ai-agents-could-kill-the-internet-s-favorite-business-model",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Ripple",
     "initiative": "The Protocol: AI Agents form their own firm",
     "description": "Also: Alpenglow upgrade update, Ripple on North Korea hacking threat, Cloudflare on AI agents and web economics",
