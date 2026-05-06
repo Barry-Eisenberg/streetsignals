@@ -1,5 +1,120 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Crypto custodian Taurus moves straight into EU capital markets with MiFID license in Cyprus",
+    "description": "The license allows the firm to offer tokenized financial instruments to EU banks as well as secondary trading for tokenized bonds, fund shares, equities, and structured products.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/policy/2026/05/06/crypto-custody-firm-taurus-granted-mifid-license-in-cyprus",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainlink",
+    "initiative": "Kelp DAO Claims LayerZero Approved the Setup It Blamed for $292 Million Hack, Migrates to Chainlink",
+    "description": "Kelp DAO says LayerZero reviewed its single-verifier bridge configuration for over two years without raising security concerns, then blamed Kelp after the $292 million exploit. Kelp is now migrating rsETH to Chainlink CCIP.",
+    "date": "2026-05-06",
+    "source_url": "https://unchainedcrypto.com/kelp-dao-claims-layerzero-approved-the-setup-it-blamed-for-292-million-hack-migrates-to-chainlink/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Kraken Partners With MoneyGram for Global Crypto-to-Cash Withdrawals, Says IPO Is “80% Ready”",
+    "description": "Kraken's MoneyGram partnership brings crypto-to-cash withdrawals to 500,000 locations in 100+ countries, while co-CEO Arjun Sethi signals the exchange is nearly ready to go public.",
+    "date": "2026-05-06",
+    "source_url": "https://unchainedcrypto.com/kraken-partners-with-moneygram-for-global-crypto-to-cash-withdrawals-says-ipo-is-80-ready/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase Cuts 700 Jobs and Restructures Around AI as Crypto Downturn Deepens",
+    "description": "Coinbase is laying off 14% of its workforce and rebuilding around AI-native teams as revenue declines and CEO Brian Armstrong pushes to flatten the company's management structure.",
+    "date": "2026-05-06",
+    "source_url": "https://unchainedcrypto.com/coinbase-cuts-700-jobs-and-restructures-around-ai-as-crypto-downturn-deepens/",
+    "category": "exchanges_intermediaries",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Google Cloud",
+    "initiative": "Stablecoins enter AI payments as Solana and Google launch Pay.sh",
+    "description": "Solana and Google Cloud launched Pay.sh, letting AI agents pay for Google Cloud and other APIs using stablecoins on Solana.",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/stablecoins-enter-ai-payments-as-solana-and-google-launch-pay-sh/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "CFTC may lock in Phantom-style crypto wallet protections",
+    "description": "CFTC Chair Michael Selig says the agency may codify Phantom-style protections for non-custodial crypto software developers.",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/cftc-may-lock-in-phantom-style-crypto-wallet-protections/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "FSB",
     "initiative": "Report on Vulnerabilities in Private Credit",
     "description": "Private credit has expanded rapidly to an estimated $1.5–2 trillion in assets, supporting financing for mid-sized companies but creating potential financial stability risks",
