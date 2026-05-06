@@ -1,5 +1,44 @@
 [
   {
+    "institution": "Morgan Stanley",
+    "initiative": "Morgan Stanley brings crypto trading with lower fees than rivals",
+    "description": "The bank is rolling out crypto trading on E*Trade with lower fees than Coinbase, Robinhood and Schwab, according to Bloomberg.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/markets/2026/05/06/morgan-stanley-brings-crypto-trading-with-lower-fees-than-rivals",
+    "category": "global_banks",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "Blockchain.com launches SnapMarkets as prediction markets move into faster crypto bets",
+    "description": "The launch occurs as prediction markets surge, facing regulatory conflicts between the pro-market CFTC and challenging state gambling authorities.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/business/2026/05/06/blockchain-com-launches-snapmarkets-as-prediction-markets-move-into-faster-crypto-bets",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "From 'what' to 'how': Robinhood and Bitstamp say banks are ready to build on-chain",
     "description": "Executives from Ondo, Robinhood and Babylon Labs said at Consensus Miami 2026 that banks and traditional finance firms are embracing crypto infrastructure, though institutional adoption remains constrained.",
@@ -7120,6 +7159,25 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
+    "year": "2026"
+  },
+  {
+    "institution": "Mastercard",
+    "initiative": "Competition Act 1998 investigations",
+    "description": "Further detail on the FCA’s procedures in CA98 cases is available in our CA98 guidance.Competition Act 1998 cases may also be brought by the Competition and Markets Authority.The FCA is currently gathering evidence. Following the publication of financial reporting by PayPal Holdings Inc, we can confirm we are investigating Mastercard, PayPal and Visa under Chapter I in the Competition Act 1998, and Mastercard and",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/press-releases/competition-act-1998-investigations",
+    "category": "payments",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
