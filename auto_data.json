@@ -1,5 +1,61 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "Monetary policy transmission to exchange rates: the role of currency carry trades",
+    "description": "by Ryan Niladri Banerjee, Lena Boneva, Gabor Pinter, Vladyslav Sushko",
+    "date": "2026-05-06",
+    "source_url": "https://www.bis.org/publ/bisbull124.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "Bitcoin approaches $82,000 as oil crashes 6% on fresh Iran peace deal hopes",
+    "description": "Bitcoin climbed toward $82,000 alongside a more than 1% rise in Nasdaq futures amid reports of progress toward a U.S.–Iran memorandum of understanding.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/markets/2026/05/06/bitcoin-nasdaq-futures-rally-as-oil-crashes-6-on-iran-peace-deal-hopes",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Anchorage Digital",
+    "initiative": "Anchorage Digital launches AI banking for autonomous payments",
+    "description": "Crypto bank Anchorage Digital has introduced an agentic banking service that allows AI systems to access and move funds across traditional and crypto payment rails without human intervention. According to Anchorage Digital co-founder and CEO Nathan McCauley, the new infrastructure…",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/anchorage-digital-launches-ai-banking-for-autonomous-payments/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Crypto custodian Taurus moves straight into EU capital markets with MiFID license in Cyprus",
     "description": "The license allows the firm to offer tokenized financial instruments to EU banks as well as secondary trading for tokenized bonds, fund shares, equities, and structured products.",
