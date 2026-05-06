@@ -1,5 +1,98 @@
 [
   {
+    "institution": "FSB",
+    "initiative": "Report on Vulnerabilities in Private Credit",
+    "description": "Private credit has expanded rapidly to an estimated $1.5–2 trillion in assets, supporting financing for mid-sized companies but creating potential financial stability risks",
+    "date": "2026-05-06",
+    "source_url": "https://www.fsb.org/2026/05/report-on-vulnerabilities-in-private-credit/",
+    "category": "regulators",
+    "source_name": "FSB — Publications",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "UK sets new rules for fund tokenization under current regulations",
+    "description": "U.K.'s FCA approves new rules for tokenized funds, simplifying tokenization and enhancing the asset management sector's growth and innovation.",
+    "date": "2026-05-06",
+    "source_url": "https://coingeek.com/uk-sets-new-rules-for-fund-tokenization-under-current-regulations/",
+    "category": "regulators",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase sued by anonymous whale over frozen DAI from $55M scam",
+    "description": "A crypto whale sued Coinbase, claiming it froze DAI tied to a 2024 phishing theft but refused to return traceable funds in U.S. court case.",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/coinbase-sued-by-anonymous-whale-over-frozen-dai-from-55m-scam/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Ripple",
+    "initiative": "Ripple CEO Brad Garlinghouse says CLARITY Act could stall before midterms",
+    "description": "According to Brad Garlinghouse, the next two weeks will determine whether the digital asset market structure bill… Brad Garlinghouse has warned that recent Senate progress on the CLARITY Act still leaves a narrow window for the bill to move forward. Ripple CEO Brad Garlinghouse says CLARITY Act could stall before midterms",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/ripple-ceo-brad-garlinghouse-says-clarity-act-could-stall-before-midterms/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Tennessee bankers pick Stablecore as digital asset push grows",
+    "description": "Tennessee Bankers Association picked Stablecore to help member banks offer stablecoins, tokenized deposits and crypto-backed lending tools.",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/tennessee-bankers-pick-stablecore-as-digital-asset-push-grows/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinGeek",
     "initiative": "Cybersecurity strains grow as AI challenges Australian banks",
     "description": "Australia’s banks urged to upgrade cybersecurity as AI threats evolve fast, with APRA flagging gaps in current safeguards and rising systemic risk.",
@@ -6793,6 +6886,23 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
+    "year": "2026"
+  },
+  {
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "FCA to review claims management practices",
+    "description": "We are launching a review of the claims management market, following concerns that consumers are being failed by some claims management companies (CMCs) and law firms. Formal investigations are also under way, with 1 announced by the FCA.The SRA regulates around 9,000 law firms in England and Wales.",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/statements/fca-review-claims-management-practices",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
