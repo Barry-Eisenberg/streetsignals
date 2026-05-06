@@ -1,5 +1,75 @@
 [
   {
+    "institution": "CoinGeek",
+    "initiative": "Cybersecurity strains grow as AI challenges Australian banks",
+    "description": "Australia’s banks urged to upgrade cybersecurity as AI threats evolve fast, with APRA flagging gaps in current safeguards and rising systemic risk.",
+    "date": "2026-05-06",
+    "source_url": "https://coingeek.com/cybersecurity-strains-grow-as-ai-challenges-australian-banks/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "PayPal",
+    "initiative": "PayPal Plans Job Cuts",
+    "description": "Hey Payments Fanatic! PayPal is planning to cut costs and jobs as new CEO Enrique Lores faces mounting pressure to turn around a company that has struggled against fierce competition, most notably from Stripe. PayPal isn't alone. Across the FinTech space, layoffs have been picking up pace",
+    "date": "2026-05-06",
+    "source_url": "https://www.connectingthedotsinpayments.com/paypal-plans-job-cuts/",
+    "category": "payments",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Crypto whale sues Coinbase for allegedly refusing to return stolen DAI",
+    "description": "The plaintiff fell victim to a phishing scam that drained his DAI holdings, with part of the funds later traced to a Coinbase user account.",
+    "date": "2026-05-06",
+    "source_url": "https://www.theblock.co/post/400152/crypto-whale-sues-coinbase",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainlink",
+    "initiative": "Kelp DAO moves rsETH to Chainlink CCIP as LayerZero dispute grows",
+    "description": "Kelp DAO will move rsETH to Chainlink CCIP after a $292M bridge hack, as LayerZero rejects blame and Aave fights frozen ETH claims.",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/kelp-dao-moves-rseth-to-chainlink-ccip-as-layerzero-dispute-grows/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Consensys",
     "initiative": "The world's entire economy will be tokenized, says Consensys’ Joseph Lubin",
     "description": "The Consensys CEO and founder said tokenization can be traced back to Ethereum, the blockchain he helped co-found.",
