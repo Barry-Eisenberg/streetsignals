@@ -1,5 +1,84 @@
 [
   {
+    "institution": "Nasdaq",
+    "initiative": "Nasdaq's president says the SEC’s new crypto stance is letting markets 'build' again",
+    "description": "Nasdaq’s Tal Cohen said a friendlier SEC is giving crypto firms and exchanges room to experiment with tokenization and digital market infrastructure.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/policy/2026/05/06/nasdaq-s-president-says-the-sec-s-new-crypto-stance-is-letting-markets-build-again",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "DTCC",
+    "initiative": "Wall Street's clearinghouse seeks 'high-performance' blockchains to tokenize corporate actions",
+    "description": "DTCC CEO Frank La Salla said the clearing giant is working with layer-1 blockchains to bring millions in corporate actions like dividend payments onchain, but challenges remain.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/business/2026/05/06/wall-street-s-clearinghouse-seeks-high-performance-blockchains-to-tokenize-corporate-actions",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Fairshake defends midterm spending as voter trust crashes",
+    "description": "Fairshake has spent $28 million in 2026 primaries as a new poll shows most Americans distrust crypto and AI, raising questions about the political value of industry-backed super PAC money. Fairshake, the pro-crypto super PAC backed by Coinbase, Andreessen Horowitz,…",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/fairshake-and-ai-pacs-pour-100m-into-midterms/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Why Erik Reppel says AI agents end internet ads",
+    "description": "Erik Reppel said at Consensus Miami 2026 that AI agents bypass internet ads entirely, threatening the web’s core business model and pointing to x402 stablecoin micropayments as the structural replacement. Coinbase Developer Platform head and x402 founder Erik Reppel took…",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/erik-reppel-says-ai-agents-will-kill-online-ads/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Revolut",
     "initiative": "Crypto’s mainstream moment has arrived, say industry leaders speaking at Consensus Miami",
     "description": "Executives from Binance, Revolut and Circle say crypto is evolving beyond speculation into the financial infrastructure powering payments, remittances and broader global access.",
