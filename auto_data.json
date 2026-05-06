@@ -1,5 +1,63 @@
 [
   {
+    "institution": "ESMA (European Securities and Markets Authority)",
+    "initiative": "ESMA promotes proportionate supervision of MiFID II sustainability requirements",
+    "description": "ESMA promotes proportionate supervision of MiFID II sustainability requirements 06 May 2026 Investor protection The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has issued a statement presenting the results of its Common Supervisory Action (CSA) on how sustainability is integrated into firms’ suitability assessment as well as into processes and procedures for",
+    "date": "2026-05-06",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-promotes-proportionate-supervision-mifid-ii-sustainability-requirements",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "DLT collateral mobility platform HQLAᵡ gets SEC no action letter for US activity",
+    "description": "HQLAᵡ, the DLT collateral mobility platform, can operate in the US under a no action letter received from the Securities and Exchange Commission (SEC). Eurex Clearing recently leveraged the platform to accept DLT-based collateral for margin purposes, one of the first instances worldwide at a traditional regulated venue. The key benefit is enabling instant transfer",
+    "date": "2026-05-06",
+    "source_url": "https://www.ledgerinsights.com/dlt-collateral-mobility-platform-hqla%e1%b5%a1-gets-sec-no-action-letter-for-us-activity/",
+    "category": "regulators",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "21Shares lists Strategy-linked STRC ETN on London Stock Exchange, expands UK footprint",
+    "description": "21Shares listed a Strategy-linked ETN on the LSE offering UK investors access to Strategy perpetual preferred stock for the first time.",
+    "date": "2026-05-06",
+    "source_url": "https://www.theblock.co/post/400207/21shares-lists-strategy-linked-strc-etn-london-stock-exchange-expands-uk-footprint",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Morgan Stanley",
     "initiative": "Morgan Stanley brings crypto trading with lower fees than rivals",
     "description": "The bank is rolling out crypto trading on E*Trade with lower fees than Coinbase, Robinhood and Schwab, according to Bloomberg.",
