@@ -1,5 +1,63 @@
 [
   {
+    "institution": "Ripple",
+    "initiative": "The Protocol: AI Agents form their own firm",
+    "description": "Also: Alpenglow upgrade update, Ripple on North Korea hacking threat, Cloudflare on AI agents and web economics",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/tech/2026/05/06/the-protocol-ai-agents-form-their-own-firm",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "FINMA",
+    "initiative": "SIX gets approval to merge SDX DLT CSD into securities services, adds crypto custody",
+    "description": "SIX has received approval from Swiss regulator FINMA to merge its blockchain entity SIX Digital Exchange AG (SDX) into its central securities depository SIX SIS AG. SDX previously operated as a separate licensed entity with its own CSD license for digital assets. Separately, FINMA also approved the main CSD to offer crypto custody services. The",
+    "date": "2026-05-06",
+    "source_url": "https://www.ledgerinsights.com/six-gets-approval-to-merge-sdx-dlt-csd-into-securities-services-adds-crypto-custody/",
+    "category": "regulators",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Morgan Stanley",
+    "initiative": "Morgan Stanley pilots crypto trading on E*Trade with 50-basis-point fee: Bloomberg",
+    "description": "Morgan Stanley pilots crypto trading at 50 basis points, expanding digital asset push weeks after launching a bitcoin ETF.",
+    "date": "2026-05-06",
+    "source_url": "https://www.theblock.co/post/400259/morgan-stanley-pilots-crypto-trading-on-etrade-with-50-basis-point-fee-bloomberg",
+    "category": "global_banks",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Poonam Gupta: Inflation targeting in India - the past, the present and the future",
     "description": "Speech by Dr Poonam Gupta, Deputy Governor of the Reserve Bank of India, at Joint Seminar and Discussion \"India's inflation targeting framework' and 'regional economic outlook for Asia and Pacific\", National Council of Applied Economic Research (NCAER), New Delhi, 5 May 2026.",
