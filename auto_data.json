@@ -1,5 +1,44 @@
 [
   {
+    "institution": "Circle",
+    "initiative": "Dominance of Tether and Circle is a net bad for stablecoins, says Bridge executive",
+    "description": "Circle and Tether are going to make it harder for stablecoins to feel like money, said Ben O'Neill, head of money movement at Bridge.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/business/2026/05/06/dominance-of-tether-and-circle-is-net-bad-for-stablecoins-says-bridge",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "Eric Trump rejects JPMorgan’s bitcoin credibility",
+    "description": "Eric Trump mocked JPMorgan at Consensus Miami 2026 for reversing its bitcoin stance within 18 months, saying banks have accepted they can no longer hold back the tide. Eric Trump took the stage at Consensus Miami 2026 on Wednesday and… Eric Trump rejects JPMorgan’s bitcoin credibility",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/eric-trump-blasts-jpmorgan-bitcoin-reversal/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Securitize",
     "initiative": "NYSE, OKX, Securitze discuss tokenizing stocks “the right way” versus synthetically",
     "description": "Yesterday during a Consensus panel, the topic of synthetic tokenized stocks was discussed, with Securitize CEO Carlos Domingo pushing back hard against this type of token. Today there are relatively few tokenized US stocks with full ownership rights, which should change when the DTCC starts rolling out its tokenized entitlements in July. A wider variety",
