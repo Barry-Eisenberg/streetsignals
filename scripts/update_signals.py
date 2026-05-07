@@ -34,7 +34,7 @@ FETCH_TIMEOUT = 20
 MAX_AUTO_SIGNALS = 500   # hard cap on accumulated auto signals
 ROLLING_DAYS = 365       # prune entries older than this
 MIN_DESC_LENGTH = 40     # reject items with very thin descriptions
-TARGET_SUMMARY_LENGTH = 420
+TARGET_SUMMARY_LENGTH = 800
 
 _MOJIBAKE_FIXES = {
     "ΓÇª": "…",
@@ -333,9 +333,20 @@ def _compress_to_length(text, max_chars=TARGET_SUMMARY_LENGTH):
     text = clean_text(text)
     if len(text) <= max_chars:
         return text
-    cut = text[: max_chars + 1]
-    cut = re.sub(r"\s+\S*$", "", cut).rstrip(" ,;:-")
-    return cut
+    # Prefer cutting at a sentence boundary so we never truncate mid-sentence
+    sentences = re.split(r"(?<=[.!?])\s+", text)
+    result = ""
+    for s in sentences:
+        candidate = (result + " " + s).strip() if result else s
+        if len(candidate) <= max_chars:
+            result = candidate
+        else:
+            break
+    # Fall back to word boundary only if we couldn't fit even one sentence
+    if not result:
+        cut = text[: max_chars + 1]
+        result = re.sub(r"\s+\S*$", "", cut).rstrip(" ,;:-")
+    return result
 
 
 def summarize_signal_description(title, description):
