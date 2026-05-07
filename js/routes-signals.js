@@ -691,14 +691,11 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const whyHeaderH = 36;
     ctx.font = `500 ${whyBodyFont}px ${_scFont}`;
     const whyAllLines = _scWrapLimit(ctx, why || '', LEFT_W - 28, 99);
-    // Bottom-anchor Why card: fix its Y position first, then budget happened top-down to that Y.
-    const whyContentLines = Math.max(1, Math.min(whyAllLines.length || 1, 5));
-    const whyContentH = whyHeaderH + whyContentLines * whyBodyLineH;
-    const whyY = leftBottom - whyContentH;
-    const whyH = whyContentH;
-    // happenedMaxLines = everything from happened text start up to whyY minus chip/url overhead.
+    // Budget happened against the minimum possible Why height (header + 1 line).
+    // This maximises happened lines; Why then draws from actual content position and fills to bottom.
+    const minWhyH = whyHeaderH + whyBodyLineH;
     const happenedMaxLines = Math.max(2, Math.floor(
-      (whyY - 8 - sourceChipH - urlRowH - (happenedY + 26)) / happenedLineH
+      (leftBottom - (happenedY + 26) - urlRowH - sourceChipH - 8 - minWhyH) / happenedLineH
     ));
     ctx.fillStyle = '#d8e0ea';
     ctx.font = `700 18px ${_scFont}`;
