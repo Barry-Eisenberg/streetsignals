@@ -684,8 +684,10 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const leftBottom = H - 18;
     const sourceChipH = (signal.source_name || signal.source_url) ? 36 : 0;
     const happenedLineH = 23;
-    const urlFootnoteReserve = 20; // always reserve for potential truncation URL
-    const happenedMaxLines = Math.max(2, Math.floor((leftBottom - (happenedY + 26) - sourceChipH - urlFootnoteReserve - 18 - 100) / happenedLineH));
+    const urlRowH = 18; // reserve for optional "Read more at:" line
+    const minWhyH = 120; // minimum height for Why This Matters card
+    const happenedReserve = sourceChipH + urlRowH + 8 + minWhyH;
+    const happenedMaxLines = Math.max(2, Math.floor((leftBottom - (happenedY + 26) - happenedReserve) / happenedLineH));
     ctx.fillStyle = '#d8e0ea';
     ctx.font = `700 18px ${_scFont}`;
     ctx.fillText('What happened', PAD, happenedY);
@@ -697,11 +699,23 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     _scDrawLines(ctx, happenedLines, PAD, happenedY + 26, happenedLineH);
     const happenedBottom = happenedY + 26 + happenedLines.length * happenedLineH;
 
-    // Source chip + optional read-more URL, both below the text block.
+    // "Read more at:" URL — inside What Happened block, shown when description is truncated.
     let belowHappenedBottom = happenedBottom;
+    if (isTruncated && signal._id) {
+      ctx.fillStyle = '#8f9aaa';
+      ctx.font = `500 11px ${_scFont}`;
+      const readMoreLabel = 'Read more at: ';
+      ctx.fillText(readMoreLabel, PAD, happenedBottom + 6);
+      ctx.fillStyle = tc;
+      const labelW = ctx.measureText(readMoreLabel).width;
+      ctx.fillText(`streetsignals.nextfiadvisors.com/#/signals/${signal._id}`, PAD + labelW, happenedBottom + 6);
+      belowHappenedBottom = happenedBottom + urlRowH;
+    }
+
+    // Source chip — below URL (or text) with tight gap.
     if (signal.source_name || signal.source_url) {
       const sourceLabel = signal.source_name || 'Source article';
-      const chipTop = belowHappenedBottom + 10;
+      const chipTop = belowHappenedBottom + 8;
       ctx.fillStyle = 'rgba(220,228,239,0.12)';
       _scRoundRect(ctx, PAD, chipTop, 178, 26, 6);
       ctx.fill();
@@ -712,20 +726,10 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       ctx.textBaseline = 'top';
       belowHappenedBottom = chipTop + 26;
     }
-    if (isTruncated && signal._id) {
-      ctx.fillStyle = tc;
-      ctx.font = `500 11px ${_scFont}`;
-      ctx.fillText(`\u2197 streetsignals.nextfiadvisors.com/#/signals/${signal._id}`, PAD, belowHappenedBottom + 8);
-      belowHappenedBottom += 20;
-    }
 
-    // Why This Matters card — distribute vertical slack between gap and card height.
-    const minWhyY = belowHappenedBottom + 14;
-    const minWhyH = 100;
-    const leftSlack = Math.max(0, leftBottom - (minWhyY + minWhyH));
-    const whyOffset = Math.min(16, Math.round(leftSlack * 0.25));
-    const whyY = minWhyY + whyOffset;
-    const whyH = Math.max(minWhyH, Math.min(188, leftBottom - whyY));
+    // Why This Matters card — fills all remaining left-column space, no artificial cap.
+    const whyY = belowHappenedBottom + 8;
+    const whyH = Math.max(minWhyH, leftBottom - whyY);
     ctx.fillStyle = 'rgba(45,220,255,0.06)';
     ctx.strokeStyle = 'rgba(45,220,255,0.34)';
     ctx.lineWidth = 1;
@@ -736,10 +740,10 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.font = `700 12px ${_scFont}`;
     ctx.fillText(`WHY THIS MATTERS · ${SftSData.PERSONAS[persona].label.toUpperCase()}`, PAD + 14, whyY + 12);
     ctx.fillStyle = '#b8c3d0';
-    const whyBodyFont = whyH >= 160 ? 18 : 19;
-    const whyBodyLineH = whyH >= 160 ? 23 : 24;
-    const whyBodyY = whyY + 36;
-    const whyMaxLines = Math.max(2, Math.floor((whyH - 46) / whyBodyLineH));
+    const whyBodyFont = 15;
+    const whyBodyLineH = 20;
+    const whyBodyY = whyY + 32;
+    const whyMaxLines = Math.max(3, Math.floor((whyH - 40) / whyBodyLineH));
     ctx.font = `500 ${whyBodyFont}px ${_scFont}`;
     const whyLines = _scWrapLimit(ctx, why || '', LEFT_W - 28, whyMaxLines);
     _scDrawLines(ctx, whyLines, PAD + 14, whyBodyY, whyBodyLineH);
@@ -767,7 +771,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.fillStyle = '#f1f5fb';
     ctx.font = `800 18px ${_scFont}`;
     const recoHeadingShort = playbook?.short || recommendationTitle;
-    const recoHeadingLines = _scWrapLimit(ctx, `Recommended play · ${recoHeadingShort}`, rInnerW, 3);
+    const recoHeadingLines = _scWrapLimit(ctx, `Recommended Playbook · ${recoHeadingShort}`, rInnerW, 3);
     const recoHeadingH = recoHeadingLines.length * 24;
 
     // Lead text.
