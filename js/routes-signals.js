@@ -769,9 +769,9 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const leadLines = _scWrapLimit(ctx, leadText, rInnerW, 2);
     const leadH = leadLines.length * 18;
 
-    const ctaH = 28;
-    const ctaGap = 8;
-    const ctaStackH = ctaH * 3 + ctaGap * 2;
+    const ctaLineH = 17;
+    const ctaLabelH = 13;
+    const ctaStackH = ctaLabelH + 4 + ctaLineH * 3;
     let playCardH = 214;
     let gap1 = 10;
     let gap2 = 9;
@@ -866,34 +866,35 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
     rCursor = playY + playCardH + gap4;
 
-    // CTA row — flows directly below play card.
+    // Next actions — text list (static PNG: no interactive buttons)
     const ctaY = rCursor;
-    const ctaW = rInnerW;
     const ctaX = RIGHT_X + rPad;
-    const ctas = reco
+    const actions = reco
       ? [
-          `Read the full Playbook: ${playbook?.short || 'Playbook'}`,
-          `See all ${playbook?.short || themeLabel} signals`,
-          'Discuss with NextFi Advisors'
+          `1  Read the full Playbook: ${playbook?.short || 'Playbook'}`,
+          `2  See all ${playbook?.short || themeLabel} signals on SftS`,
+          '3  Discuss with NextFi Advisors'
         ]
-      : ['Browse all playbooks', 'Explore related institutional signals', 'Discuss with NextFi Advisors'];
+      : [
+          '1  Browse all Decision Playbooks',
+          '2  Explore related institutional signals',
+          '3  Discuss with NextFi Advisors'
+        ];
 
-    for (let i = 0; i < ctas.length; i++) {
-      const y = ctaY + i * (ctaH + ctaGap);
-      ctx.fillStyle = i === 0 ? tc : 'rgba(255,255,255,0.10)';
-      _scRoundRect(ctx, ctaX, y, ctaW, ctaH, 6);
-      ctx.fill();
-      ctx.fillStyle = i === 0 ? '#04131a' : '#d7e0eb';
-      ctx.font = `700 12px ${_scFont}`;
-      ctx.textBaseline = 'middle';
-      const line = _scWrapLimit(ctx, ctas[i], ctaW - 16, 1)[0];
-      ctx.fillText(line, ctaX + 10, y + ctaH / 2);
-      ctx.textBaseline = 'top';
+    ctx.fillStyle = '#8f9aaa';
+    ctx.font = `700 10px ${_scFont}`;
+    ctx.fillText('NEXT ACTIONS', ctaX, ctaY);
+    let actionsCursor = ctaY + ctaLabelH + 4;
+    ctx.fillStyle = '#c8d3df';
+    ctx.font = `500 12px ${_scFont}`;
+    for (const line of actions) {
+      ctx.fillText(line, ctaX, actionsCursor);
+      actionsCursor += ctaLineH;
     }
 
     const footerY = ctaY + ctaStackH + footerGap;
-    ctx.fillStyle = '#7f8d9d';
-    ctx.font = `500 11px ${_scFont}`;
+    ctx.fillStyle = tc;
+    ctx.font = `600 12px ${_scFont}`;
     ctx.fillText('streetsignals.nextfiadvisors.com', ctaX, footerY);
 
 
