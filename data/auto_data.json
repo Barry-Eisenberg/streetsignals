@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Tether",
+    "initiative": "Tether executive warns the 2026 midterms could have 'seismic impact' on crypto industry",
+    "description": "Jesse Spiro, Head of Government Affairs at Tether, said at Consensus Miami 2026 that the midterms will be a key test for whether crypto’s recent policy gains in Washington can survive politically.",
+    "date": "2026-05-07",
+    "source_url": "https://www.coindesk.com/policy/2026/05/07/tether-executive-warns-the-2026-midterms-could-have-seismic-impact-on-crypto-industry",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Ledger Insights",
     "initiative": "Kraken parent Payward to buy stablecoin payments firm Reap for $600m",
     "description": "Payward, the parent of cryptocurrency exchange Kraken, has agreed to acquire Hong Kong based Reap Technologies for up to $600 million in cash and stock. Reap is a stablecoin-native payments infrastructure company whose API enables corporate card issuance, cross border payouts and treasury management. By mid 2025 Reap said it was processing $3 billion in",
@@ -1177,13 +1196,14 @@
     "description": "HQLAᵡ, the DLT collateral mobility platform, can operate in the US under a no action letter received from the Securities and Exchange Commission (SEC). Eurex Clearing recently leveraged the platform to accept DLT-based collateral for margin purposes, one of the first instances worldwide at a traditional regulated venue. The key benefit is enabling instant transfer rather than waiting for T+1 or T+2 settlement. The SEC letter was addressed to both HQLAᵡ and Clearstream International, which acts as the trusted third party and collateral custodian. Underlying assets are locked in place and digital collateral receipts are issued that can be transferred instantly. HQLAᵡ is backed by Deutsche Börse and major banks including BNP Paribas, BNY, Citi, Goldman Sachs, HSBC, and JP Morgan. The platform currently runs on R3 Corda but plans to migrate to Canton technology. HQLAᵡ is also applying for a permanent conditional exemption from clearing agency registration; the no action letter provides 36 months of breathing space.",
     "date": "2026-05-06",
     "source_url": "https://www.ledgerinsights.com/dlt-collateral-mobility-platform-hqla%e1%b5%a1-gets-sec-no-action-letter-for-us-activity/",
-    "category": "regulators",
+    "category": "global_banks",
     "source_name": "Ledger Insights",
     "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
+    "institution_type": "Global Banks",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Settlement & Clearing",
+      "Custody & Safekeeping",
       "Payments & Transfers",
       "Collateral & Lending",
       "Trading & Exchange",
@@ -2104,7 +2124,7 @@
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
+    "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
       "General Infrastructure"
     ],
@@ -3491,7 +3511,7 @@
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Investment / M&A",
+    "signal_type": "Strategic Partnership",
     "fmi_areas": [
       "Settlement & Clearing",
       "Payments & Transfers",
@@ -3500,6 +3520,7 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
     "year": "2026"
@@ -3729,6 +3750,7 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Product Launch",
     "fmi_areas": [
+      "Collateral & Lending",
       "Trading & Exchange",
       "Regulation & Compliance"
     ],
