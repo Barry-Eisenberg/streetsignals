@@ -1,5 +1,102 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin lenders say institutions want crypto credit to look more like TradFi",
+    "description": "At Consensus 2026 in Miami, executives from Two Prime, Ledn and Lygos Finance said institutional borrowers increasingly prioritize custody, transparency and standardized lending structures over complex DeFi products after the crypto credit collapses of 2022.",
+    "date": "2026-05-07",
+    "source_url": "https://www.coindesk.com/markets/2026/05/07/bitcoin-lenders-say-institutions-want-crypto-credit-to-look-more-like-tradfi",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Collateral & Lending",
+      "Interoperability & Standards",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "BNY, world's largest custody bank, expands crypto services in Abu Dhabi",
+    "description": "The Wall Street giant, which oversees $59 trillion in client assets, teamed up with Finstreet and ADI Foundation for digital asset infrastructure.",
+    "date": "2026-05-07",
+    "source_url": "https://www.coindesk.com/business/2026/05/07/bny-world-s-largest-custody-bank-expands-crypto-services-in-abu-dhabi",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Mastercard",
+    "initiative": "Ripple, JPMorgan settle first cross-border tokenized Treasury redemption on XRP Ledger",
+    "description": "The pilot, run with Ondo Finance and Mastercard, processed the redemption of Ondo's OUSG tokenized Treasury fund in under five seconds.",
+    "date": "2026-05-07",
+    "source_url": "https://www.coindesk.com/markets/2026/05/07/ripple-jpmorgan-settle-first-cross-border-tokenized-treasury-redemption-on-xrp-ledger",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bithumb eyes Vietnam expansion under new partnership with SSID",
+    "description": "Bithumb said it may make direct investments in the upcoming exchange, contingent on local regulatory approval.",
+    "date": "2026-05-07",
+    "source_url": "https://www.theblock.co/post/400341/bithumb-vietnam-ssid",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Mastercard",
+    "initiative": "JPMorgan, Mastercard and Ripple test tokenized Treasury settlement on XRPL",
+    "description": "JPMorgan, Mastercard, Ripple and Ondo completed a cross-border tokenized Treasury redemption using XRPL and bank settlement rails in a test.",
+    "date": "2026-05-07",
+    "source_url": "https://crypto.news/jpmorgan-mastercard-and-ripple-test-tokenized-treasury-settlement-on-xrpl/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Nasdaq",
     "initiative": "Nasdaq's president says the SEC’s new crypto stance is letting markets 'build' again",
     "description": "Nasdaq’s Tal Cohen said a friendlier SEC is giving crypto firms and exchanges room to experiment with tokenization and digital market infrastructure.",
