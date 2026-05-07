@@ -634,7 +634,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const bylineW = ctx.measureText(rightByline).width;
     const bylineMetrics = ctx.measureText(rightByline);
     const bylineH = Math.max(11, Math.round((bylineMetrics.actualBoundingBoxAscent || 9) + (bylineMetrics.actualBoundingBoxDescent || 3)));
-    const logoH = 20;
+    const logoH = 28;
     const naturalRatio = _scNextFiLogoReady && _scNextFiLogo.height ? (_scNextFiLogo.width / _scNextFiLogo.height) : 4.9;
     const logoW = Math.max(82, Math.min(128, Math.round(logoH * naturalRatio)));
     const lockGap = 8;
@@ -754,10 +754,11 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     rCursor += eyebrowH;
 
     // Reco heading — 22px, up to 3 lines.
+    // Always render "Recommended play ·" on its own line so the title never looks truncated.
     ctx.fillStyle = '#f1f5fb';
     ctx.font = `800 22px ${_scFont}`;
-    const recoHeading = `Recommended play · ${recommendationTitle}`;
-    const recoHeadingLines = _scWrapLimit(ctx, recoHeading, rInnerW, 3);
+    const recoTitleLines = _scWrapLimit(ctx, recommendationTitle, rInnerW, 2);
+    const recoHeadingLines = ['Recommended play ·', ...recoTitleLines];
     const recoHeadingH = recoHeadingLines.length * 27;
 
     // Lead text.
@@ -871,8 +872,9 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const ctaX = RIGHT_X + rPad;
     const actions = reco
       ? [
-          `1  Read the full Playbook: ${playbook?.short || 'Playbook'}`,
-          `2  See all ${playbook?.short || themeLabel} signals on SftS`,
+          `1  Read the full Playbook: ${playbook?.label || 'Playbook'}`,
+          `2  See all ${playbook?.label || themeLabel} signals on SftS`,
+
           '3  Discuss with NextFi Advisors'
         ]
       : [
