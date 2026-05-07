@@ -1,5 +1,82 @@
 [
   {
+    "institution": "Anchorage Digital",
+    "initiative": "The stablecoin queue: 20 banks and tech giants are waiting to issue tokens with Anchorage Digital",
+    "description": "Since the Genius Act passed, Anchorage has won every single large stablecoin issuance mandate across the landscape, according to the firm’s CEO Nathan McCauley.",
+    "date": "2026-05-07",
+    "source_url": "https://www.coindesk.com/business/2026/05/07/anchorage-says-it-has-a-pipeline-of-up-to-20-big-firms-looking-to-issue-stablecoins",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Ripple-linked XRP slips 25% below $1.42 as traders watch breakout",
+    "description": "XRP pulled back even as Ripple and JPMorgan completed a cross-border tokenized Treasury settlement on XRPL, with price now testing whether the recent breakout structure can hold.",
+    "date": "2026-05-07",
+    "source_url": "https://www.coindesk.com/markets/2026/05/07/ripple-linked-xrp-slips-25-below-usd1-42-as-traders-watch-breakout",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "JPMorgan says Strategy’s bitcoin buying could reach $30 billion this year at current pace",
+    "description": "Michael Saylor's Strategy has added 145,834 bitcoin worth around $11 billion so far this year, JPMorgan analysts noted.",
+    "date": "2026-05-07",
+    "source_url": "https://www.theblock.co/post/400443/jpmorgan-strategy-bitcoin-buying-30-billion-mstr",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Crypto ETF boom continues with debut of first fund to track Canton",
+    "description": "A new crypto exchange-traded fund has entered the chat — the 21shares Canton Network ETF made its debut on Nasdaq Thursday.",
+    "date": "2026-05-07",
+    "source_url": "https://www.theblock.co/post/400436/crypto-etf-boom-continues-with-debut-of-first-fund-to-track-canton",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Chainlink",
     "initiative": "The $700 million migration: Why Solv Protocol is ditching LayerZero for Chainlink",
     "description": "The combined migrations by Solv and Kelp shift nearly $1 billion in assets to Chainlink's CCIP, reflecting an industry \"flight to quality.\"",
