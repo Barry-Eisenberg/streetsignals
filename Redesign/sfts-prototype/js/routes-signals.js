@@ -327,11 +327,26 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
           <div class="detail-section">
             <h3>What happened</h3>
             <p class="detail-description">${R.escapeHTML(signal.description || '')}</p>
+            ${signal.description_truncated ? `<p class="detail-truncation-note">Full article available at source — preview only.</p>` : ''}
             ${signal.source_url ? `<p style="margin-top: var(--space-4);">
               <a class="btn btn--outline btn--sm" href="${signal.source_url}" target="_blank" rel="noopener noreferrer">
                 Read source ${R.extIcon}
               </a>
             </p>` : ''}
+          </div>
+
+          <div class="detail-section">
+            <h3>Classification</h3>
+            <dl class="fact-grid">
+              <dt>Initiative type</dt>
+              <dd>${(signal.initiative_types || []).map(it => `<span class="pill pill--soft">${R.escapeHTML(it)}</span>`).join('') || '<span class="pill pill--soft">Unclassified</span>'}</dd>
+              <dt>FMI areas</dt>
+              <dd>${(signal.fmi_areas || []).map(f => `<span class="pill pill--soft">${R.escapeHTML(f)}</span>`).join('') || '—'}</dd>
+              <dt>Institution category</dt>
+              <dd>${R.catTag(signal._category)}</dd>
+              <dt>Playbook themes</dt>
+              <dd>${R.themeTagsFor(signal)}</dd>
+            </dl>
           </div>
 
           ${reco ? `
@@ -363,7 +378,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
               </a>
               <a class="btn btn--outline" href="#/signals?theme=${reco.themeId}">See all ${R.escapeHTML(SftSPlaybooks.PLAYBOOKS[reco.themeId].short)} signals</a>
-              <a class="btn btn--ghost" href="https://nextfiadvisors.com/contact?signal_id=${params.id}&theme=${themeId || ''}&play=${reco?.play.n || ''}" target="_blank" rel="noopener noreferrer">Discuss with NextFi ${R.extIcon}</a>
+              <a class="btn btn--ghost" href="https://nextfiadvisors.com/contact" target="_blank" rel="noopener noreferrer">Discuss with NextFi ${R.extIcon}</a>
             </div>
           </div>
           ` : `
@@ -373,20 +388,6 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
             <a class="btn btn--outline" href="#/playbooks">Browse all playbooks</a>
           </div>
           `}
-
-          <div class="detail-section">
-            <h3>Classification</h3>
-            <dl class="fact-grid">
-              <dt>Initiative type</dt>
-              <dd>${(signal.initiative_types || []).map(it => `<span class="pill pill--soft">${R.escapeHTML(it)}</span>`).join('') || '<span class="pill pill--soft">Unclassified</span>'}</dd>
-              <dt>FMI areas</dt>
-              <dd>${(signal.fmi_areas || []).map(f => `<span class="pill pill--soft">${R.escapeHTML(f)}</span>`).join('') || '—'}</dd>
-              <dt>Institution category</dt>
-              <dd>${R.catTag(signal._category)}</dd>
-              <dt>Playbook themes</dt>
-              <dd>${R.themeTagsFor(signal)}</dd>
-            </dl>
-          </div>
         </article>
 
         <aside class="detail-sidebar">
@@ -417,150 +418,15 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
           <div class="sidebar-card">
             <h4>Share</h4>
-            <button class="btn btn--outline btn--sm" id="copyLinkBtn" style="width:100%; margin-bottom: var(--space-2);">
+            <button class="btn btn--outline btn--sm" id="copyLinkBtn" style="width:100%;">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007 0l4-4a5 5 0 00-7-7l-1 1"/><path d="M14 11a5 5 0 00-7 0l-4 4a5 5 0 007 7l1-1"/></svg>
               Copy link to this signal
-            </button>
-            <button class="btn btn--outline btn--sm" id="shareLinkedInBtn" style="width:100%;">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-              Share to LinkedIn
             </button>
           </div>
         </aside>
       </div>
     </div>
   `;
-
-  // ── Share-card: native Canvas 2D — no html2canvas, no DOM capture ──────────
-  // Theme hex values (dark-mode palette, mirrors tokens.css)
-  const _SC_THEME_HEX = { tokenized: '#a78bfa', stablecoins: '#34d399', dlt: '#fb923c' };
-  const _scTC = (themeId && _SC_THEME_HEX[themeId]) || '#2ddcff';
-
-  function _scHexRgb(hex) {
-    return { r: parseInt(hex.slice(1,3),16), g: parseInt(hex.slice(3,5),16), b: parseInt(hex.slice(5,7),16) };
-  }
-  function _scRoundRect(ctx, x, y, w, h, r) {
-    ctx.beginPath();
-    ctx.moveTo(x+r, y); ctx.lineTo(x+w-r, y); ctx.quadraticCurveTo(x+w, y, x+w, y+r);
-    ctx.lineTo(x+w, y+h-r); ctx.quadraticCurveTo(x+w, y+h, x+w-r, y+h);
-    ctx.lineTo(x+r, y+h); ctx.quadraticCurveTo(x, y+h, x, y+h-r);
-    ctx.lineTo(x, y+r); ctx.quadraticCurveTo(x, y, x+r, y);
-    ctx.closePath();
-  }
-  function _scWrap(ctx, text, maxWidth) {
-    const words = String(text||'').split(' ');
-    const lines = []; let cur = '';
-    for (const w of words) {
-      const test = cur ? cur+' '+w : w;
-      if (ctx.measureText(test).width > maxWidth && cur) { lines.push(cur); cur = w; }
-      else cur = test;
-    }
-    if (cur) lines.push(cur);
-    return lines;
-  }
-  function _scTrunc(text, max) {
-    const s = String(text||'').replace(/\s+/g,' ').trim();
-    return s.length <= max ? s : s.slice(0, max-1).trimEnd()+'…';
-  }
-
-  function _buildShareCanvas() {
-    const W = 1200, H = 627, S = 2;
-    const cv = document.createElement('canvas');
-    cv.width = W*S; cv.height = H*S;
-    const ctx = cv.getContext('2d');
-    ctx.scale(S, S);
-
-    const PL = 56, PR = 56, PT = 46, PB = 42;
-    const CW = W - PL - PR;
-    const tc = _scTC;
-    const tcRgb = _scHexRgb(tc);
-    const UI_FONT = 'system-ui, -apple-system, "Segoe UI", Arial, sans-serif';
-
-    // Background
-    ctx.fillStyle = '#0a0b0f';
-    ctx.fillRect(0, 0, W, H);
-
-    // Radial glow (top-right, theme-tinted)
-    const grd = ctx.createRadialGradient(W*0.86, H*0.14, 0, W*0.86, H*0.14, W*0.40);
-    grd.addColorStop(0, `rgba(${tcRgb.r},${tcRgb.g},${tcRgb.b},0.10)`);
-    grd.addColorStop(1, 'rgba(0,0,0,0)');
-    ctx.fillStyle = grd;
-    ctx.fillRect(0, 0, W, H);
-
-    // Left accent bar
-    ctx.fillStyle = tc;
-    ctx.fillRect(0, 0, 8, H);
-
-    // ── HEADER ROW ──
-    ctx.font = `800 34px ${UI_FONT}`;
-    ctx.fillStyle = '#2ddcff';
-    ctx.textBaseline = 'top';
-    ctx.textAlign = 'left';
-    ctx.fillText('SIGNALS FROM THE STREET', PL, PT);
-
-    // Tier pill (top-right)
-    const tierText = (signal._tier || 'SIGNAL').toUpperCase();
-    ctx.font = `700 26px ${UI_FONT}`;
-    const tPW = ctx.measureText(tierText).width + 36, tPH = 42;
-    const tPX = W - PR - tPW, tPY = PT - 2;
-    ctx.fillStyle = tc;
-    _scRoundRect(ctx, tPX, tPY, tPW, tPH, 8); ctx.fill();
-    ctx.fillStyle = '#0a0b0f'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-    ctx.fillText(tierText, tPX + tPW/2, tPY + tPH/2);
-
-    // Theme badge (left of tier pill)
-    if (theme) {
-      ctx.font = `600 22px ${UI_FONT}`;
-      const bPW = ctx.measureText(theme.short).width + 28, bPH = 38;
-      const bPX = tPX - bPW - 10, bPY = tPY + 2;
-      ctx.fillStyle = `rgba(${tcRgb.r},${tcRgb.g},${tcRgb.b},0.18)`;
-      _scRoundRect(ctx, bPX, bPY, bPW, bPH, 7); ctx.fill();
-      ctx.fillStyle = tc; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-      ctx.fillText(theme.short, bPX + bPW/2, bPY + bPH/2);
-    }
-
-    // ── HEADLINE ──
-    ctx.textAlign = 'left'; ctx.textBaseline = 'top';
-    const hlText = _scTrunc(signal.initiative || 'Untitled signal', 165);
-    const hlLen = hlText.length;
-    const hlSize = hlLen > 140 ? 54 : hlLen > 115 ? 60 : hlLen > 90 ? 66 : 72;
-    ctx.font = `800 ${hlSize}px ${UI_FONT}`;
-    ctx.fillStyle = '#ffffff';
-    const hlLines = _scWrap(ctx, hlText, CW - 16);
-    const hlLineH = hlSize * 1.07;
-    const HL_Y = PT + 74, HL_MAX_H = 290;
-    let hy = HL_Y;
-    for (const ln of hlLines) {
-      if (hy + hlLineH > HL_Y + HL_MAX_H) break;
-      ctx.fillText(ln, PL, hy); hy += hlLineH;
-    }
-
-    // ── INSTITUTION · DATE ──
-    ctx.font = `400 36px ${UI_FONT}`; ctx.fillStyle = '#9ba6b2';
-    const instY = HL_Y + HL_MAX_H + 10;
-    ctx.fillText([signal.institution, R.formatDate(signal.date)].filter(Boolean).join(' · '), PL, instY);
-
-    // ── DIVIDER ──
-    const divY = H - PB - 32 - 20 - 32*2 - 18;
-    ctx.strokeStyle = 'rgba(255,255,255,0.15)'; ctx.lineWidth = 1;
-    ctx.beginPath(); ctx.moveTo(PL, divY); ctx.lineTo(W-PR, divY); ctx.stroke();
-
-    // ── WHY THIS MATTERS ──
-    const whyText = _scTrunc(why||'', 190);
-    ctx.font = `400 24px ${UI_FONT}`; ctx.fillStyle = '#8b96a3';
-    const whyLines = _scWrap(ctx, whyText, CW * 0.73);
-    const WHY_Y = divY + 18;
-    for (let i = 0; i < Math.min(2, whyLines.length); i++) {
-      ctx.fillText(whyLines[i], PL, WHY_Y + i*32);
-    }
-
-    // ── URL (bottom-right) ──
-    ctx.font = `700 28px ${UI_FONT}`; ctx.fillStyle = '#2ddcff';
-    ctx.textAlign = 'right'; ctx.textBaseline = 'bottom';
-    ctx.fillText('streetsignals.nextfiadvisors.com', W-PR, H-PB);
-
-    return cv;
-  }
 
   const copyBtn = root.querySelector('#copyLinkBtn');
   if (copyBtn) {
@@ -573,37 +439,6 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
         }, 2000);
       } catch (e) {
         copyBtn.textContent = 'Copy failed — use browser bar';
-      }
-    });
-  }
-
-  const shareLinkedInBtn = root.querySelector('#shareLinkedInBtn');
-  if (shareLinkedInBtn) {
-    shareLinkedInBtn.addEventListener('click', () => {
-      try {
-        shareLinkedInBtn.disabled = true;
-        shareLinkedInBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10" opacity="0.3"/></svg>Generating...';
-
-        const canvas = _buildShareCanvas();
-        canvas.toBlob(b => {
-          const url = URL.createObjectURL(b);
-          const a = document.createElement('a');
-          a.href = url; a.download = `sfts-${params.id}.png`; a.click();
-          URL.revokeObjectURL(url);
-          setTimeout(() => {
-            const signalUrl = encodeURIComponent(window.location.href);
-            window.open(
-              `https://www.linkedin.com/sharing/share-offsite/?url=${signalUrl}`,
-              'linkedin-share', 'width=550,height=680'
-            );
-            shareLinkedInBtn.disabled = false;
-            shareLinkedInBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>Share to LinkedIn';
-          }, 500);
-        });
-      } catch (e) {
-        console.error('LinkedIn share failed:', e);
-        shareLinkedInBtn.disabled = false;
-        shareLinkedInBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>Share to LinkedIn';
       }
     });
   }

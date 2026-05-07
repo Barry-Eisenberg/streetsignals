@@ -755,7 +755,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "Coinbase",
@@ -775,7 +776,8 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
     ],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "Revolut",
@@ -830,7 +832,8 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "Circle",
@@ -903,7 +906,8 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "JPMorgan",
@@ -961,7 +965,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "Coinbase",
@@ -1169,7 +1174,7 @@
   {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "DLT collateral mobility platform HQLAᵡ gets SEC no action letter for US activity",
-    "description": "HQLAᵡ, the DLT collateral mobility platform, can operate in the US under a no action letter received from the Securities and Exchange Commission (SEC). Eurex Clearing recently leveraged the platform to accept DLT-based collateral for margin purposes, one of the first instances worldwide at a traditional regulated venue. The key benefit is enabling instant transfer",
+    "description": "HQLAᵡ, the DLT collateral mobility platform, can operate in the US under a no action letter received from the Securities and Exchange Commission (SEC). Eurex Clearing recently leveraged the platform to accept DLT-based collateral for margin purposes, one of the first instances worldwide at a traditional regulated venue. The key benefit is enabling instant transfer rather than waiting for T+1 or T+2 settlement. The SEC letter was addressed to both HQLAᵡ and Clearstream International, which acts as the trusted third party and collateral custodian. Underlying assets are locked in place and digital collateral receipts are issued that can be transferred instantly. HQLAᵡ is backed by Deutsche Börse and major banks including BNP Paribas, BNY, Citi, Goldman Sachs, HSBC, and JP Morgan. The platform currently runs on R3 Corda but plans to migrate to Canton technology. HQLAᵡ is also applying for a permanent conditional exemption from clearing agency registration; the no action letter provides 36 months of breathing space.",
     "date": "2026-05-06",
     "source_url": "https://www.ledgerinsights.com/dlt-collateral-mobility-platform-hqla%e1%b5%a1-gets-sec-no-action-letter-for-us-activity/",
     "category": "regulators",
@@ -1307,7 +1312,8 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "BIS",
@@ -1363,7 +1369,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "CoinDesk",
@@ -1892,7 +1899,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "Chainlink",
@@ -1928,7 +1936,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "Citigroup",
@@ -1984,7 +1993,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "Coinbase",
@@ -2003,7 +2013,8 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
     ],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "Anchorage Digital",
@@ -2080,12 +2091,13 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "Ripple",
     "initiative": "Ripple to share DPRK hacker intel with crypto industry after $577M in DeFi hacks",
-    "description": "Ripple is feeding North Korea–linked threat intelligence into Crypto ISAC, hoping shared context on DPRK operatives and DeFi exploits can blunt a 2026 hack wave led by Drift and KelpDAO. Ripple said it has begun sharing internal threat intelligence on…",
+    "description": "Ripple is feeding North Korea–linked threat intelligence into Crypto ISAC, hoping shared context on DPRK operatives and DeFi exploits can blunt a 2026 hack wave led by Drift and KelpDAO. Summary Ripple is contributing exclusive North Korea–linked threat intelligence to the Crypto ISAC information-sharing platform, arguing that “the strongest security posture in crypto is a shared one.” DPRK hackers have stolen about $577 million in crypto so far in 2026—76% of all hack losses year-to-date—largely via two DeFi exploits on Drift Protocol and KelpDAO. The intelligence covers enriched profiles of suspected North Korean IT operatives and detailed indicators of compromise (IOCs), as attackers pivot from pure technical exploits to long, social engineering–driven campaigns.",
     "date": "2026-05-05",
     "source_url": "https://crypto.news/ripple-to-share-dprk-hacker-intel-with-crypto-industry-after-577m-in-defi-hacks/",
     "category": "payments",
@@ -2445,7 +2457,8 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "Standard Chartered",
@@ -2706,7 +2719,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "Coinbase",
@@ -2842,7 +2856,8 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
     ],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "Ripple",
@@ -3020,7 +3035,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "Coinbase",
@@ -3343,7 +3359,8 @@
       "DeFi",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "Mastercard",
@@ -3443,7 +3460,8 @@
       "Trading & Exchange"
     ],
     "initiative_types": [],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "CFTC (Commodity Futures Trading Commission)",
@@ -3466,7 +3484,7 @@
   {
     "institution": "Mastercard",
     "initiative": "Rain adds Mastercard support as $1.95B stablecoin startup targets on-chain settlement",
-    "description": "Rain, a $1.95B-valued stablecoin infrastructure firm, is adding Mastercard support to extend its Visa-based model and plug on-chain settlement into legacy payment systems. Stablecoin payments startup Rain, fresh off a $250 million Series C at a $1.95 billion valuation, has…",
+    "description": "Rain, a $1.95B-valued stablecoin infrastructure firm, is adding Mastercard support to extend its Visa-based model and plug on-chain settlement into legacy payment systems. Summary Stablecoin infrastructure firm Rain, valued at $1.95 billion, has secured a partnership with Mastercard to issue credit and prepaid cards and to pilot stablecoin-based settlement flows for institutional clients. The deal marks Rain’s move from a Visa-only setup to a dual-network model, aimed at letting large enterprises add stablecoin settlement “without changing their existing payment systems.” The tie-up comes as players like Stripe and Coinbase roll out their own stablecoin payment rails, accelerating the convergence of traditional finance and crypto settlement.",
     "date": "2026-05-04",
     "source_url": "https://crypto.news/rain-adds-mastercard-support-as-1-95b-stablecoin-startup-targets-on-chain-settlement/",
     "category": "payments",
@@ -3524,7 +3542,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "Digital Asset Exchange",
@@ -3543,7 +3562,8 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "CoinGeek",
@@ -3581,7 +3601,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "Coinbase",
@@ -3654,7 +3675,8 @@
       "Collateral & Lending"
     ],
     "initiative_types": [],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "Morgan Stanley",
@@ -3698,7 +3720,7 @@
   {
     "institution": "CFTC (Commodity Futures Trading Commission)",
     "initiative": "Kraken unlocks full U.S. derivatives play after Bitnomial buy",
-    "description": "Payward has completed its acquisition of Bitnomial, giving Kraken a regulated pathway to launch crypto derivatives in the U.S. According to a company statement released Friday, the deal hands Payward control of a full set of Commodity Futures Trading Commission…",
+    "description": "Payward has completed its acquisition of Bitnomial, giving Kraken a regulated pathway to launch crypto derivatives in the U.S. Summary Payward has completed its Bitnomial acquisition, securing all three CFTC licenses needed to run a U.S. crypto derivatives business. Kraken will begin with spot margin trading, with perpetuals and options set to follow, co CEO Arjun Sethi said. The deal, previously valued at up to $550 million, gives Payward a regulated route to offer derivatives through Kraken and NinjaTrader.",
     "date": "2026-05-04",
     "source_url": "https://crypto.news/kraken-unlocks-full-u-s-derivatives-play-after-bitnomial-buy/",
     "category": "regulators",
@@ -3979,7 +4001,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "Ripple",
@@ -4181,7 +4204,8 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "Coinbase",
@@ -4202,7 +4226,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "FDIC",
@@ -4222,7 +4247,8 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
     ],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "Superstate",
@@ -4243,7 +4269,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "crypto.news",
@@ -4266,7 +4293,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "crypto.news",
@@ -4285,7 +4313,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "description_truncated": true
   },
   {
     "institution": "Ripple",
