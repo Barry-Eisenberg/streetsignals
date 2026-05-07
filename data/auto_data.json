@@ -1,5 +1,62 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "Coinbase stock declines 5% after missing Q1 estimates on crypto slowdown",
+    "description": "The crypto platform missed on the top and bottom lines as falling digital asset prices weighed on trading activity and investor sentiment.",
+    "date": "2026-05-07",
+    "source_url": "https://www.coindesk.com/markets/2026/05/07/coinbase-stock-drops-4-after-surprise-1q-miss-as-crypto-trading-slows",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase loses nearly $400 million in Q1 as CEO seeks to reduce dependence on spot crypto trading",
+    "description": "The company is transforming from a \"spot-focused crypto platform to a place\" where users can trade many asset classes.",
+    "date": "2026-05-07",
+    "source_url": "https://www.theblock.co/post/400489/coinbase-loses-nearly-400-million-ceo-seeks-to-reduce-dependence-spot-crypto-trading",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Crypto firms pursue bank licenses at Consensus",
+    "description": "Executives at federally regulated banks told a Consensus Miami 2026 panel that crypto companies are increasingly seeking bank licenses as the industry moves toward regulated financial infrastructure. Executives at federally regulated banks told the Consensus Miami 2026 Policy Summit on… Crypto firms pursue bank licenses at Consensus",
+    "date": "2026-05-07",
+    "source_url": "https://crypto.news/crypto-firms-push-for-bank-licenses-at-consensus/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "JPMorgan",
     "initiative": "JPMorgan says bitcoin is gaining over gold as debasement trade after Iran conflict",
     "description": "Investors are increasingly choosing bitcoin over gold as a debasement trade since the Iran conflict began, JPMorgan analysts said.",
