@@ -691,10 +691,10 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const whyHeaderH = 36;
     ctx.font = `500 ${whyBodyFont}px ${_scFont}`;
     const whyAllLines = _scWrapLimit(ctx, why || '', LEFT_W - 28, 99);
-    const whyMinLines = Math.max(1, Math.min(whyAllLines.length || 1, 2));
-    const whyTargetLines = Math.max(whyMinLines, Math.min(whyAllLines.length || 1, 5));
-    const minWhyH = whyHeaderH + whyTargetLines * whyBodyLineH;
-    const happenedReserve = sourceChipH + urlRowH + 8 + minWhyH;
+    // Reserve exactly as much vertical space as the why content needs (capped at 5 lines).
+    const whyContentLines = Math.max(1, Math.min(whyAllLines.length || 1, 5));
+    const whyContentH = whyHeaderH + whyContentLines * whyBodyLineH;
+    const happenedReserve = sourceChipH + urlRowH + 8 + whyContentH;
     const happenedMaxLines = Math.max(2, Math.floor((leftBottom - (happenedY + 26) - happenedReserve) / happenedLineH));
     ctx.fillStyle = '#d8e0ea';
     ctx.font = `700 18px ${_scFont}`;
@@ -733,9 +733,9 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       belowHappenedBottom = chipTop + 26;
     }
 
-    // Why This Matters card — fills all remaining vertical space so no blank appears below.
+    // Why This Matters card — sized to content only; reserve above already gave happened its budget.
     const whyY = belowHappenedBottom + 8;
-    const whyH = Math.max(minWhyH, leftBottom - whyY);
+    const whyH = Math.max(whyHeaderH, Math.min(whyContentH, leftBottom - whyY));
     ctx.fillStyle = 'rgba(45,220,255,0.06)';
     ctx.strokeStyle = 'rgba(45,220,255,0.34)';
     ctx.lineWidth = 1;
@@ -747,7 +747,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.fillText(`WHY THIS MATTERS · ${SftSData.PERSONAS[persona].label.toUpperCase()}`, PAD + 14, whyY + 12);
     ctx.fillStyle = '#b8c3d0';
     const whyBodyY = whyY + 32;
-    const whyMaxLines = Math.max(whyMinLines, Math.floor((whyH - whyHeaderH) / whyBodyLineH));
+    const whyMaxLines = Math.max(1, Math.floor((whyH - whyHeaderH) / whyBodyLineH));
     ctx.font = `500 ${whyBodyFont}px ${_scFont}`;
     const whyLines = whyAllLines.slice(0, whyMaxLines);
     _scDrawLines(ctx, whyLines, PAD + 14, whyBodyY, whyBodyLineH);
