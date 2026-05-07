@@ -377,7 +377,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
               </a>
               <a class="btn btn--outline" href="#/signals?theme=${reco.themeId}">See all ${R.escapeHTML(SftSPlaybooks.PLAYBOOKS[reco.themeId].short)} signals</a>
-              <a class="btn btn--ghost" href="https://nextfiadvisors.com/contact" target="_blank" rel="noopener noreferrer">Discuss with NextFi ${R.extIcon}</a>
+              <a class="btn btn--ghost" href="https://nextfiadvisors.com/contact?signal_id=${params.id}&theme=${themeId || ''}&play=${reco?.play.n || ''}" target="_blank" rel="noopener noreferrer">Discuss with NextFi ${R.extIcon}</a>
             </div>
           </div>
           ` : `
@@ -417,15 +417,45 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
           <div class="sidebar-card">
             <h4>Share</h4>
-            <button class="btn btn--outline btn--sm" id="copyLinkBtn" style="width:100%;">
+            <button class="btn btn--outline btn--sm" id="copyLinkBtn" style="width:100%; margin-bottom: var(--space-2);">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007 0l4-4a5 5 0 00-7-7l-1 1"/><path d="M14 11a5 5 0 00-7 0l-4 4a5 5 0 007 7l1-1"/></svg>
               Copy link to this signal
+            </button>
+            <button class="btn btn--outline btn--sm" id="shareLinkedInBtn" style="width:100%;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              Share to LinkedIn
             </button>
           </div>
         </aside>
       </div>
     </div>
   `;
+
+  // Create hidden share-card div for LinkedIn image generation
+  const shareCardDiv = document.createElement('div');
+  shareCardDiv.id = 'share-card';
+  shareCardDiv.style.cssText = 'display:none; position:fixed; width:1200px; height:627px; background:#0a0b0f; color:#fff; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; overflow:hidden; left:0; top:0; z-index:-1;';
+  shareCardDiv.innerHTML = `
+    <div style="position:relative; width:100%; height:100%; display:flex; flex-direction:column; padding:48px; box-sizing:border-box;">
+      <div style="position:absolute; left:0; top:0; bottom:0; width:8px; background:${themeColor || '#06dcff'}; z-index:10;"></div>
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:32px;">
+        <div style="font-size:14px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:#06dcff;">Signals from the Street</div>
+        <div style="display:flex; gap:8px; align-items:center; font-size:11px; font-weight:700;">
+          <span style="background:${themeColor || '#06dcff'}; color:#0a0b0f; padding:4px 12px; border-radius:4px; text-transform:uppercase;">${signal._tier || 'SIGNAL'}</span>
+          ${theme ? `<span style="background:rgba(${themeColor === '#a78bfa' ? '167,139,250' : themeColor === '#34d399' ? '52,211,153' : '251,146,60'},0.2); color:${themeColor}; padding:4px 12px; border-radius:4px;">${theme.short}</span>` : ''}
+        </div>
+      </div>
+      <div style="flex-grow:1; display:flex; flex-direction:column; justify-content:center; margin:0 8px;">
+        <h1 style="font-size:48px; font-weight:800; line-height:1.2; margin:0; margin-bottom:24px; word-break:break-word; overflow:hidden; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical;">${R.escapeHTML(signal.initiative || 'Untitled signal')}</h1>
+        <div style="font-size:18px; color:#a0a0a0; margin-bottom:24px;">${R.escapeHTML(signal.institution || '')} · ${R.formatDate(signal.date)}</div>
+      </div>
+      <div style="display:flex; justify-content:space-between; align-items:center; padding-top:24px; border-top:1px solid rgba(255,255,255,0.1); font-size:14px;">
+        <div style="color:#a0a0a0; max-width:70%; overflow:hidden; text-overflow:ellipsis;">${R.escapeHTML(why.slice(0, 120))}</div>
+        <div style="text-align:right; white-space:nowrap; font-weight:700; color:#06dcff; font-size:13px;">streetsignals.nextfiadvisors.com</div>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(shareCardDiv);
 
   const copyBtn = root.querySelector('#copyLinkBtn');
   if (copyBtn) {
@@ -438,6 +468,56 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
         }, 2000);
       } catch (e) {
         copyBtn.textContent = 'Copy failed — use browser bar';
+      }
+    });
+  }
+
+  const shareLinkedInBtn = root.querySelector('#shareLinkedInBtn');
+  if (shareLinkedInBtn) {
+    shareLinkedInBtn.addEventListener('click', async () => {
+      try {
+        shareLinkedInBtn.disabled = true;
+        shareLinkedInBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10" opacity="0.3"/></svg>Generating...';
+        
+        // Get or create share-card element
+        let cardEl = document.querySelector('#share-card');
+        if (!cardEl) throw new Error('Share card element not found');
+        
+        // Make card visible temporarily for capture
+        cardEl.style.display = 'block';
+        cardEl.style.position = 'fixed';
+        cardEl.style.left = '-9999px';
+        
+        // Use html2canvas to capture the share-card
+        const canvas = await html2canvas(cardEl, { scale: 2, backgroundColor: '#0a0b0f', useCORS: true, allowTaint: true });
+        cardEl.style.display = 'none';
+        
+        // Convert canvas to blob and download
+        canvas.toBlob(b => {
+          const url = URL.createObjectURL(b);
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = `sfts-${params.id}.png`;
+          a.click();
+          URL.revokeObjectURL(url);
+          
+          // Open LinkedIn share dialog with the signal URL
+          setTimeout(() => {
+            const signalUrl = encodeURIComponent(window.location.href);
+            window.open(
+              `https://www.linkedin.com/sharing/share-offsite/?url=${signalUrl}`,
+              'linkedin-share',
+              'width=550,height=680'
+            );
+            
+            shareLinkedInBtn.disabled = false;
+            shareLinkedInBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>Share to LinkedIn';
+          }, 500);
+        });
+      } catch (e) {
+        console.error('LinkedIn share failed:', e);
+        shareLinkedInBtn.disabled = false;
+        shareLinkedInBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>Share to LinkedIn';
       }
     });
   }

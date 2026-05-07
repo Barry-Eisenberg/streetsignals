@@ -38,7 +38,9 @@ SELECT
   withdrawal_chain AS chain,
   current_volume_usd AS bridge_volume_usd,
   CASE
-    WHEN prior_volume_usd > 0 THEN (current_volume_usd - prior_volume_usd) / prior_volume_usd
+    -- Require at least $1M prior volume to avoid exploding deltas on newly-launched chains
+    WHEN prior_volume_usd >= 1000000
+      THEN (current_volume_usd - prior_volume_usd) / prior_volume_usd
     ELSE NULL
   END AS change_30d,
   CONCAT(

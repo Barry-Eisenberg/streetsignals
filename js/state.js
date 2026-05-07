@@ -1,6 +1,6 @@
 // =====================================================================
 // state.js — global UI state (persona, theme, URL filter sync).
-// In-memory only (sandboxed iframe blocks localStorage).
+// Persists to localStorage (enabled in production Netlify deploy).
 // =====================================================================
 
 const State = {
@@ -17,14 +17,64 @@ const State = {
     sort: 'recency'     // recency | importance | institution
   },
   _listeners: [],
+  _localStorageAvailable: false,
+  _storageKey: 'sfts_state',
+
+  // Check if localStorage is available and initialize
+  _checkStorage() {
+    try {
+      const test = '__test__';
+      localStorage.setItem(test, test);
+      localStorage.removeItem(test);
+      this._localStorageAvailable = true;
+    } catch (e) {
+      this._localStorageAvailable = false;
+    }
+  },
+
+  // Load persisted state from localStorage
+  _loadFromStorage() {
+    if (!this._localStorageAvailable) return;
+    try {
+      const stored = localStorage.getItem(this._storageKey);
+      if (stored) {
+        const saved = JSON.parse(stored);
+        if (saved.persona) this.persona = saved.persona;
+        if (saved.theme) this.theme = saved.theme;
+        if (saved.filters) {
+          this.filters = { ...this.filters, ...saved.filters };
+        }
+      }
+    } catch (e) {
+      console.warn('Failed to load state from localStorage:', e);
+    }
+  },
+
+  // Save current state to localStorage
+  _saveToStorage() {
+    if (!this._localStorageAvailable) return;
+    try {
+      const state = {
+        persona: this.persona,
+        theme: this.theme,
+        filters: this.filters
+      };
+      localStorage.setItem(this._storageKey, JSON.stringify(state));
+    } catch (e) {
+      console.warn('Failed to save state to localStorage:', e);
+    }
+  },
+
   on(fn) { this._listeners.push(fn); },
   emit() { this._listeners.forEach(fn => fn(this)); },
   setPersona(p) {
     this.persona = p;
+    this._saveToStorage();
     this.emit();
   },
   setFilter(key, value) {
     this.filters[key] = value;
+    this._saveToStorage();
     this.emit();
   },
   resetFilters() {
@@ -32,6 +82,7 @@ const State = {
       theme: null, tier: null, category: 'all',
       dateWindow: 30, country: null, search: '', sort: 'recency'
     };
+    this._saveToStorage();
     this.emit();
   },
   // Apply filters from URL query string (for deep links)
@@ -48,6 +99,7 @@ const State = {
     if (u.has('country')) this.filters.country = u.get('country');
     if (u.has('sort')) this.filters.sort = u.get('sort');
     if (u.has('persona')) this.persona = u.get('persona');
+    this._saveToStorage();
   }
 };
 
@@ -70,3 +122,7 @@ function updateThemeToggleIcon() {
 window.SftSState = State;
 window.toggleTheme = toggleTheme;
 window.updateThemeToggleIcon = updateThemeToggleIcon;
+
+// Initialize localStorage support and load persisted state on app init
+State._checkStorage();
+State._loadFromStorage();
