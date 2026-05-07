@@ -432,26 +432,39 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
   `;
 
   // Create hidden share-card div for LinkedIn image generation
+  const existingShareCard = document.getElementById('share-card');
+  if (existingShareCard) existingShareCard.remove();
+
+  const truncateShareText = (text, maxChars) => {
+    const clean = String(text || '').replace(/\s+/g, ' ').trim();
+    if (clean.length <= maxChars) return clean;
+    return `${clean.slice(0, maxChars - 1).trimEnd()}...`;
+  };
+  const headlineText = truncateShareText(signal.initiative || 'Untitled signal', 165);
+  const whyText = truncateShareText(why || '', 190);
+  const titleLen = headlineText.length;
+  const titleFontSize = titleLen > 140 ? 58 : titleLen > 115 ? 64 : titleLen > 90 ? 70 : 76;
+
   const shareCardDiv = document.createElement('div');
   shareCardDiv.id = 'share-card';
   shareCardDiv.style.cssText = 'display:none; position:fixed; width:1200px; height:627px; background:#0a0b0f; color:#fff; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; overflow:hidden; left:0; top:0; z-index:-1;';
   shareCardDiv.innerHTML = `
-    <div style="position:relative; width:100%; height:100%; display:flex; flex-direction:column; padding:48px; box-sizing:border-box;">
+    <div style="position:relative; width:100%; height:100%; display:flex; flex-direction:column; padding:42px 52px 36px 52px; box-sizing:border-box; background:radial-gradient(circle at 85% 15%, rgba(6,220,255,0.08) 0%, rgba(6,220,255,0) 35%);">
       <div style="position:absolute; left:0; top:0; bottom:0; width:8px; background:${themeColor || '#06dcff'}; z-index:10;"></div>
-      <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:32px;">
-        <div style="font-size:14px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:#06dcff;">Signals from the Street</div>
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:28px;">
+        <div style="font-size:36px; font-weight:800; letter-spacing:0.08em; text-transform:uppercase; color:#06dcff;">Signals from the Street</div>
         <div style="display:flex; gap:8px; align-items:center; font-size:11px; font-weight:700;">
-          <span style="background:${themeColor || '#06dcff'}; color:#0a0b0f; padding:4px 12px; border-radius:4px; text-transform:uppercase;">${signal._tier || 'SIGNAL'}</span>
-          ${theme ? `<span style="background:rgba(${themeColor === '#a78bfa' ? '167,139,250' : themeColor === '#34d399' ? '52,211,153' : '251,146,60'},0.2); color:${themeColor}; padding:4px 12px; border-radius:4px;">${theme.short}</span>` : ''}
+          <span style="background:${themeColor || '#06dcff'}; color:#0a0b0f; padding:8px 14px; border-radius:7px; text-transform:uppercase; font-size:30px;">${signal._tier || 'SIGNAL'}</span>
+          ${theme ? `<span style="background:rgba(${themeColor === '#a78bfa' ? '167,139,250' : themeColor === '#34d399' ? '52,211,153' : '251,146,60'},0.2); color:${themeColor}; padding:8px 14px; border-radius:7px; font-size:26px;">${theme.short}</span>` : ''}
         </div>
       </div>
-      <div style="flex-grow:1; display:flex; flex-direction:column; justify-content:center; margin:0 8px;">
-        <h1 style="font-size:48px; font-weight:800; line-height:1.2; margin:0; margin-bottom:24px; word-break:break-word; overflow:hidden; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical;">${R.escapeHTML(signal.initiative || 'Untitled signal')}</h1>
-        <div style="font-size:18px; color:#a0a0a0; margin-bottom:24px;">${R.escapeHTML(signal.institution || '')} · ${R.formatDate(signal.date)}</div>
+      <div style="flex-grow:1; display:flex; flex-direction:column; justify-content:flex-start; margin:10px 6px 0 6px;">
+        <h1 style="font-size:${titleFontSize}px; font-weight:800; line-height:1.06; margin:0; max-height:350px; overflow:hidden; word-break:break-word; letter-spacing:-0.02em;">${R.escapeHTML(headlineText)}</h1>
+        <div style="font-size:43px; color:#9ba6b2; margin-top:22px;">${R.escapeHTML(signal.institution || '')} · ${R.formatDate(signal.date)}</div>
       </div>
-      <div style="display:flex; justify-content:space-between; align-items:center; padding-top:24px; border-top:1px solid rgba(255,255,255,0.1); font-size:14px;">
-        <div style="color:#a0a0a0; max-width:70%; overflow:hidden; text-overflow:ellipsis;">${R.escapeHTML(why.slice(0, 120))}</div>
-        <div style="text-align:right; white-space:nowrap; font-weight:700; color:#06dcff; font-size:13px;">streetsignals.nextfiadvisors.com</div>
+      <div style="display:flex; justify-content:space-between; align-items:flex-end; padding-top:26px; border-top:1px solid rgba(255,255,255,0.14);">
+        <div style="color:#8b96a3; max-width:73%; font-size:26px; line-height:1.3; max-height:72px; overflow:hidden;">${R.escapeHTML(whyText)}</div>
+        <div style="text-align:right; white-space:nowrap; font-weight:700; color:#06dcff; font-size:34px;">streetsignals.nextfiadvisors.com</div>
       </div>
     </div>
   `;
