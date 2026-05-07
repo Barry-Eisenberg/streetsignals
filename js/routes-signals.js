@@ -543,27 +543,16 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
   }
 
   function _scDrawInvertedLogo(ctx, img, x, y, w, h) {
-    const cw = Math.max(1, Math.round(w));
-    const ch = Math.max(1, Math.round(h));
-    const off = document.createElement('canvas');
-    off.width = cw;
-    off.height = ch;
-    const octx = off.getContext('2d');
-    octx.drawImage(img, 0, 0, cw, ch);
+    ctx.save();
     try {
-      const id = octx.getImageData(0, 0, cw, ch);
-      const d = id.data;
-      for (let i = 0; i < d.length; i += 4) {
-        if (d[i + 3] === 0) continue;
-        d[i] = Math.min(255, (255 - d[i]) * 1.35);
-        d[i + 1] = Math.min(255, (255 - d[i + 1]) * 1.35);
-        d[i + 2] = Math.min(255, (255 - d[i + 2]) * 1.35);
-      }
-      octx.putImageData(id, 0, 0);
-      ctx.drawImage(off, x, y, w, h);
+      // Mirror the site's dark-theme treatment for the brand lockup.
+      ctx.filter = 'invert(1) brightness(1.4) contrast(1.08)';
+      ctx.imageSmoothingEnabled = true;
+      ctx.drawImage(img, x, y, w, h);
     } catch (e) {
       ctx.drawImage(img, x, y, w, h);
     }
+    ctx.restore();
   }
 
   const _scFont = 'system-ui, -apple-system, "Segoe UI", Arial, sans-serif';
@@ -619,29 +608,33 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.textBaseline = 'top';
     const headerY = 18;
     const markSize = 28;
-    _scDrawSftsMark(ctx, PAD, headerY + 1, markSize);
+    const markY = headerY + 1;
+    _scDrawSftsMark(ctx, PAD, markY, markSize);
 
     const wordmarkX = PAD + markSize + 12;
-    const wordmarkY = headerY + 2;
+    const textMidY = markY + markSize / 2 + 0.5;
+    ctx.textBaseline = 'middle';
     ctx.fillStyle = '#dff4ff';
-    ctx.font = `800 46px ${_scFont}`;
+    ctx.font = `800 40px ${_scFont}`;
     ctx.save();
     ctx.scale(0.5, 0.5);
     const wmX = wordmarkX * 2;
-    const wmY = wordmarkY * 2;
+    const wmY = textMidY * 2;
     ctx.fillText('Signals', wmX, wmY);
     const wSignals = ctx.measureText('Signals').width;
     ctx.fillStyle = '#97a6b8';
-    ctx.font = `600 46px ${_scFont}`;
+    ctx.font = `600 40px ${_scFont}`;
     ctx.fillText('from the Street', wmX + wSignals + 12, wmY);
     ctx.restore();
+    ctx.textBaseline = 'top';
 
     const rightByline = 'Market intelligence by';
     ctx.fillStyle = '#8f9aaa';
     ctx.font = `500 12px ${_scFont}`;
     const bylineW = ctx.measureText(rightByline).width;
-    const logoW = 118;
     const logoH = 17;
+    const naturalRatio = _scNextFiLogoReady && _scNextFiLogo.height ? (_scNextFiLogo.width / _scNextFiLogo.height) : 4.9;
+    const logoW = Math.max(82, Math.min(128, Math.round(logoH * naturalRatio)));
     const lockGap = 10;
     const lockupW = bylineW + lockGap + logoW;
     const lockupX = W - PAD - lockupW;
@@ -776,21 +769,24 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const ctaH = 28;
     const ctaGap = 8;
     const ctaStackH = ctaH * 3 + ctaGap * 2;
-    const playCardH = 194;
-    let gap1 = 14;
-    let gap2 = 12;
-    let gap3 = 14;
-    let gap4 = 12;
+    let playCardH = 214;
+    let gap1 = 10;
+    let gap2 = 9;
+    let gap3 = 10;
+    let gap4 = 10;
     let footerGap = 10;
     const footerH = 11;
     const innerH = rightH - rPad * 2;
     const baseUsed = eyebrowH + gap1 + recoHeadingH + gap2 + leadH + gap3 + playCardH + gap4 + ctaStackH + footerGap + footerH;
     let rightSlack = Math.max(0, innerH - baseUsed);
-    gap1 += Math.round(rightSlack * 0.14);
-    gap2 += Math.round(rightSlack * 0.18);
-    gap3 += Math.round(rightSlack * 0.30);
-    gap4 += Math.round(rightSlack * 0.24);
-    rightSlack = Math.max(0, rightSlack - (gap1 - 14) - (gap2 - 12) - (gap3 - 14) - (gap4 - 12));
+    const cardGrow = Math.min(26, Math.round(rightSlack * 0.56));
+    playCardH += cardGrow;
+    rightSlack -= cardGrow;
+    gap1 += Math.round(rightSlack * 0.12);
+    gap2 += Math.round(rightSlack * 0.16);
+    gap3 += Math.round(rightSlack * 0.22);
+    gap4 += Math.round(rightSlack * 0.20);
+    rightSlack = Math.max(0, rightSlack - (gap1 - 10) - (gap2 - 9) - (gap3 - 10) - (gap4 - 10));
     footerGap += rightSlack;
 
     rCursor += gap1;
@@ -825,7 +821,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
       ctx.fillStyle = '#b5c0cd';
       ctx.font = `500 13px ${_scFont}`;
-      const oneLinerLines = _scWrapLimit(ctx, reco.play.oneliner, rInnerW - 20, 2);
+      const oneLinerLines = _scWrapLimit(ctx, reco.play.oneliner, rInnerW - 20, 3);
       _scDrawLines(ctx, oneLinerLines, RIGHT_X + rPad + 10, Math.max(playTitleBottom + 8, playY + 54), 18);
 
       ctx.fillStyle = '#d6dee8';
@@ -833,7 +829,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       ctx.fillText('Why this is the right move now:', RIGHT_X + rPad + 10, playY + 100);
       ctx.fillStyle = '#b5c0cd';
       ctx.font = `500 12px ${_scFont}`;
-      const whyNowLines = _scWrapLimit(ctx, reco.play.whyNow, rInnerW - 20, 2);
+      const whyNowLines = _scWrapLimit(ctx, reco.play.whyNow, rInnerW - 20, 3);
       _scDrawLines(ctx, whyNowLines, RIGHT_X + rPad + 10, playY + 116, 17);
 
       if (audienceLine) {
