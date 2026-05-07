@@ -113,11 +113,15 @@ body > * { position: relative; z-index: 1; }
   color: var(--color-text-muted);
   font-size: 0.95rem;
 }
+.brand-group {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
 .brand-divider {
   width: 1px;
   height: 22px;
   background: var(--color-divider-strong);
-  margin: 0 var(--space-2);
 }
 .brand-by {
   display: flex;

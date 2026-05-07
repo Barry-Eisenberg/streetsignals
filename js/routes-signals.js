@@ -334,20 +334,6 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
             </p>` : ''}
           </div>
 
-          <div class="detail-section">
-            <h3>Classification</h3>
-            <dl class="fact-grid">
-              <dt>Initiative type</dt>
-              <dd>${(signal.initiative_types || []).map(it => `<span class="pill pill--soft">${R.escapeHTML(it)}</span>`).join('') || '<span class="pill pill--soft">Unclassified</span>'}</dd>
-              <dt>FMI areas</dt>
-              <dd>${(signal.fmi_areas || []).map(f => `<span class="pill pill--soft">${R.escapeHTML(f)}</span>`).join('') || '—'}</dd>
-              <dt>Institution category</dt>
-              <dd>${R.catTag(signal._category)}</dd>
-              <dt>Playbook themes</dt>
-              <dd>${R.themeTagsFor(signal)}</dd>
-            </dl>
-          </div>
-
           ${reco ? `
           <div class="action-block" style="--theme-color:${themeColor}">
             <div class="action-block-eyebrow">
@@ -387,6 +373,20 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
             <a class="btn btn--outline" href="#/playbooks">Browse all playbooks</a>
           </div>
           `}
+
+          <div class="detail-section">
+            <h3>Classification</h3>
+            <dl class="fact-grid">
+              <dt>Initiative type</dt>
+              <dd>${(signal.initiative_types || []).map(it => `<span class="pill pill--soft">${R.escapeHTML(it)}</span>`).join('') || '<span class="pill pill--soft">Unclassified</span>'}</dd>
+              <dt>FMI areas</dt>
+              <dd>${(signal.fmi_areas || []).map(f => `<span class="pill pill--soft">${R.escapeHTML(f)}</span>`).join('') || '—'}</dd>
+              <dt>Institution category</dt>
+              <dd>${R.catTag(signal._category)}</dd>
+              <dt>Playbook themes</dt>
+              <dd>${R.themeTagsFor(signal)}</dd>
+            </dl>
+          </div>
         </article>
 
         <aside class="detail-sidebar">

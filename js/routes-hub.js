@@ -23,7 +23,7 @@ SftSRouter.defineRoute('/', async ({ root }) => {
           <span class="hub-eyebrow"><span class="pulse"></span> Live Intelligence Feed</span>
           <h1>The Institutional Migration To <span class="accent">Blockchain Infrastructure</span></h1>
           <p class="hub-hero-lead">
-            Filtering the noise so you can see how the world&rsquo;s leading financial institutions, exchanges, central intermediaries, and regulators are building the next generation of financial markets infrastructure. Every signal is scored, contextualized, and connected to a credible next step &mdash; so you spend time deciding, not searching.
+            Filtering the noise so you can see how the world&rsquo;s leading financial institutions, exchanges, central intermediaries, and regulators are building the next generation of financial markets infrastructure. Every signal is scored, contextualized, and aligned to a Decision Playbook that defines alternative courses of action to consider, so you spend less time searching and more time executing.
           </p>
           <div class="hub-hero-cta">
             <a class="btn btn--primary" href="#/signals">
@@ -42,18 +42,18 @@ SftSRouter.defineRoute('/', async ({ root }) => {
           </div>
           <div class="live-strip-stat">
             <div class="label">Structural</div>
-            <div class="value tabular-nums">${structural.length}<span class="delta">+${recent14.filter(s => s._tier === 'Structural').length} this 14d</span></div>
+            <div class="value tabular-nums">${structural.length}<span class="delta">+${recent14.filter(s => s._tier === 'Structural').length} past 14d</span></div>
             <div class="sub">System-shaping moves</div>
           </div>
           <div class="live-strip-stat">
             <div class="label">Material</div>
-            <div class="value tabular-nums">${material.length}<span class="delta">+${recent14.filter(s => s._tier === 'Material').length} this 14d</span></div>
+            <div class="value tabular-nums">${material.length}<span class="delta">+${recent14.filter(s => s._tier === 'Material').length} past 14d</span></div>
             <div class="sub">Directionally important</div>
           </div>
           <div class="live-strip-stat">
-            <div class="label">Themes mapped</div>
-            <div class="value tabular-nums">3</div>
-            <div class="sub">Each backed by a Decision Playbook</div>
+            <div class="label">Institutions tracked</div>
+            <div class="value tabular-nums">${new Set(all.map(s => s.institution).filter(Boolean)).size}</div>
+            <div class="sub">Across all tracked signals</div>
           </div>
         </div>
       </div>
