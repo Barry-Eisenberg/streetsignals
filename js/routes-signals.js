@@ -326,8 +326,9 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
           <div class="detail-section">
             <h3>What happened</h3>
-            <p class="detail-description">${R.escapeHTML(signal.description || '')}</p>
-            ${signal.source_url ? `<p style="margin-top: var(--space-4);">
+            <p class="detail-description">${R.escapeHTML((signal.description || '').replace(/[\u2026]$/, '').replace(/\.\.\.\s*$/, '').trimEnd())}</p>
+            ${signal.description_truncated ? `<p class="detail-truncation-note">Full article available at source — preview only.</p>` : ''}
+            ${signal.source_url ? `<p style="margin-top: var(--space-4);">`
               <a class="btn btn--outline btn--sm" href="${signal.source_url}" target="_blank" rel="noopener noreferrer">
                 Read source ${R.extIcon}
               </a>
@@ -702,7 +703,8 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.fillText('What happened', PAD, happenedY);
     ctx.fillStyle = '#a8b3c1';
     ctx.font = `500 16px ${_scFont}`;
-    const happenedLines = _scWrapLimit(ctx, signal.description || '', LEFT_W - 10, happenedMaxLines);
+    const happenedDesc = (signal.description || '').replace(/\u2026$/, '').replace(/\.\.\.\s*$/, '').trimEnd();
+    const happenedLines = _scWrapLimit(ctx, happenedDesc, LEFT_W - 10, happenedMaxLines);
     _scDrawLines(ctx, happenedLines, PAD, happenedY + 26, happenedLineH);
     const happenedBottom = happenedY + 26 + happenedLines.length * happenedLineH;
 
