@@ -733,9 +733,10 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       belowHappenedBottom = chipTop + 26;
     }
 
-    // Why This Matters card — sized to content only; reserve above already gave happened its budget.
+    // Why This Matters card — fills to leftBottom so no blank gap appears below.
+    // Happened's reserve used exact whyContentH, so leftBottom - whyY ≈ whyContentH + tiny floor remainder.
     const whyY = belowHappenedBottom + 8;
-    const whyH = Math.max(whyHeaderH, Math.min(whyContentH, leftBottom - whyY));
+    const whyH = Math.max(whyContentH, leftBottom - whyY);
     ctx.fillStyle = 'rgba(45,220,255,0.06)';
     ctx.strokeStyle = 'rgba(45,220,255,0.34)';
     ctx.lineWidth = 1;
