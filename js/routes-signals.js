@@ -658,7 +658,6 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const chipY = 67;
     chipX += _scPill(ctx, (signal._tier || 'Signal').toUpperCase(), chipX, chipY, '#062229', `rgba(${tcRgb.r},${tcRgb.g},${tcRgb.b},0.96)`) + 8;
     chipX += _scPill(ctx, themeLabel, chipX, chipY, '#34d399', 'rgba(52,211,153,0.14)', '600 13px') + 8;
-    chipX += _scPill(ctx, initiativeType, chipX, chipY, '#fb923c', 'rgba(251,146,60,0.14)', '600 13px') + 8;
     _scPill(ctx, categoryLabel, chipX, chipY, '#c3ced9', 'rgba(195,206,217,0.10)', '600 13px');
 
     // Title — slightly reduced scale with more breathing room below chips.
@@ -685,7 +684,8 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const leftBottom = H - 18;
     const sourceChipH = (signal.source_name || signal.source_url) ? 36 : 0;
     const happenedLineH = 23;
-    const happenedMaxLines = Math.max(2, Math.floor((leftBottom - (happenedY + 26) - sourceChipH - 18 - 126) / happenedLineH));
+    const urlFootnoteReserve = 20; // always reserve for potential truncation URL
+    const happenedMaxLines = Math.max(2, Math.floor((leftBottom - (happenedY + 26) - sourceChipH - urlFootnoteReserve - 18 - 100) / happenedLineH));
     ctx.fillStyle = '#d8e0ea';
     ctx.font = `700 18px ${_scFont}`;
     ctx.fillText('What happened', PAD, happenedY);
@@ -693,20 +693,15 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.font = `500 16px ${_scFont}`;
     const allDescLines = _scWrapLimit(ctx, signal.description || '', LEFT_W - 10, 99);
     const isTruncated = allDescLines.length > happenedMaxLines;
-    const effectiveHappenedMax = isTruncated ? happenedMaxLines - 1 : happenedMaxLines;
-    const happenedLines = _scWrapLimit(ctx, signal.description || '', LEFT_W - 10, effectiveHappenedMax);
+    const happenedLines = _scWrapLimit(ctx, signal.description || '', LEFT_W - 10, happenedMaxLines);
     _scDrawLines(ctx, happenedLines, PAD, happenedY + 26, happenedLineH);
-    let happenedBottom = happenedY + 26 + happenedLines.length * happenedLineH;
-    if (isTruncated && signal._id) {
-      ctx.fillStyle = tc;
-      ctx.font = `500 11px ${_scFont}`;
-      ctx.fillText(`\u2197 streetsignals.nextfiadvisors.com/#/signals/${signal._id}`, PAD, happenedBottom + 7);
-      happenedBottom += 20;
-    }
+    const happenedBottom = happenedY + 26 + happenedLines.length * happenedLineH;
 
+    // Source chip + optional read-more URL, both below the text block.
+    let belowHappenedBottom = happenedBottom;
     if (signal.source_name || signal.source_url) {
       const sourceLabel = signal.source_name || 'Source article';
-      const chipTop = happenedBottom + 10;
+      const chipTop = belowHappenedBottom + 10;
       ctx.fillStyle = 'rgba(220,228,239,0.12)';
       _scRoundRect(ctx, PAD, chipTop, 178, 26, 6);
       ctx.fill();
@@ -715,13 +710,20 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       ctx.textBaseline = 'middle';
       ctx.fillText(`Source: ${_scTrunc(sourceLabel, 24)}`, PAD + 10, chipTop + 13);
       ctx.textBaseline = 'top';
+      belowHappenedBottom = chipTop + 26;
+    }
+    if (isTruncated && signal._id) {
+      ctx.fillStyle = tc;
+      ctx.font = `500 11px ${_scFont}`;
+      ctx.fillText(`\u2197 streetsignals.nextfiadvisors.com/#/signals/${signal._id}`, PAD, belowHappenedBottom + 8);
+      belowHappenedBottom += 20;
     }
 
     // Why This Matters card — distribute vertical slack between gap and card height.
-    const minWhyY = happenedBottom + sourceChipH + 18;
-    const minWhyH = 126;
+    const minWhyY = belowHappenedBottom + 14;
+    const minWhyH = 100;
     const leftSlack = Math.max(0, leftBottom - (minWhyY + minWhyH));
-    const whyOffset = Math.min(26, Math.round(leftSlack * 0.35));
+    const whyOffset = Math.min(16, Math.round(leftSlack * 0.25));
     const whyY = minWhyY + whyOffset;
     const whyH = Math.max(minWhyH, Math.min(188, leftBottom - whyY));
     ctx.fillStyle = 'rgba(45,220,255,0.06)';
@@ -764,7 +766,8 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     // Reco heading — 22px, wraps as a single paragraph.
     ctx.fillStyle = '#f1f5fb';
     ctx.font = `800 18px ${_scFont}`;
-    const recoHeadingLines = _scWrapLimit(ctx, `Recommended play · ${recommendationTitle}`, rInnerW, 3);
+    const recoHeadingShort = playbook?.short || recommendationTitle;
+    const recoHeadingLines = _scWrapLimit(ctx, `Recommended play · ${recoHeadingShort}`, rInnerW, 3);
     const recoHeadingH = recoHeadingLines.length * 24;
 
     // Lead text.
