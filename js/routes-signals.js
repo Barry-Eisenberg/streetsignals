@@ -556,16 +556,20 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.textAlign = 'left';
     ctx.textBaseline = 'top';
     ctx.fillStyle = '#2ddcff';
-    ctx.font = `800 26px ${_scFont}`;
-    ctx.fillText('SIGNALS FROM THE STREET', PAD, 20);
-    ctx.font = `500 14px ${_scFont}`;
+    ctx.font = `800 24px ${_scFont}`;
+    const brandText = 'SIGNALS FROM THE STREET';
+    ctx.fillText(brandText, PAD, 22);
+    const brandW = ctx.measureText(brandText).width;
+    ctx.font = `500 13px ${_scFont}`;
     ctx.fillStyle = '#8f9aaa';
-    ctx.fillText('Market intelligence by NextFi Advisors', PAD + 330, 26);
+    ctx.textBaseline = 'middle';
+    ctx.fillText('Market intelligence by NextFi Advisors', PAD + brandW + 14, 30);
+    ctx.textBaseline = 'top';
 
     ctx.textAlign = 'right';
     ctx.fillStyle = '#8f9aaa';
-    ctx.font = `600 14px ${_scFont}`;
-    ctx.fillText('streetsignals.nextfiadvisors.com', W - PAD, 26);
+    ctx.font = `600 13px ${_scFont}`;
+    ctx.fillText('streetsignals.nextfiadvisors.com', W - PAD, 24);
 
     // Tag row.
     let chipX = PAD;
@@ -618,15 +622,17 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.font = `500 17px ${_scFont}`;
     const happenedLines = _scWrapLimit(ctx, _scTrunc(signal.description || '', 300), LEFT_W - 10, 3);
     _scDrawLines(ctx, happenedLines, PAD, happenedY + 28, 24);
+    const happenedBottom = happenedY + 28 + happenedLines.length * 24;
     if (signal.source_name || signal.source_url) {
       const sourceLabel = signal.source_name || 'Source article';
+      const chipTop = Math.min(happenedBottom + 12, H - 46);
       ctx.fillStyle = 'rgba(220,228,239,0.12)';
-      _scRoundRect(ctx, PAD, H - 46, 178, 28, 6);
+      _scRoundRect(ctx, PAD, chipTop, 178, 28, 6);
       ctx.fill();
       ctx.fillStyle = '#dbe4ef';
       ctx.font = `600 13px ${_scFont}`;
       ctx.textBaseline = 'middle';
-      ctx.fillText(`Read source: ${_scTrunc(sourceLabel, 20)}`, PAD + 10, H - 32);
+      ctx.fillText(`Read source: ${_scTrunc(sourceLabel, 20)}`, PAD + 10, chipTop + 14);
       ctx.textBaseline = 'top';
     }
 
@@ -704,11 +710,10 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       _scDrawLines(ctx, noRecoLines, RIGHT_X + 24, playY + 26, 20);
     }
 
-    // CTA row — pill-shaped buttons with clear primary/secondary hierarchy.
+    // CTA row — flows directly below the play card, not pinned to panel bottom.
     const ctaH = 28;
     const ctaGap = 9;
-    const ctaTotalH = 3 * ctaH + 2 * ctaGap;
-    const ctaY = rightY + rightH - ctaTotalH - 26;
+    const ctaY = playY + 188 + 14;
     const ctaW = RIGHT_W - 28;
     const ctaX = RIGHT_X + 14;
     const ctas = reco
@@ -732,9 +737,10 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       ctx.textBaseline = 'top';
     }
 
+    const footerY = ctaY + 3 * (ctaH + ctaGap) - ctaGap + 10;
     ctx.fillStyle = '#7f8d9d';
     ctx.font = `500 12px ${_scFont}`;
-    ctx.fillText('streetsignals.nextfiadvisors.com', ctaX, rightY + rightH - 16);
+    ctx.fillText('streetsignals.nextfiadvisors.com', ctaX, footerY);
 
     return canvas;
   }
