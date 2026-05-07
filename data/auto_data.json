@@ -1,5 +1,121 @@
 [
   {
+    "institution": "Chainlink",
+    "initiative": "The $700 million migration: Why Solv Protocol is ditching LayerZero for Chainlink",
+    "description": "The combined migrations by Solv and Kelp shift nearly $1 billion in assets to Chainlink's CCIP, reflecting an industry \"flight to quality.\"",
+    "date": "2026-05-07",
+    "source_url": "https://www.coindesk.com/business/2026/05/07/solv-drops-layerzero-for-chainlink-ccip-in-usd700-million-tokenized-bitcoin-migration",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Kalshi confirms $1 billion raise at $22 billion valuation amid prediction market boom",
+    "description": "Institutional trading volume surged 800% over the past six months on the platform, while annualized trading activity reached $178 billion despite growing regulatory scrutiny.",
+    "date": "2026-05-07",
+    "source_url": "https://www.coindesk.com/business/2026/05/07/kalshi-confirms-usd1-billion-raise-at-usd22-billion-valuation-amid-prediction-market-boom",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Aave to overhaul collateral and listing standards after KelpDAO exploit",
+    "description": "The lending giant is expanding its asset listing criteria beyond financial risk to include cybersecurity and architecture, and wants the rest of DeFi to follow.",
+    "date": "2026-05-07",
+    "source_url": "https://www.coindesk.com/business/2026/05/07/aave-to-overhaul-collateral-and-listing-standards-after-kelpdao-exploit",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "AWS taps Coinbase and Stripe to power USDC payments for AI agents",
+    "description": "In the growing agentic economy, stablecoins are emerging as a key payment rail because of their low cost and programmability.",
+    "date": "2026-05-07",
+    "source_url": "https://www.theblock.co/post/400421/aws-taps-coinbase-and-stripe-to-power-usdc-payments-for-ai-agents",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Superstate",
+    "initiative": "Bitwise to take over Superstate’s $267 million tokenized Crypto Carry Fund",
+    "description": "USCC will be renamed the Bitwise Crypto Carry Fund while keeping the same ticker, smart contracts, and token address.",
+    "date": "2026-05-07",
+    "source_url": "https://www.theblock.co/post/400415/bitwise-to-takeover-superstates-267-million-tokenized-crypto-carry-fund",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BNY Mellon",
+    "initiative": "BNY Mellon lifts Strategy stake to 1 million shares worth $187.2 million",
+    "description": "BNY Mellon has increased its holdings in Strategy (MSTR) to 1 million shares worth about $187.2 million, deepening its use of the Bitcoin treasury company as a proxy for BTC exposure without holding coins directly. The Bank of New York… BNY Mellon lifts Strategy stake to 1 million shares worth $187.2 million",
+    "date": "2026-05-07",
+    "source_url": "https://crypto.news/bny-mellon-lifts-strategy-stake-to-1-million-shares-worth-187-2-million/",
+    "category": "global_banks",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Superstate",
     "initiative": "Bitwise enters tokenization in takeover of Superstate’s $267 million 'carry fund'",
     "description": "The crypto asset manager will take over Superstate’s $267 million USCC fund as tokenized investment products gain traction with institutions.",
@@ -8074,6 +8190,23 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "FCA",
+    "initiative": "Kanda Products & Services Ltd enters liquidation",
+    "description": "On 6 May 2026, Kanda Products and Services Ltd (Kanda) entered liquidation. Details of this restriction are available on the Financial Services Register (FS Register).On 6 May 2026 Philip Harris and Neville Side of FRP Advisory Trading Limited were appointed as Joint Liquidators of Kanda.The Joint Liquidators are responsible for managing the affairs of the firm during the liquidation process and can be contacted",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/news-stories/kanda-products-services-ltd-enters-liquidation",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
     ],
     "year": "2026"
   },
