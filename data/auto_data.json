@@ -1,5 +1,132 @@
 [
   {
+    "institution": "ESMA (European Securities and Markets Authority)",
+    "initiative": "ESMA outlines enforcement activities for corporate reporting across the EEA in 2025",
+    "description": "ESMA outlines enforcement activities for corporate reporting across the EEA in 2025 07 May 2026 Corporate Finance Electronic reporting Financial reporting Sustainable finance The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has today published its Report on 2025 Corporate reporting enforcement and regulatory activities .",
+    "date": "2026-05-07",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-outlines-enforcement-activities-corporate-reporting-across-eea-2025",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "Bittrex asks court to void $24M SEC settlement over crypto stance",
+    "description": "federal court to overturn its $24 million settlement with the Securities and Exchange Commission after the regulator abandoned the crypto enforcement approach used against the exchange under the Biden administration. Bittrex has asked a U.S. Bittrex asks court to void $24M SEC settlement over crypto stance",
+    "date": "2026-05-07",
+    "source_url": "https://crypto.news/bittrex-asks-court-to-void-24m-sec-settlement-over-crypto-stance/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "BNY brings $59T custody power to Abu Dhabi crypto push",
+    "description": "BNY plans Abu Dhabi crypto custody with Finstreet and ADI Foundation, starting with BTC and ETH before stablecoins and tokenized asset work.",
+    "date": "2026-05-07",
+    "source_url": "https://crypto.news/bny-brings-59t-custody-power-to-abu-dhabi-crypto-push/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Swiss bank AMINA brings Canton Coin into regulated finance",
+    "description": "Swiss crypto bank AMINA has become the first FINMA-regulated lender to offer custody and trading support for Canton Coin. According to AMINA, the new integration gives clients regulated access to the Canton Network, a blockchain built for capital markets activity…",
+    "date": "2026-05-07",
+    "source_url": "https://crypto.news/swiss-bank-amina-brings-canton-coin-into-regulated-finance/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Trading & Exchange",
+      "Regulation & Compliance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "AE Coin and USDU launch regulated UAE stablecoin conversion rail",
+    "description": "AE Coin and USD Universal have introduced a regulated stablecoin conversion framework in the UAE that enables near-instant exchange between UAE dirham and U.S. dollar-backed payment tokens for institutional use. AE Coin and USDU launch regulated UAE stablecoin conversion rail",
+    "date": "2026-05-07",
+    "source_url": "https://crypto.news/ae-coin-and-usdu-launch-regulated-uae-stablecoin-conversion-rail/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Bithumb targets Vietnam crypto exchange market through SSID deal",
+    "description": "Bithumb signs an SSID partnership to explore a licensed Vietnam crypto exchange as regulators push trading toward local platforms this year.",
+    "date": "2026-05-07",
+    "source_url": "https://crypto.news/bithumb-targets-vietnam-crypto-exchange-market-through-ssid-deal/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Bitcoin lenders say institutions want crypto credit to look more like TradFi",
     "description": "At Consensus 2026 in Miami, executives from Two Prime, Ledn and Lygos Finance said institutional borrowers increasingly prioritize custody, transparency and standardized lending structures over complex DeFi products after the crypto credit collapses of 2022.",
