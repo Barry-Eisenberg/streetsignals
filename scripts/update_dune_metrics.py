@@ -28,7 +28,7 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CONFIG_PATH = ROOT / "scripts" / "dune_queries.json"
-DEFAULT_OUTPUT_PATH = ROOT / "market_overlay.json"
+DEFAULT_OUTPUT_PATH = ROOT / "data" / "market_overlay.json"
 API_BASE_URL = "https://api.dune.com/api/v1"
 USER_AGENT = "sfts-dune-updater/1.0"
 POLL_INTERVAL_SECONDS = 2.0

@@ -23,10 +23,11 @@ from urllib.error import URLError, HTTPError
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA_PATH = ROOT / "data.json"
-AUTO_DATA_PATH = ROOT / "auto_data.json"
-INTEL_BRIEFS_PATH = ROOT / "intel_briefs.json"
-SOURCES_PATH = ROOT / "sources.json"
+DATA_DIR = ROOT / "data"
+DATA_PATH = DATA_DIR / "data.json"
+AUTO_DATA_PATH = DATA_DIR / "auto_data.json"
+INTEL_BRIEFS_PATH = DATA_DIR / "intel_briefs.json"
+SOURCES_PATH = DATA_DIR / "sources.json"
 
 USER_AGENT = "street-signals-updater/1.0"
 FETCH_TIMEOUT = 20
