@@ -572,20 +572,21 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.fillText('streetsignals.nextfiadvisors.com', W - PAD, 24);
 
     // Tag row.
+    const CHIP_H = 24;
     let chipX = PAD;
-    const chipY = 58;
+    const chipY = 54;
     chipX += _scPill(ctx, (signal._tier || 'Signal').toUpperCase(), chipX, chipY, '#062229', `rgba(${tcRgb.r},${tcRgb.g},${tcRgb.b},0.96)`) + 8;
     chipX += _scPill(ctx, themeLabel, chipX, chipY, '#34d399', 'rgba(52,211,153,0.14)', '600 13px') + 8;
     chipX += _scPill(ctx, initiativeType, chipX, chipY, '#fb923c', 'rgba(251,146,60,0.14)', '600 13px') + 8;
     _scPill(ctx, categoryLabel, chipX, chipY, '#c3ced9', 'rgba(195,206,217,0.10)', '600 13px');
 
-    // Title and metadata — font sizes and line heights are kept compact.
+    // Title — gap below chips.
     ctx.textAlign = 'left';
     ctx.fillStyle = '#f4f7fb';
     ctx.font = `800 44px ${_scFont}`;
     const titleLineH = 50;
     const titleLines = _scWrapLimit(ctx, _scTrunc(signal.initiative || 'Untitled signal', 200), LEFT_W - 10, 3);
-    const titleY = 96;
+    const titleY = chipY + CHIP_H + 20;
     _scDrawLines(ctx, titleLines, PAD, titleY, titleLineH);
 
     const titleBottom = titleY + titleLines.length * titleLineH;
@@ -596,9 +597,37 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     _scDrawLines(ctx, metaLines, PAD, titleBottom + 10, metaLineH);
     const metaBottom = titleBottom + 10 + metaLines.length * metaLineH;
 
-    // Why this matters card — position flows from actual title/meta height.
-    const whyY = metaBottom + 16;
-    const whyH = 106;
+    // ── LEFT COLUMN: What happened first, then Why This Matters ──────────────
+
+    // What happened section.
+    const happenedY = metaBottom + 22;
+    ctx.fillStyle = '#d8e0ea';
+    ctx.font = `700 18px ${_scFont}`;
+    ctx.fillText('What happened', PAD, happenedY);
+    ctx.fillStyle = '#a8b3c1';
+    ctx.font = `500 16px ${_scFont}`;
+    const happenedLines = _scWrapLimit(ctx, _scTrunc(signal.description || '', 300), LEFT_W - 10, 3);
+    _scDrawLines(ctx, happenedLines, PAD, happenedY + 26, 23);
+    const happenedBottom = happenedY + 26 + happenedLines.length * 23;
+
+    let sourceChipH = 0;
+    if (signal.source_name || signal.source_url) {
+      const sourceLabel = signal.source_name || 'Source article';
+      const chipTop = happenedBottom + 10;
+      sourceChipH = 26 + 10;
+      ctx.fillStyle = 'rgba(220,228,239,0.12)';
+      _scRoundRect(ctx, PAD, chipTop, 178, 26, 6);
+      ctx.fill();
+      ctx.fillStyle = '#dbe4ef';
+      ctx.font = `600 12px ${_scFont}`;
+      ctx.textBaseline = 'middle';
+      ctx.fillText(`Read source: ${_scTrunc(sourceLabel, 20)}`, PAD + 10, chipTop + 13);
+      ctx.textBaseline = 'top';
+    }
+
+    // Why This Matters card — below What Happened.
+    const whyY = happenedBottom + sourceChipH + 20;
+    const whyH = 108;
     ctx.fillStyle = 'rgba(45,220,255,0.06)';
     ctx.strokeStyle = 'rgba(45,220,255,0.34)';
     ctx.lineWidth = 1;
@@ -606,116 +635,107 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.fill();
     ctx.stroke();
     ctx.fillStyle = '#41cbe5';
-    ctx.font = `700 13px ${_scFont}`;
-    ctx.fillText(`WHY THIS MATTERS · ${SftSData.PERSONAS[persona].label.toUpperCase()}`, PAD + 14, whyY + 13);
+    ctx.font = `700 12px ${_scFont}`;
+    ctx.fillText(`WHY THIS MATTERS · ${SftSData.PERSONAS[persona].label.toUpperCase()}`, PAD + 14, whyY + 12);
     ctx.fillStyle = '#b8c3d0';
-    ctx.font = `500 21px ${_scFont}`;
-    const whyLines = _scWrapLimit(ctx, _scTrunc(why || '', 270), LEFT_W - 28, 2);
-    _scDrawLines(ctx, whyLines, PAD + 14, whyY + 38, 28);
+    ctx.font = `500 19px ${_scFont}`;
+    const whyLines = _scWrapLimit(ctx, _scTrunc(why || '', 280), LEFT_W - 28, 2);
+    _scDrawLines(ctx, whyLines, PAD + 14, whyY + 36, 27);
 
-    // What happened section — flows from why card.
-    const happenedY = whyY + whyH + 14;
-    ctx.fillStyle = '#d8e0ea';
-    ctx.font = `700 20px ${_scFont}`;
-    ctx.fillText('What happened', PAD, happenedY);
-    ctx.fillStyle = '#a8b3c1';
-    ctx.font = `500 17px ${_scFont}`;
-    const happenedLines = _scWrapLimit(ctx, _scTrunc(signal.description || '', 300), LEFT_W - 10, 3);
-    _scDrawLines(ctx, happenedLines, PAD, happenedY + 28, 24);
-    const happenedBottom = happenedY + 28 + happenedLines.length * 24;
-    if (signal.source_name || signal.source_url) {
-      const sourceLabel = signal.source_name || 'Source article';
-      const chipTop = Math.min(happenedBottom + 12, H - 46);
-      ctx.fillStyle = 'rgba(220,228,239,0.12)';
-      _scRoundRect(ctx, PAD, chipTop, 178, 28, 6);
-      ctx.fill();
-      ctx.fillStyle = '#dbe4ef';
-      ctx.font = `600 13px ${_scFont}`;
-      ctx.textBaseline = 'middle';
-      ctx.fillText(`Read source: ${_scTrunc(sourceLabel, 20)}`, PAD + 10, chipTop + 14);
-      ctx.textBaseline = 'top';
-    }
-
-    // Right recommendation block.
+    // ── RIGHT PANEL: fully dynamic layout ────────────────────────────────────
     const rightY = 96;
     const rightH = H - rightY - 18;
+    const rPad = 14;
+    const rInnerW = RIGHT_W - rPad * 2;
     ctx.fillStyle = 'rgba(255,255,255,0.04)';
     ctx.strokeStyle = 'rgba(255,255,255,0.10)';
     _scRoundRect(ctx, RIGHT_X, rightY, RIGHT_W, rightH, 10);
     ctx.fill();
     ctx.stroke();
 
+    // Eyebrow.
+    let rCursor = rightY + 14;
     ctx.fillStyle = '#55d3a0';
-    ctx.font = `700 12px ${_scFont}`;
-    ctx.fillText('WHAT THIS MEANS FOR YOU', RIGHT_X + 14, rightY + 13);
+    ctx.font = `700 11px ${_scFont}`;
+    ctx.fillText('WHAT THIS MEANS FOR YOU', RIGHT_X + rPad, rCursor);
+    rCursor += 18;
 
+    // Reco heading — 22px, up to 3 lines.
     ctx.fillStyle = '#f1f5fb';
-    ctx.font = `800 26px ${_scFont}`;
+    ctx.font = `800 22px ${_scFont}`;
     const recoHeading = `Recommended play · ${recommendationTitle}`;
-    const recoHeadingLines = _scWrapLimit(ctx, recoHeading, RIGHT_W - 28, 2);
-    _scDrawLines(ctx, recoHeadingLines, RIGHT_X + 14, rightY + 34, 30);
+    const recoHeadingLines = _scWrapLimit(ctx, recoHeading, rInnerW, 3);
+    _scDrawLines(ctx, recoHeadingLines, RIGHT_X + rPad, rCursor, 27);
+    rCursor += recoHeadingLines.length * 27 + 12;
 
+    // Lead text.
     ctx.fillStyle = '#b7c2cf';
-    ctx.font = `500 14px ${_scFont}`;
+    ctx.font = `500 13px ${_scFont}`;
     const leadText = reco
       ? `Based on this signal's tier (${signal._tier}) and the ${SftSData.PERSONAS[persona].label} lens.`
       : 'This signal is not directly mapped to a Decision Playbook theme.';
-    const leadLines = _scWrapLimit(ctx, leadText, RIGHT_W - 28, 2);
-    _scDrawLines(ctx, leadLines, RIGHT_X + 14, rightY + 100, 19);
+    const leadLines = _scWrapLimit(ctx, leadText, rInnerW, 2);
+    _scDrawLines(ctx, leadLines, RIGHT_X + rPad, rCursor, 18);
+    rCursor += leadLines.length * 18 + 14;
 
-    const playY = rightY + 148;
+    // Play card.
+    const playCardH = 194;
+    const playY = rCursor;
     ctx.fillStyle = 'rgba(255,255,255,0.05)';
     ctx.strokeStyle = 'rgba(255,255,255,0.12)';
-    _scRoundRect(ctx, RIGHT_X + 14, playY, RIGHT_W - 28, 188, 8);
+    _scRoundRect(ctx, RIGHT_X + rPad, playY, rInnerW, playCardH, 8);
     ctx.fill();
     ctx.stroke();
 
     if (reco) {
       ctx.fillStyle = 'rgba(85,211,160,0.24)';
-      _scRoundRect(ctx, RIGHT_X + 24, playY + 14, 26, 26, 6);
+      _scRoundRect(ctx, RIGHT_X + rPad + 10, playY + 12, 26, 26, 6);
       ctx.fill();
       ctx.fillStyle = '#65e3ae';
-      ctx.font = `800 15px ${_scFont}`;
+      ctx.font = `800 14px ${_scFont}`;
       ctx.textBaseline = 'middle';
-      ctx.fillText(String(reco.play.n), RIGHT_X + 33, playY + 27);
+      ctx.fillText(String(reco.play.n), RIGHT_X + rPad + 20, playY + 25);
       ctx.textBaseline = 'top';
 
       ctx.fillStyle = '#f1f6fc';
-      ctx.font = `700 17px ${_scFont}`;
-      const playTitleLines = _scWrapLimit(ctx, reco.play.title, RIGHT_W - 88, 2);
-      _scDrawLines(ctx, playTitleLines, RIGHT_X + 58, playY + 16, 21);
+      ctx.font = `700 16px ${_scFont}`;
+      const playTitleLines = _scWrapLimit(ctx, reco.play.title, rInnerW - 48, 2);
+      _scDrawLines(ctx, playTitleLines, RIGHT_X + rPad + 44, playY + 12, 20);
+      const playTitleBottom = playY + 12 + playTitleLines.length * 20;
 
-      ctx.fillStyle = '#b5c0cd';
-      ctx.font = `500 14px ${_scFont}`;
-      const oneLinerLines = _scWrapLimit(ctx, reco.play.oneliner, RIGHT_W - 40, 2);
-      _scDrawLines(ctx, oneLinerLines, RIGHT_X + 24, playY + 62, 19);
-
-      ctx.fillStyle = '#d6dee8';
-      ctx.font = `700 13px ${_scFont}`;
-      ctx.fillText('Why this is the right move now:', RIGHT_X + 24, playY + 104);
       ctx.fillStyle = '#b5c0cd';
       ctx.font = `500 13px ${_scFont}`;
-      const whyNowLines = _scWrapLimit(ctx, reco.play.whyNow, RIGHT_W - 40, 2);
-      _scDrawLines(ctx, whyNowLines, RIGHT_X + 24, playY + 122, 18);
+      const oneLinerLines = _scWrapLimit(ctx, reco.play.oneliner, rInnerW - 20, 2);
+      _scDrawLines(ctx, oneLinerLines, RIGHT_X + rPad + 10, Math.max(playTitleBottom + 8, playY + 54), 18);
+
+      ctx.fillStyle = '#d6dee8';
+      ctx.font = `700 12px ${_scFont}`;
+      ctx.fillText('Why this is the right move now:', RIGHT_X + rPad + 10, playY + 100);
+      ctx.fillStyle = '#b5c0cd';
+      ctx.font = `500 12px ${_scFont}`;
+      const whyNowLines = _scWrapLimit(ctx, reco.play.whyNow, rInnerW - 20, 2);
+      _scDrawLines(ctx, whyNowLines, RIGHT_X + rPad + 10, playY + 116, 17);
 
       if (audienceLine) {
         ctx.fillStyle = '#d6dee8';
-        ctx.font = `700 13px ${_scFont}`;
-        ctx.fillText(`${audienceLine.who}:`, RIGHT_X + 24, playY + 162);
+        ctx.font = `700 12px ${_scFont}`;
+        ctx.fillText(`${audienceLine.who}:`, RIGHT_X + rPad + 10, playY + 158);
       }
     } else {
       ctx.fillStyle = '#d6dee8';
-      ctx.font = `600 15px ${_scFont}`;
-      const noRecoLines = _scWrapLimit(ctx, 'Use this as strategic context while tracking adjacent institutional moves.', RIGHT_W - 40, 4);
-      _scDrawLines(ctx, noRecoLines, RIGHT_X + 24, playY + 26, 20);
+      ctx.font = `600 14px ${_scFont}`;
+      const noRecoLines = _scWrapLimit(ctx, 'Use this as strategic context while tracking adjacent institutional moves.', rInnerW - 20, 4);
+      _scDrawLines(ctx, noRecoLines, RIGHT_X + rPad + 10, playY + 24, 20);
     }
 
-    // CTA row — flows directly below the play card, not pinned to panel bottom.
+    rCursor = playY + playCardH + 12;
+
+    // CTA row — flows directly below play card.
     const ctaH = 28;
-    const ctaGap = 9;
-    const ctaY = playY + 188 + 14;
-    const ctaW = RIGHT_W - 28;
-    const ctaX = RIGHT_X + 14;
+    const ctaGap = 8;
+    const ctaY = rCursor;
+    const ctaW = rInnerW;
+    const ctaX = RIGHT_X + rPad;
     const ctas = reco
       ? [
           `Read the full Playbook: ${playbook?.short || 'Playbook'}`,
@@ -730,7 +750,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       _scRoundRect(ctx, ctaX, y, ctaW, ctaH, 6);
       ctx.fill();
       ctx.fillStyle = i === 0 ? '#04131a' : '#d7e0eb';
-      ctx.font = `700 13px ${_scFont}`;
+      ctx.font = `700 12px ${_scFont}`;
       ctx.textBaseline = 'middle';
       const line = _scWrapLimit(ctx, ctas[i], ctaW - 16, 1)[0];
       ctx.fillText(line, ctaX + 10, y + ctaH / 2);
@@ -739,8 +759,9 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
     const footerY = ctaY + 3 * (ctaH + ctaGap) - ctaGap + 10;
     ctx.fillStyle = '#7f8d9d';
-    ctx.font = `500 12px ${_scFont}`;
+    ctx.font = `500 11px ${_scFont}`;
     ctx.fillText('streetsignals.nextfiadvisors.com', ctaX, footerY);
+
 
     return canvas;
   }
@@ -755,7 +776,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
           copyBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007 0l4-4a5 5 0 00-7-7l-1 1"/><path d="M14 11a5 5 0 00-7 0l-4 4a5 5 0 007 7l1-1"/></svg>Copy link to this signal';
         }, 2000);
       } catch (e) {
-        copyBtn.textContent = 'Copy failed — use browser bar';
+        copyBtn.textContent = 'Copy failed ΓÇö use browser bar';
       }
     });
   }
