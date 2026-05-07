@@ -431,44 +431,136 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     </div>
   `;
 
-  // Create hidden share-card div for LinkedIn image generation
-  const existingShareCard = document.getElementById('share-card');
-  if (existingShareCard) existingShareCard.remove();
+  // ── Share-card: native Canvas 2D — no html2canvas, no DOM capture ──────────
+  // Theme hex values (dark-mode palette, mirrors tokens.css)
+  const _SC_THEME_HEX = { tokenized: '#a78bfa', stablecoins: '#34d399', dlt: '#fb923c' };
+  const _scTC = (themeId && _SC_THEME_HEX[themeId]) || '#2ddcff';
 
-  const truncateShareText = (text, maxChars) => {
-    const clean = String(text || '').replace(/\s+/g, ' ').trim();
-    if (clean.length <= maxChars) return clean;
-    return `${clean.slice(0, maxChars - 1).trimEnd()}...`;
-  };
-  const headlineText = truncateShareText(signal.initiative || 'Untitled signal', 165);
-  const whyText = truncateShareText(why || '', 190);
-  const titleLen = headlineText.length;
-  const titleFontSize = titleLen > 140 ? 58 : titleLen > 115 ? 64 : titleLen > 90 ? 70 : 76;
+  function _scHexRgb(hex) {
+    return { r: parseInt(hex.slice(1,3),16), g: parseInt(hex.slice(3,5),16), b: parseInt(hex.slice(5,7),16) };
+  }
+  function _scRoundRect(ctx, x, y, w, h, r) {
+    ctx.beginPath();
+    ctx.moveTo(x+r, y); ctx.lineTo(x+w-r, y); ctx.quadraticCurveTo(x+w, y, x+w, y+r);
+    ctx.lineTo(x+w, y+h-r); ctx.quadraticCurveTo(x+w, y+h, x+w-r, y+h);
+    ctx.lineTo(x+r, y+h); ctx.quadraticCurveTo(x, y+h, x, y+h-r);
+    ctx.lineTo(x, y+r); ctx.quadraticCurveTo(x, y, x+r, y);
+    ctx.closePath();
+  }
+  function _scWrap(ctx, text, maxWidth) {
+    const words = String(text||'').split(' ');
+    const lines = []; let cur = '';
+    for (const w of words) {
+      const test = cur ? cur+' '+w : w;
+      if (ctx.measureText(test).width > maxWidth && cur) { lines.push(cur); cur = w; }
+      else cur = test;
+    }
+    if (cur) lines.push(cur);
+    return lines;
+  }
+  function _scTrunc(text, max) {
+    const s = String(text||'').replace(/\s+/g,' ').trim();
+    return s.length <= max ? s : s.slice(0, max-1).trimEnd()+'…';
+  }
 
-  const shareCardDiv = document.createElement('div');
-  shareCardDiv.id = 'share-card';
-  shareCardDiv.style.cssText = 'display:none; position:fixed; width:1200px; height:627px; background:#0a0b0f; color:#fff; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; overflow:hidden; left:0; top:0; z-index:-1;';
-  shareCardDiv.innerHTML = `
-    <div style="position:relative; width:100%; height:100%; display:flex; flex-direction:column; padding:42px 52px 36px 52px; box-sizing:border-box; background:radial-gradient(circle at 85% 15%, rgba(6,220,255,0.08) 0%, rgba(6,220,255,0) 35%);">
-      <div style="position:absolute; left:0; top:0; bottom:0; width:8px; background:${themeColor || '#06dcff'}; z-index:10;"></div>
-      <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:28px;">
-        <div style="font-size:36px; font-weight:800; letter-spacing:0.08em; text-transform:uppercase; color:#06dcff;">Signals from the Street</div>
-        <div style="display:flex; gap:8px; align-items:center; font-size:11px; font-weight:700;">
-          <span style="background:${themeColor || '#06dcff'}; color:#0a0b0f; padding:8px 14px; border-radius:7px; text-transform:uppercase; font-size:30px;">${signal._tier || 'SIGNAL'}</span>
-          ${theme ? `<span style="background:rgba(${themeColor === '#a78bfa' ? '167,139,250' : themeColor === '#34d399' ? '52,211,153' : '251,146,60'},0.2); color:${themeColor}; padding:8px 14px; border-radius:7px; font-size:26px;">${theme.short}</span>` : ''}
-        </div>
-      </div>
-      <div style="flex-grow:1; display:flex; flex-direction:column; justify-content:flex-start; margin:10px 6px 0 6px;">
-        <h1 style="font-size:${titleFontSize}px; font-weight:800; line-height:1.06; margin:0; max-height:350px; overflow:hidden; word-break:break-word; letter-spacing:-0.02em;">${R.escapeHTML(headlineText)}</h1>
-        <div style="font-size:43px; color:#9ba6b2; margin-top:22px;">${R.escapeHTML(signal.institution || '')} · ${R.formatDate(signal.date)}</div>
-      </div>
-      <div style="display:flex; justify-content:space-between; align-items:flex-end; padding-top:26px; border-top:1px solid rgba(255,255,255,0.14);">
-        <div style="color:#8b96a3; max-width:73%; font-size:26px; line-height:1.3; max-height:72px; overflow:hidden;">${R.escapeHTML(whyText)}</div>
-        <div style="text-align:right; white-space:nowrap; font-weight:700; color:#06dcff; font-size:34px;">streetsignals.nextfiadvisors.com</div>
-      </div>
-    </div>
-  `;
-  document.body.appendChild(shareCardDiv);
+  function _buildShareCanvas() {
+    const W = 1200, H = 627, S = 2;
+    const cv = document.createElement('canvas');
+    cv.width = W*S; cv.height = H*S;
+    const ctx = cv.getContext('2d');
+    ctx.scale(S, S);
+
+    const PL = 56, PR = 56, PT = 46, PB = 42;
+    const CW = W - PL - PR;
+    const tc = _scTC;
+    const tcRgb = _scHexRgb(tc);
+    const UI_FONT = 'system-ui, -apple-system, "Segoe UI", Arial, sans-serif';
+
+    // Background
+    ctx.fillStyle = '#0a0b0f';
+    ctx.fillRect(0, 0, W, H);
+
+    // Radial glow (top-right, theme-tinted)
+    const grd = ctx.createRadialGradient(W*0.86, H*0.14, 0, W*0.86, H*0.14, W*0.40);
+    grd.addColorStop(0, `rgba(${tcRgb.r},${tcRgb.g},${tcRgb.b},0.10)`);
+    grd.addColorStop(1, 'rgba(0,0,0,0)');
+    ctx.fillStyle = grd;
+    ctx.fillRect(0, 0, W, H);
+
+    // Left accent bar
+    ctx.fillStyle = tc;
+    ctx.fillRect(0, 0, 8, H);
+
+    // ── HEADER ROW ──
+    ctx.font = `800 34px ${UI_FONT}`;
+    ctx.fillStyle = '#2ddcff';
+    ctx.textBaseline = 'top';
+    ctx.textAlign = 'left';
+    ctx.fillText('SIGNALS FROM THE STREET', PL, PT);
+
+    // Tier pill (top-right)
+    const tierText = (signal._tier || 'SIGNAL').toUpperCase();
+    ctx.font = `700 26px ${UI_FONT}`;
+    const tPW = ctx.measureText(tierText).width + 36, tPH = 42;
+    const tPX = W - PR - tPW, tPY = PT - 2;
+    ctx.fillStyle = tc;
+    _scRoundRect(ctx, tPX, tPY, tPW, tPH, 8); ctx.fill();
+    ctx.fillStyle = '#0a0b0f'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    ctx.fillText(tierText, tPX + tPW/2, tPY + tPH/2);
+
+    // Theme badge (left of tier pill)
+    if (theme) {
+      ctx.font = `600 22px ${UI_FONT}`;
+      const bPW = ctx.measureText(theme.short).width + 28, bPH = 38;
+      const bPX = tPX - bPW - 10, bPY = tPY + 2;
+      ctx.fillStyle = `rgba(${tcRgb.r},${tcRgb.g},${tcRgb.b},0.18)`;
+      _scRoundRect(ctx, bPX, bPY, bPW, bPH, 7); ctx.fill();
+      ctx.fillStyle = tc; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+      ctx.fillText(theme.short, bPX + bPW/2, bPY + bPH/2);
+    }
+
+    // ── HEADLINE ──
+    ctx.textAlign = 'left'; ctx.textBaseline = 'top';
+    const hlText = _scTrunc(signal.initiative || 'Untitled signal', 165);
+    const hlLen = hlText.length;
+    const hlSize = hlLen > 140 ? 54 : hlLen > 115 ? 60 : hlLen > 90 ? 66 : 72;
+    ctx.font = `800 ${hlSize}px ${UI_FONT}`;
+    ctx.fillStyle = '#ffffff';
+    const hlLines = _scWrap(ctx, hlText, CW - 16);
+    const hlLineH = hlSize * 1.07;
+    const HL_Y = PT + 74, HL_MAX_H = 290;
+    let hy = HL_Y;
+    for (const ln of hlLines) {
+      if (hy + hlLineH > HL_Y + HL_MAX_H) break;
+      ctx.fillText(ln, PL, hy); hy += hlLineH;
+    }
+
+    // ── INSTITUTION · DATE ──
+    ctx.font = `400 36px ${UI_FONT}`; ctx.fillStyle = '#9ba6b2';
+    const instY = HL_Y + HL_MAX_H + 10;
+    ctx.fillText([signal.institution, R.formatDate(signal.date)].filter(Boolean).join(' · '), PL, instY);
+
+    // ── DIVIDER ──
+    const divY = H - PB - 32 - 20 - 32*2 - 18;
+    ctx.strokeStyle = 'rgba(255,255,255,0.15)'; ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.moveTo(PL, divY); ctx.lineTo(W-PR, divY); ctx.stroke();
+
+    // ── WHY THIS MATTERS ──
+    const whyText = _scTrunc(why||'', 190);
+    ctx.font = `400 24px ${UI_FONT}`; ctx.fillStyle = '#8b96a3';
+    const whyLines = _scWrap(ctx, whyText, CW * 0.73);
+    const WHY_Y = divY + 18;
+    for (let i = 0; i < Math.min(2, whyLines.length); i++) {
+      ctx.fillText(whyLines[i], PL, WHY_Y + i*32);
+    }
+
+    // ── URL (bottom-right) ──
+    ctx.font = `700 28px ${UI_FONT}`; ctx.fillStyle = '#2ddcff';
+    ctx.textAlign = 'right'; ctx.textBaseline = 'bottom';
+    ctx.fillText('streetsignals.nextfiadvisors.com', W-PR, H-PB);
+
+    return cv;
+  }
 
   const copyBtn = root.querySelector('#copyLinkBtn');
   if (copyBtn) {
@@ -487,42 +579,23 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
   const shareLinkedInBtn = root.querySelector('#shareLinkedInBtn');
   if (shareLinkedInBtn) {
-    shareLinkedInBtn.addEventListener('click', async () => {
+    shareLinkedInBtn.addEventListener('click', () => {
       try {
         shareLinkedInBtn.disabled = true;
         shareLinkedInBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10" opacity="0.3"/></svg>Generating...';
-        
-        // Get or create share-card element
-        let cardEl = document.querySelector('#share-card');
-        if (!cardEl) throw new Error('Share card element not found');
-        
-        // Make card visible temporarily for capture
-        cardEl.style.display = 'block';
-        cardEl.style.position = 'fixed';
-        cardEl.style.left = '-9999px';
-        
-        // Use html2canvas to capture the share-card
-        const canvas = await html2canvas(cardEl, { scale: 2, backgroundColor: '#0a0b0f', useCORS: true, allowTaint: true });
-        cardEl.style.display = 'none';
-        
-        // Convert canvas to blob and download
+
+        const canvas = _buildShareCanvas();
         canvas.toBlob(b => {
           const url = URL.createObjectURL(b);
           const a = document.createElement('a');
-          a.href = url;
-          a.download = `sfts-${params.id}.png`;
-          a.click();
+          a.href = url; a.download = `sfts-${params.id}.png`; a.click();
           URL.revokeObjectURL(url);
-          
-          // Open LinkedIn share dialog with the signal URL
           setTimeout(() => {
             const signalUrl = encodeURIComponent(window.location.href);
             window.open(
               `https://www.linkedin.com/sharing/share-offsite/?url=${signalUrl}`,
-              'linkedin-share',
-              'width=550,height=680'
+              'linkedin-share', 'width=550,height=680'
             );
-            
             shareLinkedInBtn.disabled = false;
             shareLinkedInBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>Share to LinkedIn';
           }, 500);
