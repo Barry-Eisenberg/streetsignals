@@ -509,6 +509,10 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
   }
 
   const _scFont = 'system-ui, -apple-system, "Segoe UI", Arial, sans-serif';
+  const _scNextFiLogo = new Image();
+  let _scNextFiLogoReady = false;
+  _scNextFiLogo.onload = () => { _scNextFiLogoReady = true; };
+  _scNextFiLogo.src = './nextfi-logo.png';
 
   function _buildShareCanvas() {
     const W = 1200;
@@ -560,21 +564,39 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const brandText = 'SIGNALS FROM THE STREET';
     ctx.fillText(brandText, PAD, 22);
     const brandW = ctx.measureText(brandText).width;
-    ctx.font = `500 13px ${_scFont}`;
-    ctx.fillStyle = '#8f9aaa';
-    ctx.textBaseline = 'middle';
-    ctx.fillText('Market intelligence by NextFi Advisors', PAD + brandW + 14, 30);
     ctx.textBaseline = 'top';
 
+    // Right header lockup: NextFi logo + right-justified byline.
+    const rightByline = 'Market Intelligence by NextFi Advisors';
     ctx.textAlign = 'right';
     ctx.fillStyle = '#8f9aaa';
     ctx.font = `600 13px ${_scFont}`;
-    ctx.fillText('streetsignals.nextfiadvisors.com', W - PAD, 24);
+    const rightBylineY = 24;
+    const rightBylineX = W - PAD;
+    ctx.fillText(rightByline, rightBylineX, rightBylineY);
+
+    const bylineW = ctx.measureText(rightByline).width;
+    const logoH = 16;
+    const logoW = 64;
+    const logoX = rightBylineX - bylineW - 10 - logoW;
+    const logoY = rightBylineY - 1;
+    if (_scNextFiLogoReady) {
+      ctx.drawImage(_scNextFiLogo, logoX, logoY, logoW, logoH);
+    } else {
+      // Fallback mark while logo image is still loading.
+      ctx.fillStyle = 'rgba(45,220,255,0.20)';
+      _scRoundRect(ctx, logoX, logoY, 22, 16, 4);
+      ctx.fill();
+      ctx.fillStyle = '#2ddcff';
+      ctx.font = `800 11px ${_scFont}`;
+      ctx.textAlign = 'left';
+      ctx.fillText('N', logoX + 6, logoY + 2);
+    }
 
     // Tag row.
     const CHIP_H = 24;
     let chipX = PAD;
-    const chipY = 54;
+    const chipY = 64;
     chipX += _scPill(ctx, (signal._tier || 'Signal').toUpperCase(), chipX, chipY, '#062229', `rgba(${tcRgb.r},${tcRgb.g},${tcRgb.b},0.96)`) + 8;
     chipX += _scPill(ctx, themeLabel, chipX, chipY, '#34d399', 'rgba(52,211,153,0.14)', '600 13px') + 8;
     chipX += _scPill(ctx, initiativeType, chipX, chipY, '#fb923c', 'rgba(251,146,60,0.14)', '600 13px') + 8;
@@ -586,7 +608,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.font = `800 40px ${_scFont}`;
     const titleLineH = 46;
     const titleLines = _scWrapLimit(ctx, _scTrunc(signal.initiative || 'Untitled signal', 200), LEFT_W - 10, 3);
-    const titleY = chipY + CHIP_H + 24;
+    const titleY = chipY + CHIP_H + 30;
     _scDrawLines(ctx, titleLines, PAD, titleY, titleLineH);
 
     const titleBottom = titleY + titleLines.length * titleLineH;
@@ -625,12 +647,11 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       ctx.textBaseline = 'top';
     }
 
-    // Why This Matters card — prefer bottom anchoring for better left-column distribution.
-    const whyH = 108;
+    // Why This Matters card — expand vertically when space is available.
     const leftBottom = H - 18;
     const minWhyY = happenedBottom + sourceChipH + 20;
-    const anchoredWhyY = leftBottom - whyH;
-    const whyY = Math.max(minWhyY, anchoredWhyY);
+    const whyY = minWhyY;
+    const whyH = Math.max(108, Math.min(170, leftBottom - whyY));
     ctx.fillStyle = 'rgba(45,220,255,0.06)';
     ctx.strokeStyle = 'rgba(45,220,255,0.34)';
     ctx.lineWidth = 1;
@@ -641,12 +662,16 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.font = `700 12px ${_scFont}`;
     ctx.fillText(`WHY THIS MATTERS · ${SftSData.PERSONAS[persona].label.toUpperCase()}`, PAD + 14, whyY + 12);
     ctx.fillStyle = '#b8c3d0';
-    ctx.font = `500 19px ${_scFont}`;
-    const whyLines = _scWrapLimit(ctx, _scTrunc(why || '', 280), LEFT_W - 28, 2);
-    _scDrawLines(ctx, whyLines, PAD + 14, whyY + 36, 27);
+    const whyBodyFont = whyH >= 150 ? 18 : 19;
+    const whyBodyLineH = whyH >= 150 ? 23 : 24;
+    const whyBodyY = whyY + 36;
+    const whyMaxLines = Math.max(2, Math.floor((whyH - 46) / whyBodyLineH));
+    ctx.font = `500 ${whyBodyFont}px ${_scFont}`;
+    const whyLines = _scWrapLimit(ctx, why || '', LEFT_W - 28, whyMaxLines);
+    _scDrawLines(ctx, whyLines, PAD + 14, whyBodyY, whyBodyLineH);
 
     // ── RIGHT PANEL: fully dynamic layout ────────────────────────────────────
-    const rightY = 96;
+    const rightY = chipY;
     const rightH = H - rightY - 18;
     const rPad = 14;
     const rInnerW = RIGHT_W - rPad * 2;
