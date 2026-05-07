@@ -431,135 +431,299 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     </div>
   `;
 
-  // ── Share-card: native Canvas 2D — no html2canvas, no DOM capture ──────────
-  // Theme hex values (dark-mode palette, mirrors tokens.css)
+  // Share-card: native Canvas 2D renderer (no DOM snapshot).
   const _SC_THEME_HEX = { tokenized: '#a78bfa', stablecoins: '#34d399', dlt: '#fb923c' };
   const _scTC = (themeId && _SC_THEME_HEX[themeId]) || '#2ddcff';
 
   function _scHexRgb(hex) {
-    return { r: parseInt(hex.slice(1,3),16), g: parseInt(hex.slice(3,5),16), b: parseInt(hex.slice(5,7),16) };
+    return { r: parseInt(hex.slice(1, 3), 16), g: parseInt(hex.slice(3, 5), 16), b: parseInt(hex.slice(5, 7), 16) };
   }
+
   function _scRoundRect(ctx, x, y, w, h, r) {
     ctx.beginPath();
-    ctx.moveTo(x+r, y); ctx.lineTo(x+w-r, y); ctx.quadraticCurveTo(x+w, y, x+w, y+r);
-    ctx.lineTo(x+w, y+h-r); ctx.quadraticCurveTo(x+w, y+h, x+w-r, y+h);
-    ctx.lineTo(x+r, y+h); ctx.quadraticCurveTo(x, y+h, x, y+h-r);
-    ctx.lineTo(x, y+r); ctx.quadraticCurveTo(x, y, x+r, y);
+    ctx.moveTo(x + r, y);
+    ctx.lineTo(x + w - r, y);
+    ctx.quadraticCurveTo(x + w, y, x + w, y + r);
+    ctx.lineTo(x + w, y + h - r);
+    ctx.quadraticCurveTo(x + w, y + h, x + w - r, y + h);
+    ctx.lineTo(x + r, y + h);
+    ctx.quadraticCurveTo(x, y + h, x, y + h - r);
+    ctx.lineTo(x, y + r);
+    ctx.quadraticCurveTo(x, y, x + r, y);
     ctx.closePath();
   }
+
   function _scWrap(ctx, text, maxWidth) {
-    const words = String(text||'').split(' ');
-    const lines = []; let cur = '';
+    const words = String(text || '').trim().split(/\s+/);
+    const lines = [];
+    let cur = '';
     for (const w of words) {
-      const test = cur ? cur+' '+w : w;
-      if (ctx.measureText(test).width > maxWidth && cur) { lines.push(cur); cur = w; }
-      else cur = test;
+      const candidate = cur ? `${cur} ${w}` : w;
+      if (ctx.measureText(candidate).width > maxWidth && cur) {
+        lines.push(cur);
+        cur = w;
+      } else {
+        cur = candidate;
+      }
     }
     if (cur) lines.push(cur);
     return lines;
   }
-  function _scTrunc(text, max) {
-    const s = String(text||'').replace(/\s+/g,' ').trim();
-    return s.length <= max ? s : s.slice(0, max-1).trimEnd()+'…';
+
+  function _scWrapLimit(ctx, text, maxWidth, maxLines) {
+    const raw = _scWrap(ctx, text, maxWidth);
+    if (raw.length <= maxLines) return raw;
+    const out = raw.slice(0, maxLines);
+    let last = out[maxLines - 1] || '';
+    while (last && ctx.measureText(`${last}...`).width > maxWidth) {
+      last = last.slice(0, -1).trimEnd();
+    }
+    out[maxLines - 1] = `${last}...`;
+    return out;
   }
 
-  function _buildShareCanvas() {
-    const W = 1200, H = 627, S = 2;
-    const cv = document.createElement('canvas');
-    cv.width = W*S; cv.height = H*S;
-    const ctx = cv.getContext('2d');
-    ctx.scale(S, S);
+  function _scDrawLines(ctx, lines, x, y, lineHeight) {
+    for (let i = 0; i < lines.length; i++) {
+      ctx.fillText(lines[i], x, y + i * lineHeight);
+    }
+  }
 
-    const PL = 56, PR = 56, PT = 46, PB = 42;
-    const CW = W - PL - PR;
+  function _scTrunc(text, max) {
+    const s = String(text || '').replace(/\s+/g, ' ').trim();
+    return s.length <= max ? s : `${s.slice(0, max - 3).trimEnd()}...`;
+  }
+
+  function _scPill(ctx, label, x, y, fg, bg, font = '700 14px') {
+    ctx.font = `${font} ${_scFont}`;
+    const padX = 10;
+    const h = 24;
+    const w = Math.ceil(ctx.measureText(label).width + padX * 2);
+    ctx.fillStyle = bg;
+    _scRoundRect(ctx, x, y, w, h, 6);
+    ctx.fill();
+    ctx.fillStyle = fg;
+    ctx.textAlign = 'left';
+    ctx.textBaseline = 'middle';
+    ctx.fillText(label, x + padX, y + h / 2 + 0.5);
+    return w;
+  }
+
+  const _scFont = 'system-ui, -apple-system, "Segoe UI", Arial, sans-serif';
+
+  function _buildShareCanvas() {
+    const W = 1200;
+    const H = 627;
+    const SCALE = 2;
+
+    const canvas = document.createElement('canvas');
+    canvas.width = W * SCALE;
+    canvas.height = H * SCALE;
+    const ctx = canvas.getContext('2d');
+    ctx.scale(SCALE, SCALE);
+
+    const PAD = 28;
+    const GAP = 18;
+    const LEFT_W = 760;
+    const RIGHT_X = PAD + LEFT_W + GAP;
+    const RIGHT_W = W - PAD - RIGHT_X;
     const tc = _scTC;
     const tcRgb = _scHexRgb(tc);
-    const UI_FONT = 'system-ui, -apple-system, "Segoe UI", Arial, sans-serif';
+    const themeLabel = theme?.short || 'Cross-theme';
+    const playbook = reco ? SftSPlaybooks.PLAYBOOKS[reco.themeId] : null;
+    const recommendationTitle = playbook?.label || 'No mapped playbook';
+    const initiativeType = (signal.initiative_types && signal.initiative_types[0]) || signal.signal_type || 'Initiative';
+    const fmiArea = (signal.fmi_areas && signal.fmi_areas[0]) || 'FMI';
+    const categoryLabel = SftSData.CATEGORY_LABELS?.[signal._category]?.label || signal.institution_type || 'Institutional';
+    const metaLine = [
+      `${signal.institution || 'Signal'} - ${signal.institution_type || categoryLabel}`,
+      R.formatDate(signal.date),
+      signal.source_name ? `Source: ${signal.source_name}` : null,
+      `Score: ${signal._score}/100`
+    ].filter(Boolean).join('   ');
 
-    // Background
-    ctx.fillStyle = '#0a0b0f';
+    // Background + subtle theme glow.
+    ctx.fillStyle = '#05080f';
     ctx.fillRect(0, 0, W, H);
-
-    // Radial glow (top-right, theme-tinted)
-    const grd = ctx.createRadialGradient(W*0.86, H*0.14, 0, W*0.86, H*0.14, W*0.40);
-    grd.addColorStop(0, `rgba(${tcRgb.r},${tcRgb.g},${tcRgb.b},0.10)`);
-    grd.addColorStop(1, 'rgba(0,0,0,0)');
-    ctx.fillStyle = grd;
+    const glow = ctx.createRadialGradient(W * 0.86, 80, 0, W * 0.86, 80, 280);
+    glow.addColorStop(0, `rgba(${tcRgb.r},${tcRgb.g},${tcRgb.b},0.18)`);
+    glow.addColorStop(1, 'rgba(0,0,0,0)');
+    ctx.fillStyle = glow;
     ctx.fillRect(0, 0, W, H);
-
-    // Left accent bar
     ctx.fillStyle = tc;
-    ctx.fillRect(0, 0, 8, H);
+    ctx.fillRect(0, 0, 6, H);
 
-    // ── HEADER ROW ──
-    ctx.font = `800 34px ${UI_FONT}`;
-    ctx.fillStyle = '#2ddcff';
-    ctx.textBaseline = 'top';
+    // Header row.
     ctx.textAlign = 'left';
-    ctx.fillText('SIGNALS FROM THE STREET', PL, PT);
+    ctx.textBaseline = 'top';
+    ctx.fillStyle = '#2ddcff';
+    ctx.font = `800 26px ${_scFont}`;
+    ctx.fillText('SIGNALS FROM THE STREET', PAD, 20);
+    ctx.font = `500 14px ${_scFont}`;
+    ctx.fillStyle = '#8f9aaa';
+    ctx.fillText('Market intelligence by NextFi Advisors', PAD + 330, 26);
 
-    // Tier pill (top-right)
-    const tierText = (signal._tier || 'SIGNAL').toUpperCase();
-    ctx.font = `700 26px ${UI_FONT}`;
-    const tPW = ctx.measureText(tierText).width + 36, tPH = 42;
-    const tPX = W - PR - tPW, tPY = PT - 2;
-    ctx.fillStyle = tc;
-    _scRoundRect(ctx, tPX, tPY, tPW, tPH, 8); ctx.fill();
-    ctx.fillStyle = '#0a0b0f'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-    ctx.fillText(tierText, tPX + tPW/2, tPY + tPH/2);
+    ctx.textAlign = 'right';
+    ctx.fillStyle = '#8f9aaa';
+    ctx.font = `600 14px ${_scFont}`;
+    ctx.fillText('streetsignals.nextfiadvisors.com', W - PAD, 26);
 
-    // Theme badge (left of tier pill)
-    if (theme) {
-      ctx.font = `600 22px ${UI_FONT}`;
-      const bPW = ctx.measureText(theme.short).width + 28, bPH = 38;
-      const bPX = tPX - bPW - 10, bPY = tPY + 2;
-      ctx.fillStyle = `rgba(${tcRgb.r},${tcRgb.g},${tcRgb.b},0.18)`;
-      _scRoundRect(ctx, bPX, bPY, bPW, bPH, 7); ctx.fill();
-      ctx.fillStyle = tc; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-      ctx.fillText(theme.short, bPX + bPW/2, bPY + bPH/2);
+    // Tag row.
+    let chipX = PAD;
+    const chipY = 58;
+    chipX += _scPill(ctx, (signal._tier || 'Signal').toUpperCase(), chipX, chipY, '#062229', `rgba(${tcRgb.r},${tcRgb.g},${tcRgb.b},0.96)`) + 8;
+    chipX += _scPill(ctx, themeLabel, chipX, chipY, '#34d399', 'rgba(52,211,153,0.14)', '600 13px') + 8;
+    chipX += _scPill(ctx, initiativeType, chipX, chipY, '#fb923c', 'rgba(251,146,60,0.14)', '600 13px') + 8;
+    _scPill(ctx, categoryLabel, chipX, chipY, '#c3ced9', 'rgba(195,206,217,0.10)', '600 13px');
+
+    // Title and metadata.
+    ctx.textAlign = 'left';
+    ctx.fillStyle = '#f4f7fb';
+    ctx.font = `800 58px ${_scFont}`;
+    const titleLines = _scWrapLimit(ctx, _scTrunc(signal.initiative || 'Untitled signal', 180), LEFT_W - 10, 3);
+    const titleY = 96;
+    _scDrawLines(ctx, titleLines, PAD, titleY, 62);
+
+    const titleBottom = titleY + titleLines.length * 62;
+    ctx.fillStyle = '#a6b1bf';
+    ctx.font = `500 20px ${_scFont}`;
+    const metaLines = _scWrapLimit(ctx, metaLine, LEFT_W - 10, 2);
+    _scDrawLines(ctx, metaLines, PAD, titleBottom + 8, 26);
+
+    // Why this matters card.
+    const whyY = 322;
+    const whyH = 112;
+    ctx.fillStyle = 'rgba(45,220,255,0.06)';
+    ctx.strokeStyle = 'rgba(45,220,255,0.34)';
+    ctx.lineWidth = 1;
+    _scRoundRect(ctx, PAD, whyY, LEFT_W, whyH, 10);
+    ctx.fill();
+    ctx.stroke();
+    ctx.fillStyle = '#41cbe5';
+    ctx.font = `700 14px ${_scFont}`;
+    ctx.fillText(`WHY THIS MATTERS · ${SftSData.PERSONAS[persona].label.toUpperCase()}`, PAD + 14, whyY + 12);
+    ctx.fillStyle = '#b8c3d0';
+    ctx.font = `500 25px ${_scFont}`;
+    const whyLines = _scWrapLimit(ctx, _scTrunc(why || '', 260), LEFT_W - 28, 2);
+    _scDrawLines(ctx, whyLines, PAD + 14, whyY + 40, 31);
+
+    // What happened section.
+    const happenedY = 450;
+    ctx.fillStyle = '#d8e0ea';
+    ctx.font = `700 24px ${_scFont}`;
+    ctx.fillText('What happened', PAD, happenedY);
+    ctx.fillStyle = '#a8b3c1';
+    ctx.font = `500 20px ${_scFont}`;
+    const happenedLines = _scWrapLimit(ctx, _scTrunc(signal.description || '', 280), LEFT_W - 10, 3);
+    _scDrawLines(ctx, happenedLines, PAD, happenedY + 32, 27);
+    if (signal.source_name || signal.source_url) {
+      const sourceLabel = signal.source_name || 'Source article';
+      ctx.fillStyle = 'rgba(220,228,239,0.12)';
+      _scRoundRect(ctx, PAD, H - 48, 170, 30, 6);
+      ctx.fill();
+      ctx.fillStyle = '#dbe4ef';
+      ctx.font = `600 14px ${_scFont}`;
+      ctx.fillText(`Read source: ${_scTrunc(sourceLabel, 18)}`, PAD + 10, H - 39);
     }
 
-    // ── HEADLINE ──
-    ctx.textAlign = 'left'; ctx.textBaseline = 'top';
-    const hlText = _scTrunc(signal.initiative || 'Untitled signal', 165);
-    const hlLen = hlText.length;
-    const hlSize = hlLen > 140 ? 54 : hlLen > 115 ? 60 : hlLen > 90 ? 66 : 72;
-    ctx.font = `800 ${hlSize}px ${UI_FONT}`;
-    ctx.fillStyle = '#ffffff';
-    const hlLines = _scWrap(ctx, hlText, CW - 16);
-    const hlLineH = hlSize * 1.07;
-    const HL_Y = PT + 74, HL_MAX_H = 290;
-    let hy = HL_Y;
-    for (const ln of hlLines) {
-      if (hy + hlLineH > HL_Y + HL_MAX_H) break;
-      ctx.fillText(ln, PL, hy); hy += hlLineH;
+    // Right recommendation block.
+    const rightY = 96;
+    const rightH = H - rightY - 18;
+    ctx.fillStyle = 'rgba(255,255,255,0.04)';
+    ctx.strokeStyle = 'rgba(255,255,255,0.10)';
+    _scRoundRect(ctx, RIGHT_X, rightY, RIGHT_W, rightH, 10);
+    ctx.fill();
+    ctx.stroke();
+
+    ctx.fillStyle = '#55d3a0';
+    ctx.font = `700 13px ${_scFont}`;
+    ctx.fillText('WHAT THIS MEANS FOR YOU', RIGHT_X + 14, rightY + 12);
+
+    ctx.fillStyle = '#f1f5fb';
+    ctx.font = `800 30px ${_scFont}`;
+    const recoHeading = `Recommended play · ${recommendationTitle}`;
+    const recoHeadingLines = _scWrapLimit(ctx, recoHeading, RIGHT_W - 28, 2);
+    _scDrawLines(ctx, recoHeadingLines, RIGHT_X + 14, rightY + 34, 34);
+
+    ctx.fillStyle = '#b7c2cf';
+    ctx.font = `500 16px ${_scFont}`;
+    const leadText = reco
+      ? `Based on this signal's tier (${signal._tier}) and the ${SftSData.PERSONAS[persona].label} lens.`
+      : 'This signal is not directly mapped to a Decision Playbook theme.';
+    const leadLines = _scWrapLimit(ctx, leadText, RIGHT_W - 28, 3);
+    _scDrawLines(ctx, leadLines, RIGHT_X + 14, rightY + 108, 21);
+
+    const playY = rightY + 174;
+    ctx.fillStyle = 'rgba(255,255,255,0.05)';
+    ctx.strokeStyle = 'rgba(255,255,255,0.12)';
+    _scRoundRect(ctx, RIGHT_X + 14, playY, RIGHT_W - 28, 194, 8);
+    ctx.fill();
+    ctx.stroke();
+
+    if (reco) {
+      ctx.fillStyle = 'rgba(85,211,160,0.24)';
+      _scRoundRect(ctx, RIGHT_X + 24, playY + 14, 26, 26, 6);
+      ctx.fill();
+      ctx.fillStyle = '#65e3ae';
+      ctx.font = `800 16px ${_scFont}`;
+      ctx.fillText(String(reco.play.n), RIGHT_X + 33, playY + 20);
+
+      ctx.fillStyle = '#f1f6fc';
+      ctx.font = `700 19px ${_scFont}`;
+      const playTitleLines = _scWrapLimit(ctx, reco.play.title, RIGHT_W - 88, 2);
+      _scDrawLines(ctx, playTitleLines, RIGHT_X + 58, playY + 16, 22);
+
+      ctx.fillStyle = '#b5c0cd';
+      ctx.font = `500 15px ${_scFont}`;
+      const oneLinerLines = _scWrapLimit(ctx, reco.play.oneliner, RIGHT_W - 40, 2);
+      _scDrawLines(ctx, oneLinerLines, RIGHT_X + 24, playY + 62, 20);
+
+      ctx.fillStyle = '#d6dee8';
+      ctx.font = `700 15px ${_scFont}`;
+      ctx.fillText('Why this is the right move now:', RIGHT_X + 24, playY + 108);
+      ctx.fillStyle = '#b5c0cd';
+      ctx.font = `500 14px ${_scFont}`;
+      const whyNowLines = _scWrapLimit(ctx, reco.play.whyNow, RIGHT_W - 40, 2);
+      _scDrawLines(ctx, whyNowLines, RIGHT_X + 24, playY + 128, 19);
+
+      if (audienceLine) {
+        ctx.fillStyle = '#d6dee8';
+        ctx.font = `700 14px ${_scFont}`;
+        ctx.fillText(`${audienceLine.who}:`, RIGHT_X + 24, playY + 168);
+      }
+    } else {
+      ctx.fillStyle = '#d6dee8';
+      ctx.font = `600 16px ${_scFont}`;
+      const noRecoLines = _scWrapLimit(ctx, 'Use this as strategic context while tracking adjacent institutional moves.', RIGHT_W - 40, 4);
+      _scDrawLines(ctx, noRecoLines, RIGHT_X + 24, playY + 26, 21);
     }
 
-    // ── INSTITUTION · DATE ──
-    ctx.font = `400 36px ${UI_FONT}`; ctx.fillStyle = '#9ba6b2';
-    const instY = HL_Y + HL_MAX_H + 10;
-    ctx.fillText([signal.institution, R.formatDate(signal.date)].filter(Boolean).join(' · '), PL, instY);
+    // CTA row rendered as text chips, with domain footer.
+    const ctaY = rightY + rightH - 84;
+    const ctaW = RIGHT_W - 28;
+    const ctaX = RIGHT_X + 14;
+    const ctas = reco
+      ? [
+          `Read the full Playbook: ${playbook?.short || 'Playbook'}`,
+          `See all ${playbook?.short || themeLabel} signals`,
+          'Discuss with NextFi Advisors'
+        ]
+      : ['Browse all playbooks', 'Explore related institutional signals', 'Discuss with NextFi Advisors'];
 
-    // ── DIVIDER ──
-    const divY = H - PB - 32 - 20 - 32*2 - 18;
-    ctx.strokeStyle = 'rgba(255,255,255,0.15)'; ctx.lineWidth = 1;
-    ctx.beginPath(); ctx.moveTo(PL, divY); ctx.lineTo(W-PR, divY); ctx.stroke();
-
-    // ── WHY THIS MATTERS ──
-    const whyText = _scTrunc(why||'', 190);
-    ctx.font = `400 24px ${UI_FONT}`; ctx.fillStyle = '#8b96a3';
-    const whyLines = _scWrap(ctx, whyText, CW * 0.73);
-    const WHY_Y = divY + 18;
-    for (let i = 0; i < Math.min(2, whyLines.length); i++) {
-      ctx.fillText(whyLines[i], PL, WHY_Y + i*32);
+    for (let i = 0; i < ctas.length; i++) {
+      const y = ctaY + i * 24;
+      ctx.fillStyle = i === 0 ? tc : 'rgba(255,255,255,0.10)';
+      ctx.fillRect(ctaX, y, ctaW, 20);
+      ctx.fillStyle = i === 0 ? '#04131a' : '#d7e0eb';
+      ctx.font = `700 12px ${_scFont}`;
+      const line = _scWrapLimit(ctx, ctas[i], ctaW - 12, 1)[0];
+      ctx.fillText(line, ctaX + 6, y + 4);
     }
 
-    // ── URL (bottom-right) ──
-    ctx.font = `700 28px ${UI_FONT}`; ctx.fillStyle = '#2ddcff';
-    ctx.textAlign = 'right'; ctx.textBaseline = 'bottom';
-    ctx.fillText('streetsignals.nextfiadvisors.com', W-PR, H-PB);
+    ctx.fillStyle = '#7f8d9d';
+    ctx.font = `600 12px ${_scFont}`;
+    ctx.fillText('Visit: streetsignals.nextfiadvisors.com', ctaX, H - 20);
 
-    return cv;
+    return canvas;
   }
 
   const copyBtn = root.querySelector('#copyLinkBtn');
