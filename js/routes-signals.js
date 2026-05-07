@@ -612,7 +612,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     _scDrawSftsMark(ctx, PAD, markY, markSize);
 
     const wordmarkX = PAD + markSize + 12;
-    const textMidY = markY + markSize / 2 + 0.5;
+    const textMidY = markY + markSize / 2 + 1.5;
     ctx.textBaseline = 'middle';
     ctx.fillStyle = '#dff4ff';
     ctx.font = `800 40px ${_scFont}`;
@@ -632,13 +632,13 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.fillStyle = '#8f9aaa';
     ctx.font = `500 12px ${_scFont}`;
     const bylineW = ctx.measureText(rightByline).width;
-    const logoH = 17;
+    const logoH = 18;
     const naturalRatio = _scNextFiLogoReady && _scNextFiLogo.height ? (_scNextFiLogo.width / _scNextFiLogo.height) : 4.9;
     const logoW = Math.max(82, Math.min(128, Math.round(logoH * naturalRatio)));
     const lockGap = 10;
     const lockupW = bylineW + lockGap + logoW;
     const lockupX = W - PAD - lockupW;
-    const lockupY = 22;
+    const lockupY = 21;
     ctx.textAlign = 'left';
     ctx.fillText(rightByline, lockupX, lockupY + 1);
     const logoX = lockupX + bylineW + lockGap;
@@ -654,7 +654,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     // Tag row.
     const CHIP_H = 24;
     let chipX = PAD;
-    const chipY = 66;
+    const chipY = 67;
     chipX += _scPill(ctx, (signal._tier || 'Signal').toUpperCase(), chipX, chipY, '#062229', `rgba(${tcRgb.r},${tcRgb.g},${tcRgb.b},0.96)`) + 8;
     chipX += _scPill(ctx, themeLabel, chipX, chipY, '#34d399', 'rgba(52,211,153,0.14)', '600 13px') + 8;
     chipX += _scPill(ctx, initiativeType, chipX, chipY, '#fb923c', 'rgba(251,146,60,0.14)', '600 13px') + 8;
@@ -819,23 +819,40 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       _scDrawLines(ctx, playTitleLines, RIGHT_X + rPad + 44, playY + 12, 20);
       const playTitleBottom = playY + 12 + playTitleLines.length * 20;
 
+      // Internal play-card text flow: compute line budgets from available height to prevent overlaps.
+      const cardInnerBottom = playY + playCardH - 12;
+      let cardCursor = Math.max(playTitleBottom + 8, playY + 54);
+
+      const oneLineH = 18;
+      const whyLabelH = 14;
+      const whyBodyLineH = 17;
+      const audienceH = audienceLine ? 14 : 0;
+
+      const reserveAfterOneLiner = whyLabelH + 6 + whyBodyLineH + 8 + audienceH;
+      const maxOneLines = Math.max(1, Math.min(3, Math.floor((cardInnerBottom - cardCursor - reserveAfterOneLiner) / oneLineH)));
       ctx.fillStyle = '#b5c0cd';
       ctx.font = `500 13px ${_scFont}`;
-      const oneLinerLines = _scWrapLimit(ctx, reco.play.oneliner, rInnerW - 20, 3);
-      _scDrawLines(ctx, oneLinerLines, RIGHT_X + rPad + 10, Math.max(playTitleBottom + 8, playY + 54), 18);
+      const oneLinerLines = _scWrapLimit(ctx, reco.play.oneliner, rInnerW - 20, maxOneLines);
+      _scDrawLines(ctx, oneLinerLines, RIGHT_X + rPad + 10, cardCursor, oneLineH);
+      cardCursor += oneLinerLines.length * oneLineH + 8;
 
       ctx.fillStyle = '#d6dee8';
       ctx.font = `700 12px ${_scFont}`;
-      ctx.fillText('Why this is the right move now:', RIGHT_X + rPad + 10, playY + 100);
+      const whyLabelY = cardCursor;
+      ctx.fillText('Why this is the right move now:', RIGHT_X + rPad + 10, whyLabelY);
+      cardCursor += whyLabelH + 2;
+
+      const maxWhyLines = Math.max(1, Math.min(3, Math.floor((cardInnerBottom - cardCursor - audienceH - 4) / whyBodyLineH)));
       ctx.fillStyle = '#b5c0cd';
       ctx.font = `500 12px ${_scFont}`;
-      const whyNowLines = _scWrapLimit(ctx, reco.play.whyNow, rInnerW - 20, 3);
-      _scDrawLines(ctx, whyNowLines, RIGHT_X + rPad + 10, playY + 116, 17);
+      const whyNowLines = _scWrapLimit(ctx, reco.play.whyNow, rInnerW - 20, maxWhyLines);
+      _scDrawLines(ctx, whyNowLines, RIGHT_X + rPad + 10, cardCursor, whyBodyLineH);
+      cardCursor += whyNowLines.length * whyBodyLineH + 8;
 
-      if (audienceLine) {
+      if (audienceLine && cardCursor + audienceH <= cardInnerBottom) {
         ctx.fillStyle = '#d6dee8';
         ctx.font = `700 12px ${_scFont}`;
-        ctx.fillText(`${audienceLine.who}:`, RIGHT_X + rPad + 10, playY + 158);
+        ctx.fillText(`${audienceLine.who}:`, RIGHT_X + rPad + 10, cardCursor);
       }
     } else {
       ctx.fillStyle = '#d6dee8';
