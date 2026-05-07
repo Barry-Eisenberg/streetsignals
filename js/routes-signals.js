@@ -589,7 +589,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       `${signal.institution || 'Signal'} - ${signal.institution_type || categoryLabel}`,
       R.formatDate(signal.date),
       `Score: ${signal._score}/100`
-    ].filter(Boolean).join('   ');
+    ].filter(Boolean).join('   ·   ');
 
     // Background + subtle theme glow.
     ctx.fillStyle = '#05080f';
@@ -691,9 +691,18 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.fillText('What happened', PAD, happenedY);
     ctx.fillStyle = '#a8b3c1';
     ctx.font = `500 16px ${_scFont}`;
-    const happenedLines = _scWrapLimit(ctx, signal.description || '', LEFT_W - 10, happenedMaxLines);
+    const allDescLines = _scWrapLimit(ctx, signal.description || '', LEFT_W - 10, 99);
+    const isTruncated = allDescLines.length > happenedMaxLines;
+    const effectiveHappenedMax = isTruncated ? happenedMaxLines - 1 : happenedMaxLines;
+    const happenedLines = _scWrapLimit(ctx, signal.description || '', LEFT_W - 10, effectiveHappenedMax);
     _scDrawLines(ctx, happenedLines, PAD, happenedY + 26, happenedLineH);
-    const happenedBottom = happenedY + 26 + happenedLines.length * happenedLineH;
+    let happenedBottom = happenedY + 26 + happenedLines.length * happenedLineH;
+    if (isTruncated && signal._id) {
+      ctx.fillStyle = tc;
+      ctx.font = `500 11px ${_scFont}`;
+      ctx.fillText(`\u2197 streetsignals.nextfiadvisors.com/#/signals/${signal._id}`, PAD, happenedBottom + 7);
+      happenedBottom += 20;
+    }
 
     if (signal.source_name || signal.source_url) {
       const sourceLabel = signal.source_name || 'Source article';
@@ -754,9 +763,9 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
     // Reco heading — 22px, wraps as a single paragraph.
     ctx.fillStyle = '#f1f5fb';
-    ctx.font = `800 22px ${_scFont}`;
+    ctx.font = `800 18px ${_scFont}`;
     const recoHeadingLines = _scWrapLimit(ctx, `Recommended play · ${recommendationTitle}`, rInnerW, 3);
-    const recoHeadingH = recoHeadingLines.length * 27;
+    const recoHeadingH = recoHeadingLines.length * 24;
 
     // Lead text.
     ctx.fillStyle = '#b7c2cf';
@@ -791,7 +800,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     footerGap += rightSlack;
 
     rCursor += gap1;
-    _scDrawLines(ctx, recoHeadingLines, RIGHT_X + rPad, rCursor, 27);
+    _scDrawLines(ctx, recoHeadingLines, RIGHT_X + rPad, rCursor, 24);
     rCursor += recoHeadingH + gap2;
     _scDrawLines(ctx, leadLines, RIGHT_X + rPad, rCursor, 18);
     rCursor += leadH + gap3;
