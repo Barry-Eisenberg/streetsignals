@@ -5,7 +5,7 @@
 
 const State = {
   persona: 'all',
-  theme: 'dark',
+  theme: 'light',
   // signal workspace filters
   filters: {
     theme: null,        // 'tokenized' | 'stablecoins' | 'dlt' | null

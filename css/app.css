@@ -452,6 +452,10 @@ body > * { position: relative; z-index: 1; }
   align-items: center;
   gap: var(--space-2);
 }
+.section-eyebrow--lg {
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+}
 .section-eyebrow::before {
   content: ''; width: 24px; height: 1px;
   background: var(--color-primary);
@@ -472,8 +476,9 @@ body > * { position: relative; z-index: 1; }
 .site-section {
   padding: var(--space-12) 0;
 }
-.site-section--tight { padding: var(--space-8) 0; }
-.site-section--top   { padding-top: 0; }
+.site-section--tight       { padding: var(--space-8) 0; }
+.site-section--top         { padding-top: 0; }
+.site-section--compact-top { padding-top: var(--space-6); }
 .site-section + .site-section { border-top: 1px solid var(--color-divider); }
 
 /* ============================================================
@@ -1025,6 +1030,7 @@ body > * { position: relative; z-index: 1; }
 }
 .detail-hero-tags {
   display: flex; flex-wrap: wrap; gap: var(--space-2);
+  align-items: center;
   margin-bottom: var(--space-4);
 }
 .detail-hero h1 {
