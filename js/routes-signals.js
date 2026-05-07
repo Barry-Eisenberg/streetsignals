@@ -691,11 +691,15 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const whyHeaderH = 36;
     ctx.font = `500 ${whyBodyFont}px ${_scFont}`;
     const whyAllLines = _scWrapLimit(ctx, why || '', LEFT_W - 28, 99);
-    // Reserve exactly as much vertical space as the why content needs (capped at 5 lines).
+    // Bottom-anchor Why card: fix its Y position first, then budget happened top-down to that Y.
     const whyContentLines = Math.max(1, Math.min(whyAllLines.length || 1, 5));
     const whyContentH = whyHeaderH + whyContentLines * whyBodyLineH;
-    const happenedReserve = sourceChipH + urlRowH + 8 + whyContentH;
-    const happenedMaxLines = Math.max(2, Math.floor((leftBottom - (happenedY + 26) - happenedReserve) / happenedLineH));
+    const whyY = leftBottom - whyContentH;
+    const whyH = whyContentH;
+    // happenedMaxLines = everything from happened text start up to whyY minus chip/url overhead.
+    const happenedMaxLines = Math.max(2, Math.floor(
+      (whyY - 8 - sourceChipH - urlRowH - (happenedY + 26)) / happenedLineH
+    ));
     ctx.fillStyle = '#d8e0ea';
     ctx.font = `700 18px ${_scFont}`;
     ctx.fillText('What happened', PAD, happenedY);
@@ -733,10 +737,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       belowHappenedBottom = chipTop + 26;
     }
 
-    // Why This Matters card — fills to leftBottom so no blank gap appears below.
-    // Happened's reserve used exact whyContentH, so leftBottom - whyY ≈ whyContentH + tiny floor remainder.
-    const whyY = belowHappenedBottom + 8;
-    const whyH = Math.max(whyContentH, leftBottom - whyY);
+    // Why This Matters card — bottom-anchored, content-sized (whyY and whyH computed above).
     ctx.fillStyle = 'rgba(45,220,255,0.06)';
     ctx.strokeStyle = 'rgba(45,220,255,0.34)';
     ctx.lineWidth = 1;
