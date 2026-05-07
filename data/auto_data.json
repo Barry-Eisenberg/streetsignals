@@ -1,5 +1,46 @@
 [
   {
+    "institution": "Ledger Insights",
+    "initiative": "BNY to launch digital asset custody in Abu Dhabi",
+    "description": "The world’s largest custodian BNY plans to provide digital asset custody in the Abu Dhabi Global Market (ADGM) as part of a collaboration with Finstreet and the ADI Foundation. Finstreet operates a multilateral trading facility (MTF) and clearing house and is a subsidiary of IHC, the large conglomerate controlled by the ruling royal family. ADI",
+    "date": "2026-05-07",
+    "source_url": "https://www.ledgerinsights.com/bny-to-launch-digital-asset-custody-in-abu-dhabi/",
+    "category": "ecosystem",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Custody & Safekeeping",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "US jobless claims come in at 200,000; strong labor data keeps pressure on crypto",
+    "description": "Initial US jobless claims came in at 200,000 for the week ending May 2, beating the 205,000 consensus and reinforcing a picture of a still‑resilient labor market that keeps pressure on the Federal Reserve to delay or dilute rate cuts… US jobless claims come in at 200,000; strong labor data keeps pressure on crypto",
+    "date": "2026-05-07",
+    "source_url": "https://crypto.news/us-jobless-claims-come-in-at-200000-strong-labor-data-keeps-pressure-on-crypto/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "BNY expands crypto custody push in Abu Dhabi",
     "description": "BNY announced Thursday that it is expanding its crypto custody business to the UAE through partnerships with Finstreet and ADI Foundation.",
