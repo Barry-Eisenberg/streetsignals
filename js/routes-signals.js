@@ -328,7 +328,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
             <h3>What happened</h3>
             <p class="detail-description">${R.escapeHTML((signal.description || '').replace(/[\u2026]$/, '').replace(/\.\.\.\s*$/, '').trimEnd())}</p>
             ${signal.description_truncated ? `<p class="detail-truncation-note">Full article available at source — preview only.</p>` : ''}
-            ${signal.source_url ? `<p style="margin-top: var(--space-4);">`
+            ${signal.source_url ? `<p style="margin-top: var(--space-4);">
               <a class="btn btn--outline btn--sm" href="${signal.source_url}" target="_blank" rel="noopener noreferrer">
                 Read source ${R.extIcon}
               </a>
