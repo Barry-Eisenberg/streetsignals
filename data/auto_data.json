@@ -1,5 +1,46 @@
 [
   {
+    "institution": "Ledger Insights",
+    "initiative": "Kraken parent Payward to buy stablecoin payments firm Reap for $600m",
+    "description": "Payward, the parent of cryptocurrency exchange Kraken, has agreed to acquire Hong Kong based Reap Technologies for up to $600 million in cash and stock. Reap is a stablecoin-native payments infrastructure company whose API enables corporate card issuance, cross border payouts and treasury management. By mid 2025 Reap said it was processing $3 billion in",
+    "date": "2026-05-07",
+    "source_url": "https://www.ledgerinsights.com/kraken-parent-payward-to-buy-stablecoin-payments-firm-reap-for-600m/",
+    "category": "ecosystem",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "SoFi’s crypto relaunch earns $121m, keeps $852k",
+    "description": "SoFi generated $121.6 million in crypto transaction revenue in Q1 2026, its first detailed public disclosure since the bank relaunched crypto trading, but $120.7 million of that went to costs. SoFi’s relaunched crypto unit generated $121.6 million in transaction revenue…",
+    "date": "2026-05-07",
+    "source_url": "https://crypto.news/sofi-made-121m-in-crypto-but-kept-almost-none/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "Amazon’s new AI wallet: AWS, Coinbase, and Stripe build payment rails for bots",
     "description": "Amazon said AI agents for now will be allowed to buy APIs, web content and other online services, but that future versions would enable hotel bookings, travel reservations and payments to merchants.",
