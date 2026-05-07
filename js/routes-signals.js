@@ -588,7 +588,6 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const metaLine = [
       `${signal.institution || 'Signal'} - ${signal.institution_type || categoryLabel}`,
       R.formatDate(signal.date),
-      signal.source_name ? `Source: ${signal.source_name}` : null,
       `Score: ${signal._score}/100`
     ].filter(Boolean).join('   ');
 
@@ -632,8 +631,6 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.fillStyle = '#8f9aaa';
     ctx.font = `500 12px ${_scFont}`;
     const bylineW = ctx.measureText(rightByline).width;
-    const bylineMetrics = ctx.measureText(rightByline);
-    const bylineH = Math.max(11, Math.round((bylineMetrics.actualBoundingBoxAscent || 9) + (bylineMetrics.actualBoundingBoxDescent || 3)));
     const logoH = 28;
     const naturalRatio = _scNextFiLogoReady && _scNextFiLogo.height ? (_scNextFiLogo.width / _scNextFiLogo.height) : 4.9;
     const logoW = Math.max(82, Math.min(128, Math.round(logoH * naturalRatio)));
@@ -642,8 +639,9 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const lockupX = W - PAD - lockupW;
     const lockupY = 20;
     ctx.textAlign = 'left';
-    const bylineY = lockupY + Math.round((logoH - bylineH) / 2) - 1;
-    ctx.fillText(rightByline, lockupX, bylineY);
+    ctx.textBaseline = 'middle';
+    ctx.fillText(rightByline, lockupX, lockupY + Math.round(logoH / 2));
+    ctx.textBaseline = 'top';
     const logoX = lockupX + bylineW + lockGap;
     const logoY = lockupY;
     if (_scNextFiLogoReady) {
@@ -684,32 +682,33 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
     // What happened section.
     const happenedY = metaBottom + 24;
+    const leftBottom = H - 18;
+    const sourceChipH = (signal.source_name || signal.source_url) ? 36 : 0;
+    const happenedLineH = 23;
+    const happenedMaxLines = Math.max(2, Math.floor((leftBottom - (happenedY + 26) - sourceChipH - 18 - 126) / happenedLineH));
     ctx.fillStyle = '#d8e0ea';
     ctx.font = `700 18px ${_scFont}`;
     ctx.fillText('What happened', PAD, happenedY);
     ctx.fillStyle = '#a8b3c1';
     ctx.font = `500 16px ${_scFont}`;
-    const happenedLines = _scWrapLimit(ctx, _scTrunc(signal.description || '', 300), LEFT_W - 10, 3);
-    _scDrawLines(ctx, happenedLines, PAD, happenedY + 26, 23);
-    const happenedBottom = happenedY + 26 + happenedLines.length * 23;
+    const happenedLines = _scWrapLimit(ctx, signal.description || '', LEFT_W - 10, happenedMaxLines);
+    _scDrawLines(ctx, happenedLines, PAD, happenedY + 26, happenedLineH);
+    const happenedBottom = happenedY + 26 + happenedLines.length * happenedLineH;
 
-    let sourceChipH = 0;
     if (signal.source_name || signal.source_url) {
       const sourceLabel = signal.source_name || 'Source article';
       const chipTop = happenedBottom + 10;
-      sourceChipH = 26 + 10;
       ctx.fillStyle = 'rgba(220,228,239,0.12)';
       _scRoundRect(ctx, PAD, chipTop, 178, 26, 6);
       ctx.fill();
       ctx.fillStyle = '#dbe4ef';
       ctx.font = `600 12px ${_scFont}`;
       ctx.textBaseline = 'middle';
-      ctx.fillText(`Read source: ${_scTrunc(sourceLabel, 20)}`, PAD + 10, chipTop + 13);
+      ctx.fillText(`Source: ${_scTrunc(sourceLabel, 24)}`, PAD + 10, chipTop + 13);
       ctx.textBaseline = 'top';
     }
 
     // Why This Matters card — distribute vertical slack between gap and card height.
-    const leftBottom = H - 18;
     const minWhyY = happenedBottom + sourceChipH + 18;
     const minWhyH = 126;
     const leftSlack = Math.max(0, leftBottom - (minWhyY + minWhyH));
@@ -753,12 +752,10 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const eyebrowH = 11;
     rCursor += eyebrowH;
 
-    // Reco heading — 22px, up to 3 lines.
-    // Always render "Recommended play ·" on its own line so the title never looks truncated.
+    // Reco heading — 22px, wraps as a single paragraph.
     ctx.fillStyle = '#f1f5fb';
     ctx.font = `800 22px ${_scFont}`;
-    const recoTitleLines = _scWrapLimit(ctx, recommendationTitle, rInnerW, 2);
-    const recoHeadingLines = ['Recommended play ·', ...recoTitleLines];
+    const recoHeadingLines = _scWrapLimit(ctx, `Recommended play · ${recommendationTitle}`, rInnerW, 3);
     const recoHeadingH = recoHeadingLines.length * 27;
 
     // Lead text.
