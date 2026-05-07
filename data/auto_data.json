@@ -1,5 +1,63 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "Amazon’s new AI wallet: AWS, Coinbase, and Stripe build payment rails for bots",
+    "description": "Amazon said AI agents for now will be allowed to buy APIs, web content and other online services, but that future versions would enable hotel bookings, travel reservations and payments to merchants.",
+    "date": "2026-05-07",
+    "source_url": "https://www.coindesk.com/business/2026/05/07/amazon-rolls-out-ai-agent-stablecoin-payments-platform-with-coinbase-and-stripe",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Ledger Insights",
+    "initiative": "DTCC explores L1 blockchains for tokenization. Has scalability concerns",
+    "description": "Yesterday at the Consensus event, DTCC CEO Frank La Salla revealed the organization is working with several L1 blockchains for its tokenization platform, which begins initial transactions in July ahead of a full October rollout. So far DTCC supports its own Ethereum compatible AppChain and the Canton Network, but the SEC no action letter it",
+    "date": "2026-05-07",
+    "source_url": "https://www.ledgerinsights.com/dtcc-explores-l1-blockchains-for-tokenization-has-scalability-concerns/",
+    "category": "ecosystem",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bitcoin bulls ‘approaching the ceiling’ near $85K resistance with $1.69B ETF inflow streak and macro tailwinds aligned: analysts",
+    "description": "Bitcoin trades near $81,000 after clearing key on-chain thresholds, with Glassnode flagging $85,200 as the next ceiling.",
+    "date": "2026-05-07",
+    "source_url": "https://www.theblock.co/post/400462/bitcoin-bulls-approaching-the-ceiling-near-85k-resistance-with-1-69b-etf-inflow-streak-and-macro-tailwinds-aligned-analysts",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Anchorage Digital",
     "initiative": "The stablecoin queue: 20 banks and tech giants are waiting to issue tokens with Anchorage Digital",
     "description": "Since the Genius Act passed, Anchorage has won every single large stablecoin issuance mandate across the landscape, according to the firm’s CEO Nathan McCauley.",
