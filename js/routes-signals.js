@@ -733,12 +733,9 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       belowHappenedBottom = chipTop + 26;
     }
 
-    // Why This Matters card — content-sized to avoid large empty blocks.
+    // Why This Matters card — fills all remaining vertical space so no blank appears below.
     const whyY = belowHappenedBottom + 8;
-    const whyAvailableH = leftBottom - whyY;
-    const whyDesiredLines = Math.max(whyMinLines, Math.min(whyAllLines.length || 1, 7));
-    const whyDesiredH = whyHeaderH + whyDesiredLines * whyBodyLineH;
-    const whyH = Math.max(Math.min(whyAvailableH, whyDesiredH), Math.min(whyAvailableH, minWhyH));
+    const whyH = Math.max(minWhyH, leftBottom - whyY);
     ctx.fillStyle = 'rgba(45,220,255,0.06)';
     ctx.strokeStyle = 'rgba(45,220,255,0.34)';
     ctx.lineWidth = 1;
