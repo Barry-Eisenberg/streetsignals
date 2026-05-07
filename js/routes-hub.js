@@ -23,7 +23,10 @@ SftSRouter.defineRoute('/', async ({ root }) => {
           <span class="hub-eyebrow"><span class="pulse"></span> Live Intelligence Feed</span>
           <h1>The Institutional Migration To <span class="accent">Blockchain Infrastructure</span></h1>
           <p class="hub-hero-lead">
-            Filtering the noise so you can see how the world&rsquo;s leading financial institutions, exchanges, central intermediaries, and regulators are building the next generation of financial markets infrastructure. Every signal is scored, contextualized, and aligned to a Decision Playbook that defines alternative courses of action to consider, so you spend less time searching and more time executing.
+            Filtering the noise so you can see how the world&rsquo;s leading financial institutions, exchanges, central intermediaries, and regulators are building the next generation of financial markets infrastructure.
+          </p>
+          <p class="hub-hero-lead">
+            Every signal is scored, contextualized, and aligned to a Decision Playbook that defines alternative courses of action to consider, so you spend less time searching and more time executing.
           </p>
           <div class="hub-hero-cta">
             <a class="btn btn--primary" href="#/signals">
