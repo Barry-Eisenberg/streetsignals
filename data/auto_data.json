@@ -1,5 +1,950 @@
 [
   {
+    "institution": "Nasdaq",
+    "initiative": "Nasdaq's president says the SEC’s new crypto stance is letting markets 'build' again",
+    "description": "Nasdaq’s Tal Cohen said a friendlier SEC is giving crypto firms and exchanges room to experiment with tokenization and digital market infrastructure.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/policy/2026/05/06/nasdaq-s-president-says-the-sec-s-new-crypto-stance-is-letting-markets-build-again",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "DTCC",
+    "initiative": "Wall Street's clearinghouse seeks 'high-performance' blockchains to tokenize corporate actions",
+    "description": "DTCC CEO Frank La Salla said the clearing giant is working with layer-1 blockchains to bring millions in corporate actions like dividend payments onchain, but challenges remain.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/business/2026/05/06/wall-street-s-clearinghouse-seeks-high-performance-blockchains-to-tokenize-corporate-actions",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Fairshake defends midterm spending as voter trust crashes",
+    "description": "Fairshake has spent $28 million in 2026 primaries as a new poll shows most Americans distrust crypto and AI, raising questions about the political value of industry-backed super PAC money. Fairshake, the pro-crypto super PAC backed by Coinbase, Andreessen Horowitz,…",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/fairshake-and-ai-pacs-pour-100m-into-midterms/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Why Erik Reppel says AI agents end internet ads",
+    "description": "Erik Reppel said at Consensus Miami 2026 that AI agents bypass internet ads entirely, threatening the web’s core business model and pointing to x402 stablecoin micropayments as the structural replacement. Coinbase Developer Platform head and x402 founder Erik Reppel took…",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/erik-reppel-says-ai-agents-will-kill-online-ads/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Revolut",
+    "initiative": "Crypto’s mainstream moment has arrived, say industry leaders speaking at Consensus Miami",
+    "description": "Executives from Binance, Revolut and Circle say crypto is evolving beyond speculation into the financial infrastructure powering payments, remittances and broader global access.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/business/2026/05/06/crypto-s-mainstream-moment-has-arrived-say-industry-leaders-speaking-at-consensus-miami",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinShares",
+    "initiative": "Spot Bitcoin ETFs solved access, but custody, advisors and plumbing still lag, panelists say",
+    "description": "Senior figures from CoinShares, Calamos, ProShares and Flow Traders flagged Coinbase-heavy custody concentration, modest advisor uptake and creation-flow inefficiency as being among the next set of problems to solve.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/business/2026/05/06/spot-bitcoin-etfs-solved-access-but-custody-advisors-and-plumbing-still-lag-panelists-say",
+    "category": "asset_management",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Securitize",
+    "initiative": "NYSE warns synthetic tokens are misleading retail",
+    "description": "NYSE parent ICE and Securitize warned at Consensus Miami 2026 that offshore synthetic tokenized stocks are misleading retail investors and creating serious risks for the broader market. NYSE executives and partners raised the alarm at Consensus Miami 2026 on Wednesday…",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/nyse-warns-fake-tokenized-stocks-threaten-retail/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Circle",
+    "initiative": "Dominance of Tether and Circle is a net bad for stablecoins, says Bridge executive",
+    "description": "Circle and Tether are going to make it harder for stablecoins to feel like money, said Ben O'Neill, head of money movement at Bridge.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/business/2026/05/06/dominance-of-tether-and-circle-is-net-bad-for-stablecoins-says-bridge",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "Eric Trump rejects JPMorgan’s bitcoin credibility",
+    "description": "Eric Trump mocked JPMorgan at Consensus Miami 2026 for reversing its bitcoin stance within 18 months, saying banks have accepted they can no longer hold back the tide. Eric Trump took the stage at Consensus Miami 2026 on Wednesday and… Eric Trump rejects JPMorgan’s bitcoin credibility",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/eric-trump-blasts-jpmorgan-bitcoin-reversal/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Securitize",
+    "initiative": "NYSE, OKX, Securitze discuss tokenizing stocks “the right way” versus synthetically",
+    "description": "Yesterday during a Consensus panel, the topic of synthetic tokenized stocks was discussed, with Securitize CEO Carlos Domingo pushing back hard against this type of token. Today there are relatively few tokenized US stocks with full ownership rights, which should change when the DTCC starts rolling out its tokenized entitlements in July. A wider variety",
+    "date": "2026-05-06",
+    "source_url": "https://www.ledgerinsights.com/nyse-okx-securitze-discuss-tokenizing-stocks-the-right-way-versus-synthetically/",
+    "category": "ecosystem",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Why Gillibrand believes the CLARITY Act will pass in 2026",
+    "description": "Senator Kirsten Gillibrand took the Consensus Miami 2026 mainstage on Day 2 and expressed optimism about the CLARITY Act’s prospects in Congress, appearing alongside Kevin O’Leary and Coinbase’s Paul Grewal. Senator Kirsten Gillibrand took the mainstage at Consensus Miami 2026…",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/gillibrand-talks-crypto-law-at-consensus-miami/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "Eric Trump takes shot at JPMorgan rethinking bitcoin after 'crapping' on asset",
+    "description": "The U.S. president's son, who co-founded American Bitcoin, said there's been a turnaround from traditional institutional firms now embracing bitcoin.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/policy/2026/05/06/eric-trump-takes-shot-at-jpmorgan-rethinking-bitcoin-after-crapping-on-asset",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "Ripple, JPMorgan and others use XRP Ledger to cash out tokenized Treasurys fund internationally",
+    "description": "The transaction represents an example of crypto firms and Wall Street institutions jointly exploring 24/7 settlement systems.",
+    "date": "2026-05-06",
+    "source_url": "https://www.theblock.co/post/400281/ripple-jpmorgan-xrp-ledger-transfer-tokenized-treasury-across-borders",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Arthur Hayes rejects crypto regulation at Consensus Miami",
+    "description": "Arthur Hayes told Consensus Miami 2026 that the CLARITY Act misses the point of crypto, arguing that bitcoin’s value comes precisely from operating outside any regulatory system. BitMEX co-founder and Maelstrom CIO Arthur Hayes took the stage at Consensus Miami…",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/arthur-hayes-rejects-the-clarity-act-at-consensus/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "The end of ads: Coinbase engineer says AI agents could kill the internet’s favorite business model",
+    "description": "Erik Reppel, who created the x402 protocol, said that the web economy depends heavily on advertising revenue generated from humans. AI agents bypass that system entirely.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/tech/2026/05/06/the-end-of-ads-coinbase-engineer-says-ai-agents-could-kill-the-internet-s-favorite-business-model",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Ripple",
+    "initiative": "The Protocol: AI Agents form their own firm",
+    "description": "Also: Alpenglow upgrade update, Ripple on North Korea hacking threat, Cloudflare on AI agents and web economics",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/tech/2026/05/06/the-protocol-ai-agents-form-their-own-firm",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "FINMA",
+    "initiative": "SIX gets approval to merge SDX DLT CSD into securities services, adds crypto custody",
+    "description": "SIX has received approval from Swiss regulator FINMA to merge its blockchain entity SIX Digital Exchange AG (SDX) into its central securities depository SIX SIS AG. SDX previously operated as a separate licensed entity with its own CSD license for digital assets. Separately, FINMA also approved the main CSD to offer crypto custody services. The",
+    "date": "2026-05-06",
+    "source_url": "https://www.ledgerinsights.com/six-gets-approval-to-merge-sdx-dlt-csd-into-securities-services-adds-crypto-custody/",
+    "category": "regulators",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Morgan Stanley",
+    "initiative": "Morgan Stanley pilots crypto trading on E*Trade with 50-basis-point fee: Bloomberg",
+    "description": "Morgan Stanley pilots crypto trading at 50 basis points, expanding digital asset push weeks after launching a bitcoin ETF.",
+    "date": "2026-05-06",
+    "source_url": "https://www.theblock.co/post/400259/morgan-stanley-pilots-crypto-trading-on-etrade-with-50-basis-point-fee-bloomberg",
+    "category": "global_banks",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Poonam Gupta: Inflation targeting in India - the past, the present and the future",
+    "description": "Speech by Dr Poonam Gupta, Deputy Governor of the Reserve Bank of India, at Joint Seminar and Discussion \"India's inflation targeting framework' and 'regional economic outlook for Asia and Pacific\", National Council of Applied Economic Research (NCAER), New Delhi, 5 May 2026.",
+    "date": "2026-05-06",
+    "source_url": "https://www.bis.org/review/r260506b.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Michelle W Bowman: A coordinated approach to consumer fraud protection",
+    "description": "Speech by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the 2026 Women in Housing and Finance Symposium, Washington DC, 5 May 2026.",
+    "date": "2026-05-06",
+    "source_url": "https://www.bis.org/review/r260506a.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Abdul Rasheed Ghaffour: Defining moments - shaping the future story",
+    "description": "Keynote speech by Mr Abdul Rasheed Ghaffour, Governor of the Central Bank of Malaysia (Bank Negara Malaysia), at MO·MENTS 2026, Kuala Lumpur, 29 April 2026.",
+    "date": "2026-05-06",
+    "source_url": "https://www.bis.org/review/r260504a.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Ida Wolden Bache: Norges Bank's management of the Government Pension Fund Global",
+    "description": "Introductory statement by Ida Wolden Bache, Governor of Norges Bank (Central Bank of Norway), at the hearing of the Standing Committee on Finance and Economic Affairs of the Storting (Norwegian parliament) on the management of the Government Pension Fund Global, Oslo, 5 May 2025.",
+    "date": "2026-05-06",
+    "source_url": "https://www.bis.org/review/r260505l.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "ECB (European Central Bank)",
+    "initiative": "Luis de Guindos: Presentation of the European Central Bank Annual Report 2025 to the Committee on Economic and Monetary Affairs of the European Parliament",
+    "description": "Introductory remarks by Mr Luis de Guindos, Vice-President of the European Central Bank, to the Committee on Economic and Monetary Affairs of the European Parliament, Brussels, 4 May 2026.",
+    "date": "2026-05-06",
+    "source_url": "https://www.bis.org/review/r260505b.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "NYSE tokenization partners warn synthetic stock tokens could mislead retail traders",
+    "description": "Offshore synthetic tokens may not represent the underlying equity, use company names without approval, and exploit regulatory arbitrage.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/business/2026/05/06/nyse-tokenization-partners-warn-synthetic-stock-tokens-could-mislead-retail-traders",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "‘Clarity Act will pass this summer’: Coinbase CLO Grewal backs stablecoin compromise, urges banks to accept deal",
+    "description": "Coinbase CLO Paul Grewal says the Clarity Act will pass this summer, backing the Tillis-Alsobrooks stablecoin compromise.",
+    "date": "2026-05-06",
+    "source_url": "https://www.theblock.co/post/400230/clarity-act-will-pass-this-summer-coinbase-clo-grewal-backs-stablecoin-compromise-urges-banks-to-accept-deal",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "ESMA (European Securities and Markets Authority)",
+    "initiative": "ESMA promotes proportionate supervision of MiFID II sustainability requirements",
+    "description": "ESMA promotes proportionate supervision of MiFID II sustainability requirements 06 May 2026 Investor protection The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has issued a statement presenting the results of its Common Supervisory Action (CSA) on how sustainability is integrated into firms’ suitability assessment as well as into processes and procedures for",
+    "date": "2026-05-06",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-promotes-proportionate-supervision-mifid-ii-sustainability-requirements",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "DLT collateral mobility platform HQLAᵡ gets SEC no action letter for US activity",
+    "description": "HQLAᵡ, the DLT collateral mobility platform, can operate in the US under a no action letter received from the Securities and Exchange Commission (SEC). Eurex Clearing recently leveraged the platform to accept DLT-based collateral for margin purposes, one of the first instances worldwide at a traditional regulated venue. The key benefit is enabling instant transfer",
+    "date": "2026-05-06",
+    "source_url": "https://www.ledgerinsights.com/dlt-collateral-mobility-platform-hqla%e1%b5%a1-gets-sec-no-action-letter-for-us-activity/",
+    "category": "regulators",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "21Shares lists Strategy-linked STRC ETN on London Stock Exchange, expands UK footprint",
+    "description": "21Shares listed a Strategy-linked ETN on the LSE offering UK investors access to Strategy perpetual preferred stock for the first time.",
+    "date": "2026-05-06",
+    "source_url": "https://www.theblock.co/post/400207/21shares-lists-strategy-linked-strc-etn-london-stock-exchange-expands-uk-footprint",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Morgan Stanley",
+    "initiative": "Morgan Stanley brings crypto trading with lower fees than rivals",
+    "description": "The bank is rolling out crypto trading on E*Trade with lower fees than Coinbase, Robinhood and Schwab, according to Bloomberg.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/markets/2026/05/06/morgan-stanley-brings-crypto-trading-with-lower-fees-than-rivals",
+    "category": "global_banks",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "Blockchain.com launches SnapMarkets as prediction markets move into faster crypto bets",
+    "description": "The launch occurs as prediction markets surge, facing regulatory conflicts between the pro-market CFTC and challenging state gambling authorities.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/business/2026/05/06/blockchain-com-launches-snapmarkets-as-prediction-markets-move-into-faster-crypto-bets",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "From 'what' to 'how': Robinhood and Bitstamp say banks are ready to build on-chain",
+    "description": "Executives from Ondo, Robinhood and Babylon Labs said at Consensus Miami 2026 that banks and traditional finance firms are embracing crypto infrastructure, though institutional adoption remains constrained.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/business/2026/05/06/wall-street-is-finally-coming-to-crypto-but-on-its-own-terms",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Banks reject US stablecoin compromise, public shrugs at crypto",
+    "description": "Crypto firms are pushing a stablecoin compromise to revive stalled U.S. legislation, but banks resist, while the public remains indifferent.",
+    "date": "2026-05-06",
+    "source_url": "https://coingeek.com/banks-reject-us-stablecoin-compromise-public-shrugs-at-crypto/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "RootData maps 30 Hyperliquid Web3 partners as it builds an on-chain liquidity OS",
+    "description": "RootData’s new map shows 30 core Web3 partners plugging custody, trading, wallets, and infra into Hyperliquid’s L1 as it pushes toward an on-chain liquidity OS. RootData’s latest ecosystem map shows Hyperliquid positioning itself as a performant L1 “optimized from the ground up”…",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/rootdata-maps-30-hyperliquid-web3-partners-as-it-builds-an-on-chain-liquidity-os/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Monetary policy transmission to exchange rates: the role of currency carry trades",
+    "description": "by Ryan Niladri Banerjee, Lena Boneva, Gabor Pinter, Vladyslav Sushko",
+    "date": "2026-05-06",
+    "source_url": "https://www.bis.org/publ/bisbull124.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "Bitcoin approaches $82,000 as oil crashes 6% on fresh Iran peace deal hopes",
+    "description": "Bitcoin climbed toward $82,000 alongside a more than 1% rise in Nasdaq futures amid reports of progress toward a U.S.–Iran memorandum of understanding.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/markets/2026/05/06/bitcoin-nasdaq-futures-rally-as-oil-crashes-6-on-iran-peace-deal-hopes",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Anchorage Digital",
+    "initiative": "Anchorage Digital launches AI banking for autonomous payments",
+    "description": "Crypto bank Anchorage Digital has introduced an agentic banking service that allows AI systems to access and move funds across traditional and crypto payment rails without human intervention. According to Anchorage Digital co-founder and CEO Nathan McCauley, the new infrastructure…",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/anchorage-digital-launches-ai-banking-for-autonomous-payments/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Crypto custodian Taurus moves straight into EU capital markets with MiFID license in Cyprus",
+    "description": "The license allows the firm to offer tokenized financial instruments to EU banks as well as secondary trading for tokenized bonds, fund shares, equities, and structured products.",
+    "date": "2026-05-06",
+    "source_url": "https://www.coindesk.com/policy/2026/05/06/crypto-custody-firm-taurus-granted-mifid-license-in-cyprus",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainlink",
+    "initiative": "Kelp DAO Claims LayerZero Approved the Setup It Blamed for $292 Million Hack, Migrates to Chainlink",
+    "description": "Kelp DAO says LayerZero reviewed its single-verifier bridge configuration for over two years without raising security concerns, then blamed Kelp after the $292 million exploit. Kelp is now migrating rsETH to Chainlink CCIP.",
+    "date": "2026-05-06",
+    "source_url": "https://unchainedcrypto.com/kelp-dao-claims-layerzero-approved-the-setup-it-blamed-for-292-million-hack-migrates-to-chainlink/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Kraken Partners With MoneyGram for Global Crypto-to-Cash Withdrawals, Says IPO Is “80% Ready”",
+    "description": "Kraken's MoneyGram partnership brings crypto-to-cash withdrawals to 500,000 locations in 100+ countries, while co-CEO Arjun Sethi signals the exchange is nearly ready to go public.",
+    "date": "2026-05-06",
+    "source_url": "https://unchainedcrypto.com/kraken-partners-with-moneygram-for-global-crypto-to-cash-withdrawals-says-ipo-is-80-ready/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase Cuts 700 Jobs and Restructures Around AI as Crypto Downturn Deepens",
+    "description": "Coinbase is laying off 14% of its workforce and rebuilding around AI-native teams as revenue declines and CEO Brian Armstrong pushes to flatten the company's management structure.",
+    "date": "2026-05-06",
+    "source_url": "https://unchainedcrypto.com/coinbase-cuts-700-jobs-and-restructures-around-ai-as-crypto-downturn-deepens/",
+    "category": "exchanges_intermediaries",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Google Cloud",
+    "initiative": "Stablecoins enter AI payments as Solana and Google launch Pay.sh",
+    "description": "Solana and Google Cloud launched Pay.sh, letting AI agents pay for Google Cloud and other APIs using stablecoins on Solana.",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/stablecoins-enter-ai-payments-as-solana-and-google-launch-pay-sh/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "CFTC may lock in Phantom-style crypto wallet protections",
+    "description": "CFTC Chair Michael Selig says the agency may codify Phantom-style protections for non-custodial crypto software developers.",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/cftc-may-lock-in-phantom-style-crypto-wallet-protections/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "FSB",
+    "initiative": "Report on Vulnerabilities in Private Credit",
+    "description": "Private credit has expanded rapidly to an estimated $1.5–2 trillion in assets, supporting financing for mid-sized companies but creating potential financial stability risks",
+    "date": "2026-05-06",
+    "source_url": "https://www.fsb.org/2026/05/report-on-vulnerabilities-in-private-credit/",
+    "category": "regulators",
+    "source_name": "FSB — Publications",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "UK sets new rules for fund tokenization under current regulations",
+    "description": "U.K.'s FCA approves new rules for tokenized funds, simplifying tokenization and enhancing the asset management sector's growth and innovation.",
+    "date": "2026-05-06",
+    "source_url": "https://coingeek.com/uk-sets-new-rules-for-fund-tokenization-under-current-regulations/",
+    "category": "regulators",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase sued by anonymous whale over frozen DAI from $55M scam",
+    "description": "A crypto whale sued Coinbase, claiming it froze DAI tied to a 2024 phishing theft but refused to return traceable funds in U.S. court case.",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/coinbase-sued-by-anonymous-whale-over-frozen-dai-from-55m-scam/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Ripple",
+    "initiative": "Ripple CEO Brad Garlinghouse says CLARITY Act could stall before midterms",
+    "description": "According to Brad Garlinghouse, the next two weeks will determine whether the digital asset market structure bill… Brad Garlinghouse has warned that recent Senate progress on the CLARITY Act still leaves a narrow window for the bill to move forward. Ripple CEO Brad Garlinghouse says CLARITY Act could stall before midterms",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/ripple-ceo-brad-garlinghouse-says-clarity-act-could-stall-before-midterms/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Tennessee bankers pick Stablecore as digital asset push grows",
+    "description": "Tennessee Bankers Association picked Stablecore to help member banks offer stablecoins, tokenized deposits and crypto-backed lending tools.",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/tennessee-bankers-pick-stablecore-as-digital-asset-push-grows/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Cybersecurity strains grow as AI challenges Australian banks",
+    "description": "Australia’s banks urged to upgrade cybersecurity as AI threats evolve fast, with APRA flagging gaps in current safeguards and rising systemic risk.",
+    "date": "2026-05-06",
+    "source_url": "https://coingeek.com/cybersecurity-strains-grow-as-ai-challenges-australian-banks/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "PayPal",
+    "initiative": "PayPal Plans Job Cuts",
+    "description": "Hey Payments Fanatic! PayPal is planning to cut costs and jobs as new CEO Enrique Lores faces mounting pressure to turn around a company that has struggled against fierce competition, most notably from Stripe. PayPal isn't alone. Across the FinTech space, layoffs have been picking up pace",
+    "date": "2026-05-06",
+    "source_url": "https://www.connectingthedotsinpayments.com/paypal-plans-job-cuts/",
+    "category": "payments",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Crypto whale sues Coinbase for allegedly refusing to return stolen DAI",
+    "description": "The plaintiff fell victim to a phishing scam that drained his DAI holdings, with part of the funds later traced to a Coinbase user account.",
+    "date": "2026-05-06",
+    "source_url": "https://www.theblock.co/post/400152/crypto-whale-sues-coinbase",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainlink",
+    "initiative": "Kelp DAO moves rsETH to Chainlink CCIP as LayerZero dispute grows",
+    "description": "Kelp DAO will move rsETH to Chainlink CCIP after a $292M bridge hack, as LayerZero rejects blame and Aave fights frozen ETH claims.",
+    "date": "2026-05-06",
+    "source_url": "https://crypto.news/kelp-dao-moves-rseth-to-chainlink-ccip-as-layerzero-dispute-grows/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Consensys",
     "initiative": "The world's entire economy will be tokenized, says Consensys’ Joseph Lubin",
     "description": "The Consensys CEO and founder said tokenization can be traced back to Ethereum, the blockchain he helped co-found.",
@@ -6723,6 +7668,42 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
+    "year": "2026"
+  },
+  {
+    "institution": "Mastercard",
+    "initiative": "Competition Act 1998 investigations",
+    "description": "Further detail on the FCA’s procedures in CA98 cases is available in our CA98 guidance.Competition Act 1998 cases may also be brought by the Competition and Markets Authority.The FCA is currently gathering evidence. Following the publication of financial reporting by PayPal Holdings Inc, we can confirm we are investigating Mastercard, PayPal and Visa under Chapter I in the Competition Act 1998, and Mastercard and",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/press-releases/competition-act-1998-investigations",
+    "category": "payments",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "FCA to review claims management practices",
+    "description": "We are launching a review of the claims management market, following concerns that consumers are being failed by some claims management companies (CMCs) and law firms. Formal investigations are also under way, with 1 announced by the FCA.The SRA regulates around 9,000 law firms in England and Wales.",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/statements/fca-review-claims-management-practices",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
