@@ -632,15 +632,18 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.fillStyle = '#8f9aaa';
     ctx.font = `500 12px ${_scFont}`;
     const bylineW = ctx.measureText(rightByline).width;
-    const logoH = 18;
+    const bylineMetrics = ctx.measureText(rightByline);
+    const bylineH = Math.max(11, Math.round((bylineMetrics.actualBoundingBoxAscent || 9) + (bylineMetrics.actualBoundingBoxDescent || 3)));
+    const logoH = 20;
     const naturalRatio = _scNextFiLogoReady && _scNextFiLogo.height ? (_scNextFiLogo.width / _scNextFiLogo.height) : 4.9;
     const logoW = Math.max(82, Math.min(128, Math.round(logoH * naturalRatio)));
-    const lockGap = 10;
+    const lockGap = 8;
     const lockupW = bylineW + lockGap + logoW;
     const lockupX = W - PAD - lockupW;
-    const lockupY = 21;
+    const lockupY = 20;
     ctx.textAlign = 'left';
-    ctx.fillText(rightByline, lockupX, lockupY + 1);
+    const bylineY = lockupY + Math.round((logoH - bylineH) / 2) - 1;
+    ctx.fillText(rightByline, lockupX, bylineY);
     const logoX = lockupX + bylineW + lockGap;
     const logoY = lockupY;
     if (_scNextFiLogoReady) {
