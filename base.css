@@ -1,4 +1,6 @@
-/* base.css */
+/* ========================================================================
+   base.css — reset + element defaults
+   ======================================================================== */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 html {
@@ -15,22 +17,26 @@ html {
 
 body {
   min-height: 100dvh;
-  line-height: 1.6;
+  line-height: 1.55;
   font-family: var(--font-body, sans-serif);
   font-size: var(--text-base);
   color: var(--color-text);
   background-color: var(--color-bg);
+  font-feature-settings: 'ss01', 'cv01';
 }
 
 img, picture, video, canvas, svg { display: block; max-width: 100%; height: auto; }
 ul[role="list"], ol[role="list"] { list-style: none; }
 input, button, textarea, select { font: inherit; color: inherit; }
 
-h1, h2, h3, h4, h5, h6 { text-wrap: balance; line-height: 1.15; }
+h1, h2, h3, h4, h5, h6 { text-wrap: balance; line-height: 1.12; letter-spacing: -0.015em; }
 p, li, figcaption { text-wrap: pretty; max-width: 72ch; }
 
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
+a:hover { color: var(--color-primary); }
+
 ::selection {
-  background: oklch(from var(--color-primary) l c h / 0.25);
+  background: oklch(from var(--color-primary) l c h / 0.30);
   color: var(--color-text);
 }
 
@@ -49,17 +55,22 @@ p, li, figcaption { text-wrap: pretty; max-width: 72ch; }
   }
 }
 
-button { cursor: pointer; background: none; border: none; }
+button { cursor: pointer; background: none; border: none; color: inherit; }
 table { border-collapse: collapse; width: 100%; }
 
 a, button, [role="button"], [role="link"], input, textarea, select {
-  transition: color var(--transition-interactive),
-              background var(--transition-interactive),
-              border-color var(--transition-interactive),
-              box-shadow var(--transition-interactive);
+  transition:
+    color var(--transition-base),
+    background var(--transition-base),
+    border-color var(--transition-base),
+    box-shadow var(--transition-base),
+    transform var(--transition-base);
 }
 
 .sr-only {
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
   overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0;
 }
+
+.tabular-nums { font-variant-numeric: tabular-nums; }
+.mono { font-family: var(--font-mono); }

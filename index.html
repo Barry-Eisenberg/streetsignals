@@ -1,610 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!--
-   ______                            __
-  / ____/___  ____ ___  ____  __  __/ /____  _____
- / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
-/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
-\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
-                    /_/
-        SftS signals Dashboard
-        https://streetsignals.nextfiadvisors.com
--->
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Signals from the Street — DLT &amp; Digital Asset Intelligence</title>
-<meta name="description" content="Tracking how global financial institutions are moving toward blockchain-based infrastructure for digital asset transactions, tokenized securities, and stablecoins.">
+<title>Signals from the Street — Institutional Digital Asset Intelligence</title>
+<meta name="description" content="Filtering institutional digital-asset signals into the few moves that actually shape market structure. Decision Playbooks for tokenized funds, stablecoins, and DLT-based market infrastructure.">
+<meta name="theme-color" content="#07090f">
 <link rel="icon" type="image/png" href="./assets/nextfi-monogram-navy.png">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://api.fontshare.com; font-src 'self' data: https://cdn.fontshare.com; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com https://www.google.com https://stats.g.doubleclick.net; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
-<meta name="referrer" content="strict-origin-when-cross-origin">
-<meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), browsing-topics=()">
 
-<link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
-<script src="./assets/vendor/chart.umd.min.js"></script>
+<!-- Fonts -->
+<link rel="preconnect" href="https://api.fontshare.com">
+<link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&f[]=satoshi@300,400,500,700&f[]=jetbrains-mono@400,500&display=swap" rel="stylesheet">
 
-<!-- Google Analytics 4 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZT8E19LD8N"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-ZT8E19LD8N', {'anonymize_ip': true});
-  window.trackEvent = function(eventName, eventParams) {
-    gtag('event', eventName, eventParams);
-  };
-</script>
-
-<link rel="stylesheet" href="./base.css">
-<link rel="stylesheet" href="./style.css">
+<!-- Stylesheets -->
+<link rel="stylesheet" href="./css/tokens.css?v=4">
+<link rel="stylesheet" href="./base.css?v=4">
+<link rel="stylesheet" href="./css/app.css?v=4">
 </head>
 <body>
 
-<!-- HEADER -->
-<header class="header" id="header">
-  <div class="header-inner">
-    <div class="header-brand">
-      <a href="#" class="logo">
-        <svg class="logo-icon" viewBox="0 0 36 36" fill="none" aria-label="Signals from the Street logo">
-          <rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="1.5" fill="none"/>
-          <path d="M10 24V18" stroke="var(--color-banks)" stroke-width="2.5" stroke-linecap="round"/>
-          <path d="M15 24V14" stroke="var(--color-asset-mgmt)" stroke-width="2.5" stroke-linecap="round"/>
-          <path d="M20 24V16" stroke="var(--color-payments)" stroke-width="2.5" stroke-linecap="round"/>
-          <path d="M25 24V10" stroke="var(--color-exchanges)" stroke-width="2.5" stroke-linecap="round"/>
-          <circle cx="10" cy="18" r="2" fill="var(--color-banks)"/>
-          <circle cx="15" cy="14" r="2" fill="var(--color-asset-mgmt)"/>
-          <circle cx="20" cy="16" r="2" fill="var(--color-payments)"/>
-          <circle cx="25" cy="10" r="2" fill="var(--color-exchanges)"/>
-        </svg>
-        <div class="logo-text">Signals <span>from the Street</span></div>
-      </a>
-      <span class="header-divider"></span>
-      <a href="https://nextfiadvisors.com" target="_blank" rel="noopener noreferrer" class="header-nextfi">
-        <span class="header-nextfi-label">Market Intelligence by</span>
-        <img src="./nextfi-logo.png" alt="NextFi Advisors" class="header-nextfi-logo">
-      </a>
-    </div>
-    <div class="header-right">
-      <nav class="header-nav" id="headerNav">
-        <a href="/" class="nav-active">Signals</a>
-        <a href="/decision-playbooks/">Decision Playbooks</a>
-        <a href="/institutional-radar/">Positioning Radar</a>
-        <a href="https://nextfiadvisors.com/contact" target="_blank" rel="noopener noreferrer">Work with NextFi</a>
-      </nav>
-      <button class="theme-toggle" data-theme-toggle aria-label="Switch theme">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
-      </button>
-      <button class="mobile-menu-btn" aria-label="Toggle menu" id="mobileMenuBtn">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+<a href="#main" class="sr-only">Skip to main content</a>
+
+<header class="app-header">
+  <div class="app-header-inner">
+    <a href="#/" class="brand" aria-label="Signals from the Street home">
+      <svg class="brand-mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <rect x="1.5" y="1.5" width="29" height="29" rx="6.5" stroke="currentColor" stroke-width="1.4" fill="none" opacity="0.6"/>
+        <path d="M8 22V17"  stroke="var(--color-cat-banks)"     stroke-width="2.4" stroke-linecap="round"/>
+        <path d="M13 22V13" stroke="var(--color-cat-asset)"     stroke-width="2.4" stroke-linecap="round"/>
+        <path d="M18 22V15" stroke="var(--color-cat-payments)"  stroke-width="2.4" stroke-linecap="round"/>
+        <path d="M23 22V9"  stroke="var(--color-cat-exchanges)" stroke-width="2.4" stroke-linecap="round"/>
+        <circle cx="8"  cy="17" r="1.8" fill="var(--color-cat-banks)"/>
+        <circle cx="13" cy="13" r="1.8" fill="var(--color-cat-asset)"/>
+        <circle cx="18" cy="15" r="1.8" fill="var(--color-cat-payments)"/>
+        <circle cx="23" cy="9"  r="1.8" fill="var(--color-cat-exchanges)"/>
+      </svg>
+      <div class="brand-text">Signals <span>from the Street</span></div>
+    </a>
+    <span class="brand-divider" aria-hidden="true"></span>
+    <a class="brand-by" href="https://nextfiadvisors.com" target="_blank" rel="noopener noreferrer">
+      <span>Market intelligence by</span>
+      <img class="brand-by-logo" src="./nextfi-logo.png" alt="NextFi Advisors" onerror="this.style.display='none';">
+    </a>
+
+    <nav class="app-nav" id="appNav" aria-label="Primary">
+      <a class="nav-link" href="#/">Hub</a>
+      <a class="nav-link" href="#/signals">Signals</a>
+      <a class="nav-link" href="#/playbooks">Playbooks</a>
+      <a class="nav-link" href="#/radar">Radar</a>
+      <a class="nav-link" href="#/methodology">Methodology</a>
+      <a class="nav-link" href="https://nextfiadvisors.com/contact" target="_blank" rel="noopener noreferrer">Work with NextFi</a>
+    </nav>
+
+    <div class="header-tools">
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle color theme" type="button"></button>
+      <button class="icon-btn mobile-toggle" id="mobileMenuToggle" aria-label="Toggle navigation" type="button">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
       </button>
     </div>
   </div>
 </header>
 
-<!-- HERO (compact) -->
-<section class="hero">
-  <div class="container">
-    <div class="hero-content reveal">
-      <div class="hero-badge"><span class="pulse"></span> Live Intelligence Feed</div>
-      <h1>The Institutional Migration to <span class="accent">Blockchain Infrastructure</span></h1>
-      <p class="hero-description">Filtering the noise so you can see how the world's leading financial institutions, exchanges, central intermediaries, and regulators are building and using the next generation of financial markets infrastructure.</p>
+<main id="main">
+  <div id="routeRoot">
+    <!-- Initial skeleton while data loads -->
+    <div class="container container--wide" style="padding: var(--space-12) 0;">
+      <div class="skeleton" style="height: 48px; width: 60%; margin-bottom: var(--space-4);"></div>
+      <div class="skeleton" style="height: 24px; width: 80%; margin-bottom: var(--space-3);"></div>
+      <div class="skeleton" style="height: 24px; width: 45%; margin-bottom: var(--space-8);"></div>
+      <div class="skel-row"></div>
+      <div class="skel-row"></div>
+      <div class="skel-row"></div>
     </div>
   </div>
-</section>
+</main>
 
-<!-- KPI STRIP -->
-<div class="container" style="display:none;">
-  <div class="kpi-strip reveal" id="kpiStrip"></div>
-  <div class="kpi-breakdown-panel" id="kpiBreakdown" style="display:none;"></div>
-</div>
-
-<!-- PRIORITY SIGNALS -->
-<div class="container">
-  <div id="prioritySignalsStrip"></div>
-  <div class="data-freshness-stamp" id="dataFreshnessStamp">Loading data refresh status...</div>
-  <div class="signal-detail-panel" id="signalDetailPanel" style="display:none;"></div>
-</div>
-
-<!-- PERSONA SELECTOR -->
-<div class="persona-selector-section">
-  <div class="container">
-    <span class="persona-selector-label">View signals from the perspective of:</span>
-    <div class="persona-selector-global" id="personaSelectorGlobal">
-      <button class="persona-btn active" data-persona="all">All roles</button>
-      <button class="persona-btn" data-persona="treasury_payments">Fintech Product &amp; Strategy</button>
-      <button class="persona-btn" data-persona="collateral_markets">Asset Managers / Institutional Investors</button>
-      <button class="persona-btn" data-persona="infra_product">Banks &amp; FMIs / Operations &amp; Infra</button>
-      <button class="persona-btn" data-persona="risk_compliance">Policy / Risk / Regulatory</button>
-    </div>
-
-    <div class="global-institution-filters">
-      <div class="filter-pills-label">Institution Category</div>
-      <div class="filter-pills" id="filterPills"></div>
-    </div>
-
-    <div class="global-dropdown-row">
-      <div class="signal-type-filter global-dropdown-filter">
-        <label for="globalDateFilterSelect">Date window</label>
-        <select id="globalDateFilterSelect" class="global-date-filter-select">
-          <option value="14" selected>Last 14 days</option>
-          <option value="30">Last 30 days</option>
-          <option value="60">Last 60 days</option>
-          <option value="90">Last 90 days</option>
-          <option value="all">All historical</option>
-        </select>
-      </div>
-      <div class="signal-type-filter global-dropdown-filter">
-        <label for="countrySelect">Country</label>
-        <select id="countrySelect">
-          <option value="">All Countries</option>
-        </select>
-      </div>
-    </div>
-
-    <div class="signals-playbook-strip">
-      <a href="/decision-playbooks/">Use Decision Playbooks to turn Signals into strategic options. Explore playbooks →</a>
-    </div>
-  </div>
-</div>
-
-<!-- SIGNAL LIBRARY (Appendix — collapsible) -->
-<section class="signal-library-section" id="signal-library">
-  <div class="container">
-    <div class="library-header reveal" id="libraryToggle">
-      <div class="library-header-left">
-        <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-        <div>
-          <h2 class="section-title">Signal Catalogue</h2>
-          <p class="section-subtitle">Browse operational signals by institution category, plus a separate section of NextFi's own market research and intelligence briefs.</p>
-        </div>
-      </div>
-      <div class="library-header-right">
-        <span class="library-expand-hint" id="libraryHint">Click to expand</span>
-        <svg class="library-chevron" id="libraryChevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-      </div>
-    </div>
-
-    <div class="library-body" id="libraryBody" style="display:none;">
-      <div class="reset-filters-bar" id="resetLibraryFilters" data-reset-all-filters="true">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
-        <span>Reset all filters</span>
-      </div>
-      <div class="controls" id="controls">
-        <div class="filter-pills-wrap">
-          <div class="catalogue-sort-note" id="catalogueSortNote">Default catalogue sort order: most recent date first, then signal strength (importance score).</div>
-          <details class="catalogue-scoring-help">
-            <summary>How momentum and rank scoring works</summary>
-            <p>Momentum compares the last 45 days of related signals with the prior 45-day window. Initiative and segment rank show which themes and institution categories have the highest cumulative importance in the current filtered view. Importance now uses weekly recency buckets with durability floors for structurally meaningful signals. When you choose a "For Whom" lens, the catalogue re-ranks by weighted relevance using use-case match, keyword fit, audience fit, and freshness.</p>
-            <p class="catalogue-scoring-legend"><strong>Debug key:</strong> <span class="scoring-key scoring-key-neutral">u</span>=use case, <span class="scoring-key scoring-key-pos">p</span>=primary keyword hits, <span class="scoring-key scoring-key-pos">s</span>=secondary hits, <span class="scoring-key scoring-key-pos">a</span>=audience hints, <span class="scoring-key scoring-key-neutral">r</span>=recency weight, <span class="scoring-key scoring-key-pos">u+</span>=use-case boost, <span class="scoring-key scoring-key-pos">i+</span>=importance boost, <span class="scoring-key scoring-key-neg">x-</span>=anti-signal penalty, <span class="scoring-key scoring-key-score">score</span>=final weighted relevance.</p>
-          </details>
-        </div>
-      </div>
-
-      <div class="signals-playbook-banner" id="signalsPlaybookBanner" style="display:none;"></div>
-      <div class="matrix-filter-chip" id="matrixFilterChip" style="display:none;">
-        <span class="matrix-filter-chip-label" id="matrixFilterChipLabel"></span>
-        <button type="button" class="matrix-filter-chip-clear" data-clear-matrix-filter="true">Clear</button>
-      </div>
-
-      <div id="signalSections"></div>
-
-      <div class="no-results" id="noResults" style="display: none;">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-        <h3>No signals found</h3>
-        <p>Try adjusting your search or filter criteria.</p>
-      </div>
-
-      <section class="personal-section intel-section" id="intelligence">
-        <div class="intel-toggle" data-intel-toggle="true">
-          <div class="personal-header">
-            <div class="personal-avatar"><img src="./assets/nextfi-monogram-navy.png" alt="NextFi Advisors monogram"></div>
-            <div class="personal-info">
-              <h2>NextFi Intelligence Briefs</h2>
-              <p>Research and analysis from Barry Eisenberg &mdash; NextFi Advisors</p>
-              <div class="personal-links">
-                <a href="https://www.linkedin.com/in/barry-eisenberg/" target="_blank" rel="noopener noreferrer">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.47 2H3.53a1.45 1.45 0 0 0-1.47 1.43v17.14A1.45 1.45 0 0 0 3.53 22h16.94a1.45 1.45 0 0 0 1.47-1.43V3.43A1.45 1.45 0 0 0 20.47 2ZM8.09 18.74h-3v-9h3ZM6.59 8.48a1.56 1.56 0 1 1 0-3.12 1.56 1.56 0 1 1 0 3.12Zm12.32 10.26h-3v-4.83c0-1.21-.43-2-1.52-2A1.65 1.65 0 0 0 12.85 13a2 2 0 0 0-.1.73v5h-3v-9h3V11a3 3 0 0 1 2.71-1.5c2 0 3.45 1.29 3.45 4.06Z"/></svg>
-                  LinkedIn
-                </a>
-                <a href="https://nextfiadvisors.com/intelligence" target="_blank" rel="noopener noreferrer">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                  NextFi Advisors
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="intel-toggle-right">
-            <span class="intel-brief-count" id="intelBriefCount">11 briefs</span>
-            <svg class="intel-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-          </div>
-        </div>
-        <div class="intel-body" id="intelBody" style="display:none;">
-          <div class="intel-briefs" id="intelBriefs"></div>
-        </div>
-      </section>
-    </div>
-  </div>
-</section>
-
-<!-- INSTITUTION DIRECTORY -->
-<section class="directory-section collapsible-section" id="directory">
-  <div class="container">
-    <div class="library-header reveal" id="directoryToggle">
-      <div class="library-header-left">
-        <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 7h18"/><path d="M3 12h18"/><path d="M3 17h18"/><circle cx="8" cy="7" r="1.5"/><circle cx="14" cy="12" r="1.5"/><circle cx="10" cy="17" r="1.5"/></svg>
-        <div>
-          <h2 class="section-title">Institutional Initiative Directory</h2>
-          <p class="section-subtitle">Every named institution and its digital asset initiatives — organized by sector, quantified across all dimensions</p>
-        </div>
-      </div>
-      <div class="library-header-right">
-        <span class="library-expand-hint">Click to expand</span>
-        <svg class="library-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-      </div>
-    </div>
-
-    <div class="library-body" id="directoryBody" style="display:none;">
-    <div class="reset-filters-bar" id="resetDirectoryFilters" data-reset-all-filters="true">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
-      <span>Reset all filters</span>
-    </div>
-    <div class="directory-controls reveal">
-      <div class="directory-search-box">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-        <input type="text" id="directorySearch" placeholder="Filter institutions...">
-      </div>
-      <div class="directory-sort">
-        <label>Sort by</label>
-        <select id="directorySort">
-          <option value="signals">Signal Count</option>
-          <option value="strength">Signal Strength</option>
-          <option value="name">Name (A→Z)</option>
-        </select>
-      </div>
-      <div class="directory-country">
-        <label>Country</label>
-        <select id="directoryCountry">
-          <option value="">All Countries</option>
-        </select>
-      </div>
-    </div>
-    <div id="directoryContainer" class="reveal"></div>
-    </div>
-  </div>
-</section>
-
-<!-- COUNTRY DIRECTORY -->
-<section class="directory-section collapsible-section" id="country-directory">
-  <div class="container">
-    <div class="library-header reveal" id="countryDirectoryToggle">
-      <div class="library-header-left">
-        <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20"/><path d="M2 12h20"/><path d="M4.9 4.9a12 12 0 0 0 0 14.2"/><path d="M19.1 4.9a12 12 0 0 1 0 14.2"/></svg>
-        <div>
-          <h2 class="section-title">Country Directory</h2>
-          <p class="section-subtitle">A country-first view of institutional digital asset activity with the same searchable, sortable breakdown used in the institutional directory.</p>
-        </div>
-      </div>
-      <div class="library-header-right">
-        <span class="library-expand-hint">Click to expand</span>
-        <svg class="library-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-      </div>
-    </div>
-
-    <div class="library-body" id="countryDirectoryBody" style="display:none;">
-      <div class="reset-filters-bar" id="resetCountryDirectoryFilters" data-reset-all-filters="true">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
-        <span>Reset all filters</span>
-      </div>
-      <div class="directory-controls reveal">
-        <div class="directory-search-box">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-          <input type="text" id="countryDirectorySearch" placeholder="Filter institutions...">
-        </div>
-        <div class="directory-sort">
-          <label>Sort by</label>
-          <select id="countryDirectorySort">
-            <option value="signals">Signal Count</option>
-            <option value="strength">Signal Strength</option>
-            <option value="name">Name (A→Z)</option>
-          </select>
-        </div>
-        <div class="directory-country">
-          <label>Institution Type</label>
-          <select id="countryDirectoryType">
-            <option value="">All Institution Types</option>
-            <option value="Global Banks">Global Banks</option>
-            <option value="Asset &amp; Investment Management">Asset &amp; Investment Management</option>
-            <option value="Payments Providers">Payments Providers</option>
-            <option value="Exchanges &amp; Central Intermediaries">Exchanges &amp; Central Intermediaries</option>
-            <option value="Regulatory Agencies">Regulatory Agencies</option>
-            <option value="Infrastructure &amp; Technology">Infrastructure &amp; Technology</option>
-          </select>
-        </div>
-      </div>
-      <div id="countryDirectoryContainer" class="reveal"></div>
-    </div>
-  </div>
-</section>
-
-<!-- SIGNAL STRENGTH (Collapsible) -->
-<section class="analytics-section collapsible-section" id="signal-strength">
-  <div class="container">
-    <div class="library-header reveal" id="signalStrengthToggle">
-      <div class="library-header-left">
-        <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="4"/><path d="M8 16V10"/><path d="M12 16V8"/><path d="M16 16V12"/></svg>
-        <div>
-          <h2 class="section-title">Signal Intelligence</h2>
-          <p class="section-subtitle">A consolidated view of sector activity, signal intensity, and source coverage across institutional segments.</p>
-        </div>
-      </div>
-      <div class="library-header-right">
-        <span class="library-expand-hint">Click to expand</span>
-        <svg class="library-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-      </div>
-    </div>
-
-    <div class="library-body" id="signalStrengthBody" style="display:none;">
-      <div class="signal-matrix-section">
-        <div class="chart-row chart-row-single reveal">
-          <div class="chart-card">
-            <div class="signal-strength-matrix-header">
-              <div class="signal-matrix-copy">
-                <h3 class="signal-matrix-title">Signal Matrix</h3>
-                <p class="matrix-lead">Compare initiative and FMI area activity by institution type. Switch between weighted strength and raw count, then click any cell to inspect the underlying scorecard.</p>
-              </div>
-              <div class="signal-strength-controls">
-                <div class="signal-strength-control-group" aria-label="Signal matrix dimension">
-                  <button type="button" id="signalDimInitiativeBtn" class="signal-strength-control is-active">Initiatives</button>
-                  <button type="button" id="signalDimFmiBtn" class="signal-strength-control">FMI Areas</button>
-                </div>
-                <div class="signal-strength-control-group" aria-label="Signal matrix metric mode">
-                  <button type="button" id="signalMetricCountBtn" class="signal-strength-control is-active">Raw Count</button>
-                  <button type="button" id="signalMetricStrengthBtn" class="signal-strength-control">Strength</button>
-                </div>
-                <div class="signal-strength-control-group" aria-label="Signal matrix color mode">
-                  <button type="button" id="signalColorAbsoluteBtn" class="signal-strength-control is-active">Absolute</button>
-                  <button type="button" id="signalColorPercentileBtn" class="signal-strength-control">Percentile</button>
-                </div>
-                <button type="button" id="signalScoringClearFilterBtn" class="signal-strength-control signal-scoring-clear">Clear Filters</button>
-              </div>
-            </div>
-            <div class="matrix-filter-chip signal-scoring-filter-chip" id="signalScoringFilterChip" style="display:none;">
-              <span class="matrix-filter-chip-label" id="signalScoringFilterChipLabel"></span>
-              <button type="button" class="matrix-filter-chip-clear" data-clear-signal-scoring="true">Clear Filters</button>
-            </div>
-            <div class="heatmap-container" id="signalScoringMatrixContainer"></div>
-            <div class="signal-strength-legend" id="signalScoringLegend"></div>
-            <div class="signal-strength-breakdown" id="signalScoringBreakdown" style="display:none;"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ANALYTICS DASHBOARD -->
-<section class="analytics-section collapsible-section" id="analytics">
-  <div class="container">
-    <div class="library-header reveal" id="analyticsToggle">
-      <div class="library-header-left">
-        <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-7"/><path d="M22 20v-3"/></svg>
-        <div>
-          <h2 class="section-title">Signal Charts</h2>
-          <p class="section-subtitle">Quantified breakdown of operational institutional signals across dimensions</p>
-        </div>
-      </div>
-      <div class="library-header-right">
-        <span class="library-expand-hint">Click to expand</span>
-        <svg class="library-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-      </div>
-    </div>
-
-    <div class="library-body" id="analyticsBody" style="display:none;">
-
-    <!-- Row 1: Signal Type (full width) -->
-    <div class="chart-row chart-row-single reveal">
-      <div class="chart-card">
-        <div class="chart-card-header">
-          <h3>Signal Types</h3>
-          <p>Nature of institutional signals — click a bar to drill down by institution type.</p>
-        </div>
-        <div class="chart-container fmi-chart-container">
-          <canvas id="signalTypeChart"></canvas>
-        </div>
-        <div id="signalTypeDrilldown" class="drilldown-panel" style="display:none;"></div>
-      </div>
-    </div>
-
-    <!-- Row 2: FMI Areas (full width) -->
-    <div class="chart-row chart-row-single reveal">
-      <div class="chart-card">
-        <div class="chart-card-header">
-          <h3>Financial Market Infrastructure Areas</h3>
-          <p>Which parts of FMI are being rebuilt on DLT — <strong>click a bar to drill down, then click the breakdown to navigate to the directory</strong></p>
-        </div>
-        <div class="chart-container fmi-chart-container">
-          <canvas id="fmiChart"></canvas>
-        </div>
-        <div id="fmiDrilldown" class="drilldown-panel" style="display:none;"></div>
-      </div>
-    </div>
-
-    <!-- Row 3: Initiative Classification (full width) -->
-    <div class="chart-row chart-row-single reveal">
-      <div class="chart-card">
-        <div class="chart-card-header">
-          <h3>Digital Asset Initiative Classification</h3>
-          <p>Type of blockchain / digital asset initiative</p>
-        </div>
-        <div class="chart-container" style="height: 420px;">
-          <canvas id="initiativeTypeChart"></canvas>
-        </div>
-      </div>
-    </div>
-
-    <!-- Row 4: Additional Analytics (collapsible) -->
-    <div class="additional-analytics-toggle reveal">
-      <button id="additionalAnalyticsToggle" class="additional-analytics-btn" type="button" aria-expanded="false" aria-controls="additionalAnalyticsBody">
-        Show Additional Analytics
-      </button>
-    </div>
-    <div id="additionalAnalyticsBody" class="additional-analytics-body">
-      <div class="chart-row">
-        <div class="chart-card">
-          <div class="chart-card-header">
-            <h3>Signal Momentum by Year</h3>
-            <p>Stacked by institution type — showing accelerating institutional adoption</p>
-          </div>
-          <div class="chart-container" style="height: 400px;">
-            <canvas id="timelineChart"></canvas>
-          </div>
-        </div>
-        <div class="chart-card">
-          <div class="chart-card-header">
-            <h3>By Institution Type</h3>
-            <p>Distribution across financial sector</p>
-          </div>
-          <div class="chart-container" style="height: 400px;">
-            <canvas id="instTypeChart"></canvas>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-  </div>
-</section>
-
-<!-- METHODOLOGY -->
-<section class="methodology-section collapsible-section" id="methodology">
-  <div class="container">
-    <div class="library-header reveal" id="methodologyToggle">
-      <div class="library-header-left">
-        <svg class="library-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/><circle cx="9" cy="6" r="1.5"/><circle cx="15" cy="12" r="1.5"/><circle cx="11" cy="18" r="1.5"/></svg>
-        <div>
-          <h2 class="section-title">Methodology</h2>
-          <p class="section-subtitle">Taxonomy and decision logic used to classify initiatives consistently across matrix, charts, and signal-level views.</p>
-        </div>
-      </div>
-      <div class="library-header-right">
-        <span class="library-expand-hint">Click to expand</span>
-        <svg class="library-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-      </div>
-    </div>
-
-    <div class="library-body" id="methodologyBody" style="display:none;">
-
-    <section class="initiative-schema-section">
-      <div class="initiative-schema-header reveal" id="initiativeSchemaToggle">
-        <div class="initiative-schema-header-left">
-          <svg class="initiative-schema-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18"/><path d="M3 12h18"/><path d="M3 18h18"/><circle cx="8" cy="6" r="2"/><circle cx="16" cy="12" r="2"/><circle cx="10" cy="18" r="2"/></svg>
-          <div>
-            <h3 class="section-title">Initiative Classification Schema</h3>
-            <p class="section-subtitle">Definitions and canonical mapping used to keep initiative classifications consistent.</p>
-          </div>
-        </div>
-        <div class="initiative-schema-header-right">
-          <span class="initiative-schema-expand-hint">Click to expand</span>
-          <svg class="initiative-schema-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-        </div>
-      </div>
-      <div class="initiative-schema-body" id="initiativeSchemaBody">
-        <div class="initiative-schema-intro">
-          <p>Decision rule: classify by primary economic use case first, then infrastructure mechanics, then strategy if no implementation layer is present.</p>
-        </div>
-        <div id="initiativeSchemaContent"></div>
-      </div>
-    </section>
-
-    <section class="initiative-schema-section fmi-schema-section">
-      <div class="initiative-schema-header reveal" id="fmiSchemaToggle">
-        <div class="initiative-schema-header-left">
-          <svg class="initiative-schema-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/><path d="M8 6v12"/><path d="M16 6v12"/></svg>
-          <div>
-            <h3 class="section-title">Financial Market Infrastructure Schema</h3>
-            <p class="section-subtitle">Canonical FMI domains and decision logic used to classify where institutional initiatives sit in market structure.</p>
-          </div>
-        </div>
-        <div class="initiative-schema-header-right">
-          <span class="initiative-schema-expand-hint">Click to expand</span>
-          <svg class="initiative-schema-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-        </div>
-      </div>
-      <div class="initiative-schema-body" id="fmiSchemaBody">
-        <div class="initiative-schema-intro">
-          <p>Decision rule: classify by the FMI function being transformed first (payments, settlement, custody, issuance, etc.), then by implementation channel.</p>
-        </div>
-        <div id="fmiSchemaContent"></div>
-      </div>
-    </section>
-
-    <section class="initiative-schema-section signal-type-schema-section">
-      <div class="initiative-schema-header reveal" id="signalTypeSchemaToggle">
-        <div class="initiative-schema-header-left">
-          <svg class="initiative-schema-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/><circle cx="8" cy="7" r="1.5"/><circle cx="14" cy="12" r="1.5"/><circle cx="10" cy="17" r="1.5"/></svg>
-          <div>
-            <h3 class="section-title">Signal Type Schema</h3>
-            <p class="section-subtitle">Canonical signal-type groupings used to classify institutional announcements across charts, KPI drilldowns, and catalogue filters.</p>
-          </div>
-        </div>
-        <div class="initiative-schema-header-right">
-          <span class="initiative-schema-expand-hint">Click to expand</span>
-          <svg class="initiative-schema-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-        </div>
-      </div>
-      <div class="initiative-schema-body" id="signalTypeSchemaBody">
-        <div class="initiative-schema-intro">
-          <p>Decision rule: classify by the primary institutional action (launch, partnership, regulatory move, investment, pilot, or research), then map into the canonical signal-type grouping.</p>
-        </div>
-        <div id="signalTypeSchemaContent"></div>
-      </div>
-    </section>
-    </div>
-  </div>
-</section>
-
-<!-- FOOTER -->
-<footer class="footer">
-  <div class="container">
+<footer class="app-footer">
+  <div class="container container--wide">
     <div class="footer-grid">
-      <div class="footer-brand">
-        <a href="#" class="logo">
-          <svg class="logo-icon" viewBox="0 0 36 36" fill="none" aria-label="Signals from the Street logo">
-            <rect x="2" y="2" width="32" height="32" rx="8" stroke="currentColor" stroke-width="1.5" fill="none"/>
-            <path d="M10 24V18" stroke="var(--color-banks)" stroke-width="2.5" stroke-linecap="round"/>
-            <path d="M15 24V14" stroke="var(--color-asset-mgmt)" stroke-width="2.5" stroke-linecap="round"/>
-            <path d="M20 24V16" stroke="var(--color-payments)" stroke-width="2.5" stroke-linecap="round"/>
-            <path d="M25 24V10" stroke="var(--color-exchanges)" stroke-width="2.5" stroke-linecap="round"/>
-            <circle cx="10" cy="18" r="2" fill="var(--color-banks)"/>
-            <circle cx="15" cy="14" r="2" fill="var(--color-asset-mgmt)"/>
-            <circle cx="20" cy="16" r="2" fill="var(--color-payments)"/>
-            <circle cx="25" cy="10" r="2" fill="var(--color-exchanges)"/>
+      <div>
+        <a href="#/" class="brand" style="margin-bottom: var(--space-4);">
+          <svg class="brand-mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <rect x="1.5" y="1.5" width="29" height="29" rx="6.5" stroke="currentColor" stroke-width="1.4" fill="none" opacity="0.6"/>
+            <path d="M8 22V17"  stroke="var(--color-cat-banks)" stroke-width="2.4" stroke-linecap="round"/>
+            <path d="M13 22V13" stroke="var(--color-cat-asset)" stroke-width="2.4" stroke-linecap="round"/>
+            <path d="M18 22V15" stroke="var(--color-cat-payments)" stroke-width="2.4" stroke-linecap="round"/>
+            <path d="M23 22V9"  stroke="var(--color-cat-exchanges)" stroke-width="2.4" stroke-linecap="round"/>
           </svg>
-          <div class="logo-text">Signals <span>from the Street</span></div>
+          <div class="brand-text">Signals <span>from the Street</span></div>
         </a>
-        <p>Comprehensive intelligence tracking the institutional migration to blockchain-based financial market infrastructure. Curated by NextFi Advisors.</p>
+        <p class="footer-about">An institutional filter for the digital-asset migration. Built and maintained by NextFi Advisors.</p>
       </div>
       <div class="footer-col">
-        <h4>Sections</h4>
-        <a href="#directory">Institutional Initiative Directory</a>
-        <a href="#analytics">Signal Charts</a>
-        <a href="#signal-library">Signal Catalogue</a>
-        <a href="#methodology">Methodology</a>
-        <a href="#intelligence">Intelligence Briefs</a>
+        <h5>Product</h5>
+        <ul>
+          <li><a href="#/signals">Signals workspace</a></li>
+          <li><a href="#/playbooks">Decision Playbooks</a></li>
+          <li><a href="#/radar">Positioning Radar</a></li>
+        </ul>
       </div>
       <div class="footer-col">
-        <h4>Resources</h4>
-        <a href="https://nextfiadvisors.com/intelligence" target="_blank" rel="noopener noreferrer">NextFi Advisors</a>
-        <a href="https://www.linkedin.com/in/barry-eisenberg/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <h5>About</h5>
+        <ul>
+          <li><a href="#/about">About SftS</a></li>
+          <li><a href="#/methodology">Methodology</a></li>
+          <li><a href="https://github.com/Barry-Eisenberg/streetsignals" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>NextFi</h5>
+        <ul>
+          <li><a href="https://nextfiadvisors.com" target="_blank" rel="noopener noreferrer">nextfiadvisors.com</a></li>
+          <li><a href="https://nextfiadvisors.com/contact" target="_blank" rel="noopener noreferrer">Work with NextFi</a></li>
+          <li><a href="https://www.linkedin.com/company/nextfiadvisors" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>&copy; 2026 NextFi Advisors, Inc. All rights reserved.</span>
+      <span>© 2026 NextFi Advisors · Signals from the Street</span>
+      <span style="display:flex; gap: var(--space-4);">
+        <span>Schema v1.0</span>
+        <span>Data refreshed every 30 min</span>
+      </span>
     </div>
   </div>
 </footer>
 
-<script src="./app.js"></script>
-<script src="./scripts/signal_card_download.js" defer></script>
+<!-- Scripts: load order matters -->
+<script src="./js/state.js?v=4"></script>
+<script src="./js/data.js?v=4"></script>
+<script src="./js/playbooks.js?v=4"></script>
+<script src="./js/render.js?v=4"></script>
+<script src="./js/router.js?v=4"></script>
+<script src="./js/routes-hub.js?v=4"></script>
+<script src="./js/routes-signals.js?v=4"></script>
+<script src="./js/routes-playbooks.js?v=4"></script>
+<script src="./js/routes-radar.js?v=4"></script>
+<script src="./js/routes-meta.js?v=4"></script>
+<script src="./js/app.js?v=4"></script>
 </body>
 </html>
