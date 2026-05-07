@@ -4,8 +4,8 @@
 // =====================================================================
 
 (function bootstrap() {
-  // Theme — default dark, no localStorage in iframe sandbox
-  document.documentElement.setAttribute('data-theme', 'dark');
+  // Theme — default light
+  document.documentElement.setAttribute('data-theme', 'light');
 
   document.addEventListener('DOMContentLoaded', () => {
     updateThemeToggleIcon();

@@ -21,11 +21,9 @@ SftSRouter.defineRoute('/', async ({ root }) => {
       <div class="container container--wide">
         <div class="hub-hero-content">
           <span class="hub-eyebrow"><span class="pulse"></span> Live Intelligence Feed</span>
-          <h1>The institutional migration to <span class="accent">blockchain infrastructure</span>.</h1>
+          <h1>The Institutional Migration To <span class="accent">Blockchain Infrastructure</span></h1>
           <p class="hub-hero-lead">
-            SftS filters thousands of institutional moves down to the few hundred that
-            actually shape market structure. Each signal is scored, contextualized,
-            and connected to a credible next step — so you spend time deciding, not searching.
+            Filtering the noise so you can see how the world&rsquo;s leading financial institutions, exchanges, central intermediaries, and regulators are building the next generation of financial markets infrastructure. Every signal is scored, contextualized, and connected to a credible next step &mdash; so you spend time deciding, not searching.
           </p>
           <div class="hub-hero-cta">
             <a class="btn btn--primary" href="#/signals">
@@ -61,12 +59,11 @@ SftSRouter.defineRoute('/', async ({ root }) => {
       </div>
     </section>
 
-    <section class="site-section">
+    <section class="site-section site-section--compact-top">
       <div class="container container--wide">
         <div class="cluster" style="--align:flex-end; --gap:var(--space-4); justify-content:space-between; margin-bottom: var(--space-6);">
           <div>
-            <div class="section-eyebrow">Priority signals</div>
-            <h2 class="section-heading">What just shifted</h2>
+            <div class="section-eyebrow section-eyebrow--lg">Priority signals</div>
             <p class="section-lead">Structural-tier signals from the last two weeks. The moves that reset what's possible — and what's expected — across institutional digital-asset infrastructure.</p>
           </div>
           <a class="btn btn--ghost" href="#/signals?tier=Structural">All Structural signals →</a>
