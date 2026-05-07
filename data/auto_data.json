@@ -1,5 +1,107 @@
 [
   {
+    "institution": "Superstate",
+    "initiative": "Bitwise enters tokenization in takeover of Superstate’s $267 million 'carry fund'",
+    "description": "The crypto asset manager will take over Superstate’s $267 million USCC fund as tokenized investment products gain traction with institutions.",
+    "date": "2026-05-07",
+    "source_url": "https://www.coindesk.com/markets/2026/05/07/bitwise-expands-into-tokenized-funds-with-planned-takeover-of-superstate-s-uscc-fund",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Kraken to buy stablecoin payments firm Reap in $600 million deal: Bloomberg",
+    "description": "Kraken owner Payward will acquire Hong Kong-based Reap Technologies as the crypto exchange expands its stablecoin and payments infrastructure business in Asia.",
+    "date": "2026-05-07",
+    "source_url": "https://www.coindesk.com/business/2026/05/07/kraken-to-buy-stablecoin-payments-firm-reap-in-usd600-million-deal-bloomberg",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "SoFi’s crypto relaunch brought in $121.6 million in Q1. Almost all of it went to costs",
+    "description": "The company launched the SoFiUSD stablecoin for enterprise payments in December and partnered with Mastercard for settlement capabilities.",
+    "date": "2026-05-07",
+    "source_url": "https://www.coindesk.com/business/2026/05/07/sofi-s-relaunched-crypto-business-generated-usd121-6-million-in-q1-transaction-revenue",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "ZachXBT accuses LAB founder of CEX manipulation that “harms retail investors”",
+    "description": "On-chain sleuth ZachXBT has accused the founder of LAB of running centralized exchange manipulation schemes that he says “harm retail investors,” after a private warning DM was read and ignored ZachXBT alleged in a new post on X that the… ZachXBT accuses LAB founder of CEX manipulation that “harms retail investors”",
+    "date": "2026-05-07",
+    "source_url": "https://crypto.news/zachxbt-accuses-lab-founder-of-cex-manipulation-that-harms-retail-investors/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Fed’s Collins pushes back on cut talk, wants “either way” guidance",
+    "description": "Boston Fed President Susan Collins backed holding rates steady and urged the Fed to strip out language that implicitly points to cuts as the next move, reinforcing a higher‑for‑longer stance that has repeatedly whipsawed crypto when markets price in dovish…",
+    "date": "2026-05-07",
+    "source_url": "https://crypto.news/feds-collins-pushes-back-on-cut-talk-wants-either-way-guidance/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Ledger Insights",
     "initiative": "BNY to launch digital asset custody in Abu Dhabi",
     "description": "The world’s largest custodian BNY plans to provide digital asset custody in the Abu Dhabi Global Market (ADGM) as part of a collaboration with Finstreet and the ADI Foundation. Finstreet operates a multilateral trading facility (MTF) and clearing house and is a subsidiary of IHC, the large conglomerate controlled by the ruling royal family. ADI",
