@@ -580,27 +580,27 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     chipX += _scPill(ctx, initiativeType, chipX, chipY, '#fb923c', 'rgba(251,146,60,0.14)', '600 13px') + 8;
     _scPill(ctx, categoryLabel, chipX, chipY, '#c3ced9', 'rgba(195,206,217,0.10)', '600 13px');
 
-    // Title — gap below chips.
+    // Title — slightly reduced scale with more breathing room below chips.
     ctx.textAlign = 'left';
     ctx.fillStyle = '#f4f7fb';
-    ctx.font = `800 44px ${_scFont}`;
-    const titleLineH = 50;
+    ctx.font = `800 40px ${_scFont}`;
+    const titleLineH = 46;
     const titleLines = _scWrapLimit(ctx, _scTrunc(signal.initiative || 'Untitled signal', 200), LEFT_W - 10, 3);
-    const titleY = chipY + CHIP_H + 20;
+    const titleY = chipY + CHIP_H + 24;
     _scDrawLines(ctx, titleLines, PAD, titleY, titleLineH);
 
     const titleBottom = titleY + titleLines.length * titleLineH;
     ctx.fillStyle = '#a6b1bf';
-    ctx.font = `500 17px ${_scFont}`;
+    ctx.font = `500 16px ${_scFont}`;
     const metaLineH = 22;
     const metaLines = _scWrapLimit(ctx, metaLine, LEFT_W - 10, 2);
-    _scDrawLines(ctx, metaLines, PAD, titleBottom + 10, metaLineH);
-    const metaBottom = titleBottom + 10 + metaLines.length * metaLineH;
+    _scDrawLines(ctx, metaLines, PAD, titleBottom + 12, metaLineH);
+    const metaBottom = titleBottom + 12 + metaLines.length * metaLineH;
 
     // ── LEFT COLUMN: What happened first, then Why This Matters ──────────────
 
     // What happened section.
-    const happenedY = metaBottom + 22;
+    const happenedY = metaBottom + 28;
     ctx.fillStyle = '#d8e0ea';
     ctx.font = `700 18px ${_scFont}`;
     ctx.fillText('What happened', PAD, happenedY);
@@ -625,9 +625,12 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       ctx.textBaseline = 'top';
     }
 
-    // Why This Matters card — below What Happened.
-    const whyY = happenedBottom + sourceChipH + 20;
+    // Why This Matters card — prefer bottom anchoring for better left-column distribution.
     const whyH = 108;
+    const leftBottom = H - 18;
+    const minWhyY = happenedBottom + sourceChipH + 20;
+    const anchoredWhyY = leftBottom - whyH;
+    const whyY = Math.max(minWhyY, anchoredWhyY);
     ctx.fillStyle = 'rgba(45,220,255,0.06)';
     ctx.strokeStyle = 'rgba(45,220,255,0.34)';
     ctx.lineWidth = 1;
