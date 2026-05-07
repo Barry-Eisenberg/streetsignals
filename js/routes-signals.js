@@ -684,8 +684,16 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const leftBottom = H - 18;
     const sourceChipH = (signal.source_name || signal.source_url) ? 36 : 0;
     const happenedLineH = 23;
-    const urlRowH = 18; // reserve for optional "Read more at:" line
-    const minWhyH = 120; // minimum height for Why This Matters card
+    const showSignalUrl = Boolean(signal._id);
+    const urlRowH = showSignalUrl ? 18 : 0;
+    const whyBodyFont = 15;
+    const whyBodyLineH = 20;
+    const whyHeaderH = 36;
+    ctx.font = `500 ${whyBodyFont}px ${_scFont}`;
+    const whyAllLines = _scWrapLimit(ctx, why || '', LEFT_W - 28, 99);
+    const whyMinLines = Math.max(1, Math.min(whyAllLines.length || 1, 2));
+    const whyTargetLines = Math.max(whyMinLines, Math.min(whyAllLines.length || 1, 5));
+    const minWhyH = whyHeaderH + whyTargetLines * whyBodyLineH;
     const happenedReserve = sourceChipH + urlRowH + 8 + minWhyH;
     const happenedMaxLines = Math.max(2, Math.floor((leftBottom - (happenedY + 26) - happenedReserve) / happenedLineH));
     ctx.fillStyle = '#d8e0ea';
@@ -693,15 +701,13 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.fillText('What happened', PAD, happenedY);
     ctx.fillStyle = '#a8b3c1';
     ctx.font = `500 16px ${_scFont}`;
-    const allDescLines = _scWrapLimit(ctx, signal.description || '', LEFT_W - 10, 99);
-    const isTruncated = allDescLines.length > happenedMaxLines;
     const happenedLines = _scWrapLimit(ctx, signal.description || '', LEFT_W - 10, happenedMaxLines);
     _scDrawLines(ctx, happenedLines, PAD, happenedY + 26, happenedLineH);
     const happenedBottom = happenedY + 26 + happenedLines.length * happenedLineH;
 
-    // "Read more at:" URL — inside What Happened block, shown when description is truncated.
+    // "Read more at:" URL — always shown when signal ID is available.
     let belowHappenedBottom = happenedBottom;
-    if (isTruncated && signal._id) {
+    if (showSignalUrl) {
       ctx.fillStyle = '#8f9aaa';
       ctx.font = `500 11px ${_scFont}`;
       const readMoreLabel = 'Read more at: ';
@@ -727,9 +733,12 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       belowHappenedBottom = chipTop + 26;
     }
 
-    // Why This Matters card — fills all remaining left-column space, no artificial cap.
+    // Why This Matters card — content-sized to avoid large empty blocks.
     const whyY = belowHappenedBottom + 8;
-    const whyH = Math.max(minWhyH, leftBottom - whyY);
+    const whyAvailableH = leftBottom - whyY;
+    const whyDesiredLines = Math.max(whyMinLines, Math.min(whyAllLines.length || 1, 7));
+    const whyDesiredH = whyHeaderH + whyDesiredLines * whyBodyLineH;
+    const whyH = Math.max(Math.min(whyAvailableH, whyDesiredH), Math.min(whyAvailableH, minWhyH));
     ctx.fillStyle = 'rgba(45,220,255,0.06)';
     ctx.strokeStyle = 'rgba(45,220,255,0.34)';
     ctx.lineWidth = 1;
@@ -740,12 +749,10 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.font = `700 12px ${_scFont}`;
     ctx.fillText(`WHY THIS MATTERS · ${SftSData.PERSONAS[persona].label.toUpperCase()}`, PAD + 14, whyY + 12);
     ctx.fillStyle = '#b8c3d0';
-    const whyBodyFont = 15;
-    const whyBodyLineH = 20;
     const whyBodyY = whyY + 32;
-    const whyMaxLines = Math.max(3, Math.floor((whyH - 40) / whyBodyLineH));
+    const whyMaxLines = Math.max(whyMinLines, Math.floor((whyH - whyHeaderH) / whyBodyLineH));
     ctx.font = `500 ${whyBodyFont}px ${_scFont}`;
-    const whyLines = _scWrapLimit(ctx, why || '', LEFT_W - 28, whyMaxLines);
+    const whyLines = whyAllLines.slice(0, whyMaxLines);
     _scDrawLines(ctx, whyLines, PAD + 14, whyBodyY, whyBodyLineH);
 
     // ── RIGHT PANEL: fully dynamic layout ────────────────────────────────────
