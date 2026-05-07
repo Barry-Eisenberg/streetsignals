@@ -737,19 +737,22 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       belowHappenedBottom = chipTop + 26;
     }
 
-    // Why This Matters card — bottom-anchored, content-sized (whyY and whyH computed above).
+    // Why This Matters card — starts right after content, fills to leftBottom.
+    // whyY/whyH above were only used for happenedMaxLines budget; draw from actual position.
+    const whyDrawY = belowHappenedBottom + 8;
+    const whyDrawH = leftBottom - whyDrawY;
     ctx.fillStyle = 'rgba(45,220,255,0.06)';
     ctx.strokeStyle = 'rgba(45,220,255,0.34)';
     ctx.lineWidth = 1;
-    _scRoundRect(ctx, PAD, whyY, LEFT_W, whyH, 10);
+    _scRoundRect(ctx, PAD, whyDrawY, LEFT_W, whyDrawH, 10);
     ctx.fill();
     ctx.stroke();
     ctx.fillStyle = '#41cbe5';
     ctx.font = `700 12px ${_scFont}`;
-    ctx.fillText(`WHY THIS MATTERS · ${SftSData.PERSONAS[persona].label.toUpperCase()}`, PAD + 14, whyY + 12);
+    ctx.fillText(`WHY THIS MATTERS · ${SftSData.PERSONAS[persona].label.toUpperCase()}`, PAD + 14, whyDrawY + 12);
     ctx.fillStyle = '#b8c3d0';
-    const whyBodyY = whyY + 32;
-    const whyMaxLines = Math.max(1, Math.floor((whyH - whyHeaderH) / whyBodyLineH));
+    const whyBodyY = whyDrawY + 32;
+    const whyMaxLines = Math.max(1, Math.floor((whyDrawH - whyHeaderH) / whyBodyLineH));
     ctx.font = `500 ${whyBodyFont}px ${_scFont}`;
     const whyLines = whyAllLines.slice(0, whyMaxLines);
     _scDrawLines(ctx, whyLines, PAD + 14, whyBodyY, whyBodyLineH);
