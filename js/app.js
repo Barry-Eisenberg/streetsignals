@@ -4,8 +4,12 @@
 // =====================================================================
 
 (function bootstrap() {
-  // Theme — default light
-  document.documentElement.setAttribute('data-theme', 'light');
+  // Init localStorage and restore saved persona + theme preference
+  State._checkStorage();
+  State._loadFromStorage();
+
+  // Apply persisted theme (falls back to light if nothing stored)
+  document.documentElement.setAttribute('data-theme', State.theme || 'light');
 
   document.addEventListener('DOMContentLoaded', () => {
     updateThemeToggleIcon();

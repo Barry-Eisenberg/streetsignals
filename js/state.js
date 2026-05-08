@@ -108,6 +108,7 @@ function toggleTheme() {
   const next = (document.documentElement.getAttribute('data-theme') || 'dark') === 'dark' ? 'light' : 'dark';
   document.documentElement.setAttribute('data-theme', next);
   State.theme = next;
+  State._saveToStorage();
   updateThemeToggleIcon();
 }
 function updateThemeToggleIcon() {
