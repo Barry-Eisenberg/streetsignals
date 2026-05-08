@@ -1,5 +1,68 @@
 [
   {
+    "institution": "Fintech Wrap Up",
+    "initiative": "The real reason cross-border payments stay expensive - David Messenger (CEO of Global Businesses, Pingpong Payments)",
+    "description": "In this episode of the WRAP UP Podcast, I sit down with David Messenger, CEO of Global Businesses at Pingpong Payments, to unpack what really happens behind cross-border payments and why moving money globally is still far more complex than most businesses realize.",
+    "date": "2026-05-08",
+    "source_url": "https://www.fintechwrapup.com/p/the-real-reason-cross-border-payments",
+    "category": "ecosystem",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Polygon reduces block time amid stablecoin push",
+    "description": "Polygon has reduced its average block time to 1.75 seconds as the network expands infrastructure built around stablecoin payments and institutional settlement tools. Polygonscan data showed the latest Polygon blocks were being produced in 1.75 seconds after the network implemented… Polygon reduces block time amid stablecoin push",
+    "date": "2026-05-08",
+    "source_url": "https://crypto.news/polygon-reduces-block-time-amid-stablecoin-push/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase perps shake-up hits KAITO, CAKE, VET and more",
+    "description": "Coinbase will suspend 12 perpetual futures on May 21, settling open positions as it reviews liquidity and market-quality standards in crypto",
+    "date": "2026-05-08",
+    "source_url": "https://crypto.news/coinbase-perps-shake-up-hits-kaito-cake-vet-and-more/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "Coinbase loses $400 million, 1.5 million customers and 14% of staff",
     "description": "Coinbase faces a $394M loss as memecoin traders exit, AI-driven layoffs grow, and USDC revenue faces mounting pressure.",
