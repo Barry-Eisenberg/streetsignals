@@ -1,5 +1,101 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "Coinbase resumes trading after hours of AWS-linked disruption",
+    "description": "Coinbase resumes trading after hours of AWS-linked disruption, restoring markets following 'Cancel Only' and auction-mode restrictions.",
+    "date": "2026-05-08",
+    "source_url": "https://www.theblock.co/post/400536/coinbase-resumes-trading-after-aws-linked-disruption",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Aave to Overhaul Collateral and Listing Standards After $293 Million KelpDAO Exploit",
+    "description": "Aave Labs will add cybersecurity and architecture reviews to its asset listing process following the April KelpDAO bridge exploit, with the goal of setting a new bar for DeFi risk management.",
+    "date": "2026-05-08",
+    "source_url": "https://unchainedcrypto.com/aave-to-overhaul-collateral-and-listing-standards-after-293-million-kelpdao-exploit/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase Reports $394 Million Q1 Loss, Its Second Consecutive Quarterly Miss",
+    "description": "Coinbase posted its second straight quarterly loss as revenue fell 31% to $1.4 billion and transaction revenue tumbled 40%, deepening the pressure on the largest U.S. crypto exchange.",
+    "date": "2026-05-08",
+    "source_url": "https://unchainedcrypto.com/coinbase-reports-394-million-q1-loss-its-second-consecutive-quarterly-miss/",
+    "category": "exchanges_intermediaries",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Treasury Privately Demands Binance Comply With 2023 Monitoring Program After $1B Iran Flow Report",
+    "description": "The Treasury Department reminded Binance to share data and documents with its independent monitor following allegations that more than $1 billion flowed through the exchange to Iran-linked entities.",
+    "date": "2026-05-08",
+    "source_url": "https://unchainedcrypto.com/treasury-privately-demands-binance-comply-with-2023-monitoring-program-after-1b-iran-flow-report/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Canton Network",
+    "initiative": "21Shares TCAN ETF brings Canton Network exposure to U.S. investors",
+    "description": "21Shares launched TCAN, the first U.S. ETF tied to Canton Coin, as institutional blockchain access expands through regulated products today.",
+    "date": "2026-05-08",
+    "source_url": "https://crypto.news/21shares-tcan-etf-brings-canton-network-exposure-to-u-s-investors/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Fintech Wrap Up",
     "initiative": "The real reason cross-border payments stay expensive - David Messenger (CEO of Global Businesses, Pingpong Payments)",
     "description": "In this episode of the WRAP UP Podcast, I sit down with David Messenger, CEO of Global Businesses at Pingpong Payments, to unpack what really happens behind cross-border payments and why moving money globally is still far more complex than most businesses realize.",
