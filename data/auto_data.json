@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Chainlink",
+    "initiative": "Solv Protocol drops LayerZero in favor of Chainlink for $700 million tokenized bitcoin",
+    "description": "It cited security as the core reason for the migration, in an apparent response to the recent exploit of LayerZero-powered Kelp DAO.",
+    "date": "2026-05-07",
+    "source_url": "https://www.theblock.co/post/400520/solv-protocol-layerzero-chainlink",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Ledger Insights",
     "initiative": "AWS unveils AI agent payments based on stablecoins",
     "description": "Amazon Web Services (AWS) has introduced one of the first end-to-end payment systems for AI agents, built in collaboration with Coinbase and Stripe. The new service, Amazon Bedrock AgentCore payments, enables AI agents to make micropayments to pay for API usage, web content or to pay other agents. There are now a few protocols for",
