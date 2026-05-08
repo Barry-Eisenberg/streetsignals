@@ -159,6 +159,13 @@ SftSRouter.defineRoute('/signals', async ({ root, query }) => {
             <h4>Search</h4>
             <input type="search" id="searchBox" class="filter-search" placeholder="Institution, keyword…" value="${R.escapeHTML(f.search || '')}" />
 
+            <h4>Date window</h4>
+            <div class="filter-options">
+              ${[14, 30, 60, 90, 'all'].map(d => `
+                <button class="filter-option ${String(f.dateWindow) === String(d) ? 'is-active' : ''}" data-days="${d}">${d === 'all' ? 'All historical' : `Last ${d} days`}</button>
+              `).join('')}
+            </div>
+
             <h4>Importance tier</h4>
             <div class="filter-options">
               <button class="filter-option ${!f.tier ? 'is-active' : ''}" data-tier="">All tiers <span class="count">${tc.all || 0}</span></button>
@@ -180,13 +187,6 @@ SftSRouter.defineRoute('/signals', async ({ root, query }) => {
               <button class="filter-option ${f.category === 'all' ? 'is-active' : ''}" data-cat="all">All categories <span class="count">${cc.all || 0}</span></button>
               ${Object.entries(SftSData.CATEGORY_LABELS).filter(([k]) => k !== 'intel_briefs').map(([k, v]) => `
                 <button class="filter-option ${f.category === k ? 'is-active' : ''}" data-cat="${k}">${R.escapeHTML(v.label)} <span class="count">${cc[k] || 0}</span></button>
-              `).join('')}
-            </div>
-
-            <h4>Date window</h4>
-            <div class="filter-options">
-              ${[14, 30, 60, 90, 'all'].map(d => `
-                <button class="filter-option ${String(f.dateWindow) === String(d) ? 'is-active' : ''}" data-days="${d}">${d === 'all' ? 'All historical' : `Last ${d} days`}</button>
               `).join('')}
             </div>
 
