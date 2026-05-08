@@ -1,5 +1,41 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "Coinbase blames AWS for hours-long crypto trading outage",
+    "description": "Coinbase says the outage has been fully resolved but that it will investigate the incident fully.",
+    "date": "2026-05-08",
+    "source_url": "https://www.coindesk.com/business/2026/05/08/coinbase-disruption-tied-to-aws-outage-draws-criticism-amid-staff-layoffs-and-q1-losses",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Bernstein says Coinbase’s ‘everything exchange’ strategy is gaining traction despite weak first-quarter results, sees 71% upside",
+    "description": "The analysts maintained an outperform rating and $330 price target on Coinbase despite weaker first-quarter results.",
+    "date": "2026-05-08",
+    "source_url": "https://www.theblock.co/post/400552/bernstein-says-coinbases-everything-exchange-strategy-is-gaining-traction-despite-weak-first-quarter-results-sees-71-upside",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Stablecoin card spend is growing 100% year over year, Rain exec says",
     "description": "Stablecoin settlement enables weekend/holiday settlement, reducing trapped capital by over 40%. This improves card economics and financial flexibility for issuers.",
@@ -9369,43 +9405,6 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
-    "year": "2025"
-  },
-  {
-    "institution": "IOSCO (International Organization of Securities Commissions)",
-    "initiative": "Global standard-setting bodies publish an assessment report and a consultative report to set out guidance on general business risks and general business losses",
-    "description": "The BIS Committee on Payments and Market Infrastructures (CPMI) and the International Organization of Securities Commissions (IOSCO) today published an implementation monitoring report on general business risks and a consultative report on financial market infrastructures' (FMIs) management of general business risks and general business losses.",
-    "date": "2025-11-07",
-    "source_url": "https://www.bis.org/press/p251107.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2025"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Basel III risk-based capital ratios increase while leverage ratio and Net Stable Funding Ratio remain stable for large internationally active banks, latest Basel III monitoring exercise shows",
-    "description": "Basel III risk-based capital ratios increased in the second half of 2024. Banks' leverage ratio and Net Stable Funding Ratio remain stable while Liquidity Coverage Ratio decreased. Dashboards offer new features to explore results.",
-    "date": "2025-10-23",
-    "source_url": "https://www.bis.org/press/p251023.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
     "year": "2025"
   }
 ]
