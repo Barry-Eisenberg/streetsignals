@@ -1,5 +1,42 @@
 [
   {
+    "institution": "crypto.news",
+    "initiative": "US Senate Banking Committee Expected to Hold a Formal Vote on CLARITY Act as Early as Next Week",
+    "description": "The Senate Banking Committee is expected to hold a formal CLARITY Act vote as early as next week, Coinbase said at Consensus 2026. Coinbase says the CLARITY Act is heading for a Senate Banking Committee vote as early as next… US Senate Banking Committee Expected to Hold a Formal Vote on CLARITY Act as Early as Next Week",
+    "date": "2026-05-08",
+    "source_url": "https://crypto.news/coinbase-pushes-clarity-act-senate-vote-next-week/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Meta’s USDC pilot draws fire as Senator Warren demands stablecoin transparency",
+    "description": "Warren’s letter asks Mark Zuckerberg to explain by May 20 which stablecoins and wallets Meta is using, how it selects issuers like Circle, what data it collects from linked wallets and how it will separate social and financial businesses. Senator… Meta’s USDC pilot draws fire as Senator Warren demands stablecoin transparency",
+    "date": "2026-05-08",
+    "source_url": "https://crypto.news/metas-usdc-pilot-draws-fire-as-senator-warren-demands-stablecoin-transparency/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "SEC chair Atkins signals new rules for onchain markets, AI-driven finance",
     "description": "The SEC chair linked the rise of AI-powered financial systems with growing demand for blockchain-based market infrastructure and automated settlement.",
@@ -9252,64 +9289,28 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "Three arrested in FCA investigation into suspected unlawful financial promotions",
-    "description": "If you're thinking of investing or dealing with a firm, use the FCA Firm Checker to confirm it’s authorised.All 3 individuals have been interviewed under caution.The investigation is ongoing, and further updates will be provided in due course.Notes to editorsThe Financial Services and Markets Act 2000 gives the FCA powers to investigate and prosecute unauthorised business cases.Breaching the General Prohibition is an offence under Sections 19 and 23 of the Financial Services and Markets Act 2000, punishable upon conviction by a fine and/or up to 2 years’ imprisonment.Communicating unauthorised financial promotions is an offence under Sections 21 and 25 of the Financial Services and Markets Act 2000 punishable upon conviction by a fine and/or up to 2 years’ imprisonment.Making false or",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/news-stories/three-arrested-fca-investigation-suspected-unlawful-financial-promotions",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "FCA statement on legal challenges to motor finance scheme",
-    "description": "Our objective has been, and remains, to ensure consumers receive fair compensation as quickly as possible and to maintain a healthy motor finance market. We also note that none of the claims received are expressly in the name of individual consumers.We will defend the scheme robustly as lawful and the best way to resolve such a widespread, long-running and complex issue.These legal challenges create fresh uncertainty for millions of consumers and for the second-largest consumer credit market, with £39bn borrowed in 2024.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/statements/fca-statement-legal-challenges-motor-finance-scheme",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
     "institution": "FCA",
-    "initiative": "Cryptoasset firms can request pre-application meetings from 11 May 2026",
-    "description": "From 11 May 2026, cryptoasset firms preparing for the new FSMA regime will be able to request a pre-application meeting with us via our Pre-Application Support Service (PASS).",
+    "initiative": "Kanda Products & Services Ltd enters liquidation",
+    "description": "On 6 May 2026, Kanda Products and Services Ltd (Kanda) entered liquidation. Details of this restriction are available on the Financial Services Register (FS Register).On 6 May 2026 Philip Harris and Neville Side of FRP Advisory Trading Limited were appointed as Joint Liquidators of Kanda.The Joint Liquidators are responsible for managing the affairs of the firm during the liquidation process and can be contacted using the details below: Email: kandaproductandservices@frpadvisory.comTelephone: 01273 916666As the regulator of Kanda, the FCA will continue to engage with the Joint Liquidators and take any necessary actions to seek the best outcome for consumers.",
     "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/news-stories/cryptoasset-firms-can-request-pre-application-meetings-11-may-2026",
+    "source_url": "https://www.fca.org.uk/news/news-stories/kanda-products-services-ltd-enters-liquidation",
     "category": "regulators",
     "source_name": "FCA — News",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
     "initiative_types": [
-      "Crypto / Digital Assets"
+      "Leadership & Governance"
     ],
     "year": "2026"
   },
   {
     "institution": "FCA",
-    "initiative": "A reform-minded regulator",
-    "description": "Speech by Nikhil Rathi, FCA chief executive, at the Association of Foreign Banks (AFB) luncheon.",
+    "initiative": "Competition Act 1998 investigations",
+    "description": "Further detail on the FCA’s procedures in CA98 cases is available in our CA98 guidance.Competition Act 1998 cases may also be brought by the Competition and Markets Authority.The FCA is currently gathering evidence.",
     "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/speeches/reform-minded-regulator",
+    "source_url": "https://www.fca.org.uk/news/press-releases/competition-act-1998-investigations",
     "category": "regulators",
     "source_name": "FCA — News",
     "auto_generated": true,
@@ -9323,27 +9324,10 @@
   },
   {
     "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "FCA charges Shaun Lawrence for unauthorised mortgage broking",
-    "description": "He was also banned from working in a regulated role within financial services.The FCA alleges that Mr Lawrence has breached the Financial Services and Markets Act by continuing to provide mortgage broking services when already banned.Mr Lawrence will appear before Hull Magistrates' Court on 2 July 2026.Notes to editorsShaun Lawrence was born on 15 August 1967.The FCA alleges that Mr Lawrence breached Section 19 of FSMA by carrying on regulated activities without FCA authorisation. The alleged regulated activity being carried out was Article 25A of the Regulated Activities Order – arranging regulated mortgage contracts.Find out more about the FCA.",
+    "initiative": "FCA to review claims management practices",
+    "description": "We are launching a review of the claims management market, following concerns that consumers are being failed by some claims management companies (CMCs) and law firms. Formal investigations are also under way, with 1 announced by the FCA.The SRA regulates around 9,000 law firms in England and Wales. FCA to review claims management practices",
     "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/press-releases/fca-charges-shaun-lawrence-unauthorised-mortgage-broking",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "FCA sets out guidance to support innovation in fund tokenisation",
-    "description": "We have focused on delivering what the market has asked for: a clear, practical framework that provides confidence in how fund tokenisation can operate within our rules, both now and into the future.'John Allan, director, innovation and operations unit and director, Engine at the Investment Association, said:'This milestone represents a meaningful advance in the UK’s approach to innovating funds market infrastructure. The guidance sets out how firms can use distributed ledger technology (DLT) within the regulator’s existing rules.New rules will also make fund dealing more efficient, including an optional Direct to Fund (D2F) model.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/press-releases/fca-sets-out-guidance-support-innovation-fund-tokenisation",
+    "source_url": "https://www.fca.org.uk/news/statements/fca-review-claims-management-practices",
     "category": "regulators",
     "source_name": "FCA — News",
     "auto_generated": true,
@@ -9352,17 +9336,15 @@
     "fmi_areas": [
       "Regulation & Compliance"
     ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
     "institution": "FCA",
-    "initiative": "Statement on complaints about Wellesley & Co Ltd",
-    "description": "WCL was the only FCA-regulated company in the Group and was responsible for approving financial promotions marketed to investors.We carefully reviewed all the complaints that were made and upheld one about how part of WCL's authorisation process was handled at the time. Those losses resulted from the failure of unregulated companies within the Wellesley Group, not from how WCL was authorised. Statement on complaints about Wellesley & Co Ltd",
+    "initiative": "Trust, tradition and the future of mutual growth",
+    "description": "As a history lover, it’s thrilling to be in a city like Edinburgh – called a ‘hot-bed of genius’ during the Scottish Enlightenment.What defined the Enlightenment spirit was the refusal to settle, and a determination to make things better for the future.It’s the kind of approach I’m taking to this moment of regulatory reform.Working with others to solve difficult problems, protecting trust and good outcomes, and modernising where we can – so the framework supports growth and innovation.Both now, and in the future.Everyone in this room is well-placed to help shape what comes next.You’ve already laid a strong foundation, bringing diversity, competition and resilience to the financial sector.And helping consumers build their financial confidence, buy their first homes and find community.Now is",
     "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/statements/statement-complaints-about-wellesley-co-ltd",
+    "source_url": "https://www.fca.org.uk/news/speeches/trust-tradition-and-future-mutual-growth",
     "category": "regulators",
     "source_name": "FCA — News",
     "auto_generated": true,
@@ -9376,44 +9358,46 @@
   },
   {
     "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "FCA reviewing whether APRs support consumers’ choices",
-    "description": "The research explores consumers’ understanding of APRs and how consumers use APRs to compare and choosedifferentcredit products.Most of thefinancialpromotionsrulesintheConsumer Credit rule bookpre-date the FCA taking over regulation in 2014, with some going back to 2004.TheConsultation andDiscussionPaperisin response to our commitment in the Feedback Statementon the Consumer Duty rule review (FS25/2) to simplify our requirements on firms, including a review of the advertising rules for consumer credit. The FCA is reviewing whether Annual Percentage Rates (APRs) help consumers understand borrowing costs andis seeking views on whetherit should changehow these are communicated in credit advertising.",
+    "initiative": "FCA invites ESG rating providers to join a voluntary reporting pilot",
+    "description": "Help us develop a proportionate reporting regime for ESG ratings. Register your interest by 13 May 2026. We're inviting ESG rating providers to join a pilot to inform future regulatory reporting once the regime is live.Our aim is to avoid unnecessary reporting burden for firms over time.The pilot aims to help us assess whether the proposed metrics for ESG ratings reporting are:clearfeasibleproportionate across different business modelsuseful for supervisory purposesParticipants will have a direct opportunity to inform:the design of the future reporting frameworkregulatory reporting requirementsBased on your feedback, we may revise the metrics for the eventual reporting regime.",
     "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/press-releases/fca-reviewing-whether-aprs-support-consumers-choices",
+    "source_url": "https://www.fca.org.uk/news/news-stories/fca-invites-esg-rating-providers-join-reporting-pilot",
     "category": "regulators",
     "source_name": "FCA — News",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Product Launch",
     "fmi_areas": [
-      "Regulation & Compliance"
+      "Collateral & Lending",
+      "Regulation & Compliance",
+      "Data & Reporting"
     ],
     "initiative_types": [],
     "year": "2026"
   },
   {
     "institution": "FCA",
-    "initiative": "LCM Family Limited enters administration",
-    "description": "On 28 April 2026, LCM Family Limited (LCM) went into administration. LCM is also regulated by the Solicitors Regulation Authority (SRA) to provide legal services. LCM Family Limited enters administration",
+    "initiative": "From promise to practice: shaping open finance policy with our Smart Data Accelerator",
+    "description": "Its value only truly emerges through the varied interactions between datasets, firms, infrastructure and users.This means the benefits are unlikely to arrive all at once, or evenly across the market. We worked with 17 firms to develop technical prototypes to solve challenges that are integral to people's lives – mortgages and small and medium-sized enterprise (SME) finance. From promise to practice: shaping open finance policy with our Smart Data Accelerator",
     "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/news-stories/lcm-family-limited-enters-administration",
+    "source_url": "https://www.fca.org.uk/news/blogs/promise-practice-shaping-open-finance-policy-our-smart-data-accelerator",
     "category": "regulators",
     "source_name": "FCA — News",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Product Launch",
     "fmi_areas": [
-      "Regulation & Compliance"
+      "Data & Reporting"
     ],
     "initiative_types": [],
     "year": "2026"
   },
   {
     "institution": "FCA",
-    "initiative": "Convicted money launderer sentenced to extra prison time",
-    "description": "A convicted money launderer has been sentenced to an additional 499 daysin prison for failing to fully pay the money owed under a Confiscation Order. However, he has only paid£349,214.37.When he was originally sentenced, theJudge remarked that Mr Faithfull’s was 'serious offending' linked to the 'human misery caused by boiler room fraud' and that 'money coming in(to accounts controlled by Faithfull)was not being invested, it was simply being slaughtered'.SteveSmart,executivedirector ofenforcement andmarketoversight at the FCA,said:'Mr Faithfull’s crimes enabled millions of pounds to bescammedfrom innocent victims.",
+    "initiative": "Motor finance compensation scheme challenged",
+    "description": "Our scheme is the quickest, fairest and most efficient way to compensate consumers. It is disappointing that some have decided to challenge it and delay consumers getting their money back, when for many the payouts would be very welcome this year as they face rising household bills. This also prolongs the uncertainty for all involved, which is not good for investment or a healthy motor finance market.We are considering our approach and will set out more later this week.",
     "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/press-releases/convicted-money-launderer-sentenced-extra-prison-time",
+    "source_url": "https://www.fca.org.uk/news/statements/motor-finance-compensation-scheme-challenged",
     "category": "regulators",
     "source_name": "FCA — News",
     "auto_generated": true,
@@ -9422,26 +9406,43 @@
     "fmi_areas": [
       "General Infrastructure"
     ],
-    "initiative_types": [
-      "DeFi"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
-    "institution": "FCA",
-    "initiative": "Legal challenges to motor finance compensation scheme - update for firms and consumers",
-    "description": "Our priorities remain to secure fair compensation for consumers as quickly as possible and ensure a healthy motor finance market.Our industry-wide scheme is the quickest, fairest and most cost-effective way to do this. We also acknowledge the frustration of consumers, many of whom have waited over 2 years for an answer.Firms should continue to prepare for the scheme until we communicate otherwise. Legal challenges to motor finance compensation scheme - update for firms and consumers",
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "FCA consults on changes to IPO research rules",
+    "description": "This would support the FCA’s work to strengthen the UK’s capital markets and to support growth and competitiveness.Jon Relleen, director of infrastructure & exchanges, supervision, policy & competition division, said:'Market feedback has been clear that these rules can introduce additional risk, cost and complexity without delivering the intended benefits. The FCA is consulting on removing the requirement for a 7-day delay before connected research on an IPO can be published.",
     "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/statements/legal-challenges-motor-finance-compensation-scheme-update-firms-consumers",
+    "source_url": "https://www.fca.org.uk/news/press-releases/fca-consults-changes-ipo-research-rules",
     "category": "regulators",
     "source_name": "FCA — News",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
+    "signal_type": "Product Launch",
     "fmi_areas": [
-      "General Infrastructure"
+      "Trading & Exchange",
+      "Regulation & Compliance",
+      "Interoperability & Standards"
     ],
     "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "FCA Board appoints 2 new members to the Regulatory Decisions Committee",
+    "description": "The FCA Board appoints new members to decision-making committee. The Board of the FCA has appointed Jonathan Peddie and Raymond Cox KC as new members of the FCA’s Regulatory Decisions Committee (RDC).The RDC is responsible for taking certain regulatory decisions on behalf of the FCA relating to contested enforcement action. FCA Board appoints 2 new members to the Regulatory Decisions Committee",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/press-releases/fca-board-appoints-2-new-members-regulatory-decisions-committee",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
     "year": "2026"
   }
 ]
