@@ -1,5 +1,26 @@
 [
   {
+    "institution": "crypto.news",
+    "initiative": "Ondo price breaks $0.30 resistance amid RWA growth, can it revisit January highs?",
+    "description": "Ondo price surged above $0.30 after a JPMorgan-Mastercard tokenized Treasury pilot and strong Q1 growth pushed TVL to $3.53 billion. According to data from crypto.news, Ondo (ONDO) climbed to an intraday high near $0.40 on May 8 before slightly easing… Ondo price breaks $0.30 resistance amid RWA growth, can it revisit January highs?",
+    "date": "2026-05-08",
+    "source_url": "https://crypto.news/ondo-price-breaks-0-30-resistance-amid-rwa-growth-can-it-revisit-january-highs/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Stablecoins have their 'permission slip.' Now comes the hard part.",
     "description": "Executives from MoonPay, Ripple and Paxos said at Consensus Miami 2026 that regulation has accelerated stablecoin adoption, but infrastructure, privacy and distribution remain major hurdles.",
@@ -9001,6 +9022,23 @@
   },
   {
     "institution": "FCA",
+    "initiative": "Legal challenges to motor finance compensation scheme - update for firms and consumers",
+    "description": "Our priorities remain to secure fair compensation for consumers as quickly as possible and ensure a healthy motor finance market.Our industry-wide scheme is the quickest, fairest and most cost-effective way to do this. We also acknowledge the frustration of consumers, many of whom have waited over 2 years for an answer.Firms should continue to prepare for the scheme until we communicate otherwise. Legal challenges to motor finance compensation scheme - update for firms and consumers",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/statements/legal-challenges-motor-finance-compensation-scheme-update-firms-consumers",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "FCA",
     "initiative": "Kanda Products & Services Ltd enters liquidation",
     "description": "On 6 May 2026, Kanda Products and Services Ltd (Kanda) entered liquidation. Details of this restriction are available on the Financial Services Register (FS Register).On 6 May 2026 Philip Harris and Neville Side of FRP Advisory Trading Limited were appointed as Joint Liquidators of Kanda.The Joint Liquidators are responsible for managing the affairs of the firm during the liquidation process and can be contacted",
     "date": "2026-01-01",
@@ -9379,41 +9417,5 @@
     ],
     "initiative_types": [],
     "year": "2026"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "FCA Board appoints 2 new members to the Regulatory Decisions Committee",
-    "description": "The FCA Board appoints new members to decision-making committee. The Board of the FCA has appointed Jonathan Peddie and Raymond Cox KC as new members of the FCA’s Regulatory Decisions Committee (RDC).The RDC is responsible for taking certain regulatory decisions on behalf of the FCA relating to contested enforcement action.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/press-releases/fca-board-appoints-2-new-members-regulatory-decisions-committee",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "IOSCO (International Organization of Securities Commissions)",
-    "initiative": "Global standard-setting bodies publish assessment of margin requirements for non-centrally cleared derivatives",
-    "description": "The Basel Committee on Banking Supervision (BCBS) and the International Organization of Securities Commissions (IOSCO) today published a report that reviews the implementation of margin requirements for non-centrally cleared derivatives.",
-    "date": "2025-12-12",
-    "source_url": "https://www.bis.org/press/p251212.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2025"
   }
 ]
