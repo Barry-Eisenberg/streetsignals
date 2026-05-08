@@ -1,5 +1,46 @@
 [
   {
+    "institution": "Chainlink",
+    "initiative": "BlockchainFX could be the leading crypto to buy in 2026 for those who missed Chainlink",
+    "description": "BlockchainFX and Chainlink attract investor focus as demand grows for top crypto picks in 2026. Missed crypto wins still sting because they usually look obvious after the breakout. BlockchainFX could be the leading crypto to buy in 2026 for those who missed Chainlink",
+    "date": "2026-05-08",
+    "source_url": "https://crypto.news/blockchainfx-could-be-the-leading-crypto-to-buy-in-2026-for-those-who-missed-chainlink/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Leading trends in the UK currency and cryptocurrency markets in 2026",
+    "description": "UK FX and crypto markets grow more connected as regulation and macro pressures intensify in 2026. The UK currency and cryptocurrency markets in 2026 are increasingly shaped by the same macro forces, including interest rates, inflation, and regulatory change. Leading trends in the UK currency and cryptocurrency markets in 2026",
+    "date": "2026-05-08",
+    "source_url": "https://crypto.news/leading-trends-in-the-uk-currency-and-cryptocurrency-markets-in-2026/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "Coinbase blames AWS for hours-long crypto trading outage",
     "description": "Coinbase says the outage has been fully resolved but that it will investigate the incident fully.",
@@ -9366,44 +9407,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2025"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Appointment: BIS Global Economy Meeting and Economic Consultative Committee Chair",
-    "description": "The Board of Directors of the Bank for International Settlements (BIS) has today announced that Christine Lagarde, President of the European Central Bank, will succeed Jerome H Powell, Chair of the Board of Governors of the Federal Reserve System, as Chair of the Global Economy Meeting (GEM) and Economic Consultative Committee (ECC) from May 2026.",
-    "date": "2025-11-12",
-    "source_url": "https://www.bis.org/press/p251112.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Settlement & Clearing"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2025"
-  },
-  {
-    "institution": "BIS (Bank for International Settlements)",
-    "initiative": "BIS, South African Reserve Bank announce winners of G20 TechSprint",
-    "description": "The Bank for International Settlements (BIS) and the South African Reserve Bank (SARB), under the South African G20 Presidency, today announced the winners of the G20 TechSprint 2025 challenge on trust and integrity in finance.",
-    "date": "2025-11-11",
-    "source_url": "https://www.bis.org/press/p251111.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Settlement & Clearing"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2025"
   }
