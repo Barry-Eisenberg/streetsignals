@@ -1,5 +1,78 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "Coinbase stock falls as Q1 loss hits nearly $400M",
+    "description": "Coinbase shares fell after a $394M Q1 loss and revenue miss, as trading slowed and the exchange pushed beyond spot crypto into new markets.",
+    "date": "2026-05-08",
+    "source_url": "https://crypto.news/coinbase-stock-falls-as-q1-loss-hits-nearly-400m/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "U.S. scrutiny grows as Binance defends compliance work",
+    "description": "U.S. Treasury reportedly pressed Binance over its 2023 monitoring deal after claims of Iran-linked flows, as Binance says it is cooperating.",
+    "date": "2026-05-08",
+    "source_url": "https://crypto.news/u-s-scrutiny-grows-as-binance-defends-compliance-work/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "AWS outage knocks Coinbase Exchange offline for two hours",
+    "description": "Coinbase Exchange faced an AWS-linked outage for over two hours, leaving some users unable to trade while saying users’ funds remained safe.",
+    "date": "2026-05-08",
+    "source_url": "https://crypto.news/aws-outage-knocks-coinbase-exchange-offline-for-two-hours/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainlink",
+    "initiative": "Solv ditches LayerZero for Chainlink to protect tokenized Bitcoin",
+    "description": "Solv Protocol will move $700M+ in tokenized Bitcoin from LayerZero to Chainlink CCIP after bridge security reviews and Kelp DAO fallout now.",
+    "date": "2026-05-08",
+    "source_url": "https://crypto.news/solv-ditches-layerzero-for-chainlink-to-protect-tokenized-bitcoin/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Chainlink",
     "initiative": "Solv Protocol drops LayerZero in favor of Chainlink for $700 million tokenized bitcoin",
     "description": "It cited security as the core reason for the migration, in an apparent response to the recent exploit of LayerZero-powered Kelp DAO.",
