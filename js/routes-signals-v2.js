@@ -778,8 +778,8 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     // Reco heading — 22px, wraps as a single paragraph.
     ctx.fillStyle = '#f1f5fb';
     ctx.font = `800 18px ${_scFont}`;
-    const recoHeadingShort = playbook?.short || recommendationTitle;
-    const recoHeadingLines = _scWrapLimit(ctx, `Recommended Playbook · ${recoHeadingShort}`, rInnerW, 3);
+    const recoHeadingFull = playbook?.label || recommendationTitle;
+    const recoHeadingLines = _scWrapLimit(ctx, `Recommended Playbook · ${recoHeadingFull}`, rInnerW, 3);
     const recoHeadingH = recoHeadingLines.length * 24;
 
     // Lead text.
