@@ -1,5 +1,64 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Stablecoins have their 'permission slip.' Now comes the hard part.",
+    "description": "Executives from MoonPay, Ripple and Paxos said at Consensus Miami 2026 that regulation has accelerated stablecoin adoption, but infrastructure, privacy and distribution remain major hurdles.",
+    "date": "2026-05-08",
+    "source_url": "https://www.coindesk.com/policy/2026/05/08/stablecoins-have-their-permission-slip-now-comes-the-hard-part",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase bulls point to crypto legislation and stablecoins after earnings miss",
+    "description": "Analysts say Coinbase’s long-term growth may depend more on stablecoins and U.S. crypto legislation than a rebound in trading activity.",
+    "date": "2026-05-08",
+    "source_url": "https://www.coindesk.com/markets/2026/05/08/coinbase-bulls-point-to-crypto-legislation-and-stablecoins-after-earnings-miss",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Taiwan stocks surge as AI boom drives fastest growth since 1987",
+    "description": "According to Bank of America, the TWSE Index climbed 22.7% month-over-month to… Taiwan’s stock market extended its strong artificial intelligence-fueled rally in April, with investors pouring into semiconductor and technology shares as AI demand continued lifting exports and economic growth. Taiwan stocks surge as AI boom drives fastest growth since 1987",
+    "date": "2026-05-08",
+    "source_url": "https://crypto.news/taiwan-stocks-surge-as-ai-boom-drives-fastest-growth-since-1987/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Chainlink",
     "initiative": "BlockchainFX could be the leading crypto to buy in 2026 for those who missed Chainlink",
     "description": "BlockchainFX and Chainlink attract investor focus as demand grows for top crypto picks in 2026. Missed crypto wins still sting because they usually look obvious after the breakout. BlockchainFX could be the leading crypto to buy in 2026 for those who missed Chainlink",
@@ -9355,59 +9414,6 @@
       "Interoperability & Standards"
     ],
     "initiative_types": [],
-    "year": "2025"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Basel Committee publishes principles for the sound management of third-party risk",
-    "description": "The Basel Committee has published principles for the sound management of third-party risk in the banking sector. The principles establish a common baseline for banks and supervisors for the sound management of third-party risk. The Committee will continue to monitor developments related to the digitalisation of finance and financial technology from a prudential perspective.",
-    "date": "2025-12-10",
-    "source_url": "https://www.bis.org/press/p251210.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2025"
-  },
-  {
-    "institution": "BIS (Bank for International Settlements)",
-    "initiative": "Tommaso Mancini-Griffoli appointed as Head of the BIS Innovation Hub",
-    "description": "Tommaso Mancini-Griffoli, currently Assistant Director, Payments, Currencies, and Infrastructure, at the International Monetary Fund (IMF), has been appointed to head the BIS Innovation Hub. He will join the BIS on 1 March 2026.",
-    "date": "2025-11-25",
-    "source_url": "https://www.bis.org/press/p251125.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2025"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Basel Committee continues to prioritise Basel III implementation, approves final principles on third-party risks and agrees to expedite targeted review of cryptoasset standard",
-    "description": "The Basel Committee on Banking Supervision met in Mexico City on 18 and 19 November 2025 to discuss a range of initiatives. It prioritises the full implementation of Basel III, approved third-party risk principles and will review elements of its cryptoasset standard.",
-    "date": "2025-11-19",
-    "source_url": "https://www.bis.org/press/p251119.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2025"
   }
 ]
