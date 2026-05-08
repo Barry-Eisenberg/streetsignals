@@ -1,6 +1,62 @@
 [
   {
     "institution": "crypto.news",
+    "initiative": "SoftBank cuts OpenAI-backed loan target to $6B as lenders balk at valuation",
+    "description": "SoftBank has cut a planned OpenAI‑backed margin loan from around $10 billion to roughly $6 billion after banks and private credit funds pushed back on the deal’s structure and the difficulty of valuing OpenAI, an unlisted AI unicorn. SoftBank Group… SoftBank cuts OpenAI-backed loan target to $6B as lenders balk at valuation",
+    "date": "2026-05-08",
+    "source_url": "https://crypto.news/softbank-cuts-openai-backed-loan-target-to-6b-as-lenders-balk-at-valuation/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Tether",
+    "initiative": "Tether froze over $500M USDT in 30 days as blacklist total hit $1.26B in 2025",
+    "description": "Tether froze over $514 million USDT across 370 addresses in the past 30 days as its 2025 blacklist swelled to $1.26 billion, underscoring how centralized stablecoins now function as embedded enforcement rails for global regulators and law enforcement. Tether has… Tether froze over $500M USDT in 30 days as blacklist total hit $1.26B in 2025",
+    "date": "2026-05-08",
+    "source_url": "https://crypto.news/tether-froze-over-500m-usdt-in-30-days-as-blacklist-total-hit-1-26b-in-2025/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Sanders calls for Fed rate cuts as crypto watches policy rift widen",
+    "description": "Acting Labor Secretary Sandlin’s push for earlier Fed cuts clashes with a cautious central bank, leaving crypto trading a “higher for longer” regime even as the political drumbeat for easing grows louder. Political pressure builds for easier Fed policy Acting… Sanders calls for Fed rate cuts as crypto watches policy rift widen",
+    "date": "2026-05-08",
+    "source_url": "https://crypto.news/sanders-calls-for-fed-rate-cuts-as-crypto-watches-policy-rift-widen/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
     "initiative": "Ondo price breaks $0.30 resistance amid RWA growth, can it revisit January highs?",
     "description": "Ondo price surged above $0.30 after a JPMorgan-Mastercard tokenized Treasury pilot and strong Q1 growth pushed TVL to $3.53 billion. According to data from crypto.news, Ondo (ONDO) climbed to an intraday high near $0.40 on May 8 before slightly easing… Ondo price breaks $0.30 resistance amid RWA growth, can it revisit January highs?",
     "date": "2026-05-08",
@@ -9022,6 +9078,42 @@
   },
   {
     "institution": "FCA",
+    "initiative": "Convicted money launderer sentenced to extra prison time",
+    "description": "A convicted money launderer has been sentenced to an additional 499 daysin prison for failing to fully pay the money owed under a Confiscation Order. However, he has only paid£349,214.37.When he was originally sentenced, theJudge remarked that Mr Faithfull’s was 'serious offending' linked to the 'human misery caused by boiler room fraud' and that 'money coming in(to accounts controlled by Faithfull)was not being invested, it was simply being slaughtered'.SteveSmart,executivedirector ofenforcement andmarketoversight at the FCA,said:'Mr Faithfull’s crimes enabled millions of pounds to bescammedfrom innocent victims.",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/press-releases/convicted-money-launderer-sentenced-extra-prison-time",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "FCA Board appoints 2 new members to the Regulatory Decisions Committee",
+    "description": "The FCA Board appoints new members to decision-making committee. The Board of the FCA has appointed Jonathan Peddie and Raymond Cox KC as new members of the FCA’s Regulatory Decisions Committee (RDC).The RDC is responsible for taking certain regulatory decisions on behalf of the FCA relating to contested enforcement action. FCA Board appoints 2 new members to the Regulatory Decisions Committee",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/press-releases/fca-board-appoints-2-new-members-regulatory-decisions-committee",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "FCA",
     "initiative": "Legal challenges to motor finance compensation scheme - update for firms and consumers",
     "description": "Our priorities remain to secure fair compensation for consumers as quickly as possible and ensure a healthy motor finance market.Our industry-wide scheme is the quickest, fairest and most cost-effective way to do this. We also acknowledge the frustration of consumers, many of whom have waited over 2 years for an answer.Firms should continue to prepare for the scheme until we communicate otherwise. Legal challenges to motor finance compensation scheme - update for firms and consumers",
     "date": "2026-01-01",
@@ -9325,94 +9417,6 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "Trust, tradition and the future of mutual growth",
-    "description": "As a history lover, it’s thrilling to be in a city like Edinburgh – called a ‘hot-bed of genius’ during the Scottish Enlightenment.What defined the Enlightenment spirit was the refusal to settle, and a determination to make things better for the future.It’s the kind of approach I’m taking to this moment of regulatory reform.Working with others to solve difficult problems, protecting trust and good outcomes, and",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/speeches/trust-tradition-and-future-mutual-growth",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "FCA invites ESG rating providers to join a voluntary reporting pilot",
-    "description": "Register your interest by 13 May 2026. We're inviting ESG rating providers to join a pilot to inform future regulatory reporting once the regime is live.Our aim is to avoid unnecessary reporting burden for firms over time.The pilot aims to help us assess whether the proposed metrics for ESG ratings reporting are:clearfeasibleproportionate across different business modelsuseful for supervisory purposesParticipants",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/news-stories/fca-invites-esg-rating-providers-join-reporting-pilot",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "From promise to practice: shaping open finance policy with our Smart Data Accelerator",
-    "description": "Its value only truly emerges through the varied interactions between datasets, firms, infrastructure and users.This means the benefits are unlikely to arrive all at once, or evenly across the market. We worked with 17 firms to develop technical prototypes to solve challenges that are integral to people's lives – mortgages and small and medium-sized enterprise (SME) finance.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/blogs/promise-practice-shaping-open-finance-policy-our-smart-data-accelerator",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "Motor finance compensation scheme challenged",
-    "description": "This also prolongs the uncertainty for all involved, which is not good for investment or a healthy motor finance market.We are considering our approach and will set out more later this week. Our scheme is the quickest, fairest and most efficient way to compensate consumers.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/statements/motor-finance-compensation-scheme-challenged",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "FCA consults on changes to IPO research rules",
-    "description": "This would support the FCA’s work to strengthen the UK’s capital markets and to support growth and competitiveness.Jon Relleen, director of infrastructure & exchanges, supervision, policy & competition division, said:'Market feedback has been clear that these rules can introduce additional risk, cost and complexity without delivering the intended benefits.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/press-releases/fca-consults-changes-ipo-research-rules",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange",
       "Regulation & Compliance"
     ],
     "initiative_types": [],
