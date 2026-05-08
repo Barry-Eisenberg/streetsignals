@@ -1,6 +1,42 @@
 [
   {
     "institution": "Coinbase",
+    "initiative": "Coinbase loses $400 million, 1.5 million customers and 14% of staff",
+    "description": "Coinbase faces a $394M loss as memecoin traders exit, AI-driven layoffs grow, and USDC revenue faces mounting pressure.",
+    "date": "2026-05-08",
+    "source_url": "https://coingeek.com/coinbase-loses-400-million-1-5-million-customers-and-14-of-staff/",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Tether",
+    "initiative": "Tether blacklists 371 wallets after $515M USDT freeze in 30 days",
+    "description": "Tether froze about $515M across Ethereum and Tron in 30 days, with Tron wallets accounting for most blacklisted USDT addresses.",
+    "date": "2026-05-08",
+    "source_url": "https://crypto.news/tether-blacklists-371-wallets-after-515m-usdt-freeze-in-30-days/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
     "initiative": "Coinbase stock falls as Q1 loss hits nearly $400M",
     "description": "Coinbase shares fell after a $394M Q1 loss and revenue miss, as trading slowed and the exchange pushed beyond spot crypto into new markets.",
     "date": "2026-05-08",
