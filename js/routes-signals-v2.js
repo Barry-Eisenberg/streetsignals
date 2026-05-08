@@ -759,7 +759,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     // ── RIGHT PANEL: fully dynamic layout ────────────────────────────────────
     const rightY = chipY;
     const rightH = H - rightY - 18;
-    const rPad = 14;
+    const rPad = 10;
     const rInnerW = RIGHT_W - rPad * 2;
     ctx.fillStyle = 'rgba(255,255,255,0.04)';
     ctx.strokeStyle = 'rgba(255,255,255,0.10)';
@@ -775,12 +775,12 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const eyebrowH = 11;
     rCursor += eyebrowH;
 
-    // Reco heading — 22px, wraps as a single paragraph.
+    // Reco heading — fits full playbook label on one line where possible.
     ctx.fillStyle = '#f1f5fb';
-    ctx.font = `800 18px ${_scFont}`;
+    ctx.font = `800 14px ${_scFont}`;
     const recoHeadingFull = playbook?.label || recommendationTitle;
-    const recoHeadingLines = _scWrapLimit(ctx, `Recommended Playbook · ${recoHeadingFull}`, rInnerW, 3);
-    const recoHeadingH = recoHeadingLines.length * 24;
+    const recoHeadingLines = _scWrapLimit(ctx, `Recommended Playbook · ${recoHeadingFull}`, rInnerW, 2);
+    const recoHeadingH = recoHeadingLines.length * 20;
 
     // Lead text.
     ctx.fillStyle = '#b7c2cf';
@@ -815,7 +815,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     footerGap += rightSlack;
 
     rCursor += gap1;
-    _scDrawLines(ctx, recoHeadingLines, RIGHT_X + rPad, rCursor, 24);
+    _scDrawLines(ctx, recoHeadingLines, RIGHT_X + rPad, rCursor, 20);
     rCursor += recoHeadingH + gap2;
     _scDrawLines(ctx, leadLines, RIGHT_X + rPad, rCursor, 18);
     rCursor += leadH + gap3;
