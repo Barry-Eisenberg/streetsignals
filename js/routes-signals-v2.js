@@ -314,8 +314,11 @@ SftSRouter.defineRoute('/signals', async ({ root, query }) => {
       </section>
     `;
 
-    // Wire up events (event delegation on root)
-    root.addEventListener('click', onClick, { once: true });
+    // Wire up events (event delegation on workspace container, not root)
+    const workspace = root.querySelector('.workspace');
+    if (workspace) {
+      workspace.addEventListener('click', onClick);
+    }
     const search = root.querySelector('#searchBox');
     if (search) {
       let t;
