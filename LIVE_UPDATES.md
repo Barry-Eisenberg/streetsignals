@@ -85,3 +85,58 @@ Current regulator institution set is normalized to canonical labels (for example
 ### Follow-up guidance
 
 If stale labels still appear in-browser after deployment, force-refresh and clear browser cache for the site origin to bypass client/CDN cache artifacts.
+
+## 2026-05-07 routing and cache remediation summary
+
+This release cycle resolved a production routing failure caused by a stale cached
+JavaScript module at the CDN edge.
+
+### Completed fixes
+
+- Fixed a template-literal syntax error in the signals route module that blocked
+  route registration and produced "Route not found" on `#/signals` URLs.
+- Confirmed local syntax validity after the fix (`node --check` clean).
+- Deployed a cache-safe route module path in `index.html` by switching the load
+  target to `./js/routes-signals-v2.js`, bypassing stale CDN copies.
+- Shipped signal description cleanup in detail and share-card rendering to remove
+  trailing ellipsis artifacts (`…` and `...`).
+- Added a detail-page preview-only note when `description_truncated: true`.
+
+### Operational outcome
+
+- Live signal routes are now resolving correctly.
+- The share-card/detail text presentation is cleaner and transparent about
+  truncated source previews.
+
+### Follow-up recommendation
+
+- Normalize JS cache strategy in `netlify.toml` (for example, lower `/js/*` TTL
+  and require revalidation) before reverting temporary filename-based cache
+  bypass patterns.
+
+## 2026-05-09 analytics route enhancement summary
+
+This release adds a dedicated analytics surface so chart-heavy signal analysis
+is no longer buried in other pages.
+
+### Completed fixes
+
+- Added a new `#/analytics` SPA route (`js/routes-analytics.js`) with a
+  dedicated dashboard for:
+  - signal momentum over time (tiered weekly trend lines)
+  - FMI distribution (top FMI areas by signal count)
+  - source coverage mix and top-source table
+- Added date-window controls (`14d`, `30d`, `90d`, `180d`, `365 days`) with
+  shareable query-state URLs (`#/analytics?days=...`).
+- Added analytics navigation links in header and footer (`index.html`).
+- Added analytics-specific layout and component styling in `css/app.css`.
+
+### Operational outcome
+
+- `/analytics` now exists as a first-class route in the production SPA
+  structure and can be linked directly for review and stakeholder sharing.
+
+### Remaining related follow-ups
+
+- Country/region facet in Signals workspace remains pending until country data
+  fields are available in source JSON files.

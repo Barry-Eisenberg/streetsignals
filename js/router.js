@@ -7,6 +7,7 @@
 //   #/playbooks             → Playbooks index
 //   #/playbooks/:themeId    → Playbook detail
 //   #/radar                 → Positioning Radar
+//   #/analytics             → Analytics dashboard
 //   #/methodology           → Methodology
 //   #/about                 → About
 // =====================================================================
