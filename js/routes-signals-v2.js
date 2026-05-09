@@ -775,8 +775,8 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
     const titleBottom = titleY + titleLines.length * titleLineH;
     ctx.fillStyle = '#a6b1bf';
-    ctx.font = `500 16px ${_scFont}`;
-    const metaLineH = 22;
+    ctx.font = `500 14px ${_scFont}`;
+    const metaLineH = 20;
     const metaLines = _scWrapLimit(ctx, metaLine, LEFT_W - 10, 2);
     _scDrawLines(ctx, metaLines, PAD, titleBottom + 12, metaLineH);
     const metaBottom = titleBottom + 12 + metaLines.length * metaLineH;
@@ -883,7 +883,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const leadLines = [];
 
     ctx.font = `500 11px ${_scFont}`;
-    const rightTextX = RIGHT_X + rPad + 10;
+    const rightTextX = RIGHT_X + rPad + 7;
     const marketSummaryLines = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.summary || '', rInnerW - 20, 2) : [];
     const marketInstitutionalLines = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.sftsBullets?.[0] || '', rInnerW - 20, 3) : [];
     const marketOnchainLines = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.onchainBullets?.[0] || '', rInnerW - 20, 3) : [];
@@ -924,29 +924,29 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       ctx.fillStyle = '#8f9aaa';
       ctx.font = `800 12px ${_scFont}`;
       ctx.fillText('CURRENT MARKET PICTURE', rightTextX, marketCursor);
-      marketCursor += 14;
+      marketCursor += 16;
 
       ctx.fillStyle = '#d9e2ec';
-      ctx.font = `600 11px ${_scFont}`;
-      _scDrawLines(ctx, marketSummaryLines, rightTextX, marketCursor, 13);
-      marketCursor += marketSummaryLines.length * 13 + 8;
+      ctx.font = `600 12px ${_scFont}`;
+      _scDrawLines(ctx, marketSummaryLines, rightTextX, marketCursor, 14);
+      marketCursor += marketSummaryLines.length * 14 + 10;
 
       ctx.fillStyle = '#76e4c0';
-      ctx.font = `700 10px ${_scFont}`;
+      ctx.font = `700 11px ${_scFont}`;
       ctx.fillText('Institutional signals', rightTextX, marketCursor);
-      marketCursor += 12;
+      marketCursor += 13;
       ctx.fillStyle = '#b5c0cd';
-      ctx.font = `500 11px ${_scFont}`;
-      _scDrawLines(ctx, marketInstitutionalLines, rightTextX, marketCursor, 12);
-      marketCursor += marketInstitutionalLines.length * 12 + 6;
+      ctx.font = `500 12px ${_scFont}`;
+      _scDrawLines(ctx, marketInstitutionalLines, rightTextX, marketCursor, 14);
+      marketCursor += marketInstitutionalLines.length * 14 + 8;
 
       ctx.fillStyle = '#76d1ff';
-      ctx.font = `700 10px ${_scFont}`;
+      ctx.font = `700 11px ${_scFont}`;
       ctx.fillText('On-chain flows', rightTextX, marketCursor);
-      marketCursor += 12;
+      marketCursor += 13;
       ctx.fillStyle = '#b5c0cd';
-      ctx.font = `500 11px ${_scFont}`;
-      _scDrawLines(ctx, marketOnchainLines, rightTextX, marketCursor, 12);
+      ctx.font = `500 12px ${_scFont}`;
+      _scDrawLines(ctx, marketOnchainLines, rightTextX, marketCursor, 14);
       rCursor = marketY + marketCardH + 10;
     }
 
