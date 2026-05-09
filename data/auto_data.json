@@ -1,6 +1,64 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "Swiss central bank bitcoin reserve push fails over signature shortfall",
+    "description": "The initiative sought to amend Switzerland's constitution, requiring the Swiss National Bank (SNB) to hold BTC alongside gold and foreign-currency reserves.",
+    "date": "2026-05-09",
+    "source_url": "https://www.coindesk.com/business/2026/05/09/swiss-central-bank-bitcoin-reserve-push-fails-over-signature-shortfall",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "MoonPay",
+    "initiative": "MoonPay says stablecoin regulation opened the door but infrastructure must follow",
+    "description": "Executives from MoonPay, Ripple, and Paxos said at Consensus Miami 2026 that stablecoin regulation has accelerated institutional adoption but that major infrastructure and privacy gaps still block mainstream use. Top executives at three of the most active stablecoin companies told… MoonPay says stablecoin regulation opened the door but infrastructure must follow",
+    "date": "2026-05-09",
+    "source_url": "https://crypto.news/stablecoin-execs-warn-on-hard-part-ahead/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "US banks reject CLARITY Act stablecoin deal days before Senate vote",
+    "description": "The US banking lobby is mounting a last-minute push to stall the CLARITY Act just days before its scheduled Senate Banking Committee markup on May 14. The American Bankers Association, the Bank Policy Institute, the Consumer Bankers Association, the Financial… US banks reject CLARITY Act stablecoin deal days before Senate vote",
+    "date": "2026-05-09",
+    "source_url": "https://crypto.news/banks-try-to-kill-the-clarity-act/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "CME is set to let traders bet on bitcoin volatility, not just price",
     "description": "CME Group plans to launch bitcoin volatility futures on June 1 pending regulatory approval bringing a easy way to bet on the degree of price swings.",
     "date": "2026-05-09",
@@ -9382,70 +9440,21 @@
   },
   {
     "institution": "FCA",
-    "initiative": "Kanda Products & Services Ltd enters liquidation",
-    "description": "On 6 May 2026, Kanda Products and Services Ltd (Kanda) entered liquidation. Details of this restriction are available on the Financial Services Register (FS Register).On 6 May 2026 Philip Harris and Neville Side of FRP Advisory Trading Limited were appointed as Joint Liquidators of Kanda.The Joint Liquidators are responsible for managing the affairs of the firm during the liquidation process and can be contacted using the details below: Email: kandaproductandservices@frpadvisory.comTelephone: 01273 916666As the regulator of Kanda, the FCA will continue to engage with the Joint Liquidators and take any necessary actions to seek the best outcome for consumers.",
+    "initiative": "Convicted money launderer sentenced to extra prison time",
+    "description": "A convicted money launderer has been sentenced to an additional 499 daysin prison for failing to fully pay the money owed under a Confiscation Order. However, he has only paid£349,214.37.When he was originally sentenced, theJudge remarked that Mr Faithfull’s was 'serious offending' linked to the 'human misery caused by boiler room fraud' and that 'money coming in(to accounts controlled by Faithfull)was not being invested, it was simply being slaughtered'.SteveSmart,executivedirector ofenforcement andmarketoversight at the FCA,said:'Mr Faithfull’s crimes enabled millions of pounds to bescammedfrom innocent victims.",
     "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/news-stories/kanda-products-services-ltd-enters-liquidation",
+    "source_url": "https://www.fca.org.uk/news/press-releases/convicted-money-launderer-sentenced-extra-prison-time",
     "category": "regulators",
     "source_name": "FCA — News",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
     "initiative_types": [
-      "Leadership & Governance"
+      "DeFi"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "Competition Act 1998 investigations",
-    "description": "Further detail on the FCA’s procedures in CA98 cases is available in our CA98 guidance.Competition Act 1998 cases may also be brought by the Competition and Markets Authority.The FCA is currently gathering evidence.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/press-releases/competition-act-1998-investigations",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "FCA to review claims management practices",
-    "description": "We are launching a review of the claims management market, following concerns that consumers are being failed by some claims management companies (CMCs) and law firms. Formal investigations are also under way, with 1 announced by the FCA.The SRA regulates around 9,000 law firms in England and Wales. FCA to review claims management practices",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/statements/fca-review-claims-management-practices",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "A reform-minded regulator",
-    "description": "Speech by Nikhil Rathi, FCA chief executive, at the Association of Foreign Banks (AFB) luncheon.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/speeches/reform-minded-regulator",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
