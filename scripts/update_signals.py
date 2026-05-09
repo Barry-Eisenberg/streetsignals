@@ -831,6 +831,138 @@ def parse_rss_items(xml_text):
     return []
 
 
+def parse_html_items(source, html_text):
+    parser_name = (source.get("parser") or "").strip().lower()
+    if parser_name not in {"ondo_blog", "centrifuge_blog"}:
+        return []
+
+    base_url = source.get("url", "https://ondo.finance/blog")
+    output = []
+    seen_links = set()
+
+    def decode_embedded_json_string(value):
+        try:
+            return json.loads(f'"{value}"')
+        except Exception:
+            return value
+
+    if parser_name == "ondo_blog":
+        patterns = [
+            re.compile(
+                r'\\"publishedAt\\":\\"([^\\"]+)\\".*?\\"title\\":\\"([^\\"]+)\\".*?\\"routeName\\":\\"([^\\"]+)\\"',
+                re.DOTALL,
+            ),
+            re.compile(
+                r'"publishedAt":"([^"]+)".*?"title":"([^"]+)".*?"routeName":"([^"]+)"',
+                re.DOTALL,
+            ),
+        ]
+
+        for pattern in patterns:
+            for match in pattern.finditer(html_text):
+                published_at, raw_title, raw_route_name = match.groups()
+                route_name = clean_text(decode_embedded_json_string(raw_route_name))
+                if not route_name:
+                    continue
+
+                title = clean_text(decode_embedded_json_string(raw_title))
+                if not title:
+                    continue
+
+                link = normalize_url(urljoin(base_url, f"/blog/{route_name}"))
+                if not link or link in seen_links:
+                    continue
+
+                output.append(
+                    {
+                        "title": title,
+                        "link": link,
+                        "description": title,
+                        "published": safe_iso_date(published_at),
+                    }
+                )
+                seen_links.add(link)
+
+        return output
+
+    month_names = (
+        "January|February|March|April|May|June|July|August|September|October|November|December"
+    )
+    date_re = re.compile(rf"({month_names})\s+\d{{1,2}},\s+\d{{4}}")
+    def slug_to_title(value):
+        value = (value or "").strip().strip("/")
+        value = value.replace("-", " ")
+        value = re.sub(r"\s+", " ", value).strip()
+        if not value:
+            return ""
+        return value.title()
+    anchor_re = re.compile(
+        r'<a[^>]+href=["\']([^"\'>]+)["\'][^>]*>(.*?)</a>',
+        re.IGNORECASE | re.DOTALL,
+    )
+
+    for match in anchor_re.finditer(html_text):
+        href = clean_text(match.group(1))
+        if not href:
+            continue
+        if href.startswith("/"):
+            href = urljoin(base_url, href)
+        link = normalize_url(href)
+        if not link:
+            continue
+
+        host = urlparse(link).netloc.lower()
+        if "centrifuge.io" not in host:
+            continue
+
+        path = urlparse(link).path.strip("/")
+        if not path.startswith("blog/"):
+            continue
+        slug = path.split("/", 1)[1] if "/" in path else ""
+        if not slug or slug in {"blog", "category"} or "/" in slug:
+            continue
+
+        raw_anchor_text = clean_text(match.group(2))
+        title = raw_anchor_text
+        title_from_slug = slug_to_title(slug)
+        if not title:
+            title = title_from_slug
+        if re.search(date_re, title) or len(title) > 140:
+            title = title_from_slug
+        if not title or len(title) < 8:
+            continue
+        description = raw_anchor_text if raw_anchor_text else title
+
+        snippet_start = max(0, match.start() - 900)
+        snippet_end = min(len(html_text), match.end() + 900)
+        snippet = html_text[snippet_start:snippet_end]
+        date_match = date_re.search(snippet)
+        if not date_match:
+            continue
+
+        try:
+            published = datetime.strptime(date_match.group(0), "%B %d, %Y").date().isoformat()
+        except ValueError:
+            published = safe_iso_date(date_match.group(0))
+        if not re.match(r"^\d{4}-\d{2}-\d{2}$", published):
+            continue
+
+        if link in seen_links:
+            continue
+
+        output.append(
+            {
+                "title": title,
+                "link": link,
+                "description": description,
+                "published": published,
+            }
+        )
+        seen_links.add(link)
+
+    return output
+
+
 def relevant_topic(text):
     t = (text or "").lower()
     return any(k in t for k in TOPIC_KEYWORDS)
@@ -855,7 +987,7 @@ def _build_seen_sets(signals):
 
 def fetch_auto_signals(config, manual_data, existing_auto):
     """
-    Fetch all enabled RSS sources and return only signals not already in
+    Fetch all enabled configured sources and return only signals not already in
     manual_data or existing_auto.
 
     Sources are sorted by 'priority' (ascending) so authoritative feeds
@@ -867,16 +999,24 @@ def fetch_auto_signals(config, manual_data, existing_auto):
     new_signals = []
     institution_category_pairs = build_institution_category_lookup(manual_data + existing_auto)
 
-    sources = sorted(
-        [s for s in config.get("rss_sources", []) if s.get("enabled", True)],
-        key=lambda s: (s.get("priority", 99), s.get("name", "")),
-    )
+    sources = []
+    for source in config.get("rss_sources", []):
+        if source.get("enabled", True):
+            sources.append({**source, "_source_type": "rss"})
+    for source in config.get("html_sources", []):
+        if source.get("enabled", True):
+            sources.append({**source, "_source_type": "html"})
+    sources.sort(key=lambda s: (s.get("priority", 99), s.get("name", "")))
 
     for source in sources:
         name = source.get("name", source.get("url", "unknown"))
+        source_type = source.get("_source_type", "rss")
         try:
-            xml_text = fetch_text(source["url"])
-            items = parse_rss_items(xml_text)
+            raw_text = fetch_text(source["url"])
+            if source_type == "html":
+                items = parse_html_items(source, raw_text)
+            else:
+                items = parse_rss_items(raw_text)
         except (URLError, HTTPError, TimeoutError, ValueError) as ex:
             print(f"WARN [{name}]: {ex}")
             continue

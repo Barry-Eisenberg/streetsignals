@@ -244,5 +244,27 @@
       "max_items": 20,
       "_comment": "Disabled: broad aggregator with low crypto/fintech signal ratio; enable if general financial news coverage is desired"
     }
+  ],
+  "html_sources": [
+    {
+      "enabled": true,
+      "priority": 2,
+      "name": "Ondo — Blog",
+      "url": "https://ondo.finance/blog",
+      "parser": "ondo_blog",
+      "institution": "Ondo Finance",
+      "category": "ecosystem",
+      "max_items": 12
+    },
+    {
+      "enabled": true,
+      "priority": 2,
+      "name": "Centrifuge — Blog",
+      "url": "https://www.centrifuge.io/blog",
+      "parser": "centrifuge_blog",
+      "institution": "Centrifuge",
+      "category": "ecosystem",
+      "max_items": 12
+    }
   ]
 }
