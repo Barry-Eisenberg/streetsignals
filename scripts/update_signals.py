@@ -503,6 +503,20 @@ def infer_institution_category_from_text(text, institution_category_pairs):
     return None, None
 
 
+def infer_institution_category_from_title_then_body(title, body, institution_category_pairs):
+    """Prefer explicit title matches over body-only mentions for attribution."""
+    title_institution, title_category = infer_institution_category_from_text(
+        title, institution_category_pairs
+    )
+    if title_institution and title_category:
+        return title_institution, title_category
+
+    body_institution, body_category = infer_institution_category_from_text(
+        f"{title} {body}", institution_category_pairs
+    )
+    return body_institution, body_category
+
+
 def is_low_signal_market_story(text):
     haystack = str(text or "")
     return any(pattern.search(haystack) for pattern in LOW_SIGNAL_MARKET_PATTERNS)
@@ -518,8 +532,9 @@ def has_institutional_focus(text, inferred_institution, inferred_category):
 def sanitize_auto_signal(signal, institution_category_pairs):
     combined = f"{signal.get('initiative', '')} {signal.get('description', '')}"
     source_category = normalize_category(signal.get("category", "ecosystem"))
-    inferred_institution, inferred_category = infer_institution_category_from_text(
-        combined,
+    inferred_institution, inferred_category = infer_institution_category_from_title_then_body(
+        signal.get("initiative", ""),
+        signal.get("description", ""),
         institution_category_pairs,
     )
 
@@ -531,12 +546,7 @@ def sanitize_auto_signal(signal, institution_category_pairs):
 
     updated = dict(signal)
     if inferred_institution and inferred_category:
-        # Only override institution name if the match is in the title (initiative), not
-        # just the body — prevents mis-tagging when an institution is merely quoted.
-        title_institution, _ = infer_institution_category_from_text(
-            signal.get("initiative", ""), institution_category_pairs
-        )
-        if title_institution == inferred_institution and is_usable_institution_name(inferred_institution):
+        if is_usable_institution_name(inferred_institution):
             updated["institution"] = normalize_institution_name(inferred_institution)
             updated["category"] = inferred_category
 
@@ -895,8 +905,9 @@ def fetch_auto_signals(config, manual_data, existing_auto):
             if not relevant_topic(combined):
                 continue
 
-            inferred_institution, inferred_category = infer_institution_category_from_text(
-                combined,
+            inferred_institution, inferred_category = infer_institution_category_from_title_then_body(
+                item["title"],
+                item["description"],
                 institution_category_pairs,
             )
 
@@ -921,12 +932,7 @@ def fetch_auto_signals(config, manual_data, existing_auto):
                 "auto_generated": True,
             }
             if inferred_institution and inferred_category:
-                # Only override institution name if the match is in the article title —
-                # prevents mis-tagging when an institution is merely quoted in the body.
-                title_institution, _ = infer_institution_category_from_text(
-                    item["title"], institution_category_pairs
-                )
-                if title_institution == inferred_institution and is_usable_institution_name(inferred_institution):
+                if is_usable_institution_name(inferred_institution):
                     signal["institution"] = normalize_institution_name(inferred_institution)
                     signal["category"] = inferred_category
 
