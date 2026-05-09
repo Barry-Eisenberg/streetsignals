@@ -850,7 +850,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.stroke();
     ctx.fillStyle = '#41cbe5';
     ctx.font = `700 12px ${_scFont}`;
-    ctx.fillText('WHY THIS IS THE RIGHT MOVE NOW', PAD + 14, whyDrawY + 12);
+    ctx.fillText('WHY THIS MATTERS', PAD + 14, whyDrawY + 12);
     ctx.fillStyle = '#b8c3d0';
     const whyBodyY = whyDrawY + 32;
     const whyMaxLines = Math.max(1, Math.floor((whyDrawH - whyHeaderH) / whyBodyLineH));
