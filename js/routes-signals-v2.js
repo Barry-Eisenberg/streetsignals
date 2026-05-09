@@ -910,9 +910,9 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
       let marketCursor = marketY + 10;
       ctx.fillStyle = '#8f9aaa';
-      ctx.font = `700 10px ${_scFont}`;
+      ctx.font = `800 12px ${_scFont}`;
       ctx.fillText('CURRENT MARKET PICTURE', RIGHT_X + rPad + 10, marketCursor);
-      marketCursor += 12;
+      marketCursor += 14;
 
       ctx.fillStyle = '#d9e2ec';
       ctx.font = `600 11px ${_scFont}`;
@@ -938,6 +938,11 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       rCursor = marketY + marketCardH + 8;
     }
 
+    ctx.fillStyle = '#55d3a0';
+    ctx.font = `700 11px ${_scFont}`;
+    ctx.fillText('PLAYBOOK & ACTIONS', RIGHT_X + rPad, rCursor);
+    rCursor += 12;
+
     const ctaLineH = 17;
     const ctaLabelH = 13;
     const ctaStackH = ctaLabelH + 4 + ctaLineH * 3;
@@ -949,7 +954,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     let footerGap = 10;
     const footerH = 11;
     const innerH = rightH - rPad * 2;
-    const baseUsed = eyebrowH + (playbookSnapshot ? marketCardH + 8 : 0) + gap1 + recoHeadingH + gap2 + leadH + gap3 + playCardH + gap4 + ctaStackH + footerGap + footerH;
+    const baseUsed = eyebrowH + (playbookSnapshot ? marketCardH + 8 : 0) + 12 + gap1 + recoHeadingH + gap2 + leadH + gap3 + playCardH + gap4 + ctaStackH + footerGap + footerH;
     let rightSlack = Math.max(0, innerH - baseUsed);
     const cardGrow = Math.min(26, Math.round(rightSlack * 0.56));
     playCardH += cardGrow;
@@ -974,32 +979,40 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.stroke();
 
     if (reco) {
-      ctx.fillStyle = 'rgba(85,211,160,0.24)';
       const playBadgeX = RIGHT_X + rPad + 10;
       const playBadgeY = playY + 12;
       const playBadgeW = 26;
       const playBadgeH = 26;
       ctx.fillStyle = '#8f9aaa';
-      ctx.font = `700 10px ${_scFont}`;
+      ctx.font = `700 11px ${_scFont}`;
       ctx.textBaseline = 'middle';
-      ctx.fillText('Play:', playBadgeX, playBadgeY + 13);
+      ctx.fillText('Play:', playBadgeX, playBadgeY + playBadgeH / 2 + 0.5);
       ctx.fillStyle = 'rgba(85,211,160,0.24)';
       _scRoundRect(ctx, playBadgeX + 34, playBadgeY, playBadgeW, playBadgeH, 6);
       ctx.fill();
       ctx.fillStyle = '#65e3ae';
       ctx.font = `800 14px ${_scFont}`;
-      ctx.fillText(String(reco.play.n), playBadgeX + 47, playBadgeY + 13);
+      ctx.fillText(String(reco.play.n), playBadgeX + 47, playBadgeY + playBadgeH / 2 + 0.5);
       ctx.textBaseline = 'top';
 
       ctx.fillStyle = '#f1f6fc';
-      ctx.font = `700 16px ${_scFont}`;
+      ctx.font = `700 17px ${_scFont}`;
+      const playTitleX = RIGHT_X + rPad + 70;
       const playTitleLines = _scWrapLimit(ctx, reco.play.title, rInnerW - 72, 2);
-      _scDrawLines(ctx, playTitleLines, RIGHT_X + rPad + 70, playY + 12, 20);
-      const playTitleBottom = playY + 12 + playTitleLines.length * 20;
+      ctx.textBaseline = 'middle';
+      if (playTitleLines.length > 0) {
+        ctx.fillText(playTitleLines[0], playTitleX, playBadgeY + playBadgeH / 2 + 0.5);
+      }
+      if (playTitleLines.length > 1) {
+        ctx.textBaseline = 'top';
+        ctx.fillText(playTitleLines[1], playTitleX, playBadgeY + playBadgeH + 6);
+      }
+      const playTitleBottom = playBadgeY + playBadgeH + (playTitleLines.length > 1 ? 6 + 20 : 0);
+      ctx.textBaseline = 'top';
 
       // Internal play-card text flow: compute line budgets from available height to prevent overlaps.
       const cardInnerBottom = playY + playCardH - 12;
-      let cardCursor = Math.max(playTitleBottom + 8, playY + 54);
+      let cardCursor = Math.max(playTitleBottom + 10, playY + 54);
 
       const oneLineH = 18;
       const bestFitLabelH = 14;
