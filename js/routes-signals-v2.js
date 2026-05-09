@@ -896,7 +896,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const playTitlePreviewLines = reco ? _scWrapLimit(ctx, reco.play.title, rInnerW - 90, 2) : [];
     ctx.fillStyle = '#b5c0cd';
     ctx.font = `500 12px ${_scFont}`;
-    const oneLinerPreviewLines = reco ? _scWrapLimit(ctx, reco.play.oneliner, rInnerW - 20, 2) : [];
+    const oneLinerPreviewLines = reco ? _scWrapLimit(ctx, reco.play.oneliner, rInnerW - 20, 8) : [];
     const bestFitPreviewCount = reco?.play?.bestFit?.length ? Math.min(reco.play.bestFit.length, 4) : 0;
     const playMinH = reco
       ? Math.max(150, 52 + (playTitlePreviewLines.length > 1 ? 18 : 0) + (oneLinerPreviewLines.length * 17) + 14 + 6 + (bestFitPreviewCount * 18) + 20)
@@ -1040,12 +1040,9 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       const bestFitItemH = 18;
       const audienceH = audienceLine ? 14 : 0;
 
-      const targetFitItems = Math.min(reco.play.bestFit.length, 4);
-      const reserveAfterOneLiner = bestFitLabelH + 6 + bestFitItemH * targetFitItems + 4;
-      const maxOneLines = Math.max(1, Math.min(3, Math.floor((cardInnerBottom - cardCursor - reserveAfterOneLiner) / oneLineH)));
       ctx.fillStyle = '#b5c0cd';
       ctx.font = `500 12px ${_scFont}`;
-      const oneLinerLines = _scWrapLimit(ctx, reco.play.oneliner, rInnerW - 20, maxOneLines);
+      const oneLinerLines = _scWrapLimit(ctx, reco.play.oneliner, rInnerW - 20, 8);
       _scDrawLines(ctx, oneLinerLines, RIGHT_X + rPad + 10, cardCursor, oneLineH);
       cardCursor += oneLinerLines.length * oneLineH + 8;
 
