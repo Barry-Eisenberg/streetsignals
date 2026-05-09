@@ -119,6 +119,19 @@ function normalizeWhatHappenedText(rawText, headline) {
     }
   }
 
+  // Auto-ingested excerpts sometimes carry a truncated tail (ellipsis) and an
+  // incomplete subordinate clause. Prefer the last complete primary clause.
+  if (/\u2026|\.\.\./.test(text)) {
+    const clauseCut = text.search(/,\s*(warning|saying|adding|noting|arguing|claiming)\b/i);
+    if (clauseCut > 40) {
+      text = text.slice(0, clauseCut).trim();
+    } else {
+      const markerIdx = text.search(/\u2026|\.\.\./);
+      if (markerIdx > 0) text = text.slice(0, markerIdx).trim();
+    }
+    text = text.replace(/[,:;\-–—]\s*$/, '').trim();
+  }
+
   // Ensure first alphabetical character starts uppercase.
   text = text.replace(/^([^A-Za-z]*)([a-z])/, (_, lead, c) => `${lead}${c.toUpperCase()}`);
 
