@@ -941,37 +941,28 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.fillStyle = '#55d3a0';
     ctx.font = `700 11px ${_scFont}`;
     ctx.fillText('PLAYBOOK & ACTIONS', RIGHT_X + rPad, rCursor);
-    rCursor += 12;
+    rCursor += 18;
 
     const ctaLineH = 17;
     const ctaLabelH = 13;
     const ctaStackH = ctaLabelH + 4 + ctaLineH * 3;
-    let playCardH = 168;
-    let gap1 = 10;
-    let gap2 = 9;
-    let gap3 = 10;
-    let gap4 = 10;
-    let footerGap = 10;
+    const introGapTop = 8;
+    const introGapBottom = 10;
+    const cardGapBottom = 10;
+    const footerGap = 8;
     const footerH = 11;
-    const innerH = actionsPanelH - rPad * 2;
-    const baseUsed = 12 + gap1 + recoHeadingH + gap2 + leadH + gap3 + playCardH + gap4 + ctaStackH + footerGap + footerH;
-    let rightSlack = Math.max(0, innerH - baseUsed);
-    const cardGrow = Math.min(26, Math.round(rightSlack * 0.56));
-    playCardH += cardGrow;
-    rightSlack -= cardGrow;
-    gap1 += Math.round(rightSlack * 0.12);
-    gap2 += Math.round(rightSlack * 0.16);
-    gap3 += Math.round(rightSlack * 0.22);
-    gap4 += Math.round(rightSlack * 0.20);
-    rightSlack = Math.max(0, rightSlack - (gap1 - 10) - (gap2 - 9) - (gap3 - 10) - (gap4 - 10));
-    footerGap += rightSlack;
+    const panelBottom = actionsPanelY + actionsPanelH;
+    const footerY = panelBottom - rPad - footerH;
 
-    rCursor += gap1;
+    rCursor += introGapTop;
     _scDrawLines(ctx, recoHeadingLines, RIGHT_X + rPad, rCursor, 18);
-    rCursor += recoHeadingH + gap2 + gap3;
+    rCursor += recoHeadingH + introGapBottom;
+
+    const playY = rCursor;
+    const playCardBottomCap = footerY - ctaStackH - footerGap - cardGapBottom;
+    const playCardH = Math.max(144, playCardBottomCap - playY);
 
     // Play card.
-    const playY = rCursor;
     ctx.fillStyle = 'rgba(255,255,255,0.05)';
     ctx.strokeStyle = 'rgba(255,255,255,0.12)';
     _scRoundRect(ctx, RIGHT_X + rPad, playY, rInnerW, playCardH, 8);
@@ -980,15 +971,15 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
     if (reco) {
       const playLabelX = RIGHT_X + rPad + 12;
-      const playLabelY = playY + 18;
-      const playBadgeX = RIGHT_X + rPad + 54;
-      const playBadgeY = playY + 12;
+      const playHeaderY = playY + 12;
+      const playBadgeX = RIGHT_X + rPad + 50;
+      const playBadgeY = playHeaderY;
       const playBadgeW = 28;
       const playBadgeH = 28;
       ctx.fillStyle = '#b8c5d3';
       ctx.font = `700 12px ${_scFont}`;
-      ctx.textBaseline = 'top';
-      ctx.fillText('Play:', playLabelX, playLabelY);
+      ctx.textBaseline = 'middle';
+      ctx.fillText('Play:', playLabelX, playBadgeY + playBadgeH / 2 + 0.5);
       ctx.fillStyle = 'rgba(85,211,160,0.24)';
       _scRoundRect(ctx, playBadgeX, playBadgeY, playBadgeW, playBadgeH, 6);
       ctx.fill();
@@ -1001,7 +992,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       ctx.fillStyle = '#f1f6fc';
       ctx.font = `700 14px ${_scFont}`;
       const playTitleX = playBadgeX + playBadgeW + 10;
-      const playTitleY = playY + 16;
+      const playTitleY = playHeaderY + 3;
       const playTitleLines = _scWrapLimit(ctx, reco.play.title, rInnerW - (playTitleX - (RIGHT_X + rPad)) - 6, 2);
       _scDrawLines(ctx, playTitleLines, playTitleX, playTitleY, 18);
       const playTitleBottom = playTitleY + playTitleLines.length * 18;
@@ -1009,18 +1000,18 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
       // Internal play-card text flow: compute line budgets from available height to prevent overlaps.
       const cardInnerBottom = playY + playCardH - 12;
-      let cardCursor = Math.max(playTitleBottom + 8, playBadgeY + playBadgeH + 8);
+      let cardCursor = Math.max(playTitleBottom + 8, playBadgeY + playBadgeH + 10);
 
-      const oneLineH = 18;
+      const oneLineH = 17;
       const bestFitLabelH = 14;
-      const bestFitItemH = 15;
+      const bestFitItemH = 18;
       const audienceH = audienceLine ? 14 : 0;
 
       const targetFitItems = Math.min(reco.play.bestFit.length, 4);
       const reserveAfterOneLiner = bestFitLabelH + 6 + bestFitItemH * targetFitItems + 4;
       const maxOneLines = Math.max(1, Math.min(3, Math.floor((cardInnerBottom - cardCursor - reserveAfterOneLiner) / oneLineH)));
       ctx.fillStyle = '#b5c0cd';
-      ctx.font = `500 13px ${_scFont}`;
+      ctx.font = `500 12px ${_scFont}`;
       const oneLinerLines = _scWrapLimit(ctx, reco.play.oneliner, rInnerW - 20, maxOneLines);
       _scDrawLines(ctx, oneLinerLines, RIGHT_X + rPad + 10, cardCursor, oneLineH);
       cardCursor += oneLinerLines.length * oneLineH + 8;
@@ -1034,7 +1025,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
         const maxFitItems = Math.min(reco.play.bestFit.length, Math.floor((cardInnerBottom - cardCursor - 4) / bestFitItemH));
         ctx.fillStyle = '#b5c0cd';
-        ctx.font = `500 11px ${_scFont}`;
+        ctx.font = `500 12px ${_scFont}`;
         for (let i = 0; i < maxFitItems; i++) {
           const fitText = `• ${reco.play.bestFit[i].who}`;
           ctx.fillText(_scTrunc(fitText, 42), RIGHT_X + rPad + 10, cardCursor);
@@ -1053,10 +1044,10 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       _scDrawLines(ctx, noRecoLines, RIGHT_X + rPad + 10, playY + 24, 20);
     }
 
-    rCursor = playY + playCardH + gap4;
+    rCursor = playY + playCardH + cardGapBottom;
 
     // Next actions — text list (static PNG: no interactive buttons)
-    const ctaY = rCursor;
+    const ctaY = Math.min(Math.max(actionsPanelY + rPad, rCursor), footerY - ctaStackH - footerGap);
     const ctaX = RIGHT_X + rPad;
     const actions = reco
       ? [
@@ -1082,7 +1073,6 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       actionsCursor += ctaLineH;
     }
 
-    const footerY = ctaY + ctaStackH + footerGap;
     ctx.fillStyle = tc;
     ctx.font = `600 12px ${_scFont}`;
     ctx.fillText('streetsignals.nextfiadvisors.com', ctaX, footerY);
