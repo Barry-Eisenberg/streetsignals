@@ -61,9 +61,13 @@ SftSRouter.defineRoute('/', async ({ root }) => {
         </div>
         <div class="hub-refresh-note">Last data refresh: ${(() => {
           const now = new Date();
-          const utcDate = now.toISOString().split('T')[0];
+          const iso = now.toISOString();
+          const [date] = iso.split('T');
+          const [year, month, day] = date.split('-');
+          const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+          const monthName = monthNames[parseInt(month, 10) - 1];
           const utcHour = now.getUTCHours();
-          return R.formatDate(utcDate) + ' at ' + String(utcHour).padStart(2, '0') + ':00 UTC';
+          return \`\${monthName} \${parseInt(day, 10)}, \${year} at \${String(utcHour).padStart(2, '0')}:00 UTC\`;
         })()}</div>
       </div>
     </section>
