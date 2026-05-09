@@ -876,19 +876,40 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       ? `Recommended Playbook · ${recoHeadingFull}, based on this signal's tier (${signal._tier}) and the ${SftSData.PERSONAS[persona].label} lens.`
       : 'This signal is not directly mapped to a Decision Playbook theme.';
     ctx.fillStyle = '#b7c2cf';
-    ctx.font = `500 13px ${_scFont}`;
-    const recoHeadingLines = _scWrapLimit(ctx, combinedRecoText, rInnerW, 3);
-    const recoHeadingH = recoHeadingLines.length * 18;
+    ctx.font = `500 12px ${_scFont}`;
+    const recoHeadingLines = _scWrapLimit(ctx, combinedRecoText, rInnerW, 2);
+    const recoHeadingH = recoHeadingLines.length * 17;
     const leadH = 0;
     const leadLines = [];
 
     ctx.font = `500 11px ${_scFont}`;
     const marketSummaryLines = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.summary || '', rInnerW - 20, 2) : [];
-    const marketInstitutionalLines = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.sftsBullets?.[0] || '', rInnerW - 20, 2) : [];
-    const marketOnchainLines = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.onchainBullets?.[0] || '', rInnerW - 20, 2) : [];
-    const marketCardH = playbookSnapshot
-      ? Math.max(110, 16 + (marketSummaryLines.length * 13) + 7 + 11 + (marketInstitutionalLines.length * 12) + 5 + 11 + (marketOnchainLines.length * 12) + 10)
+    const marketInstitutionalLines = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.sftsBullets?.[0] || '', rInnerW - 20, 3) : [];
+    const marketOnchainLines = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.onchainBullets?.[0] || '', rInnerW - 20, 3) : [];
+    const marketMinH = playbookSnapshot
+      ? Math.max(132, 22 + (marketSummaryLines.length * 13) + 8 + 12 + (marketInstitutionalLines.length * 12) + 8 + 12 + (marketOnchainLines.length * 12) + 12)
       : 0;
+
+    ctx.fillStyle = '#f1f6fc';
+    ctx.font = `700 14px ${_scFont}`;
+    const playTitlePreviewLines = reco ? _scWrapLimit(ctx, reco.play.title, rInnerW - 90, 2) : [];
+    ctx.fillStyle = '#b5c0cd';
+    ctx.font = `500 12px ${_scFont}`;
+    const oneLinerPreviewLines = reco ? _scWrapLimit(ctx, reco.play.oneliner, rInnerW - 20, 2) : [];
+    const bestFitPreviewCount = reco?.play?.bestFit?.length ? Math.min(reco.play.bestFit.length, 4) : 0;
+    const playMinH = reco
+      ? Math.max(150, 52 + (playTitlePreviewLines.length > 1 ? 18 : 0) + (oneLinerPreviewLines.length * 17) + 14 + 6 + (bestFitPreviewCount * 18) + 20)
+      : 150;
+
+    const rightRailH = rightBottom - rightY;
+    const splitGap = 10;
+    const actionsMinH = 18 + 8 + recoHeadingH + 10 + playMinH + 10 + 64 + 8 + 11 + (rPad * 2);
+    let marketCardH = marketMinH;
+    if (playbookSnapshot) {
+      const minUsed = marketMinH + actionsMinH + splitGap;
+      const extra = Math.max(0, rightRailH - minUsed);
+      marketCardH = marketMinH + Math.floor(extra * 0.75);
+    }
 
     if (playbookSnapshot) {
       const marketY = rCursor;
@@ -929,8 +950,8 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     }
 
     // Playbook/Actions are rendered in a separate lower card.
-    const actionsPanelY = rCursor;
-    const actionsPanelH = Math.max(120, rightBottom - actionsPanelY);
+    const actionsPanelY = rightY + marketCardH + splitGap;
+    const actionsPanelH = rightBottom - actionsPanelY;
     ctx.fillStyle = 'rgba(255,255,255,0.04)';
     ctx.strokeStyle = 'rgba(255,255,255,0.10)';
     _scRoundRect(ctx, RIGHT_X, actionsPanelY, RIGHT_W, actionsPanelH, 10);
@@ -972,7 +993,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     if (reco) {
       const playLabelX = RIGHT_X + rPad + 12;
       const playHeaderY = playY + 12;
-      const playBadgeX = RIGHT_X + rPad + 50;
+      const playBadgeX = RIGHT_X + rPad + 44;
       const playBadgeY = playHeaderY;
       const playBadgeW = 28;
       const playBadgeH = 28;
@@ -986,13 +1007,15 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       ctx.fillStyle = '#65e3ae';
       ctx.font = `800 15px ${_scFont}`;
       ctx.textBaseline = 'middle';
-      ctx.fillText(String(reco.play.n), playBadgeX + 14, playBadgeY + playBadgeH / 2 + 0.5);
+      ctx.textAlign = 'center';
+      ctx.fillText(String(reco.play.n), playBadgeX + (playBadgeW / 2), playBadgeY + playBadgeH / 2 + 0.5);
+      ctx.textAlign = 'left';
       ctx.textBaseline = 'top';
 
       ctx.fillStyle = '#f1f6fc';
       ctx.font = `700 14px ${_scFont}`;
       const playTitleX = playBadgeX + playBadgeW + 10;
-      const playTitleY = playHeaderY + 3;
+      const playTitleY = playHeaderY + 4;
       const playTitleLines = _scWrapLimit(ctx, reco.play.title, rInnerW - (playTitleX - (RIGHT_X + rPad)) - 6, 2);
       _scDrawLines(ctx, playTitleLines, playTitleX, playTitleY, 18);
       const playTitleBottom = playTitleY + playTitleLines.length * 18;
