@@ -183,6 +183,7 @@ BAD_INSTITUTION_TOKENS = {
 }
 
 PRIORITY_INSTITUTION_PATTERNS = [
+    (re.compile(r"\bgomining\b", re.IGNORECASE), "GoMining", "exchanges_intermediaries"),
     (re.compile(r"\bsbi holdings?\b", re.IGNORECASE), "SBI Holdings", "global_banks"),
     (re.compile(r"\bcoinshares\b", re.IGNORECASE), "CoinShares", "asset_management"),
     (re.compile(r"\brevolut\b", re.IGNORECASE), "Revolut", "payments"),
@@ -537,7 +538,7 @@ def sanitize_auto_signal(signal, institution_category_pairs):
         )
         if title_institution == inferred_institution and is_usable_institution_name(inferred_institution):
             updated["institution"] = normalize_institution_name(inferred_institution)
-        updated["category"] = inferred_category
+            updated["category"] = inferred_category
 
     enrich(updated)
     return updated
@@ -927,7 +928,7 @@ def fetch_auto_signals(config, manual_data, existing_auto):
                 )
                 if title_institution == inferred_institution and is_usable_institution_name(inferred_institution):
                     signal["institution"] = normalize_institution_name(inferred_institution)
-                signal["category"] = inferred_category
+                    signal["category"] = inferred_category
 
             enrich(signal)
             new_signals.append(signal)
