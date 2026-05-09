@@ -57,3 +57,16 @@ Thumbs.db
 *.backup
 .env
 .env.local
+
+# Non-PROD local artifacts
+Archive/
+Redesign/DEPLOYMENT.docx
+Redesign/DEPLOYMENT.md
+Redesign/DEPLOYMENT.pdf
+Redesign/FUTURE_ENHANCEMENTS.docx
+Redesign/FUTURE_ENHANCEMENTS.pdf
+Redesign/REDESIGN_NOTES.md
+Redesign/SftS_Signal_Coverage_Analysis.xlsx
+Redesign/*Redesign Prototype (3).zip
+scripts/diag_out.txt
+scripts/diagnose_priority.py
