@@ -418,11 +418,11 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
           <div class="sidebar-card">
             <h4>Share</h4>
-            <button class="btn btn--outline btn--sm" id="copyLinkBtn" style="width:100%; margin-bottom: var(--space-2);">
+            <button type="button" class="btn btn--outline btn--sm" id="copyLinkBtn" style="width:100%; margin-bottom: var(--space-2);">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007 0l4-4a5 5 0 00-7-7l-1 1"/><path d="M14 11a5 5 0 00-7 0l-4 4a5 5 0 007 7l1-1"/></svg>
               Copy link to this signal
             </button>
-            <button class="btn btn--outline btn--sm" id="shareLinkedInBtn" style="width:100%;">
+            <button type="button" class="btn btn--outline btn--sm" id="shareLinkedInBtn" style="width:100%;">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
               Download
             </button>
@@ -926,7 +926,9 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
   const copyBtn = root.querySelector('#copyLinkBtn');
   if (copyBtn) {
-    copyBtn.addEventListener('click', async () => {
+    copyBtn.addEventListener('click', async (e) => {
+      e.preventDefault();
+      e.stopPropagation();
       try {
         await navigator.clipboard.writeText(window.location.href);
         copyBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg>Copied to clipboard';
@@ -941,7 +943,9 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
   const shareLinkedInBtn = root.querySelector('#shareLinkedInBtn');
   if (shareLinkedInBtn) {
-    shareLinkedInBtn.addEventListener('click', () => {
+    shareLinkedInBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
       try {
         shareLinkedInBtn.disabled = true;
         shareLinkedInBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10" opacity="0.3"/></svg>Generating...';
@@ -949,14 +953,19 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
         const canvas = _buildShareCanvas();
         canvas.toBlob(b => {
           if (!b) {
-            throw new Error('Failed to generate image blob');
+            shareLinkedInBtn.disabled = false;
+            shareLinkedInBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>Download';
+            return;
           }
           const url = URL.createObjectURL(b);
           const a = document.createElement('a');
           a.href = url;
           a.download = `sfts-${params.id}.png`;
+          a.style.display = 'none';
+          document.body.appendChild(a);
           a.click();
-          URL.revokeObjectURL(url);
+          a.remove();
+          setTimeout(() => URL.revokeObjectURL(url), 1000);
           shareLinkedInBtn.disabled = false;
           shareLinkedInBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>Download';
         });
