@@ -901,10 +901,10 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
     const rightRailH = rightBottom - rightY;
     const splitGap = 10;
-    const ctaLineH = 17;
-    const ctaLabelH = 13;
-    const ctaStackH = ctaLabelH + 4 + ctaLineH * 3;
-    const actionsPreferredH = Math.max(190, 18 + 8 + recoHeadingH + 10 + playMinH + 10 + ctaStackH + 8 + 11 + (rPad * 2));
+    const ctaLineHCalc = 17;
+    const ctaLabelHCalc = 13;
+    const ctaStackHCalc = ctaLabelHCalc + 4 + ctaLineHCalc * 3;
+    const actionsPreferredH = Math.max(190, 18 + 8 + recoHeadingH + 10 + playMinH + 10 + ctaStackHCalc + 8 + 11 + (rPad * 2));
     const marketFloorH = 150;
     let actionsPanelH = rightRailH;
     let marketCardH = 0;
