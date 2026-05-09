@@ -1,5 +1,25 @@
 [
   {
+    "institution": "Bank of England",
+    "initiative": "BoE’s Bailey warns of looming ‘wrestle’ with US over stablecoin rules, flags run risk for UK",
+    "description": "Bailey, who chairs the Financial Stability Board, warned that hard-to-redeem U.S. stablecoins could flood into jurisdictions like the UK during a crisis.",
+    "date": "2026-05-09",
+    "source_url": "https://www.theblock.co/post/400639/boes-bailey-warns-of-looming-wrestle-with-us-over-stablecoin-rules-flags-run-risk-for-uk",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Swiss central bank bitcoin reserve push fails over signature shortfall",
     "description": "The initiative sought to amend Switzerland's constitution, requiring the Swiss National Bank (SNB) to hold BTC alongside gold and foreign-currency reserves.",
@@ -9435,25 +9455,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA",
-    "initiative": "Convicted money launderer sentenced to extra prison time",
-    "description": "A convicted money launderer has been sentenced to an additional 499 daysin prison for failing to fully pay the money owed under a Confiscation Order. However, he has only paid£349,214.37.When he was originally sentenced, theJudge remarked that Mr Faithfull’s was 'serious offending' linked to the 'human misery caused by boiler room fraud' and that 'money coming in(to accounts controlled by Faithfull)was not being invested, it was simply being slaughtered'.SteveSmart,executivedirector ofenforcement andmarketoversight at the FCA,said:'Mr Faithfull’s crimes enabled millions of pounds to bescammedfrom innocent victims.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/press-releases/convicted-money-launderer-sentenced-extra-prison-time",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi"
     ],
     "year": "2026"
   }
