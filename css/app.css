@@ -1939,3 +1939,103 @@ body > * { position: relative; z-index: 1; }
   color: var(--color-primary);
   border-color: var(--color-primary-edge);
 }
+
+/* =====================================================================
+   Intelligence Briefs — /briefs page
+   ===================================================================== */
+
+.briefs-hero {
+  padding: var(--space-10) 0 var(--space-8);
+  background: var(--color-surface-2);
+  border-bottom: 1px solid var(--color-divider);
+}
+
+.briefs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: var(--space-5);
+  margin-top: var(--space-6);
+}
+
+.brief-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-surface-1);
+  border: 1px solid var(--color-divider);
+  border-radius: var(--radius-md);
+  padding: var(--space-5);
+  transition: box-shadow 0.15s, border-color 0.15s, transform 0.15s;
+  text-decoration: none;
+  color: inherit;
+}
+.brief-card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-primary-edge);
+  transform: translateY(-2px);
+}
+
+.brief-card-body {
+  flex: 1;
+}
+
+.brief-card-title {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text-strong);
+  margin: 0 0 var(--space-2);
+  line-height: 1.35;
+}
+
+.brief-card-desc {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  line-height: 1.55;
+  margin: 0 0 var(--space-4);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.brief-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--color-divider);
+  margin-top: auto;
+}
+
+.brief-card-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.brief-card-source {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.brief-card-date {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
+
+.brief-card-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.brief-card-cta:hover { text-decoration: underline; }

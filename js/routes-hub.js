@@ -112,10 +112,13 @@ SftSRouter.defineRoute('/', async ({ root }) => {
             <h4 style="font-family:var(--font-display); font-size:1rem; margin-bottom:var(--space-3); color:var(--color-text-strong);">Latest intelligence briefs</h4>
             <ul class="related-list">
               ${SftSData.briefs.slice(0, 4).map(b => `<a class="related-list-item" href="${b.url}" target="_blank" rel="noopener noreferrer">
-                <div class="meta">${R.escapeHTML(b.source || 'NextFi Advisors')}</div>
+                <div class="meta">${R.escapeHTML(b.source || 'NextFi Advisors')}${b.date ? ' · ' + R.relativeDate(b.date) : ''}</div>
                 <div class="title">${R.escapeHTML(b.title)} ${R.extIcon}</div>
               </a>`).join('')}
             </ul>
+            <div style="margin-top: var(--space-4); padding-top: var(--space-4); border-top: 1px solid var(--color-divider);">
+              <a class="btn btn--ghost btn--sm" style="width:100%; justify-content:center;" href="#/briefs">All ${SftSData.briefs.length} intelligence briefs &rarr;</a>
+            </div>
           </div>
         </div>
       </div>
