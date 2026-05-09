@@ -872,13 +872,9 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.fill();
     ctx.stroke();
 
-    // Eyebrow and dynamic spacing across right panel.
+    // Right panel cursor.
     let rCursor = rightY + rPad;
-    ctx.fillStyle = '#55d3a0';
-    ctx.font = `700 11px ${_scFont}`;
-    ctx.fillText('PLAYBOOK & ACTIONS', RIGHT_X + rPad, rCursor);
-    const eyebrowH = 11;
-    rCursor += eyebrowH;
+    const eyebrowH = 0;
 
     // Reco heading combined with lead text as one paragraph block.
     const recoHeadingFull = playbook?.label || recommendationTitle;
@@ -981,33 +977,33 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     if (reco) {
       const playBadgeX = RIGHT_X + rPad + 10;
       const playBadgeY = playY + 12;
-      const playBadgeW = 26;
-      const playBadgeH = 26;
-      ctx.fillStyle = '#8f9aaa';
-      ctx.font = `700 11px ${_scFont}`;
+      const playBadgeW = 28;
+      const playBadgeH = 28;
+      ctx.fillStyle = '#c8d3df';
+      ctx.font = `700 12px ${_scFont}`;
       ctx.textBaseline = 'middle';
       ctx.fillText('Play:', playBadgeX, playBadgeY + playBadgeH / 2 + 0.5);
       ctx.fillStyle = 'rgba(85,211,160,0.24)';
-      _scRoundRect(ctx, playBadgeX + 34, playBadgeY, playBadgeW, playBadgeH, 6);
+      _scRoundRect(ctx, playBadgeX + 40, playBadgeY, playBadgeW, playBadgeH, 6);
       ctx.fill();
       ctx.fillStyle = '#65e3ae';
-      ctx.font = `800 14px ${_scFont}`;
-      ctx.fillText(String(reco.play.n), playBadgeX + 47, playBadgeY + playBadgeH / 2 + 0.5);
+      ctx.font = `800 15px ${_scFont}`;
+      ctx.fillText(String(reco.play.n), playBadgeX + 54, playBadgeY + playBadgeH / 2 + 0.5);
       ctx.textBaseline = 'top';
 
       ctx.fillStyle = '#f1f6fc';
-      ctx.font = `700 17px ${_scFont}`;
-      const playTitleX = RIGHT_X + rPad + 70;
-      const playTitleLines = _scWrapLimit(ctx, reco.play.title, rInnerW - 72, 2);
+      ctx.font = `700 15px ${_scFont}`;
+      const playTitleX = RIGHT_X + rPad + 84;
+      const playTitleLines = _scWrapLimit(ctx, reco.play.title, rInnerW - 88, 2);
       ctx.textBaseline = 'middle';
       if (playTitleLines.length > 0) {
         ctx.fillText(playTitleLines[0], playTitleX, playBadgeY + playBadgeH / 2 + 0.5);
       }
       if (playTitleLines.length > 1) {
         ctx.textBaseline = 'top';
-        ctx.fillText(playTitleLines[1], playTitleX, playBadgeY + playBadgeH + 6);
+        ctx.fillText(playTitleLines[1], playTitleX, playBadgeY + playBadgeH + 7);
       }
-      const playTitleBottom = playBadgeY + playBadgeH + (playTitleLines.length > 1 ? 6 + 20 : 0);
+      const playTitleBottom = playBadgeY + playBadgeH + (playTitleLines.length > 1 ? 7 + 18 : 0);
       ctx.textBaseline = 'top';
 
       // Internal play-card text flow: compute line budgets from available height to prevent overlaps.
@@ -1019,7 +1015,8 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       const bestFitItemH = 15;
       const audienceH = audienceLine ? 14 : 0;
 
-      const reserveAfterOneLiner = bestFitLabelH + 6 + bestFitItemH * 2 + 4;
+      const targetFitItems = Math.min(reco.play.bestFit.length, 3);
+      const reserveAfterOneLiner = bestFitLabelH + 6 + bestFitItemH * targetFitItems + 4;
       const maxOneLines = Math.max(1, Math.min(3, Math.floor((cardInnerBottom - cardCursor - reserveAfterOneLiner) / oneLineH)));
       ctx.fillStyle = '#b5c0cd';
       ctx.font = `500 13px ${_scFont}`;
