@@ -59,6 +59,11 @@ SftSRouter.defineRoute('/', async ({ root }) => {
             <div class="sub">Across all tracked signals</div>
           </div>
         </div>
+        <div class="hub-refresh-note">Last data refresh: ${(() => {
+          const now = new Date();
+          const lastHour = new Date(now.getFullYear(), now.getMonth(), now.getDate(), now.getHours(), 0, 0);
+          return R.formatDate(lastHour.toISOString().split('T')[0]) + ' at ' + String(lastHour.getHours()).padStart(2, '0') + ':00 UTC';
+        })()}</div>
       </div>
     </section>
 

@@ -266,12 +266,6 @@ body > * { position: relative; z-index: 1; }
   color: var(--color-text-muted);
   max-width: 64ch;
 }
-.page-hero-freshness {
-  margin-top: var(--space-4);
-  font-size: 0.82rem;
-  letter-spacing: 0.03em;
-  color: var(--color-text-soft);
-}
 
 /* ============================================================
    BUTTONS
@@ -593,6 +587,12 @@ body > * { position: relative; z-index: 1; }
 }
 @media (max-width: 740px) {
   .live-strip { grid-template-columns: repeat(2, 1fr); }
+}
+.hub-refresh-note {
+  margin-top: var(--space-4);
+  font-size: 0.75rem;
+  color: var(--color-text-soft);
+  letter-spacing: 0.02em;
 }
 
 /* Priority signals strip on hub — stacked rows */
