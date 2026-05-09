@@ -5,6 +5,33 @@
 // Apply current State.filters to a signal list and return filtered+sorted.
 // When a non-'all' persona is selected, signals are additionally re-ranked so
 // the highest persona-relevance ones float to the top within each tier band.
+const COUNTRY_OPTIONS = [
+  { id: 'united_states', label: 'United States', patterns: [/\bU\.S\.\b/i, /\bU\.S\.?\b/i, /\bUnited States\b/i, /\bAmerica\b/i] },
+  { id: 'united_kingdom', label: 'United Kingdom', patterns: [/\bU\.K\.\b/i, /\bU\.K\.?\b/i, /\bUnited Kingdom\b/i, /\bBritain\b/i, /\bLondon\b/i, /\bEngland\b/i] },
+  { id: 'europe', label: 'Europe / EU', patterns: [/\bEurope\b/i, /\bEuropean\b/i, /\bEU\b/i, /\bEurozone\b/i, /\bEMEA\b/i] },
+  { id: 'uae', label: 'UAE', patterns: [/\bUAE\b/i, /\bUnited Arab Emirates\b/i, /\bDubai\b/i, /\bAbu Dhabi\b/i, /\bDIFC\b/i, /\bADGM\b/i] },
+  { id: 'brazil', label: 'Brazil', patterns: [/\bBrazil\b/i, /\bBras(?:i|í)l\b/i, /\bPix\b/i] },
+  { id: 'india', label: 'India', patterns: [/\bIndia\b/i, /\bRBI\b/i, /\bReserve Bank of India\b/i] },
+  { id: 'singapore', label: 'Singapore', patterns: [/\bSingapore\b/i, /\bMAS\b/i, /\bMonetary Authority of Singapore\b/i] },
+  { id: 'hong_kong', label: 'Hong Kong', patterns: [/\bHong Kong\b/i, /\bHKMA\b/i] },
+  { id: 'switzerland', label: 'Switzerland', patterns: [/\bSwitzerland\b/i, /\bSwiss\b/i, /\bZurich\b/i, /\bBasel\b/i] },
+  { id: 'japan', label: 'Japan', patterns: [/\bJapan\b/i, /\bTokyo\b/i, /\bFSA\b/i] },
+  { id: 'south_korea', label: 'South Korea', patterns: [/\bSouth Korea\b/i, /\bKorea\b/i, /\bSeoul\b/i, /\bFIU\b/i] },
+  { id: 'canada', label: 'Canada', patterns: [/\bCanada\b/i, /\bCanadian\b/i, /\bToronto\b/i] },
+  { id: 'australia', label: 'Australia', patterns: [/\bAustralia\b/i, /\bAustralian\b/i, /\bSydney\b/i, /\bMelbourne\b/i] },
+  { id: 'global', label: 'Global / Multi-region', patterns: [/\bGlobal\b/i, /\bWorldwide\b/i, /\bCross-border\b/i, /\bMulti-region\b/i] }
+];
+
+function inferCountryRegion(signal) {
+  const text = [signal.country, signal.institution, signal.initiative, signal.description, signal.source_url]
+    .filter(Boolean)
+    .join(' ');
+  for (const option of COUNTRY_OPTIONS) {
+    if (option.patterns.some(rx => rx.test(text))) return option.id;
+  }
+  return null;
+}
+
 function applyFiltersAndSort(list) {
   const f = SftSState.filters;
   const persona = SftSState.persona || 'all';
@@ -12,6 +39,7 @@ function applyFiltersAndSort(list) {
   if (f.theme) out = out.filter(s => (s._themes || []).includes(f.theme));
   if (f.tier) out = out.filter(s => s._tier === f.tier);
   if (f.category && f.category !== 'all') out = out.filter(s => s._category === f.category);
+  if (f.country) out = out.filter(s => inferCountryRegion(s) === f.country);
   if (f.dateWindow !== 'all' && f.dateWindow != null) {
     const cutoff = parseInt(f.dateWindow, 10);
     out = out.filter(s => s._daysOld !== null && s._daysOld <= cutoff);
@@ -62,6 +90,7 @@ function syncFiltersToURL() {
   if (f.theme) u.set('theme', f.theme);
   if (f.tier) u.set('tier', f.tier);
   if (f.category && f.category !== 'all') u.set('cat', f.category);
+  if (f.country) u.set('country', f.country);
   if (f.dateWindow !== 14) u.set('days', f.dateWindow);
   if (f.search) u.set('q', f.search);
   if (f.sort && f.sort !== 'recency') u.set('sort', f.sort);
@@ -193,6 +222,21 @@ SftSRouter.defineRoute('/signals', async ({ root, query }) => {
     return counts;
   }
 
+  function countryCounts() {
+    const sansCountry = Object.assign({}, SftSState.filters, { country: null });
+    const original = SftSState.filters;
+    SftSState.filters = sansCountry;
+    const filtered = applyFiltersAndSort(allSignals);
+    SftSState.filters = original;
+    const counts = { all: filtered.length };
+    COUNTRY_OPTIONS.forEach(opt => { counts[opt.id] = 0; });
+    filtered.forEach(s => {
+      const countryId = inferCountryRegion(s);
+      if (countryId && counts[countryId] != null) counts[countryId]++;
+    });
+    return counts;
+  }
+
   function tierCounts() {
     const sansTier = Object.assign({}, SftSState.filters, { tier: null });
     const original = SftSState.filters;
@@ -219,6 +263,7 @@ SftSRouter.defineRoute('/signals', async ({ root, query }) => {
     const f = SftSState.filters;
     const filtered = applyFiltersAndSort(allSignals);
     const cc = categoryCounts();
+    const rc = countryCounts();
     const tc = tierCounts();
     const thc = themeCounts();
 
@@ -287,6 +332,14 @@ SftSRouter.defineRoute('/signals', async ({ root, query }) => {
               `).join('')}
             </div>
 
+            <h4>Country / region</h4>
+            <div class="filter-options">
+              <button class="filter-option ${!f.country ? 'is-active' : ''}" data-country="">All regions <span class="count">${rc.all || 0}</span></button>
+              ${COUNTRY_OPTIONS.map(opt => `
+                <button class="filter-option ${f.country === opt.id ? 'is-active' : ''}" data-country="${opt.id}">${R.escapeHTML(opt.label)} <span class="count">${rc[opt.id] || 0}</span></button>
+              `).join('')}
+            </div>
+
             <button class="btn btn--ghost btn--sm" style="margin-top:var(--space-5); width:100%;" data-act="clearAll">Reset all filters</button>
           </aside>
 
@@ -335,11 +388,12 @@ SftSRouter.defineRoute('/signals', async ({ root, query }) => {
   }
 
   function onClick(e) {
-    const t = e.target.closest('[data-tier], [data-theme], [data-cat], [data-days], [data-sort], [data-act], [data-persona]');
+    const t = e.target.closest('[data-tier], [data-theme], [data-cat], [data-country], [data-days], [data-sort], [data-act], [data-persona]');
     if (!t) return;
     if (t.dataset.tier !== undefined) SftSState.filters.tier = t.dataset.tier || null;
     else if (t.dataset.theme !== undefined) SftSState.filters.theme = t.dataset.theme || null;
     else if (t.dataset.cat !== undefined) SftSState.filters.category = t.dataset.cat;
+    else if (t.dataset.country !== undefined) SftSState.filters.country = t.dataset.country || null;
     else if (t.dataset.days !== undefined) SftSState.filters.dateWindow = (t.dataset.days === 'all') ? 'all' : parseInt(t.dataset.days, 10);
     else if (t.dataset.sort !== undefined) SftSState.filters.sort = t.dataset.sort;
     else if (t.dataset.persona !== undefined) SftSState.persona = t.dataset.persona;
