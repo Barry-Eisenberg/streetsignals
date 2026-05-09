@@ -221,6 +221,12 @@ SftSRouter.defineRoute('/signals', async ({ root, query }) => {
     const cc = categoryCounts();
     const tc = tierCounts();
     const thc = themeCounts();
+    const autoSignals = allSignals.filter(s => s._source === 'auto' && /^\d{4}-\d{2}-\d{2}/.test(s.date || ''));
+    const latestAutoDate = autoSignals.reduce((latest, s) => (!latest || s.date > latest ? s.date : latest), '');
+    const latestAutoCount = latestAutoDate ? autoSignals.filter(s => s.date === latestAutoDate).length : 0;
+    const freshnessText = latestAutoDate
+      ? `Data last refreshed: ${R.formatDate(latestAutoDate)} (${latestAutoCount} new auto signal${latestAutoCount === 1 ? '' : 's'})`
+      : 'Data last refreshed: unavailable';
 
     const hasDeepLink = f.theme || f.tier;
     const deeplinkBanner = hasDeepLink ? `<div class="filter-deeplink-banner">
@@ -239,6 +245,7 @@ SftSRouter.defineRoute('/signals', async ({ root, query }) => {
           </div>
           <h1>Signal <span class="accent">feed</span></h1>
           <p class="page-hero-lead">Every institutional signal we've ingested, scored, and mapped to a Decision Playbook theme. Filter by tier, theme, institution category, and date window — every view is a shareable URL.</p>
+          <div class="page-hero-freshness">${R.escapeHTML(freshnessText)}</div>
         </div>
 
         <div class="persona-bar">

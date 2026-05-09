@@ -266,6 +266,12 @@ body > * { position: relative; z-index: 1; }
   color: var(--color-text-muted);
   max-width: 64ch;
 }
+.page-hero-freshness {
+  margin-top: var(--space-4);
+  font-size: 0.82rem;
+  letter-spacing: 0.03em;
+  color: var(--color-text-soft);
+}
 
 /* ============================================================
    BUTTONS
