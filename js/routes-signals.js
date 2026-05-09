@@ -62,7 +62,7 @@ function syncFiltersToURL() {
   if (f.theme) u.set('theme', f.theme);
   if (f.tier) u.set('tier', f.tier);
   if (f.category && f.category !== 'all') u.set('cat', f.category);
-  if (f.dateWindow !== 30) u.set('days', f.dateWindow);
+  if (f.dateWindow !== 14) u.set('days', f.dateWindow);
   if (f.search) u.set('q', f.search);
   if (f.sort && f.sort !== 'recency') u.set('sort', f.sort);
   if (SftSState.persona && SftSState.persona !== 'all') u.set('persona', SftSState.persona);
@@ -424,7 +424,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
             </button>
             <button class="btn btn--outline btn--sm" id="shareLinkedInBtn" style="width:100%;">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-              Share to LinkedIn
+              Download
             </button>
           </div>
         </aside>
@@ -948,24 +948,22 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
         const canvas = _buildShareCanvas();
         canvas.toBlob(b => {
+          if (!b) {
+            throw new Error('Failed to generate image blob');
+          }
           const url = URL.createObjectURL(b);
           const a = document.createElement('a');
-          a.href = url; a.download = `sfts-${params.id}.png`; a.click();
+          a.href = url;
+          a.download = `sfts-${params.id}.png`;
+          a.click();
           URL.revokeObjectURL(url);
-          setTimeout(() => {
-            const signalUrl = encodeURIComponent(window.location.href);
-            window.open(
-              `https://www.linkedin.com/sharing/share-offsite/?url=${signalUrl}`,
-              'linkedin-share', 'width=550,height=680'
-            );
-            shareLinkedInBtn.disabled = false;
-            shareLinkedInBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>Share to LinkedIn';
-          }, 500);
+          shareLinkedInBtn.disabled = false;
+          shareLinkedInBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>Download';
         });
       } catch (e) {
-        console.error('LinkedIn share failed:', e);
+        console.error('Signal image download failed:', e);
         shareLinkedInBtn.disabled = false;
-        shareLinkedInBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>Share to LinkedIn';
+        shareLinkedInBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>Download';
       }
     });
   }

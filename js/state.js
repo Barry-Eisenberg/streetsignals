@@ -11,7 +11,7 @@ const State = {
     theme: null,        // 'tokenized' | 'stablecoins' | 'dlt' | null
     tier: null,         // 'Structural' | 'Material' | 'Context' | null
     category: 'all',    // institution category id
-    dateWindow: 30,     // days; 'all' for everything
+    dateWindow: 14,     // days; 'all' for everything
     country: null,      // country string fragment
     search: '',
     sort: 'recency'     // recency | importance | institution
@@ -80,7 +80,7 @@ const State = {
   resetFilters() {
     this.filters = {
       theme: null, tier: null, category: 'all',
-      dateWindow: 30, country: null, search: '', sort: 'recency'
+      dateWindow: 14, country: null, search: '', sort: 'recency'
     };
     this._saveToStorage();
     this.emit();
