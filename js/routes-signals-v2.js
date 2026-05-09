@@ -900,106 +900,6 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       ? Math.max(110, 16 + (marketSummaryLines.length * 13) + 7 + 11 + (marketInstitutionalLines.length * 12) + 5 + 11 + (marketOnchainLines.length * 12) + 10)
       : 0;
 
-    const ctaLineH = 17;
-    const ctaLabelH = 13;
-    const ctaStackH = ctaLabelH + 4 + ctaLineH * 3;
-    let playCardH = 168;
-    let gap1 = 10;
-    let gap2 = 9;
-    let gap3 = 10;
-    let gap4 = 10;
-    let gap5 = 8;
-    let footerGap = 10;
-    const footerH = 11;
-    const innerH = rightH - rPad * 2;
-    const baseUsed = eyebrowH + gap1 + recoHeadingH + gap2 + leadH + gap3 + playCardH + gap4 + marketCardH + gap5 + ctaStackH + footerGap + footerH;
-    let rightSlack = Math.max(0, innerH - baseUsed);
-    const cardGrow = Math.min(26, Math.round(rightSlack * 0.56));
-    playCardH += cardGrow;
-    rightSlack -= cardGrow;
-    gap1 += Math.round(rightSlack * 0.12);
-    gap2 += Math.round(rightSlack * 0.16);
-    gap3 += Math.round(rightSlack * 0.22);
-    gap4 += Math.round(rightSlack * 0.20);
-    gap5 += Math.round(rightSlack * 0.15);
-    rightSlack = Math.max(0, rightSlack - (gap1 - 10) - (gap2 - 9) - (gap3 - 10) - (gap4 - 10) - (gap5 - 8));
-    footerGap += rightSlack;
-
-    rCursor += gap1;
-    _scDrawLines(ctx, recoHeadingLines, RIGHT_X + rPad, rCursor, 18);
-    rCursor += recoHeadingH + gap2 + gap3;
-
-    // Play card.
-    const playY = rCursor;
-    ctx.fillStyle = 'rgba(255,255,255,0.05)';
-    ctx.strokeStyle = 'rgba(255,255,255,0.12)';
-    _scRoundRect(ctx, RIGHT_X + rPad, playY, rInnerW, playCardH, 8);
-    ctx.fill();
-    ctx.stroke();
-
-    if (reco) {
-      ctx.fillStyle = 'rgba(85,211,160,0.24)';
-      _scRoundRect(ctx, RIGHT_X + rPad + 10, playY + 12, 26, 26, 6);
-      ctx.fill();
-      ctx.fillStyle = '#65e3ae';
-      ctx.font = `800 14px ${_scFont}`;
-      ctx.textBaseline = 'middle';
-      ctx.fillText(String(reco.play.n), RIGHT_X + rPad + 20, playY + 25);
-      ctx.textBaseline = 'top';
-
-      ctx.fillStyle = '#f1f6fc';
-      ctx.font = `700 16px ${_scFont}`;
-      const playTitleLines = _scWrapLimit(ctx, reco.play.title, rInnerW - 48, 2);
-      _scDrawLines(ctx, playTitleLines, RIGHT_X + rPad + 44, playY + 12, 20);
-      const playTitleBottom = playY + 12 + playTitleLines.length * 20;
-
-      // Internal play-card text flow: compute line budgets from available height to prevent overlaps.
-      const cardInnerBottom = playY + playCardH - 12;
-      let cardCursor = Math.max(playTitleBottom + 8, playY + 54);
-
-      const oneLineH = 18;
-      const bestFitLabelH = 14;
-      const bestFitItemH = 15;
-      const audienceH = audienceLine ? 14 : 0;
-
-      const reserveAfterOneLiner = bestFitLabelH + 6 + bestFitItemH * 2 + 4;
-      const maxOneLines = Math.max(1, Math.min(3, Math.floor((cardInnerBottom - cardCursor - reserveAfterOneLiner) / oneLineH)));
-      ctx.fillStyle = '#b5c0cd';
-      ctx.font = `500 13px ${_scFont}`;
-      const oneLinerLines = _scWrapLimit(ctx, reco.play.oneliner, rInnerW - 20, maxOneLines);
-      _scDrawLines(ctx, oneLinerLines, RIGHT_X + rPad + 10, cardCursor, oneLineH);
-      cardCursor += oneLinerLines.length * oneLineH + 8;
-
-      // Best fit / recommended audiences section (replaces "Why this is the right move now:")
-      if (reco.play.bestFit && reco.play.bestFit.length > 0) {
-        ctx.fillStyle = '#d6dee8';
-        ctx.font = `700 12px ${_scFont}`;
-        ctx.fillText('Best fit for:', RIGHT_X + rPad + 10, cardCursor);
-        cardCursor += bestFitLabelH + 2;
-
-        const maxFitItems = Math.min(2, reco.play.bestFit.length, Math.floor((cardInnerBottom - cardCursor - 4) / bestFitItemH));
-        ctx.fillStyle = '#b5c0cd';
-        ctx.font = `500 11px ${_scFont}`;
-        for (let i = 0; i < maxFitItems; i++) {
-          const fitText = `• ${reco.play.bestFit[i].who}`;
-          ctx.fillText(_scTrunc(fitText, 42), RIGHT_X + rPad + 10, cardCursor);
-          cardCursor += bestFitItemH;
-        }
-        cardCursor += 4;
-      } else if (audienceLine && cardCursor + audienceH <= cardInnerBottom) {
-        ctx.fillStyle = '#d6dee8';
-        ctx.font = `700 12px ${_scFont}`;
-        ctx.fillText(`${audienceLine.who}:`, RIGHT_X + rPad + 10, cardCursor);
-      }
-    } else {
-      ctx.fillStyle = '#d6dee8';
-      ctx.font = `600 14px ${_scFont}`;
-      const noRecoLines = _scWrapLimit(ctx, 'Use this as strategic context while tracking adjacent institutional moves.', rInnerW - 20, 4);
-      _scDrawLines(ctx, noRecoLines, RIGHT_X + rPad + 10, playY + 24, 20);
-    }
-
-    rCursor = playY + playCardH + gap4;
-
     if (playbookSnapshot) {
       const marketY = rCursor;
       ctx.fillStyle = 'rgba(255,255,255,0.04)';
@@ -1035,8 +935,114 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       ctx.fillStyle = '#b5c0cd';
       ctx.font = `500 11px ${_scFont}`;
       _scDrawLines(ctx, marketOnchainLines, RIGHT_X + rPad + 10, marketCursor, 12);
-      rCursor = marketY + marketCardH + gap5;
+      rCursor = marketY + marketCardH + 8;
     }
+
+    const ctaLineH = 17;
+    const ctaLabelH = 13;
+    const ctaStackH = ctaLabelH + 4 + ctaLineH * 3;
+    let playCardH = 168;
+    let gap1 = 10;
+    let gap2 = 9;
+    let gap3 = 10;
+    let gap4 = 10;
+    let footerGap = 10;
+    const footerH = 11;
+    const innerH = rightH - rPad * 2;
+    const baseUsed = eyebrowH + (playbookSnapshot ? marketCardH + 8 : 0) + gap1 + recoHeadingH + gap2 + leadH + gap3 + playCardH + gap4 + ctaStackH + footerGap + footerH;
+    let rightSlack = Math.max(0, innerH - baseUsed);
+    const cardGrow = Math.min(26, Math.round(rightSlack * 0.56));
+    playCardH += cardGrow;
+    rightSlack -= cardGrow;
+    gap1 += Math.round(rightSlack * 0.12);
+    gap2 += Math.round(rightSlack * 0.16);
+    gap3 += Math.round(rightSlack * 0.22);
+    gap4 += Math.round(rightSlack * 0.20);
+    rightSlack = Math.max(0, rightSlack - (gap1 - 10) - (gap2 - 9) - (gap3 - 10) - (gap4 - 10));
+    footerGap += rightSlack;
+
+    rCursor += gap1;
+    _scDrawLines(ctx, recoHeadingLines, RIGHT_X + rPad, rCursor, 18);
+    rCursor += recoHeadingH + gap2 + gap3;
+
+    // Play card.
+    const playY = rCursor;
+    ctx.fillStyle = 'rgba(255,255,255,0.05)';
+    ctx.strokeStyle = 'rgba(255,255,255,0.12)';
+    _scRoundRect(ctx, RIGHT_X + rPad, playY, rInnerW, playCardH, 8);
+    ctx.fill();
+    ctx.stroke();
+
+    if (reco) {
+      ctx.fillStyle = 'rgba(85,211,160,0.24)';
+      const playBadgeX = RIGHT_X + rPad + 10;
+      const playBadgeY = playY + 12;
+      const playBadgeW = 26;
+      const playBadgeH = 26;
+      ctx.fillStyle = '#8f9aaa';
+      ctx.font = `700 10px ${_scFont}`;
+      ctx.textBaseline = 'middle';
+      ctx.fillText('Play:', playBadgeX, playBadgeY + 13);
+      ctx.fillStyle = 'rgba(85,211,160,0.24)';
+      _scRoundRect(ctx, playBadgeX + 34, playBadgeY, playBadgeW, playBadgeH, 6);
+      ctx.fill();
+      ctx.fillStyle = '#65e3ae';
+      ctx.font = `800 14px ${_scFont}`;
+      ctx.fillText(String(reco.play.n), playBadgeX + 47, playBadgeY + 13);
+      ctx.textBaseline = 'top';
+
+      ctx.fillStyle = '#f1f6fc';
+      ctx.font = `700 16px ${_scFont}`;
+      const playTitleLines = _scWrapLimit(ctx, reco.play.title, rInnerW - 72, 2);
+      _scDrawLines(ctx, playTitleLines, RIGHT_X + rPad + 70, playY + 12, 20);
+      const playTitleBottom = playY + 12 + playTitleLines.length * 20;
+
+      // Internal play-card text flow: compute line budgets from available height to prevent overlaps.
+      const cardInnerBottom = playY + playCardH - 12;
+      let cardCursor = Math.max(playTitleBottom + 8, playY + 54);
+
+      const oneLineH = 18;
+      const bestFitLabelH = 14;
+      const bestFitItemH = 15;
+      const audienceH = audienceLine ? 14 : 0;
+
+      const reserveAfterOneLiner = bestFitLabelH + 6 + bestFitItemH * 2 + 4;
+      const maxOneLines = Math.max(1, Math.min(3, Math.floor((cardInnerBottom - cardCursor - reserveAfterOneLiner) / oneLineH)));
+      ctx.fillStyle = '#b5c0cd';
+      ctx.font = `500 13px ${_scFont}`;
+      const oneLinerLines = _scWrapLimit(ctx, reco.play.oneliner, rInnerW - 20, maxOneLines);
+      _scDrawLines(ctx, oneLinerLines, RIGHT_X + rPad + 10, cardCursor, oneLineH);
+      cardCursor += oneLinerLines.length * oneLineH + 8;
+
+      // Best fit / recommended audiences section (replaces "Why this is the right move now:")
+      if (reco.play.bestFit && reco.play.bestFit.length > 0) {
+        ctx.fillStyle = '#d6dee8';
+        ctx.font = `700 12px ${_scFont}`;
+        ctx.fillText('Best fit for:', RIGHT_X + rPad + 10, cardCursor);
+        cardCursor += bestFitLabelH + 2;
+
+        const maxFitItems = Math.min(reco.play.bestFit.length, Math.floor((cardInnerBottom - cardCursor - 4) / bestFitItemH));
+        ctx.fillStyle = '#b5c0cd';
+        ctx.font = `500 11px ${_scFont}`;
+        for (let i = 0; i < maxFitItems; i++) {
+          const fitText = `• ${reco.play.bestFit[i].who}`;
+          ctx.fillText(_scTrunc(fitText, 42), RIGHT_X + rPad + 10, cardCursor);
+          cardCursor += bestFitItemH;
+        }
+        cardCursor += 4;
+      } else if (audienceLine && cardCursor + audienceH <= cardInnerBottom) {
+        ctx.fillStyle = '#d6dee8';
+        ctx.font = `700 12px ${_scFont}`;
+        ctx.fillText(`${audienceLine.who}:`, RIGHT_X + rPad + 10, cardCursor);
+      }
+    } else {
+      ctx.fillStyle = '#d6dee8';
+      ctx.font = `600 14px ${_scFont}`;
+      const noRecoLines = _scWrapLimit(ctx, 'Use this as strategic context while tracking adjacent institutional moves.', rInnerW - 20, 4);
+      _scDrawLines(ctx, noRecoLines, RIGHT_X + rPad + 10, playY + 24, 20);
+    }
+
+    rCursor = playY + playCardH + gap4;
 
     // Next actions — text list (static PNG: no interactive buttons)
     const ctaY = rCursor;
