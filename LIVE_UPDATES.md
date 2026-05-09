@@ -140,3 +140,26 @@ is no longer buried in other pages.
 
 - Country/region facet in Signals workspace remains pending until country data
   fields are available in source JSON files.
+
+## 2026-05-09 signal engagement tracking summary
+
+This release adds lightweight GA4-ready engagement tracking on signal detail pages.
+
+### Completed fixes
+
+- Added safe analytics event hooks in `js/routes-signals-v2.js` that emit to
+  `window.gtag` when available, and fall back to `window.dataLayer` push when
+  present.
+- Added signal-detail open event: `sfts_signal_open`.
+- Added click events with signal context payloads for:
+  - `sfts_read_source_click`
+  - `sfts_read_playbook_click`
+  - `sfts_discuss_nextfi_click`
+- Included event payload fields for signal-level attribution:
+  `signal_id`, `theme`, `tier`, `institution`, `persona`, and
+  `recommended_play` where applicable.
+
+### Operational outcome
+
+- Signal-level engagement instrumentation is now in place for core conversion
+  interactions from detail pages.

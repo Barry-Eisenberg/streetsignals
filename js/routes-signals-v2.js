@@ -73,6 +73,20 @@ function syncFiltersToURL() {
   }
 }
 
+function trackSignalEvent(eventName, payload) {
+  try {
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', eventName, payload || {});
+      return;
+    }
+    if (Array.isArray(window.dataLayer)) {
+      window.dataLayer.push(Object.assign({ event: eventName }, payload || {}));
+    }
+  } catch (e) {
+    // Non-blocking analytics hook.
+  }
+}
+
 // =====================================================================
 // /signals — workspace
 // =====================================================================
@@ -278,6 +292,14 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
   const overlays = themeId ? SftSData.overlayForTheme(themeId) : [];
   const related = SftSData.related(signal, 5);
 
+  trackSignalEvent('sfts_signal_open', {
+    signal_id: params.id,
+    theme: themeId || 'unmapped',
+    tier: signal._tier || 'unknown',
+    institution: signal.institution || 'unknown',
+    persona
+  });
+
   // Persona-aware audience match for play
   const audienceLine = reco?.play.bestFit?.find(b => {
     if (persona === 'asset_managers') return /asset manager/i.test(b.who);
@@ -329,7 +351,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
             <p class="detail-description">${R.escapeHTML((signal.description || '').replace(/[\u2026]$/, '').replace(/\.\.\.\s*$/, '').trimEnd())}</p>
             ${signal.description_truncated ? `<p class="detail-truncation-note">Full article available at source — preview only.</p>` : ''}
             ${signal.source_url ? `<p style="margin-top: var(--space-4);">
-              <a class="btn btn--outline btn--sm" href="${signal.source_url}" target="_blank" rel="noopener noreferrer">
+              <a class="btn btn--outline btn--sm" id="readSourceBtn" href="${signal.source_url}" target="_blank" rel="noopener noreferrer">
                 Read source ${R.extIcon}
               </a>
             </p>` : ''}
@@ -359,12 +381,12 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
             </div>
 
             <div class="action-actions">
-              <a class="btn btn--primary" href="${SftSPlaybooks.PLAYBOOKS[reco.themeId] ? '#/playbooks/' + reco.themeId : '#/playbooks'}">
+              <a class="btn btn--primary" id="readPlaybookBtn" href="${SftSPlaybooks.PLAYBOOKS[reco.themeId] ? '#/playbooks/' + reco.themeId : '#/playbooks'}">
                 Read the full Playbook
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
               </a>
               <a class="btn btn--outline" href="#/signals?theme=${reco.themeId}">See all ${R.escapeHTML(SftSPlaybooks.PLAYBOOKS[reco.themeId].short)} signals</a>
-              <a class="btn btn--ghost" href="https://nextfiadvisors.com/contact?signal_id=${params.id}&theme=${themeId || ''}&play=${reco?.play.n || ''}" target="_blank" rel="noopener noreferrer">Discuss with NextFi ${R.extIcon}</a>
+              <a class="btn btn--ghost" id="discussNextFiBtn" href="https://nextfiadvisors.com/contact?signal_id=${params.id}&theme=${themeId || ''}&play=${reco?.play.n || ''}" target="_blank" rel="noopener noreferrer">Discuss with NextFi ${R.extIcon}</a>
             </div>
           </div>
           ` : `
@@ -925,6 +947,48 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
   }
 
   const copyBtn = root.querySelector('#copyLinkBtn');
+  const sourceBtn = root.querySelector('#readSourceBtn');
+  const playbookBtn = root.querySelector('#readPlaybookBtn');
+  const discussBtn = root.querySelector('#discussNextFiBtn');
+
+  if (sourceBtn) {
+    sourceBtn.addEventListener('click', () => {
+      trackSignalEvent('sfts_read_source_click', {
+        signal_id: params.id,
+        theme: themeId || 'unmapped',
+        tier: signal._tier || 'unknown',
+        institution: signal.institution || 'unknown',
+        persona
+      });
+    });
+  }
+
+  if (playbookBtn) {
+    playbookBtn.addEventListener('click', () => {
+      trackSignalEvent('sfts_read_playbook_click', {
+        signal_id: params.id,
+        theme: themeId || 'unmapped',
+        recommended_play: String(reco?.play?.n || ''),
+        tier: signal._tier || 'unknown',
+        institution: signal.institution || 'unknown',
+        persona
+      });
+    });
+  }
+
+  if (discussBtn) {
+    discussBtn.addEventListener('click', () => {
+      trackSignalEvent('sfts_discuss_nextfi_click', {
+        signal_id: params.id,
+        theme: themeId || 'unmapped',
+        recommended_play: String(reco?.play?.n || ''),
+        tier: signal._tier || 'unknown',
+        institution: signal.institution || 'unknown',
+        persona
+      });
+    });
+  }
+
   if (copyBtn) {
     copyBtn.addEventListener('click', async () => {
       try {

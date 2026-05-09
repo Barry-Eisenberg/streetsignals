@@ -124,7 +124,8 @@ in production:
 15. **Track signal-level engagement.** Add GA4 events for: signal opens,
     "Read source" clicks, "Read full Playbook" clicks per signal id.
     After 30 days you'll know which signals actually convert into
-    playbook reads — feedback into the recommendation engine.
+   playbook reads — feedback into the recommendation engine.
+   **Status: complete (May 9, 2026).**
 
 ### Strategic / GTM
 
