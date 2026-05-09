@@ -883,13 +883,10 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const leadLines = [];
 
     ctx.font = `500 11px ${_scFont}`;
-    const rightTextX = RIGHT_X + rPad + 7;
-    const marketSummaryLines = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.summary || '', rInnerW - 20, 2) : [];
-    const marketInstitutionalLines = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.sftsBullets?.[0] || '', rInnerW - 20, 3) : [];
-    const marketOnchainLines = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.onchainBullets?.[0] || '', rInnerW - 20, 3) : [];
-    const marketMinH = playbookSnapshot
-      ? Math.max(132, 22 + (marketSummaryLines.length * 13) + 8 + 12 + (marketInstitutionalLines.length * 12) + 8 + 12 + (marketOnchainLines.length * 12) + 12)
-      : 0;
+    const rightTextX = RIGHT_X + rPad + 10;
+    const marketSummaryAll = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.summary || '', rInnerW - 20, 8) : [];
+    const marketInstitutionalAll = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.sftsBullets?.[0] || '', rInnerW - 20, 8) : [];
+    const marketOnchainAll = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.onchainBullets?.[0] || '', rInnerW - 20, 8) : [];
 
     ctx.fillStyle = '#f1f6fc';
     ctx.font = `700 14px ${_scFont}`;
@@ -904,12 +901,17 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
     const rightRailH = rightBottom - rightY;
     const splitGap = 10;
-    const actionsMinH = 18 + 8 + recoHeadingH + 10 + playMinH + 10 + 64 + 8 + 11 + (rPad * 2);
-    let marketCardH = marketMinH;
+    const ctaLineH = 17;
+    const ctaLabelH = 13;
+    const ctaStackH = ctaLabelH + 4 + ctaLineH * 3;
+    const actionsPreferredH = Math.max(190, 18 + 8 + recoHeadingH + 10 + playMinH + 10 + ctaStackH + 8 + 11 + (rPad * 2));
+    const marketFloorH = 150;
+    let actionsPanelH = rightRailH;
+    let marketCardH = 0;
     if (playbookSnapshot) {
-      const minUsed = marketMinH + actionsMinH + splitGap;
-      const extra = Math.max(0, rightRailH - minUsed);
-      marketCardH = marketMinH + Math.floor(extra * 0.92);
+      const maxActionsH = Math.max(176, rightRailH - splitGap - marketFloorH);
+      actionsPanelH = Math.min(actionsPreferredH, maxActionsH);
+      marketCardH = Math.max(marketFloorH, rightRailH - splitGap - actionsPanelH);
     }
 
     if (playbookSnapshot) {
@@ -920,6 +922,31 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       ctx.fill();
       ctx.stroke();
 
+      // Fit market text to card height without overflowing.
+      let summaryCount = Math.min(2, marketSummaryAll.length);
+      let institutionalCount = Math.min(3, marketInstitutionalAll.length);
+      let onchainCount = Math.min(3, marketOnchainAll.length);
+      const summaryLineH = 14;
+      const bodyLineH = 14;
+      const marketHeightFor = (s, i, o) => (
+        10 + 16 + (s * summaryLineH) + 10 + 13 + (i * bodyLineH) + 8 + 13 + (o * bodyLineH) + 10
+      );
+      while (
+        marketHeightFor(summaryCount, institutionalCount, onchainCount) > marketCardH &&
+        (onchainCount > 1 || institutionalCount > 1 || summaryCount > 1)
+      ) {
+        if (onchainCount >= institutionalCount && onchainCount >= summaryCount && onchainCount > 1) {
+          onchainCount -= 1;
+        } else if (institutionalCount >= summaryCount && institutionalCount > 1) {
+          institutionalCount -= 1;
+        } else if (summaryCount > 1) {
+          summaryCount -= 1;
+        }
+      }
+      const marketSummaryLines = marketSummaryAll.slice(0, summaryCount);
+      const marketInstitutionalLines = marketInstitutionalAll.slice(0, institutionalCount);
+      const marketOnchainLines = marketOnchainAll.slice(0, onchainCount);
+
       let marketCursor = marketY + 10;
       ctx.fillStyle = '#8f9aaa';
       ctx.font = `800 12px ${_scFont}`;
@@ -928,8 +955,8 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
       ctx.fillStyle = '#d9e2ec';
       ctx.font = `600 12px ${_scFont}`;
-      _scDrawLines(ctx, marketSummaryLines, rightTextX, marketCursor, 14);
-      marketCursor += marketSummaryLines.length * 14 + 10;
+      _scDrawLines(ctx, marketSummaryLines, rightTextX, marketCursor, summaryLineH);
+      marketCursor += marketSummaryLines.length * summaryLineH + 10;
 
       ctx.fillStyle = '#76e4c0';
       ctx.font = `700 11px ${_scFont}`;
@@ -937,8 +964,8 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       marketCursor += 13;
       ctx.fillStyle = '#b5c0cd';
       ctx.font = `500 12px ${_scFont}`;
-      _scDrawLines(ctx, marketInstitutionalLines, rightTextX, marketCursor, 14);
-      marketCursor += marketInstitutionalLines.length * 14 + 8;
+      _scDrawLines(ctx, marketInstitutionalLines, rightTextX, marketCursor, bodyLineH);
+      marketCursor += marketInstitutionalLines.length * bodyLineH + 8;
 
       ctx.fillStyle = '#76d1ff';
       ctx.font = `700 11px ${_scFont}`;
@@ -946,13 +973,13 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       marketCursor += 13;
       ctx.fillStyle = '#b5c0cd';
       ctx.font = `500 12px ${_scFont}`;
-      _scDrawLines(ctx, marketOnchainLines, rightTextX, marketCursor, 14);
+      _scDrawLines(ctx, marketOnchainLines, rightTextX, marketCursor, bodyLineH);
       rCursor = marketY + marketCardH + 10;
     }
 
     // Playbook/Actions are rendered in a separate lower card.
     const actionsPanelY = rightY + marketCardH + splitGap;
-    const actionsPanelH = rightBottom - actionsPanelY;
+    actionsPanelH = rightBottom - actionsPanelY;
     ctx.fillStyle = 'rgba(255,255,255,0.04)';
     ctx.strokeStyle = 'rgba(255,255,255,0.10)';
     _scRoundRect(ctx, RIGHT_X, actionsPanelY, RIGHT_W, actionsPanelH, 10);
