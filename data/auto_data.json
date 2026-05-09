@@ -78,7 +78,7 @@
     "year": "2026"
   },
   {
-    "institution": "CoinDesk",
+    "institution": "CME Group",
     "initiative": "CME is set to let traders bet on bitcoin volatility, not just price",
     "description": "CME Group plans to launch bitcoin volatility futures on June 1 pending regulatory approval bringing a easy way to bet on the degree of price swings.",
     "date": "2026-05-09",
@@ -170,7 +170,7 @@
     "year": "2026"
   },
   {
-    "institution": "crypto.news",
+    "institution": "Coinbase",
     "initiative": "US Senate Banking Committee Expected to Hold a Formal Vote on CLARITY Act as Early as Next Week",
     "description": "The Senate Banking Committee is expected to hold a formal CLARITY Act vote as early as next week, Coinbase said at Consensus 2026. Coinbase says the CLARITY Act is heading for a Senate Banking Committee vote as early as next… US Senate Banking Committee Expected to Hold a Formal Vote on CLARITY Act as Early as Next Week",
     "date": "2026-05-08",
@@ -187,7 +187,7 @@
     "year": "2026"
   },
   {
-    "institution": "crypto.news",
+    "institution": "Circle",
     "initiative": "Meta’s USDC pilot draws fire as Senator Warren demands stablecoin transparency",
     "description": "Warren’s letter asks Mark Zuckerberg to explain by May 20 which stablecoins and wallets Meta is using, how it selects issuers like Circle, what data it collects from linked wallets and how it will separate social and financial businesses. Senator… Meta’s USDC pilot draws fire as Senator Warren demands stablecoin transparency",
     "date": "2026-05-08",
@@ -264,7 +264,7 @@
     "year": "2026"
   },
   {
-    "institution": "crypto.news",
+    "institution": "ECB (European Central Bank)",
     "initiative": "Nagel warns Iran war is fueling inflation risks as ECB stays on alert",
     "description": "Acting Labor Secretary Sandlin’s push for earlier Fed cuts clashes with a cautious central bank, leaving crypto trading a “higher for longer” regime even as the political drumbeat for easing grows louder. Nagel, who heads Germany’s Bundesbank and sits on… Nagel warns Iran war is fueling inflation risks as ECB stays on alert",
     "date": "2026-05-08",
@@ -283,7 +283,7 @@
     "year": "2026"
   },
   {
-    "institution": "CoinDesk",
+    "institution": "OCC (Office of the Comptroller of the Currency)",
     "initiative": "Kraken parent goes for the OCC charter in bid to become a federal crypto bank",
     "description": "Payward’s application would add a federally regulated trust company to the Kraken group’s existing Wyoming bank charter and Fed master account.",
     "date": "2026-05-08",
@@ -362,15 +362,15 @@
     "year": "2026"
   },
   {
-    "institution": "CoinDesk",
+    "institution": "ECB (European Central Bank)",
     "initiative": "ECB's Lagarde’s digital euro warning: Why Europe shouldn’t just copy the U.S. stablecoin model",
     "description": "Lagarde warned that large stablecoins like Tether and USDC, which now dominate a $310 billion market, pose financial stability risks and could transmit stress to underlying asset markets during periods of turmoil.",
     "date": "2026-05-08",
     "source_url": "https://www.coindesk.com/business/2026/05/08/ecb-s-lagarde-warns-tether-and-circle-stablecoins-risk-digital-dollarisation-in-europe",
-    "category": "payments",
+    "category": "regulators",
     "source_name": "CoinDesk",
     "auto_generated": true,
-    "institution_type": "Payments Providers",
+    "institution_type": "Regulatory Agencies",
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Digital Currency & Stablecoins"
@@ -438,7 +438,7 @@
     "year": "2026"
   },
   {
-    "institution": "crypto.news",
+    "institution": "Mastercard",
     "initiative": "Ondo price breaks $0.30 resistance amid RWA growth, can it revisit January highs?",
     "description": "Ondo price surged above $0.30 after a JPMorgan-Mastercard tokenized Treasury pilot and strong Q1 growth pushed TVL to $3.53 billion. According to data from crypto.news, Ondo (ONDO) climbed to an intraday high near $0.40 on May 8 before slightly easing… Ondo price breaks $0.30 resistance amid RWA growth, can it revisit January highs?",
     "date": "2026-05-08",
@@ -459,7 +459,7 @@
     "year": "2026"
   },
   {
-    "institution": "CoinDesk",
+    "institution": "MoonPay",
     "initiative": "Stablecoins have their 'permission slip.' Now comes the hard part.",
     "description": "Executives from MoonPay, Ripple and Paxos said at Consensus Miami 2026 that regulation has accelerated stablecoin adoption, but infrastructure, privacy and distribution remain major hurdles.",
     "date": "2026-05-08",
@@ -869,7 +869,7 @@
     "year": "2026"
   },
   {
-    "institution": "crypto.news",
+    "institution": "U.S. Treasury Department",
     "initiative": "U.S. scrutiny grows as Binance defends compliance work",
     "description": "U.S. Treasury reportedly pressed Binance over its 2023 monitoring deal after claims of Iran-linked flows, as Binance says it is cooperating.",
     "date": "2026-05-08",
@@ -942,7 +942,7 @@
     "year": "2026"
   },
   {
-    "institution": "Ledger Insights",
+    "institution": "Coinbase",
     "initiative": "AWS unveils AI agent payments based on stablecoins",
     "description": "Amazon Web Services (AWS) has introduced one of the first end-to-end payment systems for AI agents, built in collaboration with Coinbase and Stripe. The new service, Amazon Bedrock AgentCore payments, enables AI agents to make micropayments to pay for API usage, web content or to pay other agents. There are now a few protocols for",
     "date": "2026-05-07",
@@ -1115,15 +1115,15 @@
     "year": "2026"
   },
   {
-    "institution": "Ledger Insights",
+    "institution": "DTCC",
     "initiative": "DTCC explores L1 blockchains for tokenization. Has scalability concerns",
     "description": "Yesterday at the Consensus event, DTCC CEO Frank La Salla revealed the organization is working with several L1 blockchains for its tokenization platform, which begins initial transactions in July ahead of a full October rollout. So far DTCC supports its own Ethereum compatible AppChain and the Canton Network, but the SEC no action letter it",
     "date": "2026-05-07",
     "source_url": "https://www.ledgerinsights.com/dtcc-explores-l1-blockchains-for-tokenization-has-scalability-concerns/",
-    "category": "ecosystem",
+    "category": "exchanges_intermediaries",
     "source_name": "Ledger Insights",
     "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
+    "institution_type": "Exchanges & Central Intermediaries",
     "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
       "General Infrastructure"
@@ -1175,7 +1175,7 @@
     "year": "2026"
   },
   {
-    "institution": "CoinDesk",
+    "institution": "Ripple",
     "initiative": "Ripple-linked XRP slips 25% below $1.42 as traders watch breakout",
     "description": "XRP pulled back even as Ripple and JPMorgan completed a cross-border tokenized Treasury settlement on XRPL, with price now testing whether the recent breakout structure can hold.",
     "date": "2026-05-07",
@@ -1214,7 +1214,7 @@
     "year": "2026"
   },
   {
-    "institution": "The Block",
+    "institution": "Canton Network",
     "initiative": "Crypto ETF boom continues with debut of first fund to track Canton",
     "description": "A new crypto exchange-traded fund has entered the chat — the 21shares Canton Network ETF made its debut on Nasdaq Thursday.",
     "date": "2026-05-07",
@@ -1390,7 +1390,7 @@
     "year": "2026"
   },
   {
-    "institution": "CoinDesk",
+    "institution": "Mastercard",
     "initiative": "SoFi’s crypto relaunch brought in $121.6 million in Q1. Almost all of it went to costs",
     "description": "The company launched the SoFiUSD stablecoin for enterprise payments in December and partnered with Mastercard for settlement capabilities.",
     "date": "2026-05-07",
@@ -1473,7 +1473,7 @@
     "year": "2026"
   },
   {
-    "institution": "crypto.news",
+    "institution": "Federal Reserve",
     "initiative": "US jobless claims come in at 200,000; strong labor data keeps pressure on crypto",
     "description": "Initial US jobless claims came in at 200,000 for the week ending May 2, beating the 205,000 consensus and reinforcing a picture of a still‑resilient labor market that keeps pressure on the Federal Reserve to delay or dilute rate cuts… US jobless claims come in at 200,000; strong labor data keeps pressure on crypto",
     "date": "2026-05-07",
@@ -1594,7 +1594,7 @@
     "year": "2026"
   },
   {
-    "institution": "crypto.news",
+    "institution": "Canton Network",
     "initiative": "Swiss bank AMINA brings Canton Coin into regulated finance",
     "description": "Swiss crypto bank AMINA has become the first FINMA-regulated lender to offer custody and trading support for Canton Coin. According to AMINA, the new integration gives clients regulated access to the Canton Network, a blockchain built for capital markets activity…",
     "date": "2026-05-07",
@@ -1701,7 +1701,7 @@
     "year": "2026"
   },
   {
-    "institution": "Mastercard",
+    "institution": "JPMorgan",
     "initiative": "Ripple, JPMorgan settle first cross-border tokenized Treasury redemption on XRP Ledger",
     "description": "The pilot, run with Ondo Finance and Mastercard, processed the redemption of Ondo's OUSG tokenized Treasury fund in under five seconds.",
     "date": "2026-05-07",
@@ -2234,10 +2234,10 @@
     "description": "HQLAᵡ, the DLT collateral mobility platform, can operate in the US under a no action letter received from the Securities and Exchange Commission (SEC). Eurex Clearing recently leveraged the platform to accept DLT-based collateral for margin purposes, one of the first instances worldwide at a traditional regulated venue. The key benefit is enabling instant transfer rather than waiting for T+1 or T+2 settlement. The SEC letter was addressed to both HQLAᵡ and Clearstream International, which acts as the trusted third party and collateral custodian. Underlying assets are locked in place and digital collateral receipts are issued that can be transferred instantly. HQLAᵡ is backed by Deutsche Börse and major banks including BNP Paribas, BNY, Citi, Goldman Sachs, HSBC, and JP Morgan. The platform currently runs on R3 Corda but plans to migrate to Canton technology. HQLAᵡ is also applying for a permanent conditional exemption from clearing agency registration; the no action letter provides 36 months of breathing space.",
     "date": "2026-05-06",
     "source_url": "https://www.ledgerinsights.com/dlt-collateral-mobility-platform-hqla%e1%b5%a1-gets-sec-no-action-letter-for-us-activity/",
-    "category": "global_banks",
+    "category": "regulators",
     "source_name": "Ledger Insights",
     "auto_generated": true,
-    "institution_type": "Global Banks",
+    "institution_type": "Regulatory Agencies",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Settlement & Clearing",
@@ -5311,15 +5311,15 @@
     "description_truncated": true
   },
   {
-    "institution": "Superstate",
+    "institution": "Coinbase",
     "initiative": "Coinbase CUSHY fund brings institutional credit on-chain ahead of Q2 launch",
     "description": "Coinbase Asset Management announced CUSHY on April 30, a tokenised stablecoin credit fund for qualified institutional investors running on Ethereum, Solana, and Base, with Apollo handling private credit origination, Superstate issuing tokenised shares via FundOS, and Northern Trust administering the…",
     "date": "2026-05-01",
     "source_url": "https://crypto.news/coinbase-cushy-credit-fund-targets-institutions/",
-    "category": "ecosystem",
+    "category": "exchanges_intermediaries",
     "source_name": "crypto.news",
     "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
+    "institution_type": "Exchanges & Central Intermediaries",
     "signal_type": "Product Launch",
     "fmi_areas": [
       "Digital Currency & Stablecoins"
@@ -6671,15 +6671,15 @@
     "year": "2026"
   },
   {
-    "institution": "FCA (Financial Conduct Authority, UK)",
+    "institution": "Digital Asset Exchange",
     "initiative": "UK invites crypto giant Bybit to London to win over some of UAE’s innovation shine",
     "description": "Bybit CEO Ben Zhou was invited to meetings in the U.K. this week with government-linked bodies including the FCA and House of Lords.",
     "date": "2026-04-21",
     "source_url": "https://www.coindesk.com/business/2026/04/21/uk-invites-crypto-giant-bybit-to-london-to-win-over-some-of-uae-s-innovation-shine",
-    "category": "regulators",
+    "category": "exchanges_intermediaries",
     "source_name": "CoinDesk",
     "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
+    "institution_type": "Exchanges & Central Intermediaries",
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
@@ -6969,15 +6969,15 @@
     "year": "2026"
   },
   {
-    "institution": "BNP Paribas",
+    "institution": "Fireblocks",
     "initiative": "A dozen banks want a euro stablecoin. Fireblocks is making it happen",
     "description": "The Qivalis consortium is made up of: Banca Sella, BBVA, BNP Paribas, CaixaBank, Danske Bank, DekaBank, DZ BANK, ING, KBC, Raiffeisen Bank International, SEB, and UniCredit.",
     "date": "2026-04-21",
     "source_url": "https://www.coindesk.com/business/2026/04/21/crypto-custody-firm-fireblocks-powers-bank-backed-euro-stablecoin",
-    "category": "global_banks",
+    "category": "ecosystem",
     "source_name": "CoinDesk",
     "auto_generated": true,
-    "institution_type": "Global Banks",
+    "institution_type": "Infrastructure & Technology",
     "signal_type": "Strategic Partnership",
     "fmi_areas": [
       "Digital Currency & Stablecoins"
@@ -6988,15 +6988,15 @@
     "year": "2026"
   },
   {
-    "institution": "Canton Network",
+    "institution": "Nomura",
     "initiative": "Japan’s JSCC partners with Mizuho, Nomura to test government bonds on blockchain",
     "description": "The proof-of-concept trial will test the onchain transfer and management of Japanese government bonds on Canton Network.",
     "date": "2026-04-21",
     "source_url": "https://www.theblock.co/post/398228/japan-jscc-tests-blockchain-government-bonds",
-    "category": "ecosystem",
+    "category": "asset_management",
     "source_name": "The Block",
     "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
+    "institution_type": "Asset & Investment Management",
     "signal_type": "Strategic Partnership",
     "fmi_areas": [
       "Payments & Transfers"
@@ -7044,7 +7044,7 @@
     "year": "2026"
   },
   {
-    "institution": "Digital Asset Holdings",
+    "institution": "Canton Network",
     "initiative": "Nomura, Mizuho, JSCC to trial tokenized collateral on Canton Network",
     "description": "Today Nomura, Mizuho and the Japan Securities Clearing Corporation (JSCC) and Digital Asset Holdings unveiled plans for a tokenized collateral trial for Japanese government bonds (JGBs) on the Canton Network. Two fo the proof of concept (PoC) participants, Nomura and Mizuho, were previously announced as participants of an FSA sandbox, the Payment Innovation Project (PIP)",
     "date": "2026-04-20",
@@ -7414,7 +7414,7 @@
     "year": "2026"
   },
   {
-    "institution": "Tether",
+    "institution": "Visa",
     "initiative": "Lydian launches Visa crypto card",
     "description": "Lydian, a digital assets payment infrastructure provider backed by Tether and Cantor Fitzgerald, is launching a co-branded Visa Platinum card issued by Rain.",
     "date": "2026-04-20",
@@ -7609,15 +7609,15 @@
     "year": "2026"
   },
   {
-    "institution": "Nasdaq",
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "NYSE files first SEC rule change on tokenization journey",
     "description": "The New York Stock Exchange (NYSE) has filed a rule change with the SEC to enable the trading of tokenized securities on its main order book. This closely mirrors a March Nasdaq rule change that allows stocks tokenized by the DTC to be traded in the same way as conventional stocks.",
     "date": "2026-04-17",
     "source_url": "https://www.ledgerinsights.com/nyse-files-first-sec-rule-change-on-tokenization-journey/",
-    "category": "exchanges_intermediaries",
+    "category": "regulators",
     "source_name": "Ledger Insights",
     "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
+    "institution_type": "Regulatory Agencies",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Trading & Exchange",
@@ -8800,15 +8800,15 @@
     "year": "2026"
   },
   {
-    "institution": "Anchorage Digital",
+    "institution": "Tether",
     "initiative": "Crypto's new $11 million PAC booked millions in ads with firm started by Tether US CEO",
     "description": "While Tether has been closely associated with the emerging political action committee, the opening funding came from Cantor Fitzgerald and Anchorage Digital.",
     "date": "2026-04-15",
     "source_url": "https://www.coindesk.com/policy/2026/04/15/crypto-s-new-usd11-million-pac-booked-millions-in-ads-with-firm-started-by-tether-us-ceo",
-    "category": "ecosystem",
+    "category": "payments",
     "source_name": "CoinDesk",
     "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
+    "institution_type": "Payments Providers",
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "General Infrastructure"
@@ -9014,7 +9014,7 @@
     "year": "2026"
   },
   {
-    "institution": "Federal Reserve",
+    "institution": "BIS (Bank for International Settlements)",
     "initiative": "BIS extends term for John Williams as Chair of the Markets Committee",
     "description": "John C. Williams, President and Chief Executive Officer of the Federal Reserve Bank of New York, is to continue as Chair of the Bank for International Settlements' Markets Committee.",
     "date": "2026-03-27",
