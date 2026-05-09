@@ -883,10 +883,11 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const leadLines = [];
 
     ctx.font = `500 11px ${_scFont}`;
-    const rightTextX = RIGHT_X + rPad + 10;
-    const marketSummaryAll = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.summary || '', rInnerW - 20, 8) : [];
-    const marketInstitutionalAll = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.sftsBullets?.[0] || '', rInnerW - 20, 8) : [];
-    const marketOnchainAll = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.onchainBullets?.[0] || '', rInnerW - 20, 8) : [];
+    const rightTextX = RIGHT_X + rPad + 8;
+    const marketTextMaxW = RIGHT_W - (rightTextX - RIGHT_X) - 10;
+    const marketSummaryAll = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.summary || '', marketTextMaxW, 8) : [];
+    const marketInstitutionalAll = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.sftsBullets?.[0] || '', marketTextMaxW, 8) : [];
+    const marketOnchainAll = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.onchainBullets?.[0] || '', marketTextMaxW, 8) : [];
 
     ctx.fillStyle = '#f1f6fc';
     ctx.font = `700 14px ${_scFont}`;
@@ -921,6 +922,11 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       _scRoundRect(ctx, RIGHT_X, marketY, RIGHT_W, marketCardH, 10);
       ctx.fill();
       ctx.stroke();
+
+      // Clip text drawing to the card bounds so dynamic content never spills outside.
+      ctx.save();
+      _scRoundRect(ctx, RIGHT_X + 1, marketY + 1, RIGHT_W - 2, marketCardH - 2, 9);
+      ctx.clip();
 
       // Fit market text to card height without overflowing.
       let summaryCount = Math.min(2, marketSummaryAll.length);
@@ -974,6 +980,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       ctx.fillStyle = '#b5c0cd';
       ctx.font = `500 12px ${_scFont}`;
       _scDrawLines(ctx, marketOnchainLines, rightTextX, marketCursor, bodyLineH);
+      ctx.restore();
       rCursor = marketY + marketCardH + 10;
     }
 
