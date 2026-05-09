@@ -875,25 +875,21 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     let rCursor = rightY + rPad;
     ctx.fillStyle = '#55d3a0';
     ctx.font = `700 11px ${_scFont}`;
-    ctx.fillText('WHAT THIS MEANS FOR YOU', RIGHT_X + rPad, rCursor);
+    ctx.fillText('PLAYBOOK & ACTIONS', RIGHT_X + rPad, rCursor);
     const eyebrowH = 11;
     rCursor += eyebrowH;
 
-    // Reco heading — fits full playbook label on one line where possible.
-    ctx.fillStyle = '#f1f5fb';
-    ctx.font = `800 14px ${_scFont}`;
+    // Reco heading combined with lead text as one paragraph block.
     const recoHeadingFull = playbook?.label || recommendationTitle;
-    const recoHeadingLines = _scWrapLimit(ctx, `Recommended Playbook · ${recoHeadingFull}`, rInnerW, 2);
-    const recoHeadingH = recoHeadingLines.length * 20;
-
-    // Lead text.
+    const combinedRecoText = reco
+      ? `Recommended Playbook · ${recoHeadingFull}, based on this signal's tier (${signal._tier}) and the ${SftSData.PERSONAS[persona].label} lens.`
+      : 'This signal is not directly mapped to a Decision Playbook theme.';
     ctx.fillStyle = '#b7c2cf';
     ctx.font = `500 13px ${_scFont}`;
-    const leadText = reco
-      ? `Based on this signal's tier (${signal._tier}) and the ${SftSData.PERSONAS[persona].label} lens.`
-      : 'This signal is not directly mapped to a Decision Playbook theme.';
-    const leadLines = _scWrapLimit(ctx, leadText, rInnerW, 2);
-    const leadH = leadLines.length * 18;
+    const recoHeadingLines = _scWrapLimit(ctx, combinedRecoText, rInnerW, 3);
+    const recoHeadingH = recoHeadingLines.length * 18;
+    const leadH = 0;
+    const leadLines = [];
 
     const ctaLineH = 17;
     const ctaLabelH = 13;
@@ -919,10 +915,8 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     footerGap += rightSlack;
 
     rCursor += gap1;
-    _scDrawLines(ctx, recoHeadingLines, RIGHT_X + rPad, rCursor, 20);
-    rCursor += recoHeadingH + gap2;
-    _scDrawLines(ctx, leadLines, RIGHT_X + rPad, rCursor, 18);
-    rCursor += leadH + gap3;
+    _scDrawLines(ctx, recoHeadingLines, RIGHT_X + rPad, rCursor, 18);
+    rCursor += recoHeadingH + gap2 + gap3;
 
     // Play card.
     const playY = rCursor;
@@ -976,7 +970,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
         ctx.fillStyle = '#b5c0cd';
         ctx.font = `500 11px ${_scFont}`;
         for (let i = 0; i < maxFitItems; i++) {
-          const fitText = `• ${reco.play.bestFit[i]}`;
+          const fitText = `• ${reco.play.bestFit[i].who}`;
           ctx.fillText(_scTrunc(fitText, 42), RIGHT_X + rPad + 10, cardCursor);
           cardCursor += bestFitItemH;
         }
