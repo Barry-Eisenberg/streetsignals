@@ -7,14 +7,21 @@ SftSRouter.defineRoute('/', async ({ root }) => {
   const recent14 = all.filter(s => s._daysOld !== null && s._daysOld <= 14);
   const structural = all.filter(s => s._tier === 'Structural');
   const material = all.filter(s => s._tier === 'Material');
+  const latestSourceDate = all.reduce((latest, signal) => {
+    const date = typeof signal.date === 'string' ? signal.date.slice(0, 10) : '';
+    if (!date) return latest;
+    return !latest || date > latest ? date : latest;
+  }, '');
+  const latestSourceLabel = latestSourceDate ? (() => {
+    const [year, month, day] = latestSourceDate.split('-');
+    const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    return monthNames[parseInt(month, 10) - 1] + ' ' + parseInt(day, 10) + ', ' + year;
+  })() : '—';
 
   // Top 4 priority (Structural, most recent)
   const priority = [...structural]
     .sort((a, b) => (a._daysOld || 999) - (b._daysOld || 999))
     .slice(0, 4);
-
-  // Last source date — use the data layer's anchor (latest parsed date)
-  const latest = SftSData.todayAnchor;
 
   root.innerHTML = `
     <section class="hub-hero">
@@ -41,7 +48,7 @@ SftSRouter.defineRoute('/', async ({ root }) => {
           <div class="live-strip-stat">
             <div class="label">Tracked signals</div>
             <div class="value tabular-nums">${all.length.toLocaleString()}</div>
-            <div class="sub">Latest source: ${R.formatDate(latest)}</div>
+            <div class="sub">Latest source: ${latestSourceLabel}</div>
           </div>
           <div class="live-strip-stat">
             <div class="label">Structural</div>
