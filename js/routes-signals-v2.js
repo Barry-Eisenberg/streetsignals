@@ -838,8 +838,8 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       belowHappenedBottom = chipTop + 26;
     }
 
-    // Why This Matters card — starts right after content, fills to leftBottom.
-    // whyY/whyH above were only used for happenedMaxLines budget; draw from actual position.
+    // Why This Is The Right Move Now card — starts right after content, fills to leftBottom.
+    // Uses playbook recommendation content instead of persona-based "why"
     const whyDrawY = belowHappenedBottom + 8;
     const whyDrawH = leftBottom - whyDrawY;
     ctx.fillStyle = 'rgba(45,220,255,0.06)';
@@ -850,13 +850,15 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.stroke();
     ctx.fillStyle = '#41cbe5';
     ctx.font = `700 12px ${_scFont}`;
-    ctx.fillText(`WHY THIS MATTERS · ${SftSData.PERSONAS[persona].label.toUpperCase()}`, PAD + 14, whyDrawY + 12);
+    ctx.fillText('WHY THIS IS THE RIGHT MOVE NOW', PAD + 14, whyDrawY + 12);
     ctx.fillStyle = '#b8c3d0';
     const whyBodyY = whyDrawY + 32;
     const whyMaxLines = Math.max(1, Math.floor((whyDrawH - whyHeaderH) / whyBodyLineH));
     ctx.font = `500 ${whyBodyFont}px ${_scFont}`;
-    const whyLines = whyAllLines.slice(0, whyMaxLines);
-    _scDrawLines(ctx, whyLines, PAD + 14, whyBodyY, whyBodyLineH);
+    // Use playbook's whyNow text if available, otherwise fall back to persona-based why
+    const whyNowText = (reco && reco.play && reco.play.whyNow) ? reco.play.whyNow : (why || '');
+    const whyNowLines = _scWrapLimit(ctx, whyNowText, LEFT_W - 28, whyMaxLines);
+    _scDrawLines(ctx, whyNowLines, PAD + 14, whyBodyY, whyBodyLineH);
 
     // ── RIGHT PANEL: fully dynamic layout ────────────────────────────────────
     const rightY = chipY;
@@ -951,11 +953,11 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       let cardCursor = Math.max(playTitleBottom + 8, playY + 54);
 
       const oneLineH = 18;
-      const whyLabelH = 14;
-      const whyBodyLineH = 17;
+      const bestFitLabelH = 14;
+      const bestFitItemH = 15;
       const audienceH = audienceLine ? 14 : 0;
 
-      const reserveAfterOneLiner = whyLabelH + 6 + whyBodyLineH + 8 + audienceH;
+      const reserveAfterOneLiner = bestFitLabelH + 6 + bestFitItemH * 2 + 4;
       const maxOneLines = Math.max(1, Math.min(3, Math.floor((cardInnerBottom - cardCursor - reserveAfterOneLiner) / oneLineH)));
       ctx.fillStyle = '#b5c0cd';
       ctx.font = `500 13px ${_scFont}`;
@@ -963,20 +965,23 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       _scDrawLines(ctx, oneLinerLines, RIGHT_X + rPad + 10, cardCursor, oneLineH);
       cardCursor += oneLinerLines.length * oneLineH + 8;
 
-      ctx.fillStyle = '#d6dee8';
-      ctx.font = `700 12px ${_scFont}`;
-      const whyLabelY = cardCursor;
-      ctx.fillText('Why this is the right move now:', RIGHT_X + rPad + 10, whyLabelY);
-      cardCursor += whyLabelH + 2;
+      // Best fit / recommended audiences section (replaces "Why this is the right move now:")
+      if (reco.play.bestFit && reco.play.bestFit.length > 0) {
+        ctx.fillStyle = '#d6dee8';
+        ctx.font = `700 12px ${_scFont}`;
+        ctx.fillText('Best fit for:', RIGHT_X + rPad + 10, cardCursor);
+        cardCursor += bestFitLabelH + 2;
 
-      const maxWhyLines = Math.max(1, Math.min(3, Math.floor((cardInnerBottom - cardCursor - audienceH - 4) / whyBodyLineH)));
-      ctx.fillStyle = '#b5c0cd';
-      ctx.font = `500 12px ${_scFont}`;
-      const whyNowLines = _scWrapLimit(ctx, reco.play.whyNow, rInnerW - 20, maxWhyLines);
-      _scDrawLines(ctx, whyNowLines, RIGHT_X + rPad + 10, cardCursor, whyBodyLineH);
-      cardCursor += whyNowLines.length * whyBodyLineH + 8;
-
-      if (audienceLine && cardCursor + audienceH <= cardInnerBottom) {
+        const maxFitItems = Math.min(reco.play.bestFit.length, Math.floor((cardInnerBottom - cardCursor - 4) / bestFitItemH));
+        ctx.fillStyle = '#b5c0cd';
+        ctx.font = `500 11px ${_scFont}`;
+        for (let i = 0; i < maxFitItems; i++) {
+          const fitText = `• ${reco.play.bestFit[i]}`;
+          ctx.fillText(_scTrunc(fitText, 42), RIGHT_X + rPad + 10, cardCursor);
+          cardCursor += bestFitItemH;
+        }
+        cardCursor += 4;
+      } else if (audienceLine && cardCursor + audienceH <= cardInnerBottom) {
         ctx.fillStyle = '#d6dee8';
         ctx.font = `700 12px ${_scFont}`;
         ctx.fillText(`${audienceLine.who}:`, RIGHT_X + rPad + 10, cardCursor);
