@@ -885,7 +885,10 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.font = `500 11px ${_scFont}`;
     const rightTextX = RIGHT_X + rPad + 8;
     const marketTextMaxW = RIGHT_W - (rightTextX - RIGHT_X) - 10;
+    // Wrap text using the same fonts we render with, otherwise measured width is wrong and lines clip.
+    ctx.font = `600 12px ${_scFont}`;
     const marketSummaryAll = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.summary || '', marketTextMaxW, 8) : [];
+    ctx.font = `500 12px ${_scFont}`;
     const marketInstitutionalAll = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.sftsBullets?.[0] || '', marketTextMaxW, 8) : [];
     const marketOnchainAll = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.onchainBullets?.[0] || '', marketTextMaxW, 8) : [];
 
