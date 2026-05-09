@@ -676,14 +676,15 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.scale(SCALE, SCALE);
 
     const PAD = 28;
-    const GAP = 18;
-    const LEFT_W = 760;
+    const GAP = 14;
+    const LEFT_W = 714;
     const RIGHT_X = PAD + LEFT_W + GAP;
     const RIGHT_W = W - PAD - RIGHT_X;
     const tc = _scTC;
     const tcRgb = _scHexRgb(tc);
     const themeLabel = theme?.short || 'Cross-theme';
     const playbook = reco ? SftSPlaybooks.PLAYBOOKS[reco.themeId] : null;
+    const playbookSnapshot = playbook?.snapshot || null;
     const recommendationTitle = playbook?.label || 'No mapped playbook';
     const initiativeType = (signal.initiative_types && signal.initiative_types[0]) || signal.signal_type || 'Initiative';
     const fmiArea = (signal.fmi_areas && signal.fmi_areas[0]) || 'FMI';
@@ -891,18 +892,27 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const leadH = 0;
     const leadLines = [];
 
+    ctx.font = `500 11px ${_scFont}`;
+    const marketSummaryLines = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.summary || '', rInnerW - 20, 2) : [];
+    const marketInstitutionalLines = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.sftsBullets?.[0] || '', rInnerW - 20, 2) : [];
+    const marketOnchainLines = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.onchainBullets?.[0] || '', rInnerW - 20, 2) : [];
+    const marketCardH = playbookSnapshot
+      ? Math.max(110, 16 + (marketSummaryLines.length * 13) + 7 + 11 + (marketInstitutionalLines.length * 12) + 5 + 11 + (marketOnchainLines.length * 12) + 10)
+      : 0;
+
     const ctaLineH = 17;
     const ctaLabelH = 13;
     const ctaStackH = ctaLabelH + 4 + ctaLineH * 3;
-    let playCardH = 214;
+    let playCardH = 168;
     let gap1 = 10;
     let gap2 = 9;
     let gap3 = 10;
     let gap4 = 10;
+    let gap5 = 8;
     let footerGap = 10;
     const footerH = 11;
     const innerH = rightH - rPad * 2;
-    const baseUsed = eyebrowH + gap1 + recoHeadingH + gap2 + leadH + gap3 + playCardH + gap4 + ctaStackH + footerGap + footerH;
+    const baseUsed = eyebrowH + gap1 + recoHeadingH + gap2 + leadH + gap3 + playCardH + gap4 + marketCardH + gap5 + ctaStackH + footerGap + footerH;
     let rightSlack = Math.max(0, innerH - baseUsed);
     const cardGrow = Math.min(26, Math.round(rightSlack * 0.56));
     playCardH += cardGrow;
@@ -911,7 +921,8 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     gap2 += Math.round(rightSlack * 0.16);
     gap3 += Math.round(rightSlack * 0.22);
     gap4 += Math.round(rightSlack * 0.20);
-    rightSlack = Math.max(0, rightSlack - (gap1 - 10) - (gap2 - 9) - (gap3 - 10) - (gap4 - 10));
+    gap5 += Math.round(rightSlack * 0.15);
+    rightSlack = Math.max(0, rightSlack - (gap1 - 10) - (gap2 - 9) - (gap3 - 10) - (gap4 - 10) - (gap5 - 8));
     footerGap += rightSlack;
 
     rCursor += gap1;
@@ -966,7 +977,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
         ctx.fillText('Best fit for:', RIGHT_X + rPad + 10, cardCursor);
         cardCursor += bestFitLabelH + 2;
 
-        const maxFitItems = Math.min(reco.play.bestFit.length, Math.floor((cardInnerBottom - cardCursor - 4) / bestFitItemH));
+        const maxFitItems = Math.min(2, reco.play.bestFit.length, Math.floor((cardInnerBottom - cardCursor - 4) / bestFitItemH));
         ctx.fillStyle = '#b5c0cd';
         ctx.font = `500 11px ${_scFont}`;
         for (let i = 0; i < maxFitItems; i++) {
@@ -988,6 +999,44 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     }
 
     rCursor = playY + playCardH + gap4;
+
+    if (playbookSnapshot) {
+      const marketY = rCursor;
+      ctx.fillStyle = 'rgba(255,255,255,0.04)';
+      ctx.strokeStyle = 'rgba(255,255,255,0.10)';
+      _scRoundRect(ctx, RIGHT_X + rPad, marketY, rInnerW, marketCardH, 8);
+      ctx.fill();
+      ctx.stroke();
+
+      let marketCursor = marketY + 10;
+      ctx.fillStyle = '#8f9aaa';
+      ctx.font = `700 10px ${_scFont}`;
+      ctx.fillText('CURRENT MARKET PICTURE', RIGHT_X + rPad + 10, marketCursor);
+      marketCursor += 12;
+
+      ctx.fillStyle = '#d9e2ec';
+      ctx.font = `600 11px ${_scFont}`;
+      _scDrawLines(ctx, marketSummaryLines, RIGHT_X + rPad + 10, marketCursor, 13);
+      marketCursor += marketSummaryLines.length * 13 + 8;
+
+      ctx.fillStyle = '#76e4c0';
+      ctx.font = `700 10px ${_scFont}`;
+      ctx.fillText('Institutional signals', RIGHT_X + rPad + 10, marketCursor);
+      marketCursor += 12;
+      ctx.fillStyle = '#b5c0cd';
+      ctx.font = `500 11px ${_scFont}`;
+      _scDrawLines(ctx, marketInstitutionalLines, RIGHT_X + rPad + 10, marketCursor, 12);
+      marketCursor += marketInstitutionalLines.length * 12 + 6;
+
+      ctx.fillStyle = '#76d1ff';
+      ctx.font = `700 10px ${_scFont}`;
+      ctx.fillText('On-chain flows', RIGHT_X + rPad + 10, marketCursor);
+      marketCursor += 12;
+      ctx.fillStyle = '#b5c0cd';
+      ctx.font = `500 11px ${_scFont}`;
+      _scDrawLines(ctx, marketOnchainLines, RIGHT_X + rPad + 10, marketCursor, 12);
+      rCursor = marketY + marketCardH + gap5;
+    }
 
     // Next actions — text list (static PNG: no interactive buttons)
     const ctaY = rCursor;
