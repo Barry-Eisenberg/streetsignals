@@ -73,6 +73,12 @@ SftSRouter.defineRoute('/playbooks/:themeId', async ({ params, root }) => {
   const stats = SftSData.themeStats(themeId);
   const themeSignals = SftSData.byTheme(themeId);
   const overlays = SftSData.overlayForTheme(themeId);
+  const playbookContactHref = R.nextFiContactUrl({
+    context: 'playbook_detail',
+    themeId,
+    signalTitle: pb.label,
+    sourceUrl: window.location.href
+  });
 
   // Top signals supporting each play (use audienceMatch + tier alignment)
   function signalsForPlay(play) {
@@ -208,7 +214,7 @@ SftSRouter.defineRoute('/playbooks/:themeId', async ({ params, root }) => {
             ${pb.nextfi.bullets.map(b => `<li style="margin-bottom: var(--space-2);">${R.escapeHTML(b)}</li>`).join('')}
           </ul>
           <div class="cluster">
-            ${pb.nextfi.ctas.map(c => `<a class="btn ${c.primary ? 'btn--primary' : 'btn--outline'}" href="https://nextfiadvisors.com/contact" target="_blank" rel="noopener noreferrer">${R.escapeHTML(c.label)} ${R.extIcon}</a>`).join('')}
+            ${pb.nextfi.ctas.map(c => `<a class="btn ${c.primary ? 'btn--primary' : 'btn--outline'}" href="${playbookContactHref}" target="_blank" rel="noopener noreferrer">${R.escapeHTML(c.label)} ${R.extIcon}</a>`).join('')}
           </div>
         </div>
       </section>

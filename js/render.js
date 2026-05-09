@@ -167,8 +167,44 @@ function emptyState({ title, body, ctaLabel, ctaHref, icon } = {}) {
 // ---- External-link icon ----
 const extIcon = `<svg class="ext-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 5h5v5M19 5l-9 9M19 12v6a1 1 0 01-1 1H6a1 1 0 01-1-1V6a1 1 0 011-1h6"/></svg>`;
 
+function nextFiContactUrl(ctx = {}) {
+  const params = new URLSearchParams();
+  const context = String(ctx.context || 'general').trim();
+  const signalId = String(ctx.signalId || '').trim();
+  const signalTitle = String(ctx.signalTitle || '').trim();
+  const institution = String(ctx.institution || '').trim();
+  const themeId = String(ctx.themeId || '').trim();
+  const play = String(ctx.play || '').trim();
+  const sourceUrl = String(ctx.sourceUrl || (typeof window !== 'undefined' ? window.location.href : '')).trim();
+
+  params.set('source', 'sfts');
+  params.set('context', context);
+  if (themeId) params.set('theme', themeId);
+  if (play) params.set('play', play);
+  if (signalId) params.set('signal_id', signalId);
+  if (signalTitle) params.set('signal_title', signalTitle);
+  if (institution) params.set('institution', institution);
+  if (sourceUrl) params.set('referrer_url', sourceUrl);
+
+  const lines = [
+    'Hi NextFi team,',
+    '',
+    'I would like to discuss this Signals from the Street context:'
+  ];
+  if (signalTitle) lines.push(`Signal: ${signalTitle}`);
+  if (institution) lines.push(`Institution: ${institution}`);
+  if (themeId) lines.push(`Theme: ${themeId}`);
+  if (play) lines.push(`Recommended play: ${play}`);
+  if (sourceUrl) lines.push(`Source URL: ${sourceUrl}`);
+  lines.push('', 'Please follow up with me.');
+
+  params.set('message', lines.join('\n'));
+  return `https://nextfiadvisors.com/contact?${params.toString()}`;
+}
+
 window.R = {
   escapeHTML, formatDate, relativeDate, fmtCompact, fmtPct,
   tierPill, themeTag, themeTagsFor, catTag,
-  signalRow, themeCard, skeletonRows, emptyState, extIcon
+  signalRow, themeCard, skeletonRows, emptyState, extIcon,
+  nextFiContactUrl
 };

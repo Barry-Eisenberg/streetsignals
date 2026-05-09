@@ -128,6 +128,11 @@ tier =
 });
 
 SftSRouter.defineRoute('/about', async ({ root }) => {
+  const aboutContactHref = R.nextFiContactUrl({
+    context: 'about_page',
+    signalTitle: 'SftS about page inquiry',
+    sourceUrl: window.location.href
+  });
   root.innerHTML = `
     <section class="container container--wide">
       <div class="page-hero">
@@ -158,7 +163,7 @@ SftSRouter.defineRoute('/about', async ({ root }) => {
             <p style="color: var(--color-text-muted); margin-bottom: var(--space-4);">NextFi Advisors is a boutique advisory firm focused on the institutional adoption of blockchain-based financial market infrastructure. We work with banks, asset managers, custodians, FMIs, and fintech infrastructure providers on strategy, product, and partnership decisions in tokenized funds, stablecoins, and DLT-based market infrastructure.</p>
             <p style="color: var(--color-text-muted);">SftS is the public artifact of our private research. The methodology, taxonomy, and signal data are open. The strategic interpretation is what we sell.</p>
             <div style="margin-top: var(--space-5);">
-              <a class="btn btn--primary" href="https://nextfiadvisors.com/contact" target="_blank" rel="noopener noreferrer">Work with NextFi ${R.extIcon}</a>
+              <a class="btn btn--primary" href="${aboutContactHref}" target="_blank" rel="noopener noreferrer">Work with NextFi ${R.extIcon}</a>
               <a class="btn btn--ghost" href="https://nextfiadvisors.com" target="_blank" rel="noopener noreferrer" style="margin-left: var(--space-3);">nextfiadvisors.com ${R.extIcon}</a>
             </div>
           </div>
@@ -189,7 +194,7 @@ SftSRouter.defineRoute('/about', async ({ root }) => {
           <h3>Want a private positioning brief?</h3>
           <p>NextFi delivers boardroom-ready positioning briefs that combine SftS signal density with private institutional context, qualitative interviews, and our in-house playbook recommendations.</p>
           <div class="cluster">
-            <a class="btn btn--primary" href="https://nextfiadvisors.com/contact" target="_blank" rel="noopener noreferrer">Get in touch ${R.extIcon}</a>
+            <a class="btn btn--primary" href="${aboutContactHref}" target="_blank" rel="noopener noreferrer">Get in touch ${R.extIcon}</a>
             <a class="btn btn--outline" href="#/methodology">Methodology</a>
           </div>
         </div>

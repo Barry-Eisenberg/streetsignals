@@ -277,6 +277,15 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
   const themeColor = theme?.color || 'var(--color-primary)';
   const overlays = themeId ? SftSData.overlayForTheme(themeId) : [];
   const related = SftSData.related(signal, 5);
+  const discussNextFiHref = R.nextFiContactUrl({
+    context: 'signal_detail',
+    signalId: params.id,
+    signalTitle: signal.initiative || '',
+    institution: signal.institution || '',
+    themeId: themeId || '',
+    play: reco?.play?.n || '',
+    sourceUrl: window.location.href
+  });
 
   // Persona-aware audience match for play
   const audienceLine = reco?.play.bestFit?.find(b => {
@@ -364,7 +373,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
               </a>
               <a class="btn btn--outline" href="#/signals?theme=${reco.themeId}">See all ${R.escapeHTML(SftSPlaybooks.PLAYBOOKS[reco.themeId].short)} signals</a>
-              <a class="btn btn--ghost" href="https://nextfiadvisors.com/contact?signal_id=${params.id}&theme=${themeId || ''}&play=${reco?.play.n || ''}" target="_blank" rel="noopener noreferrer">Discuss with NextFi ${R.extIcon}</a>
+              <a class="btn btn--ghost" href="${discussNextFiHref}" target="_blank" rel="noopener noreferrer">Discuss with NextFi ${R.extIcon}</a>
             </div>
           </div>
           ` : `

@@ -116,6 +116,15 @@ function statusFromScores(you, peer) {
   return { label: 'Aligned', cls: 'status-aligned' };
 }
 
+function radarContactHref(inst, peer) {
+  return R.nextFiContactUrl({
+    context: 'radar_request',
+    institution: inst || '',
+    signalTitle: `Radar request: ${inst || 'Institution'} vs ${peer || 'Peer group'}`,
+    sourceUrl: window.location.href
+  });
+}
+
 SftSRouter.defineRoute('/radar', async ({ root, query }) => {
   const featured = getFeaturedInstitutions();
   // Pull from query if present
@@ -208,7 +217,7 @@ SftSRouter.defineRoute('/radar', async ({ root, query }) => {
             <h3>Get a tailored radar for your institution</h3>
             <p>The public radar uses public-signal density. NextFi delivers private radars that combine internal positioning data, qualitative interviews, and SftS signal density into a single boardroom-ready brief.</p>
             <div class="cluster">
-              <a class="btn btn--primary" href="https://nextfiadvisors.com/contact" target="_blank" rel="noopener noreferrer">Request a private radar ${R.extIcon}</a>
+              <a class="btn btn--primary" href="${radarContactHref(selectedInst, selectedPeer)}" target="_blank" rel="noopener noreferrer">Request a private radar ${R.extIcon}</a>
               <a class="btn btn--outline" href="#/methodology">How scoring works</a>
             </div>
           </div>
