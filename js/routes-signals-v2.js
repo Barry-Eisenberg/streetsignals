@@ -883,6 +883,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const leadLines = [];
 
     ctx.font = `500 11px ${_scFont}`;
+    const rightTextX = RIGHT_X + rPad + 10;
     const marketSummaryLines = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.summary || '', rInnerW - 20, 2) : [];
     const marketInstitutionalLines = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.sftsBullets?.[0] || '', rInnerW - 20, 3) : [];
     const marketOnchainLines = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.onchainBullets?.[0] || '', rInnerW - 20, 3) : [];
@@ -908,7 +909,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     if (playbookSnapshot) {
       const minUsed = marketMinH + actionsMinH + splitGap;
       const extra = Math.max(0, rightRailH - minUsed);
-      marketCardH = marketMinH + Math.floor(extra * 0.75);
+      marketCardH = marketMinH + Math.floor(extra * 0.92);
     }
 
     if (playbookSnapshot) {
@@ -922,30 +923,30 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       let marketCursor = marketY + 10;
       ctx.fillStyle = '#8f9aaa';
       ctx.font = `800 12px ${_scFont}`;
-      ctx.fillText('CURRENT MARKET PICTURE', RIGHT_X + rPad + 12, marketCursor);
+      ctx.fillText('CURRENT MARKET PICTURE', rightTextX, marketCursor);
       marketCursor += 14;
 
       ctx.fillStyle = '#d9e2ec';
       ctx.font = `600 11px ${_scFont}`;
-      _scDrawLines(ctx, marketSummaryLines, RIGHT_X + rPad + 12, marketCursor, 13);
+      _scDrawLines(ctx, marketSummaryLines, rightTextX, marketCursor, 13);
       marketCursor += marketSummaryLines.length * 13 + 8;
 
       ctx.fillStyle = '#76e4c0';
       ctx.font = `700 10px ${_scFont}`;
-      ctx.fillText('Institutional signals', RIGHT_X + rPad + 12, marketCursor);
+      ctx.fillText('Institutional signals', rightTextX, marketCursor);
       marketCursor += 12;
       ctx.fillStyle = '#b5c0cd';
       ctx.font = `500 11px ${_scFont}`;
-      _scDrawLines(ctx, marketInstitutionalLines, RIGHT_X + rPad + 12, marketCursor, 12);
+      _scDrawLines(ctx, marketInstitutionalLines, rightTextX, marketCursor, 12);
       marketCursor += marketInstitutionalLines.length * 12 + 6;
 
       ctx.fillStyle = '#76d1ff';
       ctx.font = `700 10px ${_scFont}`;
-      ctx.fillText('On-chain flows', RIGHT_X + rPad + 12, marketCursor);
+      ctx.fillText('On-chain flows', rightTextX, marketCursor);
       marketCursor += 12;
       ctx.fillStyle = '#b5c0cd';
       ctx.font = `500 11px ${_scFont}`;
-      _scDrawLines(ctx, marketOnchainLines, RIGHT_X + rPad + 12, marketCursor, 12);
+      _scDrawLines(ctx, marketOnchainLines, rightTextX, marketCursor, 12);
       rCursor = marketY + marketCardH + 10;
     }
 
@@ -1017,8 +1018,17 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       const playTitleX = playBadgeX + playBadgeW + 10;
       const playTitleY = playHeaderY + 4;
       const playTitleLines = _scWrapLimit(ctx, reco.play.title, rInnerW - (playTitleX - (RIGHT_X + rPad)) - 6, 2);
-      _scDrawLines(ctx, playTitleLines, playTitleX, playTitleY, 18);
-      const playTitleBottom = playTitleY + playTitleLines.length * 18;
+      ctx.textBaseline = 'middle';
+      if (playTitleLines.length > 0) {
+        ctx.fillText(playTitleLines[0], playTitleX, playBadgeY + playBadgeH / 2 + 0.5);
+      }
+      if (playTitleLines.length > 1) {
+        ctx.textBaseline = 'top';
+        ctx.fillText(playTitleLines[1], playTitleX, playBadgeY + playBadgeH + 5);
+      }
+      const playTitleBottom = playTitleLines.length > 1
+        ? playBadgeY + playBadgeH + 5 + 18
+        : playBadgeY + playBadgeH;
       ctx.textBaseline = 'top';
 
       // Internal play-card text flow: compute line budgets from available height to prevent overlaps.
