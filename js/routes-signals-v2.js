@@ -87,6 +87,76 @@ function trackSignalEvent(eventName, payload) {
   }
 }
 
+function normalizeWhatHappenedText(rawText, headline) {
+  let text = String(rawText || '')
+    .replace(/\s+/g, ' ')
+    .replace(/[\u2026]$/, '')
+    .replace(/\.\.\.\s*$/, '')
+    .trim();
+
+  const cleanHeadline = String(headline || '').replace(/\s+/g, ' ').trim();
+  if (cleanHeadline) {
+    const escapedHeadline = cleanHeadline.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const trailingHeadline = new RegExp(`(?:\\s|[.:-])*(?:${escapedHeadline})\\s*$`, 'i');
+    text = text.replace(trailingHeadline, '').trim();
+
+    // If the final short sentence repeats the same opening subject as the
+    // headline, it is often a broken tail from auto-ingest. Drop it.
+    const sentenceParts = text.split(/(?<=[.!?])\s+/).filter(Boolean);
+    if (sentenceParts.length >= 2) {
+      const last = sentenceParts[sentenceParts.length - 1].trim();
+      const firstWordHeadline = cleanHeadline.split(/\s+/)[0] || '';
+      const firstWordLast = last.split(/\s+/)[0] || '';
+      if (
+        last.length <= 48 &&
+        firstWordHeadline &&
+        firstWordLast &&
+        firstWordHeadline.toLowerCase() === firstWordLast.toLowerCase()
+      ) {
+        sentenceParts.pop();
+        text = sentenceParts.join(' ').trim();
+      }
+    }
+  }
+
+  // Ensure first alphabetical character starts uppercase.
+  text = text.replace(/^([^A-Za-z]*)([a-z])/, (_, lead, c) => `${lead}${c.toUpperCase()}`);
+
+  if (text && !/[.!?]$/.test(text)) text += '.';
+  return text;
+}
+
+function buildWhatHappenedContext(signal) {
+  const signalType = (signal.signal_type || '').trim();
+  const fmi = (signal.fmi_areas || []).slice(0, 2);
+  const initiatives = (signal.initiative_types || []).slice(0, 2);
+  const parts = [];
+
+  if (signalType) parts.push(`classified as ${signalType}`);
+  if (fmi.length) parts.push(`touching ${fmi.join(' and ')}`);
+  if (initiatives.length) parts.push(`mapped to ${initiatives.join(' and ')}`);
+
+  if (!parts.length) return '';
+  return `This signal is ${parts.join(', ')}.`;
+}
+
+function getWhatHappenedText(signal) {
+  const headline = signal.initiative || '';
+  let text = normalizeWhatHappenedText(signal.description || '', headline);
+
+  if (!text && headline) text = normalizeWhatHappenedText(headline, '');
+
+  const sentenceCount = (text.match(/[.!?](\s|$)/g) || []).length;
+  const lowDetail = text.length < 180 || sentenceCount < 2;
+  const contextLine = buildWhatHappenedContext(signal);
+
+  if (lowDetail && contextLine && !text.toLowerCase().includes(contextLine.toLowerCase())) {
+    text = `${text} ${contextLine}`.trim();
+  }
+
+  return text;
+}
+
 // =====================================================================
 // /signals — workspace
 // =====================================================================
@@ -320,6 +390,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
   const themeCrumb = theme
     ? `<a href="${theme.href}">${R.escapeHTML(theme.label)}</a> <span class="detail-breadcrumb-sep">→</span>`
     : '';
+  const whatHappenedText = getWhatHappenedText(signal);
 
   root.innerHTML = `
     <div class="container container--wide">
@@ -357,7 +428,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
           <div class="detail-section">
             <h3>What happened</h3>
-            <p class="detail-description">${R.escapeHTML((signal.description || '').replace(/[\u2026]$/, '').replace(/\.\.\.\s*$/, '').trimEnd())}</p>
+            <p class="detail-description">${R.escapeHTML(whatHappenedText)}</p>
             ${signal.description_truncated ? `<p class="detail-truncation-note">Full article available at source — preview only.</p>` : ''}
             ${signal.source_url ? `<p style="margin-top: var(--space-4);">
               <a class="btn btn--outline btn--sm" id="readSourceBtn" href="${signal.source_url}" target="_blank" rel="noopener noreferrer">
@@ -734,7 +805,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.fillText('What happened', PAD, happenedY);
     ctx.fillStyle = '#a8b3c1';
     ctx.font = `500 16px ${_scFont}`;
-    const happenedDesc = (signal.description || '').replace(/\u2026$/, '').replace(/\.\.\.\s*$/, '').trimEnd();
+    const happenedDesc = getWhatHappenedText(signal);
     const happenedLines = _scWrapLimit(ctx, happenedDesc, LEFT_W - 10, happenedMaxLines);
     _scDrawLines(ctx, happenedLines, PAD, happenedY + 26, happenedLineH);
     const happenedBottom = happenedY + 26 + happenedLines.length * happenedLineH;
