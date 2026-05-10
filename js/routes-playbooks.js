@@ -60,8 +60,9 @@ SftSRouter.defineRoute('/playbooks', async ({ root }) => {
 });
 
 // /playbooks/:themeId — detail
-SftSRouter.defineRoute('/playbooks/:themeId', async ({ params, root }) => {
+SftSRouter.defineRoute('/playbooks/:themeId', async ({ params, query, root }) => {
   const themeId = params.themeId;
+  const playParam = query?.play ? parseInt(query.play, 10) : null;
   const pb = SftSPlaybooks.PLAYBOOKS[themeId];
   if (!pb) {
     root.innerHTML = `<div class="container site-section">${R.emptyState({
@@ -166,7 +167,7 @@ SftSRouter.defineRoute('/playbooks/:themeId', async ({ params, root }) => {
         <div class="play-list" style="margin-top: var(--space-6);">
           ${pb.plays.map(play => {
             const supporting = signalsForPlay(play);
-            return `<div class="play-card" style="--theme-color:${themeColor}">
+            return `<div class="play-card" id="play-${play.n}" style="--theme-color:${themeColor}">
               <div class="play-card-head">
                 <div class="play-card-num">${play.n}</div>
                 <div class="play-card-title">
@@ -220,4 +221,14 @@ SftSRouter.defineRoute('/playbooks/:themeId', async ({ params, root }) => {
       </section>
     </div>
   `;
+  
+  // Scroll to specific play if requested
+  if (playParam) {
+    setTimeout(() => {
+      const playCard = document.querySelector(`#play-${playParam}`);
+      if (playCard) {
+        playCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 100);
+  }
 });

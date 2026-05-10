@@ -528,7 +528,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
             </div>
 
             <div class="action-actions">
-              <a class="btn btn--primary" id="readPlaybookBtn" href="${SftSPlaybooks.PLAYBOOKS[reco.themeId] ? '#/playbooks/' + reco.themeId : '#/playbooks'}">
+              <a class="btn btn--primary" id="readPlaybookBtn" href="${SftSPlaybooks.PLAYBOOKS[reco.themeId] ? '#/playbooks/' + reco.themeId + '?play=' + reco.play.n : '#/playbooks'}">
                 Read the full Playbook
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
               </a>
