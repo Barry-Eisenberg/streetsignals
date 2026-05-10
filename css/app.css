@@ -1333,7 +1333,9 @@ body > * { position: relative; z-index: 1; }
   gap: var(--space-3);
 }
 .playbook-detail-hero h1 {
-  font-size: var(--text-3xl);
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: var(--text-2xl);
   margin-bottom: var(--space-3);
 }
 
