@@ -1314,11 +1314,11 @@ body > * { position: relative; z-index: 1; }
 @media (max-width: 980px) { .playbook-themes { grid-template-columns: 1fr; } }
 
 .playbook-detail-hero {
-  padding: var(--space-12) 0 var(--space-6);
+  padding: var(--space-8) 0 var(--space-4);
   position: relative;
 }
 .playbook-detail-hero::before {
-  content: ''; position: absolute; left: 0; right: 0; top: 0; height: 220px;
+  content: ''; position: absolute; left: 0; right: 0; top: 0; height: 180px;
   background: radial-gradient(ellipse at 0% 0%, color-mix(in oklab, var(--theme-color) 12%, transparent) 0%, transparent 60%);
   pointer-events: none;
   z-index: -1;
@@ -1327,14 +1327,14 @@ body > * { position: relative; z-index: 1; }
   font-size: 1.05rem;
   font-weight: 800;
   letter-spacing: 0.08em;
-  margin-bottom: var(--space-6);
+  margin-bottom: var(--space-3);
   display: inline-flex;
   align-items: center;
   gap: var(--space-3);
 }
 .playbook-detail-hero h1 {
   font-size: var(--text-3xl);
-  margin-bottom: var(--space-5);
+  margin-bottom: var(--space-3);
 }
 
 .snapshot-grid {
