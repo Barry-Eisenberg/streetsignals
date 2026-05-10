@@ -188,7 +188,7 @@ def days_since(value: str, anchor: date) -> Optional[int]:
     return (anchor - dt).days
 
 
-def compute_tier(signal: dict, anchor: date) -> str:
+def compute_score_and_tier(signal: dict, anchor: date) -> Tuple[int, str]:
     score = 22
     signal_type = signal.get("signal_type") or ""
 
@@ -254,12 +254,23 @@ def compute_tier(signal: dict, anchor: date) -> str:
     score = max(0, min(100, score))
 
     if score >= 58:
-        return "Structural"
+        return score, "Structural"
     if score >= 44:
-        return "Material"
+        return score, "Material"
     if score >= 22:
-        return "Context"
-    return "Noise"
+        return score, "Context"
+    return score, "Noise"
+
+
+def summarize_what_happened(signal: dict) -> str:
+    """Create a clean, reviewer-friendly context string from source fields."""
+    text = (signal.get("description") or "").strip()
+    if not text:
+        text = (signal.get("initiative") or "").strip()
+    if not text:
+        return ""
+    text = re.sub(r"\s+", " ", text)
+    return text
 
 
 def resolve_themes(signal: dict) -> List[str]:
@@ -538,9 +549,10 @@ def main() -> None:
             continue
 
         sig_id = make_signal_id(signal, idx)
-        tier = compute_tier(signal, anchor)
+        score, tier = compute_score_and_tier(signal, anchor)
         d = days_since(signal.get("date") or "", anchor)
         suggestion = intelligent_first_pass(signal, tier)
+        what_happened = summarize_what_happened(signal)
 
         output_rows.append(
             {
@@ -548,10 +560,12 @@ def main() -> None:
                 "review_priority": review_priority(tier, d),
                 "signal_id": sig_id,
                 "tier": tier,
+                "signal_score": f"{score}/100",
                 "days_since_anchor": "" if d is None else d,
                 "date": signal.get("date") or "",
                 "institution": signal.get("institution") or "",
                 "initiative": signal.get("initiative") or "",
+                "what_happened": what_happened,
                 "signal_type": signal.get("signal_type") or "",
                 "initiative_types": "|".join(signal.get("initiative_types") or []),
                 "fmi_areas": "|".join(signal.get("fmi_areas") or []),
@@ -588,10 +602,12 @@ def main() -> None:
         "review_priority",
         "signal_id",
         "tier",
+        "signal_score",
         "days_since_anchor",
         "date",
         "institution",
         "initiative",
+        "what_happened",
         "signal_type",
         "initiative_types",
         "fmi_areas",

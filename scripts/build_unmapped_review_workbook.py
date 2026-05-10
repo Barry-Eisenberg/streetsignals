@@ -7,6 +7,7 @@ Tabs:
 
 from __future__ import annotations
 
+import argparse
 import csv
 import json
 from pathlib import Path
@@ -157,16 +158,30 @@ def add_initiative_options_sheet(wb: Workbook) -> None:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Build multi-tab workbook for unmapped review")
+    parser.add_argument(
+        "--output",
+        default=str(OUTPUT_XLSX),
+        help="Output workbook path",
+    )
+    args = parser.parse_args()
+
     if not INPUT_CSV.exists():
         raise FileNotFoundError(f"Missing input CSV: {INPUT_CSV}")
+
+    output_path = Path(args.output)
 
     wb = Workbook()
     add_csv_sheet(wb)
     add_quick_pick_sheet(wb)
     add_initiative_options_sheet(wb)
-    wb.save(OUTPUT_XLSX)
+    wb.save(output_path)
 
-    print(f"Workbook created: {OUTPUT_XLSX.relative_to(ROOT)}")
+    try:
+        display_path = output_path.relative_to(ROOT)
+    except ValueError:
+        display_path = output_path
+    print(f"Workbook created: {display_path}")
 
 
 if __name__ == "__main__":
