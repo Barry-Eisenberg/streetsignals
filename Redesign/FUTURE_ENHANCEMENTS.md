@@ -49,6 +49,13 @@ in production:
    — start with the Structural/Material rows. Many are genuine "Crypto /
    Digital Assets" or "Digital Asset Strategy" signals that may warrant a
    4th playbook theme.
+    **Status: in progress (kickoff May 10, 2026).**
+    - Completed: baseline snapshot captured (30.1% unmapped; Structural 26,
+       Material 87, Context 100, Noise 3).
+    - Completed: reviewer rubric and reason-code standard published in
+       `docs/unmapped-signal-review-rubric.md`.
+    - Completed: review intake template added in
+       `data/unmapped_review_template.csv`.
 
 2. **Add a Tokenized Funds sourcing plan.** All 3 Tokenized plays are
    signal-starved (<25 each). Add 4–6 RSS sources focused on Asset Managers

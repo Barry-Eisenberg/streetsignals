@@ -163,3 +163,26 @@ This release adds lightweight GA4-ready engagement tracking on signal detail pag
 
 - Signal-level engagement instrumentation is now in place for core conversion
   interactions from detail pages.
+
+## 2026-05-10 unmapped-signals review kickoff summary
+
+This kickoff starts execution of Enhancement #1 from
+`Redesign/FUTURE_ENHANCEMENTS.md` to reduce unmapped signal coverage.
+
+### Completed kickoff items
+
+- Captured baseline unmapped metrics from current merged signal data:
+  - total signals: 717
+  - unmapped signals: 216 (30.1%)
+  - unmapped by tier: Structural 26, Material 87, Context 100, Noise 3
+  - unmapped in last 90 days: 211
+- Published reviewer rubric and reason-code catalog:
+  `docs/unmapped-signal-review-rubric.md`.
+- Added review intake CSV template:
+  `data/unmapped_review_template.csv`.
+
+### Next execution items
+
+- Run dual-review pass on all Structural and Material unmapped signals.
+- Adjudicate disagreements and quantify `RC04_TAXONOMY_GAP` candidates to
+  evaluate whether a 4th playbook theme is justified.
