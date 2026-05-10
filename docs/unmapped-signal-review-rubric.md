@@ -57,6 +57,41 @@ Apply in this order:
 5. If signal is purely strategy commentary or native crypto market chatter without clear institutional implementation, keep unmapped unless evidence justifies mapping.
 6. Signals can map to more than one initiative classification when evidence supports multiple dimensions (for example, instrument plus infrastructure).
 
+## Reviewer Quick-Pick Cue Card
+
+Use this as a fast first decision aid before deeper adjudication.
+
+### Primary cue -> initiative classification
+
+- Tokenized fund shares, treasuries, bonds, RWAs, issuance of traditional assets -> Tokenized Securities / RWA
+- Stablecoin, deposit token, on-chain cash, treasury cash movement, payment rail -> Stablecoins & Deposit Tokens
+- Clearing, settlement finality, custody, collateral, post-trade workflow -> Settlement Infrastructure
+- Ledger build, enterprise blockchain platform, DLT network participation -> DLT / Blockchain Infrastructure
+- Cross-border payments execution, payment orchestration, remittance rails -> Payment Infrastructure
+- CBDC pilot or policy implementation -> CBDC
+- Protocol-native lending, AMM, decentralized derivatives -> DeFi
+- Standards, interoperability, network connectivity, messaging bridges -> Interoperability & Standards
+- Regulation, supervision, compliance obligations, consultations, enforcement -> Regulatory / Compliance
+- Enterprise positioning, operating model, governance roadmap -> Digital Asset Strategy
+- Native crypto market activity without clear institutional workflow implementation -> Crypto / Digital Assets
+
+### Common multi-label combinations
+
+- Tokenized Securities / RWA + Settlement Infrastructure
+- Stablecoins & Deposit Tokens + Payment Infrastructure
+- DLT / Blockchain Infrastructure + Interoperability & Standards
+- Regulatory / Compliance + Stablecoins & Deposit Tokens
+- Regulatory / Compliance + Crypto / Digital Assets
+- Digital Asset Strategy + DLT / Blockchain Infrastructure
+
+### Theme projection reminder
+
+- tokenized theme <- Tokenized Securities / RWA
+- stablecoins theme <- Stablecoins & Deposit Tokens, CBDC, Cross-Border Payments, Payment Infrastructure
+- dlt theme <- DLT / Blockchain Infrastructure, Settlement Infrastructure, Interoperability & Standards, DeFi, Payment Infrastructure
+
+If no theme fits but the signal is still material to institutional decision-making, use `candidate_new_theme` with `RC04_TAXONOMY_GAP`.
+
 ## Evidence Threshold
 
 Map only if at least one is true:
