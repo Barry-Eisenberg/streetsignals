@@ -1,5 +1,46 @@
 [
   {
+    "institution": "crypto.news",
+    "initiative": "Best Crypto Exchange Tokens 2026: BlockchainFX Aims To Challenge Trading Platforms as BNB, CRO and OKB Lead Watchlists",
+    "description": "Exchange tokens remain one of crypto’s most powerful categories because they are tied directly to trading activity, liquidity and platform demand.",
+    "date": "2026-05-10",
+    "source_url": "https://crypto.news/best-crypto-exchange-tokens-2026-blockchainfx-aims-to-challenge-trading-platforms-as-bnb-cro-and-okb-lead-watchlists/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "SEC hint sparks prediction market ETF debate",
+    "description": "SEC Commissioner Hester Peirce’s remarks fuel debate over prediction markets, ETFs, disclosures, and future crypto rules.",
+    "date": "2026-05-10",
+    "source_url": "https://crypto.news/sec-hint-sparks-prediction-market-etf-debate/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Bank of England",
     "initiative": "BoE’s Bailey warns of looming ‘wrestle’ with US over stablecoin rules, flags run risk for UK",
     "description": "Bailey, who chairs the Financial Stability Board, warned that hard-to-redeem U.S. stablecoins could flood into jurisdictions like the UK during a crisis.",
@@ -9408,45 +9449,6 @@
       "Collateral & Lending"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Cross-border payment technologies: innovations and challenges",
-    "description": "The continued inefficient XBP arrangements, in contrast to progress made in domestic payments using new technologies and innovative models, reflect that private actors alone cannot overcome the many market failures that hinder XBP. The most binding constraint concerns the limited interoperability which relates to the multi-sided market frictions in XBP and the institutional differences between countries.",
-    "date": "2026-03-11",
-    "source_url": "https://www.bis.org/publ/bppdf/bispap167.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Tokenomics and blockchain fragmentation",
-    "description": "by Hyun Song Shin Money is a coordination device underpinned by strong network effects: the more others accept a form of money, the more I wish to adopt it too. The decentralisation agenda of public permissionless blockchains undercuts these network effects and leads to fragmentation of the monetary landscape.",
-    "date": "2026-03-10",
-    "source_url": "https://www.bis.org/publ/work1335.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
     "year": "2026"
   }
 ]
