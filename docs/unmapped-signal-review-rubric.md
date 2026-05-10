@@ -9,6 +9,28 @@ Purpose: Standardize human review for unmapped signals so classification quality
 - Unmapped by tier: Structural 26, Material 87, Context 100, Noise 3
 - Unmapped in last 90 days: 211
 
+## Automated First Pass (Run Before Manual Review)
+
+Generate prefilled suggestions:
+
+```bash
+python scripts/generate_unmapped_first_pass.py
+```
+
+Output file:
+
+- `data/unmapped_review_first_pass.csv`
+
+What the first pass adds:
+
+- Prioritized queue order (`review_priority`, `queue_order`)
+- Suggested decision (`map`, `keep_unmapped`, `candidate_new_theme`)
+- Suggested initiative classifications (supports multi-label)
+- Suggested mapped themes (if any)
+- Suggested reason code, confidence, and evidence trace
+
+Manual reviewers should use this as a draft, not as a final verdict.
+
 ## Review Queue Priority
 
 1. Structural unmapped
@@ -33,6 +55,7 @@ Apply in this order:
 3. If the signal clearly references market plumbing (clearing, settlement, custody, collateral, post-trade, interoperability rails), map to dlt.
 4. If evidence supports two themes, assign both.
 5. If signal is purely strategy commentary or native crypto market chatter without clear institutional implementation, keep unmapped unless evidence justifies mapping.
+6. Signals can map to more than one initiative classification when evidence supports multiple dimensions (for example, instrument plus infrastructure).
 
 ## Evidence Threshold
 
@@ -63,6 +86,7 @@ Use this schema per reviewed signal:
 - date
 - institution
 - initiative
+- initiative_classifications (pipe-separated for multi-label)
 - current_theme_count
 - decision (map|keep_unmapped|candidate_new_theme)
 - mapped_themes (comma-separated)
