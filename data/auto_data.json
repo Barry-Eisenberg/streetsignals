@@ -1756,6 +1756,23 @@
     "year": "2026"
   },
   {
+    "institution": "Mastercard",
+    "initiative": "Ondo, Kinexys by J.P. Morgan, Mastercard, and Ripple Complete First Cross-Border, Cross-Bank Redemption of Tokenized U.S. Treasuries",
+    "description": "Ondo, Kinexys by J.P. Morgan, Mastercard, and Ripple Complete First Cross-Border, Cross-Bank Redemption of Tokenized U.S. Treasuries",
+    "date": "2026-05-06",
+    "source_url": "https://ondo.finance/blog/ondo-jpmorgan-mastercard-ripple-tokenization",
+    "category": "payments",
+    "source_name": "Ondo — Blog",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Nasdaq",
     "initiative": "Nasdaq's president says the SEC’s new crypto stance is letting markets 'build' again",
     "description": "Nasdaq’s Tal Cohen said a friendlier SEC is giving crypto firms and exchanges room to experiment with tokenization and digital market infrastructure.",
@@ -2706,6 +2723,25 @@
       "Interoperability & Standards"
     ],
     "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase Centrifuge",
+    "description": "Announcements May 5, 2026 Coinbase and Centrifuge are collaborating to accelerate tokenization and onchain finance Coinbase has designated Centrifuge as a Preferred Tokenization Infrastructure platform, supporting the next phase of tokenized asset growth through utility and onchain access.",
+    "date": "2026-05-05",
+    "source_url": "https://www.centrifuge.io/blog/coinbase-centrifuge",
+    "category": "exchanges_intermediaries",
+    "source_name": "Centrifuge — Blog",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
     "year": "2026"
   },
   {
@@ -8856,6 +8892,23 @@
     "year": "2026"
   },
   {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "Why We Submitted Our SEC No-Action Letter Request",
+    "description": "Why We Submitted Our SEC No-Action Letter Request",
+    "date": "2026-04-13",
+    "source_url": "https://ondo.finance/blog/sec-no-action-letter-request",
+    "category": "regulators",
+    "source_name": "Ondo — Blog",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "FSB (Financial Stability Board)",
     "initiative": "FSB Chair warns of rising financial risks stemming from Middle East conflict",
     "description": "FSB Chair’s letter to G20 central bank Governors and Finance Ministers highlights the significant challenges posed by the ongoing conflict in the Middle East and its impact on global financial stability.",
@@ -9128,6 +9181,23 @@
     "year": "2026"
   },
   {
+    "institution": "Franklin Templeton",
+    "initiative": "Ondo Tokenizes 5 Franklin Templeton ETFs For the First Time",
+    "description": "Ondo Tokenizes 5 Franklin Templeton ETFs For the First Time",
+    "date": "2026-03-25",
+    "source_url": "https://ondo.finance/blog/ondo-tokenizes-franklin-templeton-etfs",
+    "category": "asset_management",
+    "source_name": "Ondo — Blog",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Liquidity preparedness for margin and collateral calls - Executive Summary",
     "description": "Recent episodes of market turmoil, eg the Archegos Capital collapse in 2021 or the United Kingdom's liability-driven fund stress in September 2022, showed that rapid increases in margin and collateral requirements, while essential for managing counterparty risk, can amplify liquidity needs across the financial system, especially if market participants are unprepared.",
@@ -9307,6 +9377,23 @@
     "year": "2026"
   },
   {
+    "institution": "Digital Asset Exchange",
+    "initiative": "Ondo Tokenized Stocks Are Now Live on Bitget’s CEX",
+    "description": "Ondo Tokenized Stocks Are Now Live on Bitget’s CEX",
+    "date": "2026-03-16",
+    "source_url": "https://ondo.finance/blog/ondo-global-markets-live-on-bitget",
+    "category": "exchanges_intermediaries",
+    "source_name": "Ondo — Blog",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "A public-private partnership? Central bank funding and credit supply",
     "description": "by Matthieu Chavaz, David Elliott, Win Monroe We exploit the surprise announcement and subsequent amendment of a central bank funding scheme to test how public liquidity provision affects credit market outcomes. Contrary to the notion that public liquidity is primarily a substitute for private liquidity, banks that are more exposed to stress in private wholesale funding markets use less central bank funding.",
@@ -9359,102 +9446,6 @@
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Governors and Heads of Supervision welcome progress to implement Basel III and discuss elements of the Basel Committee's work programme",
-    "description": "Group of Central Bank Governors and Heads of Supervision (GHOS) welcome the progress to fully implement Basel III. GHOS endorsed targeted reviews of the Committee's prudential standards for cryptoassets and global systemically important banks.",
-    "date": "2026-03-09",
-    "source_url": "https://www.bis.org/press/p260309.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Basel Committee issues a consolidated version of its guidelines",
-    "description": "The Basel Committee has published a consultation on a consolidated version of its guidelines and sound practices. The consolidated version aims to improve accessibility and substantially streamline guidance materials. Comments on the consultation are requested by 26 June 2026.",
-    "date": "2026-02-26",
-    "source_url": "https://www.bis.org/press/p260226.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Basel Committee discusses recent market developments and targeted review of cryptoasset standard",
-    "description": "Discusses vulnerabilities in government bond-backed repo markets. Discusses progress of a targeted review of the prudential standard for banks' cryptoasset exposures. Announces date and location of the International Conference of Banking Supervisors.",
-    "date": "2026-02-25",
-    "source_url": "https://www.bis.org/press/p260225.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Basel Committee publishes analysis of synthetic risk transfers",
-    "description": "The Basel Committee on Banking Supervision today published a report on synthetic risk transfer (SRT) transactions. The economic importance of SRT markets has grown rapidly over the last decade and they have become an important source of capital relief for corporate credit risk.",
-    "date": "2026-02-17",
-    "source_url": "https://www.bis.org/press/p260217.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS (Bank for International Settlements)",
-    "initiative": "BIS statement of commitment to the FX Global Code",
-    "description": "The Bank for International Settlements has reviewed the content of the FX Global Code and acknowledges that the Code represents a set of principles generally recognised as good practice in the wholesale foreign exchange (FX) market.",
-    "date": "2026-01-15",
-    "source_url": "https://www.bis.org/press/p260115.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
