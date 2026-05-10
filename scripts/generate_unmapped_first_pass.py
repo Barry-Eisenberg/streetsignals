@@ -59,6 +59,20 @@ MATERIAL_SIGNAL_TYPES = {
     "Intelligence Brief",
 }
 
+# Macro / monetary-policy commentary that mentions crypto only as a market
+# reaction. These should not stay in the Structural unmapped queue.
+MACRO_COMMENTARY_PATTERN = re.compile(
+    r"\b(jobless claims|rate cut(?:s)?|fed (?:cut|hold|pivot|chair|policy)|inflation|cpi|ppi|nonfarm payrolls?|unemployment|monetary policy|hawkish|dovish|higher[-\s]for[-\s]longer|ecb stays on alert|bundesbank|nagel|powell|fed pick|bitcoin slide(?:s|d)?|btc slide(?:s|d)?|spot bitcoin etf|etf inflows?|etf outflows?)\b",
+    re.IGNORECASE,
+)
+
+# Crypto-native venue / M&A inside the crypto stack. Even Tier 1 banks doing
+# this should not map to institutional infrastructure themes.
+CRYPTO_NATIVE_VENUE_PATTERN = re.compile(
+    r"\b(coinbase|kraken|bitnomial|gsr|payward|robinhood|crypto exchange|crypto trading firm|crypto derivatives|exchange listing|p2p crypto|peer[-\s]to[-\s]peer crypto|memecoin|altcoin|mining)\b",
+    re.IGNORECASE,
+)
+
 STRUCTURAL_INSTITUTION_TYPES = {
     "Regulatory Agencies",
     "Central Banks & Regulators",
@@ -66,6 +80,96 @@ STRUCTURAL_INSTITUTION_TYPES = {
     "Financial Infrastructure Operators",
     "Exchanges & Central Intermediaries",
 }
+
+# =====================================================================
+# Play-level recommender. Mirrors recommendPlayForSignal() in playbooks.js
+# so the first-pass suggestion matches what the UI surfaces on the signal
+# detail page. Plays are theme + index; index 1 = pilot, 2 = expansion,
+# 3 = platform / partnership.
+# =====================================================================
+
+PLAY_AUDIENCE_MATCH = {
+    "tokenized-1": ["asset_managers"],
+    "tokenized-2": ["banks_fmis", "fintech"],
+    "tokenized-3": ["banks_fmis"],
+    "stablecoins-1": ["banks_fmis", "fintech"],
+    "stablecoins-2": ["banks_fmis"],
+    "stablecoins-3": ["banks_fmis"],
+    "dlt-1": ["banks_fmis"],
+    "dlt-2": ["asset_managers", "banks_fmis"],
+    "dlt-3": ["banks_fmis"],
+}
+
+PLAY_LABELS = {
+    "tokenized-1": "Quiet pilot anchored in an existing fund",
+    "tokenized-2": "Tokenized cash + tokenized funds for treasury and collateral",
+    "tokenized-3": "Market infrastructure partnerships",
+    "stablecoins-1": "Controlled treasury / B2B pilot",
+    "stablecoins-2": "Client-facing settlement enhancement",
+    "stablecoins-3": "Infrastructure partnership or network participation",
+    "dlt-1": "Targeted post-trade / collateral use case",
+    "dlt-2": "Tokenized assets + DLT post-trade integration",
+    "dlt-3": "Strategic DLT platform participation or build",
+}
+
+
+def recommend_play(
+    mapped_themes: List[str],
+    tier: str,
+    institution_type: str,
+    persona: str = "all",
+) -> Tuple[Optional[str], Optional[str], int]:
+    """Return (primary_play_id, runner_up_play_id, score_gap).
+
+    Scoring mirrors js/playbooks.js::recommendPlayForSignal:
+      +6 persona match, +4 tier->play index match, +3 institution-type
+      alignment, +2 baseline theme match.
+    """
+    if not mapped_themes:
+        return None, None, 0
+
+    scored: List[Tuple[str, int]] = []
+    for theme_id in mapped_themes:
+        for n in (1, 2, 3):
+            play_id = f"{theme_id}-{n}"
+            score = 2  # baseline theme match
+
+            if persona and persona != "all" and persona in PLAY_AUDIENCE_MATCH.get(play_id, []):
+                score += 6
+
+            if tier == "Structural" and n == 3:
+                score += 4
+            elif tier == "Material" and n == 2:
+                score += 4
+            elif (tier == "Context" or not tier) and n == 1:
+                score += 4
+
+            it = institution_type or ""
+            if n == 1 and it == "Asset & Investment Management":
+                score += 3
+            if n == 2 and it in {"Global Banks", "Payments Providers"}:
+                score += 3
+            if n == 3 and it in {
+                "Exchanges & Central Intermediaries",
+                "Financial Infrastructure Operators",
+                "Global Banks",
+            }:
+                score += 3
+
+            scored.append((play_id, score))
+
+    scored.sort(key=lambda x: x[1], reverse=True)
+    primary = scored[0][0]
+    runner_up = scored[1][0] if len(scored) > 1 else None
+    gap = scored[0][1] - (scored[1][1] if len(scored) > 1 else 0)
+    return primary, runner_up, gap
+
+
+def default_play_audience(play_id: Optional[str]) -> str:
+    if not play_id:
+        return ""
+    matches = PLAY_AUDIENCE_MATCH.get(play_id, [])
+    return matches[0] if matches else "all"
 
 TIER1_INSTITUTIONS = [
     "bis",
@@ -141,6 +245,10 @@ class FirstPassResult:
     confidence: str
     confidence_score: int
     evidence: str
+    primary_play_id: Optional[str] = None
+    runner_up_play_id: Optional[str] = None
+    play_score_gap: int = 0
+    play_audience: str = ""
 
 
 def parse_flexible_date(value: str) -> Optional[date]:
@@ -461,6 +569,9 @@ def intelligent_first_pass(signal: dict, tier: str) -> FirstPassResult:
             sorted(set(evidence_by_theme[mapped_themes[0]]))[:3]
             + ([f"secondary={second_theme}:{second_score}"] if len(mapped_themes) > 1 else [])
         )
+        primary_play, runner_up, gap = recommend_play(
+            mapped_themes, tier, signal.get("institution_type") or ""
+        )
         return FirstPassResult(
             decision="map",
             mapped_themes=mapped_themes,
@@ -469,6 +580,10 @@ def intelligent_first_pass(signal: dict, tier: str) -> FirstPassResult:
             confidence=confidence,
             confidence_score=confidence_score,
             evidence=evidence,
+            primary_play_id=primary_play,
+            runner_up_play_id=runner_up,
+            play_score_gap=gap,
+            play_audience=default_play_audience(primary_play),
         )
 
     # No confident map: classify reason and candidate status.
@@ -476,21 +591,39 @@ def intelligent_first_pass(signal: dict, tier: str) -> FirstPassResult:
     is_reg = bool(REGULATORY_PATTERN.search(lower_text))
     is_strategy = bool(STRATEGY_PATTERN.search(lower_text))
     is_native_crypto = bool(CRYPTO_NATIVE_PATTERN.search(lower_text))
+    is_macro = bool(MACRO_COMMENTARY_PATTERN.search(lower_text))
+    is_crypto_venue = bool(CRYPTO_NATIVE_VENUE_PATTERN.search(lower_text))
 
-    if is_native_crypto and not is_reg:
-        reason = "RC03_NATIVE_CRYPTO_ONLY"
-    elif is_strategy and not is_reg:
-        reason = "RC02_STRATEGY_ONLY"
-    elif is_reg and tier in {"Structural", "Material"}:
+    # Macro / monetary-policy commentary trumps everything else: these signals
+    # were never institutional infrastructure activity, regardless of tier.
+    if is_macro and not is_crypto_venue:
+        return FirstPassResult(
+            decision="keep_unmapped",
+            mapped_themes=[],
+            initiative_classifications=suggested_initiatives,
+            reason_code="RC08_MACRO_COMMENTARY",
+            confidence="high",
+            confidence_score=80,
+            evidence="macro/monetary-policy commentary; recommend re-tier out of Structural",
+        )
+
+    # Regulatory-perimeter signal at high tier with no current theme fit
+    # becomes a RC09 candidate (potential future Regulation & Perimeter theme).
+    if is_reg and tier in {"Structural", "Material"} and not is_strategy:
         return FirstPassResult(
             decision="candidate_new_theme",
             mapped_themes=[],
             initiative_classifications=suggested_initiatives,
-            reason_code="RC04_TAXONOMY_GAP",
+            reason_code="RC09_REGULATORY_PERIMETER",
             confidence="medium",
-            confidence_score=60,
+            confidence_score=62,
             evidence="regulatory/perimeter signal with no current theme fit",
         )
+
+    if is_native_crypto or is_crypto_venue:
+        reason = "RC03_NATIVE_CRYPTO_ONLY"
+    elif is_strategy and not is_reg:
+        reason = "RC02_STRATEGY_ONLY"
     elif tier in {"Structural", "Material"} and (is_strategy or is_native_crypto):
         return FirstPassResult(
             decision="candidate_new_theme",
@@ -567,11 +700,16 @@ def main() -> None:
                 "initiative": signal.get("initiative") or "",
                 "what_happened": what_happened,
                 "signal_type": signal.get("signal_type") or "",
+                "institution_type": signal.get("institution_type") or "",
                 "initiative_types": "|".join(signal.get("initiative_types") or []),
                 "fmi_areas": "|".join(signal.get("fmi_areas") or []),
                 "suggested_decision": suggestion.decision,
                 "suggested_initiative_classifications": "|".join(suggestion.initiative_classifications),
                 "suggested_mapped_themes": "|".join(suggestion.mapped_themes),
+                "suggested_primary_play_id": suggestion.primary_play_id or "",
+                "suggested_runner_up_play_id": suggestion.runner_up_play_id or "",
+                "suggested_play_score_gap": suggestion.play_score_gap,
+                "suggested_play_audience": suggestion.play_audience,
                 "suggested_primary_reason_code": suggestion.reason_code,
                 "suggested_confidence": suggestion.confidence,
                 "suggested_confidence_score": suggestion.confidence_score,
@@ -579,6 +717,11 @@ def main() -> None:
                 "decision": "",
                 "initiative_classifications": "",
                 "mapped_themes": "",
+                "mapped_plays": "",
+                "primary_play_id": "",
+                "play_audience": "",
+                "tie_breaker_used": "",
+                "confidence": "",
                 "primary_reason_code": "",
                 "reviewer_notes": "",
                 "reviewer_id": "",
@@ -606,6 +749,7 @@ def main() -> None:
         "days_since_anchor",
         "date",
         "institution",
+        "institution_type",
         "initiative",
         "what_happened",
         "signal_type",
@@ -614,6 +758,10 @@ def main() -> None:
         "suggested_decision",
         "suggested_initiative_classifications",
         "suggested_mapped_themes",
+        "suggested_primary_play_id",
+        "suggested_runner_up_play_id",
+        "suggested_play_score_gap",
+        "suggested_play_audience",
         "suggested_primary_reason_code",
         "suggested_confidence",
         "suggested_confidence_score",
@@ -621,6 +769,11 @@ def main() -> None:
         "decision",
         "initiative_classifications",
         "mapped_themes",
+        "mapped_plays",
+        "primary_play_id",
+        "play_audience",
+        "tie_breaker_used",
+        "confidence",
         "primary_reason_code",
         "reviewer_notes",
         "reviewer_id",
@@ -636,12 +789,18 @@ def main() -> None:
     med_conf_maps = sum(1 for r in output_rows if r["suggested_decision"] == "map" and r["suggested_confidence"] == "medium")
     low_conf_maps = sum(1 for r in output_rows if r["suggested_decision"] == "map" and r["suggested_confidence"] == "low")
     candidates = sum(1 for r in output_rows if r["suggested_decision"] == "candidate_new_theme")
+    macro = sum(1 for r in output_rows if r["suggested_primary_reason_code"] == "RC08_MACRO_COMMENTARY")
+    reg_perimeter = sum(1 for r in output_rows if r["suggested_primary_reason_code"] == "RC09_REGULATORY_PERIMETER")
+    plays_assigned = sum(1 for r in output_rows if r["suggested_primary_play_id"])
 
     print(f"Wrote {len(output_rows)} rows to {OUTPUT_FILE.relative_to(ROOT)}")
     print(f"Suggested map (high confidence): {high_conf_maps}")
     print(f"Suggested map (medium confidence): {med_conf_maps}")
     print(f"Suggested map (low confidence): {low_conf_maps}")
     print(f"Suggested new-theme candidates: {candidates}")
+    print(f"Suggested primary plays assigned: {plays_assigned}")
+    print(f"RC08 macro commentary: {macro}")
+    print(f"RC09 regulatory perimeter: {reg_perimeter}")
 
 
 if __name__ == "__main__":

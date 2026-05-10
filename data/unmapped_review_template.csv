@@ -1,1 +1,1 @@
-signal_id,tier,date,institution,initiative,current_theme_count,decision,initiative_classifications,mapped_themes,primary_reason_code,reviewer_notes,reviewer_id,reviewed_at_utc
+signal_id,tier,date,institution,initiative,current_theme_count,decision,initiative_classifications,mapped_themes,primary_reason_code,reviewer_notes,reviewer_id,reviewed_at_utc,mapped_plays,primary_play_id,play_audience,tie_breaker_used,confidence
