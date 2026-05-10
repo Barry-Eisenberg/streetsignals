@@ -33,13 +33,17 @@ Every mappable signal must land on at least one **theme**, and where evidence su
 
 Tier-to-play prior (matches `recommendPlayForSignal`): Structural → Play 3, Material → Play 2, Context → Play 1. Reviewers may override this prior with evidence; document the override in `reviewer_notes`.
 
-## Automated First Pass (Run Before Manual Review)
+## Automated Pipeline (3 stages)
 
-Generate prefilled suggestions:
+The full pipeline runs three scripts in order. Stage 2 is what makes this self-driving — it auto-accepts the rows the recommender is confident about, leaving only the genuinely ambiguous rows for human attention.
 
 ```bash
-python scripts/generate_unmapped_first_pass.py
+python scripts/generate_unmapped_first_pass.py     # Stage 1: suggest
+python scripts/auto_accept_first_pass.py           # Stage 2: auto-accept
+python scripts/aggregate_reviewer_decisions.py     # Stage 3: persist + calibrate
 ```
+
+### Stage 1: Generate first-pass suggestions
 
 Output file:
 
@@ -67,6 +71,39 @@ What the first pass adds:
 - Suggested reason code, confidence, and evidence trace
 
 Manual reviewers should use this as a draft, not as a final verdict.
+
+### Stage 2: Auto-accept high-confidence rows
+
+```bash
+python scripts/auto_accept_first_pass.py
+```
+
+Auto-accept rules (idempotent — never overwrites a human decision):
+
+- `suggested_decision == "map"` AND `suggested_confidence == "high"` → write `decision=map` with the suggested theme + primary play. `tie_breaker_used=auto`.
+- `suggested_decision == "candidate_new_theme"` AND reason is `RC09_REGULATORY_PERIMETER` → write `decision=candidate_new_theme`, hold for the future 4th 'perimeter' theme.
+- `suggested_decision == "keep_unmapped"` AND reason is `RC03_NATIVE_CRYPTO_ONLY` or `RC08_MACRO_COMMENTARY` → write `decision=keep_unmapped` (these are reliable noise).
+- Everything else → leave reviewer columns empty for human attention.
+
+Accepted rows are stamped `reviewer_id=auto_accepter_v1` and a `reviewer_notes` field that distinguishes them from human reviews. Run with `--dry-run` to preview without writing.
+
+Kickoff baseline result: 51.4% of unmapped signals auto-accept (111/216), leaving 105 for human review.
+
+### Stage 3: Aggregate decisions and emit calibration report
+
+```bash
+python scripts/aggregate_reviewer_decisions.py
+python scripts/aggregate_reviewer_decisions.py --since 2026-04-01   # windowed view
+```
+
+What it does:
+
+- Upserts every finalized row (auto or human) into `data/reviewer_decisions.jsonl` keyed by `signal_id`.
+- Computes decision / theme / play deltas between auto suggestions and final decisions.
+- Surfaces dominant patterns in deltas so weights in `generate_unmapped_first_pass.py` can be tuned.
+- Writes a markdown calibration report to `data/reviewer_calibration_report.md` with reason-code distribution, RC09 share, play-agreement %, and top delta-contributing patterns.
+
+The rubric's tuning rule still applies: only adjust pattern weights when a pattern is responsible for >=3 disagreements in a batch.
 
 ## Review Queue Priority
 
@@ -241,3 +278,14 @@ After every review batch:
 5. Calibration owner re-runs the first pass on the previously labeled batch as a regression check; the new logic must not regress on signals already adjudicated as correctly mapped.
 
 This loop is what makes the rubric self-improving: reviewer time becomes training data, not just throughput.
+
+## Operating Model Summary
+
+| Stage | Script | Output | Human required? |
+| --- | --- | --- | --- |
+| 1. Suggest | `generate_unmapped_first_pass.py` | `data/unmapped_review_first_pass.csv` (and `.xlsx` via builder) | No |
+| 2. Auto-accept | `auto_accept_first_pass.py` | Same CSV with reviewer columns filled on high-confidence rows | No |
+| 3. Aggregate | `aggregate_reviewer_decisions.py` | `data/reviewer_decisions.jsonl` + `data/reviewer_calibration_report.md` | No |
+| 4. Human review | (workbook) | Reviewer columns filled on remaining rows | Yes — only for medium/low confidence |
+
+The loop is self-driving end-to-end. Humans only touch the queued residual (~50% of unmapped today) and that residual shrinks over time as the recommender learns from the calibration report.
