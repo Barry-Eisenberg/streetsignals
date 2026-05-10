@@ -62,7 +62,9 @@ SftSRouter.defineRoute('/playbooks', async ({ root }) => {
 // /playbooks/:themeId — detail
 SftSRouter.defineRoute('/playbooks/:themeId', async ({ params, query, root }) => {
   const themeId = params.themeId;
-  const playParam = query?.play ? parseInt(query.play, 10) : null;
+  // Parse query string to extract play parameter
+  const queryParams = new URLSearchParams(query || '');
+  const playParam = queryParams.has('play') ? parseInt(queryParams.get('play'), 10) : null;
   const pb = SftSPlaybooks.PLAYBOOKS[themeId];
   if (!pb) {
     root.innerHTML = `<div class="container site-section">${R.emptyState({
@@ -223,12 +225,15 @@ SftSRouter.defineRoute('/playbooks/:themeId', async ({ params, query, root }) =>
   `;
   
   // Scroll to specific play if requested
+  // Use a longer timeout to ensure it happens after the router's window.scrollTo(0, 0)
   if (playParam) {
+    window._sftsScrollToPlay = playParam;
     setTimeout(() => {
       const playCard = document.querySelector(`#play-${playParam}`);
       if (playCard) {
         playCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
-    }, 100);
+      delete window._sftsScrollToPlay;
+    }, 300);
   }
 });

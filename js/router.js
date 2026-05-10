@@ -60,7 +60,10 @@ async function dispatch() {
           <a class="btn btn--primary" href="#/">Back to hub</a>
         </div></div>`;
       }
-      window.scrollTo(0, 0);
+      // Don't scroll to top if we're navigating to a specific play in a playbook
+      if (!window._sftsScrollToPlay) {
+        window.scrollTo(0, 0);
+      }
       updateActiveNav(path);
       return;
     }
