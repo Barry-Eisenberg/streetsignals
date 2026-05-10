@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Morgan Stanley",
+    "initiative": "Morgan Stanley’s bitcoin ETF absorbs $194 million in first month with no net daily outflows",
+    "description": "Most of MSBT's capital came from self-directed clients since the bank's 16,000-person financial advisor network is not yet cleared to recommend the fund.",
+    "date": "2026-05-10",
+    "source_url": "https://www.theblock.co/post/400650/morgan-stanleys-bitcoin-etf-absorbs-194-million-in-first-month-with-no-net-daily-outflows",
+    "category": "global_banks",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Canton Network",
     "initiative": "Canton Network developer Digital Asset eyes $300 million raise at $2 billion valuation, led by a16z crypto: Bloomberg",
     "description": "The fundraise would be Digital Asset's largest to date and comes as the Canton Network has attracted partners like Visa and Goldman Sachs.",
@@ -9437,23 +9456,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Ben Gully appointed Secretary General of the Basel Committee on Banking Supervision",
-    "description": "Ben Gully will lead the international standard setter's Secretariat in Basel. Mr Gully has been appointed for a three-year term, starting in August. He is currently Deputy Superintendent at the Office of the Superintendent of Financial Institutions (OSFI) in Canada.",
-    "date": "2026-03-17",
-    "source_url": "https://www.bis.org/press/p260317.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
     "year": "2026"
   }
 ]
