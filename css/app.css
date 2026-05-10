@@ -1323,6 +1323,15 @@ body > * { position: relative; z-index: 1; }
   pointer-events: none;
   z-index: -1;
 }
+.playbook-detail-hero .page-hero-eyebrow {
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  margin-bottom: var(--space-5);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+}
 
 .snapshot-grid {
   display: grid;
