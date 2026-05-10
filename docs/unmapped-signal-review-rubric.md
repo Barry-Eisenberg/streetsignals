@@ -21,6 +21,18 @@ Output file:
 
 - `data/unmapped_review_first_pass.csv`
 
+Optional workbook export with tabs:
+
+```bash
+c:/Users/bmeis/Projects/streetsignals/streetsignals/.venv-1/Scripts/python.exe scripts/build_unmapped_review_workbook.py
+```
+
+Workbook output:
+
+- `data/unmapped_review_first_pass.xlsx`
+	- `review_queue` tab (full queue)
+	- `quick_pick` tab (initiative selection guide)
+
 What the first pass adds:
 
 - Prioritized queue order (`review_priority`, `queue_order`)
