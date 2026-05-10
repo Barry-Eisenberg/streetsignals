@@ -8,6 +8,7 @@ Tabs:
 from __future__ import annotations
 
 import csv
+import json
 from pathlib import Path
 
 from openpyxl import Workbook
@@ -18,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 INPUT_CSV = DATA_DIR / "unmapped_review_first_pass.csv"
 OUTPUT_XLSX = DATA_DIR / "unmapped_review_first_pass.xlsx"
+INITIATIVE_TAXONOMY_PATH = DATA_DIR / "initiative-taxonomy.v1.json"
 
 
 def autofit_columns(ws) -> None:
@@ -102,6 +104,58 @@ def add_quick_pick_sheet(wb: Workbook) -> None:
     autofit_columns(ws)
 
 
+def add_initiative_options_sheet(wb: Workbook) -> None:
+    ws = wb.create_sheet(title="initiative_options")
+
+    taxonomy = json.loads(INITIATIVE_TAXONOMY_PATH.read_text(encoding="utf-8"))
+    initiatives = [
+        i
+        for i in taxonomy.get("canonicalInitiatives", [])
+        if i.get("active", True)
+    ]
+
+    # Keep one commonly used mapped label as a supplemental choice so the tab
+    # reflects the working 12-option reviewer set.
+    if len(initiatives) == 11:
+        initiatives.append(
+            {
+                "name": "Cross-Border Payments",
+                "group": "Payments",
+                "description": "Alias mapped to Payment Infrastructure for matrix consistency.",
+                "isMatrixCategory": True,
+            }
+        )
+
+    ws.append(["Initiative Selection Options", "", "", ""])
+    ws.append([
+        "Initiative Classification",
+        "Group",
+        "Description",
+        "Matrix Category",
+    ])
+
+    for item in initiatives:
+        ws.append(
+            [
+                item.get("name", ""),
+                item.get("group", ""),
+                item.get("description", ""),
+                "Yes" if item.get("isMatrixCategory") else "No",
+            ]
+        )
+
+    ws.merge_cells("A1:D1")
+    ws["A1"].font = Font(bold=True, size=12)
+
+    header_fill = PatternFill(start_color="D9E1F2", end_color="D9E1F2", fill_type="solid")
+    for cell in ws[2]:
+        cell.font = Font(bold=True)
+        cell.fill = header_fill
+
+    ws.freeze_panes = "A3"
+    autofit_columns(ws)
+
+
 def main() -> None:
     if not INPUT_CSV.exists():
         raise FileNotFoundError(f"Missing input CSV: {INPUT_CSV}")
@@ -109,6 +163,7 @@ def main() -> None:
     wb = Workbook()
     add_csv_sheet(wb)
     add_quick_pick_sheet(wb)
+    add_initiative_options_sheet(wb)
     wb.save(OUTPUT_XLSX)
 
     print(f"Workbook created: {OUTPUT_XLSX.relative_to(ROOT)}")
