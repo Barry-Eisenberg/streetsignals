@@ -36,6 +36,10 @@ ROLLING_DAYS = 365       # prune entries older than this
 MIN_DESC_LENGTH = 40     # reject items with very thin descriptions
 TARGET_SUMMARY_LENGTH = 800
 
+NEXTFI_CB_BASE_URL = os.environ.get("NEXTFI_CB_BASE_URL", "").strip().rstrip("/")
+NEXTFI_CB_TIMEOUT = max(5, int(os.environ.get("NEXTFI_CB_TIMEOUT", "20")))
+NEXTFI_CB_USE_PROXY = os.environ.get("NEXTFI_CB_USE_PROXY", "0").strip().lower() in {"1", "true", "yes", "on"}
+
 _MOJIBAKE_FIXES = {
     "ΓÇª": "…",
     "ΓÇô": "-",
@@ -304,6 +308,23 @@ def fetch_text(url):
         return resp.read().decode("utf-8", errors="replace")
 
 
+def post_json(url, payload, timeout=FETCH_TIMEOUT):
+    body = json.dumps(payload).encode("utf-8")
+    req = Request(
+        url,
+        data=body,
+        method="POST",
+        headers={
+            "User-Agent": USER_AGENT,
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+        },
+    )
+    with urlopen(req, timeout=timeout) as resp:
+        raw = resp.read().decode("utf-8", errors="replace")
+    return json.loads(raw)
+
+
 def clean_text(value):
     value = html.unescape(value or "")
     for bad, good in _MOJIBAKE_FIXES.items():
@@ -435,6 +456,78 @@ def summarize_signal_description(title, description):
         summary = strip_description_boilerplate(f"{summary} {title_text}")
 
     return _compress_to_length(summary)
+
+
+def _extract_proxy_text(response_payload):
+    """Extract Anthropic text output from a proxy response payload."""
+    if not isinstance(response_payload, dict):
+        return ""
+    blocks = response_payload.get("content")
+    if not isinstance(blocks, list):
+        return ""
+    parts = []
+    for block in blocks:
+        if isinstance(block, dict) and block.get("type") == "text":
+            txt = clean_text(block.get("text", ""))
+            if txt:
+                parts.append(txt)
+    return "\n".join(parts).strip()
+
+
+def summarize_with_nextfi_content_builder(url, fallback_title, fallback_text, cache):
+    """Use Content Builder URL ingestion (+ optional proxy synthesis) to improve summary quality.
+
+    Falls back to local summarizer on any error.
+    """
+    if not NEXTFI_CB_BASE_URL or not url:
+        return summarize_signal_description(fallback_title, fallback_text)
+
+    cache_key = normalize_url(url)
+    if cache_key in cache:
+        return cache[cache_key]
+
+    try:
+        source_payload = post_json(
+            f"{NEXTFI_CB_BASE_URL}/fetch-source",
+            {"url": url},
+            timeout=NEXTFI_CB_TIMEOUT,
+        )
+        source_title = clean_text(source_payload.get("title", "")) or fallback_title
+        source_text = clean_text(source_payload.get("text", "")) or fallback_text
+
+        summary = ""
+        if NEXTFI_CB_USE_PROXY and source_text:
+            prompt = (
+                "Write a detailed but concise 'What happened' summary for an institutional finance signal. "
+                "Avoid repeating the headline text. Use 2-4 sentences, plain prose, no bullets, no hype. "
+                "Focus on the concrete development, counterparties, regulatory context, and why it matters operationally.\n\n"
+                f"Headline: {source_title}\n"
+                f"Source URL: {url}\n"
+                f"Source Text: {source_text[:12000]}"
+            )
+            proxy_payload = {
+                "model": "claude-3-5-haiku-latest",
+                "max_tokens": 350,
+                "messages": [{"role": "user", "content": prompt}],
+            }
+            proxy_response = post_json(
+                f"{NEXTFI_CB_BASE_URL}/proxy",
+                proxy_payload,
+                timeout=max(NEXTFI_CB_TIMEOUT, 45),
+            )
+            summary = _extract_proxy_text(proxy_response)
+
+        if not summary:
+            summary = summarize_signal_description(source_title, source_text)
+
+        summary = _compress_to_length(summary)
+        cache[cache_key] = summary
+        return summary
+    except Exception as ex:
+        print(f"WARN [content-builder]: falling back for {url}: {ex}")
+        summary = summarize_signal_description(fallback_title, fallback_text)
+        cache[cache_key] = summary
+        return summary
 
 
 def normalize_url(url):
@@ -1034,6 +1127,7 @@ def fetch_auto_signals(config, manual_data, existing_auto):
     seen_urls, seen_fps = _build_seen_sets(manual_data + existing_auto)
     new_signals = []
     institution_category_pairs = build_institution_category_lookup(manual_data + existing_auto)
+    cb_summary_cache = {}
 
     sources = []
     for source in config.get("rss_sources", []):
@@ -1100,7 +1194,12 @@ def fetch_auto_signals(config, manual_data, existing_auto):
             signal = {
                 "institution": source.get("institution", name),
                 "initiative": item["title"],
-                "description": summarize_signal_description(item["title"], item["description"]),
+                "description": summarize_with_nextfi_content_builder(
+                    item["link"],
+                    item["title"],
+                    item["description"],
+                    cb_summary_cache,
+                ),
                 "date": item["published"],
                 "source_url": url,
                 "category": source_category,
