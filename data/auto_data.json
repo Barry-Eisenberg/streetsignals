@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Canton Network",
+    "initiative": "Canton Network builder nears $300M raise led by a16z crypto",
+    "description": "Digital Asset is reportedly raising $300M at a $2B valuation as a16z crypto leads a round tied to Canton Network’s institutional growth now.",
+    "date": "2026-05-11",
+    "source_url": "https://crypto.news/canton-network-builder-nears-300m-raise-led-by-a16z-crypto/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Morgan Stanley",
     "initiative": "Morgan Stanley’s bitcoin ETF absorbs $194 million in first month with no net daily outflows",
     "description": "Most of MSBT's capital came from self-directed clients since the bank's 16,000-person financial advisor network is not yet cleared to recommend the fund.",
@@ -9437,23 +9456,6 @@
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Agencies request comment on proposals to modernize the regulatory capital framework and maintain the strength of the banking system",
-    "description": "Agencies request comment on proposals to modernize the regulatory capital framework and maintain the strength of the banking system",
-    "date": "2026-03-19",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260319a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
     ],
     "initiative_types": [],
     "year": "2026"
