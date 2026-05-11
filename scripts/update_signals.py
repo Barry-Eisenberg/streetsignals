@@ -45,6 +45,13 @@ _NEXTFI_CB_USE_PROXY_RAW = os.environ.get("NEXTFI_CB_USE_PROXY", "").strip().low
 NEXTFI_CB_USE_PROXY = bool(NEXTFI_CB_BASE_URL) and _NEXTFI_CB_USE_PROXY_RAW not in {"0", "false", "no", "off"}
 NEXTFI_CB_PROXY_MODEL = os.environ.get("NEXTFI_CB_PROXY_MODEL", "claude-sonnet-4-6").strip() or "claude-sonnet-4-6"
 
+if not NEXTFI_CB_BASE_URL:
+    print(
+        "WARN: NEXTFI_CB_BASE_URL is not set — signal descriptions will use the local "
+        "sentence-scoring summarizer only. Set this env var to enable AI-quality descriptions.",
+        flush=True,
+    )
+
 _MOJIBAKE_FIXES = {
     "ΓÇª": "…",
     "ΓÇô": "-",
@@ -637,9 +644,12 @@ def _extract_proxy_text(response_payload):
 
 
 def summarize_with_nextfi_content_builder(url, fallback_title, fallback_text, cache):
-    """Use Content Builder URL ingestion (+ optional proxy synthesis) to improve summary quality.
+    """Use Content Builder to produce a signal-card 'What happened' description.
 
-    Falls back to local summarizer on any error.
+    Primary path: POST /signal-summary — atomic fetch+LLM call on the CB server.
+    Fallback path: POST /fetch-source then POST /proxy (two-hop, used if server is
+    an older version without /signal-summary, or if /signal-summary fails with 4xx/5xx).
+    Final fallback: local sentence-scoring summarizer.
     """
     if not NEXTFI_CB_BASE_URL or not url:
         return summarize_signal_description(fallback_title, fallback_text)
@@ -648,6 +658,34 @@ def summarize_with_nextfi_content_builder(url, fallback_title, fallback_text, ca
     if cache_key in cache:
         return cache[cache_key]
 
+    def _finish(summary, source_title_for_fallback, source_text_for_fallback):
+        """Apply polish + quality gate, store in cache, return."""
+        summary = _polish_generated_summary(summary)
+        summary = _compress_to_length(summary)
+        if not _is_high_quality_summary(summary):
+            summary = summarize_signal_description(source_title_for_fallback, source_text_for_fallback)
+            summary = _polish_generated_summary(summary)
+            summary = _compress_to_length(summary)
+        cache[cache_key] = summary
+        return summary
+
+    # ── Primary path: /signal-summary ──────────────────────────────────────
+    try:
+        ss_response = post_json(
+            f"{NEXTFI_CB_BASE_URL}/signal-summary",
+            {"url": url, "title": fallback_title, "model": NEXTFI_CB_PROXY_MODEL},
+            timeout=max(NEXTFI_CB_TIMEOUT, 60),
+        )
+        summary = (ss_response.get("summary") or "").strip()
+        source_title = clean_text(ss_response.get("source_title", "")) or fallback_title
+        if summary:
+            return _finish(summary, source_title, fallback_text)
+        # Empty summary from CB — fall through to two-hop path
+        print(f"WARN [signal-summary]: empty summary for {url}, trying two-hop path")
+    except Exception as ex:
+        print(f"WARN [signal-summary]: {url}: {ex} — trying two-hop path")
+
+    # ── Fallback path: /fetch-source + /proxy ──────────────────────────────
     try:
         source_payload = post_json(
             f"{NEXTFI_CB_BASE_URL}/fetch-source",
@@ -658,7 +696,9 @@ def summarize_with_nextfi_content_builder(url, fallback_title, fallback_text, ca
         source_text = clean_text(source_payload.get("text", "")) or fallback_text
         source_text = _normalize_source_extract(source_title, source_text)
 
-        if _is_bad_source_extract(source_title, source_text, fallback_title):
+        # Unified chrome gate: treat as bad extract if either detector fires
+        if _is_bad_source_extract(source_title, source_text, fallback_title) \
+                or _is_source_chrome_text(source_text):
             source_title = fallback_title
             source_text = _fetch_meta_description(url) or fallback_text
 
@@ -667,7 +707,8 @@ def summarize_with_nextfi_content_builder(url, fallback_title, fallback_text, ca
             prompt = (
                 "Write a detailed but concise 'What happened' summary for an institutional finance signal. "
                 "Avoid repeating the headline text. Use 2-4 sentences, plain prose, no bullets, no hype. "
-                "Focus on the concrete development, counterparties, regulatory context, and why it matters operationally.\n\n"
+                "Focus on the concrete development, counterparties, regulatory context, and why it matters operationally. "
+                "The text may contain site navigation or contact information — ignore it and use only the article content.\n\n"
                 f"Headline: {source_title}\n"
                 f"Source URL: {url}\n"
                 f"Source Text: {source_text[:12000]}"
@@ -687,15 +728,7 @@ def summarize_with_nextfi_content_builder(url, fallback_title, fallback_text, ca
         if not summary:
             summary = summarize_signal_description(source_title, source_text)
 
-        summary = _polish_generated_summary(summary)
-        summary = _compress_to_length(summary)
-        if not _is_high_quality_summary(summary):
-            summary = summarize_signal_description(source_title, source_text)
-            summary = _polish_generated_summary(summary)
-            summary = _compress_to_length(summary)
-
-        cache[cache_key] = summary
-        return summary
+        return _finish(summary, source_title, source_text)
     except Exception as ex:
         print(f"WARN [content-builder]: falling back for {url}: {ex}")
         summary = summarize_signal_description(fallback_title, fallback_text)
@@ -1781,6 +1814,118 @@ def resummarize_unmapped_review_with_content_builder():
     print(f"  Dry run           : {'yes' if dry_run else 'no'}")
 
 
+def diagnose_content_builder_url():
+    """Diagnose fetch/proxy/fallback behavior for a single URL.
+
+    Usage examples:
+        python scripts/update_signals.py --diagnose-cb-url https://example.com/post
+        python scripts/update_signals.py --diagnose-cb-url https://example.com/post --runs 5
+    """
+    url = _arg_value("--diagnose-cb-url")
+    if not url:
+        print("Missing URL. Usage: --diagnose-cb-url <url> [--runs N]")
+        return
+
+    runs = 3
+    raw_runs = _arg_value("--runs")
+    if raw_runs:
+        try:
+            runs = max(1, int(raw_runs))
+        except ValueError:
+            print(f"WARN: ignoring invalid --runs value: {raw_runs}")
+
+    print("Content Builder diagnostic")
+    print(f"  URL           : {url}")
+    print(f"  BASE_URL      : {repr(NEXTFI_CB_BASE_URL)}")
+    print(f"  USE_PROXY     : {NEXTFI_CB_USE_PROXY}")
+    print(f"  TIMEOUT       : {NEXTFI_CB_TIMEOUT}")
+    print(f"  RUNS          : {runs}")
+
+    if not NEXTFI_CB_BASE_URL:
+        print("No NEXTFI_CB_BASE_URL configured. Only local fallback is possible.")
+        return
+
+    fallback_title = "Diagnostic fallback title"
+    fallback_text = "Diagnostic fallback text."
+
+    # ── /signal-summary (primary path) ────────────────────────────────────
+    print("\n/signal-summary (primary path)")
+    try:
+        ss_response = post_json(
+            f"{NEXTFI_CB_BASE_URL}/signal-summary",
+            {"url": url, "title": fallback_title, "model": NEXTFI_CB_PROXY_MODEL},
+            timeout=max(NEXTFI_CB_TIMEOUT, 60),
+        )
+        ss_summary = (ss_response.get("summary") or "").strip()
+        ss_title = ss_response.get("source_title", "")
+        ss_chars = ss_response.get("chars", 0)
+        print(f"  source_title   : {ss_title[:100]}")
+        print(f"  chars          : {ss_chars}")
+        print(f"  summary_len    : {len(ss_summary)}")
+        print(f"  preview        : {ss_summary[:260].replace(chr(10), ' ')}")
+    except Exception as ex:
+        print(f"  FAILED: {ex}")
+
+    # ── /fetch-source diagnostics ──────────────────────────────────────────
+    try:
+        source_payload = post_json(
+            f"{NEXTFI_CB_BASE_URL}/fetch-source",
+            {"url": url},
+            timeout=NEXTFI_CB_TIMEOUT,
+        )
+        source_title = clean_text(source_payload.get("title", "")) or fallback_title
+        source_text = clean_text(source_payload.get("text", ""))
+        normalized_source_text = _normalize_source_extract(source_title, source_text)
+
+        print("\nFetch-source")
+        print(f"  title_len      : {len(source_title)}")
+        print(f"  text_len_raw   : {len(source_text)}")
+        print(f"  text_len_norm  : {len(normalized_source_text)}")
+        print(f"  bad_extract    : {_is_bad_source_extract(source_title, normalized_source_text, fallback_title)}")
+        print(f"  chrome_text    : {_is_source_chrome_text(normalized_source_text)}")
+        print(f"  text_preview   : {(normalized_source_text[:260] or '').replace(chr(10), ' ')}")
+    except Exception as ex:
+        print(f"Fetch-source failed: {ex}")
+        normalized_source_text = ""
+
+    if NEXTFI_CB_USE_PROXY and normalized_source_text:
+        try:
+            prompt = (
+                "Write a detailed but concise 'What happened' summary for an institutional finance signal. "
+                "Avoid repeating the headline text. Use 2-4 sentences, plain prose, no bullets, no hype. "
+                "Focus on the concrete development, counterparties, regulatory context, and why it matters operationally. "
+                "The text may contain site navigation or contact information — ignore it and use only the article content.\n\n"
+                f"Headline: {source_title}\n"
+                f"Source URL: {url}\n"
+                f"Source Text: {normalized_source_text[:12000]}"
+            )
+            proxy_payload = {
+                "model": NEXTFI_CB_PROXY_MODEL,
+                "max_tokens": 350,
+                "messages": [{"role": "user", "content": prompt}],
+            }
+            proxy_response = post_json(
+                f"{NEXTFI_CB_BASE_URL}/proxy",
+                proxy_payload,
+                timeout=max(NEXTFI_CB_TIMEOUT, 45),
+            )
+            proxy_text = _extract_proxy_text(proxy_response)
+            print("\nProxy (two-hop fallback path)")
+            print(f"  response_text_len : {len(proxy_text)}")
+            print(f"  preview           : {(proxy_text[:260] or '').replace(chr(10), ' ')}")
+        except Exception as ex:
+            print(f"\nProxy failed: {ex}")
+
+    print("\nFull summarizer path")
+    for i in range(1, runs + 1):
+        summary = summarize_with_nextfi_content_builder(url, fallback_title, fallback_text, {})
+        print(
+            f"  run {i}: len={len(summary)} high_quality={_is_high_quality_summary(summary)} "
+            f"chrome_like={_is_source_chrome_text(summary)}"
+        )
+        print(f"    {summary[:220].replace(chr(10), ' ')}")
+
+
 def main():
     if "--reclassify" in sys.argv:
         reclassify_auto_data()
@@ -1792,6 +1937,10 @@ def main():
 
     if "--resummarize-unmapped-review" in sys.argv:
         resummarize_unmapped_review_with_content_builder()
+        return
+
+    if "--diagnose-cb-url" in sys.argv:
+        diagnose_content_builder_url()
         return
 
     manual_data = load_json(DATA_PATH, [])
