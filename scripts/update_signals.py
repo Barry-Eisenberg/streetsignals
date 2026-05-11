@@ -1350,9 +1350,91 @@ def reclassify_auto_data():
     print(f"Reclassified {len(auto_data)} auto signals in {AUTO_DATA_PATH}.")
 
 
+def _arg_value(flag):
+    """Return the CLI value immediately after a flag, if present."""
+    if flag not in sys.argv:
+        return None
+    i = sys.argv.index(flag)
+    if i + 1 >= len(sys.argv):
+        return None
+    return sys.argv[i + 1]
+
+
+def resummarize_auto_data_with_content_builder():
+    """Re-generate existing auto signal descriptions via Content Builder integration.
+
+    Usage examples:
+        python scripts/update_signals.py --resummarize-auto
+        python scripts/update_signals.py --resummarize-auto --limit 50 --dry-run
+
+    Notes:
+        - Requires NEXTFI_CB_BASE_URL to be set.
+        - Uses existing NEXTFI_CB_* env flags for timeout/proxy/model behavior.
+    """
+    if not NEXTFI_CB_BASE_URL:
+        print("NEXTFI_CB_BASE_URL is not set. Nothing to do.")
+        return
+
+    auto_data = load_json(AUTO_DATA_PATH, [])
+    if not auto_data:
+        print("No auto signals found — nothing to re-summarize.")
+        return
+
+    limit = None
+    raw_limit = _arg_value("--limit")
+    if raw_limit:
+        try:
+            limit = max(1, int(raw_limit))
+        except ValueError:
+            print(f"WARN: ignoring invalid --limit value: {raw_limit}")
+
+    dry_run = "--dry-run" in sys.argv
+
+    cb_summary_cache = {}
+    processed = 0
+    changed = 0
+    skipped_no_url = 0
+
+    for signal in auto_data:
+        if limit is not None and processed >= limit:
+            break
+
+        url = (signal.get("source_url") or "").strip()
+        if not url:
+            skipped_no_url += 1
+            continue
+
+        processed += 1
+        old_desc = (signal.get("description") or "").strip()
+        new_desc = summarize_with_nextfi_content_builder(
+            url,
+            signal.get("initiative", ""),
+            old_desc,
+            cb_summary_cache,
+        ).strip()
+
+        if new_desc and new_desc != old_desc:
+            changed += 1
+            if not dry_run:
+                signal["description"] = new_desc
+
+    if changed and not dry_run:
+        save_json(AUTO_DATA_PATH, auto_data)
+
+    print("Re-summarize complete.")
+    print(f"  Signals examined : {processed}")
+    print(f"  Updated copy     : {changed}")
+    print(f"  Missing URL      : {skipped_no_url}")
+    print(f"  Dry run          : {'yes' if dry_run else 'no'}")
+
+
 def main():
     if "--reclassify" in sys.argv:
         reclassify_auto_data()
+        return
+
+    if "--resummarize-auto" in sys.argv:
+        resummarize_auto_data_with_content_builder()
         return
 
     manual_data = load_json(DATA_PATH, [])

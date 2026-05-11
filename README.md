@@ -50,6 +50,25 @@ Manual refresh:
 python scripts/update_signals.py
 ```
 
+Content Builder-assisted refresh (opt-in):
+
+```powershell
+set NEXTFI_CB_BASE_URL=https://nextfi-content-builder.onrender.com
+set NEXTFI_CB_TIMEOUT=30
+set NEXTFI_CB_USE_PROXY=1
+set NEXTFI_CB_PROXY_MODEL=claude-sonnet-4-6
+python scripts/update_signals.py
+```
+
+Re-summarize existing auto signal copy (backfill mode):
+
+```powershell
+set NEXTFI_CB_BASE_URL=https://nextfi-content-builder.onrender.com
+set NEXTFI_CB_USE_PROXY=1
+python scripts/update_signals.py --resummarize-auto --limit 50 --dry-run
+python scripts/update_signals.py --resummarize-auto
+```
+
 Dune overlay refresh:
 
 ```bash
