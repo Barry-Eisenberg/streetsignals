@@ -1,5 +1,46 @@
 [
   {
+    "institution": "Bank of England",
+    "initiative": "Bank of England’s Andrew Bailey warns stablecoin oversight may become flashpoint with U.S.",
+    "description": "Bank of England Governor Andrew Bailey has warned that international regulators could face a difficult confrontation with the United States over how stablecoins should be governed across global payment systems. According to Reuters, Bailey said at a conference on Friday… Bank of England’s Andrew Bailey warns stablecoin oversight may become flashpoint with U.S.",
+    "date": "2026-05-11",
+    "source_url": "https://crypto.news/bank-of-englands-andrew-bailey-warns-stablecoin-oversight-may-become-flashpoint-with-u-s/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Morgan Stanley",
+    "initiative": "Morgan Stanley’s MSBT avoids outflows through the first month of trading",
+    "description": "Morgan Stanley’s spot bitcoin ETF has completed its first month without a single day of net outflows, even as larger rival funds posted repeated redemption sessions during the same period. SoSoValue data reviewed by crypto.news showed Morgan Stanley’s MSBT continued… Morgan Stanley’s MSBT avoids outflows through the first month of trading",
+    "date": "2026-05-11",
+    "source_url": "https://crypto.news/morgan-stanleys-msbt-avoids-outflows-through-the-first-month-of-trading/",
+    "category": "global_banks",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Canton Network",
     "initiative": "Canton Network builder nears $300M raise led by a16z crypto",
     "description": "Digital Asset is reportedly raising $300M at a $2B valuation as a16z crypto leads a round tied to Canton Network’s institutional growth now.",
@@ -311,15 +352,15 @@
     "year": "2026"
   },
   {
-    "institution": "Coinbase",
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "US Senate Banking Committee Expected to Hold a Formal Vote on CLARITY Act as Early as Next Week",
     "description": "The Senate Banking Committee is preparing to schedule a markup vote on the Digital Asset Market CLARITY Act during the week of May 11, with draft legislative text already circulated to select industry participants ahead of a potential Thursday session. The bill, which passed the House 294-134 in July 2025, would establish a statutory jurisdictional split between the SEC and CFTC, assigning digital commodities to CFTC oversight while retaining SEC authority over digital securities — a foundational question that has kept institutional market structure uncertain for years.",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/coinbase-pushes-clarity-act-senate-vote-next-week/",
-    "category": "exchanges_intermediaries",
+    "category": "regulators",
     "source_name": "crypto.news",
     "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
+    "institution_type": "Regulatory Agencies",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
       "General Infrastructure"
@@ -330,15 +371,15 @@
     "year": "2026"
   },
   {
-    "institution": "Circle",
+    "institution": "Federal Reserve",
     "initiative": "Meta’s USDC pilot draws fire as Senator Warren demands stablecoin transparency",
     "description": "Senator Elizabeth Warren sent a formal letter to Meta CEO Mark Zuckerberg demanding written responses by May 20 regarding the company's active USDC payment pilot, which routes creator earnings in Colombia and the Philippines through Circle's stablecoin on Solana and Polygon, with Stripe serving as the backend settlement layer. Warren is specifically seeking disclosure of which third-party stablecoins and wallets Meta is integrating, how it selects issuers like Circle, what financial data is being harvested from linked wallet accounts, and whether Meta has held any discussions with the Federal Reserve, SEC, CFTC, or banking regulators about the program.",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/metas-usdc-pilot-draws-fire-as-senator-warren-demands-stablecoin-transparency/",
-    "category": "payments",
+    "category": "regulators",
     "source_name": "crypto.news",
     "auto_generated": true,
-    "institution_type": "Payments Providers",
+    "institution_type": "Regulatory Agencies",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Settlement & Clearing",
@@ -709,15 +750,15 @@
     "year": "2026"
   },
   {
-    "institution": "crypto.news",
+    "institution": "Bank of England",
     "initiative": "Leading trends in the UK currency and cryptocurrency markets in 2026",
     "description": "This is sponsored partner content from crypto.news, not a discrete market event or regulatory filing, making it unsuitable as a primary institutional signal. The piece, attributed to TradingPedia commentary, outlines a structural narrative in which the Bank of England's rate posture is increasingly the dominant driver of sterling positioning in GBP/USD and GBP/EUR pairs, while UK crypto regulation is expanding to cover exchanges, stablecoin issuers, and custody providers under formal FCA-adjacent oversight. The convergence argument rests on institutional participants now responding to shared macro inputs — particularly global liquidity conditions and rate differentials — across both FX and digital asset books.",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/leading-trends-in-the-uk-currency-and-cryptocurrency-markets-in-2026/",
-    "category": "ecosystem",
+    "category": "regulators",
     "source_name": "crypto.news",
     "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
+    "institution_type": "Regulatory Agencies",
     "signal_type": "Strategic Partnership",
     "fmi_areas": [
       "Custody & Safekeeping",
@@ -774,15 +815,15 @@
     "year": "2026"
   },
   {
-    "institution": "CoinDesk",
+    "institution": "Mastercard",
     "initiative": "Stablecoin card spend is growing 100% year over year, Rain exec says",
     "description": "Rain's head of strategic partnerships disclosed at Consensus Miami 2026 that retail stablecoin card spend has grown approximately 105–106% year-over-year, with Latin American markets potentially approaching double-digit percentage share of total card issuance in the near term. Rain, which recently became a Mastercard Principal Member, is operating as infrastructure for card issuers rather than a competing network, routing stablecoin balances through Mastercard's existing global merchant acceptance footprint and exploring on-chain settlement for select card program flows using regulated stablecoins.",
     "date": "2026-05-08",
     "source_url": "https://www.coindesk.com/business/2026/05/08/stablecoin-card-spend-is-growing-100-year-over-year-rain-exec-says",
-    "category": "ecosystem",
+    "category": "payments",
     "source_name": "CoinDesk",
     "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
+    "institution_type": "Payments Providers",
     "signal_type": "Strategic Partnership",
     "fmi_areas": [
       "Settlement & Clearing",
@@ -899,15 +940,15 @@
     "year": "2026"
   },
   {
-    "institution": "Unchained",
+    "institution": "U.S. Treasury Department",
     "initiative": "Treasury Privately Demands Binance Comply With 2023 Monitoring Program After $1B Iran Flow Report",
     "description": "The U.S. Treasury's Office of Terrorism and Financial Intelligence, led by Under Secretary Gene Lange, sent a private letter to Binance within recent weeks formally reminding the exchange of its obligation to cooperate with the independent compliance monitor established under its November 2023 guilty plea — specifically requiring timely production of data records and documents. The directive represents a deliberate escalation after reporting by Fortune and The Information alleged that more than $1 billion transited Binance to Iran-linked wallets between March 2024 and August 2025, a period during which Binance management had reportedly been in separate discussions with the DOJ to terminate the monitorship early.",
     "date": "2026-05-08",
     "source_url": "https://unchainedcrypto.com/treasury-privately-demands-binance-comply-with-2023-monitoring-program-after-1b-iran-flow-report/",
-    "category": "ecosystem",
+    "category": "regulators",
     "source_name": "Unchained Crypto",
     "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
+    "institution_type": "Regulatory Agencies",
     "signal_type": "Product Launch",
     "fmi_areas": [
       "Collateral & Lending",
@@ -1076,7 +1117,7 @@
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Research / Report",
     "fmi_areas": [
       "Collateral & Lending",
       "Regulation & Compliance"
@@ -1207,7 +1248,7 @@
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
       "Regulation & Compliance"
     ],
@@ -1363,7 +1404,7 @@
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Digital Currency & Stablecoins"
     ],
@@ -1457,7 +1498,7 @@
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Trading & Exchange",
       "Regulation & Compliance"
@@ -1639,7 +1680,7 @@
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Regulation & Compliance"
     ],
@@ -1801,7 +1842,7 @@
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
       "Custody & Safekeeping",
       "Trading & Exchange",
@@ -2173,7 +2214,7 @@
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
     ],
@@ -2417,7 +2458,7 @@
     "source_name": "The Block",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Digital Currency & Stablecoins"
     ],
@@ -2453,7 +2494,7 @@
     "source_name": "Ledger Insights",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Settlement & Clearing",
       "Custody & Safekeeping",
@@ -2554,7 +2595,7 @@
     "source_name": "CoinGeek",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Digital Currency & Stablecoins",
       "Regulation & Compliance"
@@ -2823,7 +2864,7 @@
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
     ],
@@ -3109,7 +3150,7 @@
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Trading & Exchange",
       "Regulation & Compliance"
@@ -3298,7 +3339,7 @@
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Digital Currency & Stablecoins"
     ],
@@ -3378,7 +3419,7 @@
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
     ],
@@ -3416,7 +3457,7 @@
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
     ],
@@ -3435,7 +3476,7 @@
     "source_name": "The Block",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Regulation & Compliance"
     ],
@@ -3682,7 +3723,7 @@
     "source_name": "Ledger Insights",
     "auto_generated": true,
     "institution_type": "Global Banks",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Trading & Exchange",
       "Interoperability & Standards"
@@ -3762,7 +3803,7 @@
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Global Banks",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Trading & Exchange",
       "Interoperability & Standards"
@@ -3837,7 +3878,7 @@
     "source_name": "CoinGeek",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Digital Currency & Stablecoins",
       "Regulation & Compliance"
@@ -4161,7 +4202,7 @@
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
     ],
@@ -4238,7 +4279,7 @@
     "source_name": "The Block",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Digital Currency & Stablecoins"
     ],
@@ -4258,7 +4299,7 @@
     "source_name": "The Block",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Filing / Plan",
     "fmi_areas": [
       "Digital Currency & Stablecoins",
       "Regulation & Compliance"
@@ -4393,7 +4434,7 @@
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Digital Currency & Stablecoins"
     ],
@@ -4487,7 +4528,7 @@
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Digital Currency & Stablecoins",
       "Regulation & Compliance"
@@ -4925,7 +4966,7 @@
     "source_name": "Unchained Crypto",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Settlement & Clearing",
       "Digital Currency & Stablecoins"
@@ -5000,7 +5041,7 @@
     "source_name": "The Block",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Trading & Exchange",
       "Regulation & Compliance"
@@ -5171,7 +5212,7 @@
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Pilot / Trial",
     "fmi_areas": [
       "Settlement & Clearing",
       "Regulation & Compliance"
@@ -5438,7 +5479,7 @@
     "source_name": "The Block",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Settlement & Clearing",
       "Digital Currency & Stablecoins"
@@ -5459,7 +5500,7 @@
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
     ],
@@ -5476,7 +5517,7 @@
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
     ],
@@ -5656,7 +5697,7 @@
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Digital Currency & Stablecoins"
     ],
@@ -5732,7 +5773,7 @@
     "source_name": "Finextra",
     "auto_generated": true,
     "institution_type": "Global Banks",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
       "General Infrastructure"
     ],
@@ -6109,7 +6150,7 @@
     "source_name": "Finextra",
     "auto_generated": true,
     "institution_type": "Global Banks",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
       "Payments & Transfers",
       "Regulation & Compliance",
@@ -6162,7 +6203,7 @@
     "source_name": "Finextra",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
       "Custody & Safekeeping",
       "Payments & Transfers",
@@ -6500,7 +6541,7 @@
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Digital Currency & Stablecoins",
       "Regulation & Compliance"
@@ -6685,7 +6726,7 @@
     "source_name": "ESMA — News",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Regulation & Compliance"
     ],
@@ -6778,7 +6819,7 @@
     "source_name": "CoinGeek",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
       "Digital Currency & Stablecoins",
       "Regulation & Compliance"
@@ -7526,7 +7567,7 @@
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Regulation & Compliance"
     ],
@@ -7695,7 +7736,7 @@
     "source_name": "CoinGeek",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
       "Payments & Transfers",
       "Digital Currency & Stablecoins",
@@ -7773,7 +7814,7 @@
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Asset & Investment Management",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Regulation & Compliance"
     ],
@@ -7981,7 +8022,7 @@
     "source_name": "The Block",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Trading & Exchange",
       "Regulation & Compliance"
@@ -8039,7 +8080,7 @@
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Trading & Exchange",
       "Regulation & Compliance"
@@ -8076,7 +8117,7 @@
     "source_name": "Unchained Crypto",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Digital Currency & Stablecoins"
     ],
@@ -8211,7 +8252,7 @@
     "source_name": "The Block",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Filing / Plan",
     "fmi_areas": [
       "General Infrastructure"
     ],
@@ -8703,7 +8744,7 @@
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Digital Currency & Stablecoins",
       "Regulation & Compliance"
@@ -9223,7 +9264,7 @@
     "source_name": "Finextra",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Payments & Transfers"
     ],
@@ -9240,7 +9281,7 @@
     "source_name": "BIS — Research Papers",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Regulation & Compliance"
     ],
@@ -9366,7 +9407,7 @@
     "source_name": "Finextra",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Trading & Exchange",
       "Digital Currency & Stablecoins",
@@ -9456,7 +9497,7 @@
     "source_name": "BIS — Press Releases",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Pilot / Trial",
     "fmi_areas": [
       "Collateral & Lending",
       "Regulation & Compliance"
@@ -9497,40 +9538,6 @@
     "source_url": "https://www.bis.org/press/p260322.htm",
     "category": "regulators",
     "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "What needs to be done to improve the efficiency of the resolution framework of the banking union",
-    "description": "The resolution framework of the banking union is a significant achievement that has proved capable of managing idiosyncratic bank failures. However, certain features increase its complexity and undermine its efficiency compared with the frameworks of other major jurisdictions.",
-    "date": "2026-03-20",
-    "source_url": "https://www.bis.org/fsi/fsipapers26.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board issues enforcement actions with former employee of Ally Bank and former employee of Regions Bank",
-    "description": "Federal Reserve Board issues enforcement actions with former employee of Ally Bank and former employee of Regions Bank",
-    "date": "2026-03-20",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260320a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
     "signal_type": "Strategic Initiative",
