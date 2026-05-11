@@ -77,6 +77,14 @@ python scripts/prefill_unmapped_review.py --scope strict --map-min-confidence hi
 
 This refreshes the first-pass queue, auto-accepts high-confidence rows, and rebuilds the workbook/dashboard artifacts. A daily scheduled GitHub Actions job runs the same command automatically.
 
+Finalize dashboard-reviewed unmapped rows:
+
+```bash
+python scripts/finalize_unmapped_review.py --input path/to/unmapped_review_first_pass.edited.csv
+```
+
+Use the CSV exported from the dashboard's "Download Edited Full CSV" button. This single command aggregates reviewer decisions and writes accepted mappings back into `data.json` and `auto_data.json`.
+
 Dune overlay refresh:
 
 ```bash

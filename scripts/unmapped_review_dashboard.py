@@ -103,8 +103,6 @@ def _load_jsonl_rows(path: Path) -> List[dict]:
             if not line:
                 continue
             out.append(json.loads(line))
-    return out
-
 
 def _norm(v: str) -> str:
     return (v or "").strip().lower()
@@ -336,7 +334,7 @@ def _html_template(payload_json: str) -> str:
   <div class=\"table-wrap\">
     <table>
       <thead>
-        <tr>
+    Recommended workflow: edit unresolved rows -> download the edited full CSV -> run <code>python scripts/finalize_unmapped_review.py --input &lt;edited-csv&gt;</code> to aggregate decisions and write back mappings.
           <th>signal_id</th>
           <th>signal_url</th>
           <th>tier</th>
@@ -357,7 +355,7 @@ def _html_template(payload_json: str) -> str:
   </div>
 
   <div class=\"note\">
-    Recommended workflow: edit unresolved rows -> download edited CSV -> replace or merge into data/unmapped_review_first_pass.csv -> run Stage 3 + Stage 4 scripts.
+    Recommended workflow: edit unresolved rows -> download the edited full CSV -> run <code>python scripts/finalize_unmapped_review.py --input &lt;edited-csv&gt;</code> to aggregate decisions and write back mappings.
   </div>
 </div>
 
