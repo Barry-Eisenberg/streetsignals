@@ -1,0 +1,63 @@
+PAST10_P2_SEMANTIC_REVIEW_WORKSHEET_TOP10
+COUNT 10
+
+7i7pmk | 2026-05-04 | overlap=0.125 | len=125
+TITLE: Kraken’s parent company alleges custodian Etana misappropriated $25 million
+URL: https://www.theblock.co/post/399880/krakens-parent-company-alleges-custodian-etana-misappropriated-25-million
+RECOMMENDATION: Medium mismatch risk: manually validate summary meaning against title.
+SUMMARY: Etana is accused of operating a "Ponzi-like enterprise" the resulted in using capital to fund expenses and risky investments.
+
+vojv35 | 2026-05-04 | overlap=0.143 | len=137
+TITLE: Stablecoin startup Rain joins Mastercard as a Principal Member
+URL: https://www.theblock.co/post/399878/stablecoin-startup-rain-joins-mastercard-as-a-principal-member
+RECOMMENDATION: Medium mismatch risk: manually validate summary meaning against title.
+SUMMARY: Rain, which was valued at $1.95 billion during a Series C round announced in January, has an existing relationship with card issuer Visa.
+
+kmf5nw | 2026-05-04 | overlap=0.091 | len=548
+TITLE: Shopify and National Bank of Canada are among backers of a new digital currency built to settle trades 24/7
+URL: https://www.coindesk.com/business/2026/05/04/shopify-and-national-bank-of-canada-are-among-backers-of-a-new-digital-currency-built-to-settle-trades-24-7
+RECOMMENDATION: Medium mismatch risk: manually validate summary meaning against title.
+SUMMARY: Tetra Trust Company, a regulated Canadian digital asset custodian, has launched CADD, a Canadian-dollar-pegged stablecoin issued under approval from the Alberta Treasury Board and Finance, making it the first CAD stablecoin from a provincially regulated financial institution. The token is currently live on Base, Ethereum, and Tempo, with reserves held in trust under Canadian law and ring-fenced for redemption, addressing a structural gap in domestic blockchain-based settlement where USD-denomina
+
+1n1ool | 2026-05-05 | overlap=0.000 | len=195
+TITLE: Tether begins first stablecoin audit as Lutnick loan scrutiny mounts
+URL: https://coingeek.com/tether-begins-first-stablecoin-audit-as-lutnick-loan-scrutiny-mounts/
+RECOMMENDATION: High mismatch risk: re-summarize and verify against source title/context.
+SUMMARY: Ardoino noted that USDT’s market cap has grown by $6 billion since the end of March, “reflecting sustained demand” in the token that plays a dominant role in digital asset exchange trading pairs.
+
+vksvnr | 2026-05-05 | overlap=0.000 | len=677
+TITLE: It's transparency, not tech alone, that drives crypto adoption, panelists tell Consensus Miami
+URL: https://www.coindesk.com/business/2026/05/05/it-s-transparency-not-tech-alone-that-drives-crypto-adoption-panelists-tell-consensus-miami
+RECOMMENDATION: High mismatch risk: re-summarize and verify against source title/context.
+SUMMARY: And I think you do that best by talking to your customers and your prospects and really figuring out what's making their heart beat," she said, citing earlier remarks from a former Mastercard CMO that traditional market research is now only "23% accurate." In a closing lightning round, Lanka predicted users will "increasingly make the wealth manager redundant"; White predicted CLARITY Act passage and tokenized RWAs hitting stride in the U.S.; Bell floated that “by the beginning of next year,” 80
+
+gqu1kc | 2026-05-06 | overlap=0.100 | len=151
+TITLE: NYSE, OKX, Securitze discuss tokenizing stocks “the right way” versus synthetically
+URL: https://www.ledgerinsights.com/nyse-okx-securitze-discuss-tokenizing-stocks-the-right-way-versus-synthetically/
+RECOMMENDATION: Medium mismatch risk: manually validate summary meaning against title.
+SUMMARY: Yesterday during a Consensus panel, the topic of synthetic tokenized stocks was discussed, with Securitize CEO Carlos Domingo pushing back hard against
+
+jz6xf | 2026-05-06 | overlap=0.000 | len=175
+TITLE: Cybersecurity strains grow as AI challenges Australian banks
+URL: https://coingeek.com/cybersecurity-strains-grow-as-ai-challenges-australian-banks/
+RECOMMENDATION: High mismatch risk: re-summarize and verify against source title/context.
+SUMMARY: Despite increasing awareness about the evolving risk landscape, the financial regulator said many of these banking institutions are still adapting their internal capabilities.
+
+tzweh1 | 2026-05-06 | overlap=0.000 | len=160
+TITLE: Why Erik Reppel says AI agents end internet ads
+URL: https://crypto.news/erik-reppel-says-ai-agents-will-kill-online-ads/
+RECOMMENDATION: High mismatch risk: re-summarize and verify against source title/context.
+SUMMARY: He argued that x402, a Coinbase-backed protocol for stablecoin micropayments, could replace advertising as the primary way web content is monetised by software.
+
+dygbxx | 2026-05-06 | overlap=0.000 | len=198
+TITLE: Anchorage Digital launches AI banking for autonomous payments
+URL: https://crypto.news/anchorage-digital-launches-ai-banking-for-autonomous-payments/
+RECOMMENDATION: High mismatch risk: re-summarize and verify against source title/context.
+SUMMARY: In March, the bank took a strategic stake in Immunefi and acquired its IMU token, linking regulated custody services with on-chain security programs aimed at reducing smart contract vulnerabilities.
+
+fcagxm | 2026-05-06 | overlap=0.167 | len=516
+TITLE: Ripple, JPMorgan and others use XRP Ledger to cash out tokenized Treasurys fund internationally
+URL: https://www.theblock.co/post/400281/ripple-jpmorgan-xrp-ledger-transfer-tokenized-treasury-across-borders
+RECOMMENDATION: Medium mismatch risk: manually validate summary meaning against title.
+SUMMARY: "For the first time, a public blockchain and global banking infrastructure settled a cross-border transaction of a tokenized fund together in real time." The pilot transaction represents another example of crypto firms, payments companies and Wall Street institutions coming together to explore faster, cheaper payment and settlement systems that can operate around the clock. Exodus launches non-custodial payments as it expands beyond core wallet product Dec 09, 2025, 9:30AM EST • Infrastructure ©
+

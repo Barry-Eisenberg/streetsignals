@@ -1,0 +1,32 @@
+PAST10_EXCLUDING_UPDATED
+TOTAL_AUDITED 280
+ALL_FLAGGED 101
+UPDATED_IDS_EXCLUDED 58
+REMAINING_FLAGGED 93
+
+HIGH_CONTAM_QUEUE
+COUNT 5
+BY_DOMAIN
+crypto.news	4
+coingeek.com	1
+BY_REASON
+read_more	4
+title_overlap_too_low	4
+site_nav	2
+load_more	1
+TOP_50_HIGH_CONTAM
+qbcqaa	2026-05-04	crypto.news	12	read_more|load_more|site_nav
+  https://crypto.news/korean-crypto-exchanges-push-back-against-strict-10m-won-aml-trigger/
+  Read more: SAP to acquire Prior Labs in push to scale tabular AI capabilities Read more about Crypto assets DeFiLlama Exchange Load More Best crypto platforms May 2026 Explore Deep Dives Opinion Read more Crypto conference season looked loud in 2025 but it barely made a dent in crypto media traffic 
+rpb10h	2026-05-04	crypto.news	9	read_more|title_overlap_too_low
+  https://crypto.news/western-union-brings-usdpt-to-solana-in-global-payments-push/
+  2 hours ago News Read more MoonPay says stablecoin regulation opened the door but infrastructure must follow MoonPay says stablecoin regulation opened the door but infrastructure must follow 2 days ago News Read more US banks reject CLARITY Act stablecoin deal days before Senate vote US banks reject
+k84ksn	2026-05-05	crypto.news	9	read_more|title_overlap_too_low
+  https://crypto.news/bank-groups-challenge-senator-thom-tillis-over-stablecoin-proposal/
+  2 hours ago News Read more MoonPay says stablecoin regulation opened the door but infrastructure must follow MoonPay says stablecoin regulation opened the door but infrastructure must follow 2 days ago News Read more US banks reject CLARITY Act stablecoin deal days before Senate vote US banks reject
+afw2y4	2026-05-06	coingeek.com	9	site_nav|title_overlap_too_low
+  https://coingeek.com/uk-sets-new-rules-for-fund-tokenization-under-current-regulations/
+  “Tokenisation has the potential to play an important role in asset management, and its adoption will be driven by firms and investors,” said Simon Walls, executive director of markets at the FCA, in an April 30 press release . “Alongside wider work on wholesale digital market infrastructure, this gu
+bfo6ja	2026-05-06	crypto.news	9	read_more|title_overlap_too_low
+  https://crypto.news/stablecoins-enter-ai-payments-as-solana-and-google-launch-pay-sh/
+  2 hours ago News Read more MoonPay says stablecoin regulation opened the door but infrastructure must follow MoonPay says stablecoin regulation opened the door but infrastructure must follow 2 days ago News Read more US banks reject CLARITY Act stablecoin deal days before Senate vote US banks reject

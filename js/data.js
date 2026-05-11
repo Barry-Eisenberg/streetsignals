@@ -378,8 +378,14 @@ const SftSData = {
       if (latest) setTodayAnchor(latest);
       // Second pass: normalize
       const all = [];
-      (manual || []).forEach((s, i) => all.push(this._normalize(s, 'manual', i)));
-      (auto   || []).forEach((s, i) => all.push(this._normalize(s, 'auto',   i)));
+      (manual || []).forEach((s, i) => {
+        if (s && s.removed === true) return;
+        all.push(this._normalize(s, 'manual', i));
+      });
+      (auto   || []).forEach((s, i) => {
+        if (s && s.removed === true) return;
+        all.push(this._normalize(s, 'auto', i));
+      });
       this.signals = all;
       this.signals.forEach(s => this.byId.set(s._id, s));
       this.briefs = briefs || [];

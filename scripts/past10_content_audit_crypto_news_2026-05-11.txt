@@ -1,0 +1,75 @@
+SIGNAL_CONTENT_AUDIT
+WINDOW 2026-05-02 to 2026-05-11
+TOTAL_IN_WINDOW 99
+FLAGGED 20
+FLAGGED_BY_CONFIDENCE {'high': 1, 'medium': 17, 'low': 2}
+
+FLAGGED_BY_REASON
+site_nav	10
+title_overlap_too_low	9
+too_short_180	4
+
+FLAGGED_BY_DOMAIN
+crypto.news	20
+
+TOP_60_FLAGGED
+vorc0h	2026-05-08	crypto.news	high	9	site_nav|title_overlap_too_low
+  https://crypto.news/ondo-price-breaks-0-30-resistance-amid-rwa-growth-can-it-revisit-january-highs/
+  Ondo Finance's ONDO token surged more than 50% in a single week following a successful cross-border institutional settlement pilot conducted with JPMorgan's Kinexys, Mastercard, and Ripple, in which tokenized U.S. Treasuries were redeemed and settled in under five seconds on the XRP Ledger. The proj
+vuzuso	2026-05-07	crypto.news	medium	6	title_overlap_too_low|too_short_180
+  https://crypto.news/sofi-made-121m-in-crypto-but-kept-almost-none/
+  The bank launched SoFiUSD in December and partnered with Mastercard for settlement, but the GENIUS Act may force a structural change to the stablecoin unit.
+o5ifws	2026-05-08	crypto.news	medium	6	title_overlap_too_low|too_short_180
+  https://crypto.news/coinbase-perps-shake-up-hits-kaito-cake-vet-and-more/
+  The affected tokens span several market areas, including AI, DeFi, gaming, infrastructure, and older layer-1 networks.
+ptkja6	2026-05-03	crypto.news	medium	5	title_overlap_too_low
+  https://crypto.news/crypto-market-recap-what-happened-today-5/
+  On May 3, 2026, Senate negotiators brokered a compromise on the stablecoin rewards provision blocking the CLARITY Act, with Senators Thom Tillis and Angela Alsobrooks agreeing to language that restricts yield-like interest payments while preserving crypto platforms' ability to reward genuine network
+dygbxx	2026-05-06	crypto.news	medium	5	title_overlap_too_low
+  https://crypto.news/anchorage-digital-launches-ai-banking-for-autonomous-payments/
+  In March, the bank took a strategic stake in Immunefi and acquired its IMU token, linking regulated custody services with on-chain security programs aimed at reducing smart contract vulnerabilities.
+lx2hoo	2026-05-06	crypto.news	medium	5	title_overlap_too_low
+  https://crypto.news/rootdata-maps-30-hyperliquid-web3-partners-as-it-builds-an-on-chain-liquidity-os/
+  Custodians such as Anchorage Digital, BitGo, and Fireblocks, plus trading firms and exchanges like Bybit, trade.xyz, and IMC Trading, are helping plug larger institutional capital and market‑making into Hyperliquid’s L1.
+rvwy8x	2026-05-08	crypto.news	medium	5	title_overlap_too_low
+  https://crypto.news/metas-usdc-pilot-draws-fire-as-senator-warren-demands-stablecoin-transparency/
+  crypto.news That deal cleared a major hurdle for the sweeping digital asset market structure bill, which aims to create a federal regime for exchanges, token classification and stablecoin oversight and is now headed for a Banking Committee markup as soon as the week of May 11.
+6oi25l	2026-05-08	crypto.news	medium	5	title_overlap_too_low
+  https://crypto.news/sanders-calls-for-fed-rate-cuts-as-crypto-watches-policy-rift-widen/
+  Acting U.S. Labor Secretary Sandlin publicly urged the Federal Reserve to consider lowering interest rates, placing a senior administration official in direct tension with a Fed leadership that has signaled continued patience amid sticky inflation and resilient labor data. Most economists now expect
+9sbtlm	2026-05-09	crypto.news	medium	5	title_overlap_too_low
+  https://crypto.news/jpmorgan-makes-ai-core-infrastructure-spending/
+  The bank has also launched its JPMD deposit token on public blockchain infrastructure, with its proprietary AI now managing JPMD flows and predicting when institutional clients will need liquidity before human traders identify the need.
+6c6h7j	2026-05-04	crypto.news	medium	4	site_nav
+  https://crypto.news/bitget-cfd-daily-volume-hits-record-8b-on-gold-surge/
+  Crypto exchange Bitget reported that single-day volume on its contracts-for-difference platform surpassed $8 billion, with gold-linked contracts accounting for roughly 95% of the incremental activity as traders rotated into precious metals amid geopolitical uncertainty, inflation concerns, and shift
+b9jz4e	2026-05-04	crypto.news	medium	4	site_nav
+  https://crypto.news/coinbase-urges-cftc-to-keep-prediction-markets-under-rules/
+  Coinbase submitted a formal letter to the CFTC on April 30 in response to the agency's Advance Notice of Proposed Rulemaking, arguing that event-based contracts already fall within the Commission's existing statutory authority and require no new legislative mandate to regulate. Chief Policy Officer 
+7sabuz	2026-05-05	crypto.news	medium	4	site_nav
+  https://crypto.news/moscow-exchange-bets-bigger-on-crypto-with-sol-xrp-trx-and-bnb-indexes/
+  Moscow Exchange is set to launch four new cryptocurrency reference indexes — covering Solana, XRP, Tron, and BNB — on May 13, with pricing drawn from Binance (50% weight), Bybit (20%), OKX (15%), and Bitget (15%). The exchange will also shift all its digital asset benchmarks, including its existing 
+u0ty6v	2026-05-06	crypto.news	medium	4	site_nav
+  https://crypto.news/kelp-dao-moves-rseth-to-chainlink-ccip-as-layerzero-dispute-grows/
+  Kelp DAO announced it will migrate its rsETH liquid restaking token from LayerZero's OFT standard to Chainlink's Cross-Chain Interoperability Protocol following an April 18 exploit in which attackers drained 116,500 rsETH — worth approximately $292 million — from its LayerZero-powered bridge. The st
+4i6asx	2026-05-07	crypto.news	medium	4	site_nav
+  https://crypto.news/swiss-bank-amina-brings-canton-coin-into-regulated-finance/
+  AMINA, a FINMA-regulated Swiss crypto bank, has begun offering custody and trading services for Canton Coin, making it the first bank supervised by Switzerland's financial regulator to do so. Canton Network, developed by Digital Asset and backed by institutions including Goldman Sachs, the DTCC, Vis
+i2gy9y	2026-05-08	crypto.news	medium	4	site_nav
+  https://crypto.news/21shares-tcan-etf-brings-canton-network-exposure-to-u-s-investors/
+  21Shares launched TCAN on Nasdaq on May 7, 2026, structured as an ETF with a 0.50% gross expense ratio and designed to give U.S. investors listed-product access to Canton Coin, the native token of the Canton Network developed by Digital Asset. Canton is a privacy-enabled blockchain built specificall
+5tjwsn	2026-05-08	crypto.news	medium	4	site_nav
+  https://crypto.news/coinbase-push-senate-to-loosen-manipulation-test-for-small-cap-token-listings/
+  Coinbase, Kraken, and Gemini submitted formal redlines to the Senate Agriculture Committee urging lawmakers to delete a requirement that registered digital commodity exchanges may only list tokens "not readily susceptible to manipulation" — a standard currently applied to futures and swaps markets u
+1qcu1g	2026-05-08	crypto.news	medium	4	site_nav
+  https://crypto.news/leading-trends-in-the-uk-currency-and-cryptocurrency-markets-in-2026/
+  A sponsored analysis published by crypto.news, citing commentary from TradingPedia, argues that UK foreign exchange and cryptocurrency markets have converged around the same macroeconomic drivers in 2026, principally Bank of England rate expectations, inflation dynamics, and global liquidity conditi
+2pzyrn	2026-05-08	crypto.news	medium	4	site_nav
+  https://crypto.news/nagel-warns-iran-war-is-fueling-inflation-risks-as-ecb-stays-on-alert/
+  Bundesbank President Joachim Nagel, speaking in his capacity as an ECB Governing Council member, publicly stated that the central bank is "highly vigilant" to inflation risks stemming from the ongoing Iran war, warning that rising energy costs could spill over into broader consumer prices if left un
+8cwfxq	2026-05-08	crypto.news	low	1	too_short_180
+  https://crypto.news/u-s-scrutiny-grows-as-binance-defends-compliance-work/
+  Department of the Treasury reportedly sent Binance a private letter pressing the exchange on compliance with its 2023 settlement duties.
+9edctg	2026-05-10	crypto.news	low	1	too_short_180
+  https://crypto.news/sec-hint-sparks-prediction-market-etf-debate/
+  “Prediction market ETFs may launch soon” remains a claim to treat with caution because approval still depends on regulators and final product reviews.

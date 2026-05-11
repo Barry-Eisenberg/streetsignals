@@ -1,0 +1,7 @@
+id,action,status,old_contam,new_contam,old_overlap,new_overlap,attempt_used,date,url,old_len,new_len
+7i7pmk,keep,kept,0,0,0.125,0.125,0,2026-05-04,https://www.theblock.co/post/399880/krakens-parent-company-alleges-custodian-etana-misappropriated-25-million,125,125
+vojv35,keep,kept,0,0,0.143,0.143,0,2026-05-04,https://www.theblock.co/post/399878/stablecoin-startup-rain-joins-mastercard-as-a-principal-member,137,137
+jz6xf,remove,removed,,,,,,2026-05-06,https://coingeek.com/cybersecurity-strains-grow-as-ai-challenges-australian-banks/,,
+kmf5nw,resummarize,changed,0,0,0.091,0.455,1,2026-05-04,https://www.coindesk.com/business/2026/05/04/shopify-and-national-bank-of-canada-are-among-backers-of-a-new-digital-currency-built-to-settle-trades-24-7,548,761
+dygbxx,keep,kept,0,0,0.000,0.000,0,2026-05-06,https://crypto.news/anchorage-digital-launches-ai-banking-for-autonomous-payments/,198,198
+gqu1kc,resummarize,changed,0,0,0.200,0.200,1,2026-05-06,https://www.ledgerinsights.com/nyse-okx-securitze-discuss-tokenizing-stocks-the-right-way-versus-synthetically/,577,583

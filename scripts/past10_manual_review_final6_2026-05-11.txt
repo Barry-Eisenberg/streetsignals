@@ -1,0 +1,22 @@
+PAST10_MANUAL_REVIEW_FINAL6
+DATE 2026-05-11
+SOURCE_QUEUE past10_manual_review_queue_post_batch50_2026-05-11.csv
+SELECTED 6
+TOP_REASONS
+title_overlap_too_low	5
+too_short_180	3
+site_nav	1
+
+ITEMS
+7i7pmk	2026-05-04	www.theblock.co	medium	6	title_overlap_too_low|too_short_180
+  https://www.theblock.co/post/399880/krakens-parent-company-alleges-custodian-etana-misappropriated-25-million
+vojv35	2026-05-04	www.theblock.co	medium	6	title_overlap_too_low|too_short_180
+  https://www.theblock.co/post/399878/stablecoin-startup-rain-joins-mastercard-as-a-principal-member
+jz6xf	2026-05-06	coingeek.com	medium	6	title_overlap_too_low|too_short_180
+  https://coingeek.com/cybersecurity-strains-grow-as-ai-challenges-australian-banks/
+kmf5nw	2026-05-04	www.coindesk.com	medium	5	title_overlap_too_low
+  https://www.coindesk.com/business/2026/05/04/shopify-and-national-bank-of-canada-are-among-backers-of-a-new-digital-currency-built-to-settle-trades-24-7
+dygbxx	2026-05-06	crypto.news	medium	5	title_overlap_too_low
+  https://crypto.news/anchorage-digital-launches-ai-banking-for-autonomous-payments/
+gqu1kc	2026-05-06	www.ledgerinsights.com	medium	4	site_nav
+  https://www.ledgerinsights.com/nyse-okx-securitze-discuss-tokenizing-stocks-the-right-way-versus-synthetically/

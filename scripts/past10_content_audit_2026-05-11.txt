@@ -1,0 +1,204 @@
+SIGNAL_CONTENT_AUDIT
+WINDOW 2026-05-02 to 2026-05-11
+TOTAL_IN_WINDOW 280
+FLAGGED 72
+FLAGGED_BY_CONFIDENCE {'high': 1, 'medium': 37, 'low': 34}
+
+FLAGGED_BY_REASON
+too_short_180	40
+site_nav	26
+title_overlap_too_low	13
+
+FLAGGED_BY_DOMAIN
+www.theblock.co	18
+crypto.news	17
+www.ledgerinsights.com	10
+www.coindesk.com	9
+www.finextra.com	7
+coingeek.com	3
+www.esma.europa.eu	3
+www.chainalysis.com	2
+www.bis.org	2
+ondo.finance	1
+
+TOP_60_FLAGGED
+vorc0h	2026-05-08	crypto.news	high	9	site_nav|title_overlap_too_low
+  https://crypto.news/ondo-price-breaks-0-30-resistance-amid-rwa-growth-can-it-revisit-january-highs/
+  Ondo Finance's ONDO token surged more than 50% over the past week, reaching an intraday high near $0.40, following the successful completion of a cross-border tokenized U.S. Treasury settlement pilot conducted alongside JPMorgan's Kinexys, Mastercard, and Ripple, with the asset leg settling in under
+vojv35	2026-05-04	www.theblock.co	medium	6	title_overlap_too_low|too_short_180
+  https://www.theblock.co/post/399878/stablecoin-startup-rain-joins-mastercard-as-a-principal-member
+  Rain, which was valued at $1.95 billion during a Series C round announced in January, has an existing relationship with card issuer Visa.
+7i7pmk	2026-05-04	www.theblock.co	medium	6	title_overlap_too_low|too_short_180
+  https://www.theblock.co/post/399880/krakens-parent-company-alleges-custodian-etana-misappropriated-25-million
+  Etana is accused of operating a "Ponzi-like enterprise" the resulted in using capital to fund expenses and risky investments.
+jz6xf	2026-05-06	coingeek.com	medium	6	title_overlap_too_low|too_short_180
+  https://coingeek.com/cybersecurity-strains-grow-as-ai-challenges-australian-banks/
+  Despite increasing awareness about the evolving risk landscape, the financial regulator said many of these banking institutions are still adapting their internal capabilities.
+vuzuso	2026-05-07	crypto.news	medium	6	title_overlap_too_low|too_short_180
+  https://crypto.news/sofi-made-121m-in-crypto-but-kept-almost-none/
+  The bank launched SoFiUSD in December and partnered with Mastercard for settlement, but the GENIUS Act may force a structural change to the stablecoin unit.
+o5ifws	2026-05-08	crypto.news	medium	6	title_overlap_too_low|too_short_180
+  https://crypto.news/coinbase-perps-shake-up-hits-kaito-cake-vet-and-more/
+  The affected tokens span several market areas, including AI, DeFi, gaming, infrastructure, and older layer-1 networks.
+migini	2026-05-11	www.coindesk.com	medium	6	title_overlap_too_low|too_short_180
+  https://www.coindesk.com/markets/2026/05/11/new-fed-chair-base-s-azul-upgrade-corporate-earnings-crypto-week-ahead
+  Senate Banking Committee markup scheduled for the Digital Asset Market Clarity Act of 2025.
+ptkja6	2026-05-03	crypto.news	medium	5	title_overlap_too_low
+  https://crypto.news/crypto-market-recap-what-happened-today-5/
+  On May 3, 2026, Senate negotiators brokered a compromise on the stablecoin rewards provision blocking the CLARITY Act, with Senators Thom Tillis and Angela Alsobrooks agreeing to language that restricts yield-like interest payments while preserving crypto platforms' ability to reward genuine network
+dygbxx	2026-05-06	crypto.news	medium	5	title_overlap_too_low
+  https://crypto.news/anchorage-digital-launches-ai-banking-for-autonomous-payments/
+  In March, the bank took a strategic stake in Immunefi and acquired its IMU token, linking regulated custody services with on-chain security programs aimed at reducing smart contract vulnerabilities.
+lx2hoo	2026-05-06	crypto.news	medium	5	title_overlap_too_low
+  https://crypto.news/rootdata-maps-30-hyperliquid-web3-partners-as-it-builds-an-on-chain-liquidity-os/
+  Custodians such as Anchorage Digital, BitGo, and Fireblocks, plus trading firms and exchanges like Bybit, trade.xyz, and IMC Trading, are helping plug larger institutional capital and market‑making into Hyperliquid’s L1.
+hw609q	2026-05-06	www.chainalysis.com	medium	5	title_overlap_too_low
+  https://www.chainalysis.com/blog/blockchain-infrastructure-tradfi-tokenization/
+  Ethereum and its Layer-2 (L2) networks like Arbitrum and Base currently offer the strongest combination of institutional liquidity, low illicit exposure, and compliance tooling, making them a natural home for regulated assets like tokenized securities and money market funds. It possesses massive ins
+7ttins	2026-05-07	www.finextra.com	medium	5	title_overlap_too_low
+  https://www.finextra.com/pressarticle/109768/squads-raises-18m-to-build-stablecoin-operating-system
+  Squads today announced an $18 million strategic round led by Solana Ventures, with participation from Coinbase Ventures, Haun Ventures, L1D, Collab+Currency, Electric Capital, Placeholder, Jump Crypto, and Robot Ventures, bringing total funding to $42.9M.
+9sbtlm	2026-05-09	crypto.news	medium	5	title_overlap_too_low
+  https://crypto.news/jpmorgan-makes-ai-core-infrastructure-spending/
+  The bank has also launched its JPMD deposit token on public blockchain infrastructure, with its proprietary AI now managing JPMD flows and predicting when institutional clients will need liquidity before human traders identify the need.
+hy18e5	2026-05-02	www.esma.europa.eu	medium	4	site_nav
+  https://www.esma.europa.eu/press-news/esma-news/esma-launches-call-evidence-structure-european-equity-markets
+  ESMA has published a call for evidence examining how trading activity in European equity markets evolved between 2022 and 2025, drawing on MiFIR transaction reporting data. While overall addressable liquidity and on-book trading have remained broadly stable, the analysis identifies a notable shift a
+7veomj	2026-05-02	www.esma.europa.eu	medium	4	site_nav
+  https://www.esma.europa.eu/press-news/esma-news/joint-committee-annual-report-highlights-digitalisation-cyber-resilience-and
+  The Joint Committee of the three European Supervisory Authorities — EBA, EIOPA, and ESMA — published its Annual Report for 2025, detailing cross-sectoral supervisory work conducted over the year under EIOPA's chairship. The report identifies DORA implementation, sustainable finance disclosure effect
+kbm4rl	2026-05-04	coingeek.com	medium	4	site_nav
+  https://coingeek.com/prediction-markets-under-fire-as-insiders-game-the-system/
+  Prediction markets are facing simultaneous legal and integrity crises as insider trading charges, a congressional backlash, and an escalating federal-state jurisdictional dispute converge. The Department of Justice and the CFTC filed separate charges against a U.S. Special Forces soldier who alleged
+6c6h7j	2026-05-04	crypto.news	medium	4	site_nav
+  https://crypto.news/bitget-cfd-daily-volume-hits-record-8b-on-gold-surge/
+  Crypto exchange Bitget reported that single-day volume on its contracts-for-difference platform surpassed $8 billion, with gold-linked contracts accounting for roughly 95% of the incremental activity as traders rotated into precious metals amid geopolitical uncertainty, inflation concerns, and shift
+b9jz4e	2026-05-04	crypto.news	medium	4	site_nav
+  https://crypto.news/coinbase-urges-cftc-to-keep-prediction-markets-under-rules/
+  Coinbase submitted a formal letter to the CFTC on April 30 responding to the agency's Advance Notice of Proposed Rulemaking on prediction markets, arguing that event-based contracts already fall within existing statutory authority and require no new legislative mandate to regulate. Chief Policy Offi
+kuyah8	2026-05-04	www.esma.europa.eu	medium	4	site_nav
+  https://www.esma.europa.eu/press-news/esma-news/esma-advances-simplification-eu-reporting-frameworks-funds-and-transactions
+  ESMA published two reports on 4 May 2026 as part of its Simplification and Burden Reduction initiative, targeting overlapping and costly regulatory reporting obligations across European markets. The first, a final report on funds data collection, proposes replacing fragmented national reporting unde
+7sabuz	2026-05-05	crypto.news	medium	4	site_nav
+  https://crypto.news/moscow-exchange-bets-bigger-on-crypto-with-sol-xrp-trx-and-bnb-indexes/
+  Moscow Exchange announced it will begin publishing four new cryptocurrency price indexes — covering Solana, XRP, Tron, and BNB under tickers MOEXSOL, MOEXXRP, MOEXTRX, and MOEXBNB — from May 13, with pricing drawn from Binance (50% weight), Bybit (20%), OKX (15%), and Bitget (15%). The exchange also
+ggmwpl	2026-05-05	www.bis.org	medium	4	site_nav
+  https://www.bis.org/review/r260504c.htm
+  Reserve Bank of India Governor Sanjay Malhotra delivered the keynote address at the 25th FIMMDA-PDAI Annual Conference in Amsterdam, setting out both the current state of Indian financial markets and the RBI's policy agenda for their further development. Speaking against a backdrop of global stress 
+pxflp5	2026-05-05	www.bis.org	medium	4	site_nav
+  https://www.bis.org/review/r260505a.htm
+  ECB Executive Board member Piero Cipollone delivered a speech at a joint ECB, Bank of Italy, and CEPR workshop in Rome on 4 May 2026, setting out the Eurosystem's strategic rationale for issuing tokenised central bank money and expanding collateral eligibility to DLT-based assets. Cipollone argued t
+fw24ie	2026-05-05	www.coindesk.com	medium	4	site_nav
+  https://www.coindesk.com/business/2026/05/05/different-voices-in-product-policy-and-hiring-change-crypto-outcomes-panelists-tell-consensus-miami
+  At Consensus Miami, senior executives from Mastercard, the Crypto Council for Innovation, and venture firm Clerisy argued that deliberately broadening who participates in internal decision-making materially changes product design, regulatory positioning, and team composition. Mastercard SVP Maja Lap
+u0ty6v	2026-05-06	crypto.news	medium	4	site_nav
+  https://crypto.news/kelp-dao-moves-rseth-to-chainlink-ccip-as-layerzero-dispute-grows/
+  Kelp DAO announced it will migrate its rsETH liquid restaking token from LayerZero's OFT standard to Chainlink's Cross-Chain Interoperability Protocol following an April 18 exploit in which attackers drained 116,500 rsETH — worth approximately $292 million — from its LayerZero-powered bridge. The st
+nucl4i	2026-05-06	www.coindesk.com	medium	4	site_nav
+  https://www.coindesk.com/business/2026/05/06/blockchain-com-launches-snapmarkets-as-prediction-markets-move-into-faster-crypto-bets
+  Blockchain.com introduced SnapMarkets, a product that allows users outside the U.S. and U.K. to wager on bitcoin's short-term price direction in 30-second settlement windows, with minimum stakes of $1. The offering enters a rapidly expanding prediction market sector that generated approximately $29 
+e6x5eo	2026-05-06	www.coindesk.com	medium	4	site_nav
+  https://www.coindesk.com/policy/2026/05/06/crypto-custody-firm-taurus-granted-mifid-license-in-cyprus
+  Swiss crypto custody firm Taurus has received a MiFID II investment license from the Cyprus Securities and Exchange Commission, granting it regulated access to EU capital markets for tokenized financial instruments including bonds, equities, fund shares, and structured products. The authorization al
+x7v52t	2026-05-06	www.coindesk.com	medium	4	site_nav
+  https://www.coindesk.com/policy/2026/05/06/nasdaq-s-president-says-the-sec-s-new-crypto-stance-is-letting-markets-build-again
+  Nasdaq President Tal Cohen, speaking at Consensus Miami, stated that the SEC under its current leadership has shifted from a restrictive posture to an actively constructive one, giving market operators meaningful latitude to experiment with blockchain-based infrastructure and tokenized assets. Cohen
+gqu1kc	2026-05-06	www.ledgerinsights.com	medium	4	site_nav
+  https://www.ledgerinsights.com/nyse-okx-securitze-discuss-tokenizing-stocks-the-right-way-versus-synthetically/
+  At a Consensus conference panel, executives from NYSE, OKX, and Securitize debated the structural and regulatory distinctions between natively issued, ownership-bearing tokenized equities and the synthetic alternatives—structured notes issued offshore—that currently dominate the market. Securitize C
+4i6asx	2026-05-07	crypto.news	medium	4	site_nav
+  https://crypto.news/swiss-bank-amina-brings-canton-coin-into-regulated-finance/
+  AMINA, a FINMA-regulated Swiss crypto bank, has begun offering custody and trading services for Canton Coin, making it the first regulated Swiss lender to provide institutional access to the Canton Network — a permissioned blockchain developed by Digital Asset and backed by firms including Goldman S
+b873y2	2026-05-07	www.chainalysis.com	medium	4	site_nav
+  https://www.chainalysis.com/blog/crypto-prediction-markets/
+  Blockchain-based prediction markets — where participants trade contracts on the outcomes of elections, interest rate decisions, sports results, and other real-world events — have grown sharply since late 2024, with on-chain inflows accelerating to the point where a single week of market maker deposi
+iw2r6l	2026-05-07	www.finextra.com	medium	4	site_nav
+  https://www.finextra.com/pressarticle/109766/mastercard-and-yellow-card-target-stablecoin-payments-in-eemea
+  Mastercard and Yellow Card, a licensed stablecoin infrastructure provider operating primarily across Africa, with additional capabilities in select emerging markets, have announced a strategic partnership to accelerate stablecoin-enabled payment innovation across Eastern Europe, the Middle East, and
+kv6awm	2026-05-07	www.theblock.co	medium	4	site_nav
+  https://www.theblock.co/post/400436/crypto-etf-boom-continues-with-debut-of-first-fund-to-track-canton
+  21Shares listed the TCAN ETF on Nasdaq on May 7, 2026, making it the first U.S. fund to offer direct exposure to Canton Coin, the native utility token of the Canton Network — a privacy-preserving blockchain built specifically for institutional capital markets use cases. The Canton Network counts Gol
+i2gy9y	2026-05-08	crypto.news	medium	4	site_nav
+  https://crypto.news/21shares-tcan-etf-brings-canton-network-exposure-to-u-s-investors/
+  21Shares launched TCAN on Nasdaq on May 7, 2026, structured as the first U.S.-listed ETF providing exposure to Canton Coin, the native token of Digital Asset's Canton Network, at a 0.50% gross expense ratio. Canton is a privacy-preserving blockchain built specifically for institutional capital marke
+5tjwsn	2026-05-08	crypto.news	medium	4	site_nav
+  https://crypto.news/coinbase-push-senate-to-loosen-manipulation-test-for-small-cap-token-listings/
+  Coinbase, Kraken, and Gemini have submitted formal redlines to the Senate Agriculture Committee urging lawmakers to delete a requirement in the draft Digital Commodity Intermediaries Act that would restrict registered digital commodity exchanges to listing only tokens "not readily susceptible to man
+1qcu1g	2026-05-08	crypto.news	medium	4	site_nav
+  https://crypto.news/leading-trends-in-the-uk-currency-and-cryptocurrency-markets-in-2026/
+  A sponsored analysis published on crypto.news argues that UK foreign exchange and cryptocurrency markets have become structurally more correlated in 2026, driven by shared exposure to interest rate expectations, inflation dynamics, and global liquidity conditions rather than asset-class-specific fac
+645ruw	2026-05-08	www.coindesk.com	medium	4	site_nav
+  https://www.coindesk.com/business/2026/05/08/ecb-s-lagarde-warns-tether-and-circle-stablecoins-risk-digital-dollarisation-in-europe
+  ECB President Christine Lagarde, speaking at the Bank of Spain's LatAm Economic Forum in Madrid, argued that Europe should build tokenized settlement infrastructure anchored in central bank money rather than encouraging privately issued euro-denominated stablecoins. She cited financial stability con
+ukl45r	2026-05-08	www.coindesk.com	medium	4	site_nav
+  https://www.coindesk.com/markets/2026/05/08/coinbase-bulls-point-to-crypto-legislation-and-stablecoins-after-earnings-miss
+  Coinbase reported first-quarter results that missed Wall Street expectations on both revenue and adjusted EBITDA, as a broad slowdown in crypto trading activity weighed on its core transaction business. The earnings shortfall widened an existing analyst divide, with bulls at JPMorgan, Clear Street, 
+1rt2oq	2026-05-08	www.finextra.com	medium	4	site_nav
+  https://www.finextra.com/pressarticle/109771/unlimit-partners-with-decentro-to-boost-cross-border-payments-in-india
+  Unlimit, the global financial infrastructure platform, today announced that Decentro, India’s leading fintech enabler, has integrated the platform’s universal operating layer to extend its cross-border payment capabilities into new markets and payment methods.
+kvjvmr	2026-05-02	www.theblock.co	low	1	too_short_180
+  https://www.theblock.co/post/399780/coinbase-says-deal-reached-on-clarity-act-stablecoin-yield-clearing-path-to-long-stalled-senate-markup
+  Coinbase CEO Brian Armstrong urged the Senate Banking Committee to "mark it up" as a months-long stalemate appears to be at an end.
+9qeeav	2026-05-02	www.theblock.co	low	1	too_short_180
+  https://www.theblock.co/post/399812/blackrock-urges-occ-to-drop-tokenized-reserve-cap-idea-expand-eligible-assets-in-genius-act-comment-letter
+  The world's largest asset manager opposed a potential 20% cap on tokenized reserve assets, a constraint that would limit products like its BUIDL fund.
+6rsrpr	2026-05-03	www.theblock.co	low	1	too_short_180
+  https://www.theblock.co/post/399825/new-york-ag-settles-for-5-million-with-uphold-in-first-enforcement-action-against-a-crypto-yield-product-promoter
+  The settlement is the first New York enforcement action to target a platform that promoted someone else's crypto yield product rather than its own issuer.
+prxy1r	2026-05-04	www.ledgerinsights.com	low	1	too_short_180
+  https://www.ledgerinsights.com/brazil-imposes-partial-ban-on-stablecoins-crypto-for-cross-border-payments-and-fx/
+  Brazil's central bank has banned fintech and payment provider cross border services from using stablecoins or crypto to settle with overseas
+1j7u52	2026-05-04	www.ledgerinsights.com	low	1	too_short_180
+  https://www.ledgerinsights.com/dtcc-shares-tokenization-launch-date-50-firms-join-industry-working-group/
+  The Depository Trust & Clearing Corporation (DTCC) has announced the launch timescale for its tokenization solution, with limited live transactions
+t7512e	2026-05-04	www.ledgerinsights.com	low	1	too_short_180
+  https://www.ledgerinsights.com/latest-finra-okay-means-securitize-becomes-tokenized-securities-one-stop-shop/
+  FINRA has granted the tokenization firm Securitize approval to custody tokenized securities as part of its regular broker dealer authorization. Securitize
+uit8xh	2026-05-04	www.theblock.co	low	1	too_short_180
+  https://www.theblock.co/post/399890/western-union-launches-usdpt-stablecoin-anchorage-solana
+  Western Union launched a dollar stablecoin on Solana for 24/7 settlement across 200+ countries, the company said Monday.
+h9kcld	2026-05-04	www.theblock.co	low	1	too_short_180
+  https://www.theblock.co/post/399895/finra-green-lights-securitize-for-tokenized-ipo-underwriting-and-custody
+  Securitize is the first firm to receive FINRA approval to custody tokenized securities and underwrite onchain IPOs and secondary offerings.
+n3sszh	2026-05-04	www.theblock.co	low	1	too_short_180
+  https://www.theblock.co/post/399914/dtc-to-begin-tokenized-asset-rollout-in-july-ahead-of-full-launch-as-it-gets-feedback-from-blackrock-circle-and-others
+  The Depository Trust & Clearing Corporation will roll out its tokenization service as it gathers feedback from firms like BlackRock to Circle.
+p87v4w	2026-05-04	www.theblock.co	low	1	too_short_180
+  https://www.theblock.co/post/399935/south-koreas-largest-crypto-exchange-upbit-launches-ethereum-blockchain-with-optimism-foundation-support
+  Upbit is the Optimism Foundation's first client on its "self-managed" enterprise tier, giving it control over its core rollup architecture.
+4h9r1z	2026-05-04	www.theblock.co	low	1	too_short_180
+  https://www.theblock.co/post/399966/bank-trade-groups-stablecoin-reward
+  Major banking trade groups said a proposed fix to a key sticking point in passing crypto market structure legislation 'falls short.'
+o6w43d	2026-05-04	www.theblock.co	low	1	too_short_180
+  https://www.theblock.co/post/399973/crypto-stocks-rally-circle-jumps
+  Sens. Alsobrooks and Tillis finalized a compromise Friday on language governing stablecoin yields in the Clarity Act.
+n89p6s	2026-05-05	www.ledgerinsights.com	low	1	too_short_180
+  https://www.ledgerinsights.com/securitize-taps-jump-as-market-maker-for-trading-tokenized-stocks-on-ats/
+  Securitize, the company best known for tokenizing BlackRock's BUIDL money market fund, is gradually announcing the building blocks of its tokenized stock
+t2bz9d	2026-05-05	www.theblock.co	low	1	too_short_180
+  https://www.theblock.co/post/399963/coinbase-figure-investment-centrifuge-base-main-tokenization-partner
+  Centrifuge will be the go-to platform for launching tokenized assets on Base, the Ethereum blockchain incubated by Coinbase.
+llurdz	2026-05-05	www.theblock.co	low	1	too_short_180
+  https://www.theblock.co/post/400001/bank-of-italy-tokenized-sepa
+  Bank of Italy's Chiara Scotti said the EU should explore a tokenized extension of its payments system as tokenization grows more "relevant."
+ib06d7	2026-05-05	www.theblock.co	low	1	too_short_180
+  https://www.theblock.co/post/400051/securitize-taps-jump-and-jupiter-as-it-rolls-out-fully-onchain-regulated-onchain-stocks
+  Jump will provide institutional liquidity via its PropAMM, while Solana DeFi aggregator Jupiter will support retail and institutional access.
+pysho9	2026-05-05	www.theblock.co	low	1	too_short_180
+  https://www.theblock.co/post/400068/moneygram-supports-crypto-to-cash-withdrawals-kraken-users
+  The firms plan to expand this partnership beyond cash withdrawals to support local bank deposits and cross-border remittance flows.
+q5euy5	2026-05-05	www.theblock.co	low	1	too_short_180
+  https://www.theblock.co/post/400086/state-street-and-galaxy-launch-fund-on-solana-designed-to-sweep-stablecoins-into-productive-vehicle
+  The State Street Galaxy Onchain Liquidity Sweep Fund lets investors push stablecoins into a yield-bearing tokenized fund.
+dwbs4d	2026-05-05	www.theblock.co	low	1	too_short_180
+  https://www.theblock.co/post/400098/sofi-to-launch-its-stablecoin-on-solana-citing-speed-and-cost
+  SoFiUSD is a fully reserved U.S. dollar stablecoin issued by SoFi Bank, a nationally chartered bank.
+dp524r	2026-05-06	ondo.finance	low	1	too_short_180
+  https://ondo.finance/blog/ondo-jpmorgan-mastercard-ripple-tokenization
+  Ondo, Kinexys by J.P. Morgan, Mastercard, and Ripple Complete First Cross-Border, Cross-Bank Redemption of Tokenized U.S. Treasuries | Ondo Finance
+9rd67b	2026-05-06	www.ledgerinsights.com	low	1	too_short_180
+  https://www.ledgerinsights.com/dlt-collateral-mobility-platform-hqla%e1%b5%a1-gets-sec-no-action-letter-for-us-activity/
+  HQLAᵡ, the DLT collateral mobility platform, can operate in the US under a no action letter received from the Securities and Exchange Commission (SEC).
+j41cp3	2026-05-06	www.ledgerinsights.com	low	1	too_short_180
+  https://www.ledgerinsights.com/six-gets-approval-to-merge-sdx-dlt-csd-into-securities-services-adds-crypto-custody/
+  SIX has received approval from Swiss regulator FINMA to merge its blockchain entity SIX Digital Exchange AG (SDX) into its central securities depository

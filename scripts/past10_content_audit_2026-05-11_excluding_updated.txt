@@ -1,0 +1,23 @@
+PAST10_AUDIT_EXCLUDING_UPDATED
+TOTAL_AUDITED 280
+ALL_FLAGGED 84
+UPDATED_IDS_EXCLUDED 94
+REMAINING_FLAGGED 57
+BY_CONFIDENCE {'low': 35, 'medium': 22}
+
+BY_DOMAIN
+www.theblock.co	18
+www.ledgerinsights.com	11
+crypto.news	9
+www.finextra.com	7
+www.coindesk.com	6
+coingeek.com	3
+www.fintechwrapup.com	1
+www.chainalysis.com	1
+ondo.finance	1
+
+BY_REASON
+too_short_180	43
+title_overlap_too_low	20
+site_nav	2
+truncated_tail	1
