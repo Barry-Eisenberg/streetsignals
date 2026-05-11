@@ -41,7 +41,8 @@ TARGET_SUMMARY_LENGTH = 800
 
 NEXTFI_CB_BASE_URL = os.environ.get("NEXTFI_CB_BASE_URL", "").strip().rstrip("/")
 NEXTFI_CB_TIMEOUT = max(5, int(os.environ.get("NEXTFI_CB_TIMEOUT", "20")))
-NEXTFI_CB_USE_PROXY = os.environ.get("NEXTFI_CB_USE_PROXY", "0").strip().lower() in {"1", "true", "yes", "on"}
+_NEXTFI_CB_USE_PROXY_RAW = os.environ.get("NEXTFI_CB_USE_PROXY", "").strip().lower()
+NEXTFI_CB_USE_PROXY = bool(NEXTFI_CB_BASE_URL) and _NEXTFI_CB_USE_PROXY_RAW not in {"0", "false", "no", "off"}
 NEXTFI_CB_PROXY_MODEL = os.environ.get("NEXTFI_CB_PROXY_MODEL", "claude-sonnet-4-6").strip() or "claude-sonnet-4-6"
 
 _MOJIBAKE_FIXES = {

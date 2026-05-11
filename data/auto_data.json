@@ -581,7 +581,7 @@
   {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "SEC chair Atkins signals new rules for onchain markets, AI-driven finance",
-    "description": "Existing securities rules were designed around traditional market intermediaries such as brokers, exchanges and clearinghouses, he argued, while newer blockchain systems often combine those functions into a single software protocol. 2 min read Make preferred on SEC Chairman Paul Atkins (Jesse Hamilton/CoinDesk) What to know : SEC Chair Paul Atkins said the agency is considering new rulemaking for onchain trading systems, crypto vaults and blockchain settlement infrastructure as finance is increasingly driven by blockchains and AI.",
+    "description": "SEC Chair Paul Atkins used a public appearance at the AI+ Expo in Washington to formally signal that the agency intends to pursue notice-and-comment rulemaking — rather than continued enforcement actions — to address how existing securities statutes apply to blockchain-based trading, settlement infrastructure, crypto vaults, and AI-driven financial applications. The core regulatory problem he identified is structural: securities law was designed around discrete intermediaries such as brokers, exchanges, and clearinghouses, whereas modern blockchain protocols can bundle all of those functions into a single piece of software, creating ambiguity about which rules apply and to whom.",
     "date": "2026-05-08",
     "source_url": "https://www.coindesk.com/policy/2026/05/08/sec-chair-atkins-signals-new-rules-for-onchain-markets-ai-driven-finance",
     "category": "regulators",
@@ -1382,20 +1382,23 @@
   {
     "institution": "Coinbase",
     "initiative": "AWS unveils AI agent payments based on stablecoins",
-    "description": "Amazon Web Services (AWS) has introduced one of the first end-to-end payment systems for AI agents, built in collaboration with Coinbase and Stripe. The",
+    "description": "Amazon Web Services has partnered with Coinbase and Stripe to deploy a machine-to-machine payment rails framework that allows autonomous AI agents to initiate and settle transactions using stablecoins without human authorization at each step. The architecture leverages Coinbase's onchain infrastructure and Stripe's payment orchestration layer, enabling agents running on AWS to pay for external services, APIs, or compute resources programmatically. This is operationally significant because it addresses a structural gap in agentic workflows—existing payment systems require human-authenticated credentials, which breaks fully automated pipelines.",
     "date": "2026-05-07",
     "source_url": "https://www.ledgerinsights.com/aws-unveils-ai-agent-payments-based-on-stablecoins/",
     "category": "exchanges_intermediaries",
     "source_name": "Ledger Insights",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Partnership",
+    "signal_type": "Product Launch",
     "fmi_areas": [
       "Payments & Transfers",
-      "Digital Currency & Stablecoins"
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
     ],
     "initiative_types": [
-      "Stablecoins & Deposit Tokens"
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "DeFi"
     ],
     "year": "2026"
   },
