@@ -66,6 +66,26 @@ _DESC_BOILERPLATE_PATTERNS = [
     re.compile(r"\[\s*…\s*\]|\[\s*\.\.\.\s*\]", re.IGNORECASE),
 ]
 
+_SOURCE_EXTRACT_BAD_FRAGMENTS = (
+    "coindesk is part of bullish",
+    "about us",
+    "masthead",
+    "careers",
+    "investor relations",
+    "advertise",
+    "media kit",
+    "sitemap",
+    "system status",
+    "newsletters",
+    "editor's picks",
+    "podcasts",
+    "coindesk podcast network",
+    "cryptocurrencies prices",
+    "research insights",
+    "documentation and governance",
+    "consensus miami",
+)
+
 # Tracking query params to strip from URLs before dedup
 _TRACKING_PARAMS = re.compile(
     r"[?&](utm_[a-z_]+|ref|source|medium|campaign|cid|gclid|fbclid)=[^&]*",
@@ -348,6 +368,49 @@ def strip_description_boilerplate(value):
     return text
 
 
+def _extract_meta_description_from_html(raw_html):
+    if not raw_html:
+        return ""
+
+    patterns = [
+        r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\']([^"\']+)["\']',
+        r'<meta[^>]+name=["\']description["\'][^>]+content=["\']([^"\']+)["\']',
+        r'<meta[^>]+name=["\']twitter:description["\'][^>]+content=["\']([^"\']+)["\']',
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, raw_html, re.IGNORECASE | re.DOTALL)
+        if match:
+            text = strip_description_boilerplate(html.unescape(match.group(1)))
+            if text:
+                return text
+    return ""
+
+
+def _fetch_meta_description(url):
+    try:
+        return _extract_meta_description_from_html(fetch_text(url))
+    except Exception:
+        return ""
+
+
+def _normalize_source_extract(source_title, source_text):
+    """Trim repeated headline/navigation text from fetched article bodies."""
+    text = clean_text(source_text)
+    title = clean_text(source_title)
+    if not text or not title:
+        return text
+
+    lower_text = text.lower()
+    lower_title = title.lower()
+    first = lower_text.find(lower_title)
+    second = lower_text.find(lower_title, first + len(lower_title)) if first != -1 else -1
+    if first == 0 and second != -1 and second < 500:
+        text = text[second + len(title):].lstrip(" |-:/")
+
+    text = re.sub(r"^Search\s*/\s*(?:News|Video|Prices|Research|Consensus\s+\d{4}|Data\s*&\s*Indices|Sponsored|en)\b", "", text, flags=re.IGNORECASE)
+    return clean_text(text)
+
+
 def _split_sentences(text):
     text = clean_text(text)
     if not text:
@@ -382,6 +445,42 @@ def _is_redundant_sentence(sentence, title_text, chosen_sentences):
         if _overlap_ratio(s_tokens, _token_set(chosen)) >= 0.75:
             return True
 
+    return False
+
+
+def _is_bad_source_extract(source_title, source_text, fallback_title=""):
+    """Detect fetch-source payloads that are mostly site chrome, not article text."""
+    title_tokens = _token_set(source_title or fallback_title)
+    snippet = clean_text(source_text)[:1600]
+    if not snippet:
+        return True
+
+    lower = snippet.lower()
+    chrome_hits = sum(1 for frag in _SOURCE_EXTRACT_BAD_FRAGMENTS if frag in lower)
+    if chrome_hits >= 4:
+        return True
+
+    if snippet.startswith("Exclusive Election") and chrome_hits >= 2:
+        return True
+
+    snippet_tokens = _token_set(snippet)
+    if chrome_hits >= 2 and title_tokens and _overlap_ratio(title_tokens, snippet_tokens) < 0.12:
+        return True
+
+    return False
+
+
+def _is_source_chrome_text(text):
+    lower = clean_text(text).lower()
+    if not lower:
+        return False
+    if "coindesk is part of bullish" in lower:
+        return True
+    chrome_hits = sum(1 for frag in _SOURCE_EXTRACT_BAD_FRAGMENTS if frag in lower)
+    if chrome_hits >= 2:
+        return True
+    if lower.startswith("exclusive election") and "about us" in lower:
+        return True
     return False
 
 
@@ -436,6 +535,8 @@ def _is_high_quality_summary(text):
     )
     if any(bad in lower for bad in bad_fragments):
         return False
+    if _is_source_chrome_text(t):
+        return False
 
     sentence_count = len([s for s in re.split(r"(?<=[.!?])\s+", t) if len(s.strip()) > 20])
     return sentence_count >= 2
@@ -453,6 +554,7 @@ def summarize_signal_description(title, description):
         return desc_text
 
     sentences = _split_sentences(desc_text)
+    sentences = [s for s in sentences if not _is_source_chrome_text(s)]
     if not sentences:
         return _compress_to_length(desc_text)
 
@@ -534,6 +636,11 @@ def summarize_with_nextfi_content_builder(url, fallback_title, fallback_text, ca
         )
         source_title = clean_text(source_payload.get("title", "")) or fallback_title
         source_text = clean_text(source_payload.get("text", "")) or fallback_text
+        source_text = _normalize_source_extract(source_title, source_text)
+
+        if _is_bad_source_extract(source_title, source_text, fallback_title):
+            source_title = fallback_title
+            source_text = _fetch_meta_description(url) or fallback_text
 
         summary = ""
         if NEXTFI_CB_USE_PROXY and source_text:

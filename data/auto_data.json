@@ -2,19 +2,18 @@
   {
     "institution": "Federal Reserve",
     "initiative": "New Fed chair, Base's Azul upgrade, corporate earnings: Crypto Week Ahead",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "Senate Banking Committee markup scheduled for the Digital Asset Market Clarity Act of 2025.",
     "date": "2026-05-11",
     "source_url": "https://www.coindesk.com/markets/2026/05/11/new-fed-chair-base-s-azul-upgrade-corporate-earnings-crypto-week-ahead",
     "category": "regulators",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "General Infrastructure"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -127,19 +126,18 @@
   {
     "institution": "PayPal",
     "initiative": "Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Trump Media’s Q1 loss widens to $406 million on bitcoin, CRO markdowns May 9, 2026 Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market structure hearing",
+    "description": "2 min read Make preferred on May Zabaneh, Richard Widmann and Jenn Sanasie (CoinDesk) What to know : AI agents are structurally locked out of traditional bank accounts, leaving crypto rails as the natural payments layer. Google has launched the Agentic Payments Protocol (AP2), with 120 partners including PayPal, and donated it to the FIDO Foundation. Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami",
     "date": "2026-05-10",
     "source_url": "https://www.coindesk.com/business/2026/05/10/agentic-commerce-will-run-on-crypto-rails-paypal-and-google-reps-tell-consensus-miami",
     "category": "payments",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Product Launch",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "Payments & Transfers"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026",
@@ -243,19 +241,19 @@
   {
     "institution": "BlackRock",
     "initiative": "CME is set to let traders bet on bitcoin volatility, not just price",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "(CoinDesk Archives) What to know : CME Group plans to launch bitcoin volatility futures on June 1 pending regulatory approval bringing a easy way to bet on the degree of price swings. The world's leading derivatives marketplace announced this week its plan to debut Bitcoin volatility futures on June 1, pending regulatory approval. Bitcoin news: Soon, traders will be able to bet on BTC volatility, not just price, on CME",
     "date": "2026-05-09",
     "source_url": "https://www.coindesk.com/markets/2026/05/09/you-ll-soon-be-able-to-bet-on-bitcoin-volatility-not-just-price-on-cme",
     "category": "asset_management",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Asset & Investment Management",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Product Launch",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "Trading & Exchange",
+      "Regulation & Compliance"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -263,7 +261,7 @@
   {
     "institution": "BlackRock",
     "initiative": "BlackRock deepens tokenization push with new onchain fund offerings",
-    "description": "In 2024, the firm launched its first tokenized money-market fund, BUIDL, with Securitize (CEPT).",
+    "description": "In 2024, the firm launched its first tokenized money-market fund, BUIDL, with Securitize (CEPT). Securities and Exchange Commission (SEC), the asset management giant proposed launching the BlackRock Daily Reinvestment Stablecoin Reserve Vehicle, a new fund that invests in cash, short-term U.S. BlackRock deepens tokenization push with new onchain fund offerings",
     "date": "2026-05-09",
     "source_url": "https://www.coindesk.com/business/2026/05/09/blackrock-deepens-tokenization-push-with-new-onchain-fund-offerings",
     "category": "asset_management",
@@ -272,9 +270,11 @@
     "institution_type": "Asset & Investment Management",
     "signal_type": "Product Launch",
     "fmi_areas": [
-      "General Infrastructure"
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins"
     ],
     "initiative_types": [
+      "Stablecoins & Deposit Tokens",
       "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
@@ -583,7 +583,7 @@
   {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "SEC chair Atkins signals new rules for onchain markets, AI-driven finance",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "Existing securities rules were designed around traditional market intermediaries such as brokers, exchanges and clearinghouses, he argued, while newer blockchain systems often combine those functions into a single software protocol. 2 min read Make preferred on SEC Chairman Paul Atkins (Jesse Hamilton/CoinDesk) What to know : SEC Chair Paul Atkins said the agency is considering new rulemaking for onchain trading systems, crypto vaults and blockchain settlement infrastructure as finance is increasingly driven by blockchains and AI.",
     "date": "2026-05-08",
     "source_url": "https://www.coindesk.com/policy/2026/05/08/sec-chair-atkins-signals-new-rules-for-onchain-markets-ai-driven-finance",
     "category": "regulators",
@@ -592,12 +592,14 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
-      "Regulation & Compliance",
-      "Interoperability & Standards"
+      "Settlement & Clearing",
+      "Trading & Exchange",
+      "Regulation & Compliance"
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
     ],
     "year": "2026"
   },
@@ -660,7 +662,7 @@
   {
     "institution": "OCC (Office of the Comptroller of the Currency)",
     "initiative": "Kraken parent goes for the OCC charter in bid to become a federal crypto bank",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "This week, the company also struck a $600 million deal to buy Hong Kong-based payments firm Reap Technologies , expanding Kraken’s push into stablecoin-powered cross-border payments and card infrastructure in Asia The proposed trust company would complement Kraken Financial, the Wyoming special purpose depository institution (SPDI) chartered in 2020. Under the proposal, PNTC would rely on Payward’s existing compliance, risk management and custody infrastructure while expanding access to clients that require a federally regulated qualified custodian.",
     "date": "2026-05-08",
     "source_url": "https://www.coindesk.com/policy/2026/05/08/kraken-parent-goes-for-the-occ-charter-in-big-to-become-a-federal-crypto-bank",
     "category": "regulators",
@@ -669,11 +671,15 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "Custody & Safekeeping",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
     ],
     "year": "2026"
   },
@@ -721,7 +727,7 @@
   {
     "institution": "Federal Reserve",
     "initiative": "Strategic crypto positioning after the latest Fed policy: How investors can earn passive income with SHR Miner online AI mining",
-    "description": "Apr 5, 2026 at 4:30 PM UTC Opinion Read more SEC & CFTC issued regulatory clarity | Opinion SEC & CFTC issued regulatory clarity | Opinion Apr 3, 2026 at 2:54 PM UTC Related News Previous Next Sponsored Read more Best Crypto Exchange Tokens 2026: BlockchainFX Aims To Challenge Trading Platforms as BNB, CRO and OKB Lead Watchlists Best Crypto Exchange Tokens 2026: BlockchainFX Aims To Challenge Trading Platforms as BNB, CRO and OKB Lead Watchlists 20 hours ago Sponsored Read more BlockchainFX ($BFX) And The Best Crypto In 2026 Narrative Grow Stronger As AVAX And XLM Face Key Price Tests BlockchainFX ($BFX) And The Best Crypto In 2026 Narrative Grow Stronger As AVAX And XLM Face Key Price Tests 22 hours ago Partner Content Read more 2026 AI crypto trading bots guide for beginners",
+    "description": "Apr 5, 2026 at 4:30 PM UTC Opinion Read more SEC & CFTC issued regulatory clarity | Opinion SEC & CFTC issued regulatory clarity | Opinion Apr 3, 2026 at 2:54 PM UTC Related News Previous Next Sponsored Read more Best Crypto Exchange Tokens 2026: BlockchainFX Aims To Challenge Trading Platforms as BNB, CRO and OKB Lead Watchlists Best Crypto Exchange Tokens 2026: BlockchainFX Aims To Challenge Trading Platforms as BNB, CRO and OKB Lead Watchlists 21 hours ago Sponsored Read more BlockchainFX ($BFX) And The Best Crypto In 2026 Narrative Grow Stronger As AVAX And XLM Face Key Price Tests BlockchainFX ($BFX) And The Best Crypto In 2026 Narrative Grow Stronger As AVAX And XLM Face Key Price Tests 23 hours ago Partner Content Read more 2026 AI crypto trading bots guide for beginners",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/strategic-crypto-positioning-after-the-latest-fed-policy-how-investors-can-earn-passive-income-with-shr-miner-online-ai-mining/",
     "category": "regulators",
@@ -867,22 +873,22 @@
   {
     "institution": "Coinbase",
     "initiative": "Coinbase bulls point to crypto legislation and stablecoins after earnings miss",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "The strategy includes stablecoins, derivatives, payments and tokenized assets alongside traditional crypto trading. Several firms, including JPMorgan, Clear Street and Oppenheimer, remain positive on the stock, citing growth in stablecoins, derivatives, prediction markets and Coinbase’s broader “Everything Exchange” strategy, as well as potential tailwinds from pending U.S. Coinbase (COIN) bulls point to crypto legislation and stablecoins after earnings miss",
     "date": "2026-05-08",
     "source_url": "https://www.coindesk.com/markets/2026/05/08/coinbase-bulls-point-to-crypto-legislation-and-stablecoins-after-earnings-miss",
     "category": "exchanges_intermediaries",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
+      "Payments & Transfers",
+      "Trading & Exchange",
       "Digital Currency & Stablecoins",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
+      "Regulation & Compliance"
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -890,7 +896,7 @@
   {
     "institution": "Chainlink",
     "initiative": "BlockchainFX could be the leading crypto to buy in 2026 for those who missed Chainlink",
-    "description": "Apr 5, 2026 at 4:30 PM UTC Opinion Read more SEC & CFTC issued regulatory clarity | Opinion SEC & CFTC issued regulatory clarity | Opinion Apr 3, 2026 at 2:54 PM UTC Related News Previous Next Sponsored Read more Best Crypto Exchange Tokens 2026: BlockchainFX Aims To Challenge Trading Platforms as BNB, CRO and OKB Lead Watchlists Best Crypto Exchange Tokens 2026: BlockchainFX Aims To Challenge Trading Platforms as BNB, CRO and OKB Lead Watchlists 20 hours ago Sponsored Read more BlockchainFX ($BFX) And The Best Crypto In 2026 Narrative Grow Stronger As AVAX And XLM Face Key Price Tests BlockchainFX ($BFX) And The Best Crypto In 2026 Narrative Grow Stronger As AVAX And XLM Face Key Price Tests 22 hours ago Partner Content Read more Strategic crypto positioning after the latest Fed",
+    "description": "Apr 5, 2026 at 4:30 PM UTC Opinion Read more SEC & CFTC issued regulatory clarity | Opinion SEC & CFTC issued regulatory clarity | Opinion Apr 3, 2026 at 2:54 PM UTC Related News Previous Next Sponsored Read more Best Crypto Exchange Tokens 2026: BlockchainFX Aims To Challenge Trading Platforms as BNB, CRO and OKB Lead Watchlists Best Crypto Exchange Tokens 2026: BlockchainFX Aims To Challenge Trading Platforms as BNB, CRO and OKB Lead Watchlists 21 hours ago Sponsored Read more BlockchainFX ($BFX) And The Best Crypto In 2026 Narrative Grow Stronger As AVAX And XLM Face Key Price Tests BlockchainFX ($BFX) And The Best Crypto In 2026 Narrative Grow Stronger As AVAX And XLM Face Key Price Tests 23 hours ago Partner Content Read more Strategic crypto positioning after the latest Fed",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/blockchainfx-could-be-the-leading-crypto-to-buy-in-2026-for-those-who-missed-chainlink/",
     "category": "ecosystem",
@@ -935,20 +941,19 @@
   {
     "institution": "Coinbase",
     "initiative": "Coinbase blames AWS for hours-long crypto trading outage",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "Google has launched the Agentic Payments Protocol (AP2), with 120 partners including PayPal, and donated it to the FIDO Foundation. Coinbase has faced scrutiny in the past due to outages during periods of high market volatility and infrastructure stress. Coinbase disruption tied to AWS outage draws criticism amid staff layoffs and Q1 losses",
     "date": "2026-05-08",
     "source_url": "https://www.coindesk.com/business/2026/05/08/coinbase-disruption-tied-to-aws-outage-draws-criticism-amid-staff-layoffs-and-q1-losses",
     "category": "exchanges_intermediaries",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Product Launch",
     "fmi_areas": [
-      "Trading & Exchange",
-      "Interoperability & Standards"
+      "Payments & Transfers",
+      "Trading & Exchange"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -999,7 +1004,7 @@
   {
     "institution": "ECB (European Central Bank)",
     "initiative": "ECB chief Christine Lagarde raises fresh concerns over euro stablecoins",
-    "description": "50 minutes ago News Read more MoonPay says stablecoin regulation opened the door but infrastructure must follow MoonPay says stablecoin regulation opened the door but infrastructure must follow 2 days ago News Read more US banks reject CLARITY Act stablecoin deal days before Senate vote US banks reject CLARITY Act stablecoin deal days before Senate vote 2 days ago Sign up for crypto news and market insights Get crypto market analysis and curated news delivered right to your inbox every week. Her remarks targeted growing calls within Europe to develop a local stablecoin ecosystem under the EU’s Markets in Crypto-Assets Regulation framework.",
+    "description": "1 hour ago News Read more MoonPay says stablecoin regulation opened the door but infrastructure must follow MoonPay says stablecoin regulation opened the door but infrastructure must follow 2 days ago News Read more US banks reject CLARITY Act stablecoin deal days before Senate vote US banks reject CLARITY Act stablecoin deal days before Senate vote 2 days ago Sign up for crypto news and market insights Get crypto market analysis and curated news delivered right to your inbox every week. Her remarks targeted growing calls within Europe to develop a local stablecoin ecosystem under the EU’s Markets in Crypto-Assets Regulation framework.",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/ecb-chief-christine-lagarde-raises-fresh-concerns-over-euro-stablecoins/",
     "category": "regulators",
@@ -1039,21 +1044,22 @@
   {
     "institution": "Unchained",
     "initiative": "Aave to Overhaul Collateral and Listing Standards After $293 Million KelpDAO Exploit",
-    "description": "Speaking Thursday at Consensus Miami 2026 , Aave Labs Chief Legal and Policy Officer Linda Jeng said the protocol’s existing risk framework had been too narrowly focused on financial risk and volatility. The framework is intended to give other lending markets a template for evaluating risk beyond price action. Aave to Overhaul Collateral and Listing Standards After $293 Million KelpDAO Exploit Unchained",
+    "description": "Aave Labs will add cybersecurity and architecture reviews to its asset listing process following the April KelpDAO bridge exploit, with the goal of setting a new bar for DeFi risk management.",
     "date": "2026-05-08",
     "source_url": "https://unchainedcrypto.com/aave-to-overhaul-collateral-and-listing-standards-after-293-million-kelpdao-exploit/",
     "category": "ecosystem",
     "source_name": "Unchained Crypto",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
+    "signal_type": "Research / Report",
     "fmi_areas": [
       "Collateral & Lending",
       "Trading & Exchange",
-      "Regulation & Compliance",
       "Interoperability & Standards"
     ],
-    "initiative_types": [],
+    "initiative_types": [
+      "DeFi"
+    ],
     "year": "2026"
   },
   {
@@ -1137,7 +1143,7 @@
   {
     "institution": "MoonPay",
     "initiative": "Polygon reduces block time amid stablecoin push",
-    "description": "50 minutes ago News Read more MoonPay says stablecoin regulation opened the door but infrastructure must follow MoonPay says stablecoin regulation opened the door but infrastructure must follow 2 days ago News Read more US banks reject CLARITY Act stablecoin deal days before Senate vote US banks reject CLARITY Act stablecoin deal days before Senate vote 2 days ago Sign up for crypto news and market insights Get crypto market analysis and curated news delivered right to your inbox every week. On April 29, Visa added Polygon, Base, the Canton Network, Arc, and Tempo to its stablecoin settlement pilot launched in 2023.",
+    "description": "1 hour ago News Read more MoonPay says stablecoin regulation opened the door but infrastructure must follow MoonPay says stablecoin regulation opened the door but infrastructure must follow 2 days ago News Read more US banks reject CLARITY Act stablecoin deal days before Senate vote US banks reject CLARITY Act stablecoin deal days before Senate vote 2 days ago Sign up for crypto news and market insights Get crypto market analysis and curated news delivered right to your inbox every week. On April 29, Visa added Polygon, Base, the Canton Network, Arc, and Tempo to its stablecoin settlement pilot launched in 2023.",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/polygon-reduces-block-time-amid-stablecoin-push/",
     "category": "payments",
@@ -1277,7 +1283,7 @@
   {
     "institution": "Chainalysis",
     "initiative": "Crypto Prediction Markets Explained: How the Blockchain Is Reshaping Forecasting",
-    "description": "AML Forecasting Gambling KYT Market manipulation prediction markets Speculation Wash Trading Recent posts Markets $30 Billion and Counting: How Tokenized RWAs Are Becoming a Mainstream Investment for Institutional Capital April 23, 2026 Markets The $100 Trillion Wealth Shift: Stablecoin Utility and the Future of Payments April 8, 2026 Markets From Strategy to Scale: Implementing Stablecoin Programs and Measuring What Matters March 19, 2026 Subscribe to our weekly newsletter Products Reactor Wallet Scan Rapid KYT VASP Risking Address Screening Sentinel Alterya Hexagate Chainalysis Data Solutions (DS) Industries Law Enforcement Centralized Exchanges Financial Institutions Tax Agencies Regulators Stablecoin Risk Management Decentralized Finance Consumer Brands Cybersecurity Join Us Careers",
+    "description": "Despite regulatory uncertainty, major financial players like the CME Group and crypto-native giants like Coinbase are building infrastructure to capture this volume, signaling a shift toward a more mature, regulated market structure. Cryptocurrency settlement: Markets typically use stablecoins (like USDC or DAI) for trading. Crypto Prediction Markets Explained",
     "date": "2026-05-07",
     "source_url": "https://www.chainalysis.com/blog/crypto-prediction-markets/",
     "category": "ecosystem",
@@ -1286,17 +1292,16 @@
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
-      "Payments & Transfers",
+      "Settlement & Clearing",
       "Trading & Exchange",
       "Digital Currency & Stablecoins",
-      "Regulation & Compliance",
-      "Data & Reporting"
+      "Regulation & Compliance"
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "DLT / Blockchain Infrastructure",
-      "DeFi",
-      "Crypto / Digital Assets"
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
     ],
     "year": "2026"
   },
@@ -1400,19 +1405,20 @@
   {
     "institution": "Coinbase",
     "initiative": "Coinbase stock declines 5% after missing Q1 estimates on crypto slowdown",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "Even as it cuts roughly 14% of its workforce, Coinbase is leaning on growth in derivatives, prediction markets and stablecoin activity to reduce its reliance on volatile trading fees. Crypto markets weakened sharply as bitcoin BTC $ 80,814.36 and other digital assets fell. Coinbase (COIN) news: weak crypto markets cause Q1 earnings miss",
     "date": "2026-05-07",
     "source_url": "https://www.coindesk.com/markets/2026/05/07/coinbase-stock-drops-4-after-surprise-1q-miss-as-crypto-trading-slows",
     "category": "exchanges_intermediaries",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
+      "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -1444,7 +1450,7 @@
   {
     "institution": "Bank of England",
     "initiative": "Crypto firms pursue bank licenses at Consensus",
-    "description": "Apr 5, 2026 at 4:30 PM UTC Opinion Read more SEC & CFTC issued regulatory clarity | Opinion SEC & CFTC issued regulatory clarity | Opinion Apr 3, 2026 at 2:54 PM UTC Related News Previous Next News Read more Crypto.com wins UAE license to unlock Dubai government crypto payments Crypto.com wins UAE license to unlock Dubai government crypto payments 40 minutes ago News Read more Bank of England’s Andrew Bailey warns stablecoin oversight may become flashpoint with U.S.",
+    "description": "Apr 5, 2026 at 4:30 PM UTC Opinion Read more SEC & CFTC issued regulatory clarity | Opinion SEC & CFTC issued regulatory clarity | Opinion Apr 3, 2026 at 2:54 PM UTC Related News Previous Next News Read more CLARITY Act vote nears as Galaxy maps key Democrats CLARITY Act vote nears as Galaxy maps key Democrats 39 minutes ago News Read more Crypto.com wins UAE license to unlock Dubai government crypto payments Crypto.com wins UAE license to unlock Dubai government crypto payments 1 hour ago News Read more Bank of England’s Andrew Bailey warns stablecoin oversight may become flashpoint with U.S.",
     "date": "2026-05-07",
     "source_url": "https://crypto.news/crypto-firms-push-for-bank-licenses-at-consensus/",
     "category": "regulators",
@@ -1486,19 +1492,18 @@
   {
     "institution": "Tether",
     "initiative": "Tether executive warns the 2026 midterms could have 'seismic impact' on crypto industry",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "By Margaux Nijkerk | Edited by Stephen Alpher May 7, 2026, 6:28 p.m. Miami — Tether.io Head of Government Affairs Jesse Spiro said the crypto industry sees the 2026 U.S. Tether executive warns the 2026 elections could have a 'seismic impact' on the crypto industry",
     "date": "2026-05-07",
     "source_url": "https://www.coindesk.com/policy/2026/05/07/tether-executive-warns-the-2026-midterms-could-have-seismic-impact-on-crypto-industry",
     "category": "payments",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "General Infrastructure"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -1551,21 +1556,20 @@
   {
     "institution": "Coinbase",
     "initiative": "Amazon’s new AI wallet: AWS, Coinbase, and Stripe build payment rails for bots",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "2 min read Make preferred on Amazon announces partnership with Coinbase and Stripe for roll out of AI agent stablecoin payments. (BoliviaInteligente/Unsplash) What to know : Amazon Web Services has launched Amazon Bedrock AgentCore Payments, a new infrastructure that lets autonomous AI agents make real-time online purchases using stablecoins, in partnership with Coinbase and Stripe. Amazon’s new AI wallet: AWS, Coinbase, and Stripe build payment rails for bots",
     "date": "2026-05-07",
     "source_url": "https://www.coindesk.com/business/2026/05/07/amazon-rolls-out-ai-agent-stablecoin-payments-platform-with-coinbase-and-stripe",
     "category": "exchanges_intermediaries",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Product Launch",
     "fmi_areas": [
       "Payments & Transfers",
-      "Interoperability & Standards"
+      "Digital Currency & Stablecoins"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
+      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   },
@@ -1597,20 +1601,20 @@
   {
     "institution": "Ripple",
     "initiative": "Ripple-linked XRP slips 25% below $1.42 as traders watch breakout",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "XRP gave back ground after failing to hold above $1.45, with the pullback coming even as Ripple pushed deeper into institutional finance through a cross-border tokenized Treasury settlement alongside JPMorgan and Mastercard. • The pilot adds to growing institutional focus on tokenized finance infrastructure, with DTCC also preparing to launch its own tokenization platform later this year. Ripple-linked XRP slips 2.5% below $1.42 as traders watch breakout",
     "date": "2026-05-07",
     "source_url": "https://www.coindesk.com/markets/2026/05/07/ripple-linked-xrp-slips-25-below-usd1-42-as-traders-watch-breakout",
     "category": "payments",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Product Launch",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "Settlement & Clearing",
+      "Payments & Transfers"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
+      "Payment Infrastructure"
     ],
     "year": "2026"
   },
@@ -1718,7 +1722,7 @@
   {
     "institution": "BlackRock",
     "initiative": "SoFi’s crypto relaunch brought in $121.6 million in Q1. Almost all of it went to costs",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "The company launched the SoFiUSD stablecoin for enterprise payments in December and partnered with Mastercard for settlement capabilities. SoFi said that the GENIUS Act would require it to migrate SoFiUSD to a “separately licensed or regulated entity.” SoFi launched SoFiUSD in December as a stablecoin for enterprise payments. SoFi’s crypto relaunch brought in $121.6 million in Q1. Almost all of it went to costs",
     "date": "2026-05-07",
     "source_url": "https://www.coindesk.com/business/2026/05/07/sofi-s-relaunched-crypto-business-generated-usd121-6-million-in-q1-transaction-revenue",
     "category": "asset_management",
@@ -1727,11 +1731,15 @@
     "institution_type": "Asset & Investment Management",
     "signal_type": "Product Launch",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
     ],
     "year": "2026"
   },
@@ -1983,7 +1991,7 @@
   {
     "institution": "CoinDesk",
     "initiative": "BNY, world's largest custody bank, expands crypto services in Abu Dhabi",
-    "description": "Abu Dhabi and Dubai have attracted crypto exchanges, stablecoin issuers and tokenization startups with regulatory frameworks designed to support digital assets while maintaining institutional oversight.",
+    "description": "Abu Dhabi and Dubai have attracted crypto exchanges, stablecoin issuers and tokenization startups with regulatory frameworks designed to support digital assets while maintaining institutional oversight. The initiative will initially focus on custody services for cryptocurrencies including bitcoin BTC $ 80,814.36 and ether (ETH), with plans to later expand into stablecoins and tokenized assets, the press release said. Wall Street's BNY expands crypto custody in Abu Dhabi, starting with bitcoin, ether",
     "date": "2026-05-07",
     "source_url": "https://www.coindesk.com/business/2026/05/07/bny-world-s-largest-custody-bank-expands-crypto-services-in-abu-dhabi",
     "category": "ecosystem",
@@ -2006,7 +2014,7 @@
   {
     "institution": "JPMorgan",
     "initiative": "Ripple, JPMorgan settle first cross-border tokenized Treasury redemption on XRP Ledger",
-    "description": "The pilot underscores how linking public blockchains with interbank settlement rails could enable 24/7 global markets, as tokenized deposit volumes grow and DTCC prepares to launch its own tokenization service.",
+    "description": "The pilot underscores how linking public blockchains with interbank settlement rails could enable 24/7 global markets, as tokenized deposit volumes grow and DTCC prepares to launch its own tokenization service. \"By connecting public blockchain infrastructure with interbank settlement rails, Ondo, Kinexys by JPMorgan, Mastercard, and Ripple are laying the groundwork for 24/7 global markets that never close,\" said Ondo President Ian De Bode in a statement. Ripple, JPMorgan settle first cross-border tokenized Treasury redemption on XRP Ledger",
     "date": "2026-05-07",
     "source_url": "https://www.coindesk.com/markets/2026/05/07/ripple-jpmorgan-settle-first-cross-border-tokenized-treasury-redemption-on-xrp-ledger",
     "category": "payments",
@@ -2017,7 +2025,8 @@
     "fmi_areas": [
       "Settlement & Clearing",
       "Payments & Transfers",
-      "Digital Currency & Stablecoins"
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
@@ -2066,7 +2075,7 @@
   {
     "institution": "Chainalysis",
     "initiative": "Where to Build: A Data-Driven Guide to Blockchain Infrastructure for TradFi Tokenization",
-    "description": "Chainalysis KYT infrastructure On-Chain RWAs tokenization TradFi Recent posts Report Crypto Crime in 2025 Was Primarily Driven by 694% Surge in State-Driven Sanctions Evasion Volume March 5, 2026 Report Total Ransomware Payments Stagnate for Second Consecutive Year, While Attacks Escalate February 26, 2026 Report From Fentanyl to Fraud: On-Chain Activity Highlights Illicit Market Evolution February 19, 2026 Subscribe to our weekly newsletter Products Reactor Wallet Scan Rapid KYT VASP Risking Address Screening Sentinel Alterya Hexagate Chainalysis Data Solutions (DS) Industries Law Enforcement Centralized Exchanges Financial Institutions Tax Agencies Regulators Stablecoin Risk Management Decentralized Finance Consumer Brands Cybersecurity Join Us Careers Open Positions Company About Us Why",
+    "description": "Ethereum and its Layer-2 (L2) networks like Arbitrum and Base currently offer the strongest combination of institutional liquidity, low illicit exposure, and compliance tooling, making them a natural home for regulated assets like tokenized securities and money market funds. It possesses massive institutional-scale liquidity, serving as the dominant global settlement layer for OTC desks moving popular stablecoins, but the proportion of that service inflow volume from illicit sources approaches 4%.",
     "date": "2026-05-06",
     "source_url": "https://www.chainalysis.com/blog/blockchain-infrastructure-tradfi-tokenization/",
     "category": "ecosystem",
@@ -2075,9 +2084,8 @@
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
-      "Payments & Transfers",
+      "Settlement & Clearing",
       "Collateral & Lending",
-      "Trading & Exchange",
       "Digital Currency & Stablecoins",
       "Regulation & Compliance",
       "Data & Reporting"
@@ -2085,8 +2093,8 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "DLT / Blockchain Infrastructure",
-      "DeFi",
-      "Crypto / Digital Assets"
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
     ],
     "year": "2026"
   },
@@ -2110,7 +2118,7 @@
   {
     "institution": "Nasdaq",
     "initiative": "Nasdaq's president says the SEC’s new crypto stance is letting markets 'build' again",
-    "description": "Securities and Exchange Commission’s (SEC) changing approach to crypto regulation is giving market operators more room to experiment with blockchain-based infrastructure and tokenized assets.",
+    "description": "Securities and Exchange Commission’s (SEC) changing approach to crypto regulation is giving market operators more room to experiment with blockchain-based infrastructure and tokenized assets. Nasdaq’s Tal Cohen said a friendlier SEC is giving crypto firms and exchanges room to experiment with tokenization and digital market infrastructure. Nasdaq's president says the SEC’s new crypto stance is letting markets 'build' again",
     "date": "2026-05-06",
     "source_url": "https://www.coindesk.com/policy/2026/05/06/nasdaq-s-president-says-the-sec-s-new-crypto-stance-is-letting-markets-build-again",
     "category": "exchanges_intermediaries",
@@ -2131,7 +2139,7 @@
   {
     "institution": "DTCC",
     "initiative": "Wall Street's clearinghouse seeks 'high-performance' blockchains to tokenize corporate actions",
-    "description": "Frank La Salla, CEO of the Depository Trust and Clearing Corporation (DTCC), said Wednesday at Consensus 2026 in Miami that the market infrastructure giant is collaborating with several layer-1 (L1) blockchain networks to improve how dividend payments, tender offers and other post-trade events could be processed in tokenized markets.",
+    "description": "Frank La Salla, CEO of the Depository Trust and Clearing Corporation (DTCC), said Wednesday at Consensus 2026 in Miami that the market infrastructure giant is collaborating with several layer-1 (L1) blockchain networks to improve how dividend payments, tender offers and other post-trade events could be processed in tokenized markets. capital markets infrastructure, processing roughly $20 trillion in Treasury and corporate securities trades each day. DTCC, Wall Street's clearinghouse, works with blockchains to tokenize corporate actions",
     "date": "2026-05-06",
     "source_url": "https://www.coindesk.com/business/2026/05/06/wall-street-s-clearinghouse-seeks-high-performance-blockchains-to-tokenize-corporate-actions",
     "category": "exchanges_intermediaries",
@@ -2191,18 +2199,21 @@
   {
     "institution": "BlackRock",
     "initiative": "Crypto’s mainstream moment has arrived, say industry leaders speaking at Consensus Miami",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "Retail and institutional adoption are accelerating simultaneously, fueled by regulation, ETFs and stablecoins. The panelists said institutional momentum, from exchange traded fund (ETF) approvals to major asset managers putting money onchain, is reinforcing retail adoption globally. Crypto’s mainstream moment has arrived, industry leaders say",
     "date": "2026-05-06",
     "source_url": "https://www.coindesk.com/business/2026/05/06/crypto-s-mainstream-moment-has-arrived-say-industry-leaders-speaking-at-consensus-miami",
     "category": "asset_management",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Asset & Investment Management",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Regulatory Action",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
     ],
     "initiative_types": [
+      "Stablecoins & Deposit Tokens",
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
@@ -2211,20 +2222,19 @@
   {
     "institution": "BlackRock",
     "initiative": "Spot Bitcoin ETFs solved access, but custody, advisors and plumbing still lag, panelists say",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "Google has launched the Agentic Payments Protocol (AP2), with 120 partners including PayPal, and donated it to the FIDO Foundation. Advisor adoption remains modest relative to the size of the wealth-management market, with client-communication risk still limiting broader allocations. Spot Bitcoin ETFs solved access, but custody, advisors and plumbing still lag, panelists say",
     "date": "2026-05-06",
     "source_url": "https://www.coindesk.com/business/2026/05/06/spot-bitcoin-etfs-solved-access-but-custody-advisors-and-plumbing-still-lag-panelists-say",
     "category": "asset_management",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Asset & Investment Management",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Product Launch",
     "fmi_areas": [
       "Custody & Safekeeping",
-      "Interoperability & Standards"
+      "Payments & Transfers"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -2232,22 +2242,23 @@
   {
     "institution": "Circle",
     "initiative": "Dominance of Tether and Circle is a net bad for stablecoins, says Bridge executive",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "Circle, launched in association with Coinbase in 2018, sought to do the exact opposite: a U.S.-regulated stablecoin, which later leaned hard into decentralized finance (DeFi). Google has launched the Agentic Payments Protocol (AP2), with 120 partners including PayPal, and donated it to the FIDO Foundation. Dominance of Tether and Circle is a net bad for stablecoins, says Bridge executive",
     "date": "2026-05-06",
     "source_url": "https://www.coindesk.com/business/2026/05/06/dominance-of-tether-and-circle-is-net-bad-for-stablecoins-says-bridge",
     "category": "payments",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Product Launch",
     "fmi_areas": [
+      "Payments & Transfers",
       "Digital Currency & Stablecoins",
+      "Regulation & Compliance",
       "Interoperability & Standards"
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
+      "DeFi"
     ],
     "year": "2026"
   },
@@ -2312,16 +2323,16 @@
   {
     "institution": "JPMorgan",
     "initiative": "Eric Trump takes shot at JPMorgan rethinking bitcoin after 'crapping' on asset",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "\"It's really interesting — now they're allowing people to take down home mortgages against their bitcoin holdings at JPMorgan, this happened in a period of 18 months, my friends.\" JPMorgan CEO Jamie Dimon had been a longtime critic of cryptocurrencies, though his bank has since been among those embracing blockchain technology and associated advances, including tokenization of assets. president's son, who co-founded American Bitcoin, said there's been a turnaround from traditional institutional firms now embracing bitcoin.",
     "date": "2026-05-06",
     "source_url": "https://www.coindesk.com/policy/2026/05/06/eric-trump-takes-shot-at-jpmorgan-rethinking-bitcoin-after-crapping-on-asset",
     "category": "payments",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "General Infrastructure"
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
@@ -2355,18 +2366,20 @@
   {
     "institution": "Coinbase",
     "initiative": "The end of ads: Coinbase engineer says AI agents could kill the internet’s favorite business model",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "He framed x402, an open payments protocol built around the long-unused HTTP 402 “Payment Required” status code , as infrastructure for that future. The comments reflect a broader effort within the crypto industry to position stablecoins and blockchain-based payments as foundational infrastructure for AI-driven commerce. Coinbase news (COIN): engineer says AI agents could break the internet’s ad-based economy",
     "date": "2026-05-06",
     "source_url": "https://www.coindesk.com/tech/2026/05/06/the-end-of-ads-coinbase-engineer-says-ai-agents-could-kill-the-internet-s-favorite-business-model",
     "category": "exchanges_intermediaries",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
     ],
     "initiative_types": [
+      "Stablecoins & Deposit Tokens",
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
@@ -2375,19 +2388,20 @@
   {
     "institution": "BlackRock",
     "initiative": "The Protocol: AI Agents form their own firm",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "The transaction gives Bullish, a regulated transfer agent, a required function for public companies, alongside its existing tokenization, trading and market infrastructure capabilities. Bullish, CoinDesk's parent company, has agreed to acquire transfer agent and shareholder services firm Equiniti in a $4.2 billion deal that would fold a core piece of traditional market infrastructure into its digital asset platform, expanding its push into tokenized securities. The Protocol: AI Agents form their own firm",
     "date": "2026-05-06",
     "source_url": "https://www.coindesk.com/tech/2026/05/06/the-protocol-ai-agents-form-their-own-firm",
     "category": "asset_management",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Asset & Investment Management",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Investment / M&A",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "Payments & Transfers",
+      "Trading & Exchange",
+      "Regulation & Compliance"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -2442,7 +2456,7 @@
   {
     "institution": "BIS",
     "initiative": "Poonam Gupta: Inflation targeting in India - the past, the present and the future",
-    "description": "Central bank speech | 06 May 2026 by Poonam Gupta PDF full text (424kb) | 12 pages It is a pleasure for me to be here at NCAER to speak on India's current monetary policy framework. Finally, I will touch on a few issues that may warrant consideration when the framework comes up for its next review in 2031. Poonam Gupta: Inflation targeting in India the past, the present and the future",
+    "description": "Central bank speech | 06 May 2026 by Poonam Gupta PDF full text (424kb) | 12 pages It is a pleasure for me to be here at NCAER to speak on India's current monetary policy framework. Speech by Dr Poonam Gupta, Deputy Governor of the Reserve Bank of India, at Joint Seminar and Discussion \"India's inflation targeting framework' and 'regional economic outlook for Asia and Pacific\", National Council of Applied Economic Research (NCAER), New Delhi, 5 May 2026. Poonam Gupta: Inflation targeting in India the past, the present and the future",
     "date": "2026-05-06",
     "source_url": "https://www.bis.org/review/r260506b.htm",
     "category": "regulators",
@@ -2531,7 +2545,7 @@
   {
     "institution": "CoinDesk",
     "initiative": "NYSE tokenization partners warn synthetic stock tokens could mislead retail traders",
-    "description": "NYSE said in January it was developing a platform for 24/7 trading and onchain settlement of tokenized U.S.-listed stocks and ETFs, pending regulatory approval.",
+    "description": "NYSE said in January it was developing a platform for 24/7 trading and onchain settlement of tokenized U.S.-listed stocks and ETFs, pending regulatory approval. Executives from Intercontinental Exchange (ICE), OKX and Securitize warned that synthetic tokenized stocks are creating market and retail risks, as ICE moves ahead with a regulated platform for tokenized U.S. NYSE tokenization partners warn synthetic stock tokens could mislead retail traders",
     "date": "2026-05-06",
     "source_url": "https://www.coindesk.com/business/2026/05/06/nyse-tokenization-partners-warn-synthetic-stock-tokens-could-mislead-retail-traders",
     "category": "ecosystem",
@@ -2574,7 +2588,7 @@
   {
     "institution": "ESMA (European Securities and Markets Authority)",
     "initiative": "ESMA promotes proportionate supervision of MiFID II sustainability requirements",
-    "description": "Further information: Iris Hude Communications Officer press@esma.europa.eu Related Documents Download All Files Download Selected Files Date Reference Title Download Select 06/05/2026 ESMA35-915049491-6291 Statement on results of the Common Supervisory Action on MiFID II sustainability aspects More on the same topic ESMA sets out actions to simplify the retail investor journey and make investing more accessible 12/03/2026 The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published its The EBA and ESMA consult on revised suitability assessment requirements for banks and investment firms 25/02/2026 The European Banking Authority (EBA) and the European Securities and Markets Authority (ESMA) today launched a Consultation on the",
+    "description": "Further information: Iris Hude Communications Officer press@esma.europa.eu Related Documents Download All Files Download Selected Files Date Reference Title Download Select 06/05/2026 ESMA35-915049491-6291 Statement on results of the Common Supervisory Action on MiFID II sustainability aspects More on the same topic ESMA sets out actions to simplify the retail investor journey and make investing more accessible 12 Mar 2026 The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published its The EBA and ESMA consult on revised suitability assessment requirements for banks and investment firms 25 Feb 2026 The European Banking Authority (EBA) and the European Securities and Markets Authority (ESMA) today launched a Consultation on the",
     "date": "2026-05-06",
     "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-promotes-proportionate-supervision-mifid-ii-sustainability-requirements",
     "category": "regulators",
@@ -2637,20 +2651,20 @@
   {
     "institution": "Morgan Stanley",
     "initiative": "Morgan Stanley brings crypto trading with lower fees than rivals",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "The bank is also exploring deeper crypto integration such as custody services, crypto-to-ETF conversions, and potential tokenized equity trading to challenge existing market leaders. Morgan Stanley has also advanced efforts on the infrastructure side, applying for a national trust bank charter that would enable it to directly custody digital assets. Morgan Stanley brings crypto trading with lower fees than rivals",
     "date": "2026-05-06",
     "source_url": "https://www.coindesk.com/markets/2026/05/06/morgan-stanley-brings-crypto-trading-with-lower-fees-than-rivals",
     "category": "global_banks",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Global Banks",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
+      "Custody & Safekeeping",
       "Trading & Exchange",
       "Interoperability & Standards"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -2658,7 +2672,7 @@
   {
     "institution": "CFTC (Commodity Futures Trading Commission)",
     "initiative": "Blockchain.com launches SnapMarkets as prediction markets move into faster crypto bets",
-    "description": "Polymarket later acquired a CFTC-licensed exchange and clearinghouse for $112 million , creating a regulated path back into the U.S.",
+    "description": "Polymarket later acquired a CFTC-licensed exchange and clearinghouse for $112 million , creating a regulated path back into the U.S. Blockchain.com, a crypto wallet and exchange founded in 2011, announced the launch of SnapMarkets, a platform that lets users wager on whether bitcoin’s price will rise or fall in 30-second windows, on Wednesday. Blockchain.com launches SnapMarkets as prediction markets move into faster crypto bets",
     "date": "2026-05-06",
     "source_url": "https://www.coindesk.com/business/2026/05/06/blockchain-com-launches-snapmarkets-as-prediction-markets-move-into-faster-crypto-bets",
     "category": "regulators",
@@ -2727,14 +2741,14 @@
   {
     "institution": "BIS",
     "initiative": "Monetary policy transmission to exchange rates: the role of currency carry trades",
-    "description": "This amplification arises from the unwinding of leveraged carry trade positions accumulated prior to the policy announcement, creating a state-dependent monetary policy transmission to the exchange rate. The currency trading strategies of hedge funds and other leveraged investors can play a key role in shaping the exchange rate response to monetary policy and therefore warrant careful monitoring. Monetary policy transmission to exchange rates: the role of currency carry trades",
+    "description": "BIS Bulletin | No 124 | 06 May 2026 by Ryan Niladri Banerjee , Lena Boneva , Gabor Pinter and Vladyslav Sushko PDF full text (782kb) | 8 pages Key takeaways Carry trade activity can shape the exchange rate response to monetary policy. This amplification arises from the unwinding of leveraged carry trade positions accumulated prior to the policy announcement, creating a state-dependent monetary policy transmission to the exchange rate. Monetary policy transmission to exchange rates: the role of currency carry trades",
     "date": "2026-05-06",
     "source_url": "https://www.bis.org/publ/bisbull124.htm",
     "category": "regulators",
     "source_name": "BIS — Research Papers",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Trading & Exchange"
     ],
@@ -2744,19 +2758,19 @@
   {
     "institution": "BlackRock",
     "initiative": "Bitcoin approaches $82,000 as oil crashes 6% on fresh Iran peace deal hopes",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "Bitcoin climbed toward $82,000 alongside a more than 1% rise in Nasdaq futures amid reports of progress toward a U.S.–Iran memorandum of understanding. By Omkar Godbole , AI Boost | Edited by Jamie Crawley Updated May 6, 2026, 9:58 a.m. Bitcoin approaches $82,000 as oil crashes 6% on fresh Iran peace deal hopes",
     "date": "2026-05-06",
     "source_url": "https://www.coindesk.com/markets/2026/05/06/bitcoin-nasdaq-futures-rally-as-oil-crashes-6-on-iran-peace-deal-hopes",
     "category": "asset_management",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Asset & Investment Management",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Research / Report",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "Collateral & Lending",
+      "Trading & Exchange"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -2786,16 +2800,17 @@
   {
     "institution": "CoinDesk",
     "initiative": "Crypto custodian Taurus moves straight into EU capital markets with MiFID license in Cyprus",
-    "description": "The license, therefore, will help Taurus bridge its crypto-native infrastructure with the regulatory perimeter used by banks and asset managers, allowing it to offer tokenized securities to institutional clients in their preferred format.",
+    "description": "The license, therefore, will help Taurus bridge its crypto-native infrastructure with the regulatory perimeter used by banks and asset managers, allowing it to offer tokenized securities to institutional clients in their preferred format. Cryptocurrency custody firm Taurus has been granted a MiFID II investment license in Cyprus under the regulatory ambit of Mediterranean island’s regulator, the Cyprus Securities and Exchange Commission (CySEC). Crypto custodian Taurus moves straight into EU capital markets with MiFID license in Cyprus",
     "date": "2026-05-06",
     "source_url": "https://www.coindesk.com/policy/2026/05/06/crypto-custody-firm-taurus-granted-mifid-license-in-cyprus",
     "category": "ecosystem",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Custody & Safekeeping",
+      "Trading & Exchange",
       "Regulation & Compliance",
       "Interoperability & Standards"
     ],
@@ -2864,7 +2879,7 @@
   {
     "institution": "MoonPay",
     "initiative": "Stablecoins enter AI payments as Solana and Google launch Pay.sh",
-    "description": "50 minutes ago News Read more MoonPay says stablecoin regulation opened the door but infrastructure must follow MoonPay says stablecoin regulation opened the door but infrastructure must follow 2 days ago News Read more US banks reject CLARITY Act stablecoin deal days before Senate vote US banks reject CLARITY Act stablecoin deal days before Senate vote 2 days ago Sign up for crypto news and market insights Get crypto market analysis and curated news delivered right to your inbox every week.",
+    "description": "1 hour ago News Read more MoonPay says stablecoin regulation opened the door but infrastructure must follow MoonPay says stablecoin regulation opened the door but infrastructure must follow 2 days ago News Read more US banks reject CLARITY Act stablecoin deal days before Senate vote US banks reject CLARITY Act stablecoin deal days before Senate vote 2 days ago Sign up for crypto news and market insights Get crypto market analysis and curated news delivered right to your inbox every week.",
     "date": "2026-05-06",
     "source_url": "https://crypto.news/stablecoins-enter-ai-payments-as-solana-and-google-launch-pay-sh/",
     "category": "payments",
@@ -3083,20 +3098,21 @@
   {
     "institution": "BlackRock",
     "initiative": "It's transparency, not tech alone, that drives crypto adoption, panelists tell Consensus Miami",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "And I think you do that best by talking to your customers and your prospects and really figuring out what's making their heart beat,\" she said, citing earlier remarks from a former Mastercard CMO that traditional market research is now only \"23% accurate.\" In a closing lightning round, Lanka predicted users will \"increasingly make the wealth manager redundant\"; White predicted CLARITY Act passage and tokenized RWAs hitting stride in the U.S.; Bell floated that “by the beginning of next year,” 80% of Americans could be operating with at least one AI agent; and Purohit predicted “pay as you go” models for content, pointing to stablecoins as a way to enable micropayments.",
     "date": "2026-05-05",
     "source_url": "https://www.coindesk.com/business/2026/05/05/it-s-transparency-not-tech-alone-that-drives-crypto-adoption-panelists-tell-consensus-miami",
     "category": "asset_management",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Asset & Investment Management",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Research / Report",
     "fmi_areas": [
-      "Interoperability & Standards",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
       "Data & Reporting"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
+      "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -3104,19 +3120,20 @@
   {
     "institution": "BlackRock",
     "initiative": "Different voices in product, policy and hiring change crypto outcomes, panelists tell Consensus Miami",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "Google has launched the Agentic Payments Protocol (AP2), with 120 partners including PayPal, and donated it to the FIDO Foundation. Lapcevic said an outside partner helped Mastercard think beyond crypto infrastructure and focus on making crypto “accessible, not complex,” including through cards linked to stablecoins for users in markets with limited access to traditional financial services. Different voices in product, policy and hiring change crypto outcomes, panelists tell Consensus Miami",
     "date": "2026-05-05",
     "source_url": "https://www.coindesk.com/business/2026/05/05/different-voices-in-product-policy-and-hiring-change-crypto-outcomes-panelists-tell-consensus-miami",
     "category": "asset_management",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Asset & Investment Management",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Product Launch",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
+      "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -3124,28 +3141,28 @@
   {
     "institution": "State Street",
     "initiative": "State Street says institutions want improved blockchain security in wake of recent DeFi attacks",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "Google has launched the Agentic Payments Protocol (AP2), with 120 partners including PayPal, and donated it to the FIDO Foundation. The everyday barriers to institutional involvement included a plethora of regulatory gray areas, Bree said. State Street says institutions want improved blockchain security in wake of recent DeFi attacks",
     "date": "2026-05-05",
     "source_url": "https://www.coindesk.com/business/2026/05/05/state-street-says-institutions-want-improved-blockchain-security-in-wake-of-recent-defi-attacks",
     "category": "asset_management",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Asset & Investment Management",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Product Launch",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "Payments & Transfers",
+      "Regulation & Compliance"
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
-      "DeFi",
-      "Crypto / Digital Assets"
+      "DeFi"
     ],
     "year": "2026"
   },
   {
     "institution": "Morgan Stanley",
     "initiative": "Self-directed investors power bitcoin ETF launch despite Morgan Stanley’s scale",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "Beyond the ETF, Oldenburg said the bank is exploring how digital assets could reshape market structure more broadly, including faster settlement and tokenized financial products. Miami Beach, FL — Morgan Stanley’s newly launched spot bitcoin exchange-traded fund (MSBT) has attracted over $200 million in early demand, and it's largely without help from its own advisors. Self-directed investors power bitcoin (BTC) ETF launch despite Morgan Stanley’s scale",
     "date": "2026-05-05",
     "source_url": "https://www.coindesk.com/markets/2026/05/05/self-directed-investors-power-bitcoin-etf-launch-despite-morgan-stanley-s-scale",
     "category": "global_banks",
@@ -3154,11 +3171,12 @@
     "institution_type": "Global Banks",
     "signal_type": "Product Launch",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "Settlement & Clearing",
+      "Trading & Exchange"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
     ],
     "year": "2026"
   },
@@ -3287,7 +3305,7 @@
   {
     "institution": "Citigroup",
     "initiative": "Tokenization won't disrupt banking rails but improve them, Wall Street executives say",
-    "description": "Banks are integrating blockchain rails into existing market infrastructure to enable 24/7, real-time movement of money and securities, reshaping corporate treasury, collateral management and cross-border payments.",
+    "description": "Banks are integrating blockchain rails into existing market infrastructure to enable 24/7, real-time movement of money and securities, reshaping corporate treasury, collateral management and cross-border payments. Its blockchain platform, Kinexys, has processed more than $1 trillion in transactions, said Kara Kennedy, who leads market development for the bank’s digital assets unit. Tokenization won't disrupt banking rails but improve them, Wall Street executives say",
     "date": "2026-05-05",
     "source_url": "https://www.coindesk.com/business/2026/05/05/tokenization-won-t-disrupt-banking-rails-but-improve-them-wall-street-executives-say",
     "category": "global_banks",
@@ -3301,6 +3319,7 @@
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
     "year": "2026"
@@ -3368,7 +3387,7 @@
   {
     "institution": "Anchorage Digital",
     "initiative": "Western Union’s Solana-based stablecoin could reshape its payment model, analyst says",
-    "description": "2 min read Make preferred on What to know : Western Union launched USDPT, a dollar-backed stablecoin on Solana, issued by Anchorage Digital Bank, for 24/7 settlement with agents and partners.",
+    "description": "Western Union launched USDPT, a dollar-backed stablecoin on Solana, issued by Anchorage Digital Bank, for 24/7 settlement with agents and partners. Analyst Angus Scott says USDPT shows stablecoins disrupt traditional payments, pressuring legacy remittance and bank settlement models. Western Union’s Solana-based stablecoin could reshape its payment model, analyst says",
     "date": "2026-05-05",
     "source_url": "https://www.coindesk.com/business/2026/05/05/western-union-s-solana-based-stablecoin-could-reshape-its-payment-model-analyst-says",
     "category": "ecosystem",
@@ -3471,20 +3490,19 @@
   {
     "institution": "Ripple",
     "initiative": "Ripple CEO Brad Garlinghouse says Clarity better than chaos as Senate hits key moment",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "\"Hopefully, the trend line has moved far enough we don't go back, no matter what, but codified into law means you kind of can't go back.\" Also at Consensus, Garlinghouse predicted that the stablecoin market will reach $3 trillion by 2031. Ripple Labs launched its own stablecoin, RLUSD $ 0.9995 , in 2024. Ripple CEO Brad Garlinghouse says Clarity better than chaos as Senate hits key moment",
     "date": "2026-05-05",
     "source_url": "https://www.coindesk.com/policy/2026/05/05/ripple-ceo-brad-garlinghouse-says-clarity-better-than-chaos-as-senate-hits-key-moment",
     "category": "payments",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Product Launch",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "Digital Currency & Stablecoins"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
+      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   },
@@ -3582,7 +3600,7 @@
   {
     "institution": "BIS",
     "initiative": "Aleš Michl: Forever hawkish",
-    "description": "Central bank speech | 05 May 2026 by Aleš Michl PDF full text (729kb) | 10 pages I became Governor of the Czech National Bank in July 2022. At that time, inflation stood at 17.5%. Aleš Michl: Forever hawkish",
+    "description": "Guest lecture by Mr Aleš Michl, Governor of the Czech National Bank, at the MIT Sloan School of Management, Cambridge, MA, 30 April 2026. Central bank speech | 05 May 2026 by Aleš Michl PDF full text (729kb) | 10 pages I became Governor of the Czech National Bank in July 2022. Aleš Michl: Forever hawkish",
     "date": "2026-05-05",
     "source_url": "https://www.bis.org/review/r260505g.htm",
     "category": "regulators",
@@ -3655,27 +3673,24 @@
   {
     "institution": "Coinbase",
     "initiative": "Coinbase taps Centrifuge as preferred tokenization backbone, takes equity stake",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "The first institutional assets are anticipated to launch on Base within the coming weeks, supporting Coinbase's path in the $27 billion tokenized real-world assets sector. 2 min read Make preferred on What to know : Centrifuge was selected as Coinbase's preferred tokenization infrastructure, making it the default issuance layer for assets across Coinbase's ecosystem, including Base. Coinbase taps Centrifuge as preferred tokenization backbone, takes equity stake",
     "date": "2026-05-05",
     "source_url": "https://www.coindesk.com/business/2026/05/05/coinbase-taps-centrifuge-as-preferred-tokenization-backbone-takes-equity-stake",
     "category": "exchanges_intermediaries",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Product Launch",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "General Infrastructure"
     ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
     "institution": "State Street",
     "initiative": "State Street and Galaxy launch tokenized fund to bring cash management onchain",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "2 min read Make preferred on What to know : State Street Investment Management and Galaxy Asset Management have launched the State Street Galaxy Onchain Liquidity Sweep Fund (SWEEP), a tokenized cash-management vehicle for large investors. SWEEP lets qualified institutional investors park stablecoins in a yield-generating fund that operates continuously on blockchain infrastructure, starting on Solana and expanding to Ethereum and Stellar. State Street and Galaxy (GLXY) launch tokenized fund to bring cash management onchain",
     "date": "2026-05-05",
     "source_url": "https://www.coindesk.com/markets/2026/05/05/state-street-and-galaxy-launch-tokenized-fund-to-bring-cash-management-onchain",
     "category": "asset_management",
@@ -3684,9 +3699,11 @@
     "institution_type": "Asset & Investment Management",
     "signal_type": "Product Launch",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
     ],
     "initiative_types": [
+      "Stablecoins & Deposit Tokens",
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
@@ -3695,19 +3712,18 @@
   {
     "institution": "BlackRock",
     "initiative": "K Wave Media scraps massive bitcoin treasury plan to redirect $485 million to AI",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "Securities and Exchange Commission on Monday that it is redirecting up to $485 million in remaining financing capacity away from a planned bitcoin treasury push and into AI infrastructure. The pivot, which reverses a 2025 plan to use a $500 million facility to buy BTC, triggered a sharp market backlash, with K Wave shares falling 24 percent on Monday and sliding further in premarket trading on Tuesday. Nasdaq firm scraps massive bitcoin treasury plan to redirect $485 million to AI",
     "date": "2026-05-05",
     "source_url": "https://www.coindesk.com/markets/2026/05/05/nasdaq-firm-scraps-massive-bitcoin-treasury-plan-to-redirect-usd485-million-to-ai",
     "category": "asset_management",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Asset & Investment Management",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "Trading & Exchange"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -3800,7 +3816,7 @@
   {
     "institution": "Standard Chartered",
     "initiative": "Standard Chartered expands further into crypto with stake in GSR at $1 billion valuation",
-    "description": "In January 2025, it launched its own digital asset custody services out of Luxembourg and introduced crypto trading for institutional clients last summer, becoming one of the first global banks to offer spot bitcoin and ether trading.",
+    "description": "In January 2025, it launched its own digital asset custody services out of Luxembourg and introduced crypto trading for institutional clients last summer, becoming one of the first global banks to offer spot bitcoin and ether trading. The deal is framed as a broader partnership to build regulated, scalable infrastructure that links traditional finance with digital assets and expands access to tokenization for institutional clients. Standard Chartered expands further into crypto with stake in GSR at $1 billion valuation",
     "date": "2026-05-05",
     "source_url": "https://www.coindesk.com/business/2026/05/05/standard-chartered-expands-further-into-crypto-with-stake-in-gsr-at-usd1-billion-valuation",
     "category": "global_banks",
@@ -3811,6 +3827,7 @@
     "fmi_areas": [
       "Custody & Safekeeping",
       "Trading & Exchange",
+      "Regulation & Compliance",
       "Interoperability & Standards"
     ],
     "initiative_types": [
@@ -3821,19 +3838,18 @@
   {
     "institution": "Coinbase",
     "initiative": "Coinbase cuts 14% of staff as AI reshapes how crypto companies operate",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "Google has launched the Agentic Payments Protocol (AP2), with 120 partners including PayPal, and donated it to the FIDO Foundation. Coinbase is set to slashing its workforce by roughly 14%, or 660 employees in response to negative market conditions and AI challenges. Coinbase latest crypto firm to slash staff citing market conditions and AI shift. Reduces it by 14%.",
     "date": "2026-05-05",
     "source_url": "https://www.coindesk.com/business/2026/05/05/coinbase-cuts-14-of-staff-as-ai-reshapes-how-crypto-companies-operate",
     "category": "exchanges_intermediaries",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Product Launch",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "Payments & Transfers"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -4146,7 +4162,7 @@
   {
     "institution": "Digital Asset Exchange",
     "initiative": "Moscow Exchange bets bigger on crypto with SOL, XRP, TRX and BNB indexes",
-    "description": "Read more: Tom Lee says crypto market recovery has begun Read more about Altcoin BNB Exchange Russia Solana Tron XRP Load More XRP $1.45 24h Volume $3,554,126,120 Market Cap $89,417,226,646 24h Low/High $1.42 / $1.50 24h 1.97% 7d 2.66% Best crypto platforms May 2026 Explore Deep Dives Opinion Read more Crypto conference season looked loud in 2025 but it barely made a dent in crypto media traffic Crypto conference season looked loud in 2025 but it barely made a dent in crypto media traffic 3 days ago News Read more The Block’s new CEO bet: Azuki’s Steve Chung and a $10M institutional push The Block’s new CEO bet: Azuki’s Steve Chung and a $10M institutional push 2 weeks ago Interviews Read more In conversation with Vasily Shilov, CBDO at SwapSpace: Privacy, DEXs, and what the",
+    "description": "Read more: Tom Lee says crypto market recovery has begun Read more about Altcoin BNB Exchange Russia Solana Tron XRP Load More XRP $1.45 24h Volume $3,673,631,525 Market Cap $89,391,330,752 24h Low/High $1.42 / $1.50 24h 1.78% 7d 2.69% Best crypto platforms May 2026 Explore Deep Dives Opinion Read more Crypto conference season looked loud in 2025 but it barely made a dent in crypto media traffic Crypto conference season looked loud in 2025 but it barely made a dent in crypto media traffic 3 days ago News Read more The Block’s new CEO bet: Azuki’s Steve Chung and a $10M institutional push The Block’s new CEO bet: Azuki’s Steve Chung and a $10M institutional push 2 weeks ago Interviews Read more In conversation with Vasily Shilov, CBDO at SwapSpace: Privacy, DEXs, and what the",
     "date": "2026-05-05",
     "source_url": "https://crypto.news/moscow-exchange-bets-bigger-on-crypto-with-sol-xrp-trx-and-bnb-indexes/",
     "category": "exchanges_intermediaries",
@@ -4180,7 +4196,7 @@
   {
     "institution": "MoonPay",
     "initiative": "Bank groups challenge Senator Thom Tillis over stablecoin proposal",
-    "description": "51 minutes ago News Read more MoonPay says stablecoin regulation opened the door but infrastructure must follow MoonPay says stablecoin regulation opened the door but infrastructure must follow 2 days ago News Read more US banks reject CLARITY Act stablecoin deal days before Senate vote US banks reject CLARITY Act stablecoin deal days before Senate vote 2 days ago Sign up for crypto news and market insights Get crypto market analysis and curated news delivered right to your inbox every week.",
+    "description": "1 hour ago News Read more MoonPay says stablecoin regulation opened the door but infrastructure must follow MoonPay says stablecoin regulation opened the door but infrastructure must follow 2 days ago News Read more US banks reject CLARITY Act stablecoin deal days before Senate vote US banks reject CLARITY Act stablecoin deal days before Senate vote 2 days ago Sign up for crypto news and market insights Get crypto market analysis and curated news delivered right to your inbox every week.",
     "date": "2026-05-05",
     "source_url": "https://crypto.news/bank-groups-challenge-senator-thom-tillis-over-stablecoin-proposal/",
     "category": "payments",
@@ -4202,19 +4218,18 @@
   {
     "institution": "Ripple",
     "initiative": "Ripple to share North Korean threat intelligence with crypto firms",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "By Shaurya Malwa May 5, 2026, 6:12 a.m. 2 min read Make preferred on What to know : Ripple is sharing its internal intelligence on North Korean threat actors with the Crypto ISAC to help crypto firms spot coordinated infiltration campaigns. XRP-linked Ripple opens North Korean threat intelligence to crypto firms",
     "date": "2026-05-05",
     "source_url": "https://www.coindesk.com/tech/2026/05/05/ripple-to-share-north-korean-threat-intelligence-with-crypto-firms",
     "category": "payments",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "General Infrastructure"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -4444,19 +4459,18 @@
   {
     "institution": "Coinbase",
     "initiative": "Hut 8 swaps Coinbase loan for cheaper FalconX deal, slashing borrowing costs as it bets big on AI",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "The project , first announced in December, has a 15-year, $7 billion lease with AI infrastructure firm Fluidstack, backed by Google, with a total potential value of up to $17.7 billion if all renewal options are exercised. By James Van Straten , AI Boost | Edited by Aoyon Ashraf May 4, 2026, 6:31 p.m. Hut 8 cuts bitcoin credit costs with FalconX refinancing, freeing 3,300 BTC from collateral",
     "date": "2026-05-04",
     "source_url": "https://www.coindesk.com/markets/2026/04/28/hut-8-swaps-coinbase-credit-line-for-cheaper-falconx-deal-slashing-borrowing-costs-as-it-bets-big-on-ai",
     "category": "exchanges_intermediaries",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "Collateral & Lending"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -4530,19 +4544,21 @@
   {
     "institution": "Coinbase",
     "initiative": "Circle, Coinbase lead crypto stocks rally amid Clarity Act progress, bitcoin hitting $80,000",
-    "description": "Read full story Latest Crypto News A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Trump Media’s Q1 loss widens to $406 million on bitcoin, CRO markdowns May 9, 2026 Sports betting should be regulated as a financial product, not gambling, aspiring prediction market provider says May 9, 2026 Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking",
+    "description": "BitGo (BTGO), a digital asset infrastructure firm offering custody and stablecoin services, climbed roughly 10%. Circle, issuer of the USDC stablecoin, surged 18%, extending recent gains, while U.S.-focused crypto exchange Coinbase rose about 7%. Why is crypto up today: Circle (CRCL), Coinbase (COIN) lead crypto stocks rally amid Clarity Act progress",
     "date": "2026-05-04",
     "source_url": "https://www.coindesk.com/markets/2026/05/04/circle-coinbase-lead-crypto-stock-rally-amid-clarity-act-progress-bitcoin-above-usd80-000",
     "category": "exchanges_intermediaries",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
-      "Regulation & Compliance"
+      "Custody & Safekeeping",
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
+      "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -4607,7 +4623,7 @@
   {
     "institution": "DTCC",
     "initiative": "Wall Street giant DTCC plans tokenized securities platform with July pilot, October launch",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "2 min read Make preferred on DTCC (CoinDesk Archives) What to know : DTCC, Wall Street's clearinghouse, plans its first tokenized asset trades in July, with a full launch in October. Nasdaq is working on a framework for companies to issue blockchain-based shares and is partnering with the parent company of crypto exchange operator Kraken to distribute them globally, with a potential launch as early as 2027. DTCC sets October launch for tokenized securities platform in Wall Street blockchain push",
     "date": "2026-05-04",
     "source_url": "https://www.coindesk.com/business/2026/05/04/wall-street-giant-dtcc-plans-tokenized-securities-platform-with-july-pilot-october-launch",
     "category": "exchanges_intermediaries",
@@ -4616,11 +4632,14 @@
     "institution_type": "Exchanges & Central Intermediaries",
     "signal_type": "Product Launch",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "Settlement & Clearing",
+      "Trading & Exchange",
+      "Regulation & Compliance"
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
     ],
     "year": "2026"
   },
@@ -4684,7 +4703,7 @@
   {
     "institution": "Nasdaq",
     "initiative": "DeFi Development launches $200M ATM to keep buying Solana",
-    "description": "Read more: Bitmine adds 101,745 ETH as holdings hit 5.18m tokens Read more about Crypto assets DeFi Exchange Load More Solana $95.32 24h Volume $4,521,977,280 Market Cap $55,078,051,524 24h Low/High $93.16 / $96.78 24h 1.94% 7d 11.67% Best crypto platforms May 2026 Explore Deep Dives Opinion Read more Crypto conference season looked loud in 2025 but it barely made a dent in crypto media traffic Crypto conference season looked loud in 2025 but it barely made a dent in crypto media traffic 3 days ago News Read more The Block’s new CEO bet: Azuki’s Steve Chung and a $10M institutional push The Block’s new CEO bet: Azuki’s Steve Chung and a $10M institutional push 2 weeks ago Interviews Read more In conversation with Vasily Shilov, CBDO at SwapSpace: Privacy, DEXs, and what the",
+    "description": "Read more: Bitmine adds 101,745 ETH as holdings hit 5.18m tokens Read more about Crypto assets DeFi Exchange Load More Solana $95.02 24h Volume $4,325,587,945 Market Cap $54,974,482,731 24h Low/High $93.16 / $96.78 24h 1.33% 7d 11.94% Best crypto platforms May 2026 Explore Deep Dives Opinion Read more Crypto conference season looked loud in 2025 but it barely made a dent in crypto media traffic Crypto conference season looked loud in 2025 but it barely made a dent in crypto media traffic 3 days ago News Read more The Block’s new CEO bet: Azuki’s Steve Chung and a $10M institutional push The Block’s new CEO bet: Azuki’s Steve Chung and a $10M institutional push 2 weeks ago Interviews Read more In conversation with Vasily Shilov, CBDO at SwapSpace: Privacy, DEXs, and what the",
     "date": "2026-05-04",
     "source_url": "https://crypto.news/defi-development-launches-200m-atm-to-keep-buying-solana/",
     "category": "exchanges_intermediaries",
@@ -4781,21 +4800,22 @@
   {
     "institution": "CFTC (Commodity Futures Trading Commission)",
     "initiative": "Kraken parent Payward closes $550 million Bitnomial deal, securing full CFTC derivatives stack",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "Google has launched the Agentic Payments Protocol (AP2), with 120 partners including PayPal, and donated it to the FIDO Foundation. The deal gives Payward control of Bitnomial's futures broker, exchange and clearinghouse licenses. Kraken parent Payward closes $550 million Bitnomial deal, securing full CFTC derivatives stack",
     "date": "2026-05-04",
     "source_url": "https://www.coindesk.com/business/2026/05/04/kraken-parent-payward-closes-usd550-million-bitnomial-deal-securing-full-cftc-derivatives-stack",
     "category": "regulators",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Product Launch",
     "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
       "Trading & Exchange",
-      "Interoperability & Standards"
+      "Regulation & Compliance"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
+      "Payment Infrastructure"
     ],
     "year": "2026"
   },
@@ -4828,7 +4848,7 @@
   {
     "institution": "MoonPay",
     "initiative": "Western Union brings USDPT to Solana in global payments push",
-    "description": "51 minutes ago News Read more MoonPay says stablecoin regulation opened the door but infrastructure must follow MoonPay says stablecoin regulation opened the door but infrastructure must follow 2 days ago News Read more US banks reject CLARITY Act stablecoin deal days before Senate vote US banks reject CLARITY Act stablecoin deal days before Senate vote 2 days ago Sign up for crypto news and market insights Get crypto market analysis and curated news delivered right to your inbox every week.",
+    "description": "1 hour ago News Read more MoonPay says stablecoin regulation opened the door but infrastructure must follow MoonPay says stablecoin regulation opened the door but infrastructure must follow 2 days ago News Read more US banks reject CLARITY Act stablecoin deal days before Senate vote US banks reject CLARITY Act stablecoin deal days before Senate vote 2 days ago Sign up for crypto news and market insights Get crypto market analysis and curated news delivered right to your inbox every week.",
     "date": "2026-05-04",
     "source_url": "https://crypto.news/western-union-brings-usdpt-to-solana-in-global-payments-push/",
     "category": "payments",
@@ -4908,7 +4928,7 @@
   {
     "institution": "Coinbase",
     "initiative": "Hut 8 unlocks $260M in Bitcoin as it refinances $200M FalconX loan",
-    "description": "Read more about Bitcoin DeFi Exchange Load More Bitcoin $80,710.00 24h Volume $34,220,216,377 Market Cap $1,616,310,248,170 24h Low/High $80,520.00 / $82,348.00 24h -0.06% 7d 0.87% Best crypto platforms May 2026 Explore Deep Dives Opinion Read more Crypto conference season looked loud in 2025 but it barely made a dent in crypto media traffic Crypto conference season looked loud in 2025 but it barely made a dent in crypto media traffic 3 days ago News Read more The Block’s new CEO bet: Azuki’s Steve Chung and a $10M institutional push The Block’s new CEO bet: Azuki’s Steve Chung and a $10M institutional push 2 weeks ago Interviews Read more In conversation with Vasily Shilov, CBDO at SwapSpace: Privacy, DEXs, and what the conference season actually revealed In conversation with Vasily",
+    "description": "Read more about Bitcoin DeFi Exchange Load More Bitcoin $80,713.00 24h Volume $34,647,150,587 Market Cap $1,616,017,251,510 24h Low/High $80,520.00 / $82,348.00 24h -0.08% 7d 0.99% Best crypto platforms May 2026 Explore Deep Dives Opinion Read more Crypto conference season looked loud in 2025 but it barely made a dent in crypto media traffic Crypto conference season looked loud in 2025 but it barely made a dent in crypto media traffic 3 days ago News Read more The Block’s new CEO bet: Azuki’s Steve Chung and a $10M institutional push The Block’s new CEO bet: Azuki’s Steve Chung and a $10M institutional push 2 weeks ago Interviews Read more In conversation with Vasily Shilov, CBDO at SwapSpace: Privacy, DEXs, and what the conference season actually revealed In conversation with Vasily",
     "date": "2026-05-04",
     "source_url": "https://crypto.news/hut-8-unlocks-260m-in-bitcoin-as-it-refinances-200m-falconx-loan/",
     "category": "exchanges_intermediaries",
@@ -4926,22 +4946,21 @@
   {
     "institution": "Coinbase",
     "initiative": "Coinbase boosts Solana trading with DFlow integration",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "Google has launched the Agentic Payments Protocol (AP2), with 120 partners including PayPal, and donated it to the FIDO Foundation. 1 min read Make preferred on What to know : The move also increases liquidity on tokens that were previously untradeable, and improves the prices users receive. Coinbase boosts Solana trading with DFlow integration",
     "date": "2026-05-04",
     "source_url": "https://www.coindesk.com/business/2026/05/04/coinbase-boosts-solana-trading-with-dflow-integration",
     "category": "exchanges_intermediaries",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Product Launch",
     "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending",
       "Trading & Exchange",
       "Interoperability & Standards"
     ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -4968,14 +4987,14 @@
   {
     "institution": "BIS",
     "initiative": "Acting under uncertainty - the case for supervisory risk appetite frameworks",
-    "description": "This gap can lead to unclear, inconsistent or ineffective supervisory practices, undermining authorities' ability to address problems in banks in a timely manner. This paper develops a supervisory risk appetite framework (RAF) to strengthen SAs governance, culture and effectiveness. Acting under uncertainty the case for supervisory risk appetite frameworks",
+    "description": "FSI Insights | No 74 | 04 May 2026 by Monica Balan and Raihan Zamil PDF full text (1,195kb) | 35 pages Executive Summary Periodic episodes of banking sector distress invariably expose weaknesses in banks' governance and risk management and shortcomings in supervision. This gap can lead to unclear, inconsistent or ineffective supervisory practices, undermining authorities' ability to address problems in banks in a timely manner. Acting under uncertainty the case for supervisory risk appetite frameworks",
     "date": "2026-05-04",
     "source_url": "https://www.bis.org/fsi/publ/insights74.htm",
     "category": "regulators",
     "source_name": "BIS — Research Papers",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
+    "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Regulation & Compliance"
     ],
@@ -5123,19 +5142,19 @@
   {
     "institution": "Morgan Stanley",
     "initiative": "Morgan Stanley's Oldenburg: Bitcoin on U.S. bank balance sheets is coming, just not yet",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "Morgan Stanley launched the first bank-issued Bitcoin ETP, but Amy Oldenburg said advisors, regulators and balance sheets still have a long way to go. The banking giant recently launched MSBT, a bitcoin-backed exchange-traded product and the first of its kind from a U.S.-chartered bank. Morgan Stanley's Oldenburg: Bitcoin on U.S. bank balance sheets is coming, just not yet",
     "date": "2026-05-04",
     "source_url": "https://www.coindesk.com/markets/2026/05/03/morgan-stanley-s-oldenburg-bitcoin-on-u-s-bank-balance-sheets-is-coming-just-not-yet",
     "category": "global_banks",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Global Banks",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Product Launch",
     "fmi_areas": [
-      "Interoperability & Standards"
+      "Trading & Exchange",
+      "Regulation & Compliance"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -5143,20 +5162,19 @@
   {
     "institution": "CoinDesk",
     "initiative": "Americans still prefer banks over crypto for financial access, CoinDesk's survey shows",
-    "description": "Exclusive Election 2026 About About Us Masthead Careers Blog Investor Relations Contact Contact Us Accessibility Advertise Media Kit Sitemap System status Newsletters CoinDesk Headlines Crypto Daybook Americas The Protocol State of Crypto Crypto for Advisors Crypto Long & Short News Markets Finance Tech Policy Focus Videos CoinDesk Daily Editor's Picks Shorts Spotlight Podcasts CoinDesk Podcast Network Markets Outlook Gen C Cryptocurrencies Prices Bitcoin (BTC) Ethereum (ETH) XRP Solana (SOL) Data & Indices Market Data Index Offering API Research Insights Documentation and Governance Consensus Consensus Miami CoinDesk: Policy & Regulation Webinars Sponsored Bitcoin Treasuries Theme Week Thought Leadership Press Release MEXC Phemex Stellar Research Research Hub Exchange Benchmark Ethics",
+    "description": "When asked which they trusted more between banks and crypto when it came to financial inclusion, 65% of respondents to an online survey said banks and only 5% favored crypto. Banks have argued that stablecoin rewards could compete directly with their own interest-bearing deposit accounts and threaten a migration that could strangle U.S. Americans still prefer banks over crypto for financial access, CoinDesk's survey shows",
     "date": "2026-05-03",
     "source_url": "https://www.coindesk.com/policy/2026/05/03/americans-still-prefer-banks-over-crypto-for-financial-access-coindesk-s-survey-shows",
     "category": "ecosystem",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Data & Reporting"
+      "Digital Currency & Stablecoins"
     ],
     "initiative_types": [
+      "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -5243,7 +5261,7 @@
   {
     "institution": "BlackRock",
     "initiative": "BlackRock pushes OCC to rethink tokenized reserve limits",
-    "description": "Apr 5, 2026 at 4:30 PM UTC Opinion Read more SEC & CFTC issued regulatory clarity | Opinion SEC & CFTC issued regulatory clarity | Opinion Apr 3, 2026 at 2:54 PM UTC Related News Previous Next News Read more Canton Network builder nears $300M raise led by a16z crypto Canton Network builder nears $300M raise led by a16z crypto 2 hours ago News Read more Solv ditches LayerZero for Chainlink to protect tokenized Bitcoin Solv ditches LayerZero for Chainlink to protect tokenized Bitcoin BTC Bitcoin 3 days ago News Read more BNY brings $59T custody power to Abu Dhabi crypto push BNY brings $59T custody power to Abu Dhabi crypto push 4 days ago Sign up for crypto news and market insights Get crypto market analysis and curated news delivered right to your inbox every week.",
+    "description": "Apr 5, 2026 at 4:30 PM UTC Opinion Read more SEC & CFTC issued regulatory clarity | Opinion SEC & CFTC issued regulatory clarity | Opinion Apr 3, 2026 at 2:54 PM UTC Related News Previous Next News Read more Canton Network builder nears $300M raise led by a16z crypto Canton Network builder nears $300M raise led by a16z crypto 3 hours ago News Read more Solv ditches LayerZero for Chainlink to protect tokenized Bitcoin Solv ditches LayerZero for Chainlink to protect tokenized Bitcoin BTC Bitcoin 3 days ago News Read more BNY brings $59T custody power to Abu Dhabi crypto push BNY brings $59T custody power to Abu Dhabi crypto push 4 days ago Sign up for crypto news and market insights Get crypto market analysis and curated news delivered right to your inbox every week.",
     "date": "2026-05-03",
     "source_url": "https://crypto.news/blackrock-pushes-occ-to-rethink-tokenized-reserve-limits/",
     "category": "asset_management",
@@ -5384,7 +5402,7 @@
   {
     "institution": "ESMA (European Securities and Markets Authority)",
     "initiative": "ESMA consults on guidelines on endorsement under the ESG Ratings Regulation",
-    "description": "ESMA consults on the Internal Control Framework for some of its supervised entities 19 Dec 2024 The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has today launched a Consultation on the Guidelines on Internal Controls for Benchmark Administrators, Credit Rating Agencies and Market Transparency Infrastructures More ESMA is an authority of the European Union Careers ESMA Documents Contact & Help Media Corner Cookie Policy Data Protection Social Media Background The ESG Ratings Regulation establishes a regulatory framework for providers of ESG ratings in the European Union.",
+    "description": "ESMA consults on the Internal Control Framework for some of its supervised entities 19/12/2024 The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has today launched a Consultation on the Guidelines on Internal Controls for Benchmark Administrators, Credit Rating Agencies and Market Transparency Infrastructures More ESMA is an authority of the European Union Careers ESMA Documents Contact & Help Media Corner Cookie Policy Data Protection Social Media Background The ESG Ratings Regulation establishes a regulatory framework for providers of ESG ratings in the European Union.",
     "date": "2026-05-02",
     "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-consults-guidelines-endorsement-under-esg-ratings-regulation",
     "category": "regulators",
@@ -5420,7 +5438,7 @@
   {
     "institution": "Brazil Central Bank",
     "initiative": "Brazil's central bank bans stablecoin and crypto settlement in cross-border payments",
-    "description": "Read full story Latest Crypto News Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Trump Media’s Q1 loss widens to $406 million on bitcoin, CRO markdowns May 9, 2026 Sports betting should be regulated as a financial product, not gambling, aspiring prediction market provider says May 9, 2026 It might be too late for bitcoin’s quantum migration, Project Eleven report argues May 9, 2026 Top Stories A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers",
+    "description": "2 min read Make preferred on What to know : Brazil’s central bank banned electronic foreign exchange (eFX) providers from using stablecoins and other cryptos (like Bitcoin) to settle overseas remittances, effective October 1. Brazil's regulator is drawing a line for crypto to exist in the market, but not as eFX settlement infrastructure. Brazil's central bank bans stablecoin and crypto settlement in cross-border payments",
     "date": "2026-05-02",
     "source_url": "https://www.coindesk.com/policy/2026/05/02/brazil-s-central-bank-bans-stablecoin-and-crypto-settlement-in-cross-border-payments",
     "category": "regulators",
@@ -5431,13 +5449,12 @@
     "fmi_areas": [
       "Settlement & Clearing",
       "Payments & Transfers",
-      "Collateral & Lending",
+      "Trading & Exchange",
       "Digital Currency & Stablecoins",
       "Regulation & Compliance"
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
@@ -5651,7 +5668,7 @@
   {
     "institution": "Ripple",
     "initiative": "Ripple investors turn to new profit opportunities, with SHRMiner offering returns of up to $57,000 per month",
-    "description": "Apr 5, 2026 at 4:30 PM UTC Opinion Read more SEC & CFTC issued regulatory clarity | Opinion SEC & CFTC issued regulatory clarity | Opinion Apr 3, 2026 at 2:54 PM UTC Related News Previous Next Sponsored Read more Best Crypto Exchange Tokens 2026: BlockchainFX Aims To Challenge Trading Platforms as BNB, CRO and OKB Lead Watchlists Best Crypto Exchange Tokens 2026: BlockchainFX Aims To Challenge Trading Platforms as BNB, CRO and OKB Lead Watchlists 20 hours ago Sponsored Read more BlockchainFX ($BFX) And The Best Crypto In 2026 Narrative Grow Stronger As AVAX And XLM Face Key Price Tests BlockchainFX ($BFX) And The Best Crypto In 2026 Narrative Grow Stronger As AVAX And XLM Face Key Price Tests 22 hours ago Partner Content Read more Strategic crypto positioning after the latest Fed",
+    "description": "Apr 5, 2026 at 4:30 PM UTC Opinion Read more SEC & CFTC issued regulatory clarity | Opinion SEC & CFTC issued regulatory clarity | Opinion Apr 3, 2026 at 2:54 PM UTC Related News Previous Next Sponsored Read more Best Crypto Exchange Tokens 2026: BlockchainFX Aims To Challenge Trading Platforms as BNB, CRO and OKB Lead Watchlists Best Crypto Exchange Tokens 2026: BlockchainFX Aims To Challenge Trading Platforms as BNB, CRO and OKB Lead Watchlists 21 hours ago Sponsored Read more BlockchainFX ($BFX) And The Best Crypto In 2026 Narrative Grow Stronger As AVAX And XLM Face Key Price Tests BlockchainFX ($BFX) And The Best Crypto In 2026 Narrative Grow Stronger As AVAX And XLM Face Key Price Tests 23 hours ago Partner Content Read more Strategic crypto positioning after the latest Fed",
     "date": "2026-05-01",
     "source_url": "https://crypto.news/ripple-investors-turn-to-new-profit-opportunities-with-shrminer-offering-returns-of-up-to-57000-per-month/",
     "category": "payments",
@@ -5690,20 +5707,20 @@
   {
     "institution": "Tether",
     "initiative": "Tether posts $1.04 billion Q1 profit, reaches $8.23 billion reserve buffer",
-    "description": "Read full story Latest Crypto News Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Trump Media’s Q1 loss widens to $406 million on bitcoin, CRO markdowns May 9, 2026 Sports betting should be regulated as a financial product, not gambling, aspiring prediction market provider says May 9, 2026 It might be too late for bitcoin’s quantum migration, Project Eleven report argues May 9, 2026 Top Stories A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers",
+    "description": "Tether now counts roughly $20 billion in physical gold and about $7 billion in bitcoin among its reserves, as stablecoins see growing use in international payments. Tether, issuer of the largest stablecoin by market capitalization, said first-quarter net profit was $1.04 billion and excess reserves increased to a record $8.23 billion. Tether posts $1.04 billion in first-quarter profit, reaches $8.23 billion reserve buffer",
     "date": "2026-05-01",
     "source_url": "https://www.coindesk.com/business/2026/05/01/tether-posts-usd1-04-billion-q1-profit-reaches-usd8-23-billion-reserve-buffer",
     "category": "payments",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance"
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
+      "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -5711,20 +5728,19 @@
   {
     "institution": "SBI Holdings",
     "initiative": "SBI Holdings eyes stake in crypto exchange Bitbank to build digital asset powerhouse",
-    "description": "Read full story Latest Crypto News Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction 1 hour ago XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 2 hours ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 3 hours ago Policy at Consensus Miami: State of Crypto 13 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 17 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 18 hours ago Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market",
+    "description": "Google has launched the Agentic Payments Protocol (AP2), with 120 partners including PayPal, and donated it to the FIDO Foundation. 1 min read Make preferred on Tokyo (mako/Unsplash) What to know : SBI Holdings has submitted a letter of intent to acquire a stake in Bitbank, aiming to make the crypto exchange a consolidated subsidiary as part of its expanding digital asset business. SBI Holdings eyes stake in crypto exchange Bitbank to build digital asset powerhouse",
     "date": "2026-05-01",
     "source_url": "https://www.coindesk.com/business/2026/05/01/sbi-holdings-continues-its-crypto-expansion-with-plans-for-a-stake-in-bitbank",
     "category": "global_banks",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Global Banks",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Product Launch",
     "fmi_areas": [
-      "Trading & Exchange",
-      "Interoperability & Standards"
+      "Payments & Transfers",
+      "Trading & Exchange"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
