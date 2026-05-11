@@ -342,6 +342,11 @@ function recommendPlayForSignal(signal, persona = 'all') {
   const themes = signal._themes || [];
   if (themes.length === 0) return null;
 
+  const signalText = `${signal.initiative || ''} ${signal.description || ''}`.toLowerCase();
+  const isPerimeterRegAction = signal.signal_type === 'Regulatory Action';
+  const hasSingleAgencyCue = /(\bsec\b|\bcftc\b|\bocc\b|\bfca\b|\bmas\b|banking committee|supervisor|supervisory|charter|license|licensing)/i.test(signalText);
+  const hasIntlCoordinationCue = /(\bbis\b|\bfatf\b|\bbasel\b|\biosco\b|g7|g20|cross-border|international|multi-country|multijurisdiction)/i.test(signalText);
+
   // For each theme, score each play
   let best = null;
   for (const themeId of themes) {
@@ -365,6 +370,14 @@ function recommendPlayForSignal(signal, persona = 'all') {
       if (play.n === 2 && (it === 'Global Banks' || it === 'Payments Providers')) score += 3;
       if (play.n === 2 && (it === 'Regulatory Agencies' || it === 'Central Banks & Regulators')) score += 3;
       if (play.n === 3 && (it === 'Exchanges & Central Intermediaries' || it === 'Financial Infrastructure Operators' || it === 'Global Banks')) score += 3;
+
+      // 3b. Perimeter nuance: single-agency/supervisory actions should bias Play 1,
+      // while true international standards should bias Play 3.
+      if (themeId === 'perimeter') {
+        if (isPerimeterRegAction && hasSingleAgencyCue && !hasIntlCoordinationCue && play.n === 1) score += 6;
+        if (isPerimeterRegAction && hasSingleAgencyCue && !hasIntlCoordinationCue && play.n === 3) score -= 2;
+        if (hasIntlCoordinationCue && play.n === 3) score += 5;
+      }
 
       // 4. If signal's theme matches the playbook theme exactly, baseline +2
       score += 2;

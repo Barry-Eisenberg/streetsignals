@@ -330,6 +330,36 @@ def _split_sentences(text):
     return [s.strip() for s in re.split(r"(?<=[.!?])\s+", text) if s.strip()]
 
 
+def _token_set(text):
+    words = re.findall(r"[a-z0-9]+", clean_text(text).lower())
+    return {w for w in words if len(w) > 2 and w not in _STOPWORDS}
+
+
+def _overlap_ratio(a, b):
+    if not a or not b:
+        return 0.0
+    inter = len(a & b)
+    return inter / max(1, min(len(a), len(b)))
+
+
+def _is_redundant_sentence(sentence, title_text, chosen_sentences):
+    s_tokens = _token_set(sentence)
+    if not s_tokens:
+        return True
+
+    # Skip lines that are mostly the headline repeated back.
+    title_tokens = _token_set(title_text)
+    if _overlap_ratio(s_tokens, title_tokens) >= 0.75:
+        return True
+
+    # Skip near-duplicates of already chosen lines.
+    for chosen in chosen_sentences:
+        if _overlap_ratio(s_tokens, _token_set(chosen)) >= 0.75:
+            return True
+
+    return False
+
+
 def _compress_to_length(text, max_chars=TARGET_SUMMARY_LENGTH):
     text = clean_text(text)
     if len(text) <= max_chars:
@@ -388,11 +418,17 @@ def summarize_signal_description(title, description):
         norm = sentence.lower()
         if norm in used:
             continue
+        if _is_redundant_sentence(sentence, title_text, chosen):
+            continue
         chosen.append(sentence)
         used.add(norm)
         combined = " ".join(chosen)
         if len(combined) >= TARGET_SUMMARY_LENGTH * 0.8 or len(chosen) >= 2:
             break
+
+    # If filtering was too aggressive, retain the top sentence.
+    if not chosen and ranked:
+        chosen = [ranked[0]]
 
     summary = strip_description_boilerplate(" ".join(chosen))
     if title_text and title_text.lower() not in summary.lower() and len(summary) < TARGET_SUMMARY_LENGTH * 0.6:
