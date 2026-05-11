@@ -21,75 +21,81 @@
   {
     "institution": "Morgan Stanley",
     "initiative": "Morgan Stanley’s bitcoin ETF absorbs $194 million in first month with no net daily outflows",
-    "description": "Most of MSBT's capital came from self-directed clients since the bank's 16,000-person financial advisor network is not yet cleared to recommend the fund.",
+    "description": "Morgan Stanley's Bitcoin Trust (MSBT), launched April 8, 2026, completed its inaugural month without recording a single day of net redemptions, accumulating $193.6 million in cumulative net inflows and $239.6 million in net assets by May 7 — a flow profile that held even on days when competing funds including BlackRock's IBIT and Fidelity's FBTC posted combined outflows exceeding $100 million. The fund carries a 0.14% annual sponsor fee, the lowest in the U.S. spot bitcoin ETF category, creating an $1.1 million annual cost advantage per $1 billion invested relative to IBIT and FBTC's 0.25% fees — a differential that is operationally meaningful at institutional scale.",
     "date": "2026-05-10",
     "source_url": "https://www.theblock.co/post/400650/morgan-stanleys-bitcoin-etf-absorbs-194-million-in-first-month-with-no-net-daily-outflows",
     "category": "global_banks",
     "source_name": "The Block",
     "auto_generated": true,
     "institution_type": "Global Banks",
-    "signal_type": "Platform / Infrastructure",
+    "signal_type": "Product Launch",
     "fmi_areas": [
       "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "signal_score": "",
+    "tier": ""
   },
   {
     "institution": "Canton Network",
     "initiative": "Canton Network developer Digital Asset eyes $300 million raise at $2 billion valuation, led by a16z crypto: Bloomberg",
-    "description": "The fundraise would be Digital Asset's largest to date and comes as the Canton Network has attracted partners like Visa and Goldman Sachs.",
+    "description": "Digital Asset Holdings is seeking approximately $300 million in new financing at a roughly $2 billion valuation, with Andreessen Horowitz's a16z crypto fund leading the round, which is expected to close within weeks. The raise would be the company's largest to date, following a $135 million round in June 2025 anchored by DRW Venture Capital and Tradeweb Markets with participation from Goldman Sachs, Citadel Securities, and DTCC, and a subsequent $50 million close in December 2025 from BNY Mellon, Nasdaq, S&P Global, and iCapital.",
     "date": "2026-05-10",
     "source_url": "https://www.theblock.co/post/400647/canton-network-developer-digital-asset-eyes-300-million-raise-at-2-billion-valuation-led-by-a16z-crypto-bloomberg",
     "category": "ecosystem",
     "source_name": "The Block",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
+    "signal_type": "Investment / M&A",
     "fmi_areas": [
       "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "signal_score": "",
+    "tier": ""
   },
   {
     "institution": "PayPal",
     "initiative": "Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami",
-    "description": "Senior figures from PayPal and Google Cloud said open payment protocols, machine-readable merchant catalogs and multi-party crypto custody are needed to scale agentic commerce.",
+    "description": "At the Consensus Miami conference, senior executives from Google Cloud and PayPal outlined a structural case for crypto as the default payments layer for autonomous AI agents, citing the fundamental inability of agents to hold traditional bank accounts under current technological and regulatory frameworks. Google Cloud's Richard Widmann disclosed that the company has launched the Agentic Payments Protocol (AP2), an open standard with over 120 partners including PayPal, which has been donated to the FIDO Foundation—mirroring the approach taken with the x402 payment standard contributed to the Linux Foundation—signaling a deliberate strategy of industry standardization over proprietary lock-in.",
     "date": "2026-05-10",
     "source_url": "https://www.coindesk.com/business/2026/05/10/agentic-commerce-will-run-on-crypto-rails-paypal-and-google-reps-tell-consensus-miami",
     "category": "payments",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
+    "signal_type": "Product Launch",
     "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers"
+      "Payments & Transfers",
+      "Regulation & Compliance",
+      "Interoperability & Standards"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "signal_score": "",
+    "tier": ""
   },
   {
     "institution": "crypto.news",
     "initiative": "Best Crypto Exchange Tokens 2026: BlockchainFX Aims To Challenge Trading Platforms as BNB, CRO and OKB Lead Watchlists",
-    "description": "Exchange tokens remain one of crypto’s most powerful categories because they are tied directly to trading activity, liquidity and platform demand.",
+    "description": "This is a sponsored promotional article published on crypto.news, not an independent editorial signal — BlockchainFX is paying for placement to market its BFX token presale, which it claims has less than $500,000 in remaining allocation before closing. The piece positions BFX alongside established exchange tokens BNB (Binance), CRO (Crypto.com/Cronos), and OKB (OKX) by citing audits from CertiK, Coinsult, and SolidProof, a live beta platform, and planned centralized exchange listings post-launch, though no specific exchange counterparties are named or confirmed. The token's revenue model proposes distributing up to 70% of trading fees to stakers in BFX and USDT, and the platform claims to target multi-asset coverage spanning crypto, equities, forex, ETFs, and derivatives.",
     "date": "2026-05-10",
     "source_url": "https://crypto.news/best-crypto-exchange-tokens-2026-blockchainfx-aims-to-challenge-trading-platforms-as-bnb-cro-and-okb-lead-watchlists/",
     "category": "ecosystem",
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
+    "signal_type": "Product Launch",
     "fmi_areas": [
       "Payments & Transfers",
-      "Collateral & Lending",
       "Trading & Exchange"
     ],
     "initiative_types": [
@@ -101,7 +107,7 @@
   {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "SEC hint sparks prediction market ETF debate",
-    "description": "SEC Commissioner Hester Peirce’s remarks fuel debate over prediction markets, ETFs, disclosures, and future crypto rules.",
+    "description": "During a May 8 speech, SEC Commissioner Hester Peirce publicly acknowledged the rapid growth of commercial prediction markets, framing them as an area warranting regulatory attention rather than resistance — remarks that, while short of any formal rulemaking, were widely read as a signal of openness from a commission already shifting tone under Chair Paul Atkins. The comments land against an active product development backdrop: Bitwise has already filed for exchange-traded funds linked to political prediction markets under its PredictionShares brand, bringing event-based exposure directly into the registered fund structure overseen by the SEC.",
     "date": "2026-05-10",
     "source_url": "https://crypto.news/sec-hint-sparks-prediction-market-etf-debate/",
     "category": "regulators",
@@ -110,17 +116,16 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
+      "Trading & Exchange",
       "Regulation & Compliance"
     ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
     "institution": "Bank of England",
     "initiative": "BoE’s Bailey warns of looming ‘wrestle’ with US over stablecoin rules, flags run risk for UK",
-    "description": "Bailey, who chairs the Financial Stability Board, warned that hard-to-redeem U.S. stablecoins could flood into jurisdictions like the UK during a crisis.",
+    "description": "Bank of England Governor Andrew Bailey, speaking at a BoE conference on financial imbalances and in his capacity as FSB chair, publicly flagged a structural vulnerability in certain U.S. stablecoins: because redemption requires routing through a crypto exchange rather than directly from the issuer, convertibility could seize up under stress conditions, pushing a destabilizing flight of capital toward jurisdictions with stricter redemption frameworks like the UK. The remarks land at a consequential legislative moment, with the U.S.",
     "date": "2026-05-09",
     "source_url": "https://www.theblock.co/post/400639/boes-bailey-warns-of-looming-wrestle-with-us-over-stablecoin-rules-flags-run-risk-for-uk",
     "category": "regulators",
@@ -129,25 +134,27 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
+      "Trading & Exchange",
       "Digital Currency & Stablecoins",
       "Regulation & Compliance"
     ],
     "initiative_types": [
-      "Stablecoins & Deposit Tokens"
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
     ],
     "year": "2026"
   },
   {
     "institution": "CoinDesk",
     "initiative": "Swiss central bank bitcoin reserve push fails over signature shortfall",
-    "description": "The initiative sought to amend Switzerland's constitution, requiring the Swiss National Bank (SNB) to hold BTC alongside gold and foreign-currency reserves.",
+    "description": "A citizen-led campaign to amend Switzerland's Federal Constitution to require the Swiss National Bank to hold bitcoin alongside its existing gold and foreign-currency reserves has been abandoned after organizers collected roughly 50,000 of the 100,000 signatures needed within the 18-month window to trigger a national referendum. The proposed constitutional text did not specify a target allocation but framed bitcoin as a neutral reserve asset and a geopolitical hedge, given that dollar- and euro-denominated holdings represent approximately three-quarters of the SNB's existing foreign-currency portfolio.",
     "date": "2026-05-09",
     "source_url": "https://www.coindesk.com/business/2026/05/09/swiss-central-bank-bitcoin-reserve-push-fails-over-signature-shortfall",
     "category": "ecosystem",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
+    "signal_type": "Strategic Filing / Plan",
     "fmi_areas": [
       "General Infrastructure"
     ],
@@ -159,7 +166,7 @@
   {
     "institution": "MoonPay",
     "initiative": "MoonPay says stablecoin regulation opened the door but infrastructure must follow",
-    "description": "Executives from MoonPay, Ripple, and Paxos said at Consensus Miami 2026 that stablecoin regulation has accelerated institutional adoption but that major infrastructure and privacy gaps still block mainstream use. Top executives at three of the most active stablecoin companies told… MoonPay says stablecoin regulation opened the door but infrastructure must follow",
+    "description": "At the Consensus Miami 2026 conference on May 8, senior executives from MoonPay, Ripple, and Paxos identified the passage of the GENIUS Act as a meaningful regulatory catalyst that has accelerated traditional financial institutions' entry into stablecoin markets, while arguing that compliance clarity alone is insufficient to drive mainstream adoption. MoonPay's Richard Harrison and Ripple's Jack McDonald both pointed to unresolved infrastructure gaps — including the absence of seamless consumer payment rails for rent, retail, and remittances — as the primary constraint on volume growth, with Harrison projecting stablecoins could reach roughly 10% of global remittance flows within five years.",
     "date": "2026-05-09",
     "source_url": "https://crypto.news/stablecoin-execs-warn-on-hard-part-ahead/",
     "category": "payments",
@@ -168,6 +175,7 @@
     "institution_type": "Payments Providers",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
+      "Payments & Transfers",
       "Digital Currency & Stablecoins",
       "Regulation & Compliance"
     ],
@@ -179,26 +187,29 @@
   {
     "institution": "crypto.news",
     "initiative": "US banks reject CLARITY Act stablecoin deal days before Senate vote",
-    "description": "The US banking lobby is mounting a last-minute push to stall the CLARITY Act just days before its scheduled Senate Banking Committee markup on May 14. The American Bankers Association, the Bank Policy Institute, the Consumer Bankers Association, the Financial… US banks reject CLARITY Act stablecoin deal days before Senate vote",
+    "description": "Five major U.S. banking trade groups — including the American Bankers Association, the Bank Policy Institute, and the Independent Community Bankers of America — issued a coordinated joint statement rejecting the stablecoin yield compromise language negotiated by Senators Thom Tillis and Angela Alsobrooks, just days ahead of the Senate Banking Committee's scheduled May 14 markup. The coalition's core objection centers on Section 404 of the legislation, which they argue still permits crypto platforms to offer balance- and duration-linked rewards that functionally replicate deposit interest, potentially accelerating deposit outflows from regulated banks and reducing consumer, small-business, and agricultural lending by as much as one-fifth.",
     "date": "2026-05-09",
     "source_url": "https://crypto.news/banks-try-to-kill-the-clarity-act/",
     "category": "ecosystem",
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Partnership",
     "fmi_areas": [
-      "Digital Currency & Stablecoins"
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
     ],
     "initiative_types": [
-      "Stablecoins & Deposit Tokens"
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
     ],
     "year": "2026"
   },
   {
     "institution": "CME Group",
     "initiative": "CME is set to let traders bet on bitcoin volatility, not just price",
-    "description": "CME Group plans to launch bitcoin volatility futures on June 1 pending regulatory approval bringing a easy way to bet on the degree of price swings.",
+    "description": "CME Group announced plans to launch futures contracts referencing the CME CF Bitcoin Volatility Index (BVX) on June 1, pending CFTC regulatory approval, giving institutional participants their first onshore, exchange-regulated mechanism to express directional views on realized and implied bitcoin volatility independently of price direction. The contracts fill a structural gap in the U.S. market where volatility exposure has until now been assembled synthetically through options or accessed only via offshore venues such as Deribit, which remain off-limits for many regulated U.S. institutions.",
     "date": "2026-05-09",
     "source_url": "https://www.coindesk.com/markets/2026/05/09/you-ll-soon-be-able-to-bet-on-bitcoin-volatility-not-just-price-on-cme",
     "category": "exchanges_intermediaries",
@@ -218,14 +229,14 @@
   {
     "institution": "BlackRock",
     "initiative": "BlackRock deepens tokenization push with new onchain fund offerings",
-    "description": "The world's largest asset manager filed paperwork to expand its tokenized fund lineup as real-world assets grow 200% year over year.",
+    "description": "In 2024, the firm launched its first tokenized money-market fund, BUIDL, with Securitize (CEPT).",
     "date": "2026-05-09",
     "source_url": "https://www.coindesk.com/business/2026/05/09/blackrock-deepens-tokenization-push-with-new-onchain-fund-offerings",
     "category": "asset_management",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Asset & Investment Management",
-    "signal_type": "Strategic Filing / Plan",
+    "signal_type": "Product Launch",
     "fmi_areas": [
       "General Infrastructure"
     ],
@@ -237,24 +248,30 @@
   {
     "institution": "Coinbase",
     "initiative": "Coinbase x402 powers Amazon’s AI agent payments",
-    "description": "Coinbase x402 is now native to Amazon Bedrock AgentCore, letting AI agents pay for services in USDC without human input Coinbase x402 is now native to Amazon Bedrock AgentCore, letting AI agents pay for services in USDC without human input.… Coinbase x402 powers Amazon’s AI agent payments",
+    "description": "On May 7, AWS launched Amazon Bedrock AgentCore Payments, embedding Coinbase's x402 protocol and wallet infrastructure directly into its managed AI agent platform, marking the first instance of a major cloud provider natively integrating stablecoin micropayments into agent infrastructure. Under the architecture, AI agents autonomously initiate and settle USDC payments on the Base network in approximately 200 milliseconds at sub-cent cost, without human authorization or direct private key access — authentication, signing, and execution are handled via a single API call. Stripe is also integrated at preview stage, giving developers a choice between stablecoin and fiat settlement rails, while launch-day service providers include Exa, Messari, and Browserbase for data and compute tasks.",
     "date": "2026-05-09",
     "source_url": "https://crypto.news/amazon-lets-ai-bots-pay-in-usdc-via-coinbase-x402/",
     "category": "exchanges_intermediaries",
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Platform / Infrastructure",
+    "signal_type": "Product Launch",
     "fmi_areas": [
-      "Payments & Transfers"
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Data & Reporting"
     ],
-    "initiative_types": [],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
     "year": "2026"
   },
   {
     "institution": "Morgan Stanley",
     "initiative": "Morgan Stanley’s ETrade crypto undercuts Coinbase",
-    "description": "Morgan Stanley has launched E*Trade crypto trading at 0.5%, undercutting Coinbase, Schwab, and Robinhood in a pilot set to reach 8.6 million users. Morgan Stanley has launched ETrade crypto trading at a flat 0.5% fee, below Coinbase and Schwab. Morgan Stanley’s ETrade crypto undercuts Coinbase",
+    "description": "Morgan Stanley activated a crypto trading pilot on E\\*Trade on May 6, initially covering Bitcoin, Ether, and Solana directly within existing brokerage accounts, with back-end liquidity, custody, and settlement handled by infrastructure provider Zerohash. The 50 basis point flat fee is priced below Charles Schwab's recently launched 75bps offering and Fidelity's approximate 100bps, applying pressure on Coinbase, which derives the bulk of its consumer revenue from retail transaction fees that can meet or exceed this level.",
     "date": "2026-05-09",
     "source_url": "https://crypto.news/morgan-stanley-launche-etrade-crypto-at-0-5percent-fee/",
     "category": "global_banks",
@@ -263,25 +280,31 @@
     "institution_type": "Global Banks",
     "signal_type": "Product Launch",
     "fmi_areas": [
+      "Settlement & Clearing",
+      "Custody & Safekeeping",
+      "Collateral & Lending",
       "Trading & Exchange"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
     ],
     "year": "2026"
   },
   {
     "institution": "JPMorgan",
     "initiative": "Why JPMorgan AI is no longer an experiment",
-    "description": "JPMorgan AI spending has been reclassified from discretionary innovation to core infrastructure, placing it alongside data centers and cybersecurity in the bank’s budget. JPMorgan has reclassified JPMorgan AI investment as core infrastructure, treating its $2bn annual budget as non-negotiable as… Why JPMorgan AI is no longer an experiment",
+    "description": "JPMorgan has formally reclassified its $2 billion annual AI budget from a discretionary innovation line item to non-negotiable core infrastructure, placing it alongside cybersecurity, payment systems, and data centers within the bank's $19.8 billion total technology spend for 2026. CEO Jamie Dimon confirmed the investment has effectively self-funded through $2 billion in realized operational savings, with productivity gains of 10–11% recorded across engineering, operations, and fraud functions covering more than 150,000 employees. The bank's proprietary LLM Suite is now in daily use by over 230,000 staff, underpinned by Microsoft Azure and Snowflake infrastructure, with more than 500 AI use cases in production — including AML systems that have reduced false positives by 95%.",
     "date": "2026-05-09",
     "source_url": "https://crypto.news/jpmorgan-makes-ai-core-infrastructure-spending/",
     "category": "payments",
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Product Launch",
     "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance",
       "Data & Reporting"
     ],
     "initiative_types": [],
@@ -290,7 +313,7 @@
   {
     "institution": "Coinbase",
     "initiative": "US Senate Banking Committee Expected to Hold a Formal Vote on CLARITY Act as Early as Next Week",
-    "description": "The Senate Banking Committee is expected to hold a formal CLARITY Act vote as early as next week, Coinbase said at Consensus 2026. Coinbase says the CLARITY Act is heading for a Senate Banking Committee vote as early as next… US Senate Banking Committee Expected to Hold a Formal Vote on CLARITY Act as Early as Next Week",
+    "description": "The Senate Banking Committee is preparing to schedule a markup vote on the Digital Asset Market CLARITY Act during the week of May 11, with draft legislative text already circulated to select industry participants ahead of a potential Thursday session. The bill, which passed the House 294-134 in July 2025, would establish a statutory jurisdictional split between the SEC and CFTC, assigning digital commodities to CFTC oversight while retaining SEC authority over digital securities — a foundational question that has kept institutional market structure uncertain for years.",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/coinbase-pushes-clarity-act-senate-vote-next-week/",
     "category": "exchanges_intermediaries",
@@ -301,33 +324,39 @@
     "fmi_areas": [
       "General Infrastructure"
     ],
-    "initiative_types": [],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
     "year": "2026"
   },
   {
     "institution": "Circle",
     "initiative": "Meta’s USDC pilot draws fire as Senator Warren demands stablecoin transparency",
-    "description": "Warren’s letter asks Mark Zuckerberg to explain by May 20 which stablecoins and wallets Meta is using, how it selects issuers like Circle, what data it collects from linked wallets and how it will separate social and financial businesses. Senator… Meta’s USDC pilot draws fire as Senator Warren demands stablecoin transparency",
+    "description": "Senator Elizabeth Warren sent a formal letter to Meta CEO Mark Zuckerberg demanding written responses by May 20 regarding the company's active USDC payment pilot, which routes creator earnings in Colombia and the Philippines through Circle's stablecoin on Solana and Polygon, with Stripe serving as the backend settlement layer. Warren is specifically seeking disclosure of which third-party stablecoins and wallets Meta is integrating, how it selects issuers like Circle, what financial data is being harvested from linked wallet accounts, and whether Meta has held any discussions with the Federal Reserve, SEC, CFTC, or banking regulators about the program.",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/metas-usdc-pilot-draws-fire-as-senator-warren-demands-stablecoin-transparency/",
     "category": "payments",
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Regulatory Action",
     "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
       "Digital Currency & Stablecoins",
+      "Regulation & Compliance",
       "Data & Reporting"
     ],
     "initiative_types": [
-      "Stablecoins & Deposit Tokens"
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
     ],
     "year": "2026"
   },
   {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "SEC chair Atkins signals new rules for onchain markets, AI-driven finance",
-    "description": "The SEC chair linked the rise of AI-powered financial systems with growing demand for blockchain-based market infrastructure and automated settlement.",
+    "description": "SEC Chair Paul Atkins, speaking at the AI+ Expo in Washington on May 8, indicated the agency intends to pursue formal notice-and-comment rulemaking to address how existing securities statutes apply to blockchain protocols that simultaneously perform functions traditionally separated across brokers, exchanges, and clearinghouses. The core regulatory problem he identified is structural: legacy rules were written around discrete intermediaries, but a single onchain protocol can now handle trade execution, collateral management, liquidity routing, and settlement in one software layer, leaving firms operating in legal ambiguity.",
     "date": "2026-05-08",
     "source_url": "https://www.coindesk.com/policy/2026/05/08/sec-chair-atkins-signals-new-rules-for-onchain-markets-ai-driven-finance",
     "category": "regulators",
@@ -337,6 +366,8 @@
     "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Settlement & Clearing",
+      "Collateral & Lending",
+      "Trading & Exchange",
       "Regulation & Compliance"
     ],
     "initiative_types": [
@@ -348,7 +379,7 @@
   {
     "institution": "Coinbase",
     "initiative": "Kraken parent Payward applies for national OCC trust charter following Ripple, Coinbase",
-    "description": "The application seeks to establish the Payward National Trust Company, or PNTC.",
+    "description": "Payward, Kraken's parent entity, has filed an application with the Office of the Comptroller of the Currency to establish the Payward National Trust Company (PNTC), targeting bank-level custody and trust services for both institutional and retail digital asset clients. The move follows conditional OCC charter approvals already granted to Coinbase roughly one month prior and to Ripple, signaling a broader industry push to secure federal banking oversight rather than relying on a patchwork of state-level money transmission licenses. An OCC national trust charter would allow PNTC to operate across all U.S.",
     "date": "2026-05-08",
     "source_url": "https://www.theblock.co/post/400592/kraken-parent-payward-applies-national-occ-trust-charter-ripple-coinbase",
     "category": "exchanges_intermediaries",
@@ -357,24 +388,29 @@
     "institution_type": "Exchanges & Central Intermediaries",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
-      "General Infrastructure"
+      "Custody & Safekeeping",
+      "Regulation & Compliance"
     ],
-    "initiative_types": [],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
     "year": "2026"
   },
   {
     "institution": "Revolut",
     "initiative": "Revolut turns Bitcoin into a UX horror show with a two‑cent “flash crash” that never happened",
-    "description": "Revolut briefly showed Bitcoin trading near zero for some users while every major exchange and index still had BTC around $79,000. For a short window on Friday, some Revolut users opened the app and saw Bitcoin (BTC) trading for cents.… Revolut turns Bitcoin into a UX horror show with a two‑cent “flash crash” that never happened",
+    "description": "Revolut's in-app Bitcoin pricing feed malfunctioned for an unspecified period on Friday, displaying BTC at approximately $0.02 for some users and showing an internal one-day chart swing from roughly £58,600 down to £29,414—a ~50% intraday anomaly—while CoinGecko, CoinMarketCap, and major exchanges remained stable near $79,000–$81,000 with no corresponding price movement. The root cause has not been disclosed by Revolut, leaving open three distinct failure scenarios: a cosmetic data-feed or caching bug, a localized liquidity event within a shallow internal or partner execution book, or a full pricing-engine breakdown that may have routed and filled live orders at phantom levels.",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/revolut-turns-bitcoin-into-a-ux-horror-show-with-a-two-cent-flash-crash-that-never-happened/",
     "category": "payments",
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
+    "signal_type": "Product Launch",
     "fmi_areas": [
-      "Trading & Exchange"
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Data & Reporting"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
@@ -384,7 +420,7 @@
   {
     "institution": "ECB (European Central Bank)",
     "initiative": "Nagel warns Iran war is fueling inflation risks as ECB stays on alert",
-    "description": "Acting Labor Secretary Sandlin’s push for earlier Fed cuts clashes with a cautious central bank, leaving crypto trading a “higher for longer” regime even as the political drumbeat for easing grows louder. Nagel, who heads Germany’s Bundesbank and sits on… Nagel warns Iran war is fueling inflation risks as ECB stays on alert",
+    "description": "Bundesbank President Joachim Nagel, speaking to Bloomberg and in earlier Reuters comments, signaled that the ECB Governing Council is prepared to tighten or delay rate cuts if conflict-driven energy price increases translate into sustained broader inflation across the eurozone. His remarks are underpinned by April Eurostat data showing euro-area CPI accelerating to 3.0% year-on-year from 2.6% in March, with energy prices up 10.9% annually as disruptions to Strait of Hormuz flows ripple through European import costs. The ECB's deposit rate currently sits at approximately 2.0%—a level Nagel characterizes as neutral—leaving the institution positioned to move in either direction, though prediction markets assigned just 0.3% odds to a 50-basis-point cut at the April 2026 meeting.",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/nagel-warns-iran-war-is-fueling-inflation-risks-as-ecb-stays-on-alert/",
     "category": "regulators",
@@ -393,17 +429,15 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Trading & Exchange"
+      "Data & Reporting"
     ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
     "institution": "OCC (Office of the Comptroller of the Currency)",
     "initiative": "Kraken parent goes for the OCC charter in bid to become a federal crypto bank",
-    "description": "Payward’s application would add a federally regulated trust company to the Kraken group’s existing Wyoming bank charter and Fed master account.",
+    "description": "Payward, Kraken's parent entity, has filed an application with the Office of the Comptroller of the Currency to establish Payward National Trust Company (PNTC), a federally chartered trust focused on fiduciary custody of digital assets for institutional and retail clients. If approved, PNTC would operate alongside Kraken Financial, the Wyoming SPDI chartered in 2020 that already holds a Federal Reserve master account, giving Payward a deliberate dual-jurisdiction structure covering both state and federal regulatory regimes.",
     "date": "2026-05-08",
     "source_url": "https://www.coindesk.com/policy/2026/05/08/kraken-parent-goes-for-the-occ-charter-in-big-to-become-a-federal-crypto-bank",
     "category": "regulators",
@@ -412,6 +446,7 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
+      "Custody & Safekeeping",
       "Regulation & Compliance"
     ],
     "initiative_types": [
@@ -422,7 +457,7 @@
   {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "SEC weighs new rulemaking for onchain market structures and software applications",
-    "description": "The SEC needs to clear up how its regulatory framework applies to software applications, said its Chair Paul Atkins on Friday.",
+    "description": "SEC Chair Paul Atkins, speaking at an AI expo hosted by the Special Competitive Studies Project, signaled the agency intends to pursue formal notice-and-comment rulemaking to revisit how existing statutory definitions — exchange, clearing agency, and broker — apply to onchain trading systems and crypto vault structures. The core regulatory problem Atkins identified is that a single DeFi protocol can simultaneously perform functions that legacy rules assign to separate, licensed intermediaries, making clean categorical classification unworkable under current frameworks.",
     "date": "2026-05-08",
     "source_url": "https://www.theblock.co/post/400587/sec-weighs-new-rulemaking-for-onchain-market-structures-and-software-applications",
     "category": "regulators",
@@ -431,17 +466,22 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
+      "Settlement & Clearing",
+      "Trading & Exchange",
       "Regulation & Compliance"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure"
+      "DLT / Blockchain Infrastructure",
+      "DeFi",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
     ],
     "year": "2026"
   },
   {
     "institution": "Coinbase",
     "initiative": "Coinbase push Senate to loosen “manipulation” test for small-cap token listings",
-    "description": "Coinbase, Kraken and Gemini are lobbying Senate Agriculture leaders to strip a “not readily susceptible to manipulation” standard from a flagship digital asset bill, warning it would effectively bar small, low‑liquidity tokens from regulated U.S. exchanges and hand the CFTC… Coinbase push Senate to loosen “manipulation” test for small-cap token listings",
+    "description": "Coinbase, Kraken, and Gemini submitted formal redlines to the Senate Agriculture Committee urging deletion of a provision in the Digital Commodity Intermediaries Act that would restrict registered digital commodity exchanges to listing only tokens \"not readily susceptible to manipulation\" — a standard currently applied to CFTC-regulated futures and swaps contracts. The exchanges argue that applying this higher bar to spot markets would effectively exclude low-liquidity, small-cap tokens from compliant U.S. venues, pushing that activity to offshore platforms and DeFi protocols where U.S. regulatory oversight is weakest.",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/coinbase-push-senate-to-loosen-manipulation-test-for-small-cap-token-listings/",
     "category": "exchanges_intermediaries",
@@ -456,23 +496,23 @@
       "Interoperability & Standards"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
+      "DeFi"
     ],
     "year": "2026"
   },
   {
     "institution": "Federal Reserve",
     "initiative": "Strategic crypto positioning after the latest Fed policy: How investors can earn passive income with SHR Miner online AI mining",
-    "description": "SHR Miner gains attention as investors seek stable crypto income amid Fed-driven market volatility. Federal Reserve policy update, the cryptocurrency market continues to draw investor attention. Strategic crypto positioning after the latest Fed policy: How investors can earn passive income with SHR Miner online AI mining",
+    "description": "This article is paid promotional content (\"Partner Content\") published on crypto.news on behalf of SHR Miner, a cloud-based crypto mining platform claiming UK FCA and US MSB registration, and is explicitly not investment advice per the publisher's own disclosure. The piece markets fixed-term cloud mining contracts promising daily yields of up to 1.35% on principal, alongside a $15 free hashrate signup bonus, with no independently verifiable audit, proof-of-reserves, or third-party performance validation provided. The regulatory credentials cited — FCA and MSB registration — confer minimal consumer protection in the context of yield-bearing crypto products and do not constitute endorsement of the advertised returns.",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/strategic-crypto-positioning-after-the-latest-fed-policy-how-investors-can-earn-passive-income-with-shr-miner-online-ai-mining/",
     "category": "regulators",
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Strategic Partnership",
     "fmi_areas": [
-      "General Infrastructure"
+      "Regulation & Compliance"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
@@ -482,27 +522,30 @@
   {
     "institution": "ECB (European Central Bank)",
     "initiative": "ECB's Lagarde’s digital euro warning: Why Europe shouldn’t just copy the U.S. stablecoin model",
-    "description": "Lagarde warned that large stablecoins like Tether and USDC, which now dominate a $310 billion market, pose financial stability risks and could transmit stress to underlying asset markets during periods of turmoil.",
+    "description": "Speaking at the Bank of Spain's LatAm Economic Forum in Madrid, ECB President Christine Lagarde publicly opposed privately issued euro-denominated stablecoins as a strategic response to dollar dominance, instead calling on EU member states to support public central bank infrastructure — specifically a digital euro the ECB is targeting for rollout by 2029, contingent on enabling legislation passing by 2026. Her remarks put her in direct tension with Qivalis, a newly announced consortium of 12 major European banks including ING, BBVA, BNP Paribas, and UniCredit, which plans to launch its own privately issued digital euro later this year on the premise that without on-chain euro liquidity, dollar-pegged stablecoins will fill the void by default.",
     "date": "2026-05-08",
     "source_url": "https://www.coindesk.com/business/2026/05/08/ecb-s-lagarde-warns-tether-and-circle-stablecoins-risk-digital-dollarisation-in-europe",
     "category": "regulators",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
+    "signal_type": "Product Launch",
     "fmi_areas": [
-      "Digital Currency & Stablecoins"
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
-      "CBDC"
+      "CBDC",
+      "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
   },
   {
     "institution": "crypto.news",
     "initiative": "SoftBank cuts OpenAI-backed loan target to $6B as lenders balk at valuation",
-    "description": "SoftBank has cut a planned OpenAI‑backed margin loan from around $10 billion to roughly $6 billion after banks and private credit funds pushed back on the deal’s structure and the difficulty of valuing OpenAI, an unlisted AI unicorn. SoftBank Group… SoftBank cuts OpenAI-backed loan target to $6B as lenders balk at valuation",
+    "description": "SoftBank is restructuring a planned margin loan collateralized by its OpenAI equity stake, reducing the target facility size by approximately 40% after a syndicate of banks and private credit funds resisted the original terms. The core objection from prospective lenders centers on the near-impossibility of establishing a credible mark-to-market valuation for OpenAI, a privately held company with no public market price discovery and some missed internal growth milestones. The two-year loan, extendable by one year, was designed to generate liquidity for further AI investments — including infrastructure commitments tied to the Stargate data-center initiative — without requiring SoftBank to liquidate its OpenAI position.",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/softbank-cuts-openai-backed-loan-target-to-6b-as-lenders-balk-at-valuation/",
     "category": "ecosystem",
@@ -511,7 +554,8 @@
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Investment / M&A",
     "fmi_areas": [
-      "Collateral & Lending"
+      "Collateral & Lending",
+      "Data & Reporting"
     ],
     "initiative_types": [],
     "year": "2026"
@@ -519,27 +563,27 @@
   {
     "institution": "Tether",
     "initiative": "Tether froze over $500M USDT in 30 days as blacklist total hit $1.26B in 2025",
-    "description": "Tether froze over $514 million USDT across 370 addresses in the past 30 days as its 2025 blacklist swelled to $1.26 billion, underscoring how centralized stablecoins now function as embedded enforcement rails for global regulators and law enforcement. Tether has… Tether froze over $500M USDT in 30 days as blacklist total hit $1.26B in 2025",
+    "description": "Over a single 30-day window, Tether executed freezes across 370 wallet addresses—roughly $506 million of which sat on Tron and approximately $8.73 million on Ethereum—bringing the cumulative 2025 blacklist to $1.26 billion across 4,163 unique addresses, per BlockSec's on-chain tracking tool. The actions were triggered through three distinct channels: direct law-enforcement requests from agencies including the FBI, Europol, and OFAC; automated sanctions-list matching; and proactive investigations conducted by Tether's T3 Financial Crime Unit, a joint initiative with Tron and blockchain analytics firm TRM Labs.",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/tether-froze-over-500m-usdt-in-30-days-as-blacklist-total-hit-1-26b-in-2025/",
     "category": "payments",
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Partnership",
     "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
+      "Data & Reporting"
     ],
     "initiative_types": [
-      "Stablecoins & Deposit Tokens"
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
     ],
     "year": "2026"
   },
   {
     "institution": "Federal Reserve",
     "initiative": "Sanders calls for Fed rate cuts as crypto watches policy rift widen",
-    "description": "Acting Labor Secretary Sandlin’s push for earlier Fed cuts clashes with a cautious central bank, leaving crypto trading a “higher for longer” regime even as the political drumbeat for easing grows louder. Political pressure builds for easier Fed policy Acting… Sanders calls for Fed rate cuts as crypto watches policy rift widen",
+    "description": "Acting Labor Secretary Sandlin publicly urged the Federal Reserve to consider lowering interest rates, aligning a senior administration official with the political push for earlier easing at a moment when the Fed's internal consensus remains firmly on hold at 3.50–3.75%. The statement adds to a chorus that includes former Treasury Secretary Mnuchin, though it cuts against the views of Fed officials such as Minneapolis President Kashkari and Boston President Collins, who have cited sticky inflation and energy-shock risks as justification for patience, with most economists now not expecting a first cut until Q4 2026.",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/sanders-calls-for-fed-rate-cuts-as-crypto-watches-policy-rift-widen/",
     "category": "regulators",
@@ -548,7 +592,7 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Trading & Exchange"
+      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
@@ -558,28 +602,31 @@
   {
     "institution": "Mastercard",
     "initiative": "Ondo price breaks $0.30 resistance amid RWA growth, can it revisit January highs?",
-    "description": "Ondo price surged above $0.30 after a JPMorgan-Mastercard tokenized Treasury pilot and strong Q1 growth pushed TVL to $3.53 billion. According to data from crypto.news, Ondo (ONDO) climbed to an intraday high near $0.40 on May 8 before slightly easing… Ondo price breaks $0.30 resistance amid RWA growth, can it revisit January highs?",
+    "description": "Ondo Finance completed a cross-border institutional settlement pilot alongside JPMorgan's Kinexys, Mastercard, and Ripple, demonstrating the redemption and settlement of tokenized U.S. Treasuries with the asset leg clearing in under five seconds on the XRP Ledger. Separately, Ondo was selected to participate in the DTCC's Industry Working Group examining tokenization's role in modernizing capital markets infrastructure — a body that processes quadrillions of dollars in transactions annually. These developments coincided with the project reporting $13.26 million in Q1 revenue and $3.53 billion in total value locked, alongside plans to launch over 200 tokenized stocks and ETFs on Solana.",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/ondo-price-breaks-0-30-resistance-amid-rwa-growth-can-it-revisit-january-highs/",
     "category": "payments",
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Product Launch",
     "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
       "Tokenization & Issuance",
+      "Collateral & Lending",
       "Data & Reporting"
     ],
     "initiative_types": [
       "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
+      "Payment Infrastructure"
     ],
     "year": "2026"
   },
   {
     "institution": "MoonPay",
     "initiative": "Stablecoins have their 'permission slip.' Now comes the hard part.",
-    "description": "Executives from MoonPay, Ripple and Paxos said at Consensus Miami 2026 that regulation has accelerated stablecoin adoption, but infrastructure, privacy and distribution remain major hurdles.",
+    "description": "At Consensus Miami 2026, senior executives from MoonPay, Ripple, and Paxos assessed where stablecoin adoption stands following passage of the GENIUS Act, which has provided the regulatory clarity needed for traditional financial institutions to begin entering the market in earnest. Ripple's stablecoin lead emphasized that institutional volume will only migrate on-chain once issuers are regulated at the highest tier, supported by credible custody arrangements and counterparties — with utility in treasury management and capital markets collateral viewed as more meaningful near-term drivers than aggregate market cap growth.",
     "date": "2026-05-08",
     "source_url": "https://www.coindesk.com/policy/2026/05/08/stablecoins-have-their-permission-slip-now-comes-the-hard-part",
     "category": "payments",
@@ -588,32 +635,35 @@
     "institution_type": "Payments Providers",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
+      "Custody & Safekeeping",
+      "Collateral & Lending",
       "Digital Currency & Stablecoins",
       "Regulation & Compliance"
     ],
     "initiative_types": [
-      "Stablecoins & Deposit Tokens"
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
   },
   {
     "institution": "Coinbase",
     "initiative": "Coinbase bulls point to crypto legislation and stablecoins after earnings miss",
-    "description": "Analysts say Coinbase’s long-term growth may depend more on stablecoins and U.S. crypto legislation than a rebound in trading activity.",
+    "description": "Read full story Latest Crypto News XRP spikes 2.5%, beating bitcoin and ether, in breakout above $1.45 57 minutes ago A bitcoin whale that went silent in 2013 moves $40 million in BTC 1 hour ago Policy at Consensus Miami: State of Crypto 11 hours ago Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami 16 hours ago Bored Ape NFTs are finally making a comeback as crypto traders rediscover their appetite for risk 17 hours ago Trump Media’s Q1 loss widens to $406 million on bitcoin, CRO markdowns May 9, 2026 Top Stories BlackRock deepens tokenization push with new onchain fund offerings May 9, 2026 Crypto industry cheers Senate Clarity Act markup date as market structure push resumes May 9, 2026 Senate Banking Committee plans to hold key market structure",
     "date": "2026-05-08",
     "source_url": "https://www.coindesk.com/markets/2026/05/08/coinbase-bulls-point-to-crypto-legislation-and-stablecoins-after-earnings-miss",
     "category": "exchanges_intermediaries",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Pilot / Trial",
     "fmi_areas": [
-      "Trading & Exchange",
       "Digital Currency & Stablecoins",
       "Regulation & Compliance"
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -621,7 +671,7 @@
   {
     "institution": "crypto.news",
     "initiative": "Taiwan stocks surge as AI boom drives fastest growth since 1987",
-    "description": "According to Bank of America, the TWSE Index climbed 22.7% month-over-month to… Taiwan’s stock market extended its strong artificial intelligence-fueled rally in April, with investors pouring into semiconductor and technology shares as AI demand continued lifting exports and economic growth. Taiwan stocks surge as AI boom drives fastest growth since 1987",
+    "description": "Taiwan's TWSE Index posted a 22.7% monthly gain in April, reaching 38,926.63 and bringing its year-to-date advance to 34.4%, according to Bank of America data, as accelerating AI infrastructure spending globally translated directly into record export volumes and GDP growth for the island's semiconductor-heavy economy. First-quarter GDP expanded 13.7% year-over-year — the strongest reading in nearly four decades — driven primarily by AI-related exports that hit a record $80 billion in March alone, a 61.8% year-over-year jump tied to advanced chip packaging, AI server supply chains, and cloud computing hardware demand from hyperscalers including Microsoft, Amazon, Meta, and Google.",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/taiwan-stocks-surge-as-ai-boom-drives-fastest-growth-since-1987/",
     "category": "ecosystem",
@@ -630,7 +680,7 @@
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Pilot / Trial",
     "fmi_areas": [
-      "General Infrastructure"
+      "Data & Reporting"
     ],
     "initiative_types": [],
     "year": "2026"
@@ -638,16 +688,19 @@
   {
     "institution": "Chainlink",
     "initiative": "BlockchainFX could be the leading crypto to buy in 2026 for those who missed Chainlink",
-    "description": "BlockchainFX and Chainlink attract investor focus as demand grows for top crypto picks in 2026. Missed crypto wins still sting because they usually look obvious after the breakout. BlockchainFX could be the leading crypto to buy in 2026 for those who missed Chainlink",
+    "description": "This is a sponsored/paid promotional article published on crypto.news, not an independent news report, disclosing third-party content with no editorial endorsement. The piece markets a token presale for BlockchainFX (BFX), an unlaunched project claiming to be a licensed multi-asset trading platform, which has reportedly raised approximately $14.57 million from over 24,500 participants at a presale price of $0.035 against a stated launch price of $0.05. The article promotes a time-limited bonus code (\"CEX60\") offering 60% additional tokens before a June 1 deadline and frames urgency around a $15 million fundraising trigger that would initiate exchange listing.",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/blockchainfx-could-be-the-leading-crypto-to-buy-in-2026-for-those-who-missed-chainlink/",
     "category": "ecosystem",
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Product Launch",
     "fmi_areas": [
-      "Payments & Transfers"
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Regulation & Compliance"
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
@@ -658,20 +711,24 @@
   {
     "institution": "crypto.news",
     "initiative": "Leading trends in the UK currency and cryptocurrency markets in 2026",
-    "description": "UK FX and crypto markets grow more connected as regulation and macro pressures intensify in 2026. The UK currency and cryptocurrency markets in 2026 are increasingly shaped by the same macro forces, including interest rates, inflation, and regulatory change. Leading trends in the UK currency and cryptocurrency markets in 2026",
+    "description": "This is sponsored partner content from crypto.news, not a discrete market event or regulatory filing, making it unsuitable as a primary institutional signal. The piece, attributed to TradingPedia commentary, outlines a structural narrative in which the Bank of England's rate posture is increasingly the dominant driver of sterling positioning in GBP/USD and GBP/EUR pairs, while UK crypto regulation is expanding to cover exchanges, stablecoin issuers, and custody providers under formal FCA-adjacent oversight. The convergence argument rests on institutional participants now responding to shared macro inputs — particularly global liquidity conditions and rate differentials — across both FX and digital asset books.",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/leading-trends-in-the-uk-currency-and-cryptocurrency-markets-in-2026/",
     "category": "ecosystem",
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Partnership",
     "fmi_areas": [
+      "Custody & Safekeeping",
       "Payments & Transfers",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
     ],
     "initiative_types": [
+      "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -679,15 +736,16 @@
   {
     "institution": "Coinbase",
     "initiative": "Coinbase blames AWS for hours-long crypto trading outage",
-    "description": "Coinbase says the outage has been fully resolved but that it will investigate the incident fully.",
+    "description": "On May 7, 2026, Coinbase suffered a multi-hour halt to trading across its web and mobile platforms after cascading failures struck multiple AWS availability zones in the U.S. Eastern Region (Virginia), exceeding the single-zone redundancy threshold the exchange's infrastructure was designed to tolerate; trading was briefly restricted to \"cancel only\" mode before full service was restored. The outage is operationally significant because Coinbase is the only major crypto exchange reported to have been affected, raising questions about its cloud architecture and dependency concentration on a single infrastructure provider, particularly given prior outage episodes during market stress in 2020.",
     "date": "2026-05-08",
     "source_url": "https://www.coindesk.com/business/2026/05/08/coinbase-disruption-tied-to-aws-outage-draws-criticism-amid-staff-layoffs-and-q1-losses",
     "category": "exchanges_intermediaries",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Investment / M&A",
+    "signal_type": "Product Launch",
     "fmi_areas": [
+      "Collateral & Lending",
       "Trading & Exchange"
     ],
     "initiative_types": [
@@ -698,37 +756,42 @@
   {
     "institution": "Coinbase",
     "initiative": "Bernstein says Coinbase’s ‘everything exchange’ strategy is gaining traction despite weak first-quarter results, sees 71% upside",
-    "description": "The analysts maintained an outperform rating and $330 price target on Coinbase despite weaker first-quarter results.",
+    "description": "Bernstein analysts led by Gautam Chhugani issued a post-earnings note reaffirming an Outperform rating and $330 price target on Coinbase (COIN) after the exchange reported Q1 revenue of $1.41 billion—5% below consensus—alongside a $394 million net loss driven largely by $482 million in unrealized crypto portfolio losses and a 25% quarter-over-quarter decline in spot trading volume to $202 billion. The firm's constructive view rests on diversification metrics that held up despite the macro-driven volume slump: retail derivatives are annualizing above $200 million, institutional derivatives from the Deribit acquisition above $250 million, and prediction markets crossed a $100 million annualized run rate in March.",
     "date": "2026-05-08",
     "source_url": "https://www.theblock.co/post/400552/bernstein-says-coinbases-everything-exchange-strategy-is-gaining-traction-despite-weak-first-quarter-results-sees-71-upside",
     "category": "exchanges_intermediaries",
     "source_name": "The Block",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
+    "signal_type": "Investment / M&A",
     "fmi_areas": [
+      "Collateral & Lending",
       "Trading & Exchange"
     ],
-    "initiative_types": [],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
     "year": "2026"
   },
   {
     "institution": "CoinDesk",
     "initiative": "Stablecoin card spend is growing 100% year over year, Rain exec says",
-    "description": "Stablecoin settlement enables weekend/holiday settlement, reducing trapped capital by over 40%. This improves card economics and financial flexibility for issuers.",
+    "description": "Rain's head of strategic partnerships disclosed at Consensus Miami 2026 that retail stablecoin card spend has grown approximately 105–106% year-over-year, with Latin American markets potentially approaching double-digit percentage share of total card issuance in the near term. Rain, which recently became a Mastercard Principal Member, is operating as infrastructure for card issuers rather than a competing network, routing stablecoin balances through Mastercard's existing global merchant acceptance footprint and exploring on-chain settlement for select card program flows using regulated stablecoins.",
     "date": "2026-05-08",
     "source_url": "https://www.coindesk.com/business/2026/05/08/stablecoin-card-spend-is-growing-100-year-over-year-rain-exec-says",
     "category": "ecosystem",
     "source_name": "CoinDesk",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
+    "signal_type": "Strategic Partnership",
     "fmi_areas": [
       "Settlement & Clearing",
-      "Digital Currency & Stablecoins"
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
     "year": "2026"
@@ -736,34 +799,14 @@
   {
     "institution": "ECB (European Central Bank)",
     "initiative": "ECB’s Lagarde flags euro-denominated stablecoins as financial stability risk, diverging from Bundesbank stance",
-    "description": "The ECB President argued that euro-denominated stablecoins risk financial stability and monetary policy, pushing for a digital euro instead.",
+    "description": "Speaking at the Banco de España LatAm Economic Forum, ECB President Christine Lagarde made her most explicit public case against euro-denominated stablecoins, arguing they threaten monetary-policy transmission and financial stability through deposit substitution, bank-run contagion, and de-pegging risk — citing the 2023 SVB-Circle episode as a concrete precedent — without meaningfully advancing the euro's international role. The intervention directly contradicts a position taken in February by Bundesbank President Joachim Nagel, who had publicly endorsed a European stablecoin ecosystem, exposing a significant institutional rift within the Eurosystem at a commercially sensitive moment.",
     "date": "2026-05-08",
     "source_url": "https://www.theblock.co/post/400548/ecbs-lagarde-flags-euro-denominated-stablecoins-as-financial-stability-risk-diverging-from-bundesbank-stance",
     "category": "regulators",
     "source_name": "The Block",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "CBDC"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "ECB (European Central Bank)",
-    "initiative": "ECB chief Christine Lagarde raises fresh concerns over euro stablecoins",
-    "description": "European Central Bank President Christine Lagarde has intensified her opposition to euro-denominated stablecoins, warning that the risks to financial stability and monetary control outweigh any benefit to the euro’s international role. Speaking Friday at the Banco de Espana LatAm Economic… ECB chief Christine Lagarde raises fresh concerns over euro stablecoins",
-    "date": "2026-05-08",
-    "source_url": "https://crypto.news/ecb-chief-christine-lagarde-raises-fresh-concerns-over-euro-stablecoins/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
+    "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
       "Digital Currency & Stablecoins"
     ],
@@ -773,47 +816,72 @@
     "year": "2026"
   },
   {
+    "institution": "ECB (European Central Bank)",
+    "initiative": "ECB chief Christine Lagarde raises fresh concerns over euro stablecoins",
+    "description": "Speaking at the Banco de España LatAm Economic Forum in Madrid, ECB President Christine Lagarde explicitly pushed back against growing internal European momentum — including public support from Bundesbank President Joachim Nagel — to develop a regulated euro stablecoin ecosystem under the EU's MiCAR framework. Lagarde argued that privately issued euro-denominated tokens threaten monetary policy transmission in a bank-dependent economy, citing risks of deposit flight, bank run dynamics, and de-pegging episodes analogous to the 2023 USDC disruption following Silicon Valley Bank's collapse.",
+    "date": "2026-05-08",
+    "source_url": "https://crypto.news/ecb-chief-christine-lagarde-raises-fresh-concerns-over-euro-stablecoins/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "Coinbase resumes trading after hours of AWS-linked disruption",
-    "description": "Coinbase resumes trading after hours of AWS-linked disruption, restoring markets following 'Cancel Only' and auction-mode restrictions.",
+    "description": "Coinbase experienced a multi-hour trading outage on May 7–8 triggered by elevated temperatures in AWS Availability Zone use1-az4 within the US-EAST-1 region, which degraded platform performance and forced the exchange through a structured incident recovery sequence. The exchange progressively restricted functionality — first flagging degraded performance for Solana and ALEO transfers, then escalating to a full suspension of market and limit orders, before placing all markets into \"Cancel Only\" mode where resting orders could be cancelled but no new orders were accepted. Markets subsequently moved into a formal auction phase with a minimum 10-minute window for price discovery before order matching resumed at the clearing price.",
     "date": "2026-05-08",
     "source_url": "https://www.theblock.co/post/400536/coinbase-resumes-trading-after-aws-linked-disruption",
     "category": "exchanges_intermediaries",
     "source_name": "The Block",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
+    "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
       "Trading & Exchange"
     ],
-    "initiative_types": [],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
     "year": "2026"
   },
   {
     "institution": "Unchained",
     "initiative": "Aave to Overhaul Collateral and Listing Standards After $293 Million KelpDAO Exploit",
-    "description": "Aave Labs will add cybersecurity and architecture reviews to its asset listing process following the April KelpDAO bridge exploit, with the goal of setting a new bar for DeFi risk management.",
+    "description": "Aave Collateral and Listing Framework Overhaul The April 18 KelpDAO bridge exploit — attributed to North Korea's Lazarus Group — allowed an attacker to mint 116,500 unbacked rsETH tokens worth approximately $293 million and deploy them as collateral on Aave to borrow real wrapped ether and wstETH, leaving the protocol with hundreds of millions in impaired debt and triggering roughly $10 billion in TVL outflows. In response, Aave Labs announced at Consensus Miami that its asset listing process will expand beyond price volatility and financial risk metrics to include mandatory cybersecurity audits, interoperability assessments, and underlying smart contract architecture reviews for any asset seeking collateral eligibility.",
     "date": "2026-05-08",
     "source_url": "https://unchainedcrypto.com/aave-to-overhaul-collateral-and-listing-standards-after-293-million-kelpdao-exploit/",
     "category": "ecosystem",
     "source_name": "Unchained Crypto",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
+    "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Collateral & Lending",
       "Trading & Exchange",
+      "Regulation & Compliance",
       "Interoperability & Standards"
     ],
     "initiative_types": [
-      "DeFi"
+      "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
   },
   {
     "institution": "Coinbase",
     "initiative": "Coinbase Reports $394 Million Q1 Loss, Its Second Consecutive Quarterly Miss",
-    "description": "Coinbase posted its second straight quarterly loss as revenue fell 31% to $1.4 billion and transaction revenue tumbled 40%, deepening the pressure on the largest U.S. crypto exchange.",
+    "description": "Coinbase disclosed a $394 million GAAP net loss for Q1 2026, with net revenue of $1.4 billion coming in roughly 6% below the Wall Street consensus of ~$1.49 billion, as transaction revenue — the exchange's primary income driver — fell 40% year-over-year to $756 million amid a 20%-plus contraction in total crypto market cap and trading volumes. The headline GAAP figure was heavily influenced by a $482 million mark-to-market write-down on crypto assets held on the corporate balance sheet; stripping that out, adjusted EBITDA remained positive at $303 million, extending a 13-quarter streak on that metric.",
     "date": "2026-05-08",
     "source_url": "https://unchainedcrypto.com/coinbase-reports-394-million-q1-loss-its-second-consecutive-quarterly-miss/",
     "category": "exchanges_intermediaries",
@@ -833,17 +901,18 @@
   {
     "institution": "Unchained",
     "initiative": "Treasury Privately Demands Binance Comply With 2023 Monitoring Program After $1B Iran Flow Report",
-    "description": "The Treasury Department reminded Binance to share data and documents with its independent monitor following allegations that more than $1 billion flowed through the exchange to Iran-linked entities.",
+    "description": "The U.S. Treasury's Office of Terrorism and Financial Intelligence, led by Under Secretary Gene Lange, sent a private letter to Binance within recent weeks formally reminding the exchange of its obligation to cooperate with the independent compliance monitor established under its November 2023 guilty plea — specifically requiring timely production of data records and documents. The directive represents a deliberate escalation after reporting by Fortune and The Information alleged that more than $1 billion transited Binance to Iran-linked wallets between March 2024 and August 2025, a period during which Binance management had reportedly been in separate discussions with the DOJ to terminate the monitorship early.",
     "date": "2026-05-08",
     "source_url": "https://unchainedcrypto.com/treasury-privately-demands-binance-comply-with-2023-monitoring-program-after-1b-iran-flow-report/",
     "category": "ecosystem",
     "source_name": "Unchained Crypto",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
+    "signal_type": "Product Launch",
     "fmi_areas": [
       "Collateral & Lending",
       "Trading & Exchange",
+      "Regulation & Compliance",
       "Data & Reporting"
     ],
     "initiative_types": [],
@@ -852,7 +921,7 @@
   {
     "institution": "Canton Network",
     "initiative": "21Shares TCAN ETF brings Canton Network exposure to U.S. investors",
-    "description": "21Shares launched TCAN, the first U.S. ETF tied to Canton Coin, as institutional blockchain access expands through regulated products today.",
+    "description": "21Shares launched TCAN on Nasdaq on May 7, 2026, structured as a registered ETF with a 0.50% gross expense ratio under 21Shares US LLC, giving U.S. retail and institutional investors brokerage-accessible exposure to Canton Coin without requiring direct token custody. The Canton Network, developed by Digital Asset and backed by DTCC, Goldman Sachs, Visa, Citadel, and BitGo, is a privacy-preserving institutional blockchain targeting capital markets use cases including tokenized assets, collateral management, repo transactions, and settlement. The ETF launch closely follows Swiss FINMA-regulated bank AMINA extending Canton Coin trading and custody to institutional clients, and a planned on-chain deployment of the S&P/iBoxx U.S.",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/21shares-tcan-etf-brings-canton-network-exposure-to-u-s-investors/",
     "category": "ecosystem",
@@ -861,26 +930,33 @@
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Product Launch",
     "fmi_areas": [
+      "Settlement & Clearing",
+      "Custody & Safekeeping",
+      "Collateral & Lending",
+      "Trading & Exchange",
       "Regulation & Compliance"
     ],
     "initiative_types": [
-      "DLT / Blockchain Infrastructure"
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
     ],
     "year": "2026"
   },
   {
     "institution": "Fintech Wrap Up",
     "initiative": "The real reason cross-border payments stay expensive - David Messenger (CEO of Global Businesses, Pingpong Payments)",
-    "description": "In this episode of the WRAP UP Podcast, I sit down with David Messenger, CEO of Global Businesses at Pingpong Payments, to unpack what really happens behind cross-border payments and why moving money globally is still far more complex than most businesses realize.",
+    "description": "David Messenger, CEO of Global Businesses at Pingpong Payments, appeared on the Fintech Wrap Up podcast to discuss the structural friction embedded in cross-border payment infrastructure, arguing that cost and complexity persist well beyond what simplified fintech narratives acknowledge. The conversation centers on how global payments rails are evolving from basic fund transfer mechanisms into broader operational layers, though the specific regulatory, correspondent banking, or FX-related factors Messenger cites are behind a paywall.",
     "date": "2026-05-08",
     "source_url": "https://www.fintechwrapup.com/p/the-real-reason-cross-border-payments",
     "category": "ecosystem",
     "source_name": "Fintech Wrap Up",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
+    "signal_type": "Product Launch",
     "fmi_areas": [
-      "Payments & Transfers"
+      "Payments & Transfers",
+      "Regulation & Compliance"
     ],
     "initiative_types": [
       "Payment Infrastructure"
@@ -890,22 +966,22 @@
   {
     "institution": "crypto.news",
     "initiative": "Polygon reduces block time amid stablecoin push",
-    "description": "Polygon has reduced its average block time to 1.75 seconds as the network expands infrastructure built around stablecoin payments and institutional settlement tools. Polygonscan data showed the latest Polygon blocks were being produced in 1.75 seconds after the network implemented… Polygon reduces block time amid stablecoin push",
+    "description": "Polygon implemented its first block-time reduction since network launch, cutting average block production to 1.75 seconds under governance proposal PIP-86, which also outlines a second stage targeting 1.5 seconds and adjusts checkpoint rewards to hold annual POL token emissions near 1%. According to Polygon software engineer Lucca Martins, the change lifts theoretical throughput to approximately 3,260 transactions per second, a roughly 14% increase that directly shortens settlement queues and dampens fee spikes during periods of high stablecoin and DeFi activity.",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/polygon-reduces-block-time-amid-stablecoin-push/",
     "category": "ecosystem",
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
+    "signal_type": "Product Launch",
     "fmi_areas": [
       "Settlement & Clearing",
-      "Payments & Transfers",
       "Digital Currency & Stablecoins",
-      "Data & Reporting"
+      "Regulation & Compliance"
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
+      "DeFi",
       "Payment Infrastructure"
     ],
     "year": "2026"
@@ -913,37 +989,39 @@
   {
     "institution": "Coinbase",
     "initiative": "Coinbase perps shake-up hits KAITO, CAKE, VET and more",
-    "description": "Coinbase will suspend 12 perpetual futures on May 21, settling open positions as it reviews liquidity and market-quality standards in crypto",
+    "description": "Coinbase Markets announced it will delist 12 USDC-settled linear perpetual futures contracts on May 21, 2026 at approximately 13:00 UTC, citing failure to meet the exchange's internal liquidity and market-quality thresholds. The affected contracts — including KAITO-PERP, CAKE-PERP, VET-PERP, THETA-PERP, ZK-PERP, and seven others spanning AI, DeFi, gaming, and legacy layer-1 sectors — will undergo automatic settlement at the average index price calculated over the 60-minute window preceding the halt, with funding rates zeroed out for the final period. Coinbase has reserved discretionary authority to accelerate the suspension timeline or adjust the final settlement price, creating execution risk for traders who do not actively unwind positions before the deadline.",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/coinbase-perps-shake-up-hits-kaito-cake-vet-and-more/",
     "category": "exchanges_intermediaries",
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Research / Report",
+    "signal_type": "Investment / M&A",
     "fmi_areas": [
+      "Settlement & Clearing",
       "Collateral & Lending",
-      "Trading & Exchange",
-      "Interoperability & Standards"
+      "Trading & Exchange"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
+      "DeFi",
+      "Payment Infrastructure"
     ],
     "year": "2026"
   },
   {
     "institution": "Coinbase",
     "initiative": "Coinbase loses $400 million, 1.5 million customers and 14% of staff",
-    "description": "Coinbase faces a $394M loss as memecoin traders exit, AI-driven layoffs grow, and USDC revenue faces mounting pressure.",
+    "description": "Coinbase reported a net loss of $394 million in Q1 2026 on revenue of $1.41 billion, with trading volume down roughly 50% year-on-year across both consumer and institutional segments, and monthly transacting users falling from 9.7 million to 8.2 million. The revenue decline reflects both depressed token prices since late 2025 and collapsing retail interest in memecoins, which dropped from 38% to 30% of trading volume mix, while forward-looking Q2 transaction revenue through May 5 stood at only $215 million, signaling continued deterioration.",
     "date": "2026-05-08",
     "source_url": "https://coingeek.com/coinbase-loses-400-million-1-5-million-customers-and-14-of-staff/",
     "category": "exchanges_intermediaries",
     "source_name": "CoinGeek",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
+    "signal_type": "Research / Report",
     "fmi_areas": [
-      "General Infrastructure"
+      "Collateral & Lending",
+      "Trading & Exchange"
     ],
     "initiative_types": [],
     "year": "2026"
@@ -951,18 +1029,19 @@
   {
     "institution": "Tether",
     "initiative": "Tether blacklists 371 wallets after $515M USDT freeze in 30 days",
-    "description": "Tether froze about $515M across Ethereum and Tron in 30 days, with Tron wallets accounting for most blacklisted USDT addresses.",
+    "description": "Over a 30-day period ending May 7, 2026, Tether executed a significant enforcement sweep across Ethereum and Tron, with the vast majority of frozen value—approximately $506 million across 329 addresses—concentrated on Tron, reflecting that network's outsized share of circulating USDT. The action was tracked via BlockSec's on-chain USDT Freeze Tracker, which monitors freeze, unfreeze, and destroy events in real time. A discrete subset of the freezes, totaling $38.4 million, was directly tied to the alleged DSJ Exchange and BG Wealth Sharing Ponzi collapse, where on-chain investigator ZachXBT coordinated with Tether, Binance Security, OKX, and U.S. law enforcement to intercept roughly $92 million moved across chains between late April and early May.",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/tether-blacklists-371-wallets-after-515m-usdt-freeze-in-30-days/",
     "category": "payments",
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
+    "signal_type": "Investment / M&A",
     "fmi_areas": [
-      "General Infrastructure"
+      "Trading & Exchange"
     ],
     "initiative_types": [
+      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -970,15 +1049,16 @@
   {
     "institution": "Coinbase",
     "initiative": "Coinbase stock falls as Q1 loss hits nearly $400M",
-    "description": "Coinbase shares fell after a $394M Q1 loss and revenue miss, as trading slowed and the exchange pushed beyond spot crypto into new markets.",
+    "description": "Coinbase reported a net loss of $394.1 million for Q1 2026, its second consecutive quarterly loss, reversing a $65.6 million profit from the same period a year earlier. Total revenue fell to $1.41 billion from $2.03 billion, driven primarily by a 40% year-over-year decline in transaction revenue as global crypto spot trading volume dropped 44% and Coinbase's own trading volume fell from $401 billion to $202 billion quarter over quarter. Consumer transaction revenue bore the sharpest impact, declining 48%, while institutional transaction revenue rose 37% — aided by derivatives activity and the pending Deribit acquisition — but was insufficient to offset the broader spot market weakness.",
     "date": "2026-05-08",
     "source_url": "https://crypto.news/coinbase-stock-falls-as-q1-loss-hits-nearly-400m/",
     "category": "exchanges_intermediaries",
     "source_name": "crypto.news",
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
+    "signal_type": "Investment / M&A",
     "fmi_areas": [
+      "Collateral & Lending",
       "Trading & Exchange"
     ],
     "initiative_types": [

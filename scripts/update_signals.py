@@ -403,6 +403,42 @@ def _compress_to_length(text, max_chars=TARGET_SUMMARY_LENGTH):
     return result
 
 
+def _polish_generated_summary(text):
+    """Normalize generated copy to plain prose for signal cards."""
+    t = clean_text(text)
+    # Remove markdown heading markers and bullet prefixes if a model emits them.
+    t = re.sub(r"(?:^|\s)#{1,6}\s*", " ", t)
+    t = re.sub(r"(?:^|\s)[*-]\s+", " ", t)
+    t = t.replace("**", "").replace("__", "")
+    t = re.sub(r"^\s*what happened\s*[:.-]?\s*", "", t, flags=re.IGNORECASE)
+    t = re.sub(r"\s+", " ", t).strip()
+    return t
+
+
+def _is_high_quality_summary(text):
+    """Basic quality gate to avoid storing page chrome or malformed copy."""
+    t = (text or "").strip()
+    if len(t) < 90 or len(t) > TARGET_SUMMARY_LENGTH:
+        return False
+
+    lower = t.lower()
+    bad_fragments = (
+        "subscribe",
+        "sign in",
+        "cookie",
+        "related articles",
+        "all rights reserved",
+        "privacy policy",
+        "newsletter",
+        "menu",
+    )
+    if any(bad in lower for bad in bad_fragments):
+        return False
+
+    sentence_count = len([s for s in re.split(r"(?<=[.!?])\s+", t) if len(s.strip()) > 20])
+    return sentence_count >= 2
+
+
 def summarize_signal_description(title, description):
     """Build a concise, insight-led card description from RSS title + summary text."""
     title_text = clean_text(title)
@@ -522,7 +558,13 @@ def summarize_with_nextfi_content_builder(url, fallback_title, fallback_text, ca
         if not summary:
             summary = summarize_signal_description(source_title, source_text)
 
+        summary = _polish_generated_summary(summary)
         summary = _compress_to_length(summary)
+        if not _is_high_quality_summary(summary):
+            summary = summarize_signal_description(source_title, source_text)
+            summary = _polish_generated_summary(summary)
+            summary = _compress_to_length(summary)
+
         cache[cache_key] = summary
         return summary
     except Exception as ex:
@@ -805,22 +847,54 @@ def classify_signal_type(signal):
     if any(w in text for w in ["partnership", "partner", "collaborat", "joint", "alliance", "consortium"]):
         return "Strategic Partnership"
 
-    # Regulatory Action: only when regulatory activity is the primary subject.
-    # Process phrases like "subject to regulatory approval" must not trigger this — they
-    # describe an entity waiting on a regulator, not an act of regulation itself.
+    # Regulatory Action: require explicit regulator actor/action cues so generic
+    # "regulatory context" prose in richer summaries doesn't over-trigger this class.
     _REGULATORY_PROCESS = (
         "regulatory approval", "subject to regulatory", "pending regulatory",
         "awaiting regulatory", "requires regulatory", "conditional on regulatory",
         "regulatory clearance", "regulatory sign-off",
     )
-    if any(w in text for w in ["regulat", "rule", "guidance", "framework", "legislation", "act ", "compliance", "license", "charter", "sandbox"]) \
-            and not any(p in text for p in _REGULATORY_PROCESS):
-        return "Regulatory Action"
+    _REGULATORY_TERMS = (
+        "regulat", "rule", "guidance", "framework", "legislation", "act ",
+        "compliance", "license", "charter", "sandbox",
+    )
+    _REGULATOR_ACTORS = (
+        "sec", "securities and exchange commission", "cftc",
+        "commodity futures trading commission", "occ",
+        "office of the comptroller of the currency", "federal reserve",
+        "bank of england", "ecb", "european central bank", "fca",
+        "financial conduct authority", "esma", "iosco", "bis", "fsb",
+        "regulator", "regulatory agency", "central bank",
+    )
+    _REGULATORY_ACTION_CUES = (
+        "rulemaking", "consultation", "guidance issued", "issued guidance",
+        "proposed rule", "final rule", "enforcement", "cease and desist",
+        "consent order", "licensing", "charter application", "approved",
+        "approval", "authorized", "authorization", "supervision",
+    )
+    _INVESTMENT_TERMS = (
+        "invest", "funding", "raise", "acquisition", "acquir", "series",
+        "ipo", "spac", "valuation",
+    )
 
-    if any(w in text for w in ["pilot", "trial", "experiment", "proof of concept", "poc", "test"]):
-        return "Pilot / Trial"
+    regulatory_hit = any(w in text for w in _REGULATORY_TERMS)
+    process_hit = any(p in text for p in _REGULATORY_PROCESS)
+    actor_hit = any(w in text for w in _REGULATOR_ACTORS)
+    action_hit = any(w in text for w in _REGULATORY_ACTION_CUES)
+    investment_hit = any(w in text for w in _INVESTMENT_TERMS)
+
+    if regulatory_hit and not process_hit:
+        # If this reads primarily like a capital-raising/investment event, avoid
+        # overriding it to Regulatory Action unless regulator-action evidence is strong.
+        if investment_hit and not (actor_hit and action_hit):
+            pass
+        elif actor_hit or action_hit:
+            return "Regulatory Action"
+
     if any(w in text for w in ["invest", "funding", "raise", "acquisition", "acquir", "series", "ipo", "spac", "valuation"]):
         return "Investment / M&A"
+    if any(w in text for w in ["pilot", "trial", "experiment", "proof of concept", "poc", "test"]):
+        return "Pilot / Trial"
     if any(w in text for w in ["platform", "infrastructure", "network", "system", "solution", "service", "product"]):
         return "Platform / Infrastructure"
     if any(w in text for w in ["filing", "filed", "application", "applied", "proposal", "proposed", "plan", "announced intent", "exploring"]):
@@ -1417,6 +1491,8 @@ def resummarize_auto_data_with_content_builder():
             changed += 1
             if not dry_run:
                 signal["description"] = new_desc
+                # Recompute derived fields so better copy can influence scoring/classification.
+                enrich(signal)
 
     if changed and not dry_run:
         save_json(AUTO_DATA_PATH, auto_data)
