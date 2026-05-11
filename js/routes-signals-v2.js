@@ -32,6 +32,32 @@ function inferCountryRegion(signal) {
   return null;
 }
 
+function normalizeSearchQuery(value) {
+  return String(value == null ? '' : value).trim().toLowerCase();
+}
+
+function signalMatchesQuery(signal, query) {
+  if (!query) return true;
+  const terms = query.split(/\s+/).filter(Boolean);
+  if (!terms.length) return true;
+
+  const haystack = [
+    signal.institution,
+    signal.initiative,
+    signal.description,
+    signal.signal_type,
+    signal.institution_type,
+    signal.country,
+    ...(signal.fmi_areas || []),
+    ...(signal.initiative_types || [])
+  ]
+    .filter(Boolean)
+    .join(' ')
+    .toLowerCase();
+
+  return terms.every(term => haystack.includes(term));
+}
+
 function applyFiltersAndSort(list) {
   const f = SftSState.filters;
   const persona = SftSState.persona || 'all';
@@ -44,12 +70,9 @@ function applyFiltersAndSort(list) {
     const cutoff = parseInt(f.dateWindow, 10);
     out = out.filter(s => s._daysOld !== null && s._daysOld <= cutoff);
   }
-  if (f.search) {
-    const q = f.search.toLowerCase();
-    out = out.filter(s =>
-      (s.institution || '').toLowerCase().includes(q) ||
-      (s.initiative || '').toLowerCase().includes(q) ||
-      (s.description || '').toLowerCase().includes(q));
+  const searchQuery = normalizeSearchQuery(f.search);
+  if (searchQuery) {
+    out = out.filter(s => signalMatchesQuery(s, searchQuery));
   }
 
   // Persona filter: when a specific persona is active, drop signals with the
@@ -375,7 +398,7 @@ SftSRouter.defineRoute('/signals', async ({ root, query }) => {
       search.addEventListener('input', e => {
         clearTimeout(t);
         t = setTimeout(() => {
-          SftSState.filters.search = e.target.value;
+          SftSState.filters.search = normalizeSearchQuery(e.target.value);
           syncFiltersToURL();
           render();
         }, 250);
