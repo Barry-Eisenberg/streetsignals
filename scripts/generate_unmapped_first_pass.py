@@ -10,6 +10,7 @@ heuristic recommender to prefill review decisions before manual adjudication.
 
 from __future__ import annotations
 
+import argparse
 import csv
 import hashlib
 import json
@@ -695,28 +696,84 @@ def load_signals() -> List[dict]:
     return rows
 
 
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Generate first-pass queue for unmapped (or expanded) signal review."
+    )
+    parser.add_argument(
+        "--scope",
+        choices=["strict", "expanded", "all"],
+        default="strict",
+        help=(
+            "strict: only signals with no resolved themes; "
+            "expanded: strict + weakly mapped structural/material signals; "
+            "all: include all signals"
+        ),
+    )
+    return parser.parse_args()
+
+
+def _include_in_scope(signal: dict, tier: str, resolved_themes: List[str], scope: str) -> Tuple[bool, str]:
+    if scope == "all":
+        return True, "all_signals" if resolved_themes else "unmapped"
+
+    if not resolved_themes:
+        return True, "unmapped"
+
+    if scope == "strict":
+        return False, ""
+
+    initiative_types = set(signal.get("initiative_types") or [])
+    weak_initiative_types = {
+        "Crypto / Digital Assets",
+        "Digital Asset Strategy",
+        "Leadership & Governance",
+    }
+    weakly_mapped = (
+        len(resolved_themes) == 1
+        and tier in {"Structural", "Material"}
+        and (not initiative_types or initiative_types.issubset(weak_initiative_types))
+    )
+    if weakly_mapped:
+        return True, "weak_mapped_single_theme"
+
+    if (
+        "perimeter" in resolved_themes
+        and tier in {"Structural", "Material"}
+        and signal.get("signal_type") in {"Regulatory Action", "Strategic Filing / Plan"}
+    ):
+        return True, "perimeter_regulatory_review"
+
+    return False, ""
+
+
 def main() -> None:
+    args = parse_args()
     rows = load_signals()
 
     parsed_dates = [parse_flexible_date(r.get("date") or "") for r in rows]
     anchor = max((d for d in parsed_dates if d is not None), default=date.today())
 
     output_rows = []
+    in_scope_counts: Dict[str, int] = {}
     for idx, signal in enumerate(rows):
+        score, tier = compute_score_and_tier(signal, anchor)
         themes = resolve_themes(signal)
-        if themes:
+        include, inclusion_reason = _include_in_scope(signal, tier, themes, args.scope)
+        if not include:
             continue
 
         sig_id = make_signal_id(signal, idx)
-        score, tier = compute_score_and_tier(signal, anchor)
         d = days_since(signal.get("date") or "", anchor)
         suggestion = intelligent_first_pass(signal, tier)
         what_happened = summarize_what_happened(signal)
+        in_scope_counts[inclusion_reason] = in_scope_counts.get(inclusion_reason, 0) + 1
 
         output_rows.append(
             {
                 "queue_order": 0,
                 "review_priority": review_priority(tier, d),
+                "inclusion_reason": inclusion_reason,
                 "signal_id": sig_id,
                 "tier": tier,
                 "signal_score": f"{score}/100",
@@ -769,6 +826,7 @@ def main() -> None:
     fieldnames = [
         "queue_order",
         "review_priority",
+        "inclusion_reason",
         "signal_id",
         "tier",
         "signal_score",
@@ -820,6 +878,9 @@ def main() -> None:
     plays_assigned = sum(1 for r in output_rows if r["suggested_primary_play_id"])
 
     print(f"Wrote {len(output_rows)} rows to {OUTPUT_FILE.relative_to(ROOT)}")
+    print(f"Scope used: {args.scope}")
+    for reason, count in sorted(in_scope_counts.items(), key=lambda kv: kv[0]):
+        print(f"Included via {reason}: {count}")
     print(f"Suggested map (high confidence): {high_conf_maps}")
     print(f"Suggested map (medium confidence): {med_conf_maps}")
     print(f"Suggested map (low confidence): {low_conf_maps}")

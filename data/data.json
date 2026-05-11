@@ -89,16 +89,19 @@
   {
     "institution": "Goldman Sachs",
     "initiative": "GS DAP Spin-Out Announcement",
-    "description": "Goldman Sachs announced plans to spin out its Digital Asset Platform (GS DAP) from its Digital Assets business, aiming for it to become an industry-owned distributed technology solution subject to regulatory approvals. Tradeweb was announced as the first strategic partner for GS DAP, with a planned spin-out targeted for mid-2026. GS DAP is built on technology from Digital Asset and the Canton Network.",
+    "description": "Goldman Sachs is moving to separate GS DAP®, its permissioned distributed ledger platform built on Digital Asset's technology, into an independent, industry-owned entity, pending regulatory approvals across the multiple jurisdictions where it currently operates. The rationale is that a standalone company, free from Goldman's balance sheet and branding, can attract a broader set of buy- and sell-side participants who might otherwise be reluctant to rely on infrastructure controlled by a single dealer. As a first commercial validation of the model, Tradeweb has signed on as a strategic partner to integrate its fixed income trading and liquidity capabilities into the platform, widening the range of use cases beyond Goldman's own origination activity.",
     "date": "2024-11-18",
     "source_url": "https://www.goldmansachs.com/pressroom/press-releases/2024/announcement-18-nov-2024",
     "category": "global_banks",
     "institution_type": "Global Banks",
     "signal_type": "Strategic Partnership",
     "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange",
       "Regulation & Compliance"
     ],
     "initiative_types": [
+      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2024"
@@ -721,7 +724,7 @@
   {
     "institution": "Morgan Stanley",
     "initiative": "Morgan Stanley Digital Trust National Association – OCC Charter Application",
-    "description": "Morgan Stanley filed an application with the Office of the Comptroller of the Currency (OCC) for a national trust bank charter — Morgan Stanley Digital Trust, National Association — focused on digital asset custody and fiduciary services for wealth management clients. The charter would allow Morgan Stanley to custody client digital assets under federal regulation as part of a broader vertically integrated crypto strategy including ETFs, E*TRADE crypto trading, and custody.",
+    "description": "Morgan Stanley's Head of Digital Asset Strategy, Amy Oldenburg, publicly confirmed the firm is developing a native Bitcoin custody and exchange platform, with Bitcoin-based lending and yield-generation products under active internal exploration — a scope that goes well beyond the spot Bitcoin, Ethereum, and Solana ETF filings the bank submitted to the SEC in January 2026. The initiative would serve Morgan Stanley's full client spectrum, from retail to institutional, across approximately $9 trillion in assets under management, positioning the bank as a vertically integrated digital asset counterparty rather than a mere distribution channel.",
     "date": "2026-02-26",
     "source_url": "https://finance.yahoo.com/news/morgan-stanley-explores-full-stack-052005561.html",
     "category": "global_banks",
@@ -729,8 +732,8 @@
     "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Custody & Safekeeping",
-      "Trading & Exchange",
-      "Regulation & Compliance"
+      "Collateral & Lending",
+      "Trading & Exchange"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
@@ -1315,15 +1318,14 @@
   {
     "institution": "T. Rowe Price",
     "initiative": "Active Crypto ETF SEC Filing (S-1)",
-    "description": "T. Rowe Price filed an S-1 registration statement with the SEC in October 2025 and amended it in March 2026 for a proposed actively managed Crypto ETF investing directly in digital assets. The amended filing lists 15 eligible digital assets (including BTC, ETH, SOL, XRP, AVAX, SHIB, and SUI), names Anchorage Digital Bank as crypto custodian, and expands share creation and redemption disclosures — representing a significant strategic shift for the $1.8 trillion traditional asset manager.",
+    "description": "T. Rowe Price filed an amended Form S-1 with the SEC for its proposed actively managed crypto ETF, updating the registration it originally submitted in October 2024 to expand operational detail and broaden the eligible asset universe to 15 digital assets, including the newly added Sui (SUI) alongside Bitcoin, Ether, Solana, and XRP. The amended filing confirms Anchorage Digital Bank as the designated crypto custodian and provides greater specificity around share creation and redemption mechanics — disclosures that carry particular weight for an actively managed vehicle likely to see more frequent portfolio turnover than a passive index product.",
     "date": "2026-03-17",
     "source_url": "https://www.mexc.co/en-PH/news/942774",
     "category": "asset_management",
     "institution_type": "Asset & Investment Management",
-    "signal_type": "Investment / M&A",
+    "signal_type": "Product Launch",
     "fmi_areas": [
-      "Custody & Safekeeping",
-      "Trading & Exchange"
+      "Custody & Safekeeping"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
@@ -1333,18 +1335,17 @@
   {
     "institution": "T. Rowe Price",
     "initiative": "Digital Assets Return Framework Research (2025)",
-    "description": "In January 2025, T. Rowe Price published a comprehensive white paper 'The Cryptocurrency Moment: Return Considerations for a New Asset Class,' formally affirming that digital assets have economic merit with value 'greater than zero.' The firm described itself as moving from a 'Niche Use Cases' scenario to 'Esoteric Allocation' and toward 'Accepted Asset Class,' signaling a material shift in institutional posture toward digital asset integration.",
+    "description": "The source URL points to a T. Rowe Price institutional research piece titled \"The Cryptocurrency Moment: Return Considerations for a New Asset Class,\" but the page content retrieved contains only site navigation, boilerplate legal disclaimers, and promotional copy — the substantive article text was not rendered or accessible in the scraped output. As a result, no concrete analytical claims, portfolio allocation thresholds, regulatory observations, or return framework details from the paper can be verified or summarized. The signal cannot be responsibly characterized beyond the fact that T. Rowe Price's institutional research division has published a formal assessment of cryptocurrency as an asset class, framed around return considerations for institutional allocators.",
     "date": "2025-01-01",
     "source_url": "https://www.troweprice.com/institutional/us/en/insights/articles/2025/q1/the-cryptocurrency-moment-return-considerations-for-a-new-asset-class-na.html",
     "category": "asset_management",
     "institution_type": "Asset & Investment Management",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
-      "Regulation & Compliance",
-      "Interoperability & Standards"
+      "Regulation & Compliance"
     ],
     "initiative_types": [
-      "General Infrastructure"
+      "Crypto / Digital Assets"
     ],
     "year": "2025"
   },
@@ -2163,36 +2164,43 @@
   {
     "institution": "Cboe Global Markets",
     "initiative": "Cboe Digital Exchange Futures Migration to Cboe Futures Exchange (CFE)",
-    "description": "Cboe completed the migration of its Cboe Digital Exchange bitcoin (FBT) and ether (FET) futures onto the Cboe Futures Exchange (CFE) on June 9, 2025, consolidating all U.S. futures products on one exchange platform. The cash-settled crypto futures, originally launched on Cboe Digital Exchange in January 2024, are now available on a nearly 24x5 basis alongside Cboe FTSE Bitcoin Index Futures. This integration enhances efficiency and customer access to both traditional and digital asset derivatives.",
+    "description": "Cboe completed the transfer of its Financially Settled Bitcoin (FBT) and Financially Settled Ether (FET) margin futures—originally launched on Cboe Digital Exchange in January 2024—onto Cboe Futures Exchange (CFE) on June 9, 2025, consolidating all U.S. futures products onto a single venue running the Cboe Titanium technology platform. Both contracts remain cash-settled against the Cboe Kaiko Rate Index and retain their existing specifications and symbols, but now trade alongside VIX and other CFE-listed products on a near 24x5 basis. Clearing continues through Cboe Clear U.S., a CFTC-regulated derivatives clearing organization, though the migration establishes a new direct clearing relationship between CFE and Cboe Clear U.S.—distinct from all other CFE products, which clear through OCC.",
     "date": "2025-06-09",
     "source_url": "https://ir.cboe.com/news/news-details/2025/Cboe-Successfully-Completes-Migration-of-Cboe-Digital-Exchange-Futures-to-Cboe-Futures-Exchange/default.aspx",
     "category": "exchanges_intermediaries",
     "institution_type": "Exchanges & Central Intermediaries",
     "signal_type": "Product Launch",
     "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Collateral & Lending",
       "Trading & Exchange",
-      "Interoperability & Standards"
+      "Regulation & Compliance"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
     ],
     "year": "2025"
   },
   {
     "institution": "Cboe Global Markets",
     "initiative": "Cboe Continuous Bitcoin and Ether Futures",
-    "description": "Cboe launched continuous (no-expiry) futures contracts for bitcoin and ether on December 15, 2025, providing a continuous long-term market exposure structure favored by crypto-native institutional participants. The contracts are listed on the Cboe Futures Exchange and represent an expansion of Cboe's institutional-grade crypto derivatives offering beyond traditional quarterly expirations. These contracts complement Cboe's bitcoin and ether standard futures already trading on CFE.",
+    "description": "Cboe Futures Exchange is launching cash-settled Bitcoin (PBT) and Ether (PET) Continuous Futures on December 15, 2025, subject to CFTC regulatory review, structuring them with a 10-year listed expiration and a daily cash funding adjustment to replicate the perpetual-style exposure that has until now been predominantly available only on offshore, unregulated venues. The contracts will be centrally cleared through Cboe Clear U.S., LLC—a CFTC-regulated derivatives clearing organization—with transparent margin requirements and potential cross-margining offsets against existing CFE-listed FBT and FET futures, meaningfully reducing counterparty and operational risk for institutional participants.",
     "date": "2025-11-17",
     "source_url": "https://ir.cboe.com/news/news-details/2025/Cboe-Futures-Exchange-to-Offer-Trading-in-Continuous-Futures-for-Bitcoin-and-Ether-on-December-15/default.aspx",
     "category": "exchanges_intermediaries",
     "institution_type": "Exchanges & Central Intermediaries",
     "signal_type": "Product Launch",
     "fmi_areas": [
+      "Settlement & Clearing",
+      "Collateral & Lending",
       "Trading & Exchange",
-      "Interoperability & Standards"
+      "Regulation & Compliance"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
     ],
     "year": "2025"
   },
@@ -2343,7 +2351,7 @@
   {
     "institution": "Singapore Exchange (SGX)",
     "initiative": "SGX Derivatives Institutional Crypto Perpetual Futures",
-    "description": "SGX Derivatives launched institutional-grade crypto perpetual futures contracts on November 24, 2025, providing a continuous, no-expiry structure that is favored by crypto-native communities. These contracts break new ground for SGX by expanding its derivatives product suite into crypto markets with institutional-grade infrastructure. The launch positions Singapore as a key regulated hub for institutional crypto derivatives in Asia.",
+    "description": "The source page failed to render substantive content beyond a browser-compatibility notice, so the specific terms, counterparties, and structural details of SGX Derivatives' crypto perpetual futures product are not available from the provided text. What is confirmed is that Singapore Exchange's derivatives arm has launched a perpetual futures product targeting institutional participants in the cryptocurrency market, positioning SGX within a competitive landscape that includes CME and offshore venues seeking regulated exposure to digital assets.",
     "date": "2025-11-17",
     "source_url": "https://www.sgxgroup.com/media-centre/20251117-sgx-derivatives-breaks-new-ground-institutional-grade-crypto",
     "category": "exchanges_intermediaries",
@@ -2809,7 +2817,7 @@
   {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "No-Action Letter – State Trust Companies as Crypto Custodians",
-    "description": "The SEC Division of Investment Management issued a no-action letter stating it would not recommend enforcement action against registered investment advisers or regulated funds that maintain crypto assets with certain state-chartered trust companies, treating such institutions as 'banks' for custody purposes under the Investment Advisers Act and Investment Company Act. This provided regulatory clarity for the crypto custody industry and signaled the SEC's more accommodative approach under the new administration.",
+    "description": "SEC Staff Issues No-Action Relief Allowing Crypto Custody at State Trust Companies The SEC's Division of Investment Management issued a no-action letter confirming it will not recommend enforcement action against registered investment advisers or regulated funds that custody crypto assets with state-chartered trust companies exercising fiduciary powers comparable to those of national banks. The relief resolves a longstanding ambiguity over whether such entities qualify as \"banks\" under the custody provisions of the Investment Advisers Act of 1940 and the Investment Company Act of 1940—a definitional gap that had left advisers and funds uncertain about whether their chosen crypto custodian, often the only practically available one, was legally permissible.",
     "date": "2025-09-30",
     "source_url": "https://www.sec.gov/newsroom/speeches-statements/peirce-statement-custody-crypto-assets-093025",
     "category": "regulators",
@@ -3334,19 +3342,21 @@
   {
     "institution": "SFC (Securities and Futures Commission, Hong Kong)",
     "initiative": "New Circulars on Expanded VA Trading Platform Products and Global Liquidity",
-    "description": "On November 3, 2025, the SFC issued two circulars for licensed virtual asset trading platform operators allowing them to tap global liquidity and expand product and service offerings in accordance with the ASPIRe roadmap's 'Access' and 'Products' pillars. The circulars allow international virtual asset exchanges to integrate their global order books with licensed Hong Kong platforms, deepening local market liquidity. The guidance also relaxed liquidity requirements and permitted more diverse virtual asset product types including derivatives and structured products.",
+    "description": "On November 3, 2025, Hong Kong's Securities and Futures Commission issued two circulars materially expanding the operational permissions for licensed virtual asset trading platform operators (VATPs), implementing components of its \"ASPIRe\" regulatory roadmap. The first circular allows licensed platforms to integrate their order books with those of affiliated overseas virtual asset trading platforms in FATF-member jurisdictions, enabling cross-border liquidity pooling subject to delivery-versus-payment settlement, mandatory reserve funds sized to projected unsettled trade exposure, and joint market surveillance obligations.",
     "date": "2025-11-03",
     "source_url": "https://www.gibsondunn.com/hong-kong-va-roadmap-develops-further-through-relaxation-of-liquidity-requirements-and-increased-product-diversity/",
     "category": "regulators",
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Product Launch",
     "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
       "Collateral & Lending",
       "Trading & Exchange",
       "Regulation & Compliance"
     ],
     "initiative_types": [
-      "Digital Asset Strategy"
+      "Payment Infrastructure"
     ],
     "year": "2025"
   },
@@ -3505,18 +3515,19 @@
   {
     "institution": "FINMA (Swiss Financial Market Supervisory Authority)",
     "initiative": "FINMA Guidance 01/2026 – Custody of Crypto-Based Assets",
-    "description": "On January 12, 2026, FINMA published Guidance 01/2026 specifying risk management requirements for custodians of crypto-based assets, addressing increasing market interest in institutional crypto custody. The guidance clarifies that Swiss banks may delegate crypto custody to third-party custodians abroad only if the custodian is subject to equivalent prudential supervision and foreign law guarantees bankruptcy protection for segregated assets. FINMA also addressed requirements for individual portfolio managers, managers of collective investment schemes, and structured product/ETP issuers.",
+    "description": "The Swiss Financial Market Supervisory Authority issued formal guidance clarifying its supervisory expectations for FINMA-licensed banks, securities firms, and asset managers that offer custody of crypto-based assets such as Bitcoin and Ether. The guidance focuses on technology-specific operational risks inherent to distributed ledger infrastructure, requiring institutions to maintain appropriate technical expertise and robust systems to safeguard client holdings. A particular emphasis is placed on cross-border custody arrangements, where FINMA flags complex insolvency segregation issues — specifically the requirement that client crypto assets must be legally ring-fenced and excluded from a foreign sub-custodian's bankruptcy estate.",
     "date": "2026-01-12",
     "source_url": "https://www.finma.ch/en/news/2026/01/20260112-mm-am-01-26/",
     "category": "regulators",
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Product Launch",
     "fmi_areas": [
       "Custody & Safekeeping",
-      "Trading & Exchange",
+      "Payments & Transfers",
       "Regulation & Compliance"
     ],
     "initiative_types": [
+      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -3549,7 +3560,7 @@
   {
     "institution": "Dubai VARA (Virtual Assets Regulatory Authority)",
     "initiative": "VARA Custody Services Rulebook and Marketing Enforcement Actions",
-    "description": "VARA finalized its Custody Services Rulebook in March 2025, setting strict requirements for client asset segregation, minimum 95% cold storage for most asset types, and mandatory third-party audits for all custody licensees. In June 2025, VARA issued Marketing and Communications Rulebook enforcement guidance, resulting in enforcement actions against five entities with fines totaling AED 7.5 million. Between August 2024 and August 2025, VARA issued enforcement notices against 36 firms for unlicensed activities and AML/governance failures, with financial penalties ranging from AED 50,000 to AED 600,000.",
+    "description": "Dubai's Virtual Assets Regulatory Authority (VARA), established under Dubai Law No. 4 of 2022 as the emirate's standalone digital-asset regulator, has built out a multi-rulebook framework covering licensing, AML/CFT, market conduct, governance, and technology resilience for all Virtual Asset Service Providers (VASPs) operating on Dubai mainland and in free zones outside the DIFC. Between August 2024 and August 2025, VARA issued enforcement notices against 36 firms for violations including unlicensed activity, unauthorized marketing, AML program failures, and non-disclosure to the regulator, with financial penalties ranging from AED 50,000 to AED 600,000 per entity and a statutory maximum of AED 10 million—potentially doubled for repeat offenses within twelve months.",
     "date": "2025-06-01",
     "source_url": "https://mco.mycomplianceoffice.com/blog/vara-and-virtual-asset-regulation-compliance-in-dubai",
     "category": "regulators",
@@ -3559,9 +3570,7 @@
       "Custody & Safekeeping",
       "Regulation & Compliance"
     ],
-    "initiative_types": [
-      "Digital Asset Strategy"
-    ],
+    "initiative_types": [],
     "year": "2025"
   },
   {

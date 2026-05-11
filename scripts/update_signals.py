@@ -11,6 +11,7 @@ Strategy:
 """
 
 import json
+import csv
 import html
 import re
 import os
@@ -29,6 +30,7 @@ DATA_PATH = DATA_DIR / "data.json"
 AUTO_DATA_PATH = DATA_DIR / "auto_data.json"
 INTEL_BRIEFS_PATH = DATA_DIR / "intel_briefs.json"
 SOURCES_PATH = DATA_DIR / "sources.json"
+UNMAPPED_REVIEW_PATH = DATA_DIR / "unmapped_review_first_pass.csv"
 
 USER_AGENT = "street-signals-updater/1.0"
 FETCH_TIMEOUT = 20
@@ -1440,6 +1442,7 @@ def resummarize_auto_data_with_content_builder():
     Usage examples:
         python scripts/update_signals.py --resummarize-auto
         python scripts/update_signals.py --resummarize-auto --limit 50 --dry-run
+        python scripts/update_signals.py --resummarize-auto --past-days 10
 
     Notes:
         - Requires NEXTFI_CB_BASE_URL to be set.
@@ -1464,10 +1467,24 @@ def resummarize_auto_data_with_content_builder():
 
     dry_run = "--dry-run" in sys.argv
 
+    past_days = None
+    raw_past_days = _arg_value("--past-days")
+    if raw_past_days:
+        try:
+            past_days = max(1, int(raw_past_days))
+        except ValueError:
+            print(f"WARN: ignoring invalid --past-days value: {raw_past_days}")
+
+    cutoff_date = None
+    today = datetime.now(timezone.utc).date()
+    if past_days is not None:
+        cutoff_date = today - timedelta(days=past_days)
+
     cb_summary_cache = {}
     processed = 0
     changed = 0
     skipped_no_url = 0
+    skipped_date_window = 0
 
     for signal in auto_data:
         if limit is not None and processed >= limit:
@@ -1477,6 +1494,12 @@ def resummarize_auto_data_with_content_builder():
         if not url:
             skipped_no_url += 1
             continue
+
+        if cutoff_date is not None:
+            signal_date = parse_iso_date(signal.get("date") or "")
+            if signal_date is None or signal_date < cutoff_date or signal_date > today:
+                skipped_date_window += 1
+                continue
 
         processed += 1
         old_desc = (signal.get("description") or "").strip()
@@ -1501,7 +1524,134 @@ def resummarize_auto_data_with_content_builder():
     print(f"  Signals examined : {processed}")
     print(f"  Updated copy     : {changed}")
     print(f"  Missing URL      : {skipped_no_url}")
+    print(f"  Outside window   : {skipped_date_window}")
     print(f"  Dry run          : {'yes' if dry_run else 'no'}")
+
+
+def _load_unmapped_review_targets(include_reviewed=False):
+    """Load unresolved unmapped-review rows as identity tuples."""
+    if not UNMAPPED_REVIEW_PATH.exists():
+        return set(), 0
+
+    targets = set()
+    total_rows = 0
+    with UNMAPPED_REVIEW_PATH.open("r", encoding="utf-8", newline="") as f:
+        for row in csv.DictReader(f):
+            total_rows += 1
+            if not include_reviewed and (row.get("decision") or "").strip():
+                continue
+
+            key = (
+                (row.get("institution") or "").strip(),
+                (row.get("initiative") or "").strip(),
+                (row.get("date") or "").strip(),
+            )
+            if any(key):
+                targets.add(key)
+    return targets, total_rows
+
+
+def resummarize_unmapped_review_with_content_builder():
+    """Re-summarize unresolved unmapped-review population with Content Builder.
+
+    Usage examples:
+        python scripts/update_signals.py --resummarize-unmapped-review
+        python scripts/update_signals.py --resummarize-unmapped-review --dry-run
+        python scripts/update_signals.py --resummarize-unmapped-review --limit 100
+
+    Notes:
+        - Targets rows in data/unmapped_review_first_pass.csv with empty decision.
+        - Updates both data.json and auto_data.json where identity tuple matches.
+    """
+    if not NEXTFI_CB_BASE_URL:
+        print("NEXTFI_CB_BASE_URL is not set. Nothing to do.")
+        return
+
+    manual_data = load_json(DATA_PATH, [])
+    auto_data = load_json(AUTO_DATA_PATH, [])
+    if not manual_data and not auto_data:
+        print("No signals found — nothing to re-summarize.")
+        return
+
+    include_reviewed = "--include-reviewed" in sys.argv
+    target_keys, total_rows = _load_unmapped_review_targets(include_reviewed=include_reviewed)
+    if not target_keys:
+        print("No matching unmapped-review targets found — nothing to re-summarize.")
+        return
+
+    limit = None
+    raw_limit = _arg_value("--limit")
+    if raw_limit:
+        try:
+            limit = max(1, int(raw_limit))
+        except ValueError:
+            print(f"WARN: ignoring invalid --limit value: {raw_limit}")
+
+    dry_run = "--dry-run" in sys.argv
+    cb_summary_cache = {}
+
+    processed = 0
+    changed = 0
+    matched = 0
+    skipped_no_url = 0
+    changed_manual = 0
+    changed_auto = 0
+
+    for bucket_name, records in (("manual", manual_data), ("auto", auto_data)):
+        for signal in records:
+            if limit is not None and processed >= limit:
+                break
+
+            key = (
+                (signal.get("institution") or "").strip(),
+                (signal.get("initiative") or "").strip(),
+                (signal.get("date") or "").strip(),
+            )
+            if key not in target_keys:
+                continue
+
+            matched += 1
+            url = (signal.get("source_url") or "").strip()
+            if not url:
+                skipped_no_url += 1
+                continue
+
+            processed += 1
+            old_desc = (signal.get("description") or "").strip()
+            new_desc = summarize_with_nextfi_content_builder(
+                url,
+                signal.get("initiative", ""),
+                old_desc,
+                cb_summary_cache,
+            ).strip()
+
+            if new_desc and new_desc != old_desc:
+                changed += 1
+                if not dry_run:
+                    signal["description"] = new_desc
+                    enrich(signal)
+                if bucket_name == "manual":
+                    changed_manual += 1
+                else:
+                    changed_auto += 1
+
+        if limit is not None and processed >= limit:
+            break
+
+    if changed and not dry_run:
+        save_json(DATA_PATH, manual_data)
+        save_json(AUTO_DATA_PATH, auto_data)
+
+    print("Unmapped-review re-summarize complete.")
+    print(f"  Review rows total : {total_rows}")
+    print(f"  Targets selected  : {len(target_keys)}")
+    print(f"  Records matched   : {matched}")
+    print(f"  Signals examined  : {processed}")
+    print(f"  Updated copy      : {changed}")
+    print(f"  Updated manual    : {changed_manual}")
+    print(f"  Updated auto      : {changed_auto}")
+    print(f"  Missing URL       : {skipped_no_url}")
+    print(f"  Dry run           : {'yes' if dry_run else 'no'}")
 
 
 def main():
@@ -1511,6 +1661,10 @@ def main():
 
     if "--resummarize-auto" in sys.argv:
         resummarize_auto_data_with_content_builder()
+        return
+
+    if "--resummarize-unmapped-review" in sys.argv:
+        resummarize_unmapped_review_with_content_builder()
         return
 
     manual_data = load_json(DATA_PATH, [])
