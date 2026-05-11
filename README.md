@@ -69,6 +69,14 @@ python scripts/update_signals.py --resummarize-auto --limit 50 --dry-run
 python scripts/update_signals.py --resummarize-auto
 ```
 
+Prefill the unmapped review workflow artifacts:
+
+```bash
+python scripts/prefill_unmapped_review.py --scope strict --map-min-confidence high
+```
+
+This refreshes the first-pass queue, auto-accepts high-confidence rows, and rebuilds the workbook/dashboard artifacts. A daily scheduled GitHub Actions job runs the same command automatically.
+
 Dune overlay refresh:
 
 ```bash

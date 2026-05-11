@@ -48,6 +48,15 @@ Workflow file: `.github/workflows/update-signals.yml`
 - Can also be run manually (`workflow_dispatch`)
 - Commits and pushes changes only when outputs changed
 
+## Scheduled review prefill (GitHub Actions)
+
+Workflow file: `.github/workflows/prefill-unmapped-review.yml`
+
+- Runs every day at 07:15 UTC (`15 7 * * *`)
+- Can also be run manually (`workflow_dispatch`)
+- Runs `python scripts/prefill_unmapped_review.py --scope strict --map-min-confidence high`
+- Commits refreshed review artifacts only when the queue/workbook/dashboard changed
+
 ## Notes
 
 - `data.json` remains your curated manual dataset.
