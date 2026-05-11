@@ -91,6 +91,10 @@ _SOURCE_EXTRACT_BAD_FRAGMENTS = (
     "research insights",
     "documentation and governance",
     "consensus miami",
+    "further information:",
+    "communications officer",
+    "press@",
+    "final report on the common supervisory action",
 )
 
 # Tracking query params to strip from URLs before dedup
