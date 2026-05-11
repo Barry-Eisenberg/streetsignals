@@ -1,5 +1,45 @@
 [
   {
+    "institution": "BlackRock",
+    "initiative": "BlackRock IBIT leads Bitcoin ETF inflow streak",
+    "description": "US spot Bitcoin ETF products drew $622.75 million last week, their sixth straight week of net inflows. US spot Bitcoin ETF products drew $622.75 million in net inflows during the week of May 4 to 8, extending the streak to… BlackRock IBIT leads Bitcoin ETF inflow streak",
+    "date": "2026-05-11",
+    "source_url": "https://crypto.news/blackrock-ibit-leads-bitcoin-etf-six-week-run/",
+    "category": "asset_management",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Digital Asset Platform",
+    "initiative": "Anchorage steps back from USDG as stablecoin alliances decentralize",
+    "description": "USDG, still issued by Paxos Singapore and regulated by MAS, will remain in market as one of many institutionally backed dollars as regulators, banks and VCs push toward a fragmented, multi‑issuer “economic OS.” Anchorage Digital, the first federally chartered crypto… Anchorage steps back from USDG as stablecoin alliances decentralize",
+    "date": "2026-05-11",
+    "source_url": "https://crypto.news/anchorage-steps-back-from-usdg-as-stablecoin-alliances-decentralize/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Kraken parent Payward seeks fresh funding at $20 billion valuation ahead of potential IPO",
     "description": "The crypto exchange operator is pursuing a new fundraising round as it ramps up acquisitions across derivatives and stablecoins while laying the groundwork for a future public listing.",
@@ -9926,43 +9966,6 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "Thailand eyes stricter checks on crypto firm backers",
-    "description": "Thailand SEC Proposes Expanded Major Shareholder Definition for Crypto and Securities Firms Thailand's Securities and Exchange Commission has opened a public consultation, closing April 22, on draft rules that would classify funding providers and financial backers of existing major shareholders as major shareholders themselves, thereby subjecting them to the same formal SEC approval requirements. The proposal follows March 2026 rule changes that tightened indirect ownership tracing through corporate chains and expanded the definition of controlling persons to include spouses, cohabitants, minor children, and parties acting in concert on voting rights, which took effect March 4 with a 180-day compliance window for operators to submit approval requests.",
-    "date": "2026-04-16",
-    "source_url": "https://coingeek.com/thailand-eyes-stricter-checks-on-crypto-firm-backers/",
-    "category": "regulators",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Italy's UniCredit invests €4 million in BlockInvest",
-    "description": "Italy's UniCredit has invested €4 million to acquire a 16% stake in BlockInvest, furthering its ambitions to export tokenized financial assets across the bank's main markets",
-    "date": "2026-04-16",
-    "source_url": "https://www.finextra.com/newsarticle/47584/italys-unicredit-invests-4-million-in-blockinvest",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
