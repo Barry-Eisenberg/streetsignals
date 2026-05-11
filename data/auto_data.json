@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Morgan Stanley",
+    "initiative": "Morgan Stanley triggers crypto fee war on exchanges",
+    "description": "Morgan Stanley launched a crypto price war on E*Trade at 50 basis points, undercutting Coinbase and Schwab. Morgan Stanley has launched a crypto trading pilot on its ETrade platform at 50 basis points per trade, immediately undercutting every major retail… Morgan Stanley triggers crypto fee war on exchanges",
+    "date": "2026-05-11",
+    "source_url": "https://crypto.news/morgan-stanley-launches-crypto-price-war-on-etrade/",
+    "category": "global_banks",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BVNK",
     "initiative": "Corpay launches stablecoin wallets for 800,000 clients",
     "description": "Corpay (NYSE: CPAY) has announced a partnership with stablecoin infrastructure platform BVNK to provide embedded stablecoin wallets and settlement capabilities to its global client… Corpay launches stablecoin wallets for 800,000 clients",
@@ -9417,6 +9436,27 @@
     "year": "2026"
   },
   {
+    "institution": "IOSCO (International Organization of Securities Commissions)",
+    "initiative": "CPMI-IOSCO assesses that the United Kingdom has implemented the Principles for financial market infrastructures for two FMI types, but recommends some improvements",
+    "description": "The UK's framework for systemically important payment systems and central securities depositories/securities settlement systems is complete and consistent with the CPMI-IOSCO Principles for financial market infrastructures (PFMI) in most aspects. The CPMI-IOSCO assessment identified some areas for improvement where implementation was broadly or partly consistent or not consistent with the PFMI. The assessment reflects the status of implementation as of September 2023.",
+    "date": "2026-04-16",
+    "source_url": "https://www.bis.org/press/p260416.htm",
+    "category": "regulators",
+    "source_name": "BIS — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Circle",
     "initiative": "Circle hit with class action lawsuit over alleged inaction in $280 million Drift exploit",
     "description": "Law firm Gibbs Mura filed a class action suit against Circle Internet Financial on behalf of Drift Protocol investors who suffered losses in the April 1 exploit, which saw approximately $280 million drained from the Solana-based decentralized exchange after an attacker introduced a malicious asset and removed withdrawal limits following a six-month infiltration. The plaintiffs allege Circle had both the technical capability and contractual authority to freeze the stolen USDC but failed to act during a roughly six-hour window in which over $230 million was bridged from Solana to Ethereum via Circle's own cross-chain transfer protocol.",
@@ -9929,42 +9969,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "JPMorgan",
-    "initiative": "The CLARITY Act breakthrough: Why JPMorgan says the U.S. crypto rulebook is ‘close to completion’",
-    "description": "Analysts at the bank say negotiations for the CLARITY Act are reaching a final breakthrough as lawmakers resolve long-standing disputes over stablecoin rewards and agency oversight.",
-    "date": "2026-04-16",
-    "source_url": "https://www.coindesk.com/policy/2026/04/15/jpmorgan-says-clarity-close-to-deal-as-stablecoin-fight-enters-final-stage",
-    "category": "payments",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Dimitar Radev: Economic prospects in an uncertain global environment",
-    "description": "Bulgarian National Bank Governor Dimitar Radev, speaking at the AmCham Business Breakfast in Sofia on 3 April 2026, laid out the BNB's revised macroeconomic outlook amid energy market disruption stemming from the Middle East conflict, projecting Bulgarian GDP growth of approximately 3.0% for 2026 against an inflation rise to roughly 3.7%, with the bank's internal scenario analysis indicating conditions are tracking closer to its \"adverse\" rather than baseline path. Radev flagged that reduced fiscal headroom—following several years of drawing down pre-pandemic buffers—limits the state's capacity for broad support measures, shifting a greater share of adjustment onto the private sector in terms of cost management, liquidity discipline, and selective capital allocation.",
-    "date": "2026-04-16",
-    "source_url": "https://www.bis.org/review/r260416a.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
