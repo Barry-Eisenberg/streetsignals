@@ -391,4 +391,48 @@ Once the 6 files are stubbed:
 
 Once this stub is complete and merged, Stage 4 writeback can proceed and the 27 RC09 signals will enrich into the frontend as "perimeter"-themed playbook candidates.
 
+## 2026-05-11 signal audit and review closure summary
+
+This release cycle completed a full rolling 10-day quality audit, reviewer-driven
+decision workflow, and final remediation closeout for generated signal summaries.
+
+Commit: `df18043`
+
+### Completed fixes
+
+- Added reusable audit tooling: `scripts/inspect_signal_content.py`.
+- Standardized audit heuristic to a single title-consistency signal:
+  `title_overlap_too_low`.
+- Executed multi-lane remediation and reviewer-driven batches with strict
+  decision gating (`resummarize`, `remove`, `keep`) from reviewer CSV files.
+- Added safe soft-remove behavior in `js/data.js` so records marked
+  `removed: true` are excluded at load time without hard-deleting rows.
+- Applied soft-remove markers in `data/auto_data.json` for reviewer-approved
+  removals.
+
+### Operational outcome
+
+- Review queue progression:
+  - post-finaldecisions queue: 39
+  - post-batch50 queue: 6
+  - post-final6 queue: 0 (fully cleared)
+- Final post-apply audit snapshot (past 10 days):
+  - `TOTAL_IN_WINDOW 280`
+  - `FLAGGED 72`
+  - `TITLE_OVERLAP_TOO_LOW 13`
+
+### Artifacts
+
+- Audit outputs and queue/report artifacts were generated under `scripts/` with
+  `past10_*_2026-05-11.*` naming, including:
+  - review queues
+  - reviewer decision workbooks
+  - apply reports/summaries for each execution batch
+
+### Notes
+
+- Some upstream source fetches (notably certain Finextra pages) remain
+  intermittently constrained by remote 403/502 behavior; remediation logic now
+  captures these runs in apply reports without blocking the full workflow.
+
 
