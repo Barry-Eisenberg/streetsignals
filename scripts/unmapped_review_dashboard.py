@@ -769,6 +769,11 @@ def main() -> None:
     parser.add_argument("--auto-json", default=str(DEFAULT_AUTO_JSON), help="Path to auto_data.json")
     parser.add_argument("--decisions-jsonl", default=str(DEFAULT_DECISIONS_JSONL), help="Path to reviewer_decisions.jsonl")
     parser.add_argument("--output", default=str(DEFAULT_OUTPUT_HTML), help="Output dashboard HTML path")
+    parser.add_argument(
+      "--include-resolved",
+      action="store_true",
+      help="Include rows with a non-empty decision in the dashboard table (default: unresolved only).",
+    )
     args = parser.parse_args()
 
     review_csv = Path(args.review_csv)
@@ -792,11 +797,16 @@ def main() -> None:
     source_lookup = _build_source_url_lookup(manual_rows + auto_rows)
     _attach_source_urls(review_rows, columns, source_lookup)
 
-    summary = _build_summary(manual_rows, auto_rows, review_rows, jsonl_rows)
+    if args.include_resolved:
+      display_rows = review_rows
+    else:
+      display_rows = [r for r in review_rows if not (r.get("decision") or "").strip()]
+
+    summary = _build_summary(manual_rows, auto_rows, display_rows, jsonl_rows)
 
     payload = {
         "columns": columns,
-        "rows": _compact_rows(review_rows, columns),
+      "rows": _compact_rows(display_rows, columns),
         "summary": summary,
         "editable_fields": EDITABLE_FIELDS,
     }
@@ -806,7 +816,7 @@ def main() -> None:
     output_html.write_text(html_doc, encoding="utf-8", newline="\n")
 
     print(f"Wrote dashboard: {output_html}")
-    print(f"Queue rows: {len(review_rows)}")
+    print(f"Queue rows shown: {len(display_rows)} (from {len(review_rows)} total)")
     print(f"Combined mapped/unmapped: {summary['source_pressure']['combined']['mapped']}/{summary['source_pressure']['combined']['unmapped']}")
 
 

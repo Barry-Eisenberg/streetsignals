@@ -49,8 +49,18 @@ AUTO_ACCEPT_KEEP_UNMAPPED_REASONS = {
 # RC09 is now routed through normal theme mapping via the perimeter theme.
 AUTO_ACCEPT_CANDIDATE_REASONS = set()
 
+CONFIDENCE_ORDER = {
+    "high": 3,
+    "medium": 2,
+    "low": 1,
+}
 
-def should_auto_accept(row: Dict[str, str]) -> str:
+
+def confidence_meets_threshold(suggested_confidence: str, min_confidence: str) -> bool:
+    return CONFIDENCE_ORDER.get((suggested_confidence or "").strip().lower(), 0) >= CONFIDENCE_ORDER.get(min_confidence, 0)
+
+
+def should_auto_accept(row: Dict[str, str], map_min_confidence: str) -> str:
     """Return the auto-accept disposition for a row.
 
     Returns one of:
@@ -63,7 +73,7 @@ def should_auto_accept(row: Dict[str, str]) -> str:
     suggested_confidence = row.get("suggested_confidence", "")
     suggested_reason = row.get("suggested_primary_reason_code", "")
 
-    if suggested_decision == "map" and suggested_confidence == "high":
+    if suggested_decision == "map" and confidence_meets_threshold(suggested_confidence, map_min_confidence):
         return "map_high"
 
     if suggested_decision == "candidate_new_theme" and suggested_reason in AUTO_ACCEPT_CANDIDATE_REASONS:
@@ -118,6 +128,12 @@ def main() -> None:
         action="store_true",
         help="Print what would be auto-accepted without writing to disk.",
     )
+    parser.add_argument(
+        "--map-min-confidence",
+        choices=["high", "medium", "low"],
+        default="high",
+        help="Minimum suggested_confidence for auto-accepting suggested_decision=map (default: high).",
+    )
     args = parser.parse_args()
 
     input_path = Path(args.input)
@@ -139,7 +155,7 @@ def main() -> None:
             counts["skipped_already_reviewed"] += 1
             continue
 
-        disposition = should_auto_accept(row)
+        disposition = should_auto_accept(row, args.map_min_confidence)
         if not disposition:
             counts["queued_for_human"] += 1
             continue
@@ -158,6 +174,7 @@ def main() -> None:
     total_accepted = counts["map_high"] + counts["candidate_rc09"] + counts["keep_noise"]
     total_rows = len(rows)
     print(f"Read {total_rows} rows from {input_path.relative_to(ROOT)}")
+    print(f"Map auto-accept threshold: {args.map_min_confidence}")
     print(f"Auto-accepted as map (high confidence): {counts['map_high']}")
     print(f"Auto-held as candidate_new_theme (RC09): {counts['candidate_rc09']}")
     print(f"Auto-closed as keep_unmapped (RC03/RC08): {counts['keep_noise']}")
