@@ -454,6 +454,12 @@ const SftSData = {
     return fn ? fn(signal) : 1;
   },
 
+  // UI guardrail: a signal is considered mapped/classified only when it
+  // resolves to at least one playbook theme.
+  isMappedSignal(signal) {
+    return Array.isArray(signal?._themes) && signal._themes.length > 0;
+  },
+
   whyThisMatters,
   daysSince,
 

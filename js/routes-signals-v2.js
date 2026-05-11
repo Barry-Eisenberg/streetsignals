@@ -230,7 +230,7 @@ SftSRouter.defineRoute('/signals', async ({ root, query }) => {
   SftSState.resetFilters();
   if (query) SftSState.applyFromQuery(query);
 
-  const allSignals = SftSData.signals;
+  const allSignals = SftSData.signals.filter(s => SftSData.isMappedSignal(s));
 
   // category counts (apply other filters except category for accurate counts)
   function categoryCounts() {

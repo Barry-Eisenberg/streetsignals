@@ -3,7 +3,7 @@
 // =====================================================================
 
 SftSRouter.defineRoute('/', async ({ root }) => {
-  const all = SftSData.signals;
+  const all = SftSData.signals.filter(s => SftSData.isMappedSignal(s));
   const recent14 = all.filter(s => s._daysOld !== null && s._daysOld <= 14);
   const structural = all.filter(s => s._tier === 'Structural');
   const material = all.filter(s => s._tier === 'Material');
