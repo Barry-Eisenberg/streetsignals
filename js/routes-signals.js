@@ -57,13 +57,13 @@ function applyFiltersAndSort(list) {
   const personaScore = (s) => persona === 'all' ? 0 : SftSData.getPersonaRelevance(s, persona);
 
   if (f.sort === 'recency') {
-    // Tier first, then persona-relevance (when active), then recency
+    // True recency sort: newest first, then persona relevance, then tier.
     out = [...out].sort((a, b) => {
-      const t = tierOrder[a._tier] - tierOrder[b._tier];
-      if (t !== 0) return t;
+      const recency = (a._daysOld ?? 999) - (b._daysOld ?? 999);
+      if (recency !== 0) return recency;
       const p = personaScore(b) - personaScore(a);
       if (p !== 0) return p;
-      return (a._daysOld ?? 999) - (b._daysOld ?? 999);
+      return tierOrder[a._tier] - tierOrder[b._tier];
     });
   } else if (f.sort === 'importance') {
     // Score (with persona boost when active) then recency
