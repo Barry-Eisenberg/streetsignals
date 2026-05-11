@@ -13,6 +13,7 @@ Strategy:
 import json
 import html
 import re
+import os
 import sys
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
@@ -39,6 +40,7 @@ TARGET_SUMMARY_LENGTH = 800
 NEXTFI_CB_BASE_URL = os.environ.get("NEXTFI_CB_BASE_URL", "").strip().rstrip("/")
 NEXTFI_CB_TIMEOUT = max(5, int(os.environ.get("NEXTFI_CB_TIMEOUT", "20")))
 NEXTFI_CB_USE_PROXY = os.environ.get("NEXTFI_CB_USE_PROXY", "0").strip().lower() in {"1", "true", "yes", "on"}
+NEXTFI_CB_PROXY_MODEL = os.environ.get("NEXTFI_CB_PROXY_MODEL", "claude-sonnet-4-6").strip() or "claude-sonnet-4-6"
 
 _MOJIBAKE_FIXES = {
     "ΓÇª": "…",
@@ -506,7 +508,7 @@ def summarize_with_nextfi_content_builder(url, fallback_title, fallback_text, ca
                 f"Source Text: {source_text[:12000]}"
             )
             proxy_payload = {
-                "model": "claude-3-5-haiku-latest",
+                "model": NEXTFI_CB_PROXY_MODEL,
                 "max_tokens": 350,
                 "messages": [{"role": "user", "content": prompt}],
             }
