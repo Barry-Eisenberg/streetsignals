@@ -1,5 +1,80 @@
 [
   {
+    "institution": "ESMA (European Securities and Markets Authority)",
+    "initiative": "ESMA identifies areas for further supervisory convergence on compliance and internal audit in the funds sector",
+    "description": "Further information: Ana Dilaverakis Communications Officer press@esma.europa.eu 11/05/2026 ESMA34-1436284137-2305 Final Report on the Common Supervisory Action on Compliance and Internal Audit Functions The EU-wide review found that most fund managers comply with key requirements under the AIFMD and UCITS framework. ESMA identifies areas for further supervisory convergence on compliance and internal audit in the funds sector",
+    "date": "2026-05-11",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-identifies-areas-further-supervisory-convergence-compliance-and-internal",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "Bitcoin, Nasdaq investors are celebrating, while U.S. consumers turn gloomy",
+    "description": "Bitcoin and Nasdaq have rallied sharply, but U.S. consumer sentiment has fallen to historic lows, highlighting a widening Wall Street–Main Street divide.",
+    "date": "2026-05-11",
+    "source_url": "https://www.coindesk.com/markets/2026/05/11/bitcoin-nasdaq-investors-are-celebrating-while-u-s-consumers-are-panicking",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Poland’s PM revives crypto reform after Zondacrypto fallout",
+    "description": "Poland is eyeing a stricter crypto bill after the Zondacrypto exchange fraud and money laundering allegations sparked user withdrawal concerns nationwide",
+    "date": "2026-05-11",
+    "source_url": "https://coingeek.com/poland-pm-revives-crypto-reform-after-zondacrypto-fallout/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Capital B raises $17.8 million to expand bitcoin treasury holdings",
+    "description": "Capital B has raised €15.2 million ($17.8 million) from institutional investors, including Blockstream CEO Adam Back and French asset manager TOBAM. According to Capital B’s May 11 press release, the company issued 23 million shares with attached warrants at €0.66… Capital B raises $17.8 million to expand bitcoin treasury holdings",
+    "date": "2026-05-11",
+    "source_url": "https://crypto.news/capital-b-raises-17-8-million-to-expand-bitcoin-treasury-holdings/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "New Fed chair, Base's Azul upgrade, corporate earnings: Crypto Week Ahead",
     "description": "Senate Banking Committee markup scheduled for the Digital Asset Market Clarity Act of 2025.",
@@ -181,6 +256,25 @@
     "year": "2026"
   },
   {
+    "institution": "CoinDesk",
+    "initiative": "Swiss central bank bitcoin reserve push fails over signature shortfall",
+    "description": "The initiative sought to amend Switzerland's constitution, requiring the Swiss National Bank (SNB) to hold BTC alongside gold and foreign-currency reserves.",
+    "date": "2026-05-09",
+    "source_url": "https://www.coindesk.com/business/2026/05/09/swiss-central-bank-bitcoin-reserve-push-fails-over-signature-shortfall",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Bank of England",
     "initiative": "BoE’s Bailey warns of looming ‘wrestle’ with US over stablecoin rules, flags run risk for UK",
     "description": "In July 2025, he warned the world's largest banks against issuing their own stablecoins, urging them to pursue tokenized deposits instead. Exodus launches non-custodial payments as it expands beyond core wallet product Dec 09, 2025, 9:30AM EST • Infrastructure © 2026 the block. BoE's Bailey warns of looming 'wrestle' with US over stablecoin rules, flags run risk for UK | The Block",
@@ -237,15 +331,15 @@
     "year": "2026"
   },
   {
-    "institution": "BlackRock",
+    "institution": "CME Group",
     "initiative": "CME is set to let traders bet on bitcoin volatility, not just price",
     "description": "(CoinDesk Archives) What to know : CME Group plans to launch bitcoin volatility futures on June 1 pending regulatory approval bringing a easy way to bet on the degree of price swings. The world's leading derivatives marketplace announced this week its plan to debut Bitcoin volatility futures on June 1, pending regulatory approval. Bitcoin news: Soon, traders will be able to bet on BTC volatility, not just price, on CME",
     "date": "2026-05-09",
     "source_url": "https://www.coindesk.com/markets/2026/05/09/you-ll-soon-be-able-to-bet-on-bitcoin-volatility-not-just-price-on-cme",
-    "category": "asset_management",
+    "category": "exchanges_intermediaries",
     "source_name": "CoinDesk",
     "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
+    "institution_type": "Exchanges & Central Intermediaries",
     "signal_type": "Product Launch",
     "fmi_areas": [
       "Trading & Exchange",
@@ -1279,15 +1373,15 @@
     "year": "2026"
   },
   {
-    "institution": "Chainalysis",
+    "institution": "CME Group",
     "initiative": "Crypto Prediction Markets Explained: How the Blockchain Is Reshaping Forecasting",
     "description": "Despite regulatory uncertainty, major financial players like the CME Group and crypto-native giants like Coinbase are building infrastructure to capture this volume, signaling a shift toward a more mature, regulated market structure. Cryptocurrency settlement: Markets typically use stablecoins (like USDC or DAI) for trading. Crypto Prediction Markets Explained",
     "date": "2026-05-07",
     "source_url": "https://www.chainalysis.com/blog/crypto-prediction-markets/",
-    "category": "ecosystem",
+    "category": "exchanges_intermediaries",
     "source_name": "Chainalysis — Blog",
     "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
+    "institution_type": "Exchanges & Central Intermediaries",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Settlement & Clearing",
@@ -1713,15 +1807,15 @@
     "year": "2026"
   },
   {
-    "institution": "BlackRock",
+    "institution": "Mastercard",
     "initiative": "SoFi’s crypto relaunch brought in $121.6 million in Q1. Almost all of it went to costs",
     "description": "The company launched the SoFiUSD stablecoin for enterprise payments in December and partnered with Mastercard for settlement capabilities. SoFi said that the GENIUS Act would require it to migrate SoFiUSD to a “separately licensed or regulated entity.” SoFi launched SoFiUSD in December as a stablecoin for enterprise payments. SoFi’s crypto relaunch brought in $121.6 million in Q1. Almost all of it went to costs",
     "date": "2026-05-07",
     "source_url": "https://www.coindesk.com/business/2026/05/07/sofi-s-relaunched-crypto-business-generated-usd121-6-million-in-q1-transaction-revenue",
-    "category": "asset_management",
+    "category": "payments",
     "source_name": "CoinDesk",
     "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
+    "institution_type": "Payments Providers",
     "signal_type": "Product Launch",
     "fmi_areas": [
       "Settlement & Clearing",
@@ -2206,15 +2300,15 @@
     "year": "2026"
   },
   {
-    "institution": "BlackRock",
+    "institution": "PayPal",
     "initiative": "Spot Bitcoin ETFs solved access, but custody, advisors and plumbing still lag, panelists say",
     "description": "Google has launched the Agentic Payments Protocol (AP2), with 120 partners including PayPal, and donated it to the FIDO Foundation. Advisor adoption remains modest relative to the size of the wealth-management market, with client-communication risk still limiting broader allocations. Spot Bitcoin ETFs solved access, but custody, advisors and plumbing still lag, panelists say",
     "date": "2026-05-06",
     "source_url": "https://www.coindesk.com/business/2026/05/06/spot-bitcoin-etfs-solved-access-but-custody-advisors-and-plumbing-still-lag-panelists-say",
-    "category": "asset_management",
+    "category": "payments",
     "source_name": "CoinDesk",
     "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
+    "institution_type": "Payments Providers",
     "signal_type": "Product Launch",
     "fmi_areas": [
       "Custody & Safekeeping",
@@ -2266,15 +2360,15 @@
     "year": "2026"
   },
   {
-    "institution": "London Stock Exchange Group",
+    "institution": "Securitize",
     "initiative": "NYSE, OKX, Securitze discuss tokenizing stocks “the right way” versus synthetically",
     "description": "Yesterday during a Consensus panel, the topic of synthetic tokenized stocks was discussed, with Securitize CEO Carlos Domingo pushing back hard against",
     "date": "2026-05-06",
     "source_url": "https://www.ledgerinsights.com/nyse-okx-securitze-discuss-tokenizing-stocks-the-right-way-versus-synthetically/",
-    "category": "exchanges_intermediaries",
+    "category": "ecosystem",
     "source_name": "Ledger Insights",
     "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
+    "institution_type": "Infrastructure & Technology",
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
@@ -2366,15 +2460,15 @@
     "year": "2026"
   },
   {
-    "institution": "BlackRock",
+    "institution": "Digital Asset Platform",
     "initiative": "The Protocol: AI Agents form their own firm",
     "description": "The transaction gives Bullish, a regulated transfer agent, a required function for public companies, alongside its existing tokenization, trading and market infrastructure capabilities. Bullish, CoinDesk's parent company, has agreed to acquire transfer agent and shareholder services firm Equiniti in a $4.2 billion deal that would fold a core piece of traditional market infrastructure into its digital asset platform, expanding its push into tokenized securities. The Protocol: AI Agents form their own firm",
     "date": "2026-05-06",
     "source_url": "https://www.coindesk.com/tech/2026/05/06/the-protocol-ai-agents-form-their-own-firm",
-    "category": "asset_management",
+    "category": "exchanges_intermediaries",
     "source_name": "CoinDesk",
     "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
+    "institution_type": "Exchanges & Central Intermediaries",
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Payments & Transfers",
@@ -2387,15 +2481,15 @@
     "year": "2026"
   },
   {
-    "institution": "London Stock Exchange Group",
+    "institution": "FINMA",
     "initiative": "SIX gets approval to merge SDX DLT CSD into securities services, adds crypto custody",
     "description": "SIX has received approval from Swiss regulator FINMA to merge its blockchain entity SIX Digital Exchange AG (SDX) into its central securities depository",
     "date": "2026-05-06",
     "source_url": "https://www.ledgerinsights.com/six-gets-approval-to-merge-sdx-dlt-csd-into-securities-services-adds-crypto-custody/",
-    "category": "exchanges_intermediaries",
+    "category": "regulators",
     "source_name": "Ledger Insights",
     "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
+    "institution_type": "Regulatory Agencies",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Custody & Safekeeping",
@@ -2519,7 +2613,7 @@
     "year": "2026"
   },
   {
-    "institution": "CoinDesk",
+    "institution": "Securitize",
     "initiative": "NYSE tokenization partners warn synthetic stock tokens could mislead retail traders",
     "description": "NYSE said in January it was developing a platform for 24/7 trading and onchain settlement of tokenized U.S.-listed stocks and ETFs, pending regulatory approval. Executives from Intercontinental Exchange (ICE), OKX and Securitize warned that synthetic tokenized stocks are creating market and retail risks, as ICE moves ahead with a regulated platform for tokenized U.S. NYSE tokenization partners warn synthetic stock tokens could mislead retail traders",
     "date": "2026-05-06",
@@ -2708,7 +2802,7 @@
     "description_truncated": true
   },
   {
-    "institution": "BIS",
+    "institution": "BIS (Bank for International Settlements)",
     "initiative": "Monetary policy transmission to exchange rates: the role of currency carry trades",
     "description": "BIS Bulletin | No 124 | 06 May 2026 by Ryan Niladri Banerjee , Lena Boneva , Gabor Pinter and Vladyslav Sushko PDF full text (782kb) | 8 pages Key takeaways Carry trade activity can shape the exchange rate response to monetary policy. This amplification arises from the unwinding of leveraged carry trade positions accumulated prior to the policy announcement, creating a state-dependent monetary policy transmission to the exchange rate. Monetary policy transmission to exchange rates: the role of currency carry trades",
     "date": "2026-05-06",
@@ -2725,15 +2819,15 @@
     "year": "2026"
   },
   {
-    "institution": "BlackRock",
+    "institution": "Nasdaq",
     "initiative": "Bitcoin approaches $82,000 as oil crashes 6% on fresh Iran peace deal hopes",
     "description": "Bitcoin climbed toward $82,000 alongside a more than 1% rise in Nasdaq futures amid reports of progress toward a U.S.–Iran memorandum of understanding. By Omkar Godbole , AI Boost | Edited by Jamie Crawley Updated May 6, 2026, 9:58 a.m. Bitcoin approaches $82,000 as oil crashes 6% on fresh Iran peace deal hopes",
     "date": "2026-05-06",
     "source_url": "https://www.coindesk.com/markets/2026/05/06/bitcoin-nasdaq-futures-rally-as-oil-crashes-6-on-iran-peace-deal-hopes",
-    "category": "asset_management",
+    "category": "exchanges_intermediaries",
     "source_name": "CoinDesk",
     "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
+    "institution_type": "Exchanges & Central Intermediaries",
     "signal_type": "Research / Report",
     "fmi_areas": [
       "Collateral & Lending",
@@ -3066,15 +3160,15 @@
     "year": "2026"
   },
   {
-    "institution": "BlackRock",
+    "institution": "Mastercard",
     "initiative": "It's transparency, not tech alone, that drives crypto adoption, panelists tell Consensus Miami",
     "description": "And I think you do that best by talking to your customers and your prospects and really figuring out what's making their heart beat,\" she said, citing earlier remarks from a former Mastercard CMO that traditional market research is now only \"23% accurate.\" In a closing lightning round, Lanka predicted users will \"increasingly make the wealth manager redundant\"; White predicted CLARITY Act passage and tokenized RWAs hitting stride in the U.S.; Bell floated that “by the beginning of next year,” 80% of Americans could be operating with at least one AI agent; and Purohit predicted “pay as you go” models for content, pointing to stablecoins as a way to enable micropayments.",
     "date": "2026-05-05",
     "source_url": "https://www.coindesk.com/business/2026/05/05/it-s-transparency-not-tech-alone-that-drives-crypto-adoption-panelists-tell-consensus-miami",
-    "category": "asset_management",
+    "category": "payments",
     "source_name": "CoinDesk",
     "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
+    "institution_type": "Payments Providers",
     "signal_type": "Research / Report",
     "fmi_areas": [
       "Payments & Transfers",
@@ -3088,15 +3182,15 @@
     "year": "2026"
   },
   {
-    "institution": "BlackRock",
+    "institution": "Mastercard",
     "initiative": "Different voices in product, policy and hiring change crypto outcomes, panelists tell Consensus Miami",
     "description": "Google has launched the Agentic Payments Protocol (AP2), with 120 partners including PayPal, and donated it to the FIDO Foundation. Lapcevic said an outside partner helped Mastercard think beyond crypto infrastructure and focus on making crypto “accessible, not complex,” including through cards linked to stablecoins for users in markets with limited access to traditional financial services. Different voices in product, policy and hiring change crypto outcomes, panelists tell Consensus Miami",
     "date": "2026-05-05",
     "source_url": "https://www.coindesk.com/business/2026/05/05/different-voices-in-product-policy-and-hiring-change-crypto-outcomes-panelists-tell-consensus-miami",
-    "category": "asset_management",
+    "category": "payments",
     "source_name": "CoinDesk",
     "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
+    "institution_type": "Payments Providers",
     "signal_type": "Product Launch",
     "fmi_areas": [
       "Payments & Transfers",
@@ -3674,15 +3768,15 @@
     "year": "2026"
   },
   {
-    "institution": "BlackRock",
+    "institution": "Nasdaq",
     "initiative": "K Wave Media scraps massive bitcoin treasury plan to redirect $485 million to AI",
     "description": "Securities and Exchange Commission on Monday that it is redirecting up to $485 million in remaining financing capacity away from a planned bitcoin treasury push and into AI infrastructure. The pivot, which reverses a 2025 plan to use a $500 million facility to buy BTC, triggered a sharp market backlash, with K Wave shares falling 24 percent on Monday and sliding further in premarket trading on Tuesday. Nasdaq firm scraps massive bitcoin treasury plan to redirect $485 million to AI",
     "date": "2026-05-05",
     "source_url": "https://www.coindesk.com/markets/2026/05/05/nasdaq-firm-scraps-massive-bitcoin-treasury-plan-to-redirect-usd485-million-to-ai",
-    "category": "asset_management",
+    "category": "exchanges_intermediaries",
     "source_name": "CoinDesk",
     "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
+    "institution_type": "Exchanges & Central Intermediaries",
     "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
       "Trading & Exchange"
@@ -3693,15 +3787,15 @@
     "year": "2026"
   },
   {
-    "institution": "London Stock Exchange Group",
+    "institution": "Standard Chartered",
     "initiative": "StanChart’s SC Ventures invests in crypto market maker GSR",
     "description": "Standard Chartered's SC Ventures has become the first outside strategic investor in London-based crypto market maker and OTC trading desk GSR. The",
     "date": "2026-05-05",
     "source_url": "https://www.ledgerinsights.com/stancharts-sc-ventures-invests-in-crypto-market-maker-gsr/",
-    "category": "exchanges_intermediaries",
+    "category": "global_banks",
     "source_name": "Ledger Insights",
     "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
+    "institution_type": "Global Banks",
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Trading & Exchange",
@@ -4710,15 +4804,15 @@
     "year": "2026"
   },
   {
-    "institution": "London Stock Exchange Group",
+    "institution": "Brazil Central Bank",
     "initiative": "Brazil imposes partial ban on stablecoins, crypto for cross border payments and FX",
     "description": "Brazil's central bank has banned fintech and payment provider cross border services from using stablecoins or crypto to settle with overseas",
     "date": "2026-05-04",
     "source_url": "https://www.ledgerinsights.com/brazil-imposes-partial-ban-on-stablecoins-crypto-for-cross-border-payments-and-fx/",
-    "category": "exchanges_intermediaries",
+    "category": "regulators",
     "source_name": "Ledger Insights",
     "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
+    "institution_type": "Regulatory Agencies",
     "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
       "Payments & Transfers",
@@ -5533,15 +5627,15 @@
     "description_truncated": true
   },
   {
-    "institution": "Standard Chartered",
+    "institution": "MoonPay",
     "initiative": "Banks push back on GENIUS Act rules as Agora races for a federal charter",
     "description": "Apr 5, 2026 at 4:30 PM UTC Opinion Read more SEC & CFTC issued regulatory clarity | Opinion SEC & CFTC issued regulatory clarity | Opinion Apr 3, 2026 at 2:54 PM UTC Related News Previous Next News Read more Tokenized gold volume hits $90.7B in Q1, beats all 2025 Tokenized gold volume hits $90.7B in Q1, beats all 2025 32 minutes ago News Read more MoonPay says stablecoin regulation opened the door but infrastructure must follow MoonPay says stablecoin regulation opened the door but infrastructure must follow 2 days ago News Read more US banks reject CLARITY Act stablecoin deal days before Senate vote US banks reject CLARITY Act stablecoin deal days before Senate vote 2 days ago Sign up for crypto news and market insights Get crypto market analysis and curated news delivered right",
     "date": "2026-05-01",
     "source_url": "https://crypto.news/banks-push-back-on-genius-act-stablecoin-rules/",
-    "category": "global_banks",
+    "category": "payments",
     "source_name": "crypto.news",
     "auto_generated": true,
-    "institution_type": "Global Banks",
+    "institution_type": "Payments Providers",
     "signal_type": "Product Launch",
     "fmi_areas": [
       "Digital Currency & Stablecoins",
@@ -9700,102 +9794,6 @@
     "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Basel III liquidity indicators increase slightly while risk-based capital and leverage ratios are stable for large internationally active banks, latest Basel III monitoring exercise shows",
-    "description": "The Basel Committee on Banking Supervision released its semi-annual Basel III monitoring report based on bank data as of 30 June 2025, covering 150 institutions across 101 Group 1 (large internationally active) and 49 Group 2 (smaller) banks, including 29 G-SIBs. Liquidity Coverage Ratios and Net Stable Funding Ratios edged higher over the first half of 2025, while risk-based capital and leverage ratios held broadly flat, suggesting the sector absorbed the period without material balance sheet stress or capital erosion. The average Tier 1 minimum required capital impact under the fully phased-in framework narrowed for Group 1 banks, reflecting ongoing national implementation progress ahead of the 2028 deadline when transitional arrangements expire.",
-    "date": "2026-03-24",
-    "source_url": "https://www.bis.org/press/p260324.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FSB (Financial Stability Board)",
-    "initiative": "Promoting Global Financial Stability: 2025 FSB Annual Report",
-    "description": "Against a backdrop of rising vulnerabilities, in 2025 the FSB delivered work in key areas such as NBFI leverage, crypto-assets and stablecoins, operational resilience and enhanced cross-border payments.",
-    "date": "2026-03-24",
-    "source_url": "https://www.fsb.org/2026/03/promoting-global-financial-stability-2025-fsb-annual-report/",
-    "category": "regulators",
-    "source_name": "FSB — Publications",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Bank of Korea",
-    "initiative": "Statement on the nomination of Hyun Song Shin as Governor of the Bank of Korea",
-    "description": "Hyun Song Shin, who has served as Head of Research and Economic Adviser at the Bank for International Settlements, has been nominated to lead the Bank of Korea and will immediately step back from his BIS responsibilities ahead of a formal appointment process that requires National Assembly confirmation hearings before presidential sign-off. Frank Smets assumes acting leadership of the BIS Monetary and Economic Department to maintain continuity during the transition, which was already partially anticipated given Shin's previously announced August 2026 retirement from the institution. Shin's succession at the BIS by Hélène Rey remains on track, meaning the leadership change does not create a structural gap at the research function.",
-    "date": "2026-03-22",
-    "source_url": "https://www.bis.org/press/p260322.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS (Bank for International Settlements)",
-    "initiative": "What needs to be done to improve the efficiency of the resolution framework of the banking union",
-    "description": "A new FSI Occasional Paper from the Bank for International Settlements, authored by Fernando Restoy and Ruth Walters, provides a structured critique of the European banking union's Single Resolution Mechanism, identifying structural inefficiencies rooted in the legislative framework rather than supervisory failures. The paper specifically flags cumbersome inter-authority coordination procedures, overly granular MREL calibration rules, and a fragmented interaction with national insolvency regimes as the primary sources of operational drag. Critically, the authors argue these inefficiencies are not self-correcting through policy guidance or administrative practice alone, but require deliberate legislative intervention to resolve meaningfully.",
-    "date": "2026-03-20",
-    "source_url": "https://www.bis.org/fsi/fsipapers26.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board issues enforcement actions with former employee of Ally Bank and former employee of Regions Bank",
-    "description": "The Federal Reserve issued consent prohibition orders against two former bank employees following separate misconduct findings at federally supervised institutions. Lidia Estrada, formerly of Ally Bank's Sandy, Utah operations, was prohibited after falsifying documents in connection with a request for increased compensation, while Brenda Fuson, formerly of Regions Bank in Birmingham, Alabama, faced prohibition for misappropriating customer funds. Both actions were resolved via consent orders, meaning the individuals agreed to the prohibitions without admitting or denying findings, and bar them from future participation in the affairs of any federally insured depository institution.",
-    "date": "2026-03-20",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260320a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
       "Interoperability & Standards"
     ],
     "initiative_types": [],
