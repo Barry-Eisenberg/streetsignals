@@ -261,7 +261,7 @@ SftSRouter.defineRoute('/signals', async ({ root, query }) => {
   }
 
   function onClick(e) {
-    const t = e.target.closest('[data-tier], [data-theme], [data-cat], [data-days], [data-sort], [data-act], [data-persona]');
+    const t = e.target.closest('button[data-tier], button[data-theme], button[data-cat], button[data-days], button[data-sort], button[data-act], button[data-persona]');
     if (!t) return;
     if (t.dataset.tier !== undefined) SftSState.filters.tier = t.dataset.tier || null;
     else if (t.dataset.theme !== undefined) SftSState.filters.theme = t.dataset.theme || null;
