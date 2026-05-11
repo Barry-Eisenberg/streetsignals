@@ -1,5 +1,26 @@
 [
   {
+    "institution": "BVNK",
+    "initiative": "Corpay launches stablecoin wallets for 800,000 clients",
+    "description": "Corpay (NYSE: CPAY) has announced a partnership with stablecoin infrastructure platform BVNK to provide embedded stablecoin wallets and settlement capabilities to its global client… Corpay launches stablecoin wallets for 800,000 clients",
+    "date": "2026-05-11",
+    "source_url": "https://crypto.news/corpay-adds-stablecoin-wallets-via-bvnk-deal/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Circle",
     "initiative": "'I don’t think that’s crazy': Here is why Circle is betting on new $3 billion blockchain",
     "description": "The USDC stablecoin issuer is betting Arc can become Wall Street’s blockchain rail for payments and tokenized finance, though analysts still see it as speculative.",
@@ -9944,27 +9965,6 @@
     "signal_type": "Research / Report",
     "fmi_areas": [],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "IOSCO (International Organization of Securities Commissions)",
-    "initiative": "CPMI-IOSCO assesses that the United Kingdom has implemented the Principles for financial market infrastructures for two FMI types, but recommends some improvements",
-    "description": "The UK's framework for systemically important payment systems and central securities depositories/securities settlement systems is complete and consistent with the CPMI-IOSCO Principles for financial market infrastructures (PFMI) in most aspects. The assessment reflects the status of implementation as of September 2023.",
-    "date": "2026-04-16",
-    "source_url": "https://www.bis.org/press/p260416.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
