@@ -133,7 +133,7 @@ SftSRouter.defineRoute('/playbooks/:themeId', async ({ params, query, root }) =>
 
       <section class="site-section site-section--top">
         <div class="section-eyebrow">Current market picture</div>
-        <h2 class="section-heading">${R.escapeHTML(pb.snapshot.summary)}</h2>
+        <h2 class="section-heading playbook-summary-copy">${R.escapeHTML(pb.snapshot.summary)}</h2>
 
         <div class="snapshot-grid">
           <div class="snapshot-col" style="--theme-color:${themeColor}">

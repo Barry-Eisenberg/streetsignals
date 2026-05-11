@@ -1340,6 +1340,12 @@ body > * { position: relative; z-index: 1; }
   margin-bottom: var(--space-3);
 }
 
+.playbook-summary-copy {
+  font-size: clamp(1.06rem, 0.98rem + 0.40vw, 1.30rem);
+  line-height: 1.55;
+  max-width: 92ch;
+}
+
 .snapshot-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
