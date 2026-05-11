@@ -107,6 +107,7 @@
   --color-theme-tokenized:  #a78bfa;   /* violet */
   --color-theme-stablecoins:#34d399;   /* green */
   --color-theme-dlt:        #fb923c;   /* orange */
+  --color-theme-perimeter:  #14b8a6;   /* teal */
 
   /* Institution category colors */
   --color-cat-banks:        #2ddcff;
@@ -174,6 +175,7 @@
   --color-theme-tokenized:  #6d28d9;
   --color-theme-stablecoins:#047857;
   --color-theme-dlt:        #c2410c;
+  --color-theme-perimeter:  #0d9488;
 
   --color-cat-banks:        #0084a8;
   --color-cat-asset:        #6d28d9;

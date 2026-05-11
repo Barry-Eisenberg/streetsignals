@@ -277,7 +277,7 @@ SftSRouter.defineRoute('/signals', async ({ root, query }) => {
     SftSState.filters = sansTheme;
     const filtered = applyFiltersAndSort(allSignals);
     SftSState.filters = original;
-    const counts = { all: filtered.length, tokenized: 0, stablecoins: 0, dlt: 0 };
+    const counts = { all: filtered.length, tokenized: 0, stablecoins: 0, dlt: 0, perimeter: 0 };
     filtered.forEach(s => (s._themes || []).forEach(t => { counts[t] = (counts[t] || 0) + 1; }));
     return counts;
   }
@@ -345,6 +345,7 @@ SftSRouter.defineRoute('/signals', async ({ root, query }) => {
               <button class="filter-option ${f.theme === 'tokenized' ? 'is-active' : ''}" data-theme="tokenized">Tokenized Funds & RWAs <span class="count">${thc.tokenized || 0}</span></button>
               <button class="filter-option ${f.theme === 'stablecoins' ? 'is-active' : ''}" data-theme="stablecoins">Stablecoins & Settlement <span class="count">${thc.stablecoins || 0}</span></button>
               <button class="filter-option ${f.theme === 'dlt' ? 'is-active' : ''}" data-theme="dlt">Market Infra & DLT <span class="count">${thc.dlt || 0}</span></button>
+              <button class="filter-option ${f.theme === 'perimeter' ? 'is-active' : ''}" data-theme="perimeter">Regulation & Perimeter <span class="count">${thc.perimeter || 0}</span></button>
             </div>
 
             <h4>Institution category</h4>
@@ -625,7 +626,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
   `;
 
   // Share-card: native Canvas 2D renderer (no DOM snapshot).
-  const _SC_THEME_HEX = { tokenized: '#a78bfa', stablecoins: '#34d399', dlt: '#fb923c' };
+  const _SC_THEME_HEX = { tokenized: '#a78bfa', stablecoins: '#34d399', dlt: '#fb923c', perimeter: '#14b8a6' };
   const _scTC = (themeId && _SC_THEME_HEX[themeId]) || '#2ddcff';
 
   function _scHexRgb(hex) {

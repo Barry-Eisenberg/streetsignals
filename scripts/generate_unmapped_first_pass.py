@@ -38,7 +38,7 @@ THEME_MAP_INITIATIVE: Dict[str, List[str]] = {
     "Crypto / Digital Assets": [],
     "Digital Asset Strategy": [],
     "Leadership & Governance": [],
-    "Regulatory / Compliance": [],
+    "Regulatory / Compliance": ["perimeter"],
 }
 
 STRUCTURAL_SIGNAL_TYPES = {
@@ -98,6 +98,9 @@ PLAY_AUDIENCE_MATCH = {
     "dlt-1": ["banks_fmis"],
     "dlt-2": ["asset_managers", "banks_fmis"],
     "dlt-3": ["banks_fmis"],
+    "perimeter-1": ["banks_fmis", "fintech", "policy_risk"],
+    "perimeter-2": ["banks_fmis", "asset_managers", "fintech", "policy_risk"],
+    "perimeter-3": ["banks_fmis", "policy_risk"],
 }
 
 PLAY_LABELS = {
@@ -110,6 +113,9 @@ PLAY_LABELS = {
     "dlt-1": "Targeted post-trade / collateral use case",
     "dlt-2": "Tokenized assets + DLT post-trade integration",
     "dlt-3": "Strategic DLT platform participation or build",
+    "perimeter-1": "Targeted supervisory clarity",
+    "perimeter-2": "Jurisdiction-wide regulatory framework",
+    "perimeter-3": "International regulatory coordination",
 }
 
 
@@ -148,6 +154,8 @@ def recommend_play(
             if n == 1 and it == "Asset & Investment Management":
                 score += 3
             if n == 2 and it in {"Global Banks", "Payments Providers"}:
+                score += 3
+            if n == 2 and it in {"Regulatory Agencies", "Central Banks & Regulators"}:
                 score += 3
             if n == 3 and it in {
                 "Exchanges & Central Intermediaries",
@@ -218,6 +226,16 @@ DLT_PATTERNS = [
     (re.compile(r"\bpost[-\s]?trade\b|clearing|custody|collateral", re.IGNORECASE), 4),
     (re.compile(r"\binteroperabil(?:ity|e)\b|standards?", re.IGNORECASE), 3),
     (re.compile(r"\bmarket infrastructure\b|\bfmi\b", re.IGNORECASE), 2),
+]
+
+PERIMETER_PATTERNS = [
+    (re.compile(r"\b(cftc|sec|occ|fca|finma|mas|hkma|bafin|esma|finra)\b", re.IGNORECASE), 2),
+    (re.compile(r"\b(regulator|regulatory|compliance|framework|guidance|consultation|policy|supervision|rule|rules|legislation|legislative)\b", re.IGNORECASE), 2),
+    (re.compile(r"\b(licens(?:e|ing|ed)|charter|trust company|registration|no[- ]action|approval letter|consent order)\b", re.IGNORECASE), 2),
+    (re.compile(r"\b(clarity act|genius act|mica|markup|enforcement|cease[- ]and[- ]desist)\b", re.IGNORECASE), 3),
+    (re.compile(r"\b(jurisdiction|cross[- ]agency|inter[- ]agency|coordination|mou|memorandum of understanding)\b", re.IGNORECASE), 2),
+    (re.compile(r"\b(bis|basel|fatf|iosco|fsb|g7|g20)\b", re.IGNORECASE), 3),
+    (re.compile(r"\b(supervisory (?:guidance|expectations|priorities)|prudential|perimeter|guardrails?)\b", re.IGNORECASE), 2),
 ]
 
 CRYPTO_NATIVE_PATTERN = re.compile(
@@ -510,13 +528,14 @@ def intelligent_first_pass(signal: dict, tier: str) -> FirstPassResult:
 
     suggested_initiatives, initiative_scores = suggest_initiative_classifications(signal, text)
 
-    theme_scores = {"tokenized": 0, "stablecoins": 0, "dlt": 0}
-    evidence_by_theme = {"tokenized": [], "stablecoins": [], "dlt": []}
+    theme_scores = {"tokenized": 0, "stablecoins": 0, "dlt": 0, "perimeter": 0}
+    evidence_by_theme = {"tokenized": [], "stablecoins": [], "dlt": [], "perimeter": []}
 
     for theme, patterns in [
         ("tokenized", TOKENIZED_PATTERNS),
         ("stablecoins", STABLECOIN_PATTERNS),
         ("dlt", DLT_PATTERNS),
+        ("perimeter", PERIMETER_PATTERNS),
     ]:
         score, ev = accumulate_score(text, patterns)
         theme_scores[theme] += score
@@ -532,11 +551,15 @@ def intelligent_first_pass(signal: dict, tier: str) -> FirstPassResult:
         theme_scores["stablecoins"] += 1
     if inst_type == "Asset & Investment Management":
         theme_scores["tokenized"] += 1
+    if inst_type in {"Regulatory Agencies", "Central Banks & Regulators"}:
+        theme_scores["perimeter"] += 2
 
     if signal_type in {"Platform / Infrastructure", "Infrastructure Upgrade"}:
         theme_scores["dlt"] += 1
     if signal_type in {"Product Launch", "Pilot / Trial"}:
         theme_scores["stablecoins"] += 1
+    if signal_type in {"Regulatory Action", "Regulatory / Compliance Framework", "Strategic Filing / Plan"}:
+        theme_scores["perimeter"] += 2
 
     # Initiative-to-theme projection can yield multi-theme suggestions.
     for initiative in suggested_initiatives:
@@ -563,12 +586,22 @@ def intelligent_first_pass(signal: dict, tier: str) -> FirstPassResult:
         mapped_themes = [top_theme]
         confidence = "low"
 
+    lower_text = text.lower()
+    is_reg = bool(REGULATORY_PATTERN.search(lower_text))
+    is_strategy = bool(STRATEGY_PATTERN.search(lower_text))
+    is_native_crypto = bool(CRYPTO_NATIVE_PATTERN.search(lower_text))
+    is_macro = bool(MACRO_COMMENTARY_PATTERN.search(lower_text))
+    is_crypto_venue = bool(CRYPTO_NATIVE_VENUE_PATTERN.search(lower_text))
+
     if mapped_themes:
         confidence_score = min(95, 30 + top_score * 9)
         evidence = "; ".join(
             sorted(set(evidence_by_theme[mapped_themes[0]]))[:3]
             + ([f"secondary={second_theme}:{second_score}"] if len(mapped_themes) > 1 else [])
         )
+        reason_code = ""
+        if "perimeter" in mapped_themes and is_reg and tier in {"Structural", "Material"}:
+            reason_code = "RC09_REGULATORY_PERIMETER"
         primary_play, runner_up, gap = recommend_play(
             mapped_themes, tier, signal.get("institution_type") or ""
         )
@@ -576,7 +609,7 @@ def intelligent_first_pass(signal: dict, tier: str) -> FirstPassResult:
             decision="map",
             mapped_themes=mapped_themes,
             initiative_classifications=suggested_initiatives,
-            reason_code="",
+            reason_code=reason_code,
             confidence=confidence,
             confidence_score=confidence_score,
             evidence=evidence,
@@ -587,13 +620,6 @@ def intelligent_first_pass(signal: dict, tier: str) -> FirstPassResult:
         )
 
     # No confident map: classify reason and candidate status.
-    lower_text = text.lower()
-    is_reg = bool(REGULATORY_PATTERN.search(lower_text))
-    is_strategy = bool(STRATEGY_PATTERN.search(lower_text))
-    is_native_crypto = bool(CRYPTO_NATIVE_PATTERN.search(lower_text))
-    is_macro = bool(MACRO_COMMENTARY_PATTERN.search(lower_text))
-    is_crypto_venue = bool(CRYPTO_NATIVE_VENUE_PATTERN.search(lower_text))
-
     # Macro / monetary-policy commentary trumps everything else: these signals
     # were never institutional infrastructure activity, regardless of tier.
     if is_macro and not is_crypto_venue:
@@ -607,17 +633,17 @@ def intelligent_first_pass(signal: dict, tier: str) -> FirstPassResult:
             evidence="macro/monetary-policy commentary; recommend re-tier out of Structural",
         )
 
-    # Regulatory-perimeter signal at high tier with no current theme fit
-    # becomes a RC09 candidate (potential future Regulation & Perimeter theme).
+    # Regulatory-perimeter signal at high tier with insufficient evidence to map
+    # remains RC09 for auditability, but no longer uses candidate_new_theme.
     if is_reg and tier in {"Structural", "Material"} and not is_strategy:
         return FirstPassResult(
-            decision="candidate_new_theme",
+            decision="keep_unmapped",
             mapped_themes=[],
             initiative_classifications=suggested_initiatives,
             reason_code="RC09_REGULATORY_PERIMETER",
             confidence="medium",
-            confidence_score=62,
-            evidence="regulatory/perimeter signal with no current theme fit",
+            confidence_score=50,
+            evidence="regulatory/perimeter signal below mapping threshold; review pattern evidence",
         )
 
     if is_native_crypto or is_crypto_venue:

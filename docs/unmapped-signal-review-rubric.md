@@ -81,13 +81,12 @@ python scripts/auto_accept_first_pass.py
 Auto-accept rules (idempotent — never overwrites a human decision):
 
 - `suggested_decision == "map"` AND `suggested_confidence == "high"` → write `decision=map` with the suggested theme + primary play. `tie_breaker_used=auto`.
-- `suggested_decision == "candidate_new_theme"` AND reason is `RC09_REGULATORY_PERIMETER` → write `decision=candidate_new_theme`, hold for the future 4th 'perimeter' theme.
 - `suggested_decision == "keep_unmapped"` AND reason is `RC03_NATIVE_CRYPTO_ONLY` or `RC08_MACRO_COMMENTARY` → write `decision=keep_unmapped` (these are reliable noise).
 - Everything else → leave reviewer columns empty for human attention.
 
 Accepted rows are stamped `reviewer_id=auto_accepter_v1` and a `reviewer_notes` field that distinguishes them from human reviews. Run with `--dry-run` to preview without writing.
 
-Kickoff baseline result: 51.4% of unmapped signals auto-accept (111/216), leaving 105 for human review.
+Current baseline result: 50.5% of unmapped signals auto-accept (110/218), leaving 108 for human review.
 
 ### Stage 3: Aggregate decisions and emit calibration report
 
@@ -220,7 +219,7 @@ If a signal repeatedly trips this tree because the institution is genuinely oper
 - `RC06_DUPLICATE_OR_NEAR_DUPLICATE`: Same event already represented by another signal.
 - `RC07_DATA_QUALITY`: Bad institution/date/category fields block confident mapping.
 - `RC08_MACRO_COMMENTARY` *(new)*: Macro/monetary policy item where crypto is only a market reaction; should be re-tiered out of Structural.
-- `RC09_REGULATORY_PERIMETER` *(new)*: Regulatory action shaping institutional digital-asset perimeter that does not yet fit a play; candidate for a future "Regulation & Perimeter" theme. Pair with `decision=candidate_new_theme` for Structural and Material tiers.
+- `RC09_REGULATORY_PERIMETER` *(new)*: Regulatory action shaping institutional digital-asset perimeter that remains below mapping confidence thresholds. Use for explainable `keep_unmapped` residuals after perimeter scoring is applied.
 
 ## Reviewer Output Schema
 

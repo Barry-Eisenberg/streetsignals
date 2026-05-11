@@ -99,7 +99,7 @@ SftSRouter.defineRoute('/', async ({ root }) => {
     <section class="site-section">
       <div class="container container--wide">
         <div style="margin-bottom: var(--space-8);">
-          <div class="section-eyebrow">Three themes, three playbooks</div>
+          <div class="section-eyebrow">Four themes, playbook-ready decisions</div>
           <h2 class="section-heading">Pick the angle that fits your decision</h2>
           <p class="section-lead">Every signal is mapped to one or more Decision Playbook themes. Each playbook turns the underlying signal flow into 2–3 credible plays you can actually start.</p>
         </div>
@@ -107,6 +107,7 @@ SftSRouter.defineRoute('/', async ({ root }) => {
           ${R.themeCard('tokenized')}
           ${R.themeCard('stablecoins')}
           ${R.themeCard('dlt')}
+          ${R.themeCard('perimeter')}
         </div>
       </div>
     </section>
@@ -118,7 +119,7 @@ SftSRouter.defineRoute('/', async ({ root }) => {
             <div class="section-eyebrow">For institutional users</div>
             <h2 class="section-heading">Stop reading every announcement. Read the few that matter.</h2>
             <p class="section-lead" style="margin-bottom: var(--space-5);">
-              SftS scores every signal on importance, recency, and source credibility, then maps it to the institutions and playbook plays it actually affects. The Positioning Radar then benchmarks how your firm compares to peers across the three themes.
+              SftS scores every signal on importance, recency, and source credibility, then maps it to the institutions and playbook plays it actually affects. The Positioning Radar then benchmarks how your firm compares to peers across the four themes.
             </p>
             <div class="cluster" style="--gap:var(--space-3);">
               <a class="btn btn--primary" href="#/radar">Open Positioning Radar</a>

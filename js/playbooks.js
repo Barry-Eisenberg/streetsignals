@@ -246,6 +246,91 @@ const PLAYBOOKS = {
         { label: 'Request a DLT & market infrastructure positioning workshop', primary: false }
       ]
     }
+  },
+
+  perimeter: {
+    id: 'perimeter',
+    label: 'Regulation & Perimeter',
+    short: 'Perimeter',
+    color: 'var(--color-theme-perimeter)',
+    cssClass: 'theme-tag--perimeter',
+    icon: '<path d="M12 2l9 4v6c0 5-3.5 9-9 10-5.5-1-9-5-9-10V6l9-4z"/><path d="M9 12l2 2 4-4"/>',
+    audience: 'For banks, FMIs, asset managers, fintech and infrastructure providers, and policy/risk/compliance functions tracking how regulatory clarity, licensing pathways, and cross-border coordination expand or constrain institutional digital-asset operations.',
+    snapshot: {
+      sftsBullets: [
+        'Structural and Material signals from regulators, central banks, and standard-setters reshaping the institutional perimeter for tokenized assets, stablecoins, and DLT infrastructure.',
+        'Activity is concentrated in three lanes today: single-agency licensing precedents (CFTC, OCC, FCA), jurisdiction-wide frameworks (GENIUS Act, MiCA, CLARITY Act markup), and international standard-setting (BIS, Basel, FATF).'
+      ],
+      onchainBullets: [
+        'Regulatory clarity is the precondition layer beneath every other theme - tokenized fund issuance, stablecoin settlement, and DLT post-trade build-out all gate on perimeter moves.',
+        'Across the 70+ jurisdictions with stablecoin or digital-asset frameworks active or pending, institutional deployment velocity tracks regulatory clarity more closely than technology readiness.'
+      ],
+      summary: 'Perimeter signals tell you when the regulatory ceiling lifts. Institutional capital deployment in tokenized, stablecoin, and DLT plays follows perimeter changes by 6-18 months - sometimes within weeks for large incumbents that pre-staged operating models against expected clarity.'
+    },
+    plays: [
+      {
+        id: 'perimeter-1', n: 1,
+        title: 'Targeted supervisory clarity',
+        oneliner: 'A single regulator opens or clarifies a licensing pathway, clearing a specific institutional route without resolving the broader perimeter.',
+        what: 'A regulatory agency (CFTC, OCC, SEC, FCA, MAS) opens or clarifies a licensing pathway for a specific crypto-adjacent activity - a derivatives venue, trust charter, custody framework, or product approval. Scope is limited to one jurisdiction and one activity, but the move establishes precedent and removes ambiguity for first-mover institutions.',
+        whyNow: 'Institutions planning crypto infrastructure moves need regulatory home-ness. A single agency\'s pilot licensing clears the path for early adopters - internal compliance friction drops from "is this legal?" to "which template do we follow?" Recent CFTC and OCC actions show this pattern playing out in real time.',
+        bestFit: [
+          { who: 'Bank / FMI', why: 'You have a specific activity gated on a specific regulator; a targeted licensing precedent removes the single biggest friction.' },
+          { who: 'Asset manager / institutional investor', why: 'Single-agency clarity lets you sponsor or use newly-licensed venues without unresolved jurisdictional risk.' },
+          { who: 'Fintech / infrastructure provider', why: 'Your product roadmap is gated on the same regulator; a licensing template tells you what the build needs to look like.' },
+          { who: 'Policy / risk / compliance', why: 'A licensing precedent is a usable artifact - you can map your internal controls against the agency\'s published framework rather than improvising.' }
+        ],
+        audienceMatch: ['banks_fmis', 'fintech', 'policy_risk']
+      },
+      {
+        id: 'perimeter-2', n: 2,
+        title: 'Jurisdiction-wide regulatory framework',
+        oneliner: 'A jurisdiction-wide policy move or cross-agency coordination removes ambiguity across an entire institutional perimeter.',
+        what: 'A legislative move, multi-agency coordination, or jurisdiction-wide regulatory framework sets the institutional perimeter across a full jurisdiction - covering multiple activities, instruments, or regulator turf lines. Examples include GENIUS Act stablecoin rules, MiCA implementation, CLARITY Act SEC/CFTC jurisdiction splits, and nationwide compliance regimes like FCA\'s 24-hour rule rollout.',
+        whyNow: 'When regulatory ambiguity lifts across a full jurisdiction, institutional deployment accelerates non-linearly. CFOs who previously approved exploratory budgets release infrastructure budgets because compliance can point to a settled framework rather than evolving guidance. The velocity is highest where multiple agencies had been in conflict.',
+        bestFit: [
+          { who: 'Bank / FMI', why: 'You operate at jurisdictional scale; cross-activity clarity lets you build unified compliance infrastructure instead of parallel tracks.' },
+          { who: 'Asset manager / institutional investor', why: 'Product launch decisions that were blocked by jurisdictional ambiguity become approvable; sequencing of tokenized and stablecoin offerings unlocks.' },
+          { who: 'Fintech / infrastructure provider', why: 'A jurisdiction-wide framework defines your addressable market; product pricing, licensing strategy, and distribution all reset.' },
+          { who: 'Policy / risk / compliance', why: 'You shift from interpreting evolving guidance to operationalizing a settled framework - and from defensive risk posture to enabling activity within clear bounds.' }
+        ],
+        audienceMatch: ['banks_fmis', 'asset_managers', 'fintech', 'policy_risk']
+      },
+      {
+        id: 'perimeter-3', n: 3,
+        title: 'International regulatory coordination',
+        oneliner: 'Multi-country regulators or international standard-setters establish a common institutional perimeter that spans jurisdictions.',
+        what: 'BIS handbook updates, FATF guidance adoption across G7 central banks, international MOUs on crypto custody, or Basel Committee standards set a perimeter that spans jurisdictions. Outcome: firms operating in multiple markets can use a single compliance template instead of maintaining bespoke frameworks per jurisdiction.',
+        whyNow: 'Institutions operating across jurisdictions pay a compliance variance tax that scales with their footprint. A single international standard cuts that tax materially. As institutions move from pilot to production scale, maintaining jurisdiction-specific variants becomes the binding operational constraint - moving to a common standard is a cost-of-scale unlock.',
+        bestFit: [
+          { who: 'Bank / FMI', why: 'You operate in multiple jurisdictions; an international standard collapses parallel compliance frameworks into one.' },
+          { who: 'Asset manager / institutional investor', why: 'Cross-border product distribution gets cheaper and faster when the underlying regulatory expectations converge.' },
+          { who: 'Infrastructure provider', why: 'Your platform serves clients across jurisdictions; a converged standard removes the per-market customization burden.' },
+          { who: 'Policy / risk / compliance', why: 'You can move from country-by-country interpretation to a single framework with documented local deltas - a fundamental shift in how the function operates.' }
+        ],
+        audienceMatch: ['banks_fmis', 'policy_risk']
+      }
+    ],
+    pitfalls: [
+      'Regulatory clarity is necessary but not sufficient. A perimeter unlock removes veto power; it does not create demand. Treat perimeter signals as preconditions for, not substitutes for, tokenized/stablecoin/DLT execution.',
+      'Single-agency licensing does not guarantee market depth. A licensed venue still needs liquidity, counterparties, and operational flow before institutional infrastructure spend follows.',
+      'Jurisdiction-wide frameworks are often compromise language that resolves some turf wars while leaving others open (e.g., derivatives clarity without stablecoin clarity). Read the framework for what it does and does not settle before reallocating budget.',
+      'International coordination is slow (BIS guidance cycles run 18-24 months) and frequently produces "common standard + local variations" rather than true convergence. Bet on the direction, not the timing.',
+      'Regulatory action and enforcement live on the same axis. A perimeter move that clarifies for one institution can constrain another - always read who the precedent enables and who it pins down.'
+    ],
+    nextfi: {
+      lead: 'NextFi helps institutions read perimeter signals as actionable inputs - distinguishing precedent-setting moves from rhetorical ones, and translating regulatory clarity into sequencing decisions for tokenized, stablecoin, and DLT execution.',
+      bullets: [
+        'Perimeter monitoring: Structural and Material signal briefs tracking CFTC, SEC, OCC, FCA, MAS, BIS, and FATF moves with institutional implications.',
+        'Compliance template analysis: how a single-agency licensing precedent translates into internal controls, board materials, and external counsel scope.',
+        'Cross-jurisdictional sequencing: which markets clear first, what that means for product launch order, and where compliance variance tax is highest.',
+        'Pre-positioning playbooks for institutions building operating models against expected clarity ahead of legislative or supervisory milestones.'
+      ],
+      ctas: [
+        { label: 'See which perimeter moves matter for your institution', primary: true },
+        { label: 'Request a regulatory perimeter brief', primary: false }
+      ]
+    }
   }
 };
 
@@ -278,6 +363,7 @@ function recommendPlayForSignal(signal, persona = 'all') {
       const it = signal.institution_type || '';
       if (play.n === 1 && it === 'Asset & Investment Management') score += 3;
       if (play.n === 2 && (it === 'Global Banks' || it === 'Payments Providers')) score += 3;
+      if (play.n === 2 && (it === 'Regulatory Agencies' || it === 'Central Banks & Regulators')) score += 3;
       if (play.n === 3 && (it === 'Exchanges & Central Intermediaries' || it === 'Financial Infrastructure Operators' || it === 'Global Banks')) score += 3;
 
       // 4. If signal's theme matches the playbook theme exactly, baseline +2

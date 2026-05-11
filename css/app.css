@@ -402,6 +402,7 @@ body > * { position: relative; z-index: 1; }
 .theme-tag--tokenized   { color: var(--color-theme-tokenized); background: color-mix(in oklab, var(--color-theme-tokenized) 12%, transparent); }
 .theme-tag--stablecoins { color: var(--color-theme-stablecoins); background: color-mix(in oklab, var(--color-theme-stablecoins) 12%, transparent); }
 .theme-tag--dlt         { color: var(--color-theme-dlt); background: color-mix(in oklab, var(--color-theme-dlt) 12%, transparent); }
+.theme-tag--perimeter   { color: var(--color-theme-perimeter); background: color-mix(in oklab, var(--color-theme-perimeter) 12%, transparent); }
 .theme-tag--mixed       { color: var(--color-text-muted); background: var(--color-surface-3); }
 
 /* Institution category tags (small) */

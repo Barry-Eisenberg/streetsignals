@@ -2,11 +2,11 @@
 // routes-radar.js — Institutional Positioning Radar
 // =====================================================================
 
-// Helper: compute scores for a given institution across the 3 themes.
+// Helper: compute scores for a given institution across the 4 themes.
 // Score is normalized 0–100 from signal-tier-weighted counts within last 12mo.
 function computeInstitutionScores(institutionName) {
   const TIER_WEIGHT = { Structural: 3, Material: 1.5, Context: 0.5, Noise: 0.1 };
-  const out = { tokenized: 0, stablecoins: 0, dlt: 0, total: 0 };
+  const out = { tokenized: 0, stablecoins: 0, dlt: 0, perimeter: 0, total: 0 };
   const sigs = SftSData.signals.filter(s =>
     (s.institution || '').toLowerCase().includes(institutionName.toLowerCase()) &&
     (s._daysOld === null || s._daysOld <= 365)
@@ -24,17 +24,19 @@ function computeInstitutionScores(institutionName) {
     tokenized: norm(out.tokenized),
     stablecoins: norm(out.stablecoins),
     dlt: norm(out.dlt),
+    perimeter: norm(out.perimeter),
     sigCount: sigs.length
   };
 }
 
 function computePeerGroupScores(peerInstitutions) {
-  if (!peerInstitutions.length) return { tokenized: 0, stablecoins: 0, dlt: 0 };
+  if (!peerInstitutions.length) return { tokenized: 0, stablecoins: 0, dlt: 0, perimeter: 0 };
   const all = peerInstitutions.map(name => computeInstitutionScores(name));
   return {
     tokenized: Math.round(all.reduce((a, x) => a + x.tokenized, 0) / all.length),
     stablecoins: Math.round(all.reduce((a, x) => a + x.stablecoins, 0) / all.length),
-    dlt: Math.round(all.reduce((a, x) => a + x.dlt, 0) / all.length)
+    dlt: Math.round(all.reduce((a, x) => a + x.dlt, 0) / all.length),
+    perimeter: Math.round(all.reduce((a, x) => a + x.perimeter, 0) / all.length)
   };
 }
 
@@ -63,9 +65,9 @@ function getFeaturedInstitutions() {
 function radarSVG(youScores, peerScores, color) {
   // Box: 540 x 440 (extra horizontal room for left/right labels)
   const cx = 270, cy = 220, R = 170;
-  const angles = [-90, 30, 150]; // top, lower-right, lower-left
-  const labels = ['Tokenized', 'Stablecoins', 'DLT & Infra'];
-  const keys = ['tokenized', 'stablecoins', 'dlt'];
+  const keys = ['tokenized', 'stablecoins', 'dlt', 'perimeter'];
+  const labels = ['Tokenized', 'Stablecoins', 'DLT & Infra', 'Perimeter'];
+  const angles = keys.map((_, i) => -90 + (360 / keys.length) * i); // top, right, bottom, left
   const gridLevels = [25, 50, 75, 100];
 
   const polar = (a, r) => {
@@ -81,7 +83,7 @@ function radarSVG(youScores, peerScores, color) {
 
   // axis lines + scale labels (25/50/75/100) on the top axis only
   let axisHTML = '';
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < angles.length; i++) {
     const [x, y] = polar(angles[i], R);
     axisHTML += `<line x1="${cx}" y1="${cy}" x2="${x.toFixed(1)}" y2="${y.toFixed(1)}" stroke="var(--color-divider)" stroke-width="1" />`;
   }
@@ -90,7 +92,7 @@ function radarSVG(youScores, peerScores, color) {
   const youPts  = angles.map((a, i) => polar(a, R * (youScores[keys[i]]  || 0) / 100).map(n => n.toFixed(1)).join(',')).join(' ');
 
   let labelHTML = '';
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < angles.length; i++) {
     const labelR = i === 0 ? R + 26 : R + 36;
     const [x, y] = polar(angles[i], labelR);
     const anchor = i === 0 ? 'middle' : (i === 1 ? 'start' : 'end');
@@ -146,7 +148,7 @@ SftSRouter.defineRoute('/radar', async ({ root, query }) => {
             Competitive Intelligence
           </div>
           <h1>Institutional <span class="accent">Positioning Radar</span></h1>
-          <p class="page-hero-lead">Benchmark an institution's digital-asset posture across the three Decision Playbook themes. Scores derive from the importance-weighted signal density over the last 12 months.</p>
+          <p class="page-hero-lead">Benchmark an institution's digital-asset posture across the four Decision Playbook themes. Scores derive from the importance-weighted signal density over the last 12 months.</p>
         </div>
 
         <div class="demo-banner">
@@ -188,7 +190,8 @@ SftSRouter.defineRoute('/radar', async ({ root, query }) => {
               ${[
                 { id: 'tokenized', label: 'Tokenized Funds & RWAs' },
                 { id: 'stablecoins', label: 'Stablecoins & Settlement' },
-                { id: 'dlt', label: 'Market Infra & DLT' }
+                { id: 'dlt', label: 'Market Infra & DLT' },
+                { id: 'perimeter', label: 'Regulation & Perimeter' }
               ].map(t => {
                 const you = youScores[t.id], peer = peerScores[t.id];
                 const status = statusFromScores(you, peer);

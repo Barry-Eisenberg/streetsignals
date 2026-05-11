@@ -46,10 +46,8 @@ AUTO_ACCEPT_KEEP_UNMAPPED_REASONS = {
     "RC08_MACRO_COMMENTARY",
 }
 
-# RC09 is held as candidate_new_theme until the 4th 'perimeter' theme ships.
-AUTO_ACCEPT_CANDIDATE_REASONS = {
-    "RC09_REGULATORY_PERIMETER",
-}
+# RC09 is now routed through normal theme mapping via the perimeter theme.
+AUTO_ACCEPT_CANDIDATE_REASONS = set()
 
 
 def should_auto_accept(row: Dict[str, str]) -> str:

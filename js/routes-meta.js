@@ -97,9 +97,9 @@ tier =
       <section class="site-section">
         <div class="section-eyebrow">Theme mapping</div>
         <h2 class="section-heading">Signals → playbook themes</h2>
-        <p class="section-lead" style="margin-bottom: var(--space-5);">Every signal maps to zero or more of the three Decision Playbook themes, based on its initiative_types — with FMI-area and description fallbacks for signals with empty initiative_types.</p>
+        <p class="section-lead" style="margin-bottom: var(--space-5);">Every signal maps to zero or more of the four Decision Playbook themes, based on its initiative_types - with FMI-area and description fallbacks for signals with empty initiative_types.</p>
         <div class="grid-cols-3" style="--gap: var(--space-4);">
-          ${['tokenized', 'stablecoins', 'dlt'].map(t => {
+          ${['tokenized', 'stablecoins', 'dlt', 'perimeter'].map(t => {
             const theme = SftSData.THEMES[t];
             const count = SftSData.byTheme(t).length;
             return `<div class="card" style="border-left: 3px solid ${theme.color};">
@@ -154,7 +154,7 @@ SftSRouter.defineRoute('/about', async ({ root }) => {
             <ul style="color: var(--color-text); margin-top: var(--space-3); padding-left: var(--space-5);">
               <li style="margin-bottom: var(--space-2);"><strong>Signals</strong> — every move scored, classified, and mapped to a playbook theme.</li>
               <li style="margin-bottom: var(--space-2);"><strong>Decision Playbooks</strong> — three credible plays per theme, grounded in real signals.</li>
-              <li><strong>Positioning Radar</strong> — see how your firm compares to peers across the three themes.</li>
+              <li><strong>Positioning Radar</strong> — see how your firm compares to peers across the four themes.</li>
             </ul>
           </div>
           <div>

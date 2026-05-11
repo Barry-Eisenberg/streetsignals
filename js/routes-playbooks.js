@@ -17,7 +17,7 @@ SftSRouter.defineRoute('/playbooks', async ({ root }) => {
 
       <section class="site-section site-section--top">
         <div class="grid-cols-3">
-          ${['tokenized', 'stablecoins', 'dlt'].map(t => {
+          ${['tokenized', 'stablecoins', 'dlt', 'perimeter'].map(t => {
             const pb = SftSPlaybooks.PLAYBOOKS[t];
             const stats = SftSData.themeStats(t);
             return `<a class="theme-card" href="#/playbooks/${t}" style="--theme-color:${pb.color}">
@@ -157,7 +157,7 @@ SftSRouter.defineRoute('/playbooks/:themeId', async ({ params, query, root }) =>
           <h4 style="font-size: 0.78rem; letter-spacing: 0.10em; text-transform: uppercase; color: var(--color-text-muted); margin-bottom: var(--space-3);">Live structural & material signals in this theme</h4>
           <div class="workspace-list">${featured.map(s => R.signalRow(s, { compact: true })).join('')}</div>
           <div style="text-align: right; margin-top: var(--space-3);">
-            <a class="btn btn--ghost btn--sm" href="#/signals?theme=${themeId}">All ${themeSignals.length} signals in this theme →</a>
+            <a class="btn btn--ghost btn--sm" href="#/signals?theme=${themeId}&days=all">All ${themeSignals.length} signals in this theme →</a>
           </div>
         </div>` : ''}
       </section>

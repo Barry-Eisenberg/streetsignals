@@ -11,7 +11,7 @@ The production UI is now a static SPA built with plain HTML/CSS/JS.
 - Routing: hash-based client router (`#/`, `#/signals`, `#/signals/:id`, `#/playbooks`, `#/radar`, `#/methodology`, `#/about`)
 - Styles: design tokens + app styles in `css/`
 - Logic: modular JS in `js/`
-- Data: JSON files in `data/` (`data.json`, `auto_data.json`, `intel_briefs.json`, `market_overlay.json`, `sources.json`, `popularity.json`, taxonomy v1 files)
+- Data: JSON files in `data/` (`data.json`, `auto_data.json`, `intel_briefs.json`, `market_overlay.json`, `sources.json`, taxonomy v1 files)
 
 No build step is required.
 

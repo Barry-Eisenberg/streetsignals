@@ -12,7 +12,7 @@ const DATA_FILES = [
 ];
 
 // ---- Theme mapping: every signal maps to 0..N playbook themes -----
-// Themes: tokenized | stablecoins | dlt
+// Themes: tokenized | stablecoins | dlt | perimeter
 const THEME_MAP_INITIATIVE = {
   'Tokenized Securities / RWA':   ['tokenized'],
   'Stablecoins & Deposit Tokens': ['stablecoins'],
@@ -27,7 +27,7 @@ const THEME_MAP_INITIATIVE = {
   'Crypto / Digital Assets':      [],
   'Digital Asset Strategy':       [],
   'Leadership & Governance':      [],
-  'Regulatory / Compliance':      [],
+  'Regulatory / Compliance':      ['perimeter'],
 };
 
 const THEMES = {
@@ -57,6 +57,15 @@ const THEMES = {
     cssClass: 'theme-tag--dlt',
     description: 'DLT in clearing, settlement, custody, and collateral — how FMIs and large banks modernize the plumbing.',
     href: '#/playbooks/dlt'
+  },
+  perimeter: {
+    id: 'perimeter',
+    label: 'Regulation & Perimeter',
+    short: 'Perimeter',
+    color: 'var(--color-theme-perimeter)',
+    cssClass: 'theme-tag--perimeter',
+    description: 'Regulatory licensing, jurisdictional frameworks, and international coordination that set the institutional perimeter for digital asset operations.',
+    href: '#/playbooks/perimeter'
   }
 };
 
