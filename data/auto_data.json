@@ -199,7 +199,7 @@
   {
     "institution": "PayPal",
     "initiative": "Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami",
-    "description": "2 min read Make preferred on May Zabaneh, Richard Widmann and Jenn Sanasie (CoinDesk) What to know : AI agents are structurally locked out of traditional bank accounts, leaving crypto rails as the natural payments layer. Google has launched the Agentic Payments Protocol (AP2), with 120 partners including PayPal, and donated it to the FIDO Foundation. Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami",
+    "description": "Google Cloud and PayPal used Consensus Miami to jointly advance a concrete infrastructure thesis: because AI agents face both technical and regulatory barriers to holding traditional bank accounts, programmable crypto wallets and stablecoins like PYUSD become the default settlement layer for autonomous commerce. Google has already operationalized this view by launching the Agentic Payments Protocol (AP2), contributing it to the FIDO Foundation with over 120 commercial partners, and extending its Cloud KMS platform to support multi-party cryptocurrency key custody—specifically architecting agents to hold only one shard of a private key to prevent unilateral fund movement.",
     "date": "2026-05-10",
     "source_url": "https://www.coindesk.com/business/2026/05/10/agentic-commerce-will-run-on-crypto-rails-paypal-and-google-reps-tell-consensus-miami",
     "category": "payments",
@@ -215,7 +215,8 @@
     ],
     "year": "2026",
     "signal_score": "",
-    "tier": ""
+    "tier": "",
+    "https://www.coindesk.com/business/2026/05/10/agentic-commerce-will-run-on-crypto-rails-paypal-and-google-reps-tell-consensus-miami": "Google Cloud and PayPal used Consensus Miami to jointly advance a concrete infrastructure thesis: because AI agents face both technical and regulatory barriers to holding traditional bank accounts, programmable crypto wallets and stablecoins like PYUSD become the default settlement layer for autonomous commerce. Google has already operationalized this view by launching the Agentic Payments Protocol (AP2), contributing it to the FIDO Foundation with over 120 commercial partners, and extending its Cloud KMS platform to support multi-party cryptocurrency key custody—specifically architecting agents to hold only one shard of a private key to prevent unilateral fund movement."
   },
   {
     "institution": "crypto.news",
@@ -333,7 +334,7 @@
   {
     "institution": "CME Group",
     "initiative": "CME is set to let traders bet on bitcoin volatility, not just price",
-    "description": "(CoinDesk Archives) What to know : CME Group plans to launch bitcoin volatility futures on June 1 pending regulatory approval bringing a easy way to bet on the degree of price swings. The world's leading derivatives marketplace announced this week its plan to debut Bitcoin volatility futures on June 1, pending regulatory approval. Bitcoin news: Soon, traders will be able to bet on BTC volatility, not just price, on CME",
+    "description": "CME Group has announced a June 1 target launch date for futures contracts referenced to the CME CF Bitcoin Volatility Index (BVX), which measures the market's implied expectations for BTC price swings over the following four weeks, subject to regulatory sign-off. The contracts are structurally distinct from CME's existing bitcoin price futures in that they provide directional exposure to realized or expected volatility itself rather than the underlying asset's level, filling a gap currently addressed onshore only through options or synthetic overlays. While offshore venues such as Deribit already offer bitcoin volatility index futures, their participation base excludes most U.S.",
     "date": "2026-05-09",
     "source_url": "https://www.coindesk.com/markets/2026/05/09/you-ll-soon-be-able-to-bet-on-bitcoin-volatility-not-just-price-on-cme",
     "category": "exchanges_intermediaries",
@@ -348,7 +349,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "https://www.coindesk.com/markets/2026/05/09/you-ll-soon-be-able-to-bet-on-bitcoin-volatility-not-just-price-on-cme": "CME Group has announced a June 1 target launch date for futures contracts referenced to the CME CF Bitcoin Volatility Index (BVX), which measures the market's implied expectations for BTC price swings over the following four weeks, subject to regulatory sign-off. The contracts are structurally distinct from CME's existing bitcoin price futures in that they provide directional exposure to realized or expected volatility itself rather than the underlying asset's level, filling a gap currently addressed onshore only through options or synthetic overlays. While offshore venues such as Deribit already offer bitcoin volatility index futures, their participation base excludes most U.S."
   },
   {
     "institution": "BlackRock",
@@ -841,7 +843,7 @@
   {
     "institution": "ECB (European Central Bank)",
     "initiative": "ECB's Lagarde’s digital euro warning: Why Europe shouldn’t just copy the U.S. stablecoin model",
-    "description": "Despite the rapid global adoption of USD stablecoins, Largarde argued Europe should focus on building tokenized settlement infrastructure anchored in central bank money rather than simply replicating the U.S. 2 min read Make preferred on ECB President Christine Lagarde explained the risks she believes USDC and USDT pose to Europe's monetary and financial sovereignty.(Felix Schmidt/ECB Press) What to know : European Central Bank President Christine Lagarde argued that Europe should prioritize building tokenized settlement infrastructure anchored in central bank money rather than promoting privately issued euro-pegged stablecoins.",
+    "description": "Speaking at the Bank of Spain's LatAm Economic Forum in Madrid, ECB President Christine Lagarde formally cautioned against Europe adopting a private stablecoin strategy modeled on U.S. dollar-pegged tokens, citing the March 2023 Silicon Valley Bank episode—when Circle's $3.3 billion reserve exposure briefly broke USDC's peg—as evidence that par-redemption guarantees can collapse precisely when systemic confidence erodes, creating dangerous feedback loops between redemptions and underlying asset markets.",
     "date": "2026-05-08",
     "source_url": "https://www.coindesk.com/business/2026/05/08/ecb-s-lagarde-warns-tether-and-circle-stablecoins-risk-digital-dollarisation-in-europe",
     "category": "regulators",
@@ -858,7 +860,8 @@
       "CBDC",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "https://www.coindesk.com/business/2026/05/08/ecb-s-lagarde-warns-tether-and-circle-stablecoins-risk-digital-dollarisation-in-europe": "Speaking at the Bank of Spain's LatAm Economic Forum in Madrid, ECB President Christine Lagarde formally cautioned against Europe adopting a private stablecoin strategy modeled on U.S. dollar-pegged tokens, citing the March 2023 Silicon Valley Bank episode—when Circle's $3.3 billion reserve exposure briefly broke USDC's peg—as evidence that par-redemption guarantees can collapse precisely when systemic confidence erodes, creating dangerous feedback loops between redemptions and underlying asset markets."
   },
   {
     "institution": "Tether",
@@ -1649,7 +1652,7 @@
   {
     "institution": "Coinbase",
     "initiative": "Amazon’s new AI wallet: AWS, Coinbase, and Stripe build payment rails for bots",
-    "description": "2 min read Make preferred on Amazon announces partnership with Coinbase and Stripe for roll out of AI agent stablecoin payments. (BoliviaInteligente/Unsplash) What to know : Amazon Web Services has launched Amazon Bedrock AgentCore Payments, a new infrastructure that lets autonomous AI agents make real-time online purchases using stablecoins, in partnership with Coinbase and Stripe. Amazon’s new AI wallet: AWS, Coinbase, and Stripe build payment rails for bots",
+    "description": "AWS launched Amazon Bedrock AgentCore Payments, a cloud-native infrastructure layer enabling autonomous AI agents to execute stablecoin transactions in real time without human intervention, built in technical partnership with Coinbase and Stripe. The system uses Coinbase's x402 HTTP-native payment protocol as the transaction standard and Stripe's Privy embedded wallet as the custody and connectivity layer, with AWS describing the architecture as protocol-agnostic to allow future standard additions.",
     "date": "2026-05-07",
     "source_url": "https://www.coindesk.com/business/2026/05/07/amazon-rolls-out-ai-agent-stablecoin-payments-platform-with-coinbase-and-stripe",
     "category": "exchanges_intermediaries",
@@ -1664,7 +1667,8 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
     ],
-    "year": "2026"
+    "year": "2026",
+    "https://www.coindesk.com/business/2026/05/07/amazon-rolls-out-ai-agent-stablecoin-payments-platform-with-coinbase-and-stripe": "AWS launched Amazon Bedrock AgentCore Payments, a cloud-native infrastructure layer enabling autonomous AI agents to execute stablecoin transactions in real time without human intervention, built in technical partnership with Coinbase and Stripe. The system uses Coinbase's x402 HTTP-native payment protocol as the transaction standard and Stripe's Privy embedded wallet as the custody and connectivity layer, with AWS describing the architecture as protocol-agnostic to allow future standard additions."
   },
   {
     "institution": "DTCC",
@@ -3731,7 +3735,7 @@
   {
     "institution": "Coinbase",
     "initiative": "Coinbase taps Centrifuge as preferred tokenization backbone, takes equity stake",
-    "description": "The first institutional assets are anticipated to launch on Base within the coming weeks, supporting Coinbase's path in the $27 billion tokenized real-world assets sector. 2 min read Make preferred on What to know : Centrifuge was selected as Coinbase's preferred tokenization infrastructure, making it the default issuance layer for assets across Coinbase's ecosystem, including Base. Coinbase taps Centrifuge as preferred tokenization backbone, takes equity stake",
+    "description": "Coinbase has designated Centrifuge as its preferred tokenization infrastructure layer, meaning Centrifuge will serve as the default issuance platform for tokenized ETFs, credit instruments, and structured products distributed across Coinbase's ecosystem, including its Base L2 network. The arrangement is backed by a direct strategic equity investment from Coinbase — an extension of Coinbase Ventures' earlier 2022 participation — and the first institutional asset launches on Base are expected within weeks.",
     "date": "2026-05-05",
     "source_url": "https://www.coindesk.com/business/2026/05/05/coinbase-taps-centrifuge-as-preferred-tokenization-backbone-takes-equity-stake",
     "category": "exchanges_intermediaries",
@@ -3743,12 +3747,13 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
+    "year": "2026",
+    "https://www.coindesk.com/business/2026/05/05/coinbase-taps-centrifuge-as-preferred-tokenization-backbone-takes-equity-stake": "Coinbase has designated Centrifuge as its preferred tokenization infrastructure layer, meaning Centrifuge will serve as the default issuance platform for tokenized ETFs, credit instruments, and structured products distributed across Coinbase's ecosystem, including its Base L2 network. The arrangement is backed by a direct strategic equity investment from Coinbase — an extension of Coinbase Ventures' earlier 2022 participation — and the first institutional asset launches on Base are expected within weeks."
   },
   {
     "institution": "State Street",
     "initiative": "State Street and Galaxy launch tokenized fund to bring cash management onchain",
-    "description": "2 min read Make preferred on What to know : State Street Investment Management and Galaxy Asset Management have launched the State Street Galaxy Onchain Liquidity Sweep Fund (SWEEP), a tokenized cash-management vehicle for large investors. SWEEP lets qualified institutional investors park stablecoins in a yield-generating fund that operates continuously on blockchain infrastructure, starting on Solana and expanding to Ethereum and Stellar. State Street and Galaxy (GLXY) launch tokenized fund to bring cash management onchain",
+    "description": "State Street Investment Management and Galaxy Asset Management have jointly launched SWEEP (State Street Galaxy Onchain Liquidity Sweep Fund), a tokenized cash-management vehicle that allows qualified institutional investors to deposit stablecoins into a yield-generating fund with continuous, around-the-clock liquidity — addressing a structural limitation of traditional money market funds, which are bound by market hours and settlement cut-offs. The fund launches initially on Solana, with Ethereum and Stellar expansion planned; Galaxy provides the tokenization infrastructure, Anchorage Digital handles digital asset custody, and State Street retains oversight of the underlying traditional securities portfolio.",
     "date": "2026-05-05",
     "source_url": "https://www.coindesk.com/markets/2026/05/05/state-street-and-galaxy-launch-tokenized-fund-to-bring-cash-management-onchain",
     "category": "asset_management",
@@ -3765,7 +3770,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "https://www.coindesk.com/markets/2026/05/05/state-street-and-galaxy-launch-tokenized-fund-to-bring-cash-management-onchain": "State Street Investment Management and Galaxy Asset Management have jointly launched SWEEP (State Street Galaxy Onchain Liquidity Sweep Fund), a tokenized cash-management vehicle that allows qualified institutional investors to deposit stablecoins into a yield-generating fund with continuous, around-the-clock liquidity — addressing a structural limitation of traditional money market funds, which are bound by market hours and settlement cut-offs. The fund launches initially on Solana, with Ethereum and Stellar expansion planned; Galaxy provides the tokenization infrastructure, Anchorage Digital handles digital asset custody, and State Street retains oversight of the underlying traditional securities portfolio."
   },
   {
     "institution": "Nasdaq",
@@ -4273,7 +4279,7 @@
   {
     "institution": "Ripple",
     "initiative": "Ripple to share North Korean threat intelligence with crypto firms",
-    "description": "By Shaurya Malwa May 5, 2026, 6:12 a.m. 2 min read Make preferred on What to know : Ripple is sharing its internal intelligence on North Korean threat actors with the Crypto ISAC to help crypto firms spot coordinated infiltration campaigns. XRP-linked Ripple opens North Korean threat intelligence to crypto firms",
+    "description": "Ripple disclosed that it is contributing internal threat-intelligence data — including operative profiles, contact details, and identifying markers — to Crypto ISAC, the industry's information-sharing body, following a methodology shift in which North Korean actors have moved away from smart-contract exploits toward multi-month social-engineering infiltrations. The April Drift breach ($285 million) and Kelp bridge exploit ($292 million) were both publicly attributed to Lazarus Group operatives who obtained insider access through fabricated employment relationships rather than code vulnerabilities, collectively representing over $500 million in losses attributable to a single state actor within one month.",
     "date": "2026-05-05",
     "source_url": "https://www.coindesk.com/tech/2026/05/05/ripple-to-share-north-korean-threat-intelligence-with-crypto-firms",
     "category": "payments",
@@ -4287,7 +4293,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "https://www.coindesk.com/tech/2026/05/05/ripple-to-share-north-korean-threat-intelligence-with-crypto-firms": "Ripple disclosed that it is contributing internal threat-intelligence data — including operative profiles, contact details, and identifying markers — to Crypto ISAC, the industry's information-sharing body, following a methodology shift in which North Korean actors have moved away from smart-contract exploits toward multi-month social-engineering infiltrations. The April Drift breach ($285 million) and Kelp bridge exploit ($292 million) were both publicly attributed to Lazarus Group operatives who obtained insider access through fabricated employment relationships rather than code vulnerabilities, collectively representing over $500 million in losses attributable to a single state actor within one month."
   },
   {
     "institution": "CoinGeek",
@@ -4613,7 +4620,7 @@
   {
     "institution": "CoinDesk",
     "initiative": "Shopify and National Bank of Canada are among backers of a new digital currency built to settle trades 24/7",
-    "description": "2 min read Make preferred on What to know : Tetra Trust launched CADD, the first CAD-pegged stablecoin from a regulated Canadian financial institution, approved by Alberta Treasury Board and Finance. A $320 billion market The launch isn't a surprise, as the stablecoin sector has grown exponentially in recent years but lacked a meaningful, regulated Canadian counterpart. Canada just got its first regulated digital dollar to take on the U.S. stablecoin's crypto dominance",
+    "description": "Tetra Trust Company, a regulated Canadian digital asset custodian, has launched CADD, a Canadian-dollar-pegged stablecoin issued under approval from the Alberta Treasury Board and Finance, making it the first CAD stablecoin from a provincially regulated financial institution. The token is currently live on Base, Ethereum, and Tempo, with reserves held in trust under Canadian law and ring-fenced for redemption, addressing a structural gap in domestic blockchain-based settlement where USD-denominated stablecoins have filled the void by default.",
     "date": "2026-05-04",
     "source_url": "https://www.coindesk.com/business/2026/05/04/shopify-and-national-bank-of-canada-are-among-backers-of-a-new-digital-currency-built-to-settle-trades-24-7",
     "category": "ecosystem",
@@ -4629,7 +4636,8 @@
       "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "https://www.coindesk.com/business/2026/05/04/shopify-and-national-bank-of-canada-are-among-backers-of-a-new-digital-currency-built-to-settle-trades-24-7": "Tetra Trust Company, a regulated Canadian digital asset custodian, has launched CADD, a Canadian-dollar-pegged stablecoin issued under approval from the Alberta Treasury Board and Finance, making it the first CAD stablecoin from a provincially regulated financial institution. The token is currently live on Base, Ethereum, and Tempo, with reserves held in trust under Canadian law and ring-fenced for redemption, addressing a structural gap in domestic blockchain-based settlement where USD-denominated stablecoins have filled the void by default."
   },
   {
     "institution": "BlackRock",
@@ -4670,7 +4678,7 @@
   {
     "institution": "DTCC",
     "initiative": "Wall Street giant DTCC plans tokenized securities platform with July pilot, October launch",
-    "description": "2 min read Make preferred on DTCC (CoinDesk Archives) What to know : DTCC, Wall Street's clearinghouse, plans its first tokenized asset trades in July, with a full launch in October. Nasdaq is working on a framework for companies to issue blockchain-based shares and is partnering with the parent company of crypto exchange operator Kraken to distribute them globally, with a potential launch as early as 2027. DTCC sets October launch for tokenized securities platform in Wall Street blockchain push",
+    "description": "DTCC's Depository Trust Company will conduct its first limited live trades of tokenized securities in July before opening the platform more broadly in October, representing a formal production commitment rather than a pilot or proof-of-concept. The infrastructure rests on a December 2025 SEC no-action letter that permits DTCC to offer tokenization services across a defined asset universe covering Russell 1000 equities, ETFs, and U.S. Treasuries, providing the regulatory clearance necessary for member firms to participate without individual relief.",
     "date": "2026-05-04",
     "source_url": "https://www.coindesk.com/business/2026/05/04/wall-street-giant-dtcc-plans-tokenized-securities-platform-with-july-pilot-october-launch",
     "category": "exchanges_intermediaries",
@@ -4688,7 +4696,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "https://www.coindesk.com/business/2026/05/04/wall-street-giant-dtcc-plans-tokenized-securities-platform-with-july-pilot-october-launch": "DTCC's Depository Trust Company will conduct its first limited live trades of tokenized securities in July before opening the platform more broadly in October, representing a formal production commitment rather than a pilot or proof-of-concept. The infrastructure rests on a December 2025 SEC no-action letter that permits DTCC to offer tokenization services across a defined asset universe covering Russell 1000 equities, ETFs, and U.S. Treasuries, providing the regulatory clearance necessary for member firms to participate without individual relief."
   },
   {
     "institution": "Digital Asset Platform",
@@ -4991,7 +5000,7 @@
   {
     "institution": "Coinbase",
     "initiative": "Coinbase boosts Solana trading with DFlow integration",
-    "description": "Google has launched the Agentic Payments Protocol (AP2), with 120 partners including PayPal, and donated it to the FIDO Foundation. 1 min read Make preferred on What to know : The move also increases liquidity on tokens that were previously untradeable, and improves the prices users receive. Coinbase boosts Solana trading with DFlow integration",
+    "description": "Coinbase has designated DFlow as its primary liquidity router for Solana-based spot and prediction market trading, replacing an infrastructure setup that was failing to route approximately one in every 30 trades due to insufficient liquidity coverage. Under the new integration, that failure rate drops to roughly one in 250, while a previously unresolvable \"no liquidity\" error on smaller Solana tokens — particularly on the sell side — is now addressed by DFlow's aggregation logic, which surfaces routing paths other aggregators do not find.",
     "date": "2026-05-04",
     "source_url": "https://www.coindesk.com/business/2026/05/04/coinbase-boosts-solana-trading-with-dflow-integration",
     "category": "exchanges_intermediaries",
@@ -5006,7 +5015,8 @@
       "Interoperability & Standards"
     ],
     "initiative_types": [],
-    "year": "2026"
+    "year": "2026",
+    "https://www.coindesk.com/business/2026/05/04/coinbase-boosts-solana-trading-with-dflow-integration": "Coinbase has designated DFlow as its primary liquidity router for Solana-based spot and prediction market trading, replacing an infrastructure setup that was failing to route approximately one in every 30 trades due to insufficient liquidity coverage. Under the new integration, that failure rate drops to roughly one in 250, while a previously unresolvable \"no liquidity\" error on smaller Solana tokens — particularly on the sell side — is now addressed by DFlow's aggregation logic, which surfaces routing paths other aggregators do not find."
   },
   {
     "institution": "Coinbase",
@@ -5485,7 +5495,7 @@
   {
     "institution": "Brazil Central Bank",
     "initiative": "Brazil's central bank bans stablecoin and crypto settlement in cross-border payments",
-    "description": "2 min read Make preferred on What to know : Brazil’s central bank banned electronic foreign exchange (eFX) providers from using stablecoins and other cryptos (like Bitcoin) to settle overseas remittances, effective October 1. Brazil's regulator is drawing a line for crypto to exist in the market, but not as eFX settlement infrastructure. Brazil's central bank bans stablecoin and crypto settlement in cross-border payments",
+    "description": "Brazil's central bank issued Resolution No. 561 on April 30, prohibiting licensed electronic foreign exchange (eFX) providers from using stablecoins or other cryptocurrencies — including USDT, USDC, and Bitcoin — as settlement instruments in cross-border payment flows, with the rule taking effect October 1, 2026. The measure directly disrupts the operational model of firms such as Nomad and Braza Bank, which had embedded stablecoin rails — including Ripple's network and XRP Ledger-issued real-backed tokens — into their international remittance infrastructure.",
     "date": "2026-05-02",
     "source_url": "https://www.coindesk.com/policy/2026/05/02/brazil-s-central-bank-bans-stablecoin-and-crypto-settlement-in-cross-border-payments",
     "category": "regulators",
@@ -5505,7 +5515,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "https://www.coindesk.com/policy/2026/05/02/brazil-s-central-bank-bans-stablecoin-and-crypto-settlement-in-cross-border-payments": "Brazil's central bank issued Resolution No. 561 on April 30, prohibiting licensed electronic foreign exchange (eFX) providers from using stablecoins or other cryptocurrencies — including USDT, USDC, and Bitcoin — as settlement instruments in cross-border payment flows, with the rule taking effect October 1, 2026. The measure directly disrupts the operational model of firms such as Nomad and Braza Bank, which had embedded stablecoin rails — including Ripple's network and XRP Ledger-issued real-backed tokens — into their international remittance infrastructure."
   },
   {
     "institution": "Digital Asset Exchange",
@@ -5779,7 +5790,7 @@
   {
     "institution": "SBI Holdings",
     "initiative": "SBI Holdings eyes stake in crypto exchange Bitbank to build digital asset powerhouse",
-    "description": "Google has launched the Agentic Payments Protocol (AP2), with 120 partners including PayPal, and donated it to the FIDO Foundation. 1 min read Make preferred on Tokyo (mako/Unsplash) What to know : SBI Holdings has submitted a letter of intent to acquire a stake in Bitbank, aiming to make the crypto exchange a consolidated subsidiary as part of its expanding digital asset business. SBI Holdings eyes stake in crypto exchange Bitbank to build digital asset powerhouse",
+    "description": "SBI Holdings has submitted a letter of intent to acquire a stake in Bitbank Co., Ltd.—one of Japan's largest retail crypto exchanges—with the explicit intention of consolidating it as a subsidiary, extending a domestic roll-up strategy that already includes the full absorption of regulated exchange Bitpoint. The move is timed against a material regulatory inflection point: Japan's cabinet has approved a draft amendment that would bring crypto assets under the Financial Instruments and Exchange Act, the same framework governing equities and securities, potentially effective fiscal 2027, which would significantly raise compliance burdens and favor well-capitalized, institutionally affiliated platforms.",
     "date": "2026-05-01",
     "source_url": "https://www.coindesk.com/business/2026/05/01/sbi-holdings-continues-its-crypto-expansion-with-plans-for-a-stake-in-bitbank",
     "category": "global_banks",
@@ -5794,7 +5805,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "https://www.coindesk.com/business/2026/05/01/sbi-holdings-continues-its-crypto-expansion-with-plans-for-a-stake-in-bitbank": "SBI Holdings has submitted a letter of intent to acquire a stake in Bitbank Co., Ltd.—one of Japan's largest retail crypto exchanges—with the explicit intention of consolidating it as a subsidiary, extending a domestic roll-up strategy that already includes the full absorption of regulated exchange Bitpoint. The move is timed against a material regulatory inflection point: Japan's cabinet has approved a draft amendment that would bring crypto assets under the Financial Instruments and Exchange Act, the same framework governing equities and securities, potentially effective fiscal 2027, which would significantly raise compliance burdens and favor well-capitalized, institutionally affiliated platforms."
   },
   {
     "institution": "Santander",
