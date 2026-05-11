@@ -1,5 +1,60 @@
 [
   {
+    "institution": "Digital Asset Platform",
+    "initiative": "Anchorage is stepping back from Robinhood and Kraken-backed stablecoin group",
+    "description": "Anchorage Digital co-founder and CEO Nathan McCauley said there will be ‘increased neutrality’ from his firm on stablecoins.",
+    "date": "2026-05-11",
+    "source_url": "https://www.coindesk.com/business/2026/05/11/anchorage-is-stepping-back-from-robinhood-and-kraken-backed-stablecoin-group",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "MoonPay",
+    "initiative": "MoonPay launching AI agent tool for prediction market trading after acquiring Dawn Labs",
+    "description": "The new AI-powered tool is designed to help \"non-technical users\" craft prediction market trading strategies.",
+    "date": "2026-05-11",
+    "source_url": "https://www.theblock.co/post/400758/moonpay-launching-ai-agent-tool-prediction-market-trading-acquiring-dawn-labs",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "BNY launches bitcoin and ether custody in Abu Dhabi’s ADGM",
+    "description": "BNY plants a digital asset flag in ADGM BNY has announced the launch of institutional digital… BNY launches bitcoin and ether custody in Abu Dhabi’s ADGM",
+    "date": "2026-05-11",
+    "source_url": "https://crypto.news/bny-launches-bitcoin-and-ether-custody-in-abu-dhabis-adgm/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ECB (European Central Bank)",
     "initiative": "Christine Lagarde: Stablecoins and the future of money - separating functions from instruments",
     "description": "Speech by Ms Christine Lagarde, President of the European Central Bank, at the Bank of Spain LatAm Economic Forum, Roda de Bará, 8 May 2026.",
@@ -9903,66 +9958,6 @@
       "Payments & Transfers"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Nasdaq",
-    "initiative": "Bitcoin capped at $75,000 as Nasdaq and S&P 500 fly to new record highs",
-    "description": "Bitcoin has been unable to sustain a break above the $75,000 level, with the most recent attempt on April 15 stalling at the same technical threshold that has capped price action for roughly two months, leaving the asset approximately 40% below its October 2025 peak. The divergence with U.S. equities is operationally notable: the Nasdaq closed above 24,000 for its 11th consecutive record session and the S&P 500 cleared 7,000, suggesting macro risk appetite is not the binding constraint on bitcoin's underperformance. Crypto-adjacent equities—Coinbase (+6.2%), Robinhood (+10%), and Strategy (+4.4%)—participated in the broader rally, indicating that institutional exposure is rotating into listed proxies rather than spot BTC.",
-    "date": "2026-04-15",
-    "source_url": "https://www.coindesk.com/markets/2026/04/15/bitcoin-capped-at-usd75-000-as-nasdaq-and-s-and-p-500-fly-to-new-record-highs",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "CryptoQuant says bitcoin rally faces rising profit-taking risk as exchange inflows jump",
-    "description": "CryptoQuant's head of research, Julio Moreno, published a report flagging a material deterioration in Bitcoin's short-term demand structure as the asset briefly reclaimed $76,000 for the first time since early February. Hourly exchange inflows surged to approximately 11,000 BTC — the highest since late December 2025 — with large individual deposits to Binance exceeding 1,000 BTC pushing the mean deposit size to 2.25 BTC, the highest daily reading since July 2024.",
-    "date": "2026-04-15",
-    "source_url": "https://www.theblock.co/post/397664/cryptoquant-bitcoin-rally-profit-taking-risk",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Tether",
-    "initiative": "Former Lutnick-run Cantor Fitzgerald donates $10 million to crypto PAC led by Tether exec",
-    "description": "Cantor Fitzgerald, now controlled by Commerce Secretary Howard Lutnick's sons following his move into the Cabinet, made a $10 million contribution in February to the Fellowship PAC via a Federal Election Commission-disclosed filing — deepening the firm's already well-documented entanglement with the crypto industry. The PAC, which launched in September 2025 with over $100 million in committed backing, is chaired by Tether U.S. executive Jesse Spiro and counts Anchorage Digital as an additional donor at $1 million. The contribution is operationally significant because Cantor, Tether, and Anchorage form the core institutional infrastructure behind USAT, Tether's U.S.-focused stablecoin — with Cantor serving as reserve custodian and preferred primary dealer, and Anchorage acting as issuer.",
-    "date": "2026-04-15",
-    "source_url": "https://www.theblock.co/post/397655/former-lutnick-run-cantor-fitzgerald-donates-10-million-to-crypto-pac-led-by-tether-exec",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
