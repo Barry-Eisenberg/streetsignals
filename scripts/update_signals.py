@@ -68,6 +68,12 @@ _DESC_BOILERPLATE_PATTERNS = [
 
 _SOURCE_EXTRACT_BAD_FRAGMENTS = (
     "coindesk is part of bullish",
+    "you may also like",
+    "related articles",
+    "image copyright",
+    "deposit photos",
+    "facebook x reddit",
+    "linkedin whatsapp",
     "about us",
     "masthead",
     "careers",
@@ -466,6 +472,15 @@ def _is_bad_source_extract(source_title, source_text, fallback_title=""):
     snippet_tokens = _token_set(snippet)
     if chrome_hits >= 2 and title_tokens and _overlap_ratio(title_tokens, snippet_tokens) < 0.12:
         return True
+
+    # Detect navigation menus: many short category/menu words (Energy, Health, Capital, etc)
+    words = snippet.split()
+    if len(words) > 30:
+        short_words = [w.lower() for w in words[:80] if 3 <= len(w) < 25]
+        category_words = {"news", "advertising", "auto", "blockchain", "banking", "capital", "markets", "energy", "government", "health", "identity", "insurance", "legal", "estate", "retail", "supply", "chain", "tech", "media", "telecom", "travel", "mobility", "digital", "currency", "cbdc", "stablecoin", "assets", "tokenization", "subscribe", "industry"}
+        category_hits = sum(1 for w in short_words if w in category_words)
+        if len(short_words) > 12 and category_hits / max(1, len(short_words)) > 0.35:
+            return True
 
     return False
 
