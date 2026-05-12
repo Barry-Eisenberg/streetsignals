@@ -1,5 +1,125 @@
 [
   {
+    "institution": "Federal Reserve",
+    "initiative": "Michelle W Bowman: When regulation reshapes markets - the migration of corporate lending",
+    "description": "Speech by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the Hoover Institution Annual Monetary Policy Conference, Stanford, California, 8 May 2026.",
+    "date": "2026-05-12",
+    "source_url": "https://www.bis.org/review/r260511h.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Lisa D Cook: Perspectives on tokenization and implications for the financial system",
+    "description": "Speech by Ms Lisa D Cook, Member of the Board of Governors of the Federal Reserve System, at the Central Bank of West African States (BCEAO) Conference on \"Digital assets\", Dakar, Senegal, 8 May 2026.",
+    "date": "2026-05-12",
+    "source_url": "https://www.bis.org/review/r260511f.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Ida Wolden Bache: The conduct of monetary policy",
+    "description": "Introductory statement by Ms Ida Wolden Bache, Governor of Norges Bank (Central Bank of Norway), at the hearing of the Standing Committee on Finance and Economic Affairs of the Storting (Norwegian parliament) in connection with the Storting's deliberations on the Financial Market Report, Oslo, 8 May 2026.",
+    "date": "2026-05-12",
+    "source_url": "https://www.bis.org/review/r260511i.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "ESMA (European Securities and Markets Authority)",
+    "initiative": "European Commission launches call for candidates for the ESAs’ Board of Appeal",
+    "description": "The Board is responsible for ruling on appeals against certain decisions of the ESAs, in accordance with Article 60 of the ESAs’ regulations. The reserve list will remain valid for a period of five years from the date of its adoption. European Commission launches call for candidates for the ESAs’ Board of Appeal",
+    "date": "2026-05-12",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/european-commission-launches-call-candidates-esas-board-appeal",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Circle",
+    "initiative": "Bernstein maintains $190 Circle price target as $222 million ARC presale cushions rate pressure",
+    "description": "Bernstein maintained its $190 Circle target, citing ARC presale proceeds, USDC growth, and expanding stablecoin payments infrastructure.",
+    "date": "2026-05-12",
+    "source_url": "https://www.theblock.co/post/400872/bernstein-maintains-190-circle-price-target-as-222-million-arc-presale-cushions-rate-pressure",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "U.S. spot XRP ETFs post strongest inflow day in four months",
+    "description": "spot XRP exchange-traded funds have pulled in their largest daily inflow in roughly four months. recorded combined net inflows of $25.8 million on May 11, the strongest single… U.S. spot XRP ETFs post strongest inflow day in four months",
+    "date": "2026-05-12",
+    "source_url": "https://crypto.news/u-s-spot-xrp-etfs-post-strongest-inflow-day-in-four-months/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Circle",
+    "initiative": "Bernstein backs Circle with $190 target as ARC presale reaches $222 million",
+    "description": "According to a Tuesday client note… Bernstein backs Circle with $190 target as ARC presale reaches $222 million",
+    "date": "2026-05-12",
+    "source_url": "https://crypto.news/bernstein-backs-circle-with-190-target-as-arc-presale-reaches-222-million/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Standard Chartered",
     "initiative": "Singapore Gulf Bank taps Standard Chartered for digital asset payment corridors",
     "description": "According to a release shared with crypto.news on Tuesday, the agreement expands the bank’s correspondent… Singapore Gulf Bank taps Standard Chartered for digital asset payment corridors",
@@ -9851,140 +9971,6 @@
       "Data & Reporting"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "MUFG expands relationship with Finastra to power US ACH payments",
-    "description": "Finastra, a global leader in financial services software, today announced that MUFG (Mitsubishi UFJ Financial Group), Japan’s largest bank, has selected Global PAYplus to support ACH services in the United States.",
-    "date": "2026-04-16",
-    "source_url": "https://www.finextra.com/pressarticle/109500/mufg-expands-relationship-with-finastra-to-power-us-ach-payments",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Morgan Stanley",
-    "initiative": "Bitcoin ETFs add $186M as Morgan Stanley’s MSBT inflows top $100M in first six trading days",
-    "description": "On April 16, 2026, U.S. spot bitcoin ETFs collectively attracted $186.1 million in net inflows for the session, with BlackRock's IBIT accounting for the bulk at $291.9 million while offsetting redemptions from Fidelity's FBTC, ARK/21Shares' ARKB, and Grayscale's GBTC. The session brought cumulative net inflows across the 13-fund cohort to approximately $57.1 billion since the January 2024 launch, with total net assets representing 6.5% of bitcoin's market capitalization. Morgan Stanley's MSBT, which launched under the firm's registered investment adviser and broker-dealer distribution infrastructure, crossed $103 million in cumulative net inflows within six trading days—surpassing the entire lifetime total of WisdomTree's BTCW, a fund that has operated considerably longer.",
-    "date": "2026-04-16",
-    "source_url": "https://www.theblock.co/post/397730/bitcoin-etfs-add-186m-as-morgan-stanleys-msbt-inflows-top-100m-in-first-six-trading-days",
-    "category": "global_banks",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Circle",
-    "initiative": "Drift secures up to $127 million from Tether for user recovery, pivots from Circle’s USDC to USDT after $280 million exploit",
-    "description": "Following its April 1 exploit — initially disclosed at $200 million in losses and later revised to approximately $280–296 million — Solana-based perpetuals platform Drift Protocol has arranged a recovery package of up to $127.5 million anchored by Tether, structured as a $100 million revenue-linked credit facility supplemented by ecosystem grants and market-maker loans directed into a dedicated user recovery pool. The protocol will issue a separate, transferable recovery token to affected users representing a proportional claim on that pool, allowing liquidity access ahead of full repayment as exchange revenues accrue and any forensically recovered assets are repatriated.",
-    "date": "2026-04-16",
-    "source_url": "https://www.theblock.co/post/397735/drift-127-million-tether-recovery-pivots-circle-usdc-usdt-280-million-exploit",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA (European Securities and Markets Authority)",
-    "initiative": "ESMA launches a call for evidence on restricted subscription and private credit ratings",
-    "description": "ESMA Call for Evidence: Restricted Subscription and Private Credit Ratings ESMA has opened a formal call for evidence seeking market input on restricted subscription and private credit ratings — products where access to the rating output is limited to a defined set of contracting parties rather than disclosed publicly. The initiative is directed at understanding use cases, counterparty characteristics, and whether the analytical rigour and governance controls applied to these non-public ratings are meaningfully comparable to those governing publicly disclosed ratings under the CRA Regulation.",
-    "date": "2026-04-16",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-launches-call-evidence-restricted-subscription-and-private-credit-ratings",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "UK FCA seeks fresh feedback on crypto rules ahead of October 2027 rollout",
-    "description": "Ahead of a planned implementation in 2027, the FCA is seeking feedback on stablecoins, trading platforms, custody, and staking.",
-    "date": "2026-04-16",
-    "source_url": "https://www.theblock.co/post/397711/uk-fca-seeks-fresh-feedback-on-crypto-rules",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS (Bank for International Settlements)",
-    "initiative": "Cyber risk stress testing for banks",
-    "description": "The Bank for International Settlements' Financial Stability Institute published a policy brief cataloguing how supervisory authorities are designing and deploying cyber stress tests against banks, identifying two distinct methodological frameworks: firm-focused tests, which assess individual institution resilience and recovery capacity, and system-focused tests, which evaluate sector-wide contagion and financial stability implications. The brief draws on recent supervisory exercises across multiple jurisdictions to analyse how authorities select between these approaches depending on their institutional mandates and oversight objectives.",
-    "date": "2026-04-16",
-    "source_url": "https://www.bis.org/fsi/fsibriefs30.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "ABN Amro opens access to crypto investments",
-    "description": "ABN Amro is to give customers indirect exposure to cryptocurrencies through the introduction Crypto Exchange Traded Products (ETPs) and Capital Protected Notes (CPNs)",
-    "date": "2026-04-16",
-    "source_url": "https://www.finextra.com/newsarticle/47588/abn-amro-opens-access-to-crypto-investments",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
