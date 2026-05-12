@@ -1,5 +1,42 @@
 [
   {
+    "institution": "Standard Chartered",
+    "initiative": "Singapore Gulf Bank taps Standard Chartered for digital asset payment corridors",
+    "description": "According to a release shared with crypto.news on Tuesday, the agreement expands the bank’s correspondent… Singapore Gulf Bank taps Standard Chartered for digital asset payment corridors",
+    "date": "2026-05-12",
+    "source_url": "https://crypto.news/singapore-gulf-bank-taps-standard-chartered-for-digital-asset-payment-corridors/",
+    "category": "global_banks",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "Grayscale files Zcash ETF as privacy coin demand returns",
+    "description": "Grayscale is seeking to convert its Zcash Trust into a spot ETF as ZEC gains from privacy demand, SEC clarity, and Multicoin interest.",
+    "date": "2026-05-12",
+    "source_url": "https://crypto.news/grayscale-files-zcash-etf-as-privacy-coin-demand-returns/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "'Bitcoin transactions can be monitored’: Ray Dalio explains why central banks won’t touch BTC",
     "description": "Ray Dalio joins the privacy debate, saying Bitcoin’s full transparency makes it less likely to be adopted by central banks.",
@@ -9948,38 +9985,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "CaixaBank",
-    "initiative": "CaixaBank collaborates with Flanks to give wealth clients aggregated view of financial assets",
-    "description": "CaixaBank has launched GlobalView, its global financial positions aggregator, which enables the bank’s Wealth Management clients—the entity’s private banking division—to consolidate and analyse all their financial positions across multiple financial institutions under a single, unified framework.",
-    "date": "2026-04-16",
-    "source_url": "https://www.finextra.com/pressarticle/109495/caixabank-collaborates-with-flanks-to-give-wealth-clients-aggregated-view-of-financial-assets",
-    "category": "global_banks",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Michael S Barr: Rural communities - worth the investment",
-    "description": "Federal Reserve Governor Highlights Rural Capital Access and CDFI Role Speaking at a Washington forum focused on rural investment, Fed Governor Michael Barr drew on field visits to underserved communities — including the Mississippi Delta — to underscore persistent gaps in rural financial access and the institutional responses emerging to address them. He cited a concrete example of a struggling community bank donating its branch building to a CDFI to preserve local financial services, and pointed to New Markets Tax Credits as an effective tool in catalyzing private investment in distressed areas. The remarks signal continued Fed-level attention to community reinvestment frameworks, CDFI capacity, and tax credit mechanisms as policy-relevant instruments for rural economic inclusion.",
-    "date": "2026-04-16",
-    "source_url": "https://www.bis.org/review/r260416h.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
