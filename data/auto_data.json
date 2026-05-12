@@ -1,6 +1,60 @@
 [
   {
     "institution": "JPMorgan",
+    "initiative": "JPMorgan files to launch new tokenized fund as Wall Street tokenization race heats up",
+    "description": "The global banking giant is expanding its tokenized money market lineup, following BlackRock's similar move just a few days ago.",
+    "date": "2026-05-12",
+    "source_url": "https://www.coindesk.com/business/2026/05/12/jpmorgan-files-to-launch-new-tokenized-fund-as-wall-street-tokenization-race-heats-up",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "CFTC backs Kalshi in Ohio fight over prediction markets jurisdictional battle",
+    "description": "The CFTC is weighing in on another legal battle over states’ authority to regulate prediction markets — this time in Ohio.",
+    "date": "2026-05-12",
+    "source_url": "https://www.theblock.co/post/401039/cftc-backs-kalshi-in-ohio-fight-over-prediction-markets-jurisdictional-battle",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Exodus wallet dumps bitcoin for payments push",
+    "description": "Exodus wallet sold 1,076 bitcoin in Q1 2026 to fund its $175 million acquisition of W3C’s payments business. Exodus Movement (NYSE: EXOD), developer of the self-custody Exodus wallet, sold 1,076 bitcoin during Q1 2026, reducing its BTC holdings from 1,704… Exodus wallet dumps bitcoin for payments push",
+    "date": "2026-05-12",
+    "source_url": "https://crypto.news/exodus-wallet-sells-1076-btc-to-fund-w3c-deal/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
     "initiative": "JPMorgan launching second tokenized money market fund on Ethereum",
     "description": "The new fund will invest in U.S. Treasurys and overnight repurchase agreements collateralized by Treasurys or cash.",
     "date": "2026-05-12",
@@ -9873,69 +9927,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "Sanctioned Russia-Linked Exchange Grinex Suspends Operations Following Alleged Cyberattack",
-    "description": "Government Unveils Sweeping Enforcement Actions Against Southeast Asian Scam Centers and Crypto Fraud Networks April 24, 2026 Crime EU’s 20th Russia Sanctions Package Signals a New Era of Crypto-Specific Enforcement April 24, 2026 Subscribe to our weekly newsletter Products Reactor Wallet Scan Rapid KYT VASP Risking Address Screening Sentinel Alterya Hexagate Chainalysis Data Solutions (DS) Industries Law Enforcement Centralized Exchanges Financial Institutions Tax Agencies Regulators Stablecoin Risk Management Decentralized Finance Consumer Brands Cybersecurity Join Us Careers Open Positions Company About Us Why Chainalysis Partners Media Resources Scam Prevention Global Español Português Resources Blog Webinars Podcast Reports Services Global Services Training & Certification Security &",
-    "date": "2026-04-17",
-    "source_url": "https://www.chainalysis.com/blog/sanctioned-grinex-exchange-suspends-operations/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Tabby secures UAE licence",
-    "description": "Tabby has been granted a Stored Value Facilities (SVF) licence by the Central Bank of the UAE (CBUAE), authorising the company to hold customer funds and introduce a new suite of financial products, including spending accounts, cards and money management tools.",
-    "date": "2026-04-17",
-    "source_url": "https://www.finextra.com/pressarticle/109511/tabby-secures-uae-licence",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BlackRock",
-    "initiative": "Congresswoman Biggs discloses six-figure BlackRock bitcoin ETF buy as BTC rebounds",
-    "description": "U.S. Representative Sheri Biggs filed a House periodic transaction report disclosing that her spouse purchased between $100,001 and $250,000 of BlackRock's iShares Bitcoin Trust ETF (IBIT) on March 4, 2026, through a professionally managed UBS account held under the W.S.B Trust. The disclosure was submitted on April 16—43 days after the trade—placing it within the STOCK Act's mandatory 45-day reporting window, a meaningful distinction from a prior IBIT purchase by Biggs that was filed late and drew congressional trading transparency criticism. The March 4 entry point coincided with a volatile session in which bitcoin moved from roughly $68,000 to above $72,000, and the position has since appreciated as BTC approached $78,000 by mid-April.",
-    "date": "2026-04-17",
-    "source_url": "https://www.theblock.co/post/397939/congresswoman-biggs-six-figure-blackrock-bitcoin-etf-buy-btc-rebounds",
-    "category": "asset_management",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
