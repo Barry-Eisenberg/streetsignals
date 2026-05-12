@@ -1,5 +1,60 @@
 [
   {
+    "institution": "JPMorgan",
+    "initiative": "JPMorgan launching second tokenized money market fund on Ethereum",
+    "description": "The new fund will invest in U.S. Treasurys and overnight repurchase agreements collateralized by Treasurys or cash.",
+    "date": "2026-05-12",
+    "source_url": "https://www.theblock.co/post/401028/jpmorgan-launching-tokenized-money-market-fund-ethereum",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Franklin Templeton",
+    "initiative": "Franklin Templeton and Kraken’s Payward team up to tokenize Wall Street",
+    "description": "Kraken parent Payward will plug Franklin Templeton’s BENJI tokenized money market fund into its platform as collateral and cash management, letting clients earn yield on idle dollars on‑chain. Kraken’s parent company Payward and Franklin Templeton have announced a strategic partnership… Franklin Templeton and Kraken’s Payward team up to tokenize Wall Street",
+    "date": "2026-05-12",
+    "source_url": "https://crypto.news/franklin-templeton-and-krakens-payward-team-up-to-tokenize-wall-street/",
+    "category": "asset_management",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "MARA Holdings dumps bitcoin for AI infrastructure",
+    "description": "MARA Holdings sold $1.5 billion in bitcoin in Q1 2026, dropping to the fourth largest public BTC holder. MARA Holdings (NASDAQ: MARA) sold 20,880 bitcoin during Q1 2026 at an average price of $70,137 per coin, generating approximately $1.5 billion… MARA Holdings dumps bitcoin for AI infrastructure",
+    "date": "2026-05-12",
+    "source_url": "https://crypto.news/mara-holdings-sold-1-5b-bitcoin-to-fund-ai-pivot/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ECB (European Central Bank)",
     "initiative": "Denis Beau breaks with Lagarde over stablecoins",
     "description": "Denis Beau urged immediate private-sector mobilisation to build euro stablecoins, breaking publicly with ECB president Christine Lagarde’s slower approach. Denis Beau, deputy governor of the Banque de France, called on May 12 for a “mobilization of all relevant European players,… Denis Beau breaks with Lagarde over stablecoins",
@@ -9882,64 +9937,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Circle",
-    "initiative": "Circle rolls out USDC Bridge for native cross-chain stablecoin transfers",
-    "description": "USDC Bridge is Circle’s official, native cross-chain bridging solution powered by its Cross-Chain Transfer Protocol.",
-    "date": "2026-04-17",
-    "source_url": "https://www.theblock.co/post/397907/circle-rolls-out-usdc-bridge-for-native-cross-chain-stablecoin-transfers",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "French minister urges banks to expand euro stablecoins, tokenized deposits: report",
-    "description": "French minister urges European banks to expand euro stablecoins and tokenized deposits as dollar-pegged supply tops $300 billion.",
-    "date": "2026-04-17",
-    "source_url": "https://www.theblock.co/post/397902/french-minister-urges-banks-to-expand-euro-stablecoins-tokenized-deposits-report",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "MAS (Monetary Authority of Singapore)",
-    "initiative": "Moody’s agentic workflows land on AWS Marketplace",
-    "description": "Moody’s Corporation (NYSE: MCO) today announced that its Moody’s Agentic Solutions (MAS) workflows are now available in AWS Marketplace.",
-    "date": "2026-04-17",
-    "source_url": "https://www.finextra.com/pressarticle/109510/moodys-agentic-workflows-land-on-aws-marketplace",
-    "category": "regulators",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
