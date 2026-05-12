@@ -1,5 +1,70 @@
 [
   {
+    "institution": "BVNK",
+    "initiative": "Corpay Partners With BVNK To Add Stablecoin Wallets",
+    "description": "Hey Payments Fanatic! Corpay has partnered with BVNK, the stablecoin infrastructure platform, to bring stablecoin wallets and settlement capabilities to its global corporate customer base. The integration embeds stablecoin balances directly alongside fiat within Corpay's platform , letting businesses send, receive, store, and convert stablecoins without leaving their",
+    "date": "2026-05-12",
+    "source_url": "https://www.connectingthedotsinpayments.com/corpay-partners-with-bvnk-to-add-stablecoin-wallets/",
+    "category": "exchanges_intermediaries",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "OCC (Office of the Comptroller of the Currency)",
+    "initiative": "Peter Thiel-backed Augustus wins OCC nod for AI stablecoin bank",
+    "description": "Augustus won conditional OCC approval for a US bank charter focused on AI payments, stablecoin settlement, and programmable clearing.",
+    "date": "2026-05-12",
+    "source_url": "https://crypto.news/peter-thiel-backed-augustus-wins-occ-nod-for-ai-stablecoin-bank/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DeFi",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Circle",
+    "initiative": "Ark Invest buys $5.5 million worth of Circle shares as stock jumps 16% on Q1 earnings",
+    "description": "Circle's shares closed up 15.91% at $131.76 on Monday after the stablecoin issuer disclosed its first-quarter 2026 results.",
+    "date": "2026-05-11",
+    "source_url": "https://www.theblock.co/post/400850/ark-invest-buys-circle-shares-stock-jumps",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Morgan Stanley",
     "initiative": "Morgan Stanley triggers crypto fee war on exchanges",
     "description": "Morgan Stanley launched a crypto price war on E*Trade at 50 basis points, undercutting Coinbase and Schwab. Morgan Stanley has launched a crypto trading pilot on its ETrade platform at 50 basis points per trade, immediately undercutting every major retail… Morgan Stanley triggers crypto fee war on exchanges",
@@ -9914,61 +9979,6 @@
       "Interoperability & Standards"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Richard Byles: Redefining economic leadership - building resilient financial ecosystems in emerging markets",
-    "description": "Bank of Jamaica Governor Richard Byles addressed Caribbean finance executives at the Caribbean CFO Summit 2026 in Kingston, setting out the central bank's regulatory philosophy and the concrete policy measures underpinning Jamaica's financial stability framework. He disclosed that Jamaica holds a record US$6.8 billion in foreign reserves and confirmed that the central bank has deliberately adopted a calibrated, proportionate adaptation of Basel III standards rather than mechanical full implementation, prioritising liquidity resilience and capital quality improvements suited to the domestic system's structure.",
-    "date": "2026-04-16",
-    "source_url": "https://www.bis.org/review/r260416c.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Morgan Stanley",
-    "initiative": "The cheapest bitcoin ETF yet: Morgan Stanley uses 0.14% fee to draw $100 million in first week",
-    "description": "Morgan Stanley's spot bitcoin ETF (ticker: MSBT), which began trading April 8, accumulated over $100 million in its first week by undercutting all existing spot bitcoin ETF competitors with a 0.14% expense ratio and leveraging the firm's wealth management distribution network, which spans trillions in client assets and gives financial advisors a direct channel to route client allocations into the product. The fund benchmarks to the CoinDesk Bitcoin Benchmark 4 PM New York Settlement Rate and has been described internally as the firm's most successful ETF launch to date, though it remains dwarfed by BlackRock's IBIT at over $53 billion in AUM.",
-    "date": "2026-04-16",
-    "source_url": "https://www.coindesk.com/markets/2026/04/16/morgan-stanley-s-bitcoin-etf-reaches-usd100m-in-first-week-marking-the-bank-s-strongest-launch",
-    "category": "global_banks",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Circle",
-    "initiative": "Circle CEO says China could launch yuan stablecoin within 3 to 5 years as currency race heats up",
-    "description": "The pitch is global scale for the yuan, but capital controls, offshore limits and convertibility gaps still stand in the way",
-    "date": "2026-04-16",
-    "source_url": "https://www.coindesk.com/policy/2026/04/16/circle-ceo-says-china-could-launch-yuan-stablecoin-within-3-to-5-years-as-currency-race-heats-up",
-    "category": "payments",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
     "year": "2026"
   }
 ]
