@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Federal Reserve",
+    "initiative": "Senate confirms Kevin Warsh to Fed board ahead of expected Chair vote",
+    "description": "Warsh’s confirmation to the Fed board positions the crypto-linked investor to replace Jerome Powell as chair amid inflation and digital asset policy debates.",
+    "date": "2026-05-12",
+    "source_url": "https://www.coindesk.com/policy/2026/05/12/senate-confirms-kevin-warsh-to-fed-board-ahead-of-expected-chair-vote",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CFTC (Commodity Futures Trading Commission)",
     "initiative": "U.S. CFTC in talks with every major pro sports league on policing prediction markets",
     "description": "Chairman Michael Selig says the agency has already taken several states to court to prove that sports contracts aren't just betting but that they're derivatives.",
@@ -9921,29 +9940,6 @@
       "Collateral & Lending",
       "Trading & Exchange",
       "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Circle",
-    "initiative": "Drift Secures $147.5 Million From Tether, Drops Circle’s USDC After Massive Exploit",
-    "description": "Following the April 1 exploit in which North Korean state-sponsored hackers exploited a Solana pre-signing mechanism to seize governance control and drain approximately $295 million in user funds, Drift Protocol has secured a $147.5 million recovery facility anchored by up to $127.5 million from Tether, with the remainder from undisclosed partners, structured as a revenue-linked credit facility to gradually repay affected users. As part of the relaunch, Drift is replacing Circle's USDC with Tether's USDT as its primary settlement asset on Solana — a direct operational consequence of Circle's refusal to freeze roughly $232 million in stolen USDC that attackers bridged to Ethereum across more than 100 transactions over several hours using Circle's own cross-chain transfer protocol.",
-    "date": "2026-04-17",
-    "source_url": "https://unchainedcrypto.com/drift-secures-147-5-million-from-tether-drops-circles-usdc-after-massive-exploit-unchained/",
-    "category": "payments",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
     ],
     "initiative_types": [
       "Crypto / Digital Assets",
