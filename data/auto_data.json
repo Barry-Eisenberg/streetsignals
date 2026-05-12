@@ -1,5 +1,79 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "Mary-Elizabeth McMunn: Capital, competition, and complexity - regulatory perspectives on the regulatory debate",
+    "description": "Remarks by Ms Mary-Elizabeth McMunn, Deputy Governor of the Central Bank of Ireland, at the Banking & Payments Federation Ireland (BPFI), Dublin, 7 May 2026.",
+    "date": "2026-05-12",
+    "source_url": "https://www.bis.org/review/r260512d.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Abdul Rasheed Ghaffour: Optimizing impact from Islamic social finance for poverty alleviation - models and way forward",
+    "description": "Special remarks by Mr Abdul Rasheed Ghaffour, Governor of the Central Bank of Malaysia (Bank Negara Malaysia), at the World Bank-International Center for Education in Islamic Finance (INCEIF) High-Level Roundtable Discussion, Kuala Lumpur, 4 May 2026.",
+    "date": "2026-05-12",
+    "source_url": "https://www.bis.org/review/r260512c.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Franklin Templeton",
+    "initiative": "Kraken parent, Franklin Templeton to develop onchain investment products",
+    "description": "The partnership will focus on tokenized yield products, blockchain-based funds and institutional crypto markets.",
+    "date": "2026-05-12",
+    "source_url": "https://www.coindesk.com/business/2026/05/12/kraken-parent-franklin-templeton-to-develop-onchain-investment-products",
+    "category": "asset_management",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Deutsche Bank",
+    "initiative": "Elliptic raises $120 million backed by Nasdaq, Deutsche Bank as AI reshapes crypto security",
+    "description": "The crypto analytics firm plans to expand its AI-powered monitoring tools as stablecoins and tokenized finance grow rapidly, CEO Simone Maini said.",
+    "date": "2026-05-12",
+    "source_url": "https://www.coindesk.com/business/2026/05/12/elliptic-raises-usd120-million-backed-by-nasdaq-deutsche-bank-as-ai-reshapes-crypto-security",
+    "category": "global_banks",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Hot inflation data pours cold water on Federal Reserve rate cut hopes",
     "description": "Bitcoin was trading at $80,814 following the news, down 1.2% over the past 24 hours.",
@@ -9894,80 +9968,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "PayPal",
-    "initiative": "Elon Musk’s X Money stands to disrupt payments and pressure PayPal, but crypto plans may hit regulatory hurdles: Mizuho",
-    "description": "X launched a new feature this week where users can view financial data on stocks and cryptocurrencies directly.",
-    "date": "2026-04-16",
-    "source_url": "https://www.theblock.co/post/397771/elon-musk-x-money-disrupt-payments-pressure-paypal-crypto-regulatory-hurdles-mizuho",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board issues enforcement action with Community Bankshares, Inc.",
-    "description": "Federal Reserve Issues Cease and Desist Order Against Community Bankshares, Inc. The Federal Reserve Board executed a formal Cease and Desist Order dated April 14, 2026 against Community Bankshares, Inc., a bank holding company headquartered in LaGrange, Georgia, with the action publicly announced two days later. A Cease and Desist Order is among the more serious enforcement tools available to the Fed, legally compelling the institution to halt specific unsafe or unsound practices and requiring affirmative corrective measures under threat of further penalty.",
-    "date": "2026-04-16",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260416a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "SEC seeks public comment on consolidated audit trail and other data sources",
-    "description": "The Securities and Exchange Commission today issued a concept release soliciting public comment in support of a comprehensive review of the Consolidated Audit Trail (CAT) and other audit trails and related data sources currently used in the regulation of U.S. securities markets.",
-    "date": "2026-04-16",
-    "source_url": "https://www.finextra.com/pressarticle/109505/sec-seeks-public-comment-on-consolidated-audit-trail-and-other-data-sources",
-    "category": "regulators",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Nasdaq",
-    "initiative": "Alkami unveils AI Code Studio",
-    "description": "Alkami Technology, Inc. (Nasdaq: ALKT) (\"Alkami\"), a leading digital sales and service platform provider for financial institutions in the U.S., today announced the introduction of Alkami Code Studio, a new artificial intelligence (AI)-powered development capability that underscores the company's continued investment in generative AI and open architecture as part of its Digital Sales & Service Platform strategy.",
-    "date": "2026-04-16",
-    "source_url": "https://www.finextra.com/pressarticle/109503/alkami-unveils-ai-code-studio",
-    "category": "exchanges_intermediaries",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
