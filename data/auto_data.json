@@ -1,5 +1,65 @@
 [
   {
+    "institution": "Ledger Insights",
+    "initiative": "AFME lobbies for changes to EU DLT securities settlement scheme proposals",
+    "description": "When the European Commission unveiled its Market Integration and Supervision Package (MISP) in December 2025, it included plans to upgrade the DLT Pilot Regime, particularly raising the volume caps more than 16 fold. One of the most innovative proposals was a new distributed ledger-based securities settlement scheme. Multiple banks can settle DLT transactions without a",
+    "date": "2026-05-12",
+    "source_url": "https://www.ledgerinsights.com/afme-lobbies-for-changes-to-eu-dlt-securities-settlement-scheme-proposals/",
+    "category": "ecosystem",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Armstrong defends CLARITY Act stablecoin yield deal",
+    "description": "Coinbase CEO Brian Armstrong said the CLARITY Act gave banks their must-haves as the Senate released its 309-page bill text. The Senate Banking Committee released the 309-page substitute text of the CLARITY Act on May 12, setting a committee markup… Armstrong defends CLARITY Act stablecoin yield deal",
+    "date": "2026-05-12",
+    "source_url": "https://crypto.news/armstrong-says-clarity-act-banks-got-must-haves/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Can SOL hit $200 as Coinbase adds $100,000 SOL collateral lending?",
+    "description": "Coinbase now lets users borrow up to $100K against SOL via Morpho on Base, turning Solana into its third major collateral pillar as the token eyes a retest of $200. Coinbase has expanded its on-chain crypto lending product to include Solana as… Can SOL hit $200 as Coinbase adds $100,000 SOL collateral lending?",
+    "date": "2026-05-12",
+    "source_url": "https://crypto.news/can-sol-hit-200-as-coinbase-adds-100000-sol-collateral-lending/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Senate confirms Kevin Warsh to Fed board ahead of expected Chair vote",
     "description": "Warsh’s confirmation to the Fed board positions the crypto-linked investor to replace Jerome Powell as chair amid inflation and digital asset policy debates.",
@@ -9882,67 +9942,6 @@
       "Interoperability & Standards"
     ],
     "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "France's finance minister calls for more euro stablecoins in sign of government policy shift",
-    "description": "The statements signal a potential shift in stance within the French government and its central bank.",
-    "date": "2026-04-17",
-    "source_url": "https://www.coindesk.com/policy/2026/04/17/french-government-pivots-from-slamming-privately-issued-stablecoins-to-supporting-them",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Ebanx expands into five new countries",
-    "description": "Ebanx, a global technology company specialising in cross-border payment services for emerging markets, will begin operating in five new countries: Thailand, Indonesia, Malaysia, Vietnam, and Turkey.",
-    "date": "2026-04-17",
-    "source_url": "https://www.finextra.com/pressarticle/109508/ebanx-expands-into-five-new-countries",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "Kraken's parent company Payward to acquire derivatives exchange Bitnomial for $550 million in cash and stock",
-    "description": "Payward is acquiring Bitnomial, a Chicago-based derivatives platform founded over a decade ago that holds the full trifecta of U.S. regulatory licenses — a designated contract market, a derivatives clearing organization, and a futures commission merchant registration with the CFTC — making it the only crypto-native firm to have assembled that complete stack. Rather than pursuing those approvals organically, Payward is paying up to $550 million in cash and stock to absorb the infrastructure directly, folding it into an expanding derivatives ecosystem that already includes the $1.5 billion NinjaTrader acquisition from 2025. The combined entity will offer spot margin, perpetual futures, and options to U.S.",
-    "date": "2026-04-17",
-    "source_url": "https://www.coindesk.com/business/2026/04/17/kraken-s-parent-company-payward-to-acquire-derivatives-exchange-bitnomial-for-usd550-million-in-cash-and-stock",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
     "year": "2026"
