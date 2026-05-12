@@ -1,5 +1,24 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "'Bitcoin transactions can be monitored’: Ray Dalio explains why central banks won’t touch BTC",
+    "description": "Ray Dalio joins the privacy debate, saying Bitcoin’s full transparency makes it less likely to be adopted by central banks.",
+    "date": "2026-05-12",
+    "source_url": "https://www.coindesk.com/markets/2026/05/12/bitcoin-transactions-can-be-monitored-ray-dalio-explains-why-central-banks-won-t-touch-btc",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BVNK",
     "initiative": "Corpay Partners With BVNK To Add Stablecoin Wallets",
     "description": "Hey Payments Fanatic! Corpay has partnered with BVNK, the stablecoin infrastructure platform, to bring stablecoin wallets and settlement capabilities to its global corporate customer base. The integration embeds stablecoin balances directly alongside fiat within Corpay's platform , letting businesses send, receive, store, and convert stablecoins without leaving their",
@@ -9960,24 +9979,6 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Research / Report",
     "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Bas ter Weel: Resilient payments - cash, card, connected",
-    "description": "Opening address by Mr Bas ter Weel, Executive Board Member of Monetary Affairs of De Nederlandsche Bank, at the DNB's Retail Payments Research Conference 2026 \"Future-proof payments: innovative, resilient and inclusive\", Amsterdam, 9 April 2026.",
-    "date": "2026-04-16",
-    "source_url": "https://www.bis.org/review/r260416g.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
     "initiative_types": [],
     "year": "2026"
   }
