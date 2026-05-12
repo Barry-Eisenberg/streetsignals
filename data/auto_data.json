@@ -1,5 +1,215 @@
 [
   {
+    "institution": "Federal Reserve",
+    "initiative": "Federal Reserve Board announces termination of enforcement actions with F & M Holding Company, Inc. and Thread Bancorp, Inc.",
+    "description": "Federal Reserve Board announces termination of enforcement actions with F & M Holding Company, Inc. and Thread Bancorp, Inc.",
+    "date": "2026-05-12",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260512a.htm",
+    "category": "regulators",
+    "source_name": "Federal Reserve — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "France’s central banker Beau clashes with Lagarde over private digital euro plans",
+    "description": "France’s central bank deputy governor told CoinDesk public and private European entities need to get involved in digital asset development, diverging sharply from Christine Lagarde’s stance.",
+    "date": "2026-05-12",
+    "source_url": "https://www.coindesk.com/business/2026/05/12/france-s-central-banker-beau-breaks-with-ecb-s-lagarde-calls-for-private-tokenized-euro-mobilization",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "CBDC",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Deutsche Bank",
+    "initiative": "Blockchain analytics firm Elliptic closes $120 million Series D as Deutsche Bank, Nasdaq deepen crypto bets",
+    "description": "Elliptic raised $120M in a Series D at $670M valuation backed by Deutsche Bank and Nasdaq Ventures as TradFi splurges more on crypto bets.",
+    "date": "2026-05-12",
+    "source_url": "https://www.theblock.co/post/400939/blockchain-analytics-firm-elliptic-closes-120-million-series-d-as-deutsche-bank-nasdaq-deepen-crypto-bets",
+    "category": "global_banks",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Franklin Templeton",
+    "initiative": "Franklin Templeton and Kraken’s parent company to explore new onchain investments",
+    "description": "The two firms will explore launching new tokenized versions of Franklin Templeton financial instruments, such as yield products.",
+    "date": "2026-05-12",
+    "source_url": "https://www.theblock.co/post/400928/franklin-templeton-and-krakens-parent-company-to-explore-new-onchain-investments",
+    "category": "asset_management",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Poland debates four crypto bills at once as ban proposal complicates vote",
+    "description": "Poland’s Sejm is reviewing four rival crypto bills while the PiS opposition dangles a separate ban proposal, turning MiCA implementation into a high‑stakes regulatory brawl. Poland’s lower house of parliament, the Sejm, is now reviewing four simultaneous and competing cryptocurrency… Poland debates four crypto bills at once as ban proposal complicates vote",
+    "date": "2026-05-12",
+    "source_url": "https://crypto.news/poland-debates-four-crypto-bills-at-once-as-ban-proposal-complicates-vote/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Securitize",
+    "initiative": "BlackRock files second tokenized fund with SEC, doubling down on Securitize",
+    "description": "BlackRock has filed a second Securitize‑powered tokenized fund with the SEC, signaling BUIDL’s $2.3B success is becoming a repeatable on‑chain RWA product line, not a pilot. Securities and Exchange… BlackRock files second tokenized fund with SEC, doubling down on Securitize",
+    "date": "2026-05-12",
+    "source_url": "https://crypto.news/blackrock-files-second-tokenized-fund-with-sec-doubling-down-on-securitize/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "Can XRP reclaim $3 and beyond? ETF inflows hit a January high at $1.47",
+    "description": "Spot XRP ETFs have quietly amassed $1.35 billion in net inflows on the back of Ripple’s JPMorgan‑backed tokenized Treasuries tests. Five U.S.-listed spot XRP (XRP) ETFs pulled in a combined $25.8 million on Monday, the biggest single-day haul since January… Can XRP reclaim $3 and beyond? ETF inflows hit a January high at $1.47",
+    "date": "2026-05-12",
+    "source_url": "https://crypto.news/can-xrp-reclaim-3-and-beyond-etf-inflows-hit-a-january-high-at-1-47/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Bermuda shifts government payments onto Stellar rails",
+    "description": "The government of Bermuda is moving elements of its public payment infrastructure onto the… Bermuda shifts government payments onto Stellar rails",
+    "date": "2026-05-12",
+    "source_url": "https://crypto.news/bermuda-shifts-government-payments-onto-stellar-rails/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Deutsche Bank",
+    "initiative": "Elliptic Raises $120M at $670M Valuation",
+    "description": "Blockchain analytics and compliance firm Elliptic has secured a $120 million funding round at a $670… Elliptic Raises $120M at $670M Valuation",
+    "date": "2026-05-12",
+    "source_url": "https://crypto.news/elliptic-raises-120m-at-670m-valuation/",
+    "category": "global_banks",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainalysis",
+    "initiative": "North Korean hackers now dominate crypto theft — and compliance is racing to catch up",
+    "description": "CertiK, Chainalysis and Elliptic all say DPRK‑linked hackers stole about 60% of 2025’s $3.4B crypto theft, including an estimated $2.02B taken by North Korean groups. Blockchain security firm CertiK says North Korean state-linked hacking groups were responsible for roughly 60%… North Korean hackers now dominate crypto theft — and compliance is racing to catch up",
+    "date": "2026-05-12",
+    "source_url": "https://crypto.news/north-korean-hackers-now-dominate-crypto-theft-and-compliance-is-racing-to-catch-up/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Digital Asset Exchange",
+    "initiative": "Agentic AI meets crypto as market eyes $139B boom by 2034",
+    "description": "Gemini, Bitget & Neyro lead agentic AI trading push as market forecast hits $139B by 2034, bringing autonomous agents into crypto & DeFi infrastructure. Agentic AI are systems that do not just classify data but monitor environments, make decisions and… Agentic AI meets crypto as market eyes $139B boom by 2034",
+    "date": "2026-05-12",
+    "source_url": "https://crypto.news/agentic-ai-meets-crypto-as-market-eyes-139b-boom-by-2034/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Mary-Elizabeth McMunn: Capital, competition, and complexity - regulatory perspectives on the regulatory debate",
     "description": "Remarks by Ms Mary-Elizabeth McMunn, Deputy Governor of the Central Bank of Ireland, at the Banking & Payments Federation Ireland (BPFI), Dublin, 7 May 2026.",
@@ -9750,223 +9960,6 @@
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Mastercard",
-    "initiative": "AI will control your payments sooner than you think - Bunita Sawhney (CPO, Mastercard)",
-    "description": "In this episode of the WRAP UP Podcast, I sat down with Bunita Sawhney, Chief Consumer Product Officer at Mastercard, to reflect on how consumer payments are changing beneath the surface.",
-    "date": "2026-04-17",
-    "source_url": "https://www.fintechwrapup.com/p/ai-will-control-your-payments-sooner",
-    "category": "payments",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "UK lawmaker urges FCA probe of Farage crypto promotion",
-    "description": "Liberal Democrat Deputy Leader Daisy Cooper formally wrote to FCA CEO Nikhil Rathi requesting an investigation into Nigel Farage's participation in a promotional video for Aquis-listed Stack BTC, in which the company announced Farage had executed a £2 million Bitcoin purchase on its behalf — weeks after he had personally invested £215,000 in the firm. Cooper's complaint centers on potential market abuse under UK market manipulation rules, conflict of interest, and consumer harm, drawing a parallel to Bloomberg's findings that Trump and associates extracted $1.4 billion from crypto ventures while shaping favorable regulation.",
-    "date": "2026-04-17",
-    "source_url": "https://coingeek.com/uk-lawmaker-urges-fca-probe-of-farage-crypto-promotion/",
-    "category": "regulators",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Tether",
-    "initiative": "Hacked DeFi platform Drift gets funds to repay customers and relaunch with Tether",
-    "description": "Drift, the DeFi platform that lost around $270 million in clients assets to a North Korean hack earlier this month, has secured $147.5 million in funding from Tether and partners to recover user funds and relaunch with the Tether stablecoin at its centre.",
-    "date": "2026-04-17",
-    "source_url": "https://www.finextra.com/newsarticle/47591/hacked-defi-platform-drift-gets-funds-to-repay-customers-and-relaunch-with-tether",
-    "category": "payments",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Cyber risk stress testing for banks",
-    "description": "In the context of growing frequency and sophistication, and increasing potential impacts of cyber incidents, some authorities have disclosed that they are conducting cyber stress tests to enhance firm and sector resilience to operational disruptions, such as those caused by cyber attacks.",
-    "date": "2026-04-16",
-    "source_url": "https://www.bis.org/fsi/fsibriefs30.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "IOSCO (International Organization of Securities Commissions)",
-    "initiative": "CPMI-IOSCO assesses that the United Kingdom has implemented the Principles for financial market infrastructures for two FMI types, but recommends some improvements",
-    "description": "The UK's framework for systemically important payment systems and central securities depositories/securities settlement systems is complete and consistent with the CPMI-IOSCO Principles for financial market infrastructures (PFMI) in most aspects. The CPMI-IOSCO assessment identified some areas for improvement where implementation was broadly or partly consistent or not consistent with the PFMI. The assessment reflects the status of implementation as of September 2023.",
-    "date": "2026-04-16",
-    "source_url": "https://www.bis.org/press/p260416.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Circle",
-    "initiative": "Circle hit with class action lawsuit over alleged inaction in $280 million Drift exploit",
-    "description": "Law firm Gibbs Mura filed a class action suit against Circle Internet Financial on behalf of Drift Protocol investors who suffered losses in the April 1 exploit, which saw approximately $280 million drained from the Solana-based decentralized exchange after an attacker introduced a malicious asset and removed withdrawal limits following a six-month infiltration. The plaintiffs allege Circle had both the technical capability and contractual authority to freeze the stolen USDC but failed to act during a roughly six-hour window in which over $230 million was bridged from Solana to Ethereum via Circle's own cross-chain transfer protocol.",
-    "date": "2026-04-16",
-    "source_url": "https://www.theblock.co/post/397840/circle-class-action-lawsuit-drift-exploit",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA (European Securities and Markets Authority)",
-    "initiative": "ESAs spring risk update highlights geopolitical pressures and rising private finance risks",
-    "description": "The three European Supervisory Authorities — EBA, EIOPA, and ESMA — published their Joint Committee spring 2026 risk update on 27 March, identifying Middle East conflict, private credit opacity, and geopolitical cyber exposure as the primary stress vectors for EU financial markets. On the private finance side, the ESAs flagged that limited data availability, low transparency, and complex interconnections between private credit funds and the broader system create conditions for abrupt liquidity shifts and contagion, citing recent stress in US private credit vehicles exposed to AI-driven disruption of legacy software borrowers as a live illustration.",
-    "date": "2026-04-16",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esas-spring-risk-update-highlights-geopolitical-pressures-and-rising-private",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA (European Securities and Markets Authority)",
-    "initiative": "Postponement of the rollout for Commodity Derivatives Weekly Position Reporting",
-    "description": "ESMA identified technical deficiencies during the final pre-launch testing of its new Commodity Derivatives Weekly Position Reporting infrastructure, forcing a delay beyond the previously communicated 1 April 2026 go-live date. The issues centre on system stability and data quality, requiring additional corrective work and full validation before the platform can be safely deployed. Reporting entities subject to MiFID II commodity derivatives position reporting obligations must continue submitting data through the existing solution until a revised launch date is confirmed. The delay introduces operational uncertainty for trading venues and investment firms that had prepared internal workflows around the original cutover timeline.",
-    "date": "2026-04-16",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/postponement-rollout-commodity-derivatives-weekly-position-reporting",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Russia-linked Grinex exchange suspends operations after $15 million hack, blames ‘hostile states’",
-    "description": "Liquidity and users of the sanctioned Garantex exchange have flowed into Grinex over the past year, Elliptic claims.",
-    "date": "2026-04-16",
-    "source_url": "https://www.theblock.co/post/397814/russia-linked-grinex-exchange-suspends-operations-15-million-hack-hostile-states",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Morgan Stanley",
-    "initiative": "Morgan Stanley’s Amy Oldenburg says crypto ‘becoming daily business’ across the firm",
-    "description": "Morgan Stanley's head of digital asset strategy Amy Oldenburg, who assumed the newly created role in February 2026, described crypto as transitioning from a peripheral initiative into core daily operations spanning the firm's institutional, wealth, and asset management divisions. The bank is actively auditing its internal infrastructure—wallet custody, data feeds, compliance workflows, and transaction settlement rails—to identify where blockchain-based processes can be embedded into existing systems rather than run in parallel. A key bottleneck is the absence of fully settled digital cash rails for tokenized assets, a gap Oldenburg tied directly to incomplete regulatory frameworks around stablecoins and tokenization that have yet to be finalized.",
-    "date": "2026-04-16",
-    "source_url": "https://www.theblock.co/post/397764/morgan-stanley-amy-oldenburg-crypto-daily-business-operations-across-firm",
-    "category": "global_banks",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Custody & Safekeeping",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "U.S. CFTC's Selig says AI has helped make up for staffing cuts at key crypto watchdog",
-    "description": "CFTC Chairman Mike Selig testified before the House Agriculture Committee that the agency has deployed AI tools — including Microsoft Copilot — to absorb productivity losses stemming from a roughly 25% reduction in headcount since 2025, even as its regulatory mandate has expanded materially into spot crypto markets and prediction markets. The enforcement division now stands at approximately 108 staff, about 23% below its 2025 level of 140, despite a budget request that adds only three additional enforcement positions. Selig confirmed that \"numerous investigations\" are underway in prediction markets — where platforms like Polymarket and Kalshi have scaled from millions to billions in volume and face allegations of insider trading tied to U.S.",
-    "date": "2026-04-16",
-    "source_url": "https://www.coindesk.com/policy/2026/04/16/u-s-cftc-s-selig-says-ai-has-helped-make-up-for-staffing-cuts-at-key-crypto-watchdog",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
