@@ -1,5 +1,45 @@
 [
   {
+    "institution": "Federal Reserve",
+    "initiative": "Hot inflation data pours cold water on Federal Reserve rate cut hopes",
+    "description": "Bitcoin was trading at $80,814 following the news, down 1.2% over the past 24 hours.",
+    "date": "2026-05-12",
+    "source_url": "https://www.coindesk.com/markets/2026/05/12/hot-inflation-data-pours-cold-water-on-federal-reserve-rate-cut-hopes",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainlink",
+    "initiative": "DTCC builds out blockchain-based collateral system with Chainlink integration",
+    "description": "The platform tokenizes collateral on blockchain rails and uses smart contracts to enable 24/7 automated collateral management across financial markets.",
+    "date": "2026-05-12",
+    "source_url": "https://www.coindesk.com/business/2026/05/12/dtcc-taps-chainlink-for-its-tokenized-collateral-platform-ahead-of-q4-launch",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Circle",
     "initiative": "Circle’s Q1 USDC revenue, profit fall but ARC token presale a winner",
     "description": "Circle's Q1 profits dip despite a $222M presale of its new ARC token, while USDC gains market share and transaction volume in the stablecoin space.",
@@ -9926,47 +9966,6 @@
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "The 24-hour trap: Why the UK’s new crypto rules could catch some firms off guard",
-    "description": "The UK Financial Conduct Authority published its Cryptoasset Perimeter Guidance on April 16, drawing most crypto-related activities under the Financial Services and Markets Act framework ahead of an October 2027 implementation deadline. A critical operational threshold is the 24-hour custody rule: any firm retaining client assets beyond that window during settlement, or holding technical authority to override client control, is classified as a regulated custodian and must obtain a full safeguarding licence — a designation that could unexpectedly capture software providers, wallets, and trading platforms that have not previously considered themselves custody businesses.",
-    "date": "2026-04-16",
-    "source_url": "https://www.coindesk.com/policy/2026/04/16/uk-s-financial-watchdog-releases-sweeping-crypto-asset-framework-for-final-consultation",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Custody & Safekeeping",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Mastercard",
-    "initiative": "AI agents make card purchases with new Mastercard–Lobster.cash integration",
-    "description": "Payments companies are increasingly investing in new tools that will enable agents to safely execute transactions.",
-    "date": "2026-04-16",
-    "source_url": "https://www.theblock.co/post/397755/ai-agents-make-card-purchases-with-new-mastercard-lobster-cash-integration",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards"
     ],
     "initiative_types": [],
     "year": "2026"
