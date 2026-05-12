@@ -9894,6 +9894,23 @@
     "year": "2026"
   },
   {
+    "institution": "Chainalysis",
+    "initiative": "Sanctioned Russia-Linked Exchange Grinex Suspends Operations Following Alleged Cyberattack",
+    "description": "Grinex, the sanctioned successor to the Russian exchange Garantex, suspended operations yesterday following a claimed 1 billion ruble ($13.7… Sanctioned Russia-Linked Exchange Grinex Suspends Operations Following Alleged Cyberattack",
+    "date": "2026-04-17",
+    "source_url": "https://www.chainalysis.com/blog/sanctioned-grinex-exchange-suspends-operations/",
+    "category": "ecosystem",
+    "source_name": "Chainalysis — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Mastercard",
     "initiative": "AI will control your payments sooner than you think - Bunita Sawhney (CPO, Mastercard)",
     "description": "In this episode of the WRAP UP Podcast, I sat down with Bunita Sawhney, Chief Consumer Product Officer at Mastercard, to reflect on how consumer payments are changing beneath the surface.",
@@ -9908,26 +9925,6 @@
       "Payments & Transfers"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "NYSE files first SEC rule change on tokenization journey",
-    "description": "NYSE has submitted a formal rule change filing to the SEC seeking authorization to trade tokenized securities on its primary order book, following the same structural framework established by Nasdaq's March 2026 filing and the DTC's December 2025 no-action letter, which together created the regulatory scaffolding for tokenized equity entitlements within existing market infrastructure. The proposal covers Russell 1000 constituents and major index ETFs, with tokenized and conventional shares sharing the same CUSIP, execution priority, and T+1 settlement pathway through NSCC/DTC rails — meaning no parallel settlement system is required.",
-    "date": "2026-04-17",
-    "source_url": "https://www.ledgerinsights.com/nyse-files-first-sec-rule-change-on-tokenization-journey/",
-    "category": "regulators",
-    "source_name": "Ledger Insights",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
