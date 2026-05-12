@@ -1,5 +1,57 @@
 [
   {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "U.S. CFTC in talks with every major pro sports league on policing prediction markets",
+    "description": "Chairman Michael Selig says the agency has already taken several states to court to prove that sports contracts aren't just betting but that they're derivatives.",
+    "date": "2026-05-12",
+    "source_url": "https://www.coindesk.com/policy/2026/05/12/the-cftc-is-in-talks-with-every-major-pro-sports-league-to-crack-down-on-insider-trading",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Binance's chief marketing officer Rachel Conlan to leave the exchange",
+    "description": "Eowyn Chen, former CEO of Trust Wallet, will serve as her interim replacement.",
+    "date": "2026-05-12",
+    "source_url": "https://www.coindesk.com/business/2026/05/12/binance-s-chief-marketing-officer-rachel-conlan-is-leaving-the-exchange",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase adds Solana-backed loans through Morpho, letting users borrow up to $100,000",
+    "description": "Coinbase users can now borrow up to $100,000 against their SOL holdings through the exchange's Morpho integration on Base.",
+    "date": "2026-05-12",
+    "source_url": "https://www.theblock.co/post/400980/coinbase-solana-loans-morpho-borrow-100000",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Federal Reserve Board announces termination of enforcement actions with F & M Holding Company, Inc. and Thread Bancorp, Inc.",
     "description": "Federal Reserve Board announces termination of enforcement actions with F & M Holding Company, Inc. and Thread Bancorp, Inc.",
@@ -9635,6 +9687,23 @@
     "year": "2026"
   },
   {
+    "institution": "Mastercard",
+    "initiative": "AI will control your payments sooner than you think - Bunita Sawhney (CPO, Mastercard)",
+    "description": "In this episode of the WRAP UP Podcast, I sat down with Bunita Sawhney, Chief Consumer Product Officer at Mastercard, to reflect on how consumer payments are changing beneath the surface.",
+    "date": "2026-04-17",
+    "source_url": "https://www.fintechwrapup.com/p/ai-will-control-your-payments-sooner",
+    "category": "payments",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "NYSE files first SEC rule change on tokenization journey",
     "description": "NYSE has submitted a formal rule change filing to the SEC seeking authorization to trade tokenized securities on its primary order book, following the same structural framework established by Nasdaq's March 2026 filing and the DTC's December 2025 no-action letter, which together created the regulatory scaffolding for tokenized equity entitlements within existing market infrastructure. The proposal covers Russell 1000 constituents and major index ETFs, with tokenized and conventional shares sharing the same CUSIP, execution priority, and T+1 settlement pathway through NSCC/DTC rails — meaning no parallel settlement system is required.",
@@ -9879,87 +9948,6 @@
     "initiative_types": [
       "Crypto / Digital Assets",
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Tillis Delays Clarity Act Stablecoin Yield Text, Citing Uncertainty Over Markup Timing",
-    "description": "Sen. Thom Tillis said he won't release the stablecoin yield compromise text this week, pushing back a key step in the months-long fight between banks and crypto firms over the CLARITY Act.",
-    "date": "2026-04-17",
-    "source_url": "https://unchainedcrypto.com/tillis-delays-clarity-act-stablecoin-yield-text-citing-uncertainty-over-markup-timing-unchained/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Charles Schwab Launches Spot Bitcoin and Ethereum Trading in Phased Rollout",
-    "description": "The brokerage giant begins rolling out Schwab Crypto to its 39 million clients, pricing trades at 75 basis points with Paxos handling custody.",
-    "date": "2026-04-17",
-    "source_url": "https://unchainedcrypto.com/charles-schwab-launches-spot-bitcoin-and-ethereum-trading-in-phased-rollout-unchained/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Tether",
-    "initiative": "Tether launches stablecoin wallet",
-    "description": "Tether launched a stablecoin wallet on Tuesday, allowing users to transfer digital dollars, tokenised gold, and bitcoin across multiple blockchains.",
-    "date": "2026-04-17",
-    "source_url": "https://www.finextra.com/newsarticle/47595/tether-launches-stablecoin-wallet",
-    "category": "payments",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Russia-linked Grinex exchange halts operations after $13 million ‘state-backed’ hack",
-    "description": "Grinex — the Kyrgyzstan-based exchange that rebranded from Garantex following coordinated 2025 sanctions imposed by the U.S., U.K., and EU — suspended all trading and client withdrawals after attackers drained approximately 1 billion rubles (~$13 million), predominantly in USDT held on the Tron blockchain across 54 identified wallet addresses. The platform publicly attributed the breach to state-sponsored actors from \"unfriendly states,\" framing it as a deliberate strike against Russian financial infrastructure, though no independent attribution has been confirmed.",
-    "date": "2026-04-17",
-    "source_url": "https://www.coindesk.com/business/2026/04/17/russia-linked-grinex-exchange-halts-operations-after-usd13-million-state-backed-hack",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
   }
