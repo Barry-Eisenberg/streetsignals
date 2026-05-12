@@ -1,5 +1,27 @@
 [
   {
+    "institution": "Chainlink",
+    "initiative": "DTCC Chainlink deal launches Collateral AppChain platform",
+    "description": "The DTCC Chainlink Collateral AppChain partnership will automate 24/7 collateral management across global markets by Q4 2026. The Depository Trust and Clearing Corporation has announced that its Collateral AppChain will integrate the Chainlink Runtime Environment and Chainlink’s data standard to… DTCC Chainlink deal launches Collateral AppChain platform",
+    "date": "2026-05-12",
+    "source_url": "https://crypto.news/dtcc-chainlink-deal-targets-24-7-collateral-management/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Collateral & Lending",
+      "Interoperability & Standards",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "JPMorgan",
     "initiative": "JPMorgan files to launch new tokenized fund as Wall Street tokenization race heats up",
     "description": "The global banking giant is expanding its tokenized money market lineup, following BlackRock's similar move just a few days ago.",
@@ -9908,23 +9930,6 @@
     "initiative_types": [
       "Leadership & Governance"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Mastercard",
-    "initiative": "AI will control your payments sooner than you think - Bunita Sawhney (CPO, Mastercard)",
-    "description": "In this episode of the WRAP UP Podcast, I sat down with Bunita Sawhney, Chief Consumer Product Officer at Mastercard, to reflect on how consumer payments are changing beneath the surface.",
-    "date": "2026-04-17",
-    "source_url": "https://www.fintechwrapup.com/p/ai-will-control-your-payments-sooner",
-    "category": "payments",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
