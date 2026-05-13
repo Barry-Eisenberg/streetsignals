@@ -1,5 +1,22 @@
 [
   {
+    "institution": "Federal Reserve",
+    "initiative": "Tokenized Treasuries set record at $15.35 billion",
+    "description": "Tokenized Treasuries reached $15.35 billion in total value locked on May 13, surpassing the previous mid-April peak of $15.10 billion, according… Tokenized Treasuries set record at $15.35 billion",
+    "date": "2026-05-13",
+    "source_url": "https://crypto.news/tokenized-treasuries-hit-15b-record-as-bitcoin-stalls/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Consensys",
     "initiative": "Ethereum app builder Consensys has delayed its potential IPO until fall",
     "description": "The MetaMask wallet builder had reportedly engaged bankers from JPMorgan and Goldman Sachs to lead the process.",
@@ -9899,25 +9916,6 @@
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Deutsche Bank",
-    "initiative": "U.S. crypto adoption is rebounding, bitcoin still dominates, Deutsche Bank says",
-    "description": "Deutsche Bank published findings from a 3,400-person retail survey across the U.S., U.K., and EU showing U.S. crypto participation rebounded to 12% in March 2026 from a February trough of 7%, recovering to levels last seen in mid-2025, though the survey's all-time high remains just 14% since tracking began in 2023. The recovery coincided with approximately $1.3 billion in net inflows into U.S. spot bitcoin ETFs during March, suggesting institutional and retail demand are moving in parallel after a soft start to the year. Despite the participation rebound, consumer price sentiment is bearish, with a majority of U.S. respondents expecting bitcoin to trade below current ~$75,000 levels by year-end and only 3% anticipating a return to the late-2025 peak above $120,000.",
-    "date": "2026-04-20",
-    "source_url": "https://www.coindesk.com/markets/2026/04/20/u-s-crypto-adoption-is-rebounding-bitcoin-still-dominates-deutsche-bank-says",
-    "category": "global_banks",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
