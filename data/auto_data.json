@@ -1,5 +1,40 @@
 [
   {
+    "institution": "Federal Reserve",
+    "initiative": "Federal Reserve Board issues Economic Well-Being of U.S. Households in 2025 report",
+    "description": "Federal Reserve Board issues Economic Well-Being of U.S. Households in 2025 report",
+    "date": "2026-05-13",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260513a.htm",
+    "category": "regulators",
+    "source_name": "Federal Reserve — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Metaplanet delays preferred share listing amid challenging Japanese market structure",
+    "description": "CEO Simon Gerovich says regulatory and infrastructure challenges are slowing the launch of Metaplanet's perpetual preferred share.",
+    "date": "2026-05-13",
+    "source_url": "https://www.coindesk.com/markets/2026/05/13/metaplanet-delays-preferred-share-listing-amid-challenging-japanese-market-structure",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Digital Asset Platform",
     "initiative": "Anchorage and Mexican billionaire’s Grupo Salinas ink cross-border payments partnership",
     "description": "Grupo Salinas is set to integrate Anchorage Digital's stablecoin infrastructure into its cross-border payment flows.",
@@ -9885,36 +9920,6 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "ECB (European Central Bank)",
-    "initiative": "Piero Cipollone: Sparking the transformation of finance - tokenisation and the role of central banks",
-    "description": "ECB Executive Board member Piero Cipollone used a Harvard Law School symposium on 15 April 2026 to lay out the institutional case for why tokenisation and distributed ledger technology represent a structurally distinct break from prior waves of financial innovation, rather than incremental improvement. His central empirical anchor was the stubborn persistence of financial intermediation costs — roughly 2% of intermediated assets in the United States since the late 19th century, a figure he noted holds across major European economies — arguing that derivatives, electronic trading, and dematerialisation all failed to pass efficiency gains through to end borrowers and savers.",
-    "date": "2026-04-20",
-    "source_url": "https://www.bis.org/review/r260416k.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Vasileios Madouros: Minding the tails - safeguarding resilience of non-bank finance",
-    "description": "Vasileios Madouros, Deputy Governor of the Central Bank of Ireland, delivered a policy speech to Irish Funds in Dublin on 9 April 2026, setting out the central bank's supervisory posture toward the non-bank financial intermediation (NBFI) sector amid an elevated tail-risk environment. He framed the speech around the structural weight of non-banks — which now hold roughly half of global financial assets — and Ireland's outsized role as a domicile for European fund activity, with approximately €6 trillion in assets under management.",
-    "date": "2026-04-20",
-    "source_url": "https://www.bis.org/review/r260416d.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
