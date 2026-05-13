@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Consensys",
+    "initiative": "Ethereum app builder Consensys has delayed its potential IPO until fall",
+    "description": "The MetaMask wallet builder had reportedly engaged bankers from JPMorgan and Goldman Sachs to lead the process.",
+    "date": "2026-05-13",
+    "source_url": "https://www.coindesk.com/business/2026/05/13/ethereum-app-builder-consensys-has-delayed-its-potential-ipo-until-fall",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Federal Reserve Board issues Economic Well-Being of U.S. Households in 2025 report",
     "description": "Federal Reserve Board issues Economic Well-Being of U.S. Households in 2025 report",
@@ -9898,26 +9917,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Ripple",
-    "initiative": "Ripple races to make XRP Ledger quantum-ready as computing threat turns ‘credible’",
-    "description": "The company also made the case that XRP Ledger is better prepared than other blockchains, including Ethereum.",
-    "date": "2026-04-20",
-    "source_url": "https://www.theblock.co/post/398105/ripple-races-to-make-xrp-ledger-quantum-ready-as-computing-threat-turns-credible",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
