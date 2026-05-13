@@ -1,5 +1,62 @@
 [
   {
+    "institution": "Nasdaq",
+    "initiative": "Solana treasury firm Upexi posts $109 million quarterly net loss amid crypto markdowns",
+    "description": "The Nasdaq-listed firm said the net loss was mainly driven by $92.3 million of unrealized losses on digital assets.",
+    "date": "2026-05-13",
+    "source_url": "https://www.theblock.co/post/401104/upexi-posts-109-million-quarterly-losses",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "21Shares Launches THYP and TXXH on Nasdaq, the First U.S. ETFs Tracking Hyperliquid",
+    "description": "The first U.S. Hyperliquid ETFs gave HYPE holders regulated brokerage access, with THYP posting $1.8 million in day-one volume and built-in staking rewards.",
+    "date": "2026-05-13",
+    "source_url": "https://unchainedcrypto.com/21shares-launches-thyp-and-txxh-on-nasdaq-the-first-u-s-etfs-tracking-hyperliquid/",
+    "category": "exchanges_intermediaries",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "JPMorgan Files for Second Tokenized Money Market Fund on Ethereum, Designed for Stablecoin Reserves",
+    "description": "JPMorgan filed Tuesday for JLTXX, a tokenized money market fund engineered to meet stablecoin reserve requirements under the GENIUS Act, deepening the bank's push onto public blockchain rails.",
+    "date": "2026-05-13",
+    "source_url": "https://unchainedcrypto.com/jpmorgan-files-for-second-tokenized-money-market-fund-on-ethereum-designed-for-stablecoin-reserves/",
+    "category": "payments",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "crypto.news",
     "initiative": "21Shares launches first U.S. Hyperliquid ETFs with staking exposure",
     "description": "21Shares has launched the first U.S.-listed exchange-traded funds tied to Hyperliquid’s HYPE token, introducing both a spot product with staking exposure and a leveraged fund tied to the decentralized derivatives platform. According to a statement shared with crypto.news, the new… 21Shares launches first U.S. Hyperliquid ETFs with staking exposure",
@@ -9867,65 +9924,6 @@
     "signal_type": "Product Launch",
     "fmi_areas": [
       "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Bank of France calls for ‘strengthening of MiCA’ on stablecoins",
-    "description": "Bank of France Deputy Governor Denis Beau is advocating for stricter MiCA regulations on stablecoins to mitigate risks in the EU payment system.",
-    "date": "2026-04-20",
-    "source_url": "https://coingeek.com/bank-of-france-calls-for-strengthening-of-mica-on-stablecoins/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Polymarket seeks $400 million raise at $15 billion valuation: report",
-    "description": "Polymarket had a $9 billion post-money valuation in October after Intercontinental Exchange agreed to invest up to $2 billion.",
-    "date": "2026-04-20",
-    "source_url": "https://www.theblock.co/post/398022/polymarket-funding-15-billion-valuation",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "Kraken parent to pay $550m for CFTC-licensed derivatives platform Bitnomial",
-    "description": "The parent company of crypto exchange Kraken has struck a $550 million deal to buy Bitnomial, a fully CFTC-licensed derivatives platform built for digital assets.",
-    "date": "2026-04-20",
-    "source_url": "https://www.finextra.com/newsarticle/47597/kraken-parent-to-pay-550m-for-cftc-licensed-derivatives-platform-bitnomial",
-    "category": "regulators",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
