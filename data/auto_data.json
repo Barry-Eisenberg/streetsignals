@@ -1,5 +1,22 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "The Trafalgar squeeze of global liquidity",
+    "description": "by Vincent Bignon, Benoit Mojon, Miguel Ortiz Serrano The severity of financial crises is exacerbated by the lack of international liquidity or the absence of a global lender of last resort. This was evident during the Long Depression (1873-1896), the Great Depression (1929-1936), and, as we show in this paper, during the 1805-1806 crisis that followed the Battle of Trafalgar. The latter took Atlantic trade routes away from Spain and cut off Europe's access to Latin American silver, the key high-powered money of the time. This silver shortage led the Banque de France to cut lending by nearly 50% within three months, deliberately tightening credit to hoard specie and restore the value of its bank notes.",
+    "date": "2026-05-13",
+    "source_url": "https://www.bis.org/publ/work1347.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinGeek",
     "initiative": "Latest (last?) CLARITY draft sparks last-minute stakeholder push",
     "description": "Congress unveils the latest CLARITY Act draft amid fierce lobbying from banks and unions, impacting digital asset rewards and DeFi protections.",
@@ -9914,23 +9931,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Aave’s TVL Tanks $6.6 Billion as Kelp DAO Hack Sparks Bad Debt and Structural Fears",
-    "description": "After the Kelp DAO exploit, the attacker used $292 million in stolen rsETH as collateral on Aave V3, generating roughly $196 million in bad debt and triggering a $6.6 billion TVL collapse.",
-    "date": "2026-04-20",
-    "source_url": "https://unchainedcrypto.com/aaves-6-6-billion-tvl-drop-exposes-structural-risk-from-liquid-restaking-tokens/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
