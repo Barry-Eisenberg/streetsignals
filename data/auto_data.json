@@ -1,5 +1,63 @@
 [
   {
+    "institution": "Digital Asset Exchange",
+    "initiative": "Ethereum wants to end blind signing with new security feature",
+    "description": "Ethereum launches Clear Signing to make wallet approvals readable, with Ledger, Trezor and MetaMask backing ERC-7730 after Bybit hack risks.",
+    "date": "2026-05-13",
+    "source_url": "https://crypto.news/ethereum-wants-to-end-blind-signing-with-new-security-feature/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "Kalshi gets CFTC support in Ohio sports market appeal",
+    "description": "CFTC backs Kalshi in Ohio appeal, saying prediction markets on regulated exchanges fall under federal oversight, not state gambling rules",
+    "date": "2026-05-13",
+    "source_url": "https://crypto.news/kalshi-gets-cftc-support-in-ohio-sports-market-appeal/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "JPMorgan joins reserve fund race with Ethereum-based JLTXX",
+    "description": "JPMorgan files JLTXX, an Ethereum money market fund for stablecoin issuers seeking Treasury-backed reserves under new GENIUS Act rules today",
+    "date": "2026-05-13",
+    "source_url": "https://crypto.news/jpmorgan-joins-reserve-fund-race-with-ethereum-based-jltxx/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "crypto.news",
     "initiative": "LMAX opens Kiosk to plug crypto collateral into FX and metals",
     "description": "LMAX Group launches Kiosk to let institutions use digital assets in custody as collateral across FX, metals, CFDs and crypto markets in 2026",
@@ -9871,69 +9929,6 @@
     ],
     "initiative_types": [
       "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Nomura",
-    "initiative": "Nomura study says 65% of institutional investors see crypto as a vital portfolio diversifier",
-    "description": "Nomura and its crypto subsidiary Laser Digital surveyed more than 500 investment professionals in Japan, finding a measurable improvement in institutional sentiment toward digital assets compared to their 2024 baseline. The shift is being underpinned by Japan's ongoing refinement of its crypto regulatory framework — covering asset classification, taxation, and investor protections — alongside the broader global expansion of regulated investment vehicles such as ETFs and tokenized funds, which have lowered the structural barriers to entry.",
-    "date": "2026-04-19",
-    "source_url": "https://www.coindesk.com/business/2026/04/19/nomura-study-says-65-of-institutional-investors-see-crypto-as-a-vital-portfolio-diversifier",
-    "category": "asset_management",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Stripe",
-    "initiative": "Stripe doubles down on blockchain and stablecoins, aiming to become 'AWS for money'",
-    "description": "Demand is emerging fastest in the Global South and cross-border use cases, where cards fail and currencies are unstable, said Adrien Duchâteau, Stripe's crypto GTM lead.",
-    "date": "2026-04-18",
-    "source_url": "https://www.coindesk.com/business/2026/04/18/stripe-doubles-down-on-blockchain-and-stablecoins-aiming-to-become-aws-for-money",
-    "category": "payments",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Zondacrypto under fire as Poland's prime minister links exchange to legislative interference",
-    "description": "Polish cryptocurrency exchange Zondacrypto is facing simultaneous operational, political, and regulatory crises following reports of frozen or delayed customer withdrawals since late March. Prime Minister Donald Tusk told parliament the exchange had financially backed legislators who blocked EU crypto market regulation, and separately flagged alleged links to Russia, raising the political stakes for an already embattled platform. CEO Przemysław Kral acknowledged the exchange cannot access a wallet holding approximately 4,500 BTC (~$330 million) because former CEO Sylwester Suszek—who has been missing for four years—failed to transfer the private key during the 2021 ownership transition from BitBay, undermining the wallet's utility as a proof-of-reserves.",
-    "date": "2026-04-18",
-    "source_url": "https://www.coindesk.com/business/2026/04/18/zondacrypto-under-fire-as-poland-s-prime-minister-links-exchange-to-legislative-interference",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
