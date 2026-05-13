@@ -1,5 +1,90 @@
 [
   {
+    "institution": "ECB (European Central Bank)",
+    "initiative": "Frank Elderson: Boosting prosperity through deeper integration",
+    "description": "Keynote speech by Mr Frank Elderson, Member of the Executive Board of the European Central Bank and Vice-Chair of the Supervisory Board of the European Central Bank, at the conference \"Financing Europe: a new era of strategic investment\", Brussels, 12 May 2026.",
+    "date": "2026-05-13",
+    "source_url": "https://www.bis.org/review/r260513c.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Michael Atingi-Ego: Judicial Officers Colloquium",
+    "description": "Keynote address by Mr Michael Atingi-Ego, Governor of the Bank of Uganda, at aBi Finance Limited Partners' Breakfast Meeting, Kampala, 29 April 2026.",
+    "date": "2026-05-13",
+    "source_url": "https://www.bis.org/review/r260512h.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Bank of England",
+    "initiative": "Sam Woods: Clinical supervision",
+    "description": "Text of The Henry Thornton Lecture by Mr Sam Woods, Deputy Governor for Prudential Regulation of the Bank of England and Chief Executive of the Prudential Regulation Authority (PRA), at Bayes Business School, London, 12 May 2026.",
+    "date": "2026-05-13",
+    "source_url": "https://www.bis.org/review/r260513b.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "ESMA (European Securities and Markets Authority)",
+    "initiative": "ESMA issues guidance on effective use of resolution tools in CCP crisis planning",
+    "description": "In doing so, NRAs should take into account the impact on relevant stakeholders, such as clearing members, financial markets and financial market infrastructures. By promoting consistent practices across jurisdictions, it fosters effective financial markets and financial stability, strategic priorities for ESMA. ESMA issues guidance on effective use of resolution tools in CCP crisis planning",
+    "date": "2026-05-13",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-issues-guidance-effective-use-resolution-tools-ccp-crisis-planning",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Binance expands into TradFi perpetuals as crypto traders chase macro exposure",
+    "description": "Binance will roll out a new suite of U-margined perpetual futures contracts tied to traditional financial assets on May 15, adding exposure to Oracle, Disney, Uber, Cisco, Home Depot and Litecoin as the exchange accelerates its push into hybrid crypto-TradFi… Binance expands into TradFi perpetuals as crypto traders chase macro exposure",
+    "date": "2026-05-13",
+    "source_url": "https://crypto.news/binance-expands-into-tradfi-perpetuals-as-crypto-traders-chase-macro-exposure/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "The Trafalgar squeeze of global liquidity",
     "description": "by Vincent Bignon, Benoit Mojon, Miguel Ortiz Serrano The severity of financial crises is exacerbated by the lack of international liquidity or the absence of a global lender of last resort. This was evident during the Long Depression (1873-1896), the Great Depression (1929-1936), and, as we show in this paper, during the 1805-1806 crisis that followed the Battle of Trafalgar. The latter took Atlantic trade routes away from Spain and cut off Europe's access to Latin American silver, the key high-powered money of the time. This silver shortage led the Banque de France to cut lending by nearly 50% within three months, deliberately tightening credit to hoard specie and restore the value of its bank notes.",
@@ -9829,107 +9914,6 @@
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase, Bybit said to be working together on tokenization, custody and distribution of U.S. stocks",
-    "description": "Coinbase and Bybit are in active discussions to collaborate on the tokenization, custody, and cross-border distribution of U.S. public equities and pre-IPO stocks, with Bybit's extensive retail and institutional reach in Asia serving as the primary distribution channel for U.S.-originated tokenized assets. The arrangement is structured as a product and infrastructure partnership rather than any equity transaction, clarifying earlier market speculation about a potential stake acquisition.",
-    "date": "2026-04-20",
-    "source_url": "https://www.coindesk.com/business/2026/04/20/coinbase-bybit-said-to-be-working-together-on-tokenization-custody-and-distribution-of-u-s-stocks",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA (European Securities and Markets Authority)",
-    "initiative": "ESMA publishes latest edition of its newsletter",
-    "description": "Key publications featured in this edition include: Annual transparency calculations for equity and equity-like instruments ; a joint EBA-ESMA consultation on revised suitability assessment requirements for banks and investment firms ; ESMA’s proposals to simplify MiFID II/MiFIR obligations on market data ; and Statement supporting the smooth implementation of the Listing Act and simplified prospectus compliance for issuers . Other updates in this edition cover new Q&As , EMIR 3, supervisory and enforcement actions, market abuse guidelines , sustainability reporting , and upcoming events.",
-    "date": "2026-04-20",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-latest-edition-its-newsletter-42",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS (Bank for International Settlements)",
-    "initiative": "The geography of AI firms",
-    "description": "BIS Working Paper: Mapping the Global AI Production Landscape Published by the Bank for International Settlements (BIS Working Paper No. 1343), this research constructs a novel dataset identifying 1,246 AI-producing firms across 32 economies, categorised across five supply chain layers spanning compute infrastructure through to end-user applications. The US and China dominate production with roughly 700 and 250 firms respectively, while most other economies show narrow specialisation—predominantly in compute—and strong home bias in cross-border investment flows.",
-    "date": "2026-04-20",
-    "source_url": "https://www.bis.org/publ/work1343.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS (Bank for International Settlements)",
-    "initiative": "BIS says stablecoins act more like ETFs than money, warns of fragmentation without global rules: report",
-    "description": "The BIS warned stablecoins resemble ETFs, not money, and called for global rules to prevent fragmentation across the $300 billion market.",
-    "date": "2026-04-20",
-    "source_url": "https://www.theblock.co/post/398072/bis-says-stablecoins-act-more-like-etfs-than-money-warns-of-fragmentation-without-global-rules-report",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Bank of England",
-    "initiative": "BoE governor urges quick action on global stablecoin standards",
-    "description": "Bank of England Governor Andrew Bailey calls for global standards on stablecoins to ensure stable value and enhance regulatory consistency.",
-    "date": "2026-04-20",
-    "source_url": "https://coingeek.com/boe-governor-urges-quick-action-on-global-stablecoin-standards/",
-    "category": "regulators",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   }
