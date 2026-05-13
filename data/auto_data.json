@@ -1,5 +1,24 @@
 [
   {
+    "institution": "crypto.news",
+    "initiative": "21Shares launches first U.S. Hyperliquid ETFs with staking exposure",
+    "description": "21Shares has launched the first U.S.-listed exchange-traded funds tied to Hyperliquid’s HYPE token, introducing both a spot product with staking exposure and a leveraged fund tied to the decentralized derivatives platform. According to a statement shared with crypto.news, the new… 21Shares launches first U.S. Hyperliquid ETFs with staking exposure",
+    "date": "2026-05-13",
+    "source_url": "https://crypto.news/21shares-launches-first-u-s-hyperliquid-etfs-with-staking-exposure/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Digital Asset Exchange",
     "initiative": "Ethereum wants to end blind signing with new security feature",
     "description": "Ethereum launches Clear Signing to make wallet approvals readable, with Ledger, Trezor and MetaMask backing ERC-7730 after Bybit hack risks.",
@@ -9910,25 +9929,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Aave records $6 billion TVL drop as Kelp hack exposes structural risk at DeFi lender",
-    "description": "The AAVE token fell 16% and deposits fled the protocol after attackers used drained rsETH as collateral to borrow wrapped ether, leaving Aave to quantify how much bad debt it is now carrying.",
-    "date": "2026-04-19",
-    "source_url": "https://www.coindesk.com/tech/2026/04/19/aave-records-usd6-billion-tvl-drop-as-kelp-hack-exposes-structural-risk-at-defi-lender",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "DeFi"
     ],
     "year": "2026"
   }
