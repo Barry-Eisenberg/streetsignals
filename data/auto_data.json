@@ -1,5 +1,25 @@
 [
   {
+    "institution": "crypto.news",
+    "initiative": "Ray Dalio rejects Bitcoin as reserve asset",
+    "description": "Bridgewater Associates founder Ray Dalio posted on X on May 11 that Bitcoin’s public ledger is the core reason central banks are unlikely… Ray Dalio said Bitcoin lacks privacy and its transparency is why central banks will not hold it. Ray Dalio rejects Bitcoin as reserve asset",
+    "date": "2026-05-12",
+    "source_url": "https://crypto.news/ray-dalio-says-bitcoin-blocks-central-banks/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Interoperability & Standards",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Chainlink",
     "initiative": "DTCC Chainlink deal launches Collateral AppChain platform",
     "description": "The DTCC Chainlink Collateral AppChain partnership will automate 24/7 collateral management across global markets by Q4 2026. The Depository Trust and Clearing Corporation has announced that its Collateral AppChain will integrate the Chainlink Runtime Environment and Chainlink’s data standard to… DTCC Chainlink deal launches Collateral AppChain platform",
@@ -9912,23 +9932,6 @@
     ],
     "initiative_types": [
       "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "Sanctioned Russia-Linked Exchange Grinex Suspends Operations Following Alleged Cyberattack",
-    "description": "Grinex, the sanctioned successor to the Russian exchange Garantex, suspended operations yesterday following a claimed 1 billion ruble ($13.7… Sanctioned Russia-Linked Exchange Grinex Suspends Operations Following Alleged Cyberattack",
-    "date": "2026-04-17",
-    "source_url": "https://www.chainalysis.com/blog/sanctioned-grinex-exchange-suspends-operations/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
     ],
     "year": "2026"
   }
