@@ -1,5 +1,43 @@
 [
   {
+    "institution": "Digital Asset Platform",
+    "initiative": "Anchorage and Mexican billionaire’s Grupo Salinas ink cross-border payments partnership",
+    "description": "Grupo Salinas is set to integrate Anchorage Digital's stablecoin infrastructure into its cross-border payment flows.",
+    "date": "2026-05-13",
+    "source_url": "https://www.theblock.co/post/401066/anchorage-grupo-salinas-partnership",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Rate-cut expectations fade as strong PPI data signals persistent inflation pressure",
+    "description": "inflation print has complicated the Federal Reserve’s policy outlook, with markets rapidly repricing the likelihood of rate cuts this year after April’s Producer Price Index (PPI) came in at 1.4%. A stronger-than-expected U.S. Rate-cut expectations fade as strong PPI data signals persistent inflation pressure",
+    "date": "2026-05-13",
+    "source_url": "https://crypto.news/rate-cut-expectations-fade-as-strong-ppi-data-signals-persistent-inflation-pressure/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "ECB (European Central Bank)",
     "initiative": "Frank Elderson: Boosting prosperity through deeper integration",
     "description": "Keynote speech by Mr Frank Elderson, Member of the Executive Board of the European Central Bank and Vice-Chair of the Supervisory Board of the European Central Bank, at the conference \"Financing Europe: a new era of strategic investment\", Brussels, 12 May 2026.",
@@ -9659,6 +9697,23 @@
     "year": "2026"
   },
   {
+    "institution": "BIS",
+    "initiative": "The geography of AI firms",
+    "description": "by Kumar Rishabh, Vatsala Shreeti In this paper, we trace the geography and economic characteristics of firms that produce artificial intelligence (AI) products and services. Many economies around the world are evaluating their strategic priorities in AI, yet relatively little is documented about the global distribution of AI production.",
+    "date": "2026-04-20",
+    "source_url": "https://www.bis.org/publ/work1343.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Canton Network",
     "initiative": "Nomura, Mizuho, JSCC to trial tokenized collateral on Canton Network",
     "description": "Today Nomura, Mizuho and the Japan Securities Clearing Corporation (JSCC) and Digital Asset Holdings unveiled plans for a tokenized collateral trial for Japanese government bonds (JGBs) on the Canton Network. Two fo the proof of concept (PoC) participants, Nomura and Mizuho, were previously announced as participants of an FSA sandbox, the Payment Innovation Project (PIP)",
@@ -9860,61 +9915,6 @@
     "signal_type": "Research / Report",
     "fmi_areas": [],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "ECB (European Central Bank)",
-    "initiative": "Dimitar Radev: The current environment is not defined primarily by the baseline scenario. It is defined by the widening range of outcomes around it",
-    "description": "Bulgarian National Bank Governor Dimitar Radev delivered a formal macroeconomic assessment to diplomatic mission heads in Sofia on 30 March 2026, framing the current conjuncture not as a deviation from a baseline but as a structural widening of the distribution of plausible outcomes — a distinction with direct implications for how central banks and fiscal authorities calibrate policy buffers. Radev disclosed that the ECB Governing Council's March 18–19 meeting specifically modelled Middle East conflict transmission into euro area inflation via energy prices, concluding that short-term effects are manageable but medium-term persistence remains contingent on conflict duration and second-round pass-through.",
-    "date": "2026-04-20",
-    "source_url": "https://www.bis.org/review/r260416b.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS (Bank for International Settlements)",
-    "initiative": "Global stablecoin rulemaking slows, prompting BIS to urge cooperation to avoid fragmentation risks",
-    "description": "To mitigate risks like sudden withdrawals, policymakers are debating safeguards such as limiting interest payments and offering issuers access to central bank backstops.",
-    "date": "2026-04-20",
-    "source_url": "https://www.coindesk.com/policy/2026/04/20/global-stablecoin-rulemaking-slows-prompting-bis-to-urge-cooperation-to-avoid-fragmentation-risks",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Tether",
-    "initiative": "Tether backs UAE tokenization firm KAIO in $8M funding round to bring Emirati funds onchain",
-    "description": "The Abu Dhabi regulated firm build infrastruture to distribute insitutional funds on blockchain rails, lowering entry barrier for investors.",
-    "date": "2026-04-20",
-    "source_url": "https://www.coindesk.com/business/2026/04/20/tether-backs-uae-tokenization-firm-kaio-in-usd8m-funding-round-to-bring-emirati-funds-onchain",
-    "category": "payments",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
     "year": "2026"
   }
 ]
