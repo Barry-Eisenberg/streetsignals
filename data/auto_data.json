@@ -1,5 +1,46 @@
 [
   {
+    "institution": "CoinGeek",
+    "initiative": "Latest (last?) CLARITY draft sparks last-minute stakeholder push",
+    "description": "Congress unveils the latest CLARITY Act draft amid fierce lobbying from banks and unions, impacting digital asset rewards and DeFi protections.",
+    "date": "2026-05-13",
+    "source_url": "https://coingeek.com/latest-last-clarity-draft-sparks-last-minute-stakeholder-push/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Mastercard",
+    "initiative": "Alchemy Pay joins Mastercard program to expand crypto payments",
+    "description": "Alchemy Pay joins Mastercard Crypto Partner Program to build fiat-crypto payment tools and explore on-chain commerce integrations worldwide.",
+    "date": "2026-05-13",
+    "source_url": "https://crypto.news/alchemy-pay-joins-mastercard-program-to-expand-crypto-payments/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Nasdaq",
     "initiative": "Solana treasury firm Upexi posts $109 million quarterly net loss amid crypto markdowns",
     "description": "The Nasdaq-listed firm said the net loss was mainly driven by $92.3 million of unrealized losses on digital assets.",
@@ -9890,44 +9931,6 @@
       "Collateral & Lending"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Visa",
-    "initiative": "Lydian launches Visa crypto card",
-    "description": "Lydian, a digital assets payment infrastructure provider backed by Tether and Cantor Fitzgerald, is launching a co-branded Visa Platinum card issued by Rain.",
-    "date": "2026-04-20",
-    "source_url": "https://www.finextra.com/newsarticle/47598/lydian-launches-visa-crypto-card",
-    "category": "payments",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Morgan Stanley",
-    "initiative": "Spot bitcoin ETFs log nearly $1 billion in weekly inflows, highest since mid-January",
-    "description": "U.S. spot bitcoin ETFs collectively attracted $996.4 million in net inflows during the week ending April 20, 2026, the strongest weekly figure since mid-January and the third consecutive week of positive flows, bringing the three-week cumulative total above $1.8 billion. BlackRock's IBIT dominated activity, accounting for $906 million of the weekly total, consistent with its position as the largest bitcoin ETF by net assets. Morgan Stanley's recently launched MSBT — which debuted April 8 and is notable as a wirehoused, advisor-distributed product rather than a direct retail vehicle — completed its first full trading week with $71 million in net inflows and no daily outflow sessions since launch.",
-    "date": "2026-04-20",
-    "source_url": "https://www.theblock.co/post/398044/spot-bitcoin-etfs-1-billion-weekly-inflows",
-    "category": "global_banks",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
