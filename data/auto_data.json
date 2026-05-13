@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Fidelity",
+    "initiative": "Fidelity International’s first tokenized fund receives top-tier AAA-mf rating from Moody’s",
+    "description": "FILQ, modeled off Fidelity's existing low-volatility net asset value (LVNAV) fund, will provide 24/7 redemptions and settlements.",
+    "date": "2026-05-13",
+    "source_url": "https://www.theblock.co/post/401196/fidelity-internationals-first-tokenized-fund-receives-top-tier-aaa-mf-rating-from-moodys",
+    "category": "asset_management",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Tokenized Treasuries set record at $15.35 billion",
     "description": "Tokenized Treasuries reached $15.35 billion in total value locked on May 13, surpassing the previous mid-April peak of $15.10 billion, according… Tokenized Treasuries set record at $15.35 billion",
@@ -9898,25 +9917,6 @@
       "Collateral & Lending"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Blockchain sleuth accuses RaveDAO of knowing who manipulated the price of its token",
-    "description": "The on-chain sleuth cited \"suspicious\" exchange-linked activity as RAVE swung from $60 million in market capitalization to $6 billion and back.",
-    "date": "2026-04-20",
-    "source_url": "https://www.coindesk.com/business/2026/04/20/blockchain-sleuth-accuses-ravedao-of-knowing-who-manipulated-the-price-of-its-token",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
     "year": "2026"
   }
 ]
