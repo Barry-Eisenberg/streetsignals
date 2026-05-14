@@ -1,5 +1,41 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "The critical identifier your fund portfolio depends on, and probably nobody owns",
+    "description": "It is Monday morning. An operations analyst at a mid-sized European asset manager opens a rejection ... The critical identifier your fund portfolio depends on, and probably nobody owns",
+    "date": "2026-05-14",
+    "source_url": "https://www.finextra.com/blogposting/31711/the-critical-identifier-your-fund-portfolio-depends-on-and-probably-nobody-owns",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Circle",
+    "initiative": "Circle and Sequoia back Turnkey wallet infrastructure",
+    "description": "Turnkey announced the raise on May 14, with participation from Archetype, Bain Capital Crypto, Lightspeed Faction, Galaxy Ventures, and Variant alongside Circle Ventures and… Circle and Sequoia back Turnkey wallet infrastructure",
+    "date": "2026-05-14",
+    "source_url": "https://crypto.news/turnkey-raises-12-5m-for-wallet-infrastructure/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "U.S. Treasury Department",
     "initiative": "Grove launches $1 billion liquidity network for tokenized Treasury funds",
     "description": "Grove’s Basin liquidity network can supply up to $1 billion in daily stablecoin liquidity to support redemptions for tokenized U.S. Blockchain credit infrastructure company Grove has launched a liquidity network called Basin aimed at supporting instant redemptions for… Grove launches $1 billion liquidity network for tokenized Treasury funds",
@@ -9847,40 +9883,6 @@
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
     "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FSB (Financial Stability Board)",
-    "initiative": "Key Attributes Assessment Methodology for the Insurance Sector: Revised version",
-    "description": "The Financial Stability Board published a revised version of its Key Attributes Assessment Methodology for the Insurance Sector on 29 April 2026, updating the 2020 original to incorporate changes stemming from newly finalized guidance on which insurers fall within the scope of recovery and resolution planning requirements. The revision reflects the FSB's 2022 decision—reaffirmed in November 2025—to discontinue annual identification of global systemically important insurers (G-SIIs) and instead rely on the IAIS Holistic Framework to assess systemic risk, a structural shift that necessitated an updated definition of \"critical function\" embedded in the methodology via an explanatory note.",
-    "date": "2026-04-29",
-    "source_url": "https://www.fsb.org/2026/04/key-attributes-assessment-methodology-for-the-insurance-sector-revised-version/",
-    "category": "regulators",
-    "source_name": "FSB — Publications",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FSB (Financial Stability Board)",
-    "initiative": "Developing Effective Resolution Strategies and Plans for Systemically Important Insurers: Revised version",
-    "description": "The Financial Stability Board has released a revised version of its 2016 guidance on resolution strategies and plans for systemically important insurers, updated to incorporate changes to the definition of \"critical functions\" introduced through a companion scoping paper finalized simultaneously. The revised guidance is directed at national resolution authorities and Crisis Management Groups overseeing global systemically important insurers, setting out how preferred resolution strategies should be determined by analyzing business models, policyholder protection arrangements, and the criticality of specific insurance functions.",
-    "date": "2026-04-29",
-    "source_url": "https://www.fsb.org/2026/04/developing-effective-resolution-strategies-and-plans-for-systemically-important-insurers-revised-version/",
-    "category": "regulators",
-    "source_name": "FSB — Publications",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
       "Regulation & Compliance"
     ],
