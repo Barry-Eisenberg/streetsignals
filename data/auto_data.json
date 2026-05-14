@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "Coinbase stock climbs as CLARITY Act advances",
+    "description": "The Senate Banking Committee passed the Digital Asset Market Clarity Act on May 14 by 15 votes to 9, with… Coinbase stock surged 8% after the Senate Banking Committee advanced the CLARITY Act in a 15 to 9 bipartisan vote. Coinbase stock climbs as CLARITY Act advances",
+    "date": "2026-05-14",
+    "source_url": "https://crypto.news/coinbase-stock-surges-8percent-as-clarity-act-advances/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Chainlink",
     "initiative": "Kraken ditches LayerZero for Chainlink CCIP",
     "description": "Kraken posted the announcement on X on May 14, confirming that Chainlink’s Cross-Chain Interoperability Protocol will become its exclusive bridge infrastructure… Kraken is deprecating its cross-chain provider and migrating to Chainlink CCIP as the exclusive infrastructure for its wrapped assets. Kraken ditches LayerZero for Chainlink CCIP",
@@ -9814,16 +9833,17 @@
   },
   {
     "institution": "FSB (Financial Stability Board)",
-    "initiative": "Key Attributes Assessment Methodology for the Insurance Sector: Revised version",
-    "description": "This revised version contains an explanatory note regarding other FSB Guidance concerning the definition of a “critical function” for insurers.",
+    "initiative": "Scope of Insurers Subject to the Recovery and Resolution Planning Requirements in the FSB Key Attributes: Final Report",
+    "description": "Final guidance outlines key criteria for authorities to consider in assessing individual insurers and specifies circumstances when recovery and resolution planning requirements should always apply.",
     "date": "2026-04-29",
-    "source_url": "https://www.fsb.org/2026/04/key-attributes-assessment-methodology-for-the-insurance-sector-revised-version/",
+    "source_url": "https://www.fsb.org/2026/04/scope-of-insurers-subject-to-the-recovery-and-resolution-planning-requirements-in-the-fsb-key-attributes-final-report/",
     "category": "regulators",
     "source_name": "FSB — Publications",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
+      "Collateral & Lending",
       "Regulation & Compliance"
     ],
     "initiative_types": [],
@@ -9831,10 +9851,27 @@
   },
   {
     "institution": "FSB (Financial Stability Board)",
-    "initiative": "Developing Effective Resolution Strategies and Plans for Systemically Important Insurers: Revised version",
-    "description": "This guidance contains an explanatory note regarding other FSB Guidance concerning the definition of a “critical function” for insurers.",
+    "initiative": "Scope of Insurers Subject to Recovery and Resolution Planning Requirements in the Key Attributes: Overview of consultation responses",
+    "description": "This document summarises the responses to the 25 November 2025 public consultation report on the Scope of Insurers Subject to the Recovery and Resolution Planning Requirements (RRP) in the FSB Key Attributes.",
     "date": "2026-04-29",
-    "source_url": "https://www.fsb.org/2026/04/developing-effective-resolution-strategies-and-plans-for-systemically-important-insurers-revised-version/",
+    "source_url": "https://www.fsb.org/2026/04/scope-of-insurers-subject-to-recovery-and-resolution-planning-requirements-in-the-key-attributes-overview-of-consultation-responses/",
+    "category": "regulators",
+    "source_name": "FSB — Publications",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "FSB (Financial Stability Board)",
+    "initiative": "Identification of Critical Functions of Insurers: Practices paper – Revised version",
+    "description": "Revised practices paper contains an explanatory note regarding other FSB Guidance concerning the definition of a “critical function” for insurers.",
+    "date": "2026-04-29",
+    "source_url": "https://www.fsb.org/2026/04/identification-of-critical-functions-of-insurers-practices-paper-revised-version/",
     "category": "regulators",
     "source_name": "FSB — Publications",
     "auto_generated": true,
@@ -9844,47 +9881,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS (Bank for International Settlements)",
-    "initiative": "Shifting forces behind RMB internationalization: evidence from the 2025 Triennial Survey",
-    "description": "Using granular data from the 2025 BIS Triennial Survey on global FX turnover — including previously restricted BIS locational banking statistics and international debt securities data — researchers find that cross-border banking linkages with China, rather than bilateral trade flows, are the primary short-term driver of RMB FX trading growth across jurisdictions. Policy-driven mechanisms such as qualified investor licence programmes and free trade agreements emerge as significant long-term structural determinants, though their effects materialise slowly beyond the three-year survey interval.",
-    "date": "2026-04-29",
-    "source_url": "https://www.bis.org/publ/work1345.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS (Bank for International Settlements)",
-    "initiative": "Digitalisation and innovation - opportunities and risks for financial health",
-    "description": "BIS FSI Brief: Digitalisation, Innovation, and Financial Health Risks The Bank for International Settlements' Financial Stability Institute published a 22-page brief examining how digital financial services — spanning payments, credit, savings, and insurance — are simultaneously improving access and generating new consumer harm vectors, including a documented global surge in scams and fraud, overindebtedness among digital borrowers, and mis-selling of complex investment products. Despite broader digital adoption, aggregate financial health indices are declining in several jurisdictions, undermining the assumed positive correlation between fintech penetration and household financial resilience.",
-    "date": "2026-04-29",
-    "source_url": "https://www.bis.org/fsi/fsibriefs31.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
