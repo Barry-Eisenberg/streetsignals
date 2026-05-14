@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Tether",
+    "initiative": "Tether freeze unit T3 FCU passes $450M mark",
+    "description": "The Tether freeze coalition known as T3 FCU has surpassed $450 million in blocked illicit USDT since launching in 2024. The T3 Financial Crime Unit, a joint initiative backed by Tether, TRON, and blockchain analytics firm TRM Labs, has crossed… Tether freeze unit T3 FCU passes $450M mark",
+    "date": "2026-05-14",
+    "source_url": "https://crypto.news/tether-freeze-unit-tops-450m-milestone/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "Coinbase stock climbs as CLARITY Act advances",
     "description": "The Senate Banking Committee passed the Digital Asset Market Clarity Act on May 14 by 15 votes to 9, with… Coinbase stock surged 8% after the Senate Banking Committee advanced the CLARITY Act in a 15 to 9 bipartisan vote. Coinbase stock climbs as CLARITY Act advances",
@@ -9832,53 +9851,36 @@
     "year": "2026"
   },
   {
-    "institution": "FSB (Financial Stability Board)",
-    "initiative": "Scope of Insurers Subject to the Recovery and Resolution Planning Requirements in the FSB Key Attributes: Final Report",
-    "description": "Final guidance outlines key criteria for authorities to consider in assessing individual insurers and specifies circumstances when recovery and resolution planning requirements should always apply.",
+    "institution": "BIS (Bank for International Settlements)",
+    "initiative": "Shifting forces behind RMB internationalization: evidence from the 2025 Triennial Survey",
+    "description": "by Juliana Robbert, Vladyslav Sushko, Frank Westermann This paper explores factors driving the internationalization of Renminbi (RMB) trading, using data from the 2025 BIS Triennial Survey of global foreign exchange turnover. We analyze both short-term (three-year) trading growth and long-term RMB turnover levels across jurisdictions.",
     "date": "2026-04-29",
-    "source_url": "https://www.fsb.org/2026/04/scope-of-insurers-subject-to-the-recovery-and-resolution-planning-requirements-in-the-fsb-key-attributes-final-report/",
+    "source_url": "https://www.bis.org/publ/work1345.htm",
     "category": "regulators",
-    "source_name": "FSB — Publications",
+    "source_name": "BIS — Research Papers",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance"
+      "Trading & Exchange",
+      "Data & Reporting"
     ],
     "initiative_types": [],
     "year": "2026"
   },
   {
-    "institution": "FSB (Financial Stability Board)",
-    "initiative": "Scope of Insurers Subject to Recovery and Resolution Planning Requirements in the Key Attributes: Overview of consultation responses",
-    "description": "This document summarises the responses to the 25 November 2025 public consultation report on the Scope of Insurers Subject to the Recovery and Resolution Planning Requirements (RRP) in the FSB Key Attributes.",
+    "institution": "BIS",
+    "initiative": "Digitalisation and innovation - opportunities and risks for financial health",
+    "description": "Digital innovation is enhancing access to payments, credit, savings and insurance, and can help people to manage their financial obligations and have greater confidence in their financial future. But these benefits are emerging alongside new vulnerabilities: a global surge in scams and fraud, greater overindebtedness among some digital borrowers and the use of ill-suited investment products.",
     "date": "2026-04-29",
-    "source_url": "https://www.fsb.org/2026/04/scope-of-insurers-subject-to-recovery-and-resolution-planning-requirements-in-the-key-attributes-overview-of-consultation-responses/",
+    "source_url": "https://www.bis.org/fsi/fsibriefs31.htm",
     "category": "regulators",
-    "source_name": "FSB — Publications",
+    "source_name": "BIS — Research Papers",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
+    "signal_type": "Investment / M&A",
     "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FSB (Financial Stability Board)",
-    "initiative": "Identification of Critical Functions of Insurers: Practices paper – Revised version",
-    "description": "Revised practices paper contains an explanatory note regarding other FSB Guidance concerning the definition of a “critical function” for insurers.",
-    "date": "2026-04-29",
-    "source_url": "https://www.fsb.org/2026/04/identification-of-critical-functions-of-insurers-practices-paper-revised-version/",
-    "category": "regulators",
-    "source_name": "FSB — Publications",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
+      "Payments & Transfers"
     ],
     "initiative_types": [],
     "year": "2026"
