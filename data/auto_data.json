@@ -1,5 +1,24 @@
 [
   {
+    "institution": "crypto.news",
+    "initiative": "North Korean hackers linked to major South Korean crypto hacks since 2018",
+    "description": "North Korean hacking groups have been tied to most major crypto exchange attacks in South Korea since 2018, while billions of dollars in suspected illicit crypto flows have also moved through the country’s financial system. According to Crystal Intelligence’s 2026… North Korean hackers linked to major South Korean crypto hacks since 2018",
+    "date": "2026-05-14",
+    "source_url": "https://crypto.news/north-korean-hackers-linked-to-major-south-korean-crypto-hacks-since-2018/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Revolut",
     "initiative": "Revolut primed for wealth management push after FCA approval",
     "description": "Challenger bank Revolut is set to expand its investment services in the UK after securing a series of permissions from the Financial Conduct Authority (FCA).",
@@ -9878,28 +9897,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Bipartisan PACE Act looks to open Fed payment rails to nonbanks, draws crypto support",
-    "description": "Introduced by California Democratic Representative Sam Liccardo and Republican Representative Young Kim, the Payments Access and Consumer Efficiency (PACE) Act would establish an optional federal supervisory framework administered by the OCC, under which qualifying nonbank payment service providers — currently forced to navigate up to 40 separate state money transmitter licenses — could register at the federal level and gain direct access to Federal Reserve infrastructure including Fedwire, FedNow, and FedACH. Eligible firms would be required to hold 1:1 reserves against customer balances and comply with standardized risk and recordkeeping requirements.",
-    "date": "2026-04-21",
-    "source_url": "https://www.theblock.co/post/398319/bipartisan-pace-act-looks-open-fed-payment-rails-nonbanks-crypto-support",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance",
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
