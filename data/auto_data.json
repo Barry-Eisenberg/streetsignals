@@ -1,5 +1,182 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "Coinbase backs Hyperliquid stablecoin push as DeFi trading volumes climb",
+    "description": "Coinbase will manage USDC liquidity on Hyperliquid, deepening ties with one of crypto’s fastest-growing trading platforms.",
+    "date": "2026-05-14",
+    "source_url": "https://www.coindesk.com/markets/2026/05/13/coinbase-backs-hyperliquid-stablecoin-push-as-defi-trading-volumes-climb",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Bank of England",
+    "initiative": "Bank of England ready to water down 'overly conservative' stablecoin proposals: FT",
+    "description": "Restrictions proposed by the BOE prompted criticism from the crypto industry, which said they risked preventing the U.K. from being competitive in the digital economy.",
+    "date": "2026-05-14",
+    "source_url": "https://www.coindesk.com/policy/2026/05/14/bank-of-england-ready-to-water-down-overly-conservative-stablecoin-proposals-ft",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Freetrade appoints Jenny Zhao CEO",
+    "description": "Freetrade, the commission-free investment platform, has today announced the appointment of Jenny Zhao as Chief Executive Officer, subject to regulatory approvals. She succeeds co-founder Viktor Nebehaj, who is stepping down after nearly ten years of building the business.",
+    "date": "2026-05-14",
+    "source_url": "https://www.finextra.com/pressarticle/109843/freetrade-appoints-jenny-zhao-ceo",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Reap and TerraPay team up to expand local payout corridors globally",
+    "description": "Reap, the stablecoin-native global payments and financial platform infrastructure for businesses, today announced a strategic partnership with TerraPay, a global money movement company, to expand local cross-border payouts through direct access to domestic clearing systems worldwide.",
+    "date": "2026-05-14",
+    "source_url": "https://www.finextra.com/pressarticle/109839/reap-and-terrapay-team-up-to-expand-local-payout-corridors-globally",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Derivative Path launches AI-enabled treasury hedging platform for banks",
+    "description": "Derivative Path, a leading derivatives and risk management platform for financial institutions, today announced the launch of ALM Strategy Builder, a product that gives banks and credit unions the ability to build, stress-test, compare, and present interest rate hedging strategies in a single environment.",
+    "date": "2026-05-14",
+    "source_url": "https://www.finextra.com/pressarticle/109833/derivative-path-launches-ai-enabled-treasury-hedging-platform-for-banks",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase becomes Hyperliquid’s official USDC treasury deployer as USDH sunsets",
+    "description": "Native Markets, the operator of Hyperliquid's USDH stablecoin, agreed to grant Coinbase the right to purchase USDH brand assets.",
+    "date": "2026-05-14",
+    "source_url": "https://www.theblock.co/post/401233/coinbase-hyperliquid-official-deployer-usdc",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Tether",
+    "initiative": "Tether, TRON and TRM Labs-backed T3 Financial Crime Unit tops $450 million in frozen illicit crypto assets",
+    "description": "T3 FCU says it has now frozen over $450 million in illicit crypto assets, reporting a 43.9% annual increase in intercepted proceeds.",
+    "date": "2026-05-14",
+    "source_url": "https://www.theblock.co/post/401252/tether-tron-trm-labs-freeze-over-450-million-in-illicit-crypto-assets",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Tether",
+    "initiative": "T3 Financial Crime Unit Says It Has Frozen More Than $450 Million in Illicit Crypto Globally",
+    "description": "The Tether-TRON-TRM Labs initiative has frozen more than $450 million in illicit crypto across 23 jurisdictions, with 2025 interceptions up 43.9% from 2024.",
+    "date": "2026-05-14",
+    "source_url": "https://unchainedcrypto.com/t3-financial-crime-unit-says-it-has-frozen-more-than-450-million-in-illicit-crypto-globally/",
+    "category": "payments",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "LAB insiders tighten grip as ZachXBT rips into exchange-fueled token game",
+    "description": "Blockchain investigator ZachXBT has accused the LAB project of orchestrating a large-scale market manipulation scheme that allegedly left retail investors exposed while insiders maintained control over more than 95% of the token supply. According to reports published by ChainCatcher, the… LAB insiders tighten grip as ZachXBT rips into exchange-fueled token game",
+    "date": "2026-05-14",
+    "source_url": "https://crypto.news/lab-insiders-tighten-grip-as-zachxbt-rips-into-exchange-fueled-token-game/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "crypto.news",
     "initiative": "North Korean hackers linked to major South Korean crypto hacks since 2018",
     "description": "North Korean hacking groups have been tied to most major crypto exchange attacks in South Korea since 2018, while billions of dollars in suspected illicit crypto flows have also moved through the country’s financial system. According to Crystal Intelligence’s 2026… North Korean hackers linked to major South Korean crypto hacks since 2018",
@@ -9720,184 +9897,6 @@
       "Interoperability & Standards"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "B2B stablecoin tech provider Infinite rolls out banking services powered by Thiel-backed Erebor Bank",
-    "description": "Infinite is introducing bank accounts that support traditional and crypto services like ACH, wire and stablecoin transfers.",
-    "date": "2026-04-22",
-    "source_url": "https://www.theblock.co/post/398377/b2b-stablecoin-tech-provider-infinite-rolls-out-banking-services-powered-by-thiel-backed-erebor-bank",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Securitize",
-    "initiative": "Onchain vault provider Upshift taps Securitize Fund Services for third-party reporting",
-    "description": "Upshift is tapping Securitize Fund Services to provide independent reporting, auditing, and performance transparency for its onchain vaults.",
-    "date": "2026-04-22",
-    "source_url": "https://www.theblock.co/post/398437/onchain-vault-provider-upshift-taps-securitize-fund-services-for-third-party-reporting",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA (European Securities and Markets Authority)",
-    "initiative": "EU financial markets enter 2026 amid high-risk environment",
-    "description": "ESMA's first Trends, Risks and Vulnerabilities report of 2026 assessed EU market conditions through the second half of 2025, concluding that systemic and market stress risks remain elevated despite broadly resilient performance during that period. The assessment was finalized before a late-February Middle East conflict escalation, yet early market reactions — including sharp energy and commodity price increases and heightened volatility — validated the transmission channels ESMA had already flagged, underscoring the report's operational relevance.",
-    "date": "2026-04-22",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/eu-financial-markets-enter-2026-amid-high-risk-environment",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS (Bank for International Settlements)",
-    "initiative": "Investment funds' de facto currency risk exposure",
-    "description": "Investment Funds' De Facto Currency Risk Exposure A BIS research bulletin published in April 2026 introduces a return-sensitivity framework to measure the actual, rather than declared, currency hedge ratios of investment funds, finding materially different behaviour between asset classes. Bond funds maintain consistently high hedge ratios, though these show some responsiveness to the cost of hedging, while equity funds exhibit volatile, opportunistic positioning that functionally resembles active currency speculation rather than systematic risk management.",
-    "date": "2026-04-22",
-    "source_url": "https://www.bis.org/publ/bisbull123.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "HKMA (Hong Kong Monetary Authority)",
-    "initiative": "Stablecoins are becoming the rails for 24/7 global trade",
-    "description": "Hong Kong's HKMA issues stablecoin licenses, signaling a shift in digital assets towards a regulated financial system driven by major banks.",
-    "date": "2026-04-22",
-    "source_url": "https://coingeek.com/stablecoins-are-becoming-the-rails-for-24-7-global-trade/",
-    "category": "regulators",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Fed pick Warsh backs crypto’s place in finance as Warren raises ‘sock puppet’ concerns in hearing",
-    "description": "Kevin Warsh, President Trump's nominee to chair the Federal Reserve, appeared before the Senate Banking Committee for his confirmation hearing and affirmed that digital assets are already embedded in the U.S. financial system, signaling a materially more accommodative posture toward crypto at the Fed than under current Chair Jerome Powell.",
-    "date": "2026-04-21",
-    "source_url": "https://www.theblock.co/post/398364/fed-pick-warsh-backs-cryptos-place-in-finance-as-warren-raises-sock-puppet-concerns-in-hearing",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto's massive exploit may force big banks to rethink their blockchain plans, Jefferies warns",
-    "description": "The $293 million Kelp DAO exploit has exposed critical infrastructure risks, leading Jefferies to suggest that traditional financial firms may pause their blockchain initiatives to prioritize security.",
-    "date": "2026-04-21",
-    "source_url": "https://www.coindesk.com/business/2026/04/21/crypto-s-massive-exploit-may-force-big-banks-to-rethink-their-blockchain-plans-jefferies-warns",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Bitcoin slides toward $75,000 as Warsh says Trump didn't demand he cut rates",
-    "description": "During Kevin Warsh's Senate Banking Committee confirmation hearing, the Fed chair nominee explicitly denied coordinating rate positions with President Trump and emphasized the Federal Reserve's institutional independence, dampening market expectations for near-term easing that had been partly priced into risk assets including bitcoin. Simultaneously, geopolitical risk repriced higher as U.S.-Iran ceasefire negotiations approached a Wednesday deadline with reports of stalled talks, a halted Vance diplomatic trip, and fresh Treasury-linked sanctions targeting 14 individuals and entities involved in weapons procurement for Iran.",
-    "date": "2026-04-21",
-    "source_url": "https://www.coindesk.com/markets/2026/04/21/bitcoin-slides-toward-usd75-000-as-warsh-says-trump-didn-t-demand-he-cut-rates",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA (European Securities and Markets Authority)",
-    "initiative": "ESMA releases reporting templates and instructions for the Active Account Requirement",
-    "description": "ESMA has published standardised reporting templates and accompanying instructions that firms subject to the Active Account Requirement under EMIR 3 must use when disclosing AAR-related data to their national competent authorities. The AAR, which became applicable on 25 June 2025, obliges certain financial counterparties to maintain operationally active clearing accounts at EU-based CCPs for specified derivatives categories, and the new templates define precisely how compliance with that obligation must be evidenced and structured. The first mandatory submission is due 31 July 2026 and will cover the roughly twelve-month period since the requirement took effect, with semi-annual reporting cycles on fixed January and July deadlines thereafter.",
-    "date": "2026-04-21",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-releases-reporting-templates-and-instructions-active-account-requirement",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
