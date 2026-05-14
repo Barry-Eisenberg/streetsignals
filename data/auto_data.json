@@ -1,5 +1,47 @@
 [
   {
+    "institution": "Chainlink",
+    "initiative": "Kraken to replace LayerZero with Chainlink to bridge assets across blockchains",
+    "description": "The decision sees a total of over $3 billion in total value locked migrating after a $292 million LayerZero-powered bridge exploit involving Kelp.",
+    "date": "2026-05-14",
+    "source_url": "https://www.coindesk.com/business/2026/05/14/kraken-to-replace-layerzero-with-chainlink-to-bridge-assets-across-blockchains",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Crypto for Advisors: Stablecoins: finance's new rails",
+    "description": "Stablecoins are moving beyond crypto into real-world finance, becoming vital B2B cross-border payment and treasury infrastructure, valued for efficiency, speed and regulatory compliance.",
+    "date": "2026-05-14",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/05/13/crypto-for-advisors-stablecoins-finance-s-new-rails",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Federal Reserve Board releases results from two surveys of senior financial officers at banks about their views on discount window operating days and their strategies and practices for managing reserve balances",
     "description": "Federal Reserve Board releases results from two surveys of senior financial officers at banks about their views on discount window operating days and their strategies and practices for managing reserve balances",
@@ -9860,40 +9902,6 @@
       "DeFi",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Mastercard",
-    "initiative": "Mastercard Strengthens Sri Lanka’s Digital Payments Ecosystem",
-    "description": "Hey Payments Fanatic! Mastercard is doubling down on Sri Lanka, and small merchants are the big winners. With the launch of Soundbox and Cloud Commerce , the card network is making digital payments cheaper, simpler, and far more accessible. Soundbox is a first in the market: a compact device that gives",
-    "date": "2026-04-23",
-    "source_url": "https://www.connectingthedotsinpayments.com/mastercard-strengthens-sri-lankas-digital-payments-ecosystem/",
-    "category": "payments",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Deutsche Bank",
-    "initiative": "How Thought Leadership Insights Can Be a Flywheel for Investor Trust",
-    "description": "In this Finextra TV interview from the Communify Intelligence Experience in Miami, Pam Finelli, Global COO, Investment Research, Deutsche Bank, explored the importance of personalised advice to clients, allowing consistency on the back end. Finelli explains research helps banks use content as a flywheel to unlock opportunities with clients, utilising thought leadership insights to bolster trust and respect as a",
-    "date": "2026-04-23",
-    "source_url": "https://www.finextra.com/videoarticle/3488/how-thought-leadership-insights-can-be-a-flywheel-for-investor-trust",
-    "category": "global_banks",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
