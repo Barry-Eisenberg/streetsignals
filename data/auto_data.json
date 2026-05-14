@@ -1,5 +1,80 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Equipifi secures $34m to help banks embed BNPL",
+    "description": "Equipifi, the fintech platform enabling banks and credit unions to offer flexible payment solutions natively within their digital banking experience, today announced the close of its $34-million Series B.",
+    "date": "2026-05-14",
+    "source_url": "https://www.finextra.com/pressarticle/109852/equipifi-secures-34m-to-help-banks-embed-bnpl",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Lamina expands nCino integration",
+    "description": "Lamina and Farm Credit Bank of Texas (FCBT) today announced a strategic partnership to modernize FCBT’s capital markets operations through the implementation of Lamina, a purpose-built platform for managing loan syndications and participations through API-driven workflow orchestration and AI-powered data extraction.",
+    "date": "2026-05-14",
+    "source_url": "https://www.finextra.com/pressarticle/109849/lamina-expands-ncino-integration",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Interoperability & Standards",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Crypto exchange Bullish reports $604.9 million net loss in Q1, with growth on adjusted basis",
+    "description": "“We're pleased with our Q1 results and we're even more excited about what comes next,” CEO Tom Farley said.",
+    "date": "2026-05-14",
+    "source_url": "https://www.theblock.co/post/401336/crypto-exchange-bullish-reports-604-9-million-net-loss-in-q1-with-growth-on-adjusted-basis",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CME Group",
+    "initiative": "CME Group plans launch of Nasdaq Crypto Index futures in June",
+    "description": "The new futures product will be CME Group’s first market capitalization-weighted cryptocurrency futures contract and will be available in both standard and micro contract sizes. CME Group plans launch of Nasdaq Crypto Index futures in June",
+    "date": "2026-05-14",
+    "source_url": "https://crypto.news/cme-group-plans-launch-of-nasdaq-crypto-index-futures-in-june/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Nasdaq",
     "initiative": "CME dives further into $85 trillion digital assets market with Nasdaq CME Crypto Index futures",
     "description": "A CME group executive said the demand grew with average daily trading volume in his firms’ suite increasing by 43% year-to date.",
@@ -9803,94 +9878,6 @@
     "signal_type": "Research / Report",
     "fmi_areas": [],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "U.S. Government Unveils Sweeping Enforcement Actions Against Southeast Asian Scam Centers and Crypto Fraud Networks",
-    "description": "Asia asset seizure Cambodia crypto scams DOJ Law enforcement OFAC Recent posts Crime OFAC Updates Central Bank of Iran Designation Following Record $344 Million Tether Seizure amid Strait of Hormuz Toll Controversy April 27, 2026 Crime EU’s 20th Russia Sanctions Package Signals a New Era of Crypto-Specific Enforcement April 24, 2026 Crime Inside the KelpDAO Bridge Exploit: How ~$292 Million in rsETH Was Released Against a Non-Existent Burn April 23, 2026 Subscribe to our weekly newsletter Products Reactor Wallet Scan Rapid KYT VASP Risking Address Screening Sentinel Alterya Hexagate Chainalysis Data Solutions (DS) Industries Law Enforcement Centralized Exchanges Financial Institutions Tax Agencies Regulators Stablecoin Risk Management Decentralized Finance Consumer Brands Cybersecurity",
-    "date": "2026-04-24",
-    "source_url": "https://www.chainalysis.com/blog/asian-scam-centers-crypto-fraud-april-2026/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance",
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "EU’s 20th Russia Sanctions Package Signals a New Era of Crypto-Specific Enforcement",
-    "description": "For EU-regulated CASPs, the designation of a Kyrgyz A7A5 exchange, the focus on Russia-adjacent financial institutions, and the first use of the anti-circumvention tool are all strong signals that supervisors will expect sanctions-evasion risk to be built into AMLR-driven, harmonized CDD/EDD frameworks by the time the rules bite.",
-    "date": "2026-04-24",
-    "source_url": "https://www.chainalysis.com/blog/eu-russia-sactions-package-april-2026/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Deutsche Bank",
-    "initiative": "How Thought Leadership Insights Can Be a Flywheel for Investor Trust",
-    "description": "In this Finextra TV interview from the Communify Intelligence Experience in Miami, Pam Finelli, Global COO, Investment Research, Deutsche Bank, explored the importance of personalised advice to clients, allowing consistency on the back end. They discuss how research providers should offer an easy experience, allowing investors to focus on the task at hand, whilst being informed on all relevant data points. Finelli explains research helps banks use content as a flywheel to unlock opportunities with clients, utilising thought leadership insights to bolster trust and respect as a driver for growth.",
-    "date": "2026-04-23",
-    "source_url": "https://www.finextra.com/videoarticle/3488/how-thought-leadership-insights-can-be-a-flywheel-for-investor-trust",
-    "category": "global_banks",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "Inside the KelpDAO Bridge Exploit: How ~$292 Million in rsETH Was Released Against a Non-Existent Burn",
-    "description": "Government Unveils Sweeping Enforcement Actions Against Southeast Asian Scam Centers and Crypto Fraud Networks April 24, 2026 Crime EU’s 20th Russia Sanctions Package Signals a New Era of Crypto-Specific Enforcement April 24, 2026 Subscribe to our weekly newsletter Products Reactor Wallet Scan Rapid KYT VASP Risking Address Screening Sentinel Alterya Hexagate Chainalysis Data Solutions (DS) Industries Law Enforcement Centralized Exchanges Financial Institutions Tax Agencies Regulators Stablecoin Risk Management Decentralized Finance Consumer Brands Cybersecurity Join Us Careers Open Positions Company About Us Why Chainalysis Partners Media Resources Scam Prevention Global Español Português Resources Blog Webinars Podcast Reports Services Global Services Training & Certification Security &",
-    "date": "2026-04-23",
-    "source_url": "https://www.chainalysis.com/blog/kelpdao-bridge-exploit-april-2026/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance",
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
