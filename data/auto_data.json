@@ -1,5 +1,22 @@
 [
   {
+    "institution": "Chainlink",
+    "initiative": "Kraken ditches LayerZero for Chainlink CCIP",
+    "description": "Kraken posted the announcement on X on May 14, confirming that Chainlink’s Cross-Chain Interoperability Protocol will become its exclusive bridge infrastructure… Kraken is deprecating its cross-chain provider and migrating to Chainlink CCIP as the exclusive infrastructure for its wrapped assets. Kraken ditches LayerZero for Chainlink CCIP",
+    "date": "2026-05-14",
+    "source_url": "https://crypto.news/kraken-migrates-to-chainlink-ccip-for-kbtc/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "The critical identifier your fund portfolio depends on, and probably nobody owns",
     "description": "It is Monday morning. An operations analyst at a mid-sized European asset manager opens a rejection ... The critical identifier your fund portfolio depends on, and probably nobody owns",
@@ -9796,6 +9813,40 @@
     "year": "2026"
   },
   {
+    "institution": "FSB (Financial Stability Board)",
+    "initiative": "Key Attributes Assessment Methodology for the Insurance Sector: Revised version",
+    "description": "This revised version contains an explanatory note regarding other FSB Guidance concerning the definition of a “critical function” for insurers.",
+    "date": "2026-04-29",
+    "source_url": "https://www.fsb.org/2026/04/key-attributes-assessment-methodology-for-the-insurance-sector-revised-version/",
+    "category": "regulators",
+    "source_name": "FSB — Publications",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "FSB (Financial Stability Board)",
+    "initiative": "Developing Effective Resolution Strategies and Plans for Systemically Important Insurers: Revised version",
+    "description": "This guidance contains an explanatory note regarding other FSB Guidance concerning the definition of a “critical function” for insurers.",
+    "date": "2026-04-29",
+    "source_url": "https://www.fsb.org/2026/04/developing-effective-resolution-strategies-and-plans-for-systemically-important-insurers-revised-version/",
+    "category": "regulators",
+    "source_name": "FSB — Publications",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "BIS (Bank for International Settlements)",
     "initiative": "Shifting forces behind RMB internationalization: evidence from the 2025 Triennial Survey",
     "description": "Using granular data from the 2025 BIS Triennial Survey on global FX turnover — including previously restricted BIS locational banking statistics and international debt securities data — researchers find that cross-border banking linkages with China, rather than bilateral trade flows, are the primary short-term driver of RMB FX trading growth across jurisdictions. Policy-driven mechanisms such as qualified investor licence programmes and free trade agreements emerge as significant long-term structural determinants, though their effects materialise slowly beyond the three-year survey interval.",
@@ -9834,59 +9885,6 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "FSB (Financial Stability Board)",
-    "initiative": "Scope of Insurers Subject to the Recovery and Resolution Planning Requirements in the FSB Key Attributes: Final Report",
-    "description": "The Financial Stability Board has published its final guidance establishing a structured framework for national authorities to determine which insurers must be subject to recovery and resolution planning requirements under the FSB's Key Attributes of Effective Resolution Regimes. The report follows the FSB's 2022 decision to discontinue the annual designation of global systemically important insurers, replacing that binary G-SII identification process with a more flexible, criteria-based scoping methodology that individual jurisdictions apply using their own supervisory judgment and market context.",
-    "date": "2026-04-29",
-    "source_url": "https://www.fsb.org/2026/04/scope-of-insurers-subject-to-the-recovery-and-resolution-planning-requirements-in-the-fsb-key-attributes-final-report/",
-    "category": "regulators",
-    "source_name": "FSB — Publications",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FSB (Financial Stability Board)",
-    "initiative": "Scope of Insurers Subject to Recovery and Resolution Planning Requirements in the Key Attributes: Overview of consultation responses",
-    "description": "The FSB received nine responses to its November 2025 consultation on criteria for determining which insurers should be subject to recovery and resolution planning requirements under the Key Attributes framework, with the consultation period closing in February 2026. Respondents — drawn from both public authorities and private sector participants — broadly supported the proposed scoping criteria but flagged concerns around regulatory overreach and potential duplication with existing national or sectoral frameworks. The FSB has now published both an overview of those responses and a final report incorporating targeted revisions to address the feedback, alongside updated guidance on identifying critical functions for insurers.",
-    "date": "2026-04-29",
-    "source_url": "https://www.fsb.org/2026/04/scope-of-insurers-subject-to-recovery-and-resolution-planning-requirements-in-the-key-attributes-overview-of-consultation-responses/",
-    "category": "regulators",
-    "source_name": "FSB — Publications",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FSB (Financial Stability Board)",
-    "initiative": "Identification of Critical Functions of Insurers: Practices paper – Revised version",
-    "description": "The Financial Stability Board has released a revised version of its 2023 practices paper on identifying critical functions of insurers, updated to reflect a new definition of \"critical function\" introduced in the FSB's concurrently finalised guidance on the scope of insurers subject to recovery and resolution planning under the Key Attributes framework. The revision draws on approaches from four jurisdictions — Australia, China, France, and the Netherlands — documenting how each has developed or advanced methodology for scoping which insurer functions are sufficiently vital to the real economy that their disruption would warrant resolution intervention.",
-    "date": "2026-04-29",
-    "source_url": "https://www.fsb.org/2026/04/identification-of-critical-functions-of-insurers-practices-paper-revised-version/",
-    "category": "regulators",
-    "source_name": "FSB — Publications",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
