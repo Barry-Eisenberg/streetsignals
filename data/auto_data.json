@@ -1,5 +1,26 @@
 [
   {
+    "institution": "U.S. Treasury Department",
+    "initiative": "Grove launches $1 billion liquidity network for tokenized Treasury funds",
+    "description": "Grove’s Basin liquidity network can supply up to $1 billion in daily stablecoin liquidity to support redemptions for tokenized U.S. Blockchain credit infrastructure company Grove has launched a liquidity network called Basin aimed at supporting instant redemptions for… Grove launches $1 billion liquidity network for tokenized Treasury funds",
+    "date": "2026-05-14",
+    "source_url": "https://crypto.news/grove-launches-1-billion-liquidity-network-for-tokenized-treasury-funds/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "Bitcoin hits $82,000, Coinbase leads crypto stock gains as Clarity Act advances",
     "description": "The upbeat public debut of AI chipmaker Cerebras is also helping to lift both crypto and traditional markets.",
@@ -9864,27 +9885,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Singapore proposes lower-risk rules for some digital assets",
-    "description": "Singapore proposes tailored crypto rules, giving tokenized assets and stablecoins lower-risk capital treatment under updated central bank's consultation.",
-    "date": "2026-04-29",
-    "source_url": "https://coingeek.com/singapore-proposes-lower-risk-rules-for-some-digital-assets/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
