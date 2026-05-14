@@ -1,5 +1,132 @@
 [
   {
+    "institution": "Federal Reserve",
+    "initiative": "Federal Reserve Board releases results from two surveys of senior financial officers at banks about their views on discount window operating days and their strategies and practices for managing reserve balances",
+    "description": "Federal Reserve Board releases results from two surveys of senior financial officers at banks about their views on discount window operating days and their strategies and practices for managing reserve balances",
+    "date": "2026-05-14",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260514a.htm",
+    "category": "regulators",
+    "source_name": "Federal Reserve — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Why bitcoin’s recent climb to $80,000 might just be a temporary liquidity squeeze",
+    "description": "Spot ETF outflows and a hawkish Federal Reserve are creating a \"macro ceiling\" that makes a new all-time high unlikely without a major geopolitical shift.",
+    "date": "2026-05-14",
+    "source_url": "https://www.coindesk.com/markets/2026/05/14/why-bitcoin-s-recent-climb-to-usd80-000-might-just-be-a-temporary-liquidity-squeeze",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "NYC Mayor Mamdani calls on regulator to block Western Union takeover of rival",
+    "description": "New York City Mayor Zohran Mamdani has asked regulators to block Western Union's proposed acquisition of Intermex, arguing that the money transfer giant wants to buy its rival to \"jack up remittance fees\".",
+    "date": "2026-05-14",
+    "source_url": "https://www.finextra.com/newsarticle/47756/nyc-mayor-mamdani-calls-on-regulator-to-block-western-union-takeover-of-rival",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Rato integrates iDenfy ID verification tech into onboarding flow",
+    "description": "IDenfy, a RegTech company offering ID verification and fraud prevention solutions, has announced a partnership with RATO, a licensed bank with nearly 30 years of financial heritage in Lithuania.",
+    "date": "2026-05-14",
+    "source_url": "https://www.finextra.com/pressarticle/109846/rato-integrates-idenfy-id-verification-tech-into-onboarding-flow",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "Fiserv and Bridgeport form ATM and cash services JV",
+    "description": "Fiserv, Inc. (NASDAQ: FISV), a leading global provider of payments and financial services technology, today announced that it has entered into a definitive agreement with Bridgeport Partners, a specialist private equity firm focused on financial technology, to form a joint venture encompassing Fiserv’s ATM Managed Services, Cash & Logistics, and MoneyPass businesses.",
+    "date": "2026-05-14",
+    "source_url": "https://www.finextra.com/pressarticle/109845/fiserv-and-bridgeport-form-atm-and-cash-services-jv",
+    "category": "exchanges_intermediaries",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "How SEPA Will Be the Backbone of Modern European Payments Sovereignty",
+    "description": "Whilst attending Diebold Nixdorf Intersect event in Cannes, Regis Folbaum, CEO, STET spoke to FinextraTV about the progress SEPA has made with European alignment. Discussing what this alignment means for the payments industry, Folbaum mentioned instant payments regulation and growing adoption of domestic card schemes, professing that SEPA will be the backbone of this next wave of European payments sovereignty. Folbaum goes on to say that the current relationship between fintech firms and banks continues to be complicated, with fintechs holding a certain arrogance, according to Folbaum, and banks defaulting to mergers and acquisitions.",
+    "date": "2026-05-14",
+    "source_url": "https://www.finextra.com/videoarticle/3499/how-sepa-will-be-the-backbone-of-modern-european-payments-sovereignty",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Circle",
+    "initiative": "Circle deepens Hyperliquid partnership to expand USDC infrastructure",
+    "description": "The stablecoin issuer said Hyperliquid is evolving beyond perpetual futures trading into outcome-based markets. Circle announced it is deepening its partnership with Hyperliquid by becoming the technical deployment partner for USDC on the decentralized trading platform, further embedding the stablecoin… Circle deepens Hyperliquid partnership to expand USDC infrastructure",
+    "date": "2026-05-14",
+    "source_url": "https://crypto.news/circle-deepens-hyperliquid-partnership-to-expand-usdc-infrastructure/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Circle",
     "initiative": "Turnkey raises $12.5 million in round backed by Circle Ventures and Sequoia Capital",
     "description": "The new capital will primarily fund the development and public launch of Turnkey Verifiable Cloud, a secure computing product for digital assets.",
@@ -9765,139 +9892,6 @@
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Investment funds' de facto currency risk exposure",
-    "description": "by Inês Lindoso, Andreas Schrimpf, Vladyslav Sushko, Toma Tomov",
-    "date": "2026-04-22",
-    "source_url": "https://www.bis.org/publ/bisbull123.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "Kalshi flags more insider trading cases, including politician who appeared on FBoy Island",
-    "description": "Kalshi, the CFTC-regulated prediction market exchange, publicly disclosed three additional insider trading enforcement actions against political candidates who placed bets on their own electoral outcomes — a practice the platform classifies as a direct violation of its rulebook given candidates' ability to influence contract results by choosing whether to enter or exit a race. The cases involved a Virginia U.S. Senate candidate, a Minnesota state lawmaker running for Congress, and a Texas congressional candidate, with penalties ranging from $540 to $6,229 in fines plus five-year trading suspensions and profit disgorgement. Two cooperated and received reduced penalties, while the Virginia candidate publicly defied the process and received the stiffest sanction.",
-    "date": "2026-04-22",
-    "source_url": "https://www.coindesk.com/policy/2026/04/22/kalshi-flags-more-insider-trading-cases-including-politician-who-appeared-on-fboy-island",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "SEC confirms exemption for directors and officers of EEA Foreign Private Issuers",
-    "description": "The SEC has granted an exemption relieving directors and officers of EEA-domiciled foreign private issuers from the beneficial ownership and transaction reporting obligations under Section 16(a) of the Securities Exchange Act of 1934, which would otherwise require prompt disclosure of changes in holdings of registered equity securities. The decision reflects a regulatory equivalence determination, with the SEC acknowledging that EU Market Abuse Regulation (MAR) already imposes materially comparable disclosure obligations on persons discharging managerial responsibilities at listed companies.",
-    "date": "2026-04-22",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/sec-confirms-exemption-directors-and-officers-eea-foreign-private-issuers",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Banks seek to slow down implementation of crypto's GENIUS Act on stablecoin oversight",
-    "description": "U.S. banking groups argued that a number of federal agencies are moving quickly on stablecoin regulations, making it hard to understand how rules will interact.",
-    "date": "2026-04-22",
-    "source_url": "https://www.coindesk.com/policy/2026/04/22/banks-seek-to-slow-down-implementation-of-crypto-s-genius-act-on-stablecoin-oversight",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Bitcoin tops $79,000 as crypto rally gathers steam; Circle, Coinbase, Strategy lead",
-    "description": "Bitcoin reached an 11-week high above $79,000 on April 22, driven by a combination of improving macro sentiment following President Trump's Iran ceasefire extension and technical positioning dynamics in derivatives markets. Perpetual swap funding rates fell to near three-year lows while open interest simultaneously rose, a configuration K33 Research's Vetle Lunde flagged as indicative of concentrated short buildup in leveraged positions — conditions that historically precede a mechanically driven short squeeze. Crypto-linked equities moved sharply in sympathy, with Strategy gaining 10% as its BTC-heavy balance sheet amplified the move, while Circle Internet and Coinbase rose 9% and 6% respectively ahead of Circle's anticipated public listing.",
-    "date": "2026-04-22",
-    "source_url": "https://www.coindesk.com/markets/2026/04/22/bitcoin-tops-usd79-000-as-crypto-rally-gathers-steam-circle-coinbase-strategy-lead",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "TD Cowen flags five hurdles to crypto bill beyond stablecoin yield issue",
-    "description": "These include a lack of CFTC commissioners, conflicts tied to World Liberty Financial, and concerns around Iran's use of crypto payments.",
-    "date": "2026-04-22",
-    "source_url": "https://www.theblock.co/post/398499/td-cowen-crypto-bill-hurdles-beyond-stablecoin-yield-issue",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board issues enforcement action with former employee of First Financial Bank",
-    "description": "Federal Reserve Enforcement Action Against Former First Financial Bank Employee The Federal Reserve Board issued a consent prohibition order on April 22, 2026, against Destiny Lara, a former employee of First Financial Bank, headquartered in Abilene, Texas. The action stems from findings of breach of fiduciary duty and bribery, two serious violations that typically indicate insider misconduct involving the misuse of a position of trust for personal gain. Consent prohibition orders bar the named individual from participating in the affairs of any federally regulated financial institution, making this a career-ending sanction in the banking sector.",
-    "date": "2026-04-22",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260422a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
     ],
     "initiative_types": [],
     "year": "2026"
