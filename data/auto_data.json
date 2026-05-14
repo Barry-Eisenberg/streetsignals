@@ -1,5 +1,100 @@
 [
   {
+    "institution": "BitGo",
+    "initiative": "BitGo doubles revenue to $3.8 billion but net loss widens in Q1",
+    "description": "The NYSE-listed crypto infrastructure firm generated $3.8 billion in revenue in the first quarter, up 112.6% year-on-year.",
+    "date": "2026-05-14",
+    "source_url": "https://www.theblock.co/post/401205/bitgo-doubles-q1-revenue",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BitGo",
+    "initiative": "BitGo revenue doubles to $3.8B, but Q1 loss deepens",
+    "description": "BitGo revenue doubled to $3.8B in Q1, but net loss widened to $60.7M as Bitcoin treasury moves and IPO costs weighed on results post-IPO.",
+    "date": "2026-05-14",
+    "source_url": "https://crypto.news/bitgo-revenue-doubles-to-3-8b-but-q1-loss-deepens/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Kevin Warsh confirmed as Fed chair before crypto bill test",
+    "description": "Kevin Warsh wins Senate confirmation as Fed chair in a 54-45 vote before the Senate’s key CLARITY Act crypto markup.",
+    "date": "2026-05-14",
+    "source_url": "https://crypto.news/kevin-warsh-confirmed-as-fed-chair-before-crypto-bill-test/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase CEO backs CLARITY Act before Senate markup",
+    "description": "Brian Armstrong backs the CLARITY Act before Senate markup as stablecoin yield, DeFi and CFTC changes revive crypto market bill talks today.",
+    "date": "2026-05-14",
+    "source_url": "https://crypto.news/coinbase-ceo-backs-clarity-act-before-senate-markup/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Fidelity",
+    "initiative": "Fidelity International launches Moody’s-rated FILQ tokenized fund",
+    "description": "Fidelity International launches FILQ, a Moody’s-rated tokenized fund using Sygnum, Chainlink and JPMorgan NAV data for 24/7 access to yield.",
+    "date": "2026-05-14",
+    "source_url": "https://crypto.news/fidelity-international-launches-moodys-rated-filq-tokenized-fund/",
+    "category": "asset_management",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Fidelity",
     "initiative": "Fidelity International’s first tokenized fund receives top-tier AAA-mf rating from Moody’s",
     "description": "FILQ, modeled off Fidelity's existing low-volatility net asset value (LVNAV) fund, will provide 24/7 redemptions and settlements.",
@@ -9823,100 +9918,6 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA (European Securities and Markets Authority)",
-    "initiative": "ESMA clarifies expectations in the run-up to the launch of EU’s Consolidated Tapes",
-    "description": "ESMA published a Q&A document addressing the onboarding process for data contributors and operational rules governing the two selected Consolidated Tape Providers — fairCT for bonds and EuroCTP for equities — ahead of their formal authorisation. Trading venues and Authorised Publication Arrangements are reminded of their legal obligation under MiFIR to feed data into the CTs from go-live, and ESMA is pressing these contributors to begin technical engagement with the CTPs now, including agreeing on transmission protocols and completing connectivity and end-to-end testing. CTPs are simultaneously required to implement confidentiality and integrity safeguards for any data received during this pre-authorisation preparatory phase.",
-    "date": "2026-04-20",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-clarifies-expectations-run-launch-eus-consolidated-tapes",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Grayscale’s amended Hyperliquid ETF filing drops Coinbase as custodian, names Anchorage",
-    "description": "Grayscale submitted an amended S-1 filing with the SEC for its proposed Hyperliquid ETF (ticker: GHYP), replacing Coinbase with Anchorage Digital Bank as the fund's custodian — a notable counterparty shift given Coinbase Custody Trust Company's dominant position across nearly all existing U.S. spot crypto ETFs. Anchorage, the first federally chartered crypto bank in the U.S. and recently valued at $4.2 billion following a $100 million Tether equity investment, had previously served only as a secondary custodian for Grayscale's Bitcoin and Ethereum trusts, making this a meaningful elevation of the relationship.",
-    "date": "2026-04-20",
-    "source_url": "https://www.theblock.co/post/398161/grayscales-amended-hyperliquid-etf-filing-drops-coinbase-custodian-anchorage",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Custody & Safekeeping"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "A year under Paul Atkins: SEC crypto embrace grows as prediction markets draw scrutiny",
-    "description": "Nearly one year into his tenure, SEC Chair Paul Atkins publicly reaffirmed the agency's strategic reorientation toward crypto under his \"ACT\" (Advance, Clarify, Transform) framework, explicitly distancing the SEC from the enforcement-first posture pursued under Gary Gensler—during which the agency pursued numerous actions against major crypto firms on the basis that most digital assets constitute securities, many of which have since been withdrawn. Atkins highlighted \"Project Crypto\" and an upcoming innovation exemption as concrete regulatory outputs designed to repatriate offshore digital asset activity back to U.S. jurisdiction.",
-    "date": "2026-04-20",
-    "source_url": "https://www.theblock.co/post/398117/a-year-under-paul-atkins-sec-crypto-embrace-grows-as-prediction-markets-draw-scrutiny",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Tether",
-    "initiative": "Tether joins $8 million strategic funding round in RWA firm Kaio",
-    "description": "\"Kaio’s unique position unlocks new pathways for capital formation and investment,\" Tether CEO Paolo Ardoino said.",
-    "date": "2026-04-20",
-    "source_url": "https://www.theblock.co/post/398108/tether-joins-8-million-strategic-funding-round-in-rwa-firm-kaio",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Tether",
-    "initiative": "Tether discloses nearly 2 million-share stake in Bitmain-linked Antalpha",
-    "description": "Nasdaq-listed Antalpha’s lending business is growing quickly despite a more than 27% drop in its stock price.",
-    "date": "2026-04-20",
-    "source_url": "https://www.theblock.co/post/398101/tether-discloses-2-million-share-stake-bitmain-linked-antalpha-ipo",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
