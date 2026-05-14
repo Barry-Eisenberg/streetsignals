@@ -1,5 +1,93 @@
 [
   {
+    "institution": "BlackRock",
+    "initiative": "Moody’s awards top rating to Fidelity and BlackRock's tokenized money market funds",
+    "description": "The AAA rating signals the highest level of credit quality, liquidity and capital preservation.",
+    "date": "2026-05-14",
+    "source_url": "https://www.coindesk.com/markets/2026/05/14/moody-s-awards-top-rating-to-fidelity-and-blackrock-s-tokenized-money-market-funds",
+    "category": "asset_management",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "CFTC issues blanket no-action letter on prediction markets, relieving swap data reporting duties",
+    "description": "The CFTC published the no-action letter to remove uncertainty regarding event contracts, which technically qualify as swaps.",
+    "date": "2026-05-14",
+    "source_url": "https://www.theblock.co/post/401215/cftc-no-action-prediction-market",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Moody’s says banks are preparing for large-scale tokenized finance adoption",
+    "description": "banks and financial institutions have increasingly prepared for a future in which tokenized assets become part of mainstream finance, even as industry participants expect adoption to begin gradually before accelerating rapidly at a later stage. Major U.S. Moody’s says banks are preparing for large-scale tokenized finance adoption",
+    "date": "2026-05-14",
+    "source_url": "https://crypto.news/moodys-says-banks-are-preparing-for-large-scale-tokenized-finance-adoption/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainlink",
+    "initiative": "Myriad integrates Chainlink to automate prediction market payouts",
+    "description": "According to Myriad, the integration brings Chainlink Data Streams and the Chainlink Runtime… Myriad integrates Chainlink to automate prediction market payouts",
+    "date": "2026-05-14",
+    "source_url": "https://crypto.news/myriad-integrates-chainlink-to-automate-prediction-market-payouts/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Interoperability & Standards",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "Prediction markets get CFTC relief as legal battles widen",
+    "description": "CFTC grants no-action relief on event contract reporting, easing swap data duties for DCMs, DCOs and participants amid growing legal fights.",
+    "date": "2026-05-14",
+    "source_url": "https://crypto.news/prediction-markets-get-cftc-relief-as-legal-battles-widen/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "BitGo",
     "initiative": "BitGo doubles revenue to $3.8 billion but net loss widens in Q1",
     "description": "The NYSE-listed crypto infrastructure firm generated $3.8 billion in revenue in the first quarter, up 112.6% year-on-year.",
@@ -9822,101 +9910,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Nomura",
-    "initiative": "Japan’s JSCC partners with Mizuho, Nomura to test government bonds on blockchain",
-    "description": "The proof-of-concept trial will test the onchain transfer and management of Japanese government bonds on Canton Network.",
-    "date": "2026-04-21",
-    "source_url": "https://www.theblock.co/post/398228/japan-jscc-tests-blockchain-government-bonds",
-    "category": "asset_management",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "ElectrumSVP v0.1.0 launches, with self-custody security upgrades",
-    "description": "ElectrumSVP v0.1.0 brings advanced self-custody tools for BSV users, enhancing transaction handling, fee logic, and UTXO management.",
-    "date": "2026-04-21",
-    "source_url": "https://coingeek.com/electrumsvp-v0-1-0-launches-with-self-custody-security-upgrades/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Bank of Korea",
-    "initiative": "Bank of Korea’s new chief vows to push CBDC, deposit tokens; leaves out stablecoins",
-    "description": "BOK Governor Shin Hyun-song previously took a negative stance on stablecoins during his tenure at the BIS.",
-    "date": "2026-04-21",
-    "source_url": "https://www.theblock.co/post/398223/bank-of-korea-new-chief-cbdc-deposit-tokens",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "CBDC"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "The geography of AI firms",
-    "description": "by Kumar Rishabh, Vatsala Shreeti In this paper, we trace the geography and economic characteristics of firms that produce artificial intelligence (AI) products and services. Many economies around the world are evaluating their strategic priorities in AI, yet relatively little is documented about the global distribution of AI production.",
-    "date": "2026-04-20",
-    "source_url": "https://www.bis.org/publ/work1343.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Canton Network",
-    "initiative": "Nomura, Mizuho, JSCC to trial tokenized collateral on Canton Network",
-    "description": "Today Nomura, Mizuho and the Japan Securities Clearing Corporation (JSCC) and Digital Asset Holdings unveiled plans for a tokenized collateral trial for Japanese government bonds (JGBs) on the Canton Network. Two fo the proof of concept (PoC) participants, Nomura and Mizuho, were previously announced as participants of an FSA sandbox, the Payment Innovation Project (PIP)",
-    "date": "2026-04-20",
-    "source_url": "https://www.ledgerinsights.com/nomura-mizuho-jscc-to-trial-tokenized-collateral-on-canton-network/",
-    "category": "ecosystem",
-    "source_name": "Ledger Insights",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
