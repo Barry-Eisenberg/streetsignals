@@ -1,5 +1,99 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "Bitcoin hits $82,000, Coinbase leads crypto stock gains as Clarity Act advances",
+    "description": "The upbeat public debut of AI chipmaker Cerebras is also helping to lift both crypto and traditional markets.",
+    "date": "2026-05-14",
+    "source_url": "https://www.coindesk.com/markets/2026/05/14/bitcoin-hits-usd82-000-coinbase-leads-crypto-stock-gains-as-clarity-act-advances",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Bank of England",
+    "initiative": "BofE to soften plans for stablecoin restrictions",
+    "description": "The Bank of England look set to ease planned stablecoin restrictions in the face of industry pushback, according to the Financial Times.",
+    "date": "2026-05-14",
+    "source_url": "https://www.finextra.com/newsarticle/47757/bofe-to-soften-plans-for-stablecoin-restrictions",
+    "category": "regulators",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainlink",
+    "initiative": "Chainlink CCIP gains over $2.5 billion in TVL from protocols migrating from LayerZero, with Kraken Bitcoin the latest to join",
+    "description": "Kraken Bitcoin is at least the fourth product to deprecate its LayerZero cross-chain tech following the Kelp DAO attack.",
+    "date": "2026-05-14",
+    "source_url": "https://www.theblock.co/post/401368/chainlink-ccip-gains-over-2-5-billion-tvl-from-protocols-migrating-layerzero-kraken-bitcoin-latest",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "JPMorgan says ether and altcoins could keep underperforming bitcoin without stronger activity",
+    "description": "That is \"unlikely to change unless we see meaningful improvements in network activity, DeFi and real world applications,\" the analysts said.",
+    "date": "2026-05-14",
+    "source_url": "https://www.theblock.co/post/401349/jpmorgan-bitcoin-ether-altcoins-crypto",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Upbit halts Cosmos ATOM for chain upgrade",
+    "description": "South Korean exchange Upbit will pause Cosmos ATOM deposits and withdrawals from May 20 to support a network upgrade. Upbit announced the temporary halt via an official notice to users, stating the pause begins at 6:00 a.m. Upbit halts Cosmos ATOM for chain upgrade",
+    "date": "2026-05-14",
+    "source_url": "https://crypto.news/upbit-pauses-cosmos-atom-transfers-for-upgrade/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Equipifi secures $34m to help banks embed BNPL",
     "description": "Equipifi, the fintech platform enabling banks and credit unions to offer flexible payment solutions natively within their digital banking experience, today announced the close of its $34-million Series B.",
@@ -9791,93 +9885,6 @@
       "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "Australia’s Crypto Crossroads: Regulation is Here, Now Comes the Hard Part",
-    "description": "Macropod’s AUDM, Australia’s first AUD-backed stablecoin issued under an AFSL and a participant in the Reserve Bank’s Project Acacia, is now listed on major domestic exchanges with compliance and monitoring infrastructure embedded from the outset, including Chainalysis tools for entity risk scoring and real-time token tracking. Stablecoin oversight and scam prevention are being developed on separate policy tracks — stablecoins through payments reform legislation, scams through the Scam Prevention Framework targeting banks, telcos, and social media platforms.",
-    "date": "2026-04-28",
-    "source_url": "https://www.chainalysis.com/blog/australia-crypto-crossroads-2026/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Mugur Is&#259;rescu: South-east Europe's next leap forward",
-    "description": "Speech by Mr Mugur Is&#259;rescu, Governor of the National Bank of Romania, at the Economist Impact event: Romania Government Roundtable, Bucharest, 30 March 2026.",
-    "date": "2026-04-28",
-    "source_url": "https://www.bis.org/review/r260428l.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Chiara Scotti: From analysis to action - AI in financial markets",
-    "description": "The Bank of Italy's Deputy Governor Chiara Scotti delivered closing remarks at a trilateral event co-organized by the OECD, European Commission, and Banca d'Italia to present a joint report examining how artificial intelligence is being adopted across Italian financial markets. The report maps current AI deployment practices among Italian market participants, benchmarks them against cross-country experience, and identifies regulatory gaps where greater clarity, coordination, and supervisory capacity are needed.",
-    "date": "2026-04-28",
-    "source_url": "https://www.bis.org/review/r260428i.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Joachim Nagel: The digital euro - anchoring Europe's strategic autonomy in a digital future",
-    "description": "Keynote speech by Dr Joachim Nagel, President of the Deutsche Bundesbank, at the House of the Euro, Brussels, 22 April 2026.",
-    "date": "2026-04-28",
-    "source_url": "https://www.bis.org/review/r260428f.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "CBDC"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "HKMA (Hong Kong Monetary Authority)",
-    "initiative": "Eddie Yue: Opening remarks - International Conference \"Climate, capital, and policy: advancing sustainable economic frameworks\"",
-    "description": "We are also developing regulatory requirements to ensure that bank disclosures are consistent with international frameworks and standards. The HKMA's Action Agenda These lessons resonate with the rationale for the HKMA's Sustainable Finance Action Agenda launched in 2024. Eddie Yue: Opening remarks International Conference \"Climate, capital, and policy: advancing sustainable economic frameworks\"",
-    "date": "2026-04-28",
-    "source_url": "https://www.bis.org/review/r260427b.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
