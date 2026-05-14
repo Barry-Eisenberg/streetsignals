@@ -1,5 +1,126 @@
 [
   {
+    "institution": "Circle",
+    "initiative": "Turnkey raises $12.5 million in round backed by Circle Ventures and Sequoia Capital",
+    "description": "The new capital will primarily fund the development and public launch of Turnkey Verifiable Cloud, a secure computing product for digital assets.",
+    "date": "2026-05-14",
+    "source_url": "https://www.coindesk.com/business/2026/05/06/turnkey-raises-usd12-5-million-in-round-backed-by-circle-ventures-and-sequoia-capital",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Stablecoin-powered neobank Fasset raises $51 million to expand across emerging markets",
+    "description": "The Shariah-compliant digital bank is part of a growing wave of fintech startups building banking and payments services on top of blockchain and stablecoin rails.",
+    "date": "2026-05-14",
+    "source_url": "https://www.coindesk.com/business/2026/05/14/stablecoin-powered-neobank-fasset-raises-usd51-million-to-expand-across-emerging-markets",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BlackRock",
+    "initiative": "BlackRock, Janus Henderson tokenized funds get instant redemptions with new $1 billion facility",
+    "description": "A new credit facility by Grove aims to allow instant redemptions into stablecoins from BlackRock's BUIDL and Janus Henderson's money market funds, reducing settlement time from days to instantaneous.",
+    "date": "2026-05-14",
+    "source_url": "https://www.coindesk.com/business/2026/05/14/blackrock-janus-henderson-tokenized-funds-get-instant-redemptions-with-new-usd1-billion-facility",
+    "category": "asset_management",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "CME sets June 8 for Nasdaq-backed crypto index futures covering seven assets in first weighted contract",
+    "description": "CME Group to launch Nasdaq CME Crypto Index futures June 8 — its first market-cap-weighted crypto contract covering BTC and six other assets.",
+    "date": "2026-05-14",
+    "source_url": "https://www.theblock.co/post/401274/cme-sets-june-8-for-nasdaq-backed-crypto-index-futures-covering-seven-assets-in-first-weighted-contract",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase expands USDC reach through Hyperliquid treasury partnership",
+    "description": "Coinbase has become the official USDC treasury deployer on Hyperliquid, strengthening the crypto exchange’s push to expand the stablecoin’s presence deeper into decentralized finance infrastructure. The agreement also includes Native Markets granting Coinbase purchasing rights for USDH-branded assets. Coinbase expands USDC reach through Hyperliquid treasury partnership",
+    "date": "2026-05-14",
+    "source_url": "https://crypto.news/coinbase-expands-usdc-reach-through-hyperliquid-treasury-partnership/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainlink",
+    "initiative": "Chainlink price tests major S/R zone at $10, will bulls regain momentum?",
+    "description": "Chainlink price pulled back this week after facing rejection near a key Fibonacci resistance level, while traders closely watched whether bulls could defend the important support-resistance flip zone near $10. According to data from crypto.news, Chainlink (LINK) traded around $10.2… Chainlink price tests major S/R zone at $10, will bulls regain momentum?",
+    "date": "2026-05-14",
+    "source_url": "https://crypto.news/chainlink-price-tests-major-s-r-zone-at-10-will-bulls-regain-momentum/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "Coinbase backs Hyperliquid stablecoin push as DeFi trading volumes climb",
     "description": "Coinbase will manage USDC liquidity on Hyperliquid, deepening ties with one of crypto’s fastest-growing trading platforms.",
@@ -9649,6 +9770,23 @@
     "year": "2026"
   },
   {
+    "institution": "BIS",
+    "initiative": "Investment funds' de facto currency risk exposure",
+    "description": "by Inês Lindoso, Andreas Schrimpf, Vladyslav Sushko, Toma Tomov",
+    "date": "2026-04-22",
+    "source_url": "https://www.bis.org/publ/bisbull123.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CFTC (Commodity Futures Trading Commission)",
     "initiative": "Kalshi flags more insider trading cases, including politician who appeared on FBoy Island",
     "description": "Kalshi, the CFTC-regulated prediction market exchange, publicly disclosed three additional insider trading enforcement actions against political candidates who placed bets on their own electoral outcomes — a practice the platform classifies as a direct violation of its rulebook given candidates' ability to influence contract results by choosing whether to enter or exit a race. The cases involved a Virginia U.S. Senate candidate, a Minnesota state lawmaker running for Congress, and a Texas congressional candidate, with penalties ranging from $540 to $6,229 in fines plus five-year trading suspensions and profit disgorgement. Two cooperated and received reduced penalties, while the Virginia candidate publicly defied the process and received the stiffest sanction.",
@@ -9760,141 +9898,6 @@
     "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "The London P2P sweep: UK FCA raids eight illegal peer-to-peer trading hubs",
-    "description": "The FCA, operating jointly with HMRC and the South West Regional Organised Crime Unit, executed simultaneous raids across eight London locations suspected of running unregistered crypto peer-to-peer trading operations — marking the regulator's first coordinated enforcement action of this type. Each site received a cease-and-desist notice, and seized evidence is now underpinning multiple active criminal investigations focused on money laundering exposure. The action carries particular regulatory weight given that the FCA has confirmed zero registered P2P crypto traders currently exist in the UK, meaning all such operations are by definition unlawful under the existing AML registration framework.",
-    "date": "2026-04-22",
-    "source_url": "https://www.coindesk.com/policy/2026/04/22/uk-fca-carries-out-coordinated-crackdown-on-illegal-peer-to-peer-crypto-trading",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Nasdaq",
-    "initiative": "Crypto giant GSR launches its first ETF to give investors an easy way to bet on the big 3 tokens",
-    "description": "GSR, a firm best known as a crypto liquidity provider and OTC market maker, has entered the asset management space by listing the GSR Crypto Core3 ETF (BESO) on Nasdaq—its first registered investment product. The actively managed fund holds bitcoin, ether, and solana, rebalances weekly using proprietary research signals, and can generate staking yield on eligible positions, with Framework Digital Advisors serving as the named investment adviser and a 1% annual management fee applying. The structure is notable because it combines active allocation with staking income in a single wrapper, features that have only recently become permissible in U.S.-listed crypto ETFs following regulatory shifts that allowed in-kind treatment and yield-bearing mechanics.",
-    "date": "2026-04-22",
-    "source_url": "https://www.coindesk.com/markets/2026/04/21/crypto-giant-gsr-launches-its-first-etf-to-give-investors-an-easy-way-to-bet-on-the-big-3-tokens",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "UK FCA carries out first crackdown on illegal peer-to-peer crypto trading",
-    "description": "The FCA conducted coordinated physical inspections of eight London premises suspected of operating unregistered peer-to-peer crypto trading activity, working alongside HM Revenue & Customs and the South West Regional Organised Crime Unit. Cease-and-desist letters were issued at each site, and evidence gathered is now feeding into active criminal investigations — a notable escalation given that the regulator has confirmed zero FCA-registered peer-to-peer crypto traders or platforms currently exist in the UK. The action is grounded in existing AML registration requirements that already apply to certain crypto activities ahead of the broader regulatory regime expected to go live in October 2027, meaning firms cannot defer compliance on the basis that the full framework is incomplete.",
-    "date": "2026-04-22",
-    "source_url": "https://www.theblock.co/post/398473/uk-fca-carries-out-first-crackdown-on-illegal-peer-to-peer-crypto-trading",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Petra Tschudin, Thomas Moser: Swipe, scan, tap - the cashless payments market",
-    "description": "Two members of the Swiss National Bank's Governing Board delivered a structured public address at the Zurich Money Market Event examining the architecture and economics of Switzerland's cashless payments ecosystem. The speech drew on SNB household payment survey data showing cash now accounts for roughly 30% of point-of-sale transactions, cards approximately 50%, and mobile payment apps—which have existed for only a decade—around 20% and growing fastest. The presentation was framed explicitly around the SNB's institutional mandate to maintain an efficient and resilient national payments infrastructure, signalling the central bank's active monitoring posture toward the structural shift away from cash.",
-    "date": "2026-04-22",
-    "source_url": "https://www.bis.org/review/r260422j.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Erik Thedéen: Vulnerabilities and resilience in a new world order",
-    "description": "Sveriges Riksbank Governor Erik Thedéen used a Stockholm security conference to outline concrete operational steps the Riksbank is taking to harden Sweden's payment infrastructure against geopolitical and physical disruption risks. Most notably, from 1 July 2026 the Riksbank will mandate offline card payment capability for essential goods purchases in Sweden, and has launched a formal investigation into enabling offline functionality for Swish, the dominant mobile instant-payment platform. Separately, the Swedish government has proposed requiring staffed grocery stores and pharmacies to accept cash from the same date, a measure Thedéen explicitly endorsed as a contingency backstop.",
-    "date": "2026-04-22",
-    "source_url": "https://www.bis.org/review/r260422e.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Paolo Angelini: DLT and stablecoins - where do we stand?",
-    "description": "Speech by Mr Paolo Angelini, Senior Deputy Governor of the Bank of Italy, at the International Economic Symposium \"The global economy at an inflection point: technology, policy, and the future of growth\", co-hosted by the Bank of Italy and National Association for Business Economics (NABE), Rome, 20 April 2026.",
-    "date": "2026-04-22",
-    "source_url": "https://www.bis.org/review/r260422b.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA (European Securities and Markets Authority)",
-    "initiative": "ESMA sets out actions to simplify the retail investor journey and make investing more accessible",
-    "description": "ESMA Publishes Retail Investor Journey Reform Agenda Following 2025 Stakeholder Consultation Following its 2025 Call for Evidence, ESMA has published a formal report synthesising stakeholder feedback and committing to concrete follow-up work across three operational areas: condensing and digitalising product disclosures, simplifying MiFID II suitability and appropriateness assessment frameworks, and reducing complexity in sustainability preference integration. The authority will deploy consumer testing—including mobile-first user research—to validate proposed changes to disclosure design and digital onboarding flows before translating findings into technical advice on MiFID II delegated acts and potential guideline revisions.",
-    "date": "2026-04-22",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-sets-out-actions-simplify-retail-investor-journey-and-make-investing-more",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
     ],
     "initiative_types": [],
     "year": "2026"
