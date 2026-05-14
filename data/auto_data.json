@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Nasdaq",
+    "initiative": "CME dives further into $85 trillion digital assets market with Nasdaq CME Crypto Index futures",
+    "description": "A CME group executive said the demand grew with average daily trading volume in his firms’ suite increasing by 43% year-to date.",
+    "date": "2026-05-14",
+    "source_url": "https://www.coindesk.com/markets/2026/05/14/cme-dives-further-into-usd85-trillion-digital-assets-market-with-nasdaq-cme-crypto-index-futures",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Chainlink",
     "initiative": "Kraken to replace LayerZero with Chainlink to bridge assets across blockchains",
     "description": "The decision sees a total of over $3 billion in total value locked migrating after a $292 million LayerZero-powered bridge exploit involving Kelp.",
@@ -9832,6 +9851,23 @@
     "year": "2026"
   },
   {
+    "institution": "Deutsche Bank",
+    "initiative": "How Thought Leadership Insights Can Be a Flywheel for Investor Trust",
+    "description": "In this Finextra TV interview from the Communify Intelligence Experience in Miami, Pam Finelli, Global COO, Investment Research, Deutsche Bank, explored the importance of personalised advice to clients, allowing consistency on the back end. They discuss how research providers should offer an easy experience, allowing investors to focus on the task at hand, whilst being informed on all relevant data points. Finelli explains research helps banks use content as a flywheel to unlock opportunities with clients, utilising thought leadership insights to bolster trust and respect as a driver for growth.",
+    "date": "2026-04-23",
+    "source_url": "https://www.finextra.com/videoarticle/3488/how-thought-leadership-insights-can-be-a-flywheel-for-investor-trust",
+    "category": "global_banks",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Chainalysis",
     "initiative": "Inside the KelpDAO Bridge Exploit: How ~$292 Million in rsETH Was Released Against a Non-Existent Burn",
     "description": "Government Unveils Sweeping Enforcement Actions Against Southeast Asian Scam Centers and Crypto Fraud Networks April 24, 2026 Crime EU’s 20th Russia Sanctions Package Signals a New Era of Crypto-Specific Enforcement April 24, 2026 Subscribe to our weekly newsletter Products Reactor Wallet Scan Rapid KYT VASP Risking Address Screening Sentinel Alterya Hexagate Chainalysis Data Solutions (DS) Industries Law Enforcement Centralized Exchanges Financial Institutions Tax Agencies Regulators Stablecoin Risk Management Decentralized Finance Consumer Brands Cybersecurity Join Us Careers Open Positions Company About Us Why Chainalysis Partners Media Resources Scam Prevention Global Español Português Resources Blog Webinars Podcast Reports Services Global Services Training & Certification Security &",
@@ -9852,53 +9888,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "$30 Billion and Counting: How Tokenized RWAs Are Becoming a Mainstream Investment for Institutional Capital",
-    "description": "Commodities Crypto Markets Financial Institutions RWAs tokenization TradFi Recent posts Markets Crypto Prediction Markets Explained: How the Blockchain Is Reshaping Forecasting May 7, 2026 Markets The $100 Trillion Wealth Shift: Stablecoin Utility and the Future of Payments April 8, 2026 Markets From Strategy to Scale: Implementing Stablecoin Programs and Measuring What Matters March 19, 2026 Subscribe to our weekly newsletter Products Reactor Wallet Scan Rapid KYT VASP Risking Address Screening Sentinel Alterya Hexagate Chainalysis Data Solutions (DS) Industries Law Enforcement Centralized Exchanges Financial Institutions Tax Agencies Regulators Stablecoin Risk Management Decentralized Finance Consumer Brands Cybersecurity Join Us Careers Open Positions Company About Us Why Chainalysis",
-    "date": "2026-04-23",
-    "source_url": "https://www.chainalysis.com/blog/tokenized-real-world-assets-on-chain-commodities/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Cryptoasset service providers as financial intermediaries: risks and policy approaches",
-    "description": "The largest firms now offer a broad range of products, including yield/earn programmes, margin and secured lending, derivatives and token issuance. Some of these products closely resemble financial intermediation activities traditionally performed by banks and prime brokers.",
-    "date": "2026-04-23",
-    "source_url": "https://www.bis.org/fsi/fsipapers27.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
       "DeFi",
       "Crypto / Digital Assets"
     ],
