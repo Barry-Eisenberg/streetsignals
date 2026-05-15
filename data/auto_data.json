@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "Hyperliquid leads 24-hour gains as altcoins pace bitcoin",
+    "description": "HYPE’s surge is being fueled by Bitwise’s new spot Hyperliquid ETF and Coinbase’s expanded role as Hyperliquid’s official USDC treasury deployer.",
+    "date": "2026-05-15",
+    "source_url": "https://www.coindesk.com/markets/2026/05/15/hyperliquid-leads-24-hour-gains-as-altcoins-pace-bitcoin",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Hana Bank to acquire $670 million stake in Upbit operator Dunamu",
     "description": "The South Korean bank announced plans for a won-pegged stablecoin, blockchain remittances and tokenized securities.",
@@ -9868,27 +9887,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Brazil Central Bank",
-    "initiative": "Brazil central bank prohibits crypto use in regulated cross-border payments under new FX rules",
-    "description": "The rule forms part of the central bank's broader effort to bring cross-border payments fully inside the regulated FX system.",
-    "date": "2026-05-01",
-    "source_url": "https://www.theblock.co/post/399713/brazil-central-bank-prohibits-crypto-use-in-regulated-cross-border-payments-under-new-fx-rules",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
