@@ -1,5 +1,102 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "CLARITY will strengthen dollar stablecoins, but Asia wins on yield: HashKey Research",
+    "description": "HashKey says U.S. regulatory clarity may unlock institutional adoption of crypto and reinforce USD stablecoins globally, though stricter yield rules could push capital toward Asian markets offering higher returns.",
+    "date": "2026-05-15",
+    "source_url": "https://www.coindesk.com/policy/2026/05/15/clarity-will-strengthen-dollar-stablecoins-but-asia-wins-on-yield-hashkey-research",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Trump family bought Coinbase and Strategy shares amid crypto losses",
+    "description": "Donald Trump and his family have expanded their exposure to crypto-linked equities during the first quarter of 2026, adding positions in Coinbase, MARA Holdings, and Strategy as several Trump-backed digital asset ventures continued posting heavy paper losses. According to a… Trump family bought Coinbase and Strategy shares amid crypto losses",
+    "date": "2026-05-15",
+    "source_url": "https://crypto.news/trump-family-bought-coinbase-and-strategy-shares-amid-crypto-losses/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Gemini’s $50M quarter shows why it is moving beyond crypto trading",
+    "description": "Gemini revenue rose 42% to $50.3M in Q1 as credit card income surged, but exchange revenue fell and operating costs increased sharply.",
+    "date": "2026-05-15",
+    "source_url": "https://crypto.news/geminis-50m-quarter-shows-why-it-is-moving-beyond-crypto-trading/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "Ethereum upgrades may not be enough to lift Ether, JPMorgan warns",
+    "description": "Ether has continued to lag behind Bitcoin during the latest crypto market recovery, with analysts at JPMorgan saying weaker network activity and fading confidence across the altcoin market have kept institutional demand tilted toward Bitcoin. According to a report from… Ethereum upgrades may not be enough to lift Ether, JPMorgan warns",
+    "date": "2026-05-15",
+    "source_url": "https://crypto.news/ethereum-upgrades-may-not-be-enough-to-lift-ether-jpmorgan-warns/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Hana Bank makes $670M Upbit parent bet as Korea crypto shifts",
+    "description": "Hana Bank will buy a $670M Dunamu stake, becoming Upbit parent’s fourth-largest holder as Korea’s crypto rules and Naver deal shift in 2026.",
+    "date": "2026-05-15",
+    "source_url": "https://crypto.news/hana-bank-makes-670m-upbit-parent-bet-as-korea-crypto-shifts/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Tether",
     "initiative": "Lawyer behind Arbitrum crypto seizure fight now targets Tether for $344 million",
     "description": "Charles Gerstein wants a federal judge to order Tether to transfer OFAC-frozen USDT tied to Iran’s Revolutionary Guard to victims holding unpaid terrorism judgments",
@@ -9783,99 +9880,6 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Research / Report",
     "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Circle",
-    "initiative": "Stablecoins losing cross-border appeal; Circle v Tether in DeFi fight",
-    "description": "Stablecoins Tether and Circle are locked in a DeFi fight, Meta pilots USDC payouts, and EU sanctions tighten on Russia and digital ruble-linked tokens.",
-    "date": "2026-04-30",
-    "source_url": "https://coingeek.com/stablecoins-losing-cross-border-appeal-circle-v-tether-in-defi-fight/",
-    "category": "payments",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "Philippines: dYdX among 7 ‘crypto’ platforms flagged by SEC",
-    "description": "The Philippine SEC published a formal investor alert naming dYdX alongside AEVO, GTrade, Pacifica, Orderly, Deriv, and Ostium as unregistered platforms soliciting investments from Filipino residents without the licenses required under the country's Crypto-Asset Service Provider (CASP) Rules, which mandate registration for any entity—domestic or foreign—offering crypto-asset services to persons in the Philippines. None of the seven platforms hold SEC registration or authorization, exposing them and any local promoters to penalties under the Securities Regulation Code of up to PHP 5 million (approximately USD 89,000) and up to 21 years' imprisonment.",
-    "date": "2026-04-30",
-    "source_url": "https://coingeek.com/philippines-dydx-among-7-crypto-platforms-flagged-by-sec/",
-    "category": "regulators",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Commonwealth Bank",
-    "initiative": "CommBank builds AI agent that spots fraud and helps build defences",
-    "description": "Commonwealth Bank of Australia has deployed an agentic AI system designed to help detect emerging fraud and scam patterns in transaction and payments data and generate the rules needed to help intercept them.",
-    "date": "2026-04-30",
-    "source_url": "https://www.finextra.com/newsarticle/47683/commbank-builds-ai-agent-that-spots-fraud-and-helps-build-defences",
-    "category": "global_banks",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "PayPal",
-    "initiative": "PayPal reorganisation gives Venmo its own business unit",
-    "description": "PayPal is reorganising its business into three units, including one dedicated to Venmo, as new CEO Enrique Lores bids to reinvigorate the payments giant in the face of increasing competition and potential takeover bids.",
-    "date": "2026-04-30",
-    "source_url": "https://www.finextra.com/newsarticle/47681/paypal-reorganisation-gives-venmo-its-own-business-unit",
-    "category": "payments",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Australian Securities and Investments Commission",
-    "initiative": "Australian regulator warns of ungoverned AI risks to banks",
-    "description": "The Australian Prudential Regulation Authority (Apra) has called for a step-change in how banks, insurers and superannuation trustees manage AI-related risks as the technology continues to rapidly evolve.",
-    "date": "2026-04-30",
-    "source_url": "https://www.finextra.com/newsarticle/47679/australian-regulator-warns-of-ungoverned-ai-risks-to-banks",
-    "category": "regulators",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
     "initiative_types": [],
     "year": "2026"
   }
