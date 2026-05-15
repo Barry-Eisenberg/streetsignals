@@ -17,6 +17,23 @@
     "year": "2026"
   },
   {
+    "institution": "Coinbase",
+    "initiative": "Trump’s latest disclosure shows Coinbase, Strategy, MARA purchases in Q1",
+    "description": "Among the Coinbase-related purchases, the largest transaction was a Feb. 10 purchase valued between $100,001 and $250,000.",
+    "date": "2026-05-14",
+    "source_url": "https://www.theblock.co/post/401406/trump-coinbase-strategy-mara",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Tether",
     "initiative": "Tether freeze unit T3 FCU passes $450M mark",
     "description": "The Tether freeze coalition known as T3 FCU has surpassed $450 million in blocked illicit USDT since launching in 2024. The T3 Financial Crime Unit, a joint initiative backed by Tether, TRON, and blockchain analytics firm TRM Labs, has crossed… Tether freeze unit T3 FCU passes $450M mark",
@@ -9865,24 +9882,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS (Bank for International Settlements)",
-    "initiative": "Shifting forces behind RMB internationalization: evidence from the 2025 Triennial Survey",
-    "description": "by Juliana Robbert, Vladyslav Sushko, Frank Westermann This paper explores factors driving the internationalization of Renminbi (RMB) trading, using data from the 2025 BIS Triennial Survey of global foreign exchange turnover. We analyze both short-term (three-year) trading growth and long-term RMB turnover levels across jurisdictions.",
-    "date": "2026-04-29",
-    "source_url": "https://www.bis.org/publ/work1345.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
