@@ -1,5 +1,77 @@
 [
   {
+    "institution": "Nasdaq",
+    "initiative": "SpaceX targets June 11 IPO pricing, picks Nasdaq for historic market debut",
+    "description": "Elon Musk’s rocket and satellite company has accelerated plans for its blockbuster public offering, with trading expected to begin as early as June 12 after a faster-than-expected SEC review.",
+    "date": "2026-05-15",
+    "source_url": "https://www.coindesk.com/markets/2026/05/15/spacex-targets-june-11-ipo-pricing-picks-nasdaq-for-historic-market-debut",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Bitcoin gives up Clarity Act gains as macro rout wipes out leveraged crypto bulls",
+    "description": "Stocks, gold and crypto slid on Friday while crude oil topped $100 and traders repriced Fed expectations for rate hikes.",
+    "date": "2026-05-15",
+    "source_url": "https://www.coindesk.com/markets/2026/05/15/bitcoin-tumbles-below-usd79-000-as-rising-bond-yields-inflation-worries-rattle-markets",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Digital Asset Exchange",
+    "initiative": "Bitget’s AI trading stack tops 1 million users and $1.2B in volume",
+    "description": "Bitget’s AI trading ecosystem now spans 58 tools, over 1 million users and $1.2B in volume, as the exchange leans into “agent‑native” trading as a core Universal Exchange pillar. Bitget has launched a dedicated Bitget AI landing page and disclosed… Bitget’s AI trading stack tops 1 million users and $1.2B in volume",
+    "date": "2026-05-15",
+    "source_url": "https://crypto.news/bitgets-ai-trading-stack-tops-1-million-users-and-1-2b-in-volume/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "U.S. Treasury Department",
+    "initiative": "Treasury yields hit 12-month high, Bitcoin stalls",
+    "description": "Treasury yields hit 12-month highs on May 15, pushing Bitcoin back toward $80,500 a day after the Clarity Act committee vote. US Treasury yields surged to fresh 12-month highs on May 15, with the 10-year note hitting 4.54% and the… Treasury yields hit 12-month high, Bitcoin stalls",
+    "date": "2026-05-15",
+    "source_url": "https://crypto.news/treasury-yields-hit-12-month-high-bitcoin-stalls/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CFTC (Commodity Futures Trading Commission)",
     "initiative": "Hyperliquid Policy Center argues onchain perps offer efficiency, transparency as ICE and CME reportedly press for CFTC oversight",
     "description": "Bloomberg reported that ICE and CME are pressing for Hyperliquid to register with the CFTC, raising concerns about market stability.",
@@ -9788,100 +9860,6 @@
     "fmi_areas": [],
     "initiative_types": [
       "Leadership & Governance"
-    ],
-    "year": "2026",
-    "description_truncated": true
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase XRP TAS launches today, making XRP the first altcoin with institutional settlement tools",
-    "description": "The TAS launch is arriving at the same time as a Coinbase market maker program that also activates May 1 and is designed to improve order book depth for XRP and other crypto futures on the exchange.",
-    "date": "2026-05-01",
-    "source_url": "https://crypto.news/coinbase-xrp-tas-goes-live-for-institutions-today/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026",
-    "description_truncated": true
-  },
-  {
-    "institution": "MoonPay",
-    "initiative": "Banks push back on GENIUS Act rules as Agora races for a federal charter",
-    "description": "Apr 5, 2026 at 4:30 PM UTC Opinion Read more SEC & CFTC issued regulatory clarity | Opinion SEC & CFTC issued regulatory clarity | Opinion Apr 3, 2026 at 2:54 PM UTC Related News Previous Next News Read more Tokenized gold volume hits $90.7B in Q1, beats all 2025 Tokenized gold volume hits $90.7B in Q1, beats all 2025 32 minutes ago News Read more MoonPay says stablecoin regulation opened the door but infrastructure must follow MoonPay says stablecoin regulation opened the door but infrastructure must follow 2 days ago News Read more US banks reject CLARITY Act stablecoin deal days before Senate vote US banks reject CLARITY Act stablecoin deal days before Senate vote 2 days ago Sign up for crypto news and market insights Get crypto market analysis and curated news delivered right",
-    "date": "2026-05-01",
-    "source_url": "https://crypto.news/banks-push-back-on-genius-act-stablecoin-rules/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026",
-    "description_truncated": true
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase CUSHY fund brings institutional credit on-chain ahead of Q2 launch",
-    "description": "As crypto.news documented , Coinbase’s head of investment research David Duong had projected that stablecoins and tokenised credit would form a core pillar of institutional crypto adoption in 2026, citing regulatory clarity from the GENIUS Act as the enabling condition. Coinbase CUSHY was unveiled on April 30 by Coinbase Asset Management, positioning the product as a bridge between traditional fixed-income markets and on-chain settlement infrastructure. Coinbase CUSHY credit fund targets institutions",
-    "date": "2026-05-01",
-    "source_url": "https://crypto.news/coinbase-cushy-credit-fund-targets-institutions/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026",
-    "description_truncated": true
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Brazil shuts crypto out of its official cross‑border payment pipes",
-    "description": "521 carried by crypto.news , the measure bans “virtual assets” from settlement inside the electronic foreign‑exchange (eFX) channel that banks, payment institutions, and licensed remittance providers use for international payments.",
-    "date": "2026-05-01",
-    "source_url": "https://crypto.news/brazil-shuts-crypto-out-of-its-official-cross-border-payment-pipes/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
     ],
     "year": "2026",
     "description_truncated": true
