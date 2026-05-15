@@ -1,5 +1,82 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Hana Bank to acquire $670 million stake in Upbit operator Dunamu",
+    "description": "The South Korean bank announced plans for a won-pegged stablecoin, blockchain remittances and tokenized securities.",
+    "date": "2026-05-15",
+    "source_url": "https://www.coindesk.com/business/2026/05/15/hana-bank-to-acquire-usd670-million-stake-in-upbit-operator-dunamu",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "OKX set to acquire 20% stake in South Korean crypto exchange Coinone: report",
+    "description": "If approved, OKX would become the second global exchange to own a majority stake in a South Korean crypto platform, following Binance.",
+    "date": "2026-05-15",
+    "source_url": "https://www.theblock.co/post/401431/okx-coinone-acquisition",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "Bitcoin Reclaims $81,000 After CLARITY Vote as JPMorgan Says It’s Winning the Institutional Race",
+    "description": "Bitcoin bounced to $81,000 after the CLARITY Act cleared committee, but 12-month-high Treasury yields and a stubborn 200-day moving average keep the macro picture uncertain.",
+    "date": "2026-05-15",
+    "source_url": "https://unchainedcrypto.com/bitcoin-reclaims-81000-after-clarity-vote-as-jpmorgan-says-its-winning-the-institutional-race/",
+    "category": "payments",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Digital Asset Exchange",
+    "initiative": "Bitget’s OpenAI-linked token sale tops $100M before deadline",
+    "description": "Bitget says OpenAI-linked preOPAI commitments topped $100M as its IPO Prime sale neared the May 15 deadline, despite equity risks.",
+    "date": "2026-05-15",
+    "source_url": "https://crypto.news/bitgets-openai-linked-token-sale-tops-100m-before-deadline/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Fintech Wrap Up",
     "initiative": "Why every company will launch its own stablecoin - Sam Broner (CEO, The Better Money Company)",
     "description": "What happens when every bank, fintech, and enterprise launches its own stablecoin?",
@@ -9813,78 +9890,6 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "SBI Holdings",
-    "initiative": "SBI Holdings in talks to acquire stake in crypto exchange Bitbank, eyes subsidiary status",
-    "description": "SBI Holdings has submitted a letter of intent to acquire a controlling stake in Bitbank, one of Japan's larger domestic crypto exchanges, with the goal of making it a consolidated subsidiary — a structurally significant threshold that would bring Bitbank onto SBI's balance sheet and under its regulatory perimeter. The move follows SBI's absorption of Bitpoint Japan into its in-house crypto arm, SBI VC Trade, last month, indicating a deliberate strategy to consolidate Japan's fragmented retail crypto exchange landscape under a single group umbrella ahead of anticipated regulatory tightening as crypto assets move toward coverage under the Financial Instruments and Exchange Act.",
-    "date": "2026-05-01",
-    "source_url": "https://www.theblock.co/post/399709/sbi-holdings-in-talks-to-acquire-stake-in-crypto-exchange-bitbank-eyes-subsidiary-status",
-    "category": "global_banks",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "Gemini Wins CFTC Derivatives Clearing License, Completing Regulatory Stack for Prediction Markets and Perps",
-    "description": "Subscribe here to get these updates in your email for free The DCO approval follows the December 2025 Designated Contract Market (DCM) license granted to affiliate Gemini Titan , which enabled the launch of Gemini’s prediction marketplace. As Unchained reported this week , Polymarket is seeking CFTC approval to reopen its main exchange to U.S. Gemini Wins CFTC Derivatives Clearing License, Completing Regulatory Stack for Prediction Markets and Perps Unchained",
-    "date": "2026-05-01",
-    "source_url": "https://unchainedcrypto.com/gemini-wins-cftc-derivatives-clearing-license-completing-regulatory-stack-for-prediction-markets-and-perps/",
-    "category": "regulators",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Tiff Macklem: Release of the Monetary Policy Report",
-    "description": "Bank of Canada Holds Rate at 2.25% Amid Middle East-Driven Energy Shock At its April 29, 2026 decision, the Bank of Canada's Governing Council held the overnight policy rate steady at 2.25% — unchanged since October 2025 — as policymakers weighed competing pressures from an energy-driven inflation spike against softening domestic demand and trade headwinds from U.S. tariffs. The escalation of the Middle East conflict has driven global oil prices to approximately USD 90/barrel, pushing Canadian CPI from 1.8% in February to 2.4% in March, with the Bank projecting a peak near 3% in April before a return to the 2% target by early 2026, contingent on oil prices declining to around USD 75/barrel.",
-    "date": "2026-04-30",
-    "source_url": "https://www.bis.org/review/r260430a.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Ale&#353; Michl: A central bank. And bitcoin.",
-    "description": "Czech National Bank Governor Aleš Michl delivered a formal speech at The Bitcoin Conference 2026 in Las Vegas, marking a notable instance of a sitting G10-adjacent central bank governor directly engaging a crypto-native audience at an industry event. The speech framed the CNB's post-2022 monetary tightening—which successfully reduced inflation from near 20% to the 2% target—as a philosophical foundation for evaluating Bitcoin alongside traditional reserve management principles. Michl positioned the CNB's approach as structurally hawkish and pro-saving, implicitly signaling openness to hard-asset or scarcity-based monetary concepts consistent with that framework.",
-    "date": "2026-04-30",
-    "source_url": "https://www.bis.org/review/r260430b.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
