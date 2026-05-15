@@ -1,5 +1,62 @@
 [
   {
+    "institution": "Chainlink",
+    "initiative": "Lombard joins LayerZero exodus as $4 billion in assets switch to Chainlink's bridge",
+    "description": "The shift comes after the Kelp DAO exploit drained $292 million from its LayerZero-powered bridge, increasing concerns over the security of cross-chain infrastructure.",
+    "date": "2026-05-15",
+    "source_url": "https://www.coindesk.com/business/2026/05/15/lombard-joins-layerzero-exodus-as-usd4-billion-in-assets-switch-to-chainlink-s-bridge",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "RedStone’s settlement layer is the first serious attempt to make tokenized RWAs real DeFi collateral",
+    "description": "RedStone has launched “RedStone Settle,” a dedicated DeFi settlement layer built to make tokenized real‑world assets usable as collateral in lending protocols, targeting roughly $30 billion… RedStone’s new “Settle” layer is the first sober attempt to fix DeFi’s RWA paradox. RedStone’s settlement layer is the first serious attempt to make tokenized RWAs real DeFi collateral",
+    "date": "2026-05-15",
+    "source_url": "https://crypto.news/redstones-settlement-layer-is-the-first-serious-attempt-to-make-tokenized-rwas-real-defi-collateral/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Tokenization & Issuance",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DeFi",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "State Street",
+    "initiative": "State Street’s tokenized fund servicing is the boring infrastructure shift that actually matters",
+    "description": "State Street is wiring its Luxembourg fund stack so tokenized fund units run on the same custody, NAV and TA rails as traditional funds, turning RWAs from brochure‑ware into production infrastructure. State Street’s tokenized fund servicing is the boring infrastructure shift that actually matters",
+    "date": "2026-05-15",
+    "source_url": "https://crypto.news/state-streets-tokenized-fund-servicing-is-the-boring-infrastructure-shift-that-actually-matters/",
+    "category": "asset_management",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Federal Reserve Board announces termination of enforcement actions with UBS Group AG, Credit Suisse AG, Credit Suisse Holdings (USA), Inc., and Credit Suisse AG, New York Branch",
     "description": "Federal Reserve Board announces termination of enforcement actions with UBS Group AG, Credit Suisse AG, Credit Suisse Holdings (USA), Inc., and Credit Suisse AG, New York Branch",
@@ -9827,64 +9884,5 @@
       "Crypto / Digital Assets"
     ],
     "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Has regulation helped or hindered the fight against scams in the UK?",
-    "description": "For much of the past decade, the UK’s response to fraud has been driven by regulatory compulsion rat... Has regulation helped or hindered the fight against scams in the UK?",
-    "date": "2026-05-01",
-    "source_url": "https://www.finextra.com/blogposting/31580/has-regulation-helped-or-hindered-the-fight-against-scams-in-the-uk",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Tether",
-    "initiative": "Tether posts $1.04 billion Q1 profit, reaches $8.23 billion reserve buffer",
-    "description": "Tether now counts roughly $20 billion in physical gold and about $7 billion in bitcoin among its reserves, as stablecoins see growing use in international payments. Tether, issuer of the largest stablecoin by market capitalization, said first-quarter net profit was $1.04 billion and excess reserves increased to a record $8.23 billion. Tether posts $1.04 billion in first-quarter profit, reaches $8.23 billion reserve buffer",
-    "date": "2026-05-01",
-    "source_url": "https://www.coindesk.com/business/2026/05/01/tether-posts-usd1-04-billion-q1-profit-reaches-usd8-23-billion-reserve-buffer",
-    "category": "payments",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "SBI Holdings",
-    "initiative": "SBI Holdings eyes stake in crypto exchange Bitbank to build digital asset powerhouse",
-    "description": "SBI Holdings has submitted a letter of intent to acquire a stake in Bitbank Co., Ltd.—one of Japan's largest retail crypto exchanges—with the explicit intention of consolidating it as a subsidiary, extending a domestic roll-up strategy that already includes the full absorption of regulated exchange Bitpoint. The move is timed against a material regulatory inflection point: Japan's cabinet has approved a draft amendment that would bring crypto assets under the Financial Instruments and Exchange Act, the same framework governing equities and securities, potentially effective fiscal 2027, which would significantly raise compliance burdens and favor well-capitalized, institutionally affiliated platforms.",
-    "date": "2026-05-01",
-    "source_url": "https://www.coindesk.com/business/2026/05/01/sbi-holdings-continues-its-crypto-expansion-with-plans-for-a-stake-in-bitbank",
-    "category": "global_banks",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026",
-    "https://www.coindesk.com/business/2026/05/01/sbi-holdings-continues-its-crypto-expansion-with-plans-for-a-stake-in-bitbank": "SBI Holdings has submitted a letter of intent to acquire a stake in Bitbank Co., Ltd.—one of Japan's largest retail crypto exchanges—with the explicit intention of consolidating it as a subsidiary, extending a domestic roll-up strategy that already includes the full absorption of regulated exchange Bitpoint. The move is timed against a material regulatory inflection point: Japan's cabinet has approved a draft amendment that would bring crypto assets under the Financial Instruments and Exchange Act, the same framework governing equities and securities, potentially effective fiscal 2027, which would significantly raise compliance burdens and favor well-capitalized, institutionally affiliated platforms."
   }
 ]
