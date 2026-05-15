@@ -1,5 +1,59 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "NAB buys A2A payments platform Banked",
+    "description": "National Australia Bank has acquired account-to-account payments platform Banked. Financial terms were not disclosed.",
+    "date": "2026-05-15",
+    "source_url": "https://www.finextra.com/newsarticle/47761/nab-buys-a2a-payments-platform-banked",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Poland passes MiCA crypto bill as $96 million Zondacrypto probe deepens: report",
+    "description": "Polish lawmakers adopted MiCA as prosecutors probe $96 million in losses from collapsed exchange Zondacrypto.",
+    "date": "2026-05-15",
+    "source_url": "https://www.theblock.co/post/401493/poland-passes-mica-crypto-bill-zondacrypto-probe-deepens-report",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "21Shares’ Hyperliquid ETF posts ‘best day’ inflows of $5 million as Coinbase becomes treasury deployer",
+    "description": "The newly-launched ETF “had its best day yet\" on Thursday with $8.1 million trading volume and net inflows of roughly $4.9 million.",
+    "date": "2026-05-15",
+    "source_url": "https://www.theblock.co/post/401479/21shares-hyperliquid-etf-best-day-inflows-5-million-coinbase-treasury-deployer",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "Hyperliquid leads 24-hour gains as altcoins pace bitcoin",
     "description": "HYPE’s surge is being fueled by Bitwise’s new spot Hyperliquid ETF and Coinbase’s expanded role as Hyperliquid’s official USDC treasury deployer.",
@@ -9828,65 +9882,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "WisdomTree",
-    "initiative": "WisdomTree’s crypto ETPs reported net inflows of $137 million in Q1",
-    "description": "Cumulatively, assets under management for the firm's crypto ETPs rose to roughly $1.8 billion during Q1 of this year.",
-    "date": "2026-05-01",
-    "source_url": "https://www.theblock.co/post/399725/wisdomtrees-crypto-etps-reported-net-inflows-of-137-million-in-q1",
-    "category": "asset_management",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Crypto onramping solution Fun raises $72 million Series A co-led by Multicoin Capital and SignalFire",
-    "description": "Fun powers deposits, withdrawals, and settlement flows for some of crypto’s leading apps, including Polymarket, Lighter, and Aave.",
-    "date": "2026-05-01",
-    "source_url": "https://www.theblock.co/post/399726/crypto-onramping-solution-fun-raises-72-million-series-a-co-led-by-multicoin-capital-and-signalfire",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Settlement & Clearing"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "MoonPay",
-    "initiative": "MoonPay launches stablecoin debit card for AI agents on Mastercard network",
-    "description": "MoonPay has launched \"MoonAgents Card,\" a stablecoin debit card for AI agents and users to spend directly from onchain wallets.",
-    "date": "2026-05-01",
-    "source_url": "https://www.theblock.co/post/399716/moonpay-stablecoin-debit-card-ai-agents-mastercard",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
   }
