@@ -1,5 +1,60 @@
 [
   {
+    "institution": "Chainlink",
+    "initiative": "Lombard joins Chainlink CCIP as LayerZero exodus tops $4b",
+    "description": "Lombard has joined a wave of protocols switching to Chainlink CCIP as LayerZero migrations top $4 billion. LayerZero exploit sparks industry-wide migration The shift accelerated after a $292 million exploit drained 116,500 rsETH from Kelp DAO’s LayerZero-powered bridge in April… Lombard joins Chainlink CCIP as LayerZero exodus tops $4b",
+    "date": "2026-05-15",
+    "source_url": "https://crypto.news/chainlink-ccip-draws-4b-from-layerzero-exodus/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "a16z says CLARITY Act’s Senate breakthrough could be crypto’s 1933 moment",
+    "description": "The CLARITY Act’s bipartisan 15–9 Senate Banking vote moves a bill that could finally split SEC–CFTC jurisdiction and give crypto its first bespoke market‑structure law, a16z argues. According to a16z, the CLARITY Act is designed to build a bespoke legal framework… a16z says CLARITY Act’s Senate breakthrough could be crypto’s 1933 moment",
+    "date": "2026-05-15",
+    "source_url": "https://crypto.news/a16z-says-clarity-acts-senate-breakthrough-could-be-cryptos-1933-moment/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BlackRock",
+    "initiative": "Mubadala raises its Bitcoin ETF stake 16% to $566 million",
+    "description": "Abu Dhabi’s Mubadala disclosed a 16% increase in its Bitcoin ETF position to $566 million in Q1 2026. The SEC 13F filing shows Mubadala held 14,721,917 shares of BlackRock’s iShares Bitcoin Trust valued at $565,616,051 as of March 31, 2026.… Mubadala raises its Bitcoin ETF stake 16% to $566 million",
+    "date": "2026-05-15",
+    "source_url": "https://crypto.news/mubadala-raises-bitcoin-etf-stake-to-566m-in-q1/",
+    "category": "asset_management",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Nasdaq",
     "initiative": "SpaceX targets June 11 IPO pricing, picks Nasdaq for historic market debut",
     "description": "Elon Musk’s rocket and satellite company has accelerated plans for its blockbuster public offering, with trading expected to begin as early as June 12 after a faster-than-expected SEC review.",
@@ -9811,57 +9866,5 @@
       "Payment Infrastructure"
     ],
     "year": "2026"
-  },
-  {
-    "institution": "Ripple",
-    "initiative": "Why Brad Garlinghouse believes the CLARITY Act will pass in May despite missing two deadlines",
-    "description": "Read more: Curve’s new bad‑debt pools turn losses into tradable claims Read more about Brad Garlinghouse Cryptocurrency RippleNet Load More Best crypto platforms May 2026 Explore Deep Dives Opinion Read more Crypto conference season looked loud in 2025 but it barely made a dent in crypto media traffic Crypto conference season looked loud in 2025 but it barely made a dent in crypto media traffic 3 days ago News Read more The Block’s new CEO bet: Azuki’s Steve Chung and a $10M institutional push The Block’s new CEO bet: Azuki’s Steve Chung and a $10M institutional push 2 weeks ago Interviews Read more In conversation with Vasily Shilov, CBDO at SwapSpace: Privacy, DEXs, and what the conference season actually revealed In conversation with Vasily Shilov, CBDO at SwapSpace: Privacy",
-    "date": "2026-05-01",
-    "source_url": "https://crypto.news/why-brad-garlinghouse-still-backs-clarity-act/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Ripple",
-    "initiative": "CLARITY Act window slams shut after May 21",
-    "description": "analysis notes that XRP has spent most of 2026 waiting on this single catalyst, and that failure before May 21 effectively removes the largest institutional adoption driver for the year.",
-    "date": "2026-05-01",
-    "source_url": "https://crypto.news/clarity-act-hits-its-final-window-on-may-21/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Google Cloud",
-    "initiative": "OpenAI ends Microsoft exclusivity and can now sell its models on AWS and Google Cloud",
-    "description": "Read more: Coinbase CUSHY fund brings institutional credit on-chain ahead of Q2 launch Read more about exclude-news Google Microsoft OpenAI Load More Best crypto platforms May 2026 Explore Deep Dives Opinion Read more Crypto conference season looked loud in 2025 but it barely made a dent in crypto media traffic Crypto conference season looked loud in 2025 but it barely made a dent in crypto media traffic 3 days ago News Read more The Block’s new CEO bet: Azuki’s Steve Chung and a $10M institutional push The Block’s new CEO bet: Azuki’s Steve Chung and a $10M institutional push 2 weeks ago Interviews Read more In conversation with Vasily Shilov, CBDO at SwapSpace: Privacy, DEXs, and what the conference season actually revealed In conversation with Vasily Shilov, CBDO at SwapSpace",
-    "date": "2026-05-01",
-    "source_url": "https://crypto.news/openai-microsoft-exclusivity-ends-after-seven-years/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2026",
-    "description_truncated": true
   }
 ]
