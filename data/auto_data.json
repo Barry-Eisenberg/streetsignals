@@ -1,5 +1,42 @@
 [
   {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "U.S. House lawmakers who oversee the CFTC are urging Trump to fill the commission",
+    "description": "As the Commodity Futures Trading Commission takes on a growing task to police U.S. crypto trading, senior lawmakers are saying it needs bipartisan leadership.",
+    "date": "2026-05-15",
+    "source_url": "https://www.coindesk.com/policy/2026/05/15/u-s-house-lawmakers-who-oversee-the-cftc-are-urging-trump-to-fill-the-commission",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CME Group",
+    "initiative": "CME and ICE push US regulators to scrutinize Hyperliquid",
+    "description": "CME and ICE warned that Hyperliquid’s anonymous, round-the-clock perpetual futures trading could distort global commodity benchmarks, particularly in oil markets. The exchanges… CME and ICE push US regulators to scrutinize Hyperliquid",
+    "date": "2026-05-15",
+    "source_url": "https://crypto.news/cme-and-ice-target-hyperliquid-over-manipulation/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Chainlink",
     "initiative": "Lombard joins Chainlink CCIP as LayerZero exodus tops $4b",
     "description": "Lombard has joined a wave of protocols switching to Chainlink CCIP as LayerZero migrations top $4 billion. LayerZero exploit sparks industry-wide migration The shift accelerated after a $292 million exploit drained 116,500 rsETH from Kelp DAO’s LayerZero-powered bridge in April… Lombard joins Chainlink CCIP as LayerZero exodus tops $4b",
@@ -9821,50 +9858,5 @@
     ],
     "year": "2026",
     "https://www.coindesk.com/policy/2026/05/02/brazil-s-central-bank-bans-stablecoin-and-crypto-settlement-in-cross-border-payments": "Brazil's central bank issued Resolution No. 561 on April 30, prohibiting licensed electronic foreign exchange (eFX) providers from using stablecoins or other cryptocurrencies — including USDT, USDC, and Bitcoin — as settlement instruments in cross-border payment flows, with the rule taking effect October 1, 2026. The measure directly disrupts the operational model of firms such as Nomad and Braza Bank, which had embedded stablecoin rails — including Ripple's network and XRP Ledger-issued real-backed tokens — into their international remittance infrastructure."
-  },
-  {
-    "institution": "Digital Asset Exchange",
-    "initiative": "Leading Iranian crypto exchange Nobitex was founded by sons of elite political family tied to supreme leaders: Reuters",
-    "description": "A Reuters investigation has identified the founders of Nobitex — Iran's dominant crypto exchange handling roughly 70% of the country's crypto activity and claiming 11 million users — as Ali and Mohammad Kharrazi, members of a family connected by marriage to all three of Iran's supreme leaders, who registered the platform under an alternative surname in corporate and marketing filings. Blockchain analytics firms Elliptic, Chainalysis, and Crystal Intelligence have collectively traced tens of millions to hundreds of millions of dollars in flows through Nobitex linked to sanctioned counterparties, including the Central Bank of Iran and the IRGC, with Elliptic estimating approximately $347 million in central bank transfers to the exchange in the first half of 2025 alone. Despite the U.S.",
-    "date": "2026-05-02",
-    "source_url": "https://www.theblock.co/post/399784/leading-iranian-crypto-exchange-nobitex-was-founded-by-sons-of-elite-political-family-tied-to-supreme-leaders-reuters",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase says deal reached on Clarity Act stablecoin yield, clearing path to long-stalled Senate markup",
-    "description": "Coinbase CEO Brian Armstrong urged the Senate Banking Committee to \"mark it up\" as a months-long stalemate appears to be at an end.",
-    "date": "2026-05-02",
-    "source_url": "https://www.theblock.co/post/399780/coinbase-says-deal-reached-on-clarity-act-stablecoin-yield-clearing-path-to-long-stalled-senate-markup",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
   }
 ]
