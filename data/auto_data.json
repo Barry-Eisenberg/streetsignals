@@ -1,5 +1,46 @@
 [
   {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "Hyperliquid Policy Center argues onchain perps offer efficiency, transparency as ICE and CME reportedly press for CFTC oversight",
+    "description": "Bloomberg reported that ICE and CME are pressing for Hyperliquid to register with the CFTC, raising concerns about market stability.",
+    "date": "2026-05-15",
+    "source_url": "https://www.theblock.co/post/401512/hyperliquid-onchain-perps-offer-efficiency-transparency-ice-cme-cftc-oversight",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Visa",
+    "initiative": "Visa and WeFi test “on‑chain banking” for stablecoin spending",
+    "description": "Visa and WeFi have launched a collaboration to explore on‑chain banking and stablecoin‑based payment use cases in selected markets, expanding the card network’s stablecoin… Visa’s WeFi pilot lets self‑custodied stablecoins fund everyday card payments across Europe, Asia and Latin America. Visa and WeFi test “on‑chain banking” for stablecoin spending",
+    "date": "2026-05-15",
+    "source_url": "https://crypto.news/visa-and-wefi-test-on-chain-banking-for-stablecoin-spending/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Chainlink",
     "initiative": "Lombard joins LayerZero exodus as $4 billion in assets switch to Chainlink's bridge",
     "description": "The shift comes after the Kelp DAO exploit drained $292 million from its LayerZero-powered bridge, increasing concerns over the security of cross-chain infrastructure.",
@@ -9844,45 +9885,5 @@
     ],
     "year": "2026",
     "description_truncated": true
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Bithumb wins court stay on six‑month Korea FIU suspension",
-    "description": "Read more: Fun raises $72m to wire fiat and crypto into the same checkout Read more about Cryptocurrency DeFi Exchange Load More Best crypto platforms May 2026 Explore Deep Dives Opinion Read more Crypto conference season looked loud in 2025 but it barely made a dent in crypto media traffic Crypto conference season looked loud in 2025 but it barely made a dent in crypto media traffic 3 days ago News Read more The Block’s new CEO bet: Azuki’s Steve Chung and a $10M institutional push The Block’s new CEO bet: Azuki’s Steve Chung and a $10M institutional push 2 weeks ago Interviews Read more In conversation with Vasily Shilov, CBDO at SwapSpace: Privacy, DEXs, and what the conference season actually revealed In conversation with Vasily Shilov, CBDO at SwapSpace: Privacy, DEXs, and what",
-    "date": "2026-05-01",
-    "source_url": "https://crypto.news/bithumb-wins-court-stay-on-six-month-korea-fiu-suspension/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2026",
-    "description_truncated": true
-  },
-  {
-    "institution": "Ripple",
-    "initiative": "Ripple investors turn to new profit opportunities, with SHRMiner offering returns of up to $57,000 per month",
-    "description": "Apr 5, 2026 at 4:30 PM UTC Opinion Read more SEC & CFTC issued regulatory clarity | Opinion SEC & CFTC issued regulatory clarity | Opinion Apr 3, 2026 at 2:54 PM UTC Related News Previous Next Sponsored Read more Best Crypto Exchange Tokens 2026: BlockchainFX Aims To Challenge Trading Platforms as BNB, CRO and OKB Lead Watchlists Best Crypto Exchange Tokens 2026: BlockchainFX Aims To Challenge Trading Platforms as BNB, CRO and OKB Lead Watchlists 21 hours ago Sponsored Read more BlockchainFX ($BFX) And The Best Crypto In 2026 Narrative Grow Stronger As AVAX And XLM Face Key Price Tests BlockchainFX ($BFX) And The Best Crypto In 2026 Narrative Grow Stronger As AVAX And XLM Face Key Price Tests 23 hours ago Partner Content Read more Strategic crypto positioning after the latest Fed",
-    "date": "2026-05-01",
-    "source_url": "https://crypto.news/ripple-investors-turn-to-new-profit-opportunities-with-shrminer-offering-returns-of-up-to-57000-per-month/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
   }
 ]
