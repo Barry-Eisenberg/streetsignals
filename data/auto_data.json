@@ -1,5 +1,22 @@
 [
   {
+    "institution": "Nasdaq",
+    "initiative": "Cerebras IPO nearly doubles on Nasdaq debut",
+    "description": "Cerebras IPO shares nearly doubled on their first day of trading, opening at $350 after pricing at $185 per share on Wednesday evening. Cerebras IPO shares opened at $350 on Thursday on the Nasdaq under the ticker CBRS, nearly doubling… Cerebras IPO nearly doubles on Nasdaq debut",
+    "date": "2026-05-15",
+    "source_url": "https://crypto.news/cerebras-ipo-nearly-doubles-on-nasdaq-debut/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Tether",
     "initiative": "Tether freeze unit T3 FCU passes $450M mark",
     "description": "The Tether freeze coalition known as T3 FCU has surpassed $450 million in blocked illicit USDT since launching in 2024. The T3 Financial Crime Unit, a joint initiative backed by Tether, TRON, and blockchain analytics firm TRM Labs, has crossed… Tether freeze unit T3 FCU passes $450M mark",
@@ -9851,36 +9868,19 @@
     "year": "2026"
   },
   {
-    "institution": "BIS (Bank for International Settlements)",
-    "initiative": "Shifting forces behind RMB internationalization: evidence from the 2025 Triennial Survey",
-    "description": "by Juliana Robbert, Vladyslav Sushko, Frank Westermann This paper explores factors driving the internationalization of Renminbi (RMB) trading, using data from the 2025 BIS Triennial Survey of global foreign exchange turnover. We analyze both short-term (three-year) trading growth and long-term RMB turnover levels across jurisdictions.",
+    "institution": "FSB (Financial Stability Board)",
+    "initiative": "Scope of Insurers Subject to the Recovery and Resolution Planning Requirements in the FSB Key Attributes: Final Report",
+    "description": "Final guidance outlines key criteria for authorities to consider in assessing individual insurers and specifies circumstances when recovery and resolution planning requirements should always apply.",
     "date": "2026-04-29",
-    "source_url": "https://www.bis.org/publ/work1345.htm",
+    "source_url": "https://www.fsb.org/2026/04/scope-of-insurers-subject-to-the-recovery-and-resolution-planning-requirements-in-the-fsb-key-attributes-final-report/",
     "category": "regulators",
-    "source_name": "BIS — Research Papers",
+    "source_name": "FSB — Publications",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
+    "signal_type": "Regulatory Action",
     "fmi_areas": [
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Digitalisation and innovation - opportunities and risks for financial health",
-    "description": "Digital innovation is enhancing access to payments, credit, savings and insurance, and can help people to manage their financial obligations and have greater confidence in their financial future. But these benefits are emerging alongside new vulnerabilities: a global surge in scams and fraud, greater overindebtedness among some digital borrowers and the use of ill-suited investment products.",
-    "date": "2026-04-29",
-    "source_url": "https://www.bis.org/fsi/fsibriefs31.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers"
+      "Collateral & Lending",
+      "Regulation & Compliance"
     ],
     "initiative_types": [],
     "year": "2026"
