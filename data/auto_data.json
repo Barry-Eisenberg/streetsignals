@@ -1,6 +1,41 @@
 [
   {
     "institution": "ESMA (European Securities and Markets Authority)",
+    "initiative": "ESMA launches its sixth stress test exercise for Central Counterparties",
+    "description": "Mandated under the European Market Infrastructure Regulation (EMIR), the stress test aims to assess the resilience of CCPs to adverse market developments and identify any potential shortcomings. The CCP stress test framework drafted by ESMA for the purpose of this exercise is supported by an adverse market scenario provided by the European Systemic Risk Board (ESRB). ESMA launches its sixth stress test exercise for Central Counterparties",
+    "date": "2026-05-16",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-launches-its-sixth-stress-test-exercise-central-counterparties",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "ESMA (European Securities and Markets Authority)",
+    "initiative": "ESMA launches a call for evidence on the structure of European equity markets",
+    "description": "The analysis shows that European equity markets continue to function well overall: The share of addressable liquidity has remained stable at around 85% of total trading volume. Next steps ESMA invites stakeholders’ views on the functioning of European stock markets by 30 June 2026, and will issue a feedback statement in the second half of 2026 on this call for evidence. ESMA launches a call for evidence on the structure of European equity markets",
+    "date": "2026-05-16",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-launches-call-evidence-structure-european-equity-markets",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "ESMA (European Securities and Markets Authority)",
     "initiative": "ESMA consults on guidelines on endorsement under the ESG Ratings Regulation",
     "description": "Background The ESG Ratings Regulation establishes a regulatory framework for providers of ESG ratings in the European Union. As part of this framework, and in order to ensure market integrity and investor protection, the Regulation includes provisions which set out how ESG rating providers that are established in the Union can endorse ratings from outside the Union. ESMA consults on guidelines on endorsement under the ESG Ratings Regulation",
     "date": "2026-05-16",
@@ -9810,43 +9845,6 @@
     "signal_type": "Regulatory Action",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "SEC schedules CLARITY Act roundtable in May as Senate markup targets week of May 11",
-    "description": "The SEC convened a roundtable on the CLARITY Act in May 2026, bringing together officials from the SEC and CFTC alongside crypto industry representatives to work through the core jurisdictional question of which digital assets fall under each regulator — a framework the bill would codify into permanent federal statute, building on the agencies' March 2026 joint taxonomy that classified 16 digital assets as commodities. The event was timed to run alongside the Senate Banking Committee's targeted markup the week of May 11, the first legislative action on the bill since Congress returned from recess and a compressed window given the May 21 Memorial Day deadline.",
-    "date": "2026-05-02",
-    "source_url": "https://crypto.news/sec-schedules-clarity-act-roundtable-in-may/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026",
-    "description_truncated": true
-  },
-  {
-    "institution": "Ripple",
-    "initiative": "David Schwartz rejects XRP price promise claim and denies Ripple holds a “magic switch”",
-    "description": "Summary The 2017 post stated XRP could not be dirt cheap if it handled large global transaction volumes, but Schwartz said the comment was about how liquidity needs and transaction value relate. Schwartz said he considered deleting David Schwartz addressed the resurging controversy on X",
-    "date": "2026-05-02",
-    "source_url": "https://crypto.news/david-schwartz-addressed-the-controversy-on-x/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Collateral & Lending"
     ],
     "initiative_types": [],
     "year": "2026"
