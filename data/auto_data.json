@@ -1,5 +1,22 @@
 [
   {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "House Agriculture leaders press Trump to appoint CFTC commissioners as CLARITY Act advances in Senate",
+    "description": "Chair Michael Selig has been the agency's sole commissioner since December, with four seats sitting empty, as Trump has not nominated replacements.",
+    "date": "2026-05-16",
+    "source_url": "https://www.theblock.co/post/401558/house-agriculture-leaders-press-trump-to-appoint-cftc-commissioners-as-clarity-act-advances-in-senate",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "BlackRock",
     "initiative": "Harvard dumps ether ETF as Abu Dhabi sovereign fund keeps adding to bitcoin positions",
     "description": "Abu Dhabi-based Mubadala added over $90 million to its already sizeable position in BlackRock’s iShares Bitcoin Trust ETF.",
@@ -9827,27 +9844,6 @@
       "DLT / Blockchain Infrastructure",
       "DeFi",
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "New York secures $5M from Uphold over CredEarn promotion",
-    "description": "The New York Attorney General's office reached a settlement with crypto platform Uphold requiring it to pay more than $5 million to customers who suffered losses through CredEarn, a yield-bearing product offered in partnership with Cred, LLC between 2019 and 2020. Regulators found that Uphold failed to disclose that Cred was deploying customer funds into high-risk loans, including to uncreditworthy borrowers in China, and falsely represented that comprehensive insurance covered the product — claims the AG's office determined were materially misleading under the state's Martin Act. Cred filed for bankruptcy in late 2020, leaving affected users with unrecovered digital asset losses, and the settlement amount exceeds five times the fees Uphold collected from the arrangement.",
-    "date": "2026-05-03",
-    "source_url": "https://crypto.news/new-york-secures-5m-from-uphold-over-credearn-promotion/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
