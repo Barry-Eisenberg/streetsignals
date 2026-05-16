@@ -1,5 +1,22 @@
 [
   {
+    "institution": "Revolut",
+    "initiative": "Revolut wins FCA approval to launch UK private banking",
+    "description": "Revolut secured FCA approval on May 14 to offer private wealth services and leveraged products in the UK. Victoria Laffey, head of operations at Revolut Trading, said the new permissions are “the missing piece allowing us to unite investment, advisory… Revolut wins FCA approval to launch UK private banking",
+    "date": "2026-05-16",
+    "source_url": "https://crypto.news/revolut-wins-fca-approval-for-private-wealth-push/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CFTC (Commodity Futures Trading Commission)",
     "initiative": "U.S. House lawmakers who oversee the CFTC are urging Trump to fill the commission",
     "description": "As the Commodity Futures Trading Commission takes on a growing task to police U.S. crypto trading, senior lawmakers are saying it needs bipartisan leadership.",
@@ -9832,31 +9849,5 @@
     ],
     "initiative_types": [],
     "year": "2026"
-  },
-  {
-    "institution": "Brazil Central Bank",
-    "initiative": "Brazil's central bank bans stablecoin and crypto settlement in cross-border payments",
-    "description": "Brazil's central bank issued Resolution No. 561 on April 30, prohibiting licensed electronic foreign exchange (eFX) providers from using stablecoins or other cryptocurrencies — including USDT, USDC, and Bitcoin — as settlement instruments in cross-border payment flows, with the rule taking effect October 1, 2026. The measure directly disrupts the operational model of firms such as Nomad and Braza Bank, which had embedded stablecoin rails — including Ripple's network and XRP Ledger-issued real-backed tokens — into their international remittance infrastructure.",
-    "date": "2026-05-02",
-    "source_url": "https://www.coindesk.com/policy/2026/05/02/brazil-s-central-bank-bans-stablecoin-and-crypto-settlement-in-cross-border-payments",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026",
-    "https://www.coindesk.com/policy/2026/05/02/brazil-s-central-bank-bans-stablecoin-and-crypto-settlement-in-cross-border-payments": "Brazil's central bank issued Resolution No. 561 on April 30, prohibiting licensed electronic foreign exchange (eFX) providers from using stablecoins or other cryptocurrencies — including USDT, USDC, and Bitcoin — as settlement instruments in cross-border payment flows, with the rule taking effect October 1, 2026. The measure directly disrupts the operational model of firms such as Nomad and Braza Bank, which had embedded stablecoin rails — including Ripple's network and XRP Ledger-issued real-backed tokens — into their international remittance infrastructure."
   }
 ]
