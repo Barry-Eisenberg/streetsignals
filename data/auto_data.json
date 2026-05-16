@@ -1,5 +1,24 @@
 [
   {
+    "institution": "BlackRock",
+    "initiative": "Harvard dumps ether ETF as Abu Dhabi sovereign fund keeps adding to bitcoin positions",
+    "description": "Abu Dhabi-based Mubadala added over $90 million to its already sizeable position in BlackRock’s iShares Bitcoin Trust ETF.",
+    "date": "2026-05-16",
+    "source_url": "https://www.theblock.co/post/401518/sovereign-funds-universities-banks-reshuffle-bitcoin-altcoin-etf-positions",
+    "category": "asset_management",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA (European Securities and Markets Authority)",
     "initiative": "ESMA launches its sixth stress test exercise for Central Counterparties",
     "description": "Mandated under the European Market Infrastructure Regulation (EMIR), the stress test aims to assess the resilience of CCPs to adverse market developments and identify any potential shortcomings. The CCP stress test framework drafted by ESMA for the purpose of this exercise is supported by an adverse market scenario provided by the European Systemic Risk Board (ESRB). ESMA launches its sixth stress test exercise for Central Counterparties",
@@ -9830,23 +9849,6 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "BlackRock",
-    "initiative": "BlackRock urges OCC to drop tokenized reserve cap idea, expand eligible assets in GENIUS Act comment letter",
-    "description": "The world's largest asset manager opposed a potential 20% cap on tokenized reserve assets, a constraint that would limit products like its BUIDL fund.",
-    "date": "2026-05-02",
-    "source_url": "https://www.theblock.co/post/399812/blackrock-urges-occ-to-drop-tokenized-reserve-cap-idea-expand-eligible-assets-in-genius-act-comment-letter",
-    "category": "asset_management",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
