@@ -1,5 +1,41 @@
 [
   {
+    "institution": "crypto.news",
+    "initiative": "Intesa Sanpaolo’s crypto holdings jump to $235M as XRP enters",
+    "description": "Intesa Sanpaolo’s crypto holdings rose to $235M in Q1 as the bank added Bitcoin, Ether and XRP exposure while nearly exiting Solana.",
+    "date": "2026-05-17",
+    "source_url": "https://crypto.news/intesa-sanpaolos-crypto-holdings-jump-to-235m-as-xrp-enters/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "BNB ETF race tightens as VanEck and Grayscale update SEC filings",
+    "description": "VanEck and Grayscale updated BNB ETF filings as Canary pushed a staked TRX fund, adding pressure to the U.S. altcoin ETF race.",
+    "date": "2026-05-17",
+    "source_url": "https://crypto.news/bnb-etf-race-tightens-as-vaneck-and-grayscale-update-sec-filings/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "A Russian stablecoin built to dodge sanctions says it can survive even if they're lifted",
     "description": "A7A5, the Russia-linked stablecoin built to move money around banking restrictions, says faster trade settlement, yield and regional crypto infrastructure could keep it relevant even if geopolitical tensions ease.",
@@ -9797,49 +9833,6 @@
       "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets",
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "NYSE moves closer to tokenized stocks under DTC pilot",
-    "description": "Clearing and settlement would remain through DTC, keeping tokenized trading inside existing market rails now. The filing adds to a wider push by major exchanges to bring blockchain-based settlement into regulated market systems. NYSE moves closer to tokenized stocks under DTC pilot",
-    "date": "2026-05-03",
-    "source_url": "https://crypto.news/nyse-moves-closer-to-tokenized-stocks-under-dtc-pilot/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase says crypto bill deal clears Senate path",
-    "description": "Senate negotiators Thom Tillis and Angela Alsobrooks reached a compromise on the stablecoin rewards provision that had been blocking progress on the CLARITY Act, the U.S. digital asset market structure bill. Under the agreed language, rewards that are economically equivalent to bank deposit interest would be prohibited, addressing banking industry concerns that yield-bearing stablecoin products could draw deposits away from traditional lenders, while activity-based user rewards tied to platform usage would remain permissible. Coinbase, which lobbied to preserve the activity-based carve-out, confirmed the deal through its Chief Policy Officer, noting that regulators will still need to define the boundary between allowed and prohibited reward structures.",
-    "date": "2026-05-03",
-    "source_url": "https://crypto.news/coinbase-says-crypto-bill-deal-clears-senate-path/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
