@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Nomura",
+    "initiative": "SBI, Rakuten and Nomura prepare crypto investment trusts in Japan",
+    "description": "SBI, Rakuten and Nomura are preparing crypto investment trusts as Japan moves toward allowing funds to hold Bitcoin and Ether by 2028.",
+    "date": "2026-05-17",
+    "source_url": "https://crypto.news/sbi-rakuten-and-nomura-prepare-crypto-investment-trusts-in-japan/",
+    "category": "asset_management",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Japan's SBI Securities, Rakuten Securities plan to offer crypto investment trusts",
     "description": "Another 11 companies responded to a survey saying they would consider offering crypto funds once the regulatory environment becomes clear.",
@@ -9807,26 +9826,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "New York AG settles for $5 million with Uphold in first enforcement action against a crypto yield product promoter",
-    "description": "The settlement is the first New York enforcement action to target a platform that promoted someone else's crypto yield product rather than its own issuer.",
-    "date": "2026-05-03",
-    "source_url": "https://www.theblock.co/post/399825/new-york-ag-settles-for-5-million-with-uphold-in-first-enforcement-action-against-a-crypto-yield-product-promoter",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Settlement & Clearing"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
