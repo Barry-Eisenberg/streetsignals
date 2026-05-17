@@ -1,5 +1,46 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "A Russian stablecoin built to dodge sanctions says it can survive even if they're lifted",
+    "description": "A7A5, the Russia-linked stablecoin built to move money around banking restrictions, says faster trade settlement, yield and regional crypto infrastructure could keep it relevant even if geopolitical tensions ease.",
+    "date": "2026-05-17",
+    "source_url": "https://www.coindesk.com/policy/2026/05/24/a-russian-stablecoin-built-to-dodge-sanctions-says-it-can-survive-even-if-they-re-lifted",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "Will Trump fill CFTC seats before CLARITY Act rewrites crypto rules?",
+    "description": "House Agriculture leaders urge Trump to fill CFTC seats as CLARITY Act advances, raising focus on crypto oversight and rulemaking plans now.",
+    "date": "2026-05-17",
+    "source_url": "https://crypto.news/will-trump-fill-cftc-seats-before-clarity-act-rewrites-crypto-rules/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CFTC (Commodity Futures Trading Commission)",
     "initiative": "House Agriculture leaders press Trump to appoint CFTC commissioners as CLARITY Act advances in Senate",
     "description": "Chair Michael Selig has been the agency's sole commissioner since December, with four seats sitting empty, as Trump has not nominated replacements.",
@@ -9798,51 +9839,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BlackRock",
-    "initiative": "BlackRock pushes OCC to rethink tokenized reserve limits",
-    "description": "BlackRock filed a comment letter with the Office of the Comptroller of the Currency opposing a proposed 20% cap on tokenized reserve assets under draft rules implementing the GENIUS Act, the federal stablecoin framework enacted in July 2025. The firm argued that reserve eligibility should be determined by credit quality, maturity, and liquidity characteristics rather than whether an asset sits on a distributed ledger, and separately sought clarification that Treasury ETFs meeting safety and liquidity standards should qualify as permissible reserves.",
-    "date": "2026-05-03",
-    "source_url": "https://crypto.news/blackrock-pushes-occ-to-rethink-tokenized-reserve-limits/",
-    "category": "asset_management",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Digital Asset Exchange",
-    "initiative": "Iran crypto giant Nobitex hit by sanctions questions: Reuters",
-    "description": "Reuters reported that Nobitex, which claims 11 million users and processes roughly 70% of Iran's crypto transactions, was founded in 2018 by Ali and Mohammad Kharrazi — members of a politically connected Iranian family — using the alternative surname Aghamir. Blockchain analysis and investigator accounts cited in the Reuters report allege the platform has facilitated transactions linked to sanctioned entities including Iran's central bank and the Islamic Revolutionary Guard Corps, effectively functioning as a node in a parallel financial system designed to circumvent Western controls.",
-    "date": "2026-05-03",
-    "source_url": "https://crypto.news/iran-crypto-giant-nobitex-hit-by-sanctions-questions-reuters/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "DeFi",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
