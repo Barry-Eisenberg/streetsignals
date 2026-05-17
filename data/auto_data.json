@@ -1,5 +1,24 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Japan’s SBI, Rakuten developing crypto investment trusts in-house: Nikkei",
+    "description": "The push comes after Japan's cabinet approved a bill last month that would reclassify crypto under the Financial Instruments and Exchange Act.",
+    "date": "2026-05-17",
+    "source_url": "https://www.theblock.co/post/401561/japans-sbi-rakuten-developing-crypto-investment-trusts-in-house-nikkei",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Nomura",
     "initiative": "SBI, Rakuten and Nomura prepare crypto investment trusts in Japan",
     "description": "SBI, Rakuten and Nomura are preparing crypto investment trusts as Japan moves toward allowing funds to hold Bitcoin and Ether by 2028.",
@@ -9805,26 +9824,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Americans still prefer banks over crypto for financial access, CoinDesk's survey shows",
-    "description": "When asked which they trusted more between banks and crypto when it came to financial inclusion, 65% of respondents to an online survey said banks and only 5% favored crypto. Banks have argued that stablecoin rewards could compete directly with their own interest-bearing deposit accounts and threaten a migration that could strangle U.S. Americans still prefer banks over crypto for financial access, CoinDesk's survey shows",
-    "date": "2026-05-03",
-    "source_url": "https://www.coindesk.com/policy/2026/05/03/americans-still-prefer-banks-over-crypto-for-financial-access-coindesk-s-survey-shows",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
