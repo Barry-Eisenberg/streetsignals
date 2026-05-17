@@ -1,5 +1,24 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Japan's SBI Securities, Rakuten Securities plan to offer crypto investment trusts",
+    "description": "Another 11 companies responded to a survey saying they would consider offering crypto funds once the regulatory environment becomes clear.",
+    "date": "2026-05-17",
+    "source_url": "https://www.coindesk.com/business/2026/05/17/japan-s-sbi-securities-rakuten-securities-plan-to-offer-crypto-investment-trusts",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "crypto.news",
     "initiative": "Intesa Sanpaolo’s crypto holdings jump to $235M as XRP enters",
     "description": "Intesa Sanpaolo’s crypto holdings rose to $235M in Q1 as the bank added Bitcoin, Ether and XRP exposure while nearly exiting Solana.",
@@ -9806,31 +9825,6 @@
       "Settlement & Clearing"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Crypto market recap: What happened today?",
-    "description": "On May 3, 2026, Senate negotiators brokered a compromise on the stablecoin rewards provision blocking the CLARITY Act, with Senators Thom Tillis and Angela Alsobrooks agreeing to language that restricts yield-like interest payments while preserving crypto platforms' ability to reward genuine network activity — a distinction Coinbase's Chief Policy Officer characterized as protecting core business functionality. Separately, the NYSE filed a proposed rule change with the SEC to enable tokenized securities to trade on its exchange under DTC's three-year tokenization pilot, with settlement remaining on a T+1 basis through DTC and tokenized instruments required to carry identical CUSIP, ticker, and shareholder rights as their conventional equivalents.",
-    "date": "2026-05-03",
-    "source_url": "https://crypto.news/crypto-market-recap-what-happened-today-5/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
