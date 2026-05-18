@@ -1,5 +1,326 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "Ayman M Al-Sayari: Speech - Financial Action Task Force (FATF) Ministerial Meeting",
+    "description": "Speech by His Excellency Mr Ayman Al-Sayari, Governor of the Saudi Central Bank, at the Financial Action Task Force (FATF) Ministerial Meeting during the International Monetary Fund and World Bank Group Spring Meetings, Washington DC, 17 April 2026.",
+    "date": "2026-05-18",
+    "source_url": "https://www.bis.org/review/r260518k.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Ayman M Al-Sayari: Speech - International Monetary and Financial Committee (IMFC) Plenary Session",
+    "description": "Speech by His Excellency Mr Ayman Al-Sayari, Governor of the Saudi Central Bank, at the International Monetary and Financial Committee (IMFC) Plenary Session during the International Monetary Fund and World Bank Group Spring Meetings, Washington DC, 17 April 2026.",
+    "date": "2026-05-18",
+    "source_url": "https://www.bis.org/review/r260518l.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Kazuyuki Masu: Economic activity, prices, and monetary policy in Japan",
+    "description": "Speech by Mr Kazuyuki Masu, Member of the Policy Board of the Bank of Japan, at a meeting, held by the Kagoshima Keizai Doyukai (Japan Association of Corporate Executives), Kagoshima, 14 May 2026.",
+    "date": "2026-05-18",
+    "source_url": "https://www.bis.org/review/r260518i.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Fatih Karahan: Recent economic and financial developments in Turkey",
+    "description": "Speech by Dr Fatih Karahan, Governor of the Central Bank of the Republic of Türkiye, at the briefing on the Inflation Report 2026-II, Istanbul, 14 May 2026.",
+    "date": "2026-05-18",
+    "source_url": "https://www.bis.org/review/r260518e.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Michelle W Bowman: Opening remarks - Federal Reserve Bank of Kansas City 2026 Future of Banking Conference",
+    "description": "Speech (via pre-recorded video) by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the Federal Reserve Bank of Kansas City 2026 Future of Banking Conference \"Powering progress, protecting trust\", Kansas City, Missouri, 14 May 2026.",
+    "date": "2026-05-18",
+    "source_url": "https://www.bis.org/review/r260518c.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Gent Sejko: National initiative for financing micro, small, and medium-sized enterprises",
+    "description": "Address by Mr Gent Sejko, Governor of the Bank of Albania, at the signing ceremony of the Memorandum of Understanding on the \"National initiative for financing micro, small, and medium-sized enterprises\", Tirana, 13 May 2026.",
+    "date": "2026-05-18",
+    "source_url": "https://www.bis.org/review/r260518b.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin faces outsized quantum threat as computing breakthroughs accelerate, Citi says",
+    "description": "The bank said accelerating advances in quantum computing are compressing the timeline for risks to crypto and broader internet infrastructure, with Bitcoin seen as particularly exposed.",
+    "date": "2026-05-18",
+    "source_url": "https://www.coindesk.com/tech/2026/05/18/bitcoin-faces-outsized-quantum-threat-as-computing-breakthroughs-accelerate-citi-says",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Tokenization push could pull trillions of dollars into DeFi, StanChart says",
+    "description": "The bank projects $4 trillion of tokenized assets by 2028, boosting demand for blockchain-native lending and trading infrastructure.",
+    "date": "2026-05-18",
+    "source_url": "https://www.coindesk.com/markets/2026/05/18/tokenization-push-could-pull-trillions-of-dollars-into-defi-stanchart-says",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "UK’s financial payments network is ready for tokenization, regulators say",
+    "description": "The U.K.’s financial watchdog and central bank unveiled their roadmap for tokenization, the use of stablecoins for institutional settlement and a phased transition toward 24/7 operation.",
+    "date": "2026-05-18",
+    "source_url": "https://www.coindesk.com/policy/2026/05/18/uk-s-financial-payments-network-is-ready-for-tokenization-regulators-say",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Standard Chartered",
+    "initiative": "Standard Chartered to acquire remainder of subsidiary Zodia Custody",
+    "description": "The bank's offer to acquire the slice of Zodia Custody it doesn't already own has been accepted by the firm's other shareholders and noteholders.",
+    "date": "2026-05-18",
+    "source_url": "https://www.coindesk.com/business/2026/05/18/standard-chartered-to-acquire-remainder-of-subsidiary-zodia-custody",
+    "category": "global_banks",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "PRA consults on ring-fencing reforms",
+    "description": "The Prudential Regulation Authority (PRA) has today announced plans to consult on reforming rules around shared operational services for ring-fenced banks.",
+    "date": "2026-05-18",
+    "source_url": "https://www.finextra.com/pressarticle/109867/pra-consults-on-ring-fencing-reforms",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Regulatory Compliance in Tokenization: Core Principles, Compliance Mechanisms and Global Oversight",
+    "description": "The rapid growth of blockchain technology and digital assets has transformed how businesses raise ca... Regulatory Compliance in Tokenization: Core Principles, Compliance Mechanisms and Global Oversight",
+    "date": "2026-05-18",
+    "source_url": "https://www.finextra.com/blogposting/31738/regulatory-compliance-in-tokenization-core-principles-compliance-mechanisms-and-global-oversight",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinShares",
+    "initiative": "Weekly crypto ETP outflows top $1B, ending six-week positive streak amid Iran-linked risk-off: CoinShares",
+    "description": "Crypto funds ended a six-week inflow streak as Iran-linked geopolitical risk weighed on bitcoin amid major U.S. withdrawals.",
+    "date": "2026-05-18",
+    "source_url": "https://www.theblock.co/post/401649/weekly-crypto-etp-outflows-top-1b-ending-six-week-positive-streak-amid-iran-linked-risk-off-coinshares",
+    "category": "asset_management",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Standard Chartered",
+    "initiative": "Standard Chartered projects $4T in tokenized assets by end-2028, with DeFi protocols primary beneficiaries",
+    "description": "Standard Chartered projects $4 trillion in tokenized assets by the end of 2028, with DeFi protocols positioned to benefit most.",
+    "date": "2026-05-18",
+    "source_url": "https://www.theblock.co/post/401635/standard-chartered-projects-4t-in-tokenized-assets-by-end-2028-with-defi-protocols-primary-beneficiaries",
+    "category": "global_banks",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "AEON raises $8 million led by YZi Labs to build settlement layer for AI agents",
+    "description": "With the new funding, AEON said it aims to build a settlement layer designed to support AI agent-to-agent interactions.",
+    "date": "2026-05-18",
+    "source_url": "https://www.theblock.co/post/401601/aeon-raises-8-million-yzi-labs",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Apollo",
+    "initiative": "AI is no longer just an equity story, Apollo warns it’s a bond one",
+    "description": "Apollo chief economist Torsten Slok says AI is now driving nearly half of all investment‑grade issuance and most VC funding, turning the AI boom into a full credit market cycle. Artificial intelligence has moved well beyond the stock market. AI is no longer just an equity story, Apollo warns it’s a bond one",
+    "date": "2026-05-18",
+    "source_url": "https://crypto.news/ai-is-no-longer-just-an-equity-story-apollo-warns-its-a-bond-one/",
+    "category": "asset_management",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Copper",
+    "initiative": "Altcoin season signal returns as business cycle turns risk-on: Analyst",
+    "description": "Altcoin rotation hopes rise as Van de Poppe links business-cycle signals, copper-gold strength and Clarity Act progress to crypto recovery.",
+    "date": "2026-05-18",
+    "source_url": "https://crypto.news/altcoin-season-signal-returns-as-business-cycle-turns-risk-on-analyst/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "UK regulators open tokenized markets push as 16 firms test live assets",
+    "description": "UK regulators opened feedback on tokenized wholesale markets as 16 firms test live asset issuance and settlement in a sandbox program.",
+    "date": "2026-05-18",
+    "source_url": "https://crypto.news/uk-regulators-open-tokenized-markets-push-as-16-firms-test-live-assets/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Fed minutes, Meta stablecoin Senate deadline: Crypto Week Ahead",
     "description": "Your look at what's coming in the week starting May 18.",
@@ -9313,6 +9634,23 @@
     "year": "2026"
   },
   {
+    "institution": "BIS",
+    "initiative": "Acting under uncertainty - the case for supervisory risk appetite frameworks",
+    "description": "Periodic episodes of banking sector distress invariably expose weaknesses in banks' governance and risk management and shortcomings in supervision. A recurring challenge for supervisory authorities (SAs) is the lack of an explicit framework to define, manage, and communicate their tolerance for supervisory risk: the risk that supervisory actions or inaction fail to achieve prudential objectives. This gap can lead to unclear, inconsistent or ineffective supervisory practices, undermining authorities' ability to address problems in banks in a timely manner.",
+    "date": "2026-05-04",
+    "source_url": "https://www.bis.org/fsi/publ/insights74.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Mastercard",
     "initiative": "Mastercard’s AI agent Payment in the Netherlands",
     "description": "Hey Payments Fanatic! Mastercard and Rabobank executed a payment via an AI agent for the first time in the Netherlands. In this case, an AI agent booked a coffee tasting via Priceless.com, Mastercard’s platform for unique experiences, based on a simple prompt from the consumer. The payment",
@@ -9414,379 +9752,5 @@
     ],
     "year": "2026",
     "description_truncated": true
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase to open BILL-USD spot trading for Billions token",
-    "description": "The listing comes shortly after Billions Network announced its token generation event for May 4, 2026, positioning the Coinbase spot launch as one of the project’s first major centralized exchange listings.",
-    "date": "2026-05-04",
-    "source_url": "https://crypto.news/coinbase-to-open-bill-usd-spot-trading-for-billions-token/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Securitize",
-    "initiative": "Latest FINRA okay means Securitize becomes tokenized securities one stop shop",
-    "description": "FINRA has granted the tokenization firm Securitize approval to custody tokenized securities as part of its regular broker dealer authorization. Securitize",
-    "date": "2026-05-04",
-    "source_url": "https://www.ledgerinsights.com/latest-finra-okay-means-securitize-becomes-tokenized-securities-one-stop-shop/",
-    "category": "ecosystem",
-    "source_name": "Ledger Insights",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Custody & Safekeeping"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Kraken parent sues ex-custodian Etana over alleged $25M “Ponzi scheme”",
-    "description": "Payward Interactive and Payward Trading — the entities operating Kraken — filed a second amended complaint in U.S. District Court in Colorado alleging that former custody partner Etana Custody and its CEO, Dion Brandon Russell, misappropriated more than $25 million in Kraken customer reserves by commingling custodial assets with operating funds, making high-risk credit investments through a promissory note with Seabury Trade Capital that subsequently defaulted, and issuing falsified account statements to conceal a growing shortfall. When Kraken attempted to withdraw the reserves in April 2025, Etana allegedly stalled repayment by citing fictitious reconciliation problems while using incoming deposits from other clients to service existing obligations.",
-    "date": "2026-05-04",
-    "source_url": "https://crypto.news/kraken-parent-sues-ex-custodian-etana-over-alleged-25m-ponzi-scheme/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Brian Armstrong tells the Senate to “mark it up” after CLARITY Act stablecoin yield deal lands",
-    "description": "Senators Thom Tillis and Angela Alsobrooks released compromise language for the CLARITY Act on May 1 that drew a hard line against stablecoin yield products \"economically or functionally equivalent\" to bank deposits, while preserving a pathway for rewards tied to demonstrable platform activity — a distinction with direct revenue implications for Coinbase, which reported $1.35 billion in stablecoin revenue in 2025. Coinbase CEO Brian Armstrong, who had personally withdrawn the company's support hours before a January 14 Senate Banking Committee markup and effectively stalled the bill for months, publicly endorsed the deal and called on the committee to proceed.",
-    "date": "2026-05-04",
-    "source_url": "https://crypto.news/why-brian-armstrong-said-mark-it-up-on-clarity-act/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Hut 8 swaps Coinbase loan for cheaper FalconX deal, slashing borrowing costs as it bets big on AI",
-    "description": "The project , first announced in December, has a 15-year, $7 billion lease with AI infrastructure firm Fluidstack, backed by Google, with a total potential value of up to $17.7 billion if all renewal options are exercised. By James Van Straten , AI Boost | Edited by Aoyon Ashraf May 4, 2026, 6:31 p.m. Hut 8 cuts bitcoin credit costs with FalconX refinancing, freeing 3,300 BTC from collateral",
-    "date": "2026-05-04",
-    "source_url": "https://www.coindesk.com/markets/2026/04/28/hut-8-swaps-coinbase-credit-line-for-cheaper-falconx-deal-slashing-borrowing-costs-as-it-bets-big-on-ai",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "DTCC",
-    "initiative": "DTCC shares tokenization launch date. 50 firms join Industry Working Group",
-    "description": "The Depository Trust & Clearing Corporation (DTCC) has announced the launch timescale for its tokenization solution, with limited live transactions",
-    "date": "2026-05-04",
-    "source_url": "https://www.ledgerinsights.com/dtcc-shares-tokenization-launch-date-50-firms-join-industry-working-group/",
-    "category": "exchanges_intermediaries",
-    "source_name": "Ledger Insights",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "South Korea’s largest crypto exchange Upbit launches Ethereum blockchain with Optimism Foundation support",
-    "description": "Upbit is the Optimism Foundation's first client on its \"self-managed\" enterprise tier, giving it control over its core rollup architecture.",
-    "date": "2026-05-04",
-    "source_url": "https://www.theblock.co/post/399935/south-koreas-largest-crypto-exchange-upbit-launches-ethereum-blockchain-with-optimism-foundation-support",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "DTCC",
-    "initiative": "Ondo joins DTCC tokenization working group for U.S. markets",
-    "description": "Securities and Exchange Commission issued a no-action letter in late 2025, clearing its DTC subsidiary to operate a controlled tokenization service for DTC‑custodied assets, with rollout expected in the second half of 2026. He has also framed the initiative as less about speculative tokens and more about “tokenizing financial infrastructure,” saying the goal is to bridge traditional finance and DeFi so that “institutionally custodied equities and Treasuries can gain blockchain-native liquidity, programmability, and near-real-time settlement.” A recent crypto.news overview described the SEC’s green light for DTCC’s tokenization service as a “historic crypto pivot by a $100 trillion custodian,” noting that the first wave will focus on highly liquid equities and government debt.",
-    "date": "2026-05-04",
-    "source_url": "https://crypto.news/ondo-joins-dtcc-tokenization-working-group-for-u-s-markets/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Custody & Safekeeping",
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "DeFi",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Circle, Coinbase lead crypto stocks rally amid Clarity Act progress, bitcoin hitting $80,000",
-    "description": "BitGo (BTGO), a digital asset infrastructure firm offering custody and stablecoin services, climbed roughly 10%. Circle, issuer of the USDC stablecoin, surged 18%, extending recent gains, while U.S.-focused crypto exchange Coinbase rose about 7%. Why is crypto up today: Circle (CRCL), Coinbase (COIN) lead crypto stocks rally amid Clarity Act progress",
-    "date": "2026-05-04",
-    "source_url": "https://www.coindesk.com/markets/2026/05/04/circle-coinbase-lead-crypto-stock-rally-amid-clarity-act-progress-bitcoin-above-usd80-000",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Shopify and National Bank of Canada are among backers of a new digital currency built to settle trades 24/7",
-    "description": "Tetra Trust Company, a regulated Canadian digital asset custodian, has launched CADD, a Canadian-dollar-pegged stablecoin approved by Alberta Treasury Board and Finance — making it the first CAD stablecoin issued by a provincially regulated institution. The token is live on Base, Ethereum, and Tempo, with Solana support planned, and is explicitly designed for institutional use cases including 24/7 cross-border settlement, real-time treasury transfers, and fintech-to-fintech payments that bypass the batch infrastructure underpinning Canada's existing ~$424 billion daily clearing flows. The consortium backing the launch includes Shopify, National Bank of Canada, Wealthsimple, ATB Financial, and Shakepay, with Urbana Corporation holding a majority stake.",
-    "date": "2026-05-04",
-    "source_url": "https://www.coindesk.com/business/2026/05/04/shopify-and-national-bank-of-canada-are-among-backers-of-a-new-digital-currency-built-to-settle-trades-24-7",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026",
-    "https://www.coindesk.com/business/2026/05/04/shopify-and-national-bank-of-canada-are-among-backers-of-a-new-digital-currency-built-to-settle-trades-24-7": "Tetra Trust Company, a regulated Canadian digital asset custodian, has launched CADD, a Canadian-dollar-pegged stablecoin issued under approval from the Alberta Treasury Board and Finance, making it the first CAD stablecoin from a provincially regulated financial institution. The token is currently live on Base, Ethereum, and Tempo, with reserves held in trust under Canadian law and ring-fenced for redemption, addressing a structural gap in domestic blockchain-based settlement where USD-denominated stablecoins have filled the void by default."
-  },
-  {
-    "institution": "BlackRock",
-    "initiative": "DTC to begin tokenized asset rollout in July ahead of full launch as it gets feedback from BlackRock, Circle and others",
-    "description": "The Depository Trust & Clearing Corporation will roll out its tokenization service as it gathers feedback from firms like BlackRock to Circle.",
-    "date": "2026-05-04",
-    "source_url": "https://www.theblock.co/post/399914/dtc-to-begin-tokenized-asset-rollout-in-july-ahead-of-full-launch-as-it-gets-feedback-from-blackrock-circle-and-others",
-    "category": "asset_management",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "SEC pumps the brakes on prediction market ETFs set to debut this week: Reuters",
-    "description": "The SEC intervened to halt the launch of 24 prediction market ETFs from issuers including Bitwise, Roundhill, and GraniteShares that had been progressing through a 75-day expedited review window established under last year's fast-track rules. The products were designed to offer binary, yes-or-no exposure to outcomes such as the 2028 U.S. election result, tech-sector layoffs, and recession probability — structures that differ fundamentally from conventional ETFs in that investors could lose substantially all capital if the underlying outcome resolves against them.",
-    "date": "2026-05-04",
-    "source_url": "https://www.theblock.co/post/399881/sec-pumps-brakes-prediction-market-etfs-set-debut-this-week-reuters",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "DTCC",
-    "initiative": "Wall Street giant DTCC plans tokenized securities platform with July pilot, October launch",
-    "description": "DTCC's Depository Trust Company will conduct its first limited live trades of tokenized securities in July before opening the platform more broadly in October, representing a formal production commitment rather than a pilot or proof-of-concept. The infrastructure rests on a December 2025 SEC no-action letter that permits DTCC to offer tokenization services across a defined asset universe covering Russell 1000 equities, ETFs, and U.S. Treasuries, providing the regulatory clearance necessary for member firms to participate without individual relief.",
-    "date": "2026-05-04",
-    "source_url": "https://www.coindesk.com/business/2026/05/04/wall-street-giant-dtcc-plans-tokenized-securities-platform-with-july-pilot-october-launch",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026",
-    "https://www.coindesk.com/business/2026/05/04/wall-street-giant-dtcc-plans-tokenized-securities-platform-with-july-pilot-october-launch": "DTCC's Depository Trust Company will conduct its first limited live trades of tokenized securities in July before opening the platform more broadly in October, representing a formal production commitment rather than a pilot or proof-of-concept. The infrastructure rests on a December 2025 SEC no-action letter that permits DTCC to offer tokenization services across a defined asset universe covering Russell 1000 equities, ETFs, and U.S. Treasuries, providing the regulatory clearance necessary for member firms to participate without individual relief."
-  },
-  {
-    "institution": "Digital Asset Platform",
-    "initiative": "Western Union launches USDPT stablecoin issued by Anchorage on Solana",
-    "description": "Western Union launched a dollar stablecoin on Solana for 24/7 settlement across 200+ countries, the company said Monday.",
-    "date": "2026-05-04",
-    "source_url": "https://www.theblock.co/post/399890/western-union-launches-usdpt-stablecoin-anchorage-solana",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Kraken’s parent company alleges custodian Etana misappropriated $25 million",
-    "description": "Etana is accused of operating a \"Ponzi-like enterprise\" the resulted in using capital to fund expenses and risky investments.",
-    "date": "2026-05-04",
-    "source_url": "https://www.theblock.co/post/399880/krakens-parent-company-alleges-custodian-etana-misappropriated-25-million",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Custody & Safekeeping"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Securitize",
-    "initiative": "FINRA green lights Securitize for tokenized IPO underwriting and custody",
-    "description": "Securitize is the first firm to receive FINRA approval to custody tokenized securities and underwrite onchain IPOs and secondary offerings.",
-    "date": "2026-05-04",
-    "source_url": "https://www.theblock.co/post/399895/finra-green-lights-securitize-for-tokenized-ipo-underwriting-and-custody",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Custody & Safekeeping"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Nasdaq",
-    "initiative": "DeFi Development launches $200M ATM to keep buying Solana",
-    "description": "DeFi Development Corp, a Nasdaq-listed company that operates as a public Solana treasury vehicle, filed an 8-K disclosing a sales agreement with broker R.F. Lafferty to sell up to $200 million of common stock through an at-the-market equity program under an existing shelf registration. The company has stated it will only issue shares when doing so is accretive to its \"SOL per share\" metric — meaning proceeds must be deployed into Solana at prices that increase the per-share value of its SOL holdings relative to the capital raised. This follows a prior $125 million equity offering in August 2025 and a reported SOL treasury that had grown to over 2 million tokens by late that year, with the firm also running validator infrastructure and earning staking yields of roughly 8–11% annually.",
-    "date": "2026-05-04",
-    "source_url": "https://crypto.news/defi-development-launches-200m-atm-to-keep-buying-solana/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "DeFi"
-    ],
-    "year": "2026",
-    "description_truncated": true
-  },
-  {
-    "institution": "Mastercard",
-    "initiative": "Stablecoin startup Rain joins Mastercard as a Principal Member",
-    "description": "Rain, which was valued at $1.95 billion during a Series C round announced in January, has an existing relationship with card issuer Visa.",
-    "date": "2026-05-04",
-    "source_url": "https://www.theblock.co/post/399878/stablecoin-startup-rain-joins-mastercard-as-a-principal-member",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA (European Securities and Markets Authority)",
-    "initiative": "ESMA advances the simplification of EU reporting frameworks for funds and transactions",
-    "description": "ESMA published two reports on 4 May 2026 as part of its Simplification and Burden Reduction initiative, targeting overlapping and costly regulatory reporting obligations across European markets. The first, a final report on funds data collection, proposes replacing fragmented national reporting under AIFMD and UCITS with a single harmonised EU template, supported by a hybrid model in which data collection stays at national level but validation, storage, and analytics are centralised.",
-    "date": "2026-05-04",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-advances-simplification-eu-reporting-frameworks-funds-and-transactions",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
   }
 ]
