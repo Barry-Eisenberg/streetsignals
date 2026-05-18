@@ -1,5 +1,226 @@
 [
   {
+    "institution": "ESMA (European Securities and Markets Authority)",
+    "initiative": "ESMA advances the simplification of EU reporting frameworks for funds and transactions",
+    "description": "As part of the next steps, ESMA will further engage with markets participants, including through an open hearing that will be held on 28 May, before moving forward with final recommendations to be published by mid-year. The two reports published today are complementary pillars of ESMA’s broader simplification and burden reduction agenda, launched last year . ESMA advances the simplification of EU reporting frameworks for funds and transactions",
+    "date": "2026-05-18",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-advances-simplification-eu-reporting-frameworks-funds-and-transactions",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Bank of England",
+    "initiative": "Bank of England lays down roadmap for near 24x7 Chaps settlement hours",
+    "description": "The Bank of england has opened consultations on a phased approach for extending settlement hours on RTGS and the UK’s high-value payment system Chaps toward near 24x7 operation",
+    "date": "2026-05-18",
+    "source_url": "https://www.finextra.com/newsarticle/47772/bank-of-england-lays-down-roadmap-for-near-24x7-chaps-settlement-hours",
+    "category": "regulators",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Tether",
+    "initiative": "Tether invests in LemFi",
+    "description": "Tether, the largest company in the digital asset industry and issuer of USD₮, the world’s most widely used stablecoin, has announced an investment in",
+    "date": "2026-05-18",
+    "source_url": "https://www.finextra.com/pressarticle/109870/tether-invests-in-lemfi",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Tether",
+    "initiative": "Tether invests in remittance fintech LemFi to expand USDT settlement across Africa and Asia",
+    "description": "Founded in 2021, LemFi says it has over 1 million customers and is backed by Y-Combinator, with $85 million raised.",
+    "date": "2026-05-18",
+    "source_url": "https://www.theblock.co/post/401666/tether-invests-remittance-fintech-lemfi-expand-usdt-settlement-africa-asia",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Standard Chartered",
+    "initiative": "Standard Chartered to absorb Zodia Custody’s crypto business into its own operations: Bloomberg",
+    "description": "Standard Chartered has agreed to acquire Zodia Custody's crypto business to fold into its own digital asset operations, per Bloomberg.",
+    "date": "2026-05-18",
+    "source_url": "https://www.theblock.co/post/401663/standard-chartered-absorb-zodia-custody-crypto-business-bloomberg",
+    "category": "global_banks",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Justin Sun moves 41.99m Spark to HTX in fresh suspected sell-off",
+    "description": "Justin Sun moved 41.99m Spark worth $1.23m from Spark to HTX, adding to roughly 610m SPK in exchange-bound flows since 2025 and renewing sell-pressure and governance worries. Justin Sun has resumed large Spark (SPK) withdrawals from Spark, moving 41.99 million… Justin Sun moves 41.99m Spark to HTX in fresh suspected sell-off",
+    "date": "2026-05-18",
+    "source_url": "https://crypto.news/justin-sun-moves-41-99m-spark-to-htx-in-fresh-suspected-sell-off/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "AEON raises $8m to wire AI agents into 50m real-world merchants",
+    "description": "AEON raised $8m led by YZi Labs to build an AI-native settlement layer, using its x402 protocol on BNB Chain to let agents pay 50m+ merchants via on-chain receipts. AEON has completed an $8 million pre-seed funding round to build… AEON raises $8m to wire AI agents into 50m real-world merchants",
+    "date": "2026-05-18",
+    "source_url": "https://crypto.news/aeon-raises-8m-to-wire-ai-agents-into-50m-real-world-merchants/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Tether",
+    "initiative": "Tether backs LemFi to push USDT remittances into Africa and Asia",
+    "description": "Tether’s undisclosed LemFi investment wires USDT into African and Asian remittance corridors, swapping slow SWIFT transfers for near‑instant, low‑fee stablecoin settlement. Tether has announced a strategic investment in LemFi, a UK‑headquartered cross‑border financial platform used by African and Asian diaspora… Tether backs LemFi to push USDT remittances into Africa and Asia",
+    "date": "2026-05-18",
+    "source_url": "https://crypto.news/tether-backs-lemfi-to-push-usdt-remittances-into-africa-and-asia/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "CoinEx’s crypto savings push in the age of falling DeFi yields",
+    "description": "DeFi yields on blue-chip stablecoins now trail bank cash and tokenized Treasuries, forcing CoinEx to pitch Flexible Savings as a liquidity tool, not a rate stunt. CoinEx’s pitch for crypto-denominated savings now lands in a market where, for the first… CoinEx’s crypto savings push in the age of falling DeFi yields",
+    "date": "2026-05-18",
+    "source_url": "https://crypto.news/coinexs-crypto-savings-push-in-the-age-of-falling-defi-yields/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinShares",
+    "initiative": "Crypto ETPs snap six-week streak with $1.07B outflow: CoinShares",
+    "description": "Crypto ETPs lost $1.07B last week as Bitcoin shed $982M and Ethereum lost $249M, while XRP and Solana still drew inflows.",
+    "date": "2026-05-18",
+    "source_url": "https://crypto.news/crypto-etps-snap-six-week-streak-with-1-07b-outflow-coinshares/",
+    "category": "asset_management",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Standard Chartered",
+    "initiative": "Standard Chartered turns Zodia into 2 crypto custody plays",
+    "description": "Standard Chartered will absorb Zodia Custody’s regulated business and spin out Zodia Solutions as banks build crypto custody in-house.",
+    "date": "2026-05-18",
+    "source_url": "https://crypto.news/standard-chartered-turns-zodia-into-2-crypto-custody-plays/",
+    "category": "global_banks",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Regulation & Compliance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Ayman M Al-Sayari: Speech - Financial Action Task Force (FATF) Ministerial Meeting",
     "description": "Speech by His Excellency Mr Ayman Al-Sayari, Governor of the Saudi Central Bank, at the Financial Action Task Force (FATF) Ministerial Meeting during the International Monetary Fund and World Bank Group Spring Meetings, Washington DC, 17 April 2026.",
@@ -9526,231 +9747,5 @@
       "Payment Infrastructure"
     ],
     "year": "2026"
-  },
-  {
-    "institution": "MoonPay",
-    "initiative": "Bank groups challenge Senator Thom Tillis over stablecoin proposal",
-    "description": "A coalition of five major U.S. banking trade groups — including the American Bankers Association, Bank Policy Institute, and Independent Community Bankers of America — has formally objected to revised stablecoin reward provisions in the CLARITY Act, arguing that the updated language still permits incentives tied to balance size or holding duration that could effectively replicate deposit interest and trigger large-scale outflows from the banking system. The groups cited economist Andrew Nigrinis's analysis warning that broad stablecoin adoption could reduce consumer, small-business, and farm lending by one-fifth or more, a materially different picture from White House estimates suggesting only a $2.1 billion uplift in bank lending from a yield ban.",
-    "date": "2026-05-05",
-    "source_url": "https://crypto.news/bank-groups-challenge-senator-thom-tillis-over-stablecoin-proposal/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026",
-    "description_truncated": true
-  },
-  {
-    "institution": "Ripple",
-    "initiative": "Ripple to share North Korean threat intelligence with crypto firms",
-    "description": "Ripple disclosed that it is contributing internal threat-intelligence data — including operative profiles, contact details, and identifying markers — to Crypto ISAC, the industry's information-sharing body, following a methodology shift in which North Korean actors have moved away from smart-contract exploits toward multi-month social-engineering infiltrations. The April Drift breach ($285 million) and Kelp bridge exploit ($292 million) were both publicly attributed to Lazarus Group operatives who obtained insider access through fabricated employment relationships rather than code vulnerabilities, collectively representing over $500 million in losses attributable to a single state actor within one month.",
-    "date": "2026-05-05",
-    "source_url": "https://www.coindesk.com/tech/2026/05/05/ripple-to-share-north-korean-threat-intelligence-with-crypto-firms",
-    "category": "payments",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026",
-    "https://www.coindesk.com/tech/2026/05/05/ripple-to-share-north-korean-threat-intelligence-with-crypto-firms": "Ripple disclosed that it is contributing internal threat-intelligence data — including operative profiles, contact details, and identifying markers — to Crypto ISAC, the industry's information-sharing body, following a methodology shift in which North Korean actors have moved away from smart-contract exploits toward multi-month social-engineering infiltrations. The April Drift breach ($285 million) and Kelp bridge exploit ($292 million) were both publicly attributed to Lazarus Group operatives who obtained insider access through fabricated employment relationships rather than code vulnerabilities, collectively representing over $500 million in losses attributable to a single state actor within one month."
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Stablecoins to hit $5T in B2B payments by 2035: Juniper Research",
-    "description": "It projects that by 2035, B2B payments will account for 85% of total stablecoin value. The research found that stablecoins are increasingly embedded in cross-border B2B transactions, treasury operations, and supply chain settlements , offering programmability and 24/7 settlement. Stablecoins to hit $5T in B2B payments by 2035: Juniper Research",
-    "date": "2026-05-05",
-    "source_url": "https://coingeek.com/stablecoins-to-hit-5t-in-b2b-payments-by-2035-juniper-research/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DeFi",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Brazil Central Bank",
-    "initiative": "Brazil's Central Bank Tightens Control Over Digital Payments",
-    "description": "Brazil's regulator is drawing a line for crypto to exist in the market, but not as an eFX settlement infrastructure. It outlines their key use cases, differences from stablecoins and bank money, and the strategic trade-offs, highlighting their growing relevance as a foundational layer for payments, wallets, and financial infrastructure. Brazil's Central Bank Tightens Control Over Digital Payments",
-    "date": "2026-05-05",
-    "source_url": "https://www.connectingthedotsinpayments.com/brazils-central-bank-tightens-control-over-digital-payments/",
-    "category": "regulators",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "DTCC",
-    "initiative": "DTCC lines up 50 giants for tokenized securities launch",
-    "description": "The post-trade market infrastructure group aims to launch the full DTC tokenization service in October 2026. Summary DTCC plans July tokenized securities pilots before targeting a full service launch in October 2026. DTCC lines up 50 giants for tokenized securities launch",
-    "date": "2026-05-05",
-    "source_url": "https://crypto.news/dtcc-lines-up-50-giants-for-tokenized-securities-launch/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Acting under uncertainty - the case for supervisory risk appetite frameworks",
-    "description": "Periodic episodes of banking sector distress invariably expose weaknesses in banks' governance and risk management and shortcomings in supervision. A recurring challenge for supervisory authorities (SAs) is the lack of an explicit framework to define, manage, and communicate their tolerance for supervisory risk: the risk that supervisory actions or inaction fail to achieve prudential objectives. This gap can lead to unclear, inconsistent or ineffective supervisory practices, undermining authorities' ability to address problems in banks in a timely manner.",
-    "date": "2026-05-04",
-    "source_url": "https://www.bis.org/fsi/publ/insights74.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Mastercard",
-    "initiative": "Mastercard’s AI agent Payment in the Netherlands",
-    "description": "Hey Payments Fanatic! Mastercard and Rabobank executed a payment via an AI agent for the first time in the Netherlands. In this case, an AI agent booked a coffee tasting via Priceless.com, Mastercard’s platform for unique experiences, based on a simple prompt from the consumer. The payment",
-    "date": "2026-05-04",
-    "source_url": "https://www.connectingthedotsinpayments.com/mastercards-ai-agent-payment-in-the-netherlands/",
-    "category": "payments",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Circle",
-    "initiative": "Crypto stocks rally amid Clarity Act momentum; Circle jumps nearly 20%",
-    "description": "Sens. Alsobrooks and Tillis finalized a compromise Friday on language governing stablecoin yields in the Clarity Act.",
-    "date": "2026-05-04",
-    "source_url": "https://www.theblock.co/post/399973/crypto-stocks-rally-circle-jumps",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bank trade groups say Senate stablecoin reward fix ‘falls short’ amid deposit protection concerns",
-    "description": "Major banking trade groups said a proposed fix to a key sticking point in passing crypto market structure legislation 'falls short.'",
-    "date": "2026-05-04",
-    "source_url": "https://www.theblock.co/post/399966/bank-trade-groups-stablecoin-reward",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Morgan Stanley",
-    "initiative": "Why Morgan Stanley says Bitcoin on US bank balance sheets is coming but not yet",
-    "description": "Morgan Stanley's head of digital asset strategy, Amy Oldenburg, told attendees at the Bitcoin 2026 Conference in Las Vegas that direct Bitcoin holdings on U.S. bank balance sheets remain blocked by two specific regulatory barriers: the Basel Committee's 1,250% risk-weight for unbacked crypto assets, which makes such exposure economically prohibitive under current capital rules, and the absence of a clear Federal Reserve supervisory framework for Bitcoin exposure. Oldenburg noted that 16 months of regulatory momentum — including the Basel Committee's February 2026 announcement of an expedited review of its crypto standards — has made the scenario more plausible over time, though not imminent.",
-    "date": "2026-05-04",
-    "source_url": "https://crypto.news/morgan-stanley-says-bitcoin-on-bank-balance-sheets/",
-    "category": "global_banks",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Ripple",
-    "initiative": "Ripple Custody signs South Korea’s first insurance deal to pilot near real-time bond settlement",
-    "description": "The two April deals confirm Ripple is building a connected institutional stack across insurance, banking, custody, and stablecoins in Korea. Summary The pilot uses Ripple Custody to hold, transfer, and settle tokenised Korean government bonds, with stablecoin payment rails also under exploration through Ripple’s RLUSD stablecoin. Ripple Custody pilots Korean bond settlement",
-    "date": "2026-05-04",
-    "source_url": "https://crypto.news/ripple-custody-pilots-korean-bond-settlement/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026",
-    "description_truncated": true
   }
 ]
