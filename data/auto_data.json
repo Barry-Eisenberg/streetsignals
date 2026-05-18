@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Revolut",
+    "initiative": "Revolut launches first physical crypto card",
+    "description": "Revolut launched its first physical crypto card on May 18, a Dogecoin-themed LED card for the UK and EEA. Revolut launches first physical crypto card",
+    "date": "2026-05-18",
+    "source_url": "https://crypto.news/revolut-launches-first-physical-crypto-card/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "SEC to propose tokenized stock framework as Wall Street efforts deepen: Bloomberg",
     "description": "The U.S. Securities and Exchange Commission is reportedly poised to release a major crypto proposal as it seeks to institute its digital assets agenda.",
@@ -9716,26 +9735,6 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
       "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase doubles down on Centrifuge investment, taps platform as Base’s main tokenization partner",
-    "description": "Centrifuge will be the go-to platform for launching tokenized assets on Base, the Ethereum blockchain incubated by Coinbase.",
-    "date": "2026-05-05",
-    "source_url": "https://www.theblock.co/post/399963/coinbase-figure-investment-centrifuge-base-main-tokenization-partner",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
