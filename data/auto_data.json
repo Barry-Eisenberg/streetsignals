@@ -1,5 +1,43 @@
 [
   {
+    "institution": "Nasdaq",
+    "initiative": "Bitcoin Depot, North America's largest bitcoin ATM operator, files for bankruptcy",
+    "description": "Bitcoin Depot, the largest bitcoin ATM operator in North America and publicly listed on Nasdaq, has filed for Chapter 11 bankruptcy.",
+    "date": "2026-05-18",
+    "source_url": "https://www.coindesk.com/markets/2026/05/18/bitcoin-depot-once-north-america-s-largest-bitcoin-atm-operator-files-for-bankruptcy",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "US crypto ATM operator Bitcoin Depot files for Chapter 11 to wind down business",
+    "description": "Bitcoin Depot said changing regulatory environments have made it difficult to continue its current business model.",
+    "date": "2026-05-18",
+    "source_url": "https://www.theblock.co/post/401590/bitcoin-depot-chapter-11",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Bitcoin slides under $77,000 as oil shock and Treasury yields hit risk assets",
     "description": "Long-term holders are still sitting tight and exchange balances remain near six-year lows, Binance Research data shows, but underwater short-term holders leave BTC vulnerable to macro shocks.",
@@ -9784,48 +9822,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "CFTC prediction market rules spark industry debate",
-    "description": "The CFTC's comment period closed on a March 2026 proposed rulemaking for prediction market event contracts, drawing over 1,500 submissions from a broad cross-section of stakeholders including platform operators, crypto firms, venture capital, and state gambling regulators. Kalshi, Polymarket, and Andreessen Horowitz each submitted letters backing the CFTC's exclusive federal jurisdiction over event contracts, while gaming authorities from Pennsylvania, Tennessee, and Missouri argued that sports-linked contracts functionally resemble sports betting and should fall under state oversight.",
-    "date": "2026-05-04",
-    "source_url": "https://crypto.news/cftc-prediction-market-rules-spark-industry-debate/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Mastercard",
-    "initiative": "Mastercard’s AI agent Payment in the Netherlands",
-    "description": "Cheers, Marcel HOW PAYMENTS COMPANIES PERFORMED LAST WEEK 📈 Top 10 Payment Companies/Banks Listed on Stock Exchanges by Weekly Performance 📉 Here are the big movers of the week: How Payments Performed Last Week NEWS 🇺🇸 Glass has joined Mastercard Start Path to advance infrastructure for public sector finance. Through this acquisition, combines institutional infrastructure with AI-driven payments and stablecoin technology, aiming to bridge traditional finance and digital assets.",
-    "date": "2026-05-04",
-    "source_url": "https://www.connectingthedotsinpayments.com/mastercards-ai-agent-payment-in-the-netherlands/",
-    "category": "payments",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
