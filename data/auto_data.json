@@ -1,5 +1,83 @@
 [
   {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "SEC to propose tokenized stock framework as Wall Street efforts deepen: Bloomberg",
+    "description": "The U.S. Securities and Exchange Commission is reportedly poised to release a major crypto proposal as it seeks to institute its digital assets agenda.",
+    "date": "2026-05-18",
+    "source_url": "https://www.coindesk.com/policy/2026/05/18/sec-to-propose-tokenized-stock-framework-as-wall-street-efforts-deepen-bloomberg",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "Ohio man sentenced to 9 years for running $10 million crypto Ponzi scheme",
+    "description": "The CFTC filed an enforcement action against Rathnakishore Giri in August 2022 for running the fraudulent investment scheme.",
+    "date": "2026-05-18",
+    "source_url": "https://www.theblock.co/post/401761/ohio-man-sentenced-to-9-years-for-running-10-million-crypto-ponzi-scheme",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Bitwise HYPE ETF pledges 10% fees to HYPE buys",
+    "description": "Bitwise will devote 10% of its HYPE ETF management fee to buying HYPE on its balance sheet. Bitwise Asset Management announced that it will devote 10% of the management fee from its Bitwise Hyperliquid ETF (NYSE: BHYP) to holding HYPE… Bitwise HYPE ETF pledges 10% fees to HYPE buys",
+    "date": "2026-05-18",
+    "source_url": "https://crypto.news/bitwise-hype-etf-pledges-10percent-fees-to-buybacks/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Shiba Inu sees 3b SHIB flood exchanges",
+    "description": "Shiba Inu saw billions of SHIB hit exchanges on May 18 as crypto market liquidations accelerated. On-chain exchange flow data tracked by CoinGlass shows SHIB open interest at $61.2 million on May 18, with $42,485 in futures positions liquidated in… Shiba Inu sees 3b SHIB flood exchanges",
+    "date": "2026-05-18",
+    "source_url": "https://crypto.news/shiba-inu-sees-3b-shib-hit-exchanges/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Minnesotan banks and credit unions set to provide crypto custody August 1",
     "description": "Minnesota established the midwest’s first unified digital asset safety net for banks and credit unions.",
@@ -9657,87 +9735,6 @@
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "State Street",
-    "initiative": "Galaxy and State Street launch Solana-based SWEEP tokenized cash fund",
-    "description": "Galaxy provides tokenization infrastructure, Anchorage Digital handles digital asset custody, and State Street manages the off-chain portfolio, extending the institutional trend set by BlackRock’s BUIDL tokenized Treasury fund.",
-    "date": "2026-05-05",
-    "source_url": "https://crypto.news/galaxy-and-state-street-launch-solana-based-sweep-tokenized-cash-fund/",
-    "category": "asset_management",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026",
-    "description_truncated": true
-  },
-  {
-    "institution": "Standard Chartered",
-    "initiative": "Standard Chartered expands further into crypto with stake in GSR at $1 billion valuation",
-    "description": "In January 2025, it launched its own digital asset custody services out of Luxembourg and introduced crypto trading for institutional clients last summer, becoming one of the first global banks to offer spot bitcoin and ether trading. The deal is framed as a broader partnership to build regulated, scalable infrastructure that links traditional finance with digital assets and expands access to tokenization for institutional clients. Standard Chartered expands further into crypto with stake in GSR at $1 billion valuation",
-    "date": "2026-05-05",
-    "source_url": "https://www.coindesk.com/business/2026/05/05/standard-chartered-expands-further-into-crypto-with-stake-in-gsr-at-usd1-billion-valuation",
-    "category": "global_banks",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase cuts 14% of staff as AI reshapes how crypto companies operate",
-    "description": "Google has launched the Agentic Payments Protocol (AP2), with 120 partners including PayPal, and donated it to the FIDO Foundation. Coinbase is set to slashing its workforce by roughly 14%, or 660 employees in response to negative market conditions and AI challenges. Coinbase latest crypto firm to slash staff citing market conditions and AI shift. Reduces it by 14%.",
-    "date": "2026-05-05",
-    "source_url": "https://www.coindesk.com/business/2026/05/05/coinbase-cuts-14-of-staff-as-ai-reshapes-how-crypto-companies-operate",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinShares",
-    "initiative": "Global crypto ETP inflow streak extends to five weeks, masking sharp intraweek reversal: CoinShares",
-    "description": "CoinShares' weekly flow report showed global crypto exchange-traded products attracted $117.8 million in net inflows for the week ending May 2, extending a consecutive positive-flow streak to five weeks and accumulating over $4 billion in that period, though the headline figure conceals significant underlying stress. Products run by issuers including BlackRock, Fidelity, Grayscale, Bitwise, and 21Shares experienced four straight days of outflows totalling $619 million Monday through Thursday, before a single Friday session reversed the trajectory with $737 million in inflows — one of the largest single-day figures recorded in 2026.",
-    "date": "2026-05-05",
-    "source_url": "https://www.theblock.co/post/400016/global-crypto-etp-inflow-streak-extends-to-five-weeks-masking-sharp-intraweek-reversal-coinshares",
-    "category": "asset_management",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
