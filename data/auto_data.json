@@ -1,5 +1,45 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Minnesotan banks and credit unions set to provide crypto custody August 1",
+    "description": "Minnesota established the midwest’s first unified digital asset safety net for banks and credit unions.",
+    "date": "2026-05-18",
+    "source_url": "https://www.coindesk.com/policy/2026/05/18/minnesotan-banks-and-credit-unions-set-to-provide-crypto-custody-august-1",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "SpaceX Bitcoin stack hits $637m before IPO",
+    "description": "SpaceX holds 8,285 BTC worth approximately $637 million in Coinbase Prime custody, according to on-chain data from Arkham Intelligence as analyzed by Finbold… SpaceX Bitcoin holdings stand at $637m, on-chain data shows, making it the fourth largest known corporate holder. SpaceX Bitcoin stack hits $637m before IPO",
+    "date": "2026-05-18",
+    "source_url": "https://crypto.news/spacex-bitcoin-treasury-tops-637m-pre-ipo/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA (European Securities and Markets Authority)",
     "initiative": "ESMA consults on a new simplified approach to updating MMF stress test parameters",
     "description": "The proposed approach aims to simplify the update process and improve accessibility, allowing market participants to apply updated parameters immediately after approval. ESMA proposes replacing the current annual amendments to Section 5 of the Guidelines with an annual web-based publication of the calibration parameters. ESMA consults on a new simplified approach to updating MMF stress test parameters",
@@ -9699,44 +9739,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase to cut 14% of workforce as Armstrong pushes AI-native structure",
-    "description": "Coinbase announced on May 5, 2026 that it would eliminate approximately 14% of its staff, with CEO Brian Armstrong citing both a softer crypto market cycle and the accelerating adoption of AI-driven workflows as the primary rationale. Armstrong framed the restructuring explicitly around operational efficiency, capping the organisation at five management layers below the CEO and COO and requiring all leadership roles to involve direct individual contribution rather than pure people management.",
-    "date": "2026-05-05",
-    "source_url": "https://crypto.news/coinbase-to-cut-14-of-workforce-as-armstrong-pushes-ai-native-structure/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Tether",
-    "initiative": "Tether begins first stablecoin audit as Lutnick loan scrutiny mounts",
-    "description": "Tether has formally launched its first full independent financial statement audit, engaging KPMG as lead auditor with PwC supporting internal readiness — a significant step beyond the limited one-day reserve snapshots previously provided by BDO Italia. The move comes as the company released its Q1 2026 attestation showing $183.5 billion in circulating USDT backed by approximately $191.8 billion in total assets, with U.S. Treasury bills remaining the dominant reserve component at roughly $141 billion in direct and indirect exposure.",
-    "date": "2026-05-05",
-    "source_url": "https://coingeek.com/tether-begins-first-stablecoin-audit-as-lutnick-loan-scrutiny-mounts/",
-    "category": "payments",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   }
