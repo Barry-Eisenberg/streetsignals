@@ -1,5 +1,59 @@
 [
   {
+    "institution": "ESMA (European Securities and Markets Authority)",
+    "initiative": "ESMA consults on a new simplified approach to updating MMF stress test parameters",
+    "description": "The proposed approach aims to simplify the update process and improve accessibility, allowing market participants to apply updated parameters immediately after approval. ESMA proposes replacing the current annual amendments to Section 5 of the Guidelines with an annual web-based publication of the calibration parameters. ESMA consults on a new simplified approach to updating MMF stress test parameters",
+    "date": "2026-05-18",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-consults-new-simplified-approach-updating-mmf-stress-test-parameters",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "Ostium’s onchain perpetuals exchange to be ‘powered’ by Nasdaq data",
+    "description": "Ostium says this tie-up makes it the \"first onchain trading venue to offer equity perpetual products powered by Nasdaq data.\"",
+    "date": "2026-05-18",
+    "source_url": "https://www.theblock.co/post/401743/ostiums-onchain-perpetuals-exchange-nasdaq-data",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Ripple",
+    "initiative": "Ripple’s XRP price drops 2% at $1.42",
+    "description": "XRP fell as traders took profits aggressively after another failed push above $1.42, knocking the token back below $1.40 in the… XRP price dropped 2% on May 18, sliding to $1.3865 as traders sold aggressively into the $1.42 resistance zone. Ripple’s XRP price drops 2% at $1.42",
+    "date": "2026-05-18",
+    "source_url": "https://crypto.news/xrp-price-slips-2percent-on-profit-taking/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "crypto.news",
     "initiative": "ZachXBT offers $10,000 bounty for evidence against Hong Kong market maker HSBG",
     "description": "ZachXBT is offering up to $10,000 for insider evidence that Hong Kong market maker HSBG manipulated centralized exchange markets, including trades around RIVER. On-chain sleuth ZachXBT has announced a bounty of up to $10,000 for whistleblowers who can provide credible… ZachXBT offers $10,000 bounty for evidence against Hong Kong market maker HSBG",
@@ -9683,66 +9737,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bank of Italy calls for EU to explore tokenized SEPA payments",
-    "description": "Bank of Italy's Chiara Scotti said the EU should explore a tokenized extension of its payments system as tokenization grows more \"relevant.\"",
-    "date": "2026-05-05",
-    "source_url": "https://www.theblock.co/post/400001/bank-of-italy-tokenized-sepa",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "Elon Musk settles SEC Twitter case with $1.5M fine",
-    "description": "Elon Musk reached a civil settlement with the SEC on May 4, 2026, resolving allegations that he filed a required beneficial ownership disclosure 11 days late when accumulating a stake exceeding 5% in Twitter ahead of his $44 billion acquisition in 2022. The regulator contended the delayed filing allowed Musk to purchase additional shares at lower prices before the market was aware of his position, generating an estimated $150 million in avoided costs — an amount he will not be required to disgorge under the terms of the agreement. A trust in Musk's name will pay a $1.5 million civil penalty without admitting wrongdoing, subject to court approval.",
-    "date": "2026-05-05",
-    "source_url": "https://crypto.news/elon-musk-settles-sec-twitter-case-with-1-5m-fine/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Bullish bets $4.2B on tokenized securities with Equiniti deal",
-    "description": "Bullish and Equiniti plan tokenization services with 24/7 securities trading and stablecoin settlement. Summary Bullish will acquire Equiniti for about $4.2 billion, including debt, pending regulatory approvals. Bullish bets $4.2B on tokenized securities with Equiniti deal",
-    "date": "2026-05-05",
-    "source_url": "https://crypto.news/bullish-bets-4-2b-on-tokenized-securities-with-equiniti-deal/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
