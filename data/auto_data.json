@@ -1,5 +1,81 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Sygnum delivers AI agent-driven digital asset transactions",
+    "description": "Swiss digital asset bank Sygnum is to use AI agents to test live on-chain transactions using a 'human-in-the-loop' design, with the client signing every action and private keys never leaving their device.",
+    "date": "2026-05-18",
+    "source_url": "https://www.finextra.com/newsarticle/47765/sygnum-delivers-ai-agent-driven-digital-asset-transactions",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Aon to modernize how brokers access capital and syndicate risk",
+    "description": "Aon plc (NYSE: AON), a leading global professional services firm, today announced plans to launch Aon Digital Placement Exchange (Aon DPX), a new digital trading platform designed to modernize how brokers access capital and syndicate risk.",
+    "date": "2026-05-18",
+    "source_url": "https://www.finextra.com/pressarticle/109857/aon-to-modernize-how-brokers-access-capital-and-syndicate-risk",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Kraken trims workforce as AI adoption grows across crypto sector",
+    "description": "Kraken has reportedly reduced its workforce by around 150 employees as the crypto exchange increases the use of artificial intelligence across its operations, a move that Bloomberg said could delay the company’s planned U.S. public listing until 2027. Kraken trims workforce as AI adoption grows across crypto sector",
+    "date": "2026-05-18",
+    "source_url": "https://crypto.news/kraken-trims-workforce-as-ai-adoption-grows-across-crypto-sector/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "Crypto ATM operator Bitcoin Depot files for bankruptcy months after leadership overhaul",
+    "description": "Nasdaq-listed crypto ATM operator Bitcoin Depot has filed for Chapter 11 bankruptcy protection in Texas as mounting regulatory pressure and financial losses pushed the company toward an orderly shutdown. According to a Monday press release from Bitcoin Depot, the filing… Crypto ATM operator Bitcoin Depot files for bankruptcy months after leadership overhaul",
+    "date": "2026-05-18",
+    "source_url": "https://crypto.news/crypto-atm-operator-bitcoin-depot-files-for-bankruptcy-months-after-leadership-overhaul/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Nasdaq",
     "initiative": "Bitcoin Depot, North America's largest bitcoin ATM operator, files for bankruptcy",
     "description": "Bitcoin Depot, the largest bitcoin ATM operator in North America and publicly listed on Nasdaq, has filed for Chapter 11 bankruptcy.",
@@ -9004,6 +9080,23 @@
     "year": "2026"
   },
   {
+    "institution": "Mastercard",
+    "initiative": "Mastercard’s AI agent Payment in the Netherlands",
+    "description": "Hey Payments Fanatic! Mastercard and Rabobank executed a payment via an AI agent for the first time in the Netherlands. In this case, an AI agent booked a coffee tasting via Priceless.com, Mastercard’s platform for unique experiences, based on a simple prompt from the consumer. The payment",
+    "date": "2026-05-04",
+    "source_url": "https://www.connectingthedotsinpayments.com/mastercards-ai-agent-payment-in-the-netherlands/",
+    "category": "payments",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Circle",
     "initiative": "Crypto stocks rally amid Clarity Act momentum; Circle jumps nearly 20%",
     "description": "Sens. Alsobrooks and Tillis finalized a compromise Friday on language governing stablecoin yields in the Clarity Act.",
@@ -9720,105 +9813,6 @@
     "institution_type": "Regulatory Agencies",
     "signal_type": "Regulatory Action",
     "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Goldman Sachs",
-    "initiative": "Anthropic lines up $1.5B AI venture with Blackstone, Goldman Sachs",
-    "description": "Anthropic is close to finalizing a roughly $1.5 billion joint venture with Blackstone, Hellman & Friedman, and Goldman Sachs to deploy enterprise AI tools across private-equity-owned portfolio companies, with each lead partner committing approximately $300 million and Goldman contributing around $150 million as a founding investor. The platform is designed to integrate AI applications into core business functions — including finance, operations, customer service, and analytics — giving financial sponsors a structured vehicle to drive automation across holdings at scale.",
-    "date": "2026-05-04",
-    "source_url": "https://crypto.news/anthropic-lines-up-1-5b-ai-venture-with-blackstone-goldman-sachs/",
-    "category": "global_banks",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026",
-    "description_truncated": true
-  },
-  {
-    "institution": "Morgan Stanley",
-    "initiative": "Morgan Stanley advises 2%–4% Bitcoin exposure as demand grows",
-    "description": "Stablecoin fund adds another digital asset product Morgan Stanley Investment Management also launched the Stablecoin Reserves Portfolio, a government money market fund for stablecoin issuers.",
-    "date": "2026-05-04",
-    "source_url": "https://crypto.news/morgan-stanley-advises-2-4-bitcoin-exposure-as-demand-grows/",
-    "category": "global_banks",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "Kraken parent Payward completes Bitnomial acquisition, unlocking US crypto derivatives offering",
-    "description": "Payward has closed its acquisition of Bitnomial, a Chicago-based crypto-native exchange, consolidating ownership of three CFTC-issued licenses — a Futures Commission Merchant, a Designated Contract Market, and a Derivatives Clearing Organization — into a single regulated derivatives stack under the Kraken umbrella. The combined entity can now offer spot margin, perpetuals, and options to eligible U.S. clients across Kraken and NinjaTrader, with spot margin slated for rollout first. Bitnomial will continue operating under its existing regulatory framework and retain its third-party business relationships, preserving license integrity while being absorbed into Payward's infrastructure.",
-    "date": "2026-05-04",
-    "source_url": "https://www.theblock.co/post/399851/kraken-parent-payward-completes-bitnomial-acquisition",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "Kraken unlocks full U.S. derivatives play after Bitnomial buy",
-    "description": "Payward said the integration will connect Bitnomial’s infrastructure across Kraken, NinjaTrader, and its business-to-business platform, allowing banks, brokerages, and payment firms to access regulated U.S.",
-    "date": "2026-05-04",
-    "source_url": "https://crypto.news/kraken-unlocks-full-u-s-derivatives-play-after-bitnomial-buy/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase urges CFTC to keep prediction markets under rules",
-    "description": "Coinbase submitted a formal letter to the CFTC on April 30 responding to the agency's Advance Notice of Proposed Rulemaking on prediction markets, arguing that event-based contracts already fall within existing statutory authority and require no new legislative mandate to regulate. Chief Policy Officer Faryar Shirzad drew comparisons to traditional futures contracts, describing both as mechanisms that aggregate dispersed information into pricing signals, and called for a principles-based oversight framework prioritizing market integrity.",
-    "date": "2026-05-04",
-    "source_url": "https://crypto.news/coinbase-urges-cftc-to-keep-prediction-markets-under-rules/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
       "Regulation & Compliance"
     ],
     "initiative_types": [],
