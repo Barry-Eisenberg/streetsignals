@@ -1,5 +1,156 @@
 [
   {
+    "institution": "CaixaBank",
+    "initiative": "CaixaBank launches a carbon credit trading platform to help clients offset their emissions",
+    "description": "CaixaBank CIB has launched a carbon credit trading platform, a tool designed to make it easier for corporate clients and businesses to voluntarily offset CO2 emissions.",
+    "date": "2026-05-19",
+    "source_url": "https://www.finextra.com/pressarticle/109883/caixabank-launches-a-carbon-credit-trading-platform-to-help-clients-offset-their-emissions",
+    "category": "global_banks",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Klarna teams with Worldline for instore and online payments",
+    "description": "Worldline [Euronext: WLN], a European leader in payment services, and Klarna, the global digital bank and flexible payments provider, have announced the signing of a framework agreement to improve access to Klarna’s full suite of flexible payments across online and in-store points of sale serviced by Worldline.",
+    "date": "2026-05-19",
+    "source_url": "https://www.finextra.com/pressarticle/109882/klarna-teams-with-worldline-for-instore-and-online-payments",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Standard Chartered",
+    "initiative": "Standard Chartered to acquire Zodia Custody’s custody business",
+    "description": "Standard Chartered (SC) today announced that its non-binding offer to acquire Zodia Custody (ZC), a digital asset custodian backed by SC Ventures (SCV), has been accepted by the shareholders and noteholders of Zodia Custody.",
+    "date": "2026-05-19",
+    "source_url": "https://www.finextra.com/pressarticle/109879/standard-chartered-to-acquire-zodia-custodys-custody-business",
+    "category": "global_banks",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Visa",
+    "initiative": "How Commercial Banking Client Demands Are Changing in 2026",
+    "description": "Joining the FinextraTV virtual studio, Philip Konopik, Regional Head, Commercial and Money Movement Services, Visa Europe discussed some of the outcomes from a recent report on commercial banking. Konopik explained that commercial banks were slower to growth, but a European shift is emanating from the behaviours and demands of clients. Konopik quoted some statistics from the report, stating the substantial impact that more modernised infrastructures has had on their end users. Konopik defined this change as similar to within the retail banking space, saying that ultimately customers will reallocate funds to places that will give them what they need and commercial banks have woken up to this.",
+    "date": "2026-05-19",
+    "source_url": "https://www.finextra.com/videoarticle/3501/how-commercial-banking-client-demands-are-changing-in-2026",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "SEC Readies Tokenized Stock “Innovation Exemption” That Could Reshape Blockchain Equity Trading",
+    "description": "The SEC is preparing an “innovation exemption” for tokenized stocks that could arrive this week, building on Nasdaq and NYSE approvals and opening the door for crypto-native platforms.",
+    "date": "2026-05-19",
+    "source_url": "https://unchainedcrypto.com/sec-readies-tokenized-stock-innovation-exemption-that-could-reshape-blockchain-equity-trading/",
+    "category": "regulators",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "AI agents could outspend humans, Coinbase CEO says",
+    "description": "Coinbase CEO Brian Armstrong sees AI agent payments outgrowing humans as x402 records 75M monthly transactions and Base leads USDC use soon.",
+    "date": "2026-05-19",
+    "source_url": "https://crypto.news/ai-agents-could-outspend-humans-coinbase-ceo-says/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Japan AI-blockchain finance plan backs yen stablecoins",
+    "description": "Japan AI-blockchain finance plan backs tokenized deposits and yen stablecoins as LDP seeks 24/7 settlement and Asia policy ties in 2026 now.",
+    "date": "2026-05-19",
+    "source_url": "https://crypto.news/japan-ai-blockchain-finance-plan-backs-yen-stablecoins/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Crypto adoption in the U.S. reached 10% in 2025, Fed survey shows",
+    "description": "cryptocurrency adoption has climbed to its highest level in three years, with a growing share of adults using digital assets primarily as investments rather than for everyday payments, according to a new Federal Reserve report. Crypto adoption in the U.S. reached 10% in 2025, Fed survey shows",
+    "date": "2026-05-19",
+    "source_url": "https://crypto.news/crypto-adoption-in-the-u-s-reached-10-in-2025-fed-survey-shows/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Nasdaq",
     "initiative": "A DeFi exchange becomes the first to offer equity perpetuals powered by Nasdaq data",
     "description": "The partnership underscores both the rapid growth of equity perpetuals in onchain markets and Nasdaq’s broader strategy to support tokenized equity trading infrastructure.",
@@ -9552,170 +9703,5 @@
     ],
     "initiative_types": [],
     "year": "2026"
-  },
-  {
-    "institution": "Chainlink",
-    "initiative": "Kelp DAO ditches LayerZero for Chainlink’s cross-chain infrastructure following $292 million exploit",
-    "description": "Exodus launches non-custodial payments as it expands beyond core wallet product Dec 09, 2025, 9:30AM EST • Infrastructure © 2026 the block. On April 18, attackers suspected to be connected to North Korea’s Lazarus Group exploited a single-verifier configuration of a LayerZero-powered Omnichain Fungible Token (OFT) bridge to drain 116,500 rsETH from Kelp DAO. Kelp DAO ditches LayerZero for Chainlink's cross-chain infrastructure following $292 million exploit | The Block",
-    "date": "2026-05-05",
-    "source_url": "https://www.theblock.co/post/400131/kelp-dao-ditches-layerzero-chainlink-cross-chain-infrastructure-292-million-exploit",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CME Group",
-    "initiative": "CME Group to launch cash-settled bitcoin volatility futures",
-    "description": "CME Group announced it will list Bitcoin Volatility futures (ticker: BVI) on June 1, 2026, pending CFTC regulatory approval, making it the first such product available on a regulated U.S. exchange. The cash-settled contracts will carry a notional multiplier of $500 times the CME CF Bitcoin Volatility Index (BVX), which measures 30-day implied volatility derived in real time from CME's existing CFTC-regulated Bitcoin and Bitcoin Micro options order books — infrastructure that CF Benchmarks and CME jointly formalized in December 2024.",
-    "date": "2026-05-05",
-    "source_url": "https://www.theblock.co/post/400121/cme-group-to-launch-cash-settled-bitcoin-volatility-futures",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "GoMining",
-    "initiative": "GoMining unveils GoBTC payments protocol with 0.2% merchant fee",
-    "description": "A separate crypto.news briefing highlighted how Visa and Mastercard’s $30 billion swipe-fee settlement underscored regulatory and merchant pressure on card fees, adding further momentum to experiments like GoBTC that try to route payments over Bitcoin instead of legacy rails.",
-    "date": "2026-05-05",
-    "source_url": "https://crypto.news/gomining-unveils-gobtc-payments-protocol-with-0-2-merchant-fee/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026",
-    "description_truncated": true
-  },
-  {
-    "institution": "CoinShares",
-    "initiative": "Crypto ETPs log five straight weeks of inflows, topping $4B",
-    "description": "According to CoinShares' weekly flow report, global crypto asset ETPs recorded $117.8 million in net inflows for the most recent week, extending a consecutive positive-flow streak that has accumulated more than $4 billion over five weeks and lifted total industry AUM to approximately $155 billion. The headline figure obscures significant intraweek volatility: products shed $619 million from Monday through Thursday before a single-day $737 million surge on Friday flipped the balance positive, a pattern CoinShares attributed to a sharp midweek deterioration in sentiment followed by a late recovery. Bitcoin-linked products drove the bulk of the gains at $192.1 million in net inflows, with U.S.",
-    "date": "2026-05-05",
-    "source_url": "https://crypto.news/crypto-etps-log-five-straight-weeks-of-inflows-topping-4b/",
-    "category": "asset_management",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026",
-    "description_truncated": true
-  },
-  {
-    "institution": "Citigroup",
-    "initiative": "Tokenization won't disrupt banking rails but improve them, Wall Street executives say",
-    "description": "Banks are integrating blockchain rails into existing market infrastructure to enable 24/7, real-time movement of money and securities, reshaping corporate treasury, collateral management and cross-border payments. Its blockchain platform, Kinexys, has processed more than $1 trillion in transactions, said Kara Kennedy, who leads market development for the bank’s digital assets unit. Tokenization won't disrupt banking rails but improve them, Wall Street executives say",
-    "date": "2026-05-05",
-    "source_url": "https://www.coindesk.com/business/2026/05/05/tokenization-won-t-disrupt-banking-rails-but-improve-them-wall-street-executives-say",
-    "category": "global_banks",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "SoFi Bank",
-    "initiative": "SoFi to launch its stablecoin on Solana, citing speed and cost",
-    "description": "SoFiUSD is a fully reserved U.S. dollar stablecoin issued by SoFi Bank, a nationally chartered bank.",
-    "date": "2026-05-05",
-    "source_url": "https://www.theblock.co/post/400098/sofi-to-launch-its-stablecoin-on-solana-citing-speed-and-cost",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Bullish acquisition of Equiniti targets tokenized securities",
-    "description": "Crypto exchange Bullish announced a $4.2 billion agreement to acquire Equiniti, a UK-based transfer agent that maintains shareholder records for 3,000 major companies and approximately 20 million shareholders. The deal gives Bullish direct control over the ownership registries, legal registrations, and operational history that tokenized equity issuance requires at institutional scale — infrastructure that competitors such as Securitize and Ondo Finance would need years to replicate organically. The transaction arrives as the regulatory framework for tokenized securities solidifies, following the SEC's March 2026 approval of Nasdaq's tokenized stock trading pilot and Federal Reserve guidance on how banks should account for tokenized securities.",
-    "date": "2026-05-05",
-    "source_url": "https://crypto.news/bullish-acquisition-of-equiniti-targets-tokens/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026",
-    "description_truncated": true
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Banking groups reject Clarity Act yield compromise",
-    "description": "Major US banking associations rejected the Clarity Act’s stablecoin yield compromise, splitting publicly from Coinbase and Circle Major US banking associations publicly rejected the stablecoin yield compromise brokered by Senators Tillis and Alsobrooks in the Clarity Act. Banking groups reject Clarity Act yield compromise",
-    "date": "2026-05-05",
-    "source_url": "https://crypto.news/banking-groups-reject-clarity-act-yield-deal/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026",
-    "description_truncated": true
   }
 ]
