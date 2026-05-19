@@ -1,5 +1,45 @@
 [
   {
+    "institution": "Circle",
+    "initiative": "Even a mountain of T-bills won't save Tether and Circle from a sudden liquidity crisis, expert says",
+    "description": "The head of digital assets and tokenization at one of Germany’s largest asset managers said that USDT and USDC are not stablecoins, from his perspective.",
+    "date": "2026-05-19",
+    "source_url": "https://www.coindesk.com/business/2026/05/19/even-a-mountain-of-t-bills-won-t-save-tether-and-circle-from-a-sudden-liquidity-crisis-expert-says",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Bitwise calls HYPE a ‘Gen 2’ crypto token, says its undervalued",
+    "description": "The asset manager recently launched a HYPE-based exchange-traded fund and said it will use some of the fees generated to buy the token.",
+    "date": "2026-05-19",
+    "source_url": "https://www.theblock.co/post/401934/bitwise-calls-hype-a-gen-2-crypto-token-says-its-undervalued",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Mastercard",
     "initiative": "Zerohash pursues new funding at more than $1.5 billion valuation after Mastercard drops investment plans",
     "description": "Crypto infrastructure providers are drawing renewed investor interest as Wall Street deepens its push into digital assets.",
@@ -9632,49 +9672,6 @@
     "fmi_areas": [
       "Collateral & Lending",
       "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Anchorage Digital",
-    "initiative": "Anchorage Digital launches AI banking for autonomous payments",
-    "description": "In March, the bank took a strategic stake in Immunefi and acquired its IMU token, linking regulated custody services with on-chain security programs aimed at reducing smart contract vulnerabilities.",
-    "date": "2026-05-06",
-    "source_url": "https://crypto.news/anchorage-digital-launches-ai-banking-for-autonomous-payments/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026",
-    "description_truncated": true
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto custodian Taurus moves straight into EU capital markets with MiFID license in Cyprus",
-    "description": "Swiss crypto custody firm Taurus has received a MiFID II investment license from the Cyprus Securities and Exchange Commission, granting it regulated access to EU capital markets for tokenized financial instruments including bonds, equities, fund shares, and structured products. The authorization allows Taurus to serve banks and asset managers across the EU as a fully regulated investment services provider, operating within the same regulatory perimeter those institutions already apply to traditional counterparties such as brokers.",
-    "date": "2026-05-06",
-    "source_url": "https://www.coindesk.com/policy/2026/05/06/crypto-custody-firm-taurus-granted-mifid-license-in-cyprus",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Trading & Exchange",
-      "Regulation & Compliance"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
