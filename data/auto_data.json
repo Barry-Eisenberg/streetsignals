@@ -1,5 +1,60 @@
 [
   {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "World Liberty Financial treasury company AI Financial warns in SEC filing that it may not survive the year",
+    "description": "The former Alt5 Sigma marked its 7.28 billion WLFI tokens at $706 million, down from a roughly $1.46 billion cost basis, while disclosing that the holdings remain locked amid liquidity concerns.",
+    "date": "2026-05-19",
+    "source_url": "https://www.coindesk.com/markets/2026/05/19/world-liberty-financial-wlfi-treasury-company-ai-financial-warns-in-sec-filing-that-it-may-not-survive-the-year",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Kevin Warsh Fed swearing-in tests fading rate-cut hopes",
+    "description": "Kevin Warsh takes over the US Fed as rate-cut odds fall with crypto markets watching June policy and CFTC seats before the CLARITY Act vote.",
+    "date": "2026-05-19",
+    "source_url": "https://crypto.news/kevin-warsh-fed-swearing-in-tests-fading-rate-cut-hopes/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Minnesota crypto custody law lets banks hold assets from Aug. 1",
+    "description": "Minnesota crypto custody law lets banks and credit unions hold digital assets from Aug. 1, as the state crypto ATM ban also starts that day.",
+    "date": "2026-05-19",
+    "source_url": "https://crypto.news/minnesota-crypto-custody-law-lets-banks-hold-assets-from-aug-1/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Connecting the Dots",
     "initiative": "The Dutch Are At It Again. Zerohash Secures EMI License",
     "description": "Hey Payments Fanatic! News keeps hitting close to home. Dutch FinTech zerohash has just secured an EMI License. As the first MiCAR-licensed firm to also obtain an E-Money License , zerohash can now fully support stablecoin-powered financial flows under Europe's evolving regulatory framework. Together, the MiCAR and EMI licenses",
@@ -9668,58 +9723,6 @@
     "signal_type": "Research / Report",
     "fmi_areas": [],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Aleš Michl: Forever hawkish",
-    "description": "Guest lecture by Mr Aleš Michl, Governor of the Czech National Bank, at the MIT Sloan School of Management, Cambridge, MA, 30 April 2026. Central bank speech | 05 May 2026 by Aleš Michl PDF full text (729kb) | 10 pages I became Governor of the Czech National Bank in July 2022. Aleš Michl: Forever hawkish",
-    "date": "2026-05-05",
-    "source_url": "https://www.bis.org/review/r260505g.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Michelle W Bowman: Artificial intelligence in the financial system",
-    "description": "Today, I will discuss the use of AI in the banking system, the Federal Reserve's supervisory approach for financial institutions, and how the benefits and risks of AI are contributing to the international financial stability conversation. This includes direct conversations with individual banks, and broader conversations on principles for successful adoption. Michelle W Bowman: Artificial intelligence in the financial system",
-    "date": "2026-05-05",
-    "source_url": "https://www.bis.org/review/r260504b.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "ECB (European Central Bank)",
-    "initiative": "Chiara Scotti: Digital money and the architecture of trust",
-    "description": "The central question, therefore, is not whether central bank digital currencies (CBDCs), stablecoins or tokenized deposits can each, individually, perform the role that traditional forms of money have historically played. The more relevant question is what kind of institutional architecture combining different settlement assets, institutions and infrastructures can deliver trust, resilience and effective monetary control while at the same time accompanying innovation, without hindering it.",
-    "date": "2026-05-05",
-    "source_url": "https://www.bis.org/review/r260505d.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "CBDC",
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
