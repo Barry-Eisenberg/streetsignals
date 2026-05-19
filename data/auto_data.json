@@ -1,5 +1,43 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "RBA moves from experimentation to commercial realisation of tokenized asset markets",
+    "description": "The Reserve Bank of Australia (RBA) and the Digital Finance Cooperative Research Centre (DFCRC) have published a report detailing the findings of Project Acacia – a joint initiative examining the use of digital money and settlement infrastructure to support the development of wholesale tokenised asset markets.",
+    "date": "2026-05-19",
+    "source_url": "https://www.finextra.com/newsarticle/47771/rba-moves-from-experimentation-to-commercial-realisation-of-tokenized-asset-markets",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Visa",
+    "initiative": "Emerchantpay collaborates with Visa to offer instalment payments for UK merchants",
+    "description": "Global payment service provider and acquirer emerchantpay today announces the integration of Visa Instalments Services (VIS) into its payment platform, as part of its ongoing collaboration with Visa, a world leader in digital payments.",
+    "date": "2026-05-19",
+    "source_url": "https://www.finextra.com/pressarticle/109864/emerchantpay-collaborates-with-visa-to-offer-instalment-payments-for-uk-merchants",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Revolut",
     "initiative": "Revolut launches first physical crypto card",
     "description": "Revolut launched its first physical crypto card on May 18, a Dogecoin-themed LED card for the UK and EEA. Revolut launches first physical crypto card",
@@ -9693,48 +9731,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Standard Chartered",
-    "initiative": "StanChart’s SC Ventures invests in crypto market maker GSR",
-    "description": "Standard Chartered's innovation and ventures arm, SC Ventures, has taken a strategic equity stake in GSR, a London-based crypto market maker and OTC trading desk, in a deal that values GSR at approximately $1 billion. The investment marks the first outside strategic placement in GSR, which had previously raised $167 million and reported $287 million in revenue with $71 million in after-tax profit for the year ending June 2024. The two firms already have an operational relationship through GSR's recent lead role in funding Libeara, an SC Ventures-incubated tokenization platform.",
-    "date": "2026-05-05",
-    "source_url": "https://www.ledgerinsights.com/stancharts-sc-ventures-invests-in-crypto-market-maker-gsr/",
-    "category": "global_banks",
-    "source_name": "Ledger Insights",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Securitize",
-    "initiative": "Securitize taps Jump and Jupiter as it rolls out fully onchain, regulated onchain stocks",
-    "description": "Jump will provide institutional liquidity via its PropAMM, while Solana DeFi aggregator Jupiter will support retail and institutional access.",
-    "date": "2026-05-05",
-    "source_url": "https://www.theblock.co/post/400051/securitize-taps-jump-and-jupiter-as-it-rolls-out-fully-onchain-regulated-onchain-stocks",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "DeFi"
     ],
     "year": "2026"
   }
