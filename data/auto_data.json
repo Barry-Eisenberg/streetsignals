@@ -1,5 +1,141 @@
 [
   {
+    "institution": "OCC (Office of the Comptroller of the Currency)",
+    "initiative": "Senator Elizabeth Warren accuses U.S. regulator of approving unqualified crypto banks",
+    "description": "The Senate Banking Committee's top Democrat sent a letter to the Office of the Comptroller of the Currency questioning the charters of nine crypto firms.",
+    "date": "2026-05-19",
+    "source_url": "https://www.coindesk.com/policy/2026/05/19/senator-elizabeth-warren-accuses-u-s-regulator-of-approving-unqualified-crypto-banks",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "JPMorgan says ether and altcoins won't catch up to bitcoin without a major network boom",
+    "description": "The bank said ether and the broader altcoin market continue to trail bitcoin as weak network activity, sluggish DeFi growth and limited real-world adoption weigh on investor demand.",
+    "date": "2026-05-19",
+    "source_url": "https://www.coindesk.com/markets/2026/05/19/jpmorgan-says-ether-and-altcoins-won-t-catch-up-to-bitcoin-without-a-major-network-boom",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Huntington Bank joins Chips for high-value payments",
+    "description": "The Huntington National Bank has joined the CHIPS network, the largest private-sector U.S. dollar clearing and settlement system in the world, to clear and settle high-value domestic payments.",
+    "date": "2026-05-19",
+    "source_url": "https://www.finextra.com/pressarticle/109886/huntington-bank-joins-chips-for-high-value-payments",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Stripe",
+    "initiative": "Polymarket rolls out prediction markets tracking IPOs, valuations for private companies like OpenAI and SpaceX",
+    "description": "Early offerings from the prediction market focus on AI, fintech and crypto unicorns including OpenAI, Anthropic, Stripe and Kraken.",
+    "date": "2026-05-19",
+    "source_url": "https://www.theblock.co/post/401866/polymarket-rolls-out-prediction-markets-tracking-ipos-valuations-for-private-companies-like-openai-and-spacex",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Wintermute enters DeFi vault space with Armitage, supporting ‘collateral types that other curators cannot’",
+    "description": "Vault curators allow institutions to take a hands-off approach to crypto by allocating capital along pre-set risk parameters.",
+    "date": "2026-05-19",
+    "source_url": "https://www.theblock.co/post/401875/wintermute-enters-defi-vault-space-with-armitage-supporting-collateral-types-that-other-curators-cannot",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Ouinex raises $3.5m from users to back ‘No‑CLOB’ crypto trading model",
+    "description": "Crypto exchange Ouinex has raised $3.5m from its own traders, lifting total funding to $9m to build a “Non‑Centralized Order Book” designed to shield retail from market makers. According to Forbes, crypto and derivatives platform Ouinex announced on May 19 that… Ouinex raises $3.5m from users to back ‘No‑CLOB’ crypto trading model",
+    "date": "2026-05-19",
+    "source_url": "https://crypto.news/ouinex-raises-3-5m-from-users-to-back-no-clob-crypto-trading-model/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "OCC (Office of the Comptroller of the Currency)",
+    "initiative": "Senator Warren accuses OCC of illegally greenlighting crypto bank charters",
+    "description": "Senator Warren questions OCC crypto trust charters’ legality under National Bank Act. Senator Elizabeth Warren has accused the Office of the Comptroller of the Currency (OCC) of potentially violating the National Bank Act by greenlighting a wave of national trust… Senator Warren accuses OCC of illegally greenlighting crypto bank charters",
+    "date": "2026-05-19",
+    "source_url": "https://crypto.news/senator-warren-accuses-occ-of-illegally-greenlighting-crypto-bank-charters/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Mizuho",
     "initiative": "Wall Street analysts increasingly value crypto firms as infrastructure, AI and capital markets platforms",
     "description": "Analysts at Benchmark, TD Cowen, and Mizuho hold buy ratings on Bitdeer, Strive, DeFi Technologies, and Gemini amid infra and markets pivots.",
@@ -9559,145 +9695,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Crypto whale sues Coinbase for allegedly refusing to return stolen DAI",
-    "description": "Exodus launches non-custodial payments as it expands beyond core wallet product Dec 09, 2025, 9:30AM EST • Infrastructure © 2026 the block. Start Survey Advertisement Crypto exchange Coinbase is facing a lawsuit from an anonymous crypto whale who alleges the company improperly refused to return frozen funds tied to a 2024 crypto theft. Crypto whale sues Coinbase for allegedly refusing to return stolen DAI | The Block",
-    "date": "2026-05-06",
-    "source_url": "https://www.theblock.co/post/400152/crypto-whale-sues-coinbase",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainlink",
-    "initiative": "Kelp DAO moves rsETH to Chainlink CCIP as LayerZero dispute grows",
-    "description": "Kelp DAO announced it will migrate its rsETH liquid restaking token from LayerZero's OFT standard to Chainlink's Cross-Chain Interoperability Protocol following an April 18 exploit in which attackers drained 116,500 rsETH — worth approximately $292 million — from its LayerZero-powered bridge. The stolen tokens were subsequently deposited as collateral on Aave v3 to borrow wrapped Ether, triggering downstream stress in lending markets and a legal dispute after the Arbitrum Security Council froze roughly $71 million in ETH, which Aave is now seeking to unfreeze via an emergency motion filed in New York.",
-    "date": "2026-05-06",
-    "source_url": "https://crypto.news/kelp-dao-moves-rseth-to-chainlink-ccip-as-layerzero-dispute-grows/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "The impact of stablecoins on the international monetary and financial system",
-    "description": "Widespread use of stablecoins could have an important impact on the international monetary and financial system, particularly for emerging market and developing economies (EMDEs). Using the framework of international currency functions to analyse their effect, we argue that stablecoins are most likely to affect private sector store of value and medium of exchange roles, particularly in economies facing macroeconomic instability.",
-    "date": "2026-05-05",
-    "source_url": "https://www.bis.org/publ/bppdf/bispap170.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Brazil Central Bank",
-    "initiative": "Brazil's Central Bank Tightens Control Over Digital Payments",
-    "description": "Hey Payments Fanatic! Brazil's regulator is sending a clear message this week: the country wants tighter oversight of its rapidly evolving digital payments ecosystem. Just as the Central Bank announced new security restrictions on Pix, capping transactions at R$ 200 (≈$35 USD) on unregistered devices with",
-    "date": "2026-05-05",
-    "source_url": "https://www.connectingthedotsinpayments.com/brazils-central-bank-tightens-control-over-digital-payments/",
-    "category": "regulators",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase Centrifuge",
-    "description": "Coinbase has designated Centrifuge as a Preferred Tokenization Infrastructure platform and made a strategic investment in the firm, deepening a commercial relationship between the two companies. Centrifuge, which has previously worked with Apollo, Janus Henderson, and S&P Dow Jones Indices on tokenized products, will build on Coinbase's Base blockchain to bring institutional-grade assets into DeFi-composable environments for eligible non-U.S. users. The partnership coincides with the launch of deSPXA, a freely transferable token providing exposure to the Anemoy S&P 500 fund that trades around the clock on Base.",
-    "date": "2026-05-05",
-    "source_url": "https://www.centrifuge.io/blog/coinbase-centrifuge",
-    "category": "exchanges_intermediaries",
-    "source_name": "Centrifuge — Blog",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "PayPal",
-    "initiative": "It's transparency, not tech alone, that drives crypto adoption, panelists tell Consensus Miami",
-    "description": "At CoinDesk's Consensus Miami conference, senior executives from PayPal, Robinhood, Public.com, and 248 Ventures argued that the primary obstacle to broader crypto and AI-product adoption is user trust rather than technological capability, and that building compliance into product design from the outset is the only credible path to scale. Robinhood VP Nicola White flagged that half of the platform's new Q1 users were first-time investors and questioned whether offering retail clients 100x-leverage perpetuals — pointing to October 2024's crypto liquidation event — reflects appropriate product stewardship.",
-    "date": "2026-05-05",
-    "source_url": "https://www.coindesk.com/business/2026/05/05/it-s-transparency-not-tech-alone-that-drives-crypto-adoption-panelists-tell-consensus-miami",
-    "category": "payments",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Mastercard",
-    "initiative": "Different voices in product, policy and hiring change crypto outcomes, panelists tell Consensus Miami",
-    "description": "At Consensus Miami, senior executives from Mastercard, the Crypto Council for Innovation, and venture firm Clerisy argued that deliberately broadening who participates in internal decision-making materially changes product design, regulatory positioning, and team composition. Mastercard SVP Maja Lapcevic credited an outside partner with shifting the company's crypto strategy away from infrastructure toward stablecoin-linked card products designed for underbanked markets. CCI's Alison Mangiero said bringing staking protocol builders into Washington policy discussions led the organization to reframe staking as a technical service rather than a yield-bearing financial product—a distinction with direct implications for how regulators classify and oversee staking under emerging U.S.",
-    "date": "2026-05-05",
-    "source_url": "https://www.coindesk.com/business/2026/05/05/different-voices-in-product-policy-and-hiring-change-crypto-outcomes-panelists-tell-consensus-miami",
-    "category": "payments",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
