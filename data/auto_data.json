@@ -1,5 +1,43 @@
 [
   {
+    "institution": "Federal Reserve",
+    "initiative": "Trump orders government, Fed to review crypto firms' access to payment rails",
+    "description": "Donald Trump's executive order asks the Fed to review how depository institutions may be granted access to payment services, an area the crypto industry is deeply involved with.",
+    "date": "2026-05-19",
+    "source_url": "https://www.coindesk.com/policy/2026/05/19/trump-orders-government-fed-to-review-crypto-firms-access-to-payment-rails",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "JPMorgan ether warning says network boom is the only fix",
+    "description": "JPMorgan ether and altcoin analysts said the tokens won’t catch bitcoin without a major lift in network activity. JPMorgan said ether and the broader altcoin market are unlikely to reverse a multi-year underperformance against bitcoin without a meaningful pickup in… JPMorgan ether warning says network boom is the only fix",
+    "date": "2026-05-19",
+    "source_url": "https://crypto.news/jpmorgan-says-ether-needs-activity-to-catch-btc/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Stripe",
     "initiative": "Stripe-backed Tempo launches Morpho lending on its payments chain",
     "description": "Tempo, the stablecoin payments blockchain backed by Stripe and Paradigm, has switched on Morpho’s lending marketplace, adding $7.5 billion in decentralized credit… Stripe-backed Tempo launches Morpho lending on its payments chain",
@@ -9639,46 +9677,6 @@
       "DeFi",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Anchorage Digital",
-    "initiative": "RootData maps 30 Hyperliquid Web3 partners as it builds an on-chain liquidity OS",
-    "description": "Custodians such as Anchorage Digital, BitGo, and Fireblocks, plus trading firms and exchanges like Bybit, trade.xyz, and IMC Trading, are helping plug larger institutional capital and market‑making into Hyperliquid’s L1.",
-    "date": "2026-05-06",
-    "source_url": "https://crypto.news/rootdata-maps-30-hyperliquid-web3-partners-as-it-builds-an-on-chain-liquidity-os/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026",
-    "description_truncated": true
-  },
-  {
-    "institution": "BIS (Bank for International Settlements)",
-    "initiative": "Monetary policy transmission to exchange rates: the role of currency carry trades",
-    "description": "BIS Bulletin | No 124 | 06 May 2026 by Ryan Niladri Banerjee , Lena Boneva , Gabor Pinter and Vladyslav Sushko PDF full text (782kb) | 8 pages Key takeaways Carry trade activity can shape the exchange rate response to monetary policy. This amplification arises from the unwinding of leveraged carry trade positions accumulated prior to the policy announcement, creating a state-dependent monetary policy transmission to the exchange rate. Monetary policy transmission to exchange rates: the role of currency carry trades",
-    "date": "2026-05-06",
-    "source_url": "https://www.bis.org/publ/bisbull124.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
