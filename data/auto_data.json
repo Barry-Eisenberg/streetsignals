@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Mastercard",
+    "initiative": "Zerohash pursues new funding at more than $1.5 billion valuation after Mastercard drops investment plans",
+    "description": "Crypto infrastructure providers are drawing renewed investor interest as Wall Street deepens its push into digital assets.",
+    "date": "2026-05-19",
+    "source_url": "https://www.coindesk.com/business/2026/05/19/zerohash-pursues-new-funding-at-more-than-usd1-5-billion-valuation-after-mastercard-drops-investment-plans",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Hyperliquid’s HYPE one of crypto’s most undervalued assets, says Bitwise",
     "description": "The crypto asset manager argued the market is mispricing Hyperliquid as a niche derivatives exchange instead of a fast-growing “super-app” for global trading markets.",
@@ -8892,6 +8911,23 @@
     "year": "2026"
   },
   {
+    "institution": "FSB",
+    "initiative": "Report on Vulnerabilities in Private Credit",
+    "description": "Private credit has expanded rapidly to an estimated $1.5–2 trillion in assets, supporting financing for mid-sized companies but creating potential financial stability risks",
+    "date": "2026-05-06",
+    "source_url": "https://www.fsb.org/2026/05/report-on-vulnerabilities-in-private-credit/",
+    "category": "regulators",
+    "source_name": "FSB — Publications",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "PayPal",
     "initiative": "PayPal Plans Job Cuts",
     "description": "Hey Payments Fanatic! PayPal is planning to cut costs and jobs as new CEO Enrique Lores faces mounting pressure to turn around a company that has struggled against fierce competition, most notably from Stripe. PayPal isn't alone. Across the FinTech space, layoffs have been picking up pace",
@@ -9637,44 +9673,6 @@
     "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Custody & Safekeeping",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainlink",
-    "initiative": "Kelp DAO Claims LayerZero Approved the Setup It Blamed for $292 Million Hack, Migrates to Chainlink",
-    "description": "Aakash Girimath Posted May 6, 2026 at 4:46 am EST. Kelp DAO published a detailed memo on Wednesday claiming that LayerZero personnel directly approved the bridge configuration that LayerZero subsequently blamed for the $292 million rsETH exploit . Kelp DAO Claims LayerZero Approved the Setup It Blamed for $292 Million Hack, Migrates to Chainlink Unchained",
-    "date": "2026-05-06",
-    "source_url": "https://unchainedcrypto.com/kelp-dao-claims-layerzero-approved-the-setup-it-blamed-for-292-million-hack-migrates-to-chainlink/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Kraken Partners With MoneyGram for Global Crypto-to-Cash Withdrawals, Says IPO Is “80% Ready”",
-    "description": "Under the arrangement, Kraken handles customer onboarding and identity verification, while MoneyGram provides the licensed money transmission service through its regulated global payment infrastructure. He added that many Kraken customers, particularly in countries with volatile currencies, already treat the exchange like a bank: “They want to store in USD or USD equivalent. Kraken Partners With MoneyGram for Global Crypto-to-Cash Withdrawals, Says IPO Is “80% Ready” Unchained",
-    "date": "2026-05-06",
-    "source_url": "https://unchainedcrypto.com/kraken-partners-with-moneygram-for-global-crypto-to-cash-withdrawals-says-ipo-is-80-ready/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers",
       "Trading & Exchange",
       "Regulation & Compliance"
     ],
