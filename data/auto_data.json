@@ -1,5 +1,26 @@
 [
   {
+    "institution": "Connecting the Dots",
+    "initiative": "The Dutch Are At It Again. Zerohash Secures EMI License",
+    "description": "Hey Payments Fanatic! News keeps hitting close to home. Dutch FinTech zerohash has just secured an EMI License. As the first MiCAR-licensed firm to also obtain an E-Money License , zerohash can now fully support stablecoin-powered financial flows under Europe's evolving regulatory framework. Together, the MiCAR and EMI licenses",
+    "date": "2026-05-19",
+    "source_url": "https://www.connectingthedotsinpayments.com/the-dutch-are-at-it-again-zerohash-secures-emi-license/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "RBA moves from experimentation to commercial realisation of tokenized asset markets",
     "description": "The Reserve Bank of Australia (RBA) and the Digital Finance Cooperative Research Centre (DFCRC) have published a report detailing the findings of Project Acacia – a joint initiative examining the use of digital money and settlement infrastructure to support the development of wholesale tokenised asset markets.",
@@ -35,6 +56,25 @@
       "Interoperability & Standards"
     ],
     "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Minnesota signs law allowing banks, credit unions to offer crypto custody services",
+    "description": "Governor Tim Walz has signed HF 3709 into law, permitting banks and credit unions to offer crypto custody services.",
+    "date": "2026-05-18",
+    "source_url": "https://www.theblock.co/post/401775/minnesota-bank-crypto-custody",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
     "year": "2026"
   },
   {
@@ -9681,48 +9721,5 @@
       "Payment Infrastructure"
     ],
     "year": "2026"
-  },
-  {
-    "institution": "ECB (European Central Bank)",
-    "initiative": "Piero Cipollone: Digital assets, payment efficiency and monetary policy",
-    "description": "ECB Executive Board member Piero Cipollone delivered a speech at a joint ECB, Bank of Italy, and CEPR workshop in Rome on 4 May 2026, setting out the Eurosystem's strategic rationale for issuing tokenised central bank money and expanding collateral eligibility to DLT-based assets. Cipollone argued that tokenisation qualifies as a general-purpose technology requiring coordinated adoption across the financial system, and that without a public settlement anchor, tokenised markets would be forced to rely on private instruments—most likely stablecoins—at a scale that could impair monetary policy transmission, introduce run risk, and erode monetary sovereignty.",
-    "date": "2026-05-05",
-    "source_url": "https://www.bis.org/review/r260505a.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase taps Centrifuge as preferred tokenization backbone, takes equity stake",
-    "description": "Coinbase has designated Centrifuge as its preferred tokenization infrastructure layer, meaning Centrifuge will serve as the default issuance platform for tokenized ETFs, credit instruments, and structured products distributed across Coinbase's ecosystem, including its Base L2 network. The arrangement is backed by a direct strategic equity investment from Coinbase — an extension of Coinbase Ventures' earlier 2022 participation — and the first institutional asset launches on Base are expected within weeks.",
-    "date": "2026-05-05",
-    "source_url": "https://www.coindesk.com/business/2026/05/05/coinbase-taps-centrifuge-as-preferred-tokenization-backbone-takes-equity-stake",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026",
-    "https://www.coindesk.com/business/2026/05/05/coinbase-taps-centrifuge-as-preferred-tokenization-backbone-takes-equity-stake": "Coinbase has designated Centrifuge as its preferred tokenization infrastructure layer, meaning Centrifuge will serve as the default issuance platform for tokenized ETFs, credit instruments, and structured products distributed across Coinbase's ecosystem, including its Base L2 network. The arrangement is backed by a direct strategic equity investment from Coinbase — an extension of Coinbase Ventures' earlier 2022 participation — and the first institutional asset launches on Base are expected within weeks."
   }
 ]
