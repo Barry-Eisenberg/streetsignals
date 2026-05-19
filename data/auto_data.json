@@ -1,5 +1,44 @@
 [
   {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "The SEC wants to let newly public companies raise cash instantly in its biggest rule change in decades",
+    "description": "The agency is proposing its largest overhaul of public listing rules in over 20 years, cutting compliance costs and giving crypto firms a much easier path to raise cash on Wall Street.",
+    "date": "2026-05-19",
+    "source_url": "https://www.coindesk.com/markets/2026/05/19/the-sec-wants-to-let-newly-public-companies-raise-cash-instantly-in-its-biggest-rule-change-in-decades",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Senator Warren criticizes OCC over Ripple, Coinbase and other crypto trust charters",
+    "description": "Last year, the OCC granted conditional approvals to Circle, Ripple, BitGo, Fidelity, and Paxos, as well as other firms more recently.",
+    "date": "2026-05-19",
+    "source_url": "https://www.theblock.co/post/401883/senator-warren-criticizes-occ-over-ripple-coinbase-and-other-crypto-trust-charters",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "OCC (Office of the Comptroller of the Currency)",
     "initiative": "Senator Elizabeth Warren accuses U.S. regulator of approving unqualified crypto banks",
     "description": "The Senate Banking Committee's top Democrat sent a letter to the Office of the Comptroller of the Currency questioning the charters of nine crypto firms.",
@@ -9655,46 +9694,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Cybersecurity strains grow as AI challenges Australian banks",
-    "description": "Despite increasing awareness about the evolving risk landscape, the financial regulator said many of these banking institutions are still adapting their internal capabilities.",
-    "date": "2026-05-06",
-    "source_url": "https://coingeek.com/cybersecurity-strains-grow-as-ai-challenges-australian-banks/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026",
-    "removed": true,
-    "removed_reason": "manual_review_final6_remove"
-  },
-  {
-    "institution": "PayPal",
-    "initiative": "PayPal Plans Job Cuts",
-    "description": "🇦🇪 First Abu Dhabi Bank and Mastercard launch multi-tiered SME Commercial Cards Suite to accelerate digital business payments in the UAE. FinScan Payments solution now supports screening for stablecoin transactions and digital wallets across global sanctions lists, alongside traditional payment rails, enabling a single, scalable approach for payments compliance. PayPal Plans Job Cuts",
-    "date": "2026-05-06",
-    "source_url": "https://www.connectingthedotsinpayments.com/paypal-plans-job-cuts/",
-    "category": "payments",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   }
