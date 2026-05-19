@@ -38,6 +38,42 @@
     "year": "2026"
   },
   {
+    "institution": "The Block",
+    "initiative": "BTCFi protocol Echo exploited, targeting eBTC market on Monad: onchain analysts",
+    "description": "BTCFi protocol Echo was exploited, with the attacker minting 1,000 eBTC on Monad and using it as collateral to borrow WBTC.",
+    "date": "2026-05-18",
+    "source_url": "https://www.theblock.co/post/401771/echo-protocol-monad-exploit",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "SEC’s innovation exemption for tokenized stocks to come as early as this week: Bloomberg",
+    "description": "The SEC has approved several entities to move forward with tokenized stock initiatives, including the NYSE and Nasdaq.",
+    "date": "2026-05-18",
+    "source_url": "https://www.theblock.co/post/401766/sec-innovation-exemption-tokenized-securities-this-week",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Revolut",
     "initiative": "Revolut launches first physical crypto card",
     "description": "Revolut launched its first physical crypto card on May 18, a Dogecoin-themed LED card for the UK and EEA. Revolut launches first physical crypto card",
@@ -9688,50 +9724,5 @@
     "initiative_types": [],
     "year": "2026",
     "https://www.coindesk.com/business/2026/05/05/coinbase-taps-centrifuge-as-preferred-tokenization-backbone-takes-equity-stake": "Coinbase has designated Centrifuge as its preferred tokenization infrastructure layer, meaning Centrifuge will serve as the default issuance platform for tokenized ETFs, credit instruments, and structured products distributed across Coinbase's ecosystem, including its Base L2 network. The arrangement is backed by a direct strategic equity investment from Coinbase — an extension of Coinbase Ventures' earlier 2022 participation — and the first institutional asset launches on Base are expected within weeks."
-  },
-  {
-    "institution": "State Street",
-    "initiative": "State Street and Galaxy launch tokenized fund to bring cash management onchain",
-    "description": "State Street Investment Management and Galaxy Asset Management have jointly launched SWEEP (State Street Galaxy Onchain Liquidity Sweep Fund), a tokenized cash-management vehicle that allows qualified institutional investors to deposit stablecoins into a yield-generating fund with continuous, around-the-clock liquidity — addressing a structural limitation of traditional money market funds, which are bound by market hours and settlement cut-offs. The fund launches initially on Solana, with Ethereum and Stellar expansion planned; Galaxy provides the tokenization infrastructure, Anchorage Digital handles digital asset custody, and State Street retains oversight of the underlying traditional securities portfolio.",
-    "date": "2026-05-05",
-    "source_url": "https://www.coindesk.com/markets/2026/05/05/state-street-and-galaxy-launch-tokenized-fund-to-bring-cash-management-onchain",
-    "category": "asset_management",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Custody & Safekeeping",
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026",
-    "https://www.coindesk.com/markets/2026/05/05/state-street-and-galaxy-launch-tokenized-fund-to-bring-cash-management-onchain": "State Street Investment Management and Galaxy Asset Management have jointly launched SWEEP (State Street Galaxy Onchain Liquidity Sweep Fund), a tokenized cash-management vehicle that allows qualified institutional investors to deposit stablecoins into a yield-generating fund with continuous, around-the-clock liquidity — addressing a structural limitation of traditional money market funds, which are bound by market hours and settlement cut-offs. The fund launches initially on Solana, with Ethereum and Stellar expansion planned; Galaxy provides the tokenization infrastructure, Anchorage Digital handles digital asset custody, and State Street retains oversight of the underlying traditional securities portfolio."
-  },
-  {
-    "institution": "Nasdaq",
-    "initiative": "K Wave Media scraps massive bitcoin treasury plan to redirect $485 million to AI",
-    "description": "Securities and Exchange Commission on Monday that it is redirecting up to $485 million in remaining financing capacity away from a planned bitcoin treasury push and into AI infrastructure. The pivot, which reverses a 2025 plan to use a $500 million facility to buy BTC, triggered a sharp market backlash, with K Wave shares falling 24 percent on Monday and sliding further in premarket trading on Tuesday. Nasdaq firm scraps massive bitcoin treasury plan to redirect $485 million to AI",
-    "date": "2026-05-05",
-    "source_url": "https://www.coindesk.com/markets/2026/05/05/nasdaq-firm-scraps-massive-bitcoin-treasury-plan-to-redirect-usd485-million-to-ai",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
   }
 ]
