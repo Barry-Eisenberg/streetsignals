@@ -1,5 +1,135 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Hyperliquid’s HYPE one of crypto’s most undervalued assets, says Bitwise",
+    "description": "The crypto asset manager argued the market is mispricing Hyperliquid as a niche derivatives exchange instead of a fast-growing “super-app” for global trading markets.",
+    "date": "2026-05-19",
+    "source_url": "https://www.coindesk.com/markets/2026/05/19/hyperliquid-s-hype-one-of-crypto-s-most-undervalued-assets-says-bitwise",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "CFTC sues Minnesota over first explicit state ban on prediction markets",
+    "description": "Minnesota’s law could expose exchanges, payment providers, media partners, and sports leagues to criminal liability.",
+    "date": "2026-05-19",
+    "source_url": "https://www.theblock.co/post/401917/cftc-sues-minnesota-first-explicit-state-ban-prediction-markets",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Tether",
+    "initiative": "Stablecoin supply tops $300 billion but growth stalls as Tether gains at rivals’ expense",
+    "description": "The bank-issued and GENIUS Act-compliant stablecoin entrants have had a harder start than many expected.",
+    "date": "2026-05-19",
+    "source_url": "https://www.theblock.co/post/401707/stablecoin-supply-300-billion-growth-stalls-tether-gains-rivals-expense",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "Polymarket, Nasdaq team up on private-company prediction markets",
+    "description": "According… Polymarket, Nasdaq team up on private-company prediction markets",
+    "date": "2026-05-19",
+    "source_url": "https://crypto.news/polymarket-nasdaq-team-up-on-private-company-prediction-markets-2/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Fed survey: 10% of U.S. adults used or held crypto in 2025",
+    "description": "About one in ten American adults used or held cryptocurrency in 2025, up from 7% in 2024, as spot Bitcoin and Ethereum ETFs helped pull retail investors back into digital assets, according to new Federal Reserve data. According to FinanceFeeds and a… Fed survey: 10% of U.S. adults used or held crypto in 2025",
+    "date": "2026-05-19",
+    "source_url": "https://crypto.news/fed-survey-10-of-u-s-adults-used-or-held-crypto-in-2025/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Exchanges press Senate to drop ‘manipulable token’ listing ban",
+    "description": "senators to strike a clause from the Digital Asset Market Structure Bill that would bar exchanges from listing tokens deemed “readily susceptible to manipulation,” warning it would effectively kill compliant listings for small-cap… Coinbase, Kraken, and Gemini are urging U.S. Exchanges press Senate to drop ‘manipulable token’ listing ban",
+    "date": "2026-05-19",
+    "source_url": "https://crypto.news/exchanges-press-senate-to-drop-manipulable-token-listing-ban/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Checker raises $8m to help banks launch stablecoins via single API",
+    "description": "Stablecoin infrastructure startup Checker has raised $8m across pre-seed and seed rounds to scale its single-API platform for banks and fintechs, after processing more than $3b in transactions over the past year. According to The Block, Checker has closed an $8m… Checker raises $8m to help banks launch stablecoins via single API",
+    "date": "2026-05-19",
+    "source_url": "https://crypto.news/checker-raises-8m-to-help-banks-launch-stablecoins-via-single-api/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "The SEC wants to let newly public companies raise cash instantly in its biggest rule change in decades",
     "description": "The agency is proposing its largest overhaul of public listing rules in over 20 years, cutting compliance costs and giving crypto firms a much easier path to raise cash on Wall Street.",
@@ -8762,6 +8892,23 @@
     "year": "2026"
   },
   {
+    "institution": "PayPal",
+    "initiative": "PayPal Plans Job Cuts",
+    "description": "Hey Payments Fanatic! PayPal is planning to cut costs and jobs as new CEO Enrique Lores faces mounting pressure to turn around a company that has struggled against fierce competition, most notably from Stripe. PayPal isn't alone. Across the FinTech space, layoffs have been picking up pace",
+    "date": "2026-05-06",
+    "source_url": "https://www.connectingthedotsinpayments.com/paypal-plans-job-cuts/",
+    "category": "payments",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Chainalysis",
     "initiative": "Where to Build: A Data-Driven Guide to Blockchain Infrastructure for TradFi Tokenization",
     "description": "Ethereum and its Layer-2 (L2) networks like Arbitrum and Base currently offer the strongest combination of institutional liquidity, low illicit exposure, and compliance tooling, making them a natural home for regulated assets like tokenized securities and money market funds. It possesses massive institutional-scale liquidity, serving as the dominant global settlement layer for OTC desks moving popular stablecoins, but the proportion of that service inflow volume from illicit sources approaches 4%.",
@@ -9532,167 +9679,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase Cuts 700 Jobs and Restructures Around AI as Crypto Downturn Deepens",
-    "description": "The exchange laid off 18% of its workforce in 2022 and another 21% in January 2023. Aakash Girimath Posted May 6, 2026 at 4:46 am EST. Coinbase Cuts 700 Jobs and Restructures Around AI as Crypto Downturn Deepens Unchained",
-    "date": "2026-05-06",
-    "source_url": "https://unchainedcrypto.com/coinbase-cuts-700-jobs-and-restructures-around-ai-as-crypto-downturn-deepens/",
-    "category": "exchanges_intermediaries",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Google Cloud",
-    "initiative": "Stablecoins enter AI payments as Solana and Google launch Pay.sh",
-    "description": "The Solana Foundation and Google Cloud jointly launched Pay.sh, a payment gateway that enables AI agents to purchase access to APIs — including Google's Gemini, BigQuery, and Vertex AI services — using stablecoins settled on the Solana network, with payments structured on a per-request basis down to fractions of a cent. The service uses x402, an open payment protocol originally developed at Coinbase and now hosted under the Linux Foundation with backing from Google, Stripe, Visa, and Mastercard, alongside Tempo and Stripe's Machine Payments Protocol.",
-    "date": "2026-05-06",
-    "source_url": "https://crypto.news/stablecoins-enter-ai-payments-as-solana-and-google-launch-pay-sh/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "CFTC may lock in Phantom-style crypto wallet protections",
-    "description": "The Commodity Futures Trading Commission, under Chair Brian Selig, is moving to convert its March 2026 no-action letter granted to Phantom Technologies into formal rulemaking, which would extend broker registration exemptions to non-custodial crypto wallet software developers on a market-wide basis rather than case by case. The original Phantom letter established that self-custodial wallet providers could facilitate user access to registered derivatives venues without registering as introducing brokers or associated persons, provided they do not hold customer funds or act as financial intermediaries.",
-    "date": "2026-05-06",
-    "source_url": "https://crypto.news/cftc-may-lock-in-phantom-style-crypto-wallet-protections/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FSB (Financial Stability Board)",
-    "initiative": "Report on Vulnerabilities in Private Credit",
-    "description": "The private credit market has grown significantly across jurisdictions, with its total size estimated to be between $1.5 trillion and $2 trillion. 9 July 2025 Enhancing the Resilience of Nonbank Financial Intermediation: Progress report Annual NBFI progress report heralds shift in focus towards implementation monitoring and vulnerabilities assessment. Report on Vulnerabilities in Private Credit Financial Stability Board",
-    "date": "2026-05-06",
-    "source_url": "https://www.fsb.org/2026/05/report-on-vulnerabilities-in-private-credit/",
-    "category": "regulators",
-    "source_name": "FSB — Publications",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "UK sets new rules for fund tokenization under current regulations",
-    "description": "The UK's Financial Conduct Authority published policy statement PS26/7 on April 30, confirming that asset managers can deploy distributed ledger technology for fund tokenization within the existing regulatory framework, without waiting for new primary legislation. Two structural changes are central to the guidance: an optional Direct-to-Fund dealing model that enables atomic, single-step settlement by making the fund or its depositary the direct counterparty to investors, and formal recognition of on-chain transaction records as primary books and records under the industry-led Blueprint model, removing the previous requirement to maintain a parallel off-chain register.",
-    "date": "2026-05-06",
-    "source_url": "https://coingeek.com/uk-sets-new-rules-for-fund-tokenization-under-current-regulations/",
-    "category": "regulators",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase sued by anonymous whale over frozen DAI from $55M scam",
-    "description": "A large DAI holder identified only as \"D.B.\" has filed a federal lawsuit against Coinbase stemming from an August 2024 phishing attack in which roughly $55 million in DAI was drained from his wallet via the Inferno Drainer toolkit after he entered credentials on a spoofed DeFi Saver login page. Blockchain security firm Zero Shadow traced a portion of the stolen funds to a Coinbase retail account, and the exchange froze those assets upon notification — but has declined to release them absent a court order, a position D.B.'s counsel characterizes as unreasonable given that sworn proof of ownership was subsequently provided.",
-    "date": "2026-05-06",
-    "source_url": "https://crypto.news/coinbase-sued-by-anonymous-whale-over-frozen-dai-from-55m-scam/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Ripple",
-    "initiative": "Ripple CEO Brad Garlinghouse says CLARITY Act could stall before midterms",
-    "description": "Ripple CEO Brad Garlinghouse warned at the Consensus conference that the CLARITY Act — the U.S. digital asset market structure bill — risks losing legislative momentum if the Senate fails to advance it within roughly two weeks, with campaign pressures ahead of the 2026 midterms likely to make it politically toxic. The remarks came despite a recent compromise between Senators Thom Tillis and Angela Alsobrooks on stablecoin yield rules, which removed one significant obstacle but left the bill still requiring Senate Banking Committee approval, a 60-vote floor threshold, and reconciliation between competing House and Senate versions.",
-    "date": "2026-05-06",
-    "source_url": "https://crypto.news/ripple-ceo-brad-garlinghouse-says-clarity-act-could-stall-before-midterms/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainlink",
-    "initiative": "Tennessee bankers pick Stablecore as digital asset push grows",
-    "description": "The Tennessee Bankers Association formally designated Stablecore as a preferred digital asset technology provider, opening the firm's stablecoin, tokenized deposit, and crypto-backed lending infrastructure to more than 175 member institutions. The partnership is structured to allow banks to deploy these services through their existing core systems rather than building proprietary technology, a model designed to lower the barrier for community and regional lenders with limited internal development capacity. Stablecore has separately joined Jack Henry's Fintech Integration Network, which provides connectivity to roughly 1,670 bank and credit union core clients and over 1,000 institutions on the Banno Digital Platform.",
-    "date": "2026-05-06",
-    "source_url": "https://crypto.news/tennessee-bankers-pick-stablecore-as-digital-asset-push-grows/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
