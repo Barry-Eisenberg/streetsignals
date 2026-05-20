@@ -1,5 +1,44 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "Elon Musk’s SpaceX holds $1.45 billion worth of bitcoin as firm looks to go public",
+    "description": "A stockpile of over 18,000 would make Elon Musk's SpaceX the seventh-largest Bitcoin holder, ahead of Coinbase.",
+    "date": "2026-05-20",
+    "source_url": "https://www.theblock.co/post/402110/elon-musks-spacex-holds-1-45-billion-worth-of-bitcoin-as-firm-looks-to-go-public",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "WhiteBIT enters the UK with dedicated crypto platform for local users",
+    "description": "WhiteBIT launches dedicated UK platform as exchange expands presence in regulated British market. WhiteBIT, the largest European cryptocurrency exchange by traffic, has announced the launch of whitebit.uk, a dedicated platform designed to serve users in the United Kingdom. WhiteBIT enters the UK with dedicated crypto platform for local users",
+    "date": "2026-05-20",
+    "source_url": "https://crypto.news/whitebit-enters-the-uk-with-dedicated-crypto-platform-for-local-users/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
     "description": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
@@ -9521,49 +9560,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "OCC (Office of the Comptroller of the Currency)",
-    "initiative": "Crypto firms pursue bank licenses at Consensus",
-    "description": "At the Consensus Miami 2026 Policy Summit, executives from federally regulated banks confirmed that a growing number of crypto companies are actively pursuing national and state bank charters, a trend accelerating under the Trump administration's more permissive regulatory posture. The Office of the Comptroller of the Currency has reversed its earlier restrictive stance, formally permitting banks to engage in crypto-related activities including stablecoin operations and custody, prompting law firms such as Troutman Pepper Locke to report active work on multiple charter applications. World Liberty Financial filed one of the most prominent applications to date through its WLTC Holdings entity in January, drawing scrutiny from Senator Elizabeth Warren.",
-    "date": "2026-05-07",
-    "source_url": "https://crypto.news/crypto-firms-push-for-bank-licenses-at-consensus/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "JPMorgan",
-    "initiative": "JPMorgan says bitcoin is gaining over gold as debasement trade after Iran conflict",
-    "description": "Exodus launches non-custodial payments as it expands beyond core wallet product Dec 09, 2025, 9:30AM EST • Infrastructure © 2026 the block. This and other market indicators suggest investors are increasingly choosing bitcoin over gold as a debasement trade, the analysts added. JPMorgan says bitcoin is gaining over gold as debasement trade after Iran conflict | The Block",
-    "date": "2026-05-07",
-    "source_url": "https://www.theblock.co/post/400486/jpmorgan-bitcoin-over-gold-debasement-trade-iran-conflict",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
