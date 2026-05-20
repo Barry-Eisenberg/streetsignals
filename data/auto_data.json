@@ -1,5 +1,22 @@
 [
   {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "Polymarket moves to list parlays while SEC seeks public input on prediction market ETFs",
+    "description": "The \"combinatorial outcome contracts\" would resolve if every part of an underlying contract resolved, according to a filing.",
+    "date": "2026-05-20",
+    "source_url": "https://www.coindesk.com/policy/2026/05/20/polymarket-moves-to-list-parlays-while-sec-seeks-public-input-on-prediction-market-etfs",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Federal Reserve proposes limited master accounts long pursued by crypto firms",
     "description": "The U.S. Fed issued a revised proposal on the structure of payment accounts, taking the next step to build on an earlier pitch for so-called skinny accounts.",
@@ -9536,26 +9553,6 @@
       "Stablecoins & Deposit Tokens",
       "DLT / Blockchain Infrastructure",
       "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase stock declines 5% after missing Q1 estimates on crypto slowdown",
-    "description": "Coinbase reported a surprise first-quarter loss of $1.49 per share against consensus expectations of a $0.27 profit, with revenue of $1.41 billion falling roughly $110 million short of analyst estimates. Declining digital asset prices and reduced market volatility compressed both transaction revenue and subscription-and-services revenue, the latter being a segment institutional investors monitor closely as a gauge of the company's progress in diversifying away from cyclical trading fees. The miss prompted shares to fall more than 5% in after-hours trading and coincided with an announcement that Coinbase is cutting approximately 14% of its workforce as part of an AI-driven restructuring.",
-    "date": "2026-05-07",
-    "source_url": "https://www.coindesk.com/markets/2026/05/07/coinbase-stock-drops-4-after-surprise-1q-miss-as-crypto-trading-slows",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
