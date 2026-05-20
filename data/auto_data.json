@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Federal Reserve",
+    "initiative": "Federal Reserve proposes limited master accounts long pursued by crypto firms",
+    "description": "The U.S. Fed issued a revised proposal on the structure of payment accounts, taking the next step to build on an earlier pitch for so-called skinny accounts.",
+    "date": "2026-05-20",
+    "source_url": "https://www.coindesk.com/policy/2026/05/20/federal-reserve-proposes-limited-master-accounts-long-pursued-by-crypto-firms",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "Elon Musk’s SpaceX holds $1.45 billion worth of bitcoin as firm looks to go public",
     "description": "A stockpile of over 18,000 would make Elon Musk's SpaceX the seventh-largest Bitcoin holder, ahead of Coinbase.",
@@ -9536,30 +9555,6 @@
       "Trading & Exchange"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase loses nearly $400 million in Q1 as CEO seeks to reduce dependence on spot crypto trading",
-    "description": "Exodus launches non-custodial payments as it expands beyond core wallet product Dec 09, 2025, 9:30AM EST • Infrastructure © 2026 the block. Armstrong also touted the advancement of AI payment possibilities and Coinbase becoming the popular destination for using \"regulated stablecoins.\" Coinbase's stablecoin revenue rose by 11% to $305 million. Coinbase loses nearly $400 million in Q1 as CEO seeks to reduce dependence on spot crypto trading | The Block",
-    "date": "2026-05-07",
-    "source_url": "https://www.theblock.co/post/400489/coinbase-loses-nearly-400-million-ceo-seeks-to-reduce-dependence-spot-crypto-trading",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
