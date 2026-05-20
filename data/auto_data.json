@@ -1,5 +1,44 @@
 [
   {
+    "institution": "Federal Reserve",
+    "initiative": "Trump orders Fed to review giving crypto firms access to master accounts",
+    "description": "The order urged the federal government to remove regulations that may be 'overly burdensome' to fintech innovation.",
+    "date": "2026-05-20",
+    "source_url": "https://www.theblock.co/post/401953/trump-orders-fed-master-account",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "Minnesota bans prediction markets, CFTC fires back",
+    "description": "CFTC sues Minnesota to block its Aug. 1 prediction markets ban as crypto rules split between bank custody and kiosk restrictions statewide.",
+    "date": "2026-05-20",
+    "source_url": "https://crypto.news/minnesota-bans-prediction-markets-cftc-fires-back/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "TSB",
     "initiative": "TSB reports spike in impersonation scams",
     "description": "TSB is warning of a surge in impersonation scams as cases in the first quarter of this year have surpassed those recorded for full-year 2025, with the value of losses 116 percent higher.",
@@ -9625,43 +9664,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA (European Securities and Markets Authority)",
-    "initiative": "ESMA promotes proportionate supervision of MiFID II sustainability requirements",
-    "description": "ESMA published a statement on 6 May 2026 presenting the findings of its Common Supervisory Action examining how investment firms have integrated sustainability considerations into MiFID II suitability assessments and product governance processes. The review covered four areas: collecting and categorising clients' sustainability preferences, matching products to those preferences, applying the portfolio approach, and target market assessments. Acknowledging that the broader sustainable finance regulatory framework is itself under active revision, ESMA has asked national competent authorities to take a proportionate, dialogue-first supervisory approach during the transition period rather than pursuing enforcement actions, except in cases of clear breaches or mis-selling.",
-    "date": "2026-05-06",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-promotes-proportionate-supervision-mifid-ii-sustainability-requirements",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "DLT collateral mobility platform HQLAᵡ gets SEC no action letter for US activity",
-    "description": "HQLAᵡ, the DLT collateral mobility platform, can operate in the US under a no action letter received from the Securities and Exchange Commission (SEC).",
-    "date": "2026-05-06",
-    "source_url": "https://www.ledgerinsights.com/dlt-collateral-mobility-platform-hqla%e1%b5%a1-gets-sec-no-action-letter-for-us-activity/",
-    "category": "regulators",
-    "source_name": "Ledger Insights",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
   }
