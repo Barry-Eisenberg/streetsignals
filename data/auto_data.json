@@ -1,5 +1,181 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "Basel Committee agrees to publish report on information and communication technology risk management, progresses cryptoasset targeted review, considers targeted updates on liquidity risk principles",
+    "description": "Agrees to publish range of practices report on information and communication technology risk management. Progresses its targeted review of the prudential standard for banks' cryptoasset exposures. Considers targeted updates of its principles on liquidity risk.",
+    "date": "2026-05-20",
+    "source_url": "https://www.bis.org/press/p260520.htm",
+    "category": "regulators",
+    "source_name": "BIS — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Trump asks Fed to explore giving fintechs access to payment rails",
+    "description": "President Donald Trump has signed an executive order asking the Federal Reserve to explore options for expanding access to payment rails.",
+    "date": "2026-05-20",
+    "source_url": "https://www.finextra.com/newsarticle/47789/trump-asks-fed-to-explore-giving-fintechs-access-to-payment-rails",
+    "category": "regulators",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "MoneyGram becomes Tempo's anchor remittance validator",
+    "description": "MoneyGram today announced a partnership with Tempo, a purpose-built Layer 1 blockchain for high-volume, real-world payments, to deepen its blockchain infrastructure and advance stablecoin-based settlement across its global network.",
+    "date": "2026-05-20",
+    "source_url": "https://www.finextra.com/pressarticle/109907/moneygram-becomes-tempos-anchor-remittance-validator",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Stripe",
+    "initiative": "MoneyGram named ‘anchor remittance validator’ for Stripe-backed Tempo blockchain",
+    "description": "MoneyGram will help validate remittance transactions on the Layer 1 blockchain and integrate stablecoin settlement for its global flows.",
+    "date": "2026-05-20",
+    "source_url": "https://www.theblock.co/post/402043/moneygram-remittance-validator-stripe-tempo-blockchain",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Catena Labs lands $30 million Series A, files for national trust bank charter to underpin agentic finance",
+    "description": "Sean Neville's Catena Labs closed a $30 million Series A to build governed infrastructure for AI agent financial transactions.",
+    "date": "2026-05-20",
+    "source_url": "https://www.theblock.co/post/402029/catena-labs-lands-30-million-series-a-files-for-national-trust-bank-charter-to-underpin-agentic-finance",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Dogecoin grew up. Almost nobody noticed.",
+    "description": "Six months ago, the first spot Dogecoin ETF started trading on a major US exchange. The flows have been tiny, the price has gone almost nowhere, and the whole experiment has played out in near-silence. Dogecoin grew up. Almost nobody noticed.",
+    "date": "2026-05-20",
+    "source_url": "https://crypto.news/dogecoin-grew-up-almost-nobody-noticed/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Algorand price approaches golden cross amid Robinhood listing, will it reclaim $0.20?",
+    "description": "Algorand price has started regaining momentum this month as traders rotate back into select layer-1 tokens supported by improving technical structures, rising on-chain activity, and fresh exchange accessibility catalysts. According to data from crypto.news, Algorand (ALGO) price traded around $0.114… Algorand price approaches golden cross amid Robinhood listing, will it reclaim $0.20?",
+    "date": "2026-05-20",
+    "source_url": "https://crypto.news/algorand-price-approaches-golden-cross-amid-robinhood-listing-will-it-reclaim-0-20/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Santander",
+    "initiative": "Mouro closes $400M fund as Santander backs AI and blockchain bets",
+    "description": "Santander-backed Mouro Capital has closed its third fund at $400 million, with the new vehicle targeting startups at the intersection of AI, blockchain, capital markets and wealth management. Mouro closes $400M fund as Santander backs AI and blockchain bets",
+    "date": "2026-05-20",
+    "source_url": "https://crypto.news/mouro-closes-400m-fund-as-santander-backs-ai-and-blockchain-bets/",
+    "category": "global_banks",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Tether",
+    "initiative": "Tether tightens grip on Twenty One after buying out SoftBank",
+    "description": "Tether has acquired SoftBank’s entire stake in Twenty One Capital, the Bitcoin treasury company co-founded by Jack Mallers, and is now pushing a broader merger plan involving Strike and Elektron Energy. Tether has moved to absorb all of SoftBank’s ownership… Tether tightens grip on Twenty One after buying out SoftBank",
+    "date": "2026-05-20",
+    "source_url": "https://crypto.news/tether-tightens-grip-on-twenty-one-after-buying-out-softbank/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "FCA (Financial Conduct Authority, UK)",
     "initiative": "Too many cooks: How regulatory infighting is choking the UK's crypto hub ambitions",
     "description": "While the FCA opens its doors to market pilots, structural delays and legislative friction are fueling industry frustration over a framework trailing behind the U.S. and Europe.",
@@ -9410,189 +9586,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Mastercard",
-    "initiative": "SoFi’s crypto relaunch brought in $121.6 million in Q1. Almost all of it went to costs",
-    "description": "The company launched the SoFiUSD stablecoin for enterprise payments in December and partnered with Mastercard for settlement capabilities. SoFi said that the GENIUS Act would require it to migrate SoFiUSD to a “separately licensed or regulated entity.” SoFi launched SoFiUSD in December as a stablecoin for enterprise payments. SoFi’s crypto relaunch brought in $121.6 million in Q1. Almost all of it went to costs",
-    "date": "2026-05-07",
-    "source_url": "https://www.coindesk.com/business/2026/05/07/sofi-s-relaunched-crypto-business-generated-usd121-6-million-in-q1-transaction-revenue",
-    "category": "payments",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "ZachXBT accuses LAB founder of CEX manipulation that “harms retail investors”",
-    "description": "On-chain investigator ZachXBT publicly alleged that the founder of the LAB token has been engaged in centralized exchange market manipulation, posting the accusation after a private direct message to the founder was read but not answered. The allegation is corroborated by separate monitoring data from MEXC indicating that a wallet believed to be an insider or market maker realized approximately $1.13 million in profit following a tenfold price surge in LAB over one month, with the pre-pump positioning and post-spike selling pattern drawing scrutiny over price fairness.",
-    "date": "2026-05-07",
-    "source_url": "https://crypto.news/zachxbt-accuses-lab-founder-of-cex-manipulation-that-harms-retail-investors/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Fed’s Collins pushes back on cut talk, wants “either way” guidance",
-    "description": "Boston Fed President Susan Collins publicly backed keeping interest rates on hold and called for revising the FOMC's statement language to remove any implied bias toward cuts, arguing that the next policy move should be characterized as potentially \"either a rate cut or a rate hike.\" She noted that an increasing number of officials share this view and that rates may need to remain unchanged for a prolonged period given persistent inflation, a position consistent with her prior statements setting a high bar for easing. The push to adopt symmetric forward guidance represents a direct challenge to market positioning that has repeatedly anticipated a dovish pivot from the Fed.",
-    "date": "2026-05-07",
-    "source_url": "https://crypto.news/feds-collins-pushes-back-on-cut-talk-wants-either-way-guidance/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Ledger Insights",
-    "initiative": "BNY to launch digital asset custody in Abu Dhabi",
-    "description": "The world's largest custodian BNY plans to provide digital asset custody in the Abu Dhabi Global Market (ADGM) as part of a collaboration with Finstreet",
-    "date": "2026-05-07",
-    "source_url": "https://www.ledgerinsights.com/bny-to-launch-digital-asset-custody-in-abu-dhabi/",
-    "category": "ecosystem",
-    "source_name": "Ledger Insights",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "US jobless claims come in at 200,000; strong labor data keeps pressure on crypto",
-    "description": "Initial jobless claims for the week ending May 2 came in at 200,000, below the 205,000 consensus forecast and continuing a run of historically low readings that follows a prior-week print of 190,000 — the lowest since 1969. The data, released by the US Department of Labor, reinforces that the domestic labor market remains resilient despite an extended period of restrictive Federal Reserve policy, making near-term rate cuts harder to justify.",
-    "date": "2026-05-07",
-    "source_url": "https://crypto.news/us-jobless-claims-come-in-at-200000-strong-labor-data-keeps-pressure-on-crypto/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "BNY expands crypto custody push in Abu Dhabi",
-    "description": "Exodus launches non-custodial payments as it expands beyond core wallet product Dec 09, 2025, 9:30AM EST • Infrastructure © 2026 the block. In a statement released Thursday, BNY said it has partnered with Finstreet and ADI Foundation to offer institutional-grade crypto custody services in the Abu Dhabi Global Market. BNY expands crypto custody push in Abu Dhabi | The Block",
-    "date": "2026-05-07",
-    "source_url": "https://www.theblock.co/post/400370/bny-expands-abu-dhabi",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Mastercard",
-    "initiative": "Ondo, JPMorgan, Mastercard and Ripple Complete First Cross-Border Tokenized Treasury Settlement on XRP Ledger",
-    "description": "The pilot also builds on a growing wave of institutional tokenization that has pulled major banks and exchanges onto public blockchain rails. The asset leg of the transaction processed in under five seconds on the XRP Ledger , while the fiat settlement flowed through traditional banking infrastructure. Ondo, JPMorgan, Mastercard and Ripple Complete First Cross-Border Tokenized Treasury Settlement on XRP Ledger Unchained",
-    "date": "2026-05-07",
-    "source_url": "https://unchainedcrypto.com/ondo-jpmorgan-mastercard-and-ripple-complete-first-cross-border-tokenized-treasury-settlement-on-xrp-ledger/",
-    "category": "payments",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA (European Securities and Markets Authority)",
-    "initiative": "ESMA outlines enforcement activities for corporate reporting across the EEA in 2025",
-    "description": "ESMA has published its annual report covering corporate reporting enforcement activity across the European Economic Area during 2025, drawing on the supervisory work of both national competent authorities and ESMA itself. Notably, 2025 marked the first year in which the European Sustainability Reporting Standards were subject to formal enforcement, applied alongside ESMA's Guidelines on Enforcement of Sustainability Information, making this a significant inflection point for sustainability disclosure oversight. Financial reporting enforcement maintained its focus on materiality, entity-specificity, and decision-usefulness, while digital reporting quality under the European Single Electronic Format remained a standing supervisory priority.",
-    "date": "2026-05-07",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-outlines-enforcement-activities-corporate-reporting-across-eea-2025",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "Bittrex asks court to void $24M SEC settlement over crypto stance",
-    "description": "Bankrupt crypto exchange Bittrex has filed a motion in federal court seeking to vacate a $24 million penalty it paid to the SEC in 2023, arguing that the agency has since publicly abandoned the legal theory — that most crypto tokens constitute securities — which underpinned the original enforcement action. The filing notes that the SEC under the Trump administration has dropped nearly every comparable case against crypto exchanges and token issuers, making continued enforcement of this particular settlement an anomaly that Bittrex's attorneys characterize as inequitable treatment. Bittrex is also seeking to block an SEC request to transfer the $24 million to the U.S. Treasury for distribution to former customers before the court rules on the vacatur motion.",
-    "date": "2026-05-07",
-    "source_url": "https://crypto.news/bittrex-asks-court-to-void-24m-sec-settlement-over-crypto-stance/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
