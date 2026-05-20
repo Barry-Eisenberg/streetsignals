@@ -1,5 +1,41 @@
 [
   {
+    "institution": "TSB",
+    "initiative": "TSB reports spike in impersonation scams",
+    "description": "TSB is warning of a surge in impersonation scams as cases in the first quarter of this year have surpassed those recorded for full-year 2025, with the value of losses 116 percent higher.",
+    "date": "2026-05-20",
+    "source_url": "https://www.finextra.com/newsarticle/47779/tsb-reports-spike-in-impersonation-scams",
+    "category": "global_banks",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Revolut",
+    "initiative": "Revolut rolls out crypto debit card",
+    "description": "Revolut has launched its first physical crypto debit card.",
+    "date": "2026-05-20",
+    "source_url": "https://www.finextra.com/newsarticle/47781/revolut-rolls-out-crypto-debit-card",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Trump orders government, Fed to review crypto firms' access to payment rails",
     "description": "Donald Trump's executive order asks the Fed to review how depository institutions may be granted access to payment services, an area the crypto industry is deeply involved with.",
@@ -9012,6 +9048,23 @@
     "year": "2026"
   },
   {
+    "institution": "BIS",
+    "initiative": "Monetary policy transmission to exchange rates: the role of currency carry trades",
+    "description": "by Ryan Niladri Banerjee, Lena Boneva, Gabor Pinter, Vladyslav Sushko",
+    "date": "2026-05-06",
+    "source_url": "https://www.bis.org/publ/bisbull124.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "FSB",
     "initiative": "Report on Vulnerabilities in Private Credit",
     "description": "Private credit has expanded rapidly to an estimated $1.5–2 trillion in assets, supporting financing for mid-sized companies but creating potential financial stability risks",
@@ -9610,73 +9663,6 @@
       "Trading & Exchange"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Morgan Stanley",
-    "initiative": "Morgan Stanley brings crypto trading with lower fees than rivals",
-    "description": "The bank is also exploring deeper crypto integration such as custody services, crypto-to-ETF conversions, and potential tokenized equity trading to challenge existing market leaders. Morgan Stanley has also advanced efforts on the infrastructure side, applying for a national trust bank charter that would enable it to directly custody digital assets. Morgan Stanley brings crypto trading with lower fees than rivals",
-    "date": "2026-05-06",
-    "source_url": "https://www.coindesk.com/markets/2026/05/06/morgan-stanley-brings-crypto-trading-with-lower-fees-than-rivals",
-    "category": "global_banks",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Trading & Exchange",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "Blockchain.com launches SnapMarkets as prediction markets move into faster crypto bets",
-    "description": "Blockchain.com introduced SnapMarkets, a product that allows users outside the U.S. and U.K. to wager on bitcoin's short-term price direction in 30-second settlement windows, with minimum stakes of $1. The offering enters a rapidly expanding prediction market sector that generated approximately $29 billion in notional trading volume in April 2026, though SnapMarkets' ultra-short format positions it closer to binary options than to the event-contract model pioneered by Polymarket and Kalshi. That structural similarity carries regulatory weight: the EU and U.K. have banned retail binary options, and the CFTC previously fined Polymarket $1.4 million in 2022 for offering unregistered binary options, though the agency has since adopted a more permissive stance toward event contracts.",
-    "date": "2026-05-06",
-    "source_url": "https://www.coindesk.com/business/2026/05/06/blockchain-com-launches-snapmarkets-as-prediction-markets-move-into-faster-crypto-bets",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Banks reject US stablecoin compromise, public shrugs at crypto",
-    "description": "Crypto sector celebrates CLARITY stablecoin ‘compromise’ Banking sector still not hopping on this bandwagon CLARITY’s DeFi, ethics issues still up in the air World Liberty Financial v Justin Sun legal fight heats up WLFI governance ‘proposal’ angers token holders Politico poll finds voters really don’t like crypto operators Voters don’t trust Trump to oversee crypto On May 1, Punchbowl News was first to report on a proposed solution to the stablecoin stalemate preventing forward progress of the CLARITY Act , the Senate’s digital asset market structure legislation.",
-    "date": "2026-05-06",
-    "source_url": "https://coingeek.com/banks-reject-us-stablecoin-compromise-public-shrugs-at-crypto/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
