@@ -1,5 +1,239 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "Fundi Tshazibana: Regulation and supervision of the financial sector in the age of artificial intelligence",
+    "description": "Address by Ms Fundi Tshazibana, Deputy Governor of the South African Reserve Bank and Chief Executive Officer of the Prudential Authority, at the University of Johannesburg, Johannesburg, 8 May 2026.",
+    "date": "2026-05-20",
+    "source_url": "https://www.bis.org/review/r260520d.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Sanjay Malhotra: Monetary policy in a time of heightened uncertainty",
+    "description": "Intervention by Mr Sanjay Malhotra, Governor of the Reserve Bank of India, during a panel discussion \"Monetary policy in a time of heightened uncertainty\", jointly organised by the Swiss National Bank (SNB) and the International Monetary Fund (IMF) as part of the 12th High-Level Conference on the International Monetary System, Zurich, 12 May 2026.",
+    "date": "2026-05-20",
+    "source_url": "https://www.bis.org/review/r260520b.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Jorgovanka Tabaković: Overview of recent monetary and macroeconomic trends in Serbia",
+    "description": "Introductory speech by Dr Jorgovanka Tabaković, Governor of the National Bank of Serbia, at the presentation of the May Inflation Report, Belgrade, 13 May 2026.",
+    "date": "2026-05-20",
+    "source_url": "https://www.bis.org/review/r260519e.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Adnan Zaylani Mohamad Zahid: Governing digital money in a converging payments ecosystem",
+    "description": "Keynote address by Mr Aznan Abdul Aziz, Deputy Governor of the Central Bank of Malaysia (Bank Negara Malaysia), at the CB+DC Conference, Kuala Lumpur, 12 May 2026.",
+    "date": "2026-05-20",
+    "source_url": "https://www.bis.org/review/r260519d.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Holta Zaçaj: Keynote speech - Balkan Payment Forum 2026",
+    "description": "Keynote speech by Ms Holta Zaçaj, First Deputy Governor of the Bank of Albania, at the Balkan Payment Forum 2026, Tirana, 14 May 2026.",
+    "date": "2026-05-20",
+    "source_url": "https://www.bis.org/review/r260519b.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "Despite Trump’s pledge, a CBDC is being explored behind closed doors, says former CTFC chair",
+    "description": "Publicly, the U.S. has fiercely opposed a Central Bank Digital Currency, but former CFTC Chairman Timothy Massad said it is inevitable and there will be one sooner or later.",
+    "date": "2026-05-20",
+    "source_url": "https://www.coindesk.com/business/2026/05/19/despite-trump-s-pledge-a-cbdc-is-being-explored-behind-closed-doors-says-former-ctfc-chair",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "CBDC"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Euro stablecoin joint venture Qivalis adds 25 new banks",
+    "description": "Qivalis, the joint venture company formed by European banks to launch a Euro stablecoin, has amassed the support of a further 25 banks, bringing the total number of institutions backing the project to 37.",
+    "date": "2026-05-20",
+    "source_url": "https://www.finextra.com/newsarticle/47785/euro-stablecoin-joint-venture-qivalis-adds-25-new-banks",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Mifundo adds Brazillian credit data from Equifax",
+    "description": "Mifundo, a pan-European credit data platform, has integrated credit data from Equifax BoaVista, subsidiary of Equifax Inc. in Brazil, enabling European banks to access verified Brazilian credit information as part of their credit assessment processes.",
+    "date": "2026-05-20",
+    "source_url": "https://www.finextra.com/pressarticle/109903/mifundo-adds-brazillian-credit-data-from-equifax",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Bank of England",
+    "initiative": "Bank of England outlines tokenization, stablecoin vision for UK finance",
+    "description": "The central bank plans to publish draft rules for systemic sterling stablecoins next month and finalize them by the end of this year.",
+    "date": "2026-05-20",
+    "source_url": "https://www.theblock.co/post/401984/bank-of-england-tokenization-stablecoins",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Trump Orders Fed to Review Crypto Access to Master Accounts and Payment Rails",
+    "description": "Trump signed an executive order directing the Fed, SEC, CFTC, and OCC to review rules that may restrict crypto and fintech firms from accessing the central bank's payment infrastructure.",
+    "date": "2026-05-20",
+    "source_url": "https://unchainedcrypto.com/trump-orders-fed-to-review-crypto-access-to-master-accounts-and-payment-rails/",
+    "category": "regulators",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Bank of England",
+    "initiative": "Bank of England says tokenized deposits and stablecoins belong in UK payments",
+    "description": "The Bank of England has outlined plans to accelerate tokenized finance infrastructure in the UK while continuing work on stablecoin rules, tokenized deposits, and a potential digital pound. Speaking during London’s City Week 2026 conference on Tuesday, Sarah Breeden said… Bank of England says tokenized deposits and stablecoins belong in UK payments",
+    "date": "2026-05-20",
+    "source_url": "https://crypto.news/bank-of-england-says-tokenized-deposits-and-stablecoins-belong-in-uk-payments/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "CBDC"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Qivalis adds ABN AMRO, Rabobank to euro stablecoin consortium",
+    "description": "Qivalis has expanded its European banking alliance to 37 institutions after onboarding 25 additional banks ahead of its planned euro stablecoin launch in the second half of 2026. According to a May 20 announcement, the Amsterdam-based consortium added new members… Qivalis adds ABN AMRO, Rabobank to euro stablecoin consortium",
+    "date": "2026-05-20",
+    "source_url": "https://crypto.news/qivalis-adds-abn-amro-rabobank-to-euro-stablecoin-consortium/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Ripple",
+    "initiative": "XRP ETF rises as bulls target $2, while SHRMiner cloud mining’s daily passive income of $5,700 attracts attention",
+    "description": "XRP ETF inflows and rising XRPL activity strengthen market focus on Ripple ecosystem in 2026. Recently, a large amount of new funds have continued to flow into the spot XRP ETF, coupled with a significant rebound in on-chain activity, making… XRP ETF rises as bulls target $2, while SHRMiner cloud mining’s daily passive income of $5,700 attracts attention",
+    "date": "2026-05-20",
+    "source_url": "https://crypto.news/xrp-etf-rises-as-bulls-target-2-while-shrminer-cloud-minings-daily-passive-income-of-5700-attracts-attention/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Pan-European stablecoin effort expands to 37 lenders in push back against U.S. dollar dominance",
     "description": "Qivalis, a stablecoin initiative backed by a group of European banks, aims to issue a stablecoin later this year to deepen the euro's role in tokenized finance.",
@@ -9377,270 +9611,5 @@
       "Crypto / Digital Assets"
     ],
     "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "BNY, world's largest custody bank, expands crypto services in Abu Dhabi",
-    "description": "Abu Dhabi and Dubai have attracted crypto exchanges, stablecoin issuers and tokenization startups with regulatory frameworks designed to support digital assets while maintaining institutional oversight. The initiative will initially focus on custody services for cryptocurrencies including bitcoin BTC $ 80,814.36 and ether (ETH), with plans to later expand into stablecoins and tokenized assets, the press release said. Wall Street's BNY expands crypto custody in Abu Dhabi, starting with bitcoin, ether",
-    "date": "2026-05-07",
-    "source_url": "https://www.coindesk.com/business/2026/05/07/bny-world-s-largest-custody-bank-expands-crypto-services-in-abu-dhabi",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "JPMorgan",
-    "initiative": "Ripple, JPMorgan settle first cross-border tokenized Treasury redemption on XRP Ledger",
-    "description": "Ondo Finance, JPMorgan's Kinexys platform, Mastercard, and Ripple completed a live cross-border redemption of Ondo's OUSG tokenized U.S. Treasury fund, with the full transaction settling on the XRP Ledger in under five seconds outside standard banking hours. Redemption instructions were routed through Mastercard's Multi-Token Network to Kinexys, which then delivered U.S. dollars to Ripple's Singapore bank account — a sequence that would typically require one to three business days through correspondent banking channels. The pilot is notable because it demonstrates a functioning end-to-end link between a public blockchain and interbank settlement rails, rather than a controlled sandbox environment.",
-    "date": "2026-05-07",
-    "source_url": "https://www.coindesk.com/markets/2026/05/07/ripple-jpmorgan-settle-first-cross-border-tokenized-treasury-redemption-on-xrp-ledger",
-    "category": "payments",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bithumb eyes Vietnam expansion under new partnership with SSID",
-    "description": "Exodus launches non-custodial payments as it expands beyond core wallet product Dec 09, 2025, 9:30AM EST • Infrastructure © 2026 the block. Bithumb may make direct investments in the upcoming exchange, contingent on local regulatory approval. Bithumb eyes Vietnam expansion under new partnership with SSID | The Block",
-    "date": "2026-05-07",
-    "source_url": "https://www.theblock.co/post/400341/bithumb-vietnam-ssid",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Mastercard",
-    "initiative": "JPMorgan, Mastercard and Ripple test tokenized Treasury settlement on XRPL",
-    "description": "JPMorgan, Mastercard, Ripple, and Ondo Finance completed a live cross-border redemption of Ondo's OUSG tokenized U.S. Treasury fund, with the asset leg settled on the XRP Ledger in under five seconds while Mastercard's Multi-Token Network routed settlement instructions to JPMorgan's Kinexys platform, which then delivered dollar proceeds to Ripple's Singapore bank account via correspondent banking. The transaction is notable as the first reported instance of tokenized Treasuries settling across both jurisdictions and institutions in near real time, including outside normal banking hours.",
-    "date": "2026-05-07",
-    "source_url": "https://crypto.news/jpmorgan-mastercard-and-ripple-test-tokenized-treasury-settlement-on-xrpl/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Monetary policy transmission to exchange rates: the role of currency carry trades",
-    "description": "by Ryan Niladri Banerjee, Lena Boneva, Gabor Pinter, Vladyslav Sushko",
-    "date": "2026-05-06",
-    "source_url": "https://www.bis.org/publ/bisbull124.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FSB",
-    "initiative": "Report on Vulnerabilities in Private Credit",
-    "description": "Private credit has expanded rapidly to an estimated $1.5–2 trillion in assets, supporting financing for mid-sized companies but creating potential financial stability risks",
-    "date": "2026-05-06",
-    "source_url": "https://www.fsb.org/2026/05/report-on-vulnerabilities-in-private-credit/",
-    "category": "regulators",
-    "source_name": "FSB — Publications",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "PayPal",
-    "initiative": "PayPal Plans Job Cuts",
-    "description": "Hey Payments Fanatic! PayPal is planning to cut costs and jobs as new CEO Enrique Lores faces mounting pressure to turn around a company that has struggled against fierce competition, most notably from Stripe. PayPal isn't alone. Across the FinTech space, layoffs have been picking up pace",
-    "date": "2026-05-06",
-    "source_url": "https://www.connectingthedotsinpayments.com/paypal-plans-job-cuts/",
-    "category": "payments",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "Where to Build: A Data-Driven Guide to Blockchain Infrastructure for TradFi Tokenization",
-    "description": "Ethereum and its Layer-2 (L2) networks like Arbitrum and Base currently offer the strongest combination of institutional liquidity, low illicit exposure, and compliance tooling, making them a natural home for regulated assets like tokenized securities and money market funds. It possesses massive institutional-scale liquidity, serving as the dominant global settlement layer for OTC desks moving popular stablecoins, but the proportion of that service inflow volume from illicit sources approaches 4%.",
-    "date": "2026-05-06",
-    "source_url": "https://www.chainalysis.com/blog/blockchain-infrastructure-tradfi-tokenization/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Mastercard",
-    "initiative": "Ondo, Kinexys by J.P. Morgan, Mastercard, and Ripple Complete First Cross-Border, Cross-Bank Redemption of Tokenized U.S. Treasuries",
-    "description": "Ondo, Kinexys by J.P. Morgan, Mastercard, and Ripple Complete First Cross-Border, Cross-Bank Redemption of Tokenized U.S. Treasuries | Ondo Finance",
-    "date": "2026-05-06",
-    "source_url": "https://ondo.finance/blog/ondo-jpmorgan-mastercard-ripple-tokenization",
-    "category": "payments",
-    "source_name": "Ondo — Blog",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Nasdaq",
-    "initiative": "Nasdaq's president says the SEC’s new crypto stance is letting markets 'build' again",
-    "description": "Nasdaq President Tal Cohen, speaking at Consensus Miami, stated that the SEC under its current leadership has shifted from a restrictive posture to an actively constructive one, giving market operators meaningful latitude to experiment with blockchain-based infrastructure and tokenized assets. Cohen framed this as a material change from the regulatory environment of several years ago, when ambiguity in digital asset oversight effectively froze development activity for established exchanges and financial infrastructure providers. Nasdaq, which supplies trading technology to over 130 markets globally, is now investing in tokenization, AI-driven matching engine simulation, and \"always on\" market infrastructure as it works to converge traditional securities rails with digital asset systems.",
-    "date": "2026-05-06",
-    "source_url": "https://www.coindesk.com/policy/2026/05/06/nasdaq-s-president-says-the-sec-s-new-crypto-stance-is-letting-markets-build-again",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "DTCC",
-    "initiative": "Wall Street's clearinghouse seeks 'high-performance' blockchains to tokenize corporate actions",
-    "description": "The Depository Trust and Clearing Corporation, which settles roughly $20 trillion in U.S. securities trades daily, is actively collaborating with multiple high-performance layer-1 blockchain networks to move corporate actions—including dividend payments and tender offers—onto distributed ledger infrastructure. Speaking at Consensus 2026 in Miami, DTCC CEO Frank La Salla disclosed that the firm plans to begin testing its tokenized securities platform in July, with a broader rollout targeted for October. La Salla identified tokenized collateral and real-time dollar liquidity as blockchain's most credible near-term institutional use case, citing the ability for firms in Asia to post collateral and access U.S. dollar liquidity outside conventional settlement windows.",
-    "date": "2026-05-06",
-    "source_url": "https://www.coindesk.com/business/2026/05/06/wall-street-s-clearinghouse-seeks-high-performance-blockchains-to-tokenize-corporate-actions",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Fairshake defends midterm spending as voter trust crashes",
-    "description": "Fairshake, the crypto-focused super PAC backed by Coinbase, Andreessen Horowitz, and Ripple, has deployed $28 million across 2026 primary races, while pro-AI group Leading the Future — launched in August 2025 and having raised over $75 million — brings the two industry-aligned groups' combined midterm spending past $100 million according to federal filings. The effort is explicitly aimed at shaping the legislative environment for digital assets, with Fairshake targeting races that could determine committee leadership, including preventing Senator Elizabeth Warren from assuming the Senate Banking Committee chair if Democrats retake the chamber.",
-    "date": "2026-05-06",
-    "source_url": "https://crypto.news/fairshake-and-ai-pacs-pour-100m-into-midterms/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026",
-    "description_truncated": true
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Why Erik Reppel says AI agents end internet ads",
-    "description": "At Consensus Miami 2026, Coinbase Developer Platform head Erik Reppel argued that the rise of autonomous AI agents will structurally undermine online advertising because software interacts directly with APIs and data sources rather than browsing pages and generating ad impressions. He cited projections of a $3–5 trillion agentic economy by 2030 as the scale of disruption facing ad-funded content models. Reppel positioned x402, an open protocol he founded and Coinbase backs, as the replacement mechanism — embedding stablecoin micropayments into the HTTP layer so AI agents can pay directly for content and data access.",
-    "date": "2026-05-06",
-    "source_url": "https://crypto.news/erik-reppel-says-ai-agents-will-kill-online-ads/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026",
-    "description_truncated": true
   }
 ]
