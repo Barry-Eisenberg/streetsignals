@@ -1,5 +1,99 @@
 [
   {
+    "institution": "ESMA (European Securities and Markets Authority)",
+    "initiative": "ESMA publishes shortlist of candidates for position of Chair",
+    "description": "The Board of Supervisors has shortlisted the following candidates in alphabetical order of their surname: Karen Dortea Abelskov Carlo Comporti The shortlisted candidates were selected based on their merit, skills, knowledge of financial markets, as well as experience of financial supervision and regulation, in accordance with the requirements set out in the ESMA Regulation. The envisaged start date of the incoming Chair is 1 November 2026. ESMA publishes shortlist of candidates for position of Chair",
+    "date": "2026-05-20",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-shortlist-candidates-position-chair-0",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "ESMA (European Securities and Markets Authority)",
+    "initiative": "ESMA outlines enforcement activities for corporate reporting across the EEA in 2025",
+    "description": "The report provides an overview of how national enforcers and ESMA supervised corporate reporting across the European Economic Area (EEA) during 2025. In 2025, financial reporting enforce ment continued to promote disclosures that are material, transparent, entity specific, and useful for decision‑making. ESMA outlines enforcement activities for corporate reporting across the EEA in 2025",
+    "date": "2026-05-20",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-outlines-enforcement-activities-corporate-reporting-across-eea-2025",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Copper",
+    "initiative": "Crypto custody firm Copper is looking to sale the company for $500 million",
+    "description": "Cantor Fitzgerald has been appointed to help with the sale, according to sources.",
+    "date": "2026-05-20",
+    "source_url": "https://www.coindesk.com/business/2026/05/20/crypto-custody-firm-copper-is-looking-to-sale-the-company-for-usd500-million",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Crypto Long & Short: Bitcoin-backed loans belong in the cost-of-capital conversation",
+    "description": "In this week’s Crypto Long & Short Newsletter, Alec Beckman on why BTC-backed lending is not a crypto story, but a capital efficiency story. Then, Serena Sebastiani on how stablecoins aren’t a crypto product; they’re becoming the settlement infrastructure global finance forgot.",
+    "date": "2026-05-20",
+    "source_url": "https://www.coindesk.com/coindesk-indices/2026/05/20/crypto-long-and-short-bitcoin-backed-loans-belong-in-the-cost-of-capital-conversation",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "EU opens MiCA consultation to review if crypto framework is still fit for purpose",
+    "description": "The European Commission is seeking feedback on whether the EU’s landmark crypto regulatory framework remains suitable as digital asset markets and global policies evolve.",
+    "date": "2026-05-20",
+    "source_url": "https://www.coindesk.com/policy/2026/05/20/eu-opens-mica-consultation-to-review-if-crypto-framework-is-still-fit-for-purpose",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Basel Committee agrees to publish report on information and communication technology risk management, progresses cryptoasset targeted review, considers targeted updates on liquidity risk principles",
     "description": "Agrees to publish range of practices report on information and communication technology risk management. Progresses its targeted review of the prudential standard for banks' cryptoasset exposures. Considers targeted updates of its principles on liquidity risk.",
@@ -9483,109 +9577,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "JPMorgan",
-    "initiative": "JPMorgan says Strategy’s bitcoin buying could reach $30 billion this year at current pace",
-    "description": "Exodus launches non-custodial payments as it expands beyond core wallet product Dec 09, 2025, 9:30AM EST • Infrastructure © 2026 the block. \"Strategy appears to have re-accelerated its bitcoin purchases in April, extending a 2026 pattern of increasingly opportunistic buying, responsive to both market conditions and financing availability,\" the analysts said. JPMorgan says Strategy's bitcoin buying could reach $30 billion this year at current pace | The Block",
-    "date": "2026-05-07",
-    "source_url": "https://www.theblock.co/post/400443/jpmorgan-strategy-bitcoin-buying-30-billion-mstr",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Canton Network",
-    "initiative": "Crypto ETF boom continues with debut of first fund to track Canton",
-    "description": "21Shares listed the TCAN ETF on Nasdaq on May 7, 2026, making it the first U.S. fund to offer direct exposure to Canton Coin, the native utility token of the Canton Network — a privacy-preserving blockchain built specifically for institutional capital markets use cases. The Canton Network counts Goldman Sachs, Microsoft, DTCC, Nasdaq, and Deloitte among its backers and supporters, lending the underlying infrastructure notable institutional credibility. The launch extends a broader wave of altcoin ETF approvals enabled by the SEC's more permissive stance under Chairman Paul Atkins, who has moved to clarify that most cryptocurrencies do not constitute securities.",
-    "date": "2026-05-07",
-    "source_url": "https://www.theblock.co/post/400436/crypto-etf-boom-continues-with-debut-of-first-fund-to-track-canton",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "AWS taps Coinbase and Stripe to power USDC payments for AI agents",
-    "description": "Exodus launches non-custodial payments as it expands beyond core wallet product Dec 09, 2025, 9:30AM EST • Infrastructure © 2026 the block. \"We’ve built these capabilities in partnership with Coinbase and Stripe, who are providing the wallet infrastructure and payment rails that power the first set of capabilities.\" Coinbase also published a statement saying developers will be able to create “agentic payment solutions” using the x402 protocol which allow AI agents to make micropayments using USDC stablecoins.",
-    "date": "2026-05-07",
-    "source_url": "https://www.theblock.co/post/400421/aws-taps-coinbase-and-stripe-to-power-usdc-payments-for-ai-agents",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Superstate",
-    "initiative": "Bitwise to take over Superstate’s $267 million tokenized Crypto Carry Fund",
-    "description": "Exodus launches non-custodial payments as it expands beyond core wallet product Dec 09, 2025, 9:30AM EST • Infrastructure © 2026 the block. \"Traditional and crypto-native institutions are increasingly using tokenized funds to benefit from their 24/7 trading, utility in DeFi, transparency, and efficiency.\" Bitwise has approximately $11 billion in managed assets. Bitwise to take over Superstate’s $267 million tokenized Crypto Carry Fund | The Block",
-    "date": "2026-05-07",
-    "source_url": "https://www.theblock.co/post/400415/bitwise-to-takeover-superstates-267-million-tokenized-crypto-carry-fund",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BNY Mellon",
-    "initiative": "BNY Mellon lifts Strategy stake to 1 million shares worth $187.2 million",
-    "description": "BNY Mellon disclosed via a regulatory filing that it acquired an additional 101,810 shares of Strategy (NASDAQ: MSTR), bringing its total position to approximately one million shares valued at roughly $187.2 million at prevailing prices. Strategy, formerly MicroStrategy, functions as the largest publicly listed Bitcoin treasury vehicle, holding around 818,334 BTC worth approximately $66.6 billion, which causes its equity to behave as a leveraged proxy for Bitcoin price movements.",
-    "date": "2026-05-07",
-    "source_url": "https://crypto.news/bny-mellon-lifts-strategy-stake-to-1-million-shares-worth-187-2-million/",
-    "category": "global_banks",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
