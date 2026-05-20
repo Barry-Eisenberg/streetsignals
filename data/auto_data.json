@@ -36,6 +36,25 @@
     "year": "2026"
   },
   {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "Trump’s Truth Social withdraws bitcoin ETF application from SEC",
+    "description": "Its advisor, Yorkville America, said the withdrawal is a strategic move to reapply under a more efficient securities framework.",
+    "date": "2026-05-19",
+    "source_url": "https://www.theblock.co/post/401946/truth-social-withdraws-bitcoin-etf",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Trump orders government, Fed to review crypto firms' access to payment rails",
     "description": "Donald Trump's executive order asks the Fed to review how depository institutions may be granted access to payment services, an area the crypto industry is deeply involved with.",
@@ -9644,25 +9663,6 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "21Shares lists Strategy-linked STRC ETN on London Stock Exchange, expands UK footprint",
-    "description": "Exodus launches non-custodial payments as it expands beyond core wallet product Dec 09, 2025, 9:30AM EST • Infrastructure © 2026 the block. \"The listing of the 21Shares Strategy Yield ETN on the London Stock Exchange is a definitive moment for the UK market,\" 21Shares President Duncan Moir said in the statement. 21Shares lists Strategy-linked STRC ETN on London Stock Exchange, expands UK footprint | The Block",
-    "date": "2026-05-06",
-    "source_url": "https://www.theblock.co/post/400207/21shares-lists-strategy-linked-strc-etn-london-stock-exchange-expands-uk-footprint",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
