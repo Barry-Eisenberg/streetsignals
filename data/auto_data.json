@@ -1,5 +1,81 @@
 [
   {
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "Too many cooks: How regulatory infighting is choking the UK's crypto hub ambitions",
+    "description": "While the FCA opens its doors to market pilots, structural delays and legislative friction are fueling industry frustration over a framework trailing behind the U.S. and Europe.",
+    "date": "2026-05-20",
+    "source_url": "https://www.coindesk.com/policy/2026/05/20/political-blockers-frustrate-fca-s-efforts-u-k-s-global-hub-ambitions-expert-says",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "European Commission launches MiCA review as global crypto regulatory landscape shifts",
+    "description": "The European Commission launched a MiCA consultation open through Aug. 31, asking whether the crypto framework needs updating.",
+    "date": "2026-05-20",
+    "source_url": "https://www.theblock.co/post/402005/european-commission-launches-mica-review-as-global-crypto-regulatory-landscape-shifts",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Qivalis expands euro stablecoin consortium to 37 banks",
+    "description": "Qivalis added 25 European banks to its euro stablecoin consortium, reaching 37 institutions, including Luxembourg's state-owned Spuerkeess.",
+    "date": "2026-05-20",
+    "source_url": "https://www.theblock.co/post/402001/qivalis-expands-euro-stablecoin-consortium-to-37-banks",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Morgan Stanley",
+    "initiative": "Morgan Stanley refiles Solana ETF with staking under ticker MSOLsec",
+    "description": "Morgan Stanley has resubmitted a spot Solana ETF application that would hold and stake SOL under the ticker MSOL, extending the bank’s push deeper into U.S. crypto exchange-traded products. Morgan Stanley refiles Solana ETF with staking under ticker MSOLsec",
+    "date": "2026-05-20",
+    "source_url": "https://crypto.news/morgan-stanley-refiles-solana-etf-with-staking-under-ticker-msolsec/",
+    "category": "global_banks",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Fundi Tshazibana: Regulation and supervision of the financial sector in the age of artificial intelligence",
     "description": "Address by Ms Fundi Tshazibana, Deputy Governor of the South African Reserve Bank and Chief Executive Officer of the Prudential Authority, at the University of Johannesburg, Johannesburg, 8 May 2026.",
@@ -9517,98 +9593,6 @@
     "initiative_types": [
       "Crypto / Digital Assets",
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "BNY brings $59T custody power to Abu Dhabi crypto push",
-    "description": "These approvals show how Abu Dhabi is building a regulated path for stablecoins, tokenized securities, and custody services. BNY’s $59 trillion custody scale strengthens Abu Dhabi’s push for regulated digital asset infrastructure growth. BNY brings $59T custody power to Abu Dhabi crypto push",
-    "date": "2026-05-07",
-    "source_url": "https://crypto.news/bny-brings-59t-custody-power-to-abu-dhabi-crypto-push/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Canton Network",
-    "initiative": "Swiss bank AMINA brings Canton Coin into regulated finance",
-    "description": "AMINA, a FINMA-regulated Swiss crypto bank, has begun offering custody and trading services for Canton Coin, making it the first regulated Swiss lender to provide institutional access to the Canton Network — a permissioned blockchain developed by Digital Asset and backed by firms including Goldman Sachs, DTCC, Visa, and Citadel for capital markets use cases such as tokenized assets, collateral management, and repo settlement. The integration allows institutional clients to hold and trade Canton Coin through a regulated banking interface rather than via crypto-native venues, removing a key compliance barrier for firms already using or evaluating the network for financial settlement operations.",
-    "date": "2026-05-07",
-    "source_url": "https://crypto.news/swiss-bank-amina-brings-canton-coin-into-regulated-finance/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Custody & Safekeeping",
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "AE Coin and USDU launch regulated UAE stablecoin conversion rail",
-    "description": "Al Maryah Community Bank is supporting the framework for institutional settlement, treasury operations and cross border payments. dollar-backed stablecoin registered under the UAE’s Payment Token Services Regulation framework for institutional and professional participants. AE Coin and USDU launch regulated UAE stablecoin conversion rail",
-    "date": "2026-05-07",
-    "source_url": "https://crypto.news/ae-coin-and-usdu-launch-regulated-uae-stablecoin-conversion-rail/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Digital Asset Exchange",
-    "initiative": "Bithumb targets Vietnam crypto exchange market through SSID deal",
-    "description": "South Korea's Bithumb signed a memorandum of understanding with SSI Digital Technology (SSID), an entity linked to SSI Securities — one of Vietnam's largest securities firms — to jointly develop a regulated digital asset exchange in the country. The agreement encompasses technology infrastructure, custody, compliance, and institutional services, with Bithumb also considering a strategic equity stake contingent on approval from Vietnamese regulators. The deal sits within Vietnam's nascent pilot licensing framework, introduced by the Ministry of Finance and the State Securities Commission, which requires exchange applicants to be locally incorporated and capitalized at a minimum of 10 trillion dong, predominantly by institutional backers.",
-    "date": "2026-05-07",
-    "source_url": "https://crypto.news/bithumb-targets-vietnam-crypto-exchange-market-through-ssid-deal/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
