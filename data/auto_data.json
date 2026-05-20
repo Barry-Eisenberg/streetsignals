@@ -1,5 +1,99 @@
 [
   {
+    "institution": "ESMA (European Securities and Markets Authority)",
+    "initiative": "ESMA promotes proportionate supervision of MiFID II sustainability requirements",
+    "description": "The statement highlights key themes emerging from the supervisory exercise and sets out high‑level interim supervisory expectations, notably in relation to: the collection and treatment of clients’ sustainability preferences; the categorisation and matching of products to those preferences; the application of the portfolio approach; and the target market assessment of products. ESMA reaffirms the importance of sustainability and encourages firms to continue implementing the MiFID II sustainability requirements, recognising that the CSA has been conducted at a time when the sustainable finance framework is undergoing significant revision.",
+    "date": "2026-05-20",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-promotes-proportionate-supervision-mifid-ii-sustainability-requirements",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Tether",
+    "initiative": "Tether, Gnosis co-lead $4.4 million seed round for lightweight mobile-friendly Sorted Wallet",
+    "description": "With the additional funding, Sorted intends to expand geographically, particularly targeting Sub-Saharan Africa and South Asia.",
+    "date": "2026-05-20",
+    "source_url": "https://www.theblock.co/post/401929/tether-gnosis-co-lead-4-4-million-seed-round-lightweight-mobile-sorted-wallet",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Crypto layoffs grow as Meta’s AI shift hits jobs",
+    "description": "Crypto layoffs deepen as Meta begins AI-led cuts, while Kraken and Coinbase also trim staff in a wider push for leaner teams across 2026 now",
+    "date": "2026-05-20",
+    "source_url": "https://crypto.news/crypto-layoffs-grow-as-metas-ai-shift-hits-jobs/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Consensys",
+    "initiative": "Consensys warns FDIC proposal could overextend GENIUS Act restrictions",
+    "description": "Consensys has urged the Federal Deposit Insurance Corporation to revise parts of its proposed stablecoin framework, arguing that several provisions tied to the GENIUS Act could unintentionally restrict ordinary distribution models and access to decentralized finance tools. According to a… Consensys warns FDIC proposal could overextend GENIUS Act restrictions",
+    "date": "2026-05-20",
+    "source_url": "https://crypto.news/consensys-warns-fdic-proposal-could-overextend-genius-act-restrictions/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Trump calls for Fed review of master account rules for crypto sector",
+    "description": "President Donald Trump has directed the Federal Reserve to review whether fintech and crypto firms should receive direct access to the central bank’s payment infrastructure through a new executive order focused on financial technology policy. Under the order signed… Trump calls for Fed review of master account rules for crypto sector",
+    "date": "2026-05-20",
+    "source_url": "https://crypto.news/trump-calls-for-fed-review-of-master-account-rules-for-crypto-sector/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Trump orders Fed to review giving crypto firms access to master accounts",
     "description": "The order urged the federal government to remove regulations that may be 'overly burdensome' to fintech innovation.",
@@ -9567,104 +9661,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Abdul Rasheed Ghaffour: Defining moments - shaping the future story",
-    "description": "RENTAS+ is a first of its kind infrastructure which provides around the clock, seven days a week settlement – significantly reducing settlement lag and credit risk exposure among financial institutions. Through the Innovation Hub, the Bank has onboarded participants to test real-world applications of digital money, including ringgit-denominated stablecoins and tokenised deposits. Abdul Rasheed Ghaffour: Defining moments shaping the future story",
-    "date": "2026-05-06",
-    "source_url": "https://www.bis.org/review/r260504a.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Ida Wolden Bache: Norges Bank's management of the Government Pension Fund Global",
-    "description": "Central bank speech | 06 May 2026 by Ida Wolden Bache PDF full text (5kb) | 2 pages Minister of Finance, members of the Storting. While work on the ethical framework and the GPFG's long-term investment strategy is under way, Norges Bank continues to manage the GPFG with the aim of achieving the highest possible return, in a responsible manner. Ida Wolden Bache: Norges Bank's management of the Government Pension Fund Global",
-    "date": "2026-05-06",
-    "source_url": "https://www.bis.org/review/r260505l.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "ECB (European Central Bank)",
-    "initiative": "Luis de Guindos: Presentation of the European Central Bank Annual Report 2025 to the Committee on Economic and Monetary Affairs of the European Parliament",
-    "description": "First, the ECB continued work on the payments and market infrastructures of the future . 1 Work also advanced on a modern cash framework and a new series of euro banknotes, reaffirming the ECB's commitment to cash as a safe and inclusive payment method. Luis de Guindos: Presentation of the European Central Bank Annual Report 2025 to the Committee on Economic and Monetary Affairs of the European Parliament",
-    "date": "2026-05-06",
-    "source_url": "https://www.bis.org/review/r260505b.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Securitize",
-    "initiative": "NYSE tokenization partners warn synthetic stock tokens could mislead retail traders",
-    "description": "NYSE said in January it was developing a platform for 24/7 trading and onchain settlement of tokenized U.S.-listed stocks and ETFs, pending regulatory approval. Executives from Intercontinental Exchange (ICE), OKX and Securitize warned that synthetic tokenized stocks are creating market and retail risks, as ICE moves ahead with a regulated platform for tokenized U.S. NYSE tokenization partners warn synthetic stock tokens could mislead retail traders",
-    "date": "2026-05-06",
-    "source_url": "https://www.coindesk.com/business/2026/05/06/nyse-tokenization-partners-warn-synthetic-stock-tokens-could-mislead-retail-traders",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "‘Clarity Act will pass this summer’: Coinbase CLO Grewal backs stablecoin compromise, urges banks to accept deal",
-    "description": "Exodus launches non-custodial payments as it expands beyond core wallet product Dec 09, 2025, 9:30AM EST • Infrastructure © 2026 the block. He described the updated bill as a workable middle ground that preserves the feature most critical to Coinbase's (COIN) stablecoin business and the large financial market. 'Clarity Act will pass this summer': Coinbase CLO Grewal backs stablecoin compromise, urges banks to accept deal | The Block",
-    "date": "2026-05-06",
-    "source_url": "https://www.theblock.co/post/400230/clarity-act-will-pass-this-summer-coinbase-clo-grewal-backs-stablecoin-compromise-urges-banks-to-accept-deal",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
     "year": "2026"
   }
 ]
