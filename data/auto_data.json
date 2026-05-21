@@ -1,5 +1,43 @@
 [
   {
+    "institution": "JPMorgan",
+    "initiative": "Why JPMorgan says tokenized funds can’t beat stablecoins",
+    "description": "JPMorgan says tokenized funds make up just 5% of the stablecoin market despite offering higher yield. Why JPMorgan says tokenized funds can’t beat stablecoins",
+    "date": "2026-05-21",
+    "source_url": "https://crypto.news/tokenized-funds-hold-5-of-stablecoin-market-jpmorgan/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "CLEAR collapses 48% as Everclear shuts down protocol",
+    "description": "Everclear, the cross chain clearing and settlement network backed by firms including Pantera Capital and Polychain, said it is winding down all operations after failing… Everclear’s announcement of a full operational wind-down sent CLEAR sharply lower in the latest session. CLEAR collapses 48% as Everclear shuts down protocol",
+    "date": "2026-05-21",
+    "source_url": "https://crypto.news/clear-collapses-48-as-everclear-shuts-down-protocol/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BlackRock",
     "initiative": "Deribit Bitcoin options top BlackRock IBIT at $31.3B",
     "description": "The reversal comes… Deribit Bitcoin options top BlackRock IBIT at $31.3B",
@@ -9433,46 +9471,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "JPMorgan",
-    "initiative": "Why JPMorgan AI is no longer an experiment",
-    "description": "The bank has also launched its JPMD deposit token on public blockchain infrastructure, with its proprietary AI now managing JPMD flows and predicting when institutional clients will need liquidity before human traders identify the need.",
-    "date": "2026-05-09",
-    "source_url": "https://crypto.news/jpmorgan-makes-ai-core-infrastructure-spending/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "The real reason cross-border payments stay expensive - David Messenger (CEO of Global Businesses, Pingpong Payments)",
-    "description": "In this episode of the WRAP UP Podcast, I sit down with David Messenger, CEO of Global Businesses at Pingpong Payments, to unpack what really happens behind cross-border payments and why moving money globally is still far more complex than most businesses realize.",
-    "date": "2026-05-08",
-    "source_url": "https://www.fintechwrapup.com/p/the-real-reason-cross-border-payments",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
       "Payment Infrastructure"
     ],
     "year": "2026"
