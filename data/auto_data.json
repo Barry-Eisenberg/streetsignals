@@ -1,5 +1,22 @@
 [
   {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "Don't call us just a WLFI treasury company, says AI Financial",
+    "description": "The company says it is building a broader fintech, tokenization and digital infrastructure business, but its latest SEC filing shows WLFI still dominates the balance sheet.",
+    "date": "2026-05-21",
+    "source_url": "https://www.coindesk.com/markets/2026/05/21/don-t-call-us-just-a-wlfi-treasury-company-says-ai-financial",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "FDIC",
     "initiative": "Fintech Yotta fined $1 million for Synapse deception",
     "description": "Reverberations from the collapse of US banking-as-a-service vendor Synapse are continuing to be felt, with fintech Yotta facing a financial penalty of $1 million for parking customer funds with Synapse, while falsely maintaining that accounts were insured by the Federal Deposit Insurance Corporation (FDIC).",
@@ -29,6 +46,23 @@
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "SEC reviewing implications of delayed prediction market ETFs, Atkins says",
+    "description": "SEC Chair Paul Atkins said he instructed the agency's staff to seek public input on prediction market ETFs.",
+    "date": "2026-05-20",
+    "source_url": "https://www.theblock.co/post/402125/sec-reviewing-prediction-market-etfs",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "General Infrastructure"
     ],
     "initiative_types": [],
     "year": "2026"
@@ -9504,45 +9538,6 @@
     "fmi_areas": [
       "Trading & Exchange",
       "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "Crypto Prediction Markets Explained: How the Blockchain Is Reshaping Forecasting",
-    "description": "Blockchain-based prediction markets — where participants trade contracts on the outcomes of elections, interest rate decisions, sports results, and other real-world events — have grown sharply since late 2024, with on-chain inflows accelerating to the point where a single week of market maker deposits recently exceeded $2.5 billion. The CFTC is asserting federal jurisdiction over these instruments by classifying them as derivatives under the Commodity Exchange Act, placing it in active litigation with at least twelve states that seek to regulate or prohibit the activity as unlicensed gambling.",
-    "date": "2026-05-07",
-    "source_url": "https://www.chainalysis.com/blog/crypto-prediction-markets/",
-    "category": "regulators",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Top Wall Street dealers join bond trading platform LTX",
-    "description": "Five of Wall Street's top banks have joined the AI-powered LTX corporate bond e-trading platform in a bid to unlock greater liquidity in corporate bonds.",
-    "date": "2026-05-07",
-    "source_url": "https://www.finextra.com/newsarticle/47715/top-wall-street-dealers-join-bond-trading-platform-ltx",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
     ],
     "initiative_types": [],
     "year": "2026"
