@@ -1,5 +1,134 @@
 [
   {
+    "institution": "JPMorgan",
+    "initiative": "JPMorgan says tokenized money market funds unlikely to grow beyond 15% of stablecoin market",
+    "description": "Tokenized money market funds offer yield but still account for only around 5% of the stablecoin market, JPMorgan analysts said.",
+    "date": "2026-05-21",
+    "source_url": "https://www.theblock.co/post/402227/jpmorgan-tokenized-money-market-funds-stablecoins",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainlink",
+    "initiative": "Chainlink, Anchorage-backed PAC names first bipartisan endorsements in 2026 midterm cycle",
+    "description": "A newly formed political action committee released its first batch of endorsements as midterm elections begin to take shape.",
+    "date": "2026-05-21",
+    "source_url": "https://www.theblock.co/post/402231/chainlink-anchorage-backed-pac-first-bipartisan-endorsements-2026-midterm",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Securitize",
+    "initiative": "Tokenization platform Securitize plans SPAC merger to go public and scale tokenization",
+    "description": "Asset tokenization platform Securitize is moving ahead with a SPAC merger on Nasdaq, aiming to accelerate its expansion beyond stablecoins into a broader universe of tokenized securities. Securitize’s efforts to “tokenize the world” just took an added-value turn, with the… Tokenization platform Securitize plans SPAC merger to go public and scale tokenization",
+    "date": "2026-05-21",
+    "source_url": "https://crypto.news/securitize-plans-spac-merger-to-go-public-and-scale-tokenization/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Digital Asset Exchange",
+    "initiative": "Bybit opens 24/7 leveraged bets on SpaceX before IPO",
+    "description": "Bybit has launched a new perpetual trading product tied to SpaceX ahead of the aerospace company’s expected public listing in June. According to the exchange, the newly listed SPCXUSDT perpetual contract gives traders exposure to SpaceX with leverage of up… Bybit opens 24/7 leveraged bets on SpaceX before IPO",
+    "date": "2026-05-21",
+    "source_url": "https://crypto.news/bybit-opens-24-7-leveraged-bets-on-spacex-before-ipo/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "State Street",
+    "initiative": "State Street Corporation raises exposure to Strive by 770% in Bitcoin push",
+    "description": "State Street Corporation has sharply increased its exposure to Strive Asset Management after buying nearly 1 million shares in the Bitcoin-focused asset manager. According to a recent Bitcoin Treasuries report, the $5.6 trillion asset management firm purchased around 1 million… State Street Corporation raises exposure to Strive by 770% in Bitcoin push",
+    "date": "2026-05-21",
+    "source_url": "https://crypto.news/state-street-corporation-raises-exposure-to-strive-by-770-in-bitcoin-push/",
+    "category": "asset_management",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "What the CLARITY Act may mean for Ethereum",
+    "description": "The CLARITY Act would formally treat Ethereum as a digital commodity under CFTC oversight if it becomes law, stripping the SEC of latitude to call ETH a security and ending years of jurisdictional ambiguity. Coincidentally or not, the political class… What the CLARITY Act may mean for Ethereum",
+    "date": "2026-05-21",
+    "source_url": "https://crypto.news/what-the-clarity-act-may-mean-for-ethereum/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Zcash price eyes move past $700 after confirming Bull flag breakout",
+    "description": "Zcash price continued its vertical rally on Wednesday as a combination of regulatory clarity, institutional accumulation, and bullish technical momentum pushed the privacy-focused cryptocurrency toward the key $700 resistance zone. Zcash (ZEC) surged nearly 15% over the past 24 hours… Zcash price eyes move past $700 after confirming Bull flag breakout",
+    "date": "2026-05-21",
+    "source_url": "https://crypto.news/zcash-price-eyes-move-past-700-after-confirming-bull-flag-breakout/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Federal Reserve Board issues enforcement action with former employee of Commerce Bank",
     "description": "Federal Reserve Board issues enforcement action with former employee of Commerce Bank",
@@ -9343,138 +9472,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Kraken owner to pay $600m for stablecoin infrastructure firm Reap",
-    "description": "The parent company of crypto exchange Kraken has agreed its second major acquisition in a matter of weeks, striking a $600 million deal to acquire stablecoin-native, card issuing and payments infrastructure platform Reap Technologies.",
-    "date": "2026-05-08",
-    "source_url": "https://www.finextra.com/newsarticle/47716/kraken-owner-to-pay-600m-for-stablecoin-infrastructure-firm-reap",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "OCC (Office of the Comptroller of the Currency)",
-    "initiative": "Kraken parent Payward files for national trust charter",
-    "description": "We have filed an application with the Office of the Comptroller of the Currency (“OCC”) for a national trust company charter. If approved, the application would establish Payward National Trust Company (“PNTC”), which would provide fiduciary custody and other services primarily for digital assets.",
-    "date": "2026-05-08",
-    "source_url": "https://www.finextra.com/pressarticle/109776/kraken-parent-payward-files-for-national-trust-charter",
-    "category": "regulators",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Custody & Safekeeping"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Codat launches advisory platform bringing real-time data and AI solutions to commercial banks",
-    "description": "After nearly a decade building the data infrastructure connecting financial institutions to their business customers, Codat today announced the launch of a strategic repositioning and a new advisory intelligence platform purpose-built for commercial and business banks.",
-    "date": "2026-05-08",
-    "source_url": "https://www.finextra.com/pressarticle/109775/codat-launches-advisory-platform-bringing-real-time-data-and-ai-solutions-to-commercial-banks",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Digital Asset Exchange",
-    "initiative": "Bitget launches Scan to Pay for instant payments via USDT",
-    "description": "Bitget, the world’s largest Universal Exchange (UEX), has introduced its Scan to Pay feature on Bitget Pay, enabling users to spend USDT directly at offline merchants by scanning QR codes through the Bitget App.",
-    "date": "2026-05-08",
-    "source_url": "https://www.finextra.com/pressarticle/109774/bitget-launches-scan-to-pay-for-instant-payments-via-usdt",
-    "category": "exchanges_intermediaries",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Unlimit partners with Decentro to boost cross-border payments in India",
-    "description": "Unlimit, the global financial infrastructure platform, today announced that Decentro, India’s leading fintech enabler, has integrated the platform’s universal operating layer to extend its cross-border payment capabilities into new markets and payment methods.",
-    "date": "2026-05-08",
-    "source_url": "https://www.finextra.com/pressarticle/109771/unlimit-partners-with-decentro-to-boost-cross-border-payments-in-india",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Intentional and Intersectional: Servicing A Modern Payments Journey",
-    "description": "Taking time away from the Diebold Nixdorf Intersect Cannes event, Sekou Kaaland, SEVP, Head of Branch and Small Business Banking, U.S. Bank spoke to FinextraTV about the complex balance needed to service customers today. Firstly, Kaaland discussed how the industry defaults to often to believing the customer needs a new innovation immediately and that speed does not always equal sufficient delivery. Kaaland advised that the industry should be focused on being more intentional and heightening their KYC operation, with the understanding that they should also approach consumers as intersectional: Retail consumers can become SMB owners, and SMB owners can become Retail consumers.",
-    "date": "2026-05-08",
-    "source_url": "https://www.finextra.com/videoarticle/3494/intentional-and-intersectional-servicing-a-modern-payments-journey",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "How Financial Institutions Can Prepare for the EU AMLR 2027 Regulation",
-    "description": "The European financial sector is entering a new regulatory era. On 10 July 2027, a single and direc... How Financial Institutions Can Prepare for the EU AMLR 2027 Regulation",
-    "date": "2026-05-08",
-    "source_url": "https://www.finextra.com/blogposting/31658/how-financial-institutions-can-prepare-for-the-eu-amlr-2027-regulation",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
