@@ -1,5 +1,81 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "Coinbase introduces thematic perps tracking China, AI and US national security equity indexes",
+    "description": "The contracts are based on MarketVector’s existing AI, defense and China indexes that track the 10 largest companies per sector.",
+    "date": "2026-05-21",
+    "source_url": "https://www.theblock.co/post/402286/coinbase-thematic-perps-tracking-china-ai-us-national-security-equity-indexes",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Amundi Solana UCITS fund launched with €2.4T backing",
+    "description": "Amundi, managing €2.4 trillion in assets, and Spiko Finance announced the launch of SAFO on Solana, bringing their UCITS-compliant tokenized fund to… Amundi Solana UCITS fund SAFO launches as Europe’s largest asset manager brings €2.4 trillion AUM to the chain. Amundi Solana UCITS fund launched with €2.4T backing",
+    "date": "2026-05-21",
+    "source_url": "https://crypto.news/amundi-solana-ucits-fund-marks-european-first/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "MAS (Monetary Authority of Singapore)",
+    "initiative": "Singapore MAS revokes Bsquared license over false data",
+    "description": "Singapore’s MAS has revoked the Bsquared license after finding false statements and serious regulatory breaches at the crypto firm. The Monetary Authority of Singapore revoked Bsquared Technology’s MPI licence effective May 14, 2026. Singapore MAS revokes Bsquared license over false data",
+    "date": "2026-05-21",
+    "source_url": "https://crypto.news/mas-revokes-bsquared-license-over-false-statements/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "MoonPay",
+    "initiative": "MoonPay launches MoonPay Trade to pull banks into DeFi and tokenized assets",
+    "description": "MoonPay is launching MoonPay Trade, a new institutional platform that promises banks and fintechs unified access to tokenized assets, DeFi protocols and stablecoin liquidity across more than 200 blockchains. According to CoinDesk, MoonPay introduced on May 21 MoonPay Trade as a… MoonPay launches MoonPay Trade to pull banks into DeFi and tokenized assets",
+    "date": "2026-05-21",
+    "source_url": "https://crypto.news/moonpay-launches-moonpay-trade-to-pull-banks-into-defi-and-tokenized-assets/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "JPMorgan",
     "initiative": "Why JPMorgan says tokenized funds can’t beat stablecoins",
     "description": "JPMorgan says tokenized funds make up just 5% of the stablecoin market despite offering higher yield. Why JPMorgan says tokenized funds can’t beat stablecoins",
@@ -9385,93 +9461,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CME Group",
-    "initiative": "CME is set to let traders bet on bitcoin volatility, not just price",
-    "description": "CME Group has announced a June 1 target launch date for futures contracts referenced to the CME CF Bitcoin Volatility Index (BVX), which measures the market's implied expectations for BTC price swings over the following four weeks, subject to regulatory sign-off. The contracts are structurally distinct from CME's existing bitcoin price futures in that they provide directional exposure to realized or expected volatility itself rather than the underlying asset's level, filling a gap currently addressed onshore only through options or synthetic overlays. While offshore venues such as Deribit already offer bitcoin volatility index futures, their participation base excludes most U.S.",
-    "date": "2026-05-09",
-    "source_url": "https://www.coindesk.com/markets/2026/05/09/you-ll-soon-be-able-to-bet-on-bitcoin-volatility-not-just-price-on-cme",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026",
-    "https://www.coindesk.com/markets/2026/05/09/you-ll-soon-be-able-to-bet-on-bitcoin-volatility-not-just-price-on-cme": "CME Group has announced a June 1 target launch date for futures contracts referenced to the CME CF Bitcoin Volatility Index (BVX), which measures the market's implied expectations for BTC price swings over the following four weeks, subject to regulatory sign-off. The contracts are structurally distinct from CME's existing bitcoin price futures in that they provide directional exposure to realized or expected volatility itself rather than the underlying asset's level, filling a gap currently addressed onshore only through options or synthetic overlays. While offshore venues such as Deribit already offer bitcoin volatility index futures, their participation base excludes most U.S."
-  },
-  {
-    "institution": "BlackRock",
-    "initiative": "BlackRock deepens tokenization push with new onchain fund offerings",
-    "description": "In 2024, the firm launched its first tokenized money-market fund, BUIDL, with Securitize (CEPT). Securities and Exchange Commission (SEC), the asset management giant proposed launching the BlackRock Daily Reinvestment Stablecoin Reserve Vehicle, a new fund that invests in cash, short-term U.S. BlackRock deepens tokenization push with new onchain fund offerings",
-    "date": "2026-05-09",
-    "source_url": "https://www.coindesk.com/business/2026/05/09/blackrock-deepens-tokenization-push-with-new-onchain-fund-offerings",
-    "category": "asset_management",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase x402 powers Amazon’s AI agent payments",
-    "description": "AWS embedded Coinbase's x402 payment protocol and wallet infrastructure directly into Amazon Bedrock AgentCore on May 7, enabling autonomous AI agents to transact in USDC on the Base network without human authorization. Settlement occurs in approximately 200 milliseconds at sub-cent cost, with agents never holding private keys — authentication, signing, and execution are handled through a single API call that incorporates enterprise spending controls and compliance checks. The x402 protocol, an open HTTP-native standard built on the existing \"402 Payment Required\" status code, has already processed over 169 million payments in its first year, with AWS and Coinbase serving as co-founding members of the x402 Foundation alongside Cloudflare.",
-    "date": "2026-05-09",
-    "source_url": "https://crypto.news/amazon-lets-ai-bots-pay-in-usdc-via-coinbase-x402/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Morgan Stanley",
-    "initiative": "Morgan Stanley’s ETrade crypto undercuts Coinbase",
-    "description": "Morgan Stanley activated a pilot crypto trading service within E*Trade brokerage accounts on May 6, offering spot Bitcoin, Ether, and Solana at a flat 50 basis point fee, with back-end liquidity, custody, and settlement handled by infrastructure provider Zerohash. The pricing undercuts Charles Schwab's recently launched 75bps offering, Fidelity's approximately 100bps fee, and most Coinbase retail tiers, setting up a direct fee compression dynamic across the US retail brokerage market. The service grants clients direct asset ownership rather than fund-wrapper exposure and is slated to expand to all 8.6 million E*Trade users later in 2026, alongside a proprietary digital wallet intended to hold crypto alongside tokenized securities.",
-    "date": "2026-05-09",
-    "source_url": "https://crypto.news/morgan-stanley-launche-etrade-crypto-at-0-5percent-fee/",
-    "category": "global_banks",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Custody & Safekeeping",
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
