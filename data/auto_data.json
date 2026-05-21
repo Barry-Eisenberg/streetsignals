@@ -1,5 +1,155 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "Elasticity of money in production networks, working capital, credit lines and financial conditions",
+    "description": "by Ryan Niladri Banerjee, Hyun Song Shin, Jose María Vidal Pastor The elastic supply of money through overdrafts and credit lines overcomes cash-in-advance constraints, enabling large-value payments without waiting for incoming cash. This elasticity is crucial in long supply chains, where cash-in-advance constraints could otherwise cause gridlock. Elasticity of money in production networks, working capital, credit lines and financial conditions",
+    "date": "2026-05-21",
+    "source_url": "https://www.bis.org/publ/work1350.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "Stablecoins retain the edge over tokenized money market funds, JPMorgan says",
+    "description": "The bank said tokenized money market funds account for only about 5% of the broader stablecoin universe despite offering yield.",
+    "date": "2026-05-21",
+    "source_url": "https://www.coindesk.com/business/2026/05/21/stablecoins-retain-the-edge-over-tokenized-money-market-funds-jpmorgan-says",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "EC consults on whether MiCA crypto rules need revamp",
+    "description": "Just two years after implementation, the European Commission is consulting on whether its regulatory framework on crypto‑assets is still fit for purpose.",
+    "date": "2026-05-21",
+    "source_url": "https://www.finextra.com/newsarticle/47795/ec-consults-on-whether-mica-crypto-rules-need-revamp",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Mastercard",
+    "initiative": "Mastercard scoops fleet deal with Germany's ryd",
+    "description": "ryd GmbH, a Munich-based mobility technology company, announced the launch of ryd fleet, a new digital-first payment operating system for fleets, in collaboration with Mastercard, designed to simplify on-the-road fleet payments while giving fleet managers enhanced control, visibility, and security.",
+    "date": "2026-05-21",
+    "source_url": "https://www.finextra.com/pressarticle/109921/mastercard-scoops-fleet-deal-with-germanys-ryd",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Cosmos co-founder’s new multilateral clearing startup Cycles raises $6.4 million",
+    "description": "The round, led by Blockchange Ventures, with support from Coinbase Ventures, among others, brings Cycle's total funding to $8.7 million.",
+    "date": "2026-05-21",
+    "source_url": "https://www.theblock.co/post/402176/cosmos-co-founders-new-multilateral-clearing-startup-cycles-raises-6-4-million",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Boerse Stuttgart adds SocGen for EU blockchain settlement",
+    "description": "Boerse Stuttgart’s Seturion adds SocGen, SG-FORGE and flatexDEGIRO to build blockchain settlement for tokenized securities in Europe.",
+    "date": "2026-05-21",
+    "source_url": "https://crypto.news/boerse-stuttgart-adds-socgen-for-eu-blockchain-settlement/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Federal Reserve proposes narrow payment rail access for crypto-linked banks",
+    "description": "Federal Reserve has proposed a new category of restricted payment accounts that could give eligible fintech and crypto-linked banks access to parts of the central bank’s payment infrastructure without granting the full privileges available to traditional banks. According… Federal Reserve proposes narrow payment rail access for crypto-linked banks",
+    "date": "2026-05-21",
+    "source_url": "https://crypto.news/federal-reserve-proposes-narrow-payment-rail-access-for-crypto-linked-banks/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Ripple",
+    "initiative": "Ripple Prime CEO backs EDX deal as XRP stays offstage",
+    "description": "Ripple Prime’s EDX deal gives institutions spot and futures access, with RLUSD planned for settlement while XRP stays out of the main pitch.",
+    "date": "2026-05-21",
+    "source_url": "https://crypto.news/ripple-prime-ceo-backs-edx-deal-as-xrp-stays-offstage/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BlackRock",
     "initiative": "The $6 billion expiration countdown: Traders pile into $82,000 bitcoin calls ahead of May 29 expiry",
     "description": "Deribit’s bitcoin open interest has overtaken BlackRock’s IBIT as traders brace for a showdown between $75K max pain and $80K call positioning.",
@@ -9346,179 +9496,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Sanders calls for Fed rate cuts as crypto watches policy rift widen",
-    "description": "Acting U.S. Labor Secretary Sandlin publicly called on the Federal Reserve to consider lowering interest rates, aligning a senior administration official with a growing political push for easing at a time when the Fed's internal consensus remains firmly cautious. Fed governors including Neel Kashkari and Susan Collins have signaled support for holding the benchmark rate at 3.5–3.75%, and a Reuters economist poll now places the first cut no earlier than Q4 2026, with energy shocks and sticky inflation pushing back market expectations.",
-    "date": "2026-05-08",
-    "source_url": "https://crypto.news/sanders-calls-for-fed-rate-cuts-as-crypto-watches-policy-rift-widen/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Mastercard",
-    "initiative": "Ondo price breaks $0.30 resistance amid RWA growth, can it revisit January highs?",
-    "description": "Ondo Finance's ONDO token surged more than 50% over the past week, reaching an intraday high near $0.40, following the successful completion of a cross-border tokenized U.S. Treasury settlement pilot conducted alongside JPMorgan's Kinexys, Mastercard, and Ripple, with the asset leg settling in under five seconds on the XRP Ledger. The project also reported $13.26 million in Q1 revenue and $3.53 billion in total value locked, while being selected for the Depository Trust & Clearing Corporation's Industry Working Group, which is examining how tokenization could modernize capital markets infrastructure that currently processes quadrillions of dollars in annual transactions.",
-    "date": "2026-05-08",
-    "source_url": "https://crypto.news/ondo-price-breaks-0-30-resistance-amid-rwa-growth-can-it-revisit-january-highs/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Tokenization & Issuance",
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "MoonPay",
-    "initiative": "Stablecoins have their 'permission slip.' Now comes the hard part.",
-    "description": "Executives from MoonPay, Ripple and Paxos said at Consensus Miami 2026 that regulation has accelerated stablecoin adoption, but infrastructure, privacy and distribution remain major hurdles. Stablecoins have moved from crypto niche to an institutional priority, but the next phase of adoption will depend on infrastructure, privacy and real-world usability, executives from MoonPay, Ripple and Paxos said at Consensus Miami 2026 . Stablecoins have their 'permission slip.' Now comes the hard part.",
-    "date": "2026-05-08",
-    "source_url": "https://www.coindesk.com/policy/2026/05/08/stablecoins-have-their-permission-slip-now-comes-the-hard-part",
-    "category": "payments",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase bulls point to crypto legislation and stablecoins after earnings miss",
-    "description": "Coinbase reported first-quarter results that missed Wall Street expectations on both revenue and adjusted EBITDA, as a broad slowdown in crypto trading activity weighed on its core transaction business. The earnings shortfall widened an existing analyst divide, with bulls at JPMorgan, Clear Street, and Oppenheimer pointing to growth in stablecoins, retail derivatives, and prediction markets as evidence the exchange is diversifying beyond spot trading cycles, while bears at Barclays and Compass Point maintained sell-equivalent ratings, citing continued cyclical dependence and weakening monthly active user trends. A significant portion of the bullish case rests on the pending CLARITY Act, a U.S.",
-    "date": "2026-05-08",
-    "source_url": "https://www.coindesk.com/markets/2026/05/08/coinbase-bulls-point-to-crypto-legislation-and-stablecoins-after-earnings-miss",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainlink",
-    "initiative": "BlockchainFX could be the leading crypto to buy in 2026 for those who missed Chainlink",
-    "description": "A sponsored article published on crypto.news promotes BlockchainFX (BFX), an unlaunched token currently in presale at $0.035 with a stated launch price of $0.05, positioning it as a high-upside opportunity by drawing comparisons to Chainlink's early-stage returns. The piece, explicitly disclosed as third-party sponsored content rather than independent editorial coverage, claims the presale has raised over $14.57 million from more than 24,500 participants and that a $15 million fundraising threshold will trigger the public token launch.",
-    "date": "2026-05-08",
-    "source_url": "https://crypto.news/blockchainfx-could-be-the-leading-crypto-to-buy-in-2026-for-those-who-missed-chainlink/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Bank of England",
-    "initiative": "Leading trends in the UK currency and cryptocurrency markets in 2026",
-    "description": "A sponsored analysis published on crypto.news argues that UK foreign exchange and cryptocurrency markets have become structurally more correlated in 2026, driven by shared exposure to interest rate expectations, inflation dynamics, and global liquidity conditions rather than asset-class-specific factors. The Bank of England's policy stance continues to dominate sterling positioning, while UK regulators have expanded oversight of crypto exchanges, stablecoins, and custody providers, drawing digital assets further into the formal financial system. Institutional investors are increasingly active across both markets and responding to the same macro signals, tightening the co-movement between GBP pairs and digital asset prices.",
-    "date": "2026-05-08",
-    "source_url": "https://crypto.news/leading-trends-in-the-uk-currency-and-cryptocurrency-markets-in-2026/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase blames AWS for hours-long crypto trading outage",
-    "description": "Google has launched the Agentic Payments Protocol (AP2), with 120 partners including PayPal, and donated it to the FIDO Foundation. Coinbase has faced scrutiny in the past due to outages during periods of high market volatility and infrastructure stress. Coinbase disruption tied to AWS outage draws criticism amid staff layoffs and Q1 losses",
-    "date": "2026-05-08",
-    "source_url": "https://www.coindesk.com/business/2026/05/08/coinbase-disruption-tied-to-aws-outage-draws-criticism-amid-staff-layoffs-and-q1-losses",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Bernstein says Coinbase’s ‘everything exchange’ strategy is gaining traction despite weak first-quarter results, sees 71% upside",
-    "description": "Exodus launches non-custodial payments as it expands beyond core wallet product Dec 09, 2025, 9:30AM EST • Infrastructure © 2026 the block. The report also highlighted Coinbase's efforts to build out stablecoin and payments infrastructure around USDC and Base. Bernstein says Coinbase's 'everything exchange' strategy is gaining traction despite weak first-quarter results, sees 71% upside | The Block",
-    "date": "2026-05-08",
-    "source_url": "https://www.theblock.co/post/400552/bernstein-says-coinbases-everything-exchange-strategy-is-gaining-traction-despite-weak-first-quarter-results-sees-71-upside",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   }
