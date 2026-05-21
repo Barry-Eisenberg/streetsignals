@@ -34,6 +34,25 @@
     "year": "2026"
   },
   {
+    "institution": "Federal Reserve",
+    "initiative": "Fed seeks input on expanding master account access following Trump’s executive order",
+    "description": "Trump signed an order on Tuesday requesting the Fed to review and update regulations to integrate digital assets into traditional systems.",
+    "date": "2026-05-20",
+    "source_url": "https://www.theblock.co/post/402114/fed-input-master-account",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Ripple",
     "initiative": "Ripple CLO Alderoty says Clarity Act unlocks $2T market",
     "description": "The Senate Banking Committee advanced the Clarity Act 15-9 on May 14, a bipartisan result that lifts the Digital Asset Market Clarity Act toward… Ripple CLO Alderoty says Clarity Act unlocks $2T market",
@@ -9526,26 +9545,6 @@
       "Trading & Exchange"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Squads raises $18m to build stablecoin operating system",
-    "description": "Squads today announced an $18 million strategic round led by Solana Ventures, with participation from Coinbase Ventures, Haun Ventures, L1D, Collab+Currency, Electric Capital, Placeholder, Jump Crypto, and Robot Ventures, bringing total funding to $42.9M.",
-    "date": "2026-05-07",
-    "source_url": "https://www.finextra.com/pressarticle/109768/squads-raises-18m-to-build-stablecoin-operating-system",
-    "category": "exchanges_intermediaries",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
