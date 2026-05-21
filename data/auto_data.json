@@ -1,5 +1,214 @@
 [
   {
+    "institution": "Societe Generale",
+    "initiative": "flatexDEGIRO and SocGen join Seturion, Boerse Stuttgart’s tokenized securities platform",
+    "description": "Seturion, Boerse Stuttgart Group's European settlement platform for tokenized securities, today announced a strategic partnership with flatexDEGIRO, Societe Generale, and SG-FORGE, on a clear path to expand its network of leading financial institutions across Europe and to advance digital blockchain-based securities settlement.",
+    "date": "2026-05-21",
+    "source_url": "https://www.finextra.com/pressarticle/109919/flatexdegiro-and-socgen-join-seturion-boerse-stuttgarts-tokenized-securities-platform",
+    "category": "global_banks",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "State Street",
+    "initiative": "State Street Investment Management takes minority Stake in German wealth platform getquin",
+    "description": "State Street Investment Management, one of the world’s largest asset managers, has made a strategic minority investment in getquin, a fast‑growing German digital wealth management platform for private investors.",
+    "date": "2026-05-21",
+    "source_url": "https://www.finextra.com/pressarticle/109918/state-street-investment-management-takes-minority-stake-in-german-wealth-platform-getquin",
+    "category": "asset_management",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "ClearBank scales FSCS readiness with Datactics",
+    "description": "ClearBank, the enabler of real-time clearing and embedded banking, has strengthened Financial Services Compensation Scheme (FSCS) compliance through a partnership with data readiness firm Datactics, supporting rapid client onboarding.",
+    "date": "2026-05-21",
+    "source_url": "https://www.finextra.com/pressarticle/109916/clearbank-scales-fscs-readiness-with-datactics",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "PPI develops digital euro operating platform for banks",
+    "description": "The Digital Euro is issued as central bank money, similar to cash. Unlike bank money, which is held in current accounts at the respective commercial banks, the Digital Euro gets ist own accounts managed by the central bank at the DESP (Digital Euro Service Platform).",
+    "date": "2026-05-21",
+    "source_url": "https://www.finextra.com/pressarticle/109915/ppi-develops-digital-euro-operating-platform-for-banks",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "CBDC"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Brian Armstrong says Coinbase AI cut restriction delays by 90%",
+    "description": "Coinbase says AI cut account restriction resolution times by 90%, with humans still checking compliance outcomes.",
+    "date": "2026-05-21",
+    "source_url": "https://crypto.news/brian-armstrong-says-coinbase-ai-cut-restriction-delays-by-90/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "U.S. Treasury Department",
+    "initiative": "U.S. Treasury sanctions crypto wallets tied to Sinaloa Cartel fentanyl network",
+    "description": "Treasury has sanctioned two networks linked to the Sinaloa Cartel over allegations that they used cryptocurrency transactions to move fentanyl trafficking proceeds. According to the U.S. U.S. Treasury sanctions crypto wallets tied to Sinaloa Cartel fentanyl network",
+    "date": "2026-05-21",
+    "source_url": "https://crypto.news/u-s-treasury-sanctions-crypto-wallets-tied-to-sinaloa-cartel-fentanyl-network/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "Ex Silvergate officer says regulatory pressure forced bank shutdown",
+    "description": "Former Silvergate Bank chief risk officer Kate Fraher has publicly challenged the circumstances surrounding her 2024 settlement with the U.S. Securities and Exchange Commission, arguing that regulators never proved the bank’s anti-money laundering controls had failed. Ex Silvergate officer says regulatory pressure forced bank shutdown",
+    "date": "2026-05-21",
+    "source_url": "https://crypto.news/ex-silvergate-officer-says-regulatory-pressure-forced-bank-shutdown/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainalysis",
+    "initiative": "Crypto tax evaders test Ordinals but leave Bitcoin trail: Chainalysis report",
+    "description": "Chainalysis said Italian authorities traced a $1.1m tax evasion case using Bitcoin Ordinals and BRC-20 tokens.",
+    "date": "2026-05-21",
+    "source_url": "https://crypto.news/crypto-tax-evaders-test-ordinals-but-leave-bitcoin-trail-chainalysis-report/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "Nakamoto moves ahead with reverse stock split as Nasdaq deadline nears",
+    "description": "Bitcoin treasury company Nakamoto has moved forward with a 1-for-40 reverse stock split after receiving a Nasdaq warning over its prolonged share price decline. Securities and Exchange Commission, Nasdaq notified the company on… Nakamoto moves ahead with reverse stock split as Nasdaq deadline nears",
+    "date": "2026-05-21",
+    "source_url": "https://crypto.news/nakamoto-moves-ahead-with-reverse-stock-split-as-nasdaq-deadline-nears/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "SpaceX IPO filing exposes bigger Bitcoin bet than expected",
+    "description": "SpaceX disclosed 18,712 Bitcoin in its IPO filing, topping earlier estimates and Tesla’s BTC holdings ahead of its planned Nasdaq debut.",
+    "date": "2026-05-21",
+    "source_url": "https://crypto.news/spacex-ipo-filing-exposes-bigger-bitcoin-bet-than-expected/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "SEC holds back prediction market ETFs pending public feedback",
+    "description": "Securities and Exchange Commission has delayed several proposed prediction market exchange-traded funds as regulators weigh how event-based contracts should fit within the existing ETF framework. According to a statement released Wednesday, SEC Chair Paul Atkins said the agency… SEC holds back prediction market ETFs pending public feedback",
+    "date": "2026-05-21",
+    "source_url": "https://crypto.news/sec-holds-back-prediction-market-etfs-pending-public-feedback/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "Coinbase USDF launch gives Flipcash a stablecoin edge",
     "description": "Coinbase launched Flipcash’s USDF on Solana, backed 1:1 by USDC, as branded stablecoin infrastructure grows across payments and apps today.",
@@ -9313,235 +9522,6 @@
       "Trading & Exchange"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Aave to Overhaul Collateral and Listing Standards After $293 Million KelpDAO Exploit",
-    "description": "Aave Labs will add cybersecurity and architecture reviews to its asset listing process following the April KelpDAO bridge exploit, with the goal of setting a new bar for DeFi risk management.",
-    "date": "2026-05-08",
-    "source_url": "https://unchainedcrypto.com/aave-to-overhaul-collateral-and-listing-standards-after-293-million-kelpdao-exploit/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase Reports $394 Million Q1 Loss, Its Second Consecutive Quarterly Miss",
-    "description": "crypto exchange, which announced a 14% workforce reduction earlier in the week. Consumer transaction revenue fell 23% sequentially to $567 million, while institutional revenue declined 27% to $136 million. Coinbase Reports $394 Million Q1 Loss, Its Second Consecutive Quarterly Miss Unchained",
-    "date": "2026-05-08",
-    "source_url": "https://unchainedcrypto.com/coinbase-reports-394-million-q1-loss-its-second-consecutive-quarterly-miss/",
-    "category": "exchanges_intermediaries",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Treasury Privately Demands Binance Comply With 2023 Monitoring Program After $1B Iran Flow Report",
-    "description": "Treasury Department has privately demanded that Binance follow the compliance monitoring program it agreed to as part of its 2023 guilty plea, The Information reported Thursday . The directive marks a sharp shift from the lighter posture regulators had shown the world’s largest exchange in recent months. Treasury Privately Demands Binance Comply With 2023 Monitoring Program After $1B Iran Flow Report Unchained",
-    "date": "2026-05-08",
-    "source_url": "https://unchainedcrypto.com/treasury-privately-demands-binance-comply-with-2023-monitoring-program-after-1b-iran-flow-report/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Canton Network",
-    "initiative": "21Shares TCAN ETF brings Canton Network exposure to U.S. investors",
-    "description": "21Shares launched TCAN on Nasdaq on May 7, 2026, structured as the first U.S.-listed ETF providing exposure to Canton Coin, the native token of Digital Asset's Canton Network, at a 0.50% gross expense ratio. Canton is a privacy-preserving blockchain built specifically for institutional capital markets workflows, with reported participation from Goldman Sachs, Deutsche Bank, DTCC, Visa, and Citadel in testing, validation, or governance roles. The product follows Swiss FINMA-regulated bank AMINA becoming the first regulated lender to offer Canton Coin trading and custody, signaling growing compliant access points to the network.",
-    "date": "2026-05-08",
-    "source_url": "https://crypto.news/21shares-tcan-etf-brings-canton-network-exposure-to-u-s-investors/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "The real reason cross-border payments stay expensive - David Messenger (CEO of Global Businesses, Pingpong Payments)",
-    "description": "David Messenger, CEO of Global Businesses at Pingpong Payments, spoke with the Fintech Wrap Up podcast to address the structural reasons cross-border payments remain costly and operationally complex despite years of fintech innovation. Messenger argues that the friction is rooted in the underlying infrastructure layer rather than surface-level product design, and that global payments rails are evolving into broader business services rather than simple fund transfer mechanisms. For institutional practitioners managing treasury, FX exposure, or supplier payment flows across jurisdictions, the conversation is relevant because it surfaces why cost reduction in correspondent banking and multi-currency settlement has proven stubbornly difficult to achieve at scale.",
-    "date": "2026-05-08",
-    "source_url": "https://www.fintechwrapup.com/p/the-real-reason-cross-border-payments",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "MoonPay",
-    "initiative": "Polygon reduces block time amid stablecoin push",
-    "description": "Polygon implemented its first block-time reduction since launch, cutting average block production to 1.75 seconds under Polygon Improvement Proposal PIP-86, with a second stage targeting 1.5 seconds still pending. Polygon software engineer Lucca Martins stated the change raises theoretical throughput to approximately 3,260 transactions per second, a roughly 14% increase in payment capacity that reduces congestion-related delays and fee spikes. Separately, Polygon integrated with Hinkal to introduce shielded stablecoin transfers verified through zero-knowledge proofs, with Know Your Transaction screening applied before execution and auditable records available for regulators and tax authorities.",
-    "date": "2026-05-08",
-    "source_url": "https://crypto.news/polygon-reduces-block-time-amid-stablecoin-push/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase perps shake-up hits KAITO, CAKE, VET and more",
-    "description": "The affected tokens span several market areas, including AI, DeFi, gaming, infrastructure, and older layer-1 networks.",
-    "date": "2026-05-08",
-    "source_url": "https://crypto.news/coinbase-perps-shake-up-hits-kaito-cake-vet-and-more/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi"
-    ],
-    "year": "2026",
-    "removed": true,
-    "removed_reason": "manual_review_batch50_remove"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase loses $400 million, 1.5 million customers and 14% of staff",
-    "description": "Base also handled over 90% of agentic AI stablecoin volume, thanks in part to Coinbase’s role in developing the x402 agentic payments protocol. Coinbase said its new prediction market offering generated over $100 million in annualized revenue since its launch earlier this year. Coinbase loses $400 million, 1.5 million customers and 14% of staff",
-    "date": "2026-05-08",
-    "source_url": "https://coingeek.com/coinbase-loses-400-million-1-5-million-customers-and-14-of-staff/",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Tether",
-    "initiative": "Tether blacklists 371 wallets after $515M USDT freeze in 30 days",
-    "description": "Over a 30-day period ending May 7, 2026, Tether blacklisted 371 wallet addresses across the Ethereum and Tron networks, with Tron accounting for the overwhelming share — 329 addresses and roughly $506 million of the approximately $515 million total frozen, according to on-chain data from BlockSec's USDT Freeze Tracker. A significant portion of the enforcement action was linked to the alleged DSJ Exchange and BG Wealth Sharing Ponzi scheme, where on-chain investigator ZachXBT coordinated with Tether, Binance Security, OKX, and U.S. law enforcement to freeze $38.4 million in USDT on May 4 following over $92 million in cross-chain fund movements. The activity extends a broader enforcement pattern in which Tether has also frozen $344 million tied to Iran's IRGC as part of U.S.",
-    "date": "2026-05-08",
-    "source_url": "https://crypto.news/tether-blacklists-371-wallets-after-515m-usdt-freeze-in-30-days/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase stock falls as Q1 loss hits nearly $400M",
-    "description": "Coinbase reported a net loss of $394.1 million for Q1 2026, its second consecutive quarterly loss, reversing a $65.6 million profit from the same period a year earlier. Total revenue fell to $1.41 billion from $2.03 billion, driven by a sharp drop in transaction revenue as global crypto spot trading volume declined 44% quarter-over-quarter and the exchange's own trading volume fell from $401 billion to $202 billion. Consumer transaction revenue dropped 48%, while institutional transaction revenue grew 37% — aided by derivatives activity and the Deribit acquisition — but was insufficient to offset the broader weakness.",
-    "date": "2026-05-08",
-    "source_url": "https://crypto.news/coinbase-stock-falls-as-q1-loss-hits-nearly-400m/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "U.S. Treasury Department",
-    "initiative": "U.S. scrutiny grows as Binance defends compliance work",
-    "description": "Department of the Treasury reportedly sent Binance a private letter pressing the exchange on compliance with its 2023 settlement duties.",
-    "date": "2026-05-08",
-    "source_url": "https://crypto.news/u-s-scrutiny-grows-as-binance-defends-compliance-work/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
