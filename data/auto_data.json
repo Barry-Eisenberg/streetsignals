@@ -9459,21 +9459,22 @@
     "year": "2026"
   },
   {
-    "institution": "Finextra",
-    "initiative": "Intentional and Intersectional: Servicing A Modern Payments Journey",
-    "description": "Taking time away from the Diebold Nixdorf Intersect Cannes event, Sekou Kaaland, SEVP, Head of Branch and Small Business Banking, U.S. Bank spoke to FinextraTV about the complex balance needed to service customers today. Firstly, Kaaland discussed how the industry defaults to often to believing the customer needs a new innovation immediately and that speed does not always equal sufficient delivery. Kaaland advised that the industry should be focused on being more intentional and heightening their KYC operation, with the understanding that they should also approach consumers as intersectional: Retail consumers can become SMB owners, and SMB owners can become Retail consumers.",
+    "institution": "Fintech Wrap Up",
+    "initiative": "The real reason cross-border payments stay expensive - David Messenger (CEO of Global Businesses, Pingpong Payments)",
+    "description": "In this episode of the WRAP UP Podcast, I sit down with David Messenger, CEO of Global Businesses at Pingpong Payments, to unpack what really happens behind cross-border payments and why moving money globally is still far more complex than most businesses realize.",
     "date": "2026-05-08",
-    "source_url": "https://www.finextra.com/videoarticle/3494/intentional-and-intersectional-servicing-a-modern-payments-journey",
+    "source_url": "https://www.fintechwrapup.com/p/the-real-reason-cross-border-payments",
     "category": "ecosystem",
-    "source_name": "Finextra",
+    "source_name": "Fintech Wrap Up",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
+    "signal_type": "Strategic Initiative",
     "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
+      "Payments & Transfers"
     ],
-    "initiative_types": [],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
     "year": "2026"
   }
 ]
