@@ -1,5 +1,43 @@
 [
   {
+    "institution": "BlackRock",
+    "initiative": "The $6 billion expiration countdown: Traders pile into $82,000 bitcoin calls ahead of May 29 expiry",
+    "description": "Deribit’s bitcoin open interest has overtaken BlackRock’s IBIT as traders brace for a showdown between $75K max pain and $80K call positioning.",
+    "date": "2026-05-21",
+    "source_url": "https://www.coindesk.com/markets/2026/05/21/bitcoin-caught-between-usd75-000-max-pain-and-usd80-000-call-wall-ahead-of-usd6-25-billion-expiry",
+    "category": "asset_management",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Federal Reserve Proposes Limited “Payment Accounts” Long Pursued by Crypto Firms",
+    "description": "The Fed proposed a new \"payment account\" for non-bank financial institutions one day after Trump's executive order, with no intraday credit, no discount window, and automated overdraft controls.",
+    "date": "2026-05-21",
+    "source_url": "https://unchainedcrypto.com/federal-reserve-proposes-limited-payment-accounts-long-pursued-by-crypto-firms/",
+    "category": "regulators",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Societe Generale",
     "initiative": "flatexDEGIRO and SocGen join Seturion, Boerse Stuttgart’s tokenized securities platform",
     "description": "Seturion, Boerse Stuttgart Group's European settlement platform for tokenized securities, today announced a strategic partnership with flatexDEGIRO, Societe Generale, and SG-FORGE, on a clear path to expand its network of leading financial institutions across Europe and to advance digital blockchain-based securities settlement.",
@@ -8816,6 +8854,25 @@
     "year": "2026"
   },
   {
+    "institution": "Fintech Wrap Up",
+    "initiative": "The real reason cross-border payments stay expensive - David Messenger (CEO of Global Businesses, Pingpong Payments)",
+    "description": "In this episode of the WRAP UP Podcast, I sit down with David Messenger, CEO of Global Businesses at Pingpong Payments, to unpack what really happens behind cross-border payments and why moving money globally is still far more complex than most businesses realize.",
+    "date": "2026-05-08",
+    "source_url": "https://www.fintechwrapup.com/p/the-real-reason-cross-border-payments",
+    "category": "ecosystem",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ECB (European Central Bank)",
     "initiative": "ECB president Lagarde questions case for euro stablecoins",
     "description": "European Central Bank president Christine Lagarde has poured cold water on euro-denominated stablecoins, arguing that they are not an effective way of strengthening the currency's international appeal.",
@@ -9463,65 +9520,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "ECB (European Central Bank)",
-    "initiative": "ECB’s Lagarde flags euro-denominated stablecoins as financial stability risk, diverging from Bundesbank stance",
-    "description": "She also referenced an ECB working paper from March that warned widespread stablecoin adoption would pose major risks to euro-area banks and the institution's monetary sovereignty, particularly when linked to foreign currencies. Operating under a Netherlands-based joint venture called Qivalis, the group is targeting a commercial launch of a MiCA-regulated, euro-denominated stablecoin in the second half of 2026. ECB's Lagarde flags euro-denominated stablecoins as financial stability risk, diverging from Bundesbank stance | The Block",
-    "date": "2026-05-08",
-    "source_url": "https://www.theblock.co/post/400548/ecbs-lagarde-flags-euro-denominated-stablecoins-as-financial-stability-risk-diverging-from-bundesbank-stance",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "ECB (European Central Bank)",
-    "initiative": "ECB chief Christine Lagarde raises fresh concerns over euro stablecoins",
-    "description": "Speaking at the Banco de España LatAm Economic Forum in Madrid, ECB President Christine Lagarde argued that privately issued euro-denominated stablecoins pose material risks to monetary policy transmission, bank deposit stability, and financial system resilience in the euro area — explicitly rejecting calls from Bundesbank President Joachim Nagel and several European banks already building MiCA-compliant products. She cited the 2023 Silicon Valley Bank episode and USDC's de-peg as evidence that large-scale deposit migration into stablecoins could impair commercial bank lending and complicate the ECB's policy toolkit.",
-    "date": "2026-05-08",
-    "source_url": "https://crypto.news/ecb-chief-christine-lagarde-raises-fresh-concerns-over-euro-stablecoins/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase resumes trading after hours of AWS-linked disruption",
-    "description": "Exodus launches non-custodial payments as it expands beyond core wallet product Dec 09, 2025, 9:30AM EST • Infrastructure © 2026 the block. The exchange had temporarily disabled market and limit orders, while Solana and ALEO transfers experienced delays before it began phased trading restoration. Coinbase resumes trading after hours of AWS-linked disruption | The Block",
-    "date": "2026-05-08",
-    "source_url": "https://www.theblock.co/post/400536/coinbase-resumes-trading-after-aws-linked-disruption",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
