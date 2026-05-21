@@ -1,5 +1,47 @@
 [
   {
+    "institution": "BlackRock",
+    "initiative": "Deribit Bitcoin options top BlackRock IBIT at $31.3B",
+    "description": "The reversal comes… Deribit Bitcoin options top BlackRock IBIT at $31.3B",
+    "date": "2026-05-21",
+    "source_url": "https://crypto.news/bitcoin-options-hit-31-3b-on-deribit-ahead-of-may-29/",
+    "category": "asset_management",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Ethereum sees 3 firms test HKDAP stablecoin",
+    "description": "The transfer of Hong Kong’s HKD-backed stablecoin on Ethereum (ETH) demonstrates the regulator’s willingness to adopt innovative DeFi tooling. According… Ethereum sees 3 firms test HKDAP stablecoin",
+    "date": "2026-05-21",
+    "source_url": "https://crypto.news/ethereum-sees-3-firms-test-hkdap-stablecoin/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "JPMorgan",
     "initiative": "JPMorgan says tokenized money market funds unlikely to grow beyond 15% of stablecoin market",
     "description": "Tokenized money market funds offer yield but still account for only around 5% of the stablecoin market, JPMorgan analysts said.",
@@ -9417,61 +9459,21 @@
     "year": "2026"
   },
   {
-    "institution": "Fintech Wrap Up",
-    "initiative": "The real reason cross-border payments stay expensive - David Messenger (CEO of Global Businesses, Pingpong Payments)",
-    "description": "In this episode of the WRAP UP Podcast, I sit down with David Messenger, CEO of Global Businesses at Pingpong Payments, to unpack what really happens behind cross-border payments and why moving money globally is still far more complex than most businesses realize.",
+    "institution": "Finextra",
+    "initiative": "Intentional and Intersectional: Servicing A Modern Payments Journey",
+    "description": "Taking time away from the Diebold Nixdorf Intersect Cannes event, Sekou Kaaland, SEVP, Head of Branch and Small Business Banking, U.S. Bank spoke to FinextraTV about the complex balance needed to service customers today. Firstly, Kaaland discussed how the industry defaults to often to believing the customer needs a new innovation immediately and that speed does not always equal sufficient delivery. Kaaland advised that the industry should be focused on being more intentional and heightening their KYC operation, with the understanding that they should also approach consumers as intersectional: Retail consumers can become SMB owners, and SMB owners can become Retail consumers.",
     "date": "2026-05-08",
-    "source_url": "https://www.fintechwrapup.com/p/the-real-reason-cross-border-payments",
+    "source_url": "https://www.finextra.com/videoarticle/3494/intentional-and-intersectional-servicing-a-modern-payments-journey",
     "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
+    "source_name": "Finextra",
     "auto_generated": true,
     "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
+    "signal_type": "Product Launch",
     "fmi_areas": [
-      "Payments & Transfers"
+      "Payments & Transfers",
+      "Regulation & Compliance"
     ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "ECB (European Central Bank)",
-    "initiative": "ECB president Lagarde questions case for euro stablecoins",
-    "description": "European Central Bank president Christine Lagarde has poured cold water on euro-denominated stablecoins, arguing that they are not an effective way of strengthening the currency's international appeal.",
-    "date": "2026-05-08",
-    "source_url": "https://www.finextra.com/newsarticle/47725/ecb-president-lagarde-questions-case-for-euro-stablecoins",
-    "category": "regulators",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase hit by 7-hour outage",
-    "description": "Coinbase has blamed an issue at an Amazon Web Services data centre for a seven-hour outage at the cryptocurrency exchange.",
-    "date": "2026-05-08",
-    "source_url": "https://www.finextra.com/newsarticle/47723/coinbase-hit-by-7-hour-outage",
-    "category": "exchanges_intermediaries",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
+    "initiative_types": [],
     "year": "2026"
   }
 ]
