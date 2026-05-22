@@ -1,5 +1,41 @@
 [
   {
+    "institution": "Santander",
+    "initiative": "Getnet Turns Six, Reaches Profitability, and Eyes Global Expansion",
+    "description": "Hey Payments Fanatic! Getnet’s growth story shows just how fast Argentina’s payments market has evolved since opening up in 2019. In only six years, the Santander-backed company has grown to more than 200,000 merchants and reached profitability before its sixth anniversary — a rare milestone",
+    "date": "2026-05-22",
+    "source_url": "https://www.connectingthedotsinpayments.com/getnet-turns-six-reaches-profitability-and-eyes-global-expansion/",
+    "category": "global_banks",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "Why did Harvard dump its Ethereum ETF after one quarter?",
+    "description": "Harvard exited its $87M Ethereum ETF stake in Q1 and cut Bitcoin ETF holdings, SEC filings show, as ETH faces market and EF pressure in May.",
+    "date": "2026-05-22",
+    "source_url": "https://crypto.news/why-did-harvard-dump-its-ethereum-etf-after-one-quarter/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Franklin Templeton",
     "initiative": "Franklin Templeton taps DigiFT to distribute BENJI tokenized MMF in Asia",
     "description": "Franklin Templeton has partnered with Singapore based DigiFT to distribute its BENJI tokenized money market funds to accredited and institutional investors across Asia. DigiFT holds Capital Markets Services and Recognised Market Operator licenses from the Monetary Authority of Singapore (MAS). The BENJI platform is Franklin Templeton’s anchor blockchain offering, with a market capitalization exceeding $800",
@@ -9413,52 +9449,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Bank of England",
-    "initiative": "BoE’s Bailey warns of looming ‘wrestle’ with US over stablecoin rules, flags run risk for UK",
-    "description": "In July 2025, he warned the world's largest banks against issuing their own stablecoins, urging them to pursue tokenized deposits instead. Exodus launches non-custodial payments as it expands beyond core wallet product Dec 09, 2025, 9:30AM EST • Infrastructure © 2026 the block. BoE's Bailey warns of looming 'wrestle' with US over stablecoin rules, flags run risk for UK | The Block",
-    "date": "2026-05-09",
-    "source_url": "https://www.theblock.co/post/400639/boes-bailey-warns-of-looming-wrestle-with-us-over-stablecoin-rules-flags-run-risk-for-uk",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "MoonPay",
-    "initiative": "MoonPay says stablecoin regulation opened the door but infrastructure must follow",
-    "description": "At Consensus Miami 2026, senior executives from MoonPay, Ripple, and Paxos acknowledged that the passage of the GENIUS Act has meaningfully lowered the compliance barrier for traditional financial institutions entering the stablecoin market, but argued that regulatory clarity has now exposed a second layer of structural problems. MoonPay's Richard Harrison framed the gap as an infrastructure deficit — existing payment rails cannot yet connect stablecoin settlement to everyday consumer transactions such as rent or point-of-sale purchases.",
-    "date": "2026-05-09",
-    "source_url": "https://crypto.news/stablecoin-execs-warn-on-hard-part-ahead/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
