@@ -1,5 +1,77 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Polymarket eyes Japan market entry, appoints regional representative: Bloomberg",
+    "description": "The prediction markets platform aims to secure regulatory authorization to operate in Japan by 2030, according to Bloomberg.",
+    "date": "2026-05-22",
+    "source_url": "https://www.theblock.co/post/402309/polymarket-japan-market-entry",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "SEC Commissioner cools hype around “innovation exemption” for stocks",
+    "description": "Securities and Exchange Commission Commissioner Hester Peirce has pushed back against expectations that the agency could soon open the door to unrestricted tokenized stock trading through a proposed “innovation exemption.” According to comments Peirce posted on X on Thursday,… SEC Commissioner cools hype around “innovation exemption” for stocks",
+    "date": "2026-05-22",
+    "source_url": "https://crypto.news/sec-commissioner-cools-hype-around-innovation-exemption-for-stocks/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Binance CEO pushes back on WSJ sanctions report",
+    "description": "Binance CEO Richard Teng denied WSJ sanctions claims, saying the exchange blocks sanctioned users and runs a growing compliance program now.",
+    "date": "2026-05-22",
+    "source_url": "https://crypto.news/binance-ceo-pushes-back-on-wsj-sanctions-report/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Is Bitcoin at risk as Coinbase premium hits monthly low?",
+    "description": "Bitcoin’s Coinbase premium has fallen to its lowest level this month, adding to signs that institutional investors in the U.S. have continued selling the flagship crypto while spot demand weakens. Is Bitcoin at risk as Coinbase premium hits monthly low?",
+    "date": "2026-05-22",
+    "source_url": "https://crypto.news/is-bitcoin-at-risk-as-coinbase-premium-hits-monthly-low/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Santander",
     "initiative": "Getnet Turns Six, Reaches Profitability, and Eyes Global Expansion",
     "description": "Hey Payments Fanatic! Getnet’s growth story shows just how fast Argentina’s payments market has evolved since opening up in 2019. In only six years, the Santander-backed company has grown to more than 200,000 merchants and reached profitability before its sixth anniversary — a rare milestone",
@@ -9365,91 +9437,5 @@
     "year": "2026",
     "signal_score": "",
     "tier": ""
-  },
-  {
-    "institution": "PayPal",
-    "initiative": "Agentic commerce will run on crypto rails, PayPal and Google reps tell Consensus Miami",
-    "description": "Google Cloud and PayPal used Consensus Miami to jointly advance a concrete infrastructure thesis: because AI agents face both technical and regulatory barriers to holding traditional bank accounts, programmable crypto wallets and stablecoins like PYUSD become the default settlement layer for autonomous commerce. Google has already operationalized this view by launching the Agentic Payments Protocol (AP2), contributing it to the FIDO Foundation with over 120 commercial partners, and extending its Cloud KMS platform to support multi-party cryptocurrency key custody—specifically architecting agents to hold only one shard of a private key to prevent unilateral fund movement.",
-    "date": "2026-05-10",
-    "source_url": "https://www.coindesk.com/business/2026/05/10/agentic-commerce-will-run-on-crypto-rails-paypal-and-google-reps-tell-consensus-miami",
-    "category": "payments",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DeFi",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026",
-    "signal_score": "",
-    "tier": "",
-    "https://www.coindesk.com/business/2026/05/10/agentic-commerce-will-run-on-crypto-rails-paypal-and-google-reps-tell-consensus-miami": "Google Cloud and PayPal used Consensus Miami to jointly advance a concrete infrastructure thesis: because AI agents face both technical and regulatory barriers to holding traditional bank accounts, programmable crypto wallets and stablecoins like PYUSD become the default settlement layer for autonomous commerce. Google has already operationalized this view by launching the Agentic Payments Protocol (AP2), contributing it to the FIDO Foundation with over 120 commercial partners, and extending its Cloud KMS platform to support multi-party cryptocurrency key custody—specifically architecting agents to hold only one shard of a private key to prevent unilateral fund movement."
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Best Crypto Exchange Tokens 2026: BlockchainFX Aims To Challenge Trading Platforms as BNB, CRO and OKB Lead Watchlists",
-    "description": "For investors searching for the best crypto exchange tokens 2026, the key question is whether BFX can capture the same platform-token upside before the wider market has a chance to price it in. BlockchainFX Crypto Presale Targets the Exchange Token Market Before Launch BlockchainFX leads this list because it is entering the exchange-token conversation before public price discovery begins. Best Crypto Exchange Tokens 2026: BlockchainFX Aims To Challenge Trading Platforms as BNB, CRO and OKB Lead Watchlists",
-    "date": "2026-05-10",
-    "source_url": "https://crypto.news/best-crypto-exchange-tokens-2026-blockchainfx-aims-to-challenge-trading-platforms-as-bnb-cro-and-okb-lead-watchlists/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "SEC hint sparks prediction market ETF debate",
-    "description": "“Prediction market ETFs may launch soon” remains a claim to treat with caution because approval still depends on regulators and final product reviews.",
-    "date": "2026-05-10",
-    "source_url": "https://crypto.news/sec-hint-sparks-prediction-market-etf-debate/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Swiss central bank bitcoin reserve push fails over signature shortfall",
-    "description": "The initiative sought to amend Switzerland's constitution, requiring the Swiss National Bank (SNB) to hold BTC alongside gold and foreign-currency reserves.",
-    "date": "2026-05-09",
-    "source_url": "https://www.coindesk.com/business/2026/05/09/swiss-central-bank-bitcoin-reserve-push-fails-over-signature-shortfall",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
   }
 ]
