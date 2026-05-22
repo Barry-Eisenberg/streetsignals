@@ -1,5 +1,63 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "OKX, ICE partner on oil perps as NYSE-parent pressures US regulators to rein in Hyperliquid",
+    "description": "OKX's oil perps contracts will track Intercontinental Exchange's Brent Crude and WTI Crude energy benchmarks.",
+    "date": "2026-05-22",
+    "source_url": "https://www.theblock.co/post/402382/okx-ice-partner-oil-commodity-perps",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "CLARITY Act will end crypto regulatory ambiguity says Senator Lummis",
+    "description": "Senator Cynthia Lummis says the CLARITY Act is designed to end the regulatory ambiguity that has dogged American crypto consumers and the digital asset industry for years by clearly defining how tokens and market participants are treated under United States… CLARITY Act will end crypto regulatory ambiguity says Senator Lummis",
+    "date": "2026-05-22",
+    "source_url": "https://crypto.news/clarity-act-will-end-crypto-regulatory-ambiguity-says-senator-lummis/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Anchorage Digital",
+    "initiative": "CADD stablecoin gains Anchorage Digital custody",
+    "description": "Tetra Digital Group’s CADD, Canada’s first regulated Canadian dollar stablecoin issued by a financial institution, can now be custodied by Anchorage Digital for institutional clients. As of May 22, institutions can now hold CADD through Anchorage Digital, a federally chartered… CADD stablecoin gains Anchorage Digital custody",
+    "date": "2026-05-22",
+    "source_url": "https://crypto.news/cadd-stablecoin-gains-anchorage-digital-custody/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA (European Securities and Markets Authority)",
     "initiative": "ESMA identifies areas for further supervisory convergence on compliance and internal audit in the funds sector",
     "description": "The EU-wide review found that most fund managers comply with key requirements under the AIFMD and UCITS framework. The report also sets out examples of good and poor practices identified across the compliance and internal audit functions, highlighting where controls were effective and where further strengthening is needed. ESMA identifies areas for further supervisory convergence on compliance and internal audit in the funds sector",
@@ -9367,65 +9425,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinShares",
-    "initiative": "Global crypto funds log $858M inflows in sixth straight positive week as Clarity Act progress lifts sentiment: CoinShares",
-    "description": "Crypto fund inflows hit a sixth straight positive week, led by U.S. products and bitcoin ETFs, amid Clarity Act optimism, per CoinShares.",
-    "date": "2026-05-11",
-    "source_url": "https://www.theblock.co/post/400688/global-crypto-funds-log-858m-inflows-in-sixth-straight-positive-week-as-clarity-act-progress-lifts-sentiment-coinshares",
-    "category": "asset_management",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Crypto.com receives UAE license tied to Dubai government crypto payments",
-    "description": "Crypto.com's UAE entity became the first VASP to receive a UAE central bank SVF license tied to Dubai government crypto payment services.",
-    "date": "2026-05-11",
-    "source_url": "https://www.theblock.co/post/400687/crypto-com-receives-uae-license-tied-to-dubai-government-crypto-payments",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BlackRock",
-    "initiative": "BlackRock Files for Two New Tokenized Money-Market Funds Targeting Stablecoin Capital",
-    "description": "BlackRock filed two SEC applications to expand its onchain lineup, including a new stablecoin reserve vehicle and a tokenized share class for a $6.1 billion money-market fund.",
-    "date": "2026-05-11",
-    "source_url": "https://unchainedcrypto.com/blackrock-files-for-two-new-tokenized-money-market-funds-targeting-stablecoin-capital/",
-    "category": "asset_management",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
   }
