@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Franklin Templeton",
+    "initiative": "Franklin Templeton taps DigiFT to distribute BENJI tokenized MMF in Asia",
+    "description": "Franklin Templeton has partnered with Singapore based DigiFT to distribute its BENJI tokenized money market funds to accredited and institutional investors across Asia. DigiFT holds Capital Markets Services and Recognised Market Operator licenses from the Monetary Authority of Singapore (MAS). The BENJI platform is Franklin Templeton’s anchor blockchain offering, with a market capitalization exceeding $800",
+    "date": "2026-05-21",
+    "source_url": "https://www.ledgerinsights.com/franklin-templeton-taps-digift-to-distribute-benji-tokenized-mmf-in-asia/",
+    "category": "asset_management",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "Coinbase introduces thematic perps tracking China, AI and US national security equity indexes",
     "description": "The contracts are based on MarketVector’s existing AI, defense and China indexes that track the 10 largest companies per sector.",
@@ -9440,27 +9459,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "US banks reject CLARITY Act stablecoin deal days before Senate vote",
-    "description": "Five major U.S. banking trade groups — including the American Bankers Association and the Bank Policy Institute — issued a joint statement rejecting the stablecoin yield compromise language crafted by Senators Thom Tillis and Angela Alsobrooks, just days ahead of the Senate Banking Committee's scheduled May 14 markup of the CLARITY Act. The coalition argues that Section 404 of the bill still allows crypto platforms to pay rewards tied to balances and holding duration, which they contend is functionally equivalent to deposit interest and could divert significant funding away from traditional bank lending.",
-    "date": "2026-05-09",
-    "source_url": "https://crypto.news/banks-try-to-kill-the-clarity-act/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
