@@ -1,5 +1,64 @@
 [
   {
+    "institution": "Societe Generale",
+    "initiative": "Boerse Stuttgart and SocGen partner for digital securities settlement platform",
+    "description": "Seturion, Boerse Stuttgart Group's European settlement platform for tokenized securities, today announced a strategic partnership with flatexDEGIRO, Societe Generale, and SG-FORGE, on a clear path to expand its network of leading financial institutions across Europe and to advance digital blockchain-based securities settlement.",
+    "date": "2026-05-22",
+    "source_url": "https://www.finextra.com/pressarticle/109928/boerse-stuttgart-and-socgen-partner-for-digital-securities-settlement-platform",
+    "category": "global_banks",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Visa",
+    "initiative": "Stablecoins are quietly becoming the internet’s money",
+    "description": "Real-world stablecoin payments doubled to $400 billion. In 2025, stablecoins settled more transactions than Visa. Stablecoins are quietly becoming the internet’s money",
+    "date": "2026-05-22",
+    "source_url": "https://crypto.news/stablecoins-are-quietly-becoming-the-internets-money/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Digital Asset Exchange",
+    "initiative": "Bitget joins SpaceX pre-IPO trading race with 5x perps",
+    "description": "Bitget launched SPCXUSDT, a SpaceX-linked pre-IPO perpetual with 5x leverage, as crypto venues race to price the possible IPO early now.",
+    "date": "2026-05-22",
+    "source_url": "https://crypto.news/bitget-joins-spacex-pre-ipo-trading-race-with-5x-perps/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinGeek",
     "initiative": "Trump calls for crypto bank access, GOP demands PAC loyalty",
     "description": "The Senate Banking Committee advances the CLARITY Act for cryptocurrency regulation, but the U.S. Congress faces a tight schedule before summer break.",
@@ -9361,63 +9420,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Nasdaq",
-    "initiative": "Bitcoin, Nasdaq investors are celebrating, while U.S. consumers turn gloomy",
-    "description": "Bitcoin and Nasdaq have rallied sharply, but U.S. consumer sentiment has fallen to historic lows, highlighting a widening Wall Street–Main Street divide.",
-    "date": "2026-05-11",
-    "source_url": "https://www.coindesk.com/markets/2026/05/11/bitcoin-nasdaq-investors-are-celebrating-while-u-s-consumers-are-panicking",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Poland’s PM revives crypto reform after Zondacrypto fallout",
-    "description": "Poland is eyeing a stricter crypto bill after the Zondacrypto exchange fraud and money laundering allegations sparked user withdrawal concerns nationwide",
-    "date": "2026-05-11",
-    "source_url": "https://coingeek.com/poland-pm-revives-crypto-reform-after-zondacrypto-fallout/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Capital B raises $17.8 million to expand bitcoin treasury holdings",
-    "description": "Capital B has raised €15.2 million ($17.8 million) from institutional investors, including Blockstream CEO Adam Back and French asset manager TOBAM. According to Capital B’s May 11 press release, the company issued 23 million shares with attached warrants at €0.66… Capital B raises $17.8 million to expand bitcoin treasury holdings",
-    "date": "2026-05-11",
-    "source_url": "https://crypto.news/capital-b-raises-17-8-million-to-expand-bitcoin-treasury-holdings/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
