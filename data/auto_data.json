@@ -1,5 +1,62 @@
 [
   {
+    "institution": "CoinGeek",
+    "initiative": "Trump calls for crypto bank access, GOP demands PAC loyalty",
+    "description": "The Senate Banking Committee advances the CLARITY Act for cryptocurrency regulation, but the U.S. Congress faces a tight schedule before summer break.",
+    "date": "2026-05-22",
+    "source_url": "https://coingeek.com/trump-calls-for-crypto-bank-access-gop-demands-pac-loyalty/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Standard Chartered",
+    "initiative": "Standard Chartered backtracks on 'lower value human capital' comments",
+    "description": "The boss of British bank Standard Chartered has been forced to clarify comments he made when announcing the loss of 7,800 jobs which are set to be replaced by AI.",
+    "date": "2026-05-22",
+    "source_url": "https://www.finextra.com/newsarticle/47797/standard-chartered-backtracks-on-lower-value-human-capital-comments",
+    "category": "global_banks",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Bipartisan ARMA Bill Would Enshrine Trump’s Strategic Bitcoin Reserve Into Permanent Law",
+    "description": "The American Reserve Modernization Act would codify the Strategic Bitcoin Reserve with a 20-year hold mandate, Proof of Reserve reporting, and a property-rights clause protecting self-custody.",
+    "date": "2026-05-22",
+    "source_url": "https://unchainedcrypto.com/bipartisan-arma-bill-would-enshrine-trumps-strategic-bitcoin-reserve-into-permanent-law/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Collateral & Lending",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Polymarket aims for prediction market approval in Japan by 2030",
     "description": "Mike Eidlin, head of Japan at cryptocurrency exchange Jupiter, is leading Polymarket's efforts, according to reports.",
@@ -9357,69 +9414,6 @@
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "New Fed chair, Base's Azul upgrade, corporate earnings: Crypto Week Ahead",
-    "description": "Senate Banking Committee markup scheduled for the Digital Asset Market Clarity Act of 2025.",
-    "date": "2026-05-11",
-    "source_url": "https://www.coindesk.com/markets/2026/05/11/new-fed-chair-base-s-azul-upgrade-corporate-earnings-crypto-week-ahead",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026",
-    "removed": true,
-    "removed_reason": "manual_review_batch50_remove"
-  },
-  {
-    "institution": "Bank of England",
-    "initiative": "Bank of England’s Andrew Bailey warns stablecoin oversight may become flashpoint with U.S.",
-    "description": "Bank of England Governor Andrew Bailey, speaking at a conference on Friday in his capacity as chair of the Financial Stability Board, cautioned that aligning stablecoin oversight across jurisdictions is likely to produce a significant dispute with the United States, which has been advancing a permissive domestic framework through the GENIUS Act. Bailey specifically flagged that dollar-backed stablecoins may not remain easily redeemable during market stress without routing through crypto exchanges, raising systemic concerns for countries like the UK that could face redemption pressure during a panic. The tension is sharpened by diverging regulatory philosophies: the Bank of England has proposed strict reserve requirements and holding limits for stablecoin issuers, while U.S.",
-    "date": "2026-05-11",
-    "source_url": "https://crypto.news/bank-of-englands-andrew-bailey-warns-stablecoin-oversight-may-become-flashpoint-with-u-s/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Morgan Stanley",
-    "initiative": "Morgan Stanley’s MSBT avoids outflows through the first month of trading",
-    "description": "As crypto.news previously reported , the bank launched a pilot crypto trading service on ETrade on May 6 with a flat 0.5% transaction fee for bitcoin, ether, and solana trades executed through Zerohash infrastructure. Total assets across the category reached $106.6 billion, equal to 6.67% of bitcoin’s market capitalization, while cumulative inflows since launch climbed to $59.3 billion. Morgan Stanley’s MSBT avoids outflows through the first month of trading",
-    "date": "2026-05-11",
-    "source_url": "https://crypto.news/morgan-stanleys-msbt-avoids-outflows-through-the-first-month-of-trading/",
-    "category": "global_banks",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
