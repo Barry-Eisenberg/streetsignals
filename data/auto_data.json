@@ -1,5 +1,22 @@
 [
   {
+    "institution": "Mastercard",
+    "initiative": "Mastercard renews partnership with Egypt's CIB",
+    "description": "Mastercard and CIB, Egypt’s leading and largest private-sector bank, have renewed their partnership to support digital payments innovation and expand access to financial solutions in Egypt.",
+    "date": "2026-05-22",
+    "source_url": "https://www.finextra.com/pressarticle/109932/mastercard-renews-partnership-with-egypts-cib",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "OKX, ICE partner on oil perps as NYSE-parent pressures US regulators to rein in Hyperliquid",
     "description": "OKX's oil perps contracts will track Intercontinental Exchange's Brent Crude and WTI Crude energy benchmarks.",
@@ -9406,25 +9423,6 @@
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Canton Network",
-    "initiative": "Canton Network’s Digital Asset targets $2 billion valuation in a16z crypto-led raise: Bloomberg",
-    "description": "Sources familiar with the matter told Bloomberg the fundraiser is expected to close in the coming weeks and the final amount might vary.",
-    "date": "2026-05-11",
-    "source_url": "https://www.coindesk.com/business/2026/05/11/canton-network-s-digital-asset-targets-usd2-billion-valuation-in-a16z-crypto-led-raise-bloomberg",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
