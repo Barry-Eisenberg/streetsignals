@@ -1,5 +1,42 @@
 [
   {
+    "institution": "ESMA (European Securities and Markets Authority)",
+    "initiative": "ESMA identifies areas for further supervisory convergence on compliance and internal audit in the funds sector",
+    "description": "The EU-wide review found that most fund managers comply with key requirements under the AIFMD and UCITS framework. The report also sets out examples of good and poor practices identified across the compliance and internal audit functions, highlighting where controls were effective and where further strengthening is needed. ESMA identifies areas for further supervisory convergence on compliance and internal audit in the funds sector",
+    "date": "2026-05-22",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-identifies-areas-further-supervisory-convergence-compliance-and-internal",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Live markets: Bitcoin continues holding pattern near $77,000 ahead of Kevin Warsh taking over at Fed",
+    "description": "Kevin Warsh is set to be sworn as Fed chairman in a White House ceremony on Friday morning.",
+    "date": "2026-05-22",
+    "source_url": "https://www.coindesk.com/tech/2026/05/22/live-markets-bitcoin-continues-holding-pattern-near-usd77-000-ahead-of-holiday-weekend",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Raqami Islamic Digital Bank granted commercial license by State Bank of Pakistan",
     "description": "Raqami Islamic Digital Bank Limited (RIDBL) has been granted a Digital Retail Banking License by the State Bank of Pakistan for commencement of Commercial Operations, marking a significant milestone as Raqami becomes the first fully digital Shariah-compliant retail bank in Pakistan.",
@@ -9389,42 +9426,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "OCC (Office of the Comptroller of the Currency)",
-    "initiative": "Kraken Parent Payward Files for OCC National Trust Bank Charter",
-    "description": "Payward's OCC application would give the Kraken parent a federal custody franchise as it races toward an IPO and stacks acquisitions.",
-    "date": "2026-05-11",
-    "source_url": "https://unchainedcrypto.com/kraken-parent-payward-files-for-occ-national-trust-bank-charter/",
-    "category": "regulators",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Custody & Safekeeping"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Senate Banking Committee Sets May 14 CLARITY Act Markup as Bank Lobby Mounts Last-Ditch Push",
-    "description": "The Senate Banking Committee will mark up the CLARITY Act Thursday after the largest U.S. banking trade groups formally rejected the stablecoin yield compromise.",
-    "date": "2026-05-11",
-    "source_url": "https://unchainedcrypto.com/senate-banking-committee-sets-may-14-clarity-act-markup-as-bank-lobby-mounts-last-ditch-push/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   }
