@@ -1,5 +1,63 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Polymarket aims for prediction market approval in Japan by 2030",
+    "description": "Mike Eidlin, head of Japan at cryptocurrency exchange Jupiter, is leading Polymarket's efforts, according to reports.",
+    "date": "2026-05-22",
+    "source_url": "https://www.coindesk.com/policy/2026/05/22/polymarket-aims-for-prediction-market-approval-in-japan-by-2030",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Fintech Wrap Up",
+    "initiative": "Banks are still fighting AI fraud with yesterday’s playbook - Tyler Allen (CEO, Unit21)",
+    "description": "In this episode of the WRAP UP Podcast, I speak with Tyler Allen, CEO of Unit21, about why AI agents may become one of the most important tools in the fight against financial crime.",
+    "date": "2026-05-22",
+    "source_url": "https://www.fintechwrapup.com/p/unit21",
+    "category": "ecosystem",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "SEC tokenized stock plan raises exchange revenue fears",
+    "description": "Tokenized stocks could split liquidity and exchange revenue as SEC weighs a new exemption, Tiger Research says, with RWA demand rising fast.",
+    "date": "2026-05-22",
+    "source_url": "https://crypto.news/sec-tokenized-stock-plan-raises-exchange-revenue-fears/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Polymarket eyes Japan market entry, appoints regional representative: Bloomberg",
     "description": "The prediction markets platform aims to secure regulatory authorization to operate in Japan by 2030, according to Bloomberg.",
@@ -9367,75 +9425,5 @@
       "Crypto / Digital Assets"
     ],
     "year": "2026"
-  },
-  {
-    "institution": "Canton Network",
-    "initiative": "Canton Network builder nears $300M raise led by a16z crypto",
-    "description": "Digital Asset Holdings, the firm behind Canton Network, is reportedly closing in on a roughly $300 million funding round at a valuation of approximately $2 billion, with a16z crypto leading the deal, according to Bloomberg. Canton Network is a privacy-preserving blockchain built specifically for regulated financial institutions, supporting tokenized asset settlement and payments in an environment where participants can selectively share transaction data. The raise would be Digital Asset's largest to date and follows a series of earlier rounds backed by Goldman Sachs, Citadel Securities, DTCC, BNY Mellon, and Nasdaq, underscoring sustained engagement from incumbent financial infrastructure providers.",
-    "date": "2026-05-11",
-    "source_url": "https://crypto.news/canton-network-builder-nears-300m-raise-led-by-a16z-crypto/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Morgan Stanley",
-    "initiative": "Morgan Stanley’s bitcoin ETF absorbs $194 million in first month with no net daily outflows",
-    "description": "Exodus launches non-custodial payments as it expands beyond core wallet product Dec 09, 2025, 9:30AM EST • Infrastructure © 2026 the block. MSBT launched on April 8 with what Morgan Stanley's head of digital asset strategy Amy Oldenburg called the bank's strongest-ever ETF debut, logging $30.6 million in net inflows and roughly $34 million in trading volume on day one . Morgan Stanley's bitcoin ETF absorbs $194 million in first month with no net daily outflows | The Block",
-    "date": "2026-05-10",
-    "source_url": "https://www.theblock.co/post/400650/morgan-stanleys-bitcoin-etf-absorbs-194-million-in-first-month-with-no-net-daily-outflows",
-    "category": "global_banks",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026",
-    "signal_score": "",
-    "tier": ""
-  },
-  {
-    "institution": "Canton Network",
-    "initiative": "Canton Network developer Digital Asset eyes $300 million raise at $2 billion valuation, led by a16z crypto: Bloomberg",
-    "description": "Digital Asset Holdings, the firm behind the Canton Network institutional blockchain, is in advanced discussions to raise approximately $300 million at a roughly $2 billion valuation, with the round led by a16z crypto and expected to close within weeks, according to Bloomberg. The raise would be Digital Asset's largest to date, roughly doubling the combined $185 million it raised across two rounds in 2025 backed by Goldman Sachs, Citadel Securities, DTCC, BNY Mellon, Nasdaq, and S&P Global.",
-    "date": "2026-05-10",
-    "source_url": "https://www.theblock.co/post/400647/canton-network-developer-digital-asset-eyes-300-million-raise-at-2-billion-valuation-led-by-a16z-crypto-bloomberg",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026",
-    "signal_score": "",
-    "tier": ""
   }
 ]
