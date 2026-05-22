@@ -1,6 +1,23 @@
 [
   {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "SEC delays tokenized asset exemption amid concerns over third-party tokens: Bloomberg Law",
+    "description": "The SEC has delayed its plan for an anticipated exemption that would clarify the agency's stance on tokenized assets, Bloomberg Law reported.",
+    "date": "2026-05-22",
+    "source_url": "https://www.theblock.co/post/402409/sec-delays-tokenized-asset-exemption-third-party-tokens-bloomberg-law",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "SEC Commissioner Peirce counters views that crypto rule will foster synthetic tokens",
     "description": "Hester Peirce, the commissioner behind the SEC's Crypto Task Force, made statements on the unreleased proposal, perhaps tamping down mistaken beliefs.",
     "date": "2026-05-22",
@@ -9405,25 +9422,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BlackRock",
-    "initiative": "Circle raises $222M in Arc token presale at $3B FDV from a16z crypto, BlackRock and others; Q1 revenue up 20%",
-    "description": "Circle raised $222M in an Arc presale at a $3B valuation; BlackRock, Apollo, and a16z invest as Q1 revenue reaches $694M and USDC hits $77B.",
-    "date": "2026-05-11",
-    "source_url": "https://www.theblock.co/post/400709/circle-raises-222m-in-arc-token-presale-at-3b-fdv-from-a16z-crypto-blackrock-and-others-q1-revenue-up-20",
-    "category": "asset_management",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
