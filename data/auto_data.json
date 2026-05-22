@@ -1,5 +1,25 @@
 [
   {
+    "institution": "Ripple",
+    "initiative": "Ripple backs Squid’s $6M round to simplify cross-chain crypto",
+    "description": "Ripple joined a $6M funding round for cross-chain infrastructure platform Squid. Cross-chain platform Squid raised $6 million in strategic funding to build new consumer-facing products that simplify how users move assets across blockchains. Ripple backs Squid’s $6M round to simplify cross-chain crypto",
+    "date": "2026-05-22",
+    "source_url": "https://crypto.news/ripple-backs-squids-6m-cross-chain-round/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
     "description": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
@@ -9406,21 +9426,6 @@
     "fmi_areas": [
       "Collateral & Lending"
     ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Ida Wolden Bache: Policy rate raised to 4.25 percent",
-    "description": "Introductory statement by Ms Ida Wolden Bache, Governor of Norges Bank (Central Bank of Norway), at the press conference following Norway's announcement of the policy rate, Oslo, 7 May 2026.",
-    "date": "2026-05-11",
-    "source_url": "https://www.bis.org/review/r260507f.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
     "initiative_types": [],
     "year": "2026"
   }
