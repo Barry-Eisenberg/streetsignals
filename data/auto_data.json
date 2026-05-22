@@ -1,5 +1,41 @@
 [
   {
+    "institution": "Federal Reserve",
+    "initiative": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
+    "description": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
+    "date": "2026-05-22",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
+    "category": "regulators",
+    "source_name": "Federal Reserve — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Kevin Warsh sworn in as Fed chair with Bitcoin at $77,400",
+    "description": "Kevin Warsh was sworn in as the 17th Federal Reserve chair at a White House ceremony on Friday, becoming the first Fed leader to take… Kevin Warsh sworn in as Fed chair with Bitcoin at $77,400",
+    "date": "2026-05-22",
+    "source_url": "https://crypto.news/kevin-warsh-sworn-in-as-fed-chair-at-white-house/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "SEC delays tokenized asset exemption amid concerns over third-party tokens: Bloomberg Law",
     "description": "The SEC has delayed its plan for an anticipated exemption that would clarify the agency's stance on tokenized assets, Bloomberg Law reported.",
@@ -9386,43 +9422,6 @@
     "signal_type": "Research / Report",
     "fmi_areas": [],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "ECB (European Central Bank)",
-    "initiative": "Claudia Buch: \"The prudential regulation of banks\" - practical implications for European supervision",
-    "description": "Remarks by Prof Claudia Buch, Chair of the Supervisory Board of the European Central Bank, at the conference \"Dewatripont Fest\", roundtable on \"Banking and finance\", Brussels, 6 May 2026.",
-    "date": "2026-05-11",
-    "source_url": "https://www.bis.org/review/r260507a.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BVNK",
-    "initiative": "S&P 500 payments firm Corpay taps BVNK to add stablecoin wallets for global customers",
-    "description": "Corpay partnered with BVNK to add stablecoin wallets and 24/7 settlement across its 800,000-client global payments network.",
-    "date": "2026-05-11",
-    "source_url": "https://www.theblock.co/post/400710/sp-500-payments-firm-corpay-taps-bvnk-to-add-stablecoin-wallets-for-global-customers",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
