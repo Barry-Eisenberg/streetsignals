@@ -1,5 +1,25 @@
 [
   {
+    "institution": "ECB (European Central Bank)",
+    "initiative": "ECB warns EU finance ministers that easing euro stablecoin rules would weaken banks: Reuters",
+    "description": "ECB President Christine Lagarde warned the changes would destabilize bank funding and weaken interest-rate transmission.",
+    "date": "2026-05-23",
+    "source_url": "https://www.theblock.co/post/402427/ecb-warns-eu-finance-ministers-that-easing-euro-stablecoin-rules-would-weaken-banks-reuters",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BlackRock",
     "initiative": "Spot bitcoin ETFs shed $1.26 billion in worst week since late January as ether funds see 10-day outflow streak",
     "description": "BlackRock's IBIT now holds $61.1 billion in net assets against $64.8 billion in cumulative inflows, a difference of roughly $3.7 billion.",
@@ -9413,27 +9433,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "American Bankers Association CEO makes final-hour push for tightened limits on stablecoin rewards ahead of Senate committee vote",
-    "description": "Days before a key Senate committee to vote on crypto legislation, ABA CEO Rob Nichols sent a letter to bank executives.",
-    "date": "2026-05-11",
-    "source_url": "https://www.theblock.co/post/400757/american-bankers-association-ceo-makes-final-hour-push-for-tightened-limits-on-stablecoin-rewards-ahead-of-senate-committee-vote",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
