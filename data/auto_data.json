@@ -1,5 +1,24 @@
 [
   {
+    "institution": "BlackRock",
+    "initiative": "Spot bitcoin ETFs shed $1.26 billion in worst week since late January as ether funds see 10-day outflow streak",
+    "description": "BlackRock's IBIT now holds $61.1 billion in net assets against $64.8 billion in cumulative inflows, a difference of roughly $3.7 billion.",
+    "date": "2026-05-23",
+    "source_url": "https://www.theblock.co/post/402420/spot-bitcoin-etfs-shed-1-26-billion-in-worst-week-since-late-january-as-ether-funds-see-10-day-outflow-streak",
+    "category": "asset_management",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Canton Network",
     "initiative": "Grayscale names 4 Clarity Act winners after 15-9 vote",
     "description": "Grayscale named four blockchains as the top Clarity Act winners in a research note published on May 22. Grayscale published a research note on May 22 identifying Ethereum, Solana, BNB Chain, and Canton Network as the four blockchains best placed… Grayscale names 4 Clarity Act winners after 15-9 vote",
@@ -9415,23 +9434,6 @@
       "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "‘Groundbreaking’ prediction market ETFs launch delayed again as SEC reviews more: analyst",
-    "description": "ETFs would offer investors a way to wager on the outcome of elections and economic events using the publicly-traded financial instruments.",
-    "date": "2026-05-11",
-    "source_url": "https://www.theblock.co/post/400745/groundbreaking-prediction-market-etfs-launch-delayed-again-as-sec-reviews-more-analyst",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
