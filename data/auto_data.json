@@ -1,5 +1,24 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin tanks to $74,300 as spot ETFs bleed $2.26 billion in two weeks",
+    "description": "U.S.-listed spot bitcoin exchange-traded funds have seen more than $2.26 billion in outflows over the past two weeks.",
+    "date": "2026-05-23",
+    "source_url": "https://www.coindesk.com/markets/2026/05/23/bitcoin-tanks-to-usd74-300-as-spot-etfs-bleed-usd2-26-billion-in-two-weeks",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "Bitcoin liquidations hit $320M after SEC stock plan delay",
     "description": "Bitcoin liquidations surpassed $320 million in longs on May 22 after the SEC unexpectedly delayed its tokenized stock plan. The SEC delayed a plan on May 22 to provide broad exemptions for US crypto firms to trade tokenized assets linked… Bitcoin liquidations hit $320M after SEC stock plan delay",
@@ -9412,23 +9431,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "MoonPay",
-    "initiative": "MoonPay buys Dawn Labs, debuts AI trader for prediction markets",
-    "description": "MoonPay buys Dawn Labs and launches Dawn CLI, letting AI agents and traders turn natural‑language prompts into live prediction‑market strategies on Polymarket. MoonPay has moved deeper into AI-driven trading with the acquisition of Dawn Labs and the launch of Dawn… MoonPay buys Dawn Labs, debuts AI trader for prediction markets",
-    "date": "2026-05-11",
-    "source_url": "https://crypto.news/moonpay-buys-dawn-labs-debuts-ai-trader-for-prediction-markets/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
