@@ -1,5 +1,22 @@
 [
   {
+    "institution": "Visa",
+    "initiative": "Deep Dive: Structural Analysis of Visa’s Value-Added Services",
+    "description": "The contemporary payments landscape is defined by the progressive decoupling of software intelligence from proprietary physical transaction rails.",
+    "date": "2026-05-24",
+    "source_url": "https://www.fintechwrapup.com/p/deep-dive-structural-analysis-of",
+    "category": "payments",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "ECB (European Central Bank)",
     "initiative": "ECB warns EU finance ministers that easing euro stablecoin rules would weaken banks: Reuters",
     "description": "ECB President Christine Lagarde warned the changes would destabilize bank funding and weaken interest-rate transmission.",
@@ -9416,23 +9433,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Ripple",
-    "initiative": "Ripple raises $200 million from Neuberger Berman to expand its Ripple Prime platform",
-    "description": "Ripple announced its agreement with the global investment firm Monday, noting that Ripple Prime’s revenue has tripled in the last year, when. it acquired it for $1.25 billion.",
-    "date": "2026-05-11",
-    "source_url": "https://www.coindesk.com/business/2026/05/11/ripple-raises-usd200-million-from-neuberger-berman-to-expand-its-ripple-prime-platform",
-    "category": "payments",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
