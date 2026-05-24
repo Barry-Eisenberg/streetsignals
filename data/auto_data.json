@@ -1,5 +1,44 @@
 [
   {
+    "institution": "Franklin Templeton",
+    "initiative": "Tokenization Is the Real Story. And You’re Probably Missing It.",
+    "description": "RWA tokenization just crossed $29B, with BlackRock, Franklin Templeton, and Ondo leading. Here's why this matters more than any token price chart in crypto",
+    "date": "2026-05-24",
+    "source_url": "https://crypto.news/tokenization-is-the-real-story-and-youre-probably-missing-it/",
+    "category": "asset_management",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "CFTC crypto oversight questioned after officials were pushed out",
+    "description": "NYT says CFTC officials who questioned prediction market firms were suspended as crypto enforcement fell and state legal fights widened.",
+    "date": "2026-05-24",
+    "source_url": "https://crypto.news/cftc-crypto-oversight-questioned-after-officials-were-pushed-out/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "crypto.news",
     "initiative": "Bank of America picks Bitcoin ETF over Ether and Solana in Q1",
     "description": "Bank of America reported $53m in crypto ETF holdings, led by a $37m IBIT stake, while reducing Ether and Solana ETF exposure in a Q1 filing.",
@@ -9398,40 +9437,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "ECB (European Central Bank)",
-    "initiative": "Christine Lagarde: Stablecoins and the future of money - separating functions from instruments",
-    "description": "Speech by Ms Christine Lagarde, President of the European Central Bank, at the Bank of Spain LatAm Economic Forum, Roda de Bará, 8 May 2026.",
-    "date": "2026-05-11",
-    "source_url": "https://www.bis.org/review/r260511d.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "José Luis Escrivá: Capital flows, exchange rates, and geopolitics - the value of trust in a changing global order",
-    "description": "Speech by Mr José Luis Escrivá, Governor of the Bank of Spain, at the Spain LatAm Economic Forum, Roda de Bará, 9 May 2026.",
-    "date": "2026-05-11",
-    "source_url": "https://www.bis.org/review/r260511m.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
