@@ -1,5 +1,24 @@
 [
   {
+    "institution": "crypto.news",
+    "initiative": "Bank of America picks Bitcoin ETF over Ether and Solana in Q1",
+    "description": "Bank of America reported $53m in crypto ETF holdings, led by a $37m IBIT stake, while reducing Ether and Solana ETF exposure in a Q1 filing.",
+    "date": "2026-05-24",
+    "source_url": "https://crypto.news/bank-of-america-picks-bitcoin-etf-over-ether-and-solana-in-q1/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Visa",
     "initiative": "Deep Dive: Structural Analysis of Visa’s Value-Added Services",
     "description": "The contemporary payments landscape is defined by the progressive decoupling of software intelligence from proprietary physical transaction rails.",
@@ -9413,26 +9432,6 @@
     "signal_type": "Research / Report",
     "fmi_areas": [],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BVNK",
-    "initiative": "Corpay taps BVNK to bring stablecoin wallets to corporate payments",
-    "description": "Corpay will use stablecoin rails in its treasury operations to improve capital efficiency, reduce reliance on pre-funded accounts, and move funds across its global footprint.",
-    "date": "2026-05-11",
-    "source_url": "https://www.coindesk.com/business/2026/05/11/corpay-taps-bvnk-to-bring-stablecoin-wallets-to-corporate-payments",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
     "year": "2026"
   }
 ]
