@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Federal Reserve",
+    "initiative": "Crypto and the Fed: State of Crypto",
+    "description": "This past week saw incremental, but potentially important steps.",
+    "date": "2026-05-24",
+    "source_url": "https://www.coindesk.com/policy/2026/05/24/crypto-and-the-fed-state-of-crypto",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Franklin Templeton",
     "initiative": "Tokenization Is the Real Story. And You’re Probably Missing It.",
     "description": "RWA tokenization just crossed $29B, with BlackRock, Franklin Templeton, and Ondo leading. Here's why this matters more than any token price chart in crypto",
@@ -9418,25 +9437,6 @@
       "Trading & Exchange"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "BNY launches bitcoin and ether custody in Abu Dhabi’s ADGM",
-    "description": "BNY plants a digital asset flag in ADGM BNY has announced the launch of institutional digital… BNY launches bitcoin and ether custody in Abu Dhabi’s ADGM",
-    "date": "2026-05-11",
-    "source_url": "https://crypto.news/bny-launches-bitcoin-and-ether-custody-in-abu-dhabis-adgm/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
