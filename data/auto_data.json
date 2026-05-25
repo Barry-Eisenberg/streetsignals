@@ -1,5 +1,105 @@
 [
   {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "Bitcoin options are coming to Nadaq. Here's what it means for you.",
+    "description": "The new offering, pending CFTC approval, aims to democratize seamless crypto risk management",
+    "date": "2026-05-25",
+    "source_url": "https://www.coindesk.com/markets/2026/05/25/bitcoin-options-are-coming-to-nadaq-here-s-what-it-means-for-you",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BlackRock",
+    "initiative": "Tokens are still a sleeping giant",
+    "description": "Stripe, BlackRock push tokenization beyond NFT hype as scalable blockchains like BSV gain traction for real-world finance and commerce.",
+    "date": "2026-05-25",
+    "source_url": "https://coingeek.com/tokens-are-still-a-sleeping-giant/",
+    "category": "asset_management",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "FTX legal adviser Fenwick settles customer lawsuit for $54m",
+    "description": "Fenwick & West has agreed to pay $54 million to settle a class action lawsuit filed by former FTX customers who accused the law firm of helping facilitate fraud at the collapsed cryptocurrency exchange. According to court filings tied to… FTX legal adviser Fenwick settles customer lawsuit for $54m",
+    "date": "2026-05-25",
+    "source_url": "https://crypto.news/ftx-legal-adviser-fenwick-settles-customer-lawsuit-for-54m/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Brian Armstrong says finance must move on-chain or fall behind",
+    "description": "Coinbase CEO Brian Armstrong says finance needs 8 upgrades, including RWA tokenization, stablecoins, AI tools and better regulation.",
+    "date": "2026-05-25",
+    "source_url": "https://crypto.news/brian-armstrong-says-finance-must-move-on-chain-or-fall-behind/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "SEC delays tokenized stock exemption after exchanges raise ownership concerns",
+    "description": "Securities and Exchange Commission has reportedly delayed plans to introduce a proposed exemption for tokenized stock trading after exchanges and market participants raised concerns over investor protections and how blockchain-based ownership would function in practice. According to a… SEC delays tokenized stock exemption after exchanges raise ownership concerns",
+    "date": "2026-05-25",
+    "source_url": "https://crypto.news/sec-delays-tokenized-stock-exemption-after-exchanges-raise-ownership-concerns/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "TD builds AI model to speed up mortgage applications",
     "description": "Canada's TD Bank has launched an agentic AI model that automates and streamlines the application process for mortgages and home equity lines of credit.",
@@ -9336,105 +9436,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BlackRock",
-    "initiative": "BlackRock IBIT leads Bitcoin ETF inflow streak",
-    "description": "US spot Bitcoin ETF products drew $622.75 million last week, their sixth straight week of net inflows. US spot Bitcoin ETF products drew $622.75 million in net inflows during the week of May 4 to 8, extending the streak to… BlackRock IBIT leads Bitcoin ETF inflow streak",
-    "date": "2026-05-11",
-    "source_url": "https://crypto.news/blackrock-ibit-leads-bitcoin-etf-six-week-run/",
-    "category": "asset_management",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Digital Asset Platform",
-    "initiative": "Anchorage steps back from USDG as stablecoin alliances decentralize",
-    "description": "USDG, still issued by Paxos Singapore and regulated by MAS, will remain in market as one of many institutionally backed dollars as regulators, banks and VCs push toward a fragmented, multi‑issuer “economic OS.” Anchorage Digital, the first federally chartered crypto… Anchorage steps back from USDG as stablecoin alliances decentralize",
-    "date": "2026-05-11",
-    "source_url": "https://crypto.news/anchorage-steps-back-from-usdg-as-stablecoin-alliances-decentralize/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Kraken parent Payward seeks fresh funding at $20 billion valuation ahead of potential IPO",
-    "description": "The crypto exchange operator is pursuing a new fundraising round as it ramps up acquisitions across derivatives and stablecoins while laying the groundwork for a future public listing.",
-    "date": "2026-05-11",
-    "source_url": "https://www.coindesk.com/business/2026/05/08/kraken-parent-payward-seeks-fresh-funding-at-usd20-billion-valuation-ahead-of-potential-ipo",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "CryptoQuant rejects dump fears on Bitcoin whale",
-    "description": "A Bitcoin whale dormant since 2013 moved $40 million in BTC on May 10, with analysts ruling out an exchange dump. A long-dormant Bitcoin whale wallet moved about $40 million in BTC on Sunday after more than 12 years of… CryptoQuant rejects dump fears on Bitcoin whale",
-    "date": "2026-05-11",
-    "source_url": "https://crypto.news/cryptoquant-rejects-dump-fears-on-bitcoin-whale/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BlackRock",
-    "initiative": "Circle launches Arc blockchain with BlackRock backing",
-    "description": "Circle has launched the Arc blockchain after raising $222 million in a token presale backed by BlackRock and a16z. Circle Internet Group raised $222 million in the presale of ARC, the native token of its new Arc blockchain, giving the… Circle launches Arc blockchain with BlackRock backing",
-    "date": "2026-05-11",
-    "source_url": "https://crypto.news/circle-launches-arc-blockchain-at-3b-valuation/",
-    "category": "asset_management",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
   }
