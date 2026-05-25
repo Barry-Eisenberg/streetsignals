@@ -1,5 +1,44 @@
 [
   {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "SEC Delays Tokenized Stocks Innovation Exemption Amid Synthetic Token Concerns",
+    "description": "The SEC delayed its innovation exemption for tokenized stocks after pushback from stock exchanges over third-party synthetic tokens, with Commissioner Peirce clarifying scope on X.",
+    "date": "2026-05-25",
+    "source_url": "https://unchainedcrypto.com/sec-delays-tokenized-stocks-innovation-exemption-amid-synthetic-token-concerns/",
+    "category": "regulators",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Dormant Bitcoin whale transfers 2,650 BTC to major crypto trading firms",
+    "description": "A Satoshi-era Bitcoin whale has transferred more than $200 million worth of BTC to crypto trading firms FalconX and Cumberland as exchange inflows and ETF outflows continue drawing attention across the market. According to blockchain analytics provider Onchain Lens, citing… Dormant Bitcoin whale transfers 2,650 BTC to major crypto trading firms",
+    "date": "2026-05-25",
+    "source_url": "https://crypto.news/dormant-bitcoin-whale-transfers-2650-btc-to-major-crypto-trading-firms/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Tether",
     "initiative": "Tether plans GELT stablecoin launch with support from Georgian government",
     "description": "GELT is designed to support cross-border commerce under a Georgian framework aligned with emerging U.S. stablecoin regulations.",
@@ -9404,44 +9443,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Upcoming crypto bill vote shifts fight to full Senate, ‘major obstacles’ remain TD Cowen says",
-    "description": "The Senate Banking Committee is set to vote on the crypto bill, or Clarity Act, on Thursday despite objections from banks and Democrats.",
-    "date": "2026-05-11",
-    "source_url": "https://www.theblock.co/post/400812/crypto-bill-vote-major-obstacles-td-cowen",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "OCC (Office of the Comptroller of the Currency)",
-    "initiative": "Payward charter targets federal crypto bank status",
-    "description": "Kraken’s parent Payward has filed a Payward charter application with the OCC to establish a federally regulated national trust company. Kraken’s parent Payward has filed a Payward charter application with the US Office of the Comptroller of the Currency, proposing… Payward charter targets federal crypto bank status",
-    "date": "2026-05-11",
-    "source_url": "https://crypto.news/payward-files-for-occ-crypto-trust-charter/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
