@@ -1,5 +1,81 @@
 [
   {
+    "institution": "Federal Reserve",
+    "initiative": "PCE, jobless claims and housing data test Fed cut hopes: Crypto Week Ahead",
+    "description": "Your look at what's coming in the week starting May 25.",
+    "date": "2026-05-25",
+    "source_url": "https://www.coindesk.com/markets/2026/05/25/pce-jobless-claims-and-housing-data-test-fed-cut-hopes-crypto-week-ahead",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Mastercard",
+    "initiative": "Mastercard asks Brazilian payment processors to split Will losses",
+    "description": "Mastercard is asking Brazilian payment processors to absorb some of nearly $1 billion in losses connected to the failure of Banco Masters.",
+    "date": "2026-05-25",
+    "source_url": "https://www.finextra.com/newsarticle/47802/mastercard-asks-brazilian-payment-processors-to-split-will-losses",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "The stablecoin yield loophole: Banks vs the CLARITY Act",
+    "description": "The CLARITY Act cleared the Senate Banking Committee 15-9 on May 14, 2026, but the biggest threat to its passage was never the crypto skeptics or the SEC holdouts. It was the American Bankers Association. The stablecoin yield loophole: Banks vs the CLARITY Act",
+    "date": "2026-05-25",
+    "source_url": "https://crypto.news/the-stablecoin-yield-loophole-banks-vs-the-clarity-act/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BlackRock",
+    "initiative": "BlackRock dumps $1B Bitcoin as ETF outflows hit yearly high",
+    "description": "BlackRock has recorded more than $1 billion in Bitcoin sales over the past week as U.S. spot Bitcoin ETFs posted their largest weekly outflow of 2026. BlackRock dumps $1B Bitcoin as ETF outflows hit yearly high",
+    "date": "2026-05-25",
+    "source_url": "https://crypto.news/blackrock-dumps-1b-bitcoin-as-etf-outflows-hit-yearly-high/",
+    "category": "asset_management",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "SEC Delays Tokenized Stocks Innovation Exemption Amid Synthetic Token Concerns",
     "description": "The SEC delayed its innovation exemption for tokenized stocks after pushback from stock exchanges over third-party synthetic tokens, with Commissioner Peirce clarifying scope on X.",
@@ -192,6 +268,24 @@
     "institution_type": "Infrastructure & Technology",
     "signal_type": "Product Launch",
     "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Institutionalizing Trust: The Governance Mandate for AI in Post-Trade Architecture",
+    "description": "The financial services sector has reached a critical inflection point where the novelty of generativ... Institutionalizing Trust: The Governance Mandate for AI in Post-Trade Architecture",
+    "date": "2026-05-24",
+    "source_url": "https://www.finextra.com/blogposting/31813/institutionalizing-trust-the-governance-mandate-for-ai-in-post-trade-architecture",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Settlement & Clearing",
       "Regulation & Compliance"
     ],
     "initiative_types": [],
@@ -9340,109 +9434,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "OCC (Office of the Comptroller of the Currency)",
-    "initiative": "Peter Thiel-backed Augustus wins OCC nod for AI stablecoin bank",
-    "description": "Augustus won conditional OCC approval for a US bank charter focused on AI payments, stablecoin settlement, and programmable clearing.",
-    "date": "2026-05-12",
-    "source_url": "https://crypto.news/peter-thiel-backed-augustus-wins-occ-nod-for-ai-stablecoin-bank/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DeFi",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Circle",
-    "initiative": "Ark Invest buys $5.5 million worth of Circle shares as stock jumps 16% on Q1 earnings",
-    "description": "Circle's shares closed up 15.91% at $131.76 on Monday after the stablecoin issuer disclosed its first-quarter 2026 results.",
-    "date": "2026-05-11",
-    "source_url": "https://www.theblock.co/post/400850/ark-invest-buys-circle-shares-stock-jumps",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Morgan Stanley",
-    "initiative": "Morgan Stanley triggers crypto fee war on exchanges",
-    "description": "Morgan Stanley launched a crypto price war on E*Trade at 50 basis points, undercutting Coinbase and Schwab. Morgan Stanley has launched a crypto trading pilot on its ETrade platform at 50 basis points per trade, immediately undercutting every major retail… Morgan Stanley triggers crypto fee war on exchanges",
-    "date": "2026-05-11",
-    "source_url": "https://crypto.news/morgan-stanley-launches-crypto-price-war-on-etrade/",
-    "category": "global_banks",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BVNK",
-    "initiative": "Corpay launches stablecoin wallets for 800,000 clients",
-    "description": "Corpay (NYSE: CPAY) has announced a partnership with stablecoin infrastructure platform BVNK to provide embedded stablecoin wallets and settlement capabilities to its global client… Corpay launches stablecoin wallets for 800,000 clients",
-    "date": "2026-05-11",
-    "source_url": "https://crypto.news/corpay-adds-stablecoin-wallets-via-bvnk-deal/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Circle",
-    "initiative": "'I don’t think that’s crazy': Here is why Circle is betting on new $3 billion blockchain",
-    "description": "The USDC stablecoin issuer is betting Arc can become Wall Street’s blockchain rail for payments and tokenized finance, though analysts still see it as speculative.",
-    "date": "2026-05-11",
-    "source_url": "https://www.coindesk.com/business/2026/05/11/i-don-t-think-that-s-crazy-here-is-why-circle-is-betting-on-new-usd3-billion-blockchain",
-    "category": "payments",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
   }
