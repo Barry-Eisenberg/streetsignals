@@ -1,5 +1,65 @@
 [
   {
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "The 22-Hour Shadow Tax: What the FCA Sandbox Revealed About UK–Nigeria Payments",
+    "description": "When LemFi announced its £100 million commitment to the UK and its integration of Tether (USDT), the... The 22-Hour Shadow Tax: What the FCA Sandbox Revealed About UK–Nigeria Payments",
+    "date": "2026-05-25",
+    "source_url": "https://www.finextra.com/blogposting/31818/the-22-hour-shadow-tax-what-the-fca-sandbox-revealed-about-uknigeria-payments",
+    "category": "regulators",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "MoonPay",
+    "initiative": "MoonPay ChatGPT app lets users buy Bitcoin and XRP",
+    "description": "MoonPay launched a dedicated app inside ChatGPT’s App Store on May 22, allowing users to generate cryptocurrency purchase links without leaving OpenAI’s chatbot.… MoonPay ChatGPT app is now the first crypto onramp inside OpenAI’s platform, supporting Bitcoin, XRP and Solana. MoonPay ChatGPT app lets users buy Bitcoin and XRP",
+    "date": "2026-05-25",
+    "source_url": "https://crypto.news/moonpay-chatgpt-app-lets-users-buy-bitcoin-and-xrp/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "XRP pre-sale surpasses $10 million, XRP holders are paying close attention to SHRMiner’s free cloud mining service",
+    "description": "According to CNBC, following months of negotiations regarding stablecoin yield rules and decentralized finance (DeFi) regulation, the Digital Asset Market Transparency Act was passed… Regulatory progress and XRP growth fuel interest in cloud mining platforms like SHRMiner among crypto investors. XRP pre-sale surpasses $10 million, XRP holders are paying close attention to SHRMiner’s free cloud mining service",
+    "date": "2026-05-25",
+    "source_url": "https://crypto.news/xrp-pre-sale-surpasses-10-million-xrp-holders-are-paying-close-attention-to-shrminers-free-cloud-mining-service/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "crypto.news",
     "initiative": "Coinhouse becomes one of France’s first fully MiCA licensed crypto providers",
     "description": "Coinhouse has secured Crypto Asset Service Provider accreditation from the French AMF under MiCA, giving the Paris based firm an EU wide passport for brokerage, custody, transfers and advisory on digital assets as France’s national PSAN regime sunsets. Coinhouse becomes one of France’s first fully MiCA licensed crypto providers",
@@ -9384,60 +9444,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "U.S. spot XRP ETFs post strongest inflow day in four months",
-    "description": "spot XRP exchange-traded funds have pulled in their largest daily inflow in roughly four months. recorded combined net inflows of $25.8 million on May 11, the strongest single… U.S. spot XRP ETFs post strongest inflow day in four months",
-    "date": "2026-05-12",
-    "source_url": "https://crypto.news/u-s-spot-xrp-etfs-post-strongest-inflow-day-in-four-months/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Circle",
-    "initiative": "Bernstein backs Circle with $190 target as ARC presale reaches $222 million",
-    "description": "According to a Tuesday client note… Bernstein backs Circle with $190 target as ARC presale reaches $222 million",
-    "date": "2026-05-12",
-    "source_url": "https://crypto.news/bernstein-backs-circle-with-190-target-as-arc-presale-reaches-222-million/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Standard Chartered",
-    "initiative": "Singapore Gulf Bank taps Standard Chartered for digital asset payment corridors",
-    "description": "According to a release shared with crypto.news on Tuesday, the agreement expands the bank’s correspondent… Singapore Gulf Bank taps Standard Chartered for digital asset payment corridors",
-    "date": "2026-05-12",
-    "source_url": "https://crypto.news/singapore-gulf-bank-taps-standard-chartered-for-digital-asset-payment-corridors/",
-    "category": "global_banks",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
