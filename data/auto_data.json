@@ -1,5 +1,47 @@
 [
   {
+    "institution": "Tether",
+    "initiative": "Tether plans GELT stablecoin launch with support from Georgian government",
+    "description": "GELT is designed to support cross-border commerce under a Georgian framework aligned with emerging U.S. stablecoin regulations.",
+    "date": "2026-05-25",
+    "source_url": "https://www.theblock.co/post/402453/tether-gelt-stablecoin-georgian-lari",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Tether",
+    "initiative": "Tether targets Georgia with lari-backed GEL₮ stablecoin launch",
+    "description": "Tether and Georgia plan GEL₮, a lari-backed stablecoin built for faster payments, lower costs, and regulated digital value transfers.",
+    "date": "2026-05-25",
+    "source_url": "https://crypto.news/tether-targets-georgia-with-lari-backed-stablecoin-launch/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CFTC (Commodity Futures Trading Commission)",
     "initiative": "Bitcoin options are coming to Nadaq. Here's what it means for you.",
     "description": "The new offering, pending CFTC approval, aims to democratize seamless crypto risk management",
@@ -9397,42 +9439,6 @@
     "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Base Azul upgrade launches multiproof mainnet push",
-    "description": "Base Azul is set to go live on mainnet May 13, bringing a multiproof security system to the Coinbase Layer 2. Base Azul, described by the network as its first fully independent upgrade, is set to activate on mainnet on… Base Azul upgrade launches multiproof mainnet push",
-    "date": "2026-05-11",
-    "source_url": "https://crypto.news/base-azul-upgrade-targets-may-13-mainnet-launch/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Google Cloud",
-    "initiative": "Google defends crypto rails over bank accounts",
-    "description": "Google and PayPal told Consensus Miami AI agents will run on crypto rails as bank accounts remain inaccessible. Senior figures from Google Cloud and PayPal told Consensus Miami on May 10 that the next wave of internet commerce will run… Google defends crypto rails over bank accounts",
-    "date": "2026-05-11",
-    "source_url": "https://crypto.news/google-and-paypal-back-crypto-rails-for-ai-agents/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
