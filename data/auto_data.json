@@ -1,5 +1,23 @@
 [
   {
+    "institution": "crypto.news",
+    "initiative": "SHIBA INU futures netflow plunges 306% in CoinGlass data",
+    "description": "CoinGlass tracked SHIB futures netflow dropping 306%, with the total value of SHIB leaving derivatives exchange wallets outpacing inflows. SHIB futures netflow plunged 306% as outflows exceeded inflows, according to CoinGlass derivatives data. SHIBA INU futures netflow plunges 306% in CoinGlass data",
+    "date": "2026-05-25",
+    "source_url": "https://crypto.news/shib-futures-flow-falls-306percnt-as-traders-pull-back/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "FCA (Financial Conduct Authority, UK)",
     "initiative": "The 22-Hour Shadow Tax: What the FCA Sandbox Revealed About UK–Nigeria Payments",
     "description": "When LemFi announced its £100 million commitment to the UK and its integration of Tether (USDT), the... The 22-Hour Shadow Tax: What the FCA Sandbox Revealed About UK–Nigeria Payments",
@@ -9425,26 +9443,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Circle",
-    "initiative": "Bernstein maintains $190 Circle price target as $222 million ARC presale cushions rate pressure",
-    "description": "Bernstein maintained its $190 Circle target, citing ARC presale proceeds, USDC growth, and expanding stablecoin payments infrastructure.",
-    "date": "2026-05-12",
-    "source_url": "https://www.theblock.co/post/400872/bernstein-maintains-190-circle-price-target-as-222-million-arc-presale-cushions-rate-pressure",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
     "year": "2026"
   }
 ]
