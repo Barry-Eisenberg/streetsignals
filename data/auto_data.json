@@ -1,5 +1,47 @@
 [
   {
+    "institution": "Tether",
+    "initiative": "Georgia Just Made One of the Boldest Stablecoin Moves by Any Government Yet",
+    "description": "Hey Payments Fanatic! Tether and the Government of Georgia are launching a national stablecoin together. And that’s a much bigger signal than it may sound at first glance. The new GEL₮ stablecoin will represent the Georgian Lari on digital rails, making Georgia one of the first countries",
+    "date": "2026-05-26",
+    "source_url": "https://www.connectingthedotsinpayments.com/georgia-just-made-one-of-the-boldest-stablecoin-moves-by-any-government-yet/",
+    "category": "payments",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "OKX’s X Layer launches Exchange OS, allowing users to create custom crypto markets",
+    "description": "Exchange OS moves core exchange functions, such as matching, margining, liquidation, and settlement, to the protocol layer.",
+    "date": "2026-05-26",
+    "source_url": "https://www.theblock.co/post/402505/okx-x-layer-exchange-os",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA (European Securities and Markets Authority)",
     "initiative": "European Commission launches call for candidates for the ESAs’ Board of Appeal",
     "description": "The Board is responsible for ruling on appeals against certain decisions of the ESAs, in accordance with Article 60 of the ESAs’ regulations. The reserve list will remain valid for a period of five years from the date of its adoption. European Commission launches call for candidates for the ESAs’ Board of Appeal",
@@ -9412,40 +9454,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Michelle W Bowman: When regulation reshapes markets - the migration of corporate lending",
-    "description": "Speech by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the Hoover Institution Annual Monetary Policy Conference, Stanford, California, 8 May 2026.",
-    "date": "2026-05-12",
-    "source_url": "https://www.bis.org/review/r260511h.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Lisa D Cook: Perspectives on tokenization and implications for the financial system",
-    "description": "Speech by Ms Lisa D Cook, Member of the Board of Governors of the Federal Reserve System, at the Central Bank of West African States (BCEAO) Conference on \"Digital assets\", Dakar, Senegal, 8 May 2026.",
-    "date": "2026-05-12",
-    "source_url": "https://www.bis.org/review/r260511f.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
