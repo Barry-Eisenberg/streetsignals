@@ -1,5 +1,44 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "Strive Bitcoin treasury tops 16,500 BTC surpassing Coinbase",
+    "description": "disclosed via an 8-K filing on May 26 that it purchased 1,109 Bitcoin (BTC) between May 19 and May… Strive, Inc. Strive Bitcoin treasury tops 16,500 BTC surpassing Coinbase",
+    "date": "2026-05-26",
+    "source_url": "https://crypto.news/bitcoin-treasury-strive-buys-85-4m-to-beat-coinbase/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "Sharplink joins Russell indexes as Ethereum treasury bet grows",
+    "description": "SharpLink has secured inclusion in the Russell 2000 and Russell 3000 indexes, adding another milestone to the company’s push into Ethereum-based treasury management. According to a report shared by Wu Blockchain, the Nasdaq-listed company, which trades under ticker SBET, will… Sharplink joins Russell indexes as Ethereum treasury bet grows",
+    "date": "2026-05-26",
+    "source_url": "https://crypto.news/sharplink-joins-russell-indexes-as-ethereum-treasury-bet-grows/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "UK sanctions Huobi and ruble stablecoin issuer in crackdown on Russia crypto networks",
     "description": "Britain applied banking-style sanctions to crypto exchanges for the first time, requiring U.K. financial firms to freeze funds and trace transactions.",
@@ -9396,58 +9435,19 @@
     "year": "2026"
   },
   {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board announces termination of enforcement actions with F & M Holding Company, Inc. and Thread Bancorp, Inc.",
-    "description": "Federal Reserve Board announces termination of enforcement actions with F & M Holding Company, Inc. and Thread Bancorp, Inc.",
+    "institution": "Deutsche Bank",
+    "initiative": "Frictionless Checkouts: How Much Invisibility Is Too Much?",
+    "description": "Joining FinextraTV's virtual studio, Rachel Whelan, Managing Director, APAC & MEA Head of Corporate Cash Management & Global Head of Payments & TFX Product Mgmt at Deutsche Bank, explained the particular friction points that make a transaction safe, without being slow. Whelan explains that invisible payments are not about removing friction entirely, but more successfully embedding it into different points. When discussing the changes to what cash management means in a modern world, Whelan explained the importance of transparency, trust and how old processes work with new ones, rather than old vs new.",
     "date": "2026-05-12",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260512a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BVNK",
-    "initiative": "Corpay Partners With BVNK To Add Stablecoin Wallets",
-    "description": "Hey Payments Fanatic! Corpay has partnered with BVNK, the stablecoin infrastructure platform, to bring stablecoin wallets and settlement capabilities to its global corporate customer base. The integration embeds stablecoin balances directly alongside fiat within Corpay's platform , letting businesses send, receive, store, and convert stablecoins without leaving their",
-    "date": "2026-05-12",
-    "source_url": "https://www.connectingthedotsinpayments.com/corpay-partners-with-bvnk-to-add-stablecoin-wallets/",
-    "category": "exchanges_intermediaries",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "What is Demand-Driven Material Requirements Planning and How Does It Help Cash?",
-    "description": "Joining FinextraTV at the Diebold Nixdorf Intersect event in Cannes, Shalima Adam, Product Line, Head of Cash, Supply Chain, Securities and Properties, and Danie Van Den Berg, Divisional Executive, Cash, Properties, Supply Chain, Security and Facilities, Capitec spoke about DDRP (Demand Driven Requirements Planning) and it's benefits for cash usage and efficiency. Adam and Van Den Berg help to define what the term means and why they see it as a sustainable and effective approach to an inclusive aspect of banking that helps protect its existence without threatening bank cash flow.",
-    "date": "2026-05-12",
-    "source_url": "https://www.finextra.com/videoarticle/3496/what-is-demand-driven-material-requirements-planning-and-how-does-it-help-cash",
-    "category": "ecosystem",
+    "source_url": "https://www.finextra.com/videoarticle/3495/frictionless-checkouts-how-much-invisibility-is-too-much",
+    "category": "global_banks",
     "source_name": "Finextra",
     "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
+    "institution_type": "Global Banks",
     "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
-      "General Infrastructure"
+      "Payments & Transfers",
+      "Data & Reporting"
     ],
     "initiative_types": [],
     "year": "2026"
