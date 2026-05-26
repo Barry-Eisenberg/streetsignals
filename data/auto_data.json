@@ -1,5 +1,300 @@
 [
   {
+    "institution": "ECB (European Central Bank)",
+    "initiative": "Disciplining digital risk: evidence from cyber stress tests",
+    "description": "by Nordine Abidi, Leonardo Gambacorta, Christoffer Kok, Leonardo Madio, Ixart Miquel-Flores, Alberto Partida Investment in cybersecurity in an interconnected banking system has public-good properties: positive externalities can generate systemic underinvestment. Using confidential supervisory data from the European Central Bank, we first identify \"laggard\" European banks that underinvest relative to their cyber-risk profiles, and then examine how supervisory scrutiny affects their incentives to invest.",
+    "date": "2026-05-26",
+    "source_url": "https://www.bis.org/publ/work1351.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Interoperability & Standards",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "Bitcoin risks another lower high as stocks rally, AI tokens outperform",
+    "description": "The bitcoin price chart is forming a potential lower high while ether languishes in a months-old range even as S&P 500 and Nasdaq 100 index futures push higher.",
+    "date": "2026-05-26",
+    "source_url": "https://www.coindesk.com/markets/2026/05/26/bitcoin-risks-another-lower-high-as-stocks-rally-ai-tokens-outperform",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "CFTC purged staff who raised crypto, prediction market concerns",
+    "description": "The CFTC is facing scrutiny over reported favoritism shown to crypto and prediction markets with ties to the family of U.S. President Donald Trump.",
+    "date": "2026-05-26",
+    "source_url": "https://coingeek.com/cftc-purged-staff-who-raised-crypto-prediction-market-concerns/",
+    "category": "regulators",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Circle",
+    "initiative": "Circle co-founder raises $30m for agentic finance startup Catena",
+    "description": "Agentic finance startup Catena Labs has raised $30 million in Series A financing and applied for a national trust bank charter.",
+    "date": "2026-05-26",
+    "source_url": "https://www.finextra.com/newsarticle/47809/circle-co-founder-raises-30m-for-agentic-finance-startup-catena",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Tether",
+    "initiative": "Tether to build national stablecoin for Georgian Government",
+    "description": "Tether has been commissioned by the Government of Georgia to develop GEL₮, a stablecoin representing the Georgian Lari.",
+    "date": "2026-05-26",
+    "source_url": "https://www.finextra.com/newsarticle/47808/tether-to-build-national-stablecoin-for-georgian-government",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "UK Government commissions review into bank branch closures",
+    "description": "The UK Government has commissioned an independent review to examine the impact of bank branch closures and consider whether further intervention is needed to protect access to services.",
+    "date": "2026-05-26",
+    "source_url": "https://www.finextra.com/newsarticle/47807/uk-government-commissions-review-into-bank-branch-closures",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Swift",
+    "initiative": "The ISO 20022 Migration Nobody Talks About: Data Quality Over Compliance Checkbox",
+    "description": "November 2025 came and went. SWIFT retired MT messages for cross-border payments. The ISO 20022 Migration Nobody Talks About: Data Quality Over Compliance Checkbox",
+    "date": "2026-05-26",
+    "source_url": "https://www.finextra.com/blogposting/31826/the-iso-20022-migration-nobody-talks-about-data-quality-over-compliance-checkbox",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Robinhood clears final regulatory approval for $180M WonderFi deal ahead of expected June 1 close",
+    "description": "Canada's CIRO approved Robinhood's acquisition of WonderFi, clearing the final regulatory hurdle ahead of an expected June 1 close.",
+    "date": "2026-05-26",
+    "source_url": "https://www.theblock.co/post/402542/robinhood-clears-final-regulatory-approval-wonderfi-deal",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Digital Asset Exchange",
+    "initiative": "Bitget launches RWA platform Reality in tokenization push",
+    "description": "Bitget said Reality will initially offer tokenized exposure to selected U.S. stocks and ETFs through its broader trading ecosystem.",
+    "date": "2026-05-26",
+    "source_url": "https://www.theblock.co/post/402518/bitget-launches-reality-rwa",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Canton Network",
+    "initiative": "Bitwise debuts Canton Network ETP on Deutsche Börse Xetra",
+    "description": "Bitwise listed a Canton Network ETP on Deutsche Börse Xetra, backing it with CC tokens held in cold storage.",
+    "date": "2026-05-26",
+    "source_url": "https://www.theblock.co/post/402538/bitwise-debuts-canton-network-etp-on-deutsche-borse-xetra",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinShares",
+    "initiative": "Global crypto ETP outflows deepen to $1.5B as bitcoin products post worst weekly redemptions of 2026: CoinShares",
+    "description": "Crypto ETP outflows extended to $1.47B last week as bitcoin posted its worst weekly redemption of 2026 with risk-off spreading globally.",
+    "date": "2026-05-26",
+    "source_url": "https://www.theblock.co/post/402528/global-crypto-etp-outflows-deepen-to-1-5b-as-bitcoin-products-post-worst-weekly-redemption-of-2026-coinshares",
+    "category": "asset_management",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Hyperliquid Launches Canonical Prediction Markets Where Validators Replace External Oracles",
+    "description": "Hyperliquid expanded HIP-4 to support offchain event markets with validators handling both deployment and settlement, placing it in direct competition with Polymarket and Kalshi.",
+    "date": "2026-05-26",
+    "source_url": "https://unchainedcrypto.com/hyperliquid-launches-canonical-prediction-markets-where-validators-replace-external-oracles/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "Binance seeks Philippines comeback through SEC sandbox deal",
+    "description": "Binance partnered with BlockShoals under the Philippine SEC sandbox as it seeks a regulated route back after its 2024 access block in 2026.",
+    "date": "2026-05-26",
+    "source_url": "https://crypto.news/binance-seeks-philippines-comeback-through-sec-sandbox-deal/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Digital Asset Exchange",
+    "initiative": "Bitget bets on tokenized Wall Street with new Reality platform",
+    "description": "Bitget has launched a regulated tokenization platform called Reality, expanding its push into on-chain access to U.S. financial assets through tokenized stocks and ETFs. Bitget bets on tokenized Wall Street with new Reality platform",
+    "date": "2026-05-26",
+    "source_url": "https://crypto.news/bitget-bets-on-tokenized-wall-street-with-new-reality-platform/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Robinhood set to close WonderFi deal after Canadian regulatory approval",
+    "description": "Robinhood has secured final Canadian regulatory approval for its planned acquisition of WonderFi, allowing the C$250 million deal to move toward a June 1 closing date. According to WonderFi’s press release issued on Monday, the Canadian Investment Regulatory Organization approved… Robinhood set to close WonderFi deal after Canadian regulatory approval",
+    "date": "2026-05-26",
+    "source_url": "https://crypto.news/robinhood-set-to-close-wonderfi-deal-after-canadian-regulatory-approval/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Pi Network’s Path to Tier-1 Exchanges: What’s Happening with Binance, Coinbase, and Kraken",
+    "description": "Kraken listed PI in March. OKX opened US access in May. Binance and Coinbase still on the sidelines. Here's the structural reason why, and what would change it.",
+    "date": "2026-05-26",
+    "source_url": "https://crypto.news/pi-networks-path-to-tier-1-exchanges-whats-happening-with-binance-coinbase-and-kraken/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Capital flows, exchange rates and financial conditions in EMEs in an evolving international monetary system",
     "description": "The papers in this volume reflect the key themes discussed at the meeting, exploring the intersection of global and domestic factors shaping EMEs' financial conditions. They examine the evolving dynamics of capital flows and exchange rates, the role of local and foreign investors and the transmission of global financial shocks to EMEs.",
@@ -9149,304 +9444,6 @@
       "Trading & Exchange"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Binance's chief marketing officer Rachel Conlan to leave the exchange",
-    "description": "Eowyn Chen, former CEO of Trust Wallet, will serve as her interim replacement.",
-    "date": "2026-05-12",
-    "source_url": "https://www.coindesk.com/business/2026/05/12/binance-s-chief-marketing-officer-rachel-conlan-is-leaving-the-exchange",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase adds Solana-backed loans through Morpho, letting users borrow up to $100,000",
-    "description": "Coinbase users can now borrow up to $100,000 against their SOL holdings through the exchange's Morpho integration on Base.",
-    "date": "2026-05-12",
-    "source_url": "https://www.theblock.co/post/400980/coinbase-solana-loans-morpho-borrow-100000",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board announces termination of enforcement actions with F & M Holding Company, Inc. and Thread Bancorp, Inc.",
-    "description": "Federal Reserve Board announces termination of enforcement actions with F & M Holding Company, Inc. and Thread Bancorp, Inc.",
-    "date": "2026-05-12",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260512a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "France’s central banker Beau clashes with Lagarde over private digital euro plans",
-    "description": "France’s central bank deputy governor told CoinDesk public and private European entities need to get involved in digital asset development, diverging sharply from Christine Lagarde’s stance.",
-    "date": "2026-05-12",
-    "source_url": "https://www.coindesk.com/business/2026/05/12/france-s-central-banker-beau-breaks-with-ecb-s-lagarde-calls-for-private-tokenized-euro-mobilization",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "CBDC",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Deutsche Bank",
-    "initiative": "Blockchain analytics firm Elliptic closes $120 million Series D as Deutsche Bank, Nasdaq deepen crypto bets",
-    "description": "Elliptic raised $120M in a Series D at $670M valuation backed by Deutsche Bank and Nasdaq Ventures as TradFi splurges more on crypto bets.",
-    "date": "2026-05-12",
-    "source_url": "https://www.theblock.co/post/400939/blockchain-analytics-firm-elliptic-closes-120-million-series-d-as-deutsche-bank-nasdaq-deepen-crypto-bets",
-    "category": "global_banks",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Franklin Templeton",
-    "initiative": "Franklin Templeton and Kraken’s parent company to explore new onchain investments",
-    "description": "The two firms will explore launching new tokenized versions of Franklin Templeton financial instruments, such as yield products.",
-    "date": "2026-05-12",
-    "source_url": "https://www.theblock.co/post/400928/franklin-templeton-and-krakens-parent-company-to-explore-new-onchain-investments",
-    "category": "asset_management",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Poland debates four crypto bills at once as ban proposal complicates vote",
-    "description": "Poland’s Sejm is reviewing four rival crypto bills while the PiS opposition dangles a separate ban proposal, turning MiCA implementation into a high‑stakes regulatory brawl. Poland’s lower house of parliament, the Sejm, is now reviewing four simultaneous and competing cryptocurrency… Poland debates four crypto bills at once as ban proposal complicates vote",
-    "date": "2026-05-12",
-    "source_url": "https://crypto.news/poland-debates-four-crypto-bills-at-once-as-ban-proposal-complicates-vote/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Securitize",
-    "initiative": "BlackRock files second tokenized fund with SEC, doubling down on Securitize",
-    "description": "BlackRock has filed a second Securitize‑powered tokenized fund with the SEC, signaling BUIDL’s $2.3B success is becoming a repeatable on‑chain RWA product line, not a pilot. Securities and Exchange… BlackRock files second tokenized fund with SEC, doubling down on Securitize",
-    "date": "2026-05-12",
-    "source_url": "https://crypto.news/blackrock-files-second-tokenized-fund-with-sec-doubling-down-on-securitize/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "JPMorgan",
-    "initiative": "Can XRP reclaim $3 and beyond? ETF inflows hit a January high at $1.47",
-    "description": "Spot XRP ETFs have quietly amassed $1.35 billion in net inflows on the back of Ripple’s JPMorgan‑backed tokenized Treasuries tests. Five U.S.-listed spot XRP (XRP) ETFs pulled in a combined $25.8 million on Monday, the biggest single-day haul since January… Can XRP reclaim $3 and beyond? ETF inflows hit a January high at $1.47",
-    "date": "2026-05-12",
-    "source_url": "https://crypto.news/can-xrp-reclaim-3-and-beyond-etf-inflows-hit-a-january-high-at-1-47/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Bermuda shifts government payments onto Stellar rails",
-    "description": "The government of Bermuda is moving elements of its public payment infrastructure onto the… Bermuda shifts government payments onto Stellar rails",
-    "date": "2026-05-12",
-    "source_url": "https://crypto.news/bermuda-shifts-government-payments-onto-stellar-rails/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Deutsche Bank",
-    "initiative": "Elliptic Raises $120M at $670M Valuation",
-    "description": "Blockchain analytics and compliance firm Elliptic has secured a $120 million funding round at a $670… Elliptic Raises $120M at $670M Valuation",
-    "date": "2026-05-12",
-    "source_url": "https://crypto.news/elliptic-raises-120m-at-670m-valuation/",
-    "category": "global_banks",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "North Korean hackers now dominate crypto theft — and compliance is racing to catch up",
-    "description": "CertiK, Chainalysis and Elliptic all say DPRK‑linked hackers stole about 60% of 2025’s $3.4B crypto theft, including an estimated $2.02B taken by North Korean groups. Blockchain security firm CertiK says North Korean state-linked hacking groups were responsible for roughly 60%… North Korean hackers now dominate crypto theft — and compliance is racing to catch up",
-    "date": "2026-05-12",
-    "source_url": "https://crypto.news/north-korean-hackers-now-dominate-crypto-theft-and-compliance-is-racing-to-catch-up/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Digital Asset Exchange",
-    "initiative": "Agentic AI meets crypto as market eyes $139B boom by 2034",
-    "description": "Gemini, Bitget & Neyro lead agentic AI trading push as market forecast hits $139B by 2034, bringing autonomous agents into crypto & DeFi infrastructure. Agentic AI are systems that do not just classify data but monitor environments, make decisions and… Agentic AI meets crypto as market eyes $139B boom by 2034",
-    "date": "2026-05-12",
-    "source_url": "https://crypto.news/agentic-ai-meets-crypto-as-market-eyes-139b-boom-by-2034/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Mary-Elizabeth McMunn: Capital, competition, and complexity - regulatory perspectives on the regulatory debate",
-    "description": "Remarks by Ms Mary-Elizabeth McMunn, Deputy Governor of the Central Bank of Ireland, at the Banking & Payments Federation Ireland (BPFI), Dublin, 7 May 2026.",
-    "date": "2026-05-12",
-    "source_url": "https://www.bis.org/review/r260512d.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Abdul Rasheed Ghaffour: Optimizing impact from Islamic social finance for poverty alleviation - models and way forward",
-    "description": "Special remarks by Mr Abdul Rasheed Ghaffour, Governor of the Central Bank of Malaysia (Bank Negara Malaysia), at the World Bank-International Center for Education in Islamic Finance (INCEIF) High-Level Roundtable Discussion, Kuala Lumpur, 4 May 2026.",
-    "date": "2026-05-12",
-    "source_url": "https://www.bis.org/review/r260512c.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Franklin Templeton",
-    "initiative": "Kraken parent, Franklin Templeton to develop onchain investment products",
-    "description": "The partnership will focus on tokenized yield products, blockchain-based funds and institutional crypto markets.",
-    "date": "2026-05-12",
-    "source_url": "https://www.coindesk.com/business/2026/05/12/kraken-parent-franklin-templeton-to-develop-onchain-investment-products",
-    "category": "asset_management",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
