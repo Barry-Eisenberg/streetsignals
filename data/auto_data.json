@@ -1,5 +1,41 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "Capital flows, exchange rates and financial conditions in EMEs in an evolving international monetary system",
+    "description": "The papers in this volume reflect the key themes discussed at the meeting, exploring the intersection of global and domestic factors shaping EMEs' financial conditions. They examine the evolving dynamics of capital flows and exchange rates, the role of local and foreign investors and the transmission of global financial shocks to EMEs.",
+    "date": "2026-05-26",
+    "source_url": "https://www.bis.org/publ/bppdf/bispap171.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinShares",
+    "initiative": "Bitcoin sees biggest 2026 weekly outflow as crypto funds lose $1.47B: CoinShares",
+    "description": "Bitcoin funds saw $1.315B in weekly outflows as digital asset products lost $1.47B, with Iran risk driving global withdrawals.",
+    "date": "2026-05-26",
+    "source_url": "https://crypto.news/bitcoin-sees-biggest-2026-weekly-outflow-as-crypto-funds-lose-1-47b-coinshares/",
+    "category": "asset_management",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Hyperliquid takes a swing at Polymarket with macro outcome bets",
     "description": "The decentralized exchange’s new HIP-4 product lets traders bet on offchain events like inflation and interest-rate decisions, using validators rather than UMA-style external dispute resolution.",
@@ -9409,47 +9445,6 @@
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Deutsche Bank",
-    "initiative": "Elliptic raises $120 million backed by Nasdaq, Deutsche Bank as AI reshapes crypto security",
-    "description": "The crypto analytics firm plans to expand its AI-powered monitoring tools as stablecoins and tokenized finance grow rapidly, CEO Simone Maini said.",
-    "date": "2026-05-12",
-    "source_url": "https://www.coindesk.com/business/2026/05/12/elliptic-raises-usd120-million-backed-by-nasdaq-deutsche-bank-as-ai-reshapes-crypto-security",
-    "category": "global_banks",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Hot inflation data pours cold water on Federal Reserve rate cut hopes",
-    "description": "Bitcoin was trading at $80,814 following the news, down 1.2% over the past 24 hours.",
-    "date": "2026-05-12",
-    "source_url": "https://www.coindesk.com/markets/2026/05/12/hot-inflation-data-pours-cold-water-on-federal-reserve-rate-cut-hopes",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
