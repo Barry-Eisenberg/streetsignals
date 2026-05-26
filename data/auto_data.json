@@ -1,5 +1,120 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "Coinbase’s Base launches AI tool for ChatGPT to manage crypto wallets and DeFi apps",
+    "description": "The product, called Base MCP, connects a user’s Base Account to AI clients such as ChatGPT, Claude and Cursor using the Model Context Protocol (MCP), an emerging standard that allows AI systems to securely interface with external tools and applications.",
+    "date": "2026-05-26",
+    "source_url": "https://www.coindesk.com/tech/2026/05/26/coinbase-s-base-launches-ai-tool-for-chatgpt-to-manage-crypto-wallets-and-defi-apps",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Ripple",
+    "initiative": "Ripple’s files two new trademarks in the U.S.",
+    "description": "The filings have drawn attention because they list several services tied to institutional finance, trading, treasury systems, and asset management. Ripple has filed two new U.S. Ripple’s files two new trademarks in the U.S.",
+    "date": "2026-05-26",
+    "source_url": "https://crypto.news/ripples-latest-trademark-filings-signal-a-deeper-push-into-wall-street/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "ESMA (European Securities and Markets Authority)",
+    "initiative": "MiCA is live: Where crypto founders are incorporating in 2026",
+    "description": "MiCA enforcement reshapes EU crypto as ESMA register reveals 204 authorized CASPs and leading jurisdictions emerge. The transitional period is closing and the guessing is over. MiCA is live: Where crypto founders are incorporating in 2026",
+    "date": "2026-05-26",
+    "source_url": "https://crypto.news/mica-is-live-where-crypto-founders-are-incorporating-in-2026/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "XRP price prediction 2026-2030: beyond the SEC settlement",
+    "description": "XRP trades near $1.39-$1.47 in late May 2026, down approximately 26% year-to-date and 34% year-on-year despite multiple institutional catalysts that historically would have driven significant price appreciation. Five-spot (XRP) ETFs are now trading in the US with cumulative inflows of… XRP price prediction 2026-2030: beyond the SEC settlement",
+    "date": "2026-05-26",
+    "source_url": "https://crypto.news/xrp-price-prediction-2026-2030-beyond-the-sec-settlement/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase, Armstrong help build $85m crypto election war chest",
+    "description": "Coinbase and CEO Brian Armstrong are bankrolling a rapidly expanding pro-crypto political machine, pouring tens of millions of dollars into Fairshake as Washington’s 2026 election fight over digital assets intensifies. Coinbase and Armstrong are helping assemble what they describe as… Coinbase, Armstrong help build $85m crypto election war chest",
+    "date": "2026-05-26",
+    "source_url": "https://crypto.news/coinbase-armstrong-help-build-85m-crypto-election-war-chest/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CME Group",
+    "initiative": "CME adds Avalanche and Sui futures as regulated altcoin bets go mainstream",
+    "description": "CME Group has rolled out new futures contracts tied to Avalanche and Sui, extending Wall Street’s regulated crypto derivatives beyond Bitcoin and Ethereum and deeper into the high-throughput layer-1 trade. CME Group, the world’s largest regulated derivatives marketplace, has confirmed… CME adds Avalanche and Sui futures as regulated altcoin bets go mainstream",
+    "date": "2026-05-26",
+    "source_url": "https://crypto.news/cme-adds-avalanche-and-sui-futures-as-regulated-altcoin-bets-go-mainstream/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA (European Securities and Markets Authority)",
     "initiative": "ESMA consults on revised guidelines to support smoother allocations and confirmations under T+1",
     "description": "This review is part of ESMA’s work to support market participants in preparing for the transition to a T+1 settlement cycle. ESMA reiterates the importance of preparing for the upcoming regulatory transition to T+1 settlement, which will take effect on 11 October 2027. ESMA consults on revised guidelines to support smoother allocations and confirmations under T+1",
@@ -9334,115 +9449,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "JPMorgan",
-    "initiative": "JPMorgan files to launch new tokenized fund as Wall Street tokenization race heats up",
-    "description": "The global banking giant is expanding its tokenized money market lineup, following BlackRock's similar move just a few days ago.",
-    "date": "2026-05-12",
-    "source_url": "https://www.coindesk.com/business/2026/05/12/jpmorgan-files-to-launch-new-tokenized-fund-as-wall-street-tokenization-race-heats-up",
-    "category": "payments",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "CFTC backs Kalshi in Ohio fight over prediction markets jurisdictional battle",
-    "description": "The CFTC is weighing in on another legal battle over states’ authority to regulate prediction markets — this time in Ohio.",
-    "date": "2026-05-12",
-    "source_url": "https://www.theblock.co/post/401039/cftc-backs-kalshi-in-ohio-fight-over-prediction-markets-jurisdictional-battle",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Exodus wallet dumps bitcoin for payments push",
-    "description": "Exodus wallet sold 1,076 bitcoin in Q1 2026 to fund its $175 million acquisition of W3C’s payments business. Exodus Movement (NYSE: EXOD), developer of the self-custody Exodus wallet, sold 1,076 bitcoin during Q1 2026, reducing its BTC holdings from 1,704… Exodus wallet dumps bitcoin for payments push",
-    "date": "2026-05-12",
-    "source_url": "https://crypto.news/exodus-wallet-sells-1076-btc-to-fund-w3c-deal/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "JPMorgan",
-    "initiative": "JPMorgan launching second tokenized money market fund on Ethereum",
-    "description": "The new fund will invest in U.S. Treasurys and overnight repurchase agreements collateralized by Treasurys or cash.",
-    "date": "2026-05-12",
-    "source_url": "https://www.theblock.co/post/401028/jpmorgan-launching-tokenized-money-market-fund-ethereum",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Franklin Templeton",
-    "initiative": "Franklin Templeton and Kraken’s Payward team up to tokenize Wall Street",
-    "description": "Kraken parent Payward will plug Franklin Templeton’s BENJI tokenized money market fund into its platform as collateral and cash management, letting clients earn yield on idle dollars on‑chain. Kraken’s parent company Payward and Franklin Templeton have announced a strategic partnership… Franklin Templeton and Kraken’s Payward team up to tokenize Wall Street",
-    "date": "2026-05-12",
-    "source_url": "https://crypto.news/franklin-templeton-and-krakens-payward-team-up-to-tokenize-wall-street/",
-    "category": "asset_management",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Nasdaq",
-    "initiative": "MARA Holdings dumps bitcoin for AI infrastructure",
-    "description": "MARA Holdings sold $1.5 billion in bitcoin in Q1 2026, dropping to the fourth largest public BTC holder. MARA Holdings (NASDAQ: MARA) sold 20,880 bitcoin during Q1 2026 at an average price of $70,137 per coin, generating approximately $1.5 billion… MARA Holdings dumps bitcoin for AI infrastructure",
-    "date": "2026-05-12",
-    "source_url": "https://crypto.news/mara-holdings-sold-1-5b-bitcoin-to-fund-ai-pivot/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
