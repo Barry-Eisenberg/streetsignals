@@ -1,5 +1,22 @@
 [
   {
+    "institution": "crypto.news",
+    "initiative": "Spain blocks 2 prediction markets in gambling crackdown",
+    "description": "Spain’s gambling regulator, the Directorate General for Gambling Regulation, ordered internet service providers to block access to Polymarket and Kalshi after the Ministry of Consumer Affairs… Spain has blocked both prediction markets Polymarket and Kalshi for operating without gambling licences. Spain blocks 2 prediction markets in gambling crackdown",
+    "date": "2026-05-26",
+    "source_url": "https://crypto.news/spain-blocks-prediction-markets-polymarket-kalshi/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "Strive Bitcoin treasury tops 16,500 BTC surpassing Coinbase",
     "description": "disclosed via an 8-K filing on May 26 that it purchased 1,109 Bitcoin (BTC) between May 19 and May… Strive, Inc. Strive Bitcoin treasury tops 16,500 BTC surpassing Coinbase",
@@ -9432,24 +9449,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Deutsche Bank",
-    "initiative": "Frictionless Checkouts: How Much Invisibility Is Too Much?",
-    "description": "Joining FinextraTV's virtual studio, Rachel Whelan, Managing Director, APAC & MEA Head of Corporate Cash Management & Global Head of Payments & TFX Product Mgmt at Deutsche Bank, explained the particular friction points that make a transaction safe, without being slow. Whelan explains that invisible payments are not about removing friction entirely, but more successfully embedding it into different points. When discussing the changes to what cash management means in a modern world, Whelan explained the importance of transparency, trust and how old processes work with new ones, rather than old vs new.",
-    "date": "2026-05-12",
-    "source_url": "https://www.finextra.com/videoarticle/3495/frictionless-checkouts-how-much-invisibility-is-too-much",
-    "category": "global_banks",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
