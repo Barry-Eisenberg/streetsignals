@@ -1,5 +1,88 @@
 [
   {
+    "institution": "Nasdaq",
+    "initiative": "Fold rolls out bitcoin rewards credit card",
+    "description": "Fold Holdings, Inc. (NASDAQ: FLD) (“Fold” or the “Company”), a bitcoin financial services company making it easy for individuals to earn, save and spend bitcoin through everyday financial tools, announced it has begun rolling out the Fold Bitcoin Credit Card to a portion of the waitlist members.",
+    "date": "2026-05-27",
+    "source_url": "https://www.finextra.com/pressarticle/109963/fold-rolls-out-bitcoin-rewards-credit-card",
+    "category": "exchanges_intermediaries",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Sella becomes first bank in Italy to get permission to set up crypto-asset services",
+    "description": "Banca Sella has completed the process of notification to the Bank of Italy as set out in the European MiCA (Markets in Crypto-Assets) Regulation and is the first bank in Italy to be authorized to offer crypto-asset services, relating in particular to the custody and transfer of digital assets.",
+    "date": "2026-05-27",
+    "source_url": "https://www.finextra.com/pressarticle/109962/sella-becomes-first-bank-in-italy-to-get-permission-to-set-up-crypto-asset-services",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Stablecoin payments stay behind checkout: BridgerPay",
+    "description": "Stablecoin payments run through settlement and B2B rails, not consumer checkout, BridgerPay CEO Ran Cohen said. Stablecoin payments stay behind checkout: BridgerPay",
+    "date": "2026-05-27",
+    "source_url": "https://crypto.news/stablecoin-payments-niche-at-checkout-bridgerpay/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Circle",
+    "initiative": "USDC supply jumps $2B as Circle expands, while USDT quietly shrinks",
+    "description": "Nium and Circle Technology Services have announced a partnership to link USDC-based settlement with local-currency payouts for institutions moving money across borders. Nium said the deal brings it into the Circle Payments Network as a global payout partner, giving financial… USDC supply jumps $2B as Circle expands, while USDT quietly shrinks",
+    "date": "2026-05-27",
+    "source_url": "https://crypto.news/usdc-supply-jumps-2b-as-circle-expands-while-usdt-quietly-shrinks/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS (Bank for International Settlements)",
     "initiative": "BIS project finds tokenization could make cross-border payments faster, safer",
     "description": "Project Agorá, backed by major central banks, will now move toward \"real-value\" testing to settle tokenized central bank money and bank deposits on blockchain rails.",
@@ -9421,81 +9504,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Derivative Path launches AI-enabled treasury hedging platform for banks",
-    "description": "Derivative Path, a leading derivatives and risk management platform for financial institutions, today announced the launch of ALM Strategy Builder, a product that gives banks and credit unions the ability to build, stress-test, compare, and present interest rate hedging strategies in a single environment.",
-    "date": "2026-05-14",
-    "source_url": "https://www.finextra.com/pressarticle/109833/derivative-path-launches-ai-enabled-treasury-hedging-platform-for-banks",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase becomes Hyperliquid’s official USDC treasury deployer as USDH sunsets",
-    "description": "Native Markets, the operator of Hyperliquid's USDH stablecoin, agreed to grant Coinbase the right to purchase USDH brand assets.",
-    "date": "2026-05-14",
-    "source_url": "https://www.theblock.co/post/401233/coinbase-hyperliquid-official-deployer-usdc",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Tether",
-    "initiative": "Tether, TRON and TRM Labs-backed T3 Financial Crime Unit tops $450 million in frozen illicit crypto assets",
-    "description": "T3 FCU says it has now frozen over $450 million in illicit crypto assets, reporting a 43.9% annual increase in intercepted proceeds.",
-    "date": "2026-05-14",
-    "source_url": "https://www.theblock.co/post/401252/tether-tron-trm-labs-freeze-over-450-million-in-illicit-crypto-assets",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Tether",
-    "initiative": "T3 Financial Crime Unit Says It Has Frozen More Than $450 Million in Illicit Crypto Globally",
-    "description": "The Tether-TRON-TRM Labs initiative has frozen more than $450 million in illicit crypto across 23 jurisdictions, with 2025 interceptions up 43.9% from 2024.",
-    "date": "2026-05-14",
-    "source_url": "https://unchainedcrypto.com/t3-financial-crime-unit-says-it-has-frozen-more-than-450-million-in-illicit-crypto-globally/",
-    "category": "payments",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
