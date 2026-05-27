@@ -1,5 +1,27 @@
 [
   {
+    "institution": "Digital Asset Platform",
+    "initiative": "Falcon Finance taps Anchorage to issue new GENIUS-compliant payments stablecoin fUSD",
+    "description": "Falcon said fUSD is meant to act as a “regulated counterpart” to its existing overcollateralized synthetic stablecoin USDf.",
+    "date": "2026-05-27",
+    "source_url": "https://www.theblock.co/post/402771/falcon-finance-taps-anchorage-to-issue-new-genius-compliant-payments-stablecoin-fusd",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Wall Street gets new crypto rival after Texas bank completes regulatory pivot",
     "description": "By establishing a national charter under the executive branch, United Texas Bank said it intends to enable AI-driven payment rails to intercept global digital dollar volumes.",
@@ -9487,23 +9509,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Freetrade appoints Jenny Zhao CEO",
-    "description": "Freetrade, the commission-free investment platform, has today announced the appointment of Jenny Zhao as Chief Executive Officer, subject to regulatory approvals. She succeeds co-founder Viktor Nebehaj, who is stepping down after nearly ten years of building the business.",
-    "date": "2026-05-14",
-    "source_url": "https://www.finextra.com/pressarticle/109843/freetrade-appoints-jenny-zhao-ceo",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
     ],
     "year": "2026"
   }
