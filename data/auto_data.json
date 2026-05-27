@@ -1,5 +1,96 @@
 [
   {
+    "institution": "BlackRock",
+    "initiative": "Whale alert: Someone dumped $1.29 billion of BlackRock's bitcoin ETF in a dark pool trade",
+    "description": "The big sale happened amid a broader continued exodus from U.S.-listed spot bitcoin ETFs.",
+    "date": "2026-05-27",
+    "source_url": "https://www.coindesk.com/markets/2026/05/27/whale-alert-someone-dumped-usd1-29-billion-of-blackrock-s-bitcoin-etf-in-a-dark-pool-trade",
+    "category": "asset_management",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Visa",
+    "initiative": "PingPong partners with Visa to launch Card to Account Payments for global businesses",
+    "description": "PingPong, the embedded financial infrastructure for global businesses, today announced the launch of Card to Account Payment Solution, a new Business Payment Solution Provider (BPSP) offering developed in partnership with Visa.",
+    "date": "2026-05-27",
+    "source_url": "https://www.finextra.com/pressarticle/109949/pingpong-partners-with-visa-to-launch-card-to-account-payments-for-global-businesses",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Broadridge Financial Solutions",
+    "initiative": "Broadridge appoints Ian Williams as head of international trading and connectivity",
+    "description": "Broadridge Financial Solutions, Inc. (NYSE: BR) today announced the appointment of Ian Williams to the newly created role of Head of International, Broadridge Trading and Connectivity Solutions (BTCS), effective immediately.",
+    "date": "2026-05-27",
+    "source_url": "https://www.finextra.com/pressarticle/109941/broadridge-appoints-ian-williams-as-head-of-international-trading-and-connectivity",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "What the Settlement Window Was Actually For",
+    "description": "What the Settlement Window Was Actually For The settlement cycle keeps getting shorter, and the indu...",
+    "date": "2026-05-27",
+    "source_url": "https://www.finextra.com/blogposting/31831/what-the-settlement-window-was-actually-for",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "South Korea crypto trading crashes to one-tenth of stock market volume",
+    "description": "South Korea crypto trading falls to 8% of KOSPI volume as stocks rise, exchange activity slows and Bitcoin trades at a local discount.",
+    "date": "2026-05-27",
+    "source_url": "https://crypto.news/south-korea-crypto-trading-crashes-to-one-tenth-of-stock-market-volume/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BitGo",
     "initiative": "BitGo tests quantum-safe MPC wallet signing with Silence Labs",
     "description": "BitGo and Silence Labs test post-quantum MPC wallet signing for institutional crypto custody as quantum-risk planning grows across finance.",
@@ -9348,101 +9439,6 @@
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Nasdaq",
-    "initiative": "Solana treasury firm Upexi posts $109 million quarterly net loss amid crypto markdowns",
-    "description": "The Nasdaq-listed firm said the net loss was mainly driven by $92.3 million of unrealized losses on digital assets.",
-    "date": "2026-05-13",
-    "source_url": "https://www.theblock.co/post/401104/upexi-posts-109-million-quarterly-losses",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Nasdaq",
-    "initiative": "21Shares Launches THYP and TXXH on Nasdaq, the First U.S. ETFs Tracking Hyperliquid",
-    "description": "The first U.S. Hyperliquid ETFs gave HYPE holders regulated brokerage access, with THYP posting $1.8 million in day-one volume and built-in staking rewards.",
-    "date": "2026-05-13",
-    "source_url": "https://unchainedcrypto.com/21shares-launches-thyp-and-txxh-on-nasdaq-the-first-u-s-etfs-tracking-hyperliquid/",
-    "category": "exchanges_intermediaries",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "JPMorgan",
-    "initiative": "JPMorgan Files for Second Tokenized Money Market Fund on Ethereum, Designed for Stablecoin Reserves",
-    "description": "JPMorgan filed Tuesday for JLTXX, a tokenized money market fund engineered to meet stablecoin reserve requirements under the GENIUS Act, deepening the bank's push onto public blockchain rails.",
-    "date": "2026-05-13",
-    "source_url": "https://unchainedcrypto.com/jpmorgan-files-for-second-tokenized-money-market-fund-on-ethereum-designed-for-stablecoin-reserves/",
-    "category": "payments",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "21Shares launches first U.S. Hyperliquid ETFs with staking exposure",
-    "description": "21Shares has launched the first U.S.-listed exchange-traded funds tied to Hyperliquid’s HYPE token, introducing both a spot product with staking exposure and a leveraged fund tied to the decentralized derivatives platform. According to a statement shared with crypto.news, the new… 21Shares launches first U.S. Hyperliquid ETFs with staking exposure",
-    "date": "2026-05-13",
-    "source_url": "https://crypto.news/21shares-launches-first-u-s-hyperliquid-etfs-with-staking-exposure/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Digital Asset Exchange",
-    "initiative": "Ethereum wants to end blind signing with new security feature",
-    "description": "Ethereum launches Clear Signing to make wallet approvals readable, with Ledger, Trezor and MetaMask backing ERC-7730 after Bybit hack risks.",
-    "date": "2026-05-13",
-    "source_url": "https://crypto.news/ethereum-wants-to-end-blind-signing-with-new-security-feature/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
