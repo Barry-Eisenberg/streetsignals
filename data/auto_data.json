@@ -1,5 +1,24 @@
 [
   {
+    "institution": "BitGo",
+    "initiative": "BitGo tests quantum-safe MPC wallet signing with Silence Labs",
+    "description": "BitGo and Silence Labs test post-quantum MPC wallet signing for institutional crypto custody as quantum-risk planning grows across finance.",
+    "date": "2026-05-27",
+    "source_url": "https://crypto.news/bitgo-tests-quantum-safe-mpc-wallet-signing-with-silence-labs/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "Coinbase’s Base gives AI agents new crypto wallet powers",
     "description": "Base launches Base MCP to link crypto wallets with AI agents for swaps, transfers, balances and x402 payments while users confirm moves.",
@@ -9426,24 +9445,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "Kalshi gets CFTC support in Ohio sports market appeal",
-    "description": "CFTC backs Kalshi in Ohio appeal, saying prediction markets on regulated exchanges fall under federal oversight, not state gambling rules",
-    "date": "2026-05-13",
-    "source_url": "https://crypto.news/kalshi-gets-cftc-support-in-ohio-sports-market-appeal/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
