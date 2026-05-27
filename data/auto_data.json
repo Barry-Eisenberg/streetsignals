@@ -1,5 +1,238 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "Junko Koeda: Economic activity, prices, and monetary policy in Japan",
+    "description": "Speech by Ms Junko Koeda, Member of the Policy Board of the Bank of Japan, at a meeting with local leaders, Fukuoka, 21 May 2026.",
+    "date": "2026-05-27",
+    "source_url": "https://www.bis.org/review/r260526i.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Sarah Hunter: Inflation and the impact of the Middle East conflict",
+    "description": "Speech by Ms Sarah Hunter, Assistant Governor (Economic) of the Reserve Bank of Australia, at the Bloomberg Forum for Investment Managers, Sydney, 19 May 2026.",
+    "date": "2026-05-27",
+    "source_url": "https://www.bis.org/review/r260526a.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Ida Wolden Bache: Research-based models in monetary policy decision-making",
+    "description": "Speech by Ms Ida Wolden Bache, Governor of Norges Bank (Central Bank of Norway), at a seminar organised by Knut Anton Mork, Oslo, 21 May 2026.",
+    "date": "2026-05-27",
+    "source_url": "https://www.bis.org/review/r260526h.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Project Agorá shows how tokenisation can improve wholesale cross-border payments; work will advance to real-value testing",
+    "description": "The Project Agorá prototype demonstrates how tokenisation and programmable technologies can address long-standing inefficiencies in wholesale cross-border payments at scale, while preserving the safety and integrity of settlement in central bank reserves.",
+    "date": "2026-05-27",
+    "source_url": "https://www.bis.org/press/p260527.htm",
+    "category": "regulators",
+    "source_name": "BIS — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Liquidity regulation and bank funding costs",
+    "description": "by Iñaki Aldasoro, Sebastian Doerr, Haonan Zhou We establish a causal link between liquidity regulation and a lower cost of bank wholesale funding. For identification, we use pre-determined variation in banks' liquidity coverage ratio (LCR) in a difference-in-differences setup. Granular instrument-level data allow us to carefully control for any observable and unobservable time-varying factors at the creditor, instrument type, and macroeconomic levels. We find that banks with greater LCR exposure see a steeper decline in their wholesale funding costs.",
+    "date": "2026-05-27",
+    "source_url": "https://www.bis.org/publ/work1352.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "ESMA (European Securities and Markets Authority)",
+    "initiative": "ESMA issues guidance on effective use of resolution tools in CCP crisis planning",
+    "description": "In doing so, NRAs should take into account the impact on relevant stakeholders, such as clearing members, financial markets and financial market infrastructures. By promoting consistent practices across jurisdictions, it fosters effective financial markets and financial stability, strategic priorities for ESMA. ESMA issues guidance on effective use of resolution tools in CCP crisis planning",
+    "date": "2026-05-27",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-issues-guidance-effective-use-resolution-tools-ccp-crisis-planning",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Mastercard",
+    "initiative": "Mastercard secures New York BitLicense to support stablecoin and digital payment infrastructure",
+    "description": "The payments giant said the approval supports its push into stablecoins and blockchain-based settlement infrastructure.",
+    "date": "2026-05-27",
+    "source_url": "https://www.coindesk.com/business/2026/05/27/mastercard-secures-new-york-bitlicense-to-support-stablecoin-and-digital-payment-infrastructure",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SBI Holdings",
+    "initiative": "SBI Group invests in Temple Digital",
+    "description": "Japanese financial behemoth SBI Holdings has led an investment round in Temple Digital Group, a New York-based outfit building trading infrastructure on the Canton Network blockchain. The size of the investment was not disclosed.",
+    "date": "2026-05-27",
+    "source_url": "https://www.finextra.com/newsarticle/47816/sbi-group-invests-in-temple-digital",
+    "category": "global_banks",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "DTCC",
+    "initiative": "DTC’s tokenization service to connect with Stellar public blockchain",
+    "description": "The Depository Trust & Clearing Corporation (DTCC), the premier post-trade market infrastructure for the global financial services industry, and the Stellar Development Foundation (SDF) today announced plans to enable the tokenization of The Depository Trust Company (DTC) custodied assets on the Stellar network, a configurable and public blockchain used across securities, payment, and remittance applications.",
+    "date": "2026-05-27",
+    "source_url": "https://www.finextra.com/pressarticle/109952/dtcs-tokenization-service-to-connect-with-stellar-public-blockchain",
+    "category": "exchanges_intermediaries",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Custody & Safekeeping",
+      "Payments & Transfers",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Circle",
+    "initiative": "Circle partners with Nium to connect USDC settlement to global payout rails",
+    "description": "Circle and Nium have partnered to connect stablecoin settlement with global payout rails across more than 190 countries and 100 currencies.",
+    "date": "2026-05-27",
+    "source_url": "https://www.theblock.co/post/402726/circle-partners-with-nium-to-connect-usdc-settlement-to-global-payout-rails",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "SoFi launches bank-issued stablecoin for nearly 15M app users",
+    "description": "SoFiUSD launches in SoFi app for 14.7M members, with Ethereum, Solana, tokenized deposits, Bullish and 24/7 transfers next for users in May.",
+    "date": "2026-05-27",
+    "source_url": "https://crypto.news/sofi-launches-bank-issued-stablecoin-for-nearly-15m-app-users/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Standard Chartered",
+    "initiative": "Coinbase and Standard Chartered widen global crypto funding rails",
+    "description": "Coinbase expands Standard Chartered rails for AUD, SGD, CAD, CHF, EUR and GBP as Direct Deposit returns for U.S. crypto users in 2026 now.",
+    "date": "2026-05-27",
+    "source_url": "https://crypto.news/coinbase-and-standard-chartered-widen-global-crypto-funding-rails/",
+    "category": "global_banks",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "SoFi brings bank-issued stablecoin to 15 million users in crypto push",
     "description": "The fintech platform says its dollar-backed stablecoin will let members trade, transfer and eventually earn yield through its banking app.",
@@ -9185,6 +9418,23 @@
     "year": "2026"
   },
   {
+    "institution": "BIS",
+    "initiative": "The Trafalgar squeeze of global liquidity",
+    "description": "by Vincent Bignon, Benoit Mojon, Miguel Ortiz Serrano The severity of financial crises is exacerbated by the lack of international liquidity or the absence of a global lender of last resort. This was evident during the Long Depression (1873-1896), the Great Depression (1929-1936), and, as we show in this paper, during the 1805-1806 crisis that followed the Battle of Trafalgar. The latter took Atlantic trade routes away from Spain and cut off Europe's access to Latin American silver, the key high-powered money of the time. This silver shortage led the Banque de France to cut lending by nearly 50% within three months, deliberately tightening credit to hoard specie and restore the value of its bank notes.",
+    "date": "2026-05-13",
+    "source_url": "https://www.bis.org/publ/work1347.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Deutsche Bank",
     "initiative": "Deutsche Bank joins $120m funding round for crypto analytics firm Elliptic",
     "description": "Cryptocurrency and blockchain surveillance and analytics specialist Elliptic has raised $120 million in a Series D funding round led by One Peak, with participation from Nasdaq Ventures, Deutsche Bank and the British Business Bank.",
@@ -9224,240 +9474,6 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Goldman Sachs",
-    "initiative": "BBVA and Goldman Sachs back new OpenAI company",
-    "description": "OpenAI has secured the backing of 19 investment firms to launch the OpenAI Deployment Company, a new standalone venture designed to help organizations build and deploy AI systems for complex workflows.",
-    "date": "2026-05-13",
-    "source_url": "https://www.finextra.com/newsarticle/47744/bbva-and-goldman-sachs-back-new-openai-company",
-    "category": "global_banks",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "BaFin preps IT spotlight inspections amidst growing AI cybersecurity risks",
-    "description": "German financial regulator BaFin is setting up a division to carry out targeted inspections at firms as it seeks to ward of the threat of AI-enabled cyber attacks on the sector.",
-    "date": "2026-05-13",
-    "source_url": "https://www.finextra.com/newsarticle/47740/bafin-preps-it-spotlight-inspections-amidst-growing-ai-cybersecurity-risks",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Jifiti and Peach Finance come together to deliver lending tech to community and regional banks",
-    "description": "Jifiti, a leading lending technology provider, and Peach Finance, a modern loan management and servicing platform, announced a strategic partnership to deliver a fully integrated, end-to-end lending solution tailored for community and regional banks across the United States.",
-    "date": "2026-05-13",
-    "source_url": "https://www.finextra.com/pressarticle/109830/jifiti-and-peach-finance-come-together-to-deliver-lending-tech-to-community-and-regional-banks",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Tether",
-    "initiative": "Tether to fund developers with grants programme",
-    "description": "Tether, the largest company in the digital asset ecosystem, announced today that it is launching a grants program to fund developers building on its open technology stack, with no cap on total payouts, tied to specific technical deliverables.",
-    "date": "2026-05-13",
-    "source_url": "https://www.finextra.com/pressarticle/109828/tether-to-fund-developers-with-grants-programme",
-    "category": "payments",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Kroo Bank acquires loan portfolio of specialist bridging lender Glenhawk",
-    "description": "Fully licensed digital bank Kroo has completed a loan portfolio acquisition and entered into a forward flow funding arrangement with specialist bridging lender Glenhawk to support future lending across the UK property market.",
-    "date": "2026-05-13",
-    "source_url": "https://www.finextra.com/pressarticle/109825/kroo-bank-acquires-loan-portfolio-of-specialist-bridging-lender-glenhawk",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Mastercard",
-    "initiative": "How Early Digital Payments Adoption in the Nordics Influenced Its Growth",
-    "description": "Taking time out of NextGen Nordics in Stockholm, Erik Gutwasser, President, Northern Europe, Mastercard joined FinextraTV to discuss how digitlisation is changing in the Nordic markets. Beginning by establishing the Nordics as the most digitalised payment society globally, Gutwasser explained how Fintech firms in the region were early adopters of one-click checkouts and this has provided easier optimism for concepts such as full-tokenisation and biometric authentications.",
-    "date": "2026-05-13",
-    "source_url": "https://www.finextra.com/videoarticle/3498/how-early-digital-payments-adoption-in-the-nordics-influenced-its-growth",
-    "category": "payments",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Fidelity",
-    "initiative": "Fidelity International’s first tokenized fund receives top-tier AAA-mf rating from Moody’s",
-    "description": "FILQ, modeled off Fidelity's existing low-volatility net asset value (LVNAV) fund, will provide 24/7 redemptions and settlements.",
-    "date": "2026-05-13",
-    "source_url": "https://www.theblock.co/post/401196/fidelity-internationals-first-tokenized-fund-receives-top-tier-aaa-mf-rating-from-moodys",
-    "category": "asset_management",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Settlement & Clearing"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Tokenized Treasuries set record at $15.35 billion",
-    "description": "Tokenized Treasuries reached $15.35 billion in total value locked on May 13, surpassing the previous mid-April peak of $15.10 billion, according… Tokenized Treasuries set record at $15.35 billion",
-    "date": "2026-05-13",
-    "source_url": "https://crypto.news/tokenized-treasuries-hit-15b-record-as-bitcoin-stalls/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Consensys",
-    "initiative": "Ethereum app builder Consensys has delayed its potential IPO until fall",
-    "description": "The MetaMask wallet builder had reportedly engaged bankers from JPMorgan and Goldman Sachs to lead the process.",
-    "date": "2026-05-13",
-    "source_url": "https://www.coindesk.com/business/2026/05/13/ethereum-app-builder-consensys-has-delayed-its-potential-ipo-until-fall",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board issues Economic Well-Being of U.S. Households in 2025 report",
-    "description": "Federal Reserve Board issues Economic Well-Being of U.S. Households in 2025 report",
-    "date": "2026-05-13",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260513a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Metaplanet delays preferred share listing amid challenging Japanese market structure",
-    "description": "CEO Simon Gerovich says regulatory and infrastructure challenges are slowing the launch of Metaplanet's perpetual preferred share.",
-    "date": "2026-05-13",
-    "source_url": "https://www.coindesk.com/markets/2026/05/13/metaplanet-delays-preferred-share-listing-amid-challenging-japanese-market-structure",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Digital Asset Platform",
-    "initiative": "Anchorage and Mexican billionaire’s Grupo Salinas ink cross-border payments partnership",
-    "description": "Grupo Salinas is set to integrate Anchorage Digital's stablecoin infrastructure into its cross-border payment flows.",
-    "date": "2026-05-13",
-    "source_url": "https://www.theblock.co/post/401066/anchorage-grupo-salinas-partnership",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Rate-cut expectations fade as strong PPI data signals persistent inflation pressure",
-    "description": "inflation print has complicated the Federal Reserve’s policy outlook, with markets rapidly repricing the likelihood of rate cuts this year after April’s Producer Price Index (PPI) came in at 1.4%. A stronger-than-expected U.S. Rate-cut expectations fade as strong PPI data signals persistent inflation pressure",
-    "date": "2026-05-13",
-    "source_url": "https://crypto.news/rate-cut-expectations-fade-as-strong-ppi-data-signals-persistent-inflation-pressure/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
