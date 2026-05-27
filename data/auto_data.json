@@ -1,5 +1,27 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Wall Street gets new crypto rival after Texas bank completes regulatory pivot",
+    "description": "By establishing a national charter under the executive branch, United Texas Bank said it intends to enable AI-driven payment rails to intercept global digital dollar volumes.",
+    "date": "2026-05-27",
+    "source_url": "https://www.coindesk.com/policy/2026/05/27/wall-street-gets-new-crypto-rival-after-texas-bank-completes-regulatory-pivot",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Nasdaq",
     "initiative": "Fold rolls out bitcoin rewards credit card",
     "description": "Fold Holdings, Inc. (NASDAQ: FLD) (“Fold” or the “Company”), a bitcoin financial services company making it easy for individuals to earn, save and spend bitcoin through everyday financial tools, announced it has begun rolling out the Fold Bitcoin Credit Card to a portion of the waitlist members.",
@@ -9482,28 +9504,6 @@
     "fmi_areas": [],
     "initiative_types": [
       "Leadership & Governance"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Reap and TerraPay team up to expand local payout corridors globally",
-    "description": "Reap, the stablecoin-native global payments and financial platform infrastructure for businesses, today announced a strategic partnership with TerraPay, a global money movement company, to expand local cross-border payouts through direct access to domestic clearing systems worldwide.",
-    "date": "2026-05-14",
-    "source_url": "https://www.finextra.com/pressarticle/109839/reap-and-terrapay-team-up-to-expand-local-payout-corridors-globally",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
