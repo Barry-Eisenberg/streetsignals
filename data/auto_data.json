@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "Coinbase’s Base gives AI agents new crypto wallet powers",
+    "description": "Base launches Base MCP to link crypto wallets with AI agents for swaps, transfers, balances and x402 payments while users confirm moves.",
+    "date": "2026-05-27",
+    "source_url": "https://crypto.news/coinbases-base-gives-ai-agents-new-crypto-wallet-powers/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CFTC (Commodity Futures Trading Commission)",
     "initiative": "Trump’s prediction market push sparks fresh state authority clash",
     "description": "President Donald Trump has backed the CFTC’s exclusive authority over prediction markets as federal and state officials fight over who should regulate the fast-growing sector. According to Trump’s Truth Social post late Tuesday, keeping the Commodity Futures Trading Commission… Trump’s prediction market push sparks fresh state authority clash",
@@ -9425,27 +9444,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "JPMorgan",
-    "initiative": "JPMorgan joins reserve fund race with Ethereum-based JLTXX",
-    "description": "JPMorgan files JLTXX, an Ethereum money market fund for stablecoin issuers seeking Treasury-backed reserves under new GENIUS Act rules today",
-    "date": "2026-05-13",
-    "source_url": "https://crypto.news/jpmorgan-joins-reserve-fund-race-with-ethereum-based-jltxx/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
