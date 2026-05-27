@@ -1,5 +1,22 @@
 [
   {
+    "institution": "Nasdaq",
+    "initiative": "Bitdeer names Corsair’s Potter as new CFO",
+    "description": "Liu will remain through June 30. The Nasdaq-listed Bitcoin miner disclosed the… Bitdeer names Corsair’s Potter as new CFO",
+    "date": "2026-05-27",
+    "source_url": "https://crypto.news/bitdeer-names-corsairs-potter-as-new-cfo/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CFTC (Commodity Futures Trading Commission)",
     "initiative": "Prediction markets battle escalates after president Donald Trump sides with CFTC",
     "description": "The CFTC has moved a proposed rule on prediction-markets event contracts into White House review as federal and state officials fight over who should police the fast-growing sector. Bloomberg first reported that the proposal is now before the White House… Prediction markets battle escalates after president Donald Trump sides with CFTC",
@@ -9483,29 +9500,6 @@
       "Data & Reporting"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase backs Hyperliquid stablecoin push as DeFi trading volumes climb",
-    "description": "Coinbase will manage USDC liquidity on Hyperliquid, deepening ties with one of crypto’s fastest-growing trading platforms.",
-    "date": "2026-05-14",
-    "source_url": "https://www.coindesk.com/markets/2026/05/13/coinbase-backs-hyperliquid-stablecoin-push-as-defi-trading-volumes-climb",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DeFi",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
