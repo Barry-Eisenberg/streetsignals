@@ -1,5 +1,165 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "SoFi brings bank-issued stablecoin to 15 million users in crypto push",
+    "description": "The fintech platform says its dollar-backed stablecoin will let members trade, transfer and eventually earn yield through its banking app.",
+    "date": "2026-05-27",
+    "source_url": "https://www.coindesk.com/business/2026/05/27/sofi-brings-bank-issued-stablecoin-to-15-million-users-in-crypto-push",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Crypto exchange HTX rejects U.K. sanction allegations, says it refused ruble stablecoin listing",
+    "description": "U.K. authorities sanctioned HTX, saying there were \"reasonable grounds to suspect\" the crypto exchange was helping Russia by cooperating with ruble stablecoin A7A5.",
+    "date": "2026-05-27",
+    "source_url": "https://www.coindesk.com/markets/2026/05/27/crypto-exchange-htx-rejects-u-k-sanction-allegations-says-it-refused-ruble-stablecoin-listing",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "SEC pauses tokenized stock plans, Trump crypto ventures sour",
+    "description": "SEC pauses tokenized equities plan, raises concerns on crypto regulations, while the Trump family's crypto ventures face market challenges and uncertainty.",
+    "date": "2026-05-27",
+    "source_url": "https://coingeek.com/sec-pauses-tokenized-stock-plans-trump-crypto-ventures-sour/",
+    "category": "regulators",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Visa",
+    "initiative": "Highnote and Visa collaborate on agentic commerce",
+    "description": "Highnote, the unified platform for modern issuing, acquiring, credit, ledger, and money movement, today announced the launch of its Agentic Commerce capabilities, built with Visa Intelligent Commerce, enabling businesses to securely power AI-initiated payments with programmable controls, tokenized credentials, and dynamic authorization.",
+    "date": "2026-05-27",
+    "source_url": "https://www.finextra.com/pressarticle/109937/highnote-and-visa-collaborate-on-agentic-commerce",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "SoFi rolls out SoFiUSD stablecoin to banking app users",
+    "description": "SoFi rolls out bank-issued SoFiUSD stablecoin to 14.7 million members inside its app on Ethereum and Solana.",
+    "date": "2026-05-27",
+    "source_url": "https://www.theblock.co/post/402361/sofi-rolls-out-sofiusd-stablecoin-to-banking-app-users",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Standard Chartered",
+    "initiative": "Coinbase taps Standard Chartered to expand multi-currency funding rails for institutional clients",
+    "description": "Coinbase also relaunched Direct Deposit for U.S. customers, allowing users to automatically allocate a portion of their paycheck to crypto.",
+    "date": "2026-05-27",
+    "source_url": "https://www.theblock.co/post/402716/coinbase-standard-chartered-multi-currency-funding-rails",
+    "category": "global_banks",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BlackRock",
+    "initiative": "Spot bitcoin ETFs continue outflow streak amid $1.3 billion IBIT whale trade",
+    "description": "Bitcoin ETFs saw $334 million in net outflows on Tuesday, driven by $192 million exiting BlackRock's IBIT.",
+    "date": "2026-05-27",
+    "source_url": "https://www.theblock.co/post/402707/bitcoin-etf-outflows-ibit-whale-trade",
+    "category": "asset_management",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "India’s SEBI to test tokenized corporate bond settlements in DLT pilot",
+    "description": "India’s market regulator has moved ahead with a pilot project for tokenized corporate bonds, testing whether distributed ledger technology can improve liquidity and settlement efficiency in the country’s debt markets. Speaking on the sidelines of the CareEdge Debt Market Summit… India’s SEBI to test tokenized corporate bond settlements in DLT pilot",
+    "date": "2026-05-27",
+    "source_url": "https://crypto.news/indias-sebi-to-test-tokenized-corporate-bond-settlements-in-dlt-pilot/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Collateral & Lending",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BlackRock",
     "initiative": "Whale alert: Someone dumped $1.29 billion of BlackRock's bitcoin ETF in a dark pool trade",
     "description": "The big sale happened amid a broader continued exodus from U.S.-listed spot bitcoin ETFs.",
@@ -9298,149 +9458,6 @@
       "Data & Reporting"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "ECB (European Central Bank)",
-    "initiative": "Frank Elderson: Boosting prosperity through deeper integration",
-    "description": "Keynote speech by Mr Frank Elderson, Member of the Executive Board of the European Central Bank and Vice-Chair of the Supervisory Board of the European Central Bank, at the conference \"Financing Europe: a new era of strategic investment\", Brussels, 12 May 2026.",
-    "date": "2026-05-13",
-    "source_url": "https://www.bis.org/review/r260513c.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Michael Atingi-Ego: Judicial Officers Colloquium",
-    "description": "Keynote address by Mr Michael Atingi-Ego, Governor of the Bank of Uganda, at aBi Finance Limited Partners' Breakfast Meeting, Kampala, 29 April 2026.",
-    "date": "2026-05-13",
-    "source_url": "https://www.bis.org/review/r260512h.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Bank of England",
-    "initiative": "Sam Woods: Clinical supervision",
-    "description": "Text of The Henry Thornton Lecture by Mr Sam Woods, Deputy Governor for Prudential Regulation of the Bank of England and Chief Executive of the Prudential Regulation Authority (PRA), at Bayes Business School, London, 12 May 2026.",
-    "date": "2026-05-13",
-    "source_url": "https://www.bis.org/review/r260513b.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA (European Securities and Markets Authority)",
-    "initiative": "ESMA issues guidance on effective use of resolution tools in CCP crisis planning",
-    "description": "In doing so, NRAs should take into account the impact on relevant stakeholders, such as clearing members, financial markets and financial market infrastructures. By promoting consistent practices across jurisdictions, it fosters effective financial markets and financial stability, strategic priorities for ESMA. ESMA issues guidance on effective use of resolution tools in CCP crisis planning",
-    "date": "2026-05-13",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-issues-guidance-effective-use-resolution-tools-ccp-crisis-planning",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Binance expands into TradFi perpetuals as crypto traders chase macro exposure",
-    "description": "Binance will roll out a new suite of U-margined perpetual futures contracts tied to traditional financial assets on May 15, adding exposure to Oracle, Disney, Uber, Cisco, Home Depot and Litecoin as the exchange accelerates its push into hybrid crypto-TradFi… Binance expands into TradFi perpetuals as crypto traders chase macro exposure",
-    "date": "2026-05-13",
-    "source_url": "https://crypto.news/binance-expands-into-tradfi-perpetuals-as-crypto-traders-chase-macro-exposure/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "The Trafalgar squeeze of global liquidity",
-    "description": "by Vincent Bignon, Benoit Mojon, Miguel Ortiz Serrano The severity of financial crises is exacerbated by the lack of international liquidity or the absence of a global lender of last resort. This was evident during the Long Depression (1873-1896), the Great Depression (1929-1936), and, as we show in this paper, during the 1805-1806 crisis that followed the Battle of Trafalgar. The latter took Atlantic trade routes away from Spain and cut off Europe's access to Latin American silver, the key high-powered money of the time. This silver shortage led the Banque de France to cut lending by nearly 50% within three months, deliberately tightening credit to hoard specie and restore the value of its bank notes.",
-    "date": "2026-05-13",
-    "source_url": "https://www.bis.org/publ/work1347.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Latest (last?) CLARITY draft sparks last-minute stakeholder push",
-    "description": "Congress unveils the latest CLARITY Act draft amid fierce lobbying from banks and unions, impacting digital asset rewards and DeFi protections.",
-    "date": "2026-05-13",
-    "source_url": "https://coingeek.com/latest-last-clarity-draft-sparks-last-minute-stakeholder-push/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Mastercard",
-    "initiative": "Alchemy Pay joins Mastercard program to expand crypto payments",
-    "description": "Alchemy Pay joins Mastercard Crypto Partner Program to build fiat-crypto payment tools and explore on-chain commerce integrations worldwide.",
-    "date": "2026-05-13",
-    "source_url": "https://crypto.news/alchemy-pay-joins-mastercard-program-to-expand-crypto-payments/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
