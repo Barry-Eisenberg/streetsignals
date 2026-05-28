@@ -1,5 +1,64 @@
 [
   {
+    "institution": "Mastercard",
+    "initiative": "Mastercard gets NY BitLicense, signaling shift to direct stablecoin settlement",
+    "description": "A Mastercard subsidiary has been granted a BitLicense by the New York State Department of Financial Services (NYDFS), positioning Mastercard to directly transmit and settle in stablecoins rather than relying on third party licensed intermediaries. The significance becomes clearer when you look at how card networks have handled stablecoin settlement to date and what changes",
+    "date": "2026-05-28",
+    "source_url": "https://www.ledgerinsights.com/mastercard-gets-ny-bitlicense-signaling-shift-to-direct-stablecoin-settlement/",
+    "category": "payments",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Tether",
+    "initiative": "Tether’s USAT supply grows 540% month-over-month, latest attestation shows",
+    "description": "Tether’s USA₮ supply grew six-fold month-over-month to over 140 million tokens, according to Anchorage Digital's latest attestation.",
+    "date": "2026-05-28",
+    "source_url": "https://www.theblock.co/post/402933/tethers-usat-supply-grows-540-month-over-month-latest-attestation-shows",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "U.S. Treasury Department",
+    "initiative": "VanEck VBILL goes live on Euler lending markets",
+    "description": "VanEck VBILL is now live on DeFi lending platform Euler, letting investors use tokenized Treasuries as onchain collateral. VanEck VBILL, the asset manager’s tokenized US Treasury fund, has gone live on decentralised lending platform Euler. VanEck VBILL goes live on Euler lending markets",
+    "date": "2026-05-28",
+    "source_url": "https://crypto.news/vaneck-vbill-lands-on-euler-lending/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "UniCredit warns Europe may struggle to contain crypto-bank crisis under MiCA rules",
     "description": "EU deposit insurance (up to €100,000) may not absorb stress from large stablecoin reserve accounts, unlike the full protection offered by U.S. regulators.",
@@ -9444,63 +9503,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Warsh era starts with the bond market hiking for him — and crypto has to care",
-    "description": "The bond market is pre‑emptively hiking for incoming Fed chair Kevin Warsh, yanking yields above the policy band and quietly margin‑calling every “lower for longer” narrative in crypto. The short version: the bond market is front‑running Kevin Warsh’s dovish instincts,… Warsh era starts with the bond market hiking for him — and crypto has to care",
-    "date": "2026-05-15",
-    "source_url": "https://crypto.news/warsh-era-starts-with-the-bond-market-hiking-for-him-and-crypto-has-to-care/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "XRP price forms multiple bullish patterns, will it reclaim $2?",
-    "description": "XRP price continued consolidating near a key breakout zone this week after forming several bullish reversal patterns on the weekly chart, while improving regulatory sentiment and tightening exchange supply strengthened the bullish outlook. According to data from crypto.news, XRP (XRP)… XRP price forms multiple bullish patterns, will it reclaim $2?",
-    "date": "2026-05-15",
-    "source_url": "https://crypto.news/xrp-price-forms-multiple-bullish-patterns-will-it-reclaim-2/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "NAB buys A2A payments platform Banked",
-    "description": "National Australia Bank has acquired account-to-account payments platform Banked. Financial terms were not disclosed.",
-    "date": "2026-05-15",
-    "source_url": "https://www.finextra.com/newsarticle/47761/nab-buys-a2a-payments-platform-banked",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
