@@ -1,5 +1,45 @@
 [
   {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "U.S. CFTC files request to erase Gemini settlement that it no longer considers fair",
+    "description": "The regulator went back to analyze the 2022 case and decided that it wouldn't have been pursued under current management and practices.",
+    "date": "2026-05-28",
+    "source_url": "https://www.coindesk.com/policy/2026/05/27/u-s-cftc-files-request-to-erase-gemini-settlement-that-it-no-longer-considers-fair",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS (Bank for International Settlements)",
+    "initiative": "BIS tokenization moves to real value payments",
+    "description": "BIS tokenization work has cleared its atomic settlement prototype phase and will graduate to real-value cross-border payment trials. The Bank for International… BIS tokenization moves to real value payments",
+    "date": "2026-05-28",
+    "source_url": "https://crypto.news/bis-tokenization-moves-to-real-value-payments/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Mastercard",
     "initiative": "Mastercard secures New York BitLicense",
     "description": "Mastercard Transaction Services has been granted a BitLicense by the New York State Department of Financial Services (NYDFS), cementing its support for digital currencies such as stablecoins and tokenized deposits",
@@ -9459,46 +9499,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BlackRock",
-    "initiative": "BlackRock, Janus Henderson tokenized funds get instant redemptions with new $1 billion facility",
-    "description": "A new credit facility by Grove aims to allow instant redemptions into stablecoins from BlackRock's BUIDL and Janus Henderson's money market funds, reducing settlement time from days to instantaneous.",
-    "date": "2026-05-14",
-    "source_url": "https://www.coindesk.com/business/2026/05/14/blackrock-janus-henderson-tokenized-funds-get-instant-redemptions-with-new-usd1-billion-facility",
-    "category": "asset_management",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Nasdaq",
-    "initiative": "CME sets June 8 for Nasdaq-backed crypto index futures covering seven assets in first weighted contract",
-    "description": "CME Group to launch Nasdaq CME Crypto Index futures June 8 — its first market-cap-weighted crypto contract covering BTC and six other assets.",
-    "date": "2026-05-14",
-    "source_url": "https://www.theblock.co/post/401274/cme-sets-june-8-for-nasdaq-backed-crypto-index-futures-covering-seven-assets-in-first-weighted-contract",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
