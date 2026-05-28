@@ -1,5 +1,44 @@
 [
   {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "Crypto trading firm FalconX confidentially files with SEC for IPO, hires bankers",
+    "description": "FalconX has hired Cantor and other bankers to advise on a potential IPO and confidentially filed draft paperwork with the SEC, though the listing is not expected until later this year amid volatile market conditions.",
+    "date": "2026-05-28",
+    "source_url": "https://www.coindesk.com/business/2026/05/28/crypto-trading-firm-falconx-confidentially-files-with-sec-for-ipo-hires-bankers",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Gemini crypto exchange launches AI data feed powered by Grok",
+    "description": "The move comes as Gemini continues to expand beyond spot crypto trading into derivatives, predictions, and other financial services.",
+    "date": "2026-05-28",
+    "source_url": "https://www.theblock.co/post/402961/gemini-crypto-exchange-launches-ai-data-feed-powered-grok",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Mastercard",
     "initiative": "Mastercard gets NY BitLicense, signaling shift to direct stablecoin settlement",
     "description": "A Mastercard subsidiary has been granted a BitLicense by the New York State Department of Financial Services (NYDFS), positioning Mastercard to directly transmit and settle in stablecoins rather than relying on third party licensed intermediaries. The significance becomes clearer when you look at how card networks have handled stablecoin settlement to date and what changes",
@@ -9463,46 +9502,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Hyperliquid price outlook as Bitwise launches spot HYPE ETF",
-    "description": "Hyperliquid price remained volatile this week after rebounding sharply from a recent pullback, while growing institutional involvement and the launch of new spot exchange-traded products strengthened bullish sentiment surrounding the decentralized trading protocol. According to data from crypto.news, Hyperliquid (HYPE)… Hyperliquid price outlook as Bitwise launches spot HYPE ETF",
-    "date": "2026-05-15",
-    "source_url": "https://crypto.news/hyperliquid-price-outlook-as-bitwise-launches-spot-hype-etf/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Kraken parent Payward cuts 150 staff, streamlining business ahead of planned IPO",
-    "description": "The crypto exchange is also seeking fresh funding at a $20 billion valuation as it ramps up acquisitions and prepares for a public listing.",
-    "date": "2026-05-15",
-    "source_url": "https://www.coindesk.com/business/2026/05/14/kraken-parent-payward-cuts-150-staff-streamlining-business-ahead-of-planned-ipo",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
