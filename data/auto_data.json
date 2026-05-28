@@ -1,5 +1,44 @@
 [
   {
+    "institution": "Mastercard",
+    "initiative": "Mastercard secures New York BitLicense",
+    "description": "Mastercard Transaction Services has been granted a BitLicense by the New York State Department of Financial Services (NYDFS), cementing its support for digital currencies such as stablecoins and tokenized deposits",
+    "date": "2026-05-28",
+    "source_url": "https://www.finextra.com/newsarticle/47818/mastercard-secures-new-york-bitlicense",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS (Bank for International Settlements)",
+    "initiative": "Tokenisation can improve wholesale cross-border payments - BIS project",
+    "description": "A long-running project involving several central banks and a host of private sector players has built a prototype demonstrating that tokenisation can tackle inefficiencies in wholesale cross-border payments.",
+    "date": "2026-05-28",
+    "source_url": "https://www.finextra.com/newsarticle/47819/tokenisation-can-improve-wholesale-cross-border-payments---bis-project",
+    "category": "regulators",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Nasdaq",
     "initiative": "Bitdeer names Corsair’s Potter as new CFO",
     "description": "Liu will remain through June 30. The Nasdaq-listed Bitcoin miner disclosed the… Bitdeer names Corsair’s Potter as new CFO",
@@ -9457,47 +9496,6 @@
     "signal_type": "Product Launch",
     "fmi_areas": [
       "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase expands USDC reach through Hyperliquid treasury partnership",
-    "description": "Coinbase has become the official USDC treasury deployer on Hyperliquid, strengthening the crypto exchange’s push to expand the stablecoin’s presence deeper into decentralized finance infrastructure. The agreement also includes Native Markets granting Coinbase purchasing rights for USDH-branded assets. Coinbase expands USDC reach through Hyperliquid treasury partnership",
-    "date": "2026-05-14",
-    "source_url": "https://crypto.news/coinbase-expands-usdc-reach-through-hyperliquid-treasury-partnership/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainlink",
-    "initiative": "Chainlink price tests major S/R zone at $10, will bulls regain momentum?",
-    "description": "Chainlink price pulled back this week after facing rejection near a key Fibonacci resistance level, while traders closely watched whether bulls could defend the important support-resistance flip zone near $10. According to data from crypto.news, Chainlink (LINK) traded around $10.2… Chainlink price tests major S/R zone at $10, will bulls regain momentum?",
-    "date": "2026-05-14",
-    "source_url": "https://crypto.news/chainlink-price-tests-major-s-r-zone-at-10-will-bulls-regain-momentum/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Data & Reporting"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
