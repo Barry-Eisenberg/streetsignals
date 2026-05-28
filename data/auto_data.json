@@ -1,5 +1,24 @@
 [
   {
+    "institution": "U.S. Treasury Department",
+    "initiative": "Bitcoin could be heading much lower, fund manager warns as $150 billion Treasury operation nears",
+    "description": "Fund manager Michael Kramer says a $150 billion liquidity drain from upcoming U.S. Treasury operations could push bitcoin sharply lower.",
+    "date": "2026-05-28",
+    "source_url": "https://www.coindesk.com/markets/2026/05/28/bitcoin-could-be-heading-much-lower-fund-manager-warns-as-usd150-billion-treasury-operation-nears",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CFTC (Commodity Futures Trading Commission)",
     "initiative": "U.S. CFTC files request to erase Gemini settlement that it no longer considers fair",
     "description": "The regulator went back to analyze the 2022 case and decided that it wouldn't have been pursued under current management and practices.",
@@ -76,6 +95,24 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "US charges Google engineer with using internal search data to pocket $1.2 million on Polymarket",
+    "description": "Prosecutors charged Spagnuolo with fraud and money laundering, while the CFTC filed a complaint alleging insider trading violations.",
+    "date": "2026-05-27",
+    "source_url": "https://www.theblock.co/post/402806/google-engineer-insider-trading-polymarket",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -9459,46 +9496,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Circle",
-    "initiative": "Turnkey raises $12.5 million in round backed by Circle Ventures and Sequoia Capital",
-    "description": "The new capital will primarily fund the development and public launch of Turnkey Verifiable Cloud, a secure computing product for digital assets.",
-    "date": "2026-05-14",
-    "source_url": "https://www.coindesk.com/business/2026/05/06/turnkey-raises-usd12-5-million-in-round-backed-by-circle-ventures-and-sequoia-capital",
-    "category": "payments",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Stablecoin-powered neobank Fasset raises $51 million to expand across emerging markets",
-    "description": "The Shariah-compliant digital bank is part of a growing wave of fintech startups building banking and payments services on top of blockchain and stablecoin rails.",
-    "date": "2026-05-14",
-    "source_url": "https://www.coindesk.com/business/2026/05/14/stablecoin-powered-neobank-fasset-raises-usd51-million-to-expand-across-emerging-markets",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
   }
