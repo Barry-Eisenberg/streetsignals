@@ -1,5 +1,24 @@
 [
   {
+    "institution": "crypto.news",
+    "initiative": "UniCredit warns Europe faces crypto bank crisis",
+    "description": "UniCredit director Elena Carletti has warned Europe may struggle to contain a crypto bank crisis under MiCA rules. UniCredit deputy vice chair Elena Carletti has warned that Europe may struggle to contain a crypto-linked banking shock under MiCA. UniCredit warns Europe faces crypto bank crisis",
+    "date": "2026-05-28",
+    "source_url": "https://crypto.news/unicredit-warns-of-eu-crypto-bank-crisis/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "Crypto trading firm FalconX confidentially files with SEC for IPO, hires bankers",
     "description": "FalconX has hired Cantor and other bankers to advise on a potential IPO and confidentially filed draft paperwork with the SEC, though the listing is not expected until later this year amid volatile market conditions.",
@@ -9485,23 +9504,6 @@
       "DeFi",
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "Polymarket’s CFTC talks are really about who gets to price reality in public",
-    "description": "Polymarket’s push to lift its CFTC ban is not just a venue story; it’s a fight over whether “reality markets” on war, pandemics and macro become a regulated US asset class or stay an offshore grey zone. Polymarket’s CFTC talks are really about who gets to price reality in public",
-    "date": "2026-05-15",
-    "source_url": "https://crypto.news/polymarkets-cftc-talks-are-really-about-who-gets-to-price-reality-in-public/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
