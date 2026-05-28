@@ -1,5 +1,77 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "UniCredit warns Europe may struggle to contain crypto-bank crisis under MiCA rules",
+    "description": "EU deposit insurance (up to €100,000) may not absorb stress from large stablecoin reserve accounts, unlike the full protection offered by U.S. regulators.",
+    "date": "2026-05-28",
+    "source_url": "https://www.coindesk.com/business/2026/05/28/unicredit-warns-europe-may-struggle-to-contain-crypto-bank-crisis-under-mica-rules",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Visa",
+    "initiative": "Visa invests in agentic software creation platform Replit",
+    "description": "Visa has invested in Replit, the agentic software creation platform already used by more than 1000 of the payment giant's employees. The size of the investment was not disclosed.",
+    "date": "2026-05-28",
+    "source_url": "https://www.finextra.com/newsarticle/47825/visa-invests-in-agentic-software-creation-platform-replit",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Grayscale’s Hyperliquid ETF negotiating ‘seed’ investment of roughly $115 million in HYPE tokens",
+    "description": "Earlier this month, 21Shares and Bitwise Investments became the first firms to launch HYPE-based exchange-traded funds.",
+    "date": "2026-05-28",
+    "source_url": "https://www.theblock.co/post/402903/grayscale-hyperliquid-etf-negotiating-seed-investment-115-million-hype-tokens",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "U.S. Treasury Department",
+    "initiative": "VanEck’s tokenized VBILL US Treasury fund can now be used as collateral on Euler",
+    "description": "Securitize launched VanEck's VBILL as a collateral asset in an Euler lending market curated by KPK on Thursday.",
+    "date": "2026-05-28",
+    "source_url": "https://www.theblock.co/post/402904/vaneck-tokenized-vbill-us-treasury-fund-collateral-euler",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Federal Reserve Board issues enforcement actions with former employee of Atlantic Union Bank and former employee of Frost Bank",
     "description": "Federal Reserve Board issues enforcement actions with former employee of Atlantic Union Bank and former employee of Frost Bank",
@@ -8962,6 +9034,42 @@
     "year": "2026"
   },
   {
+    "institution": "Mastercard",
+    "initiative": "PhotonPay and Mastercard Complete First Agentic Payment",
+    "description": "Hey Payments Fanatic! In a live operational demonstration, PhotonPay announced a milestone in an agentic transaction together with Mastercard. You might be wondering how it worked. Turns out a PhotonPay tokenized card was securely provisioned for use by an AI agent, which autonomously initiated and completed a real-world payment transaction",
+    "date": "2026-05-15",
+    "source_url": "https://www.connectingthedotsinpayments.com/photonpay-and-mastercard-complete-first-agentic-payment/",
+    "category": "payments",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Fintech Wrap Up",
+    "initiative": "Why every company will launch its own stablecoin - Sam Broner (CEO, The Better Money Company)",
+    "description": "What happens when every bank, fintech, and enterprise launches its own stablecoin?",
+    "date": "2026-05-15",
+    "source_url": "https://www.fintechwrapup.com/p/why-every-company-will-launch-its",
+    "category": "ecosystem",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CFTC (Commodity Futures Trading Commission)",
     "initiative": "U.S. House lawmakers who oversee the CFTC are urging Trump to fill the commission",
     "description": "As the Commodity Futures Trading Commission takes on a growing task to police U.S. crypto trading, senior lawmakers are saying it needs bipartisan leadership.",
@@ -9393,122 +9501,6 @@
       "Payments & Transfers"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Poland passes MiCA crypto bill as $96 million Zondacrypto probe deepens: report",
-    "description": "Polish lawmakers adopted MiCA as prosecutors probe $96 million in losses from collapsed exchange Zondacrypto.",
-    "date": "2026-05-15",
-    "source_url": "https://www.theblock.co/post/401493/poland-passes-mica-crypto-bill-zondacrypto-probe-deepens-report",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "21Shares’ Hyperliquid ETF posts ‘best day’ inflows of $5 million as Coinbase becomes treasury deployer",
-    "description": "The newly-launched ETF “had its best day yet\" on Thursday with $8.1 million trading volume and net inflows of roughly $4.9 million.",
-    "date": "2026-05-15",
-    "source_url": "https://www.theblock.co/post/401479/21shares-hyperliquid-etf-best-day-inflows-5-million-coinbase-treasury-deployer",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Hyperliquid leads 24-hour gains as altcoins pace bitcoin",
-    "description": "HYPE’s surge is being fueled by Bitwise’s new spot Hyperliquid ETF and Coinbase’s expanded role as Hyperliquid’s official USDC treasury deployer.",
-    "date": "2026-05-15",
-    "source_url": "https://www.coindesk.com/markets/2026/05/15/hyperliquid-leads-24-hour-gains-as-altcoins-pace-bitcoin",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Hana Bank to acquire $670 million stake in Upbit operator Dunamu",
-    "description": "The South Korean bank announced plans for a won-pegged stablecoin, blockchain remittances and tokenized securities.",
-    "date": "2026-05-15",
-    "source_url": "https://www.coindesk.com/business/2026/05/15/hana-bank-to-acquire-usd670-million-stake-in-upbit-operator-dunamu",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "OKX set to acquire 20% stake in South Korean crypto exchange Coinone: report",
-    "description": "If approved, OKX would become the second global exchange to own a majority stake in a South Korean crypto platform, following Binance.",
-    "date": "2026-05-15",
-    "source_url": "https://www.theblock.co/post/401431/okx-coinone-acquisition",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "JPMorgan",
-    "initiative": "Bitcoin Reclaims $81,000 After CLARITY Vote as JPMorgan Says It’s Winning the Institutional Race",
-    "description": "Bitcoin bounced to $81,000 after the CLARITY Act cleared committee, but 12-month-high Treasury yields and a stubborn 200-day moving average keep the macro picture uncertain.",
-    "date": "2026-05-15",
-    "source_url": "https://unchainedcrypto.com/bitcoin-reclaims-81000-after-clarity-vote-as-jpmorgan-says-its-winning-the-institutional-race/",
-    "category": "payments",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
