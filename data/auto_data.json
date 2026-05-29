@@ -1,5 +1,79 @@
 [
   {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "Paxos wins SEC approval to clear U.S. stocks on blockchain",
+    "description": "Paxos new license positions it alongside legacy giants such as DTCC and makes it a compelling, more efficient alternative for traditional finance giants than legacy competitors.",
+    "date": "2026-05-29",
+    "source_url": "https://www.coindesk.com/policy/2026/05/29/paxos-is-first-blockchain-firm-to-provide-settlement-and-clearing-services-following-sec-approval",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "Hyperliquid bigger than NASDAQ, says ICE CEO Jeffrey Sprecher",
+    "description": "Sprecher saluted Hyperliquid's team, signaling deeper engagement between Wall Street incumbents and crypto-native rails.",
+    "date": "2026-05-29",
+    "source_url": "https://www.coindesk.com/markets/2026/05/29/ice-ceo-calls-hyperliquid-bigger-than-nasdaq-says-he-s-met-its-founders",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "U.S. Treasury Department",
+    "initiative": "Trump Accounts investment app launches for children, backed by BNY and Robinhood",
+    "description": "The US Treasury launched the Trump Accounts app on Thursday, allowing parents to place money in investment accounts for their children.",
+    "date": "2026-05-29",
+    "source_url": "https://www.finextra.com/newsarticle/47829/trump-accounts-investment-app-launches-for-children-backed-by-bny-and-robinhood",
+    "category": "regulators",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "Trump vows to push pro-Bitcoin policies; SHRMiner cloud mining’s $7,000 passive income opportunity draws attention",
+    "description": "Trump’s crypto support boosts interest in Bitcoin and cloud mining platforms like SHRMiner among retail investors. In an article published on Truth Social, Trump accused former SEC Chairman Gary Gensler and the “anti-crypto army” of nearly destroying the U.S. Trump vows to push pro-Bitcoin policies; SHRMiner cloud mining’s $7,000 passive income opportunity draws attention",
+    "date": "2026-05-29",
+    "source_url": "https://crypto.news/trump-vows-to-push-pro-bitcoin-policies-shrminer-cloud-minings-7000-passive-income-opportunity-draws-attention/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA (European Securities and Markets Authority)",
     "initiative": "ESMA’s annual data report shows increased quality, wider use and digital progress",
     "description": "It shows that improvements in data quality and data use reinforce each other in a virtuous cycle, supporting more effective supervision and market monitoring across the EU. This year’s edition reflects an expansion in the scope of ESMA’s data quality and use activities, with measurable improvements in data quality across major regulatory datasets, including EMIR, SFTR, MiFIR, AIFMD and MMFR. ESMA’s annual data report shows increased quality, wider use and digital progress",
@@ -9454,79 +9528,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA (European Securities and Markets Authority)",
-    "initiative": "ESMA launches a call for evidence on the structure of European equity markets",
-    "description": "The analysis shows that European equity markets continue to function well overall: The share of addressable liquidity has remained stable at around 85% of total trading volume. Next steps ESMA invites stakeholders’ views on the functioning of European stock markets by 30 June 2026, and will issue a feedback statement in the second half of 2026 on this call for evidence. ESMA launches a call for evidence on the structure of European equity markets",
-    "date": "2026-05-16",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-launches-call-evidence-structure-european-equity-markets",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA (European Securities and Markets Authority)",
-    "initiative": "ESMA consults on guidelines on endorsement under the ESG Ratings Regulation",
-    "description": "Background The ESG Ratings Regulation establishes a regulatory framework for providers of ESG ratings in the European Union. As part of this framework, and in order to ensure market integrity and investor protection, the Regulation includes provisions which set out how ESG rating providers that are established in the Union can endorse ratings from outside the Union. ESMA consults on guidelines on endorsement under the ESG Ratings Regulation",
-    "date": "2026-05-16",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-consults-guidelines-endorsement-under-esg-ratings-regulation",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainlink",
-    "initiative": "Chainlink price prediction May 2026: Is LINK undervalued or is meme Punch the better entry point?",
-    "description": "The token trades around $10 in mid-May, down roughly 40% over the… Chainlink struggles near $10 as investors debate recovery potential versus growing interest in crypto presales. Chainlink price prediction May 2026: Is LINK undervalued or is meme Punch the better entry point?",
-    "date": "2026-05-16",
-    "source_url": "https://crypto.news/chainlink-price-prediction-may-2026-is-link-undervalued-or-is-meme-punch-the-better-entry-point/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Best crypto presales to watch before they sell out: May 2026 edition",
-    "description": "Poly Truth and Meme Punch presales gain traction in 2026 crypto market narrative around utility tokens. The phase where a project sells its token prior to listing on any exchange is known as a crypto presale. Best crypto presales to watch before they sell out: May 2026 edition",
-    "date": "2026-05-16",
-    "source_url": "https://crypto.news/best-crypto-presales-to-watch-before-they-sell-out-may-2026-edition/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
