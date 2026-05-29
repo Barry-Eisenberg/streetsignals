@@ -1,6 +1,64 @@
 [
   {
     "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "U.S. regulator says 24/7 trading is great for crypto, may not be fit for other sectors",
+    "description": "As the CFTC issued landmark approvals for crypto perpetual futures contracts, it explained in a related advisory that round-the-clock activity isn't right for all.",
+    "date": "2026-05-29",
+    "source_url": "https://www.coindesk.com/policy/2026/05/29/u-s-regulator-says-24-7-trading-is-great-for-crypto-may-not-be-fit-for-other-sectors",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "Clarity Act Risks Regulation Without Oversight, Brookings Fellow Says",
+    "description": "As Congress weighs crypto legislation, Aaron Klein says the CFTC needs more resources, independence and coordination to oversee digital markets.",
+    "date": "2026-05-29",
+    "source_url": "https://www.coindesk.com/policy/2026/05/29/clarity-act-risks-regulation-without-oversight-brookings-fellow-says",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "Crypto.com and OG bring prediction markets to U.S. SailGP team",
+    "description": "Crypto.com and OG Prediction Markets have signed a multi year global partnership with the United States SailGP Team, ahead of this week’s New York Sail Grand Prix, bringing CFTC regulated prediction markets directly into elite foiling yacht racing for the… Crypto.com and OG bring prediction markets to U.S. SailGP team",
+    "date": "2026-05-29",
+    "source_url": "https://crypto.news/crypto-com-and-og-bring-prediction-markets-to-u-s-sailgp-team/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
     "initiative": "What American crypto asset perpetuals mean for the future of crypto",
     "description": "For years, one of the most significant crypto asset markets has existed entirely outside the United States. Today, that changes, explains CFTC Chairman Selig.",
     "date": "2026-05-29",
@@ -9472,64 +9530,6 @@
     "signal_type": "Strategic Filing / Plan",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "US crypto ATM operator Bitcoin Depot files for Chapter 11 to wind down business",
-    "description": "Bitcoin Depot said changing regulatory environments have made it difficult to continue its current business model.",
-    "date": "2026-05-18",
-    "source_url": "https://www.theblock.co/post/401590/bitcoin-depot-chapter-11",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin slides under $77,000 as oil shock and Treasury yields hit risk assets",
-    "description": "Long-term holders are still sitting tight and exchange balances remain near six-year lows, Binance Research data shows, but underwater short-term holders leave BTC vulnerable to macro shocks.",
-    "date": "2026-05-18",
-    "source_url": "https://www.coindesk.com/markets/2026/05/18/bitcoin-slides-under-usd77-000-as-oil-shock-and-treasury-yields-hit-risk-assets",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Japan’s SBI, Rakuten developing crypto investment trusts in-house: Nikkei",
-    "description": "The push comes after Japan's cabinet approved a bill last month that would reclassify crypto under the Financial Instruments and Exchange Act.",
-    "date": "2026-05-17",
-    "source_url": "https://www.theblock.co/post/401561/japans-sbi-rakuten-developing-crypto-investment-trusts-in-house-nikkei",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
