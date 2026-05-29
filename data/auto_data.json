@@ -1,5 +1,27 @@
 [
   {
+    "institution": "ECB (European Central Bank)",
+    "initiative": "ECB to extend TARGET hours enabling Pontes, 24/7 DLT settlement",
+    "description": "Following a consultation involving 125 responses, the European Central Bank (ECB) today announced plans to extend aspects of its TARGET settlement infrastructure, though the real time gross settlement (RTGS) system itself will not gain additional hours in the short term. While the initial steps aim to address liquidity challenges with instant payment system TIPS, this",
+    "date": "2026-05-28",
+    "source_url": "https://www.ledgerinsights.com/ecb-to-extend-target-hours-enabling-pontes-24-7-dlt-settlement/",
+    "category": "regulators",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "crypto.news",
     "initiative": "UniCredit warns Europe faces crypto bank crisis",
     "description": "UniCredit director Elena Carletti has warned Europe may struggle to contain a crypto bank crisis under MiCA rules. UniCredit deputy vice chair Elena Carletti has warned that Europe may struggle to contain a crypto-linked banking shock under MiCA. UniCredit warns Europe faces crypto bank crisis",
@@ -9482,28 +9504,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "OCC (Office of the Comptroller of the Currency)",
-    "initiative": "Augustus eyes AI banking launch after rare OCC approval",
-    "description": "Augustus says old banks can’t rebuild for AI and stablecoins after OCC approval, as it prepares Dallas bank for programmable clearing soon.",
-    "date": "2026-05-15",
-    "source_url": "https://crypto.news/augustus-eyes-ai-banking-launch-after-rare-occ-approval/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DeFi",
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
