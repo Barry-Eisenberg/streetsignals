@@ -1,5 +1,24 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Bitcoin, ether little-changed despite record stocks, falling oil and easing war fears",
+    "description": "Global stocks hit records and oil cracked on a tentative US-Iran ceasefire extension. Crypto stayed on the sidelines, with some analysts saying the next catalyst is regulatory, not geopolitical.",
+    "date": "2026-05-29",
+    "source_url": "https://www.coindesk.com/markets/2026/05/29/bitcoin-ether-little-changed-despite-record-stocks-falling-oil-and-easing-war-fears",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ECB (European Central Bank)",
     "initiative": "ECB to extend TARGET hours enabling Pontes, 24/7 DLT settlement",
     "description": "Following a consultation involving 125 responses, the European Central Bank (ECB) today announced plans to extend aspects of its TARGET settlement infrastructure, though the real time gross settlement (RTGS) system itself will not gain additional hours in the short term. While the initial steps aim to address liquidity challenges with instant payment system TIPS, this",
@@ -9483,25 +9502,6 @@
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CME Group",
-    "initiative": "CME, ICE push U.S. regulators to scrutinize Hyperliquid over manipulation risks",
-    "description": "CME Group and ICE have reportedly warned the CFTC and Capitol Hill officials that Hyperliquid’s decentralized perpetual futures platform could enable market manipulation and sanctions evasion.",
-    "date": "2026-05-15",
-    "source_url": "https://www.coindesk.com/markets/2026/05/15/cme-ice-push-u-s-regulators-to-scrutinize-hyperliquid-over-manipulation-risks-bloomberg",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance"
     ],
     "initiative_types": [],
     "year": "2026"
