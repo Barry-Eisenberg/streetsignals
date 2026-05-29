@@ -1,5 +1,101 @@
 [
   {
+    "institution": "JPMorgan",
+    "initiative": "‘The banks will not accept it’: Dimon escalates battle over stablecoin rewards in CLARITY Act debate",
+    "description": "JPMorgan CEO Jamie Dimon criticized Coinbase CEO Brian Armstrong and warned the current CLARITY Act framework could ultimately fail, as banks and crypto firms clash over whether stablecoin issuers should be allowed to offer yield-bearing rewards that resemble bank deposits.",
+    "date": "2026-05-29",
+    "source_url": "https://www.coindesk.com/policy/2026/05/29/the-banks-will-not-accept-it-dimon-escalates-battle-over-stablecoin-rewards-in-clarity-act-debate",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "CFTC approves first US-listed bitcoin perpetual futures contract",
+    "description": "The Commodity Futures Trading Commission (CFTC) has approved KalshiEX to list a bitcoin perpetual futures contract in the United States, opening the door to a product that has dominated crypto derivatives trading globally but until now remained largely confined to offshore venues. The CFTC issued a policy statement and two no action letters on Thursday",
+    "date": "2026-05-29",
+    "source_url": "https://www.ledgerinsights.com/cftc-approves-first-us-listed-bitcoin-perpetual-futures-contract/",
+    "category": "regulators",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "JPMorgan CEO Jamie Dimon blasts Coinbase’s Brian Armstrong, plans to fight Clarity Act",
+    "description": "Dimon said Coinbase's Armstrong is spending hundreds of millions of dollars trying to get Clarity Act passed.",
+    "date": "2026-05-29",
+    "source_url": "https://www.theblock.co/post/403049/jpmorgan-ceo-jamie-dimon-blasts-coinbases-brian-armstrong-plans-fight-clarity-act",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "U.S. Treasury Department",
+    "initiative": "Iran crypto crackdown deepens as US targets IRGC wallets",
+    "description": "Treasury has said it has seized nearly $1 billion in cryptocurrency linked to Iran as Washington expands its financial campaign against Tehran. Iran crypto crackdown deepens as US targets IRGC wallets",
+    "date": "2026-05-29",
+    "source_url": "https://crypto.news/iran-crypto-crackdown-deepens-as-us-targets-irgc-wallets/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase unlocks global crypto derivatives for U.S. institutions",
+    "description": "Coinbase said on May 29 that Coinbase Financial Markets now gives eligible U.S. Coinbase has opened a regulated route for U.S. Coinbase unlocks global crypto derivatives for U.S. institutions",
+    "date": "2026-05-29",
+    "source_url": "https://crypto.news/coinbase-unlocks-global-crypto-derivatives-for-u-s-institutions/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS (Bank for International Settlements)",
     "initiative": "BIS and Gleif team on LEIs in cross-border open finance prototype",
     "description": "The Global Legal Entity Identifier Foundation (GLEIF) and the Bank for International Settlements (BIS) have demonstrated how the Legal Entity Identifier (LEI) can bring new Know Your Customer/Business (KYC/B) and Anti-Money Laundering (AML) process efficiencies to small and medium-sized enterprises (SMEs) when using open banking and open finance APIs to initiate payments and open business accounts across borders.",
@@ -9437,104 +9533,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Kraken Cuts 150 Workers After Deploying AI as IPO Timeline May Slip to 2027",
-    "description": "Kraken parent Payward eliminated 150 workers after deploying AI, with Bloomberg reporting the exchange's IPO may slip to 2027 as crypto prices weigh on timing.",
-    "date": "2026-05-18",
-    "source_url": "https://unchainedcrypto.com/kraken-cuts-150-workers-after-deploying-ai-as-ipo-timeline-may-slip-to-2027/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Crypto phishing scam uses Google-style emails to target traders",
-    "description": "Crypto users face phishing emails that abuse real Google alerts targeting exchange and DeFi accounts with hidden links and fake login traps.",
-    "date": "2026-05-18",
-    "source_url": "https://crypto.news/crypto-phishing-scam-uses-google-style-emails-to-target-traders/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Hana Bank’s $668M Dunamu bet sparks Korea banking rule check",
-    "description": "South Korea’s FSC is reviewing Hana Bank’s $668M Dunamu stake under bank-commerce rules as finance firms push deeper into crypto assets now.",
-    "date": "2026-05-18",
-    "source_url": "https://crypto.news/hana-banks-668m-dunamu-bet-sparks-korea-banking-rule-check/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Goldman Sachs",
-    "initiative": "Goldman Sachs cuts altcoin ETF exposure after Q1 filing",
-    "description": "Goldman Sachs exited XRP and Solana ETFs in Q1, trimmed Bitcoin and Ether funds and added crypto-linked stocks in its latest SEC 13F filing.",
-    "date": "2026-05-18",
-    "source_url": "https://crypto.news/goldman-sachs-cuts-altcoin-etf-exposure-after-q1-filing/",
-    "category": "global_banks",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Bitcoin braces for Fed minutes and Nvidia earnings after $661M wipeout",
-    "description": "Bitcoin slid under $77K as ETF outflows, Fed minutes, jobs data and Nvidia earnings set up a volatile week for crypto markets this week now",
-    "date": "2026-05-18",
-    "source_url": "https://crypto.news/bitcoin-braces-for-fed-minutes-and-nvidia-earnings-after-661m-wipeout/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
