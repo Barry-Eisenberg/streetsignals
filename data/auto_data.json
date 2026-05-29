@@ -1,5 +1,119 @@
 [
   {
+    "institution": "Project Agora",
+    "initiative": "Project Agora announces findings for tokenised wholesale cross-border payments",
+    "description": "The Bank of International Settlements’ (BIS) Project Agora has developed a prototype for programmable wholesale cross-border payments.",
+    "date": "2026-05-29",
+    "source_url": "https://www.finextra.com/newsarticle/47828/project-agora-announces-findings-for-tokenised-wholesale-cross-border-payments",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "TrueLayer buys fintech In3, offering users debit and credit at checkout",
+    "description": "TrueLayer, Europe's leading Pay by Bank network, today announced the acquisition of In3, a Dutch fintech specialising in consumer credit via bank payments.",
+    "date": "2026-05-29",
+    "source_url": "https://www.finextra.com/pressarticle/109975/truelayer-buys-fintech-in3-offering-users-debit-and-credit-at-checkout",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Banks are about to lose their monopoly on money - Keith Grose (Coinbase, UK CEO)",
+    "description": "In this episode of the WRAP UP Podcast, I sit down with Coinbase UK CEO Keith Grose to discuss why stablecoins, tokenized assets, and blockchain infrastructure are starting to move from the edge of finance into the core of the global financial system.",
+    "date": "2026-05-29",
+    "source_url": "https://www.fintechwrapup.com/p/jhhfhff",
+    "category": "exchanges_intermediaries",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "‘First and only’: Paxos secures SEC registration as clearing and settlement agency",
+    "description": "Paxos said it is the first and only blockchain-native firm to be registered as a clearing agency under the SEC.",
+    "date": "2026-05-29",
+    "source_url": "https://www.theblock.co/post/402994/paxos-sec-registration",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "ICE CEO questions unequal treatment of onchain perpetuals market",
+    "description": "Jeffrey Sprecher, chief executive officer of Intercontinental Exchange (ICE), has said the company wants equal regulatory treatment as it evaluates opportunities in the fast-growing market for onchain perpetual futures. Speaking at a Bernstein conference on May 27, Intercontinental Exchange CEO… ICE CEO questions unequal treatment of onchain perpetuals market",
+    "date": "2026-05-29",
+    "source_url": "https://crypto.news/ice-ceo-questions-unequal-treatment-of-onchain-perpetuals-market/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "OKX Ventures acquires 19.6% stake in South Korean crypto exchange Coinone",
+    "description": "According to a… OKX Ventures acquires 19.6% stake in South Korean crypto exchange Coinone",
+    "date": "2026-05-29",
+    "source_url": "https://crypto.news/okx-ventures-acquires-19-6-stake-in-south-korean-crypto-exchange-coinone/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "OKX Ventures buys $53 million stake in Korea's Coinone exchange",
     "description": "The crypto exchange's investment arm and Korea Investment & Securities will each invest 80 billion won ($53 million) as Coinone pushes into stablecoins and tokenized securities.",
@@ -9316,6 +9430,23 @@
     "year": "2026"
   },
   {
+    "institution": "Federal Reserve",
+    "initiative": "Federal Reserve Board announces termination of enforcement actions with UBS Group AG, Credit Suisse AG, Credit Suisse Holdings (USA), Inc., and Credit Suisse AG, New York Branch",
+    "description": "Federal Reserve Board announces termination of enforcement actions with UBS Group AG, Credit Suisse AG, Credit Suisse Holdings (USA), Inc., and Credit Suisse AG, New York Branch",
+    "date": "2026-05-15",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260515a.htm",
+    "category": "regulators",
+    "source_name": "Federal Reserve — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Mastercard",
     "initiative": "PhotonPay and Mastercard Complete First Agentic Payment",
     "description": "Hey Payments Fanatic! In a live operational demonstration, PhotonPay announced a milestone in an agentic transaction together with Mastercard. You might be wondering how it worked. Turns out a PhotonPay tokenized card was securely provisioned for use by an AI agent, which autonomously initiated and completed a real-world payment transaction",
@@ -9386,133 +9517,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainlink",
-    "initiative": "Lombard joins Chainlink CCIP as LayerZero exodus tops $4b",
-    "description": "Lombard has joined a wave of protocols switching to Chainlink CCIP as LayerZero migrations top $4 billion. LayerZero exploit sparks industry-wide migration The shift accelerated after a $292 million exploit drained 116,500 rsETH from Kelp DAO’s LayerZero-powered bridge in April… Lombard joins Chainlink CCIP as LayerZero exodus tops $4b",
-    "date": "2026-05-15",
-    "source_url": "https://crypto.news/chainlink-ccip-draws-4b-from-layerzero-exodus/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "a16z says CLARITY Act’s Senate breakthrough could be crypto’s 1933 moment",
-    "description": "The CLARITY Act’s bipartisan 15–9 Senate Banking vote moves a bill that could finally split SEC–CFTC jurisdiction and give crypto its first bespoke market‑structure law, a16z argues. According to a16z, the CLARITY Act is designed to build a bespoke legal framework… a16z says CLARITY Act’s Senate breakthrough could be crypto’s 1933 moment",
-    "date": "2026-05-15",
-    "source_url": "https://crypto.news/a16z-says-clarity-acts-senate-breakthrough-could-be-cryptos-1933-moment/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BlackRock",
-    "initiative": "Mubadala raises its Bitcoin ETF stake 16% to $566 million",
-    "description": "Abu Dhabi’s Mubadala disclosed a 16% increase in its Bitcoin ETF position to $566 million in Q1 2026. The SEC 13F filing shows Mubadala held 14,721,917 shares of BlackRock’s iShares Bitcoin Trust valued at $565,616,051 as of March 31, 2026.… Mubadala raises its Bitcoin ETF stake 16% to $566 million",
-    "date": "2026-05-15",
-    "source_url": "https://crypto.news/mubadala-raises-bitcoin-etf-stake-to-566m-in-q1/",
-    "category": "asset_management",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Nasdaq",
-    "initiative": "SpaceX targets June 11 IPO pricing, picks Nasdaq for historic market debut",
-    "description": "Elon Musk’s rocket and satellite company has accelerated plans for its blockbuster public offering, with trading expected to begin as early as June 12 after a faster-than-expected SEC review.",
-    "date": "2026-05-15",
-    "source_url": "https://www.coindesk.com/markets/2026/05/15/spacex-targets-june-11-ipo-pricing-picks-nasdaq-for-historic-market-debut",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Bitcoin gives up Clarity Act gains as macro rout wipes out leveraged crypto bulls",
-    "description": "Stocks, gold and crypto slid on Friday while crude oil topped $100 and traders repriced Fed expectations for rate hikes.",
-    "date": "2026-05-15",
-    "source_url": "https://www.coindesk.com/markets/2026/05/15/bitcoin-tumbles-below-usd79-000-as-rising-bond-yields-inflation-worries-rattle-markets",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Digital Asset Exchange",
-    "initiative": "Bitget’s AI trading stack tops 1 million users and $1.2B in volume",
-    "description": "Bitget’s AI trading ecosystem now spans 58 tools, over 1 million users and $1.2B in volume, as the exchange leans into “agent‑native” trading as a core Universal Exchange pillar. Bitget has launched a dedicated Bitget AI landing page and disclosed… Bitget’s AI trading stack tops 1 million users and $1.2B in volume",
-    "date": "2026-05-15",
-    "source_url": "https://crypto.news/bitgets-ai-trading-stack-tops-1-million-users-and-1-2b-in-volume/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "U.S. Treasury Department",
-    "initiative": "Treasury yields hit 12-month high, Bitcoin stalls",
-    "description": "Treasury yields hit 12-month highs on May 15, pushing Bitcoin back toward $80,500 a day after the Clarity Act committee vote. US Treasury yields surged to fresh 12-month highs on May 15, with the 10-year note hitting 4.54% and the… Treasury yields hit 12-month high, Bitcoin stalls",
-    "date": "2026-05-15",
-    "source_url": "https://crypto.news/treasury-yields-hit-12-month-high-bitcoin-stalls/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
