@@ -1,6 +1,130 @@
 [
   {
     "institution": "CoinDesk",
+    "initiative": "OKX Ventures buys $53 million stake in Korea's Coinone exchange",
+    "description": "The crypto exchange's investment arm and Korea Investment & Securities will each invest 80 billion won ($53 million) as Coinone pushes into stablecoins and tokenized securities.",
+    "date": "2026-05-29",
+    "source_url": "https://www.coindesk.com/markets/2026/05/29/okx-ventures-buys-usd53-million-stake-in-korea-s-coinone-exchange",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "OKX confirms $53 million investment to acquire 20% stake in Coinone crypto exchange",
+    "description": "This marks the latest move by a global crypto giant to secure a foothold in South Korea, following Binance's acquisition of Gopax.",
+    "date": "2026-05-29",
+    "source_url": "https://www.theblock.co/post/402969/okx-confirms-53-million-coinone",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "U.S. Treasury Department",
+    "initiative": "Bessent calls for CLARITY Act passage, says no CBDC under Trump",
+    "description": "Treasury Secretary Scott Bessent has reaffirmed that the Trump administration will not support a CBDC while urging lawmakers to advance legislation designed to bring digital asset activity under a clearer regulatory framework. According to remarks delivered during a White… Bessent calls for CLARITY Act passage, says no CBDC under Trump",
+    "date": "2026-05-29",
+    "source_url": "https://crypto.news/bessent-calls-for-clarity-act-passage-says-no-cbdc-under-trump/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "CBDC",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Strategy sends $30M in Bitcoin to Coinbase as MSTR stock slides",
+    "description": "Strategy has transferred more than 411 Bitcoin to Coinbase Prime, a move that has drawn attention after recent comments from company executives about potential BTC sales and a pause in fresh purchases. According to blockchain analytics platform Lookonchain, Strategy sent… Strategy sends $30M in Bitcoin to Coinbase as MSTR stock slides",
+    "date": "2026-05-29",
+    "source_url": "https://crypto.news/strategy-sends-30m-in-bitcoin-to-coinbase-as-mstr-stock-slides/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Fidelity",
+    "initiative": "Bitcoin and gold signal a global break from the dollar, Fidelity says",
+    "description": "Fidelity says Bitcoin toll reports and strong gold demand show growing pressure on dollar-based settlement systems.",
+    "date": "2026-05-29",
+    "source_url": "https://crypto.news/bitcoin-and-gold-signal-a-global-break-from-the-dollar-fidelity-says/",
+    "category": "asset_management",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "Paxos becomes first blockchain native firm approved as SEC clearing agency",
+    "description": "Securities and Exchange Commission to operate a blockchain-based clearing agency, becoming what the company says is the first blockchain-native firm authorized to provide… Paxos has received approval from the U.S. Paxos becomes first blockchain native firm approved as SEC clearing agency",
+    "date": "2026-05-29",
+    "source_url": "https://crypto.news/paxos-becomes-first-blockchain-native-firm-approved-as-sec-clearing-agency/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
     "initiative": "Bitcoin, ether little-changed despite record stocks, falling oil and easing war fears",
     "description": "Global stocks hit records and oil cracked on a tentative US-Iran ceasefire extension. Crypto stayed on the sidelines, with some analysts saying the next catalyst is regulatory, not geopolitical.",
     "date": "2026-05-29",
@@ -9389,121 +9513,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "Hyperliquid Policy Center argues onchain perps offer efficiency, transparency as ICE and CME reportedly press for CFTC oversight",
-    "description": "Bloomberg reported that ICE and CME are pressing for Hyperliquid to register with the CFTC, raising concerns about market stability.",
-    "date": "2026-05-15",
-    "source_url": "https://www.theblock.co/post/401512/hyperliquid-onchain-perps-offer-efficiency-transparency-ice-cme-cftc-oversight",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Visa",
-    "initiative": "Visa and WeFi test “on‑chain banking” for stablecoin spending",
-    "description": "Visa and WeFi have launched a collaboration to explore on‑chain banking and stablecoin‑based payment use cases in selected markets, expanding the card network’s stablecoin… Visa’s WeFi pilot lets self‑custodied stablecoins fund everyday card payments across Europe, Asia and Latin America. Visa and WeFi test “on‑chain banking” for stablecoin spending",
-    "date": "2026-05-15",
-    "source_url": "https://crypto.news/visa-and-wefi-test-on-chain-banking-for-stablecoin-spending/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainlink",
-    "initiative": "Lombard joins LayerZero exodus as $4 billion in assets switch to Chainlink's bridge",
-    "description": "The shift comes after the Kelp DAO exploit drained $292 million from its LayerZero-powered bridge, increasing concerns over the security of cross-chain infrastructure.",
-    "date": "2026-05-15",
-    "source_url": "https://www.coindesk.com/business/2026/05/15/lombard-joins-layerzero-exodus-as-usd4-billion-in-assets-switch-to-chainlink-s-bridge",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "RedStone’s settlement layer is the first serious attempt to make tokenized RWAs real DeFi collateral",
-    "description": "RedStone has launched “RedStone Settle,” a dedicated DeFi settlement layer built to make tokenized real‑world assets usable as collateral in lending protocols, targeting roughly $30 billion… RedStone’s new “Settle” layer is the first sober attempt to fix DeFi’s RWA paradox. RedStone’s settlement layer is the first serious attempt to make tokenized RWAs real DeFi collateral",
-    "date": "2026-05-15",
-    "source_url": "https://crypto.news/redstones-settlement-layer-is-the-first-serious-attempt-to-make-tokenized-rwas-real-defi-collateral/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Tokenization & Issuance",
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DeFi",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "State Street",
-    "initiative": "State Street’s tokenized fund servicing is the boring infrastructure shift that actually matters",
-    "description": "State Street is wiring its Luxembourg fund stack so tokenized fund units run on the same custody, NAV and TA rails as traditional funds, turning RWAs from brochure‑ware into production infrastructure. State Street’s tokenized fund servicing is the boring infrastructure shift that actually matters",
-    "date": "2026-05-15",
-    "source_url": "https://crypto.news/state-streets-tokenized-fund-servicing-is-the-boring-infrastructure-shift-that-actually-matters/",
-    "category": "asset_management",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board announces termination of enforcement actions with UBS Group AG, Credit Suisse AG, Credit Suisse Holdings (USA), Inc., and Credit Suisse AG, New York Branch",
-    "description": "Federal Reserve Board announces termination of enforcement actions with UBS Group AG, Credit Suisse AG, Credit Suisse Holdings (USA), Inc., and Credit Suisse AG, New York Branch",
-    "date": "2026-05-15",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260515a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
