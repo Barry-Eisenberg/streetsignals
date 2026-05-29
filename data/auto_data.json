@@ -1,5 +1,141 @@
 [
   {
+    "institution": "ESMA (European Securities and Markets Authority)",
+    "initiative": "ESMA’s annual data report shows increased quality, wider use and digital progress",
+    "description": "It shows that improvements in data quality and data use reinforce each other in a virtuous cycle, supporting more effective supervision and market monitoring across the EU. This year’s edition reflects an expansion in the scope of ESMA’s data quality and use activities, with measurable improvements in data quality across major regulatory datasets, including EMIR, SFTR, MiFIR, AIFMD and MMFR. ESMA’s annual data report shows increased quality, wider use and digital progress",
+    "date": "2026-05-29",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esmas-annual-data-report-shows-increased-quality-wider-use-and-digital",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "Aave Labs secures dual UK licenses for regulated crypto payments infrastructure through local subsidiary",
+    "description": "Aave Labs has obtained FCA cryptoasset registration in the U.K. for its Push subsidiaries, unlocking zero-fee fiat on-ramps.",
+    "date": "2026-05-29",
+    "source_url": "https://www.theblock.co/post/403014/aave-labs-secures-dual-uk-licenses-for-regulated-crypto-payments-infrastructure-through-local-subsidiary",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Base launches Azul on mainnet, pushing Coinbase’s Ethereum L2 toward full decentralization",
+    "description": "Base has deployed its Azul upgrade on mainnet, with multiproofs and a new client stack advancing decentralization.",
+    "date": "2026-05-29",
+    "source_url": "https://www.theblock.co/post/403003/base-launches-azul-on-mainnet-pushing-coinbases-ethereum-l2-toward-full-decentralization",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "VanEck Debuts First US Spot BNB ETF on Nasdaq Under Ticker VBNB",
+    "description": "VanEck launched the first US spot BNB ETF under ticker VBNB with a 0.39% fee, custodied by Anchorage Digital Bank, extending the wave of single-asset crypto ETFs beyond bitcoin and ether.",
+    "date": "2026-05-29",
+    "source_url": "https://unchainedcrypto.com/vaneck-debuts-first-us-spot-bnb-etf-on-nasdaq-under-ticker-vbnb/",
+    "category": "exchanges_intermediaries",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "Paxos Wins First-of-Its-Kind SEC Clearing Agency Approval as Blockchain Settlement Moves Into Regulated Markets",
+    "description": "Paxos Securities Settlement Company became the first blockchain-native firm registered as a clearing agency under SEC Section 17A, the result of seven years of engagement beginning with a 2019 no-action letter.",
+    "date": "2026-05-29",
+    "source_url": "https://unchainedcrypto.com/paxos-wins-first-of-its-kind-sec-clearing-agency-approval-as-blockchain-settlement-moves-into-regulated-markets/",
+    "category": "regulators",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "ICE Chair Says NYSE Parent Has Held Multiple Talks With Hyperliquid as Wall Street Reassesses Onchain Perpetuals",
+    "description": "ICE Chair Jeff Sprecher told a Bernstein conference his company has met multiple times with Hyperliquid, calling the 11-person platform \"bigger than Nasdaq\" two weeks after pressing regulators to rein it in.",
+    "date": "2026-05-29",
+    "source_url": "https://unchainedcrypto.com/ice-chair-says-nyse-parent-has-held-multiple-talks-with-hyperliquid-as-wall-street-reassesses-onchain-perpetuals/",
+    "category": "exchanges_intermediaries",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BlackRock",
+    "initiative": "Texas Bitcoin reserve plans $10M shift from IBIT to BTC custody",
+    "description": "Texas is seeking a custodian to move its $10M Bitcoin reserve from BlackRock’s IBIT ETF into direct BTC holdings within 60 days.",
+    "date": "2026-05-29",
+    "source_url": "https://crypto.news/texas-bitcoin-reserve-plans-10m-shift-from-ibit-to-btc-custody/",
+    "category": "asset_management",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Project Agora",
     "initiative": "Project Agora announces findings for tokenised wholesale cross-border payments",
     "description": "The Bank of International Settlements’ (BIS) Project Agora has developed a prototype for programmable wholesale cross-border payments.",
@@ -9391,132 +9527,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Visa",
-    "initiative": "Solayer Pay launches Visa card for USDC",
-    "description": "Solayer, the layer-1 blockchain developer behind the infiniSVM network, announced the launch via GlobeNewswire on May 14. The card links directly… Solayer Pay launches Visa card for USDC",
-    "date": "2026-05-16",
-    "source_url": "https://crypto.news/solayer-pay-launches-visa-card-for-usdc-spending/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Revolut",
-    "initiative": "Revolut wins FCA approval to launch UK private banking",
-    "description": "Revolut secured FCA approval on May 14 to offer private wealth services and leveraged products in the UK. Victoria Laffey, head of operations at Revolut Trading, said the new permissions are “the missing piece allowing us to unite investment, advisory… Revolut wins FCA approval to launch UK private banking",
-    "date": "2026-05-16",
-    "source_url": "https://crypto.news/revolut-wins-fca-approval-for-private-wealth-push/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board announces termination of enforcement actions with UBS Group AG, Credit Suisse AG, Credit Suisse Holdings (USA), Inc., and Credit Suisse AG, New York Branch",
-    "description": "Federal Reserve Board announces termination of enforcement actions with UBS Group AG, Credit Suisse AG, Credit Suisse Holdings (USA), Inc., and Credit Suisse AG, New York Branch",
-    "date": "2026-05-15",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260515a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Mastercard",
-    "initiative": "PhotonPay and Mastercard Complete First Agentic Payment",
-    "description": "Hey Payments Fanatic! In a live operational demonstration, PhotonPay announced a milestone in an agentic transaction together with Mastercard. You might be wondering how it worked. Turns out a PhotonPay tokenized card was securely provisioned for use by an AI agent, which autonomously initiated and completed a real-world payment transaction",
-    "date": "2026-05-15",
-    "source_url": "https://www.connectingthedotsinpayments.com/photonpay-and-mastercard-complete-first-agentic-payment/",
-    "category": "payments",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "Why every company will launch its own stablecoin - Sam Broner (CEO, The Better Money Company)",
-    "description": "What happens when every bank, fintech, and enterprise launches its own stablecoin?",
-    "date": "2026-05-15",
-    "source_url": "https://www.fintechwrapup.com/p/why-every-company-will-launch-its",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "U.S. House lawmakers who oversee the CFTC are urging Trump to fill the commission",
-    "description": "As the Commodity Futures Trading Commission takes on a growing task to police U.S. crypto trading, senior lawmakers are saying it needs bipartisan leadership.",
-    "date": "2026-05-15",
-    "source_url": "https://www.coindesk.com/policy/2026/05/15/u-s-house-lawmakers-who-oversee-the-cftc-are-urging-trump-to-fill-the-commission",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CME Group",
-    "initiative": "CME and ICE push US regulators to scrutinize Hyperliquid",
-    "description": "CME and ICE warned that Hyperliquid’s anonymous, round-the-clock perpetual futures trading could distort global commodity benchmarks, particularly in oil markets. The exchanges… CME and ICE push US regulators to scrutinize Hyperliquid",
-    "date": "2026-05-15",
-    "source_url": "https://crypto.news/cme-and-ice-target-hyperliquid-over-manipulation/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
