@@ -1,5 +1,179 @@
 [
   {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "What American crypto asset perpetuals mean for the future of crypto",
+    "description": "For years, one of the most significant crypto asset markets has existed entirely outside the United States. Today, that changes, explains CFTC Chairman Selig.",
+    "date": "2026-05-29",
+    "source_url": "https://www.coindesk.com/opinion/2026/05/29/what-american-crypto-asset-perpetuals-mean-for-the-future-of-crypto",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "U.S. CFTC opens crypto 'perp' door with first approvals at Kalshi, Coinbase",
+    "description": "The Commodity Futures Trading Commission has now established a stance on how regulated U.S. firms can engage in crypto perpetual futures contracts.",
+    "date": "2026-05-29",
+    "source_url": "https://www.coindesk.com/policy/2026/05/28/u-s-cftc-opens-crypto-perp-door-with-approval-of-first-regulated-firm",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Visa",
+    "initiative": "As European payments sovereignty debate rages, Visa makes its case for place on continent",
+    "description": "With European leaders pushing for greater payments sovereignty, US giant Visa has moved to reassure the bloc that it is a friendly partner, setting out plans for a €500 million investment in the continent, including the building of a new local data processing centre.",
+    "date": "2026-05-29",
+    "source_url": "https://www.finextra.com/newsarticle/47831/as-european-payments-sovereignty-debate-rages-visa-makes-its-case-for-place-on-continent",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "Paxos gets green light to settle securities on blockchain",
+    "description": "Paxos has become the first blockchain-native firm to be approved by US regulators to provide clearing and settlement services by the SEC.",
+    "date": "2026-05-29",
+    "source_url": "https://www.finextra.com/newsarticle/47830/paxos-gets-green-light-to-settle-securities-on-blockchain",
+    "category": "regulators",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BlackRock",
+    "initiative": "Texas appoints CleanSpark exec, bitcoin miner CEO to Strategic Bitcoin Reserve committee",
+    "description": "Texas is seeking a custodian to transition reserve assets from Blackrock's IBIT into direct bitcoin holdings.",
+    "date": "2026-05-29",
+    "source_url": "https://www.theblock.co/post/403026/texas-cleanspark-exec-bitcoin-miner-ceo-strategic-bitcoin-reserve-committee",
+    "category": "asset_management",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "CFTC opens door for crypto perpetual future contracts in US as Coinbase, Kalshi move forward",
+    "description": "The CFTC opened the doors for perpetual futures contracts, giving way for Kalshi and Coinbase to offer those products.",
+    "date": "2026-05-29",
+    "source_url": "https://www.theblock.co/post/403040/cftc-opens-door-for-crypto-perpetual-future-contracts-in-us-as-coinbase-kalshi-move-forward",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "Breaking: CFTC approves first Bitcoin Perpetual Futures on regulated U.S. exchange",
+    "description": "Commodity Futures Trading Commission has greenlit the nation’s first bitcoin perpetual futures contract on a regulated exchange, marking a watershed moment for domestic crypto derivatives trading. The CFTC announced Friday it had approved an unnamed regulated exchange to… Breaking: CFTC approves first Bitcoin Perpetual Futures on regulated U.S. exchange",
+    "date": "2026-05-29",
+    "source_url": "https://crypto.news/breaking-cftc-approves-first-bitcoin-perpetual-futures-on-regulated-u-s-exchange/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "Kalshi wins CFTC approval to launch first U.S. Bitcoin perps",
+    "description": "Commodity Futures Trading Commission has approved Kalshi to launch the first federally regulated Bitcoin perpetual futures contract in the United States, opening a new path for crypto derivatives trading onshore. According to a CFTC announcement released Friday, Kalshi… Kalshi wins CFTC approval to launch first U.S. Bitcoin perps",
+    "date": "2026-05-29",
+    "source_url": "https://crypto.news/kalshi-wins-cftc-approval-to-launch-first-u-s-bitcoin-perps/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Morgan Stanley",
+    "initiative": "Morgan Stanley reveals XRP ETF holdings as Ripple gains ground",
+    "description": "Morgan Stanley has disclosed holdings in two XRP-focused exchange-traded funds, becoming one of the latest major financial institutions to report exposure to investment products tied to Ripple’s cryptocurrency. According to the investment bank’s Form 13F filing with the U.S. Morgan Stanley reveals XRP ETF holdings as Ripple gains ground",
+    "date": "2026-05-29",
+    "source_url": "https://crypto.news/morgan-stanley-reveals-xrp-etf-holdings-as-ripple-gains-ground/",
+    "category": "global_banks",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "Paxos wins SEC approval to clear U.S. stocks on blockchain",
     "description": "Paxos new license positions it alongside legacy giants such as DTCC and makes it a compelling, more efficient alternative for traditional finance giants than legacy competitors.",
@@ -9360,174 +9534,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Nomura",
-    "initiative": "SBI, Rakuten and Nomura prepare crypto investment trusts in Japan",
-    "description": "SBI, Rakuten and Nomura are preparing crypto investment trusts as Japan moves toward allowing funds to hold Bitcoin and Ether by 2028.",
-    "date": "2026-05-17",
-    "source_url": "https://crypto.news/sbi-rakuten-and-nomura-prepare-crypto-investment-trusts-in-japan/",
-    "category": "asset_management",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Japan's SBI Securities, Rakuten Securities plan to offer crypto investment trusts",
-    "description": "Another 11 companies responded to a survey saying they would consider offering crypto funds once the regulatory environment becomes clear.",
-    "date": "2026-05-17",
-    "source_url": "https://www.coindesk.com/business/2026/05/17/japan-s-sbi-securities-rakuten-securities-plan-to-offer-crypto-investment-trusts",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Intesa Sanpaolo’s crypto holdings jump to $235M as XRP enters",
-    "description": "Intesa Sanpaolo’s crypto holdings rose to $235M in Q1 as the bank added Bitcoin, Ether and XRP exposure while nearly exiting Solana.",
-    "date": "2026-05-17",
-    "source_url": "https://crypto.news/intesa-sanpaolos-crypto-holdings-jump-to-235m-as-xrp-enters/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "BNB ETF race tightens as VanEck and Grayscale update SEC filings",
-    "description": "VanEck and Grayscale updated BNB ETF filings as Canary pushed a staked TRX fund, adding pressure to the U.S. altcoin ETF race.",
-    "date": "2026-05-17",
-    "source_url": "https://crypto.news/bnb-etf-race-tightens-as-vaneck-and-grayscale-update-sec-filings/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "A Russian stablecoin built to dodge sanctions says it can survive even if they're lifted",
-    "description": "A7A5, the Russia-linked stablecoin built to move money around banking restrictions, says faster trade settlement, yield and regional crypto infrastructure could keep it relevant even if geopolitical tensions ease.",
-    "date": "2026-05-17",
-    "source_url": "https://www.coindesk.com/policy/2026/05/24/a-russian-stablecoin-built-to-dodge-sanctions-says-it-can-survive-even-if-they-re-lifted",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "Will Trump fill CFTC seats before CLARITY Act rewrites crypto rules?",
-    "description": "House Agriculture leaders urge Trump to fill CFTC seats as CLARITY Act advances, raising focus on crypto oversight and rulemaking plans now.",
-    "date": "2026-05-17",
-    "source_url": "https://crypto.news/will-trump-fill-cftc-seats-before-clarity-act-rewrites-crypto-rules/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "House Agriculture leaders press Trump to appoint CFTC commissioners as CLARITY Act advances in Senate",
-    "description": "Chair Michael Selig has been the agency's sole commissioner since December, with four seats sitting empty, as Trump has not nominated replacements.",
-    "date": "2026-05-16",
-    "source_url": "https://www.theblock.co/post/401558/house-agriculture-leaders-press-trump-to-appoint-cftc-commissioners-as-clarity-act-advances-in-senate",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BlackRock",
-    "initiative": "Harvard dumps ether ETF as Abu Dhabi sovereign fund keeps adding to bitcoin positions",
-    "description": "Abu Dhabi-based Mubadala added over $90 million to its already sizeable position in BlackRock’s iShares Bitcoin Trust ETF.",
-    "date": "2026-05-16",
-    "source_url": "https://www.theblock.co/post/401518/sovereign-funds-universities-banks-reshuffle-bitcoin-altcoin-etf-positions",
-    "category": "asset_management",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA (European Securities and Markets Authority)",
-    "initiative": "ESMA launches its sixth stress test exercise for Central Counterparties",
-    "description": "Mandated under the European Market Infrastructure Regulation (EMIR), the stress test aims to assess the resilience of CCPs to adverse market developments and identify any potential shortcomings. The CCP stress test framework drafted by ESMA for the purpose of this exercise is supported by an adverse market scenario provided by the European Systemic Risk Board (ESRB). ESMA launches its sixth stress test exercise for Central Counterparties",
-    "date": "2026-05-16",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-launches-its-sixth-stress-test-exercise-central-counterparties",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
