@@ -1,5 +1,121 @@
 [
   {
+    "institution": "BIS (Bank for International Settlements)",
+    "initiative": "BIS and Gleif team on LEIs in cross-border open finance prototype",
+    "description": "The Global Legal Entity Identifier Foundation (GLEIF) and the Bank for International Settlements (BIS) have demonstrated how the Legal Entity Identifier (LEI) can bring new Know Your Customer/Business (KYC/B) and Anti-Money Laundering (AML) process efficiencies to small and medium-sized enterprises (SMEs) when using open banking and open finance APIs to initiate payments and open business accounts across borders.",
+    "date": "2026-05-29",
+    "source_url": "https://www.finextra.com/pressarticle/109982/bis-and-gleif-team-on-leis-in-cross-border-open-finance-prototype",
+    "category": "regulators",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "JPMorgan CEO Jamie Dimon takes aim at the Clarity Act over crypto deposit risks",
+    "description": "JPMorgan Chase CEO Jamie Dimon has said banks will oppose the Clarity Act unless lawmakers change provisions that he says give crypto firms bank-like powers without bank-level safeguards. Fox Business reported that Dimon made the comments on Friday during an… JPMorgan CEO Jamie Dimon takes aim at the Clarity Act over crypto deposit risks",
+    "date": "2026-05-29",
+    "source_url": "https://crypto.news/jpmorgan-ceo-jamie-dimon-takes-aim-at-the-clarity-act-over-crypto-deposit-risks/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "U.S. Treasury Department",
+    "initiative": "Treasury bonds rally as dollar index sinks to 98.8",
+    "description": "treasuries climbed while the dollar bond index dropped to an intraday low of 98.8, signaling a notable swing in risk sentiment across global markets. According to Gate market data, U.S. Treasury bonds rally as dollar index sinks to 98.8",
+    "date": "2026-05-29",
+    "source_url": "https://crypto.news/treasury-bonds-rally-as-dollar-index-sinks-to-98-8/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "Crypto clarity bill advances as critics warn CFTC is not ready yet",
+    "description": "Congress has advanced a major crypto market bill that would give the CFTC new power over digital commodities despite fresh concerns about the agency’s staffing and funding. Brookings fellow Tonantzin Carmona has warned that the Digital Asset Market Clarity Act… Crypto clarity bill advances as critics warn CFTC is not ready yet",
+    "date": "2026-05-29",
+    "source_url": "https://crypto.news/crypto-clarity-bill-advances-as-critics-warn-cftc-is-not-ready-yet/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "CFTC says some derivatives markets may not suit 24/7 trading",
+    "description": "The CFTC said in a Friday advisory that exchanges and clearinghouses should carefully assess products before… CFTC says some derivatives markets may not suit 24/7 trading",
+    "date": "2026-05-29",
+    "source_url": "https://crypto.news/cftc-says-some-derivatives-markets-may-not-suit-24-7-trading/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "Texas man charged over alleged $12.3 million AI crypto arbitrage scam",
+    "description": "securities regulators have charged Texas resident Nathan Fuller with orchestrating a fraudulent cryptocurrency trading scheme… Texas man charged over alleged $12.3 million AI crypto arbitrage scam",
+    "date": "2026-05-29",
+    "source_url": "https://crypto.news/texas-man-charged-over-alleged-12-3-million-ai-crypto-arbitrage-scam/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CFTC (Commodity Futures Trading Commission)",
     "initiative": "U.S. regulator says 24/7 trading is great for crypto, may not be fit for other sectors",
     "description": "As the CFTC issued landmark approvals for crypto perpetual futures contracts, it explained in a related advisory that round-the-clock activity isn't right for all.",
@@ -9416,120 +9532,6 @@
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Tom Lee sees oil shock as ETH’s biggest headwind before 2026 rebound",
-    "description": "ETH fell near $2,100 after Tom Lee linked selling to oil. crypto.news noted ETF outflows, whale deposits and higher exchange reserves today.",
-    "date": "2026-05-18",
-    "source_url": "https://crypto.news/tom-lee-sees-oil-shock-as-eths-biggest-headwind-before-2026-rebound/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Sygnum delivers AI agent-driven digital asset transactions",
-    "description": "Swiss digital asset bank Sygnum is to use AI agents to test live on-chain transactions using a 'human-in-the-loop' design, with the client signing every action and private keys never leaving their device.",
-    "date": "2026-05-18",
-    "source_url": "https://www.finextra.com/newsarticle/47765/sygnum-delivers-ai-agent-driven-digital-asset-transactions",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Aon to modernize how brokers access capital and syndicate risk",
-    "description": "Aon plc (NYSE: AON), a leading global professional services firm, today announced plans to launch Aon Digital Placement Exchange (Aon DPX), a new digital trading platform designed to modernize how brokers access capital and syndicate risk.",
-    "date": "2026-05-18",
-    "source_url": "https://www.finextra.com/pressarticle/109857/aon-to-modernize-how-brokers-access-capital-and-syndicate-risk",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Kraken trims workforce as AI adoption grows across crypto sector",
-    "description": "Kraken has reportedly reduced its workforce by around 150 employees as the crypto exchange increases the use of artificial intelligence across its operations, a move that Bloomberg said could delay the company’s planned U.S. public listing until 2027. Kraken trims workforce as AI adoption grows across crypto sector",
-    "date": "2026-05-18",
-    "source_url": "https://crypto.news/kraken-trims-workforce-as-ai-adoption-grows-across-crypto-sector/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Nasdaq",
-    "initiative": "Crypto ATM operator Bitcoin Depot files for bankruptcy months after leadership overhaul",
-    "description": "Nasdaq-listed crypto ATM operator Bitcoin Depot has filed for Chapter 11 bankruptcy protection in Texas as mounting regulatory pressure and financial losses pushed the company toward an orderly shutdown. According to a Monday press release from Bitcoin Depot, the filing… Crypto ATM operator Bitcoin Depot files for bankruptcy months after leadership overhaul",
-    "date": "2026-05-18",
-    "source_url": "https://crypto.news/crypto-atm-operator-bitcoin-depot-files-for-bankruptcy-months-after-leadership-overhaul/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Nasdaq",
-    "initiative": "Bitcoin Depot, North America's largest bitcoin ATM operator, files for bankruptcy",
-    "description": "Bitcoin Depot, the largest bitcoin ATM operator in North America and publicly listed on Nasdaq, has filed for Chapter 11 bankruptcy.",
-    "date": "2026-05-18",
-    "source_url": "https://www.coindesk.com/markets/2026/05/18/bitcoin-depot-once-north-america-s-largest-bitcoin-atm-operator-files-for-bankruptcy",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
