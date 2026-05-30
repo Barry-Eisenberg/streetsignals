@@ -1,5 +1,41 @@
 [
   {
+    "institution": "Ripple",
+    "initiative": "XRP ETFs add $35 million as bitcoin and ether funds lost $2 billion in late May",
+    "description": "From May 20 to May 29, XRP funds took in $35 million while bitcoin and ether ETFs lost roughly $2 billion combined, with Ripple’s earlier reported XRP treasury plan still awaiting confirmation.",
+    "date": "2026-05-30",
+    "source_url": "https://www.coindesk.com/markets/2026/05/30/ripple-said-to-lead-usd1-billion-xrp-treasury-raise-report",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Circle",
+    "initiative": "Court-ordered Circle freeze traps $12.6 million in Zama cUSDC contract amid Overnight Finance suit",
+    "description": "Zama CEO Rand Hindi said the protocol's confidential USDC contract was \"caught in a crossfire\" and that his team is investigating the freeze.",
+    "date": "2026-05-30",
+    "source_url": "https://www.theblock.co/post/403091/court-ordered-circle-freeze-traps-12-6-million-in-zama-cusdc-contract-amid-overnight-finance-suit",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "JPMorgan",
     "initiative": "‘The banks will not accept it’: Dimon escalates battle over stablecoin rewards in CLARITY Act debate",
     "description": "JPMorgan CEO Jamie Dimon criticized Coinbase CEO Brian Armstrong and warned the current CLARITY Act framework could ultimately fail, as banks and crypto firms clash over whether stablecoin issuers should be allowed to offer yield-bearing rewards that resemble bank deposits.",
@@ -9494,46 +9530,6 @@
       "Data & Reporting"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Bank of England",
-    "initiative": "Bank of England, FCA launch consultation on tokenized UK wholesale markets",
-    "description": "UK regulators seek industry feedback on tokenized securities, collateral, and settlement infrastructure with a July 3 deadline.",
-    "date": "2026-05-18",
-    "source_url": "https://www.theblock.co/post/401625/bank-of-england-fca-launch-consultation-on-tokenized-uk-wholesale-markets",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Collateral & Lending",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Circle",
-    "initiative": "Bernstein says Clarity Act yield compromise cements Circle’s edge amid record stablecoin supply",
-    "description": "Bernstein analysts said the Senate Clarity Act markup and yield compromise strengthen Circle's model as dollar stablecoin supply grows.",
-    "date": "2026-05-18",
-    "source_url": "https://www.theblock.co/post/401615/bernstein-says-clarity-act-yield-compromise-cements-circles-edge-amid-record-stablecoin-supply",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
     "year": "2026"
   }
 ]
