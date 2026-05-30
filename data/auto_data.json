@@ -1,5 +1,22 @@
 [
   {
+    "institution": "Tether",
+    "initiative": "Cosmos-based Gravity Bridge drained of $5.4 million in suspected key compromise, researchers say",
+    "description": "The attacker took USDC, ether, tether and PAYG tokens before laundering a portion through ChangeNow and Binance.",
+    "date": "2026-05-30",
+    "source_url": "https://www.theblock.co/post/403108/cosmos-based-gravity-bridge-drained-of-5-4-million-in-suspected-key-compromise-researchers-say",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "SEC sues Texas man over $12.3 million alleged crypto scheme built on fake AI trading bots",
     "description": "Fuller allegedly diverted $6.2 million for personal use and $5.5M for Ponzi-like payments; only 3% of funds went to crypto trading.",
@@ -9514,26 +9531,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Fed minutes, Meta stablecoin Senate deadline: Crypto Week Ahead",
-    "description": "Your look at what's coming in the week starting May 18.",
-    "date": "2026-05-18",
-    "source_url": "https://www.coindesk.com/markets/2026/05/18/fed-minutes-meta-stablecoin-senate-deadline-crypto-week-ahead",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
