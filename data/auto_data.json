@@ -1,5 +1,42 @@
 [
   {
+    "institution": "Nasdaq",
+    "initiative": "Deep Dive: Inside Wise’s Products, Licenses, Rails, and the Technology Stack",
+    "description": "On May 11, 2026, Wise began trading on Nasdaq under the ticker WSE, a dual listing alongside its existing London Stock Exchange presence.",
+    "date": "2026-05-31",
+    "source_url": "https://www.fintechwrapup.com/p/deep-dive-inside-wises-products-licenses",
+    "category": "exchanges_intermediaries",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Vietnam may let SMEs use digital assets to unlock bank loans",
+    "description": "Vietnam’s MoF proposed letting SMEs use digital and virtual assets as loan collateral, aiming to widen credit access for startups and firms.",
+    "date": "2026-05-31",
+    "source_url": "https://crypto.news/vietnam-may-let-smes-use-digital-assets-to-unlock-bank-loans/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "SEC sues Privvy founder over $12.3 million crypto scheme as AI ‘bots’ turn out to be neither",
     "description": "The SEC alleges Fuller spent misappropriated funds on a roughly $1 million house, gambling, trading cards, travel and a Jeep.",
@@ -9494,42 +9531,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Apollo",
-    "initiative": "AI is no longer just an equity story, Apollo warns it’s a bond one",
-    "description": "Apollo chief economist Torsten Slok says AI is now driving nearly half of all investment‑grade issuance and most VC funding, turning the AI boom into a full credit market cycle. Artificial intelligence has moved well beyond the stock market. AI is no longer just an equity story, Apollo warns it’s a bond one",
-    "date": "2026-05-18",
-    "source_url": "https://crypto.news/ai-is-no-longer-just-an-equity-story-apollo-warns-its-a-bond-one/",
-    "category": "asset_management",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Copper",
-    "initiative": "Altcoin season signal returns as business cycle turns risk-on: Analyst",
-    "description": "Altcoin rotation hopes rise as Van de Poppe links business-cycle signals, copper-gold strength and Clarity Act progress to crypto recovery.",
-    "date": "2026-05-18",
-    "source_url": "https://crypto.news/altcoin-season-signal-returns-as-business-cycle-turns-risk-on-analyst/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
