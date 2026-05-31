@@ -1,5 +1,22 @@
 [
   {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "HYPE price stuns market with 67% monthly surge to ATH",
+    "description": "HYPE hit a $69.97 ATH as ETF inflows, buybacks and CFTC perpetuals news keep traders watching $62.50 support and a possible $80 test next.",
+    "date": "2026-05-31",
+    "source_url": "https://crypto.news/hype-price-stuns-market-with-67-monthly-surge-to-ath/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "crypto.news",
     "initiative": "XRP price rebound? Exchange outflows and ETFs lift recovery hopes",
     "description": "XRP trades near $1.33 as exchange outflows, ETF inflows and $1.34 support shape its next move, with $1.40 resistance in view for traders now",
@@ -9510,25 +9527,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Standard Chartered",
-    "initiative": "Standard Chartered projects $4T in tokenized assets by end-2028, with DeFi protocols primary beneficiaries",
-    "description": "Standard Chartered projects $4 trillion in tokenized assets by the end of 2028, with DeFi protocols positioned to benefit most.",
-    "date": "2026-05-18",
-    "source_url": "https://www.theblock.co/post/401635/standard-chartered-projects-4t-in-tokenized-assets-by-end-2028-with-defi-protocols-primary-beneficiaries",
-    "category": "global_banks",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DeFi"
     ],
     "year": "2026"
   }
