@@ -1,5 +1,22 @@
 [
   {
+    "institution": "crypto.news",
+    "initiative": "XRP price rebound? Exchange outflows and ETFs lift recovery hopes",
+    "description": "XRP trades near $1.33 as exchange outflows, ETF inflows and $1.34 support shape its next move, with $1.40 resistance in view for traders now",
+    "date": "2026-05-31",
+    "source_url": "https://crypto.news/xrp-price-rebound-exchange-outflows-and-etfs-lift-recovery-hopes/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Nasdaq",
     "initiative": "Deep Dive: Inside Wise’s Products, Licenses, Rails, and the Technology Stack",
     "description": "On May 11, 2026, Wise began trading on Nasdaq under the ticker WSE, a dual listing alongside its existing London Stock Exchange presence.",
@@ -9512,25 +9529,6 @@
     ],
     "initiative_types": [
       "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "AEON raises $8 million led by YZi Labs to build settlement layer for AI agents",
-    "description": "With the new funding, AEON said it aims to build a settlement layer designed to support AI agent-to-agent interactions.",
-    "date": "2026-05-18",
-    "source_url": "https://www.theblock.co/post/401601/aeon-raises-8-million-yzi-labs",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Settlement & Clearing"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
