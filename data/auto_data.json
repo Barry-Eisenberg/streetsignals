@@ -1,5 +1,24 @@
 [
   {
+    "institution": "BlackRock",
+    "initiative": "A massive $1.26 billion sale of BlackRock’s IBIT was likely a rapid exit by a large investor",
+    "description": "NYDIG, meanwhile, rejected the basis-trade theory, citing the large discount and the lack of an unusual spike in corresponding CME bitcoin futures volume.",
+    "date": "2026-05-31",
+    "source_url": "https://www.coindesk.com/markets/2026/05/31/a-massive-usd1-26-billion-sale-of-blackrock-s-ibit-was-likely-a-rapid-exit-by-a-large-investor",
+    "category": "asset_management",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "DTCC",
     "initiative": "How Stellar became part of DTCC's tokenization push for Wall Street securities onchain",
     "description": "Wall Street's clearing giant chose a public blockchain with compliance tools built for regulated assets, Stellar Development Foundation CEO Denelle Dixon said.",
@@ -9510,26 +9529,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Regulatory Compliance in Tokenization: Core Principles, Compliance Mechanisms and Global Oversight",
-    "description": "The rapid growth of blockchain technology and digital assets has transformed how businesses raise ca... Regulatory Compliance in Tokenization: Core Principles, Compliance Mechanisms and Global Oversight",
-    "date": "2026-05-18",
-    "source_url": "https://www.finextra.com/blogposting/31738/regulatory-compliance-in-tokenization-core-principles-compliance-mechanisms-and-global-oversight",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
