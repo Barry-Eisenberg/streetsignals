@@ -1,5 +1,26 @@
 [
   {
+    "institution": "DTCC",
+    "initiative": "How Stellar became part of DTCC's tokenization push for Wall Street securities onchain",
+    "description": "Wall Street's clearing giant chose a public blockchain with compliance tools built for regulated assets, Stellar Development Foundation CEO Denelle Dixon said.",
+    "date": "2026-05-31",
+    "source_url": "https://www.coindesk.com/business/2026/05/31/how-stellar-became-part-of-dtcc-s-tokenization-push-for-wall-street-securities-onchain",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CFTC (Commodity Futures Trading Commission)",
     "initiative": "HYPE price stuns market with 67% monthly surge to ATH",
     "description": "HYPE hit a $69.97 ATH as ETF inflows, buybacks and CFTC perpetuals news keep traders watching $62.50 support and a possible $80 test next.",
@@ -9507,25 +9528,6 @@
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinShares",
-    "initiative": "Weekly crypto ETP outflows top $1B, ending six-week positive streak amid Iran-linked risk-off: CoinShares",
-    "description": "Crypto funds ended a six-week inflow streak as Iran-linked geopolitical risk weighed on bitcoin amid major U.S. withdrawals.",
-    "date": "2026-05-18",
-    "source_url": "https://www.theblock.co/post/401649/weekly-crypto-etp-outflows-top-1b-ending-six-week-positive-streak-amid-iran-linked-risk-off-coinshares",
-    "category": "asset_management",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
