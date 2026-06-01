@@ -1,5 +1,63 @@
 [
   {
+    "institution": "CoinShares",
+    "initiative": "Crypto funds suffer second-largest outflows of 2026 while XRP and HYPE attract inflows",
+    "description": "Investors pulled $1.67 billion from digital asset investment products last week, with bitcoin funds posting their largest weekly outflow of the year, according to a recent report from CoinShares.",
+    "date": "2026-06-01",
+    "source_url": "https://www.coindesk.com/markets/2026/06/01/crypto-funds-suffer-second-largest-outflows-of-2026-while-xrp-and-hype-attract-inflows",
+    "category": "asset_management",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Mastercard",
+    "initiative": "Mastercard joins Tips cross-currency pilot",
+    "description": "Mastercard is working with Denmark's and Sweden's central banks to pilot instant cross-currency payments on the Eurosystem’s Target Instant Payment Settlement (Tips) platform.",
+    "date": "2026-06-01",
+    "source_url": "https://www.finextra.com/newsarticle/47839/mastercard-joins-tips-cross-currency-pilot",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "WisdomTree",
+    "initiative": "John Whelan joins WisdomTree to lead digital assets strategy",
+    "description": "Today asset manager WisdomTree announced that John Whelan is joining as head of digital asset strategy. Whelan spent ten years at Banco Santander, until the end of last year, where he led digital assets for the corporate and investment banking (CIB) arm. Both WisdomTree and Whelan have track records as early movers in digital assets.",
+    "date": "2026-06-01",
+    "source_url": "https://www.ledgerinsights.com/john-whelan-joins-wisdomtree-to-lead-digital-assets-strategy/",
+    "category": "asset_management",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS (Bank for International Settlements)",
     "initiative": "BIS reports back on open finance Project Aperta",
     "description": "Project Aperta, led by the Bank for International Settlements (BIS), has been designing, developing and testing a prototype for cross-border open finance interconnectivity via application programming interfaces (APIs) – a \"network of networks\" that connects existing domestic networks through a neutral interoperability layer.",
@@ -9458,67 +9516,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Shiba Inu sees 3b SHIB flood exchanges",
-    "description": "Shiba Inu saw billions of SHIB hit exchanges on May 18 as crypto market liquidations accelerated. On-chain exchange flow data tracked by CoinGlass shows SHIB open interest at $61.2 million on May 18, with $42,485 in futures positions liquidated in… Shiba Inu sees 3b SHIB flood exchanges",
-    "date": "2026-05-18",
-    "source_url": "https://crypto.news/shiba-inu-sees-3b-shib-hit-exchanges/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Minnesotan banks and credit unions set to provide crypto custody August 1",
-    "description": "Minnesota established the midwest’s first unified digital asset safety net for banks and credit unions.",
-    "date": "2026-05-18",
-    "source_url": "https://www.coindesk.com/policy/2026/05/18/minnesotan-banks-and-credit-unions-set-to-provide-crypto-custody-august-1",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Custody & Safekeeping"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "SpaceX Bitcoin stack hits $637m before IPO",
-    "description": "SpaceX holds 8,285 BTC worth approximately $637 million in Coinbase Prime custody, according to on-chain data from Arkham Intelligence as analyzed by Finbold… SpaceX Bitcoin holdings stand at $637m, on-chain data shows, making it the fourth largest known corporate holder. SpaceX Bitcoin stack hits $637m before IPO",
-    "date": "2026-05-18",
-    "source_url": "https://crypto.news/spacex-bitcoin-treasury-tops-637m-pre-ipo/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
