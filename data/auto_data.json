@@ -1,5 +1,41 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Saris raises $28.8m for agentic workflow platform",
+    "description": "Saris, an agentic workflow platform for banks and credit unions, has raised $28.8 million in Series A funding.",
+    "date": "2026-06-01",
+    "source_url": "https://www.finextra.com/newsarticle/47832/saris-raises-288m-for-agentic-workflow-platform",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase makes a major play for India’s booming $3 billion crypto market with local currency launch",
+    "description": "Coinbase announces INR rails to make the platform fully accessible to Indian retail traders.",
+    "date": "2026-05-31",
+    "source_url": "https://www.coindesk.com/markets/2026/05/31/coinbase-makes-a-major-play-for-india-s-booming-usd3-billion-crypto-market-with-local-currency-launch",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BlackRock",
     "initiative": "A massive $1.26 billion sale of BlackRock’s IBIT was likely a rapid exit by a large investor",
     "description": "NYDIG, meanwhile, rejected the basis-trade theory, citing the large discount and the lack of an unusual spike in corresponding CME bitcoin futures volume.",
@@ -9494,41 +9530,6 @@
       "Stablecoins & Deposit Tokens",
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Standard Chartered",
-    "initiative": "Standard Chartered to acquire remainder of subsidiary Zodia Custody",
-    "description": "The bank's offer to acquire the slice of Zodia Custody it doesn't already own has been accepted by the firm's other shareholders and noteholders.",
-    "date": "2026-05-18",
-    "source_url": "https://www.coindesk.com/business/2026/05/18/standard-chartered-to-acquire-remainder-of-subsidiary-zodia-custody",
-    "category": "global_banks",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "PRA consults on ring-fencing reforms",
-    "description": "The Prudential Regulation Authority (PRA) has today announced plans to consult on reforming rules around shared operational services for ring-fenced banks.",
-    "date": "2026-05-18",
-    "source_url": "https://www.finextra.com/pressarticle/109867/pra-consults-on-ring-fencing-reforms",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
