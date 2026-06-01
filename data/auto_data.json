@@ -1,5 +1,83 @@
 [
   {
+    "institution": "U.S. Treasury Department",
+    "initiative": "Citi predicts the tokenized securities market will grow to $5.5 trillion by 2030",
+    "description": "Stablecoins alone will generate a demand for up to $1 trillion worth of onchain U.S. Treasury bills and $2.6 trillion for tokenized stocks, said Citi.",
+    "date": "2026-06-01",
+    "source_url": "https://www.coindesk.com/markets/2026/06/01/citi-predicts-the-tokenized-securities-market-will-grow-to-usd5-5-trillion-by-2030",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Fed’s Waller says dollar stablecoins could expand reach of U.S. monetary policy",
+    "description": "Dollar-backed stablecoins have gained support from U.S. According to Bloomberg News, Waller told participants at the 32nd… Fed’s Waller says dollar stablecoins could expand reach of U.S. monetary policy",
+    "date": "2026-06-01",
+    "source_url": "https://crypto.news/feds-waller-says-dollar-stablecoins-could-expand-reach-of-u-s-monetary-policy/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase opens direct rupee deposits in major India crypto push",
+    "description": "Coinbase launched direct INR deposits and withdrawals in India via IMPS, adding spot and futures access for users amid its India return now.",
+    "date": "2026-06-01",
+    "source_url": "https://crypto.news/coinbase-opens-direct-rupee-deposits-in-major-india-crypto-push/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Bank of England",
+    "initiative": "Fed backs stablecoins as BoE says tokenized deposits may win in 5 years",
+    "description": "Fed’s Waller backed stablecoins as payment tools, while BoE’s Greene said tokenized deposits may overtake them within five years in banking.",
+    "date": "2026-06-01",
+    "source_url": "https://crypto.news/fed-backs-stablecoins-as-boe-says-tokenized-deposits-may-win-in-5-years/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "XRP drops to $1.32 as sellers overpower exchange outflows",
     "description": "XRP hit a 15-week low before stabilizing, with traders watching whether the latest washout turns into a base or another leg lower.",
@@ -9470,66 +9548,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Ayman M Al-Sayari: Speech - Financial Action Task Force (FATF) Ministerial Meeting",
-    "description": "Speech by His Excellency Mr Ayman Al-Sayari, Governor of the Saudi Central Bank, at the Financial Action Task Force (FATF) Ministerial Meeting during the International Monetary Fund and World Bank Group Spring Meetings, Washington DC, 17 April 2026.",
-    "date": "2026-05-18",
-    "source_url": "https://www.bis.org/review/r260518k.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Ayman M Al-Sayari: Speech - International Monetary and Financial Committee (IMFC) Plenary Session",
-    "description": "Speech by His Excellency Mr Ayman Al-Sayari, Governor of the Saudi Central Bank, at the International Monetary and Financial Committee (IMFC) Plenary Session during the International Monetary Fund and World Bank Group Spring Meetings, Washington DC, 17 April 2026.",
-    "date": "2026-05-18",
-    "source_url": "https://www.bis.org/review/r260518l.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Kazuyuki Masu: Economic activity, prices, and monetary policy in Japan",
-    "description": "Speech by Mr Kazuyuki Masu, Member of the Policy Board of the Bank of Japan, at a meeting, held by the Kagoshima Keizai Doyukai (Japan Association of Corporate Executives), Kagoshima, 14 May 2026.",
-    "date": "2026-05-18",
-    "source_url": "https://www.bis.org/review/r260518i.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Fatih Karahan: Recent economic and financial developments in Turkey",
-    "description": "Speech by Dr Fatih Karahan, Governor of the Central Bank of the Republic of Türkiye, at the briefing on the Inflation Report 2026-II, Istanbul, 14 May 2026.",
-    "date": "2026-05-18",
-    "source_url": "https://www.bis.org/review/r260518e.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
