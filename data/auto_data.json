@@ -1,5 +1,43 @@
 [
   {
+    "institution": "Federal Reserve",
+    "initiative": "Fed’s Waller makes the case for stablecoins in EU lion’s den",
+    "description": "Federal Reserve Governor Chris Waller made a robust case for stablecoins as a competitive force in payments during a panel in Croatia this weekend, putting him at odds with most of his fellow panelists who favored tokenized deposits. The wide-ranging session also produced a lively exchange on what happens to stablecoins if interest rates turn",
+    "date": "2026-06-01",
+    "source_url": "https://www.ledgerinsights.com/feds-waller-makes-the-case-for-stablecoins-in-eu-lions-den/",
+    "category": "regulators",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Grayscale sets 0.29% fee for its Hyperliquid ETF, undercutting Bitwise and 21Shares",
+    "description": "Grayscale is set to launch its own Hyperliquid exchange-traded fund as soon as this week, setting a sponsor fee of 0.29%.",
+    "date": "2026-06-01",
+    "source_url": "https://www.theblock.co/post/403234/grayscale-sets-0-29-fee-hyperliquid-etf-undercutting-bitwise-21shares",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinShares",
     "initiative": "Crypto funds suffer second-largest outflows of 2026 while XRP and HYPE attract inflows",
     "description": "Investors pulled $1.67 billion from digital asset investment products last week, with bitcoin funds posting their largest weekly outflow of the year, according to a recent report from CoinShares.",
@@ -9480,42 +9518,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "Ohio man sentenced to 9 years for running $10 million crypto Ponzi scheme",
-    "description": "The CFTC filed an enforcement action against Rathnakishore Giri in August 2022 for running the fraudulent investment scheme.",
-    "date": "2026-05-18",
-    "source_url": "https://www.theblock.co/post/401761/ohio-man-sentenced-to-9-years-for-running-10-million-crypto-ponzi-scheme",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Bitwise HYPE ETF pledges 10% fees to HYPE buys",
-    "description": "Bitwise will devote 10% of its HYPE ETF management fee to buying HYPE on its balance sheet. Bitwise Asset Management announced that it will devote 10% of the management fee from its Bitwise Hyperliquid ETF (NYSE: BHYP) to holding HYPE… Bitwise HYPE ETF pledges 10% fees to HYPE buys",
-    "date": "2026-05-18",
-    "source_url": "https://crypto.news/bitwise-hype-etf-pledges-10percent-fees-to-buybacks/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
