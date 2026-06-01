@@ -1,5 +1,60 @@
 [
   {
+    "institution": "CME Group",
+    "initiative": "CME Group crypto futures go 24/7 as first weekend volume hits $50M",
+    "description": "CME Group has drawn about $50 million in notional volume during the first weekend of its new 24/7 cryptocurrency futures and options trading service. According to CME Group’s official update, more than 7,200 crypto futures and options contracts changed hands… CME Group crypto futures go 24/7 as first weekend volume hits $50M",
+    "date": "2026-06-01",
+    "source_url": "https://crypto.news/cme-group-crypto-futures-go-24-7-as-first-weekend-volume-hits-50m/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Dimon fight deepens as Coinbase pushes for CLARITY Act passage",
+    "description": "crypto market rules as Senate lawmakers prepare for a decisive vote on the CLARITY Act this month. Shirzad said on Fox Business’ Mornings with Maria that the Digital Asset Market Clarity Act could… Dimon fight deepens as Coinbase pushes for CLARITY Act passage",
+    "date": "2026-06-01",
+    "source_url": "https://crypto.news/dimon-fight-deepens-as-coinbase-pushes-for-clarity-act-passage/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Grayscale nears Hyperliquid ETFs launch as fee race tightens",
+    "description": "Grayscale has moved closer to launching its Hyperliquid exchange-traded fund after adding a 0.29% sponsor fee and HYPG ticker to its amended registration filing. The Securities and Exchange Commission filing submitted Monday shows that Grayscale updated its S-1 registration statement… Grayscale nears Hyperliquid ETFs launch as fee race tightens",
+    "date": "2026-06-01",
+    "source_url": "https://crypto.news/grayscale-nears-hyperliquid-etfs-launch-as-fee-race-tightens/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Fed’s Waller makes the case for stablecoins in EU lion’s den",
     "description": "Federal Reserve Governor Chris Waller made a robust case for stablecoins as a competitive force in payments during a panel in Croatia this weekend, putting him at odds with most of his fellow panelists who favored tokenized deposits. The wide-ranging session also produced a lively exchange on what happens to stablecoins if interest rates turn",
@@ -9460,63 +9515,6 @@
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "SEC’s innovation exemption for tokenized stocks to come as early as this week: Bloomberg",
-    "description": "The SEC has approved several entities to move forward with tokenized stock initiatives, including the NYSE and Nasdaq.",
-    "date": "2026-05-18",
-    "source_url": "https://www.theblock.co/post/401766/sec-innovation-exemption-tokenized-securities-this-week",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Revolut",
-    "initiative": "Revolut launches first physical crypto card",
-    "description": "Revolut launched its first physical crypto card on May 18, a Dogecoin-themed LED card for the UK and EEA. Revolut launches first physical crypto card",
-    "date": "2026-05-18",
-    "source_url": "https://crypto.news/revolut-launches-first-physical-crypto-card/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "SEC to propose tokenized stock framework as Wall Street efforts deepen: Bloomberg",
-    "description": "The U.S. Securities and Exchange Commission is reportedly poised to release a major crypto proposal as it seeks to institute its digital assets agenda.",
-    "date": "2026-05-18",
-    "source_url": "https://www.coindesk.com/policy/2026/05/18/sec-to-propose-tokenized-stock-framework-as-wall-street-efforts-deepen-bloomberg",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
