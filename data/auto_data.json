@@ -1,5 +1,98 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "XRP drops to $1.32 as sellers overpower exchange outflows",
+    "description": "XRP hit a 15-week low before stabilizing, with traders watching whether the latest washout turns into a base or another leg lower.",
+    "date": "2026-06-01",
+    "source_url": "https://www.coindesk.com/markets/2026/06/01/xrp-drops-to-usd1-32-as-sellers-overpower-exchange-outflows",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "Taiwan banks on blockchain in reshaping gold market",
+    "description": "Taiwan's central bank is targeting blockchain solutions for its gold market, aiming for improved trade efficiency and flexibility through tokenization.",
+    "date": "2026-06-01",
+    "source_url": "https://coingeek.com/taiwan-banks-on-blockchain-in-reshaping-gold-market/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Tether",
+    "initiative": "Tether’s New Stablecoin Grew 540% in a Month. Here’s Why It Matters",
+    "description": "Hey Payments Fanatic! Tether’s newest stablecoin is growing much faster than most people expected. USAT, the company’s U.S.-focused stablecoin, launched earlier this year with Anchorage Digital, expanded from just $22 million to more than $140 million in circulation in a single month . That'",
+    "date": "2026-06-01",
+    "source_url": "https://www.connectingthedotsinpayments.com/tethers-new-stablecoin-grew-540-in-a-month-heres-why-it-matters/",
+    "category": "payments",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase launches Indian rupee rails with perps access in expansion push",
+    "description": "The Nasdaq-listed company said it has established INR order books to provide dedicated liquidity for users in the country.",
+    "date": "2026-06-01",
+    "source_url": "https://www.theblock.co/post/403135/coinbase-launches-indian-rupee-rails",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "Kraken seeks Bitcoin perps edge after CFTC clears Kalshi contract",
+    "description": "Kraken plans CFTC-regulated Bitcoin perps within 30 days, while Coinbase and Kalshi move first in the U.S. regulated derivatives race today.",
+    "date": "2026-06-01",
+    "source_url": "https://crypto.news/kraken-seeks-bitcoin-perps-edge-after-cftc-clears-kalshi-contract/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Saris raises $28.8m for agentic workflow platform",
     "description": "Saris, an agentic workflow platform for banks and credit unions, has raised $28.8 million in Series A funding.",
@@ -9437,99 +9530,6 @@
     "signal_type": "Research / Report",
     "fmi_areas": [],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Michelle W Bowman: Opening remarks - Federal Reserve Bank of Kansas City 2026 Future of Banking Conference",
-    "description": "Speech (via pre-recorded video) by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the Federal Reserve Bank of Kansas City 2026 Future of Banking Conference \"Powering progress, protecting trust\", Kansas City, Missouri, 14 May 2026.",
-    "date": "2026-05-18",
-    "source_url": "https://www.bis.org/review/r260518c.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Gent Sejko: National initiative for financing micro, small, and medium-sized enterprises",
-    "description": "Address by Mr Gent Sejko, Governor of the Bank of Albania, at the signing ceremony of the Memorandum of Understanding on the \"National initiative for financing micro, small, and medium-sized enterprises\", Tirana, 13 May 2026.",
-    "date": "2026-05-18",
-    "source_url": "https://www.bis.org/review/r260518b.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin faces outsized quantum threat as computing breakthroughs accelerate, Citi says",
-    "description": "The bank said accelerating advances in quantum computing are compressing the timeline for risks to crypto and broader internet infrastructure, with Bitcoin seen as particularly exposed.",
-    "date": "2026-05-18",
-    "source_url": "https://www.coindesk.com/tech/2026/05/18/bitcoin-faces-outsized-quantum-threat-as-computing-breakthroughs-accelerate-citi-says",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Tokenization push could pull trillions of dollars into DeFi, StanChart says",
-    "description": "The bank projects $4 trillion of tokenized assets by 2028, boosting demand for blockchain-native lending and trading infrastructure.",
-    "date": "2026-05-18",
-    "source_url": "https://www.coindesk.com/markets/2026/05/18/tokenization-push-could-pull-trillions-of-dollars-into-defi-stanchart-says",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "UK’s financial payments network is ready for tokenization, regulators say",
-    "description": "The U.K.’s financial watchdog and central bank unveiled their roadmap for tokenization, the use of stablecoins for institutional settlement and a phased transition toward 24/7 operation.",
-    "date": "2026-05-18",
-    "source_url": "https://www.coindesk.com/policy/2026/05/18/uk-s-financial-payments-network-is-ready-for-tokenization-regulators-say",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
