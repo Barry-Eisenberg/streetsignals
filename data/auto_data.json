@@ -1,5 +1,96 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "Monetary policy according to households: perceptions, reactions and channels",
+    "description": "by Francesco Grigoli, Damiano Sandri, Yuriy Gorodnichenko, Olivier Coibion This paper studies how households perceive the transmission of monetary policy and how these perceptions affect their decisions. Using a large-scale survey of over 25,000 U.S. households combined with randomized information treatments, we measure how households expect changes in the federal funds rate to affect economic conditions and their own behavior.",
+    "date": "2026-06-01",
+    "source_url": "https://www.bis.org/publ/work1354.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinGeek",
+    "initiative": "French regulator threatens action over missing EU licenses",
+    "description": "The French Financial Markets Authority is demanding that digital asset companies get MiCA licenses by June 30 or risk prosecution and forced shutdowns.",
+    "date": "2026-06-01",
+    "source_url": "https://coingeek.com/french-regulator-threatens-action-over-missing-eu-licenses/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinShares",
+    "initiative": "US-based funds drive $1.7B in global crypto ETP outflows as redemption streak extends to three weeks: CoinShares",
+    "description": "Global crypto ETP outflows hit $1.67 billion last week as Bitcoin products recorded their biggest weekly outflow of the year.",
+    "date": "2026-06-01",
+    "source_url": "https://www.theblock.co/post/403167/us-based-funds-drive-1-7b-in-global-crypto-etp-outflows-as-redemption-streak-extends-to-three-weeks-coinshares",
+    "category": "asset_management",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Ripple",
+    "initiative": "Ripple-backed Evernorth files SEC amendment for $1B XRP treasury",
+    "description": "Securities and Exchange Commission as it moves forward with a merger backed by more than $1 billion in committed capital to create a Nasdaq-listed XRP treasury company. Ripple-backed Evernorth Holdings has filed an amended registration statement with the U.S. Ripple-backed Evernorth files SEC amendment for $1B XRP treasury",
+    "date": "2026-06-01",
+    "source_url": "https://crypto.news/ripple-backed-evernorth-files-sec-amendment-for-1b-xrp-treasury/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinShares",
+    "initiative": "Bitcoin ETPs face worst 2026 outflow as $1.67B leaves crypto funds: CoinShares",
+    "description": "Crypto funds lost $1.67B last week as Bitcoin ETPs saw 2026’s largest outflows and U.S. products led global selling, CoinShares said Monday.",
+    "date": "2026-06-01",
+    "source_url": "https://crypto.news/bitcoin-etps-face-worst-2026-outflow-as-1-67b-leaves-crypto-funds-coinshares/",
+    "category": "asset_management",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA (European Securities and Markets Authority)",
     "initiative": "ESMA publishes latest edition of its newsletter",
     "description": "This edition opens with key takeaways from ESMA’s conference “A New Era for EU Capital Markets” , marking ESMA’s 15th anniversary and focusing on the ambition to build more integrated, efficient and attractive capital markets, with the Savings and Investment Union at the heart of the discussions. Top news highlights include ESMA’s work to advance the simplification of EU reporting frameworks for funds and transactions , the launch of its sixth stress test exercise for Central Counterparties (CCPs) , and the publication of guidance on the effective use of resolution tools in CCP crisis planning .",
@@ -9424,105 +9515,6 @@
       "Trading & Exchange"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Solana is shedding its memecoin reputation as big banks move billions into its ecosystem",
-    "description": "Wall Street and payment giants are quietly taking over Solana, moving billions onto the network for tokenized funds and global payments even as the broader crypto market cools down, according to a new report by Messari.",
-    "date": "2026-05-18",
-    "source_url": "https://www.coindesk.com/markets/2026/05/18/solana-is-shedding-its-memecoin-reputation-as-big-banks-move-billions-into-its-ecosystem",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Galaxy scores New York BitLicense to offer digital asset services in the state",
-    "description": "Mike Novogratz' Galaxy Digital said the approval expands its regulatory footprint to more than 50 licenses worldwide.",
-    "date": "2026-05-18",
-    "source_url": "https://www.theblock.co/post/401732/galaxy-new-york-bitlicense-offer-digital-asset-services-state",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Revolut",
-    "initiative": "Revolut unveils first physical crypto card as industry-wide card usage grows",
-    "description": "The card will be usable anywhere Visa and Mastercard are accepted, and will first roll out firm in the UK and EEA.",
-    "date": "2026-05-18",
-    "source_url": "https://www.theblock.co/post/401726/revolut-first-physical-crypto-card-industry-usage-grows",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Standard Chartered",
-    "initiative": "Standard Chartered sees $4T tokenized push",
-    "description": "Standard Chartered projects that $4 trillion in tokenized assets will sit onchain by the end of 2028, evenly split between stablecoins… Standard Chartered projects $4 trillion in tokenized assets onchain by 2028, with mature DeFi protocols as the main beneficiaries. Standard Chartered sees $4T tokenized push",
-    "date": "2026-05-18",
-    "source_url": "https://crypto.news/standard-chartered-4t-tokenized-by-2028/",
-    "category": "global_banks",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Circle",
-    "initiative": "Bernstein Circle call cements CLARITY edge",
-    "description": "Bernstein Circle analysts said the CLARITY Act yield compromise blocks rival stablecoin issuers from competing on rates Bernstein analysts said the CLARITY Act’s yield compromise structurally favors Circle Internet Group, ending what they described as a looming stablecoin “interest rate… Bernstein Circle call cements CLARITY edge",
-    "date": "2026-05-18",
-    "source_url": "https://crypto.news/bernstein-backs-circle-on-clarity-act-win/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
     "year": "2026"
   }
 ]
