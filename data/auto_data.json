@@ -1,5 +1,64 @@
 [
   {
+    "institution": "Digital Asset Exchange",
+    "initiative": "U.S. sanctions Iranian crypto exchanges in ongoing war against the country",
+    "description": "OFAC said it was blacklisting Nobitex and three other Iranian exchanges, as well as a few executives, citing links to terror and other crimes.",
+    "date": "2026-06-02",
+    "source_url": "https://www.coindesk.com/policy/2026/06/02/u-s-sanctions-iranian-crypto-exchanges-in-ongoing-war-against-country",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS (Bank for International Settlements)",
+    "initiative": "Rigid stablecoin reserve rules can increase default risk, BIS paper finds",
+    "description": "Regulators in the EU, US and elsewhere are moving toward combinations of liquidity and capital thresholds for stablecoin issuers, but the calibration varies widely. MiCAR requires at least 30% of reserves held as bank deposits and imposes explicit capital requirements. The OCC’s proposed rules implementing the GENIUS Act layer a 10% true liquid floor and",
+    "date": "2026-06-02",
+    "source_url": "https://www.ledgerinsights.com/rigid-stablecoin-reserve-rules-can-increase-default-risk-bis-paper-finds/",
+    "category": "regulators",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Crypto PACs pour millions into primaries as Maryland race looms",
+    "description": "Crypto-backed political groups have expanded their election spending as several US primaries test the industry’s influence in Congress. According to filings with the US Federal Election Commission, Fairshake-linked groups backed by Coinbase, Ripple, and other crypto supporters have directed millions… Crypto PACs pour millions into primaries as Maryland race looms",
+    "date": "2026-06-02",
+    "source_url": "https://crypto.news/crypto-pacs-pour-millions-into-primaries-as-maryland-race-looms/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "Coinbase backs Ethena ahead of savings product launch for exchange's 100 million users",
     "description": "Coinbase Ventures, the exchange's venture arm, bought Ethena tokens on the open market as the protocol is set to roll out a Coinbase integration next week.",
@@ -9449,63 +9508,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Tether",
-    "initiative": "Tether, Gnosis co-lead $4.4 million seed round for lightweight mobile-friendly Sorted Wallet",
-    "description": "With the additional funding, Sorted intends to expand geographically, particularly targeting Sub-Saharan Africa and South Asia.",
-    "date": "2026-05-20",
-    "source_url": "https://www.theblock.co/post/401929/tether-gnosis-co-lead-4-4-million-seed-round-lightweight-mobile-sorted-wallet",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Crypto layoffs grow as Meta’s AI shift hits jobs",
-    "description": "Crypto layoffs deepen as Meta begins AI-led cuts, while Kraken and Coinbase also trim staff in a wider push for leaner teams across 2026 now",
-    "date": "2026-05-20",
-    "source_url": "https://crypto.news/crypto-layoffs-grow-as-metas-ai-shift-hits-jobs/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Consensys",
-    "initiative": "Consensys warns FDIC proposal could overextend GENIUS Act restrictions",
-    "description": "Consensys has urged the Federal Deposit Insurance Corporation to revise parts of its proposed stablecoin framework, arguing that several provisions tied to the GENIUS Act could unintentionally restrict ordinary distribution models and access to decentralized finance tools. According to a… Consensys warns FDIC proposal could overextend GENIUS Act restrictions",
-    "date": "2026-05-20",
-    "source_url": "https://crypto.news/consensys-warns-fdic-proposal-could-overextend-genius-act-restrictions/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DeFi"
-    ],
     "year": "2026"
   }
 ]
