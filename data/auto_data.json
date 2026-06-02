@@ -1,5 +1,240 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "François Villeroy de Galhau: Broadening the horizon - lessons from a decade of banking supervision",
+    "description": "Speech by Mr François Villeroy de Galhau, Governor of the Bank of France and Chair of the Prudential Supervision and Resolution Authority (ACPR), at the Conference held at the ACPR, Paris, 21 May 2026.",
+    "date": "2026-06-02",
+    "source_url": "https://www.bis.org/review/r260527a.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Steven Maijoor: From survival to partnership - how fintech needs the regulators, and the regulators need fintech",
+    "description": "Speech by Mr Steven Maijoor, Executive Board Member and Chair of Supervision of De Nederlandsche Bank, at the opening of the conference \"Fintech meets the regulators\", jointly organised by De Nederlandsche Bank and Holland Fintech Association, Amsterdam, 21 May 2026.",
+    "date": "2026-06-02",
+    "source_url": "https://www.bis.org/review/r260602h.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Vasileios Madouros: Finance in transition - the Central Bank of Ireland's approach to tokenised finance",
+    "description": "Speech by Mr Vasileios Madouros, Deputy Governor of the Central Bank of Ireland, at the National Finance Conference, Dublin, 26 May 2026.",
+    "date": "2026-06-02",
+    "source_url": "https://www.bis.org/review/r260602g.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Göran Hjelm: Monetary policy trade-offs and economic policy interactions in the face of supply shocks",
+    "description": "Speech by Mr Göran Hjelm, Deputy Governor of the Sveriges Riksbank, at the Sveriges Riksbank, Stockholm, 22 May 2026.",
+    "date": "2026-06-02",
+    "source_url": "https://www.bis.org/review/r260602d.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Making stablecoins stable(r): can regulation help?",
+    "description": "by Tirupam Goel, Ulf Lewrick, Isha Agarwal We model a stablecoin issuer that optimises capital, cash and bond holdings under persistent stablecoin flows. Absent regulation, the issuer holds little capital and favours interest-bearing but less-liquid bonds over cash.",
+    "date": "2026-06-02",
+    "source_url": "https://www.bis.org/publ/work1355.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Strategy's bitcoin sale may mark start of ether outperformance, StanChart's Kendrick says",
+    "description": "ETH could outperform BTC by 40% from current levels as bitcoin treasuries may sell assets to cover obligations, the bank's digital asset research head said.",
+    "date": "2026-06-02",
+    "source_url": "https://www.coindesk.com/markets/2026/06/02/strategy-s-bitcoin-sale-may-mark-start-of-ether-outperformance-stanchart-s-kendrick-says",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Movement pivots to stablecoin payments as the layer-2 boom loses momentum",
+    "description": "The team behind Movement said it plans to leverage licensed payment partners alongside blockchain settlement rails to target the roughly $685 billion remittance market serving low and middle-income countries.",
+    "date": "2026-06-02",
+    "source_url": "https://www.coindesk.com/tech/2026/06/02/movement-pivots-to-stablecoin-payments-as-the-layer-2-boom-loses-momentum",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "DTCC",
+    "initiative": "Stellar CEO says Clarity Act would help, but tokenization isn't dependent on it",
+    "description": "DTCC’s decision to connect its tokenized securities platform to Stellar marks a new phase of institutional adoption for public blockchains.",
+    "date": "2026-06-02",
+    "source_url": "https://www.coindesk.com/coindesk-news/2026/06/02/stellar-ceo-says-clarity-act-would-help-but-tokenization-isn-t-dependent-on-it",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Ripple",
+    "initiative": "Ripple’s dollar stablecoin expands to Turkey through three local platforms",
+    "description": "BiLira, Bitexen and Bitlo will make Ripple’s RLUSD stablecoin available to Turkish institutions.",
+    "date": "2026-06-02",
+    "source_url": "https://www.coindesk.com/markets/2026/06/02/ripple-s-dollar-stablecoin-expands-to-turkey-through-three-local-platforms",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Ledger Insights",
+    "initiative": "Ant, KASIKORNBANK use JP Morgan’s Kinexys for cross border DLT payments",
+    "description": "Today Thailand’s second largest bank, KASIKORNBANK (KBank), announced a collaboration with Ant International for AI and cross border payments. Together they are targeting real time, 24/7 international USD transactions, using Blockchain Deposit Accounts from Kinexys by JP Morgan. From a Kinexys perspective, this is probably not a new installation, but a collaboration between two existing",
+    "date": "2026-06-02",
+    "source_url": "https://www.ledgerinsights.com/ant-kasikornbank-use-jp-morgans-kinexys-for-cross-border-dlt-payments/",
+    "category": "ecosystem",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Hamilton Lane",
+    "initiative": "Hamilton Lane’s tokenized HLSCOPE fund launches on Tron, marking first Securitize product issued on the once-maligned blockchain",
+    "description": "Hamilton Lane’s tokenized Senior Credit Opportunities Fund will be the first Securitize-issued asset to launch on TRON.",
+    "date": "2026-06-02",
+    "source_url": "https://www.theblock.co/post/403239/hamilton-lanes-tokenized-hlscope-fund-launches-on-tron-marking-first-securitize-product-issued-on-the-once-maligned-blockchain",
+    "category": "asset_management",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Circle",
+    "initiative": "Following token-dumping scandal, Movement seeks new life as a Layer 1",
+    "description": "Move Industries has partnered with several firms, including Circle, as it relaunches Movement as a Layer 1 and refocuses on emerging markets.",
+    "date": "2026-06-02",
+    "source_url": "https://www.theblock.co/post/403264/movement-seeks-new-life-as-layer-1",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "This new layer 2 venture could rise faster than range bound giants like HBAR and DOT",
+    "description": "The digital asset market has entered a pivotal phase in May 2026, marked by historic regulatory milestones and drastic tokenomic restructurings. Investors compare HBAR, DOT, and DOGEBALL as capital shifts toward utility-focused crypto projects in 2026. This new layer 2 venture could rise faster than range bound giants like HBAR and DOT",
+    "date": "2026-06-02",
+    "source_url": "https://crypto.news/this-new-layer-2-venture-could-rise-faster-than-range-bound-giants-like-hbar-and-dot/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA (European Securities and Markets Authority)",
     "initiative": "The GMTF presents its findings on EU gas and gas derivative markets",
     "description": "The GMTF was established in February 2025 under the Action Plan for Affordable Energy to scrutinise the functioning of EU gas and gas derivatives markets, identify potential shortcomings and propose actions to address them. The GMTF gathered the European Commission’s services, the Agency for the Cooperation of Energy Regulators (ACER) and the European Securities and Markets Authority (ESMA). The GMTF presents its findings on EU gas and gas derivative markets",
@@ -9288,248 +9523,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Wintermute enters DeFi vault space with Armitage, supporting ‘collateral types that other curators cannot’",
-    "description": "Vault curators allow institutions to take a hands-off approach to crypto by allocating capital along pre-set risk parameters.",
-    "date": "2026-05-19",
-    "source_url": "https://www.theblock.co/post/401875/wintermute-enters-defi-vault-space-with-armitage-supporting-collateral-types-that-other-curators-cannot",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Ouinex raises $3.5m from users to back ‘No‑CLOB’ crypto trading model",
-    "description": "Crypto exchange Ouinex has raised $3.5m from its own traders, lifting total funding to $9m to build a “Non‑Centralized Order Book” designed to shield retail from market makers. According to Forbes, crypto and derivatives platform Ouinex announced on May 19 that… Ouinex raises $3.5m from users to back ‘No‑CLOB’ crypto trading model",
-    "date": "2026-05-19",
-    "source_url": "https://crypto.news/ouinex-raises-3-5m-from-users-to-back-no-clob-crypto-trading-model/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "OCC (Office of the Comptroller of the Currency)",
-    "initiative": "Senator Warren accuses OCC of illegally greenlighting crypto bank charters",
-    "description": "Senator Warren questions OCC crypto trust charters’ legality under National Bank Act. Senator Elizabeth Warren has accused the Office of the Comptroller of the Currency (OCC) of potentially violating the National Bank Act by greenlighting a wave of national trust… Senator Warren accuses OCC of illegally greenlighting crypto bank charters",
-    "date": "2026-05-19",
-    "source_url": "https://crypto.news/senator-warren-accuses-occ-of-illegally-greenlighting-crypto-bank-charters/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Mizuho",
-    "initiative": "Wall Street analysts increasingly value crypto firms as infrastructure, AI and capital markets platforms",
-    "description": "Analysts at Benchmark, TD Cowen, and Mizuho hold buy ratings on Bitdeer, Strive, DeFi Technologies, and Gemini amid infra and markets pivots.",
-    "date": "2026-05-19",
-    "source_url": "https://www.theblock.co/post/401816/wall-street-analysts-increasingly-value-crypto-firms-as-infrastructure-ai-and-capital-markets-platforms",
-    "category": "global_banks",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Crypto wrench attacks push Coinbase security bill to $8.7M",
-    "description": "Crypto wrench attacks are pushing exchanges to spend more on security, with Coinbase CEO protection costs near $8.7M in 2025.",
-    "date": "2026-05-19",
-    "source_url": "https://crypto.news/crypto-wrench-attacks-push-coinbase-security-bill-to-8-7m/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Australian Securities and Investments Commission",
-    "initiative": "BTC cloud mining expands via renewables as halving shifts yield strategies",
-    "description": "Australia-based platform opens contract tiers from $15 to $300,000, targeting investors seeking direct exposure to mined Bitcoin output without ASIC hardware overhead. The fourth Bitcoin halving cut the block reward to 3.125 BTC. BTC cloud mining expands via renewables as halving shifts yield strategies",
-    "date": "2026-05-19",
-    "source_url": "https://crypto.news/btc-cloud-mining-expands-via-renewables-as-halving-shifts-yield-strategies/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Ripple",
-    "initiative": "Ripple CTO explains XRPL hard forks before 3.1.3 deadline",
-    "description": "XRP Ledger hard fork debate grows as David Schwartz explains XRPL upgrades before the 3.1.3 fix amendment activates on May 27.",
-    "date": "2026-05-19",
-    "source_url": "https://crypto.news/ripple-cto-explains-xrpl-hard-forks-before-3-1-3-deadline/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CaixaBank",
-    "initiative": "CaixaBank launches a carbon credit trading platform to help clients offset their emissions",
-    "description": "CaixaBank CIB has launched a carbon credit trading platform, a tool designed to make it easier for corporate clients and businesses to voluntarily offset CO2 emissions.",
-    "date": "2026-05-19",
-    "source_url": "https://www.finextra.com/pressarticle/109883/caixabank-launches-a-carbon-credit-trading-platform-to-help-clients-offset-their-emissions",
-    "category": "global_banks",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Klarna teams with Worldline for instore and online payments",
-    "description": "Worldline [Euronext: WLN], a European leader in payment services, and Klarna, the global digital bank and flexible payments provider, have announced the signing of a framework agreement to improve access to Klarna’s full suite of flexible payments across online and in-store points of sale serviced by Worldline.",
-    "date": "2026-05-19",
-    "source_url": "https://www.finextra.com/pressarticle/109882/klarna-teams-with-worldline-for-instore-and-online-payments",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Standard Chartered",
-    "initiative": "Standard Chartered to acquire Zodia Custody’s custody business",
-    "description": "Standard Chartered (SC) today announced that its non-binding offer to acquire Zodia Custody (ZC), a digital asset custodian backed by SC Ventures (SCV), has been accepted by the shareholders and noteholders of Zodia Custody.",
-    "date": "2026-05-19",
-    "source_url": "https://www.finextra.com/pressarticle/109879/standard-chartered-to-acquire-zodia-custodys-custody-business",
-    "category": "global_banks",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Visa",
-    "initiative": "How Commercial Banking Client Demands Are Changing in 2026",
-    "description": "Joining the FinextraTV virtual studio, Philip Konopik, Regional Head, Commercial and Money Movement Services, Visa Europe discussed some of the outcomes from a recent report on commercial banking. Konopik explained that commercial banks were slower to growth, but a European shift is emanating from the behaviours and demands of clients. Konopik quoted some statistics from the report, stating the substantial impact that more modernised infrastructures has had on their end users. Konopik defined this change as similar to within the retail banking space, saying that ultimately customers will reallocate funds to places that will give them what they need and commercial banks have woken up to this.",
-    "date": "2026-05-19",
-    "source_url": "https://www.finextra.com/videoarticle/3501/how-commercial-banking-client-demands-are-changing-in-2026",
-    "category": "payments",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "SEC Readies Tokenized Stock “Innovation Exemption” That Could Reshape Blockchain Equity Trading",
-    "description": "The SEC is preparing an “innovation exemption” for tokenized stocks that could arrive this week, building on Nasdaq and NYSE approvals and opening the door for crypto-native platforms.",
-    "date": "2026-05-19",
-    "source_url": "https://unchainedcrypto.com/sec-readies-tokenized-stock-innovation-exemption-that-could-reshape-blockchain-equity-trading/",
-    "category": "regulators",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "AI agents could outspend humans, Coinbase CEO says",
-    "description": "Coinbase CEO Brian Armstrong sees AI agent payments outgrowing humans as x402 records 75M monthly transactions and Base leads USDC use soon.",
-    "date": "2026-05-19",
-    "source_url": "https://crypto.news/ai-agents-could-outspend-humans-coinbase-ceo-says/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
