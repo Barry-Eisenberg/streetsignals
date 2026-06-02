@@ -1,5 +1,82 @@
 [
   {
+    "institution": "Federal Reserve",
+    "initiative": "Minneapolis Fed president likens stablecoins to casino chips",
+    "description": "Neel Kashkari, President of the Minneapolis Federal Reserve, likened stablecoins to casino chips during a Bank of Korea event. The comparison was actually a practical one. He noted that despite claims to the contrary, the vast majority of stablecoin usage is for cryptocurrency transactions. Casinos go to the expense of issuing chips because if someone",
+    "date": "2026-06-02",
+    "source_url": "https://www.ledgerinsights.com/minneapolis-fed-president-likens-stablecoins-to-casino-chips/",
+    "category": "regulators",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Digital Asset Platform",
+    "initiative": "Ethena taps Anchorage for secure offchain collateral in institutional lending push",
+    "description": "Ethena began pivoting toward overcollateralized institutional lending in April as part of a major overhaul of USDe reserves.",
+    "date": "2026-06-02",
+    "source_url": "https://www.theblock.co/post/403410/ethena-taps-anchorage-secure-offchain-collateral-institutional-lending-push",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Crypto exchanges face tough Brazil test as audit mandate arrives",
+    "description": "Brazil’s central bank has added mandatory independent audits to the licensing approval process for crypto service providers in the country. According to the published rules cited in the report, crypto firms applying for authorization, or renewing an existing license, must… Crypto exchanges face tough Brazil test as audit mandate arrives",
+    "date": "2026-06-02",
+    "source_url": "https://crypto.news/crypto-exchanges-face-tough-brazil-test-as-audit-mandate-arrives/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase and Ethena tease a bigger push as ENA gains speed",
+    "description": "Coinbase Ventures has purchased ENA tokens on the open market as Coinbase and Ethena prepare a new partnership focused on on-chain finance and savings products. Ethena said in an official X post on Tuesday that Coinbase Ventures made its first… Coinbase and Ethena tease a bigger push as ENA gains speed",
+    "date": "2026-06-02",
+    "source_url": "https://crypto.news/coinbase-and-ethena-tease-a-bigger-push-as-ena-gains-speed/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Mastercard",
     "initiative": "ING completes live end-to-end European agentic payment transaction",
     "description": "ING, Worldline and Mastercard have carried out what they claims is Europe's first end-to-end agentic payment transaction.",
@@ -9430,82 +9507,6 @@
       "Collateral & Lending"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Revolut",
-    "initiative": "Revolut rolls out crypto debit card",
-    "description": "Revolut has launched its first physical crypto debit card.",
-    "date": "2026-05-20",
-    "source_url": "https://www.finextra.com/newsarticle/47781/revolut-rolls-out-crypto-debit-card",
-    "category": "payments",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Visa",
-    "initiative": "How Commercial Banking Client Demands Are Changing in 2026",
-    "description": "Joining the FinextraTV virtual studio, Philip Konopik, Regional Head, Commercial and Money Movement Services, Visa Europe discussed some of the outcomes from a recent report on commercial banking. Konopik explained that commercial banks were slower to growth, but a European shift is emanating from the behaviours and demands of clients. Konopik quoted some statistics from the report, stating the substantial impact that more modernised infrastructures has had on their end users. Konopik defined this change as similar to within the retail banking space, saying that ultimately customers will reallocate funds to places that will give them what they need and commercial banks have woken up to this.",
-    "date": "2026-05-19",
-    "source_url": "https://www.finextra.com/videoarticle/3501/how-commercial-banking-client-demands-are-changing-in-2026",
-    "category": "payments",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Connecting the Dots",
-    "initiative": "The Dutch Are At It Again. Zerohash Secures EMI License",
-    "description": "Hey Payments Fanatic! News keeps hitting close to home. Dutch FinTech zerohash has just secured an EMI License. As the first MiCAR-licensed firm to also obtain an E-Money License , zerohash can now fully support stablecoin-powered financial flows under Europe's evolving regulatory framework. Together, the MiCAR and EMI licenses",
-    "date": "2026-05-19",
-    "source_url": "https://www.connectingthedotsinpayments.com/the-dutch-are-at-it-again-zerohash-secures-emi-license/",
-    "category": "ecosystem",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "Trump’s Truth Social withdraws bitcoin ETF application from SEC",
-    "description": "Its advisor, Yorkville America, said the withdrawal is a strategic move to reapply under a more efficient securities framework.",
-    "date": "2026-05-19",
-    "source_url": "https://www.theblock.co/post/401946/truth-social-withdraws-bitcoin-etf",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
