@@ -1,5 +1,83 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "XRP falls 4% below $1.30 as bitcoin-led market weakness pulls down majors",
+    "description": "XRP hit fresh 15-week lows after losing a key support zone, with exchange outflows failing to offset persistent selling pressure.",
+    "date": "2026-06-02",
+    "source_url": "https://www.coindesk.com/markets/2026/06/02/xrp-falls-4-below-usd1-30-as-bitcoin-led-market-weakness-pulls-down-majors",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Mt. Gox moves 10,422 bitcoin worth $739 million to a new wallet as deadline nears",
+    "description": "The 04:47 UTC Bitcoin block 952,072 transaction moved coins from Mt. Gox cold storage into a freshly generated address, with a smaller 116-bitcoin slice routed to the defunct exchange's hot wallet.",
+    "date": "2026-06-02",
+    "source_url": "https://www.coindesk.com/markets/2026/06/02/mt-gox-moves-10-422-bitcoin-worth-usd739-million-to-a-new-wallet-as-deadline-nears",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Is Mt. Gox selling $739 million worth of Bitcoin?",
+    "description": "Arkham Intelligence data shows the defunct exchange moved 10,306 BTC, valued at roughly $730.8 million, from its… Is Mt. Gox selling $739 million worth of Bitcoin?",
+    "date": "2026-06-02",
+    "source_url": "https://crypto.news/is-mt-gox-selling-739-million-worth-of-bitcoin/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Charles Schwab targets 2027 crypto trading for advisor clients",
+    "description": "Charles Schwab targets mid-2027 crypto spot trading and custody for advisors after launching BTC and ETH trading for retail clients.",
+    "date": "2026-06-02",
+    "source_url": "https://crypto.news/charles-schwab-targets-2027-crypto-trading-for-advisor-clients/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Connecting the Dots",
     "initiative": "€500 Million in Suspicious Transactions Put Wise Under the Spotlight",
     "description": "Hey Payments Fanatic! Wise has spent years becoming one of FinTech’s most recognizable success stories. Now it's facing one of its toughest regulatory tests yet. Belgian prosecutors are investigating whether the company failed to comply with anti-money laundering requirements after Wise accounts appeared in hundreds of",
@@ -9451,70 +9529,6 @@
       "Interoperability & Standards"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Ayman M Al-Sayari: Speech - Financial Action Task Force (FATF) Ministerial Meeting",
-    "description": "Speech by His Excellency Mr Ayman Al-Sayari, Governor of the Saudi Central Bank, at the Financial Action Task Force (FATF) Ministerial Meeting during the International Monetary Fund and World Bank Group Spring Meetings, Washington DC, 17 April 2026.",
-    "date": "2026-05-18",
-    "source_url": "https://www.bis.org/review/r260518k.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Ayman M Al-Sayari: Speech - International Monetary and Financial Committee (IMFC) Plenary Session",
-    "description": "Speech by His Excellency Mr Ayman Al-Sayari, Governor of the Saudi Central Bank, at the International Monetary and Financial Committee (IMFC) Plenary Session during the International Monetary Fund and World Bank Group Spring Meetings, Washington DC, 17 April 2026.",
-    "date": "2026-05-18",
-    "source_url": "https://www.bis.org/review/r260518l.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Kazuyuki Masu: Economic activity, prices, and monetary policy in Japan",
-    "description": "Speech by Mr Kazuyuki Masu, Member of the Policy Board of the Bank of Japan, at a meeting, held by the Kagoshima Keizai Doyukai (Japan Association of Corporate Executives), Kagoshima, 14 May 2026.",
-    "date": "2026-05-18",
-    "source_url": "https://www.bis.org/review/r260518i.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Minnesota signs law allowing banks, credit unions to offer crypto custody services",
-    "description": "Governor Tim Walz has signed HF 3709 into law, permitting banks and credit unions to offer crypto custody services.",
-    "date": "2026-05-18",
-    "source_url": "https://www.theblock.co/post/401775/minnesota-bank-crypto-custody",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Custody & Safekeeping"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
