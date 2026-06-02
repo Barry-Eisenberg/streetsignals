@@ -1,5 +1,80 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "Coinbase backs Ethena ahead of savings product launch for exchange's 100 million users",
+    "description": "Coinbase Ventures, the exchange's venture arm, bought Ethena tokens on the open market as the protocol is set to roll out a Coinbase integration next week.",
+    "date": "2026-06-02",
+    "source_url": "https://www.coindesk.com/business/2026/06/02/coinbase-backs-ethena-ahead-of-savings-product-launch-for-exchange-s-100-million-users",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "HearstLab and Fitch Learning take stake in Founderz to bridge AI literacy gap at banks",
+    "description": "Fitch Learning, the global leader in financial services education, and Founderz, Europe’s premier AI business school, today announced a strategic partnership that will provide learners worldwide with innovative, personalized training that combines Fitch’s deep expertise in financial services education with Founderz’s award-winning, multilingual AI learning platform and global community reach.",
+    "date": "2026-06-02",
+    "source_url": "https://www.finextra.com/pressarticle/110012/hearstlab-and-fitch-learning-take-stake-in-founderz-to-bridge-ai-literacy-gap-at-banks",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Digital Asset Exchange",
+    "initiative": "US sanctions Nobitex and other Iranian crypto exchanges under ‘Economic Fury’ campaign",
+    "description": "Sanctioned exchange Nobitex handled more than half of Iran's crypto inflows last year, according to the U.S. Treasury.",
+    "date": "2026-06-02",
+    "source_url": "https://www.theblock.co/post/403436/us-sanctions-nobitex-iranian-crypto-exchanges-economic-fury-campaign",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Stablecoin depeg fears push New York and EU regulators closer",
+    "description": "New York’s financial regulator has formed a stablecoin supervision agreement with the European Banking Authority as regulators on both sides of the Atlantic tighten cooperation over digital assets. The New York State Department of Financial Services said Tuesday that it… Stablecoin depeg fears push New York and EU regulators closer",
+    "date": "2026-06-02",
+    "source_url": "https://crypto.news/stablecoin-depeg-fears-push-new-york-and-eu-regulators-closer/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Minneapolis Fed president likens stablecoins to casino chips",
     "description": "Neel Kashkari, President of the Minneapolis Federal Reserve, likened stablecoins to casino chips during a Bank of Korea event. The comparison was actually a practical one. He noted that despite claims to the contrary, the vast majority of stablecoin usage is for cryptocurrency transactions. Casinos go to the expense of issuing chips because if someone",
@@ -9431,82 +9506,6 @@
       "Stablecoins & Deposit Tokens",
       "DeFi"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Trump calls for Fed review of master account rules for crypto sector",
-    "description": "President Donald Trump has directed the Federal Reserve to review whether fintech and crypto firms should receive direct access to the central bank’s payment infrastructure through a new executive order focused on financial technology policy. Under the order signed… Trump calls for Fed review of master account rules for crypto sector",
-    "date": "2026-05-20",
-    "source_url": "https://crypto.news/trump-calls-for-fed-review-of-master-account-rules-for-crypto-sector/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Trump orders Fed to review giving crypto firms access to master accounts",
-    "description": "The order urged the federal government to remove regulations that may be 'overly burdensome' to fintech innovation.",
-    "date": "2026-05-20",
-    "source_url": "https://www.theblock.co/post/401953/trump-orders-fed-master-account",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "Minnesota bans prediction markets, CFTC fires back",
-    "description": "CFTC sues Minnesota to block its Aug. 1 prediction markets ban as crypto rules split between bank custody and kiosk restrictions statewide.",
-    "date": "2026-05-20",
-    "source_url": "https://crypto.news/minnesota-bans-prediction-markets-cftc-fires-back/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "TSB",
-    "initiative": "TSB reports spike in impersonation scams",
-    "description": "TSB is warning of a surge in impersonation scams as cases in the first quarter of this year have surpassed those recorded for full-year 2025, with the value of losses 116 percent higher.",
-    "date": "2026-05-20",
-    "source_url": "https://www.finextra.com/newsarticle/47779/tsb-reports-spike-in-impersonation-scams",
-    "category": "global_banks",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
