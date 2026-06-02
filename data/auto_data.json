@@ -1,5 +1,135 @@
 [
   {
+    "institution": "Mastercard",
+    "initiative": "ING completes live end-to-end European agentic payment transaction",
+    "description": "ING, Worldline and Mastercard have carried out what they claims is Europe's first end-to-end agentic payment transaction.",
+    "date": "2026-06-02",
+    "source_url": "https://www.finextra.com/newsarticle/47844/ing-completes-live-end-to-end-european-agentic-payment-transaction",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "Interactive Brokers launches agentic trading through Claude integration",
+    "description": "Interactive Brokers (Nasdaq: IBKR), an automated global broker, today announced agentic trading through direct integration with Claude, one of the world’s leading AI platforms.",
+    "date": "2026-06-02",
+    "source_url": "https://www.finextra.com/pressarticle/110009/interactive-brokers-launches-agentic-trading-through-claude-integration",
+    "category": "exchanges_intermediaries",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "XTransfer and BBVA team i cross-border payments",
+    "description": "XTransfer, the world’s leading B2B cross-border trade payment platform, and BBVA, a global financial group, have signed a Memorandum of Understanding (MOU) during Money20/20 Europe 2026 in Amsterdam to deepen cross-border payment infrastructure across Latin America and Europe.",
+    "date": "2026-06-02",
+    "source_url": "https://www.finextra.com/pressarticle/110008/xtransfer-and-bbva-team-i-cross-border-payments",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "The Great Model Reset",
+    "description": "How the 2026 Regulatory Overhaul Is rewriting the rules of Model Risk Management. Introduction: The ... The Great Model Reset",
+    "date": "2026-06-02",
+    "source_url": "https://www.finextra.com/blogposting/31905/the-great-model-reset",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase invests in Ethena via open market purchase of ENA, flags new partnership",
+    "description": "Ethena said the two companies have also become partners \"to grow onchain finance and savings products.\"",
+    "date": "2026-06-02",
+    "source_url": "https://www.theblock.co/post/403403/coinbase-invests-ethena-open-market-purchase-ena-flags-new-partnership",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase makes a quiet bet on ProShares stablecoin reserve ETF",
+    "description": "Coinbase has invested in ProShares’ GENIUS Money Market ETF as stablecoin issuers prepare for stricter reserve rules under the GENIUS Act. BlockBeats reported on June 2 that Coinbase will invest in the ProShares fund, known by the ticker IQMM. Coinbase makes a quiet bet on ProShares stablecoin reserve ETF",
+    "date": "2026-06-02",
+    "source_url": "https://crypto.news/coinbase-makes-a-quiet-bet-on-proshares-stablecoin-reserve-etf/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "MoonPay",
+    "initiative": "Franklin Templeton and MoonPay open new door for BENJI fund",
+    "description": "Franklin Templeton has added its BENJI tokenized money market fund to MoonPay Trade, giving institutional clients a new route between stablecoins and tokenized fund products. According to a statement released Tuesday, the partnership will allow institutional users to swap USDC,… Franklin Templeton and MoonPay open new door for BENJI fund",
+    "date": "2026-06-02",
+    "source_url": "https://crypto.news/franklin-templeton-and-moonpay-open-new-door-for-benji-fund/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "MoonPay",
     "initiative": "Franklin Templeton teams up with MoonPay to let big investors swap stablecoins for yields 24/7",
     "description": "The Wall Street giant is integrating its tech platform with MoonPay's infrastructure, allowing eligible institutions to seamlessly swap stablecoins for yield-generating tokenized funds without ever leaving the blockchain.",
@@ -9372,145 +9502,6 @@
     "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Trump orders government, Fed to review crypto firms' access to payment rails",
-    "description": "Donald Trump's executive order asks the Fed to review how depository institutions may be granted access to payment services, an area the crypto industry is deeply involved with.",
-    "date": "2026-05-19",
-    "source_url": "https://www.coindesk.com/policy/2026/05/19/trump-orders-government-fed-to-review-crypto-firms-access-to-payment-rails",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "JPMorgan",
-    "initiative": "JPMorgan ether warning says network boom is the only fix",
-    "description": "JPMorgan ether and altcoin analysts said the tokens won’t catch bitcoin without a major lift in network activity. JPMorgan said ether and the broader altcoin market are unlikely to reverse a multi-year underperformance against bitcoin without a meaningful pickup in… JPMorgan ether warning says network boom is the only fix",
-    "date": "2026-05-19",
-    "source_url": "https://crypto.news/jpmorgan-says-ether-needs-activity-to-catch-btc/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Stripe",
-    "initiative": "Stripe-backed Tempo launches Morpho lending on its payments chain",
-    "description": "Tempo, the stablecoin payments blockchain backed by Stripe and Paradigm, has switched on Morpho’s lending marketplace, adding $7.5 billion in decentralized credit… Stripe-backed Tempo launches Morpho lending on its payments chain",
-    "date": "2026-05-19",
-    "source_url": "https://crypto.news/tempo-taps-morpho-for-7-5b-defi-lending-push/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Circle",
-    "initiative": "Even a mountain of T-bills won't save Tether and Circle from a sudden liquidity crisis, expert says",
-    "description": "The head of digital assets and tokenization at one of Germany’s largest asset managers said that USDT and USDC are not stablecoins, from his perspective.",
-    "date": "2026-05-19",
-    "source_url": "https://www.coindesk.com/business/2026/05/19/even-a-mountain-of-t-bills-won-t-save-tether-and-circle-from-a-sudden-liquidity-crisis-expert-says",
-    "category": "payments",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Bitwise calls HYPE a ‘Gen 2’ crypto token, says its undervalued",
-    "description": "The asset manager recently launched a HYPE-based exchange-traded fund and said it will use some of the fees generated to buy the token.",
-    "date": "2026-05-19",
-    "source_url": "https://www.theblock.co/post/401934/bitwise-calls-hype-a-gen-2-crypto-token-says-its-undervalued",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Mastercard",
-    "initiative": "Zerohash pursues new funding at more than $1.5 billion valuation after Mastercard drops investment plans",
-    "description": "Crypto infrastructure providers are drawing renewed investor interest as Wall Street deepens its push into digital assets.",
-    "date": "2026-05-19",
-    "source_url": "https://www.coindesk.com/business/2026/05/19/zerohash-pursues-new-funding-at-more-than-usd1-5-billion-valuation-after-mastercard-drops-investment-plans",
-    "category": "payments",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Hyperliquid’s HYPE one of crypto’s most undervalued assets, says Bitwise",
-    "description": "The crypto asset manager argued the market is mispricing Hyperliquid as a niche derivatives exchange instead of a fast-growing “super-app” for global trading markets.",
-    "date": "2026-05-19",
-    "source_url": "https://www.coindesk.com/markets/2026/05/19/hyperliquid-s-hype-one-of-crypto-s-most-undervalued-assets-says-bitwise",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
