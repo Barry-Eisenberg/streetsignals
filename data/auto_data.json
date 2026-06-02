@@ -1,5 +1,164 @@
 [
   {
+    "institution": "ESMA (European Securities and Markets Authority)",
+    "initiative": "The GMTF presents its findings on EU gas and gas derivative markets",
+    "description": "The GMTF was established in February 2025 under the Action Plan for Affordable Energy to scrutinise the functioning of EU gas and gas derivatives markets, identify potential shortcomings and propose actions to address them. The GMTF gathered the European Commission’s services, the Agency for the Cooperation of Energy Regulators (ACER) and the European Securities and Markets Authority (ESMA). The GMTF presents its findings on EU gas and gas derivative markets",
+    "date": "2026-06-02",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/gmtf-presents-its-findings-eu-gas-and-gas-derivative-markets",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "SEC charges Texas man with $12.3M crypto fraud, fake AI bots",
+    "description": "Nathan Fuller is facing charges over an alleged $12.3M digital asset scheme involving false profit promises and misappropriated funds.",
+    "date": "2026-06-02",
+    "source_url": "https://coingeek.com/sec-charges-texas-man-with-12-3m-crypto-fraud-fake-ai-bots/",
+    "category": "regulators",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Mastercard",
+    "initiative": "UK Payments Initiative launches to challenge Visa and Mastercard stranglehold",
+    "description": "The UK Payments Initiative, a new company formed with the backing of the UK's biggest banks, has gone live, with the aim of undermining the dominance of US card networks in payments.",
+    "date": "2026-06-02",
+    "source_url": "https://www.finextra.com/newsarticle/47842/uk-payments-initiative-launches-to-challenge-visa-and-mastercard-stranglehold",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Klarna adds healthcare to membership programme",
+    "description": "Kry Livi, the UK's leading digital healthcare provider, today announces a new partnership with Klarna, the global digital bank and flexible payments provider, bringing on-demand clinical consultations to Klarna's UK members as digital-first healthcare continues to grow.",
+    "date": "2026-06-02",
+    "source_url": "https://www.finextra.com/pressarticle/109999/klarna-adds-healthcare-to-membership-programme",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "PayWallet expands payout capabilities with TerraPay integration",
+    "description": "TerraPay, a global money movement company, has partnered with PalWallet, a fintech infrastructure provider focused on stablecoin settlement, global payments infrastructure and embedded financial services, to help businesses move money across borders faster and more efficiently.",
+    "date": "2026-06-02",
+    "source_url": "https://www.finextra.com/pressarticle/109998/paywallet-expands-payout-capabilities-with-terrapay-integration",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BVNK",
+    "initiative": "Transfermate moves on stablecoins",
+    "description": "TransferMate, the leading provider of embedded B2B payments, has selected BVNK as its stablecoin infrastructure partner in a new integration that will see TransferMate use BVNK to offer stablecoin capabilities across its global network for the first time.",
+    "date": "2026-06-02",
+    "source_url": "https://www.finextra.com/pressarticle/109997/transfermate-moves-on-stablecoins",
+    "category": "exchanges_intermediaries",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Fireblocks",
+    "initiative": "MoneyGram debuts MGUSD stablecoin on Stellar for its global payments network",
+    "description": "MoneyGram launched MGUSD, a USD stablecoin on Stellar backed by Bridge and Fireblocks, targeting 60M+ customers for cross-border payments.",
+    "date": "2026-06-02",
+    "source_url": "https://www.theblock.co/post/403320/moneygram-debuts-mgusd-stablecoin-on-stellar-for-its-global-payments-network",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "Kalshi eyes XRP, Solana and Dogecoin perps after Bitcoin approval",
+    "description": "Kalshi reportedly filed to certify XRP, Solana and Dogecoin perpetual futures after winning CFTC approval for Bitcoin perps.",
+    "date": "2026-06-02",
+    "source_url": "https://crypto.news/kalshi-eyes-xrp-solana-and-dogecoin-perps-after-bitcoin-approval/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Basel Committee publishes report on information and communication technology risk management",
     "description": "The Basel Committee on Banking Supervision today published a range of practices report on information and communication technology (ICT) risk management. ICT is a key component of operational risk management, playing a vital role in supporting the broader goal of achieving operational resilience.",
@@ -8725,6 +8884,27 @@
     "year": "2026"
   },
   {
+    "institution": "Connecting the Dots",
+    "initiative": "The Dutch Are At It Again. Zerohash Secures EMI License",
+    "description": "Hey Payments Fanatic! News keeps hitting close to home. Dutch FinTech zerohash has just secured an EMI License. As the first MiCAR-licensed firm to also obtain an E-Money License , zerohash can now fully support stablecoin-powered financial flows under Europe's evolving regulatory framework. Together, the MiCAR and EMI licenses",
+    "date": "2026-05-19",
+    "source_url": "https://www.connectingthedotsinpayments.com/the-dutch-are-at-it-again-zerohash-secures-emi-license/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "Trump’s Truth Social withdraws bitcoin ETF application from SEC",
     "description": "Its advisor, Yorkville America, said the withdrawal is a strategic move to reapply under a more efficient securities framework.",
@@ -9348,174 +9528,6 @@
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Japan AI-blockchain finance plan backs yen stablecoins",
-    "description": "Japan AI-blockchain finance plan backs tokenized deposits and yen stablecoins as LDP seeks 24/7 settlement and Asia policy ties in 2026 now.",
-    "date": "2026-05-19",
-    "source_url": "https://crypto.news/japan-ai-blockchain-finance-plan-backs-yen-stablecoins/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Crypto adoption in the U.S. reached 10% in 2025, Fed survey shows",
-    "description": "cryptocurrency adoption has climbed to its highest level in three years, with a growing share of adults using digital assets primarily as investments rather than for everyday payments, according to a new Federal Reserve report. Crypto adoption in the U.S. reached 10% in 2025, Fed survey shows",
-    "date": "2026-05-19",
-    "source_url": "https://crypto.news/crypto-adoption-in-the-u-s-reached-10-in-2025-fed-survey-shows/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Nasdaq",
-    "initiative": "A DeFi exchange becomes the first to offer equity perpetuals powered by Nasdaq data",
-    "description": "The partnership underscores both the rapid growth of equity perpetuals in onchain markets and Nasdaq’s broader strategy to support tokenized equity trading infrastructure.",
-    "date": "2026-05-19",
-    "source_url": "https://www.coindesk.com/markets/2026/05/19/a-defi-exchange-becomes-the-first-to-offer-equity-perpetuals-powered-by-nasdaq-data",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinShares",
-    "initiative": "XRP and Solana funds attract inflows as bitcoin outflows hit nearly $1 billion",
-    "description": "CoinShares data shows investors are rotating into listed products based on XRP and SOL while bitcoin and ethereum products posted heavy weekly outflows.",
-    "date": "2026-05-19",
-    "source_url": "https://www.coindesk.com/markets/2026/05/19/xrp-and-solana-attract-fresh-inflows-as-bitcoin-fund-outflows-hit-nearly-usd1-billion",
-    "category": "asset_management",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Monzo reports bumper jump in profits",
-    "description": "UK digital bank Monzo has reported a 44% jump in profits, hitting £87.3 million as customer numbers and revenue swelled.",
-    "date": "2026-05-19",
-    "source_url": "https://www.finextra.com/newsarticle/47777/monzo-reports-bumper-jump-in-profits",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Standard Chartered",
-    "initiative": "Standard Chartered to cut 7800 jobs as AI takes over the back office",
-    "description": "Standard Chartered is to cut 7000 jobs as it ramps up deployment of artificial intelligence.",
-    "date": "2026-05-19",
-    "source_url": "https://www.finextra.com/newsarticle/47776/standard-chartered-to-cut-7800-jobs-as-ai-takes-over-the-back-office",
-    "category": "global_banks",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Zopa receives regulatory approval to deliver targeted support for its investment products",
-    "description": "Zopa, the British digital bank pioneer with 2 million customers, has received regulatory approval to deliver targeted support for its investment products.",
-    "date": "2026-05-19",
-    "source_url": "https://www.finextra.com/pressarticle/109878/zopa-receives-regulatory-approval-to-deliver-targeted-support-for-its-investment-products",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Clarity AI and Climcycle to embed AI-dirven sustainability data into bank operating systems",
-    "description": "Clarity AI, the leading global technology platform for extra-financial intelligence, and Climcycle, the integrated ESG risk management and regulatory compliance platform for banks, today announced a partnership to embed audit-ready sustainability data directly into banking systems across the DACH region and broader Europe.",
-    "date": "2026-05-19",
-    "source_url": "https://www.finextra.com/pressarticle/109877/clarity-ai-and-climcycle-to-embed-ai-dirven-sustainability-data-into-bank-operating-systems",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "AU Small Finance Bank adopts Intellect’s Purple Fabric AI platform",
-    "description": "AU Small Finance Bank (AU SFB), India’s largest Small Finance Bank and the first in over a decade to receive in-principle approval to transition into a Universal Bank, today announced its collaboration with Intellect Design Arena, a global leader in AI-First, enterprise-grade financial technology, adopting its Purple Fabric platform, the world’s first Open Business Impact AI platform.",
-    "date": "2026-05-19",
-    "source_url": "https://www.finextra.com/pressarticle/109875/au-small-finance-bank-adopts-intellects-purple-fabric-ai-platform",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "General Infrastructure"
     ],
     "initiative_types": [],
     "year": "2026"
