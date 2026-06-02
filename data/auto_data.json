@@ -1,5 +1,208 @@
 [
   {
+    "institution": "MoonPay",
+    "initiative": "Franklin Templeton teams up with MoonPay to let big investors swap stablecoins for yields 24/7",
+    "description": "The Wall Street giant is integrating its tech platform with MoonPay's infrastructure, allowing eligible institutions to seamlessly swap stablecoins for yield-generating tokenized funds without ever leaving the blockchain.",
+    "date": "2026-06-02",
+    "source_url": "https://www.coindesk.com/business/2026/06/02/franklin-templeton-teams-up-with-moonpay-to-let-big-investors-swap-stablecoins-for-yields-24-7",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Mastercard",
+    "initiative": "ING complete live end-to-end European agentic payment transaction",
+    "description": "ING, Worldline and Mastercard have carried out what they claims is Europe's first end-to-end agentic payment transaction.",
+    "date": "2026-06-02",
+    "source_url": "https://www.finextra.com/newsarticle/47844/ing-complete-live-end-to-end-european-agentic-payment-transaction",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Stripe",
+    "initiative": "MoneyGram launches stablecoin",
+    "description": "MoneyGram has launches a US dollar stabelcoin on the Stellar blockchain and issued by Stripe-owned Bridge.",
+    "date": "2026-06-02",
+    "source_url": "https://www.finextra.com/newsarticle/47843/moneygram-launches-stablecoin",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "XTrasfer and BBVA team i cross-border payments",
+    "description": "XTransfer, the world’s leading B2B cross-border trade payment platform, and BBVA, a global financial group, have signed a Memorandum of Understanding (MOU) during Money20/20 Europe 2026 in Amsterdam to deepen cross-border payment infrastructure across Latin America and Europe.",
+    "date": "2026-06-02",
+    "source_url": "https://www.finextra.com/pressarticle/110008/xtrasfer-and-bbva-team-i-cross-border-payments",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "MoonPay",
+    "initiative": "Franklin Templeton and MoonPay bid to expand institutional access to tokenised funds",
+    "description": "Franklin Templeton and MoonPay today announced a strategic partnership to make tokenized financial products more accessible and usable across the onchain financial ecosystem.",
+    "date": "2026-06-02",
+    "source_url": "https://www.finextra.com/pressarticle/110007/franklin-templeton-and-moonpay-bid-to-expand-institutional-access-to-tokenised-funds",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "DNB Bank expands partnership with Infosys for AI-driven financial crime operations",
+    "description": "Infosys (NSE, BSE, NYSE: INFY), a global leader in AI-first business consulting and technology services, today announced the expansion of its strategic collaboration with DNB Bank ASA (DNB), Norway’s largest bank, to modernize its Financial Crime (FinCrime) operations using NICE Actimize X-Sight Enterprise platform.",
+    "date": "2026-06-02",
+    "source_url": "https://www.finextra.com/pressarticle/110005/dnb-bank-expands-partnership-with-infosys-for-ai-driven-financial-crime-operations",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "How the October 2025 VoP Deadline Showed What Could Be Possible",
+    "description": "Joining FinextraTV at NextGen Nordics 2026 in Stockholm, Paulo Barbosa, COO, Banfico helped to discuss verification of payee progress. Following on from the implementation deadline in October 2025, Barbosa describes what lessons can be learn from the perceived success of what was seen as a tight deadline. Barbosa said that RVM collaboration has helped significantly in progressing VoP and that broader industry collaboration and a changing face of competition that will be key to future successes within regulatory deadlines.",
+    "date": "2026-06-02",
+    "source_url": "https://www.finextra.com/videoarticle/3519/how-the-october-2025-vop-deadline-showed-what-could-be-possible",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "What Banking Leaders Should Do Now when Banks Are Becoming AI Infrastructure Companies",
+    "description": "Banks are increasingly transitioning from traditional digital institutions to entities that are fund... What Banking Leaders Should Do Now when Banks Are Becoming AI Infrastructure Companies",
+    "date": "2026-06-02",
+    "source_url": "https://www.finextra.com/blogposting/31903/what-banking-leaders-should-do-now-when-banks-are-becoming-ai-infrastructure-companies",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase investing into stablecoin reserves ETF issued by ProShares",
+    "description": "The fund, called ProShares GENIUS Money Market ETF, has $22 billion in assets under management and launched this year.",
+    "date": "2026-06-02",
+    "source_url": "https://www.theblock.co/post/403367/coinbases-investing-into-stablecoin-reserves-etf-issued-by-proshares",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Standard Chartered",
+    "initiative": "Standard Chartered says Strategy’s bitcoin sale may mark start of ETH outperformance",
+    "description": "Standard Chartered said Ethereum DATs have an advantage over bitcoin DATs because ETH's staking yield means they do not need to sell ETH.",
+    "date": "2026-06-02",
+    "source_url": "https://www.theblock.co/post/403351/standard-chartered-strategy-bitcoin-sale-eth-outperformance",
+    "category": "global_banks",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "MoonPay",
+    "initiative": "Franklin Templeton brings BENJI tokenized fund to MoonPay",
+    "description": "The partnership will serve as \"the foundation for a broader strategic relationship between Franklin Templeton and MoonPay.\"",
+    "date": "2026-06-02",
+    "source_url": "https://www.theblock.co/post/403223/franklin-templeton-brings-benji-tokenized-fund-to-moonpay",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "François Villeroy de Galhau: Broadening the horizon - lessons from a decade of banking supervision",
     "description": "Speech by Mr François Villeroy de Galhau, Governor of the Bank of France and Chair of the Prudential Supervision and Resolution Authority (ACPR), at the Conference held at the ACPR, Paris, 21 May 2026.",
@@ -9119,6 +9322,23 @@
     "year": "2026"
   },
   {
+    "institution": "Visa",
+    "initiative": "How Commercial Banking Client Demands Are Changing in 2026",
+    "description": "Joining the FinextraTV virtual studio, Philip Konopik, Regional Head, Commercial and Money Movement Services, Visa Europe discussed some of the outcomes from a recent report on commercial banking. Konopik explained that commercial banks were slower to growth, but a European shift is emanating from the behaviours and demands of clients. Konopik quoted some statistics from the report, stating the substantial impact that more modernised infrastructures has had on their end users. Konopik defined this change as similar to within the retail banking space, saying that ultimately customers will reallocate funds to places that will give them what they need and commercial banks have woken up to this.",
+    "date": "2026-05-19",
+    "source_url": "https://www.finextra.com/videoarticle/3501/how-commercial-banking-client-demands-are-changing-in-2026",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Connecting the Dots",
     "initiative": "The Dutch Are At It Again. Zerohash Secures EMI License",
     "description": "Hey Payments Fanatic! News keeps hitting close to home. Dutch FinTech zerohash has just secured an EMI License. As the first MiCAR-licensed firm to also obtain an E-Money License , zerohash can now fully support stablecoin-powered financial flows under Europe's evolving regulatory framework. Together, the MiCAR and EMI licenses",
@@ -9291,234 +9511,6 @@
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "CFTC sues Minnesota over first explicit state ban on prediction markets",
-    "description": "Minnesota’s law could expose exchanges, payment providers, media partners, and sports leagues to criminal liability.",
-    "date": "2026-05-19",
-    "source_url": "https://www.theblock.co/post/401917/cftc-sues-minnesota-first-explicit-state-ban-prediction-markets",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Tether",
-    "initiative": "Stablecoin supply tops $300 billion but growth stalls as Tether gains at rivals’ expense",
-    "description": "The bank-issued and GENIUS Act-compliant stablecoin entrants have had a harder start than many expected.",
-    "date": "2026-05-19",
-    "source_url": "https://www.theblock.co/post/401707/stablecoin-supply-300-billion-growth-stalls-tether-gains-rivals-expense",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Nasdaq",
-    "initiative": "Polymarket, Nasdaq team up on private-company prediction markets",
-    "description": "According… Polymarket, Nasdaq team up on private-company prediction markets",
-    "date": "2026-05-19",
-    "source_url": "https://crypto.news/polymarket-nasdaq-team-up-on-private-company-prediction-markets-2/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Fed survey: 10% of U.S. adults used or held crypto in 2025",
-    "description": "About one in ten American adults used or held cryptocurrency in 2025, up from 7% in 2024, as spot Bitcoin and Ethereum ETFs helped pull retail investors back into digital assets, according to new Federal Reserve data. According to FinanceFeeds and a… Fed survey: 10% of U.S. adults used or held crypto in 2025",
-    "date": "2026-05-19",
-    "source_url": "https://crypto.news/fed-survey-10-of-u-s-adults-used-or-held-crypto-in-2025/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Exchanges press Senate to drop ‘manipulable token’ listing ban",
-    "description": "senators to strike a clause from the Digital Asset Market Structure Bill that would bar exchanges from listing tokens deemed “readily susceptible to manipulation,” warning it would effectively kill compliant listings for small-cap… Coinbase, Kraken, and Gemini are urging U.S. Exchanges press Senate to drop ‘manipulable token’ listing ban",
-    "date": "2026-05-19",
-    "source_url": "https://crypto.news/exchanges-press-senate-to-drop-manipulable-token-listing-ban/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Checker raises $8m to help banks launch stablecoins via single API",
-    "description": "Stablecoin infrastructure startup Checker has raised $8m across pre-seed and seed rounds to scale its single-API platform for banks and fintechs, after processing more than $3b in transactions over the past year. According to The Block, Checker has closed an $8m… Checker raises $8m to help banks launch stablecoins via single API",
-    "date": "2026-05-19",
-    "source_url": "https://crypto.news/checker-raises-8m-to-help-banks-launch-stablecoins-via-single-api/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "The SEC wants to let newly public companies raise cash instantly in its biggest rule change in decades",
-    "description": "The agency is proposing its largest overhaul of public listing rules in over 20 years, cutting compliance costs and giving crypto firms a much easier path to raise cash on Wall Street.",
-    "date": "2026-05-19",
-    "source_url": "https://www.coindesk.com/markets/2026/05/19/the-sec-wants-to-let-newly-public-companies-raise-cash-instantly-in-its-biggest-rule-change-in-decades",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Senator Warren criticizes OCC over Ripple, Coinbase and other crypto trust charters",
-    "description": "Last year, the OCC granted conditional approvals to Circle, Ripple, BitGo, Fidelity, and Paxos, as well as other firms more recently.",
-    "date": "2026-05-19",
-    "source_url": "https://www.theblock.co/post/401883/senator-warren-criticizes-occ-over-ripple-coinbase-and-other-crypto-trust-charters",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "OCC (Office of the Comptroller of the Currency)",
-    "initiative": "Senator Elizabeth Warren accuses U.S. regulator of approving unqualified crypto banks",
-    "description": "The Senate Banking Committee's top Democrat sent a letter to the Office of the Comptroller of the Currency questioning the charters of nine crypto firms.",
-    "date": "2026-05-19",
-    "source_url": "https://www.coindesk.com/policy/2026/05/19/senator-elizabeth-warren-accuses-u-s-regulator-of-approving-unqualified-crypto-banks",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "JPMorgan",
-    "initiative": "JPMorgan says ether and altcoins won't catch up to bitcoin without a major network boom",
-    "description": "The bank said ether and the broader altcoin market continue to trail bitcoin as weak network activity, sluggish DeFi growth and limited real-world adoption weigh on investor demand.",
-    "date": "2026-05-19",
-    "source_url": "https://www.coindesk.com/markets/2026/05/19/jpmorgan-says-ether-and-altcoins-won-t-catch-up-to-bitcoin-without-a-major-network-boom",
-    "category": "payments",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Huntington Bank joins Chips for high-value payments",
-    "description": "The Huntington National Bank has joined the CHIPS network, the largest private-sector U.S. dollar clearing and settlement system in the world, to clear and settle high-value domestic payments.",
-    "date": "2026-05-19",
-    "source_url": "https://www.finextra.com/pressarticle/109886/huntington-bank-joins-chips-for-high-value-payments",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Stripe",
-    "initiative": "Polymarket rolls out prediction markets tracking IPOs, valuations for private companies like OpenAI and SpaceX",
-    "description": "Early offerings from the prediction market focus on AI, fintech and crypto unicorns including OpenAI, Anthropic, Stripe and Kraken.",
-    "date": "2026-05-19",
-    "source_url": "https://www.theblock.co/post/401866/polymarket-rolls-out-prediction-markets-tracking-ipos-valuations-for-private-companies-like-openai-and-spacex",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
