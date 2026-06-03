@@ -1,5 +1,44 @@
 [
   {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "SpaceX IPO sets up Bitcoin exposure test as liquidity fears grow",
+    "description": "SpaceX has outlined plans for a record $75 billion stock market debut that would value Elon Musk’s space and AI company at about $1.77 trillion. Securities and Exchange Commission, SpaceX plans to sell… SpaceX IPO sets up Bitcoin exposure test as liquidity fears grow",
+    "date": "2026-06-03",
+    "source_url": "https://crypto.news/spacex-ipo-sets-up-bitcoin-exposure-test-as-liquidity-fears-grow/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "BitMine’s $300M stock move tests confidence in ETH treasury bet",
+    "description": "BitMine has moved to raise $300 million through a preferred stock sale as the Ethereum treasury firm turns to dividend-paying securities for fresh capital. Securities and Exchange Commission, BitMine Immersion Technologies is… BitMine’s $300M stock move tests confidence in ETH treasury bet",
+    "date": "2026-06-03",
+    "source_url": "https://crypto.news/bitmines-300m-stock-move-tests-confidence-in-eth-treasury-bet/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "Circle faces fresh market jolt as Coinbase weighs rival Stablecoin play",
     "description": "Coinbase and Circle shares have come under pressure after a CoinDesk report said Coinbase is weighing a role in a new stablecoin platform backed by Stripe, Visa, and Mastercard. CoinDesk reported that Coinbase Global is evaluating whether to participate in… Circle faces fresh market jolt as Coinbase weighs rival Stablecoin play",
@@ -9488,40 +9527,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "Don't call us just a WLFI treasury company, says AI Financial",
-    "description": "The company says it is building a broader fintech, tokenization and digital infrastructure business, but its latest SEC filing shows WLFI still dominates the balance sheet.",
-    "date": "2026-05-21",
-    "source_url": "https://www.coindesk.com/markets/2026/05/21/don-t-call-us-just-a-wlfi-treasury-company-says-ai-financial",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FDIC",
-    "initiative": "Fintech Yotta fined $1 million for Synapse deception",
-    "description": "Reverberations from the collapse of US banking-as-a-service vendor Synapse are continuing to be felt, with fintech Yotta facing a financial penalty of $1 million for parking customer funds with Synapse, while falsely maintaining that accounts were insured by the Federal Deposit Insurance Corporation (FDIC).",
-    "date": "2026-05-21",
-    "source_url": "https://www.finextra.com/newsarticle/47786/fintech-yotta-fined-1-million-for-synapse-deception",
-    "category": "regulators",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
