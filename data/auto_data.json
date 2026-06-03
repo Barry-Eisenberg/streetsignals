@@ -1,5 +1,61 @@
 [
   {
+    "institution": "ESMA (European Securities and Markets Authority)",
+    "initiative": "ESMA publishes shortlist of candidates for position of Chair",
+    "description": "The Board of Supervisors has shortlisted the following candidates in alphabetical order of their surname: Karen Dortea Abelskov Carlo Comporti The shortlisted candidates were selected based on their merit, skills, knowledge of financial markets, as well as experience of financial supervision and regulation, in accordance with the requirements set out in the ESMA Regulation. The envisaged start date of the incoming Chair is 1 November 2026. ESMA publishes shortlist of candidates for position of Chair",
+    "date": "2026-06-03",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-shortlist-candidates-position-chair-0",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase links raise questions around crypto lobby’s clarity push",
+    "description": "The Blockchain Association has come under scrutiny after a pro-crypto market structure letter to U.S. Senate leaders included several former law enforcement officials who now work for major digital asset firms. Coinbase links raise questions around crypto lobby’s clarity push",
+    "date": "2026-06-03",
+    "source_url": "https://crypto.news/coinbase-links-raise-questions-around-crypto-lobbys-clarity-push/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Citigroup",
+    "initiative": "Citigroup blames ETF exodus for Bitcoin drop, not Strategy sale",
+    "description": "Bitcoin’s recent decline has been driven mainly by nearly $3.8 billion in spot ETF outflows rather than Strategy’s sale of 32 BTC, according to analysts at Citigroup. In a recent note, Citigroup analysts said investors may be placing too much… Citigroup blames ETF exodus for Bitcoin drop, not Strategy sale",
+    "date": "2026-06-03",
+    "source_url": "https://crypto.news/citigroup-blames-etf-exodus-for-bitcoin-drop-not-strategy-sale/",
+    "category": "global_banks",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Bank of England",
     "initiative": "House of Lords calls for BofE to reconsider stablecoin plans",
     "description": "A House of Lords committee has urged the Bank of England to loosen its proposals for stablecoin regulation, adding that the UK is lagging the US and EU in developing its regime.",
@@ -9463,64 +9519,6 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Basel Committee agrees to publish report on information and communication technology risk management, progresses cryptoasset targeted review, considers targeted updates on liquidity risk principles",
-    "description": "Agrees to publish range of practices report on information and communication technology risk management. Progresses its targeted review of the prudential standard for banks' cryptoasset exposures. Considers targeted updates of its principles on liquidity risk.",
-    "date": "2026-05-20",
-    "source_url": "https://www.bis.org/press/p260520.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "Reports: Blockchain for banks; 2026 Global AI in Financial Services Report; The new stack for global finance: Stablecoins edition",
-    "description": "This week’s fintech reports highlight a major shift in global financial infrastructure driven by stablecoins, AI, blockchain, and vertically integrated fintech models.",
-    "date": "2026-05-20",
-    "source_url": "https://www.fintechwrapup.com/p/reports-blockchain-for-banks-2026",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "SEC reviewing implications of delayed prediction market ETFs, Atkins says",
-    "description": "SEC Chair Paul Atkins said he instructed the agency's staff to seek public input on prediction market ETFs.",
-    "date": "2026-05-20",
-    "source_url": "https://www.theblock.co/post/402125/sec-reviewing-prediction-market-etfs",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
