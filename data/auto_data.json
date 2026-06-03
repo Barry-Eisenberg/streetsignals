@@ -1,5 +1,25 @@
 [
   {
+    "institution": "Ledger Insights",
+    "initiative": "Kraken’s tokenized stocks to offer foreign retail IPO access. In time for SpaceX?",
+    "description": "Payward, the parent of the Kraken crypto exchange and owner of xStocks, has announced the launch of its IPO platform enabling access to stocks at the IPO price (rather than the secondary market price) to foreign retail investors. xStocks offers tokenized stocks which are structured loan notes, backed 1:1 by stocks held in custody. While",
+    "date": "2026-06-03",
+    "source_url": "https://www.ledgerinsights.com/krakens-tokenized-stocks-to-offer-foreign-retail-ipo-access-in-time-for-spacex/",
+    "category": "ecosystem",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA (European Securities and Markets Authority)",
     "initiative": "ESMA publishes shortlist of candidates for position of Chair",
     "description": "The Board of Supervisors has shortlisted the following candidates in alphabetical order of their surname: Karen Dortea Abelskov Carlo Comporti The shortlisted candidates were selected based on their merit, skills, knowledge of financial markets, as well as experience of financial supervision and regulation, in accordance with the requirements set out in the ESMA Regulation. The envisaged start date of the incoming Chair is 1 November 2026. ESMA publishes shortlist of candidates for position of Chair",
@@ -9499,26 +9519,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
-    "description": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
-    "date": "2026-05-20",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260520a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
     "year": "2026"
   }
 ]
