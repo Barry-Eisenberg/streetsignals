@@ -1,5 +1,222 @@
 [
   {
+    "institution": "MAS (Monetary Authority of Singapore)",
+    "initiative": "Chia Der Jiun: Opening remarks - UBS Asian Investment Conference (AIC) Singapore Wealth Edition",
+    "description": "Opening remarks by Mr Chia Der Jiun, Managing Director of the Monetary Authority of Singapore, at the UBS Asian Investment Conference, Singapore Wealth Edition, Singapore, 25 May 2026.",
+    "date": "2026-06-03",
+    "source_url": "https://www.bis.org/review/r260602a.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Kevin Greenidge: Monetary Policy Press Statement",
+    "description": "Monetary Policy Press Statement by Dr Kevin Greenidge, Governor of the Central Bank of Barbados, at the Quarterly Monetary Policy Report Press Conference, Bridgetown, 26 May 2026.",
+    "date": "2026-06-03",
+    "source_url": "https://www.bis.org/review/r260602l.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Bitcoin steadies at $67,000, faces critical juncture after sliding 9.5% in seven days",
+    "description": "The recovery does little to mask a 9.5% weekly decline as U.S. stocks hit records highs, AI tokens rally and Coinbase's Ethena deal steals the spotlight.",
+    "date": "2026-06-03",
+    "source_url": "https://www.coindesk.com/markets/2026/06/03/bitcoin-steadies-at-usd67-000-faces-critical-juncture-after-sliding-9-5-in-seven-days",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "UK's financial watchdog cracks down on Premier League crypto partnerships",
+    "description": "The FCA said unauthorized firms could be breaching rules on financial promotions through high-profile sponsorships deals.",
+    "date": "2026-06-03",
+    "source_url": "https://www.coindesk.com/policy/2026/06/03/uk-s-financial-watchdog-cracks-down-on-premier-league-crypto-partnerships",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "US regulators clear path for blockchain innovation in TradFi",
+    "description": "Blockchain marks a milestone in finance as the U.S. SEC approves a blockchain clearing house, while the CFTC greenlight a BTC-linked futures contract.",
+    "date": "2026-06-03",
+    "source_url": "https://coingeek.com/us-regulators-clear-path-for-blockchain-innovation-in-tradfi/",
+    "category": "regulators",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "ING expands Wero payments to online shopping in Germany",
+    "description": "Dutch bank ING is to expand support for the Wero payments scheme to include online payments for its 10 million customers in Germany.",
+    "date": "2026-06-03",
+    "source_url": "https://www.finextra.com/newsarticle/47852/ing-expands-wero-payments-to-online-shopping-in-germany",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "Marex arrives on crypto option exchange Deribit",
+    "description": "Marex Group plc (NASDAQ: MRX), the diversified global financial services platform, today announces that it has been onboarded as a broker on Deribit, the leading crypto options exchange, further expanding Marex’s institutional crypto offering and enhancing client access to global digital asset markets.",
+    "date": "2026-06-03",
+    "source_url": "https://www.finextra.com/pressarticle/110027/marex-arrives-on-crypto-option-exchange-deribit",
+    "category": "exchanges_intermediaries",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Royal Bank launches IP lending product for Scotland’s creatives and spinouts",
+    "description": "The Royal Bank of Scotland has launched an innovative new product to enable high growth business to access lending against the value of their Intellectual Property (IP).",
+    "date": "2026-06-03",
+    "source_url": "https://www.finextra.com/pressarticle/110024/royal-bank-launches-ip-lending-product-for-scotlands-creatives-and-spinouts",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "DOJ, CFTC probe George Santos over Kalshi trades tied to State of the Union appearance: report",
+    "description": "DOJ and CFTC are investigating George Santos after Kalshi flagged trades where he allegedly bet against his own State of the Union attendance.",
+    "date": "2026-06-03",
+    "source_url": "https://www.theblock.co/post/403486/doj-cftc-probe-george-santos-over-kalshi-trades-tied-to-state-of-the-union-appearance-report",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "U.S. Treasury Department",
+    "initiative": "US Treasury Sanctions Iran’s Largest Crypto Exchange Nobitex Along With Three Other Iranian Platforms Under Economic Fury Campaign",
+    "description": "OFAC designated Nobitex (50% of Iran's 2025 crypto inflows), Wallex, Bitpin, and Ramzinex, naming four Iranian nationals, including chairman Amir Hossein Rad and brothers tied to Khamenei's family.",
+    "date": "2026-06-03",
+    "source_url": "https://unchainedcrypto.com/us-treasury-sanctions-irans-largest-crypto-exchange-nobitex-along-with-three-other-iranian-platforms-under-economic-fury-campaign/",
+    "category": "regulators",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CME Group",
+    "initiative": "CME now trades crypto 24/7. Here’s why it matters",
+    "description": "CME Group now trades crypto futures 24/7, ending the weekend closure and the famous CME gap. What changed, why institutions wanted it, and the catch.",
+    "date": "2026-06-03",
+    "source_url": "https://crypto.news/cme-now-trades-crypto-24-7-heres-why-it-matters/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Digital Asset Platform",
+    "initiative": "How to convert XRP, BTC into $1200 daily passive income during a crypto market downturn",
+    "description": "In the recent volatile cryptocurrency market, more and more investors are realizing that relying solely on price increases to generate profits is becoming increasingly difficult. XRPPower unveils AI-driven digital asset platform focused on automation, transparency, and data traceability. How to convert XRP, BTC into $1200 daily passive income during a crypto market downturn",
+    "date": "2026-06-03",
+    "source_url": "https://crypto.news/how-to-convert-xrp-btc-into-1200-daily-passive-income-during-a-crypto-market-downturn/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Global pension asset allocations and debt markets",
     "description": "The pensions sector is an important investor group in global financial markets and a key holder of government and corporate debt. This paper examines the evolution of pension fund asset allocations around the globe and documents important structural changes. Global pension asset allocations and debt markets",
@@ -7190,6 +7407,21 @@
     "year": "2026"
   },
   {
+    "institution": "BIS",
+    "initiative": "Sergiy Nikolaychuk: Integrating Ukraine's financial sector into the European framework in wartime - challenges and strategic gains",
+    "description": "Keynote speech by Mr Sergiy Nikolaychuk, First Deputy Governor of the National Bank of Ukraine, at the dinner of the AFME (Association for Financial Markets in Europe) European Financial Integration Conference 2026, Frankfurt am Main, 19 May 2026.",
+    "date": "2026-05-22",
+    "source_url": "https://www.bis.org/review/r260602k.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Ripple",
     "initiative": "Ripple backs Squid’s $6M round to simplify cross-chain crypto",
     "description": "Ripple joined a $6M funding round for cross-chain infrastructure platform Squid. Cross-chain platform Squid raised $6 million in strategic funding to build new consumer-facing products that simplify how users move assets across blockchains. Ripple backs Squid’s $6M round to simplify cross-chain crypto",
@@ -9300,237 +9532,6 @@
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Dogecoin grew up. Almost nobody noticed.",
-    "description": "Six months ago, the first spot Dogecoin ETF started trading on a major US exchange. The flows have been tiny, the price has gone almost nowhere, and the whole experiment has played out in near-silence. Dogecoin grew up. Almost nobody noticed.",
-    "date": "2026-05-20",
-    "source_url": "https://crypto.news/dogecoin-grew-up-almost-nobody-noticed/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Algorand price approaches golden cross amid Robinhood listing, will it reclaim $0.20?",
-    "description": "Algorand price has started regaining momentum this month as traders rotate back into select layer-1 tokens supported by improving technical structures, rising on-chain activity, and fresh exchange accessibility catalysts. According to data from crypto.news, Algorand (ALGO) price traded around $0.114… Algorand price approaches golden cross amid Robinhood listing, will it reclaim $0.20?",
-    "date": "2026-05-20",
-    "source_url": "https://crypto.news/algorand-price-approaches-golden-cross-amid-robinhood-listing-will-it-reclaim-0-20/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Santander",
-    "initiative": "Mouro closes $400M fund as Santander backs AI and blockchain bets",
-    "description": "Santander-backed Mouro Capital has closed its third fund at $400 million, with the new vehicle targeting startups at the intersection of AI, blockchain, capital markets and wealth management. Mouro closes $400M fund as Santander backs AI and blockchain bets",
-    "date": "2026-05-20",
-    "source_url": "https://crypto.news/mouro-closes-400m-fund-as-santander-backs-ai-and-blockchain-bets/",
-    "category": "global_banks",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Tether",
-    "initiative": "Tether tightens grip on Twenty One after buying out SoftBank",
-    "description": "Tether has acquired SoftBank’s entire stake in Twenty One Capital, the Bitcoin treasury company co-founded by Jack Mallers, and is now pushing a broader merger plan involving Strike and Elektron Energy. Tether has moved to absorb all of SoftBank’s ownership… Tether tightens grip on Twenty One after buying out SoftBank",
-    "date": "2026-05-20",
-    "source_url": "https://crypto.news/tether-tightens-grip-on-twenty-one-after-buying-out-softbank/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "Too many cooks: How regulatory infighting is choking the UK's crypto hub ambitions",
-    "description": "While the FCA opens its doors to market pilots, structural delays and legislative friction are fueling industry frustration over a framework trailing behind the U.S. and Europe.",
-    "date": "2026-05-20",
-    "source_url": "https://www.coindesk.com/policy/2026/05/20/political-blockers-frustrate-fca-s-efforts-u-k-s-global-hub-ambitions-expert-says",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "European Commission launches MiCA review as global crypto regulatory landscape shifts",
-    "description": "The European Commission launched a MiCA consultation open through Aug. 31, asking whether the crypto framework needs updating.",
-    "date": "2026-05-20",
-    "source_url": "https://www.theblock.co/post/402005/european-commission-launches-mica-review-as-global-crypto-regulatory-landscape-shifts",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Qivalis expands euro stablecoin consortium to 37 banks",
-    "description": "Qivalis added 25 European banks to its euro stablecoin consortium, reaching 37 institutions, including Luxembourg's state-owned Spuerkeess.",
-    "date": "2026-05-20",
-    "source_url": "https://www.theblock.co/post/402001/qivalis-expands-euro-stablecoin-consortium-to-37-banks",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Morgan Stanley",
-    "initiative": "Morgan Stanley refiles Solana ETF with staking under ticker MSOLsec",
-    "description": "Morgan Stanley has resubmitted a spot Solana ETF application that would hold and stake SOL under the ticker MSOL, extending the bank’s push deeper into U.S. crypto exchange-traded products. Morgan Stanley refiles Solana ETF with staking under ticker MSOLsec",
-    "date": "2026-05-20",
-    "source_url": "https://crypto.news/morgan-stanley-refiles-solana-etf-with-staking-under-ticker-msolsec/",
-    "category": "global_banks",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Fundi Tshazibana: Regulation and supervision of the financial sector in the age of artificial intelligence",
-    "description": "Address by Ms Fundi Tshazibana, Deputy Governor of the South African Reserve Bank and Chief Executive Officer of the Prudential Authority, at the University of Johannesburg, Johannesburg, 8 May 2026.",
-    "date": "2026-05-20",
-    "source_url": "https://www.bis.org/review/r260520d.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Sanjay Malhotra: Monetary policy in a time of heightened uncertainty",
-    "description": "Intervention by Mr Sanjay Malhotra, Governor of the Reserve Bank of India, during a panel discussion \"Monetary policy in a time of heightened uncertainty\", jointly organised by the Swiss National Bank (SNB) and the International Monetary Fund (IMF) as part of the 12th High-Level Conference on the International Monetary System, Zurich, 12 May 2026.",
-    "date": "2026-05-20",
-    "source_url": "https://www.bis.org/review/r260520b.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Jorgovanka Tabaković: Overview of recent monetary and macroeconomic trends in Serbia",
-    "description": "Introductory speech by Dr Jorgovanka Tabaković, Governor of the National Bank of Serbia, at the presentation of the May Inflation Report, Belgrade, 13 May 2026.",
-    "date": "2026-05-20",
-    "source_url": "https://www.bis.org/review/r260519e.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Adnan Zaylani Mohamad Zahid: Governing digital money in a converging payments ecosystem",
-    "description": "Keynote address by Mr Aznan Abdul Aziz, Deputy Governor of the Central Bank of Malaysia (Bank Negara Malaysia), at the CB+DC Conference, Kuala Lumpur, 12 May 2026.",
-    "date": "2026-05-20",
-    "source_url": "https://www.bis.org/review/r260519d.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Holta Zaçaj: Keynote speech - Balkan Payment Forum 2026",
-    "description": "Keynote speech by Ms Holta Zaçaj, First Deputy Governor of the Bank of Albania, at the Balkan Payment Forum 2026, Tirana, 14 May 2026.",
-    "date": "2026-05-20",
-    "source_url": "https://www.bis.org/review/r260519b.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
     ],
     "initiative_types": [],
     "year": "2026"
