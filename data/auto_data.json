@@ -1,5 +1,25 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "Circle faces fresh market jolt as Coinbase weighs rival Stablecoin play",
+    "description": "Coinbase and Circle shares have come under pressure after a CoinDesk report said Coinbase is weighing a role in a new stablecoin platform backed by Stripe, Visa, and Mastercard. CoinDesk reported that Coinbase Global is evaluating whether to participate in… Circle faces fresh market jolt as Coinbase weighs rival Stablecoin play",
+    "date": "2026-06-03",
+    "source_url": "https://crypto.news/circle-faces-fresh-market-jolt-as-coinbase-weighs-rival-stablecoin-play/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Ledger Insights",
     "initiative": "Kraken’s tokenized stocks to offer foreign retail IPO access. In time for SpaceX?",
     "description": "Payward, the parent of the Kraken crypto exchange and owner of xStocks, has announced the launch of its IPO platform enabling access to stocks at the IPO price (rather than the secondary market price) to foreign retail investors. xStocks offers tokenized stocks which are structured loan notes, backed 1:1 by stocks held in custody. While",
@@ -9500,23 +9520,6 @@
     "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "National Bank of Canada leads $25 million Series C extension in Sardine",
-    "description": "National Bank of Canada is leading a $25 million Series C extension in Sardine, provider of an AI risk platform for fraud, compliance and credit underwriting.",
-    "date": "2026-05-21",
-    "source_url": "https://www.finextra.com/newsarticle/47788/national-bank-of-canada-leads-25-million-series-c-extension-in-sardine",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Regulation & Compliance"
     ],
     "initiative_types": [],
     "year": "2026"
