@@ -1,5 +1,149 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "Fabio Panetta: Overview of economic and financial developments in Italy",
+    "description": "Concluding remarks by Mr Fabio Panetta, Governor of the Bank of Italy, at a meeting for the presentation of the Annual Report 2025 – 132nd Financial Year, Rome, 29 May 2026.",
+    "date": "2026-06-03",
+    "source_url": "https://www.bis.org/review/r260603f.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "Grayscale launches lowest-fee U.S. Hyperliquid ETF as competition heats up around HYPE",
+    "description": "The Nasdaq-listed fund charges a 0.29% sponsor fee, undercutting rival Hyperliquid ETFs from 21Shares and Bitwise.",
+    "date": "2026-06-03",
+    "source_url": "https://www.coindesk.com/markets/2026/06/03/grayscale-launches-lowest-fee-u-s-hyperliquid-etf-as-competition-heats-up-around-hype",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Mastercard",
+    "initiative": "Payment giants Stripe, Visa, Mastercard said to be among backers of soon-to-debut stablecoin platform",
+    "description": "U.S. crypto exchange Coinbase is also said to be looking into the possibility of participating in the new stablecoin platform.",
+    "date": "2026-06-03",
+    "source_url": "https://www.coindesk.com/business/2026/06/03/payment-giants-stripe-visa-mastercard-said-to-be-among-backers-of-soon-to-debut-stablecoin-platform",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Standard Chartered",
+    "initiative": "Standard Chartered appoints Shebani Baweja as chief data officer",
+    "description": "Standard Chartered today announced the appointment of Shebani Baweja as Group Chief Data Officer (CDO) with immediate effect.",
+    "date": "2026-06-03",
+    "source_url": "https://www.finextra.com/pressarticle/110032/standard-chartered-appoints-shebani-baweja-as-chief-data-officer",
+    "category": "global_banks",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Societe Generale",
+    "initiative": "XTransfer and SocGen combine to support international trade flows",
+    "description": "XTransfer, the world’s leading B2B cross-border trade payment platform, and Societe Generale, a leading European bank in transaction banking, announced having signed a Memorandum of Understanding (MOU) during Money20/20 Europe 2026 in Amsterdam, to enhance cross-border payment infrastructure and develop integrated financial solutions to support international trade flows.",
+    "date": "2026-06-03",
+    "source_url": "https://www.finextra.com/pressarticle/110031/xtransfer-and-socgen-combine-to-support-international-trade-flows",
+    "category": "global_banks",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Resilience is now a regulatory fact of life for financial services",
+    "description": "In November 2025, European regulators did something that moved operational resilience from policy di... Resilience is now a regulatory fact of life for financial services",
+    "date": "2026-06-03",
+    "source_url": "https://www.finextra.com/blogposting/31911/resilience-is-now-a-regulatory-fact-of-life-for-financial-services",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Bank of England",
+    "initiative": "House of Lords committee urges UK regulators to ease stablecoin rules that could stifle market growth",
+    "description": "A UK House of Lords committee warned that Britain lags the U.S. and the EU on stablecoins, calling on the BoE and FCA to revise rules.",
+    "date": "2026-06-03",
+    "source_url": "https://www.theblock.co/post/403498/house-of-lords-committee-urges-uk-regulators-to-ease-stablecoin-rules-that-could-stifle-market-growth",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "Grayscale gets behind the hype, launching its HYPG Hyperliquid ETF on Nasdaq",
+    "description": "Grayscale entered the ring with its own Hyperliquid linked ETF, setting a new low for fees as competition intensifies among firms.",
+    "date": "2026-06-03",
+    "source_url": "https://www.theblock.co/post/403428/grayscale-behind-hype-launching-hypg-hyperliquid-etf-nasdaq",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "MAS (Monetary Authority of Singapore)",
     "initiative": "Chia Der Jiun: Opening remarks - UBS Asian Investment Conference (AIC) Singapore Wealth Edition",
     "description": "Opening remarks by Mr Chia Der Jiun, Managing Director of the Monetary Authority of Singapore, at the UBS Asian Investment Conference, Singapore Wealth Edition, Singapore, 25 May 2026.",
@@ -9373,165 +9517,6 @@
     "fmi_areas": [
       "Collateral & Lending",
       "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Copper",
-    "initiative": "Crypto custody firm Copper is looking to sale the company for $500 million",
-    "description": "Cantor Fitzgerald has been appointed to help with the sale, according to sources.",
-    "date": "2026-05-20",
-    "source_url": "https://www.coindesk.com/business/2026/05/20/crypto-custody-firm-copper-is-looking-to-sale-the-company-for-usd500-million",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto Long & Short: Bitcoin-backed loans belong in the cost-of-capital conversation",
-    "description": "In this week’s Crypto Long & Short Newsletter, Alec Beckman on why BTC-backed lending is not a crypto story, but a capital efficiency story. Then, Serena Sebastiani on how stablecoins aren’t a crypto product; they’re becoming the settlement infrastructure global finance forgot.",
-    "date": "2026-05-20",
-    "source_url": "https://www.coindesk.com/coindesk-indices/2026/05/20/crypto-long-and-short-bitcoin-backed-loans-belong-in-the-cost-of-capital-conversation",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "EU opens MiCA consultation to review if crypto framework is still fit for purpose",
-    "description": "The European Commission is seeking feedback on whether the EU’s landmark crypto regulatory framework remains suitable as digital asset markets and global policies evolve.",
-    "date": "2026-05-20",
-    "source_url": "https://www.coindesk.com/policy/2026/05/20/eu-opens-mica-consultation-to-review-if-crypto-framework-is-still-fit-for-purpose",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Basel Committee agrees to publish report on information and communication technology risk management, progresses cryptoasset targeted review, considers targeted updates on liquidity risk principles",
-    "description": "Agrees to publish range of practices report on information and communication technology risk management. Progresses its targeted review of the prudential standard for banks' cryptoasset exposures. Considers targeted updates of its principles on liquidity risk.",
-    "date": "2026-05-20",
-    "source_url": "https://www.bis.org/press/p260520.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Trump asks Fed to explore giving fintechs access to payment rails",
-    "description": "President Donald Trump has signed an executive order asking the Federal Reserve to explore options for expanding access to payment rails.",
-    "date": "2026-05-20",
-    "source_url": "https://www.finextra.com/newsarticle/47789/trump-asks-fed-to-explore-giving-fintechs-access-to-payment-rails",
-    "category": "regulators",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "MoneyGram becomes Tempo's anchor remittance validator",
-    "description": "MoneyGram today announced a partnership with Tempo, a purpose-built Layer 1 blockchain for high-volume, real-world payments, to deepen its blockchain infrastructure and advance stablecoin-based settlement across its global network.",
-    "date": "2026-05-20",
-    "source_url": "https://www.finextra.com/pressarticle/109907/moneygram-becomes-tempos-anchor-remittance-validator",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Stripe",
-    "initiative": "MoneyGram named ‘anchor remittance validator’ for Stripe-backed Tempo blockchain",
-    "description": "MoneyGram will help validate remittance transactions on the Layer 1 blockchain and integrate stablecoin settlement for its global flows.",
-    "date": "2026-05-20",
-    "source_url": "https://www.theblock.co/post/402043/moneygram-remittance-validator-stripe-tempo-blockchain",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Catena Labs lands $30 million Series A, files for national trust bank charter to underpin agentic finance",
-    "description": "Sean Neville's Catena Labs closed a $30 million Series A to build governed infrastructure for AI agent financial transactions.",
-    "date": "2026-05-20",
-    "source_url": "https://www.theblock.co/post/402029/catena-labs-lands-30-million-series-a-files-for-national-trust-bank-charter-to-underpin-agentic-finance",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
     ],
     "initiative_types": [],
     "year": "2026"
