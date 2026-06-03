@@ -1,5 +1,85 @@
 [
   {
+    "institution": "Franklin Templeton",
+    "initiative": "Franklin Templeton says Wall Street fears blockchain because it threatens its profits",
+    "description": "Jenny Johnson, Franklin Templeton's CEO, said blockchain and crypto threaten a huge number of business models that exist today in traditional finance.",
+    "date": "2026-06-03",
+    "source_url": "https://www.coindesk.com/business/2026/06/02/franklin-templeton-says-wall-street-fears-blockchain-because-it-threatens-its-profits",
+    "category": "asset_management",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "What does the SEC’s new 2030 strategy mean for crypto regulation?",
+    "description": "Securities and Exchange Commission has unveiled a 2026–2030 strategic plan that places digital assets, blockchain technology, and tokenized financial infrastructure among its key regulatory priorities. According to the SEC’s draft Strategic Plan for fiscal years 2026–2030, released Tuesday,… What does the SEC’s new 2030 strategy mean for crypto regulation?",
+    "date": "2026-06-03",
+    "source_url": "https://crypto.news/what-does-the-secs-new-2030-strategy-mean-for-crypto-regulation/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "U.S. Treasury Department",
+    "initiative": "U.S. Treasury sanctions Iran’s largest crypto exchange Nobitex",
+    "description": "Treasury has sanctioned four Iranian cryptocurrency exchanges and two senior executives at Nobitex after accusing the platforms of helping sanctioned entities access the digital asset ecosystem. According to the U.S. U.S. Treasury sanctions Iran’s largest crypto exchange Nobitex",
+    "date": "2026-06-03",
+    "source_url": "https://crypto.news/u-s-treasury-sanctions-irans-largest-crypto-exchange-nobitex/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Bank of England",
+    "initiative": "UK Lords warn BoE could kill pound stablecoins before they scale in Britain",
+    "description": "UK Lords warn BoE stablecoin caps and 40% reserve rules could make pound tokens commercially unworkable as regulators finalize rules.",
+    "date": "2026-06-03",
+    "source_url": "https://crypto.news/uk-lords-warn-boe-could-kill-pound-stablecoins-before-they-scale-in-britain/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Mastercard",
     "initiative": "Mastercard expands on-chain settlement in bet on stablecoins and always-on finance",
     "description": "The company plans to offer stablecoin, weekend and holiday settlement as demand grows for real-time movement of money.",
@@ -9438,85 +9518,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "Reports: Blockchain for banks; 2026 Global AI in Financial Services Report; The new stack for global finance: Stablecoins edition",
-    "description": "This week’s fintech reports highlight a major shift in global financial infrastructure driven by stablecoins, AI, blockchain, and vertically integrated fintech models.",
-    "date": "2026-05-20",
-    "source_url": "https://www.fintechwrapup.com/p/reports-blockchain-for-banks-2026",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Digital Asset Exchange",
-    "initiative": "XRP selling pressure fades, but $1.50 still blocks bulls",
-    "description": "XRP holds near $1.37 as ETF inflows stay positive, Bybit deposits cool, and traders watch $1.50 resistance against $1.29 support.",
-    "date": "2026-05-20",
-    "source_url": "https://crypto.news/xrp-selling-pressure-fades-but-1-50-still-blocks-bulls/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Circle",
-    "initiative": "China’s Buffett buys Circle in stablecoin stock surprise",
-    "description": "Circle stock draws fresh attention as Duan Yongping buys 200,000 CRCL shares, adding stablecoin exposure to a $20b portfolio in Q1 2026 now.",
-    "date": "2026-05-20",
-    "source_url": "https://crypto.news/chinas-buffett-buys-circle-in-stablecoin-stock-surprise/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "South Carolina bars state agencies from participating in CBDC programs",
-    "description": "South Carolina has passed a new cryptocurrency law that protects self-custody rights, limits state involvement with central bank digital currencies, and removes several licensing requirements tied to blockchain activity. South Carolina Governor Henry McMaster signed Senate Bill 163 into law… South Carolina bars state agencies from participating in CBDC programs",
-    "date": "2026-05-20",
-    "source_url": "https://crypto.news/south-carolina-bars-state-agencies-from-participating-in-cbdc-programs/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "CBDC",
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
