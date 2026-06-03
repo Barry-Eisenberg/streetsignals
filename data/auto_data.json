@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Digital Asset Exchange",
+    "initiative": "OFAC Sanctions Nobitex and Major Iranian Cryptocurrency Exchanges in Sweeping Evasion Crackdown",
+    "description": "Summary The Department of the Treasury’s Office of Foreign Assets Control (OFAC) designated four major Iranian cryptocurrency exchanges: Nobitex, Bitpin,… OFAC Sanctions Nobitex and Major Iranian Cryptocurrency Exchanges in Sweeping Evasion Crackdown",
+    "date": "2026-06-03",
+    "source_url": "https://www.chainalysis.com/blog/ofac-sanctions-iranian-crypto-exchanges-june-2026/",
+    "category": "exchanges_intermediaries",
+    "source_name": "Chainalysis — Blog",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Bank of England",
     "initiative": "UK House of Lords committee calls on Bank of England to reconsider proposed stablecoin restrictions",
     "description": "The Bank of England proposed limits of 20,000 pounds per coin for individuals and 10 million pounds for businesses.",
@@ -9491,25 +9510,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Ark Invest bets on crypto exchange Bullish after selloff",
-    "description": "Ark Invest bought $4.4m in Bullish shares as BLSH rebounded from a five-day drop, with Q1 loss and Equiniti deal still in focus for markets.",
-    "date": "2026-05-20",
-    "source_url": "https://crypto.news/ark-invest-bets-on-crypto-exchange-bullish-after-selloff/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
