@@ -1,5 +1,132 @@
 [
   {
+    "institution": "Standard Chartered",
+    "initiative": "Every single bank will soon need to hold digital assets, says Zodia CEO Julian Sawyer",
+    "description": "Sawyer confirmed that Standard Chartered’s full acquisition of the firm is on track to target a signing at the end of June and complete by the end of August.",
+    "date": "2026-06-03",
+    "source_url": "https://www.coindesk.com/business/2026/06/03/standard-chartered-buyout-of-zodia-custody-is-great-news-for-crypto-tech-adoption-ceo-says",
+    "category": "global_banks",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "What Areas of Customer Experience Could Trust Be Lost in a Second?",
+    "description": "At the Temenos Community Forum in Copenhagen, Barb Morgan, Chief Product and Technology Officer, Temenos stepped away from her keynote to discuss how banks need reminding that trust, today, can be lost in a second. Morgan explained the key strategies to finding the most vulnerable areas of a customer experience, in order to re-enforce the foundations. Morgan highlighted one of the biggest areas for underestimation are the low-volume areas that, as she said, \"could have an impact to someone's life\".",
+    "date": "2026-06-03",
+    "source_url": "https://www.finextra.com/videoarticle/3520/what-areas-of-customer-experience-could-trust-be-lost-in-a-second",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Mastercard",
+    "initiative": "Mastercard expands card settlement hours via stablecoins",
+    "description": "Mastercard has announced the use of stablecoins to enable intraday and weekend settlement between card issuers and acquirers. It follows pilot programs involving Circle’s USDC in certain regions, but that is now expanding to other stablecoins, including those issued by Paxos (PayPal’s PYUSD, USDG and USDP), Ripple (RLUSD) and SoFi’s SoFiUSD. The major benefit is",
+    "date": "2026-06-03",
+    "source_url": "https://www.ledgerinsights.com/mastercard-expands-card-settlement-hours-via-stablecoins/",
+    "category": "payments",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "Sen. Lummis says JPMorgan CEO Jamie Dimon hasn’t read Clarity Act, calls remarks ‘distasteful’",
+    "description": "Republican Senator Lummis said the JPMorgan CEO \"either hasn't read\" the Clarity Act \"or he wants to mislead people.\"",
+    "date": "2026-06-03",
+    "source_url": "https://www.theblock.co/post/403539/sen-lummis-jpmorgan-ceo-jamie-dimon-hasnt-read-clarity-act-remarks-distasteful",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Revolut",
+    "initiative": "Revolut’s US bank to offer stablecoin services alongside FDIC-insured products: Reuters",
+    "description": "Revolut U.S. CEO Cetin Duransoy told Reuters the company plans to offer access to stablecoins in the United States.",
+    "date": "2026-06-03",
+    "source_url": "https://www.theblock.co/post/403541/revoluts-us-bank-offer-stablecoin-services-fdic-insured-products-reuters",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Tether",
+    "initiative": "Tether launching tokenized gold Visa card with XAUT rewards",
+    "description": "The card will operate on the Visa network, enabling users to spend fiat at merchant stores worldwide where Visa cards are accepted.",
+    "date": "2026-06-03",
+    "source_url": "https://www.theblock.co/post/403509/tether-launching-tokenized-gold-visa-card-with-xaut-rewards",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "Grayscale reveals BNB ETF ticker as SEC review moves forward",
+    "description": "Grayscale has revealed the ticker symbol for its proposed spot BNB exchange-traded fund after submitting another amended registration statement to the U.S. Securities and Exchange Commission. Grayscale reveals BNB ETF ticker as SEC review moves forward",
+    "date": "2026-06-03",
+    "source_url": "https://crypto.news/grayscale-reveals-bnb-etf-ticker-as-sec-review-moves-forward/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Fabio Panetta: Overview of economic and financial developments in Italy",
     "description": "Concluding remarks by Mr Fabio Panetta, Governor of the Bank of Italy, at a meeting for the presentation of the Annual Report 2025 – 132nd Financial Year, Rome, 29 May 2026.",
@@ -9223,6 +9350,26 @@
     "year": "2026"
   },
   {
+    "institution": "BIS",
+    "initiative": "Basel Committee agrees to publish report on information and communication technology risk management, progresses cryptoasset targeted review, considers targeted updates on liquidity risk principles",
+    "description": "Agrees to publish range of practices report on information and communication technology risk management. Progresses its targeted review of the prudential standard for banks' cryptoasset exposures. Considers targeted updates of its principles on liquidity risk.",
+    "date": "2026-05-20",
+    "source_url": "https://www.bis.org/press/p260520.htm",
+    "category": "regulators",
+    "source_name": "BIS — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Fintech Wrap Up",
     "initiative": "Reports: Blockchain for banks; 2026 Global AI in Financial Services Report; The new stack for global finance: Stablecoins edition",
     "description": "This week’s fintech reports highlight a major shift in global financial infrastructure driven by stablecoins, AI, blockchain, and vertically integrated fintech models.",
@@ -9371,154 +9518,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
-    "description": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
-    "date": "2026-05-20",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260520a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Securitize",
-    "initiative": "Securitize remains in the red even as record quarter fuels public listing plans",
-    "description": "The tokenization platform reported record quarterly revenue but continued to post losses as it invested in growth and public-company preparations tied to its merger with Cantor Equity Partners II.",
-    "date": "2026-05-20",
-    "source_url": "https://www.coindesk.com/markets/2026/05/20/securitize-remains-in-the-red-even-as-record-quarter-fuels-public-listing-plans",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Securitize",
-    "initiative": "Securitize posts record Q1 revenue, $3.4 billion in tokenized assets under management",
-    "description": "Securitize said it now services roughly 650 active funds and processed $1.9 billion in transaction volume during the quarter.",
-    "date": "2026-05-20",
-    "source_url": "https://www.theblock.co/post/402068/securitize-record-q1-revenue-3-4-billion-tokenized-assets-under-management",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Kik founder’s latest app Flipcash first to tap Coinbase’s stablecoin-as-a-service platform",
-    "description": "Coinbase rolled out its Custom Stablecoin platform in late 2025 to enable companies to launch branded stablecoins.",
-    "date": "2026-05-20",
-    "source_url": "https://www.theblock.co/post/402078/kik-founders-latest-app-flipcash-first-tap-coinbase-stablecoin-as-a-service-platform",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "ECB (European Central Bank)",
-    "initiative": "Dollar stablecoin holds 99% as Qivalis push falls short",
-    "description": "Dollar stablecoin supply has held at 99% of the global market as non-dollar tokens stall at 0.24% share. The European Central Bank noted in late 2025 that dollar stablecoin tokens account for approximately 99% of total stablecoin supply in circulation.… Dollar stablecoin holds 99% as Qivalis push falls short",
-    "date": "2026-05-20",
-    "source_url": "https://crypto.news/dollar-stablecoin-still-holds-99percent-despite-europe/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "Massad warns CBDC ban hides US digital dollar work",
-    "description": "Former CFTC chair Timothy Massad says a US CBDC ban cannot stop behind-the-scenes infrastructure work. Former CFTC chair Timothy Massad told London’s Digital Money Summit on May 19 that a US digital dollar is ultimately inevitable. Massad warns CBDC ban hides US digital dollar work",
-    "date": "2026-05-20",
-    "source_url": "https://crypto.news/cbdc-ban-hides-us-digital-dollar-work-says-massad/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "CBDC"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA (European Securities and Markets Authority)",
-    "initiative": "ESMA publishes shortlist of candidates for position of Chair",
-    "description": "The Board of Supervisors has shortlisted the following candidates in alphabetical order of their surname: Karen Dortea Abelskov Carlo Comporti The shortlisted candidates were selected based on their merit, skills, knowledge of financial markets, as well as experience of financial supervision and regulation, in accordance with the requirements set out in the ESMA Regulation. The envisaged start date of the incoming Chair is 1 November 2026. ESMA publishes shortlist of candidates for position of Chair",
-    "date": "2026-05-20",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-shortlist-candidates-position-chair-0",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA (European Securities and Markets Authority)",
-    "initiative": "ESMA outlines enforcement activities for corporate reporting across the EEA in 2025",
-    "description": "The report provides an overview of how national enforcers and ESMA supervised corporate reporting across the European Economic Area (EEA) during 2025. In 2025, financial reporting enforce ment continued to promote disclosures that are material, transparent, entity specific, and useful for decision‑making. ESMA outlines enforcement activities for corporate reporting across the EEA in 2025",
-    "date": "2026-05-20",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-outlines-enforcement-activities-corporate-reporting-across-eea-2025",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
