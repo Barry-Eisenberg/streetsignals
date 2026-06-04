@@ -1,5 +1,27 @@
 [
   {
+    "institution": "Ledger Insights",
+    "initiative": "Macau goes live on mBridge cross border CBDC platform",
+    "description": "On Tuesday Macau officially went live on mBridge, the DLT-based cross border payment system that uses central bank digital currencies (CBDCs). Eleven commercial banks have access, several of them being Macau branches of China’s largest banks, which are already connected via mainland China and Hong Kong. While mBridge is operational in Macau for cross border",
+    "date": "2026-06-04",
+    "source_url": "https://www.ledgerinsights.com/macau-goes-live-on-mbridge-cross-border-cbdc-platform/",
+    "category": "ecosystem",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "CBDC",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Digital Asset Exchange",
     "initiative": "Bybit launches support for Western Union’s USDPT stablecoin",
     "description": "According to an announcement released on Thursday, users can now hold, transfer, and trade USDPT… Bybit launches support for Western Union’s USDPT stablecoin",
@@ -9503,23 +9525,6 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase introduces thematic perps tracking China, AI and US national security equity indexes",
-    "description": "The contracts are based on MarketVector’s existing AI, defense and China indexes that track the 10 largest companies per sector.",
-    "date": "2026-05-21",
-    "source_url": "https://www.theblock.co/post/402286/coinbase-thematic-perps-tracking-china-ai-us-national-security-equity-indexes",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
