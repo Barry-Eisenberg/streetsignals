@@ -1,5 +1,115 @@
 [
   {
+    "institution": "CoinGeek",
+    "initiative": "EBA and New York agree on stablecoin supervision cooperation",
+    "description": "The EBA and NYDFS sign MoU to enhance cross-border supervision of stablecoins, fostering cooperation and regulatory alignment between the EU and New York.",
+    "date": "2026-06-04",
+    "source_url": "https://coingeek.com/eba-and-new-york-agree-on-stablecoin-supervision-cooperation/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Standard Chartered",
+    "initiative": "‘The low is almost in’: Standard Chartered says bitcoin bottom near after tough week for crypto",
+    "description": "Standard Chartered said bitcoin's low is \"almost in,\" citing resilient ETF holdings and likely Strategy buybacks after a painful week for crypto.",
+    "date": "2026-06-04",
+    "source_url": "https://www.theblock.co/post/403625/the-low-is-almost-in-standard-chartered-says-bitcoin-bottom-near-after-tough-week-for-crypto",
+    "category": "global_banks",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase launches pre-IPO perpetual futures, starting with SpaceX",
+    "description": "Coinbase has entered the pre-IPO perpetual futures market, starting with a SpaceX contract, offering up to 5x leverage.",
+    "date": "2026-06-04",
+    "source_url": "https://www.theblock.co/post/403620/coinbase-pre-ipo-perpetual-futures-spacex",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase launches SpaceX pre IPO perpetual futures with up to 5x leverage",
+    "description": "According to Coinbase, the new… Coinbase launches SpaceX pre IPO perpetual futures with up to 5x leverage",
+    "date": "2026-06-04",
+    "source_url": "https://crypto.news/coinbase-launches-spacex-pre-ipo-perpetual-futures-with-up-to-5x-leverage/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Canton Network",
+    "initiative": "Shinhan targets Canton Network to take Korean assets global",
+    "description": "Shinhan Financial Group moves to join Canton Network governance as it seeks to expand Korean tokenized financial products overseas.",
+    "date": "2026-06-04",
+    "source_url": "https://crypto.news/shinhan-targets-canton-network-to-take-korean-assets-global/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Goldman Sachs",
+    "initiative": "Goldman Sachs launches tokenized property fund on GS DAP platform",
+    "description": "Goldman Sachs has joined a group of financial and digital asset firms that have launched a tokenized real estate fund, adding another institutional-backed project to a market that has gained momentum across property investing. According to a Thursday announcement, Goldman… Goldman Sachs launches tokenized property fund on GS DAP platform",
+    "date": "2026-06-04",
+    "source_url": "https://crypto.news/goldman-sachs-launches-tokenized-property-fund-on-gs-dap-platform/",
+    "category": "global_banks",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Goldman Sachs",
     "initiative": "Goldman Sachs teams with Apex, Archax for tokenized real estate fund",
     "description": "The fund combines blockchain native issuance with established fund structures.",
@@ -9415,119 +9525,6 @@
       "Payments & Transfers"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "JPMorgan",
-    "initiative": "Stablecoins retain the edge over tokenized money market funds, JPMorgan says",
-    "description": "The bank said tokenized money market funds account for only about 5% of the broader stablecoin universe despite offering yield.",
-    "date": "2026-05-21",
-    "source_url": "https://www.coindesk.com/business/2026/05/21/stablecoins-retain-the-edge-over-tokenized-money-market-funds-jpmorgan-says",
-    "category": "payments",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "EC consults on whether MiCA crypto rules need revamp",
-    "description": "Just two years after implementation, the European Commission is consulting on whether its regulatory framework on crypto‑assets is still fit for purpose.",
-    "date": "2026-05-21",
-    "source_url": "https://www.finextra.com/newsarticle/47795/ec-consults-on-whether-mica-crypto-rules-need-revamp",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Mastercard",
-    "initiative": "Mastercard scoops fleet deal with Germany's ryd",
-    "description": "ryd GmbH, a Munich-based mobility technology company, announced the launch of ryd fleet, a new digital-first payment operating system for fleets, in collaboration with Mastercard, designed to simplify on-the-road fleet payments while giving fleet managers enhanced control, visibility, and security.",
-    "date": "2026-05-21",
-    "source_url": "https://www.finextra.com/pressarticle/109921/mastercard-scoops-fleet-deal-with-germanys-ryd",
-    "category": "payments",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Cosmos co-founder’s new multilateral clearing startup Cycles raises $6.4 million",
-    "description": "The round, led by Blockchange Ventures, with support from Coinbase Ventures, among others, brings Cycle's total funding to $8.7 million.",
-    "date": "2026-05-21",
-    "source_url": "https://www.theblock.co/post/402176/cosmos-co-founders-new-multilateral-clearing-startup-cycles-raises-6-4-million",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Settlement & Clearing"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Boerse Stuttgart adds SocGen for EU blockchain settlement",
-    "description": "Boerse Stuttgart’s Seturion adds SocGen, SG-FORGE and flatexDEGIRO to build blockchain settlement for tokenized securities in Europe.",
-    "date": "2026-05-21",
-    "source_url": "https://crypto.news/boerse-stuttgart-adds-socgen-for-eu-blockchain-settlement/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Settlement & Clearing"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve proposes narrow payment rail access for crypto-linked banks",
-    "description": "Federal Reserve has proposed a new category of restricted payment accounts that could give eligible fintech and crypto-linked banks access to parts of the central bank’s payment infrastructure without granting the full privileges available to traditional banks. According… Federal Reserve proposes narrow payment rail access for crypto-linked banks",
-    "date": "2026-05-21",
-    "source_url": "https://crypto.news/federal-reserve-proposes-narrow-payment-rail-access-for-crypto-linked-banks/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
