@@ -1,5 +1,124 @@
 [
   {
+    "institution": "OCC (Office of the Comptroller of the Currency)",
+    "initiative": "OCC chief says Democrats applying sole political pressure in World Liberty charter choice",
+    "description": "The regulator rejected claims he's doing President Trump's bidding during a congressional hearing that also addressed the GENIUS Act stablecoin push.",
+    "date": "2026-06-04",
+    "source_url": "https://www.coindesk.com/policy/2026/06/04/occ-chief-says-democrats-applying-sole-political-pressure-in-world-liberty-charter-choice",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "OCC (Office of the Comptroller of the Currency)",
+    "initiative": "World Liberty hearing turns tense as OCC chief rejects pressure claim",
+    "description": "bank regulators defended their handling of stablecoin rules and charter applications.… Regulators Defend Stablecoin Oversight The Trump-linked crypto firm World Liberty Financial Inc. World Liberty hearing turns tense as OCC chief rejects pressure claim",
+    "date": "2026-06-04",
+    "source_url": "https://crypto.news/world-liberty-hearing-turns-tense-as-occ-chief-rejects-pressure-claim/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "Kalshi debuts Ethereum perpetuals as XRP futures await review",
+    "description": "Kalshi has launched Ethereum perpetual futures in the United States after securing approval for the product, while proposed XRP and other altcoin contracts remain subject to separate regulatory review. According to a June 4 announcement from Kalshi, the CFTC-regulated prediction… Kalshi debuts Ethereum perpetuals as XRP futures await review",
+    "date": "2026-06-04",
+    "source_url": "https://crypto.news/kalshi-debuts-ethereum-perpetuals-as-xrp-futures-await-review/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Standard Chartered",
+    "initiative": "Standard Chartered reaffirms $100K Bitcoin bet as bears see more pain",
+    "description": "Bitcoin has fallen more than 15% this week and briefly slipped towards $61,000, yet Standard Chartered has kept its year-end price target at $100,000 and said the current decline may offer a buying opportunity. According to a note sent to… Standard Chartered reaffirms $100K Bitcoin bet as bears see more pain",
+    "date": "2026-06-04",
+    "source_url": "https://crypto.news/standard-chartered-reaffirms-100k-bitcoin-bet-as-bears-see-more-pain/",
+    "category": "global_banks",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainalysis",
+    "initiative": "Gray peptide vendors embrace stablecoins as safety fears deepen",
+    "description": "Crypto has become a key payment rail for a fast-growing gray-market peptide trade, according to a new Chainalysis report. Chainalysis said Thursday that off-label peptide sales have climbed past a $100 million annual run rate, as online wellness trends and… Gray peptide vendors embrace stablecoins as safety fears deepen",
+    "date": "2026-06-04",
+    "source_url": "https://crypto.news/gray-peptide-vendors-embrace-stablecoins-as-safety-fears-deepen/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "JPMorgan warns CLARITY Act window may be closing fast",
+    "description": "The chances of passing the CLARITY Act this year have narrowed as lawmakers face a crowded legislative calendar and unresolved disputes over key provisions, according to JPMorgan analysts. According to a report from JPMorgan analysts led by Nikolaos Panigirtzoglou, political… JPMorgan warns CLARITY Act window may be closing fast",
+    "date": "2026-06-04",
+    "source_url": "https://crypto.news/jpmorgan-warns-clarity-act-window-may-be-closing-fast/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Goldman Sachs",
     "initiative": "Tokenized real estate fund issued on Goldman Sachs distributed ledger",
     "description": "Real estate investment manager LRC Group is launching a blockchain native fund on Goldman Sachs’ GS DAP distributed ledger platform, with Archax as custodian and initial distribution partner. The fund itself operates through a fairly conventional Luxembourg structure. Apex Group’s Fundrock LIS subsidiary acts as the regulated alternative investment fund manager (AIFM), while other Apex",
@@ -9295,6 +9414,23 @@
     "year": "2026"
   },
   {
+    "institution": "Federal Reserve",
+    "initiative": "Federal Reserve Board issues enforcement action with former employee of Commerce Bank",
+    "description": "Federal Reserve Board issues enforcement action with former employee of Commerce Bank",
+    "date": "2026-05-21",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260521a.htm",
+    "category": "regulators",
+    "source_name": "Federal Reserve — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Elasticity of money in production networks, working capital, credit lines and financial conditions",
     "description": "by Ryan Niladri Banerjee, Hyun Song Shin, Jose María Vidal Pastor The elastic supply of money through overdrafts and credit lines overcomes cash-in-advance constraints, enabling large-value payments without waiting for incoming cash. This elasticity is crucial in long supply chains, where cash-in-advance constraints could otherwise cause gridlock. Elasticity of money in production networks, working capital, credit lines and financial conditions",
@@ -9382,144 +9518,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "MoonPay",
-    "initiative": "MoonPay launches MoonPay Trade to pull banks into DeFi and tokenized assets",
-    "description": "MoonPay is launching MoonPay Trade, a new institutional platform that promises banks and fintechs unified access to tokenized assets, DeFi protocols and stablecoin liquidity across more than 200 blockchains. According to CoinDesk, MoonPay introduced on May 21 MoonPay Trade as a… MoonPay launches MoonPay Trade to pull banks into DeFi and tokenized assets",
-    "date": "2026-05-21",
-    "source_url": "https://crypto.news/moonpay-launches-moonpay-trade-to-pull-banks-into-defi-and-tokenized-assets/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "JPMorgan",
-    "initiative": "Why JPMorgan says tokenized funds can’t beat stablecoins",
-    "description": "JPMorgan says tokenized funds make up just 5% of the stablecoin market despite offering higher yield. Why JPMorgan says tokenized funds can’t beat stablecoins",
-    "date": "2026-05-21",
-    "source_url": "https://crypto.news/tokenized-funds-hold-5-of-stablecoin-market-jpmorgan/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "CLEAR collapses 48% as Everclear shuts down protocol",
-    "description": "Everclear, the cross chain clearing and settlement network backed by firms including Pantera Capital and Polychain, said it is winding down all operations after failing… Everclear’s announcement of a full operational wind-down sent CLEAR sharply lower in the latest session. CLEAR collapses 48% as Everclear shuts down protocol",
-    "date": "2026-05-21",
-    "source_url": "https://crypto.news/clear-collapses-48-as-everclear-shuts-down-protocol/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BlackRock",
-    "initiative": "Deribit Bitcoin options top BlackRock IBIT at $31.3B",
-    "description": "The reversal comes… Deribit Bitcoin options top BlackRock IBIT at $31.3B",
-    "date": "2026-05-21",
-    "source_url": "https://crypto.news/bitcoin-options-hit-31-3b-on-deribit-ahead-of-may-29/",
-    "category": "asset_management",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Ethereum sees 3 firms test HKDAP stablecoin",
-    "description": "The transfer of Hong Kong’s HKD-backed stablecoin on Ethereum (ETH) demonstrates the regulator’s willingness to adopt innovative DeFi tooling. According… Ethereum sees 3 firms test HKDAP stablecoin",
-    "date": "2026-05-21",
-    "source_url": "https://crypto.news/ethereum-sees-3-firms-test-hkdap-stablecoin/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "JPMorgan",
-    "initiative": "JPMorgan says tokenized money market funds unlikely to grow beyond 15% of stablecoin market",
-    "description": "Tokenized money market funds offer yield but still account for only around 5% of the stablecoin market, JPMorgan analysts said.",
-    "date": "2026-05-21",
-    "source_url": "https://www.theblock.co/post/402227/jpmorgan-tokenized-money-market-funds-stablecoins",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainlink",
-    "initiative": "Chainlink, Anchorage-backed PAC names first bipartisan endorsements in 2026 midterm cycle",
-    "description": "A newly formed political action committee released its first batch of endorsements as midterm elections begin to take shape.",
-    "date": "2026-05-21",
-    "source_url": "https://www.theblock.co/post/402231/chainlink-anchorage-backed-pac-first-bipartisan-endorsements-2026-midterm",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
