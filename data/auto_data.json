@@ -1,5 +1,44 @@
 [
   {
+    "institution": "Digital Asset Exchange",
+    "initiative": "Bybit launches support for Western Union’s USDPT stablecoin",
+    "description": "According to an announcement released on Thursday, users can now hold, transfer, and trade USDPT… Bybit launches support for Western Union’s USDPT stablecoin",
+    "date": "2026-06-04",
+    "source_url": "https://crypto.news/bybit-launches-support-for-western-unions-usdpt-stablecoin/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinShares",
+    "initiative": "CoinShares reveals hedge funds slashed Bitcoin ETF exposure by 39% in Q1",
+    "description": "spot Bitcoin exchange-traded funds by 39% during the first quarter, as professional investors pulled back from the market amid a steep decline in Bitcoin prices. Hedge funds have reduced their exposure to U.S. CoinShares reveals hedge funds slashed Bitcoin ETF exposure by 39% in Q1",
+    "date": "2026-06-04",
+    "source_url": "https://crypto.news/coinshares-reveals-hedge-funds-slashed-bitcoin-etf-exposure-by-39-in-q1/",
+    "category": "asset_management",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "OCC (Office of the Comptroller of the Currency)",
     "initiative": "OCC chief says Democrats applying sole political pressure in World Liberty charter choice",
     "description": "The regulator rejected claims he's doing President Trump's bidding during a congressional hearing that also addressed the GENIUS Act stablecoin push.",
@@ -9481,43 +9520,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Amundi Solana UCITS fund launched with €2.4T backing",
-    "description": "Amundi, managing €2.4 trillion in assets, and Spiko Finance announced the launch of SAFO on Solana, bringing their UCITS-compliant tokenized fund to… Amundi Solana UCITS fund SAFO launches as Europe’s largest asset manager brings €2.4 trillion AUM to the chain. Amundi Solana UCITS fund launched with €2.4T backing",
-    "date": "2026-05-21",
-    "source_url": "https://crypto.news/amundi-solana-ucits-fund-marks-european-first/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "MAS (Monetary Authority of Singapore)",
-    "initiative": "Singapore MAS revokes Bsquared license over false data",
-    "description": "Singapore’s MAS has revoked the Bsquared license after finding false statements and serious regulatory breaches at the crypto firm. The Monetary Authority of Singapore revoked Bsquared Technology’s MPI licence effective May 14, 2026. Singapore MAS revokes Bsquared license over false data",
-    "date": "2026-05-21",
-    "source_url": "https://crypto.news/mas-revokes-bsquared-license-over-false-statements/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
