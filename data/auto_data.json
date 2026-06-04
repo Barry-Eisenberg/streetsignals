@@ -1,5 +1,63 @@
 [
   {
+    "institution": "Ripple",
+    "initiative": "Ripple-linked XRP sinks 7% to four-month lows",
+    "description": "XRP fell another 7% after losing key support levels, with traders weighing growing institutional demand against one of the token's weakest technical setups in months.",
+    "date": "2026-06-04",
+    "source_url": "https://www.coindesk.com/markets/2026/06/04/ripple-linked-xrp-sinks-7-to-four-month-lows",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Senate Republicans urged financial regulators to rework bank capital rules for digital assets",
+    "description": "A group of Senate Republicans is pressing key financial regulatory agencies to clarify capital standards for digital assets.",
+    "date": "2026-06-04",
+    "source_url": "https://www.theblock.co/post/403671/senate-republicans-urged-financial-regulators-to-rework-bank-capital-rules-for-digital-assets",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Canton Network",
+    "initiative": "Visa, Brale test privacy-enabled SBC stablecoin settlement on Canton Network",
+    "description": "Visa and Brale initiate a proof of concept testing SBC stablecoin settlement with privacy controls on the Canton Network.",
+    "date": "2026-06-04",
+    "source_url": "https://www.theblock.co/post/403658/visa-brale-test-privacy-enabled-sbc-stablecoin-settlement-on-canton-network",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Carolyn Rogers,Toni Gravelle: Release of the Financial Stability Report",
     "description": "Opening statement Ms Carolyn Rogers, Senior Deputy Governor of the Bank of Canada, and Mr Toni Gravelle, Deputy Governor of the Bank of Canada, at the press conference following the release of the Financial Stability Report, Ottawa, Ontario, 28 May 2026.",
@@ -9096,6 +9154,23 @@
     "year": "2026"
   },
   {
+    "institution": "BIS",
+    "initiative": "Elasticity of money in production networks, working capital, credit lines and financial conditions",
+    "description": "by Ryan Niladri Banerjee, Hyun Song Shin, Jose María Vidal Pastor The elastic supply of money through overdrafts and credit lines overcomes cash-in-advance constraints, enabling large-value payments without waiting for incoming cash. This elasticity is crucial in long supply chains, where cash-in-advance constraints could otherwise cause gridlock. Elasticity of money in production networks, working capital, credit lines and financial conditions",
+    "date": "2026-05-21",
+    "source_url": "https://www.bis.org/publ/work1350.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Franklin Templeton",
     "initiative": "Franklin Templeton taps DigiFT to distribute BENJI tokenized MMF in Asia",
     "description": "Franklin Templeton has partnered with Singapore based DigiFT to distribute its BENJI tokenized money market funds to accredited and institutional investors across Asia. DigiFT holds Capital Markets Services and Recognised Market Operator licenses from the Monetary Authority of Singapore (MAS). The BENJI platform is Franklin Templeton’s anchor blockchain offering, with a market capitalization exceeding $800",
@@ -9432,85 +9507,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto for Advisors: Crypto Products",
-    "description": "Advisors need to assess ETP custody, sponsor profiles, and fees. Read expert advice on bitcoin-backed loans, including margin call risks and when to sell vs. borrow.",
-    "date": "2026-05-21",
-    "source_url": "https://www.coindesk.com/coindesk-indices/2026/05/20/crypto-for-advisors-crypto-products",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "MoonPay",
-    "initiative": "MoonPay expands into tokenized assets and DeFi markets with new platform for banks",
-    "description": "With MoonPay Trade, the crypto payments firm is building infrastructure for banks, fintechs to access stablecoins, tokenized funds and yield in a one-stop shop.",
-    "date": "2026-05-21",
-    "source_url": "https://www.coindesk.com/business/2026/05/21/moonpay-expands-into-tokenized-assets-and-defi-markets-with-new-platform-for-banks",
-    "category": "payments",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Copper",
-    "initiative": "Peer-to-peer trading startup Variational raises $50 million for real-world perps in funding round led by Dragonfly",
-    "description": "The company is initially offering perpetual futures on real-world assets including oil, silver, copper and gold.",
-    "date": "2026-05-21",
-    "source_url": "https://www.coindesk.com/business/2026/05/21/peer-to-peer-trading-startup-variational-raises-usd50-million-for-real-world-perps-in-funding-round-led-by-dragonfly",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "Blockchain.com files with SEC for U.S. IPO",
-    "description": "The crypto financial services firm submitted a draft S-1 to the SEC as it explores a public listing amid renewed momentum in digital asset markets.",
-    "date": "2026-05-21",
-    "source_url": "https://www.coindesk.com/business/2026/05/21/blockchain-com-files-confidential-paperwork-with-sec-for-u-s-ipo",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
