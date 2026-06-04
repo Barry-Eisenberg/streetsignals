@@ -1,5 +1,46 @@
 [
   {
+    "institution": "BlackRock",
+    "initiative": "BTC, ETH, SOL and XRP ETFs bleed $4.4 billion over 13 sessions, only HYPE in green",
+    "description": "BlackRock's IBIT shed another $342 million on Wednesday as ether, solana and XRP funds joined the redemption wave, leaving Hyperliquid's HYPE products as the only major crypto ETF category still pulling in net new money.",
+    "date": "2026-06-04",
+    "source_url": "https://www.coindesk.com/markets/2026/06/04/btc-eth-sol-and-xrp-etfs-bleed-usd4-4-billion-over-13-sessions-only-hype-in-green",
+    "category": "asset_management",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase’s x402 has processed over 100 million transactions on Base",
+    "description": "Blockchain analytics platform Chainalysis has reported that wallets interacting with Coinbase’s x402 protocol have generated more than 100 million transactions on Base since the payment standard launched, offering one of the clearest signs yet that machine-to-machine payments are beginning to… Coinbase’s x402 has processed over 100 million transactions on Base",
+    "date": "2026-06-04",
+    "source_url": "https://crypto.news/coinbases-x402-has-processed-over-100-million-transactions-on-base/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Interoperability & Standards",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Mastercard",
     "initiative": "Mastercard Is Bringing Stablecoins Into the Settlement Layer",
     "description": "Hey Payments Fanatic! Mastercard just made one of its clearest moves yet in the stablecoin space. The company is expanding its settlement capabilities to include regulated stablecoins, alongside new intraday, weekend, and holiday settlement options. That might sound like a technical infrastructure update, but I don't think it",
@@ -9493,42 +9534,6 @@
     ],
     "initiative_types": [
       "CBDC"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Brian Armstrong says Coinbase AI cut restriction delays by 90%",
-    "description": "Coinbase says AI cut account restriction resolution times by 90%, with humans still checking compliance outcomes.",
-    "date": "2026-05-21",
-    "source_url": "https://crypto.news/brian-armstrong-says-coinbase-ai-cut-restriction-delays-by-90/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "U.S. Treasury Department",
-    "initiative": "U.S. Treasury sanctions crypto wallets tied to Sinaloa Cartel fentanyl network",
-    "description": "Treasury has sanctioned two networks linked to the Sinaloa Cartel over allegations that they used cryptocurrency transactions to move fentanyl trafficking proceeds. According to the U.S. U.S. Treasury sanctions crypto wallets tied to Sinaloa Cartel fentanyl network",
-    "date": "2026-05-21",
-    "source_url": "https://crypto.news/u-s-treasury-sanctions-crypto-wallets-tied-to-sinaloa-cartel-fentanyl-network/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
