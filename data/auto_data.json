@@ -1,5 +1,90 @@
 [
   {
+    "institution": "Mastercard",
+    "initiative": "Mastercard Is Bringing Stablecoins Into the Settlement Layer",
+    "description": "Hey Payments Fanatic! Mastercard just made one of its clearest moves yet in the stablecoin space. The company is expanding its settlement capabilities to include regulated stablecoins, alongside new intraday, weekend, and holiday settlement options. That might sound like a technical infrastructure update, but I don't think it",
+    "date": "2026-06-04",
+    "source_url": "https://www.connectingthedotsinpayments.com/mastercard-is-bringing-stablecoins-into-the-settlement-layer/",
+    "category": "payments",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase freezes $3M as DOJ hits Southeast Asia scam networks",
+    "description": "Coinbase froze over $3M in crypto as DOJ, Meta, Microsoft and Starlink disrupted Southeast Asia scam networks and 1.4M online accounts.",
+    "date": "2026-06-04",
+    "source_url": "https://crypto.news/coinbase-freezes-3m-as-doj-hits-southeast-asia-scam-networks/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Paybis says stablecoins are taking over business payments",
+    "description": "Paybis says 22.5% of businesses use or plan stablecoins for cross-border payments as B2B volume reaches 97.8% in early 2026, new data shows.",
+    "date": "2026-06-04",
+    "source_url": "https://crypto.news/paybis-says-stablecoins-are-taking-over-business-payments/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "CFTC scraps no deny rule as crypto enforcement shift deepens",
+    "description": "CFTC scraps no-deny settlement rule after SEC's May move, giving defendants more room to dispute agency claims in enforcement cases in 2026.",
+    "date": "2026-06-04",
+    "source_url": "https://crypto.news/cftc-scraps-no-deny-rule-as-crypto-enforcement-shift-deepens/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Santander",
     "initiative": "Santander inks AI MoU with Abu Dhabi's G42",
     "description": "Banco Santander has signed a memorandum of understanding covering cooperation in AI with Abu Dhabi-based technology group G42.",
@@ -9439,84 +9524,6 @@
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
     "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "Ex Silvergate officer says regulatory pressure forced bank shutdown",
-    "description": "Former Silvergate Bank chief risk officer Kate Fraher has publicly challenged the circumstances surrounding her 2024 settlement with the U.S. Securities and Exchange Commission, arguing that regulators never proved the bank’s anti-money laundering controls had failed. Ex Silvergate officer says regulatory pressure forced bank shutdown",
-    "date": "2026-05-21",
-    "source_url": "https://crypto.news/ex-silvergate-officer-says-regulatory-pressure-forced-bank-shutdown/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "Crypto tax evaders test Ordinals but leave Bitcoin trail: Chainalysis report",
-    "description": "Chainalysis said Italian authorities traced a $1.1m tax evasion case using Bitcoin Ordinals and BRC-20 tokens.",
-    "date": "2026-05-21",
-    "source_url": "https://crypto.news/crypto-tax-evaders-test-ordinals-but-leave-bitcoin-trail-chainalysis-report/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Nasdaq",
-    "initiative": "Nakamoto moves ahead with reverse stock split as Nasdaq deadline nears",
-    "description": "Bitcoin treasury company Nakamoto has moved forward with a 1-for-40 reverse stock split after receiving a Nasdaq warning over its prolonged share price decline. Securities and Exchange Commission, Nasdaq notified the company on… Nakamoto moves ahead with reverse stock split as Nasdaq deadline nears",
-    "date": "2026-05-21",
-    "source_url": "https://crypto.news/nakamoto-moves-ahead-with-reverse-stock-split-as-nasdaq-deadline-nears/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Nasdaq",
-    "initiative": "SpaceX IPO filing exposes bigger Bitcoin bet than expected",
-    "description": "SpaceX disclosed 18,712 Bitcoin in its IPO filing, topping earlier estimates and Tesla’s BTC holdings ahead of its planned Nasdaq debut.",
-    "date": "2026-05-21",
-    "source_url": "https://crypto.news/spacex-ipo-filing-exposes-bigger-bitcoin-bet-than-expected/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Investment / M&A",
     "fmi_areas": [
       "General Infrastructure"
     ],
