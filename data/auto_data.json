@@ -1,5 +1,47 @@
 [
   {
+    "institution": "CME Group",
+    "initiative": "CME’s Terry Duffy calls U.S. crypto perps a disaster waiting",
+    "description": "CME Group Chief Executive Terry Duffy has warned that the recent approval of cryptocurrency perpetual futures in the U.S. has created significant risks for investors and the financial system, calling the products “a disaster waiting to happen.” According to remarks… CME’s Terry Duffy calls U.S. crypto perps a disaster waiting",
+    "date": "2026-06-04",
+    "source_url": "https://crypto.news/cmes-terry-duffy-calls-u-s-crypto-perps-a-disaster-waiting/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "JPMorgan and rivals back tokenized deposit network for 2027 launch",
+    "description": "banks have moved toward a shared tokenized deposit network as stablecoin firms push deeper into payments and corporate finance. The Wall Street Journal reported that the Clearing House will run the system, a real-time payment network owned by… JPMorgan and rivals back tokenized deposit network for 2027 launch",
+    "date": "2026-06-04",
+    "source_url": "https://crypto.news/jpmorgan-and-rivals-back-tokenized-deposit-network-for-2027-launch/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
     "initiative": "Hester Peirce raises big question over DeFi developer liability",
     "description": "SEC Commissioner Hester Peirce, speaking Tuesday at the IC3 Blockchain Camp at Princeton… SEC Commissioner Hester Peirce has said that software developers who publish open-source blockchain code should not face federal securities registration rules simply because others use their work. Hester Peirce raises big question over DeFi developer liability",
@@ -9492,40 +9534,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board issues enforcement action with former employee of Commerce Bank",
-    "description": "Federal Reserve Board issues enforcement action with former employee of Commerce Bank",
-    "date": "2026-05-21",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260521a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Elasticity of money in production networks, working capital, credit lines and financial conditions",
-    "description": "by Ryan Niladri Banerjee, Hyun Song Shin, Jose María Vidal Pastor The elastic supply of money through overdrafts and credit lines overcomes cash-in-advance constraints, enabling large-value payments without waiting for incoming cash. This elasticity is crucial in long supply chains, where cash-in-advance constraints could otherwise cause gridlock. Elasticity of money in production networks, working capital, credit lines and financial conditions",
-    "date": "2026-05-21",
-    "source_url": "https://www.bis.org/publ/work1350.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
