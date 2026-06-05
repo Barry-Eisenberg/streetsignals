@@ -1,5 +1,123 @@
 [
   {
+    "institution": "JPMorgan",
+    "initiative": "JPMorgan, Bank of America, Citi to start blockchain offensive with shared tokenized network",
+    "description": "American's biggest banks plan to introduce a shared tokenized network next year to tackle the potential threat of stablecoins eating into their deposits.",
+    "date": "2026-06-05",
+    "source_url": "https://www.coindesk.com/markets/2026/06/05/jpmorgan-bank-of-america-and-citi-are-going-on-the-blockchain-offensive-with-a-shared-tokenized-network",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BlackRock",
+    "initiative": "Bitcoin and ether ETFs end record multi-billion outflow streak",
+    "description": "U.S. spot bitcoin ETFs pulled $3.05 million in net inflows on Wednesday after 13 straight sessions of redemptions totaling roughly $4.4 billion, while ether ETFs ended a 17-day outflow streak with $19.30 million led entirely by BlackRock's ETHA.",
+    "date": "2026-06-05",
+    "source_url": "https://www.coindesk.com/markets/2026/06/05/bitcoin-and-ether-etfs-end-record-multi-billion-outflow-streak",
+    "category": "asset_management",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "ZA Bank partners with Industrial Bank to launch cross-border wealth management scheme",
+    "description": "ZA Bank today announced its official partnership with Industrial Bank to launch the Cross-boundary Wealth Management Connect Southbound Scheme (the \"Southbound Scheme\"), marking a milestone as the first digital bank in Hong Kong to provide this service.",
+    "date": "2026-06-05",
+    "source_url": "https://www.finextra.com/pressarticle/110046/za-bank-partners-with-industrial-bank-to-launch-cross-border-wealth-management-scheme",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "PayPal",
+    "initiative": "Why Adyen, Stripe, and PayPal still can't fix global payments - Davi Strazza (CBO, Lightspark)",
+    "description": "In this episode, I sit down with Davi Strazza, Chief Business Officer at Lightspark and former President of North America at Adyen, to discuss why traditional payment infrastructure remains broken despite decades of innovation—and how Lightspark is using Bitcoin, Lightning, stablecoins, and AI to build a new financial network.",
+    "date": "2026-06-05",
+    "source_url": "https://www.fintechwrapup.com/p/dddd",
+    "category": "payments",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "JPMorgan, Citi, BofA, and Wells Fargo Plan 2027 Tokenized Deposit Network as Banks Move to Counter Stablecoins",
+    "description": "JPMorgan, Citi, BofA, and Wells Fargo plan to launch a tokenized deposit network via The Clearing House in 2027, in a coordinated response to stablecoins seeking deposit liquidity.",
+    "date": "2026-06-05",
+    "source_url": "https://unchainedcrypto.com/jpmorgan-citi-bofa-and-wells-fargo-plan-2027-tokenized-deposit-network-as-banks-move-to-counter-stablecoins/",
+    "category": "payments",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase Debuts Pre-IPO Perpetual Futures on International Exchange, Starting With SpaceX Ahead of June 12 Listing",
+    "description": "Coinbase launched SpaceX pre-IPO perpetual futures on its International Exchange with 5x leverage and a valuation-based index that converts to a standard equity perp post-IPO.",
+    "date": "2026-06-05",
+    "source_url": "https://unchainedcrypto.com/coinbase-debuts-pre-ipo-perpetual-futures-on-international-exchange-starting-with-spacex-ahead-of-june-12-listing/",
+    "category": "exchanges_intermediaries",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Nasdaq",
     "initiative": "What Is an XRP ETF? A Complete Guide to XRP Exchange-Traded Funds",
     "description": "What Is an XRP ETF? An XRP ETF is an exchange-traded fund that tracks the price of XRP. These funds trade on regulated stock exchanges such as the New York Stock Exchange or Nasdaq. Instead of buying XRP on a crypto exchange and holding it in a digital wallet, investors purchase ETF shares through a",
@@ -9076,6 +9194,23 @@
     "year": "2026"
   },
   {
+    "institution": "Fintech Wrap Up",
+    "initiative": "Banks are still fighting AI fraud with yesterday’s playbook - Tyler Allen (CEO, Unit21)",
+    "description": "In this episode of the WRAP UP Podcast, I speak with Tyler Allen, CEO of Unit21, about why AI agents may become one of the most important tools in the fight against financial crime.",
+    "date": "2026-05-22",
+    "source_url": "https://www.fintechwrapup.com/p/unit21",
+    "category": "ecosystem",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Santander",
     "initiative": "Getnet Turns Six, Reaches Profitability, and Eyes Global Expansion",
     "description": "Hey Payments Fanatic! Getnet’s growth story shows just how fast Argentina’s payments market has evolved since opening up in 2019. In only six years, the Santander-backed company has grown to more than 200,000 merchants and reached profitability before its sixth anniversary — a rare milestone",
@@ -9402,142 +9537,6 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
       "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "OKX oil futures deal with ICE brings 24/7 crude to crypto",
-    "description": "The owner of the New York Stock Exchange will provide its regulated futures prices for… Intercontinental Exchange and OKX are teaming up to list perpetual oil futures that track ICE Brent and WTI benchmarks on the crypto exchanges derivatives platform. OKX oil futures deal with ICE brings 24/7 crude to crypto",
-    "date": "2026-05-22",
-    "source_url": "https://crypto.news/okx-oil-futures-deal-with-ice-brings-24-7-crude-to-crypto/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Societe Generale",
-    "initiative": "Boerse Stuttgart and SocGen partner for digital securities settlement platform",
-    "description": "Seturion, Boerse Stuttgart Group's European settlement platform for tokenized securities, today announced a strategic partnership with flatexDEGIRO, Societe Generale, and SG-FORGE, on a clear path to expand its network of leading financial institutions across Europe and to advance digital blockchain-based securities settlement.",
-    "date": "2026-05-22",
-    "source_url": "https://www.finextra.com/pressarticle/109928/boerse-stuttgart-and-socgen-partner-for-digital-securities-settlement-platform",
-    "category": "global_banks",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Settlement & Clearing"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Visa",
-    "initiative": "Stablecoins are quietly becoming the internet’s money",
-    "description": "Real-world stablecoin payments doubled to $400 billion. In 2025, stablecoins settled more transactions than Visa. Stablecoins are quietly becoming the internet’s money",
-    "date": "2026-05-22",
-    "source_url": "https://crypto.news/stablecoins-are-quietly-becoming-the-internets-money/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Digital Asset Exchange",
-    "initiative": "Bitget joins SpaceX pre-IPO trading race with 5x perps",
-    "description": "Bitget launched SPCXUSDT, a SpaceX-linked pre-IPO perpetual with 5x leverage, as crypto venues race to price the possible IPO early now.",
-    "date": "2026-05-22",
-    "source_url": "https://crypto.news/bitget-joins-spacex-pre-ipo-trading-race-with-5x-perps/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "Trump calls for crypto bank access, GOP demands PAC loyalty",
-    "description": "The Senate Banking Committee advances the CLARITY Act for cryptocurrency regulation, but the U.S. Congress faces a tight schedule before summer break.",
-    "date": "2026-05-22",
-    "source_url": "https://coingeek.com/trump-calls-for-crypto-bank-access-gop-demands-pac-loyalty/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Standard Chartered",
-    "initiative": "Standard Chartered backtracks on 'lower value human capital' comments",
-    "description": "The boss of British bank Standard Chartered has been forced to clarify comments he made when announcing the loss of 7,800 jobs which are set to be replaced by AI.",
-    "date": "2026-05-22",
-    "source_url": "https://www.finextra.com/newsarticle/47797/standard-chartered-backtracks-on-lower-value-human-capital-comments",
-    "category": "global_banks",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Bipartisan ARMA Bill Would Enshrine Trump’s Strategic Bitcoin Reserve Into Permanent Law",
-    "description": "The American Reserve Modernization Act would codify the Strategic Bitcoin Reserve with a 20-year hold mandate, Proof of Reserve reporting, and a property-rights clause protecting self-custody.",
-    "date": "2026-05-22",
-    "source_url": "https://unchainedcrypto.com/bipartisan-arma-bill-would-enshrine-trumps-strategic-bitcoin-reserve-into-permanent-law/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Collateral & Lending",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
