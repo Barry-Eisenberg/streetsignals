@@ -1,5 +1,139 @@
 [
   {
+    "institution": "ESMA (European Securities and Markets Authority)",
+    "initiative": "ESMA identifies areas for further supervisory convergence on compliance and internal audit in the funds sector",
+    "description": "The EU-wide review found that most fund managers comply with key requirements under the AIFMD and UCITS framework. The report also sets out examples of good and poor practices identified across the compliance and internal audit functions, highlighting where controls were effective and where further strengthening is needed. ESMA identifies areas for further supervisory convergence on compliance and internal audit in the funds sector",
+    "date": "2026-06-05",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-identifies-areas-further-supervisory-convergence-compliance-and-internal",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "Wallester secures FCA authorisation as EMI",
+    "description": "Wallester UK has been authorised by the UK Financial Conduct Authority (FCA) as an Electronic Money Institution (EMI), establishing a regulated foundation for its operations in the United Kingdom and advancing the company’s international expansion strategy.",
+    "date": "2026-06-05",
+    "source_url": "https://www.finextra.com/pressarticle/110048/wallester-secures-fca-authorisation-as-emi",
+    "category": "regulators",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Why Banks Are Reassessing Legacy Email Encryption as DORA, AI, and Cloud Modernization Converge",
+    "description": "Banking technology leaders are being asked to do something that sounds straightforward but rarely is... Why Banks Are Reassessing Legacy Email Encryption as DORA, AI, and Cloud Modernization Converge",
+    "date": "2026-06-05",
+    "source_url": "https://www.finextra.com/blogposting/31940/why-banks-are-reassessing-legacy-email-encryption-as-dora-ai-and-cloud-modernization-converge",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Clearing House",
+    "initiative": "US banks tap The Clearing House for tokenized deposit network",
+    "description": "The Wall Street Journal reported that the Clearing House (TCH) will operate a tokenized deposit network for US banks. They are the logical operator given they already run multiple payment systems including CHIPS, EPN and RTP. TCH is owned by 21 banks including JP Morgan, Citi, Bank of America and Wells Fargo. Additionally, it has",
+    "date": "2026-06-05",
+    "source_url": "https://www.ledgerinsights.com/us-banks-tap-the-clearing-house-for-tokenized-deposit-network/",
+    "category": "payments",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Morgan Stanley",
+    "initiative": "Morgan Stanley lets clients lend bitcoin and other assets for in-kind spot crypto ETF conversions",
+    "description": "Morgan Stanley Wealth Management and Galaxy Digital have partnered to let eligible clients lend crypto in exchange for crypto ETP shares.",
+    "date": "2026-06-05",
+    "source_url": "https://www.theblock.co/post/403825/morgan-stanley-clients-lend-bitcoin-in-kind-spot-crypto-etf-conversions",
+    "category": "global_banks",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "Grayscale pursues Canton Coin ETF after Hyperliquid debut",
+    "description": "Securities and Exchange Commission to launch a spot Canton Coin exchange-traded fund, extending its recent push into crypto investment products just days after its Hyperliquid staking ETF began trading. Grayscale Investments has filed with the U.S. Grayscale pursues Canton Coin ETF after Hyperliquid debut",
+    "date": "2026-06-05",
+    "source_url": "https://crypto.news/grayscale-pursues-canton-coin-etf-after-hyperliquid-debut/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Canton Network",
+    "initiative": "Visa tests private stablecoin settlement on Canton Network with Brale SBC",
+    "description": "According to a joint announcement from Visa, Brale, and Canton Network participants, the companies… Visa tests private stablecoin settlement on Canton Network with Brale SBC",
+    "date": "2026-06-05",
+    "source_url": "https://crypto.news/visa-tests-private-stablecoin-settlement-on-canton-network-with-brale-sbc/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "The credibility of bail-in",
     "description": "by Alessandro Di Stefano, Yvan Lengwiler, Kumar Rishabh The resolution framework for global systemically important banks has been over a decade in the making. The failure of Credit Suisse (CS) in March 2023 was its first major test. Authorities had a resolution plan in place but chose a different path amid financial stability concerns.",
@@ -9406,130 +9540,6 @@
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "Bitcoin liquidations hit $320M after SEC stock plan delay",
-    "description": "Bitcoin liquidations surpassed $320 million in longs on May 22 after the SEC unexpectedly delayed its tokenized stock plan. The SEC delayed a plan on May 22 to provide broad exemptions for US crypto firms to trade tokenized assets linked… Bitcoin liquidations hit $320M after SEC stock plan delay",
-    "date": "2026-05-23",
-    "source_url": "https://crypto.news/bitcoin-liquidations-hit-320m-on-sec-stock-news/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Fintech Wrap Up",
-    "initiative": "Banks are still fighting AI fraud with yesterday’s playbook - Tyler Allen (CEO, Unit21)",
-    "description": "In this episode of the WRAP UP Podcast, I speak with Tyler Allen, CEO of Unit21, about why AI agents may become one of the most important tools in the fight against financial crime.",
-    "date": "2026-05-22",
-    "source_url": "https://www.fintechwrapup.com/p/unit21",
-    "category": "ecosystem",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Santander",
-    "initiative": "Getnet Turns Six, Reaches Profitability, and Eyes Global Expansion",
-    "description": "Hey Payments Fanatic! Getnet’s growth story shows just how fast Argentina’s payments market has evolved since opening up in 2019. In only six years, the Santander-backed company has grown to more than 200,000 merchants and reached profitability before its sixth anniversary — a rare milestone",
-    "date": "2026-05-22",
-    "source_url": "https://www.connectingthedotsinpayments.com/getnet-turns-six-reaches-profitability-and-eyes-global-expansion/",
-    "category": "global_banks",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Sergiy Nikolaychuk: Integrating Ukraine's financial sector into the European framework in wartime - challenges and strategic gains",
-    "description": "Keynote speech by Mr Sergiy Nikolaychuk, First Deputy Governor of the National Bank of Ukraine, at the dinner of the AFME (Association for Financial Markets in Europe) European Financial Integration Conference 2026, Frankfurt am Main, 19 May 2026.",
-    "date": "2026-05-22",
-    "source_url": "https://www.bis.org/review/r260602k.htm",
-    "category": "regulators",
-    "source_name": "BIS — Central Banker Speeches",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Ripple",
-    "initiative": "Ripple backs Squid’s $6M round to simplify cross-chain crypto",
-    "description": "Ripple joined a $6M funding round for cross-chain infrastructure platform Squid. Cross-chain platform Squid raised $6 million in strategic funding to build new consumer-facing products that simplify how users move assets across blockchains. Ripple backs Squid’s $6M round to simplify cross-chain crypto",
-    "date": "2026-05-22",
-    "source_url": "https://crypto.news/ripple-backs-squids-6m-cross-chain-round/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
-    "description": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
-    "date": "2026-05-22",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Kevin Warsh sworn in as Fed chair with Bitcoin at $77,400",
-    "description": "Kevin Warsh was sworn in as the 17th Federal Reserve chair at a White House ceremony on Friday, becoming the first Fed leader to take… Kevin Warsh sworn in as Fed chair with Bitcoin at $77,400",
-    "date": "2026-05-22",
-    "source_url": "https://crypto.news/kevin-warsh-sworn-in-as-fed-chair-at-white-house/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
