@@ -1,5 +1,44 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "AI exposed a massive flaw in top crypto network and experts warn banks could be next",
+    "description": "After an AI model helped uncover a four-year-old flaw in Zcash, security researchers warn that similar bugs may be hiding across crypto and traditional financial systems.",
+    "date": "2026-06-05",
+    "source_url": "https://www.coindesk.com/tech/2026/06/05/ai-exposed-a-massive-flaw-in-top-crypto-network-and-experts-warn-banks-could-be-next",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "Hyperliquid draws FCA warning while ICE explores its model",
+    "description": "Hyperliquid has been flagged by the UK Financial Conduct Authority, bringing regulatory scrutiny to one of the largest crypto perpetual futures venues. According to a notice published by the UK Financial Conduct Authority on May 21, Hyperliquid, Hyper Foundation, the… Hyperliquid draws FCA warning while ICE explores its model",
+    "date": "2026-06-05",
+    "source_url": "https://crypto.news/hyperliquid-draws-fca-warning-while-ice-explores-its-model/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Securitize",
     "initiative": "BlackRock-backed Securitize nears NYSE debut after SEC move",
     "description": "Securitize has moved closer to entering public markets after securing regulatory clearance for its planned SPAC merger. Securities and Exchange Commission, the agency has declared effective the S-4 registration tied to Securitize’s proposed combination with Cantor… BlackRock-backed Securitize nears NYSE debut after SEC move",
@@ -9496,45 +9535,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Crypto and the Fed: State of Crypto",
-    "description": "This past week saw incremental, but potentially important steps.",
-    "date": "2026-05-24",
-    "source_url": "https://www.coindesk.com/policy/2026/05/24/crypto-and-the-fed-state-of-crypto",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Franklin Templeton",
-    "initiative": "Tokenization Is the Real Story. And You’re Probably Missing It.",
-    "description": "RWA tokenization just crossed $29B, with BlackRock, Franklin Templeton, and Ondo leading. Here's why this matters more than any token price chart in crypto",
-    "date": "2026-05-24",
-    "source_url": "https://crypto.news/tokenization-is-the-real-story-and-youre-probably-missing-it/",
-    "category": "asset_management",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
