@@ -1,6 +1,24 @@
 [
   {
     "institution": "Securitize",
+    "initiative": "BlackRock-backed Securitize nears NYSE debut after SEC move",
+    "description": "Securitize has moved closer to entering public markets after securing regulatory clearance for its planned SPAC merger. Securities and Exchange Commission, the agency has declared effective the S-4 registration tied to Securitize’s proposed combination with Cantor… BlackRock-backed Securitize nears NYSE debut after SEC move",
+    "date": "2026-06-05",
+    "source_url": "https://crypto.news/blackrock-backed-securitize-nears-nyse-debut-after-sec-move/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Securitize",
     "initiative": "BlackRock-backed tokenization firm Securitize clears key hurdle to go public on NYSE",
     "description": "The tokenization specialist behind BlackRock's BUIDL fund could begin trading on the NYSE as SEC approves merger registration.",
     "date": "2026-06-05",
@@ -9409,6 +9427,23 @@
     "year": "2026"
   },
   {
+    "institution": "Visa",
+    "initiative": "Deep Dive: Structural Analysis of Visa’s Value-Added Services",
+    "description": "The contemporary payments landscape is defined by the progressive decoupling of software intelligence from proprietary physical transaction rails.",
+    "date": "2026-05-24",
+    "source_url": "https://www.fintechwrapup.com/p/deep-dive-structural-analysis-of",
+    "category": "payments",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Institutionalizing Trust: The Governance Mandate for AI in Post-Trade Architecture",
     "description": "The financial services sector has reached a critical inflection point where the novelty of generativ... Institutionalizing Trust: The Governance Mandate for AI in Post-Trade Architecture",
@@ -9500,44 +9535,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "CFTC crypto oversight questioned after officials were pushed out",
-    "description": "NYT says CFTC officials who questioned prediction market firms were suspended as crypto enforcement fell and state legal fights widened.",
-    "date": "2026-05-24",
-    "source_url": "https://crypto.news/cftc-crypto-oversight-questioned-after-officials-were-pushed-out/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Bank of America picks Bitcoin ETF over Ether and Solana in Q1",
-    "description": "Bank of America reported $53m in crypto ETF holdings, led by a $37m IBIT stake, while reducing Ether and Solana ETF exposure in a Q1 filing.",
-    "date": "2026-05-24",
-    "source_url": "https://crypto.news/bank-of-america-picks-bitcoin-etf-over-ether-and-solana-in-q1/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
