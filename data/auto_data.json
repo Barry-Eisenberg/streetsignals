@@ -1,5 +1,23 @@
 [
   {
+    "institution": "Nasdaq",
+    "initiative": "SpaceX lands Google GPU deal as record IPO countdown begins",
+    "description": "A regulatory filing by SpaceX said Google will pay the company $920 million per month from… SpaceX has secured a major compute agreement withGoogle ahead of its planned Nasdaq listing, adding another large customer to its expanding AI infrastructure business. SpaceX lands Google GPU deal as record IPO countdown begins",
+    "date": "2026-06-05",
+    "source_url": "https://crypto.news/spacex-lands-google-gpu-deal-as-record-ipo-countdown-begins/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "HSBC",
     "initiative": "JP Morgan, HSBC, StanChart in Hong Kong tokenized bond expert group",
     "description": "The Hong Kong Monetary Authority (HKMA) has unveiled a 21 member tokenized bond expert group to help scale issuance in the jurisdiction. Together they aim to explore policy measures, market practices and innovations. The group has already met and provided input for legal and regulatory enhancements being developed with the Financial Services and the Treasury",
@@ -9515,25 +9533,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "NYT investigation alleges CFTC purged staff who questioned Trump-tied crypto firms",
-    "description": "Two officials who intervened to help three firms win approvals over staff objections, per the NYT, have since taken jobs at MoonPay and Gemini Titan.",
-    "date": "2026-05-24",
-    "source_url": "https://www.theblock.co/post/402442/nyt-investigation-alleges-cftc-purged-staff-who-questioned-trump-tied-crypto-firms",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
