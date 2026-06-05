@@ -1,5 +1,115 @@
 [
   {
+    "institution": "Bank of England",
+    "initiative": "UK warns against delaying stablecoin rule, suppressing innovation",
+    "description": "The U.K.'s House of Lords urges the Bank of England to support stablecoins and proposes a flexible regulatory approach ahead of new digital asset rules.",
+    "date": "2026-06-05",
+    "source_url": "https://coingeek.com/uk-warns-against-delaying-stablecoin-rule-suppressing-innovation/",
+    "category": "regulators",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "How Banks Are Transforming Their Business Through SaaS",
+    "description": "Talking to FinextraTV at the Temenos Community Forum in Copenhagen, Edgardo Torres Caballero, SVP, Global Partnerships, Temenos, and Yves Dupuy, Global Leader, Financial Services Solutions, AWS, shared their thoughts on how cloud infrastructure deployment is progressing. Dupuy explained how banks choose SaaS for ease of adoption while others choose to build and differentiate using the cloud. He explained how, for those who have not yet adopted cloud, it is not technology or regulators holding back, but something else entirely. When looking at how to actually adopt new infrastructure, Torres-Caballero praised the convergence of SaaS solutions with cloud infrastructure as a quantum leap, comparing code capacities between older legacy patches and newer updates on a SaaS environment.",
+    "date": "2026-06-05",
+    "source_url": "https://www.finextra.com/videoarticle/3522/how-banks-are-transforming-their-business-through-saas",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "Hong Kong taps JPMorgan, HSBC for expert group to scale tokenized bonds",
+    "description": "The Hong Kong Monetary Authority announced the formation of an expert group to advance the development of tokenized bonds.",
+    "date": "2026-06-05",
+    "source_url": "https://www.theblock.co/post/403787/hong-kong-expert-group-tokenized-bonds",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Banks use the XRP Ledger. They don’t buy XRP",
+    "description": "Banks are adopting the XRP Ledger, but XRP stays stuck at $1.30. Why ledger adoption doesn't create token demand, and the metrics that would change it.",
+    "date": "2026-06-05",
+    "source_url": "https://crypto.news/banks-use-the-xrp-ledger-they-dont-buy-xrp/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "JPMorgan warns the CLARITY Act is running out of time",
+    "description": "On June 4, 2026, JPMorgan delivered a warning the crypto industry did not want to hear. In a report led by managing director Nikolaos Panigirtzoglou, the bank said the window for Congress to pass the CLARITY Act this year is… JPMorgan warns the CLARITY Act is running out of time",
+    "date": "2026-06-05",
+    "source_url": "https://crypto.news/jpmorgan-warns-the-clarity-act-is-running-out-of-time/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Australian Securities and Investments Commission",
+    "initiative": "2026’s 6 leading cloud mining platforms as Bitcoin mining enters a new era",
+    "description": "The cryptocurrency market has changed dramatically over the past year. Cloud mining regains momentum as platforms like SHRMiner simplify access to digital asset participation. 2026’s 6 leading cloud mining platforms as Bitcoin mining enters a new era",
+    "date": "2026-06-05",
+    "source_url": "https://crypto.news/2026s-6-leading-cloud-mining-platforms-as-bitcoin-mining-enters-a-new-era/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "JPMorgan",
     "initiative": "JPMorgan, Bank of America, Citi to start blockchain offensive with shared tokenized network",
     "description": "American's biggest banks plan to introduce a shared tokenized network next year to tackle the potential threat of stablecoins eating into their deposits.",
@@ -9422,121 +9532,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Anchorage Digital",
-    "initiative": "CADD stablecoin gains Anchorage Digital custody",
-    "description": "Tetra Digital Group’s CADD, Canada’s first regulated Canadian dollar stablecoin issued by a financial institution, can now be custodied by Anchorage Digital for institutional clients. As of May 22, institutions can now hold CADD through Anchorage Digital, a federally chartered… CADD stablecoin gains Anchorage Digital custody",
-    "date": "2026-05-22",
-    "source_url": "https://crypto.news/cadd-stablecoin-gains-anchorage-digital-custody/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA (European Securities and Markets Authority)",
-    "initiative": "ESMA identifies areas for further supervisory convergence on compliance and internal audit in the funds sector",
-    "description": "The EU-wide review found that most fund managers comply with key requirements under the AIFMD and UCITS framework. The report also sets out examples of good and poor practices identified across the compliance and internal audit functions, highlighting where controls were effective and where further strengthening is needed. ESMA identifies areas for further supervisory convergence on compliance and internal audit in the funds sector",
-    "date": "2026-05-22",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-identifies-areas-further-supervisory-convergence-compliance-and-internal",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Live markets: Bitcoin continues holding pattern near $77,000 ahead of Kevin Warsh taking over at Fed",
-    "description": "Kevin Warsh is set to be sworn as Fed chairman in a White House ceremony on Friday morning.",
-    "date": "2026-05-22",
-    "source_url": "https://www.coindesk.com/tech/2026/05/22/live-markets-bitcoin-continues-holding-pattern-near-usd77-000-ahead-of-holiday-weekend",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Raqami Islamic Digital Bank granted commercial license by State Bank of Pakistan",
-    "description": "Raqami Islamic Digital Bank Limited (RIDBL) has been granted a Digital Retail Banking License by the State Bank of Pakistan for commencement of Commercial Operations, marking a significant milestone as Raqami becomes the first fully digital Shariah-compliant retail bank in Pakistan.",
-    "date": "2026-05-22",
-    "source_url": "https://www.finextra.com/pressarticle/109930/raqami-islamic-digital-bank-granted-commercial-license-by-state-bank-of-pakistan",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "TBC Georgia adds crypto trading to banking app",
-    "description": "TBC Georgia, a leading financial services provider in the South Caucasus country and part of London-listed TBC Bank Group, announces the launch of a new cryptocurrency trading feature in its digital banking app.",
-    "date": "2026-05-22",
-    "source_url": "https://www.finextra.com/pressarticle/109929/tbc-georgia-adds-crypto-trading-to-banking-app",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainlink",
-    "initiative": "Chainlink’s CCIP stack drives $110b in value secured, overtaking DeFi oracles",
-    "description": "Chainlink now secures more than $110 billion in onchain value across cross chain tokens and DeFi markets, underlining how central the oracle network has become to the infrastructure of digital assets and tokenised finance. Chainlink (LINK) has pushed past $110… Chainlink’s CCIP stack drives $110b in value secured, overtaking DeFi oracles",
-    "date": "2026-05-22",
-    "source_url": "https://crypto.news/chainlinks-ccip-stack-drives-110b-in-value-secured-overtaking-defi-oracles/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "DeFi",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
