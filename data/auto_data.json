@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "Coinbase CEO Brian Armstrong warns China could win if US crypto rules stall",
+    "description": "crypto policy fight into a national competitiveness argument by saying rivalry with China could strengthen America. Armstrong said competition with China “might be the best thing to happen to America since the… Coinbase CEO Brian Armstrong warns China could win if US crypto rules stall",
+    "date": "2026-06-05",
+    "source_url": "https://crypto.news/coinbase-ceo-brian-armstrong-warns-china-could-win-if-us-crypto-rules-stall/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ECB (European Central Bank)",
     "initiative": "ECB highlights need for EU tokenized deposit regulation to avoid fragmentation",
     "description": "During a hearing of the European Parliament’s ECON committee yesterday, ECB Executive Board member Piero Cipollone made a forceful case for public sector involvement in wholesale tokenized finance, calling it “extremely important” and warning that without it, the opportunity could be lost. He argued that if the ECB does not provide a wholesale central bank",
@@ -9516,23 +9535,6 @@
     "signal_type": "Product Launch",
     "fmi_areas": [
       "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Visa",
-    "initiative": "Deep Dive: Structural Analysis of Visa’s Value-Added Services",
-    "description": "The contemporary payments landscape is defined by the progressive decoupling of software intelligence from proprietary physical transaction rails.",
-    "date": "2026-05-24",
-    "source_url": "https://www.fintechwrapup.com/p/deep-dive-structural-analysis-of",
-    "category": "payments",
-    "source_name": "Fintech Wrap Up",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers"
     ],
     "initiative_types": [],
     "year": "2026"
