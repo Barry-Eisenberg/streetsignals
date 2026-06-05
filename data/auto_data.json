@@ -1,5 +1,25 @@
 [
   {
+    "institution": "ECB (European Central Bank)",
+    "initiative": "ECB highlights need for EU tokenized deposit regulation to avoid fragmentation",
+    "description": "During a hearing of the European Parliament’s ECON committee yesterday, ECB Executive Board member Piero Cipollone made a forceful case for public sector involvement in wholesale tokenized finance, calling it “extremely important” and warning that without it, the opportunity could be lost. He argued that if the ECB does not provide a wholesale central bank",
+    "date": "2026-06-05",
+    "source_url": "https://www.ledgerinsights.com/ecb-highlights-need-for-eu-tokenized-deposit-regulation-to-avoid-fragmentation/",
+    "category": "regulators",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Nasdaq",
     "initiative": "SpaceX lands Google GPU deal as record IPO countdown begins",
     "description": "A regulatory filing by SpaceX said Google will pay the company $920 million per month from… SpaceX has secured a major compute agreement withGoogle ahead of its planned Nasdaq listing, adding another large customer to its expanding AI infrastructure business. SpaceX lands Google GPU deal as record IPO countdown begins",
@@ -9513,24 +9533,6 @@
     "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
       "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Institutionalizing Trust: The Governance Mandate for AI in Post-Trade Architecture",
-    "description": "The financial services sector has reached a critical inflection point where the novelty of generativ... Institutionalizing Trust: The Governance Mandate for AI in Post-Trade Architecture",
-    "date": "2026-05-24",
-    "source_url": "https://www.finextra.com/blogposting/31813/institutionalizing-trust-the-governance-mandate-for-ai-in-post-trade-architecture",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Regulation & Compliance"
     ],
     "initiative_types": [],
     "year": "2026"
