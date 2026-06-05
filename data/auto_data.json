@@ -1,5 +1,24 @@
 [
   {
+    "institution": "CoinGeek",
+    "initiative": "Vietnam taps digital assets collateral for SMEs, boosts VNeID",
+    "description": "Vietnam proposes allowing SMEs to use digital assets as loan collateral while advancing the VNeID into a comprehensive national digital 'super app.'",
+    "date": "2026-06-05",
+    "source_url": "https://coingeek.com/vietnam-taps-digital-assets-collateral-for-smes-boosts-vneid/",
+    "category": "ecosystem",
+    "source_name": "CoinGeek",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Swift",
     "initiative": "BofA preps cross-border real-time payments service",
     "description": "Bank of America will soon enable corporate, commercial and financial institution clients to send and receive funds across borders instantly through Swift or the bank's CashPro digital platform.",
@@ -9518,23 +9537,6 @@
     "initiative_types": [
       "Leadership & Governance"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "SEC Commissioner cools hype around “innovation exemption” for stocks",
-    "description": "Securities and Exchange Commission Commissioner Hester Peirce has pushed back against expectations that the agency could soon open the door to unrestricted tokenized stock trading through a proposed “innovation exemption.” According to comments Peirce posted on X on Thursday,… SEC Commissioner cools hype around “innovation exemption” for stocks",
-    "date": "2026-05-22",
-    "source_url": "https://crypto.news/sec-commissioner-cools-hype-around-innovation-exemption-for-stocks/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
