@@ -1,5 +1,22 @@
 [
   {
+    "institution": "HSBC",
+    "initiative": "JP Morgan, HSBC, StanChart in Hong Kong tokenized bond expert group",
+    "description": "The Hong Kong Monetary Authority (HKMA) has unveiled a 21 member tokenized bond expert group to help scale issuance in the jurisdiction. Together they aim to explore policy measures, market practices and innovations. The group has already met and provided input for legal and regulatory enhancements being developed with the Financial Services and the Treasury",
+    "date": "2026-06-05",
+    "source_url": "https://www.ledgerinsights.com/jp-morgan-hsbc-stanchart-in-hong-kong-tokenized-bond-expert-group/",
+    "category": "global_banks",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "AI exposed a massive flaw in top crypto network and experts warn banks could be next",
     "description": "After an AI model helped uncover a four-year-old flaw in Zcash, security researchers warn that similar bugs may be hiding across crypto and traditional financial systems.",
@@ -9513,26 +9530,6 @@
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase does not fear competition from Wall Street, says exchange executive",
-    "description": "A Coinbase executive called on regulators to implement sensible crypto regulation, while announcing the Stand With Crypto event taking place in over 500 locations worldwide.",
-    "date": "2026-05-24",
-    "source_url": "https://www.coindesk.com/business/2026/05/24/coinbase-does-not-fear-competition-from-wall-street-says-exchange-executive",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
