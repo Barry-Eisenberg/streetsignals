@@ -1,5 +1,41 @@
 [
   {
+    "institution": "Swift",
+    "initiative": "BofA preps cross-border real-time payments service",
+    "description": "Bank of America will soon enable corporate, commercial and financial institution clients to send and receive funds across borders instantly through Swift or the bank's CashPro digital platform.",
+    "date": "2026-06-05",
+    "source_url": "https://www.finextra.com/newsarticle/47867/bofa-preps-cross-border-real-time-payments-service",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainalysis",
+    "initiative": "Chainalysis reveals $100 million peptide market built on crypto",
+    "description": "The cryptocurrency-funded peptide market has surpassed a $100 million annual run rate after first-quarter sales jumped 159% quarter-over-quarter to $32 million, according to a new report from Chainalysis. According to Chainalysis, demand for off-label peptides has expanded rapidly beyond niche… Chainalysis reveals $100 million peptide market built on crypto",
+    "date": "2026-06-04",
+    "source_url": "https://crypto.news/chainalysis-reveals-100-million-peptide-market-built-on-crypto/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CME Group",
     "initiative": "CME’s Terry Duffy calls U.S. crypto perps a disaster waiting",
     "description": "CME Group Chief Executive Terry Duffy has warned that the recent approval of cryptocurrency perpetual futures in the U.S. has created significant risks for investors and the financial system, calling the products “a disaster waiting to happen.” According to remarks… CME’s Terry Duffy calls U.S. crypto perps a disaster waiting",
@@ -9492,42 +9528,6 @@
     "auto_generated": true,
     "institution_type": "Exchanges & Central Intermediaries",
     "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Santander",
-    "initiative": "Getnet Turns Six, Reaches Profitability, and Eyes Global Expansion",
-    "description": "Hey Payments Fanatic! Getnet’s growth story shows just how fast Argentina’s payments market has evolved since opening up in 2019. In only six years, the Santander-backed company has grown to more than 200,000 merchants and reached profitability before its sixth anniversary — a rare milestone",
-    "date": "2026-05-22",
-    "source_url": "https://www.connectingthedotsinpayments.com/getnet-turns-six-reaches-profitability-and-eyes-global-expansion/",
-    "category": "global_banks",
-    "source_name": "Connecting the Dots in Payments",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "Why did Harvard dump its Ethereum ETF after one quarter?",
-    "description": "Harvard exited its $87M Ethereum ETF stake in Q1 and cut Bitcoin ETF holdings, SEC filings show, as ETH faces market and EF pressure in May.",
-    "date": "2026-05-22",
-    "source_url": "https://crypto.news/why-did-harvard-dump-its-ethereum-etf-after-one-quarter/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Filing / Plan",
     "fmi_areas": [
       "General Infrastructure"
     ],
