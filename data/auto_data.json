@@ -1,6 +1,29 @@
 [
   {
     "institution": "Coinbase",
+    "initiative": "Are retail traders selling their bitcoin to buy the SpaceX IPO?",
+    "description": "Exchange flows and stablecoin movements through this week's sell-off show no wall of money leaving crypto for cash. Exchanges such as Robinhood and Coinbase will not publicly reporting their figures until July.",
+    "date": "2026-06-06",
+    "source_url": "https://www.coindesk.com/markets/2026/06/06/are-retail-traders-selling-their-bitcoin-to-buy-the-spacex-ipo",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
     "initiative": "Brian Armstrong says Bitcoin drop hides crypto’s bigger story",
     "description": "Bitcoin has fallen nearly 25% over the past month, yet Coinbase CEO Brian Armstrong has argued that key parts of the crypto industry continue to grow despite the downturn. According to a June 6 X post, Armstrong said many investors… Brian Armstrong says Bitcoin drop hides crypto’s bigger story",
     "date": "2026-06-06",
@@ -9517,26 +9540,6 @@
     "initiative_types": [
       "Tokenized Securities / RWA",
       "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "SEC delays tokenized stock exemption after exchanges raise ownership concerns",
-    "description": "Securities and Exchange Commission has reportedly delayed plans to introduce a proposed exemption for tokenized stock trading after exchanges and market participants raised concerns over investor protections and how blockchain-based ownership would function in practice. According to a… SEC delays tokenized stock exemption after exchanges raise ownership concerns",
-    "date": "2026-05-25",
-    "source_url": "https://crypto.news/sec-delays-tokenized-stock-exemption-after-exchanges-raise-ownership-concerns/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
       "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
