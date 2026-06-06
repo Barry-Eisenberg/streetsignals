@@ -1,6 +1,25 @@
 [
   {
     "institution": "Coinbase",
+    "initiative": "Will Solana price slide to $50 next as whales cut exposure?",
+    "description": "Solana price has fallen to a multi-year low as a major corporate holder moved $31.9 million worth of SOL to Coinbase Prime, adding to fears that whales are reducing exposure during the market selloff. According to data from crypto.news, Solana… Will Solana price slide to $50 next as whales cut exposure?",
+    "date": "2026-06-06",
+    "source_url": "https://crypto.news/will-solana-price-slide-to-50-next-as-whales-cut-exposure/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
     "initiative": "Are retail traders selling their bitcoin to buy the SpaceX IPO?",
     "description": "Exchange flows and stablecoin movements through this week's sell-off show no wall of money leaving crypto for cash. Exchanges such as Robinhood and Coinbase will not publicly reporting their figures until July.",
     "date": "2026-06-06",
@@ -9518,29 +9537,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Brian Armstrong says finance must move on-chain or fall behind",
-    "description": "Coinbase CEO Brian Armstrong says finance needs 8 upgrades, including RWA tokenization, stablecoins, AI tools and better regulation.",
-    "date": "2026-05-25",
-    "source_url": "https://crypto.news/brian-armstrong-says-finance-must-move-on-chain-or-fall-behind/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
   }
