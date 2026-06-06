@@ -1,6 +1,26 @@
 [
   {
     "institution": "The Block",
+    "initiative": "HTX to delist Trump-linked USD1 after saying World Liberty Financial froze exchange-linked addresses",
+    "description": "The move follows World Liberty Financial's apparent freeze of HTX-linked on-chain addresses, citing UK sanctions compliance, per HTX.",
+    "date": "2026-06-06",
+    "source_url": "https://www.theblock.co/post/403885/htx-to-delist-trump-linked-usd1-after-saying-world-liberty-financial-froze-exchange-linked-addresses",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
     "initiative": "Wallet linked to Ethereum co-founder Joseph Lubin moves 110,000 ETH to defend $259M DAI debt position",
     "description": "Onchain analysts described the move as defensive collateral management to reduce liquidation risk, not likely a sale.",
     "date": "2026-06-06",
@@ -9520,25 +9540,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "Bitcoin options are coming to Nadaq. Here's what it means for you.",
-    "description": "The new offering, pending CFTC approval, aims to democratize seamless crypto risk management",
-    "date": "2026-05-25",
-    "source_url": "https://www.coindesk.com/markets/2026/05/25/bitcoin-options-are-coming-to-nadaq-here-s-what-it-means-for-you",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
