@@ -1,6 +1,25 @@
 [
   {
     "institution": "Coinbase",
+    "initiative": "Brian Armstrong says Bitcoin drop hides crypto’s bigger story",
+    "description": "Bitcoin has fallen nearly 25% over the past month, yet Coinbase CEO Brian Armstrong has argued that key parts of the crypto industry continue to grow despite the downturn. According to a June 6 X post, Armstrong said many investors… Brian Armstrong says Bitcoin drop hides crypto’s bigger story",
+    "date": "2026-06-06",
+    "source_url": "https://crypto.news/brian-armstrong-says-bitcoin-drop-hides-cryptos-bigger-story/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
     "initiative": "Coinbase CEO Brian Armstrong warns China could win if US crypto rules stall",
     "description": "crypto policy fight into a national competitiveness argument by saying rivalry with China could strengthen America. Armstrong said competition with China “might be the best thing to happen to America since the… Coinbase CEO Brian Armstrong warns China could win if US crypto rules stall",
     "date": "2026-06-05",
@@ -9520,23 +9539,6 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "TD builds AI model to speed up mortgage applications",
-    "description": "Canada's TD Bank has launched an agentic AI model that automates and streamlines the application process for mortgages and home equity lines of credit.",
-    "date": "2026-05-25",
-    "source_url": "https://www.finextra.com/newsarticle/47801/td-builds-ai-model-to-speed-up-mortgage-applications",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
