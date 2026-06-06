@@ -1,5 +1,25 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "America’s largest banks are building a new digital currency network to stop a massive deposit drain",
+    "description": "America’s biggest banks are launching tokenized deposits to compete with stablecoins, opening a new front in the race to become the dominant form of cash on blockchain networks.",
+    "date": "2026-06-06",
+    "source_url": "https://www.coindesk.com/business/2026/06/06/america-s-largest-banks-are-building-a-new-digital-currency-network-to-stop-a-massive-deposit-drain",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "Will Solana price slide to $50 next as whales cut exposure?",
     "description": "Solana price has fallen to a multi-year low as a major corporate holder moved $31.9 million worth of SOL to Coinbase Prime, adding to fears that whales are reducing exposure during the market selloff. According to data from crypto.news, Solana… Will Solana price slide to $50 next as whales cut exposure?",
@@ -9518,25 +9538,6 @@
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "FTX legal adviser Fenwick settles customer lawsuit for $54m",
-    "description": "Fenwick & West has agreed to pay $54 million to settle a class action lawsuit filed by former FTX customers who accused the law firm of helping facilitate fraud at the collapsed cryptocurrency exchange. According to court filings tied to… FTX legal adviser Fenwick settles customer lawsuit for $54m",
-    "date": "2026-05-25",
-    "source_url": "https://crypto.news/ftx-legal-adviser-fenwick-settles-customer-lawsuit-for-54m/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
