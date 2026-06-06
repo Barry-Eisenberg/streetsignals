@@ -1,5 +1,25 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Wallet linked to Ethereum co-founder Joseph Lubin moves 110,000 ETH to defend $259M DAI debt position",
+    "description": "Onchain analysts described the move as defensive collateral management to reduce liquidation risk, not likely a sale.",
+    "date": "2026-06-06",
+    "source_url": "https://www.theblock.co/post/403876/wallet-linked-to-ethereum-co-founder-joseph-lubin-moves-110000-eth-to-defend-259m-dai-debt-position",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "America’s largest banks are building a new digital currency network to stop a massive deposit drain",
     "description": "America’s biggest banks are launching tokenized deposits to compete with stablecoins, opening a new front in the race to become the dominant form of cash on blockchain networks.",
@@ -9519,25 +9539,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BlackRock",
-    "initiative": "Tokens are still a sleeping giant",
-    "description": "Stripe, BlackRock push tokenization beyond NFT hype as scalable blockchains like BSV gain traction for real-world finance and commerce.",
-    "date": "2026-05-25",
-    "source_url": "https://coingeek.com/tokens-are-still-a-sleeping-giant/",
-    "category": "asset_management",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
     ],
     "year": "2026"
   }
