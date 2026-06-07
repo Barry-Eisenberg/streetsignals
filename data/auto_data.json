@@ -1,5 +1,45 @@
 [
   {
+    "institution": "Ripple",
+    "initiative": "Is capital leaving Ethereum for XRPL’s RWA market?",
+    "description": "Analysts claim XRPL is attracting fresh RWA capital as Ripple expands tokenization and Ethereum faces outflows.",
+    "date": "2026-06-07",
+    "source_url": "https://crypto.news/is-capital-leaving-ethereum-for-xrpls-rwa-market/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Tokenization & Issuance"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "FinCEN",
+    "initiative": "GENIUS Act deadline puts stablecoin issuers on notice",
+    "description": "GENIUS Act rules face a June 9 comment deadline as FinCEN and OFAC move stablecoin issuers toward AML and sanctions compliance.",
+    "date": "2026-06-07",
+    "source_url": "https://crypto.news/genius-act-deadline-puts-stablecoin-issuers-on-notice/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "HTX to delist Trump-linked USD1 after saying World Liberty Financial froze exchange-linked addresses",
     "description": "The move follows World Liberty Financial's apparent freeze of HTX-linked on-chain addresses, citing UK sanctions compliance, per HTX.",
@@ -9498,48 +9538,6 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Tether",
-    "initiative": "Tether plans GELT stablecoin launch with support from Georgian government",
-    "description": "GELT is designed to support cross-border commerce under a Georgian framework aligned with emerging U.S. stablecoin regulations.",
-    "date": "2026-05-25",
-    "source_url": "https://www.theblock.co/post/402453/tether-gelt-stablecoin-georgian-lari",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Tether",
-    "initiative": "Tether targets Georgia with lari-backed GEL₮ stablecoin launch",
-    "description": "Tether and Georgia plan GEL₮, a lari-backed stablecoin built for faster payments, lower costs, and regulated digital value transfers.",
-    "date": "2026-05-25",
-    "source_url": "https://crypto.news/tether-targets-georgia-with-lari-backed-stablecoin-launch/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   }
