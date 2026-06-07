@@ -1,5 +1,22 @@
 [
   {
+    "institution": "Digital Asset Exchange",
+    "initiative": "Bybit follows Kraken in offering tokenized SpaceX IPO access via xStocks",
+    "description": "The product is built on Payward's xStocks framework, the tokenized equities platform Kraken acquired through its purchase of Backed Finance in late 2025.",
+    "date": "2026-06-07",
+    "source_url": "https://www.theblock.co/post/403893/bybit-follows-kraken-in-offering-tokenized-spacex-ipo-access-via-xstocks",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Consensys",
     "initiative": "Ethereum Foundation cuts and departures aren't a crisis, Joe Lubin says",
     "description": "The Consensys leader told CoinDesk the Ethereum Foundation's role should be narrower and more focused on stewarding the network's core technology and values.",
@@ -9515,25 +9532,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BlackRock",
-    "initiative": "BlackRock dumps $1B Bitcoin as ETF outflows hit yearly high",
-    "description": "BlackRock has recorded more than $1 billion in Bitcoin sales over the past week as U.S. spot Bitcoin ETFs posted their largest weekly outflow of 2026. BlackRock dumps $1B Bitcoin as ETF outflows hit yearly high",
-    "date": "2026-05-25",
-    "source_url": "https://crypto.news/blackrock-dumps-1b-bitcoin-as-etf-outflows-hit-yearly-high/",
-    "category": "asset_management",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
