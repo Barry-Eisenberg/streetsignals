@@ -1,5 +1,24 @@
 [
   {
+    "institution": "JPMorgan",
+    "initiative": "JPMorgan says Strategy may need to rebuild dollar reserves to restore confidence",
+    "description": "JPMorgan said crypto's outlook depends on Strategy's dividend plan and the Clarity Act, for which it now sees less than a 50% chance of passage this year.",
+    "date": "2026-06-07",
+    "source_url": "https://www.theblock.co/post/403905/jpmorgan-strategy-dollar-reserves-crypto-bill-chance",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Nasdaq",
     "initiative": "Abra’s Bill Barhydt says Wall Street’s next crypto bet is tokenization",
     "description": "As Abra prepares for a Nasdaq debut, CEO Bill Barhydt is betting tokenized yield products and onchain lending will drive the next phase of crypto wealth management.",
@@ -9516,24 +9535,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Mastercard",
-    "initiative": "Mastercard asks Brazilian payment processors to split Will losses",
-    "description": "Mastercard is asking Brazilian payment processors to absorb some of nearly $1 billion in losses connected to the failure of Banco Masters.",
-    "date": "2026-05-25",
-    "source_url": "https://www.finextra.com/newsarticle/47802/mastercard-asks-brazilian-payment-processors-to-split-will-losses",
-    "category": "payments",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
