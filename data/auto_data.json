@@ -1,5 +1,25 @@
 [
   {
+    "institution": "Nasdaq",
+    "initiative": "Abra’s Bill Barhydt says Wall Street’s next crypto bet is tokenization",
+    "description": "As Abra prepares for a Nasdaq debut, CEO Bill Barhydt is betting tokenized yield products and onchain lending will drive the next phase of crypto wealth management.",
+    "date": "2026-06-07",
+    "source_url": "https://www.coindesk.com/business/2026/06/07/abra-s-bill-barhydt-says-wall-street-s-next-crypto-bet-is-tokenization",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Digital Asset Exchange",
     "initiative": "Bybit follows Kraken in offering tokenized SpaceX IPO access via xStocks",
     "description": "The product is built on Payward's xStocks framework, the tokenized equities platform Kraken acquired through its purchase of Backed Finance in late 2025.",
@@ -9514,26 +9534,6 @@
       "Interoperability & Standards"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "The stablecoin yield loophole: Banks vs the CLARITY Act",
-    "description": "The CLARITY Act cleared the Senate Banking Committee 15-9 on May 14, 2026, but the biggest threat to its passage was never the crypto skeptics or the SEC holdouts. It was the American Bankers Association. The stablecoin yield loophole: Banks vs the CLARITY Act",
-    "date": "2026-05-25",
-    "source_url": "https://crypto.news/the-stablecoin-yield-loophole-banks-vs-the-clarity-act/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
