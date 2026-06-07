@@ -1,5 +1,24 @@
 [
   {
+    "institution": "Consensys",
+    "initiative": "Ethereum Foundation cuts and departures aren't a crisis, Joe Lubin says",
+    "description": "The Consensys leader told CoinDesk the Ethereum Foundation's role should be narrower and more focused on stewarding the network's core technology and values.",
+    "date": "2026-06-07",
+    "source_url": "https://www.coindesk.com/tech/2026/06/07/ethereum-foundation-cuts-and-departures-aren-t-a-crisis-joe-lubin-says",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Digital Asset Exchange",
     "initiative": "Bybit opens tokenized SpaceX access through IPO Express",
     "description": "Bybit launched IPO Express and introduced tokenized SpaceX exposure through xStocks with 1:1 equity backing.",
@@ -9517,23 +9536,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "SEC Delays Tokenized Stocks Innovation Exemption Amid Synthetic Token Concerns",
-    "description": "The SEC delayed its innovation exemption for tokenized stocks after pushback from stock exchanges over third-party synthetic tokens, with Commissioner Peirce clarifying scope on X.",
-    "date": "2026-05-25",
-    "source_url": "https://unchainedcrypto.com/sec-delays-tokenized-stocks-innovation-exemption-amid-synthetic-token-concerns/",
-    "category": "regulators",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
