@@ -9138,6 +9138,24 @@
     "year": "2026"
   },
   {
+    "institution": "ECB (European Central Bank)",
+    "initiative": "Disciplining digital risk: evidence from cyber stress tests",
+    "description": "by Nordine Abidi, Leonardo Gambacorta, Christoffer Kok, Leonardo Madio, Ixart Miquel-Flores, Alberto Partida Investment in cybersecurity in an interconnected banking system has public-good properties: positive externalities can generate systemic underinvestment. Using confidential supervisory data from the European Central Bank, we first identify \"laggard\" European banks that underinvest relative to their cyber-risk profiles, and then examine how supervisory scrutiny affects their incentives to invest.",
+    "date": "2026-05-26",
+    "source_url": "https://www.bis.org/publ/work1351.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Interoperability & Standards",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Capital flows, exchange rates and financial conditions in EMEs in an evolving international monetary system",
     "description": "The papers in this volume reflect the key themes discussed at the meeting, exploring the intersection of global and domestic factors shaping EMEs' financial conditions. They examine the evolving dynamics of capital flows and exchange rates, the role of local and foreign investors and the transmission of global financial shocks to EMEs.",
@@ -9497,27 +9515,6 @@
       "Trading & Exchange"
     ],
     "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "OCC (Office of the Comptroller of the Currency)",
-    "initiative": "Crypto lobby pushes back on Warren, backs OCC’s stablecoin charters",
-    "description": "banking regulator in a bid to blunt Senator Elizabeth Warren’s claim that national trust charters for firms like Coinbase, Ripple, and Circle are illegal under federal banking law. Leading crypto trade groups are rallying behind the U.S. Crypto lobby pushes back on Warren, backs OCC’s stablecoin charters",
-    "date": "2026-05-26",
-    "source_url": "https://crypto.news/crypto-lobby-pushes-back-on-warren-backs-occs-stablecoin-charters/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
