@@ -1,5 +1,22 @@
 [
   {
+    "institution": "Stripe",
+    "initiative": "Adyen wins Gov.UK Pay contract",
+    "description": "The UK government has replaced Stripe with Adyen as its processor for the Gov.UK Pay payments platform.",
+    "date": "2026-06-08",
+    "source_url": "https://www.finextra.com/newsarticle/47872/adyen-wins-govuk-pay-contract",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "JPMorgan",
     "initiative": "JPMorgan says Strategy may need to rebuild dollar reserves to restore confidence",
     "description": "JPMorgan said crypto's outlook depends on Strategy's dividend plan and the Clarity Act, for which it now sees less than a 50% chance of passage this year.",
@@ -9512,25 +9529,6 @@
     "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
       "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "PCE, jobless claims and housing data test Fed cut hopes: Crypto Week Ahead",
-    "description": "Your look at what's coming in the week starting May 25.",
-    "date": "2026-05-25",
-    "source_url": "https://www.coindesk.com/markets/2026/05/25/pce-jobless-claims-and-housing-data-test-fed-cut-hopes-crypto-week-ahead",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Data & Reporting"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
