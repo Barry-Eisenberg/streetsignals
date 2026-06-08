@@ -1,5 +1,22 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Community Banks and the Existential Gap in Consumer Lending",
+    "description": "For decades, community banks defined themselves by their ability to serve local households and small... Community Banks and the Existential Gap in Consumer Lending",
+    "date": "2026-06-08",
+    "source_url": "https://www.finextra.com/blogposting/31951/community-banks-and-the-existential-gap-in-consumer-lending",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "The digitalisation of banking and social media: implications for deposit pricing",
     "description": "by Michael Brei, Giulio Cornelli, Leonardo Gambacorta, Boris Hofmann This paper examines the implications of two coincident digital trends – the digitalisation of banking and the widespread adoption of social media – for the pricing of deposits in the United States. Using branch-level data, we analyse how both trends interact to influence the level of deposit rates as well as their adjustment to changes in the policy rate.",
@@ -9504,23 +9521,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "UK Government commissions review into bank branch closures",
-    "description": "The UK Government has commissioned an independent review to examine the impact of bank branch closures and consider whether further intervention is needed to protect access to services.",
-    "date": "2026-05-26",
-    "source_url": "https://www.finextra.com/newsarticle/47807/uk-government-commissions-review-into-bank-branch-closures",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
