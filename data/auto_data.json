@@ -1,5 +1,115 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "The digitalisation of banking and social media: implications for deposit pricing",
+    "description": "by Michael Brei, Giulio Cornelli, Leonardo Gambacorta, Boris Hofmann This paper examines the implications of two coincident digital trends – the digitalisation of banking and the widespread adoption of social media – for the pricing of deposits in the United States. Using branch-level data, we analyse how both trends interact to influence the level of deposit rates as well as their adjustment to changes in the policy rate.",
+    "date": "2026-06-08",
+    "source_url": "https://www.bis.org/publ/work1357.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "BBVA partners AWS to build architecture for faster AI deployment",
+    "description": "BBVA has enlisted Amazon Web Services to help roll out a machine learning operations (MLOps) framework that will help the Spanish bank speed up its deployment of AI models.",
+    "date": "2026-06-08",
+    "source_url": "https://www.finextra.com/newsarticle/47878/bbva-partners-aws-to-build-architecture-for-faster-ai-deployment",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Consensys",
+    "initiative": "MetaMask debuts Agent Wallet giving AI bots self-custody access to Ethereum",
+    "description": "Consensys-backed MetaMask is rolling out a non-custodial wallet for AI agents for general availability this summer.",
+    "date": "2026-06-08",
+    "source_url": "https://www.theblock.co/post/403865/metamask-debuts-agent-wallet-giving-ai-bots-self-custody-access-ethereum",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase, Ripple among over 200 crypto organizations urging Senate Clarity Act vote",
+    "description": "More than 200 organizations, including Coinbase and Ripple, urged Senate leaders to advance the Clarity Act to a floor vote.",
+    "date": "2026-06-08",
+    "source_url": "https://www.theblock.co/post/403964/coinbase-ripple-among-over-200-crypto-organizations-urging-senate-clarity-act-vote",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "UK FCA proposes allowing authorized funds to allocate up to 10% to crypto ETNs",
+    "description": "The FCA proposed allowing authorized UK funds to hold up to 10% in crypto ETNs, extending access opened by last year's retail ban lift.",
+    "date": "2026-06-08",
+    "source_url": "https://www.theblock.co/post/403957/uk-fca-proposes-allowing-authorized-funds-to-allocate-up-to-10-to-crypto-etns",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Bitcoin’s store of value case remains intact despite weak inflows: Bernstein",
+    "description": "Bitcoin has attracted about $12 billion in combined inflows from exchange-traded funds and corporate treasury buyers in 2026, even as ETF investors pulled a net $2.6 billion from the market, according to Bernstein. Bernstein analysts led by Gautam Chhugani said… Bitcoin’s store of value case remains intact despite weak inflows: Bernstein",
+    "date": "2026-06-08",
+    "source_url": "https://crypto.news/bitcoins-store-of-value-case-remains-intact-despite-weak-inflows-bernstein/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Federal Reserve",
     "initiative": "Michelle W Bowman: Supervision and regulation",
     "description": "Speech by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, before the Committee on Financial Services, US House of Representatives, Washington DC, 4 June 2026.",
@@ -8901,6 +9011,23 @@
     "year": "2026"
   },
   {
+    "institution": "BIS",
+    "initiative": "Capital flows, exchange rates and financial conditions in EMEs in an evolving international monetary system",
+    "description": "The papers in this volume reflect the key themes discussed at the meeting, exploring the intersection of global and domestic factors shaping EMEs' financial conditions. They examine the evolving dynamics of capital flows and exchange rates, the role of local and foreign investors and the transmission of global financial shocks to EMEs.",
+    "date": "2026-05-26",
+    "source_url": "https://www.bis.org/publ/bppdf/bispap171.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Tether",
     "initiative": "Georgia Just Made One of the Boldest Stablecoin Moves by Any Government Yet",
     "description": "Hey Payments Fanatic! Tether and the Government of Georgia are launching a national stablecoin together. And that’s a much bigger signal than it may sound at first glance. The new GEL₮ stablecoin will represent the Georgian Lari on digital rails, making Georgia one of the first countries",
@@ -9392,139 +9519,6 @@
     "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Swift",
-    "initiative": "The ISO 20022 Migration Nobody Talks About: Data Quality Over Compliance Checkbox",
-    "description": "November 2025 came and went. SWIFT retired MT messages for cross-border payments. The ISO 20022 Migration Nobody Talks About: Data Quality Over Compliance Checkbox",
-    "date": "2026-05-26",
-    "source_url": "https://www.finextra.com/blogposting/31826/the-iso-20022-migration-nobody-talks-about-data-quality-over-compliance-checkbox",
-    "category": "payments",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Robinhood clears final regulatory approval for $180M WonderFi deal ahead of expected June 1 close",
-    "description": "Canada's CIRO approved Robinhood's acquisition of WonderFi, clearing the final regulatory hurdle ahead of an expected June 1 close.",
-    "date": "2026-05-26",
-    "source_url": "https://www.theblock.co/post/402542/robinhood-clears-final-regulatory-approval-wonderfi-deal",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Digital Asset Exchange",
-    "initiative": "Bitget launches RWA platform Reality in tokenization push",
-    "description": "Bitget said Reality will initially offer tokenized exposure to selected U.S. stocks and ETFs through its broader trading ecosystem.",
-    "date": "2026-05-26",
-    "source_url": "https://www.theblock.co/post/402518/bitget-launches-reality-rwa",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Tokenization & Issuance",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Canton Network",
-    "initiative": "Bitwise debuts Canton Network ETP on Deutsche Börse Xetra",
-    "description": "Bitwise listed a Canton Network ETP on Deutsche Börse Xetra, backing it with CC tokens held in cold storage.",
-    "date": "2026-05-26",
-    "source_url": "https://www.theblock.co/post/402538/bitwise-debuts-canton-network-etp-on-deutsche-borse-xetra",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinShares",
-    "initiative": "Global crypto ETP outflows deepen to $1.5B as bitcoin products post worst weekly redemptions of 2026: CoinShares",
-    "description": "Crypto ETP outflows extended to $1.47B last week as bitcoin posted its worst weekly redemption of 2026 with risk-off spreading globally.",
-    "date": "2026-05-26",
-    "source_url": "https://www.theblock.co/post/402528/global-crypto-etp-outflows-deepen-to-1-5b-as-bitcoin-products-post-worst-weekly-redemption-of-2026-coinshares",
-    "category": "asset_management",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Unchained",
-    "initiative": "Hyperliquid Launches Canonical Prediction Markets Where Validators Replace External Oracles",
-    "description": "Hyperliquid expanded HIP-4 to support offchain event markets with validators handling both deployment and settlement, placing it in direct competition with Polymarket and Kalshi.",
-    "date": "2026-05-26",
-    "source_url": "https://unchainedcrypto.com/hyperliquid-launches-canonical-prediction-markets-where-validators-replace-external-oracles/",
-    "category": "ecosystem",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "Binance seeks Philippines comeback through SEC sandbox deal",
-    "description": "Binance partnered with BlockShoals under the Philippine SEC sandbox as it seeks a regulated route back after its 2024 access block in 2026.",
-    "date": "2026-05-26",
-    "source_url": "https://crypto.news/binance-seeks-philippines-comeback-through-sec-sandbox-deal/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Regulation & Compliance"
     ],
     "initiative_types": [],
     "year": "2026"
