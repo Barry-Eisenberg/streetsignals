@@ -1,5 +1,60 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "Aave chief defends protocol's 'resilience' after $8.45 billion bank run",
+    "description": "The founder of the largest DeFi platform blamed \"third-party” entities for decentralized finance’s vulnerabilities, while independent data highlights severe gaps in Aave’s own risk architecture.",
+    "date": "2026-06-08",
+    "source_url": "https://www.coindesk.com/business/2026/06/08/aave-labs-founder-stani-kulechov-deflects-responsibility-in-usd8-billion-run-on-stage",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Ripple and Coinbase press Senate as CLARITY Act faces delays",
+    "description": "The crypto industry has intensified its push for the CLARITY Act after more than 200 companies and organizations signed a letter urging Senate leaders to schedule a floor vote, while analysts warn the bill is running short on time. According… Ripple and Coinbase press Senate as CLARITY Act faces delays",
+    "date": "2026-06-08",
+    "source_url": "https://crypto.news/ripple-and-coinbase-press-senate-as-clarity-act-faces-delays/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "HYPE price surges 12% as Coinbase activates Hyperliquid USDC treasury",
+    "description": "According to a June 8 announcement from… HYPE price surges 12% as Coinbase activates Hyperliquid USDC treasury",
+    "date": "2026-06-08",
+    "source_url": "https://crypto.news/hype-price-surges-12-as-coinbase-activates-hyperliquid-usdc-treasury/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Community Banks and the Existential Gap in Consumer Lending",
     "description": "For decades, community banks defined themselves by their ability to serve local households and small... Community Banks and the Existential Gap in Consumer Lending",
@@ -9465,61 +9520,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "CFTC purged staff who raised crypto, prediction market concerns",
-    "description": "The CFTC is facing scrutiny over reported favoritism shown to crypto and prediction markets with ties to the family of U.S. President Donald Trump.",
-    "date": "2026-05-26",
-    "source_url": "https://coingeek.com/cftc-purged-staff-who-raised-crypto-prediction-market-concerns/",
-    "category": "regulators",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Circle",
-    "initiative": "Circle co-founder raises $30m for agentic finance startup Catena",
-    "description": "Agentic finance startup Catena Labs has raised $30 million in Series A financing and applied for a national trust bank charter.",
-    "date": "2026-05-26",
-    "source_url": "https://www.finextra.com/newsarticle/47809/circle-co-founder-raises-30m-for-agentic-finance-startup-catena",
-    "category": "payments",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Tether",
-    "initiative": "Tether to build national stablecoin for Georgian Government",
-    "description": "Tether has been commissioned by the Government of Georgia to develop GEL₮, a stablecoin representing the Georgian Lari.",
-    "date": "2026-05-26",
-    "source_url": "https://www.finextra.com/newsarticle/47808/tether-to-build-national-stablecoin-for-georgian-government",
-    "category": "payments",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   }
