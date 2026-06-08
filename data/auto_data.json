@@ -1,5 +1,60 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "Coinbase strategist says institutions aren’t panicking about bitcoin, ‘love it even more’ at lower prices",
+    "description": "Family offices and sovereign wealth funds continue accumulating bitcoin despite the recent selloff, according to Coinbase's John D'Agostino.",
+    "date": "2026-06-08",
+    "source_url": "https://www.theblock.co/post/404019/coinbase-strategist-institutions-arent-panicking-bitcoin-love-more-lower-prices",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "UK FCA permits crypto ETNs for UK funds but imposes strict ceiling",
+    "description": "The United Kingdom’s Financial Conduct Authority has proposed allowing authorized investment funds to allocate up to 10% of their assets to crypto exchange-traded notes, while keeping direct cryptocurrency ownership off limits. According to the FCA’s 52nd quarterly consultation paper, the… UK FCA permits crypto ETNs for UK funds but imposes strict ceiling",
+    "date": "2026-06-08",
+    "source_url": "https://crypto.news/uk-fca-permits-crypto-etns-for-uk-funds-but-imposes-strict-ceiling/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "TON Strategy reports 3.3 million TON in May staking rewards",
+    "description": "The Nasdaq-listed company said its preliminary gross staking yield reached about 1.48% in May. The update came as the firm continued… TON Strategy reports 3.3 million TON in May staking rewards",
+    "date": "2026-06-08",
+    "source_url": "https://crypto.news/ton-strategy-reports-3-3-million-ton-in-may-staking-rewards/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "CoinDesk",
     "initiative": "Aave chief defends protocol's 'resilience' after $8.45 billion bank run",
     "description": "The founder of the largest DeFi platform blamed \"third-party” entities for decentralized finance’s vulnerabilities, while independent data highlights severe gaps in Aave’s own risk architecture.",
@@ -9463,62 +9518,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Australian Securities and Investments Commission",
-    "initiative": "WhatsApp ‘star traders’ script fake wins for Australia’s Gen Z",
-    "description": "Australia’s corporate watchdog has warned that fake crypto platforms pushed through WhatsApp-style “trading groups” are targeting young investors with fabricated profits, fake order books and invented withdrawal fees. The Australian Securities and Investments Commission has issued a fresh scam alert… WhatsApp ‘star traders’ script fake wins for Australia’s Gen Z",
-    "date": "2026-05-26",
-    "source_url": "https://crypto.news/whatsapp-star-traders-script-fake-wins-for-australias-gen-z/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "ECB (European Central Bank)",
-    "initiative": "Disciplining digital risk: evidence from cyber stress tests",
-    "description": "by Nordine Abidi, Leonardo Gambacorta, Christoffer Kok, Leonardo Madio, Ixart Miquel-Flores, Alberto Partida Investment in cybersecurity in an interconnected banking system has public-good properties: positive externalities can generate systemic underinvestment. Using confidential supervisory data from the European Central Bank, we first identify \"laggard\" European banks that underinvest relative to their cyber-risk profiles, and then examine how supervisory scrutiny affects their incentives to invest.",
-    "date": "2026-05-26",
-    "source_url": "https://www.bis.org/publ/work1351.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Interoperability & Standards",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Nasdaq",
-    "initiative": "Bitcoin risks another lower high as stocks rally, AI tokens outperform",
-    "description": "The bitcoin price chart is forming a potential lower high while ether languishes in a months-old range even as S&P 500 and Nasdaq 100 index futures push higher.",
-    "date": "2026-05-26",
-    "source_url": "https://www.coindesk.com/markets/2026/05/26/bitcoin-risks-another-lower-high-as-stocks-rally-ai-tokens-outperform",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
