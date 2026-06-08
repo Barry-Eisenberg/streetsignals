@@ -1,5 +1,79 @@
 [
   {
+    "institution": "CoinDesk",
+    "initiative": "XRP steadies above $1.10 to bounce from four-month lows",
+    "description": "XRP recovered from four-month lows on elevated volume, but the token remains trapped below key resistance levels even as ETF inflows and exchange outflows continue to build.",
+    "date": "2026-06-08",
+    "source_url": "https://www.coindesk.com/markets/2026/06/08/xrp-steadies-above-usd1-10-as-oversold-bounce-meets-lingering-bearish-pressure",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Mastercard",
+    "initiative": "Backbase collaborates with Mastercard to simplify cross-border payments for banks",
+    "description": "Backbase announced a strategic collaboration with Mastercard to integrate Mastercard Move - Mastercard's portfolio of global money movement capabilities - into the Backbase AI-native Banking OS.",
+    "date": "2026-06-08",
+    "source_url": "https://www.finextra.com/pressarticle/110047/backbase-collaborates-with-mastercard-to-simplify-cross-border-payments-for-banks",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "JPMorgan sees Strategy reserve shortfall as key risk for Bitcoin investors",
+    "description": "Michael Saylor’s Strategy has seen JPMorgan turn cautious on digital assets, with the bank warning that the company may need to rebuild its $ reserves as annual dividend obligations reach about $1.7 billion. According to a Friday report from JPMorgan… JPMorgan sees Strategy reserve shortfall as key risk for Bitcoin investors",
+    "date": "2026-06-08",
+    "source_url": "https://crypto.news/jpmorgan-sees-strategy-reserve-shortfall-as-key-risk-for-bitcoin-investors/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "The Fed, Iran, and Saylor: anatomy of the June crypto crash",
+    "description": "The June 2026 crypto crash had four causes, not one: a hawkish Fed, US-Iran strikes, Saylor's Bitcoin sale, and record ETF outflows. The full anatomy.",
+    "date": "2026-06-08",
+    "source_url": "https://crypto.news/the-fed-iran-and-saylor-anatomy-of-the-june-crypto-crash/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "JPMorgan",
     "initiative": "JPMorgan, Citi, and Big Banks Are Building Their Answer to Stablecoins",
     "description": "Hey Payments Fanatic! For years, banks have watched stablecoins grow from a niche crypto experiment into a multi-hundred-billion-dollar market. Now they're responding. JPMorgan, Citi, Bank of America, Wells Fargo, and other major U.S. banks are reportedly working on a shared tokenized deposit network that would allow money",
@@ -9455,84 +9529,6 @@
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "SHIBA INU futures netflow plunges 306% in CoinGlass data",
-    "description": "CoinGlass tracked SHIB futures netflow dropping 306%, with the total value of SHIB leaving derivatives exchange wallets outpacing inflows. SHIB futures netflow plunged 306% as outflows exceeded inflows, according to CoinGlass derivatives data. SHIBA INU futures netflow plunges 306% in CoinGlass data",
-    "date": "2026-05-25",
-    "source_url": "https://crypto.news/shib-futures-flow-falls-306percnt-as-traders-pull-back/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "The 22-Hour Shadow Tax: What the FCA Sandbox Revealed About UK–Nigeria Payments",
-    "description": "When LemFi announced its £100 million commitment to the UK and its integration of Tether (USDT), the... The 22-Hour Shadow Tax: What the FCA Sandbox Revealed About UK–Nigeria Payments",
-    "date": "2026-05-25",
-    "source_url": "https://www.finextra.com/blogposting/31818/the-22-hour-shadow-tax-what-the-fca-sandbox-revealed-about-uknigeria-payments",
-    "category": "regulators",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "MoonPay",
-    "initiative": "MoonPay ChatGPT app lets users buy Bitcoin and XRP",
-    "description": "MoonPay launched a dedicated app inside ChatGPT’s App Store on May 22, allowing users to generate cryptocurrency purchase links without leaving OpenAI’s chatbot.… MoonPay ChatGPT app is now the first crypto onramp inside OpenAI’s platform, supporting Bitcoin, XRP and Solana. MoonPay ChatGPT app lets users buy Bitcoin and XRP",
-    "date": "2026-05-25",
-    "source_url": "https://crypto.news/moonpay-chatgpt-app-lets-users-buy-bitcoin-and-xrp/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "XRP pre-sale surpasses $10 million, XRP holders are paying close attention to SHRMiner’s free cloud mining service",
-    "description": "According to CNBC, following months of negotiations regarding stablecoin yield rules and decentralized finance (DeFi) regulation, the Digital Asset Market Transparency Act was passed… Regulatory progress and XRP growth fuel interest in cloud mining platforms like SHRMiner among crypto investors. XRP pre-sale surpasses $10 million, XRP holders are paying close attention to SHRMiner’s free cloud mining service",
-    "date": "2026-05-25",
-    "source_url": "https://crypto.news/xrp-pre-sale-surpasses-10-million-xrp-holders-are-paying-close-attention-to-shrminers-free-cloud-mining-service/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DeFi",
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
