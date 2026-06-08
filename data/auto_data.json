@@ -1,5 +1,43 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Convicted FTX founder Bankman-Fried applies for pardon",
+    "description": "Sam Bankman-Fried has officially asked President Donald Trump for a pardon two years after being sentenced to 25 years in prison for stealing $8 billion from customers of FTX, the bankrupt cryptocurrency exchange he founded.",
+    "date": "2026-06-08",
+    "source_url": "https://www.finextra.com/newsarticle/47881/convicted-ftx-founder-bankman-fried-applies-for-pardon",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Stani Kulechov defends Aave after $8.45B DeFi bank run shock",
+    "description": "Aave founder Stani Kulechov has defended the decentralized lending protocol after an $8.45 billion withdrawal wave followed a major DeFi exploit earlier this year. Speaking at the Proof of Talk conference in Paris last week, Kulechov argued that Aave remained… Stani Kulechov defends Aave after $8.45B DeFi bank run shock",
+    "date": "2026-06-08",
+    "source_url": "https://crypto.news/stani-kulechov-defends-aave-after-8-45b-defi-bank-run-shock/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "Coinbase strategist says institutions aren’t panicking about bitcoin, ‘love it even more’ at lower prices",
     "description": "Family offices and sovereign wealth funds continue accumulating bitcoin despite the recent selloff, according to Coinbase's John D'Agostino.",
@@ -9478,44 +9516,6 @@
     ],
     "initiative_types": [
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Strive leapfrogs Coinbase, Riot with latest $85.4 million bitcoin buy",
-    "description": "Vivek Ramaswamy-founded Strive now ranks as the seventh-largest public corporate bitcoin holder, trailing Bullish.",
-    "date": "2026-05-26",
-    "source_url": "https://www.theblock.co/post/402567/strive-leapfrogs-coinbase-riot-85-4-million-bitcoin-buy",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "UK sanctions HTX over support of Russia in broad sweep over crypto exchanges",
-    "description": "The United Kingdom sanctioned a large crypto exchange, accusing it of \"supporting the government of Russia.\"",
-    "date": "2026-05-26",
-    "source_url": "https://www.theblock.co/post/402591/uk-sanctions-htx-over-support-of-russia-in-broad-sweep-over-crypto-exchanges",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
