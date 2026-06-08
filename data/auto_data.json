@@ -1,5 +1,111 @@
 [
   {
+    "institution": "Federal Reserve",
+    "initiative": "Michelle W Bowman: Supervision and regulation",
+    "description": "Speech by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, before the Committee on Financial Services, US House of Representatives, Washington DC, 4 June 2026.",
+    "date": "2026-06-08",
+    "source_url": "https://www.bis.org/review/r260608b.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Denis Beau: Strengthening the security of European payments",
+    "description": "Keynote speech by Mr Denis Beau, First Deputy Governor of the Bank of France, at the conference \"Digital fraud: detect, respond and prevent\", hosted by the Banco de Portugal, Lisbon, 26 May 2026.",
+    "date": "2026-06-08",
+    "source_url": "https://www.bis.org/review/r260608a.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "ESMA (European Securities and Markets Authority)",
+    "initiative": "European Commission launches call for candidates for the ESAs’ Board of Appeal",
+    "description": "The Board is responsible for ruling on appeals against certain decisions of the ESAs, in accordance with Article 60 of the ESAs’ regulations. The reserve list will remain valid for a period of five years from the date of its adoption. European Commission launches call for candidates for the ESAs’ Board of Appeal",
+    "date": "2026-06-08",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/european-commission-launches-call-candidates-esas-board-appeal",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Digital Asset Exchange",
+    "initiative": "Bybit challenges Wall Street with a massive push into tokenized U.S. stock IPOs",
+    "description": "Retail investors can now buy shares at official underwritten prices through the crypto exchange, bypassing Wall Street’s exclusive pre-IPO clubs.",
+    "date": "2026-06-08",
+    "source_url": "https://www.coindesk.com/markets/2026/06/08/bybit-launches-tokenized-ipo-service-starting-with-elon-musk-s-spacex",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "One of the first free AI-powered smart platforms in 2026, offering sustainable daily passive income of $5,700",
+    "description": "Market volatility drives interest in AI-powered platforms like XRPPower for digital asset management and analysis. The cryptocurrency market has experienced significant volatility in recent weeks. One of the first free AI-powered smart platforms in 2026, offering sustainable daily passive income of $5,700",
+    "date": "2026-06-08",
+    "source_url": "https://crypto.news/one-of-the-first-free-ai-powered-smart-platforms-in-2026-offering-sustainable-daily-passive-income-of-5700/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Strive CEO backs ending Bitcoin capital gains tax to boost adoption",
+    "description": "Strive Asset Management has backed efforts to remove capital gains taxes on Bitcoin transactions in the U.S., as its CEO says the firm is actively working with policymakers while lawmakers prepare to review digital asset tax rules. According to Matthew… Strive CEO backs ending Bitcoin capital gains tax to boost adoption",
+    "date": "2026-06-08",
+    "source_url": "https://crypto.news/strive-ceo-backs-ending-bitcoin-capital-gains-tax-to-boost-adoption/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ECB (European Central Bank)",
     "initiative": "U.S. inflation, European Central Bank rate decision: Crypto Week Ahead",
     "description": "Your look at what's coming in the week starting June 8.",
@@ -8795,6 +8901,26 @@
     "year": "2026"
   },
   {
+    "institution": "Tether",
+    "initiative": "Georgia Just Made One of the Boldest Stablecoin Moves by Any Government Yet",
+    "description": "Hey Payments Fanatic! Tether and the Government of Georgia are launching a national stablecoin together. And that’s a much bigger signal than it may sound at first glance. The new GEL₮ stablecoin will represent the Georgian Lari on digital rails, making Georgia one of the first countries",
+    "date": "2026-05-26",
+    "source_url": "https://www.connectingthedotsinpayments.com/georgia-just-made-one-of-the-boldest-stablecoin-moves-by-any-government-yet/",
+    "category": "payments",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Ledger Insights",
     "initiative": "UK experts argue need for tokenization composability, not a replication of legacy",
     "description": "Many tokenization initiatives amount to little more than putting existing financial products on a distributed ledger, often to reach crypto native investors. Two UK experts in the asset management sector have published a paper calling for a fundamental rethink, arguing the industry should harness tokenization’s potential for composability rather than simply digitizing the status quo.",
@@ -9401,131 +9527,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Digital Asset Exchange",
-    "initiative": "Bitget bets on tokenized Wall Street with new Reality platform",
-    "description": "Bitget has launched a regulated tokenization platform called Reality, expanding its push into on-chain access to U.S. financial assets through tokenized stocks and ETFs. Bitget bets on tokenized Wall Street with new Reality platform",
-    "date": "2026-05-26",
-    "source_url": "https://crypto.news/bitget-bets-on-tokenized-wall-street-with-new-reality-platform/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Robinhood set to close WonderFi deal after Canadian regulatory approval",
-    "description": "Robinhood has secured final Canadian regulatory approval for its planned acquisition of WonderFi, allowing the C$250 million deal to move toward a June 1 closing date. According to WonderFi’s press release issued on Monday, the Canadian Investment Regulatory Organization approved… Robinhood set to close WonderFi deal after Canadian regulatory approval",
-    "date": "2026-05-26",
-    "source_url": "https://crypto.news/robinhood-set-to-close-wonderfi-deal-after-canadian-regulatory-approval/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Pi Network’s Path to Tier-1 Exchanges: What’s Happening with Binance, Coinbase, and Kraken",
-    "description": "Kraken listed PI in March. OKX opened US access in May. Binance and Coinbase still on the sidelines. Here's the structural reason why, and what would change it.",
-    "date": "2026-05-26",
-    "source_url": "https://crypto.news/pi-networks-path-to-tier-1-exchanges-whats-happening-with-binance-coinbase-and-kraken/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Capital flows, exchange rates and financial conditions in EMEs in an evolving international monetary system",
-    "description": "The papers in this volume reflect the key themes discussed at the meeting, exploring the intersection of global and domestic factors shaping EMEs' financial conditions. They examine the evolving dynamics of capital flows and exchange rates, the role of local and foreign investors and the transmission of global financial shocks to EMEs.",
-    "date": "2026-05-26",
-    "source_url": "https://www.bis.org/publ/bppdf/bispap171.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinShares",
-    "initiative": "Bitcoin sees biggest 2026 weekly outflow as crypto funds lose $1.47B: CoinShares",
-    "description": "Bitcoin funds saw $1.315B in weekly outflows as digital asset products lost $1.47B, with Iran risk driving global withdrawals.",
-    "date": "2026-05-26",
-    "source_url": "https://crypto.news/bitcoin-sees-biggest-2026-weekly-outflow-as-crypto-funds-lose-1-47b-coinshares/",
-    "category": "asset_management",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Hyperliquid takes a swing at Polymarket with macro outcome bets",
-    "description": "The decentralized exchange’s new HIP-4 product lets traders bet on offchain events like inflation and interest-rate decisions, using validators rather than UMA-style external dispute resolution.",
-    "date": "2026-05-26",
-    "source_url": "https://www.coindesk.com/markets/2026/05/26/hyperliquid-takes-aim-at-polymarket-with-launch-of-offchain-event-contracts",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "OKX’s X Layer lets users build their own crypto markets",
-    "description": "OKX’s X Layer launched Exchange OS, letting builders deploy spot, perp, and outcome markets as a 2026 World Cup test venue arrives in June.",
-    "date": "2026-05-26",
-    "source_url": "https://crypto.news/okxs-x-layer-lets-users-build-their-own-crypto-markets/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
