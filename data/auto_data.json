@@ -1,5 +1,46 @@
 [
   {
+    "institution": "JPMorgan",
+    "initiative": "JPMorgan, Citi, and Big Banks Are Building Their Answer to Stablecoins",
+    "description": "Hey Payments Fanatic! For years, banks have watched stablecoins grow from a niche crypto experiment into a multi-hundred-billion-dollar market. Now they're responding. JPMorgan, Citi, Bank of America, Wells Fargo, and other major U.S. banks are reportedly working on a shared tokenized deposit network that would allow money",
+    "date": "2026-06-08",
+    "source_url": "https://www.connectingthedotsinpayments.com/jpmorgan-citi-and-big-banks-are-building-their-answer-to-stablecoins/",
+    "category": "payments",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Justin Sun’s HTX drops USD1 as WLFI freeze fight grows",
+    "description": "HTX delisted USD1 after World Liberty froze exchange-linked wallets, escalating Justin Sun’s dispute with the Trump-linked crypto firm.",
+    "date": "2026-06-08",
+    "source_url": "https://crypto.news/justin-suns-htx-drops-usd1-as-wlfi-freeze-fight-grows/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Stripe",
     "initiative": "Adyen wins Gov.UK Pay contract",
     "description": "The UK government has replaced Stripe with Adyen as its processor for the Gov.UK Pay payments platform.",
@@ -9491,46 +9532,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "DeFi",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Coinhouse becomes one of France’s first fully MiCA licensed crypto providers",
-    "description": "Coinhouse has secured Crypto Asset Service Provider accreditation from the French AMF under MiCA, giving the Paris based firm an EU wide passport for brokerage, custody, transfers and advisory on digital assets as France’s national PSAN regime sunsets. Coinhouse becomes one of France’s first fully MiCA licensed crypto providers",
-    "date": "2026-05-25",
-    "source_url": "https://crypto.news/coinhouse-becomes-one-of-frances-first-fully-mica-licensed-crypto-providers/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Today’s leading token storylines from top crypto market dashboards (May 25)",
-    "description": "Crypto markets on May 25 showed a clear divergence between sectors, with infrastructure projects, privacy focused assets and exchange related tokens attracting capital while several previously popular altcoins lagged behind. Crypto market leadership remained concentrated rather than broad based. Today’s leading token storylines from top crypto market dashboards (May 25)",
-    "date": "2026-05-25",
-    "source_url": "https://crypto.news/todays-leading-token-storylines-from-top-crypto-market-dashboards-may-25/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
