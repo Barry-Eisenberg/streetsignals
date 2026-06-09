@@ -1,5 +1,42 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "NYDFS proposes stablecoin regulatory framework",
+    "description": "New York State Department of Financial Services (DFS) Acting Superintendent Kaitlin Asrow today announced a proposed regulation to build on New York’s first-in-the-nation stablecoin framework in accordance with federal regulations under the GENIUS Act.",
+    "date": "2026-06-09",
+    "source_url": "https://www.finextra.com/pressarticle/110086/nydfs-proposes-stablecoin-regulatory-framework",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "FDIC",
+    "initiative": "Klarna launches savings account in US",
+    "description": "Klarna, the global digital bank and flexible payments provider, today announced the launch of Klarna Savings accounts in the U.S. - FDIC-insured accounts with no minimum deposit, no monthly fees, direct deposit, and interest rates above 3% APY¹, available directly in the Klarna app and provided and held by WebBank, member FDIC.",
+    "date": "2026-06-09",
+    "source_url": "https://www.finextra.com/pressarticle/110085/klarna-launches-savings-account-in-us",
+    "category": "regulators",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA (European Securities and Markets Authority)",
     "initiative": "ESMA issues guidance on effective use of resolution tools in CCP crisis planning",
     "description": "In doing so, NRAs should take into account the impact on relevant stakeholders, such as clearing members, financial markets and financial market infrastructures. By promoting consistent practices across jurisdictions, it fosters effective financial markets and financial stability, strategic priorities for ESMA. ESMA issues guidance on effective use of resolution tools in CCP crisis planning",
@@ -8936,6 +8973,27 @@
   },
   {
     "institution": "BIS",
+    "initiative": "Project Agorá shows how tokenisation can improve wholesale cross-border payments; work will advance to real-value testing",
+    "description": "The Project Agorá prototype demonstrates how tokenisation and programmable technologies can address long-standing inefficiencies in wholesale cross-border payments at scale, while preserving the safety and integrity of settlement in central bank reserves.",
+    "date": "2026-05-27",
+    "source_url": "https://www.bis.org/press/p260527.htm",
+    "category": "regulators",
+    "source_name": "BIS — Press Releases",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
     "initiative": "Liquidity regulation and bank funding costs",
     "description": "by Iñaki Aldasoro, Sebastian Doerr, Haonan Zhou We establish a causal link between liquidity regulation and a lower cost of bank wholesale funding. For identification, we use pre-determined variation in banks' liquidity coverage ratio (LCR) in a difference-in-differences setup. Granular instrument-level data allow us to carefully control for any observable and unobservable time-varying factors at the creditor, instrument type, and macroeconomic levels. We find that banks with greater LCR exposure see a steeper decline in their wholesale funding costs.",
     "date": "2026-05-27",
@@ -9431,66 +9489,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Digital Asset Platform",
-    "initiative": "Falcon Finance, Anchorage and Ceffu roll out fUSD as GENIUS ready institutional stablecoin",
-    "description": "Falcon Finance has launched a new institutional payment stablecoin, fUSD, with Anchorage Digital Bank and Ceffu, pitching it as a compliant, non-yielding dollar token backed by U.S. Treasuries for regulated clients. Falcon Finance, Anchorage and Ceffu roll out fUSD as GENIUS ready institutional stablecoin",
-    "date": "2026-05-27",
-    "source_url": "https://crypto.news/falcon-finance-anchorage-and-ceffu-roll-out-fusd-as-genius-ready-institutional-stablecoin/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "DTCC",
-    "initiative": "DTCC taps Stellar to tokenize blue chip equities, ETFs and Treasuries by 2027",
-    "description": "DTCC is partnering with the Stellar Development Foundation to launch DTC custody tokenization services on the Stellar public blockchain, with live assets targeted for the first half of 2027. The Depository Trust & Clearing Corporation (DTCC) and the Stellar Development… DTCC taps Stellar to tokenize blue chip equities, ETFs and Treasuries by 2027",
-    "date": "2026-05-27",
-    "source_url": "https://crypto.news/dtcc-taps-stellar-to-tokenize-blue-chip-equities-etfs-and-treasuries-by-2027/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Custody & Safekeeping"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Hyperliquid’s SpaceX perp lights up regulatory gray zone over private markets",
-    "description": "A Hyperliquid powered, pre IPO style SpaceX perpetual contract on Trade.xyz is letting traders lever up on an implied $1.78 trillion valuation with no equity, no authorization and no clear regulatory home. Decentralized derivatives venue Hyperliquid has listed a pre… Hyperliquid’s SpaceX perp lights up regulatory gray zone over private markets",
-    "date": "2026-05-27",
-    "source_url": "https://crypto.news/hyperliquids-spacex-perp-lights-up-regulatory-gray-zone-over-private-markets/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
