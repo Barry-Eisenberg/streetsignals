@@ -1,6 +1,256 @@
 [
   {
     "institution": "BIS",
+    "initiative": "Burkhard Balz: Cash and the digital euro – complementary forms of public money",
+    "description": "Opening statement by Mr Burkhard Balz, Member of the Executive Board of the Deutsche Bundesbank, at the ESTA Conference and Exhibition 2026, Berlin, 8 June 2026.",
+    "date": "2026-06-09",
+    "source_url": "https://www.bis.org/review/r260609d.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "CBDC"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Michael S Barr: Deregulating in a financial boom - what could go wrong?",
+    "description": "Speech by Mr Michael S Barr, Member of the Board of Governors of the Federal Reserve System, at the American University, Washington DC, 6 June 2026.",
+    "date": "2026-06-09",
+    "source_url": "https://www.bis.org/review/r260609c.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
+    "initiative": "Michele Bullock: Opening Statement to the Senate Economics Legislation Committee (Budget Estimates 2026–2027)",
+    "description": "Opening statement by Ms Michele Bullock, Governor of the Reserve Bank of Australia, to the Senate Economics Legislation Committee (Budget Estimates 2026–2027), Canberra, 4 June 2026.",
+    "date": "2026-06-09",
+    "source_url": "https://www.bis.org/review/r260609b.htm",
+    "category": "regulators",
+    "source_name": "BIS — Central Banker Speeches",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Research / Report",
+    "fmi_areas": [],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BlackRock",
+    "initiative": "Ethena lands Janus Henderson backing as asset manager invests in ENA, eyes USDe distribution",
+    "description": "The deal underscores the trend of traditional asset managers backing DeFi infrastructure, following BlackRock's Uniswap and Apollo's Morpho investments.",
+    "date": "2026-06-09",
+    "source_url": "https://www.coindesk.com/business/2026/06/09/ethena-lands-janus-henderson-backing-as-asset-manager-invests-in-ena-eyes-usde-distribution",
+    "category": "asset_management",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Bank of England",
+    "initiative": "BofE warns of scams after deepfake circulates of governor brawling with Nigel Farage",
+    "description": "The Bank of England has warned the public about falling for scams after AI-generated deepfake images depicting the bank's governor brawling with politician Nigel Farage circulated on X with links to a fake news story promoting a trading scheme.",
+    "date": "2026-06-09",
+    "source_url": "https://www.finextra.com/newsarticle/47888/bofe-warns-of-scams-after-deepfake-circulates-of-governor-brawling-with-nigel-farage",
+    "category": "regulators",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Vine rolls out reporting dashboard",
+    "description": "Vine, a commercial and agriculture lending accelerator for banks and credit unions, today announced the launch of its new Reporting Dashboard, an AI-powered, configurable feature designed to give financial institutions greater visibility into loan portfolio performance, risk exposure and profitability.",
+    "date": "2026-06-09",
+    "source_url": "https://www.finextra.com/pressarticle/110076/vine-rolls-out-reporting-dashboard",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Grasshopper launches treasury management offering",
+    "description": "Grasshopper, the client-first, full-service digital bank, today announced the launch of Grasshopper Treasury, a new treasury management offering developed in partnership with Waldo, a US-regulated investment advisor.",
+    "date": "2026-06-09",
+    "source_url": "https://www.finextra.com/pressarticle/110074/grasshopper-launches-treasury-management-offering",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "How Agentic AI is transforming the Banking Governance",
+    "description": "As banks move toward agentic AI systems that retrieve information, call tools and trigger workflows,... How Agentic AI is transforming the Banking Governance",
+    "date": "2026-06-09",
+    "source_url": "https://www.finextra.com/blogposting/31962/how-agentic-ai-is-transforming-the-banking-governance",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "JPMorgan",
+    "initiative": "JPMorgan plans longer-running AI agents for corporate workflows",
+    "description": "According to Chief Analytics Officer Derek Waldron, the bank expects agents to handle tasks for much longer periods. JPMorgan Chase has prepared a rollout of longer-running AI agents for use later this year. JPMorgan plans longer-running AI agents for corporate workflows",
+    "date": "2026-06-09",
+    "source_url": "https://crypto.news/jpmorgan-plans-longer-running-ai-agents-for-corporat/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "Kalshi targets Hyperliquid with HYPE perpetual futures filing",
+    "description": "Commodity Futures Trading Commission to list perpetual futures tied to Hyperliquid’s HYPE token, adding the asset to a growing roster of crypto derivatives products under review. Kalshi has filed with the U.S. Kalshi targets Hyperliquid with HYPE perpetual futures filing",
+    "date": "2026-06-09",
+    "source_url": "https://crypto.news/kalshi-targets-hyperliquid-with-hype-perpetual-futures-filing/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Digital Asset Exchange",
+    "initiative": "Bitget Wallet rolls out direct token-to-stock trading via upgraded API",
+    "description": "Bitget Wallet has expanded its DEX Aggregator API to support market-order trading of tokenized real-world assets, a market that has reached $31 billion in onchain value, including $1.6 billion in tokenized equities. According to a press release shared with crypto.news,… Bitget Wallet rolls out direct token-to-stock trading via upgraded API",
+    "date": "2026-06-09",
+    "source_url": "https://crypto.news/bitget-wallet-rolls-out-direct-token-to-stock-trading-via-upgraded-api/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "Backpack US names former SEC acting chair Michael Piwowar to board",
+    "description": "The crypto exchange announced the appointment on Tuesday while expanding U.S. Backpack US has appointed former SEC Acting Chairman Michael S. Backpack US names former SEC acting chair Michael Piwowar to board",
+    "date": "2026-06-09",
+    "source_url": "https://crypto.news/backpack-us-names-former-sec-acting-chair-michael-piw/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "HTX sanctions spark backlash as researchers question compliance fallout",
+    "description": "Blockchain researchers have warned that UK sanctions against an HTX-linked entity have disrupted compliance practices across the crypto sector, with one report identifying more than $21 billion in high-risk transaction flows connected to the exchange between 2021 and May 2026.… HTX sanctions spark backlash as researchers question compliance fallout",
+    "date": "2026-06-09",
+    "source_url": "https://crypto.news/htx-sanctions-spark-backlash-as-researchers-question-compliance-fallout/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Regulation & Compliance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BlackRock",
+    "initiative": "BlackRock launches STAR ETF tracking space technology stocks",
+    "description": "BlackRock has launched the iShares Space Technologies UCITS ETF, giving UK and European investors listed exposure to space companies. BlackRock said the fund trades under the ticker STAR and tracks the STOXX Global Space Satellites and Drones Index. BlackRock launches STAR ETF tracking space technology stocks",
+    "date": "2026-06-09",
+    "source_url": "https://crypto.news/blackrock-launches-star-etf-tracking-space-technolog/",
+    "category": "asset_management",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BIS",
     "initiative": "Asset price bubbles and systemic risk in money market funds",
     "description": "by Matteo Aquilina, Peter Cincinelli, Giovanni Urga We investigate the systemic risk contribution of 3,500 Money Market Funds (MMFs) in normal periods and during asset price bubbles in the US from January 2004 to December 2022. Using state-of-the-art statistical techniques for bubble detection and granular fund-level data, we show that MMF characteristics significantly influence systemic risk.",
     "date": "2026-06-09",
@@ -9240,289 +9490,6 @@
       "Stablecoins & Deposit Tokens",
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "SBI Holdings",
-    "initiative": "SBI Group invests in Temple Digital",
-    "description": "Japanese financial behemoth SBI Holdings has led an investment round in Temple Digital Group, a New York-based outfit building trading infrastructure on the Canton Network blockchain. The size of the investment was not disclosed.",
-    "date": "2026-05-27",
-    "source_url": "https://www.finextra.com/newsarticle/47816/sbi-group-invests-in-temple-digital",
-    "category": "global_banks",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "DTCC",
-    "initiative": "DTC’s tokenization service to connect with Stellar public blockchain",
-    "description": "The Depository Trust & Clearing Corporation (DTCC), the premier post-trade market infrastructure for the global financial services industry, and the Stellar Development Foundation (SDF) today announced plans to enable the tokenization of The Depository Trust Company (DTC) custodied assets on the Stellar network, a configurable and public blockchain used across securities, payment, and remittance applications.",
-    "date": "2026-05-27",
-    "source_url": "https://www.finextra.com/pressarticle/109952/dtcs-tokenization-service-to-connect-with-stellar-public-blockchain",
-    "category": "exchanges_intermediaries",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Circle",
-    "initiative": "Circle partners with Nium to connect USDC settlement to global payout rails",
-    "description": "Circle and Nium have partnered to connect stablecoin settlement with global payout rails across more than 190 countries and 100 currencies.",
-    "date": "2026-05-27",
-    "source_url": "https://www.theblock.co/post/402726/circle-partners-with-nium-to-connect-usdc-settlement-to-global-payout-rails",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Digital Currency & Stablecoins",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "SoFi launches bank-issued stablecoin for nearly 15M app users",
-    "description": "SoFiUSD launches in SoFi app for 14.7M members, with Ethereum, Solana, tokenized deposits, Bullish and 24/7 transfers next for users in May.",
-    "date": "2026-05-27",
-    "source_url": "https://crypto.news/sofi-launches-bank-issued-stablecoin-for-nearly-15m-app-users/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Standard Chartered",
-    "initiative": "Coinbase and Standard Chartered widen global crypto funding rails",
-    "description": "Coinbase expands Standard Chartered rails for AUD, SGD, CAD, CHF, EUR and GBP as Direct Deposit returns for U.S. crypto users in 2026 now.",
-    "date": "2026-05-27",
-    "source_url": "https://crypto.news/coinbase-and-standard-chartered-widen-global-crypto-funding-rails/",
-    "category": "global_banks",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "SoFi brings bank-issued stablecoin to 15 million users in crypto push",
-    "description": "The fintech platform says its dollar-backed stablecoin will let members trade, transfer and eventually earn yield through its banking app.",
-    "date": "2026-05-27",
-    "source_url": "https://www.coindesk.com/business/2026/05/27/sofi-brings-bank-issued-stablecoin-to-15-million-users-in-crypto-push",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Crypto exchange HTX rejects U.K. sanction allegations, says it refused ruble stablecoin listing",
-    "description": "U.K. authorities sanctioned HTX, saying there were \"reasonable grounds to suspect\" the crypto exchange was helping Russia by cooperating with ruble stablecoin A7A5.",
-    "date": "2026-05-27",
-    "source_url": "https://www.coindesk.com/markets/2026/05/27/crypto-exchange-htx-rejects-u-k-sanction-allegations-says-it-refused-ruble-stablecoin-listing",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "SEC pauses tokenized stock plans, Trump crypto ventures sour",
-    "description": "SEC pauses tokenized equities plan, raises concerns on crypto regulations, while the Trump family's crypto ventures face market challenges and uncertainty.",
-    "date": "2026-05-27",
-    "source_url": "https://coingeek.com/sec-pauses-tokenized-stock-plans-trump-crypto-ventures-sour/",
-    "category": "regulators",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Visa",
-    "initiative": "Highnote and Visa collaborate on agentic commerce",
-    "description": "Highnote, the unified platform for modern issuing, acquiring, credit, ledger, and money movement, today announced the launch of its Agentic Commerce capabilities, built with Visa Intelligent Commerce, enabling businesses to securely power AI-initiated payments with programmable controls, tokenized credentials, and dynamic authorization.",
-    "date": "2026-05-27",
-    "source_url": "https://www.finextra.com/pressarticle/109937/highnote-and-visa-collaborate-on-agentic-commerce",
-    "category": "payments",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "SoFi rolls out SoFiUSD stablecoin to banking app users",
-    "description": "SoFi rolls out bank-issued SoFiUSD stablecoin to 14.7 million members inside its app on Ethereum and Solana.",
-    "date": "2026-05-27",
-    "source_url": "https://www.theblock.co/post/402361/sofi-rolls-out-sofiusd-stablecoin-to-banking-app-users",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Standard Chartered",
-    "initiative": "Coinbase taps Standard Chartered to expand multi-currency funding rails for institutional clients",
-    "description": "Coinbase also relaunched Direct Deposit for U.S. customers, allowing users to automatically allocate a portion of their paycheck to crypto.",
-    "date": "2026-05-27",
-    "source_url": "https://www.theblock.co/post/402716/coinbase-standard-chartered-multi-currency-funding-rails",
-    "category": "global_banks",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BlackRock",
-    "initiative": "Spot bitcoin ETFs continue outflow streak amid $1.3 billion IBIT whale trade",
-    "description": "Bitcoin ETFs saw $334 million in net outflows on Tuesday, driven by $192 million exiting BlackRock's IBIT.",
-    "date": "2026-05-27",
-    "source_url": "https://www.theblock.co/post/402707/bitcoin-etf-outflows-ibit-whale-trade",
-    "category": "asset_management",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "India’s SEBI to test tokenized corporate bond settlements in DLT pilot",
-    "description": "India’s market regulator has moved ahead with a pilot project for tokenized corporate bonds, testing whether distributed ledger technology can improve liquidity and settlement efficiency in the country’s debt markets. Speaking on the sidelines of the CareEdge Debt Market Summit… India’s SEBI to test tokenized corporate bond settlements in DLT pilot",
-    "date": "2026-05-27",
-    "source_url": "https://crypto.news/indias-sebi-to-test-tokenized-corporate-bond-settlements-in-dlt-pilot/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Collateral & Lending",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BlackRock",
-    "initiative": "Whale alert: Someone dumped $1.29 billion of BlackRock's bitcoin ETF in a dark pool trade",
-    "description": "The big sale happened amid a broader continued exodus from U.S.-listed spot bitcoin ETFs.",
-    "date": "2026-05-27",
-    "source_url": "https://www.coindesk.com/markets/2026/05/27/whale-alert-someone-dumped-usd1-29-billion-of-blackrock-s-bitcoin-etf-in-a-dark-pool-trade",
-    "category": "asset_management",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
