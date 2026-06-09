@@ -1,5 +1,82 @@
 [
   {
+    "institution": "Securitize",
+    "initiative": "Securitize CEO says tokenized stocks could unlock a $5 trillion crypto market",
+    "description": "At a panel at ETHConf, Carlos Domingo argued that bringing stocks and exchange-traded funds onchain could unlock a market far larger than today's roughly $30 billion tokenized asset sector.",
+    "date": "2026-06-09",
+    "source_url": "https://www.coindesk.com/business/2026/06/09/securitize-ceo-says-tokenized-stocks-could-unlock-a-usd5-trillion-crypto-market",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "Live updates: Bitcoin narrows early losses, returns to $62,000 as Nasdaq bounces to close down 1%",
+    "description": "Crypto prices rose on Monday following last week's crash, but the bears still appear to be in control.",
+    "date": "2026-06-09",
+    "source_url": "https://www.coindesk.com/tech/2026/06/09/live-updates-bitcoin-drifts-back-to-usd62-500-putting-damper-on-hope-for-two-straight-up-days",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Federal Reserve",
+    "initiative": "Bitcoin traders brace for Federal Reserve decision as hold odds hit 98%",
+    "description": "Bitcoin traders have positioned for a Federal Reserve pause next week, with CME FedWatch data showing a 98.2% probability that policymakers will leave interest rates unchanged at the June 16-17 meeting. According to CME FedWatch data, markets are assigning only… Bitcoin traders brace for Federal Reserve decision as hold odds hit 98%",
+    "date": "2026-06-09",
+    "source_url": "https://crypto.news/bitcoin-traders-brace-for-federal-reserve-decision-as-hold-odds-hit-98/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "FIFA names Kraken official crypto exchange supporter for 2026 World Cup",
+    "description": "The tournament will feature 48 teams, 104… FIFA said the partnership will cover crypto awareness, fan engagement, and product experiences across North America and Europe. FIFA names Kraken official crypto exchange supporter for 2026 World Cup",
+    "date": "2026-06-09",
+    "source_url": "https://crypto.news/fifa-names-kraken-official-crypto-exchange-supporter/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "NYDFS proposes stablecoin regulatory framework",
     "description": "New York State Department of Financial Services (DFS) Acting Superintendent Kaitlin Asrow today announced a proposed regulation to build on New York’s first-in-the-nation stablecoin framework in accordance with federal regulations under the GENIUS Act.",
@@ -9407,87 +9484,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "PPRO and Coinbase collaborate to bring stablecoin payments to merchants",
-    "description": "PPRO and Coinbase today announced a strategic collaboration to bring a complete stablecoin payments suite to merchants and PSPs in the U.S. market.",
-    "date": "2026-05-27",
-    "source_url": "https://www.finextra.com/pressarticle/109953/ppro-and-coinbase-collaborate-to-bring-stablecoin-payments-to-merchants",
-    "category": "exchanges_intermediaries",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "DTCC",
-    "initiative": "DTCC’s tokenization service to connect with Stellar public blockchain",
-    "description": "The Depository Trust & Clearing Corporation (DTCC), the premier post-trade market infrastructure for the global financial services industry, and the Stellar Development Foundation (SDF) today announced plans to enable the tokenization of The Depository Trust Company (DTC) custodied assets on the Stellar network, a configurable and public blockchain used across securities, payment, and remittance applications.",
-    "date": "2026-05-27",
-    "source_url": "https://www.finextra.com/pressarticle/109952/dtccs-tokenization-service-to-connect-with-stellar-public-blockchain",
-    "category": "exchanges_intermediaries",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Mastercard",
-    "initiative": "Mastercard secures New York State Bitlicense as it continues to expand crypto services",
-    "description": "New York has now officially granted three Virtual Currency Business Activity Licenses (aka BitLicenses) in 2026.",
-    "date": "2026-05-27",
-    "source_url": "https://www.theblock.co/post/402732/mastercard-secures-new-york-state-bitlicense-as-it-continues-to-expand-crypto-services",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Copper",
-    "initiative": "Copper–gold “2020 signal” is really about global liquidity, not just Bitcoin",
-    "description": "The much-hyped copper-to-gold breakout says more about how capital is shifting between defense and growth than it does about bitcoin’s destiny on its own. Ethereum (ETH) charts and Bitcoin (BTC) flows might grab more headlines, but the signal embedded in… Copper–gold “2020 signal” is really about global liquidity, not just Bitcoin",
-    "date": "2026-05-27",
-    "source_url": "https://crypto.news/copper-gold-2020-signal-is-really-about-global-liquidity-not-just-bitcoin/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
     ],
     "year": "2026"
   }
