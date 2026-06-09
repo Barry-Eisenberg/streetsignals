@@ -1,5 +1,59 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "Coinbase and Cardless unveil credit card backed by stablecoins",
+    "description": "The stablecoin-secured card is for situations where a credit card cannot be approved on an unsecured basis.",
+    "date": "2026-06-09",
+    "source_url": "https://www.coindesk.com/business/2026/06/09/coinbase-and-cardless-unveil-credit-card-backed-by-stablecoins",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Stripe",
+    "initiative": "Lloyds deliver new payment tech to SMEs in partnership with Stripe",
+    "description": "Lloyds is collaborating with Stripe to offer a suite of new payment tools to small businesses.",
+    "date": "2026-06-09",
+    "source_url": "https://www.finextra.com/newsarticle/47883/lloyds-deliver-new-payment-tech-to-smes-in-partnership-with-stripe",
+    "category": "payments",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Chainlink",
+    "initiative": "Sahara AI price crashes 55% as team denies 600M token dump",
+    "description": "SAHARA fell 55% as Sahara AI denied insider selling, saying a 600M-token transfer funded its Chainlink CCIP bridge before the sharp selloff.",
+    "date": "2026-06-09",
+    "source_url": "https://crypto.news/sahara-ai-price-crashes-55-as-team-denies-600m-token-dump/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "crypto.news",
     "initiative": "Can the Bank of Japan’s 1% rate hike spark another crypto selloff?",
     "description": "Bitcoin and other cryptocurrencies have come under renewed macro scrutiny after reports indicated that the Bank of Japan is preparing to raise its benchmark interest rate to 1.0% from 0.75% at its June 15–16 policy meeting. Japanese financial newspaper Nikkei… Can the Bank of Japan’s 1% rate hike spark another crypto selloff?",
@@ -9459,65 +9513,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Crypto industry defends OCC charters for Ripple, Coinbase and others after Sen. Warren calls them unlawful",
-    "description": "The Digital Chamber rejected accusations from Sen. Warren that crypto firms were \"improperly\" granted national trust charters.",
-    "date": "2026-05-26",
-    "source_url": "https://www.theblock.co/post/402639/crypto-industry-defends-occ-charters-for-ripple-coinbase-after-warren-calls-unlawful",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase-incubated Base blockchain rolls out MCP gateway to AI interfaces like Claude, ChatGPT",
-    "description": "With the integration, users will now be able to use natural language prompts to swap tokens, transfer funds, and interact with Base apps.",
-    "date": "2026-05-26",
-    "source_url": "https://www.theblock.co/post/402631/coinbase-base-mcp-gateway-ai-interfaces-claude-chatgpt",
-    "category": "exchanges_intermediaries",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase’s Base launches AI tool for ChatGPT to manage crypto wallets and DeFi apps",
-    "description": "The product, called Base MCP, connects a user’s Base Account to AI clients such as ChatGPT, Claude and Cursor using the Model Context Protocol (MCP), an emerging standard that allows AI systems to securely interface with external tools and applications.",
-    "date": "2026-05-26",
-    "source_url": "https://www.coindesk.com/tech/2026/05/26/coinbase-s-base-launches-ai-tool-for-chatgpt-to-manage-crypto-wallets-and-defi-apps",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DeFi",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
