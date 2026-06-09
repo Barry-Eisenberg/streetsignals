@@ -1,5 +1,63 @@
 [
   {
+    "institution": "FSB (Financial Stability Board)",
+    "initiative": "FSB regulatory and supervisory modernisation symposium",
+    "description": "FSB hosts a symposium to support members’ efforts in supervisory and regulatory modernisation.",
+    "date": "2026-06-09",
+    "source_url": "https://www.fsb.org/2026/06/fsb-regulatory-and-supervisory-modernisation-symposium/",
+    "category": "regulators",
+    "source_name": "FSB — Publications",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "UK financial regulator moves to allow mutual funds 10% exposure to crypto ETNs",
+    "description": "The Financial Conduct Authority proposed allowing some investment schemes to add exposure to crypto exchange-traded notes.",
+    "date": "2026-06-09",
+    "source_url": "https://www.coindesk.com/policy/2026/06/09/uk-financial-regulator-moves-to-allow-mutual-funds-10-exposure-to-crypto-etns",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "FDIC",
+    "initiative": "Paradigm challenges FDIC over controversial stablecoin yield ban",
+    "description": "Federal Deposit Insurance Corporation to remove provisions from its proposed stablecoin framework that could restrict third-party firms from offering rewards tied to stablecoins. Crypto investment firm Paradigm has urged the U.S. Paradigm challenges FDIC over controversial stablecoin yield ban",
+    "date": "2026-06-09",
+    "source_url": "https://crypto.news/paradigm-challenges-fdic-over-controversial-stablecoin-yield-ban/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Burkhard Balz: Cash and the digital euro – complementary forms of public money",
     "description": "Opening statement by Mr Burkhard Balz, Member of the Executive Board of the Deutsche Bundesbank, at the ESTA Conference and Exhibition 2026, Berlin, 8 June 2026.",
@@ -9426,69 +9484,6 @@
     ],
     "initiative_types": [
       "DeFi",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Liquidity regulation and bank funding costs",
-    "description": "by Iñaki Aldasoro, Sebastian Doerr, Haonan Zhou We establish a causal link between liquidity regulation and a lower cost of bank wholesale funding. For identification, we use pre-determined variation in banks' liquidity coverage ratio (LCR) in a difference-in-differences setup. Granular instrument-level data allow us to carefully control for any observable and unobservable time-varying factors at the creditor, instrument type, and macroeconomic levels. We find that banks with greater LCR exposure see a steeper decline in their wholesale funding costs.",
-    "date": "2026-05-27",
-    "source_url": "https://www.bis.org/publ/work1352.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA (European Securities and Markets Authority)",
-    "initiative": "ESMA issues guidance on effective use of resolution tools in CCP crisis planning",
-    "description": "In doing so, NRAs should take into account the impact on relevant stakeholders, such as clearing members, financial markets and financial market infrastructures. By promoting consistent practices across jurisdictions, it fosters effective financial markets and financial stability, strategic priorities for ESMA. ESMA issues guidance on effective use of resolution tools in CCP crisis planning",
-    "date": "2026-05-27",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-issues-guidance-effective-use-resolution-tools-ccp-crisis-planning",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Mastercard",
-    "initiative": "Mastercard secures New York BitLicense to support stablecoin and digital payment infrastructure",
-    "description": "The payments giant said the approval supports its push into stablecoins and blockchain-based settlement infrastructure.",
-    "date": "2026-05-27",
-    "source_url": "https://www.coindesk.com/business/2026/05/27/mastercard-secures-new-york-bitlicense-to-support-stablecoin-and-digital-payment-infrastructure",
-    "category": "payments",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
     "year": "2026"
