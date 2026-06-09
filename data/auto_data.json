@@ -1,5 +1,44 @@
 [
   {
+    "institution": "Connecting the Dots",
+    "initiative": "Peru’s CBDC Just Passed 3.5 Million Users",
+    "description": "Hey Payments Fanatic! CBDCs often generate plenty of headlines but very little real-world usage. Peru might be starting to change that. The country's central bank has extended its retail CBDC pilot through March 2027 after the project surpassed 3.5 million users and recorded triple-digit growth in balances",
+    "date": "2026-06-09",
+    "source_url": "https://www.connectingthedotsinpayments.com/perus-cbdc-just-passed-3-5-million-users/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "CBDC"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Bitcoin crash fails to scare institutions, Coinbase strategist says",
+    "description": "Coinbase strategist John D’Agostino says institutions are buying Bitcoin near $65,000, while ETF ownership and corporate demand remain firm.",
+    "date": "2026-06-09",
+    "source_url": "https://crypto.news/bitcoin-crash-fails-to-scare-institutions-coinbase-strategist-says/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA (European Securities and Markets Authority)",
     "initiative": "ESMA consults on revised guidelines to support smoother allocations and confirmations under T+1",
     "description": "This review is part of ESMA’s work to support market participants in preparing for the transition to a T+1 settlement cycle. ESMA reiterates the importance of preparing for the upcoming regulatory transition to T+1 settlement, which will take effect on 11 October 2027. ESMA consults on revised guidelines to support smoother allocations and confirmations under T+1",
@@ -9472,45 +9511,6 @@
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
     "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "XRP price prediction 2026-2030: beyond the SEC settlement",
-    "description": "XRP trades near $1.39-$1.47 in late May 2026, down approximately 26% year-to-date and 34% year-on-year despite multiple institutional catalysts that historically would have driven significant price appreciation. Five-spot (XRP) ETFs are now trading in the US with cumulative inflows of… XRP price prediction 2026-2030: beyond the SEC settlement",
-    "date": "2026-05-26",
-    "source_url": "https://crypto.news/xrp-price-prediction-2026-2030-beyond-the-sec-settlement/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase, Armstrong help build $85m crypto election war chest",
-    "description": "Coinbase and CEO Brian Armstrong are bankrolling a rapidly expanding pro-crypto political machine, pouring tens of millions of dollars into Fairshake as Washington’s 2026 election fight over digital assets intensifies. Coinbase and Armstrong are helping assemble what they describe as… Coinbase, Armstrong help build $85m crypto election war chest",
-    "date": "2026-05-26",
-    "source_url": "https://crypto.news/coinbase-armstrong-help-build-85m-crypto-election-war-chest/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
     ],
