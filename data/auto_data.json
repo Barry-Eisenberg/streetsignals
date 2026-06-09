@@ -1,5 +1,45 @@
 [
   {
+    "institution": "crypto.news",
+    "initiative": "Washington man gets five years for laundering $97M in fraud proceeds",
+    "description": "A Newcastle, Washington, man has received five years in prison for helping move fraud proceeds through bank accounts and crypto exchanges. Attorney’s Office said Geoffrey K. Washington man gets five years for laundering $97M in fraud proceeds",
+    "date": "2026-06-09",
+    "source_url": "https://crypto.news/washington-man-gets-five-years-for-laundering-97m-in/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Visa",
+    "initiative": "Wirex joins Visa program to test AI agents making payments",
+    "description": "Wirex has joined Visa’s Agentic Ready programme to help test how artificial intelligence agents can initiate and complete payments using stablecoins. According to an announcement from Wirex, the company will participate as an issuer in Visa’s new initiative, which is… Wirex joins Visa program to test AI agents making payments",
+    "date": "2026-06-09",
+    "source_url": "https://crypto.news/wirex-joins-visa-program-to-test-ai-agents-making-payments/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Pilot / Trial",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Securitize",
     "initiative": "Securitize CEO says tokenized stocks could unlock a $5 trillion crypto market",
     "description": "At a panel at ETHConf, Carlos Domingo argued that bringing stocks and exchange-traded funds onchain could unlock a market far larger than today's roughly $30 billion tokenized asset sector.",
@@ -9447,43 +9487,6 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
       "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Visa",
-    "initiative": "Visa Commercial Solutions Hub expanded to scale virtual cards",
-    "description": "Visa Inc. (NYSE: V), a global leader in digital payments, today announced an expansion of the Visa Commercial Solutions Hub (VCS Hub), further strengthening how issuers and suppliers connect to scale virtual card programs.",
-    "date": "2026-05-27",
-    "source_url": "https://www.finextra.com/pressarticle/109959/visa-commercial-solutions-hub-expanded-to-scale-virtual-cards",
-    "category": "payments",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Nasdaq",
-    "initiative": "SoFi adds USD sablecoin to banking app",
-    "description": "SoFi Technologies, Inc. (NASDAQ: SOFI), a member-centric, everything app for digital financial services, announced today that SoFiUSD, a bank-issued U.S. dollar stablecoin, is available for SoFi members to buy, sell, hold, and convert directly within the SoFi app.",
-    "date": "2026-05-27",
-    "source_url": "https://www.finextra.com/pressarticle/109957/sofi-adds-usd-sablecoin-to-banking-app",
-    "category": "exchanges_intermediaries",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
     ],
     "year": "2026"
   }
