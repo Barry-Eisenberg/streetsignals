@@ -1,5 +1,25 @@
 [
   {
+    "institution": "crypto.news",
+    "initiative": "Hyperliquid commands nearly half of crypto buybacks, says Citrini",
+    "description": "Hyperliquid has accounted for nearly half of all token buyback activity across the crypto market in 2025, according to a new report from Citrini Research, which has highlighted the decentralized exchange’s revenue model as one of the strongest in the… Hyperliquid commands nearly half of crypto buybacks, says Citrini",
+    "date": "2026-06-09",
+    "source_url": "https://crypto.news/hyperliquid-commands-nearly-half-of-crypto-buybacks-says-citrini/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Convicted FTX founder Bankman-Fried applies for pardon",
     "description": "Sam Bankman-Fried has officially asked President Donald Trump for a pardon two years after being sentenced to 25 years in prison for stealing $8 billion from customers of FTX, the bankrupt cryptocurrency exchange he founded.",
@@ -9496,26 +9516,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA (European Securities and Markets Authority)",
-    "initiative": "ESMA consults on revised guidelines to support smoother allocations and confirmations under T+1",
-    "description": "This review is part of ESMA’s work to support market participants in preparing for the transition to a T+1 settlement cycle. ESMA reiterates the importance of preparing for the upcoming regulatory transition to T+1 settlement, which will take effect on 11 October 2027. ESMA consults on revised guidelines to support smoother allocations and confirmations under T+1",
-    "date": "2026-05-26",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-consults-revised-guidelines-support-smoother-allocations-and",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
