@@ -1,5 +1,113 @@
 [
   {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "Prediction markets get first U.S. rule proposal as CFTC pursues contract reviews",
+    "description": "The Commodity Futures Trading Commission opened a proposed rule for public comment that sets an approach to determine contracts in the \"public interest.\"",
+    "date": "2026-06-10",
+    "source_url": "https://www.coindesk.com/policy/2026/06/10/prediction-markets-get-first-u-s-rule-proposal-as-cftc-proposes-contract-reviews",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Cross-currency payments between the euro area, Denmark and Sweden go live",
+    "description": "Thanks to the cross-currency service implemented in the TARGET Instant Payment Settlement (TIPS) system, payment service providers (PSPs) can settle payments between TIPS accounts denominated in different currencies (the euro, the Danish krone and the Swedish krona).",
+    "date": "2026-06-10",
+    "source_url": "https://www.finextra.com/pressarticle/110099/cross-currency-payments-between-the-euro-area-denmark-and-sweden-go-live",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "CFTC unveils sweeping rule proposal for fast-growing prediction markets",
+    "description": "The CFTC proposed new rules for burgeoning prediction markets that delineate what bets would be allowed under federal law.",
+    "date": "2026-06-10",
+    "source_url": "https://www.theblock.co/post/404258/cftc-unveils-sweeping-rule-proposal-fast-growing-prediction-markets",
+    "category": "regulators",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Ripple",
+    "initiative": "Ripple launches toolkit for agentic payments on XRPL",
+    "description": "A growing number of companies, including Ripple, want to create payment rails which would AI agents to execute transactions with limited human involvement.",
+    "date": "2026-06-10",
+    "source_url": "https://www.theblock.co/post/404243/ripple-launches-toolkit-for-agentic-payments-on-xrpl",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Ripple",
+    "initiative": "Ripple introduces XRPL toolkit to support AI agent transactions",
+    "description": "Ripple has launched a new developer toolkit for building AI-powered payment applications on the XRP Ledger, adding support for x402 payments using XRP and RLUSD as interest in agentic transactions continues to grow. According to Ripple, the newly released XRPL… Ripple introduces XRPL toolkit to support AI agent transactions",
+    "date": "2026-06-10",
+    "source_url": "https://crypto.news/ripple-introduces-xrpl-toolkit-to-support-ai-agent-transactions/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "CFTC plans new prediction market rules that could affect Polymarket and Kalshi",
+    "description": "Commodity Futures Trading Commission has proposed a new framework for reviewing prediction market contracts that could reshape how platforms such as Polymarket and Kalshi operate in the United States. According to a Wall Street Journal report, the CFTC… CFTC plans new prediction market rules that could affect Polymarket and Kalshi",
+    "date": "2026-06-10",
+    "source_url": "https://crypto.news/cftc-plans-new-prediction-market-rules-that-could-affect-polymarket-and-kalshi/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Digital Asset Platform",
     "initiative": "Taurus and P2P.org advance staking for financial institutions globally",
     "description": "P2P.org, non-custodial validator infrastructure securing over $10B in delegated assets across 50+ networks, and Taurus, a global leader in digital asset infrastructure, today announced a partnership to integrate P2P.org’s institutional-grade staking infrastructure into Taurus’ digital asset platform.",
@@ -9326,120 +9434,6 @@
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
     "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "White House reviews CFTC prediction-market rule as Trump backs federal control",
-    "description": "The proposal could shape how Kalshi, Polymarket, and other event-contract platforms operate as states challenge the CFTC’s authority.",
-    "date": "2026-05-28",
-    "source_url": "https://www.coindesk.com/policy/2026/05/28/white-house-reviews-cftc-prediction-market-rule-as-trump-backs-federal-control",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "Push by Aave Labs receives FCA crypto approval",
-    "description": "Push Labs Limited and Push Virtual Assets Limited (together “Push”), both UK subsidiaries of Aave Labs, today announced that they have received approval from the UK’s Financial Conduct Authority (FCA) for their applications to register as a cryptoasset exchange provider in the UK.",
-    "date": "2026-05-28",
-    "source_url": "https://www.finextra.com/pressarticle/109972/push-by-aave-labs-receives-fca-crypto-approval",
-    "category": "regulators",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Sella is the first bank in Italy to get permission to set up crypto-asset services",
-    "description": "Banca Sella has completed the process of notification to the Bank of Italy as set out in the European MiCA (Markets in Crypto-Assets) Regulation and is the first bank in Italy to be authorized to offer crypto-asset services, relating in particular to the custody and transfer of digital assets.",
-    "date": "2026-05-28",
-    "source_url": "https://www.finextra.com/pressarticle/109970/sella-is-the-first-bank-in-italy-to-get-permission-to-set-up-crypto-asset-services",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Whop issues stablecoin debit card",
-    "description": "Whop, the fastest growing internet market where people can create, connect, and transact in one place, today announced the launch of Whop Cards that allow businesses on the platform the ability to spend directly from their Whop balance without withdrawing funds to an external bank.",
-    "date": "2026-05-28",
-    "source_url": "https://www.finextra.com/pressarticle/109969/whop-issues-stablecoin-debit-card",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Broadridge Financial Solutions",
-    "initiative": "Broadridge opens Nyfix access to US equities overnight",
-    "description": "Broadridge Financial Solutions Inc. (NYSE: BR), a global Fintech leader, today announced an enhancement of its NYFIX platform, enabling clients to access overnight U.S. equity liquidity through a new integration with CAPIS, an institutional brokerage firm.",
-    "date": "2026-05-28",
-    "source_url": "https://www.finextra.com/pressarticle/109965/broadridge-opens-nyfix--access-to-us-equities-overnight",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Samsung units to acquire $408 million stake in Upbit operator Dunamu",
-    "description": "Major institutions in South Korea are seeking to expand into digital assets in preparation for the upcoming regulatory framework for crypto.",
-    "date": "2026-05-28",
-    "source_url": "https://www.theblock.co/post/402838/samsung-upbit-dunamu",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Regulation & Compliance"
     ],
