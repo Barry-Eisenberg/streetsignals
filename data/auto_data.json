@@ -1,5 +1,111 @@
 [
   {
+    "institution": "Digital Asset Platform",
+    "initiative": "Taurus and P2P.org advance staking for financial institutions globally",
+    "description": "P2P.org, non-custodial validator infrastructure securing over $10B in delegated assets across 50+ networks, and Taurus, a global leader in digital asset infrastructure, today announced a partnership to integrate P2P.org’s institutional-grade staking infrastructure into Taurus’ digital asset platform.",
+    "date": "2026-06-10",
+    "source_url": "https://www.finextra.com/pressarticle/110059/taurus-and-p2porg-advance-staking-for-financial-institutions-globally",
+    "category": "exchanges_intermediaries",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "BoursoBank to integrate with Wero",
+    "description": "BoursoBank, France’s leading online bank with more than 8.9 million customers, today announces its partnership with EPI (European Payments Initiative) with a view to integrating Wero, the European instant payment solution, by the end of 2026.",
+    "date": "2026-06-10",
+    "source_url": "https://www.finextra.com/pressarticle/110095/boursobank-to-integrate-with-wero",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Finextra",
+    "initiative": "Payments Without Borders… and Without Headlines",
+    "description": "Cross-border payments have traditionally attracted attention for the wrong reasons. Delayed settleme... Payments Without Borders… and Without Headlines",
+    "date": "2026-06-10",
+    "source_url": "https://www.finextra.com/blogposting/31974/payments-without-borders-and-without-headlines",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Curve launches Llamalend v2 first on Optimism supported by 250,000 OP token grant",
+    "description": "Llamalend v2 now supports markets for multiple collateral and borrow assets beyond crvUSD and introduces LlamaRisk as a market curator.",
+    "date": "2026-06-10",
+    "source_url": "https://www.theblock.co/post/404144/curve-launches-llamalend-v2-first-optimism-supported-250000-op-token-grant",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Digital Asset Platform",
+    "initiative": "Taurus integrates P2P.org staking services for banks and financial institutions",
+    "description": "According to a press release shared… Taurus integrates P2P.org staking services for banks and financial institutions",
+    "date": "2026-06-10",
+    "source_url": "https://crypto.news/taurus-integrates-p2p-org-staking-services-for-banks-and-financial-institutions/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Binance launches bStocks with 24/7 trading for tokenized U.S. equities",
+    "description": "Binance has launched its first batch of tokenized U.S. According to Binance’s official announcement, the exchange has introduced bStocks, a product backed 1:1 by… Binance launches bStocks with 24/7 trading for tokenized U.S. equities",
+    "date": "2026-06-10",
+    "source_url": "https://crypto.news/binance-launches-bstocks-with-24-7-trading-for-tokenized-u-s-equities/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Finextra",
     "initiative": "Top Japanese banks plot stablecoin roll out",
     "description": "Three of Japan's top banks have joined forces to issue a Yen-backed stablecoin in 2026.",
@@ -371,6 +477,26 @@
       "Trading & Exchange"
     ],
     "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Apollo",
+    "initiative": "Apollo, Bpifrance, SBI part of $175m fundraise for DeFi lending protocol Morpho",
+    "description": "Morpho Association, which supports the Morpho DeFi lending protocol, has raised $175 million in a round co-led by Paradigm, a16z crypto and Ribbit Capital. Strategic investors include Apollo Funds, Circle Ventures, VanEck and Ledger Cathay, alongside Variant, Wintermute Ventures, Prelude, IOSG, Hashkey, Mirana, NJJ Capital, SBI Group and Bpifrance, among others. Apollo’s participation follows its",
+    "date": "2026-06-09",
+    "source_url": "https://www.ledgerinsights.com/apollo-bpifrance-sbi-part-of-175m-fundraise-for-defi-lending-protocol-morpho/",
+    "category": "asset_management",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "DeFi",
       "Crypto / Digital Assets"
     ],
     "year": "2026"
@@ -9319,142 +9445,6 @@
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "CFTC says it shouldn’t have sued Gemini, joins motion to vacate prior judgment",
-    "description": "The CFTC joined Gemini in filing a motion for relief from a 2025 consent order stemming from the agency's previous enforcement action.",
-    "date": "2026-05-28",
-    "source_url": "https://www.theblock.co/post/402827/cftc-joins-relief-motion-gemini",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Bitcoin price nears $73K as exchange reserves flash rare signal",
-    "description": "Bitcoin trades near $73,257 as exchange reserves hit 2019 lows, while weak SOPR, RSI, and MACD readings keep market momentum under pressure.",
-    "date": "2026-05-28",
-    "source_url": "https://crypto.news/bitcoin-price-nears-73k-as-exchange-reserves-flash-rare-signal/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BlackRock",
-    "initiative": "BlackRock's bitcoin ETF sheds $528 million, the second-largest daily outflow on record",
-    "description": "IBIT recorded its second-biggest single-day net outflow since launch on Wednesday, missing a January record by less than half a million dollars, as the Iran-driven sell-off pulled institutional money out of bitcoin.",
-    "date": "2026-05-28",
-    "source_url": "https://www.coindesk.com/markets/2026/05/28/blackrock-s-bitcoin-etf-sheds-usd528-million-the-second-largest-daily-outflow-on-record",
-    "category": "asset_management",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
-    "initiative": "Chainalysis says crypto compliance is tighter, but AML gaps remain",
-    "description": "Chainalysis says 47% of 2026 crypto entrants match 2020’s strictest alerting standards, but indirect monitoring gaps still remain for firms.",
-    "date": "2026-05-28",
-    "source_url": "https://crypto.news/chainalysis-says-crypto-compliance-is-tighter-but-aml-gaps-remain/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "CFTC asks court to scrap Gemini’s $5M enforcement deal",
-    "description": "Commodity Futures Trading Commission has moved to scrap its $5 million settlement with crypto exchange Gemini after concluding that the enforcement case should not have been filed under the agency’s current standards. In a joint motion filed Wednesday… CFTC asks court to scrap Gemini’s $5M enforcement deal",
-    "date": "2026-05-28",
-    "source_url": "https://crypto.news/cftc-asks-court-to-scrap-geminis-5m-enforcement-deal/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Trading & Exchange",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "U.S. Treasury Department",
-    "initiative": "Bitcoin could be heading much lower, fund manager warns as $150 billion Treasury operation nears",
-    "description": "Fund manager Michael Kramer says a $150 billion liquidity drain from upcoming U.S. Treasury operations could push bitcoin sharply lower.",
-    "date": "2026-05-28",
-    "source_url": "https://www.coindesk.com/markets/2026/05/28/bitcoin-could-be-heading-much-lower-fund-manager-warns-as-usd150-billion-treasury-operation-nears",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "U.S. CFTC files request to erase Gemini settlement that it no longer considers fair",
-    "description": "The regulator went back to analyze the 2022 case and decided that it wouldn't have been pursued under current management and practices.",
-    "date": "2026-05-28",
-    "source_url": "https://www.coindesk.com/policy/2026/05/27/u-s-cftc-files-request-to-erase-gemini-settlement-that-it-no-longer-considers-fair",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
     ],
     "year": "2026"
   }
