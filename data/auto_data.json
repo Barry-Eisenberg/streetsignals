@@ -1,5 +1,22 @@
 [
   {
+    "institution": "Chainalysis",
+    "initiative": "Chainalysis and the Korean National Police Agency (KNPA) Sign MoU to Strengthen Virtual Asset Investigation Capabilities",
+    "description": "In April 2026, Chainalysis signed a Memorandum of Understanding (MoU) with the Korean National Police Agency (KNPA) to deepen cooperation… Chainalysis and the Korean National Police Agency (KNPA) Sign MoU to Strengthen Virtual Asset Investigation Capabilities",
+    "date": "2026-06-09",
+    "source_url": "https://www.chainalysis.com/blog/chainalysis-and-the-korean-national-police-agency-knpa-sign-mou-to-strengthen-virtual-asset-investigation-capabilities/",
+    "category": "ecosystem",
+    "source_name": "Chainalysis — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "Coinbase and Circle Both Stake HYPE in Hyperliquid Treasury Activation, Cementing Long-Term Commercial Alignment",
     "description": "Coinbase and Circle Both Stake HYPE in Hyperliquid Treasury Activation, Cementing Long-Term Commercial Alignment",
@@ -9458,26 +9475,6 @@
     "fmi_areas": [
       "Custody & Safekeeping",
       "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Major crypto exchanges increase transfer scrutiny with HTX over UK sanctions",
-    "description": "The UK sanctioned crypto exchange HTX due to alleged ties to Russian sanctions evasion networks and illicit financial activity.",
-    "date": "2026-05-27",
-    "source_url": "https://www.coindesk.com/business/2026/05/27/major-crypto-exchanges-increase-transfer-scrutiny-with-htx-over-uk-sanctions",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
