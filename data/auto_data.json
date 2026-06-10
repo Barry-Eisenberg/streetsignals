@@ -1,5 +1,82 @@
 [
   {
+    "institution": "Federal Reserve",
+    "initiative": "Bitcoin and gold fall together as a rate-hike bet hits every hedge",
+    "description": "The relief rally that lifted crypto off last week's lows is unwinding alongside tech stocks and gold, with traders bracing for a US inflation print and a Warsh Fed that may stay hawkish.",
+    "date": "2026-06-10",
+    "source_url": "https://www.coindesk.com/markets/2026/06/10/bitcoin-and-gold-fall-together-as-a-rate-hike-bet-hits-every-hedge",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Connecting the Dots",
+    "initiative": "A $2.7 Billion Deal Could Reshape Cross-Border Payments",
+    "description": "Hey Payments Fanatic! Nuvei may be about to get a lot bigger. Reuters reports that the company is in advanced talks to acquire Payoneer in a deal worth around $2.7 billion . The interesting part isn't the price tag. It's what Payoneer brings to the table.",
+    "date": "2026-06-10",
+    "source_url": "https://www.connectingthedotsinpayments.com/a-2-7-billion-deal-could-reshape-cross-border-payments/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BitGo",
+    "initiative": "BitGo opens Aave, Spark and Tesseract DeFi access to institutions",
+    "description": "BitGo adds Aave, Spark and Tesseract through Narval, allowing eligible institutions direct DeFi access from qualified custody wallets.",
+    "date": "2026-06-10",
+    "source_url": "https://crypto.news/bitgo-opens-aave-spark-and-tesseract-defi-access-to-institutions/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "Bitcoin, Ethereum, XRP and SOL enter CME’s new crypto index futures",
+    "description": "CME launches cash-settled Nasdaq crypto index futures tracking BTC, ETH, SOL, XRP and four other major digital assets in one contract.",
+    "date": "2026-06-10",
+    "source_url": "https://crypto.news/bitcoin-ethereum-xrp-and-sol-enter-cmes-new-crypto-index-futures/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "The Block",
     "initiative": "Washington man gets 5 years for helping $100 million crypto money laundering scheme",
     "description": "Geoffrey K. Auyeung helped overseas fraudsters launder $100 million in scam proceeds through crypto and bank accounts, according to the DOJ.",
@@ -9397,85 +9474,6 @@
     ],
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Banca Sella crypto services win Italy approval under MiCA",
-    "description": "Banca Sella crypto services are moving closer to launch after the Italian lender received authorization from the Bank of… Banca Sella crypto services win Italy approval under MiCA",
-    "date": "2026-05-27",
-    "source_url": "https://crypto.news/banca-sella-crypto-services-win-italy/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS (Bank for International Settlements)",
-    "initiative": "Are central banks ready to move tokenization from simulation to real money?",
-    "description": "A Bank for International Settlements-led trial has shown that tokenized central bank money and bank deposits can complete cross-border payments in a single atomic step across currencies. According to the Bank for International Settlements (BIS), Project Agorá has tested how… Are central banks ready to move tokenization from simulation to real money?",
-    "date": "2026-05-27",
-    "source_url": "https://crypto.news/are-central-banks-ready-to-move-tokenization-from-simulation-to-real-money/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "DTCC",
-    "initiative": "DTCC plans to bring tokenized assets to Stellar in latest Wall Street blockchain push",
-    "description": "The U.S. market infrastructure giant targets connecting tokenized stocks, ETFs and Treasuries to Stellar in the first half of 2027.",
-    "date": "2026-05-27",
-    "source_url": "https://www.coindesk.com/business/2026/05/27/dtcc-plans-to-bring-tokenized-assets-to-stellar-in-latest-wall-street-blockchain-push",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Crypto’s biggest exchanges back push for token disclosure standards as industry courts institutional capital",
-    "description": "More than 40 crypto firms, including rival exchanges Coinbase and Kraken, are backing a Blockworks-led framework aimed at bringing stock market-style disclosures to token markets.",
-    "date": "2026-05-27",
-    "source_url": "https://www.coindesk.com/markets/2026/05/27/crypto-s-biggest-exchanges-back-push-for-token-disclosure-standards-as-industry-courts-institutional-capital",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
