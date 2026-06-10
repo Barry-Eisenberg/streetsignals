@@ -1,5 +1,49 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "Coinbase urges Congress to scrap taxes on stablecoin spending",
+    "description": "lawmakers to remove capital gains tax requirements on stablecoin payments and exempt small crypto transactions from burdensome reporting rules. Coinbase has urged U.S. Coinbase urges Congress to scrap taxes on stablecoin spending",
+    "date": "2026-06-10",
+    "source_url": "https://crypto.news/coinbase-urges-congress-to-scrap-taxes-on-stablecoin-spending/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Stand With Crypto targets UK banks over crypto transfer curbs",
+    "description": "Stand With Crypto UK has launched a campaign against bank-imposed crypto transfer restrictions after a report found that 40% of cryptocurrency transactions in the country are being blocked or limited. According to Stand With Crypto UK, the organization is calling… Stand With Crypto targets UK banks over crypto transfer curbs",
+    "date": "2026-06-10",
+    "source_url": "https://crypto.news/stand-with-crypto-targets-uk-banks-over-crypto-transfer-curbs/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA (European Securities and Markets Authority)",
     "initiative": "New Q&As available",
     "description": "New Q&As available 28 May 2026 Digital Finance and Innovation Market Abuse Sustainable finance The European Securities and Markets Authority (ESMA), the EU's securities markets regulator, has published the following question and answer: EU ESG Ratings Regulation (ESGRR) Defined ranking system (2853) Transitional provisions (2854) ESG rating providers established after date of entry into force (2855) Material changes to registration information (2856) Market Abuse Regulation (MAR) Regulation Annually conducted audit under Commission Delegated Regulation (EU) 2016/957 (2839) Markets in Crypto-Assets Regulation (MiCA) Exemption from white paper requirements when offering a crypto-asset other than an ART or EMT (2671) Questions and Answers section",
@@ -9383,44 +9427,6 @@
       "Collateral & Lending"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "JPMorgan",
-    "initiative": "JPMorgan says bitcoin and gold ETF outflows point to ‘cooling’ debasement trade amid hopes for Iran-US deal",
-    "description": "Both bitcoin and gold ETFs have seen outflows over the past two weeks as the debasement trade cools, according to JPMorgan analysts.",
-    "date": "2026-05-28",
-    "source_url": "https://www.theblock.co/post/402888/jpmorgan-bitcoin-gold-etf-outflows-cooling-debasement-trade-hopes-iran-us-deal",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BlackRock",
-    "initiative": "BlackRock’s Bitcoin behemoth bleeds cash in second‑worst outflow day yet",
-    "description": "The move cements ETF flow as the main driver of Bitcoin’s short‑term price action, with discretionary buyers increasingly forced to trade around institutional liquidity. Crypto ex‑Bitcoin (BTC) and Ether (ETH) ripped through a volatile 12‑hour window, with ETF outflows, Solana… BlackRock’s Bitcoin behemoth bleeds cash in second‑worst outflow day yet",
-    "date": "2026-05-28",
-    "source_url": "https://crypto.news/blackrocks-bitcoin-behemoth-bleeds-cash-in-second-worst-outflow-day-yet/",
-    "category": "asset_management",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
