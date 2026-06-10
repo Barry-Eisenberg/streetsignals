@@ -1,5 +1,171 @@
 [
   {
+    "institution": "Mastercard",
+    "initiative": "Mastercard prepares for a future where AI agents make payments",
+    "description": "The company is working with Coinbase, Stripe and other companies to build trusted payment systems for AI-driven commerce.",
+    "date": "2026-06-10",
+    "source_url": "https://www.coindesk.com/business/2026/06/10/mastercard-prepares-for-a-future-where-ai-agents-make-payments-with-latest-introduction",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "Nasdaq Verafin adds new members to agentic AI workforce",
+    "description": "Nasdaq's anti-financial crime unit Verafin has expanded its suite of agentic AI digital workers with new AML and fraud analysts.",
+    "date": "2026-06-10",
+    "source_url": "https://www.finextra.com/newsarticle/47899/nasdaq-verafin-adds-new-members-to-agentic-ai-workforce",
+    "category": "exchanges_intermediaries",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Tether",
+    "initiative": "Tether leads up to $1.4 billion round in robotics firm Neura, plans crypto wallet integration",
+    "description": "Tether will also provide and \"deploy\" technology within the Neura robotics ecosystem, including a crypto wallet integration.",
+    "date": "2026-06-10",
+    "source_url": "https://www.theblock.co/post/404303/tether-leads-up-to-1-4-billion-round-in-robotics-firm-neura-plans-crypto-wallet-integration",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "UK crypto advocates push back on exchange transfer restrictions, say banks are ‘choking off’ adoption",
+    "description": "Industry groups say roughly 40% of UK crypto transactions are blocked or restricted by banks, as they push to ease restrictions.",
+    "date": "2026-06-10",
+    "source_url": "https://www.theblock.co/post/404273/uk-crypto-advocates-push-back-exchange-transfer-blocks-banks-choking-off-adoption",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Mastercard",
+    "initiative": "Mastercard unveils Agent Pay for Machines to support autonomous AI transactions, including stablecoins",
+    "description": "Mastercard's Agent Pay for Machines infrastructure will support high-volume, low-value payments by autonomous AI agents.",
+    "date": "2026-06-10",
+    "source_url": "https://www.theblock.co/post/404288/mastercard-agent-pay-machines-support-autonomous-ai-transactions-stablecoins",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "MegaETH-based MNX raises $6.4 million pre-seed at $40 million valuation to build AI-focused futures exchange",
+    "description": "MNX, a decentralized futures exchange focused on the AI economy, has raised $6.4 million in a pre-seed funding round.",
+    "date": "2026-06-10",
+    "source_url": "https://www.theblock.co/post/404281/megaeth-mnx-pre-seed-funding-valuation-ai-focused-futures-exchange",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "Elizabeth Warren urges SEC to halt record SpaceX IPO",
+    "description": "Senator Elizabeth Warren has called on the SEC to delay SpaceX’s $75 billion IPO, citing concerns over investor protections, governance risks, and the company’s $1.8 trillion valuation. According to a letter sent by Senator Elizabeth Warren to SEC Chair Paul… Elizabeth Warren urges SEC to halt record SpaceX IPO",
+    "date": "2026-06-10",
+    "source_url": "https://crypto.news/elizabeth-warren-urges-sec-to-halt-record-spacex-ipo/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "Fold sells $45M in Bitcoin to erase debt and fuel growth",
+    "description": "Fold Holdings has sold approximately $45 million worth of Bitcoin and eliminated all of its secured debt obligations as the fintech company prepares for a new round of product launches and expansion efforts. According to Fold, the Nasdaq-listed company liquidated… Fold sells $45M in Bitcoin to erase debt and fuel growth",
+    "date": "2026-06-10",
+    "source_url": "https://crypto.news/fold-sells-45m-in-bitcoin-to-erase-debt-and-fuel-growth/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BlackRock",
+    "initiative": "BlackRock updates filing for Bitcoin Income ETF with covered calls",
+    "description": "BlackRock has expanded disclosures for its proposed Bitcoin Premium Income ETF, reporting $9.99 million in net assets and a covered-call strategy tied to IBIT. According to a June 10 filing with the U.S. BlackRock updates filing for Bitcoin Income ETF with covered calls",
+    "date": "2026-06-10",
+    "source_url": "https://crypto.news/blackrock-updates-filing-for-bitcoin-income-etf-with-covered-calls/",
+    "category": "asset_management",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "CFTC (Commodity Futures Trading Commission)",
     "initiative": "Prediction markets get first U.S. rule proposal as CFTC pursues contract reviews",
     "description": "The Commodity Futures Trading Commission opened a proposed rule for public comment that sets an approach to determine contracts in the \"public interest.\"",
@@ -9268,178 +9434,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Samsung units to buy $408 million stake in South Korea’s biggest crypto exchange",
-    "description": "Samsung Securities is set to take a 2% stake in Dunamu, worth over $200 million, from affiliates of technology conglomerate Kakao.",
-    "date": "2026-05-28",
-    "source_url": "https://www.coindesk.com/business/2026/05/28/samsung-is-buying-a-usd446-million-stake-in-south-korea-s-biggest-crypto-exchange",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinGeek",
-    "initiative": "UK targets A7A5 stablecoin, Huobi/HTX for Russian sanctions evasion",
-    "description": "The U.K. takes action against stablecoin issuer and digital exchange HTX for aiding Russia in bypassing international sanctions after iits Ukrain invasion.",
-    "date": "2026-05-28",
-    "source_url": "https://coingeek.com/uk-targets-a7a5-stablecoin-huobi-htx-for-russian-sanctions-evasion/",
-    "category": "ecosystem",
-    "source_name": "CoinGeek",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Digital Currency & Stablecoins"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "Set-Off Is Not Settlement Netting: The Legal Distinction That Defines Institutional Infrastructure",
-    "description": "The terms are used interchangeably. They should not be. Set-Off Is Not Settlement Netting: The Legal Distinction That Defines Institutional Infrastructure",
-    "date": "2026-05-28",
-    "source_url": "https://www.finextra.com/blogposting/31852/set-off-is-not-settlement-netting-the-legal-distinction-that-defines-institutional-infrastructure",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Settlement & Clearing"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS (Bank for International Settlements)",
-    "initiative": "BIS says tokenization can improve wholesale cross-border payments",
-    "description": "Project Agorá found tokenization could improve wholesale cross-border payments through atomic settlement across multiple jurisdictions.",
-    "date": "2026-05-28",
-    "source_url": "https://www.theblock.co/post/402846/bis-says-tokenization-can-improve-wholesale-cross-border-payments",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "Trump Vows “Future-Proof” Crypto Market Structure as White House Reviews CFTC’s Prediction Markets Rulemaking",
-    "description": "Trump pledged to codify permanent crypto market structure as the White House OMB began reviewing the CFTC’s notice of proposed rulemaking on event contracts under the Commodity Exchange Act.",
-    "date": "2026-05-28",
-    "source_url": "https://unchainedcrypto.com/trump-vows-future-proof-crypto-market-structure-as-white-house-reviews-cftcs-prediction-markets-rulemaking/",
-    "category": "regulators",
-    "source_name": "Unchained Crypto",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "Aave Labs subsidiaries receive FCA approvals for UK expansion",
-    "description": "Aave Labs subsidiaries Push Labs Limited and Push Virtual Assets Limited have received approval from the UK Financial Conduct Authority to operate as registered cryptoasset exchange providers in the country. According to an announcement shared with crypto.news, the registrations add… Aave Labs subsidiaries receive FCA approvals for UK expansion",
-    "date": "2026-05-28",
-    "source_url": "https://crypto.news/aave-labs-subsidiaries-receive-fca-approvals-for-uk-expansion/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "Samsung’s $408M Dunamu deal signals bigger crypto push",
-    "description": "Samsung units will buy a 4% stake in Upbit parent Dunamu for $408M as Korean banks and tech firms prepare for new digital asset rules ahead.",
-    "date": "2026-05-28",
-    "source_url": "https://crypto.news/samsungs-408m-dunamu-deal-signals-bigger-crypto-push/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Insurer resolution framework - Executive Summary",
-    "description": "Insurer failures can have harmful effects on individuals and businesses, economic activity and financial stability. Resolution is a way to manage the failure of financial institutions, including insurers, that prevents severe systemic disruption without exposing taxpayers to loss.",
-    "date": "2026-05-28",
-    "source_url": "https://www.bis.org/fsi/fsisummaries/exsum_23909.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA (European Securities and Markets Authority)",
-    "initiative": "New Q&As available",
-    "description": "New Q&As available 28 May 2026 Digital Finance and Innovation Market Abuse Sustainable finance The European Securities and Markets Authority (ESMA), the EU's securities markets regulator, has published the following question and answer: EU ESG Ratings Regulation (ESGRR) Defined ranking system (2853) Transitional provisions (2854) ESG rating providers established after date of entry into force (2855) Material changes to registration information (2856) Market Abuse Regulation (MAR) Regulation Annually conducted audit under Commission Delegated Regulation (EU) 2016/957 (2839) Markets in Crypto-Assets Regulation (MiCA) Exemption from white paper requirements when offering a crypto-asset other than an ART or EMT (2671) Questions and Answers section",
-    "date": "2026-05-28",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/new-qas-available-may-2026",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
     "year": "2026"
   }
 ]
