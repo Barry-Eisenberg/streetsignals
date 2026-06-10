@@ -1,5 +1,97 @@
 [
   {
+    "institution": "BlackRock",
+    "initiative": "BlackRock and Fidelity are quietly turning bitcoin ETFs into a two-firm market",
+    "description": "BlackRock's IBIT and Fidelity's FBTC are attracting the vast majority of new bitcoin ETF money, leaving smaller funds increasingly sidelined as institutional investors consolidate around the industry's largest players.",
+    "date": "2026-06-10",
+    "source_url": "https://www.coindesk.com/markets/2026/06/10/blackrock-and-fidelity-are-quietly-turning-bitcoin-etfs-into-a-two-firm-market",
+    "category": "asset_management",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase-backed Stand With Crypto calls on members to campaign against banks blocking digital asset transactions",
+    "description": "Stand With Crypto UK is telling its members to file formal complaints with high-street banks over sector-wide transfer bans.",
+    "date": "2026-06-10",
+    "source_url": "https://www.coindesk.com/business/2026/06/10/over-280-000-uk-crypto-holders-kick-off-campaign-against-banks-blocking-transactions",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Solana perpetuals enter Kalshi as DOGE and SHIB await approval",
+    "description": "Kalshi has added Solana perpetual futures to its regulated crypto derivatives lineup, while several other altcoin contracts, including Dogecoin and Shiba Inu, remain under regulatory review. According to a June 10 post by Kalshi on X, SOL perpetual futures are… Solana perpetuals enter Kalshi as DOGE and SHIB await approval",
+    "date": "2026-06-10",
+    "source_url": "https://crypto.news/solana-perpetuals-enter-kalshi-as-doge-and-shib-await-approval/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "AI Financial points to recovery path after Trump-backed WLFI bet",
+    "description": "has said its business outlook improved after losses tied to its WLFI token holdings. According to a Securities and Exchange Commission filing, the company said earlier going-concern risks have been substantially mitigated. AI Financial points to recovery path after Trump-backed WLFI bet",
+    "date": "2026-06-10",
+    "source_url": "https://crypto.news/ai-financial-points-to-recovery-path-after-trump-bac/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Tether",
+    "initiative": "Neura Robotics secures $1.4B funding with Tether and Nvidia backing",
+    "description": "Neura Robotics has secured up to $1.4 billion in Series C financing to expand its humanoid robotics technology. The German company attracted backing from Tether, Qualcomm, Amazon, Nvidia, Bosch, Schaeffler, and the European Investment Bank. Neura Robotics secures $1.4B funding with Tether and Nvidia backing",
+    "date": "2026-06-10",
+    "source_url": "https://crypto.news/neura-robotics-secures-1-4b-funding-with-tether-an/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Mastercard",
     "initiative": "Mastercard prepares for a future where AI agents make payments",
     "description": "The company is working with Coinbase, Stripe and other companies to build trusted payment systems for AI-driven commerce.",
@@ -8887,6 +8979,23 @@
     "year": "2026"
   },
   {
+    "institution": "BIS",
+    "initiative": "Insurer resolution framework - Executive Summary",
+    "description": "Insurer failures can have harmful effects on individuals and businesses, economic activity and financial stability. Resolution is a way to manage the failure of financial institutions, including insurers, that prevents severe systemic disruption without exposing taxpayers to loss.",
+    "date": "2026-05-28",
+    "source_url": "https://www.bis.org/fsi/fsisummaries/exsum_23909.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "ECB (European Central Bank)",
     "initiative": "ECB to extend TARGET hours enabling Pontes, 24/7 DLT settlement",
     "description": "Following a consultation involving 125 responses, the European Central Bank (ECB) today announced plans to extend aspects of its TARGET settlement infrastructure, though the real time gross settlement (RTGS) system itself will not gain additional hours in the short term. While the initial steps aim to address liquidity challenges with instant payment system TIPS, this",
@@ -9317,123 +9426,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "The strength of the inflation-output link in China",
-    "description": "by Mikael Juselius, Wenzhe Li We systematically investigate the relationship between China's inflation, economic slack, and expectations through the lens of New Keynesian Phillips Curves (NKPC). Extending existing research, we employ inflation expectations from Consensus Economics over recent samples and assess the stability of the estimates. Despite China's unique and evolving institutions, NKPC estimates are stable and show significant roles for both the output gap and inflation expectations in contrast to previous findings. Incorporating open-economy variables marginally enhances the models performance. Our results suggest that the New Keynesian framework can be adopted to China without adjustments for specific institutional features.",
-    "date": "2026-05-28",
-    "source_url": "https://www.bis.org/publ/work1353.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "VanEck's tokenized fund lands on Euler as DeFi courts Wall Street institutions",
-    "description": "DeFi protocols are increasingly adapting to host regulated, tokenized assets as tokenization is projected to bring trillions of dollars onchain.",
-    "date": "2026-05-28",
-    "source_url": "https://www.coindesk.com/business/2026/05/27/vaneck-s-tokenized-fund-lands-on-euler-as-defi-courts-wall-street-institutions",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "DeFi"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Standard Chartered",
-    "initiative": "Standard Chartered backs $4,000 ether as retail piles into the sub-$2,000 drop",
-    "description": "The bank says onchain metrics will pull the price back up, just as Amazon's stock price recovered after 2001. A retail dip-buying frenzy and a record futures short build say the bottom isn't in yet.",
-    "date": "2026-05-28",
-    "source_url": "https://www.coindesk.com/markets/2026/05/28/standard-chartered-backs-usd4-000-ether-as-retail-piles-into-the-sub-usd2-000-drop",
-    "category": "global_banks",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Global Banks",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Finextra",
-    "initiative": "ClearBank launches digital asset rails",
-    "description": "ClearBank Europe today announced the launch of its Digital Asset Rails, a new capability enabling programmable liquidity for cross-border settlement with 24/7* fiat payouts in EUR via SEPA Instant.",
-    "date": "2026-05-28",
-    "source_url": "https://www.finextra.com/pressarticle/109974/clearbank-launches-digital-asset-rails",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "DeFi",
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "JPMorgan, Goldman Sachs see hot U.S. PCE inflation ahead of key Fed decision",
-    "description": "Wall Street banks have raised expectations for another strong U.S. inflation reading ahead of Thursday’s Personal Consumption Expenditures report, a release closely watched by crypto and equity traders for clues on future Federal Reserve policy. JPMorgan, Goldman Sachs see hot U.S. PCE inflation ahead of key Fed decision",
-    "date": "2026-05-28",
-    "source_url": "https://crypto.news/jpmorgan-goldman-sachs-see-hot-u-s-pce-inflation-ahead-of-key-fed-decision/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Ripple",
-    "initiative": "The two-year XRP lawsuit endgame: what’s left to resolve",
-    "description": "The SEC vs Ripple case ended in August 2025, but the $125M penalty and injunction stayed in force. Here's what's actually settled and what's still open for XRP.",
-    "date": "2026-05-28",
-    "source_url": "https://crypto.news/the-two-year-xrp-lawsuit-endgame-whats-left-to-resolve/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
