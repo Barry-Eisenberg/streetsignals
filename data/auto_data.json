@@ -1,5 +1,81 @@
 [
   {
+    "institution": "Finextra",
+    "initiative": "Top Japanese banks plot stablecoin roll out",
+    "description": "Three of Japan's top banks have joined forces to issue a Yen-backed stablecoin in 2026.",
+    "date": "2026-06-10",
+    "source_url": "https://www.finextra.com/newsarticle/47894/top-japanese-banks-plot-stablecoin-roll-out",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "New York regulator proposes stablecoin rule to align with federal GENIUS Act, adds reserve limits",
+    "description": "The NYDFS has proposed a GENIUS Act-aligned stablecoin rule adding reserve concentration caps and mandatory risk management programs.",
+    "date": "2026-06-10",
+    "source_url": "https://www.theblock.co/post/404223/new-york-regulator-proposes-stablecoin-rule-to-align-with-federal-genius-act-adds-reserve-limits",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Unchained",
+    "initiative": "Janus Henderson Takes Strategic ENA Position and Eyes Regulated Investment Products Tied to Ethena",
+    "description": "Janus Henderson, a $480 billion asset manager, made a strategic ENA investment, plans to use USDe for treasury cash management, and will explore regulated USDe and ENA products while distributing its tokenized CLO funds through Ethena.",
+    "date": "2026-06-10",
+    "source_url": "https://unchainedcrypto.com/janus-henderson-takes-strategic-ena-position-and-eyes-regulated-investment-products-tied-to-ethena/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Apollo",
+    "initiative": "Morpho Raises $175 Million Co-Led by Paradigm, a16z Crypto, and Ribbit Capital to Build ‘Open Credit Network’",
+    "description": "Morpho raised $175 million co-led by Paradigm, a16z crypto, and Ribbit Capital, with Apollo Funds, Circle Ventures, and VanEck participating, in one of DeFi's largest rounds; Fortune reported a $2 billion valuation.",
+    "date": "2026-06-10",
+    "source_url": "https://unchainedcrypto.com/morpho-raises-175-million-co-led-by-paradigm-a16z-crypto-and-ribbit-capital-to-build-open-credit-network/",
+    "category": "asset_management",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "DeFi",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "FSB (Financial Stability Board)",
     "initiative": "Sound Practices for Responsible Adoption of Artificial Intelligence (AI): Consultation Report",
     "description": "The FSB has developed sound practices to help all types of financial institutions navigate benefits and risks responsibly as they adopt AI.",
@@ -9378,86 +9454,6 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS (Bank for International Settlements)",
-    "initiative": "BIS tokenization moves to real value payments",
-    "description": "BIS tokenization work has cleared its atomic settlement prototype phase and will graduate to real-value cross-border payment trials. The Bank for International… BIS tokenization moves to real value payments",
-    "date": "2026-05-28",
-    "source_url": "https://crypto.news/bis-tokenization-moves-to-real-value-payments/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Mastercard",
-    "initiative": "Mastercard secures New York BitLicense",
-    "description": "Mastercard Transaction Services has been granted a BitLicense by the New York State Department of Financial Services (NYDFS), cementing its support for digital currencies such as stablecoins and tokenized deposits",
-    "date": "2026-05-28",
-    "source_url": "https://www.finextra.com/newsarticle/47818/mastercard-secures-new-york-bitlicense",
-    "category": "payments",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS (Bank for International Settlements)",
-    "initiative": "Tokenisation can improve wholesale cross-border payments - BIS project",
-    "description": "A long-running project involving several central banks and a host of private sector players has built a prototype demonstrating that tokenisation can tackle inefficiencies in wholesale cross-border payments.",
-    "date": "2026-05-28",
-    "source_url": "https://www.finextra.com/newsarticle/47819/tokenisation-can-improve-wholesale-cross-border-payments---bis-project",
-    "category": "regulators",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Project Agorá shows how tokenisation can improve wholesale cross-border payments; work will advance to real-value testing",
-    "description": "The Project Agorá prototype demonstrates how tokenisation and programmable technologies can address long-standing inefficiencies in wholesale cross-border payments at scale, while preserving the safety and integrity of settlement in central bank reserves.",
-    "date": "2026-05-27",
-    "source_url": "https://www.bis.org/press/p260527.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Pilot / Trial",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers"
-    ],
-    "initiative_types": [
-      "DeFi",
       "Payment Infrastructure"
     ],
     "year": "2026"
