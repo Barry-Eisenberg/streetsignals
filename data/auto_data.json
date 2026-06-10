@@ -1,5 +1,24 @@
 [
   {
+    "institution": "The Block",
+    "initiative": "Washington man gets 5 years for helping $100 million crypto money laundering scheme",
+    "description": "Geoffrey K. Auyeung helped overseas fraudsters launder $100 million in scam proceeds through crypto and bank accounts, according to the DOJ.",
+    "date": "2026-06-09",
+    "source_url": "https://www.theblock.co/post/404194/washington-man-gets-five-years",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Chainalysis",
     "initiative": "Chainalysis and the Korean National Police Agency (KNPA) Sign MoU to Strengthen Virtual Asset Investigation Capabilities",
     "description": "In April 2026, Chainalysis signed a Memorandum of Understanding (MoU) with the Korean National Police Agency (KNPA) to deepen cooperation… Chainalysis and the Korean National Police Agency (KNPA) Sign MoU to Strengthen Virtual Asset Investigation Capabilities",
@@ -9455,26 +9474,6 @@
       "Trading & Exchange",
       "Regulation & Compliance",
       "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Banca Sella gets green light to provide crypto services to customers in Italian first",
-    "description": "The fintech-forward private bank said it is the first Italian lender to get Bank of Italy approval under MiCA to offer digital asset custody and transfers.",
-    "date": "2026-05-27",
-    "source_url": "https://www.coindesk.com/business/2026/05/27/banca-sella-gets-green-light-to-provide-crypto-services-to-customers-first-in-italy",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
