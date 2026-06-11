@@ -1,5 +1,100 @@
 [
   {
+    "institution": "Nasdaq",
+    "initiative": "SpaceX stock is coming to Solana on the same day it lists on Nasdaq",
+    "description": "The firms making that possible say eligible shares can also be converted back into tokens, creating a bridge between traditional brokerage accounts and blockchain-based markets.",
+    "date": "2026-06-11",
+    "source_url": "https://www.coindesk.com/tech/2026/06/10/spacex-stock-is-coming-to-solana-on-the-same-day-it-lists-on-nasdaq",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Canton Network",
+    "initiative": "Canton Network developer raises $355 million to bring Wall Street onchain",
+    "description": "The investment comes as blockchains designed for big banks and institutions are having a moment, with Stripe's Tempo and Circle's Arc raising hundreds of millions of dollars.",
+    "date": "2026-06-11",
+    "source_url": "https://www.coindesk.com/business/2026/06/11/canton-network-developer-raises-usd355-million-to-bring-wall-street-onchain",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Tether",
+    "initiative": "Tether leads $1.4 billion funding round in German robotics company Neura",
+    "description": "The investment is part of the stablecoin giant’s expansion into industries outside of crypto.",
+    "date": "2026-06-11",
+    "source_url": "https://www.coindesk.com/business/2026/06/11/tether-leads-usd1-4-billion-funding-round-in-german-robotics-company-neura",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Ledger Insights",
+    "initiative": "DBS to launch tokenized physical gold for Singapore retail investors",
+    "description": "DBS bank has announced plans to offer tokenized physical gold to customers, with DBS Physical Gold Tokens available to retail clients via the DBS digibank app in the second half of 2026. The bank says it is the first such offering in Singapore to let customers digitally access, hold and trade tokenized physical gold on",
+    "date": "2026-06-11",
+    "source_url": "https://www.ledgerinsights.com/dbs-to-launch-tokenized-physical-gold-for-singapore-retail-investors/",
+    "category": "ecosystem",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "Community bank group launches new ad campaign targeting Clarity Act stablecoin reward language",
+    "description": "A key group representing small to mid-sized community banks plans to launch a new ad warning of risks in digital assets.",
+    "date": "2026-06-11",
+    "source_url": "https://www.theblock.co/post/404439/community-bank-group-ad-campaign-targeting-clarity-act-stablecoin-reward-language",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "The anatomy of stablecoin transactions",
     "description": "by Fabian Schär, Anneke Kosse, Tara Rice, Takeshi Shirakami, Jirapat Siridhasanakul Stablecoin transfers are often interpreted as payments. On programmable blockchains, however, they are frequently embedded in atomically executed transaction bundles that combine trading, lending, arbitrage, liquidity provision, and settlement. We show that ignoring this structure materially distorts the interpretation of stablecoin activity. Using 593 million event logs from 141 million Ethereum transactions involving three major U.S. dollar stablecoins, we develop a replicable framework to measure transaction complexity from archive node data, public contract labels, and event signatures.",
@@ -8869,6 +8964,26 @@
     "year": "2026"
   },
   {
+    "institution": "Coinbase",
+    "initiative": "Banks are about to lose their monopoly on money - Keith Grose (Coinbase, UK CEO)",
+    "description": "In this episode of the WRAP UP Podcast, I sit down with Coinbase UK CEO Keith Grose to discuss why stablecoins, tokenized assets, and blockchain infrastructure are starting to move from the edge of finance into the core of the global financial system.",
+    "date": "2026-05-29",
+    "source_url": "https://www.fintechwrapup.com/p/jhhfhff",
+    "category": "exchanges_intermediaries",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "JPMorgan",
     "initiative": "‘The banks will not accept it’: Dimon escalates battle over stablecoin rewards in CLARITY Act debate",
     "description": "JPMorgan CEO Jamie Dimon criticized Coinbase CEO Brian Armstrong and warned the current CLARITY Act framework could ultimately fail, as banks and crypto firms clash over whether stablecoin issuers should be allowed to offer yield-bearing rewards that resemble bank deposits.",
@@ -9306,119 +9421,6 @@
     "fmi_areas": [
       "Collateral & Lending",
       "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "Paxos wins SEC approval to clear U.S. stocks on blockchain",
-    "description": "Paxos new license positions it alongside legacy giants such as DTCC and makes it a compelling, more efficient alternative for traditional finance giants than legacy competitors.",
-    "date": "2026-05-29",
-    "source_url": "https://www.coindesk.com/policy/2026/05/29/paxos-is-first-blockchain-firm-to-provide-settlement-and-clearing-services-following-sec-approval",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Nasdaq",
-    "initiative": "Hyperliquid bigger than NASDAQ, says ICE CEO Jeffrey Sprecher",
-    "description": "Sprecher saluted Hyperliquid's team, signaling deeper engagement between Wall Street incumbents and crypto-native rails.",
-    "date": "2026-05-29",
-    "source_url": "https://www.coindesk.com/markets/2026/05/29/ice-ceo-calls-hyperliquid-bigger-than-nasdaq-says-he-s-met-its-founders",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "U.S. Treasury Department",
-    "initiative": "Trump Accounts investment app launches for children, backed by BNY and Robinhood",
-    "description": "The US Treasury launched the Trump Accounts app on Thursday, allowing parents to place money in investment accounts for their children.",
-    "date": "2026-05-29",
-    "source_url": "https://www.finextra.com/newsarticle/47829/trump-accounts-investment-app-launches-for-children-backed-by-bny-and-robinhood",
-    "category": "regulators",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "Trump vows to push pro-Bitcoin policies; SHRMiner cloud mining’s $7,000 passive income opportunity draws attention",
-    "description": "Trump’s crypto support boosts interest in Bitcoin and cloud mining platforms like SHRMiner among retail investors. In an article published on Truth Social, Trump accused former SEC Chairman Gary Gensler and the “anti-crypto army” of nearly destroying the U.S. Trump vows to push pro-Bitcoin policies; SHRMiner cloud mining’s $7,000 passive income opportunity draws attention",
-    "date": "2026-05-29",
-    "source_url": "https://crypto.news/trump-vows-to-push-pro-bitcoin-policies-shrminer-cloud-minings-7000-passive-income-opportunity-draws-attention/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "ESMA (European Securities and Markets Authority)",
-    "initiative": "ESMA’s annual data report shows increased quality, wider use and digital progress",
-    "description": "It shows that improvements in data quality and data use reinforce each other in a virtuous cycle, supporting more effective supervision and market monitoring across the EU. This year’s edition reflects an expansion in the scope of ESMA’s data quality and use activities, with measurable improvements in data quality across major regulatory datasets, including EMIR, SFTR, MiFIR, AIFMD and MMFR. ESMA’s annual data report shows increased quality, wider use and digital progress",
-    "date": "2026-05-29",
-    "source_url": "https://www.esma.europa.eu/press-news/esma-news/esmas-annual-data-report-shows-increased-quality-wider-use-and-digital",
-    "category": "regulators",
-    "source_name": "ESMA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "Aave Labs secures dual UK licenses for regulated crypto payments infrastructure through local subsidiary",
-    "description": "Aave Labs has obtained FCA cryptoasset registration in the U.K. for its Push subsidiaries, unlocking zero-fee fiat on-ramps.",
-    "date": "2026-05-29",
-    "source_url": "https://www.theblock.co/post/403014/aave-labs-secures-dual-uk-licenses-for-regulated-crypto-payments-infrastructure-through-local-subsidiary",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Regulation & Compliance"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
