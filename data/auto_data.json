@@ -1,5 +1,62 @@
 [
   {
+    "institution": "Ripple",
+    "initiative": "Ripple CEO challenges Jamie Dimon over Clarity Act criticism",
+    "description": "crypto market. Ripple CEO Brad Garlinghouse has criticized JPMorgan CEO Jamie Dimon’s opposition to the Clarity Act, a bill that would establish rules for much of the U.S. Ripple CEO challenges Jamie Dimon over Clarity Act criticism",
+    "date": "2026-06-11",
+    "source_url": "https://crypto.news/ripple-ceo-challenges-jamie-dimon-over-clarity-act-criticism/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "BitGo",
+    "initiative": "BitGo opens Lightning Network fee access for institutional Bitcoin holders",
+    "description": "BitGo has introduced Lightning Earn, a product that lets institutional clients allocate Bitcoin to Lightning Network routing channels. The product uses Amboss Technologies’ Rails platform to manage liquidity routing across Lightning payment paths. BitGo opens Lightning Network fee access for institutional Bitcoin holders",
+    "date": "2026-06-11",
+    "source_url": "https://crypto.news/bitgo-opens-lightning-network-fee-access-for-institutio/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "Hyperliquid overtakes XRP after Kalshi rolls out HYPE futures",
+    "description": "Hyperliquid has overtaken XRP in futures open interest after Kalshi launched CFTC-regulated HYPE perpetuals, pushing HYPE OI to $2.48 billion and lifting the token more than 10%. According to Kalshi, Hyperliquid perpetual futures are now available for U.S. Hyperliquid overtakes XRP after Kalshi rolls out HYPE futures",
+    "date": "2026-06-11",
+    "source_url": "https://crypto.news/hyperliquid-overtakes-xrp-after-kalshi-rolls-out-hype-futures/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Coinbase",
     "initiative": "Coinbase expands DeFi lending with Ethena-powered USDC vault",
     "description": "The product runs on Morpho infrastructure and uses vault allocations curated by Steakhouse Financial. The launch introduces a second lending option that offers exposure to a wider… Coinbase expands DeFi lending with Ethena-powered USDC vault",
@@ -9364,66 +9421,6 @@
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "CFTC says some derivatives markets may not suit 24/7 trading",
-    "description": "The CFTC said in a Friday advisory that exchanges and clearinghouses should carefully assess products before… CFTC says some derivatives markets may not suit 24/7 trading",
-    "date": "2026-05-29",
-    "source_url": "https://crypto.news/cftc-says-some-derivatives-markets-may-not-suit-24-7-trading/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "Texas man charged over alleged $12.3 million AI crypto arbitrage scam",
-    "description": "securities regulators have charged Texas resident Nathan Fuller with orchestrating a fraudulent cryptocurrency trading scheme… Texas man charged over alleged $12.3 million AI crypto arbitrage scam",
-    "date": "2026-05-29",
-    "source_url": "https://crypto.news/texas-man-charged-over-alleged-12-3-million-ai-crypto-arbitrage-scam/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "U.S. regulator says 24/7 trading is great for crypto, may not be fit for other sectors",
-    "description": "As the CFTC issued landmark approvals for crypto perpetual futures contracts, it explained in a related advisory that round-the-clock activity isn't right for all.",
-    "date": "2026-05-29",
-    "source_url": "https://www.coindesk.com/policy/2026/05/29/u-s-regulator-says-24-7-trading-is-great-for-crypto-may-not-be-fit-for-other-sectors",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
