@@ -1,5 +1,39 @@
 [
   {
+    "institution": "FSB (Financial Stability Board)",
+    "initiative": "FSB guides banks on resposible adoption of AI",
+    "description": "The Financial Stability Council is inviting feedback on a new consultation on sound practices for the responsible adoption of artificial intelligence within the financial sector.",
+    "date": "2026-06-11",
+    "source_url": "https://www.finextra.com/newsarticle/47895/fsb-guides-banks-on-resposible-adoption-of-ai",
+    "category": "regulators",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Amazon secures $17.5B Citibank loan as AI spending plans grow",
+    "description": "Amazon has secured a $17.5 billion delayed draw term loan facility from Citibank and other banks. The company disclosed the senior unsecured agreement in a June 10 filing with the Securities and Exchange Commission. Amazon secures $17.5B Citibank loan as AI spending plans grow",
+    "date": "2026-06-10",
+    "source_url": "https://crypto.news/amazon-secures-17-5b-citibank-loan-as-ai-spending-plan/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Filing / Plan",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "Visa",
     "initiative": "Visa brings OpenAI into AI commerce push with stablecoin upgrades",
     "description": "Visa has introduced new AI, stablecoin, and token capabilities at Visa Payments Forum 2026. The updates cover agentic payments, token assurance, stablecoin settlement, and tokenized deposits.… Visa brings OpenAI into AI commerce push with stablecoin upgrades",
@@ -9098,6 +9132,23 @@
     "year": "2026"
   },
   {
+    "institution": "Finextra",
+    "initiative": "Innovating With Stability and Trust in an Age of AI",
+    "description": "Following his morning keynote, Takis Spiliopoulos, CEO, Temenos joined the FinextraTV studio at the Temenos Community Forum 2026 to discuss the defining moment banks currently face. Spiliopoulos explained that this defining moment is neither an optimistic nor pessimistic one, but both. He raised the fragmented adoption of AI and the various complications modernisation offers for companies of varying sizes. Crucially, Spiliopoulos describes how it is possible to push for an exponential growth of innovation, whilst retaining a consistent level of stability with no margin for error.",
+    "date": "2026-05-28",
+    "source_url": "https://www.finextra.com/videoarticle/3513/innovating-with-stability-and-trust-in-an-age-of-ai",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "The strength of the inflation-output link in China",
     "description": "by Mikael Juselius, Wenzhe Li We systematically investigate the relationship between China's inflation, economic slack, and expectations through the lens of New Keynesian Phillips Curves (NKPC). Extending existing research, we employ inflation expectations from Consensus Economics over recent samples and assess the stability of the estimates. Despite China's unique and evolving institutions, NKPC estimates are stable and show significant roles for both the output gap and inflation expectations in contrast to previous findings. Incorporating open-economy variables marginally enhances the models performance. Our results suggest that the New Keynesian framework can be adopted to China without adjustments for specific institutional features.",
@@ -9377,61 +9428,6 @@
     "initiative_types": [
       "DeFi"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "JPMorgan",
-    "initiative": "'Debasement trade’ falls out of favor as inflation fears cool, JPMorgan says",
-    "description": "Investors are abandoning bitcoin and gold, perhaps sensing a coming end to Middle East hostilities.",
-    "date": "2026-05-28",
-    "source_url": "https://www.coindesk.com/markets/2026/05/28/investors-are-throwing-in-the-towel-on-the-debasement-trade-as-inflation-fears-start-to-cool-jpmorgan-says",
-    "category": "payments",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Asset manager Grayscale delays IPO plans as crypto listing boom loses steam",
-    "description": "Grayscale’s decision to delay its IPO highlights the growing caution across the crypto industry as volatile markets and weak investor demand weigh on public listing plans.",
-    "date": "2026-05-28",
-    "source_url": "https://www.coindesk.com/business/2026/05/28/asset-manager-grayscale-delays-ipo-plans-as-crypto-listing-boom-loses-steam",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Nasdaq",
-    "initiative": "VanEck launches first U.S. spot BNB ETF on Nasdaq",
-    "description": "The ETF offers investors BNB exposure through traditional brokerage accounts without requiring them to directly buy or store the token.",
-    "date": "2026-05-28",
-    "source_url": "https://www.coindesk.com/business/2026/05/28/vaneck-launches-first-u-s-spot-bnb-etf-on-nasdaq",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
