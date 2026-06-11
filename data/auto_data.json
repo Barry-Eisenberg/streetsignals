@@ -1,5 +1,46 @@
 [
   {
+    "institution": "JPMorgan",
+    "initiative": "JPMorgan says debasement trade retreat has ‘accelerated’ for bitcoin",
+    "description": "The retreat from the debasement trade has continued for gold and accelerated for bitcoin in recent weeks, JPMorgan analysts said.",
+    "date": "2026-06-11",
+    "source_url": "https://www.theblock.co/post/404471/jpmorgan-debasement-trade-retreat-bitcoin-gold",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "MassPay joins Coinbase to challenge costly cross-border wires",
+    "description": "MassPay has partnered with Coinbase to integrate stablecoin funding and settlement into its cross-border payout network, giving enterprise customers access to USDC-based payments across 180 countries. According to the companies’ announcement, eligible MassPay clients can send USDC globally, manage treasury… MassPay joins Coinbase to challenge costly cross-border wires",
+    "date": "2026-06-11",
+    "source_url": "https://crypto.news/masspay-joins-coinbase-to-challenge-costly-cross-border-wires/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "ESMA (European Securities and Markets Authority)",
     "initiative": "ESMA’s annual data report shows increased quality, wider use and digital progress",
     "description": "It shows that improvements in data quality and data use reinforce each other in a virtuous cycle, supporting more effective supervision and market monitoring across the EU. This year’s edition reflects an expansion in the scope of ESMA’s data quality and use activities, with measurable improvements in data quality across major regulatory datasets, including EMIR, SFTR, MiFIR, AIFMD and MMFR. ESMA’s annual data report shows increased quality, wider use and digital progress",
@@ -9386,44 +9427,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "U.S. CFTC opens crypto 'perp' door with first approvals at Kalshi, Coinbase",
-    "description": "The Commodity Futures Trading Commission has now established a stance on how regulated U.S. firms can engage in crypto perpetual futures contracts.",
-    "date": "2026-05-29",
-    "source_url": "https://www.coindesk.com/policy/2026/05/28/u-s-cftc-opens-crypto-perp-door-with-approval-of-first-regulated-firm",
-    "category": "exchanges_intermediaries",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Visa",
-    "initiative": "As European payments sovereignty debate rages, Visa makes its case for place on continent",
-    "description": "With European leaders pushing for greater payments sovereignty, US giant Visa has moved to reassure the bloc that it is a friendly partner, setting out plans for a €500 million investment in the continent, including the building of a new local data processing centre.",
-    "date": "2026-05-29",
-    "source_url": "https://www.finextra.com/newsarticle/47831/as-european-payments-sovereignty-debate-rages-visa-makes-its-case-for-place-on-continent",
-    "category": "payments",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
