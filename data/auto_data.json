@@ -1,5 +1,114 @@
 [
   {
+    "institution": "Deutsche Börse Group",
+    "initiative": "Clearstream unveils digital-first securities infrastructure",
+    "description": "Clearstream, Deutsche Börse Group’s post-trade business, unveils a next-generation digital securities infrastructure for both traditional and tokenized securities markets.",
+    "date": "2026-06-11",
+    "source_url": "https://www.finextra.com/pressarticle/110112/clearstream-unveils-digital-first-securities-infrastructure",
+    "category": "exchanges_intermediaries",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Settlement & Clearing"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Visa",
+    "initiative": "Visa says stablecoins are ‘reshaping the back end’ of commerce as it expands AI, tokenization efforts",
+    "description": "Visa said stablecoins are reshaping commerce as it unveiled new AI tools, tokenization features, and a partnership with OpenAI.",
+    "date": "2026-06-11",
+    "source_url": "https://www.theblock.co/post/404376/visa-stablecoins-reshaping-back-end-of-commerce",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "CFTC Proposes Its First Formal Prediction-Markets Rule to Vet Event Contracts on War, Gaming, and Unlawful Activity",
+    "description": "The CFTC published a Notice of Proposed Rulemaking, its first formal prediction-markets rule, establishing a 90-day framework to judge whether event contracts involving war, gaming, assassination, or terrorism are contrary to the public interest.",
+    "date": "2026-06-11",
+    "source_url": "https://unchainedcrypto.com/cftc-proposes-its-first-formal-prediction-markets-rule-to-vet-event-contracts-on-war-gaming-and-unlawful-activity/",
+    "category": "regulators",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BlackRock",
+    "initiative": "BlackRock Files Likely-Final Amendment for Yield-Generating Bitcoin ETF With 65bps Fee, Launch Expected Soon",
+    "description": "BlackRock filed a likely-final S-1 amendment for its iShares Bitcoin Premium Income ETF (BITA), a covered-call product with a 65bps fee, as it races Goldman Sachs to launch the first major yield-paying Bitcoin ETF.",
+    "date": "2026-06-11",
+    "source_url": "https://unchainedcrypto.com/blackrock-files-likely-final-amendment-for-yield-generating-bitcoin-etf-with-65bps-fee-launch-expected-soon/",
+    "category": "asset_management",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Spain’s Cecabank launches MiCA-regulated crypto custody platform",
+    "description": "11 announcement from Cecabank, the… According to a Jun. Spain’s Cecabank launches MiCA-regulated crypto custody platform",
+    "date": "2026-06-11",
+    "source_url": "https://crypto.news/spains-cecabank-launches-mica-regulated-crypto-custody-platform/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "Binance Philippines return hits wall as BSP flags license gap",
+    "description": "Philippines central bank says Binance and BlockShoals lack VASP licenses, making SEC sandbox approval insufficient for market reentry plan.",
+    "date": "2026-06-11",
+    "source_url": "https://crypto.news/binance-philippines-return-hits-wall-as-bsp-flags-license-gap/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "BIS",
     "initiative": "Strengthening the going-concern role of AT1: options and trade-offs",
     "description": "Additional Tier 1 (AT1) instruments are designed to operate as going-concern capital. In instances where the issuer reaches the point of non-viability, these instruments also support an orderly resolution of a gone concern. Nonetheless, in practice, the effectiveness of AT1 Instruments in fulfilling their primary role as going-concern capital is undermined by low trigger thresholds, the discretionary nature of activation and insufficient incentives for recapitalisation.",
@@ -9303,126 +9412,6 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "U.S. Treasury Department",
-    "initiative": "Bessent calls for CLARITY Act passage, says no CBDC under Trump",
-    "description": "Treasury Secretary Scott Bessent has reaffirmed that the Trump administration will not support a CBDC while urging lawmakers to advance legislation designed to bring digital asset activity under a clearer regulatory framework. According to remarks delivered during a White… Bessent calls for CLARITY Act passage, says no CBDC under Trump",
-    "date": "2026-05-29",
-    "source_url": "https://crypto.news/bessent-calls-for-clarity-act-passage-says-no-cbdc-under-trump/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "CBDC",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Strategy sends $30M in Bitcoin to Coinbase as MSTR stock slides",
-    "description": "Strategy has transferred more than 411 Bitcoin to Coinbase Prime, a move that has drawn attention after recent comments from company executives about potential BTC sales and a pause in fresh purchases. According to blockchain analytics platform Lookonchain, Strategy sent… Strategy sends $30M in Bitcoin to Coinbase as MSTR stock slides",
-    "date": "2026-05-29",
-    "source_url": "https://crypto.news/strategy-sends-30m-in-bitcoin-to-coinbase-as-mstr-stock-slides/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Fidelity",
-    "initiative": "Bitcoin and gold signal a global break from the dollar, Fidelity says",
-    "description": "Fidelity says Bitcoin toll reports and strong gold demand show growing pressure on dollar-based settlement systems.",
-    "date": "2026-05-29",
-    "source_url": "https://crypto.news/bitcoin-and-gold-signal-a-global-break-from-the-dollar-fidelity-says/",
-    "category": "asset_management",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "Paxos becomes first blockchain native firm approved as SEC clearing agency",
-    "description": "Securities and Exchange Commission to operate a blockchain-based clearing agency, becoming what the company says is the first blockchain-native firm authorized to provide… Paxos has received approval from the U.S. Paxos becomes first blockchain native firm approved as SEC clearing agency",
-    "date": "2026-05-29",
-    "source_url": "https://crypto.news/paxos-becomes-first-blockchain-native-firm-approved-as-sec-clearing-agency/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Bitcoin, ether little-changed despite record stocks, falling oil and easing war fears",
-    "description": "Global stocks hit records and oil cracked on a tentative US-Iran ceasefire extension. Crypto stayed on the sidelines, with some analysts saying the next catalyst is regulatory, not geopolitical.",
-    "date": "2026-05-29",
-    "source_url": "https://www.coindesk.com/markets/2026/05/29/bitcoin-ether-little-changed-despite-record-stocks-falling-oil-and-easing-war-fears",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board issues enforcement actions with former employee of Atlantic Union Bank and former employee of Frost Bank",
-    "description": "Federal Reserve Board issues enforcement actions with former employee of Atlantic Union Bank and former employee of Frost Bank",
-    "date": "2026-05-28",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260528a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
