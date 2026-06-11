@@ -1,5 +1,22 @@
 [
   {
+    "institution": "Connecting the Dots",
+    "initiative": "Wero Takes Another Step Toward Becoming Europe’s Payment Network",
+    "description": "Hey Payments Fanatic! Europe's push for payment sovereignty just picked up another important win. BoursoBank, France's largest online bank with nearly 9 million customers, plans to integrate Wero by the end of 2026 , bringing the European payment solution to millions of additional users. At first glance",
+    "date": "2026-06-11",
+    "source_url": "https://www.connectingthedotsinpayments.com/wero-takes-another-step-toward-becoming-europes-payment-network/",
+    "category": "ecosystem",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "FSB (Financial Stability Board)",
     "initiative": "FSB guides banks on resposible adoption of AI",
     "description": "The Financial Stability Council is inviting feedback on a new consultation on sound practices for the responsible adoption of artificial intelligence within the financial sector.",
@@ -9409,25 +9426,6 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "Disciplined AI agents are the disruptor needed to break the exchange churn model",
-    "description": "Programmable incentives that allow independent trading agents to earn only when portfolios rise will create a fairer market for retail customers, explains Naja.",
-    "date": "2026-05-28",
-    "source_url": "https://www.coindesk.com/opinion/2026/05/28/disciplined-ai-agents-are-the-disruptor-needed-to-break-the-exchange-churn-model",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "DeFi"
-    ],
     "year": "2026"
   }
 ]
