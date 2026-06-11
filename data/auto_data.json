@@ -1,5 +1,63 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "Coinbase expands DeFi lending with Ethena-powered USDC vault",
+    "description": "The product runs on Morpho infrastructure and uses vault allocations curated by Steakhouse Financial. The launch introduces a second lending option that offers exposure to a wider… Coinbase expands DeFi lending with Ethena-powered USDC vault",
+    "date": "2026-06-11",
+    "source_url": "https://crypto.news/coinbase-expands-defi-lending-with-ethena-powered-usdc-vault/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Brian Armstrong hands AI agents the keys to Coinbase",
+    "description": "Coinbase has launched a new platform that allows AI agents to trade, manage portfolios, make payments, and execute financial workflows directly through user accounts. According to a Coinbase announcement, the crypto exchange has introduced Coinbase for Agents, a system that… Brian Armstrong hands AI agents the keys to Coinbase",
+    "date": "2026-06-11",
+    "source_url": "https://crypto.news/brian-armstrong-hands-ai-agents-the-keys-to-coinbase/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "U.S. Treasury Department",
+    "initiative": "U.S. Treasury extends Iran’s crypto finance crackdown to procurement networks",
+    "description": "Treasury Department has sanctioned nine individuals and entities accused of supporting Iranian weapons procurement activities. The action targets actors based in China and Hong Kong who allegedly facilitated financial transactions and sourcing operations. U.S. Treasury extends Iran’s crypto finance crackdown to procurement networks",
+    "date": "2026-06-11",
+    "source_url": "https://crypto.news/u-s-treasury-extends-irans-crypto-finance-crackdown/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "JPMorgan",
     "initiative": "JPMorgan says debasement trade retreat has ‘accelerated’ for bitcoin",
     "description": "The retreat from the debasement trade has continued for gold and accelerated for bitcoin in recent weeks, JPMorgan analysts said.",
@@ -9366,63 +9424,6 @@
     "fmi_areas": [
       "Trading & Exchange",
       "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "Clarity Act Risks Regulation Without Oversight, Brookings Fellow Says",
-    "description": "As Congress weighs crypto legislation, Aaron Klein says the CFTC needs more resources, independence and coordination to oversee digital markets.",
-    "date": "2026-05-29",
-    "source_url": "https://www.coindesk.com/policy/2026/05/29/clarity-act-risks-regulation-without-oversight-brookings-fellow-says",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "Crypto.com and OG bring prediction markets to U.S. SailGP team",
-    "description": "Crypto.com and OG Prediction Markets have signed a multi year global partnership with the United States SailGP Team, ahead of this week’s New York Sail Grand Prix, bringing CFTC regulated prediction markets directly into elite foiling yacht racing for the… Crypto.com and OG bring prediction markets to U.S. SailGP team",
-    "date": "2026-05-29",
-    "source_url": "https://crypto.news/crypto-com-and-og-bring-prediction-markets-to-u-s-sailgp-team/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "What American crypto asset perpetuals mean for the future of crypto",
-    "description": "For years, one of the most significant crypto asset markets has existed entirely outside the United States. Today, that changes, explains CFTC Chairman Selig.",
-    "date": "2026-05-29",
-    "source_url": "https://www.coindesk.com/opinion/2026/05/29/what-american-crypto-asset-perpetuals-mean-for-the-future-of-crypto",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
