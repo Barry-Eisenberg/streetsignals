@@ -1,5 +1,41 @@
 [
   {
+    "institution": "Swift",
+    "initiative": "Citi tokenizes private stock, starting with Kaleido",
+    "description": "Last year Citi partnered with Switzerland’s SIX Digital Exchange to tokenize the stocks of late stage private firms. Today it announced its first such deal, tokenizing stock in Kaleido, itself a tokenization infrastructure firm whose clients include Swift and many large banks. Kaleido is also a Citi Ventures portfolio company, making the debut asset one",
+    "date": "2026-06-11",
+    "source_url": "https://www.ledgerinsights.com/citi-tokenizes-private-stock-starting-with-kaleido/",
+    "category": "payments",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BlackRock",
+    "initiative": "BlackRock races Bitcoin income ETF toward potential launch",
+    "description": "BlackRock has moved its proposed Bitcoin income-focused exchange-traded fund closer to market debut after filing a key registration document with the U.S. Securities and Exchange Commission. BlackRock races Bitcoin income ETF toward potential launch",
+    "date": "2026-06-11",
+    "source_url": "https://crypto.news/blackrock-races-bitcoin-income-etf-toward-potential-launch/",
+    "category": "asset_management",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "crypto.news",
     "initiative": "Binance unveils SpaceX teaser as tokenized stock push expands",
     "description": "According to a June 11 announcement from Binance, the exchange has introduced tokenized… Binance has expanded its tokenized stock lineup with five new bStocks while teasing a future SpaceX-linked token, adding another high-profile name to its growing real-world asset offering. Binance unveils SpaceX teaser as tokenized stock push expands",
@@ -9379,46 +9415,6 @@
     "fmi_areas": [
       "Trading & Exchange",
       "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS (Bank for International Settlements)",
-    "initiative": "BIS and Gleif team on LEIs in cross-border open finance prototype",
-    "description": "The Global Legal Entity Identifier Foundation (GLEIF) and the Bank for International Settlements (BIS) have demonstrated how the Legal Entity Identifier (LEI) can bring new Know Your Customer/Business (KYC/B) and Anti-Money Laundering (AML) process efficiencies to small and medium-sized enterprises (SMEs) when using open banking and open finance APIs to initiate payments and open business accounts across borders.",
-    "date": "2026-05-29",
-    "source_url": "https://www.finextra.com/pressarticle/109982/bis-and-gleif-team-on-leis-in-cross-border-open-finance-prototype",
-    "category": "regulators",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "JPMorgan",
-    "initiative": "JPMorgan CEO Jamie Dimon takes aim at the Clarity Act over crypto deposit risks",
-    "description": "JPMorgan Chase CEO Jamie Dimon has said banks will oppose the Clarity Act unless lawmakers change provisions that he says give crypto firms bank-like powers without bank-level safeguards. Fox Business reported that Dimon made the comments on Friday during an… JPMorgan CEO Jamie Dimon takes aim at the Clarity Act over crypto deposit risks",
-    "date": "2026-05-29",
-    "source_url": "https://crypto.news/jpmorgan-ceo-jamie-dimon-takes-aim-at-the-clarity-act-over-crypto-deposit-risks/",
-    "category": "payments",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Collateral & Lending"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
