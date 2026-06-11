@@ -1,5 +1,167 @@
 [
   {
+    "institution": "BIS",
+    "initiative": "Strengthening the going-concern role of AT1: options and trade-offs",
+    "description": "Additional Tier 1 (AT1) instruments are designed to operate as going-concern capital. In instances where the issuer reaches the point of non-viability, these instruments also support an orderly resolution of a gone concern. Nonetheless, in practice, the effectiveness of AT1 Instruments in fulfilling their primary role as going-concern capital is undermined by low trigger thresholds, the discretionary nature of activation and insufficient incentives for recapitalisation.",
+    "date": "2026-06-11",
+    "source_url": "https://www.bis.org/fsi/fsibriefs32.htm",
+    "category": "regulators",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "ESMA (European Securities and Markets Authority)",
+    "initiative": "​Euribor panel to include KBC Bank​",
+    "description": "ESMA and the Belgian Financial Services and Markets Authority (FSMA) welcome the inclusion of KBC Bank in the panel as a positive development that contributes to strengthening the robustness and reliability of this critical benchmark. The FSMA also greatly values its close cooperation with ESMA within the Euribor supervisory framework. ​Euribor panel to include KBC Bank​",
+    "date": "2026-06-11",
+    "source_url": "https://www.esma.europa.eu/press-news/esma-news/euribor-panel-include-kbc-bank",
+    "category": "regulators",
+    "source_name": "ESMA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "BlackRock",
+    "initiative": "BlackRock's income-paying bitcoin ETF nears launch at a fee that undercuts rivals",
+    "description": "The iShares Bitcoin Premium Income ETF makes money by selling call options on BlackRock's own IBIT.",
+    "date": "2026-06-11",
+    "source_url": "https://www.coindesk.com/markets/2026/06/11/blackrock-s-income-paying-bitcoin-etf-nears-launch-at-a-fee-that-undercuts-rivals",
+    "category": "asset_management",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Philippines' central bank says Binance and its local partner lack licenses to operate",
+    "description": "Binance and its local partner do not hold the necessary license required to operate in the country, the Philippine central bank said, according to a local media report.",
+    "date": "2026-06-11",
+    "source_url": "https://www.coindesk.com/policy/2026/06/11/philippines-central-bank-says-binance-and-its-local-partner-lack-licenses-to-operate",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "CoinDesk",
+    "initiative": "Singapore bank DBS to offer tokenized gold to retail customers",
+    "description": "Each token is backed by one gram of physical gold held by DBS in a dedicated vault in Singapore.",
+    "date": "2026-06-11",
+    "source_url": "https://www.coindesk.com/business/2026/06/11/singapore-bank-dbs-to-offer-tokenized-gold-to-retail-customers",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "FSB (Financial Stability Board)",
+    "initiative": "FSB guides banks on responsible adoption of AI",
+    "description": "The Financial Stability Council is inviting feedback on a new consultation on sound practices for the responsible adoption of artificial intelligence within the financial sector.",
+    "date": "2026-06-11",
+    "source_url": "https://www.finextra.com/newsarticle/47895/fsb-guides-banks-on-responsible-adoption-of-ai",
+    "category": "regulators",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "Kwik Payments goes live with ACI Worldwide kit",
+    "description": "ACI Worldwide (NASDAQ: ACIW), an original innovator in global payments technology, today announced that Kwik Payments, a South Africa-based payments service provider (PSP), has successfully gone live on the ACI Payments Orchestration Platform, to power the next phase of digital commerce growth across South Africa and the wider African market.",
+    "date": "2026-06-11",
+    "source_url": "https://www.finextra.com/pressarticle/110108/kwik-payments-goes-live-with-aci-worldwide-kit",
+    "category": "exchanges_intermediaries",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "KB Kookmin Bank raises $100m through blockchain powered digital bond sale",
+    "description": "KB Kookmin Bank has completed a $100 million blockchain-based digital bond sale, becoming the first South Korean bank to use distributed ledger technology for foreign currency fundraising. According to local media reports, the bank issued the two-year U.S. KB Kookmin Bank raises $100m through blockchain powered digital bond sale",
+    "date": "2026-06-11",
+    "source_url": "https://crypto.news/kb-kookmin-bank-raises-100m-through-blockchain-powered-digital-bond-sale/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Tokenization & Issuance",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Japan advances crypto bill with 20% tax rate and ETF pathway",
+    "description": "Japan has advanced legislation that would cut crypto taxes to 20%, introduce ETF pathways, and place digital assets under the same regulatory framework as stocks. According to Bloomberg, Japan’s lower house approved a bill on Thursday that would classify cryptocurrencies… Japan advances crypto bill with 20% tax rate and ETF pathway",
+    "date": "2026-06-11",
+    "source_url": "https://crypto.news/japan-advances-crypto-bill-with-20-tax-rate-and-etf-pathway/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "BlackRock",
     "initiative": "BlackRock files new amendment for yield-generating bitcoin ETF; launch expected soon, Bloomberg analyst says",
     "description": "BlackRock's new bitcoin fund seeks to provide yield through active covered call strategies on IBIT shares and ETP indices.",
@@ -9247,194 +9409,20 @@
     "year": "2026"
   },
   {
-    "institution": "Finextra",
-    "initiative": "Innovating With Stability and Trust in an Age of AI",
-    "description": "Following his morning keynote, Takis Spiliopoulos, CEO, Temenos joined the FinextraTV studio at the Temenos Community Forum 2026 to discuss the defining moment banks currently face. Spiliopoulos explained that this defining moment is neither an optimistic nor pessimistic one, but both. He raised the fragmented adoption of AI and the various complications modernisation offers for companies of varying sizes. Crucially, Spiliopoulos describes how it is possible to push for an exponential growth of innovation, whilst retaining a consistent level of stability with no margin for error.",
+    "institution": "Federal Reserve",
+    "initiative": "Federal Reserve Board issues enforcement actions with former employee of Atlantic Union Bank and former employee of Frost Bank",
+    "description": "Federal Reserve Board issues enforcement actions with former employee of Atlantic Union Bank and former employee of Frost Bank",
     "date": "2026-05-28",
-    "source_url": "https://www.finextra.com/videoarticle/3513/innovating-with-stability-and-trust-in-an-age-of-ai",
-    "category": "ecosystem",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "The strength of the inflation-output link in China",
-    "description": "by Mikael Juselius, Wenzhe Li We systematically investigate the relationship between China's inflation, economic slack, and expectations through the lens of New Keynesian Phillips Curves (NKPC). Extending existing research, we employ inflation expectations from Consensus Economics over recent samples and assess the stability of the estimates. Despite China's unique and evolving institutions, NKPC estimates are stable and show significant roles for both the output gap and inflation expectations in contrast to previous findings. Incorporating open-economy variables marginally enhances the models performance. Our results suggest that the New Keynesian framework can be adopted to China without adjustments for specific institutional features.",
-    "date": "2026-05-28",
-    "source_url": "https://www.bis.org/publ/work1353.htm",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260528a.htm",
     "category": "regulators",
-    "source_name": "BIS — Research Papers",
+    "source_name": "Federal Reserve — Press Releases",
     "auto_generated": true,
     "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Insurer resolution framework - Executive Summary",
-    "description": "Insurer failures can have harmful effects on individuals and businesses, economic activity and financial stability. Resolution is a way to manage the failure of financial institutions, including insurers, that prevents severe systemic disruption without exposing taxpayers to loss.",
-    "date": "2026-05-28",
-    "source_url": "https://www.bis.org/fsi/fsisummaries/exsum_23909.htm",
-    "category": "regulators",
-    "source_name": "BIS — Research Papers",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "ECB (European Central Bank)",
-    "initiative": "ECB to extend TARGET hours enabling Pontes, 24/7 DLT settlement",
-    "description": "Following a consultation involving 125 responses, the European Central Bank (ECB) today announced plans to extend aspects of its TARGET settlement infrastructure, though the real time gross settlement (RTGS) system itself will not gain additional hours in the short term. While the initial steps aim to address liquidity challenges with instant payment system TIPS, this",
-    "date": "2026-05-28",
-    "source_url": "https://www.ledgerinsights.com/ecb-to-extend-target-hours-enabling-pontes-24-7-dlt-settlement/",
-    "category": "regulators",
-    "source_name": "Ledger Insights",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Payments & Transfers",
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "crypto.news",
-    "initiative": "UniCredit warns Europe faces crypto bank crisis",
-    "description": "UniCredit director Elena Carletti has warned Europe may struggle to contain a crypto bank crisis under MiCA rules. UniCredit deputy vice chair Elena Carletti has warned that Europe may struggle to contain a crypto-linked banking shock under MiCA. UniCredit warns Europe faces crypto bank crisis",
-    "date": "2026-05-28",
-    "source_url": "https://crypto.news/unicredit-warns-of-eu-crypto-bank-crisis/",
-    "category": "ecosystem",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
     "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "Crypto trading firm FalconX confidentially files with SEC for IPO, hires bankers",
-    "description": "FalconX has hired Cantor and other bankers to advise on a potential IPO and confidentially filed draft paperwork with the SEC, though the listing is not expected until later this year amid volatile market conditions.",
-    "date": "2026-05-28",
-    "source_url": "https://www.coindesk.com/business/2026/05/28/crypto-trading-firm-falconx-confidentially-files-with-sec-for-ipo-hires-bankers",
-    "category": "regulators",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Gemini crypto exchange launches AI data feed powered by Grok",
-    "description": "The move comes as Gemini continues to expand beyond spot crypto trading into derivatives, predictions, and other financial services.",
-    "date": "2026-05-28",
-    "source_url": "https://www.theblock.co/post/402961/gemini-crypto-exchange-launches-ai-data-feed-powered-grok",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Mastercard",
-    "initiative": "Mastercard gets NY BitLicense, signaling shift to direct stablecoin settlement",
-    "description": "A Mastercard subsidiary has been granted a BitLicense by the New York State Department of Financial Services (NYDFS), positioning Mastercard to directly transmit and settle in stablecoins rather than relying on third party licensed intermediaries. The significance becomes clearer when you look at how card networks have handled stablecoin settlement to date and what changes",
-    "date": "2026-05-28",
-    "source_url": "https://www.ledgerinsights.com/mastercard-gets-ny-bitlicense-signaling-shift-to-direct-stablecoin-settlement/",
-    "category": "payments",
-    "source_name": "Ledger Insights",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Platform / Infrastructure",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Payment Infrastructure"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Tether",
-    "initiative": "Tether’s USAT supply grows 540% month-over-month, latest attestation shows",
-    "description": "Tether’s USA₮ supply grew six-fold month-over-month to over 140 million tokens, according to Anchorage Digital's latest attestation.",
-    "date": "2026-05-28",
-    "source_url": "https://www.theblock.co/post/402933/tethers-usat-supply-grows-540-month-over-month-latest-attestation-shows",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Pilot / Trial",
     "fmi_areas": [
       "General Infrastructure"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "U.S. Treasury Department",
-    "initiative": "VanEck VBILL goes live on Euler lending markets",
-    "description": "VanEck VBILL is now live on DeFi lending platform Euler, letting investors use tokenized Treasuries as onchain collateral. VanEck VBILL, the asset manager’s tokenized US Treasury fund, has gone live on decentralised lending platform Euler. VanEck VBILL goes live on Euler lending markets",
-    "date": "2026-05-28",
-    "source_url": "https://crypto.news/vaneck-vbill-lands-on-euler-lending/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "DeFi"
-    ],
     "year": "2026"
   }
 ]
