@@ -1,5 +1,83 @@
 [
   {
+    "institution": "BlackRock",
+    "initiative": "BlackRock files new amendment for yield-generating bitcoin ETF; launch expected soon, Bloomberg analyst says",
+    "description": "BlackRock's new bitcoin fund seeks to provide yield through active covered call strategies on IBIT shares and ETP indices.",
+    "date": "2026-06-11",
+    "source_url": "https://www.theblock.co/post/404367/blackrock-amendment-yield-bitcoin-etf",
+    "category": "asset_management",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Circle",
+    "initiative": "Circle unveils Arc Privacy to bring confidential smart contracts to institutions",
+    "description": "Circle has unveiled new privacy capabilities for its Arc blockchain, introducing a confidential smart contract engine designed to keep sensitive financial data hidden while preserving access for compliance and audit functions. In a June 10 announcement, Circle said the new… Circle unveils Arc Privacy to bring confidential smart contracts to institutions",
+    "date": "2026-06-11",
+    "source_url": "https://crypto.news/circle-unveils-arc-privacy-to-bring-confidential-smart-contracts-to-institutions/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase becomes first U.S. exchange to offer global crypto perpetual futures",
+    "description": "Coinbase has secured approval to offer access to global crypto perpetual futures for U.S. users, a development its chief executive says could reconnect American traders with a market that has largely operated offshore for years. Coinbase becomes first U.S. exchange to offer global crypto perpetual futures",
+    "date": "2026-06-11",
+    "source_url": "https://crypto.news/coinbase-becomes-first-u-s-exchange-to-offer-global-crypto-perpetual-futures/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "crypto.news",
+    "initiative": "Canadian teen pleads guilty in $13M crypto impersonation scam case",
+    "description": "prosecutors seeking a prison sentence of up to 63 months in exchange for his cooperation.… A Canadian man has pleaded guilty to laundering proceeds from a crypto fraud scheme that stole more than $13 million through impersonation scams, with U.S. Canadian teen pleads guilty in $13M crypto impersonation scam case",
+    "date": "2026-06-11",
+    "source_url": "https://crypto.news/canadian-teen-pleads-guilty-in-13m-crypto-impersonation-scam-case/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Connecting the Dots",
     "initiative": "Wero Takes Another Step Toward Becoming Europe’s Payment Network",
     "description": "Hey Payments Fanatic! Europe's push for payment sovereignty just picked up another important win. BoursoBank, France's largest online bank with nearly 9 million customers, plans to integrate Wero by the end of 2026 , bringing the European payment solution to millions of additional users. At first glance",
@@ -31,6 +109,26 @@
       "General Infrastructure"
     ],
     "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "Circle",
+    "initiative": "New York aims to keep its stablecoin issuers while leaning on federal rulebook",
+    "description": "The New York State Department of Financial Services (NYDFS) has proposed new rules for dollar stablecoins this week, aiming to bring its regime into line with the GENIUS Act and win federal certification so it can keep supervising issuers. The timing matters for one of the largest names in the market. Even though Circle has",
+    "date": "2026-06-10",
+    "source_url": "https://www.ledgerinsights.com/new-york-moves-to-keep-its-stablecoin-issuers-while-leaning-on-federal-rulebook/",
+    "category": "payments",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
     "year": "2026"
   },
   {
@@ -9337,95 +9435,6 @@
       "DLT / Blockchain Infrastructure",
       "DeFi"
     ],
-    "year": "2026"
-  },
-  {
-    "institution": "CoinDesk",
-    "initiative": "UniCredit warns Europe may struggle to contain crypto-bank crisis under MiCA rules",
-    "description": "EU deposit insurance (up to €100,000) may not absorb stress from large stablecoin reserve accounts, unlike the full protection offered by U.S. regulators.",
-    "date": "2026-05-28",
-    "source_url": "https://www.coindesk.com/business/2026/05/28/unicredit-warns-europe-may-struggle-to-contain-crypto-bank-crisis-under-mica-rules",
-    "category": "ecosystem",
-    "source_name": "CoinDesk",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Digital Currency & Stablecoins",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Visa",
-    "initiative": "Visa invests in agentic software creation platform Replit",
-    "description": "Visa has invested in Replit, the agentic software creation platform already used by more than 1000 of the payment giant's employees. The size of the investment was not disclosed.",
-    "date": "2026-05-28",
-    "source_url": "https://www.finextra.com/newsarticle/47825/visa-invests-in-agentic-software-creation-platform-replit",
-    "category": "payments",
-    "source_name": "Finextra",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "The Block",
-    "initiative": "Grayscale’s Hyperliquid ETF negotiating ‘seed’ investment of roughly $115 million in HYPE tokens",
-    "description": "Earlier this month, 21Shares and Bitwise Investments became the first firms to launch HYPE-based exchange-traded funds.",
-    "date": "2026-05-28",
-    "source_url": "https://www.theblock.co/post/402903/grayscale-hyperliquid-etf-negotiating-seed-investment-115-million-hype-tokens",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "U.S. Treasury Department",
-    "initiative": "VanEck’s tokenized VBILL US Treasury fund can now be used as collateral on Euler",
-    "description": "Securitize launched VanEck's VBILL as a collateral asset in an Euler lending market curated by KPK on Thursday.",
-    "date": "2026-05-28",
-    "source_url": "https://www.theblock.co/post/402904/vaneck-tokenized-vbill-us-treasury-fund-collateral-euler",
-    "category": "regulators",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "Federal Reserve",
-    "initiative": "Federal Reserve Board issues enforcement actions with former employee of Atlantic Union Bank and former employee of Frost Bank",
-    "description": "Federal Reserve Board issues enforcement actions with former employee of Atlantic Union Bank and former employee of Frost Bank",
-    "date": "2026-05-28",
-    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260528a.htm",
-    "category": "regulators",
-    "source_name": "Federal Reserve — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
     "year": "2026"
   }
 ]
