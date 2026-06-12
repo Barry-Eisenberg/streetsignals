@@ -1,5 +1,26 @@
 [
   {
+    "institution": "Coinbase",
+    "initiative": "US moves seized Alameda funds to Coinbase Prime",
+    "description": "The US government has transferred nearly $984,000 in cryptocurrency linked to Alameda Research and FTX. Blockchain data shows that most of the funds moved to Coinbase Prime as authorities continue managing seized assets. US moves seized Alameda funds to Coinbase Prime",
+    "date": "2026-06-12",
+    "source_url": "https://crypto.news/us-moves-seized-alameda-funds-to-coinbase-prime/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Canton Network",
     "initiative": "Digital Asset raises $355m to make Canton the onchain infrastructure for capital markets",
     "description": "A host of financial services giants, including BNP Paribas, Coinbase and HSBC, have joined a $355 million funding round for Digital Asset, the firm behind the Canton Network public, permissionless blockchain purpose-built for institutional finance.",
@@ -9398,25 +9419,6 @@
     ],
     "initiative_types": [
       "Stablecoins & Deposit Tokens",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "CFTC (Commodity Futures Trading Commission)",
-    "initiative": "CFTC approves first US-listed bitcoin perpetual futures contract",
-    "description": "The Commodity Futures Trading Commission (CFTC) has approved KalshiEX to list a bitcoin perpetual futures contract in the United States, opening the door to a product that has dominated crypto derivatives trading globally but until now remained largely confined to offshore venues. The CFTC issued a policy statement and two no action letters on Thursday",
-    "date": "2026-05-29",
-    "source_url": "https://www.ledgerinsights.com/cftc-approves-first-us-listed-bitcoin-perpetual-futures-contract/",
-    "category": "regulators",
-    "source_name": "Ledger Insights",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
       "Crypto / Digital Assets"
     ],
     "year": "2026"
