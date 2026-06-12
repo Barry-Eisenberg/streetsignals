@@ -905,19 +905,28 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const fmiLines = _scWrapLimit(ctx, fmiText, implColW, 2);
     const audLines = _scWrapLimit(ctx, audText, implColW, 2);
     const implH    = Math.max(fmiLines.length, audLines.length) * Math.ceil(11 * 1.4);
+
+    // Pre-compute 30-day related cap; convert freed space into bonus WTM lines
+    const cardRelated  = (related || []).filter(s => s._daysOld != null && s._daysOld <= 30);
+    const _oldRelCount = Math.min(5, (related || []).length);
+    const _newRelCount = Math.min(5, cardRelated.length);
+    // freed px = removed signals × row height + section header if section disappears entirely
+    const _relFreedH   = (_oldRelCount - _newRelCount) * 17
+                       + (_oldRelCount > 0 && _newRelCount === 0 ? 21 : 0);
+
     let   wtmLineH, wtmLines, boxH;
     if (_hasOvr) {
       // Styled box: 13px semi-bold, dashed separator, more padding
       wtmLineH = Math.ceil(13 * 1.40);
       ctx.font  = `600 13px ${_scFont}`;
-      wtmLines  = _scWrapLimit(ctx, wtmText, LEFT_W - 31, 5);
+      wtmLines  = _scWrapLimit(ctx, wtmText, LEFT_W - 31, 5 + Math.floor(_relFreedH / wtmLineH));
       // top(12) + eyebrow(12) + gap(4) + text + gap(8) + sep(1) + sep-gap(10) + implHead(15) + implH + bot(12)
       boxH = 12 + 12 + 4 + wtmLines.length * wtmLineH + 8 + 1 + 10 + 12 + 3 + implH + 12;
     } else {
       // Plain muted metadata: 11px, no separator, less padding
       wtmLineH = Math.ceil(11 * 1.4);
       ctx.font  = `400 11px ${_scFont}`;
-      wtmLines  = _scWrapLimit(ctx, wtmText, LEFT_W - 20, 2);
+      wtmLines  = _scWrapLimit(ctx, wtmText, LEFT_W - 20, 2 + Math.floor(_relFreedH / wtmLineH));
       // top(10) + eyebrow(12) + gap(4) + text + gap(8) + implHead(12) + gap(3) + implH + bot(8)
       boxH = 10 + 12 + 4 + wtmLines.length * wtmLineH + 8 + 12 + 3 + implH + 8;
     }
@@ -1088,8 +1097,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.textAlign = 'left';
     lY += 36;
 
-    // Related signals — fill remaining left-column height (30-day recency cap for card)
-    const cardRelated = (related || []).filter(s => s._daysOld != null && s._daysOld <= 30);
+    // Related signals — fill remaining left-column height (30-day recency cap, see pre-measure above)
     const relAvailH = BODY_BOT - lY - 4;
     if (cardRelated.length > 0 && relAvailH > 40) {
       ctx.setLineDash([2, 3]);
