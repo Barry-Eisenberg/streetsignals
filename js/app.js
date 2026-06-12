@@ -31,6 +31,13 @@
       });
     }
 
+    // Close "More from NextFi" dropdown on outside click
+    document.addEventListener('click', e => {
+      document.querySelectorAll('.nav-dropdown[open]').forEach(d => {
+        if (!d.contains(e.target)) d.removeAttribute('open');
+      });
+    });
+
     // Smooth fade in on every route change handled by router
   });
 })();

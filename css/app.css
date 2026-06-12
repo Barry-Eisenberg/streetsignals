@@ -233,6 +233,89 @@ body > * { position: relative; z-index: 1; }
   }
   .nav-link.is-active::after { display: none; }
   .mobile-toggle { display: inline-flex; }
+
+  .nav-dropdown > summary {
+    padding: var(--space-3) var(--space-4);
+    font-size: 0.95rem;
+    width: 100%;
+  }
+  .nav-dropdown-menu {
+    position: static;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    padding: 0 0 var(--space-2) var(--space-6);
+  }
+  .nav-dropdown-menu a {
+    padding: var(--space-2) var(--space-3);
+    font-size: 0.9rem;
+  }
+}
+
+/* ── More From NextFi dropdown ── */
+.nav-dropdown {
+  position: relative;
+  list-style: none;
+}
+.nav-dropdown > summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-md);
+  color: var(--color-text-muted);
+  font-size: 0.92rem;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  list-style: none;
+}
+.nav-dropdown > summary::-webkit-details-marker { display: none; }
+.nav-dropdown > summary::after {
+  content: '▾';
+  font-size: 0.72em;
+  opacity: 0.65;
+  margin-left: 1px;
+}
+.nav-dropdown > summary:hover {
+  color: var(--color-text);
+  background: var(--color-surface-2);
+}
+.nav-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  min-width: 210px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-divider);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: var(--space-2);
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.nav-dropdown-menu a {
+  display: block;
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-md);
+  color: var(--color-text-muted);
+  font-size: 0.88rem;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.nav-dropdown-menu a:hover {
+  color: var(--color-text);
+  background: var(--color-surface-2);
+}
+.nav-dropdown-menu .nav-dropdown-divider {
+  height: 1px;
+  background: var(--color-divider);
+  margin: var(--space-1) 0;
 }
 
 /* ============================================================
@@ -489,6 +572,24 @@ body > * { position: relative; z-index: 1; }
 /* ============================================================
    HUB (homepage) styles
    ============================================================ */
+.hub-signal-card-preview {
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+}
+.hub-signal-card-img {
+  width: 100%;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  display: block;
+}
+.hub-signal-card-cta {
+  width: 100%;
+  justify-content: center;
+}
+
 .hub-hero {
   padding: clamp(var(--space-12), 8vh, var(--space-20)) 0 var(--space-12);
   position: relative;

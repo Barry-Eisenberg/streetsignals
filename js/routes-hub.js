@@ -126,17 +126,9 @@ SftSRouter.defineRoute('/', async ({ root }) => {
               <a class="btn btn--outline" href="#/methodology">How signals are scored</a>
             </div>
           </div>
-          <div class="card card--elev" style="padding: var(--space-6);">
-            <h4 style="font-family:var(--font-display); font-size:1rem; margin-bottom:var(--space-3); color:var(--color-text-strong);">Latest intelligence briefs</h4>
-            <ul class="related-list">
-              ${SftSData.briefs.slice(0, 4).map(b => `<a class="related-list-item" href="${b.url}" target="_blank" rel="noopener noreferrer">
-                <div class="meta">${R.escapeHTML(b.source || 'NextFi Advisors')}${b.date ? ' · ' + R.relativeDate(b.date) : ''}</div>
-                <div class="title">${R.escapeHTML(b.title)} ${R.extIcon}</div>
-              </a>`).join('')}
-            </ul>
-            <div style="margin-top: var(--space-4); padding-top: var(--space-4); border-top: 1px solid var(--color-divider);">
-              <a class="btn btn--ghost btn--sm" style="width:100%; justify-content:center;" href="#/briefs">All ${SftSData.briefs.length} intelligence briefs &rarr;</a>
-            </div>
+          <div class="card card--elev hub-signal-card-preview">
+            <img src="./assets/sample-signal-card.png" alt="Sample signal download card" class="hub-signal-card-img">
+            <a class="btn btn--ghost btn--sm hub-signal-card-cta" href="#/signals">Explore signals &rarr;</a>
           </div>
         </div>
       </div>
