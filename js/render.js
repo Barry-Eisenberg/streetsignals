@@ -217,7 +217,7 @@ function nextFiContactUrl(ctx = {}) {
   }
 
   params.set('message', lines.join('\n'));
-  return `https://nextfiadvisors.com/contact?${params.toString()}`;
+  return `https://nextfiadvisors.com/?${params.toString()}#contact`;
 }
 
 window.R = {
