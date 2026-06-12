@@ -13,10 +13,10 @@ function normalizeSearchQuery(value) {
 // start with "by Author1, Author2, Author3 The actual abstract..." — keeps content only.
 function stripAuthorByline(text) {
   if (!text) return text;
-  // Lowercase 'by' at the start signals an author attribution line.
-  // Greedy match consumes all names (letters, spaces, commas, accented chars) up to the
-  // last lowercase-char + space + uppercase-char boundary, which is where real content begins.
-  return text.replace(/^by\s+.+[a-zà-ÿ]\s+(?=[A-Z])/, '').trimStart();
+  // Lowercase 'by' at the start signals an author attribution line (e.g. BIS research papers).
+  // [^.]+ limits matching to before the first period so the greedy search for the
+  // last [lowercase][space][UPPERCASE] boundary stays within the author list, not the content.
+  return text.replace(/^by\s+[^.]+[a-zà-ÿ]\s+(?=[A-Z])/, '').trimStart();
 }
 
 function signalMatchesQuery(signal, query) {
