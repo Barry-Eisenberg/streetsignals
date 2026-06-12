@@ -140,7 +140,7 @@ function themeCard(themeId) {
     <div class="theme-card-stats">
       <div><span class="num tabular-nums">${stats.structural}</span><span class="lbl">Structural</span></div>
       <div><span class="num tabular-nums">${stats.material}</span><span class="lbl">Material</span></div>
-      <div><span class="num tabular-nums">${stats.recent14}</span><span class="lbl">Last 14d</span></div>
+      <div><span class="num tabular-nums">${stats.recent7}</span><span class="lbl">Last 7d</span></div>
     </div>
     ${overlayLine}
     <span class="theme-card-link">View Playbook

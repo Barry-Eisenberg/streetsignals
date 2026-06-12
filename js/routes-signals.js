@@ -95,9 +95,9 @@ function syncFiltersToURL() {
   if (f.theme) u.set('theme', f.theme);
   if (f.tier) u.set('tier', f.tier);
   if (f.category && f.category !== 'all') u.set('cat', f.category);
-  if (f.dateWindow !== 14) u.set('days', f.dateWindow);
+  if (f.dateWindow !== 7) u.set('days', f.dateWindow);
   if (f.search) u.set('q', f.search);
-  if (f.sort && f.sort !== 'recency') u.set('sort', f.sort);
+  if (f.sort && f.sort !== 'importance') u.set('sort', f.sort);
   if (SftSState.persona && SftSState.persona !== 'all') u.set('persona', SftSState.persona);
   const qs = u.toString();
   const newHash = `#/signals${qs ? '?' + qs : ''}`;
@@ -219,7 +219,7 @@ SftSRouter.defineRoute('/signals', async ({ root, query }) => {
 
             <h4>Date window</h4>
             <div class="filter-options">
-              ${[14, 30, 60, 90, 'all'].map(d => `
+              ${[7, 14, 30, 'all'].map(d => `
                 <button class="filter-option ${String(f.dateWindow) === String(d) ? 'is-active' : ''}" data-days="${d}">${d === 'all' ? 'All historical' : `Last ${d} days`}</button>
               `).join('')}
             </div>

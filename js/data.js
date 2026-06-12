@@ -453,8 +453,8 @@ const SftSData = {
     const list = this.byTheme(themeId);
     const structural = list.filter(s => s._tier === 'Structural').length;
     const material = list.filter(s => s._tier === 'Material').length;
-    const recent14 = list.filter(s => s._daysOld !== null && s._daysOld <= 14).length;
-    return { total: list.length, structural, material, recent14 };
+    const recent7 = list.filter(s => s._daysOld !== null && s._daysOld <= 7).length;
+    return { total: list.length, structural, material, recent7 };
   },
 
   overlayForTheme(themeId) {

@@ -4,7 +4,7 @@
 
 SftSRouter.defineRoute('/', async ({ root }) => {
   const all = SftSData.signals.filter(s => SftSData.isMappedSignal(s));
-  const recent14 = all.filter(s => s._daysOld !== null && s._daysOld <= 14);
+  const recent7 = all.filter(s => s._daysOld !== null && s._daysOld <= 7);
   const structural = all.filter(s => s._tier === 'Structural');
   const material = all.filter(s => s._tier === 'Material');
   const latestSourceDate = all.reduce((latest, signal) => {
@@ -52,12 +52,12 @@ SftSRouter.defineRoute('/', async ({ root }) => {
           </div>
           <div class="live-strip-stat">
             <div class="label">Structural</div>
-            <div class="value tabular-nums">${structural.length}<span class="delta">+${recent14.filter(s => s._tier === 'Structural').length} past 14d</span></div>
+            <div class="value tabular-nums">${structural.length}<span class="delta">+${recent7.filter(s => s._tier === 'Structural').length} past 7d</span></div>
             <div class="sub">System-shaping moves</div>
           </div>
           <div class="live-strip-stat">
             <div class="label">Material</div>
-            <div class="value tabular-nums">${material.length}<span class="delta">+${recent14.filter(s => s._tier === 'Material').length} past 14d</span></div>
+            <div class="value tabular-nums">${material.length}<span class="delta">+${recent7.filter(s => s._tier === 'Material').length} past 7d</span></div>
             <div class="sub">Directionally important</div>
           </div>
           <div class="live-strip-stat">

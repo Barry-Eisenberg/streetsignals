@@ -11,10 +11,10 @@ const State = {
     theme: null,        // 'tokenized' | 'stablecoins' | 'dlt' | null
     tier: null,         // 'Structural' | 'Material' | 'Context' | null
     category: 'all',    // institution category id
-    dateWindow: 14,     // days; 'all' for everything
+    dateWindow: 7,      // days; 'all' for everything
     country: null,      // country string fragment
     search: '',
-    sort: 'recency'     // recency | importance | institution
+    sort: 'importance'  // recency | importance | institution
   },
   _listeners: [],
   _localStorageAvailable: false,
@@ -43,6 +43,9 @@ const State = {
         if (saved.theme) this.theme = saved.theme;
         if (saved.filters) {
           this.filters = { ...this.filters, ...saved.filters };
+          // Migrate stale defaults: old dateWindow=14 and sort=recency → new defaults
+          if (this.filters.dateWindow === 14) this.filters.dateWindow = 7;
+          if (this.filters.sort === 'recency') this.filters.sort = 'importance';
         }
       }
     } catch (e) {
@@ -80,7 +83,7 @@ const State = {
   resetFilters() {
     this.filters = {
       theme: null, tier: null, category: 'all',
-      dateWindow: 14, country: null, search: '', sort: 'recency'
+      dateWindow: 7, country: null, search: '', sort: 'importance'
     };
     this._saveToStorage();
     this.emit();

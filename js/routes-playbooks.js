@@ -27,7 +27,7 @@ SftSRouter.defineRoute('/playbooks', async ({ root }) => {
               <div class="theme-card-stats">
                 <div><span class="num tabular-nums">${pb.plays.length}</span><span class="lbl">Plays</span></div>
                 <div><span class="num tabular-nums">${stats.structural}</span><span class="lbl">Structural</span></div>
-                <div><span class="num tabular-nums">${stats.recent14}</span><span class="lbl">Last 14d</span></div>
+                <div><span class="num tabular-nums">${stats.recent7}</span><span class="lbl">Last 14d</span></div>
               </div>
               <span class="theme-card-link">Open playbook
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
@@ -127,7 +127,7 @@ SftSRouter.defineRoute('/playbooks/:themeId', async ({ params, query, root }) =>
           <span class="pill"><span class="tabular-nums">${stats.total}</span> total signals</span>
           <span class="pill"><span class="tabular-nums">${stats.structural}</span> Structural</span>
           <span class="pill"><span class="tabular-nums">${stats.material}</span> Material</span>
-          <span class="pill"><span class="tabular-nums">${stats.recent14}</span> in last 14d</span>
+          <span class="pill"><span class="tabular-nums">${stats.recent7}</span> in last 7d</span>
         </div>
       </section>
 
