@@ -27,7 +27,7 @@ SftSRouter.defineRoute('/playbooks', async ({ root }) => {
               <div class="theme-card-stats">
                 <div><span class="num tabular-nums">${pb.plays.length}</span><span class="lbl">Plays</span></div>
                 <div><span class="num tabular-nums">${stats.structural}</span><span class="lbl">Structural</span></div>
-                <div><span class="num tabular-nums">${stats.recent7}</span><span class="lbl">Last 14d</span></div>
+                <div><span class="num tabular-nums">${stats.recent7}</span><span class="lbl">Last 7d</span></div>
               </div>
               <span class="theme-card-link">Open playbook
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
