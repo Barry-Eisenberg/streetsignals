@@ -906,36 +906,52 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const audLines = _scWrapLimit(ctx, audText, implColW, 2);
     const implH    = Math.max(fmiLines.length, audLines.length) * Math.ceil(11 * 1.4);
 
-    // Pre-compute 30-day related cap; convert freed space into bonus WTM lines
+    // Pre-compute 30-day related cap; freed rows feed into WTM budget
     const cardRelated  = (related || []).filter(s => s._daysOld != null && s._daysOld <= 30);
     const _oldRelCount = Math.min(3, (related || []).length);
     const _newRelCount = Math.min(3, cardRelated.length);
-    // freed px = removed signals × row height + section header if section disappears entirely
     const _relFreedH   = (_oldRelCount - _newRelCount) * 17
                        + (_oldRelCount > 0 && _newRelCount === 0 ? 21 : 0);
 
-    let   wtmLineH, wtmLines, boxH;
-    if (_hasOvr) {
-      // Styled box: 13px semi-bold, dashed separator, more padding
-      wtmLineH = Math.ceil(13 * 1.40);
-      ctx.font  = `600 13px ${_scFont}`;
-      wtmLines  = _scWrapLimit(ctx, wtmText, LEFT_W - 31, 5 + Math.floor(_relFreedH / wtmLineH));
-      // top(12) + eyebrow(12) + gap(4) + text + gap(8) + sep(1) + sep-gap(10) + implHead(15) + implH + bot(12)
-      boxH = 12 + 12 + 4 + wtmLines.length * wtmLineH + 8 + 1 + 10 + 12 + 3 + implH + 12;
-    } else {
-      // Plain muted metadata: 11px, no separator, less padding
-      wtmLineH = Math.ceil(11 * 1.4);
-      ctx.font  = `400 11px ${_scFont}`;
-      wtmLines  = _scWrapLimit(ctx, wtmText, LEFT_W - 20, 2 + Math.floor(_relFreedH / wtmLineH));
-      // top(10) + eyebrow(12) + gap(4) + text + gap(8) + implHead(12) + gap(3) + implH + bot(8)
-      boxH = 10 + 12 + 4 + wtmLines.length * wtmLineH + 8 + 12 + 3 + implH + 8;
-    }
+    // Headline metrics needed before both WTM passes
     ctx.font = `800 22px ${_scFont}`;
     const _preHead  = _scWrapLimit(ctx, signal.initiative || 'Untitled signal', LEFT_W - 10, 2);
     const _preHeadH = _preHead.length * Math.ceil(22 * 1.18) + 8;
     const _lYAtSum  = BODY_Y + (22 + 12) + (12 + 5) + _preHeadH;  // pill+gap, eyebrow+gap, head+gap
     const sumLineH  = Math.ceil(12.5 * 1.5);
-    const maxSumLines = Math.max(3, Math.floor((BODY_BOT - _lYAtSum - 14 - boxH - 10 - 10 - 36) / sumLineH));
+    const SUM_GAP   = 8;  // gap between summary text and WTM box (tightened from 14)
+
+    // Two-pass WTM measurement: pass 1 sizes WTM with relFreed bonus, measures actual
+    // summary lines, then pass 2 converts any unused summary rows into more WTM lines.
+    let   wtmLineH, wtmLines, boxH;
+    if (_hasOvr) {
+      wtmLineH = Math.ceil(13 * 1.40);
+      ctx.font = `600 13px ${_scFont}`;
+      const _wtmV1    = _scWrapLimit(ctx, wtmText, LEFT_W - 31, 5 + Math.floor(_relFreedH / wtmLineH));
+      const _boxHV1   = 12 + 12 + 4 + _wtmV1.length * wtmLineH + 8 + 1 + 10 + 12 + 3 + implH + 12;
+      const _sumMaxV1 = Math.max(3, Math.floor((BODY_BOT - _lYAtSum - SUM_GAP - _boxHV1 - 10 - 10 - 36) / sumLineH));
+      ctx.font = `400 12.5px ${_scFont}`;
+      const _actSum   = _scWrapLimit(ctx, getWhatHappenedText(signal), LEFT_W - 10, _sumMaxV1).length;
+      const _extraLines = Math.floor((_relFreedH + Math.max(0, _sumMaxV1 - _actSum) * sumLineH) / wtmLineH);
+      ctx.font  = `600 13px ${_scFont}`;
+      wtmLines  = _scWrapLimit(ctx, wtmText, LEFT_W - 31, 5 + _extraLines);
+      // top(12) + eyebrow(12) + gap(4) + text + gap(8) + sep(1) + sep-gap(10) + implHead(15) + implH + bot(12)
+      boxH = 12 + 12 + 4 + wtmLines.length * wtmLineH + 8 + 1 + 10 + 12 + 3 + implH + 12;
+    } else {
+      wtmLineH = Math.ceil(11 * 1.4);
+      ctx.font = `400 11px ${_scFont}`;
+      const _wtmV1    = _scWrapLimit(ctx, wtmText, LEFT_W - 20, 2 + Math.floor(_relFreedH / wtmLineH));
+      const _boxHV1   = 10 + 12 + 4 + _wtmV1.length * wtmLineH + 8 + 12 + 3 + implH + 8;
+      const _sumMaxV1 = Math.max(3, Math.floor((BODY_BOT - _lYAtSum - SUM_GAP - _boxHV1 - 10 - 10 - 36) / sumLineH));
+      ctx.font = `400 12.5px ${_scFont}`;
+      const _actSum   = _scWrapLimit(ctx, getWhatHappenedText(signal), LEFT_W - 10, _sumMaxV1).length;
+      const _extraLines = Math.floor((_relFreedH + Math.max(0, _sumMaxV1 - _actSum) * sumLineH) / wtmLineH);
+      ctx.font  = `400 11px ${_scFont}`;
+      wtmLines  = _scWrapLimit(ctx, wtmText, LEFT_W - 20, 2 + _extraLines);
+      // top(10) + eyebrow(12) + gap(4) + text + gap(8) + implHead(12) + gap(3) + implH + bot(8)
+      boxH = 10 + 12 + 4 + wtmLines.length * wtmLineH + 8 + 12 + 3 + implH + 8;
+    }
+    const maxSumLines = Math.max(3, Math.floor((BODY_BOT - _lYAtSum - SUM_GAP - boxH - 10 - 10 - 36) / sumLineH));
 
     // ── LEFT COLUMN ───────────────────────────────────────────────────────
     let lY = BODY_Y;
@@ -983,7 +999,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.font = `400 12.5px ${_scFont}`;
     const sumLines  = _scWrapLimit(ctx, getWhatHappenedText(signal), LEFT_W - 10, maxSumLines);
     _scDrawLines(ctx, sumLines, LEFT_X, lY, sumLineH);
-    lY += sumLines.length * sumLineH + 14;
+    lY += sumLines.length * sumLineH + SUM_GAP;
 
     // ACT 2 — Why This Matters
     // Styled cyan box when a hand-authored override exists; plain muted metadata otherwise.
