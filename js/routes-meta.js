@@ -85,10 +85,10 @@ score(signal) =
   − unclassifiedPenalty(initiative_types == [])
   
 tier =
-    score ≥ 70  →  Structural
-    score ≥ 50  →  Material
-    score ≥ 25  →  Context
-    score < 25  →  Noise</pre>
+    score ≥ 58  →  Structural
+    score ≥ 44  →  Material
+    score ≥ 22  →  Context
+    score < 22  →  Noise</pre>
         </div>
 
         <p style="margin-top: var(--space-5); color: var(--color-text-muted); font-size: 0.92rem;">When a persona lens is selected, a second pass adjusts the tier per signal: Structural is never demoted, but Material can elevate to Structural for a high-relevance persona, and Context can elevate to Material when persona-relevance is high.</p>
