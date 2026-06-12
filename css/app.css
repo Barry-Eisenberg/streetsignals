@@ -1094,11 +1094,59 @@ body > * { position: relative; z-index: 1; }
   margin-top: var(--space-1);
 }
 
+.filter-toggle-btn {
+  display: none;
+}
+
 @media (max-width: 980px) {
   .workspace { grid-template-columns: 1fr; }
   .workspace-rail {
     position: static;
     max-height: none;
+    padding: var(--space-3) var(--space-4);
+  }
+
+  .filter-toggle-btn {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    width: 100%;
+    background: none;
+    border: none;
+    padding: var(--space-2) 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-text);
+    cursor: pointer;
+    text-align: left;
+  }
+  .filter-toggle-btn .filter-toggle-chevron {
+    margin-left: auto;
+    transition: transform 0.2s ease;
+  }
+  .filter-toggle-btn .filter-toggle-chevron.is-open {
+    transform: rotate(180deg);
+  }
+  .filter-toggle-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 5px;
+    border-radius: var(--radius-full);
+    background: var(--color-primary);
+    color: #000;
+    font-size: 0.72rem;
+    font-weight: 700;
+  }
+
+  .workspace-rail-body {
+    display: none;
+    padding-top: var(--space-3);
+  }
+  .workspace-rail.is-open .workspace-rail-body {
+    display: block;
   }
 }
 

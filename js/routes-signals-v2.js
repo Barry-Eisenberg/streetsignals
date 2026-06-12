@@ -287,6 +287,8 @@ SftSRouter.defineRoute('/signals', async ({ root, query }) => {
     return counts;
   }
 
+  let filtersOpen = window.innerWidth > 980;
+
   function render() {
     const f = SftSState.filters;
     const filtered = applyFiltersAndSort(allSignals);
@@ -325,7 +327,23 @@ SftSRouter.defineRoute('/signals', async ({ root, query }) => {
         ${deeplinkBanner}
 
         <div class="workspace">
-          <aside class="workspace-rail">
+          <aside class="workspace-rail${filtersOpen ? ' is-open' : ''}">
+            ${(() => {
+              const activeCount = [
+                f.search,
+                String(f.dateWindow) !== '14',
+                f.tier,
+                f.theme,
+                f.category && f.category !== 'all',
+                f.country,
+              ].filter(Boolean).length;
+              return `<button class="filter-toggle-btn" data-act="toggleFilters" aria-expanded="${filtersOpen}">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="11" y1="18" x2="13" y2="18"/></svg>
+                Filters${activeCount > 0 ? ` <span class="filter-toggle-count">${activeCount}</span>` : ''}
+                <svg class="filter-toggle-chevron${filtersOpen ? ' is-open' : ''}" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+              </button>`;
+            })()}
+            <div class="workspace-rail-body">
             <h4>Search</h4>
             <input type="search" id="searchBox" class="filter-search" placeholder="Institution, keyword…" value="${R.escapeHTML(f.search || '')}" />
 
@@ -370,6 +388,7 @@ SftSRouter.defineRoute('/signals', async ({ root, query }) => {
             </div>
 
             <button class="btn btn--ghost btn--sm" style="margin-top:var(--space-5); width:100%;" data-act="clearAll">Reset all filters</button>
+            </div>
           </aside>
 
           <div class="workspace-results">
@@ -419,6 +438,7 @@ SftSRouter.defineRoute('/signals', async ({ root, query }) => {
   function onClick(e) {
     const t = e.target.closest('button[data-tier], button[data-theme], button[data-cat], button[data-country], button[data-days], button[data-sort], button[data-act], button[data-persona]');
     if (!t) return;
+    if (t.dataset.act === 'toggleFilters') { filtersOpen = !filtersOpen; render(); return; }
     if (t.dataset.tier !== undefined) SftSState.filters.tier = t.dataset.tier || null;
     else if (t.dataset.theme !== undefined) SftSState.filters.theme = t.dataset.theme || null;
     else if (t.dataset.cat !== undefined) SftSState.filters.category = t.dataset.cat;
