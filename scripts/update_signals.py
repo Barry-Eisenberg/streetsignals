@@ -138,18 +138,29 @@ CATEGORY_ALIASES = {
 }
 
 PUBLISHER_INSTITUTIONS = {
+    "BeInCrypto",
+    "Bitcoin Magazine",
+    "Blockworks",
     "Chainalysis — Blog",
     "CoinDesk",
     "CoinGeek",
+    "CoinTelegraph",
     "Connecting the Dots",
     "Connecting the Dots in Payments",
+    "CryptoSlate",
+    "Decrypt",
+    "DL News",
+    "DLNews",
     "Finextra",
     "Fintech Wrap Up",
     "Ledger Insights",
+    "Protos",
     "The Block",
+    "The Defiant",
     "The Paypers",
     "Unchained",
     "Unchained Crypto",
+    "crypto.news",
 }
 
 CANONICAL_INSTITUTION_ALIASES = {
@@ -774,6 +785,9 @@ def is_usable_institution_name(name):
     if len(institution) < 3:
         return False
 
+    if institution in PUBLISHER_INSTITUTIONS:
+        return False
+
     lower_institution = institution.lower()
     if lower_institution.startswith(BAD_INSTITUTION_PREFIXES):
         return False
@@ -888,6 +902,11 @@ def sanitize_auto_signal(signal, institution_category_pairs):
         if is_usable_institution_name(inferred_institution):
             updated["institution"] = normalize_institution_name(inferred_institution)
             updated["category"] = inferred_category
+    else:
+        # No real institution found — drop if the existing attribution is a media outlet
+        existing = normalize_institution_name(signal.get("institution") or "")
+        if existing in PUBLISHER_INSTITUTIONS:
+            return None
 
     enrich(updated)
     return updated
@@ -1731,7 +1750,7 @@ def autogenerate_wtm_overrides(auto_data=None):
         except ValueError:
             print(f"WARN: ignoring invalid --limit value: {raw_limit}")
 
-    past_days = 14  # default: only process signals from the past 14 days
+    past_days = 10  # default: only process signals from the past 10 days
     raw_past_days = _arg_value("--past-days")
     if raw_past_days:
         try:
@@ -1835,6 +1854,7 @@ def autogenerate_wtm_overrides(auto_data=None):
     skipped_tier = 0
     skipped_has_override = 0
     skipped_window = 0
+    skipped_publisher = 0
     errors = 0
 
     for signal in auto_data:
@@ -1855,6 +1875,10 @@ def autogenerate_wtm_overrides(auto_data=None):
             if sig_date is None or sig_date < cutoff_date or sig_date > today:
                 skipped_window += 1
                 continue
+
+        if normalize_institution_name(signal.get("institution") or "") in PUBLISHER_INSTITUTIONS:
+            skipped_publisher += 1
+            continue
 
         if _score_signal(signal) < STRUCTURAL_THRESHOLD:
             skipped_tier += 1
@@ -1905,6 +1929,7 @@ def autogenerate_wtm_overrides(auto_data=None):
     print(f"  Already had one  : {skipped_has_override}")
     print(f"  Below Structural : {skipped_tier}")
     print(f"  Outside window   : {skipped_window}")
+    print(f"  Publisher/media  : {skipped_publisher}")
     print(f"  Missing URL      : {skipped_no_url}")
     print(f"  Errors           : {errors}")
     print(f"  Dry run          : {'yes' if dry_run else 'no'}")
