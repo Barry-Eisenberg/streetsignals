@@ -345,7 +345,7 @@ function recommendPlayForSignal(signal, persona = 'all') {
   const signalText = `${signal.initiative || ''} ${signal.description || ''}`.toLowerCase();
   const isPerimeterRegAction = signal.signal_type === 'Regulatory Action';
   const hasSingleAgencyCue = /(\bsec\b|\bcftc\b|\bocc\b|\bfca\b|\bmas\b|banking committee|supervisor|supervisory|charter|license|licensing)/i.test(signalText);
-  const hasIntlCoordinationCue = /(\bbis\b|\bfatf\b|\bbasel\b|\biosco\b|g7|g20|cross-border|international|multi-country|multijurisdiction)/i.test(signalText);
+  const hasIntlCoordinationCue = /(\bbis\b|\bfatf\b|\bbasel\b|\biosco\b|g7|g20|multi-country|multijurisdiction|cross-border settlement|global standard)/i.test(signalText);
 
   // For each theme, score each play
   let best = null;
@@ -369,7 +369,7 @@ function recommendPlayForSignal(signal, persona = 'all') {
       if (play.n === 1 && it === 'Asset & Investment Management') score += 3;
       if (play.n === 2 && (it === 'Global Banks' || it === 'Payments Providers')) score += 3;
       if (play.n === 2 && (it === 'Regulatory Agencies' || it === 'Central Banks & Regulators')) score += 3;
-      if (play.n === 3 && (it === 'Exchanges & Central Intermediaries' || it === 'Financial Infrastructure Operators' || it === 'Global Banks')) score += 3;
+      if (play.n === 3 && (it === 'Exchanges & Central Intermediaries' || it === 'Financial Infrastructure Operators')) score += 3;
 
       // 3b. Perimeter nuance: single-agency/supervisory actions should bias Play 1,
       // while true international standards should bias Play 3.
