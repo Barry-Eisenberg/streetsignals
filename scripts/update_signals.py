@@ -1747,29 +1747,87 @@ def autogenerate_wtm_overrides(auto_data=None):
     STRUCTURAL_THRESHOLD = 44
 
     def _score_signal(s):
-        """Simplified scoring to identify Structural signals without the JS runtime."""
-        score = 0
-        cat = (s.get("category") or "").lower()
-        cat_scores = {
-            "banks_fmis": 20, "asset_managers": 18, "regulators": 16,
-            "payments": 14, "exchanges_intermediaries": 12, "ecosystem": 6,
+        """Faithful port of computeTierAndScore() from js/data.js.
+        Must be kept in sync with that function when scoring weights change."""
+        _STRUCTURAL_SIGNAL_TYPES = {
+            "Platform / Infrastructure", "Strategic Initiative", "Investment / M&A",
+            "Strategic Filing / Plan", "Regulatory / Compliance Framework",
+            "Regulatory Action", "Infrastructure Upgrade",
         }
-        score += cat_scores.get(cat, 6)
-        sig_type = (s.get("signal_type") or "").lower()
-        type_scores = {
-            "regulatory action": 18, "product launch": 14, "strategic initiative": 12,
-            "strategic partnership": 10, "investment / m&a": 8, "platform / infrastructure": 10,
-            "research / report": 8,
+        _MATERIAL_SIGNAL_TYPES = {
+            "Product Launch", "Strategic Partnership", "Pilot / Trial",
+            "Leadership & Governance", "Intelligence Brief",
         }
-        score += type_scores.get(sig_type, 5)
+        _STRUCTURAL_INSTITUTION_TYPES = {
+            "Regulatory Agencies", "Central Banks & Regulators", "Global Banks",
+            "Financial Infrastructure Operators", "Exchanges & Central Intermediaries",
+        }
+        _TIER1 = [
+            "bis", "federal reserve", "ecb", "sec", "cftc", "bank of england", "fca", "esma",
+            "jpmorgan", "blackrock", "fidelity", "goldman sachs", "bny mellon", "state street",
+            "visa", "mastercard", "swift", "dtcc", "nyse", "nasdaq", "morgan stanley",
+            "citigroup", "hsbc",
+        ]
+
+        st = s.get("signal_type") or ""
+        score = 22
+        if st in _STRUCTURAL_SIGNAL_TYPES:
+            score = 42
+        elif st in _MATERIAL_SIGNAL_TYPES:
+            score = 30
+        elif st == "Research / Report":
+            score = 26
+
+        inst_type = s.get("institution_type") or ""
+        if inst_type in _STRUCTURAL_INSTITUTION_TYPES:
+            score += 6
+        if inst_type in ("Infrastructure & Technology", "Digital Asset Infrastructure"):
+            score -= 4
+
         fmi = s.get("fmi_areas") or []
-        high_value_fmi = {
-            "settlement & clearing", "digital currency & stablecoins",
-            "tokenization & asset issuance", "payments & transfers",
-        }
-        score += sum(6 for f in fmi if f.lower() in high_value_fmi)
-        score += min(len(fmi) * 2, 10)
-        return score
+        if isinstance(fmi, list) and len(fmi) >= 2:
+            score += 4
+
+        institution = (s.get("institution") or "").lower()
+        if any(t in institution for t in _TIER1):
+            score += 6
+
+        inits = s.get("initiative_types") or []
+        n_inits = len(inits) if isinstance(inits, list) else 0
+        if n_inits == 0:
+            score -= 12
+        elif n_inits >= 3:
+            score += 4
+        elif n_inits >= 2:
+            score += 2
+
+        sig_date = parse_iso_date(s.get("date") or "")
+        if sig_date:
+            days = (today - sig_date).days
+            if days <= 14:
+                score += 8
+            elif days <= 30:
+                score += 4
+            elif days <= 90:
+                pass
+            elif days <= 180:
+                score -= 3
+            elif days <= 365:
+                score -= 6
+            else:
+                score -= 12
+        else:
+            score -= 6
+
+        desc = s.get("description") or ""
+        if s.get("auto_generated") and len(desc) < 250 and inst_type not in _STRUCTURAL_INSTITUTION_TYPES:
+            score -= 4
+
+        imp = s.get("importance_score")
+        if isinstance(imp, (int, float)) and imp > 0:
+            score = round(imp)
+
+        return max(0, min(100, score))
 
     processed = 0
     changed = 0
