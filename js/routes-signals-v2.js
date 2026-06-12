@@ -797,9 +797,9 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     const BODY_BOT = H - FOOT_H;
     const BODY_GAP = 28;
     const LEFT_X   = HPAD;
-    const LEFT_W   = 611;
-    const RIGHT_X  = LEFT_X + LEFT_W + BODY_GAP;  // 675
-    const RIGHT_W  = W - HPAD - RIGHT_X;           // 489
+    const LEFT_W   = 660;
+    const RIGHT_X  = LEFT_X + LEFT_W + BODY_GAP;  // 724
+    const RIGHT_W  = W - HPAD - RIGHT_X;           // 440
 
     // ── Colour tokens ─────────────────────────────────────────────────────
     const C_BG      = '#07090f';
@@ -908,8 +908,8 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
     // Pre-compute 30-day related cap; convert freed space into bonus WTM lines
     const cardRelated  = (related || []).filter(s => s._daysOld != null && s._daysOld <= 30);
-    const _oldRelCount = Math.min(5, (related || []).length);
-    const _newRelCount = Math.min(5, cardRelated.length);
+    const _oldRelCount = Math.min(3, (related || []).length);
+    const _newRelCount = Math.min(3, cardRelated.length);
     // freed px = removed signals × row height + section header if section disappears entirely
     const _relFreedH   = (_oldRelCount - _newRelCount) * 17
                        + (_oldRelCount > 0 && _newRelCount === 0 ? 21 : 0);
@@ -1113,7 +1113,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
       const tierC = { Structural: C_PRIMARY, Material: '#ffb547', Context: '#8f9aaa' };
       const relItemH = 17;
-      const maxRel = Math.min(cardRelated.length, Math.floor((BODY_BOT - lY) / relItemH));
+      const maxRel = Math.min(3, cardRelated.length, Math.floor((BODY_BOT - lY) / relItemH));
       for (let i = 0; i < maxRel; i++) {
         const rel = cardRelated[i];
         const rc  = tierC[rel._tier] || C_FAINT;
