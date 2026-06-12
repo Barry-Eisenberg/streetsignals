@@ -86,7 +86,7 @@ SftSRouter.defineRoute('/', async ({ root }) => {
             <div class="section-eyebrow section-eyebrow--lg">Priority signals</div>
             <p class="section-lead">Structural-tier signals from the last two weeks. The moves that reset what's possible — and what's expected — across institutional digital-asset infrastructure.</p>
           </div>
-          <a class="btn btn--ghost" href="#/signals?tier=Structural">All Structural signals →</a>
+          <a class="btn btn--ghost" href="#/signals">See All Signals →</a>
         </div>
         <div class="priority-grid">
           ${priority.length > 0
