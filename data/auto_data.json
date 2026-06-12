@@ -4243,15 +4243,15 @@
     }
   },
   {
-    "institution": "Nasdaq",
+    "institution": "Abra",
     "initiative": "Abra’s Bill Barhydt says Wall Street’s next crypto bet is tokenization",
     "description": "As Abra prepares for a Nasdaq debut, CEO Bill Barhydt is betting tokenized yield products and onchain lending will drive the next phase of crypto wealth management.",
     "date": "2026-06-07",
     "source_url": "https://www.coindesk.com/business/2026/06/07/abra-s-bill-barhydt-says-wall-street-s-next-crypto-bet-is-tokenization",
-    "category": "exchanges_intermediaries",
+    "category": "asset_management",
     "source_name": "CoinDesk",
     "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
+    "institution_type": "Asset & Investment Management",
     "signal_type": "Platform / Infrastructure",
     "fmi_areas": [
       "Collateral & Lending"

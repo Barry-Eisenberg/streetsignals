@@ -278,10 +278,15 @@ GENERIC_INSTITUTION_PATTERNS = [
 ]
 
 # Institution is mentioned as a listing/trading venue ("lists on Nasdaq"), not the actor.
-# Template: fill with re.escape(needle) before compiling.
+# Two forms: action-first ("listed on Nasdaq") and exchange-first ("a Nasdaq debut/IPO/SPAC").
+# Template: fill with re.escape(needle) — {0} used twice so both forms share the placeholder.
 _VENUE_CITATION_TEMPLATE = (
-    r"\b(?:list(?:s|ed|ing)?|trad(?:e[sd]|ing)|available|offered|going\s+live|tokenized?|issued)\s+"
-    r"(?:on|at|via|through)\s+{}"
+    r"(?:"
+    r"\b(?:list(?:s|ed|ing)?|trad(?:e[sd]|ing)|available|offered|going\s+live|tokenized?|issued"
+    r"|debut(?:s|ed|ing)?|ipo|spac|float(?:s|ed|ing)?|go(?:es|ing)?\s+public)\s+(?:on|at|via|through)\s+{0}"
+    r"|"
+    r"\b{0}\s+(?:debut|ipo|listing|spac|float|going\s+public|public\s+offering)"
+    r")"
 )
 
 LOW_SIGNAL_MARKET_PATTERNS = [
