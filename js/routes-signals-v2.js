@@ -514,14 +514,6 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
             </div>
           </header>
 
-          <div class="why-block">
-            <div class="why-block-eyebrow">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2v4M12 18v4M2 12h4M18 12h4M5 5l3 3M16 16l3 3M5 19l3-3M16 8l3-3"/></svg>
-              Why this matters · ${R.escapeHTML(SftSData.PERSONAS[persona].label)}
-            </div>
-            <p>${R.escapeHTML(why)}</p>
-          </div>
-
           <div class="detail-section">
             <h3>What happened</h3>
             <p class="detail-description">${R.escapeHTML(whatHappenedText)}</p>
@@ -531,6 +523,14 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
                 Read source ${R.extIcon}
               </a>
             </p>` : ''}
+          </div>
+
+          <div class="why-block">
+            <div class="why-block-eyebrow">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2v4M12 18v4M2 12h4M18 12h4M5 5l3 3M16 16l3 3M5 19l3-3M16 8l3-3"/></svg>
+              Why this matters · ${R.escapeHTML(SftSData.PERSONAS[persona].label)}
+            </div>
+            <p>${R.escapeHTML(why)}</p>
           </div>
 
           ${reco ? `
@@ -621,8 +621,8 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
               Copy link to this signal
             </button>
             <button type="button" class="btn btn--outline btn--sm" id="shareLinkedInBtn" style="width:100%;">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-              Download
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download share card (PNG)
             </button>
           </div>
         </aside>
@@ -761,485 +761,606 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
   _scNextFiLogo.src = './nextfi-logo.png';
 
   function _buildShareCanvas() {
-    const W = 1200;
-    const H = 627;
-    const SCALE = 2;
-
+    const W = 1200, H = 627, SCALE = 2;
     const canvas = document.createElement('canvas');
     canvas.width = W * SCALE;
     canvas.height = H * SCALE;
     const ctx = canvas.getContext('2d');
     ctx.scale(SCALE, SCALE);
 
-    const PAD = 28;
-    const GAP = 14;
-    const LEFT_W = 714;
-    const RIGHT_X = PAD + LEFT_W + GAP;
-    const RIGHT_W = W - PAD - RIGHT_X;
-    const tc = _scTC;
-    const tcRgb = _scHexRgb(tc);
-    const themeLabel = theme?.short || 'Cross-theme';
-    const playbook = reco ? SftSPlaybooks.PLAYBOOKS[reco.themeId] : null;
-    const playbookSnapshot = playbook?.snapshot || null;
-    const recommendationTitle = playbook?.label || 'No mapped playbook';
-    const initiativeType = (signal.initiative_types && signal.initiative_types[0]) || signal.signal_type || 'Initiative';
-    const fmiArea = (signal.fmi_areas && signal.fmi_areas[0]) || 'FMI';
-    const categoryLabel = SftSData.CATEGORY_LABELS?.[signal._category]?.label || signal.institution_type || 'Institutional';
-    const metaLine = [
-      `${signal.institution || 'Signal'} - ${signal.institution_type || categoryLabel}`,
-      R.formatDate(signal.date),
-      `Score: ${signal._score}/100`
-    ].filter(Boolean).join('   ·   ');
+    // ── Layout constants ──────────────────────────────────────────────────
+    const HPAD     = 36;
+    const HEAD_H   = 56;
+    const FOOT_H   = 48;
+    const BODY_Y   = HEAD_H + 14;   // 14px top padding inside body
+    const BODY_BOT = H - FOOT_H;
+    const BODY_GAP = 28;
+    const LEFT_X   = HPAD;
+    const LEFT_W   = 611;
+    const RIGHT_X  = LEFT_X + LEFT_W + BODY_GAP;  // 675
+    const RIGHT_W  = W - HPAD - RIGHT_X;           // 489
 
-    // Background + subtle theme glow.
-    ctx.fillStyle = '#05080f';
+    // ── Colour tokens ─────────────────────────────────────────────────────
+    const C_BG      = '#07090f';
+    const C_TEXT    = '#e8eaf2';
+    const C_STRONG  = '#ffffff';
+    const C_MUTED   = '#97a0b8';
+    const C_FAINT   = '#5d6680';
+    const C_DIVIDER = '#232a3e';
+    const C_PRIMARY = '#2ddcff';   // cyan – tier / WHY THIS MATTERS
+    const C_THEME   = _scTC;       // playbook theme colour
+    const tcRgb     = _scHexRgb(_scTC);
+    const themeRgbStr = `${tcRgb.r},${tcRgb.g},${tcRgb.b}`;
+
+    const playbook  = reco ? SftSPlaybooks.PLAYBOOKS[reco.themeId] : null;
+
+    // ── Background ────────────────────────────────────────────────────────
+    ctx.fillStyle = C_BG;
     ctx.fillRect(0, 0, W, H);
-    const glow = ctx.createRadialGradient(W * 0.86, 80, 0, W * 0.86, 80, 280);
-    glow.addColorStop(0, `rgba(${tcRgb.r},${tcRgb.g},${tcRgb.b},0.18)`);
+
+    // Subtle grid overlay (top-left quadrant only)
+    const GRID = 48;
+    ctx.save();
+    const gridMask = ctx.createRadialGradient(LEFT_W * 0.4, 0, 0, LEFT_W * 0.4, 0, LEFT_W * 0.8);
+    gridMask.addColorStop(0, 'rgba(0,0,0,1)');
+    gridMask.addColorStop(1, 'rgba(0,0,0,0)');
+    ctx.globalAlpha = 0.025;
+    ctx.strokeStyle = C_PRIMARY;
+    ctx.lineWidth = 1;
+    for (let x = 0; x <= W; x += GRID) { ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, H); ctx.stroke(); }
+    for (let y = 0; y <= H; y += GRID) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke(); }
+    ctx.globalAlpha = 1;
+    ctx.restore();
+
+    // Theme glow – top-right corner
+    const glow = ctx.createRadialGradient(W * 0.85, 70, 0, W * 0.85, 70, 260);
+    glow.addColorStop(0, `rgba(${themeRgbStr},0.14)`);
     glow.addColorStop(1, 'rgba(0,0,0,0)');
     ctx.fillStyle = glow;
     ctx.fillRect(0, 0, W, H);
-    ctx.fillStyle = tc;
-    ctx.fillRect(0, 0, 6, H);
 
-    // Header row: SftS mark + wordmark on left, NextFi lockup on right.
-    ctx.textAlign = 'left';
-    ctx.textBaseline = 'top';
-    const headerY = 18;
-    const markSize = 28;
-    const markY = headerY + 1;
-    _scDrawSftsMark(ctx, PAD, markY, markSize);
+    // Left tier → theme gradient rail (5 px)
+    const railGrad = ctx.createLinearGradient(0, 0, 0, H);
+    railGrad.addColorStop(0, C_PRIMARY);
+    railGrad.addColorStop(1, C_THEME);
+    ctx.fillStyle = railGrad;
+    ctx.fillRect(0, 0, 5, H);
 
-    const wordmarkX = PAD + markSize + 12;
-    const textMidY = markY + markSize / 2 + 1.5;
+    // ── Header ────────────────────────────────────────────────────────────
+    const headMidY = HEAD_H / 2 + 1;
+    const MARK_SZ  = 28;
+    _scDrawSftsMark(ctx, HPAD, headMidY - MARK_SZ / 2, MARK_SZ);
+
     ctx.textBaseline = 'middle';
-    ctx.fillStyle = '#dff4ff';
-    ctx.font = `800 40px ${_scFont}`;
-    ctx.save();
-    ctx.scale(0.5, 0.5);
-    const wmX = wordmarkX * 2;
-    const wmY = textMidY * 2;
-    ctx.fillText('Signals', wmX, wmY);
-    const wSignals = ctx.measureText('Signals').width;
-    ctx.fillStyle = '#97a6b8';
-    ctx.font = `600 40px ${_scFont}`;
-    ctx.fillText('from the Street', wmX + wSignals + 12, wmY);
-    ctx.restore();
-    ctx.textBaseline = 'top';
+    ctx.textAlign    = 'left';
+    const WM_X = HPAD + MARK_SZ + 10;
+    ctx.fillStyle = C_STRONG;
+    ctx.font = `800 15px ${_scFont}`;
+    ctx.fillText('Signals', WM_X, headMidY);
+    const wSig = ctx.measureText('Signals').width;
+    ctx.fillStyle = C_MUTED;
+    ctx.font = `400 15px ${_scFont}`;
+    ctx.fillText(' from the Street', WM_X + wSig, headMidY);
 
-    const rightByline = 'Market intelligence by';
-    ctx.fillStyle = '#8f9aaa';
-    ctx.font = `500 12px ${_scFont}`;
-    const bylineW = ctx.measureText(rightByline).width;
-    const logoH = 28;
-    const naturalRatio = _scNextFiLogoReady && _scNextFiLogo.height ? (_scNextFiLogo.width / _scNextFiLogo.height) : 4.9;
-    const logoW = Math.max(82, Math.min(128, Math.round(logoH * naturalRatio)));
-    const lockGap = 8;
-    const lockupW = bylineW + lockGap + logoW;
-    const lockupX = W - PAD - lockupW;
-    const lockupY = 20;
-    ctx.textAlign = 'left';
-    ctx.textBaseline = 'middle';
-    ctx.fillText(rightByline, lockupX, lockupY + Math.round(logoH / 2));
-    ctx.textBaseline = 'top';
-    const logoX = lockupX + bylineW + lockGap;
-    const logoY = lockupY;
+    // "Market intelligence by NextFi" on right
+    const byline  = 'Market intelligence by';
+    ctx.fillStyle = C_FAINT;
+    ctx.font      = `400 11px ${_scFont}`;
+    const bylineW = ctx.measureText(byline).width;
+    const logoH   = 20;
+    const natR    = _scNextFiLogoReady && _scNextFiLogo.height ? (_scNextFiLogo.width / _scNextFiLogo.height) : 4.9;
+    const logoW   = Math.round(logoH * natR);
+    const byX     = W - HPAD - bylineW - 6 - logoW;
+    ctx.fillText(byline, byX, headMidY);
     if (_scNextFiLogoReady) {
-      _scDrawInvertedLogo(ctx, _scNextFiLogo, logoX, logoY, logoW, logoH);
+      _scDrawInvertedLogo(ctx, _scNextFiLogo, byX + bylineW + 6, headMidY - logoH / 2, logoW, logoH);
     } else {
-      ctx.fillStyle = '#c8d3df';
-      ctx.font = `600 12px ${_scFont}`;
-      ctx.fillText('NextFi Advisors', logoX, logoY + 1);
+      ctx.fillStyle = C_TEXT;
+      ctx.font = `700 11px ${_scFont}`;
+      ctx.fillText('NextFi Advisors', byX + bylineW + 6, headMidY);
     }
+    ctx.textBaseline = 'top';
+    ctx.textAlign    = 'left';
 
-    // Tag row.
-    const CHIP_H = 24;
-    let chipX = PAD;
-    const chipY = 67;
-    chipX += _scPill(ctx, (signal._tier || 'Signal').toUpperCase(), chipX, chipY, '#062229', `rgba(${tcRgb.r},${tcRgb.g},${tcRgb.b},0.96)`) + 8;
-    chipX += _scPill(ctx, themeLabel, chipX, chipY, '#34d399', 'rgba(52,211,153,0.14)', '600 13px') + 8;
-    _scPill(ctx, categoryLabel, chipX, chipY, '#c3ced9', 'rgba(195,206,217,0.10)', '600 13px');
-
-    // Title — slightly reduced scale with more breathing room below chips.
-    ctx.textAlign = 'left';
-    ctx.fillStyle = '#f4f7fb';
-    ctx.font = `800 40px ${_scFont}`;
-    const titleLineH = 46;
-    const titleLines = _scWrapLimit(ctx, _scTrunc(signal.initiative || 'Untitled signal', 200), LEFT_W - 10, 3);
-    const titleY = chipY + CHIP_H + 28;
-    _scDrawLines(ctx, titleLines, PAD, titleY, titleLineH);
-
-    const titleBottom = titleY + titleLines.length * titleLineH;
-    ctx.fillStyle = '#a6b1bf';
-    ctx.font = `500 14px ${_scFont}`;
-    const metaLineH = 20;
-    const metaLines = _scWrapLimit(ctx, metaLine, LEFT_W - 10, 2);
-    _scDrawLines(ctx, metaLines, PAD, titleBottom + 12, metaLineH);
-    const metaBottom = titleBottom + 12 + metaLines.length * metaLineH;
-
-    // ── LEFT COLUMN: What happened first, then Why This Matters ──────────────
-
-    // What happened section.
-    const happenedY = metaBottom + 24;
-    const leftBottom = H - 18;
-    const sourceChipH = (signal.source_name || signal.source_url) ? 36 : 0;
-    const happenedLineH = 23;
-    const showSignalUrl = Boolean(signal._id);
-    const urlRowH = showSignalUrl ? 18 : 0;
-    const whyBodyFont = 15;
-    const whyBodyLineH = 20;
-    const whyHeaderH = 36;
-    ctx.font = `500 ${whyBodyFont}px ${_scFont}`;
-    const whyAllLines = _scWrapLimit(ctx, why || '', LEFT_W - 28, 99);
-    // Budget happened against the minimum possible Why height (header + 1 line).
-    // This maximises happened lines; Why then draws from actual content position and fills to bottom.
-    const minWhyH = whyHeaderH + whyBodyLineH;
-    const happenedMaxLines = Math.max(2, Math.floor(
-      (leftBottom - (happenedY + 26) - urlRowH - sourceChipH - 8 - minWhyH) / happenedLineH
-    ));
-    ctx.fillStyle = '#d8e0ea';
-    ctx.font = `700 18px ${_scFont}`;
-    ctx.fillText('What happened', PAD, happenedY);
-    ctx.fillStyle = '#a8b3c1';
-    ctx.font = `500 16px ${_scFont}`;
-    const happenedDesc = getWhatHappenedText(signal);
-    const happenedLines = _scWrapLimit(ctx, happenedDesc, LEFT_W - 10, happenedMaxLines);
-    _scDrawLines(ctx, happenedLines, PAD, happenedY + 26, happenedLineH);
-    const happenedBottom = happenedY + 26 + happenedLines.length * happenedLineH;
-
-    // "Read more at:" URL — always shown when signal ID is available.
-    let belowHappenedBottom = happenedBottom;
-    if (showSignalUrl) {
-      ctx.fillStyle = '#8f9aaa';
-      ctx.font = `500 11px ${_scFont}`;
-      const readMoreLabel = 'Read more at: ';
-      ctx.fillText(readMoreLabel, PAD, happenedBottom + 6);
-      ctx.fillStyle = tc;
-      const labelW = ctx.measureText(readMoreLabel).width;
-      ctx.fillText(`streetsignals.nextfiadvisors.com/#/signals/${signal._id}`, PAD + labelW, happenedBottom + 6);
-      belowHappenedBottom = happenedBottom + urlRowH;
+    // ─── Pre-measure WTM box + headline to size What Happened dynamically ──
+    const wtmText  = why || '';
+    const fmiText  = (signal.fmi_areas || []).slice(0, 5).join(' · ') || 'Institutional infrastructure';
+    const instType = signal.institution_type || '';
+    const initStr  = (signal.initiative_types || []).join(' ');
+    const audList  = [];
+    if (/global bank|major bank/i.test(instType))          audList.push('Global Banks');
+    else if (/bank|custodian/i.test(instType))              audList.push('Banks & Custodians');
+    if (/asset|investment management/i.test(instType))     audList.push('Asset Managers');
+    if (/fintech/i.test(instType))                         audList.push('Fintech Providers');
+    if (/exchange|intermediar/i.test(instType))            audList.push('Exchange Operators');
+    if (/regulator|central bank/i.test(instType))          audList.push('Regulators');
+    if (/stablecoin/i.test(initStr) && audList.length < 4) audList.push('Stablecoin Issuers');
+    if (audList.length === 0) audList.push('Institutional Operators');
+    const audText  = audList.slice(0, 4).join(' · ');
+    // WHY THIS MATTERS — sized differently depending on whether a hand-authored override exists
+    const _hasOvr  = !!signal.why_this_matters_override;
+    const implColW = Math.floor((LEFT_W - 31 - 12) / 2);  // consistent for both paths
+    ctx.font = `400 11px ${_scFont}`;
+    const fmiLines = _scWrapLimit(ctx, fmiText, implColW, 2);
+    const audLines = _scWrapLimit(ctx, audText, implColW, 2);
+    const implH    = Math.max(fmiLines.length, audLines.length) * Math.ceil(11 * 1.4);
+    let   wtmLineH, wtmLines, boxH;
+    if (_hasOvr) {
+      // Styled box: 13px semi-bold, dashed separator, more padding
+      wtmLineH = Math.ceil(13 * 1.40);
+      ctx.font  = `600 13px ${_scFont}`;
+      wtmLines  = _scWrapLimit(ctx, wtmText, LEFT_W - 31, 5);
+      // top(12) + eyebrow(12) + gap(4) + text + gap(8) + sep(1) + sep-gap(10) + implHead(15) + implH + bot(12)
+      boxH = 12 + 12 + 4 + wtmLines.length * wtmLineH + 8 + 1 + 10 + 12 + 3 + implH + 12;
+    } else {
+      // Plain muted metadata: 11px, no separator, less padding
+      wtmLineH = Math.ceil(11 * 1.4);
+      ctx.font  = `400 11px ${_scFont}`;
+      wtmLines  = _scWrapLimit(ctx, wtmText, LEFT_W - 20, 2);
+      // top(10) + eyebrow(12) + gap(4) + text + gap(8) + implHead(12) + gap(3) + implH + bot(8)
+      boxH = 10 + 12 + 4 + wtmLines.length * wtmLineH + 8 + 12 + 3 + implH + 8;
     }
+    ctx.font = `800 22px ${_scFont}`;
+    const _preHead  = _scWrapLimit(ctx, signal.initiative || 'Untitled signal', LEFT_W - 10, 2);
+    const _preHeadH = _preHead.length * Math.ceil(22 * 1.18) + 8;
+    const _lYAtSum  = BODY_Y + (22 + 12) + (12 + 5) + _preHeadH;  // pill+gap, eyebrow+gap, head+gap
+    const sumLineH  = Math.ceil(12.5 * 1.5);
+    const maxSumLines = Math.max(3, Math.floor((BODY_BOT - _lYAtSum - 14 - boxH - 10 - 10 - 36) / sumLineH));
 
-    // Source chip — below URL (or text) with tight gap.
-    if (signal.source_name || signal.source_url) {
-      const sourceLabel = signal.source_name || 'Source article';
-      const chipTop = belowHappenedBottom + 8;
-      ctx.fillStyle = 'rgba(220,228,239,0.12)';
-      _scRoundRect(ctx, PAD, chipTop, 178, 26, 6);
-      ctx.fill();
-      ctx.fillStyle = '#dbe4ef';
-      ctx.font = `600 12px ${_scFont}`;
-      ctx.textBaseline = 'middle';
-      ctx.fillText(`Source: ${_scTrunc(sourceLabel, 24)}`, PAD + 10, chipTop + 13);
+    // ── LEFT COLUMN ───────────────────────────────────────────────────────
+    let lY = BODY_Y;
+
+    // Tags row
+    const PILL_H = 22, PILL_PX = 9;
+    ctx.font = `700 9.5px ${_scFont}`;
+    const drawTagPill = (text, x, y, fg, bg) => {
+      const tw = ctx.measureText(text).width;
+      const pw = tw + PILL_PX * 2;
+      ctx.fillStyle = bg; _scRoundRect(ctx, x, y, pw, PILL_H, 5); ctx.fill();
+      ctx.fillStyle = fg; ctx.textBaseline = 'middle';
+      ctx.fillText(text, x + PILL_PX, y + PILL_H / 2);
       ctx.textBaseline = 'top';
-      belowHappenedBottom = chipTop + 26;
+      return pw;
+    };
+    const tierLabel  = (signal._tier || 'Signal').toUpperCase();
+    const themeLabel = theme?.short || 'Cross-theme';
+    const sigType    = _scTrunc(signal.signal_type || 'Signal', 28);
+    let px = LEFT_X;
+    px += drawTagPill(tierLabel, px, lY, C_PRIMARY, 'rgba(45,220,255,0.10)') + 8;
+    px += drawTagPill(themeLabel, px, lY, C_THEME, `rgba(${themeRgbStr},0.10)`) + 8;
+    drawTagPill(sigType, px, lY, C_TEXT, 'rgba(255,255,255,0.05)');
+    lY += PILL_H + 12;
+
+    // ACT 1 — The Signal
+    const EYEBROW_H = 12;
+    ctx.fillStyle = C_FAINT;
+    ctx.font = `700 9.5px ${_scFont}`;
+    ctx.fillText('THE SIGNAL', LEFT_X, lY);
+    const eyeW = ctx.measureText('THE SIGNAL').width;
+    ctx.fillStyle = C_DIVIDER;
+    ctx.fillRect(LEFT_X + eyeW + 8, lY + 5, 24, 1);
+    lY += EYEBROW_H + 5;
+
+    ctx.fillStyle = C_STRONG;
+    ctx.font = `800 22px ${_scFont}`;
+    const headLineH = Math.ceil(22 * 1.18);
+    const headLines = _scWrapLimit(ctx, signal.initiative || 'Untitled signal', LEFT_W - 10, 2);
+    _scDrawLines(ctx, headLines, LEFT_X, lY, headLineH);
+    lY += headLines.length * headLineH + 8;
+
+    // What Happened — dynamic line count; Related Signals get whatever remains
+    ctx.fillStyle = C_MUTED;
+    ctx.font = `400 12.5px ${_scFont}`;
+    const sumLines  = _scWrapLimit(ctx, getWhatHappenedText(signal), LEFT_W - 10, maxSumLines);
+    _scDrawLines(ctx, sumLines, LEFT_X, lY, sumLineH);
+    lY += sumLines.length * sumLineH + 14;
+
+    // ACT 2 — Why This Matters
+    // Styled cyan box when a hand-authored override exists; plain muted metadata otherwise.
+    const implLineH = Math.ceil(11 * 1.4);
+
+    if (_hasOvr) {
+      // ── Styled box (editorial copy) ──────────────────────────────────
+      ctx.fillStyle = 'rgba(45,220,255,0.06)';
+      _scRoundRect(ctx, LEFT_X, lY, LEFT_W, boxH, 8); ctx.fill();
+      const pBorderGrad = ctx.createLinearGradient(LEFT_X, lY, LEFT_X, lY + boxH);
+      pBorderGrad.addColorStop(0, C_PRIMARY);
+      pBorderGrad.addColorStop(1, C_THEME);
+      ctx.strokeStyle = pBorderGrad; ctx.lineWidth = 3;
+      ctx.beginPath(); ctx.moveTo(LEFT_X + 1.5, lY + 8); ctx.lineTo(LEFT_X + 1.5, lY + boxH - 8); ctx.stroke();
+      ctx.lineWidth = 1;
+
+      let bY = lY + 12;
+      const bX = LEFT_X + 14;
+      ctx.fillStyle = C_PRIMARY;
+      ctx.font = `700 9.5px ${_scFont}`;
+      ctx.fillText('WHY THIS MATTERS', bX, bY);
+      const wtmEyeW2 = ctx.measureText('WHY THIS MATTERS').width;
+      ctx.fillStyle = 'rgba(45,220,255,0.4)';
+      ctx.fillRect(bX + wtmEyeW2 + 8, bY + 5, 24, 1);
+      bY += EYEBROW_H + 4;
+
+      ctx.fillStyle = C_STRONG;
+      ctx.font = `600 13px ${_scFont}`;
+      _scDrawLines(ctx, wtmLines, bX, bY, wtmLineH);
+      bY += wtmLines.length * wtmLineH + 8;
+
+      ctx.setLineDash([3, 3]);
+      ctx.strokeStyle = 'rgba(45,220,255,0.25)'; ctx.lineWidth = 1;
+      ctx.beginPath(); ctx.moveTo(bX, bY); ctx.lineTo(LEFT_X + LEFT_W - 14, bY); ctx.stroke();
+      ctx.setLineDash([]); bY += 10;
+
+      const col2X = bX + implColW + 12;
+      ctx.fillStyle = C_PRIMARY; ctx.font = `700 9px ${_scFont}`;
+      ctx.fillText('FMI AREAS AFFECTED', bX, bY);
+      ctx.fillText('AUDIENCES MOST EXPOSED', col2X, bY);
+      bY += 12 + 3;
+      ctx.fillStyle = C_TEXT; ctx.font = `400 11px ${_scFont}`;
+      _scDrawLines(ctx, fmiLines, bX, bY, implLineH);
+      _scDrawLines(ctx, audLines, col2X, bY, implLineH);
+    } else {
+      // ── Plain muted metadata (template-generated boilerplate) ────────
+      const bX = LEFT_X + 6;
+      let bY = lY + 10;
+      ctx.fillStyle = C_FAINT; ctx.font = `700 9px ${_scFont}`;
+      ctx.fillText('WHY THIS MATTERS', bX, bY);
+      const wtmEyeW = ctx.measureText('WHY THIS MATTERS').width;
+      ctx.fillStyle = C_DIVIDER;
+      ctx.fillRect(bX + wtmEyeW + 8, bY + 4, 24, 1);
+      bY += 12 + 4;
+      ctx.fillStyle = C_MUTED; ctx.font = `400 11px ${_scFont}`;
+      _scDrawLines(ctx, wtmLines, bX, bY, wtmLineH);
+      bY += wtmLines.length * wtmLineH + 8;
+      const col2X = bX + implColW + 12;
+      ctx.fillStyle = C_FAINT; ctx.font = `700 9px ${_scFont}`;
+      ctx.fillText('FMI AREAS AFFECTED', bX, bY);
+      ctx.fillText('AUDIENCES MOST EXPOSED', col2X, bY);
+      bY += 12 + 3;
+      ctx.fillStyle = C_MUTED; ctx.font = `400 11px ${_scFont}`;
+      _scDrawLines(ctx, fmiLines, bX, bY, implLineH);
+      _scDrawLines(ctx, audLines, col2X, bY, implLineH);
     }
 
-    // Why This Is The Right Move Now card — starts right after content, fills to leftBottom.
-    // Uses playbook recommendation content instead of persona-based "why"
-    const whyDrawY = belowHappenedBottom + 8;
-    const whyDrawH = leftBottom - whyDrawY;
-    ctx.fillStyle = 'rgba(45,220,255,0.06)';
-    ctx.strokeStyle = 'rgba(45,220,255,0.34)';
+    lY += boxH + 6;
+
+    // Meta strip — divider + institution · category · date + score badge
+    ctx.strokeStyle = C_DIVIDER;
     ctx.lineWidth = 1;
-    _scRoundRect(ctx, PAD, whyDrawY, LEFT_W, whyDrawH, 10);
-    ctx.fill();
-    ctx.stroke();
-    ctx.fillStyle = '#41cbe5';
-    ctx.font = `700 12px ${_scFont}`;
-    ctx.fillText('WHY THIS MATTERS', PAD + 14, whyDrawY + 12);
-    ctx.fillStyle = '#b8c3d0';
-    const whyBodyY = whyDrawY + 32;
-    const whyMaxLines = Math.max(1, Math.floor((whyDrawH - whyHeaderH) / whyBodyLineH));
-    ctx.font = `500 ${whyBodyFont}px ${_scFont}`;
-    // Use playbook's whyNow text if available, otherwise fall back to persona-based why
-    const whyNowText = (reco && reco.play && reco.play.whyNow) ? reco.play.whyNow : (why || '');
-    const whyNowLines = _scWrapLimit(ctx, whyNowText, LEFT_W - 28, whyMaxLines);
-    _scDrawLines(ctx, whyNowLines, PAD + 14, whyBodyY, whyBodyLineH);
+    ctx.beginPath(); ctx.moveTo(LEFT_X, lY); ctx.lineTo(LEFT_X + LEFT_W, lY); ctx.stroke();
+    lY += 10;
 
-    // ── RIGHT PANEL: fully dynamic layout ────────────────────────────────────
-    const rightY = chipY;
-    const rightBottom = H - 18;
-    const rPad = 10;
-    const rInnerW = RIGHT_W - rPad * 2;
+    const metaInst = signal.institution || 'Institution';
+    const metaCat  = SftSData.CATEGORY_LABELS?.[signal._category]?.label || signal.institution_type || 'Institutional';
+    ctx.fillStyle = C_STRONG;
+    ctx.font = `700 12.5px ${_scFont}`;
+    ctx.textBaseline = 'top';
+    ctx.fillText(metaInst, LEFT_X, lY);
+    const instW = ctx.measureText(metaInst).width;
+    ctx.fillStyle = C_MUTED;
+    ctx.font = `400 11.5px ${_scFont}`;
+    ctx.fillText(` · ${metaCat} · ${R.formatDate(signal.date)}`, LEFT_X + instW, lY + 1);
 
-    // Right rail cursor; Market Picture is rendered as its own standalone card.
-    let rCursor = rightY;
+    // Score block — right-aligned: "70 /100" on one row, label below
+    const scoreNum = String(signal._score || 0);
+    ctx.font = `800 20px ${_scFont}`;
+    const snW = ctx.measureText(scoreNum).width;
+    ctx.font = `600 11px ${_scFont}`;
+    const sfxW = ctx.measureText('/100').width;
+    const blockRight = LEFT_X + LEFT_W;
+    const scoreStartX = blockRight - snW - 4 - sfxW;
 
-    // Reco heading combined with lead text as one paragraph block.
-    const recoHeadingFull = playbook?.label || recommendationTitle;
-    const combinedRecoText = reco
-      ? `Recommended Playbook · ${recoHeadingFull}, based on this signal's tier (${signal._tier}) and the ${SftSData.PERSONAS[persona].label} lens.`
-      : 'This signal is not directly mapped to a Decision Playbook theme.';
-    ctx.fillStyle = '#b7c2cf';
-    ctx.font = `500 12px ${_scFont}`;
-    const recoHeadingLines = _scWrapLimit(ctx, combinedRecoText, rInnerW, 2);
-    const recoHeadingH = recoHeadingLines.length * 17;
-    const leadH = 0;
-    const leadLines = [];
+    ctx.textAlign = 'left';
+    ctx.fillStyle = C_PRIMARY;
+    ctx.font = `800 20px ${_scFont}`;
+    ctx.fillText(scoreNum, scoreStartX, lY);
 
-    ctx.font = `500 11px ${_scFont}`;
-    const rightTextX = RIGHT_X + rPad + 8;
-    const marketTextMaxW = RIGHT_W - (rightTextX - RIGHT_X) - 10;
-    // Wrap text using the same fonts we render with, otherwise measured width is wrong and lines clip.
-    ctx.font = `600 12px ${_scFont}`;
-    const marketSummaryAll = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.summary || '', marketTextMaxW, 8) : [];
-    ctx.font = `500 12px ${_scFont}`;
-    const marketInstitutionalAll = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.sftsBullets?.[0] || '', marketTextMaxW, 8) : [];
-    const marketOnchainAll = playbookSnapshot ? _scWrapLimit(ctx, playbookSnapshot.onchainBullets?.[0] || '', marketTextMaxW, 8) : [];
+    ctx.fillStyle = C_MUTED;
+    ctx.font = `600 11px ${_scFont}`;
+    ctx.textBaseline = 'middle';
+    ctx.fillText('/100', scoreStartX + snW + 4, lY + 10);
+    ctx.textBaseline = 'top';
 
-    ctx.fillStyle = '#f1f6fc';
-    ctx.font = `700 14px ${_scFont}`;
-    const playTitlePreviewLines = reco ? _scWrapLimit(ctx, reco.play.title, rInnerW - 90, 2) : [];
-    ctx.fillStyle = '#b5c0cd';
-    ctx.font = `500 12px ${_scFont}`;
-    const oneLinerPreviewLines = reco ? _scWrapLimit(ctx, reco.play.oneliner, rInnerW - 20, 8) : [];
-    const bestFitPreviewCount = reco?.play?.bestFit?.length ? Math.min(reco.play.bestFit.length, 4) : 0;
-    const playMinH = reco
-      ? Math.max(150, 52 + (playTitlePreviewLines.length > 1 ? 18 : 0) + (oneLinerPreviewLines.length * 17) + 14 + 6 + (bestFitPreviewCount * 18) + 20)
-      : 150;
+    ctx.fillStyle = C_FAINT;
+    ctx.font = `700 8px ${_scFont}`;
+    ctx.textAlign = 'right';
+    ctx.fillText('IMPORTANCE SCORE', blockRight, lY + 24);
+    ctx.textAlign = 'left';
+    lY += 36;
 
-    const rightRailH = rightBottom - rightY;
-    const splitGap = 10;
-    const ctaLineHCalc = 17;
-    const ctaLabelHCalc = 13;
-    const ctaStackHCalc = ctaLabelHCalc + 4 + ctaLineHCalc * 3;
-    const actionsPreferredH = Math.max(190, 18 + 8 + recoHeadingH + 10 + playMinH + 10 + ctaStackHCalc + 8 + 11 + (rPad * 2));
-    const marketFloorH = 150;
-    let actionsPanelH = rightRailH;
-    let marketCardH = 0;
-    if (playbookSnapshot) {
-      const maxActionsH = Math.max(176, rightRailH - splitGap - marketFloorH);
-      actionsPanelH = Math.min(actionsPreferredH, maxActionsH);
-      marketCardH = Math.max(marketFloorH, rightRailH - splitGap - actionsPanelH);
-    }
+    // Related signals — fill remaining left-column height
+    const relAvailH = BODY_BOT - lY - 4;
+    if (related && related.length > 0 && relAvailH > 40) {
+      ctx.setLineDash([2, 3]);
+      ctx.strokeStyle = C_DIVIDER;
+      ctx.lineWidth = 1;
+      ctx.beginPath(); ctx.moveTo(LEFT_X, lY); ctx.lineTo(LEFT_X + LEFT_W, lY); ctx.stroke();
+      ctx.setLineDash([]);
+      lY += 8;
+      ctx.fillStyle = C_FAINT;
+      ctx.font = `700 9px ${_scFont}`;
+      ctx.fillText('RELATED SIGNALS IN THIS THEME', LEFT_X, lY);
+      lY += 13;
 
-    if (playbookSnapshot) {
-      const marketY = rCursor;
-      ctx.fillStyle = 'rgba(255,255,255,0.04)';
-      ctx.strokeStyle = 'rgba(255,255,255,0.10)';
-      _scRoundRect(ctx, RIGHT_X, marketY, RIGHT_W, marketCardH, 10);
-      ctx.fill();
-      ctx.stroke();
+      const tierC = { Structural: C_PRIMARY, Material: '#ffb547', Context: '#8f9aaa' };
+      const relItemH = 17;
+      const maxRel = Math.min(related.length, Math.floor((BODY_BOT - lY) / relItemH));
+      for (let i = 0; i < maxRel; i++) {
+        const rel = related[i];
+        const rc  = tierC[rel._tier] || C_FAINT;
+        const rLabel = (rel._tier || '').toUpperCase();
 
-      // Clip text drawing to the card bounds so dynamic content never spills outside.
-      ctx.save();
-      _scRoundRect(ctx, RIGHT_X + 1, marketY + 1, RIGHT_W - 2, marketCardH - 2, 9);
-      ctx.clip();
+        // Tier badge
+        ctx.font = `700 8.5px ${_scFont}`;
+        const rbW = ctx.measureText(rLabel).width + 10;
+        const rcArr = rc === C_PRIMARY ? '45,220,255' : rc === '#ffb547' ? '255,181,71' : '143,154,170';
+        ctx.fillStyle = `rgba(${rcArr},0.15)`;
+        _scRoundRect(ctx, LEFT_X, lY, rbW, 14, 3); ctx.fill();
+        ctx.fillStyle = rc;
+        ctx.fillText(rLabel, LEFT_X + 5, lY + 3);
 
-      // Fit market text to card height without overflowing.
-      let summaryCount = Math.min(2, marketSummaryAll.length);
-      let institutionalCount = Math.min(3, marketInstitutionalAll.length);
-      let onchainCount = Math.min(3, marketOnchainAll.length);
-      const summaryLineH = 14;
-      const bodyLineH = 14;
-      const marketHeightFor = (s, i, o) => (
-        10 + 16 + (s * summaryLineH) + 10 + 13 + (i * bodyLineH) + 8 + 13 + (o * bodyLineH) + 10
-      );
-      while (
-        marketHeightFor(summaryCount, institutionalCount, onchainCount) > marketCardH &&
-        (onchainCount > 1 || institutionalCount > 1 || summaryCount > 1)
-      ) {
-        if (onchainCount >= institutionalCount && onchainCount >= summaryCount && onchainCount > 1) {
-          onchainCount -= 1;
-        } else if (institutionalCount >= summaryCount && institutionalCount > 1) {
-          institutionalCount -= 1;
-        } else if (summaryCount > 1) {
-          summaryCount -= 1;
+        // Title
+        const relMaxW = LEFT_W - rbW - 10 - 38;
+        ctx.fillStyle = C_MUTED;
+        ctx.font = `400 11px ${_scFont}`;
+        const relTitle = rel.initiative || (rel.description || '').slice(0, 80);
+        let relT = String(relTitle);
+        while (relT.length > 4 && ctx.measureText(relT + '…').width > relMaxW) {
+          relT = relT.slice(0, -1).trimEnd();
         }
+        if (relT.length < relTitle.length) relT += '…';
+        ctx.fillText(relT, LEFT_X + rbW + 8, lY + 2);
+
+        // Days-ago
+        if (rel._daysOld != null) {
+          ctx.fillStyle = C_FAINT;
+          ctx.font = `400 10px ${_scFont}`;
+          ctx.textAlign = 'right';
+          ctx.fillText(`${rel._daysOld}d ago`, LEFT_X + LEFT_W, lY + 2);
+          ctx.textAlign = 'left';
+        }
+        lY += relItemH;
       }
-      const marketSummaryLines = marketSummaryAll.slice(0, summaryCount);
-      const marketInstitutionalLines = marketInstitutionalAll.slice(0, institutionalCount);
-      const marketOnchainLines = marketOnchainAll.slice(0, onchainCount);
-
-      let marketCursor = marketY + 10;
-      ctx.fillStyle = '#8f9aaa';
-      ctx.font = `800 12px ${_scFont}`;
-      ctx.fillText('CURRENT MARKET PICTURE', rightTextX, marketCursor);
-      marketCursor += 16;
-
-      ctx.fillStyle = '#d9e2ec';
-      ctx.font = `600 12px ${_scFont}`;
-      _scDrawLines(ctx, marketSummaryLines, rightTextX, marketCursor, summaryLineH);
-      marketCursor += marketSummaryLines.length * summaryLineH + 10;
-
-      ctx.fillStyle = '#76e4c0';
-      ctx.font = `700 11px ${_scFont}`;
-      ctx.fillText('Institutional signals', rightTextX, marketCursor);
-      marketCursor += 13;
-      ctx.fillStyle = '#b5c0cd';
-      ctx.font = `500 12px ${_scFont}`;
-      _scDrawLines(ctx, marketInstitutionalLines, rightTextX, marketCursor, bodyLineH);
-      marketCursor += marketInstitutionalLines.length * bodyLineH + 8;
-
-      ctx.fillStyle = '#76d1ff';
-      ctx.font = `700 11px ${_scFont}`;
-      ctx.fillText('On-chain flows', rightTextX, marketCursor);
-      marketCursor += 13;
-      ctx.fillStyle = '#b5c0cd';
-      ctx.font = `500 12px ${_scFont}`;
-      _scDrawLines(ctx, marketOnchainLines, rightTextX, marketCursor, bodyLineH);
-      ctx.restore();
-      rCursor = marketY + marketCardH + 10;
     }
 
-    // Playbook/Actions are rendered in a separate lower card.
-    const actionsPanelY = rightY + marketCardH + splitGap;
-    actionsPanelH = rightBottom - actionsPanelY;
-    ctx.fillStyle = 'rgba(255,255,255,0.04)';
-    ctx.strokeStyle = 'rgba(255,255,255,0.10)';
-    _scRoundRect(ctx, RIGHT_X, actionsPanelY, RIGHT_W, actionsPanelH, 10);
-    ctx.fill();
-    ctx.stroke();
-    rCursor = actionsPanelY + rPad;
+    // ── RIGHT COLUMN — Recommended Play card ──────────────────────────────
+    const PLAY_H = BODY_BOT - BODY_Y;
+    const P = 16;  // inner padding
+    const pW = RIGHT_W - P * 2;
 
-    ctx.fillStyle = '#55d3a0';
-    ctx.font = `700 11px ${_scFont}`;
-    ctx.fillText('PLAYBOOK & ACTIONS', RIGHT_X + rPad, rCursor);
-    rCursor += 18;
+    // Card background + border
+    const playBg = ctx.createLinearGradient(RIGHT_X, BODY_Y, RIGHT_X, BODY_Y + PLAY_H);
+    playBg.addColorStop(0, `rgba(${themeRgbStr},0.07)`);
+    playBg.addColorStop(1, 'rgba(15,20,34,0.4)');
+    ctx.fillStyle = playBg;
+    ctx.strokeStyle = `rgba(${themeRgbStr},0.25)`;
+    ctx.lineWidth = 1;
+    _scRoundRect(ctx, RIGHT_X, BODY_Y, RIGHT_W, PLAY_H, 10);
+    ctx.fill(); ctx.stroke();
 
-    const ctaLineH = 17;
-    const ctaLabelH = 13;
-    const ctaStackH = ctaLabelH + 4 + ctaLineH * 3;
-    const introGapTop = 8;
-    const introGapBottom = 10;
-    const cardGapBottom = 10;
-    const footerGap = 8;
-    const footerH = 11;
-    const panelBottom = actionsPanelY + actionsPanelH;
-    const footerY = panelBottom - rPad - footerH;
-
-    rCursor += introGapTop;
-    _scDrawLines(ctx, recoHeadingLines, RIGHT_X + rPad, rCursor, 18);
-    rCursor += recoHeadingH + introGapBottom;
-
-    const playY = rCursor;
-    const playCardBottomCap = footerY - ctaStackH - footerGap - cardGapBottom;
-    const playCardH = Math.max(144, playCardBottomCap - playY);
-
-    // Play card.
-    ctx.fillStyle = 'rgba(255,255,255,0.05)';
-    ctx.strokeStyle = 'rgba(255,255,255,0.12)';
-    _scRoundRect(ctx, RIGHT_X + rPad, playY, rInnerW, playCardH, 8);
-    ctx.fill();
-    ctx.stroke();
+    let pY = BODY_Y + P;
 
     if (reco) {
-      const playLabelX = RIGHT_X + rPad + 12;
-      const playHeaderY = playY + 12;
-      const playBadgeX = RIGHT_X + rPad + 44;
-      const playBadgeY = playHeaderY;
-      const playBadgeW = 28;
-      const playBadgeH = 28;
-      ctx.fillStyle = '#b8c5d3';
-      ctx.font = `700 12px ${_scFont}`;
-      ctx.textBaseline = 'middle';
-      ctx.fillText('Play:', playLabelX, playBadgeY + playBadgeH / 2 + 0.5);
-      ctx.fillStyle = 'rgba(85,211,160,0.24)';
-      _scRoundRect(ctx, playBadgeX, playBadgeY, playBadgeW, playBadgeH, 6);
-      ctx.fill();
-      ctx.fillStyle = '#65e3ae';
-      ctx.font = `800 15px ${_scFont}`;
-      ctx.textBaseline = 'middle';
-      ctx.textAlign = 'center';
-      ctx.fillText(String(reco.play.n), playBadgeX + (playBadgeW / 2), playBadgeY + playBadgeH / 2 + 0.5);
-      ctx.textAlign = 'left';
-      ctx.textBaseline = 'top';
+      // Eyebrow: RECOMMENDED PLAY · Theme
+      ctx.font = `700 9.5px ${_scFont}`;
+      ctx.fillStyle = C_THEME;
+      ctx.fillText('RECOMMENDED PLAY', RIGHT_X + P, pY);
+      const rpW = ctx.measureText('RECOMMENDED PLAY').width;
+      ctx.fillStyle = C_FAINT;
+      ctx.fillText(' · ', RIGHT_X + P + rpW, pY);
+      const sepW2 = ctx.measureText(' · ').width;
+      ctx.fillStyle = C_TEXT;
+      ctx.font = `600 9.5px ${_scFont}`;
+      ctx.fillText(_scTrunc(theme?.short || 'Playbook', 30), RIGHT_X + P + rpW + sepW2, pY);
+      pY += 14 + 10;
 
-      ctx.fillStyle = '#f1f6fc';
+      // Play number badge + title
+      const BADGE = 32;
+      ctx.fillStyle = `rgba(${themeRgbStr},0.15)`;
+      _scRoundRect(ctx, RIGHT_X + P, pY, BADGE, BADGE, 7); ctx.fill();
+      ctx.fillStyle = C_THEME;
+      ctx.font = `800 18px ${_scFont}`;
+      ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+      ctx.fillText(String(reco.play.n), RIGHT_X + P + BADGE / 2, pY + BADGE / 2 + 1);
+      ctx.textAlign = 'left'; ctx.textBaseline = 'top';
+
+      const titleX2 = RIGHT_X + P + BADGE + 10;
+      ctx.fillStyle = C_STRONG;
       ctx.font = `700 14px ${_scFont}`;
-      const playTitleX = playBadgeX + playBadgeW + 10;
-      const playTitleY = playHeaderY + 4;
-      const playTitleLines = _scWrapLimit(ctx, reco.play.title, rInnerW - (playTitleX - (RIGHT_X + rPad)) - 6, 2);
-      ctx.textBaseline = 'middle';
-      if (playTitleLines.length > 0) {
-        ctx.fillText(playTitleLines[0], playTitleX, playBadgeY + playBadgeH / 2 + 0.5);
-      }
-      if (playTitleLines.length > 1) {
+      const pTitleLines = _scWrapLimit(ctx, reco.play.title, RIGHT_W - P - BADGE - 10 - P, 2);
+      if (pTitleLines.length === 1) {
+        ctx.textBaseline = 'middle';
+        ctx.fillText(pTitleLines[0], titleX2, pY + BADGE / 2 + 1);
         ctx.textBaseline = 'top';
-        ctx.fillText(playTitleLines[1], playTitleX, playBadgeY + playBadgeH + 5);
+      } else {
+        _scDrawLines(ctx, pTitleLines, titleX2, pY + (BADGE - 2 * 18) / 2, 18);
       }
-      const playTitleBottom = playTitleLines.length > 1
-        ? playBadgeY + playBadgeH + 5 + 18
-        : playBadgeY + playBadgeH;
-      ctx.textBaseline = 'top';
+      pY += BADGE + 10;
 
-      // Internal play-card text flow: compute line budgets from available height to prevent overlaps.
-      const cardInnerBottom = playY + playCardH - 12;
-      let cardCursor = Math.max(playTitleBottom + 8, playBadgeY + playBadgeH + 10);
+      // One-liner
+      ctx.fillStyle = C_MUTED;
+      ctx.font = `400 11.5px ${_scFont}`;
+      const oneH = Math.ceil(11.5 * 1.5);
+      const oneLines = _scWrapLimit(ctx, reco.play.oneliner, pW, 3);
+      _scDrawLines(ctx, oneLines, RIGHT_X + P, pY, oneH);
+      pY += oneLines.length * oneH + 10;
 
-      const oneLineH = 17;
-      const bestFitLabelH = 14;
-      const bestFitItemH = 18;
-      const audienceH = audienceLine ? 14 : 0;
+      // Dashed separator
+      ctx.setLineDash([2, 3]);
+      ctx.strokeStyle = C_DIVIDER; ctx.lineWidth = 1;
+      ctx.beginPath(); ctx.moveTo(RIGHT_X + P, pY); ctx.lineTo(RIGHT_X + RIGHT_W - P, pY); ctx.stroke();
+      ctx.setLineDash([]);
+      pY += 10;
 
-      ctx.fillStyle = '#b5c0cd';
-      ctx.font = `500 12px ${_scFont}`;
-      const oneLinerLines = _scWrapLimit(ctx, reco.play.oneliner, rInnerW - 20, 8);
-      _scDrawLines(ctx, oneLinerLines, RIGHT_X + rPad + 10, cardCursor, oneLineH);
-      cardCursor += oneLinerLines.length * oneLineH + 8;
+      // WHAT IT IS block
+      if (reco.play.what) {
+        ctx.fillStyle = C_THEME;
+        ctx.font = `700 9px ${_scFont}`;
+        ctx.fillText('WHAT IT IS', RIGHT_X + P, pY);
+        pY += 12;
+        ctx.fillStyle = C_TEXT;
+        ctx.font = `400 11.5px ${_scFont}`;
+        const whatH = Math.ceil(11.5 * 1.5);
+        const whatLines = _scWrapLimit(ctx, reco.play.what, pW, 5);
+        _scDrawLines(ctx, whatLines, RIGHT_X + P, pY, whatH);
+        pY += whatLines.length * whatH + 12;
+      }
 
-      // Best fit / recommended audiences section (replaces "Why this is the right move now:")
+      // WHY NOW block
+      if (reco.play.whyNow) {
+        ctx.fillStyle = C_THEME;
+        ctx.font = `700 9px ${_scFont}`;
+        ctx.fillText('WHY NOW', RIGHT_X + P, pY);
+        pY += 12;
+        ctx.fillStyle = C_TEXT;
+        ctx.font = `400 11.5px ${_scFont}`;
+        const wnH = Math.ceil(11.5 * 1.5);
+        const wnLines = _scWrapLimit(ctx, reco.play.whyNow, pW, 5);
+        _scDrawLines(ctx, wnLines, RIGHT_X + P, pY, wnH);
+        pY += wnLines.length * wnH + 12;
+      }
+
+      // BEST FIT — each item: who label + why description
       if (reco.play.bestFit && reco.play.bestFit.length > 0) {
-        ctx.fillStyle = '#d6dee8';
-        ctx.font = `700 12px ${_scFont}`;
-        ctx.fillText('Best fit for:', RIGHT_X + rPad + 10, cardCursor);
-        cardCursor += bestFitLabelH + 2;
+        const fitItems = reco.play.bestFit.slice(0, 3);
+        pY += 4;
+        ctx.setLineDash([2, 3]);
+        ctx.strokeStyle = C_DIVIDER; ctx.lineWidth = 1;
+        ctx.beginPath(); ctx.moveTo(RIGHT_X + P, pY); ctx.lineTo(RIGHT_X + RIGHT_W - P, pY); ctx.stroke();
+        ctx.setLineDash([]);
+        pY += 10;
 
-        const maxFitItems = Math.min(reco.play.bestFit.length, Math.floor((cardInnerBottom - cardCursor - 4) / bestFitItemH));
-        ctx.fillStyle = '#b5c0cd';
-        ctx.font = `500 12px ${_scFont}`;
-        for (let i = 0; i < maxFitItems; i++) {
-          const fitText = `• ${reco.play.bestFit[i].who}`;
-          ctx.fillText(_scTrunc(fitText, 42), RIGHT_X + rPad + 10, cardCursor);
-          cardCursor += bestFitItemH;
+        ctx.fillStyle = C_THEME;
+        ctx.font = `700 9px ${_scFont}`;
+        ctx.fillText('BEST FIT', RIGHT_X + P, pY);
+        pY += 13;
+
+        const fitItemH = Math.ceil(11 * 1.35);
+        for (const fit of fitItems) {
+          if (pY + fitItemH > BODY_BOT - P) break;
+          ctx.fillStyle = C_STRONG;
+          ctx.font = `600 11px ${_scFont}`;
+          const whoLine = _scWrapLimit(ctx, fit.who, pW, 1);
+          _scDrawLines(ctx, whoLine, RIGHT_X + P, pY, fitItemH);
+          pY += fitItemH + 1;
+          if (fit.why && pY + fitItemH <= BODY_BOT - P) {
+            ctx.fillStyle = C_MUTED;
+            ctx.font = `400 11px ${_scFont}`;
+            const maxWhy = Math.max(1, Math.min(2, Math.floor((BODY_BOT - P - pY - 4) / fitItemH)));
+            const whyLine = _scWrapLimit(ctx, fit.why, pW, maxWhy);
+            _scDrawLines(ctx, whyLine, RIGHT_X + P, pY, fitItemH);
+            pY += whyLine.length * fitItemH + 7;
+          }
         }
-        cardCursor += 4;
-      } else if (audienceLine && cardCursor + audienceH <= cardInnerBottom) {
-        ctx.fillStyle = '#d6dee8';
-        ctx.font = `700 12px ${_scFont}`;
-        ctx.fillText(`${audienceLine.who}:`, RIGHT_X + rPad + 10, cardCursor);
+      }
+
+      // NEXT ACTIONS — will become "MOVE THIS QUARTER" once actions[] is added to each play
+      if (playbook) {
+        const moveItems = [
+          `Read the full Playbook: ${playbook.label}`,
+          `See all ${theme?.short || playbook.short} signals on SftS`,
+          'Discuss with NextFi Advisors',
+        ];
+        const moveH = Math.ceil(11 * 1.4);
+        if (pY + 8 + 10 + 12 + moveItems.length * moveH <= BODY_BOT - P) {
+          pY += 8;
+          ctx.setLineDash([2, 3]);
+          ctx.strokeStyle = C_DIVIDER; ctx.lineWidth = 1;
+          ctx.beginPath(); ctx.moveTo(RIGHT_X + P, pY); ctx.lineTo(RIGHT_X + RIGHT_W - P, pY); ctx.stroke();
+          ctx.setLineDash([]);
+          pY += 10;
+          ctx.fillStyle = C_THEME;
+          ctx.font = `700 9px ${_scFont}`;
+          ctx.fillText('NEXT ACTIONS', RIGHT_X + P, pY);
+          pY += 12;
+          for (let mi = 0; mi < moveItems.length; mi++) {
+            if (pY + moveH > BODY_BOT - P) break;
+            ctx.fillStyle = C_THEME;
+            ctx.font = `700 11px ${_scFont}`;
+            ctx.fillText(`${mi + 1}`, RIGHT_X + P, pY);
+            ctx.fillStyle = C_TEXT;
+            ctx.font = `400 11px ${_scFont}`;
+            let t = moveItems[mi];
+            while (t.length > 4 && ctx.measureText(t + '…').width > pW - 18) t = t.slice(0, -1).trimEnd();
+            if (t.length < moveItems[mi].length) t += '…';
+            ctx.fillText(t, RIGHT_X + P + 18, pY);
+            pY += moveH;
+          }
+        }
       }
     } else {
-      ctx.fillStyle = '#d6dee8';
-      ctx.font = `600 14px ${_scFont}`;
-      const noRecoLines = _scWrapLimit(ctx, 'Use this as strategic context while tracking adjacent institutional moves.', rInnerW - 20, 4);
-      _scDrawLines(ctx, noRecoLines, RIGHT_X + rPad + 10, playY + 24, 20);
+      // No playbook recommendation
+      pY += 10;
+      ctx.fillStyle = C_MUTED;
+      ctx.font = `600 13px ${_scFont}`;
+      const noRecoLines = _scWrapLimit(ctx, 'This signal provides strategic context. Browse related playbooks for actionable frameworks.', pW, 4);
+      _scDrawLines(ctx, noRecoLines, RIGHT_X + P, pY, 20);
     }
 
-    rCursor = playY + playCardH + cardGapBottom;
-
-    // Next actions — text list (static PNG: no interactive buttons)
-    const ctaY = Math.min(Math.max(actionsPanelY + rPad, rCursor), footerY - ctaStackH - footerGap);
-    const ctaX = RIGHT_X + rPad;
-    const actions = reco
-      ? [
-          `1  Read the full Playbook: ${playbook?.label || 'Playbook'}`,
-          `2  See all ${playbook?.label || themeLabel} signals on SftS`,
-
-          '3  Discuss with NextFi Advisors'
-        ]
-      : [
-          '1  Browse all Decision Playbooks',
-          '2  Explore related institutional signals',
-          '3  Discuss with NextFi Advisors'
-        ];
-
-    ctx.fillStyle = '#8f9aaa';
-    ctx.font = `700 10px ${_scFont}`;
-    ctx.fillText('NEXT ACTIONS', ctaX, ctaY);
-    let actionsCursor = ctaY + ctaLabelH + 4;
-    ctx.fillStyle = '#c8d3df';
-    ctx.font = `500 12px ${_scFont}`;
-    for (const line of actions) {
-      ctx.fillText(line, ctaX, actionsCursor);
-      actionsCursor += ctaLineH;
+    // Playbook URL — pinned to bottom of right column
+    if (theme) {
+      const pbUrl = `streetsignals.nextfiadvisors.com/playbooks/${theme.id}`;
+      ctx.textBaseline = 'bottom';
+      ctx.textAlign = 'left';
+      ctx.fillStyle = `rgba(${themeRgbStr},0.55)`;
+      ctx.font = `400 9.5px ${_scFont}`;
+      ctx.fillText('→  ' + pbUrl, RIGHT_X + P, BODY_BOT - P + 2);
+      ctx.textBaseline = 'top';
     }
 
-    ctx.fillStyle = tc;
-    ctx.font = `600 12px ${_scFont}`;
-    ctx.fillText('streetsignals.nextfiadvisors.com', ctaX, footerY);
+    // ── Footer ────────────────────────────────────────────────────────────
+    const FOOT_Y = H - FOOT_H;
+    const footBg = ctx.createLinearGradient(0, FOOT_Y, 0, H);
+    footBg.addColorStop(0, 'rgba(0,0,0,0)');
+    footBg.addColorStop(1, 'rgba(0,0,0,0.3)');
+    ctx.fillStyle = footBg;
+    ctx.fillRect(0, FOOT_Y, W, FOOT_H);
 
+    ctx.strokeStyle = C_DIVIDER; ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.moveTo(0, FOOT_Y); ctx.lineTo(W, FOOT_Y); ctx.stroke();
+
+    const footMidY = FOOT_Y + FOOT_H / 2;
+    ctx.textBaseline = 'middle'; ctx.textAlign = 'left';
+    ctx.fillStyle = C_STRONG;
+    ctx.font = `700 11px ${_scFont}`;
+    ctx.fillText('streetsignals.nextfiadvisors.com', HPAD, footMidY);
+    const baseW = ctx.measureText('streetsignals.nextfiadvisors.com').width;
+    if (signal._id) {
+      ctx.fillStyle = C_FAINT;
+      ctx.font = `400 11px ${_scFont}`;
+      ctx.fillText(`/signals/${signal._id}`, HPAD + baseW, footMidY);
+    }
+
+    // Market context metrics on right
+    const footOverlays = overlays.slice(0, 2);
+    if (footOverlays.length > 0) {
+      ctx.textAlign = 'right';
+      let fx = W - HPAD;
+      for (const o of footOverlays.slice().reverse()) {
+        const val = typeof o.value === 'number' ? '$' + R.fmtCompact(o.value) : String(o.value || '—');
+        if (o.change_30d != null) {
+          const chg = R.fmtPct(o.change_30d);
+          // Draw percentage (colored) then "30d" label (muted) — right-to-left
+          ctx.fillStyle = o.change_30d > 0 ? C_THEME : '#f87171';
+          ctx.font = `700 10.5px ${_scFont}`;
+          ctx.fillText(chg, fx, footMidY);
+          fx -= ctx.measureText(chg).width + 3;
+          ctx.fillStyle = C_MUTED;
+          ctx.font = `400 10.5px ${_scFont}`;
+          ctx.fillText('30d', fx, footMidY);
+          fx -= ctx.measureText('30d').width + 5;
+        }
+        ctx.fillStyle = C_TEXT;
+        ctx.font = `600 10.5px ${_scFont}`;
+        ctx.fillText(val, fx, footMidY);
+        fx -= ctx.measureText(val).width + 6;
+        ctx.fillStyle = C_FAINT;
+        ctx.font = `400 10.5px ${_scFont}`;
+        const lbl = _scTrunc(o.metric_label, 28) + '  ';
+        ctx.fillText(lbl, fx, footMidY);
+        fx -= ctx.measureText(lbl).width + 14;
+      }
+    }
+    ctx.textBaseline = 'top'; ctx.textAlign = 'left';
 
     return canvas;
   }
@@ -1298,7 +1419,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
           copyBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007 0l4-4a5 5 0 00-7-7l-1 1"/><path d="M14 11a5 5 0 00-7 0l-4 4a5 5 0 007 7l1-1"/></svg>Copy link to this signal';
         }, 2000);
       } catch (e) {
-        copyBtn.textContent = 'Copy failed ΓÇö use browser bar';
+        copyBtn.textContent = 'Copy failed — use browser bar';
       }
     });
   }
@@ -1309,14 +1430,15 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
       e.preventDefault();
       e.stopPropagation();
       try {
+        const _DL_BTN = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Download share card (PNG)';
         shareLinkedInBtn.disabled = true;
-        shareLinkedInBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10" opacity="0.3"/></svg>Generating...';
+        shareLinkedInBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10" opacity="0.4"/></svg>Generating…';
 
         const canvas = _buildShareCanvas();
         canvas.toBlob(b => {
           if (!b) {
             shareLinkedInBtn.disabled = false;
-            shareLinkedInBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>Download';
+            shareLinkedInBtn.innerHTML = _DL_BTN;
             return;
           }
           const url = URL.createObjectURL(b);
@@ -1329,12 +1451,12 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
           a.remove();
           setTimeout(() => URL.revokeObjectURL(url), 1000);
           shareLinkedInBtn.disabled = false;
-          shareLinkedInBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>Download';
+          shareLinkedInBtn.innerHTML = _DL_BTN;
         });
       } catch (e) {
         console.error('Signal image download failed:', e);
         shareLinkedInBtn.disabled = false;
-        shareLinkedInBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>Download';
+        shareLinkedInBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Download share card (PNG)';
       }
     });
   }

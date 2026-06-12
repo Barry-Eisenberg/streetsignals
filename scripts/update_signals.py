@@ -39,18 +39,12 @@ ROLLING_DAYS = 365       # prune entries older than this
 MIN_DESC_LENGTH = 40     # reject items with very thin descriptions
 TARGET_SUMMARY_LENGTH = 800
 
-NEXTFI_CB_BASE_URL = os.environ.get("NEXTFI_CB_BASE_URL", "").strip().rstrip("/")
+_CB_URL_DEFAULT = "https://nextfi-content-builder.onrender.com"
+NEXTFI_CB_BASE_URL = os.environ.get("NEXTFI_CB_BASE_URL", _CB_URL_DEFAULT).strip().rstrip("/") or _CB_URL_DEFAULT
 NEXTFI_CB_TIMEOUT = max(5, int(os.environ.get("NEXTFI_CB_TIMEOUT", "20")))
 _NEXTFI_CB_USE_PROXY_RAW = os.environ.get("NEXTFI_CB_USE_PROXY", "").strip().lower()
 NEXTFI_CB_USE_PROXY = bool(NEXTFI_CB_BASE_URL) and _NEXTFI_CB_USE_PROXY_RAW not in {"0", "false", "no", "off"}
 NEXTFI_CB_PROXY_MODEL = os.environ.get("NEXTFI_CB_PROXY_MODEL", "claude-sonnet-4-6").strip() or "claude-sonnet-4-6"
-
-if not NEXTFI_CB_BASE_URL:
-    print(
-        "WARN: NEXTFI_CB_BASE_URL is not set — signal descriptions will use the local "
-        "sentence-scoring summarizer only. Set this env var to enable AI-quality descriptions.",
-        flush=True,
-    )
 
 _MOJIBAKE_FIXES = {
     "ΓÇª": "…",
@@ -1688,6 +1682,166 @@ def resummarize_auto_data_with_content_builder():
     print(f"  Dry run          : {'yes' if dry_run else 'no'}")
 
 
+def autogenerate_wtm_overrides(auto_data=None):
+    """Generate why_this_matters_override for Structural auto signals via Content Builder.
+
+    Calls the CB server's /wtm-generate endpoint for each qualifying signal and writes
+    the result directly to auto_data.json.  Existing overrides are always preserved.
+
+    Pass `auto_data` to reuse an in-memory list (avoids re-reading the file).
+    When called from the --autogenerate-wtm flag, auto_data is loaded from disk.
+
+    Usage examples:
+        python scripts/update_signals.py --autogenerate-wtm
+        python scripts/update_signals.py --autogenerate-wtm --past-days 14
+        python scripts/update_signals.py --autogenerate-wtm --limit 10 --dry-run
+
+    Notes:
+        - Defaults to the live CB server (https://nextfi-content-builder.onrender.com).
+        - Only processes Structural signals (score >= 58) that lack why_this_matters_override.
+        - Signals without a source_url are skipped.
+    """
+    if not NEXTFI_CB_BASE_URL:
+        print("NEXTFI_CB_BASE_URL is not set. Nothing to do.")
+        return
+
+    if auto_data is None:
+        auto_data = load_json(AUTO_DATA_PATH, [])
+    if not auto_data:
+        print("No auto signals found — nothing to process.")
+        return
+
+    dry_run = "--dry-run" in sys.argv
+
+    limit = None
+    raw_limit = _arg_value("--limit")
+    if raw_limit:
+        try:
+            limit = max(1, int(raw_limit))
+        except ValueError:
+            print(f"WARN: ignoring invalid --limit value: {raw_limit}")
+
+    past_days = 14  # default: only process signals from the past 14 days
+    raw_past_days = _arg_value("--past-days")
+    if raw_past_days:
+        try:
+            past_days = max(1, int(raw_past_days))
+        except ValueError:
+            print(f"WARN: ignoring invalid --past-days value: {raw_past_days}")
+
+    today = datetime.now(timezone.utc).date()
+    cutoff_date = today - timedelta(days=past_days)
+
+    # Score threshold: Material and above (score >= 44 covers Material + Structural)
+    # Mirrors computeTierAndScore in data.js: Structural >= 58, Material >= 44
+    STRUCTURAL_THRESHOLD = 44
+
+    def _score_signal(s):
+        """Simplified scoring to identify Structural signals without the JS runtime."""
+        score = 0
+        cat = (s.get("category") or "").lower()
+        cat_scores = {
+            "banks_fmis": 20, "asset_managers": 18, "regulators": 16,
+            "payments": 14, "exchanges_intermediaries": 12, "ecosystem": 6,
+        }
+        score += cat_scores.get(cat, 6)
+        sig_type = (s.get("signal_type") or "").lower()
+        type_scores = {
+            "regulatory action": 18, "product launch": 14, "strategic initiative": 12,
+            "strategic partnership": 10, "investment / m&a": 8, "platform / infrastructure": 10,
+            "research / report": 8,
+        }
+        score += type_scores.get(sig_type, 5)
+        fmi = s.get("fmi_areas") or []
+        high_value_fmi = {
+            "settlement & clearing", "digital currency & stablecoins",
+            "tokenization & asset issuance", "payments & transfers",
+        }
+        score += sum(6 for f in fmi if f.lower() in high_value_fmi)
+        score += min(len(fmi) * 2, 10)
+        return score
+
+    processed = 0
+    changed = 0
+    skipped_no_url = 0
+    skipped_tier = 0
+    skipped_has_override = 0
+    skipped_window = 0
+    errors = 0
+
+    for signal in auto_data:
+        if limit is not None and processed >= limit:
+            break
+
+        url = (signal.get("source_url") or "").strip()
+        if not url:
+            skipped_no_url += 1
+            continue
+
+        if signal.get("why_this_matters_override"):
+            skipped_has_override += 1
+            continue
+
+        if cutoff_date is not None:
+            sig_date = parse_iso_date(signal.get("date") or "")
+            if sig_date is None or sig_date < cutoff_date or sig_date > today:
+                skipped_window += 1
+                continue
+
+        if _score_signal(signal) < STRUCTURAL_THRESHOLD:
+            skipped_tier += 1
+            continue
+
+        processed += 1
+        inst = signal.get("institution") or ""
+        initiative = signal.get("initiative") or ""
+        print(f"  [{processed}] {inst} | {initiative[:60]}")
+
+        if dry_run:
+            print("    DRY RUN — skipping API call")
+            continue
+
+        try:
+            resp = post_json(
+                f"{NEXTFI_CB_BASE_URL}/wtm-generate",
+                {
+                    "url":              url,
+                    "initiative":       initiative,
+                    "description":      signal.get("description") or "",
+                    "institution":      inst,
+                    "institution_type": signal.get("institution_type") or "",
+                    "fmi_areas":        signal.get("fmi_areas") or [],
+                    "initiative_types": signal.get("initiative_types") or [],
+                    "model":            NEXTFI_CB_PROXY_MODEL,
+                },
+                timeout=max(NEXTFI_CB_TIMEOUT, 90),
+            )
+            override = {k: v for k, v in resp.items() if k != "chars" and isinstance(v, str) and v.strip()}
+            if not override.get("default"):
+                print(f"    WARN: no 'default' key in response — skipping")
+                errors += 1
+                continue
+            signal["why_this_matters_override"] = override
+            changed += 1
+            print(f"    OK: {override['default'][:100]}...")
+        except Exception as ex:
+            print(f"    ERROR: {ex}")
+            errors += 1
+
+    if changed and not dry_run:
+        save_json(AUTO_DATA_PATH, auto_data)
+
+    print("\nWTM auto-generate complete.")
+    print(f"  Processed        : {processed}")
+    print(f"  Overrides written: {changed}")
+    print(f"  Already had one  : {skipped_has_override}")
+    print(f"  Below Structural : {skipped_tier}")
+    print(f"  Outside window   : {skipped_window}")
+    print(f"  Missing URL      : {skipped_no_url}")
+    print(f"  Errors           : {errors}")
+    print(f"  Dry run          : {'yes' if dry_run else 'no'}")
+
+
 def _load_unmapped_review_targets(include_reviewed=False):
     """Load unresolved unmapped-review rows as identity tuples."""
     if not UNMAPPED_REVIEW_PATH.exists():
@@ -1935,6 +2089,10 @@ def main():
         resummarize_auto_data_with_content_builder()
         return
 
+    if "--autogenerate-wtm" in sys.argv:
+        autogenerate_wtm_overrides()
+        return
+
     if "--resummarize-unmapped-review" in sys.argv:
         resummarize_unmapped_review_with_content_builder()
         return
@@ -1976,6 +2134,16 @@ def main():
     print(f"  Manual signals : {len(manual_data)}")
     print(f"  Auto signals   : {len(merged)} total ({len(new_signals)} new this run)")
     print(f"  Intel briefs   : {len(intel_briefs)}")
+
+    # Auto-generate Why This Matters overrides for any new Structural signals.
+    # Skips signals that already have an override, so this is safe to run every time.
+    # Pass --skip-wtm to suppress (e.g. for quick/offline runs).
+    if "--skip-wtm" not in sys.argv:
+        print("\nGenerating Why This Matters overrides for new Structural signals...")
+        try:
+            autogenerate_wtm_overrides(auto_data=merged)
+        except Exception as _wtm_err:
+            print(f"WTM generation skipped (non-fatal): {_wtm_err}")
 
 
 if __name__ == "__main__":

@@ -316,12 +316,19 @@ const PERSONAS = {
 
 // =====================================================================
 // "Why this matters" generator (persona-aware)
+// Delegates to the editorial module (why-this-matters.js) when loaded;
+// falls back to the legacy single-template if not yet available.
 // =====================================================================
-function whyThisMatters(signal, persona = 'all') {
+function whyThisMatters(signal, persona) {
+  persona = persona || 'all';
+  if (window.SftSEditorial && window.SftSEditorial.whyThisMatters) {
+    return window.SftSEditorial.whyThisMatters(signal, persona);
+  }
+  // ---- legacy fallback ----
   const inst = signal.institution || 'This institution';
   const types = (signal.initiative_types || []).slice(0, 2).join(', ') || 'digital asset strategy';
   const fmis  = (signal.fmi_areas || []).slice(0, 2).join(' and ') || 'institutional infrastructure';
-  const tier  = signal._tier;
+  const tier  = signal._tier || 'context';
   const horizon = tier === 'Structural'
     ? 'over the next 12–24 months'
     : tier === 'Material' ? 'over the next 6–18 months' : 'in current market context';

@@ -1068,8 +1068,9 @@ body > * { position: relative; z-index: 1; }
     color-mix(in oklab, var(--color-primary) 8%, var(--color-surface)) 0%,
     var(--color-surface) 100%);
   border: 1px solid var(--color-primary-edge);
-  border-radius: var(--radius-lg);
-  padding: var(--space-6);
+  border-left: 3px solid var(--color-primary);
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+  padding: var(--space-5) var(--space-6);
   margin-bottom: var(--space-6);
   position: relative;
 }
@@ -1085,9 +1086,10 @@ body > * { position: relative; z-index: 1; }
   margin-bottom: var(--space-3);
 }
 .why-block p {
-  font-size: 1.04rem;
+  font-size: 1.05rem;
+  font-weight: 500;
   color: var(--color-text);
-  line-height: 1.6;
+  line-height: 1.55;
   max-width: 68ch;
 }
 

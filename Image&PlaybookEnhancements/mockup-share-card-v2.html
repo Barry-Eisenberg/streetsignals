@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SftS Share Card — v2</title>
+<link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:           #07090f;
+    --surface:      #0f1422;
+    --text:         #e8eaf2;
+    --text-strong:  #ffffff;
+    --text-muted:   #97a0b8;
+    --text-faint:   #5d6680;
+    --divider:      #232a3e;
+    --primary:      #2ddcff;
+    --tier:         #2ddcff;
+    --theme:        #34d399;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Satoshi', sans-serif;
+    background: #1a1d28;
+    padding: 40px;
+    display: flex; justify-content: center;
+  }
+
+  /* ============== 1200 × 627 CARD ============== */
+  .card {
+    width: 1200px; height: 627px;
+    background: var(--bg);
+    color: var(--text);
+    position: relative;
+    overflow: hidden;
+    font-family: 'Satoshi', sans-serif;
+    box-shadow: 0 24px 60px rgba(0,0,0,0.6);
+    display: grid;
+    grid-template-rows: 56px 1fr 48px;
+  }
+
+  /* Theme + tier gradient edge rail */
+  .card::before {
+    content: ''; position: absolute; left: 0; top: 0; bottom: 0;
+    width: 5px;
+    background: linear-gradient(180deg, var(--tier), var(--theme));
+  }
+  .card::after {
+    content: ''; position: absolute; inset: 0; pointer-events: none;
+    background-image:
+      linear-gradient(rgba(45,220,255,0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(45,220,255,0.025) 1px, transparent 1px);
+    background-size: 48px 48px;
+    mask-image: radial-gradient(ellipse at 25% 0%, black 0%, transparent 70%);
+  }
+
+  /* ----- HEADER ----- */
+  .head {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 14px 32px 0 36px;
+    position: relative; z-index: 2;
+  }
+  .brand { display: flex; align-items: center; gap: 10px; }
+  .brand-mark { width: 24px; height: 24px; }
+  .brand-text {
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-weight: 800; font-size: 15px;
+    color: var(--text-strong); letter-spacing: -0.01em;
+  }
+  .brand-text span { font-weight: 400; color: var(--text-muted); }
+  .by {
+    display: flex; align-items: center; gap: 6px;
+    font-size: 11px; color: var(--text-faint);
+  }
+  .by strong { color: var(--text); font-weight: 700; }
+
+  /* ----- BODY: 3-act layout ----- */
+  .body {
+    display: grid;
+    grid-template-columns: 1.25fr 1fr;
+    gap: 28px;
+    padding: 14px 36px 0 36px;
+    position: relative; z-index: 2;
+    min-height: 0;
+  }
+  .left { display: flex; flex-direction: column; min-width: 0; gap: 0; }
+  .right { display: flex; flex-direction: column; min-width: 0; gap: 0; }
+
+  /* Tags row */
+  .tags {
+    display: flex; flex-wrap: wrap; gap: 6px;
+    margin-bottom: 12px;
+  }
+  .pill {
+    display: inline-flex; align-items: center; gap: 5px;
+    padding: 3px 9px;
+    border-radius: 5px;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-weight: 700; font-size: 9.5px;
+    letter-spacing: 0.10em; text-transform: uppercase;
+    line-height: 1.4;
+  }
+  .pill.tier {
+    color: var(--tier);
+    background: rgba(45,220,255,0.10);
+    border: 1px solid rgba(45,220,255,0.35);
+  }
+  .pill.tier::before {
+    content: ''; width: 5px; height: 5px; border-radius: 50%;
+    background: currentColor; box-shadow: 0 0 6px currentColor;
+  }
+  .pill.theme {
+    color: var(--theme);
+    background: rgba(52,211,153,0.10);
+    border: 1px solid rgba(52,211,153,0.30);
+  }
+  .pill.theme::before {
+    content: ''; width: 6px; height: 6px; border-radius: 2px;
+    background: currentColor;
+  }
+  .pill.cat {
+    color: var(--text); background: rgba(255,255,255,0.05);
+    border: 1px solid var(--divider);
+    text-transform: none; letter-spacing: 0;
+    font-size: 10.5px; font-family: 'Satoshi', sans-serif; font-weight: 500;
+  }
+
+  /* ACT 1: THE SIGNAL — what happened (headline + one-line summary) */
+  .act1 { margin-bottom: 16px; }
+  .eyebrow {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-weight: 700; font-size: 9.5px;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--text-faint);
+    margin-bottom: 5px;
+  }
+  .eyebrow::after {
+    content: ''; width: 24px; height: 1px; background: var(--divider);
+  }
+  .eyebrow.cyan { color: var(--primary); }
+  .eyebrow.cyan::after { background: var(--primary); }
+  .eyebrow.theme { color: var(--theme); }
+  .eyebrow.theme::after { background: var(--theme); }
+
+  .headline {
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 1.18;
+    color: var(--text-strong);
+    letter-spacing: -0.015em;
+    margin-bottom: 8px;
+  }
+  .act1-summary {
+    font-size: 12.5px;
+    line-height: 1.5;
+    color: var(--text-muted);
+  }
+  .act1-summary strong { color: var(--text); font-weight: 600; }
+
+  /* ACT 2: WHY THIS MATTERS — interprets the signal */
+  .act2 {
+    margin-bottom: 10px;
+    padding: 12px 14px;
+    background: linear-gradient(135deg,
+      rgba(45,220,255,0.08) 0%,
+      rgba(45,220,255,0.02) 100%);
+    border-left: 3px solid var(--primary);
+    border-radius: 0 8px 8px 0;
+  }
+  .act2-text {
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.40;
+    color: var(--text-strong);
+    letter-spacing: -0.005em;
+  }
+  .act2-text em {
+    color: var(--primary);
+    font-style: normal;
+    font-weight: 700;
+  }
+  .act2-implications {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed rgba(45,220,255,0.25);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .act2-imp {
+    font-size: 11px;
+    line-height: 1.4;
+    color: var(--text);
+  }
+  .act2-imp strong {
+    display: block;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--primary);
+    font-weight: 700;
+    margin-bottom: 3px;
+  }
+
+  /* ACT 3a: META STRIP */
+  .meta {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: end;
+    gap: 14px;
+    padding-top: 10px;
+    border-top: 1px solid var(--divider);
+  }
+  .meta-left {
+    display: flex; flex-wrap: wrap; gap: 8px;
+    font-size: 11.5px; color: var(--text-muted);
+    align-items: baseline;
+  }
+  .meta-left .inst {
+    font-weight: 700; color: var(--text-strong); font-size: 12.5px;
+  }
+  .meta-left .dot { color: var(--text-faint); }
+  .score-block {
+    display: flex; flex-direction: column;
+    align-items: flex-end;
+    font-family: 'Cabinet Grotesk', sans-serif;
+  }
+  .score-block .num {
+    font-weight: 800;
+    font-size: 22px;
+    color: var(--primary);
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .score-block .num em {
+    font-style: normal; font-size: 13px; color: var(--text-muted);
+    font-weight: 600;
+  }
+  .score-block .lbl {
+    font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--text-faint); font-weight: 700;
+    margin-top: 2px;
+  }
+
+  /* RIGHT COLUMN ===================================== */
+  .play-card {
+    background: linear-gradient(180deg,
+      rgba(52,211,153,0.07) 0%,
+      rgba(15,20,34,0.4) 100%);
+    border: 1px solid rgba(52,211,153,0.25);
+    border-radius: 10px;
+    padding: 16px 18px;
+    display: flex; flex-direction: column;
+    flex: 1;
+    min-height: 0;
+  }
+  .play-eyebrow-row {
+    display: flex; align-items: center; gap: 6px;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-weight: 700; font-size: 9.5px;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--theme);
+    margin-bottom: 10px;
+  }
+  .play-eyebrow-row .theme-name {
+    color: var(--text); font-weight: 600;
+  }
+  .play-eyebrow-row .sep { color: var(--text-faint); font-weight: 400; }
+
+  .play-head { display: flex; align-items: flex-start; gap: 11px; margin-bottom: 10px; }
+  .play-num {
+    width: 32px; height: 32px;
+    border-radius: 7px;
+    background: rgba(52,211,153,0.15);
+    color: var(--theme);
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-weight: 800; font-size: 18px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .play-title {
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-weight: 700; font-size: 15px;
+    line-height: 1.25; color: var(--text-strong);
+    letter-spacing: -0.005em;
+    padding-top: 4px;
+  }
+  .play-oneliner {
+    font-size: 11.5px;
+    line-height: 1.5;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px dashed var(--divider);
+  }
+  .play-block { margin-bottom: 11px; }
+  .play-block-label {
+    display: block;
+    color: var(--theme);
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    margin-bottom: 4px;
+  }
+  .play-block-text {
+    font-size: 11.5px;
+    line-height: 1.5;
+    color: var(--text);
+  }
+  .play-block-text strong {
+    color: var(--text-strong);
+    font-weight: 700;
+  }
+  .play-fit {
+    margin-top: 10px;
+    padding-top: 11px;
+    border-top: 1px dashed var(--divider);
+  }
+  .play-actions {
+    list-style: none; padding: 0; margin: 0;
+    display: flex; flex-direction: column;
+    gap: 5px;
+  }
+  .play-actions li {
+    position: relative;
+    padding-left: 16px;
+    font-size: 11.5px;
+    line-height: 1.45;
+    color: var(--text);
+  }
+  .play-actions li::before {
+    content: '';
+    position: absolute;
+    left: 2px; top: 7px;
+    width: 6px; height: 6px;
+    border: 1.5px solid var(--theme);
+    border-radius: 50%;
+  }
+  .play-fit-label {
+    display: flex; align-items: baseline; gap: 6px;
+    margin-bottom: 4px;
+  }
+  .play-fit-label strong {
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--theme);
+  }
+  .play-fit-label span {
+    font-size: 11px;
+    color: var(--text-strong);
+    font-weight: 600;
+  }
+  .play-fit-text {
+    font-size: 11.5px;
+    line-height: 1.5;
+    color: var(--text);
+  }
+
+  /* ----- RELATED SIGNALS ROW (bottom of left, fills empty space) ----- */
+  .related {
+    margin-top: auto;
+    padding-top: 12px;
+    border-top: 1px dashed var(--divider);
+  }
+  .related-label {
+    display: block;
+    color: var(--text-faint);
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    margin-bottom: 6px;
+  }
+  .related-list {
+    display: flex; flex-direction: column;
+    gap: 4px;
+  }
+  .related-item {
+    display: flex; gap: 8px; align-items: baseline;
+    font-size: 11px;
+    line-height: 1.35;
+  }
+  .related-item .rt {
+    flex-shrink: 0;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 8.5px;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    padding: 1px 5px;
+    border-radius: 3px;
+    line-height: 1.5;
+  }
+  .related-item .rt.s {
+    color: var(--tier); background: rgba(45,220,255,0.10);
+  }
+  .related-item .rt.m {
+    color: #ffb547; background: rgba(255,181,71,0.10);
+  }
+  .related-item .title {
+    color: var(--text-muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 0;
+    flex: 1;
+  }
+  .related-item .rdate {
+    flex-shrink: 0;
+    font-size: 10px;
+    color: var(--text-faint);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ----- FOOTER ----- */
+  .foot {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 36px;
+    border-top: 1px solid var(--divider);
+    position: relative; z-index: 2;
+    background: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.25) 100%);
+  }
+  .foot-url {
+    font-size: 11px;
+    color: var(--text-muted);
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+  .foot-url strong { color: var(--text-strong); font-weight: 700; }
+  .foot-context {
+    display: flex; gap: 18px;
+    font-size: 10.5px;
+    color: var(--text-faint);
+  }
+  .foot-context div { display: flex; align-items: baseline; gap: 5px; }
+  .foot-context .v {
+    color: var(--text); font-weight: 600;
+    font-family: 'Cabinet Grotesk', sans-serif;
+  }
+  .delta-up { color: var(--theme); font-weight: 700; }
+</style>
+</head>
+<body>
+
+  <!-- ===== THE CARD ===== -->
+  <div class="card" role="img" aria-label="SftS share card v2">
+
+    <!-- Header -->
+    <div class="head">
+      <div class="brand">
+        <svg class="brand-mark" viewBox="0 0 32 32" fill="none">
+          <rect x="1.5" y="1.5" width="29" height="29" rx="6.5" stroke="#e8eaf2" stroke-width="1.4" fill="none" opacity="0.6"/>
+          <path d="M8 22V17"  stroke="#2ddcff" stroke-width="2.4" stroke-linecap="round"/>
+          <path d="M13 22V13" stroke="#a78bfa" stroke-width="2.4" stroke-linecap="round"/>
+          <path d="M18 22V15" stroke="#34d399" stroke-width="2.4" stroke-linecap="round"/>
+          <path d="M23 22V9"  stroke="#fb923c" stroke-width="2.4" stroke-linecap="round"/>
+          <circle cx="8"  cy="17" r="1.8" fill="#2ddcff"/>
+          <circle cx="13" cy="13" r="1.8" fill="#a78bfa"/>
+          <circle cx="18" cy="15" r="1.8" fill="#34d399"/>
+          <circle cx="23" cy="9"  r="1.8" fill="#fb923c"/>
+        </svg>
+        <div class="brand-text">Signals <span>from the Street</span></div>
+      </div>
+      <div class="by">
+        <span>Market intelligence by</span>
+        <strong>NextFi Advisors</strong>
+      </div>
+    </div>
+
+    <!-- Body: 3 acts on the left, Play on the right -->
+    <div class="body">
+
+      <!-- LEFT: signal → why-it-matters → meta → related -->
+      <div class="left">
+
+        <div class="tags">
+          <span class="pill tier">Structural</span>
+          <span class="pill theme">Stablecoins &amp; Settlement</span>
+          <span class="pill cat">Regulatory Action</span>
+        </div>
+
+        <!-- ACT 1: The signal (what happened) -->
+        <div class="act1">
+          <span class="eyebrow">The signal</span>
+          <h2 class="headline">
+            Bank of England's Andrew Bailey warns stablecoin oversight
+            may become flashpoint with U.S.
+          </h2>
+          <p class="act1-summary">
+            <strong>Bailey</strong>, in his FSB chair capacity, said aligning
+            stablecoin oversight is likely to produce a dispute with the U.S.
+            over the <strong>GENIUS Act</strong> framework — and flagged
+            redemption-stress risk for dollar-backed stablecoins.
+          </p>
+        </div>
+
+        <!-- ACT 2: Why this matters (interprets the signal) -->
+        <div class="act2">
+          <span class="eyebrow cyan" style="color:var(--primary);">Why this matters</span>
+          <p class="act2-text" style="margin-top:4px;">
+            A structural signal that resets execution assumptions for
+            <em>Trading &amp; Exchange</em> and <em>Digital Currency &amp;
+            Stablecoins</em> over the next <em>12–24 months</em>.
+          </p>
+          <div class="act2-implications">
+            <div class="act2-imp">
+              <strong>FMI areas affected</strong>
+              Trading &amp; Exchange · Digital Currency &amp; Stablecoins · Regulation &amp; Compliance
+            </div>
+            <div class="act2-imp">
+              <strong>Audiences most exposed</strong>
+              Global Banks · Stablecoin issuers · Exchange operators · UK-domiciled FMIs
+            </div>
+          </div>
+        </div>
+
+        <!-- META + Related fill the remaining space -->
+        <div class="meta">
+          <div class="meta-left">
+            <span class="inst">Bank of England</span>
+            <span class="dot">·</span>
+            <span>Regulators</span>
+            <span class="dot">·</span>
+            <span>May 10, 2026</span>
+          </div>
+          <div class="score-block">
+            <div class="num">68<em>/100</em></div>
+            <div class="lbl">Importance score</div>
+          </div>
+        </div>
+
+        <!-- Related signals to use the remaining height productively -->
+        <div class="related">
+          <span class="related-label">Related signals in this theme · last 14 days</span>
+          <ul class="related-list">
+            <li class="related-item">
+              <span class="rt s">Structural</span>
+              <span class="title">BoE governor urges quick action on global stablecoin standards</span>
+              <span class="rdate">5d ago</span>
+            </li>
+            <li class="related-item">
+              <span class="rt m">Material</span>
+              <span class="title">Bailey warns of looming 'wrestle' with US over stablecoin rules, flags run risk for UK</span>
+              <span class="rdate">2d ago</span>
+            </li>
+            <li class="related-item">
+              <span class="rt s">Structural</span>
+              <span class="title">Crypto firms pursue bank licenses at Consensus — OCC</span>
+              <span class="rdate">3d ago</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- RIGHT: The Play (what to do about it) -->
+      <div class="right">
+        <div class="play-card">
+          <div class="play-eyebrow-row">
+            <span>Recommended Play</span>
+            <span class="sep">·</span>
+            <span class="theme-name">Stablecoins &amp; Settlement</span>
+          </div>
+
+          <div class="play-head">
+            <div class="play-num">3</div>
+            <div class="play-title">Infrastructure partnership or network participation</div>
+          </div>
+
+          <p class="play-oneliner">
+            Join or co-build an institutional settlement network where on-chain
+            money is embedded into existing systems.
+          </p>
+
+          <div class="play-block">
+            <span class="play-block-label">What it is</span>
+            <p class="play-block-text">
+              Become a founding or early participant in a multi-party
+              institutional settlement network, contributing governance,
+              liquidity, or technology — not a single-product launch.
+            </p>
+          </div>
+
+          <div class="play-block">
+            <span class="play-block-label">Why now</span>
+            <p class="play-block-text">
+              Multi-bank and multi-FMI settlement networks are graduating
+              from pilot to production and are looking for credible early
+              participants to lock in shared standards.
+            </p>
+          </div>
+
+          <div class="play-block">
+            <span class="play-block-label">Move this quarter</span>
+            <ul class="play-actions">
+              <li>Map current treasury &amp; settlement counterparties against the live network candidates.</li>
+              <li>Identify two flows where you control both sides — candidates for a Q3 pilot.</li>
+              <li>Establish a governance position before standards lock in.</li>
+            </ul>
+          </div>
+
+          <div class="play-fit">
+            <div class="play-fit-label">
+              <strong>Best fit</strong>
+              <span>Bank · Custodian · FMI</span>
+            </div>
+            <p class="play-fit-text">
+              You want scale and shared governance — and a vote on
+              the standards that emerge.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="foot">
+      <div class="foot-url">
+        <strong>streetsignals.nextfiadvisors.com</strong><span style="color:#5d6680;">/signals/4jet3l</span>
+      </div>
+      <div class="foot-context">
+        <div>Stablecoin transfer volume <span class="v">$9.70T</span></div>
+        <div>30d <span class="v delta-up">+16.0%</span></div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
