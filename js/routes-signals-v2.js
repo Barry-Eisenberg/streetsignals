@@ -593,19 +593,6 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
           </div>
           `}
 
-          <div class="detail-section">
-            <h3>Classification</h3>
-            <dl class="fact-grid">
-              <dt>Initiative type</dt>
-              <dd>${(signal.initiative_types || []).map(it => `<span class="pill pill--soft">${R.escapeHTML(it)}</span>`).join('') || '<span class="pill pill--soft">Unclassified</span>'}</dd>
-              <dt>FMI areas</dt>
-              <dd>${(signal.fmi_areas || []).map(f => `<span class="pill pill--soft">${R.escapeHTML(f)}</span>`).join('') || '—'}</dd>
-              <dt>Institution category</dt>
-              <dd>${R.catTag(signal._category)}</dd>
-              <dt>Playbook themes</dt>
-              <dd>${R.themeTagsFor(signal)}</dd>
-            </dl>
-          </div>
         </article>
 
         <aside class="detail-sidebar">
@@ -634,7 +621,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
           </div>
           ` : ''}
 
-          <div class="sidebar-card">
+          <div class="sidebar-card sidebar-card--share">
             <h4>Share</h4>
             <button type="button" class="btn btn--outline btn--sm" id="copyLinkBtn" style="width:100%; margin-bottom: var(--space-2);">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007 0l4-4a5 5 0 00-7-7l-1 1"/><path d="M14 11a5 5 0 00-7 0l-4 4a5 5 0 007 7l1-1"/></svg>
@@ -646,6 +633,20 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
             </button>
           </div>
         </aside>
+
+        <div class="detail-section detail-section--classification">
+          <h3>Classification</h3>
+          <dl class="fact-grid">
+            <dt>Initiative type</dt>
+            <dd>${(signal.initiative_types || []).map(it => `<span class="pill pill--soft">${R.escapeHTML(it)}</span>`).join('') || '<span class="pill pill--soft">Unclassified</span>'}</dd>
+            <dt>FMI areas</dt>
+            <dd>${(signal.fmi_areas || []).map(f => `<span class="pill pill--soft">${R.escapeHTML(f)}</span>`).join('') || '—'}</dd>
+            <dt>Institution category</dt>
+            <dd>${R.catTag(signal._category)}</dd>
+            <dt>Playbook themes</dt>
+            <dd>${R.themeTagsFor(signal)}</dd>
+          </dl>
+        </div>
       </div>
     </div>
   `;
