@@ -119,7 +119,7 @@ tier =
           <p>Every classification rule, alias map, and importance weight lives in version-controlled JSON Schema files. The scoring is not a black box.</p>
           <div class="cluster">
             <a class="btn btn--outline" href="https://github.com/Barry-Eisenberg/streetsignals/tree/main/taxonomy" target="_blank" rel="noopener noreferrer">View taxonomy on GitHub ${R.extIcon}</a>
-            <a class="btn btn--ghost" href="#/about">About the team</a>
+            <a class="btn btn--ghost" href="#/about">About SftS</a>
           </div>
         </div>
       </section>
