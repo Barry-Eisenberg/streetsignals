@@ -285,7 +285,7 @@ _VENUE_CITATION_TEMPLATE = (
     r"\b(?:list(?:s|ed|ing)?|trad(?:e[sd]|ing)|available|offered|going\s+live|tokenized?|issued"
     r"|debut(?:s|ed|ing)?|ipo|spac|float(?:s|ed|ing)?|go(?:es|ing)?\s+public)\s+(?:on|at|via|through)\s+{0}"
     r"|"
-    r"\b{0}\s+(?:debut|ipo|listing|spac|float|going\s+public|public\s+offering)"
+    r"\b{0}\s+(?:debut|float|going\s+public|public\s+offering|listing(?!\s+(?:standards?|requirements?|rules?|process|criteria|guidance|framework)))"
     r")"
 )
 
