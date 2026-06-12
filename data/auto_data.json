@@ -2803,27 +2803,6 @@
   },
   {
     "institution": "Chainalysis",
-    "initiative": "체이널리시스와 대한민국 경찰청(KNPA), 디지털 자산 수사 역량 강화를 위한 양해각서(MoU) 체결",
-    "description": "Blockchain analytics firm Chainalysis has entered into a memorandum of understanding with South Korea's National Police Agency to deepen cooperation on digital asset crime investigations. The agreement establishes a framework for joint development of training programs, professional certifications through Chainalysis's CDAP credential, and scenario-based investigative curricula tailored to Korean law enforcement needs. The partnership is set against South Korea's position as both a high-volume digital asset market and a primary target of North Korea-linked threat actors, who have stolen more than $5.5 billion in crypto assets over the past five years.",
-    "date": "2026-06-09",
-    "source_url": "https://www.chainalysis.com/blog/korean-national-police-agency-mou-virtual-asset-investigation-kr/",
-    "category": "ecosystem",
-    "source_name": "Chainalysis — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Chainalysis",
     "initiative": "The Hidden Code Problem: How Unverified Smart Contracts Are Becoming a Preferred Target for Attackers",
     "description": "Chainalysis researchers identified five DeFi protocols exploited over a six-month period whose smart contract source code was never publicly verified on block explorers, with combined losses totaling approximately $36.7 million. The largest single incident involved Truebit, where an attacker drained $26.2 million by exploiting an integer overflow vulnerability in a contract that had sat unverified on Ethereum since 2021. Unlike verified contracts, which benefit from passive scrutiny by white-hat researchers and are typically eligible for bug bounty programs, unverified contracts receive no such community oversight — yet still custody significant user funds.",
     "date": "2026-06-09",

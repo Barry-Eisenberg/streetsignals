@@ -289,6 +289,29 @@ _VENUE_CITATION_TEMPLATE = (
     r")"
 )
 
+# Characters that belong to non-Latin scripts — a title with several of these
+# is almost certainly not English and should be dropped rather than ingested
+# with a foreign-language headline.
+_NON_LATIN_SCRIPT_RE = re.compile(
+    r"["
+    r"Ѐ-ӿ"   # Cyrillic
+    r"؀-ۿ"   # Arabic
+    r"֐-׿"   # Hebrew
+    r"฀-๿"   # Thai
+    r"ऀ-ॿ"   # Devanagari
+    r"ᄀ-ᇿ"   # Hangul Jamo
+    r"぀-ヿ"   # Hiragana + Katakana
+    r"㄰-㆏"   # Hangul Compatibility Jamo
+    r"一-鿿"   # CJK Unified Ideographs
+    r"가-힯"   # Hangul Syllables
+    r"]"
+)
+
+def is_non_english_title(text):
+    """True if the title contains enough non-Latin-script characters to be non-English."""
+    return len(_NON_LATIN_SCRIPT_RE.findall(text or "")) >= 3
+
+
 LOW_SIGNAL_MARKET_PATTERNS = [
     re.compile(r"\bbitcoin\b.*\b(above|below|edges|ticks|surges|falls|drops|rises)\b", re.IGNORECASE),
     re.compile(r"\bethereum\b.*\b(finalizes|sale of|price|rises|drops|gains)\b", re.IGNORECASE),
@@ -1432,6 +1455,9 @@ def fetch_auto_signals(config, manual_data, existing_auto):
 
             if not url or url in seen_urls:
                 continue
+
+            if is_non_english_title(item["title"]):
+                continue  # non-English headline with no English translation available
 
             fp = title_fingerprint(item["title"])
             if fp and fp in seen_fps:
