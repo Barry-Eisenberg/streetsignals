@@ -1088,9 +1088,10 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.textAlign = 'left';
     lY += 36;
 
-    // Related signals — fill remaining left-column height
+    // Related signals — fill remaining left-column height (30-day recency cap for card)
+    const cardRelated = (related || []).filter(s => s._daysOld != null && s._daysOld <= 30);
     const relAvailH = BODY_BOT - lY - 4;
-    if (related && related.length > 0 && relAvailH > 40) {
+    if (cardRelated.length > 0 && relAvailH > 40) {
       ctx.setLineDash([2, 3]);
       ctx.strokeStyle = C_DIVIDER;
       ctx.lineWidth = 1;
@@ -1104,9 +1105,9 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
       const tierC = { Structural: C_PRIMARY, Material: '#ffb547', Context: '#8f9aaa' };
       const relItemH = 17;
-      const maxRel = Math.min(related.length, Math.floor((BODY_BOT - lY) / relItemH));
+      const maxRel = Math.min(cardRelated.length, Math.floor((BODY_BOT - lY) / relItemH));
       for (let i = 0; i < maxRel; i++) {
-        const rel = related[i];
+        const rel = cardRelated[i];
         const rc  = tierC[rel._tier] || C_FAINT;
         const rLabel = (rel._tier || '').toUpperCase();
 
