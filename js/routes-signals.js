@@ -9,6 +9,16 @@ function normalizeSearchQuery(value) {
   return String(value == null ? '' : value).trim().toLowerCase();
 }
 
+// Strip leading author bylines from scraped descriptions, e.g. BIS research papers that
+// start with "by Author1, Author2, Author3 The actual abstract..." — keeps content only.
+function stripAuthorByline(text) {
+  if (!text) return text;
+  // Lowercase 'by' at the start signals an author attribution line.
+  // Greedy match consumes all names (letters, spaces, commas, accented chars) up to the
+  // last lowercase-char + space + uppercase-char boundary, which is where real content begins.
+  return text.replace(/^by\s+.+[a-zà-ÿ]\s+(?=[A-Z])/, '').trimStart();
+}
+
 function signalMatchesQuery(signal, query) {
   if (!query) return true;
   const terms = query.split(/\s+/).filter(Boolean);
@@ -359,7 +369,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
 
           <div class="detail-section">
             <h3>What happened</h3>
-            <p class="detail-description">${R.escapeHTML((signal.description || '').replace(/[\u2026]$/, '').replace(/\.\.\.\s*$/, '').trimEnd())}</p>
+            <p class="detail-description">${R.escapeHTML(stripAuthorByline((signal.description || '').replace(/[\u2026]$/, '').replace(/\.\.\.\s*$/, '').trimEnd()))}</p>
             ${signal.description_truncated ? `<p class="detail-truncation-note">Full article available at source — preview only.</p>` : ''}
             ${signal.source_url ? `<p style="margin-top: var(--space-4);">
               <a class="btn btn--outline btn--sm" href="${signal.source_url}" target="_blank" rel="noopener noreferrer">
@@ -736,7 +746,7 @@ SftSRouter.defineRoute('/signals/:id', async ({ params, root }) => {
     ctx.fillText('What happened', PAD, happenedY);
     ctx.fillStyle = '#a8b3c1';
     ctx.font = `500 16px ${_scFont}`;
-    const happenedDesc = (signal.description || '').replace(/\u2026$/, '').replace(/\.\.\.\s*$/, '').trimEnd();
+    const happenedDesc = stripAuthorByline((signal.description || '').replace(/\u2026$/, '').replace(/\.\.\.\s*$/, '').trimEnd());
     const happenedLines = _scWrapLimit(ctx, happenedDesc, LEFT_W - 10, happenedMaxLines);
     _scDrawLines(ctx, happenedLines, PAD, happenedY + 26, happenedLineH);
     const happenedBottom = happenedY + 26 + happenedLines.length * happenedLineH;
