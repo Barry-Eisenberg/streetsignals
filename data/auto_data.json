@@ -1,5 +1,61 @@
 [
   {
+    "institution": "Canton Network",
+    "initiative": "Digital Asset raises $355m to make Canton the onchain infrastructure for capital markets",
+    "description": "A host of financial services giants, including BNP Paribas, Coinbase and HSBC, have joined a $355 million funding round for Digital Asset, the firm behind the Canton Network public, permissionless blockchain purpose-built for institutional finance.",
+    "date": "2026-06-12",
+    "source_url": "https://www.finextra.com/newsarticle/47905/digital-asset-raises-355m-to-make-canton-the-onchain-infrastructure-for-capital-markets",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase emerges as World Cup winner in prediction market race",
+    "description": "The 2026 FIFA World Cup has already positioned Coinbase to capture part of an estimated $5 billion to $10 billion increase in prediction market activity tied to the tournament, according to Bernstein. According to a research report published Thursday by… Coinbase emerges as World Cup winner in prediction market race",
+    "date": "2026-06-12",
+    "source_url": "https://crypto.news/coinbase-emerges-as-world-cup-winner-in-prediction-market-race/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "The Block",
+    "initiative": "‘Anarchistic neobanks’ are bitcoin’s next frontier, says Blockrise CEO",
+    "description": "Blockrise CEO Jos Lazet sees bitcoin-native institutions evolving into alternatives to banks, in an interview at BTC Prague.",
+    "date": "2026-06-11",
+    "source_url": "https://www.theblock.co/post/404469/anarchistic-neobanks-bitcoins-next-frontier-says-blockrise-ceo",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Swift",
     "initiative": "Citi tokenizes private stock, starting with Kaleido",
     "description": "Last year Citi partnered with Switzerland’s SIX Digital Exchange to tokenize the stocks of late stage private firms. Today it announced its first such deal, tokenizing stock in Kaleido, itself a tokenization infrastructure firm whose clients include Swift and many large banks. Kaleido is also a Citi Ventures portfolio company, making the debut asset one",
@@ -9359,62 +9415,6 @@
     "signal_type": "Regulatory Action",
     "fmi_areas": [
       "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "JPMorgan",
-    "initiative": "JPMorgan CEO Jamie Dimon blasts Coinbase’s Brian Armstrong, plans to fight Clarity Act",
-    "description": "Dimon said Coinbase's Armstrong is spending hundreds of millions of dollars trying to get Clarity Act passed.",
-    "date": "2026-05-29",
-    "source_url": "https://www.theblock.co/post/403049/jpmorgan-ceo-jamie-dimon-blasts-coinbases-brian-armstrong-plans-fight-clarity-act",
-    "category": "payments",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Payments Providers",
-    "signal_type": "Strategic Filing / Plan",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "institution": "U.S. Treasury Department",
-    "initiative": "Iran crypto crackdown deepens as US targets IRGC wallets",
-    "description": "Treasury has said it has seized nearly $1 billion in cryptocurrency linked to Iran as Washington expands its financial campaign against Tehran. Iran crypto crackdown deepens as US targets IRGC wallets",
-    "date": "2026-05-29",
-    "source_url": "https://crypto.news/iran-crypto-crackdown-deepens-as-us-targets-irgc-wallets/",
-    "category": "regulators",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026"
-  },
-  {
-    "institution": "Coinbase",
-    "initiative": "Coinbase unlocks global crypto derivatives for U.S. institutions",
-    "description": "Coinbase said on May 29 that Coinbase Financial Markets now gives eligible U.S. Coinbase has opened a regulated route for U.S. Coinbase unlocks global crypto derivatives for U.S. institutions",
-    "date": "2026-05-29",
-    "source_url": "https://crypto.news/coinbase-unlocks-global-crypto-derivatives-for-u-s-institutions/",
-    "category": "exchanges_intermediaries",
-    "source_name": "crypto.news",
-    "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
     ],
     "initiative_types": [
       "Crypto / Digital Assets"
