@@ -146,6 +146,11 @@ function normalizeWhatHappenedText(rawText, headline) {
     .replace(/\.\.\.\s*$/, '')
     .trim();
 
+  // Strip leading author bylines from research paper descriptions, e.g. BIS papers that
+  // start with "by Author1, Author2, Author3 The actual abstract...". [^.]+ limits the
+  // match to before the first sentence period so it stays within the author list.
+  text = text.replace(/^by\s+[^.]+[a-z\u00e0-\u00ff]\s+(?=[A-Z])/, '').trimStart();
+
   const cleanHeadline = String(headline || '').replace(/\s+/g, ' ').trim();
   if (cleanHeadline) {
     const escapedHeadline = cleanHeadline.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
