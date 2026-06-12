@@ -175,6 +175,9 @@ function nextFiContactUrl(ctx = {}) {
   const institution = String(ctx.institution || '').trim();
   const themeId = String(ctx.themeId || '').trim();
   const play = String(ctx.play || '').trim();
+  const playbookLabel = String(ctx.playbookLabel || '').trim();
+  const playbookAudience = String(ctx.playbookAudience || '').trim();
+  const playbookPlays = Array.isArray(ctx.playbookPlays) ? ctx.playbookPlays : [];
   const sourceUrl = String(ctx.sourceUrl || (typeof window !== 'undefined' ? window.location.href : '')).trim();
 
   params.set('source', 'sfts');
@@ -186,17 +189,32 @@ function nextFiContactUrl(ctx = {}) {
   if (institution) params.set('institution', institution);
   if (sourceUrl) params.set('referrer_url', sourceUrl);
 
-  const lines = [
-    'Hi NextFi team,',
-    '',
-    'I would like to discuss this Signals from the Street context:'
-  ];
-  if (signalTitle) lines.push(`Signal: ${signalTitle}`);
-  if (institution) lines.push(`Institution: ${institution}`);
-  if (themeId) lines.push(`Theme: ${themeId}`);
-  if (play) lines.push(`Recommended play: ${play}`);
-  if (sourceUrl) lines.push(`Source URL: ${sourceUrl}`);
-  lines.push('', 'Please follow up with me.');
+  let lines;
+  if (context === 'playbook_detail' && playbookLabel) {
+    lines = [
+      'Hi NextFi team,',
+      '',
+      `I'm interested in discussing the ${playbookLabel} playbook from Signals from the Street.`,
+      '',
+      `Playbook: ${playbookLabel}`,
+    ];
+    if (playbookAudience) lines.push(`Audience: ${playbookAudience}`);
+    if (playbookPlays.length) lines.push(`Plays covered: ${playbookPlays.join(' · ')}`);
+    if (sourceUrl) lines.push(`Page: ${sourceUrl}`);
+    lines.push('', 'Please follow up with me.');
+  } else {
+    lines = [
+      'Hi NextFi team,',
+      '',
+      'I would like to discuss this Signals from the Street context:'
+    ];
+    if (signalTitle) lines.push(`Signal: ${signalTitle}`);
+    if (institution) lines.push(`Institution: ${institution}`);
+    if (themeId) lines.push(`Theme: ${themeId}`);
+    if (play) lines.push(`Recommended play: ${play}`);
+    if (sourceUrl) lines.push(`Source URL: ${sourceUrl}`);
+    lines.push('', 'Please follow up with me.');
+  }
 
   params.set('message', lines.join('\n'));
   return `https://nextfiadvisors.com/contact?${params.toString()}`;

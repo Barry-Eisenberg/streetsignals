@@ -79,7 +79,9 @@ SftSRouter.defineRoute('/playbooks/:themeId', async ({ params, query, root }) =>
   const playbookContactHref = R.nextFiContactUrl({
     context: 'playbook_detail',
     themeId,
-    signalTitle: pb.label,
+    playbookLabel: pb.label,
+    playbookAudience: pb.audience,
+    playbookPlays: pb.plays.map(p => p.title),
     sourceUrl: window.location.href
   });
 
@@ -217,7 +219,7 @@ SftSRouter.defineRoute('/playbooks/:themeId', async ({ params, query, root }) =>
             ${pb.nextfi.bullets.map(b => `<li style="margin-bottom: var(--space-2);">${R.escapeHTML(b)}</li>`).join('')}
           </ul>
           <div class="cluster">
-            ${pb.nextfi.ctas.map(c => `<a class="btn ${c.primary ? 'btn--primary' : 'btn--outline'}" href="${playbookContactHref}" target="_blank" rel="noopener noreferrer">${R.escapeHTML(c.label)} ${R.extIcon}</a>`).join('')}
+            <a class="btn btn--primary" href="${playbookContactHref}" target="_blank" rel="noopener noreferrer">Discuss which play fits your institution ${R.extIcon}</a>
           </div>
         </div>
       </section>
