@@ -266,6 +266,13 @@ GENERIC_INSTITUTION_PATTERNS = [
     (re.compile(r"\btether\b|\bwirex\b|\bvisa\b|\bmastercard\b|\bpaypal\b|\bstripe\b|\bcircle\b", re.IGNORECASE), "Payments Network", "payments"),
 ]
 
+# Institution is mentioned as a listing/trading venue ("lists on Nasdaq"), not the actor.
+# Template: fill with re.escape(needle) before compiling.
+_VENUE_CITATION_TEMPLATE = (
+    r"\b(?:list(?:s|ed|ing)?|trad(?:e[sd]|ing)|available|offered|going\s+live|tokenized?|issued)\s+"
+    r"(?:on|at|via|through)\s+{}"
+)
+
 LOW_SIGNAL_MARKET_PATTERNS = [
     re.compile(r"\bbitcoin\b.*\b(above|below|edges|ticks|surges|falls|drops|rises)\b", re.IGNORECASE),
     re.compile(r"\bethereum\b.*\b(finalizes|sale of|price|rises|drops|gains)\b", re.IGNORECASE),
@@ -823,6 +830,9 @@ def infer_institution_category_from_text(text, institution_category_pairs):
             continue
         pattern = re.compile(rf"\b{re.escape(needle)}\b", re.IGNORECASE)
         if pattern.search(haystack):
+            venue_re = re.compile(_VENUE_CITATION_TEMPLATE.format(re.escape(needle)), re.IGNORECASE)
+            if venue_re.search(haystack):
+                continue  # institution is a venue reference, not the actor
             return institution, category
 
     for pattern, institution, category in GENERIC_INSTITUTION_PATTERNS:
