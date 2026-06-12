@@ -1,5 +1,187 @@
 [
   {
+    "institution": "Santander",
+    "initiative": "Credit supply in the wake of distressed bank acquisitions",
+    "description": "A BIS working paper by Banerjee, González, Gutierrez, and Serena Garralda examines how the 2017 resolution of Banco Popular — a major Spanish lender sold to Santander under Europe's post-Global Financial Crisis bank failure framework — affected credit supply to business borrowers. Using micro-level loan data, the authors find that the acquiring bank preserved lending relationships, prioritising riskier inherited borrowers who faced retrenchment from competing lenders, even as it reallocated credit internally to manage tighter capital constraints. The stabilisation outcome, however, proved conditional on the acquirer's capital strength and strategic commitment to maintaining customer relationships.",
+    "date": "2026-06-12",
+    "source_url": "https://www.bis.org/publ/work1360.htm",
+    "category": "global_banks",
+    "source_name": "BIS — Research Papers",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "This BIS working paper sets a new empirical benchmark for how resolution regimes are evaluated — shifting the policy conversation from 'did the bank survive' to 'did credit flow.' For institutions operating in jurisdictions with SRB or FDIC-style resolution authority, the Banco Popular case establishes that acquirer capital strength and customer-relationship strategy are now the measurable variables regulators will scrutinize when approving distressed acquisitions — not just balance sheet fit.",
+      "banks_fmis": "Banks evaluating opportunistic acquisitions of distressed peers can no longer treat credit continuity as a secondary integration concern — this research gives resolution authorities a documented framework for conditioning deal approval on the acquirer's demonstrated capacity to preserve inherited lending relationships, raising the due diligence and capital planning bar materially.",
+      "asset_managers": "Credit portfolio managers with exposure to borrowers of systemically distressed institutions now have BIS-grade evidence that resolution outcome — and therefore recovery trajectory — is acquirer-dependent, not just borrower-dependent; stress scenario modeling that ignores acquirer strategic alignment is structurally incomplete.",
+      "policy_risk": "For institutions engaging with resolution planning under BRRD, TLAC, or equivalent frameworks, this paper effectively operationalizes 'least-cost resolution' with a credit supply lens — expect supervisors to begin stress-testing resolution plans against acquirer capital reallocation scenarios, not just counterparty exposure matrices."
+    }
+  },
+  {
+    "institution": "Tether",
+    "initiative": "Monero price rockets 33% to $438 amid $120 million onchain laundering maze",
+    "description": "An unidentified entity received 120.2 million USDT on the Tron network and rapidly dispersed the funds through a layered series of transactions, including large Monero purchases that moved XMR's price 33% higher to an intraday peak near $438, exposing how thin liquidity in privacy-coin markets can be exploited as part of an obfuscation chain. Onchain investigator ZachXBT tracked the remaining flows to KuCoin deposit addresses, instant swap services operating without identity checks, and cross-chain transfers onto the Bitcoin and Ethereum networks via Near Intents.",
+    "date": "2026-06-12",
+    "source_url": "https://www.coindesk.com/markets/2026/06/12/monero-spiked-to-usd430-as-usd120-million-moved-through-it-then-tether-froze-usd72-million",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "A single $120 million laundering event — traced onchain, frozen within hours — simultaneously validates stablecoin issuer intervention capacity and exposes the structural gap in cross-chain and privacy-coin AML coverage that regulated institutions cannot afford to ignore. Tether's freeze of $72 million demonstrates that programmable settlement infrastructure carries real compliance leverage, but the $48 million that dispersed through instant swaps, cross-chain bridges, and Monero conversions marks the precise perimeter where that leverage ends. Financial institutions building on or adjacent to stablecoin rails must now treat that perimeter as a concrete operational risk boundary, not a theoretical one.",
+      "banks_fmis": "Correspondent banks and custodians with any stablecoin exposure or crypto on-ramp relationships face a tightening supervisory expectation: if Tether can freeze $72 million in hours, regulators will ask why your transaction monitoring didn't flag the same activity first. The compliance benchmark is being set by a non-bank issuer, and that asymmetry is operationally and reputationally untenable for licensed institutions.",
+      "payments": "For payments providers processing stablecoin flows — particularly on Tron, which remains the dominant USDT settlement layer by volume — this event is a forcing function on transaction screening architecture. Instant swap services and cross-chain bridges used in this transaction are already in regulatory crosshairs; any payments stack with exposure to those rails requires documented AML controls that go beyond standard blockchain analytics coverage.",
+      "fintech": "Cross-chain interoperability tools, including bridging and instant swap infrastructure, are now directly implicated in a documented large-scale laundering episode, which means fintech providers building or integrating these tools face an accelerating window before enhanced regulatory scrutiny makes current product architectures untenable. The technical capability to route funds across chains faster than compliance systems can follow is no longer a feature that regulators will treat as neutral.",
+      "policy_risk": "This event will accelerate regulatory pressure on three specific gaps: privacy coin accessibility on centralized exchanges, the AML obligations of non-custodial instant swap services, and the adequacy of cross-chain monitoring standards under existing BSA and FATF frameworks. Institutions engaged in policy dialogue should treat this as a live case study that regulators will cite when finalizing stablecoin and DeFi oversight rules — being ahead of that citation with a credible compliance posture is the strategic priority."
+    }
+  },
+  {
+    "institution": "Securitize",
+    "initiative": "Ethena Labs to allocate $250 million to Securitize’s Tokenized AAA CLO Fund as it deploys on Solana",
+    "description": "Ethena Labs has committed $250 million to the Securitize Tokenized AAA CLO Fund (STAC), a structured credit vehicle that invests in U.S. dollar-denominated, floating-rate AAA-rated collateralized loan obligations sourced from primary and secondary markets, with BNY serving as custodian and sub-adviser. The fund, which carries $102 million in existing AUM across four investors, is simultaneously expanding onto the Solana blockchain. The allocation is part of Ethena's broader shift toward institutional-grade real-world assets as collateral backing for its synthetic dollar products USDe and USDtb, moving the protocol beyond purely crypto-native delta-neutral hedging strategies.",
+    "date": "2026-06-12",
+    "source_url": "https://www.theblock.co/post/404602/ethena-labs-to-allocate-250-million-to-securitizes-tokenized-aaa-clo-fund-as-it-deploys-on-solana",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "A $250 million allocation from Ethena into a BNY-custodied, Securitize-issued CLO fund — now live on Solana — establishes tokenized structured credit as functional collateral infrastructure, not a pilot concept. The combination of AAA-rated floating-rate instruments, institutional custody, and programmable settlement on a high-throughput chain sets a new baseline for what onchain reserve backing looks like, and forces every institution still treating RWA tokenization as exploratory to reckon with the fact that competitors are already deploying at scale.",
+      "banks_fmis": "BNY's dual role as custodian and sub-adviser to STAC is the signal within the signal: custody of tokenized fund assets is now a live revenue line, not a roadmap item, and institutions that have not defined their tokenized asset custody posture are ceding that relationship to the firms that have. For FMIs, the Solana deployment of a $1.3 trillion global market instrument reframes blockchain infrastructure selection as a market structure decision, not a technology preference.",
+      "asset_managers": "The Janus Henderson JAAA integration into Ethena's reserve portfolio — alongside STAC — demonstrates that tokenized fixed-income products are being embedded directly into the collateral stacks of synthetic dollar protocols, creating a new distribution channel that bypasses traditional intermediaries entirely. Asset managers without an onchain issuance strategy are not just missing yield opportunities; they are being structurally excluded from a growing segment of institutional capital allocation.",
+      "policy_risk": "This transaction places AAA-rated CLO exposure inside a synthetic dollar protocol backed by delta-neutral crypto positions, creating a collateral stack that spans regulated structured credit, institutional custody, and DeFi-native yield mechanisms across multiple chains — a configuration that existing regulatory frameworks do not cleanly address. Regulators evaluating stablecoin reserve adequacy and systemic risk will need to develop views on hybrid collateral structures before their market footprint makes that conversation reactive rather than proactive."
+    }
+  },
+  {
+    "institution": "BlackRock",
+    "initiative": "US spot Bitcoin ETFs set to hit $2 trillion cumulative trading volume milestone amid mounting outflows",
+    "description": "U.S. spot Bitcoin ETFs are approaching $2 trillion in cumulative trading volume roughly two and a half years after their January 2024 launch, placing the product cohort alongside some of the most actively traded ETF wrappers globally, including VOO and QQQ. BlackRock's IBIT has come to dominate the space, holding a 73.7% share of trading volume and approximately $49 billion of the cohort's $76 billion in total AUM. The milestone arrives against a deteriorating backdrop: bitcoin has fallen roughly 50% from its October 2025 all-time high near $126,000, and the funds have recorded $3 billion in net outflows year-to-date, including a 13-day consecutive outflow streak.",
+    "date": "2026-06-12",
+    "source_url": "https://www.theblock.co/post/404584/bitcoin-etfs-2-trillion-usd-cumulative-trading-volume",
+    "category": "asset_management",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "$2 trillion in cumulative trading volume — achieved in under two and a half years — permanently repositions spot Bitcoin ETFs as core market infrastructure, not a product experiment. BlackRock's 73.7% volume dominance and IBIT's $49 billion AUM establish a winner-take-most dynamic that forecloses the idea of credible late entry on equal terms. The bear-market context — $3 billion in net outflows year-to-date, BTC down 50% from its October all-time high — is equally instructive: institutional-grade wrapper demand persists through drawdowns, which means the structural adoption thesis has now survived its first real stress test.",
+      "banks_fmis": "For custodians and prime brokers, IBIT's scale and BlackRock's pending Bitcoin Premium Income ETF — combining spot exposure with options overlay — signals that product complexity in digital assets is accelerating on a TradFi timeline, not a crypto one. Institutions without cleared, custodied crypto infrastructure are no longer watching a future product category; they are watching an active client revenue stream they cannot service.",
+      "asset_managers": "The competitive benchmark is now explicit: IBIT reached $70 billion AUM in 341 trading days versus 1,691 for GLD, and BlackRock is already layering income-generation structures on top of that base. Asset managers who have deferred Bitcoin ETF positioning — whether as issuers, allocators, or model portfolio constructors — are making an active choice to cede fee revenue and client relevance to a single dominant incumbent.",
+      "policy_risk": "Sustained two-way institutional volume at this scale, persisting through a material bear market, substantially weakens any remaining regulatory argument that spot Bitcoin ETFs lack genuine price discovery or serve only speculative retail demand. The data now supports the case that these products function as liquid, institutionally-traded vehicles — which raises the floor for what 'adequate oversight' must address and accelerates the policy pressure to resolve custody, reporting, and collateral treatment on a definitive timeline."
+    }
+  },
+  {
+    "institution": "Ripple",
+    "initiative": "Ripple vs Little Pepe: The leading Crypto to buy now with $1,000 revealed",
+    "description": "This is a piece of paid partner content published on crypto.news that compares XRP and a presale token called Little Pepe (LILPEPE), framing the latter as a superior return opportunity for a $1,000 allocation. The article notes that Ripple's spot XRP ETF has accumulated $1.43 billion in inflows since its November 2025 launch, with XRP Ledger daily transactions reportedly tripling to three million, while XRP itself trades roughly 70% below its 2018 all-time high. On the other side, the piece promotes LILPEPE's Stage 13 presale at $0.0022, citing $28 million raised and pending centralized exchange listings as near-term catalysts.",
+    "date": "2026-06-12",
+    "source_url": "https://crypto.news/ripple-vs-little-pepe-the-leading-crypto-to-buy-now-with-1000-revealed/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Digital Asset Exchange",
+    "initiative": "Bybit named to Fortune Crypto 100 as it accelerates its vision for the new financial platform",
+    "description": "Fortune magazine included Bybit in its inaugural Crypto 100 ranking, placing the exchange in the CeFi category alongside other crypto-native firms such as exchanges, lenders, and custodians. The list, which also features established financial institutions, signals growing mainstream recognition of digital asset infrastructure providers as material participants in global capital markets. Bybit, which serves over 80 million users, has recently secured a UAE Virtual Asset Platform Operator License, advanced European operations under MiCAR, and expanded into tokenized equities and AI-powered trading tools.",
+    "date": "2026-06-12",
+    "source_url": "https://crypto.news/bybit-named-to-fortune-crypto-100-as-it-accelerates-its-vision-for-the-new-financial-platform/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "Fortune's inaugural Crypto 100 does something structurally significant: it legitimizes CeFi digital asset infrastructure as a recognized category of financial market participation, not a fringe asset class. Bybit's inclusion — alongside its concurrent MiCAR advancement, UAE licensing, and 80-million-user scale — signals that the benchmark for institutional-grade crypto infrastructure is being set by crypto-native firms before traditional incumbents have completed their own build-outs. The window for TradFi institutions to define the terms of this convergence is narrowing, not widening.",
+      "banks_fmis": "Custodians and exchange operators face a direct benchmarking problem: Bybit's combination of regulated multi-jurisdictional licensing, tokenized asset offerings, and institutional-grade infrastructure is now Fortune-certified, giving institutional clients a credible non-bank reference point for custody and settlement services. FMIs that have treated digital asset integration as a long-horizon strategic option need to reassess whether that posture is still defensible against competitors operating at this scale.",
+      "asset_managers": "Bybit's xStocks tokenized equities offering and IPO Express product represent a parallel distribution rail for asset exposure that bypasses traditional intermediaries — and the Fortune recognition accelerates institutional investor comfort with that channel. Asset managers evaluating tokenized fund structures or direct digital asset mandates now have a cleaner answer to the question of which platforms carry reputational and operational weight.",
+      "policy_risk": "Bybit's simultaneous MiCAR compliance advancement and UAE VASP licensing — paired with a Fortune 100 designation — creates a legitimacy stack that regulators across jurisdictions will find harder to treat as peripheral. For policy audiences, this signals that the CeFi regulatory perimeter is being drawn by the firms themselves through proactive licensing, setting a de facto compliance standard that may constrain future regulatory optionality."
+    }
+  },
+  {
+    "institution": "Digital Asset Exchange",
+    "initiative": "Bitget enters Argentina’s regulated crypto market through PSAV registration",
+    "description": "Bitget has been added to the Virtual Asset Service Provider registry administered by Argentina's National Securities Commission (CNV), allowing the exchange to operate legally within the country's framework for digital asset businesses. The registration subjects Bitget to AML and counter-terrorism financing compliance obligations, including reporting requirements to Argentina's Financial Information Unit. The approval follows a similar regulatory milestone in Mexico and reflects a broader pattern of Latin American regulators formalizing oversight of crypto service providers.",
+    "date": "2026-06-12",
+    "source_url": "https://crypto.news/bitget-enters-argentinas-regulated-crypto-market-through-psav-registration/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "Bitget's PSAV registration in Argentina — a market where nearly 20% of the population already uses digital assets and 15,000 businesses accept crypto payments — establishes a compliance benchmark that resets competitive positioning across Latin America's exchange landscape. Global exchanges that have deferred regulatory registration in high-adoption emerging markets are now watching a rival lock in first-mover legitimacy with regulators, users, and institutional counterparties simultaneously. The concurrent buildout of tokenized equity collateral and RWA trading infrastructure signals that this is not a retail land-grab — it is a regulated-market entry designed to capture the institutional and semi-institutional flow that follows formal oversight.",
+      "banks_fmis": "Argentine and regional banks face a narrowing window before regulated exchanges with integrated collateral and RWA infrastructure begin absorbing custody-adjacent functions — particularly as Bitget's tokenized stock collateral model blurs the line between exchange and prime brokerage. Local custodians and clearing institutions should be assessing partnership exposure now, before these platforms establish settlement relationships that disintermediate traditional correspondent flows.",
+      "asset_managers": "The combination of PSAV registration and $30 billion in tokenized equity trading volume since 2025 positions Bitget as a credible access point for asset managers seeking regulated exposure to Latin American digital asset markets — particularly for strategies involving tokenized RWAs where Ondo Finance and xStocks integrations provide a liquidity pathway that did not exist in compliant form twelve months ago.",
+      "payments": "With 15,000 Argentine businesses already accepting crypto payments, a newly registered VASP with a broad product stack creates a regulated infrastructure layer that payments providers cannot ignore — the question shifts from whether digital asset payments scale in this market to which compliant rails capture the transaction volume.",
+      "policy_risk": "Argentina's CNV registration framework is emerging as a replicable compliance template across Latin America, and Bitget's sequential registrations — Mexico followed by Argentina — suggest that globally active exchanges are treating regional regulatory buildout as a strategic sequencing exercise rather than a jurisdiction-by-jurisdiction burden. Policymakers in Brazil, Colombia, and Chile should expect accelerated registration filings as first-mover legitimacy in regulated markets proves commercially defensible."
+    }
+  },
+  {
     "institution": "BlackRock",
     "initiative": "BlackRock files to list its bitcoin income ETF, with expected debut next week",
     "description": "BlackRock submitted a Form 8-A share registration to list its iShares Bitcoin Premium Income ETF (ticker: BITA) on Nasdaq, a procedural filing that ETF analysts treat as a reliable indicator of imminent launch, with a June 18 debut widely anticipated. The fund will generate yield by writing covered call options against positions in BlackRock's existing $49 billion spot bitcoin ETF, IBIT, collecting option premiums as income while capping participation in bitcoin upside. At a planned expense ratio of 0.65%, BITA would price below the two largest competing covered-call bitcoin products and arrive ahead of a comparable Goldman Sachs fund expected around July 1.",
@@ -375,6 +557,82 @@
     "year": "2026"
   },
   {
+    "institution": "Citigroup",
+    "initiative": "Citi opens new route into private markets with tokenized share offering",
+    "description": "Citigroup has launched Digital Depositary Receipts, a blockchain-based product that adapts the traditional depositary receipt structure to give wealthy and institutional investors exposure to private company equity without directly holding the underlying shares. The securities are recorded on infrastructure operated by Swiss market operator SIX, with Citi serving as both issuer and custodian, and debuted with a transaction involving Kaleido, a tokenization firm backed by Citi Ventures. The product arrives as a growing number of high-growth companies delay public listings, constraining institutional access to private markets, and as major banks accelerate efforts to bring traditional financial assets onto blockchain rails.",
+    "date": "2026-06-11",
+    "source_url": "https://www.coindesk.com/business/2026/06/11/citi-opens-new-route-into-private-markets-with-tokenized-share-offering",
+    "category": "global_banks",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "Citi's Digital Depositary Receipt structure resets the competitive baseline for private market access: a top-five global custodian has now productized blockchain-based private equity exposure within a fully regulated, bank-issued wrapper, compressing the structural advantage that alternative platforms and secondary marketplaces held over traditional institutions. The SIX infrastructure choice and the explicit roadmap to public blockchains signals that major banks are no longer prototyping — they are sequencing migration paths from permissioned rails toward open settlement networks on their own timeline. Institutions that have deferred private markets tokenization strategy on the assumption that no dominant model had emerged now face a different calculus.",
+      "banks_fmis": "The depositary receipt adaptation is strategically significant precisely because it requires no new regulatory framework — it extends an established legal structure, allowing Citi to move faster than peers waiting for bespoke tokenization legislation. Custodians without a credible tokenized private markets product are now competing against an incumbent that controls issuance, custody, and investor relationship in a single integrated structure.",
+      "asset_managers": "For asset managers seeking private equity exposure on behalf of wealthy and institutional clients, Citi's DDR structure introduces a bank-intermediated alternative to SPV-heavy feeder fund architectures — one that promises lower operational complexity and real-time transparency, but concentrates counterparty risk with the issuing custodian. Managers need to evaluate whether the simplified access model is compatible with their governance standards before clients start asking why they are not using it.",
+      "fintech": "Fintech infrastructure providers building private markets access layers — cap table management, transfer agent rails, secondary liquidity venues — face direct displacement risk as major custodians internalize issuance, record-keeping, and settlement into a single blockchain-native stack. The window for positioning as the neutral infrastructure layer beneath bank-branded tokenization products is narrowing as institutions like Citi move to own the full custody-to-issuance chain.",
+      "policy_risk": "Citi's decision to launch on SIX's Swiss-regulated infrastructure before committing to U.S. public blockchains reflects a deliberate regulatory arbitrage strategy, not a technical preference — it demonstrates that regulatory clarity in one jurisdiction is already shaping where tokenized securities infrastructure gets built first. U.S. regulators watching cross-border capital formation migrate to Swiss rails should treat this as a concrete data point in the ongoing debate over domestic tokenization frameworks, not a future-state hypothetical."
+    }
+  },
+  {
+    "institution": "Revolut",
+    "initiative": "‘Anarchistic neobanks’ are bitcoin’s next frontier, says Blockrise CEO",
+    "description": "Blockrise CEO Jos Lazet, speaking at the BTC Prague conference, outlined a vision for bitcoin-native financial firms to evolve beyond exchange and custody services into full-service banking alternatives built around self-custody and user asset control — what he described as \"anarchistic neobanks\" distinct from conventional fintechs. Blockrise has already launched IBAN-enabled bank accounts and is exploring subscription pricing models comparable to those used by neobanks such as Revolut. Lazet's framing reflects a broader industry trend in which bitcoin-centric companies are layering lending, payments, and retail banking products onto their existing infrastructure, testing whether crypto-native firms can displace rather than merely replicate traditional bank relationships.",
+    "date": "2026-06-11",
+    "source_url": "https://www.theblock.co/post/404469/anarchistic-neobanks-bitcoins-next-frontier-says-blockrise-ceo",
+    "category": "payments",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "Circle",
+    "initiative": "Binance unveils SpaceX teaser as tokenized stock push expands",
+    "description": "Binance, through its BTech Holdings Limited affiliate, listed five new tokenized stock certificates — tied to Circle, Nvidia, Tesla, Micron, and Sandisk — on its spot market on June 11, 2026, while simultaneously signaling an upcoming SpaceX-linked token under the ticker SPCXB ahead of the company's anticipated $1.75 trillion IPO. The instruments, structured as certificates linked to underlying stock holdings rather than direct share ownership, carry no voting rights and are part of the exchange's expanding real-world asset program targeting crypto traders seeking traditional equity exposure.",
+    "date": "2026-06-11",
+    "source_url": "https://crypto.news/binance-unveils-spacex-teaser-as-tokenized-stock-push-expands/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "Binance's rapid expansion of tokenized equities — now including Circle's own stock alongside Nvidia, Tesla, and a pre-IPO SpaceX tease — establishes a 24/7 settlement benchmark against which every traditional exchange and prime broker will increasingly be measured. The structural implication is not that crypto is winning; it is that transaction coordination costs for equity exposure are being demonstrably compressed on a competing infrastructure, and institutional clients are beginning to notice the gap. TradFi incumbents that treat this as a retail curiosity rather than a market microstructure signal are mispricing the competitive threat.",
+      "banks_fmis": "For custodians and exchange operators, the 1:1 stock-to-token conversion without fees is a direct challenge to the economics of settlement intermediation — not a future threat but a live one. The question boards should be asking is not whether to tokenize equities, but how quickly they can present a regulator-ready alternative that doesn't cede the client relationship to a Cayman-affiliate certificate structure.",
+      "asset_managers": "The inclusion of Circle's own equity as a tokenized instrument on a crypto exchange — before its shares are broadly accessible through traditional channels — signals that distribution architecture for newly public companies is shifting in ways that asset managers cannot fully control through legacy prime relationships. Managers with exposure to fintech and digital asset IPO pipelines should be mapping where tokenized pre- and post-listing access will route capital that would otherwise flow through conventional allocation processes.",
+      "payments": "Circle appearing as a tokenized bStock on Binance the same week it navigates its own public market debut creates a reputational and strategic signal problem for payments infrastructure firms that have positioned stablecoins as complementary to TradFi: the boundary between issuer, settlement layer, and tradable asset is collapsing faster than compliance frameworks can track.",
+      "fintech": "The bStocks program demonstrates that certificate-based tokenization — not full on-chain ownership transfer — is currently the operationally viable path to 24/7 equity exposure, and that is a meaningful architecture decision with downstream implications for firms building custody, oracle, and collateral management infrastructure. Providers who have been building toward full tokenized ownership models should stress-test their roadmaps against the reality that the market is currently rewarding the faster, legally simpler wrapper.",
+      "policy_risk": "A Binance affiliate issuing certificates linked to U.S. equities — including a company preparing for one of the largest domestic IPOs in recent memory — and routing that product through crypto markets with 20% retail allocation is exactly the kind of regulatory arbitrage that the SEC's pending tokenized securities framework was designed to address. The SpaceX SPCXB tease in particular tests whether pre-IPO tokenized instruments require the same disclosure and suitability standards as traditional offerings, and the answer from regulators is not yet settled."
+    }
+  },
+  {
     "institution": "Swift",
     "initiative": "Citi tokenizes private stock, starting with Kaleido",
     "description": "Last year Citi partnered with Switzerland’s SIX Digital Exchange to tokenize the stocks of late stage private firms. Today it announced its first such deal, tokenizing stock in Kaleido, itself a tokenization infrastructure firm whose clients include Swift and many large banks. Kaleido is also a Citi Ventures portfolio company, making the debut asset one",
@@ -411,15 +669,15 @@
     "year": "2026"
   },
   {
-    "institution": "Invesco",
+    "institution": "Ondo Finance",
     "initiative": "Ondo Finance taps ex-Invesco executive to expand tokenized portfolios",
     "description": "Ondo Finance has appointed former Invesco executive John Hoffman to lead product portfolio development as the company expands its tokenized asset strategy. Hoffman will serve as managing director and head of product portfolios, overseeing the design and distribution of tokenized… Ondo Finance taps ex-Invesco executive to expand tokenized portfolios",
     "date": "2026-06-11",
     "source_url": "https://crypto.news/ondo-finance-taps-ex-invesco-executive-to-expand-token/",
-    "category": "asset_management",
+    "category": "ecosystem",
     "source_name": "crypto.news",
     "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
+    "institution_type": "Infrastructure & Technology",
     "signal_type": "Leadership & Governance",
     "fmi_areas": [],
     "initiative_types": [
@@ -839,15 +1097,15 @@
     }
   },
   {
-    "institution": "Invesco",
+    "institution": "Ondo Finance",
     "initiative": "Ondo Finance hires former Invesco ETF chief to build onchain investment products",
     "description": "John Hoffman will spearhead Ondo's expansion from tokenizing individual assets to full investment portfolios and strategies.",
     "date": "2026-06-11",
     "source_url": "https://www.coindesk.com/business/2026/06/10/ondo-finance-hires-former-invesco-etf-chief-to-build-onchain-investment-products",
-    "category": "asset_management",
+    "category": "ecosystem",
     "source_name": "CoinDesk",
     "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
+    "institution_type": "Infrastructure & Technology",
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "General Infrastructure"
@@ -942,15 +1200,15 @@
     }
   },
   {
-    "institution": "Invesco",
+    "institution": "Ondo Finance",
     "initiative": "Ondo Finance Hires John Hoffman, Former Invesco ETF Head and Grayscale MD, to Build Its Onchain Portfolios Business",
     "description": "Ondo Finance Hires John Hoffman, Former Invesco ETF Head and Grayscale MD, to Build Its Onchain Portfolios Business",
     "date": "2026-06-11",
     "source_url": "https://ondo.finance/blog/john-hoffman-joins-ondo",
-    "category": "asset_management",
+    "category": "ecosystem",
     "source_name": "Ondo — Blog",
     "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
+    "institution_type": "Infrastructure & Technology",
     "signal_type": "Strategic Initiative",
     "fmi_areas": [
       "General Infrastructure"
@@ -4476,7 +4734,15 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "JPMorgan's shift from 'positive catalyst' to 'narrowing window' on the CLARITY Act signals that the institutional finance community can no longer plan around a 2026 regulatory resolution for digital assets — forcing firms to choose between continued strategic deferral and building execution frameworks that can operate under persistent ambiguity. The stablecoin yield fight is not a drafting dispute; it is a structural battle over deposit primacy, and the outcome will determine whether tokenized money flows into bank-friendly instruments or crypto-native products for the next several years. Institutions that have been waiting for CLARITY to define their digital asset posture now face a decision point: wait longer, or treat regulatory uncertainty itself as the operating condition.",
+      "banks_fmis": "If the yield restriction survives into the final bill, banks effectively win the deposit defense argument without losing the legislative fight — idle crypto capital flows toward tokenized deposits and Treasury-backed instruments rather than yield-bearing stablecoins, reinforcing TradFi balance sheet primacy. Custodians and FMIs should be designing collateral and settlement infrastructure now for a tokenized-Treasury-dominated stablecoin ecosystem, because that outcome is plausible regardless of whether CLARITY passes this year.",
+      "asset_managers": "A 2026 legislative failure leaves the SEC-versus-CFTC classification question unresolved, which means institutional digital asset allocations continue to carry structural legal risk that compliance and risk committees cannot easily clear — deferring the wave of on-chain capital formation JPMorgan had expected as a second-half catalyst. Asset managers building tokenized fund structures or digital collateral programs need scenario plans for both a yield-restricted CLARITY passage and a continued enforcement-driven environment through 2027.",
+      "payments": "The stablecoin yield prohibition in the current draft directly constrains the competitive surface of payments-oriented stablecoin products, channeling scale toward bank-issued or Treasury-backed tokens rather than crypto-native issuers — a structural advantage for payments providers already operating inside the regulated banking perimeter. Firms building cross-border or real-time settlement infrastructure on stablecoin rails need to pressure-test their product economics against a yield-free stablecoin regime before legislative outcomes are known.",
+      "fintech": "Fintech infrastructure providers whose roadmaps depend on yield-bearing stablecoin adoption as a growth driver face a scenario where the legislation that 'legitimizes' their market simultaneously caps its economics — making compliance-readiness for the restricted model a near-term necessity, not a post-passage adjustment. The 'regulator-ready' infrastructure play here is building for the yield-restricted architecture now, so that the legal clarity event, whenever it arrives, is an accelerant rather than a redesign trigger.",
+      "policy_risk": "The CLARITY Act's deteriorating legislative timeline confirms a durable pattern: comprehensive digital asset frameworks stall not on technical substance but on incumbent-industry opposition to deposit competition, and the 60-vote Senate threshold combined with midterm calendar compression makes that pattern self-reinforcing. Institutions engaging in policy strategy should treat a 2027 reset as a base case, not a tail risk, and should be actively shaping the yield and classification provisions now — because the compromise that gets the bill across the line will define the competitive structure of digital finance for a decade."
+    }
   },
   {
     "institution": "Australian Securities and Investments Commission",
@@ -5832,6 +6098,36 @@
       "banks_fmis": "Peer institutions need to assess whether their AI sourcing model — reliant on hyperscaler APIs and point solutions — can match the depth of capability access that sovereign-linked partnerships provide. The G42 relationship gives Santander potential preferential positioning on model development, data infrastructure, and regional deployment in a corridor that most Western banks are still navigating through intermediaries.",
       "fintech": "Fintech infrastructure providers building on the assumption that large banks will remain dependent on third-party AI layers should recalibrate: partnerships like this one suggest the largest institutions are working to internalize strategic AI capability, which compresses the addressable market for vendors operating in the middle tier of the AI stack.",
       "policy_risk": "A major EU-regulated bank entering a formal AI cooperation agreement with a UAE sovereign-linked technology group will draw scrutiny on data governance, model provenance, and cross-border AI deployment under both the EU AI Act and emerging Gulf regulatory frameworks — making this as much a regulatory navigation story as a technology one."
+    }
+  },
+  {
+    "institution": "JPMorgan Chase",
+    "initiative": "Reports: Beyond Concentration: Where Non-USD Stablecoins Can Scale; Stablecoin Strategy for Asia 2026; Global Banking Annual Review 2026",
+    "description": "A curated set of seven industry reports published in early June 2026 collectively maps the structural shift underway in wholesale and retail financial infrastructure, covering stablecoin adoption, tokenised asset markets, AI in banking, and payments evolution. Key findings include major institutions — Stripe, PayPal, Visa, and JPMorgan Chase — having moved stablecoin payments into live production during 2025, supported by newly enacted regulatory frameworks across the US, EU, and Asia-Pacific.",
+    "date": "2026-06-03",
+    "source_url": "https://www.fintechwrapup.com/p/reports-beyond-concentration-where",
+    "category": "global_banks",
+    "source_name": "Fintech Wrap Up",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Digital Currency & Stablecoins",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "The simultaneous production deployment of stablecoins by Stripe, PayPal, Visa, and JPMorgan Chase — combined with active regulatory frameworks across three major jurisdictions — closes the 'wait and see' window that institutions have used to defer digital currency strategy. Non-USD stablecoin corridors and agentic AI payment flows are now defining the next competitive frontier, meaning institutions without a coherent stablecoin positioning before 2027 will be inheriting infrastructure decisions made by others. The structural question is no longer whether to engage, but which currency denominations, settlement rails, and counterparty relationships to anchor.",
+      "banks_fmis": "Banks and FMIs face a compounding pressure: Project Acacia confirms that tokenized wholesale settlement delivers real efficiency gains, but regulatory and coordination barriers mean first-movers who solve interoperability now will set the clearing and collateral standards others must conform to. The emergence of bank-issued stablecoins alongside DeFi-native alternatives means correspondent banking relationships and nostro/vostro liquidity models are directly in scope for renegotiation.",
+      "asset_managers": "The extreme concentration dynamic — where 0.4% of wallets hold 98% of stablecoin value — signals that institutional-grade stablecoin liquidity is real and accessible, but wholesale tokenized asset markets remain structurally thin below the top tier. Asset managers evaluating tokenized fund structures or collateral mobility need to stress-test liquidity assumptions against this concentration reality, not headline supply figures.",
+      "payments": "Asia's remittance and trade corridors represent the clearest near-term displacement risk: stablecoins are moving into production on rails where existing cross-border payment providers hold margin precisely because those rails are inefficient. Providers that do not have a non-USD stablecoin strategy for SGD, HKD, and JPY corridors by 2026 are ceding pricing power in the region's highest-volume flows.",
+      "fintech": "The fragmentation of stablecoin issuance — from two issuers controlling 94% of supply toward bank-issued and DeFi-native alternatives — creates an infrastructure build moment for middleware providers that can aggregate liquidity, normalize user experience, and handle compliance across issuer types. The merchant acceptance gap identified in the State of Stablecoin & Crypto Payments 2026 is an integration problem, not a demand problem, and that distinction defines where infrastructure investment has durable commercial return.",
+      "policy_risk": "Regulatory frameworks now in force across the US, EU, and Asia-Pacific have shifted the policy risk from framework absence to framework divergence — institutions operating across jurisdictions must now manage conflicting compliance requirements for stablecoin issuance, reserve standards, and AML obligations simultaneously. The non-USD stablecoin scaling thesis amplifies this: local currency stablecoins will be subject to local prudential regimes, and the absence of international coordination on interoperability standards is itself a material risk to cross-border utility."
     }
   },
   {
@@ -9684,6 +9980,23 @@
     "year": "2026"
   },
   {
+    "institution": "Ondo Finance",
+    "initiative": "Ondo Finance Brings Hundreds of Tokenized Stocks to Solana For the First Time",
+    "description": "I wasn't able to retrieve meaningful article content from the source URL — the text provided contains only the page title repeated, with no substantive body content to extract. If you paste the full article text directly, I can write the signal card description for you.",
+    "date": "2026-01-21",
+    "source_url": "https://ondo.finance/blog/global-markets-live-on-solana",
+    "category": "ecosystem",
+    "source_name": "Ondo — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "BIS (Bank for International Settlements)",
     "initiative": "BIS statement of commitment to the FX Global Code",
     "description": "The Bank for International Settlements has formally reaffirmed its commitment to the FX Global Code, the voluntary best-practice framework governing conduct in wholesale foreign exchange markets. The BIS confirmed it meets the Code's definition of a market participant and has taken steps proportionate to the scale and complexity of its own FX activity to align its operations with the Code's principles. The statement is part of the ongoing adherence and transparency mechanism that underpins the Code's credibility across official sector and private market participants alike. For institutional practitioners, the BIS's public commitment reinforces the Code's standing as the global conduct standard and signals continued official sector engagement with its governance.",
@@ -9705,6 +10018,79 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
+    "year": "2026"
+  },
+  {
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "Football clubs warned about questionable sponsorship deals with unauthorised financial firms",
+    "description": "The UK Financial Conduct Authority has written directly to Premier League clubs and other football organisations warning them against entering sponsorship arrangements with financial firms that lack FCA authorisation, including crypto businesses and trading platforms. Such firms may be breaching UK financial services law by promoting or providing regulated products without the necessary permissions, leaving fans with no recourse if they suffer losses. The FCA has flagged that clubs themselves face exposure to legal liability, money laundering risk, and reputational harm if they fail to conduct adequate due diligence on financial services sponsors before and after signing.",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/press-releases/football-clubs-warned-questionable-sponsorship-deals-unauthorised-firms",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "Open banking takes next step forward with launch of UK Payments Initiative scheme",
+    "description": "The UK Payments Initiative (UKPI), an industry-led scheme, formally launched on 2 June 2026, marking a concrete step toward commercialising variable recurring payments (cVRP) under the open banking framework. The scheme is designed to introduce competition between commercial open banking payment providers, giving consumers and businesses more control over how they authorise and manage recurring payments. The FCA, anticipating new legislative powers, has committed to consulting on a long-term regulatory framework by end-2026 and is supporting the creation of an independent standards-setting body to underpin the next phase.",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/statements/open-banking-launch-uk-payments-initiative-scheme",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "Halo Financial Limited enters administration",
+    "description": "Halo Financial Limited, an FCA-authorised payment services firm regulated under the Payment Services Regulations 2017, entered special administration on 29 May 2026, with Louise Longley and Bai Cham of BTG Begbies Traynor appointed as joint special administrators. The firm had already been operating under a voluntary undertaking since 30 April 2026 that barred it from conducting payment services or accepting new funds. The special administration regime, introduced under the Payment and Electronic Money Institution Insolvency Regulations 2021, imposes an additional objective on administrators beyond ordinary insolvency procedures: the prompt return of safeguarded customer funds.",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/news-stories/halo-financial-limited-enters-administration",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "Court approves distribution of money recovered from Argento Wealth",
+    "description": "The High Court issued a judgment on 19 May 2026 approving a pro rata distribution of funds that the FCA recovered from Argento Wealth Limited, an unauthorised business. Eligible recipients are investors who participated in either the AWL Loan Scheme or the EMB Fund Limited scheme where the investment was arranged by AWL or its sub-distributors. The FCA is administering the distribution directly and has set a hard deadline of 1 August 2026 for eligible investors to submit bank account details, after which claims will be forfeited. Practitioners advising affected clients should note that investors not already known to the FCA must proactively make contact before that date to preserve their entitlement.",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/news-stories/court-approves-distribution-money-recovered-argento-wealth",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
     "year": "2026"
   },
   {
@@ -10124,15 +10510,52 @@
     "year": "2025"
   },
   {
-    "institution": "Coinbase",
+    "institution": "Ondo Finance",
+    "initiative": "BX Digital and Ondo Finance Partner to Launch Regulated Trading of Tokenized Products in Europe",
+    "description": "I was unable to retrieve the substantive article content from the source URL provided — the text supplied contains only the page title repeated, with no article body to extract meaningful detail from. To write an accurate signal card description, please paste the full article text directly into your message and I will produce the description immediately.",
+    "date": "2025-11-03",
+    "source_url": "https://ondo.finance/blog/ondo-partners-with-bx-digital",
+    "category": "ecosystem",
+    "source_name": "Ondo — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2025"
+  },
+  {
+    "institution": "Ondo Finance",
+    "initiative": "Ondo Finance Completes Acquisition of Oasis Pro to Accelerate U.S. Tokenized Securities Innovation",
+    "description": "Ondo Finance has completed its acquisition of Oasis Pro, a firm holding multiple U.S. regulatory licenses including an ATS (Alternative Trading System) registration, a broker-dealer license, and an SEC-registered transfer agent status. These licenses give Ondo a regulated infrastructure stack to issue, trade, and settle tokenized securities within existing U.S. legal frameworks, rather than operating in regulatory grey areas. The deal is significant for institutional participants because it represents one of the first moves by a major tokenization platform to bring the full securities lifecycle — issuance through secondary trading — under a single, domestically licensed entity.",
+    "date": "2025-10-07",
+    "source_url": "https://ondo.finance/blog/ondo-acquires-oasis-pro",
+    "category": "ecosystem",
+    "source_name": "Ondo — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2025"
+  },
+  {
+    "institution": "Ondo Finance",
     "initiative": "Ondo Finance Appoints Peter Curley, Former SEC, Treasury, and Coinbase Policy Leader, as Head of Global Regulatory Affairs",
     "description": "Ondo Finance has hired Peter Curley as Head of Global Regulatory Affairs, bringing in an executive with prior policy roles at the SEC, the U.S. Treasury Department, and Coinbase. The appointment signals the tokenized real-world asset platform's intent to engage more directly with regulators as scrutiny of on-chain financial products intensifies across major jurisdictions. Curley's cross-sector background — spanning federal financial regulators and a leading crypto exchange — positions Ondo to navigate the compliance and policy frameworks that increasingly govern institutional participation in tokenized securities.",
     "date": "2025-09-10",
     "source_url": "https://ondo.finance/blog/ondo-finance-appoints-peter-curley-former-sec-treasury-and-coinbase-policy-leader-as-head-of-global-regulatory-affairs",
-    "category": "exchanges_intermediaries",
+    "category": "ecosystem",
     "source_name": "Ondo — Blog",
     "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
+    "institution_type": "Infrastructure & Technology",
     "signal_type": "Leadership & Governance",
     "fmi_areas": [],
     "initiative_types": [
@@ -10141,15 +10564,15 @@
     "year": "2025"
   },
   {
-    "institution": "Fidelity",
+    "institution": "Ondo Finance",
     "initiative": "Fidelity Unveils Onchain Money Market Fund—Anchored by Ondo Finance",
     "description": "Fidelity Investments has launched an onchain version of its money market fund, with Ondo Finance serving as a foundational infrastructure partner for the product. The fund brings a traditional registered money market vehicle onto a public blockchain, marking a significant step by one of the world's largest asset managers into tokenized real-world assets. For institutional finance practitioners, the development is notable because it pairs Fidelity's regulated fund wrapper and credit standing with Ondo's onchain distribution and composability layer, potentially enabling the fund to be used as collateral or integrated into DeFi protocols. This signals growing convergence between conventional asset management and tokenized finance infrastructure at institutional scale.",
     "date": "2025-09-09",
     "source_url": "https://ondo.finance/blog/fidelity-unveils-onchain-money-market-fund-anchored-by-ondo-finance",
-    "category": "asset_management",
+    "category": "ecosystem",
     "source_name": "Ondo — Blog",
     "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
+    "institution_type": "Infrastructure & Technology",
     "signal_type": "Product Launch",
     "fmi_areas": [
       "Collateral & Lending",
@@ -10158,6 +10581,74 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure",
       "DeFi"
+    ],
+    "year": "2025"
+  },
+  {
+    "institution": "Ondo Finance",
+    "initiative": "Ondo Finance Acquires Strangelove to Accelerate Full-Stack RWA Platform Development",
+    "description": "Ondo Finance has acquired Strangelove, a blockchain infrastructure and tooling firm, to bring core technical capabilities in-house as it builds out an end-to-end platform for tokenized real-world assets. The deal deepens Ondo's vertical integration, adding protocol engineering expertise that the firm intends to deploy across its expanding suite of on-chain financial products, including tokenized Treasuries. For institutional practitioners, the move signals that leading RWA issuers are shifting from assembling third-party infrastructure toward owning the full technology stack — a development with implications for counterparty assessment, custody arrangements, and the competitive landscape of on-chain fixed income distribution.",
+    "date": "2025-07-14",
+    "source_url": "https://ondo.finance/blog/ondo-finance-acquires-strangelove",
+    "category": "ecosystem",
+    "source_name": "Ondo — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Tokenization & Issuance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA",
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2025"
+  },
+  {
+    "institution": "Ondo Finance",
+    "initiative": "Ondo Finance to Acquire Oasis Pro, an SEC-Registered Broker-Dealer, Alternative Trading System, and Transfer Agent",
+    "description": "Ondo Finance has entered into an agreement to acquire Oasis Pro, a firm holding SEC registrations as a broker-dealer, alternative trading system (ATS), and transfer agent. The deal would give Ondo, a tokenized real-world asset (RWA) issuer, direct access to regulated infrastructure for distributing, trading, and settling digital securities in the United States. For institutional participants, the significance lies in Ondo potentially collapsing multiple compliance-heavy intermediary functions — distribution, secondary-market execution, and ownership recordkeeping — into its own stack.",
+    "date": "2025-07-04",
+    "source_url": "https://ondo.finance/blog/ondo-finance-to-acquire-oasis-pro",
+    "category": "ecosystem",
+    "source_name": "Ondo — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Tokenization & Issuance",
+      "Trading & Exchange",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Tokenized Securities / RWA"
+    ],
+    "year": "2025"
+  },
+  {
+    "institution": "Ondo Finance",
+    "initiative": "Ondo Finance Launches Global Markets Alliance with Industry-Leading Wallets, Exchanges, and Custodians to Bring Capital Markets Onchain",
+    "description": "Ondo Finance has formed a consortium of wallets, exchanges, and custodians — referred to as the Global Markets Alliance — aimed at expanding institutional access to tokenized real-world assets and onchain capital markets infrastructure. The initiative brings together distribution and custody partners to support broader adoption of Ondo's tokenized Treasury and fixed-income products across regulated and semi-regulated venues. For institutional practitioners, the development signals a coordinated push to build out the intermediary layer — settlement, safekeeping, and distribution rails — that has historically constrained institutional participation in tokenized asset markets.",
+    "date": "2025-06-17",
+    "source_url": "https://ondo.finance/blog/ondo-finance-global-markets-alliance",
+    "category": "ecosystem",
+    "source_name": "Ondo — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Custody & Safekeeping",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
     ],
     "year": "2025"
   }
