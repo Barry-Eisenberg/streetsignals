@@ -75,15 +75,15 @@
     }
   },
   {
-    "institution": "Nasdaq",
+    "institution": "SpaceX",
     "initiative": "SpaceX debut turns tokenized stocks into crypto’s hottest sector",
-    "description": "SpaceX priced its IPO at $135 per share before opening at $150 and trading as high as $173.22 on Nasdaq, raising approximately $75 billion in what became the largest IPO on record and pushing the company's market capitalization above $2 trillion. Rather than pulling liquidity from digital assets — a concern flagged by GSR's head of OTC trading and others given the scale of capital required — crypto markets rose alongside the listing, with Bitcoin, Ethereum, and Solana all advancing on the day.",
+    "description": "SpaceX priced its IPO at $135 per share before opening at $150 and trading as high as $173.22 on Nasdaq, raising approximately $75 billion in what became the largest IPO on record and pushing the company’s market capitalization above $2 trillion. Rather than pulling liquidity from digital assets — a concern flagged by GSR’s head of OTC trading and others given the scale of capital required — crypto markets rose alongside the listing, with Bitcoin, Ethereum, and Solana all advancing on the day.",
     "date": "2026-06-12",
     "source_url": "https://crypto.news/spacex-debut-turns-tokenized-stocks-into-cryptos-hottest-sector/",
-    "category": "exchanges_intermediaries",
+    "category": "ecosystem",
     "source_name": "crypto.news",
     "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
+    "institution_type": "Infrastructure & Technology",
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Collateral & Lending",
@@ -102,15 +102,15 @@
     }
   },
   {
-    "institution": "Nasdaq",
+    "institution": "SpaceX",
     "initiative": "Elon Musk's SpaceX soars 20% in blockbuster Nasdaq debut",
     "description": "SpaceX completed its Nasdaq listing on June 12, 2026 under the ticker SPCX, having priced its IPO at $135 per share the previous evening and raising $75 billion — the largest IPO on record — implying a valuation of approximately $1.8 trillion. Shares opened at $150 and climbed to $162 in early trading, a roughly 20% premium to the offer price. The listing gives public market participants direct exposure to a vertically integrated aerospace and satellite internet business that generated around $19 billion in revenue last year across launch services, government contracts, and Starlink operations.",
     "date": "2026-06-12",
     "source_url": "https://www.coindesk.com/markets/2026/06/12/spacex-opens-at-usdtk-in-blockbuster-nasdaq-debut",
-    "category": "exchanges_intermediaries",
+    "category": "ecosystem",
     "source_name": "CoinDesk",
     "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
+    "institution_type": "Infrastructure & Technology",
     "signal_type": "Product Launch",
     "fmi_areas": [
       "Trading & Exchange"

@@ -81,6 +81,7 @@ const State = {
     this.emit();
   },
   resetFilters() {
+    this.persona = 'all';
     this.filters = {
       theme: null, tier: null, category: 'all',
       dateWindow: 7, country: null, search: '', sort: 'importance'
