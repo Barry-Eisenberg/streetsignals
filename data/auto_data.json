@@ -1,6 +1,75 @@
 [
   {
     "institution": "SpaceX",
+    "initiative": "SpaceX IPO scramble reveals difference between tokenizing a stock and getting one",
+    "description": "Binance Wallet, Bybit, and Bitget canceled their SpaceX pre-IPO tokenized share offerings and refunded customers after xStocks, Kraken's tokenized equities unit, failed to secure the underlying allocations amid overwhelming retail demand that pushed orders well past $100 billion against a shrinking retail tranche. xStocks and its distribution partners reportedly aggregated over $1 billion in customer orders, but underwriters curtailed the retail allocation to the low-20% range, leaving most requests unfilled across both crypto platforms and traditional brokerages.",
+    "date": "2026-06-13",
+    "source_url": "https://www.coindesk.com/tech/2026/06/13/spacex-ipo-scramble-reveals-difference-between-tokenizing-a-stock-and-getting-one",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SpaceX",
+    "initiative": "SpaceX's crypto-traded IPO was sharply falling. It now points upward to a $2.4 trillion valuation",
+    "description": "The SPCX perpetual contract on decentralized exchange Hyperliquid — a cash-settled derivative tracking sentiment around the SpaceX IPO, priced at $135 per share — recovered to the $176–$183 range on Friday after sliding to roughly $153 mid-week, reversing a decline that had compressed the implied first-day premium from around 60% in May to approximately 16%. At Friday's levels, SPCX implies a premium of about 36% to the IPO price, consistent with signals from other shadow markets: IG International derivatives pointed to a SpaceX valuation near $2.4 trillion, and Polymarket traders assigned 70% odds to the stock closing its first trading day above $2 trillion.",
+    "date": "2026-06-12",
+    "source_url": "https://www.coindesk.com/markets/2026/06/12/spacex-s-crypto-traded-ipo-was-sharply-falling-it-now-points-upward-to-a-usd2-4-trillion-valuation",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "Onchain perpetual markets and prediction platforms are now functioning as real-time, democratized price discovery engines for major IPOs — delivering implied valuations ahead of exchange open with $216M in open interest and 24-hour volumes exceeding $150M on a single venue. This forces a reckoning for traditional pre-IPO infrastructure: the price formation function that once belonged exclusively to prime brokers, syndicate desks, and accredited-only grey markets is being replicated in permissionless environments with global retail participation and continuous settlement. Financial institutions that treat this as a crypto curiosity rather than a structural displacement of conventional bookbuild mechanics are misreading the competitive signal.",
+      "banks_fmis": "Syndicate desks and exchange operators face a direct challenge to their IPO price formation monopoly: when Hyperliquid, Polymarket, and IG derivatives collectively converge on a valuation 35% above the offer price before first trade, the informational edge of traditional bookbuilding is visibly eroded. The question for listing venues and underwriting desks is not whether to monitor these markets — it is how to integrate their signals without ceding further ground in the broader price discovery value chain.",
+      "asset_managers": "Institutional allocators now have a publicly observable, high-frequency pre-IPO price signal that retail participants accessed on equal footing — the information asymmetry that justified large IPO allocation relationships is compressing. Asset managers need to evaluate whether their current pre-IPO due diligence and valuation frameworks are calibrated for a world where onchain derivatives markets are setting a credible public anchor before the stock begins trading.",
+      "policy_risk": "Cash-settled perpetual contracts referencing private company IPO prices — accessible globally to retail investors with no accreditation requirement — sit in a direct regulatory gray zone that U.S. and EU frameworks have not resolved. With $216M in open interest on a single unregistered venue referencing a Nasdaq-listed security's IPO price, regulators at the SEC and CFTC face a concrete, high-profile case that will likely accelerate definitional rulemaking around crypto derivatives referencing traditional securities events."
+    }
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Grayscale updates NEAR ETF filing as AI token gains attention",
+    "description": "Grayscale filed an amended S-1 registration statement with the SEC on June 12 for a proposed spot ETF tied to NEAR Protocol, updating its original January submission under registration number 333-292834. The revision notably replaces Coinbase Custody Trust Company as sole custodian with BitGo Bank & Trust N.A. as primary custodian, while retaining Coinbase in a secondary custodial role — a structural change that signals evolving counterparty preferences in digital asset product design. The filing also refreshes network disclosures, noting NEAR's circulating supply of 1.3 billion tokens and an approximate $1.5 billion market capitalization as of March 31, 2026, alongside clarified restrictions on staking activity by the trust and its service providers.",
+    "date": "2026-06-12",
+    "source_url": "https://crypto.news/grayscale-updates-near-etf-filing-as-ai-token-gains-a/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Custody & Safekeeping"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "Grayscale's amended NEAR ETF filing — shifting primary custody from Coinbase to BitGo while retaining Coinbase as secondary — establishes a multi-custodian architecture as an emerging structural norm for altcoin ETF registration, not a one-time accommodation. With NEAR's market cap at $1.5 billion and ranking slipping to 43rd, the commercial logic here is less about NEAR specifically and more about Grayscale positioning a scalable ETF wrapper for AI-narrative tokens before the SEC's review posture firms up. Institutions that have not yet mapped custody, staking-restriction, and disclosure frameworks for Layer-1 AI-linked assets are now operating behind the filing curve.",
+      "banks_fmis": "The custodian substitution — BitGo Bank & Trust N.A. as primary, Coinbase Custody as secondary — signals that ETF sponsors are diversifying custodial counterparty risk across bank-chartered and exchange-affiliated entities simultaneously, a structure that custody banks should expect to see replicated across the altcoin ETF pipeline. Institutions evaluating custody mandates for digital asset ETFs must now compete on both regulatory charter credibility and operational flexibility, not custody scale alone.",
+      "asset_managers": "Grayscale's willingness to file and iteratively amend ETF registrations for sub-$2 billion market cap assets tied to AI narratives sets a product-development benchmark: thematic positioning — not asset size — is increasingly the primary driver of the altcoin ETF queue. Asset managers without a defined framework for evaluating AI-infrastructure tokens as potential wrapper candidates risk ceding early-mover positioning to Grayscale's increasingly systematic filing strategy.",
+      "policy_risk": "The filing's explicit staking carve-out — permitting staking exposure only if U.S. law permits, and confirming no current staking by the trust or custodians — reflects a deliberate strategy to preempt SEC objections rather than test them, and reinforces that regulator-ready disclosure architecture is now a precondition for altcoin ETF advancement, not an afterthought. Policymakers and compliance teams should treat this language as the emerging disclosure template for proof-of-stake asset ETFs pending clearer staking guidance from the SEC."
+    }
+  },
+  {
+    "institution": "SpaceX",
     "initiative": "Live updates: SpaceX rallies nearly 20% in first session, while bitcoin trades shy of $64,000",
     "description": "SpaceX completed what is described as the largest equity listing in U.S. market history on June 12, 2026, raising $75 billion by pricing 555.6 million shares at $135 each on the Nasdaq under ticker SPCX, with Goldman Sachs and Morgan Stanley each underwriting approximately $15 billion of the deal. Shares opened sharply higher and briefly reached $176 before closing at $160.95, a gain of roughly 19% on the first session, implying a market capitalization of approximately $2.1 trillion. Bitcoin, which had rallied in anticipation of the listing, gave back early gains as the IPO-driven demand catalyst faded, settling near $63,500 and roughly flat on a 24-hour basis.",
     "date": "2026-06-12",
@@ -462,33 +531,6 @@
       "payments": "Y Combinator signaling mass stablecoin adoption across its portfolio companies sets a near-term demand signal for programmable payment rails that operate at the speed of software deployment cycles — payments providers without a stablecoin acceptance and settlement path risk being routed around by the next generation of B2B platforms before regulatory clarity fully arrives.",
       "fintech": "The Clarity Act's bankruptcy treatment provision — establishing that customer assets are customer property — resolves a foundational counterparty risk question that has blocked enterprise fintech integration; infrastructure providers building custody, reconciliation, or settlement tools now have a credible compliance architecture to pitch to institutional clients.",
       "policy_risk": "Legislative timing risk is the dominant variable: bipartisan support is contested, midterm dynamics could freeze Republican momentum, and Trump's personal crypto exposure continues to generate Democratic opposition that has nothing to do with the technical merits of market structure reform — institutions building Clarity Act-dependent roadmaps should maintain optionality for a 12-to-18-month slip in the legislative calendar."
-    }
-  },
-  {
-    "institution": "SpaceX",
-    "initiative": "Bybit, Binance, Bitget cancel tokenized SpaceX IPO allocations after share shortage",
-    "description": "Three major crypto exchanges — Bybit, Binance, and Bitget — were forced to cancel their tokenized SpaceX IPO allocations on June 12, 2026, after xStocks, the tokenization infrastructure provider acquired by Kraken, failed to secure sufficient underlying shares to fulfill customer subscriptions. All three platforms are issuing full refunds, with Bybit offering an additional 10% consolation payment, Bitget returning fees alongside future whitelist privileges, and Binance directing affected users toward a $1 million airdrop of its own forthcoming bStocks SpaceX token.",
-    "date": "2026-06-12",
-    "source_url": "https://www.theblock.co/post/404644/bybit-binance-bitget-cancel-tokenized-spacex-ipo-allocations-share-shortage",
-    "category": "ecosystem",
-    "source_name": "The Block",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2026",
-    "why_this_matters_override": {
-      "default": "The tokenized SpaceX IPO collapse across Bybit, Binance, and Bitget exposes a critical gap between retail demand aggregation and institutional-grade allocation infrastructure — and it resets the bar for what 'commercially viable' tokenized equity actually requires. Exchanges can build the distribution rails and capture the subscription capital, but without credentialed primary market access and reliable upstream custody of underlying shares, the product fails at settlement — precisely the moment that matters. This is not a crypto credibility problem; it is a market structure problem that TradFi institutions are now positioned to solve by inserting themselves into the custody and allocation chain.",
-      "banks_fmis": "Prime brokers and custodians with direct issuer relationships and IPO allocation networks now hold structural leverage over any tokenized equity product that wants to reach retail at scale — xStocks' failure to deliver is a distribution-without-custody cautionary tale that opens a clear revenue and partnership opportunity for regulated intermediaries willing to bridge the primary market gap.",
-      "asset_managers": "The oversubscription dynamics here — with even traditional brokers running lotteries — confirm that tokenized IPO access is a genuine demand signal, not a speculative construct; asset managers with institutional allocation relationships should be evaluating whether wrapping that access in a tokenized format creates a defensible product advantage before crypto-native platforms resolve their upstream custody deficiencies.",
-      "fintech": "Any infrastructure provider building tokenized securities rails needs to treat primary market allocation connectivity as a first-class engineering and legal requirement, not a post-launch partnership problem — the xStocks failure demonstrates that 1:1 backing promises made to end users are only as durable as the upstream custody and allocation chain that precedes them.",
-      "policy_risk": "Regulators watching this episode have concrete evidence that tokenized securities serving retail investors require disclosure standards and allocation integrity rules equivalent to — or exceeding — those governing traditional IPO distributions; the refund-plus-consolation model that emerged ad hoc from these three exchanges is not a durable substitute for pre-approved prospectus requirements and auditable reserve verification at the point of subscription."
     }
   },
   {
@@ -1094,6 +1136,32 @@
     ],
     "initiative_types": [],
     "year": "2026"
+  },
+  {
+    "institution": "SpaceX",
+    "initiative": "Bitcoin and Crypto Bounce as Inflation Hits 3-Year High, but CryptoQuant Says the Bottom Isn’t In and SpaceX IPO Looms",
+    "description": "Bitcoin staged a modest recovery to approximately $62,000 on June 11 even as the Bureau of Labor Statistics reported May CPI accelerating to 4.2% year-over-year — the third consecutive monthly acceleration and the highest reading since 2023 — driven primarily by energy costs linked to the renewed US-Iran conflict. The data, the first inflation print under new Fed Chair Kevin Warsh, has shifted rate expectations toward at least one hike before year-end, reversing earlier consensus for three cuts and capping the rate-sensitive liquidity conditions on which risk assets depend.",
+    "date": "2026-06-11",
+    "source_url": "https://unchainedcrypto.com/bitcoin-and-crypto-bounce-as-inflation-hits-3-year-high-but-cryptoquant-says-the-bottom-isnt-in-and-spacex-ipo-looms/",
+    "category": "ecosystem",
+    "source_name": "Unchained Crypto",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "The simultaneous compression of Bitcoin ETF inflows — down $4.8 billion over three weeks — and the gravitational pull of a $250 billion SpaceX IPO demand stack forces institutional allocators to confront a structural question they have been deferring: whether digital assets occupy a durable sleeve in the risk portfolio or remain a residual claim on surplus liquidity. With CPI at 4.2%, the Fed holding at 3.5–3.75%, and rate hike expectations repricing sharply, the macro regime that justified crypto's 2024–2025 institutional entry narrative has materially shifted. Institutions that built digital asset exposure frameworks under a rate-cut assumption now face a model recalibration, not a market timing decision.",
+      "banks_fmis": "For custodians and prime services desks that expanded digital asset infrastructure on the back of ETF inflow momentum, the sustained outflow trend — one inflow day since May 14 — is an early stress test of whether that build-out was sized for structural demand or cyclical enthusiasm. Collateral valuation frameworks that incorporated Bitcoin as a reserve asset class need to account for a realized-price floor near $53,600 that the market has not yet tested, which is a direct input to margin and haircut models.",
+      "asset_managers": "Asset managers who benchmarked digital asset allocation against a rate-cut cycle are now holding positions calibrated to a macro environment that no longer exists — the decision being forced is whether to rebalance on fundamentals or hold through what CryptoQuant characterizes as an incomplete capitulation cycle. The SpaceX IPO demand dynamic is equally instructive: when a single equity offering absorbs $250 billion in risk appetite, it quantifies exactly how contested the pool of institutional risk capital has become, and crypto's share of that pool is not defended by yield.",
+      "policy_risk": "The third consecutive month of accelerating CPI, now at a three-year high under incoming Fed Chair Kevin Warsh, resets the regulatory conversation around digital asset classification: assets that behave as risk-liquidity proxies rather than inflation hedges require a different disclosure and suitability framework than the one regulators were developing during the low-rate era. Supervisors tracking systemic exposure through spot ETF vehicles now have a live data set showing how quickly $4.8 billion exits when macro conditions tighten — that behavioral profile will inform the next round of prudential guidance."
+    }
   },
   {
     "institution": "Citigroup",
@@ -2198,6 +2266,32 @@
       "asset_managers": "Asset managers deploying AI in portfolio construction, risk modeling, or client-facing applications need to treat this consultation as an early signal that fiduciary and conduct obligations will increasingly be interpreted through an AI governance lens — documentation of model selection rationale, bias testing, and human oversight protocols is shifting from best practice to regulatory expectation.",
       "fintech": "Fintech infrastructure providers embedded in regulated institution workflows face a second-order impact: as their bank and FMI clients operationalize FSB-aligned AI standards, vendor contracts and due diligence requirements will increasingly demand that AI components meet the same governance thresholds as proprietary systems — explainability, auditability, and human oversight are becoming procurement criteria, not differentiators.",
       "policy_risk": "The FSB consultation represents the opening move in what will become a multi-jurisdictional convergence exercise — the real policy risk is fragmentation, where DORA, the EU AI Act, U.S. interagency guidance, and FSB principles produce overlapping but non-harmonized obligations that institutions must simultaneously satisfy across geographies. Engaging now, while the FSB framework is still in consultation, is the most cost-effective point of influence in that eventual compliance architecture."
+    }
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "A $2.7 Billion Deal Could Reshape Cross-Border Payments",
+    "description": "Nuvei, the Montreal-based payment technology company, is in advanced talks to acquire Nasdaq-listed Payoneer in a deal valued at approximately $2.7 billion, according to Reuters. The transaction would combine Nuvei's merchant acquiring and processing infrastructure with Payoneer's established global payout network, which has built significant reach into emerging markets by serving businesses that collect payments from buyers in the U.S. and Europe.",
+    "date": "2026-06-10",
+    "source_url": "https://www.connectingthedotsinpayments.com/a-2-7-billion-deal-could-reshape-cross-border-payments/",
+    "category": "exchanges_intermediaries",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "Nuvei's $2.7 billion pursuit of Payoneer signals that end-to-end ownership of the cross-border payment stack is becoming a competitive prerequisite, not a growth option — point solutions handling only collection or only payout are being structurally squeezed out. As scale consolidates around full-corridor players with emerging market depth, institutions that rely on fragmented correspondent relationships or single-function processors face mounting pricing pressure and client attrition. The window for organic capability-building in cross-border is narrowing; the industry is entering a phase where M&A velocity sets the competitive baseline.",
+      "banks_fmis": "Correspondent banking networks that remain passive intermediaries in emerging market corridors are watching their relevance erode in real time — this deal is Exhibit A in how non-bank players are assembling the regulated infrastructure, local relationships, and processing scale that banks historically defended through inertia. FMIs operating cross-border settlement infrastructure need to assess whether their pricing and access terms still make them the preferred rail, or whether consolidated payment networks are routing around them.",
+      "payments": "For payments providers, this deal resets the minimum viable scale required to compete credibly in B2B cross-border — Nuvei is signaling that merchant acquiring volume alone no longer justifies the infrastructure investment, and that payout capability, emerging market access, and end-to-end treasury visibility must be bundled into a single proposition. Providers without a clear path to full-corridor coverage — either through acquisition, partnership, or platform integration — face accelerating commoditization of their core processing margin.",
+      "fintech": "Infrastructure fintechs enabling cross-border money movement face a bifurcating market: those with deep emerging market connectivity and programmable payout rails become acquisition targets, while those offering narrower middleware capabilities find themselves dis-intermediated by the consolidated platforms being assembled around them. The Banking Circle–Bridge stablecoin collaboration cited in the same signal reinforces the point — settlement infrastructure is converging with programmable rails, and pure-play infrastructure providers that cannot bridge both worlds will struggle to maintain strategic relevance.",
+      "policy_risk": "Consolidation at this scale in cross-border payments intensifies regulatory scrutiny around systemic concentration, AML program continuity, and sanctions screening integrity across newly combined entity networks — the Nuvei-Payoneer combination would create a single platform touching emerging market corridors that regulators in the U.S., EU, and Singapore already monitor with heightened attention. Compliance teams at acquiring institutions should treat merger integration as a regulatory event requiring proactive engagement with FINCEN, FCA, and MAS, not a post-close remediation exercise."
     }
   },
   {
@@ -11171,29 +11265,6 @@
     ],
     "initiative_types": [
       "Tokenized Securities / RWA"
-    ],
-    "year": "2025"
-  },
-  {
-    "institution": "Ondo Finance",
-    "initiative": "Ondo Finance Launches Global Markets Alliance with Industry-Leading Wallets, Exchanges, and Custodians to Bring Capital Markets Onchain",
-    "description": "Ondo Finance has formed a consortium of wallets, exchanges, and custodians — referred to as the Global Markets Alliance — aimed at expanding institutional access to tokenized real-world assets and onchain capital markets infrastructure. The initiative brings together distribution and custody partners to support broader adoption of Ondo's tokenized Treasury and fixed-income products across regulated and semi-regulated venues. For institutional practitioners, the development signals a coordinated push to build out the intermediary layer — settlement, safekeeping, and distribution rails — that has historically constrained institutional participation in tokenized asset markets.",
-    "date": "2025-06-17",
-    "source_url": "https://ondo.finance/blog/ondo-finance-global-markets-alliance",
-    "category": "ecosystem",
-    "source_name": "Ondo — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Custody & Safekeeping",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Payment Infrastructure"
     ],
     "year": "2025"
   }
