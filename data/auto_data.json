@@ -1,5 +1,86 @@
 [
   {
+    "id": "kx9yx9",
+    "institution": "Coinbase",
+    "initiative": "Top cryptographers can't agree on Bitcoin's biggest quantum question",
+    "description": "A Coinbase-convened advisory panel of prominent cryptographers — including Scott Aaronson of UT Austin, Dan Boneh of Stanford, and Justin Drake of the Ethereum Foundation — has published a report urging Bitcoin to begin technical migration toward post-quantum signature schemes immediately, while explicitly declining to resolve the more contentious governance question of what should happen to unmigrated coins once a quantum-resistant standard is in place. Approximately 6.7 million bitcoin are considered vulnerable to a future cryptographically capable quantum computer, including roughly 1.7 million in early pay-to-public-key addresses widely attributed to Satoshi Nakamoto and other holders with lost keys who cannot move funds to safety.",
+    "date": "2026-06-13",
+    "source_url": "https://www.coindesk.com/tech/2026/06/13/top-cryptographers-can-t-agree-on-bitcoin-s-biggest-quantum-question",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Research / Report",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "The Coinbase cryptographer panel's refusal to resolve the abandoned-coins question is itself a governance signal: Bitcoin's path to post-quantum security is now bifurcated between tractable engineering work and a legitimacy crisis that no technical fix resolves. For institutions holding BTC as a treasury or collateral asset, the 6.7 million potentially vulnerable coins represent a latent price and network-integrity risk that sits outside any single counterparty's control. The window to build quantum-migration planning into custody, collateral, and risk frameworks is open now — before a timeline hardens and institutions are caught reacting.",
+      "banks_fmis": "Custodians and FMIs that hold or settle BTC-denominated collateral need to stress-test against a scenario where quantum-vulnerable supply becomes politically contested and price-dislocating — irrespective of when cryptographically relevant quantum computers arrive. The governance ambiguity around Satoshi-era coins is a material tail risk that belongs in collateral eligibility frameworks today, not after the community reaches consensus.",
+      "asset_managers": "Asset managers with BTC allocations face a novel form of concentration risk: a defined, publicly quantifiable pool of coins that cannot be moved to safety, held by an unknown counterparty, and subject to a governance dispute with no clear resolution mechanism. Disclosure obligations and investment policy statements should begin accounting for this as a named, ongoing risk factor rather than a speculative future event.",
+      "policy_risk": "The panel's explicit warning that a future state actor — it names North Korea — could exploit quantum-vulnerable coins to destabilize Bitcoin's price and legitimacy converts what reads as a cryptographic debate into a sanctions-compliance and systemic-risk policy question. Regulators building frameworks around digital asset market integrity now have a concrete scenario where inaction on technical standards translates into potential national-security exposure."
+    }
+  },
+  {
+    "id": "88bvqn",
+    "institution": "Coinbase",
+    "initiative": "Coinbase advisory board urges Bitcoin to begin quantum migration now",
+    "description": "Coinbase's independent cryptography advisory board, which includes Ethereum Foundation researcher Justin Drake, published a report in June 2026 calling on the Bitcoin community to begin developing post-quantum cryptographic migration tools immediately, even though quantum computers do not currently pose a threat to the network. The report estimates that between 1.7 million and 5 million BTC could be vulnerable to future quantum attacks due to exposed public keys or address reuse, with a portion of that exposure attributed to dormant wallets including those linked to Satoshi Nakamoto.",
+    "date": "2026-06-13",
+    "source_url": "https://crypto.news/coinbase-advisory-board-urges-bitcoin-to-begin-quantum-migration-now/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "Coinbase's advisory board has moved quantum cryptographic risk from theoretical to operational planning horizon, effectively setting a new institutional benchmark: any firm holding, custodying, or settling Bitcoin-denominated assets now faces a documented, expert-sourced obligation to assess migration readiness. With 1.7 to 5 million BTC potentially exposed under future quantum conditions, the question is no longer whether post-quantum cryptography is relevant to digital asset strategy — it is whether your institution has a credible answer when regulators or counterparties ask. Firms that treat this as a distant infrastructure problem will find themselves behind a governance and operational curve that is already moving.",
+      "banks_fmis": "Custodians holding Bitcoin on behalf of institutional clients inherit direct exposure to this risk calculus — particularly where legacy pay-to-public-key address holdings are involved — and should expect due diligence questionnaires on quantum migration posture to become a standard component of counterparty and regulatory review within the next audit cycle. FMIs building settlement infrastructure around Bitcoin-denominated collateral need to begin scenario-planning for the operational implications of a hard migration deadline, including potential liquidity dislocations if legacy coin freezing proposals advance through Bitcoin's governance process.",
+      "asset_managers": "Asset managers with Bitcoin allocations — whether direct, ETF-wrapped, or held through separately managed accounts — now have a fiduciary documentation problem: the existence of a formal, expert-authored report quantifying quantum exposure means that not having assessed this risk is no longer a defensible position. Managers should begin engaging custodians and prime brokers on migration roadmap timelines before this surfaces as an LP-level governance question.",
+      "policy_risk": "The Coinbase advisory board's deliberate deference to Bitcoin's community consensus process — rather than recommending a governance outcome — is itself a signal to regulators: post-quantum migration for decentralized assets will not follow the top-down mandate model available for traditional financial infrastructure, creating a novel supervisory challenge. NIST's finalization of post-quantum cryptographic standards in 2024 gives regulators a policy anchor, but applying those standards to assets where no central issuer controls the migration timeline will require new supervisory frameworks that do not yet exist."
+    }
+  },
+  {
+    "id": "w3hyvp",
+    "institution": "Nasdaq",
+    "initiative": "CoreWeave joins Nasdaq 100 as AI boom redraws market leaders",
+    "description": "Nasdaq confirmed that CoreWeave and Nebius will be added to the Nasdaq 100 ahead of the open on June 22, as part of the index's quarterly rebalance, alongside Astera Labs, Rocket Lab, and Teradyne. CoreWeave's inclusion is notable given its origins as a cryptocurrency miner that pivoted to AI cloud infrastructure in 2019, and has since secured an $8.5 billion capital raise backed by Meta Platforms and a multi-year workload agreement with Anthropic. Index membership carries direct implications for institutional flows, as passive vehicles and ETFs tracking the Nasdaq 100 will be required to establish positions in both companies.",
+    "date": "2026-06-13",
+    "source_url": "https://crypto.news/coreweave-joins-nasdaq-100-as-ai-boom-redraws-market-leaders/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "CoreWeave's entry into the Nasdaq 100 — fifteen months post-IPO and built on a pivot from crypto mining to AI infrastructure — establishes AI compute capacity as a benchmark-grade asset class, not a venture-stage bet. Passive index flows now structurally favor companies that own and operate the physical layer of the AI stack, accelerating capital concentration in a sector where $31 billion in annual capex sets the competitive floor. For financial institutions still treating AI infrastructure as an operating cost rather than a strategic investment thesis, this index inclusion is the signal that the allocation window is narrowing.",
+      "banks_fmis": "For custodians and prime brokers, CoreWeave's index inclusion triggers mandatory exposure through passive mandates tracking the Nasdaq 100, forcing custody, collateral, and risk management frameworks to accommodate a new category of infrastructure-intensive, high-capex technology issuer. Banks with lending relationships in AI infrastructure need to stress-test credit models against CoreWeave's financing structure — $8.5 billion backed by deployed capacity and projected cash flows, not hardware assets — which differs materially from conventional tech lending templates.",
+      "asset_managers": "Active managers who have underweighted AI infrastructure relative to Nasdaq 100 benchmarks now carry explicit tracking error risk, not just thematic risk, as passive inflows into CoreWeave begin at the June 22 effective date. The more durable strategic question is whether AI compute — characterized by massive capex, long-duration contracts with hyperscalers and frontier model developers, and infrastructure-like cash flow profiles — belongs in technology allocations or should be underwritten with the frameworks applied to digital infrastructure and data centers.",
+      "fintech": "Fintech infrastructure providers building on top of cloud and AI services need to register that the hyperscaler alternatives market is maturing rapidly — CoreWeave's multi-year Anthropic agreement and Nebius's positioning as a full-stack AI cloud alternative indicate that procurement diversification away from AWS, Azure, and GCP is now an index-level story, not a niche play. Fintechs evaluating AI infrastructure partnerships or compute procurement strategies should treat CoreWeave's index entry as a liquidity and counterparty stability signal, not just a market cap milestone.",
+      "policy_risk": "The divergence between CoreWeave's index ascent and Canaan's Nasdaq non-compliance notice — two companies that once operated in the same crypto mining category — illustrates how rapidly regulatory and market legitimacy can bifurcate within a sector. Policymakers calibrating oversight frameworks for AI infrastructure and digital assets simultaneously should note that capital markets are already making structural distinctions that regulatory taxonomy has not yet caught up to, creating classification and oversight gaps that will compound as passive flows amplify the divergence."
+    }
+  },
+  {
     "institution": "SpaceX",
     "initiative": "SpaceX IPO scramble reveals difference between tokenizing a stock and getting one",
     "description": "Binance Wallet, Bybit, and Bitget canceled their SpaceX pre-IPO tokenized share offerings and refunded customers after xStocks, Kraken's tokenized equities unit, failed to secure the underlying allocations amid overwhelming retail demand that pushed orders well past $100 billion against a shrinking retail tranche. xStocks and its distribution partners reportedly aggregated over $1 billion in customer orders, but underwriters curtailed the retail allocation to the low-20% range, leaving most requests unfilled across both crypto platforms and traditional brokerages.",
@@ -18,6 +99,24 @@
     ],
     "year": "2026",
     "id": "6djlnf"
+  },
+  {
+    "id": "5bwsfc",
+    "institution": "SpaceX",
+    "initiative": "Bybit, Binance, Bitget cancel tokenized SpaceX IPO allocations after share shortage",
+    "description": "All three providers are issuing full refunds and additional compensation to affected users.",
+    "date": "2026-06-12",
+    "source_url": "https://www.theblock.co/post/404644/bybit-binance-bitget-cancel-tokenized-spacex-ipo-allocations-share-shortage",
+    "category": "ecosystem",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
   },
   {
     "institution": "SpaceX",
@@ -11680,92 +11779,5 @@
     "initiative_types": [],
     "year": "2025",
     "id": "c220yc"
-  },
-  {
-    "institution": "Ondo Finance",
-    "initiative": "Ondo Finance Appoints Peter Curley, Former SEC, Treasury, and Coinbase Policy Leader, as Head of Global Regulatory Affairs",
-    "description": "Ondo Finance has hired Peter Curley as Head of Global Regulatory Affairs, bringing in an executive with prior policy roles at the SEC, the U.S. Treasury Department, and Coinbase. The appointment signals the tokenized real-world asset platform's intent to engage more directly with regulators as scrutiny of on-chain financial products intensifies across major jurisdictions. Curley's cross-sector background — spanning federal financial regulators and a leading crypto exchange — positions Ondo to navigate the compliance and policy frameworks that increasingly govern institutional participation in tokenized securities.",
-    "date": "2025-09-10",
-    "source_url": "https://ondo.finance/blog/ondo-finance-appoints-peter-curley-former-sec-treasury-and-coinbase-policy-leader-as-head-of-global-regulatory-affairs",
-    "category": "ecosystem",
-    "source_name": "Ondo — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2025",
-    "id": "3v0s66"
-  },
-  {
-    "institution": "Ondo Finance",
-    "initiative": "Fidelity Unveils Onchain Money Market Fund—Anchored by Ondo Finance",
-    "description": "Fidelity Investments has launched an onchain version of its money market fund, with Ondo Finance serving as a foundational infrastructure partner for the product. The fund brings a traditional registered money market vehicle onto a public blockchain, marking a significant step by one of the world's largest asset managers into tokenized real-world assets. For institutional finance practitioners, the development is notable because it pairs Fidelity's regulated fund wrapper and credit standing with Ondo's onchain distribution and composability layer, potentially enabling the fund to be used as collateral or integrated into DeFi protocols. This signals growing convergence between conventional asset management and tokenized finance infrastructure at institutional scale.",
-    "date": "2025-09-09",
-    "source_url": "https://ondo.finance/blog/fidelity-unveils-onchain-money-market-fund-anchored-by-ondo-finance",
-    "category": "ecosystem",
-    "source_name": "Ondo — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "DeFi"
-    ],
-    "year": "2025",
-    "id": "awl654"
-  },
-  {
-    "institution": "Ondo Finance",
-    "initiative": "Ondo Finance Acquires Strangelove to Accelerate Full-Stack RWA Platform Development",
-    "description": "Ondo Finance has acquired Strangelove, a blockchain infrastructure and tooling firm, to bring core technical capabilities in-house as it builds out an end-to-end platform for tokenized real-world assets. The deal deepens Ondo's vertical integration, adding protocol engineering expertise that the firm intends to deploy across its expanding suite of on-chain financial products, including tokenized Treasuries. For institutional practitioners, the move signals that leading RWA issuers are shifting from assembling third-party infrastructure toward owning the full technology stack — a development with implications for counterparty assessment, custody arrangements, and the competitive landscape of on-chain fixed income distribution.",
-    "date": "2025-07-14",
-    "source_url": "https://ondo.finance/blog/ondo-finance-acquires-strangelove",
-    "category": "ecosystem",
-    "source_name": "Ondo — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Tokenization & Issuance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA",
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2025",
-    "id": "au4ht0"
-  },
-  {
-    "institution": "Ondo Finance",
-    "initiative": "Ondo Finance to Acquire Oasis Pro, an SEC-Registered Broker-Dealer, Alternative Trading System, and Transfer Agent",
-    "description": "Ondo Finance has entered into an agreement to acquire Oasis Pro, a firm holding SEC registrations as a broker-dealer, alternative trading system (ATS), and transfer agent. The deal would give Ondo, a tokenized real-world asset (RWA) issuer, direct access to regulated infrastructure for distributing, trading, and settling digital securities in the United States. For institutional participants, the significance lies in Ondo potentially collapsing multiple compliance-heavy intermediary functions — distribution, secondary-market execution, and ownership recordkeeping — into its own stack.",
-    "date": "2025-07-04",
-    "source_url": "https://ondo.finance/blog/ondo-finance-to-acquire-oasis-pro",
-    "category": "ecosystem",
-    "source_name": "Ondo — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Tokenization & Issuance",
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [
-      "Tokenized Securities / RWA"
-    ],
-    "year": "2025",
-    "id": "n86tnw"
   }
 ]
