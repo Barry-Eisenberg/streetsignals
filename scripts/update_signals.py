@@ -312,6 +312,29 @@ def is_non_english_title(text):
     return len(_NON_LATIN_SCRIPT_RE.findall(text or "")) >= 3
 
 
+def make_stable_id(source_url: str) -> str:
+    """
+    Generate a stable, position-independent signal ID from source_url.
+    Uses the same djb2 algorithm as data.js makeId so IDs are comparable,
+    but seeded purely on the URL so they never change across data pulls.
+    """
+    h = 5381
+    for ch in (source_url or ""):
+        h = ((h << 5) + h) ^ ord(ch)
+        h &= 0xFFFFFFFF
+        if h >= 0x80000000:
+            h -= 0x100000000
+    val = abs(h)
+    if val == 0:
+        return "0"
+    chars = "0123456789abcdefghijklmnopqrstuvwxyz"
+    digits = []
+    while val:
+        digits.append(chars[val % 36])
+        val //= 36
+    return "".join(reversed(digits))
+
+
 LOW_SIGNAL_MARKET_PATTERNS = [
     re.compile(r"\bbitcoin\b.*\b(above|below|edges|ticks|surges|falls|drops|rises)\b", re.IGNORECASE),
     re.compile(r"\bethereum\b.*\b(finalizes|sale of|price|rises|drops|gains)\b", re.IGNORECASE),
@@ -1484,6 +1507,7 @@ def fetch_auto_signals(config, manual_data, existing_auto):
                 continue
 
             signal = {
+                "id": make_stable_id(url),
                 "institution": source.get("institution", name),
                 "initiative": item["title"],
                 "description": summarize_with_nextfi_content_builder(

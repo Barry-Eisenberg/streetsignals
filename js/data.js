@@ -344,8 +344,10 @@ function whyThisMatters(signal, persona) {
 
 // =====================================================================
 // STABLE ID — every signal needs a slug for routing
+// Prefer signal.id (stored in JSON at ingest time) over positional hash.
 // =====================================================================
 function makeId(signal, idx) {
+  if (signal.id) return signal.id;
   const seed = (signal.institution || '') + '-' + (signal.initiative || '') + '-' + (signal.date || '') + '-' + idx;
   // simple non-crypto hash → base36
   let h = 5381;

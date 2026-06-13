@@ -16,7 +16,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "f6um2"
   },
   {
     "institution": "JPMorgan Chase",
@@ -47,7 +48,8 @@
       "asset_managers": "A live multi-institution deposit-token network changes what execution and collateral counterparties will expect from you — not just what you can expect from them — over the next 12-24 months.",
       "fintech": "Canton expanding to the world's largest institutional payment bank creates a connectivity layer that infrastructure providers can build on and a routing dependency others will need to navigate.",
       "policy_risk": "A bank-issued deposit token migrating to a shared institutional ledger raises settlement finality, concentration risk, and interoperability governance questions that supervisors have not yet fully framed."
-    }
+    },
+    "id": "j3bcl6"
   },
   {
     "institution": "JPMorgan Chase",
@@ -67,7 +69,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "5uhfyf"
   },
   {
     "institution": "JPMorgan Chase",
@@ -96,7 +99,8 @@
       "default": "Kinexys crossing $3 trillion in total volume with 10x payment growth removes the \"just a pilot\" objection — institutional tokenized deposit rails are now a proven commercial alternative to correspondent banking, shifting the question for every peer from evaluation to replication.",
       "banks_fmis": "A peer bank's tokenized payment infrastructure at $7B+ daily volume and 400+ institutional participants sets a scale benchmark that directly pressures your correspondent banking and tokenized deposit roadmap.",
       "asset_managers": "Proven scale on tokenized deposit rails changes what you can expect from treasury and collateral counterparties — and what they will start expecting from you."
-    }
+    },
+    "id": "qg9owl"
   },
   {
     "institution": "Goldman Sachs",
@@ -116,7 +120,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "689ye6"
   },
   {
     "institution": "Goldman Sachs",
@@ -134,7 +139,8 @@
     "initiative_types": [
       "Tokenized Securities / RWA"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "kbyt1f"
   },
   {
     "institution": "Goldman Sachs",
@@ -154,7 +160,8 @@
       "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "t69tg9"
   },
   {
     "institution": "Citigroup",
@@ -182,7 +189,8 @@
       "banks_fmis": "Multi-currency 24/7 tokenized deposits in USD and EUR are now a live competitive offer from a tier-1 transaction bank — the window for a \"wait and see\" posture in your treasury and custody product stack is closing.",
       "asset_managers": "Cross-currency tokenized settlement infrastructure at institutional scale changes what you can demand from your banking counterparties — and what clients will expect you to support.",
       "fintech": "Citi's live EUR integration creates a multi-currency tokenized settlement reference architecture that fintech infrastructure providers can connect to or be displaced by."
-    }
+    },
+    "id": "80l6w3"
   },
   {
     "institution": "Citigroup",
@@ -203,7 +211,8 @@
       "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "3nx8hv"
   },
   {
     "institution": "Citigroup",
@@ -230,7 +239,8 @@
       "banks_fmis": "Citi building an enterprise bridge between traditional and blockchain infrastructure sets a capability bar your clients will increasingly reference when selecting custody and settlement counterparties.",
       "asset_managers": "A tier-1 bank offering crypto custody changes what \"adequate\" looks like in your digital asset operations and counterparty due diligence reviews over the next 12-24 months.",
       "fintech": "Bank-grade crypto custody entering the mainstream compresses margins for specialist custodians and raises the infrastructure bar for any platform competing in digital asset custody and prime services."
-    }
+    },
+    "id": "bjsz9u"
   },
   {
     "institution": "HSBC",
@@ -248,7 +258,8 @@
       "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "8g1jyh"
   },
   {
     "institution": "HSBC",
@@ -265,7 +276,8 @@
     "initiative_types": [
       "Tokenized Securities / RWA"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "51bt4g"
   },
   {
     "institution": "HSBC",
@@ -284,7 +296,8 @@
       "Tokenized Securities / RWA",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "j0fxno"
   },
   {
     "institution": "HSBC",
@@ -302,7 +315,8 @@
       "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "9hh297"
   },
   {
     "institution": "BNY Mellon",
@@ -333,7 +347,8 @@
       "default": "The world's largest custodian bringing tokenized deposits into production for collateral and margin workflows signals that on-chain deposit representations are graduating from innovation to core infrastructure — institutions without a compatible tokenized money approach face growing operational friction.",
       "banks_fmis": "BNY's tokenized deposit infrastructure for collateral and margin sets a new connectivity baseline for post-trade workflows — your settlement, collateral, and custody processes need a response before network effects lock the standard in.",
       "asset_managers": "Collateral and margin workflows moving to tokenized deposit rails at the world's largest custodian creates a near-term integration requirement for any asset manager active in those markets."
-    }
+    },
+    "id": "9tizz7"
   },
   {
     "institution": "BNY Mellon",
@@ -352,7 +367,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "rf3bgr"
   },
   {
     "institution": "BNY Mellon",
@@ -370,7 +386,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "hlh0zr"
   },
   {
     "institution": "Deutsche Bank",
@@ -388,7 +405,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "w05pc8"
   },
   {
     "institution": "Deutsche Bank",
@@ -407,7 +425,8 @@
       "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "dqqj5h"
   },
   {
     "institution": "Deutsche Bank",
@@ -430,7 +449,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "3v5udf"
   },
   {
     "institution": "UBS",
@@ -456,7 +476,8 @@
       "default": "UBS combining origination, distribution, and custody of tokenized bonds, funds, and structured products into one platform converts what peers have built as internal R&D into a production infrastructure offer — compressing the time-to-product for institutions waiting for the full stack to converge.",
       "banks_fmis": "A tier-1 bank offering end-to-end tokenization as a service establishes the distribution and custody standard your clients will compare against — and accelerates the infrastructure decision your platform team needs to make.",
       "asset_managers": "A live full-stack tokenization platform from a major bank shifts the question on your own product roadmap from \"can we build this?\" to \"should we use or compete with this?\" over the next 12-24 months."
-    }
+    },
+    "id": "qhiu7z"
   },
   {
     "institution": "UBS",
@@ -483,7 +504,8 @@
       "default": "The first in-production end-to-end tokenized fund subscription and redemption using Chainlink's Digital Transfer Agent standard converts a workflow others have prototyped into a repeatable template — DTA becoming the reference architecture compresses implementation choices for every peer firm.",
       "banks_fmis": "A live standard for tokenized fund transfers across blockchain networks removes the final \"no interoperability standard\" objection — your custody and fund administration roadmap now has a concrete integration target.",
       "fintech": "Chainlink DTA establishing the in-production transfer standard for tokenized funds creates a connectivity layer that infrastructure providers can implement against — or be excluded from."
-    }
+    },
+    "id": "6t9fbs"
   },
   {
     "institution": "UBS",
@@ -505,7 +527,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "nkv9x0"
   },
   {
     "institution": "Standard Chartered",
@@ -534,7 +557,8 @@
       "default": "A tier-1 global bank delivering live 24/7 tokenized deposits in HKD, CNH, and USD for institutional treasury under HKMA supervision locks in the APAC multi-currency tokenized deposit template — raising the baseline for cross-border settlement that banks in the region are expected to match.",
       "banks_fmis": "Multi-currency tokenized deposits going live under HKMA's Project Ensemble creates the regulatory and technical reference for APAC on-chain money — banks in the region need a position on this model, not a watch brief.",
       "policy_risk": "A live multi-currency tokenized deposit facility under HKMA's Project Ensemble sets the supervisory reference standard for on-chain money in APAC — other jurisdictions will benchmark against this when designing their own frameworks."
-    }
+    },
+    "id": "uow6n3"
   },
   {
     "institution": "Standard Chartered",
@@ -555,7 +579,8 @@
       "Stablecoins & Deposit Tokens",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "cakeu7"
   },
   {
     "institution": "Standard Chartered",
@@ -575,7 +600,8 @@
       "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "6creaj"
   },
   {
     "institution": "Standard Chartered",
@@ -596,7 +622,8 @@
       "Tokenized Securities / RWA",
       "Stablecoins & Deposit Tokens"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "rjjyas"
   },
   {
     "institution": "Societe Generale",
@@ -616,7 +643,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "x7rfks"
   },
   {
     "institution": "Societe Generale",
@@ -636,7 +664,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "9ue54m"
   },
   {
     "institution": "Societe Generale",
@@ -656,7 +685,8 @@
       "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
     ],
-    "year": "2023"
+    "year": "2023",
+    "id": "q6g5ac"
   },
   {
     "institution": "BNP Paribas",
@@ -677,7 +707,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "ekitdy"
   },
   {
     "institution": "BNP Paribas",
@@ -697,7 +728,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "e0h41d"
   },
   {
     "institution": "BNP Paribas",
@@ -725,7 +757,8 @@
       "default": "BNP Paribas opening its DLT bond tokenization platform to external issuers and investors converts three years of internal R&D into a market infrastructure play — resetting distribution and settlement expectations for European fixed income over the next 12-24 months.",
       "banks_fmis": "A major European bank offering tokenized bond issuance to external counterparties establishes the distribution and settlement standard your fixed income desk will be measured against.",
       "asset_managers": "An institutional-grade tokenized bond platform open to external investors changes the execution and collateral options available for your fixed income allocations over the next 12-24 months."
-    }
+    },
+    "id": "t2xlzc"
   },
   {
     "institution": "Barclays",
@@ -751,7 +784,8 @@
       "default": "A major UK clearing bank backing infrastructure to unify stablecoin and tokenized deposit redemption signals that fragmented digital money settlement is becoming a commercial problem — and that the clearing layer for institutional stablecoins is being built by the banks, not the fintechs.",
       "banks_fmis": "Barclays anchoring stablecoin clearing through Ubyx positions it as the settlement intermediary for regulated digital money — a role that will determine who controls the operational interface between banks and stablecoin ecosystems.",
       "fintech": "Ubyx's many-to-many clearing model attracting major bank backing raises the institutional connectivity bar for stablecoin rails — infrastructure that doesn't clear through a bank-connected network faces growing counterparty friction."
-    }
+    },
+    "id": "4el8mr"
   },
   {
     "institution": "Barclays",
@@ -773,7 +807,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "yi53pu"
   },
   {
     "institution": "Morgan Stanley",
@@ -792,7 +827,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "1ol886"
   },
   {
     "institution": "Morgan Stanley",
@@ -810,7 +846,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "cvk8b"
   },
   {
     "institution": "Morgan Stanley",
@@ -833,7 +870,8 @@
       "DeFi",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "de1ewe"
   },
   {
     "institution": "BlackRock",
@@ -858,7 +896,8 @@
       "default": "BUIDL reaching institutional scale on public blockchain with a SEC-registered structure converts the tokenized fund concept from experimental to benchmark — setting the standard against which every subsequent tokenized money market product will be evaluated and every institutional allocation decision justified.",
       "asset_managers": "BUIDL at scale gives every peer firm a fully evidenced precedent for a tokenized fund roadmap — the \"we're watching\" window has closed; the question is now sequencing your own launch.",
       "banks_fmis": "BlackRock's tokenized fund at production scale creates a distribution and custody reference architecture that custodians and FMIs must connect to or risk being bypassed."
-    }
+    },
+    "id": "hgk2u7"
   },
   {
     "institution": "BlackRock",
@@ -877,7 +916,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "n3emjh"
   },
   {
     "institution": "BlackRock",
@@ -895,7 +935,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "3y21w7"
   },
   {
     "institution": "BlackRock",
@@ -922,7 +963,8 @@
       "default": "BlackRock's CEO framing tokenization as \"the next generation of financial markets\" — not a product category — resets the credibility cost of institutional non-participation: firms without a public tokenization strategy now face a board-level legitimacy question, not just a product gap.",
       "asset_managers": "The world's largest asset manager anchoring its thematic outlook on tokenization removes the cover for peer firms still deferring a public position — clients and boards will now ask directly.",
       "policy_risk": "BlackRock framing tokenization as foundational market structure signals that the institutional capital formation case is closed — regulatory frameworks that haven't calibrated for tokenized asset scale are behind the curve."
-    }
+    },
+    "id": "58awl2"
   },
   {
     "institution": "Franklin Templeton",
@@ -948,7 +990,8 @@
       "default": "FOBXX establishing that a US-registered mutual fund can use a public blockchain as its system of record — with SEC acceptance and five years of operational track record — converts regulatory uncertainty into a solved problem: the compliance path exists, and peer firms without a tokenized fund strategy are behind a verified benchmark.",
       "asset_managers": "A US-registered tokenized money market fund with five years of live operation removes the \"regulatory uncertainty\" objection from your tokenized fund roadmap — the question is now execution sequencing, not permission.",
       "policy_risk": "FOBXX's operational track record under SEC oversight provides the clearest US evidentiary basis for tokenized mutual fund regulation — regulators designing frameworks elsewhere have a fully audited reference case."
-    }
+    },
+    "id": "7dfhdw"
   },
   {
     "institution": "Franklin Templeton",
@@ -968,7 +1011,8 @@
       "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "uk8ifs"
   },
   {
     "institution": "Franklin Templeton",
@@ -995,7 +1039,8 @@
       "default": "Franklin Templeton's fully tokenized UCITS in Luxembourg provides the European regulatory template for on-chain fund structures — removing the ambiguity that has stalled peer institutions and accelerating the timeline for any asset manager with a European distribution base.",
       "asset_managers": "A live UCITS tokenized fund under Luxembourg regulation removes the European compliance ambiguity that has stalled peer roadmaps — the framework exists, and first-movers are already operating inside it.",
       "policy_risk": "A live UCITS tokenized fund in Luxembourg establishes the regulatory reference architecture for European digital fund structures — national competent authorities will benchmark peer applications against this precedent."
-    }
+    },
+    "id": "555tj0"
   },
   {
     "institution": "Fidelity",
@@ -1015,7 +1060,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "qn4a81"
   },
   {
     "institution": "Fidelity",
@@ -1035,7 +1081,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "4t6y74"
   },
   {
     "institution": "WisdomTree",
@@ -1059,7 +1106,8 @@
       "Stablecoins & Deposit Tokens",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "dfbppx"
   },
   {
     "institution": "WisdomTree",
@@ -1083,7 +1131,8 @@
       "DLT / Blockchain Infrastructure",
       "DeFi"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "nwkuzg"
   },
   {
     "institution": "WisdomTree",
@@ -1106,7 +1155,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "3od5n2"
   },
   {
     "institution": "WisdomTree",
@@ -1124,7 +1174,8 @@
     "initiative_types": [
       "Tokenized Securities / RWA"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "1nq8zm"
   },
   {
     "institution": "Hamilton Lane",
@@ -1143,7 +1194,8 @@
       "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "5rwyx4"
   },
   {
     "institution": "Hamilton Lane",
@@ -1163,7 +1215,8 @@
       "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "wq50rg"
   },
   {
     "institution": "Hamilton Lane",
@@ -1180,7 +1233,8 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "6q63uw"
   },
   {
     "institution": "Hamilton Lane",
@@ -1197,7 +1251,8 @@
     "initiative_types": [
       "Tokenized Securities / RWA"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "je4tio"
   },
   {
     "institution": "KKR",
@@ -1216,7 +1271,8 @@
       "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2022"
+    "year": "2022",
+    "id": "vd9kp4"
   },
   {
     "institution": "Apollo",
@@ -1236,7 +1292,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "wnzhe1"
   },
   {
     "institution": "Apollo",
@@ -1257,7 +1314,8 @@
       "Stablecoins & Deposit Tokens",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "roev2t"
   },
   {
     "institution": "State Street",
@@ -1280,7 +1338,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "bxu32q"
   },
   {
     "institution": "State Street",
@@ -1303,7 +1362,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "tgxrd7"
   },
   {
     "institution": "State Street",
@@ -1321,7 +1381,8 @@
       "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "qqw5l4"
   },
   {
     "institution": "Abrdn",
@@ -1342,7 +1403,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "mgdavj"
   },
   {
     "institution": "Abrdn",
@@ -1365,7 +1427,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "exl75o"
   },
   {
     "institution": "Abrdn",
@@ -1387,7 +1450,8 @@
       "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "ot7jab"
   },
   {
     "institution": "T. Rowe Price",
@@ -1404,7 +1468,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "gt5dd"
   },
   {
     "institution": "T. Rowe Price",
@@ -1421,7 +1486,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "lgtygs"
   },
   {
     "institution": "Invesco",
@@ -1444,7 +1510,8 @@
       "Stablecoins & Deposit Tokens",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "rm5qki"
   },
   {
     "institution": "Invesco",
@@ -1464,7 +1531,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "5dvmdj"
   },
   {
     "institution": "Visa",
@@ -1485,7 +1553,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "za25q0"
   },
   {
     "institution": "Visa",
@@ -1506,7 +1575,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "82w0lx"
   },
   {
     "institution": "Visa",
@@ -1529,7 +1599,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "1nk0l6"
   },
   {
     "institution": "Visa",
@@ -1548,7 +1619,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "ptqlmi"
   },
   {
     "institution": "Mastercard",
@@ -1574,7 +1646,8 @@
       "DeFi",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "33amao"
   },
   {
     "institution": "Mastercard",
@@ -1595,7 +1668,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "23fy67"
   },
   {
     "institution": "Mastercard",
@@ -1617,7 +1691,8 @@
       "DeFi",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "wbqbmh"
   },
   {
     "institution": "Mastercard",
@@ -1638,7 +1713,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "5ckdjo"
   },
   {
     "institution": "PayPal",
@@ -1656,7 +1732,8 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "xpchu5"
   },
   {
     "institution": "PayPal",
@@ -1676,7 +1753,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "ydm6zm"
   },
   {
     "institution": "PayPal",
@@ -1698,7 +1776,8 @@
       "Stablecoins & Deposit Tokens",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "95xshp"
   },
   {
     "institution": "Stripe",
@@ -1720,7 +1799,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "i1kb1u"
   },
   {
     "institution": "Stripe",
@@ -1741,7 +1821,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "pnemih"
   },
   {
     "institution": "Stripe",
@@ -1763,7 +1844,8 @@
       "Stablecoins & Deposit Tokens",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "efcp57"
   },
   {
     "institution": "Block / Square",
@@ -1781,7 +1863,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "asvtn"
   },
   {
     "institution": "Ripple",
@@ -1806,7 +1889,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "mua06h"
   },
   {
     "institution": "Ripple",
@@ -1827,7 +1911,8 @@
       "Stablecoins & Deposit Tokens",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "roirm7"
   },
   {
     "institution": "Circle",
@@ -1848,7 +1933,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "92fips"
   },
   {
     "institution": "Circle",
@@ -1869,7 +1955,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "ajj6h8"
   },
   {
     "institution": "Tether",
@@ -1891,7 +1978,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "qio399"
   },
   {
     "institution": "Swift",
@@ -1915,7 +2003,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "uzbog3"
   },
   {
     "institution": "Swift",
@@ -1941,7 +2030,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "ulf5b"
   },
   {
     "institution": "The Clearing House",
@@ -1960,7 +2050,8 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "z4gbhe"
   },
   {
     "institution": "The Clearing House / Early Warning Services (Zelle)",
@@ -1981,7 +2072,8 @@
       "Stablecoins & Deposit Tokens",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "ff5kt9"
   },
   {
     "institution": "Federal Reserve / FedNow",
@@ -1998,7 +2090,8 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "k50tpp"
   },
   {
     "institution": "JPMorgan (Kinexys)",
@@ -2023,7 +2116,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "cct680"
   },
   {
     "institution": "SoFi Bank",
@@ -2045,7 +2139,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "cc9q17"
   },
   {
     "institution": "Mastercard / Ondo Finance",
@@ -2066,7 +2161,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "dhusj5"
   },
   {
     "institution": "Ripple",
@@ -2087,7 +2183,8 @@
       "Stablecoins & Deposit Tokens",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "b0sqgh"
   },
   {
     "institution": "JPMorgan",
@@ -2105,7 +2202,8 @@
       "Stablecoins & Deposit Tokens",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "iumt6u"
   },
   {
     "institution": "NYSE / Intercontinental Exchange (ICE)",
@@ -2131,7 +2229,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "dvksir"
   },
   {
     "institution": "Nasdaq",
@@ -2150,7 +2249,8 @@
     "initiative_types": [
       "Tokenized Securities / RWA"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "ilrl2c"
   },
   {
     "institution": "Nasdaq",
@@ -2170,7 +2270,8 @@
       "DLT / Blockchain Infrastructure",
       "DeFi"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "ovblti"
   },
   {
     "institution": "Nasdaq",
@@ -2192,7 +2293,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "l1umoj"
   },
   {
     "institution": "CME Group",
@@ -2214,7 +2316,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "sfy1jb"
   },
   {
     "institution": "CME Group",
@@ -2233,7 +2336,8 @@
       "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "xejkry"
   },
   {
     "institution": "Cboe Global Markets",
@@ -2255,7 +2359,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "bdkvjo"
   },
   {
     "institution": "Cboe Global Markets",
@@ -2276,7 +2381,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "wywitl"
   },
   {
     "institution": "London Stock Exchange Group (LSEG)",
@@ -2297,7 +2403,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "ub79se"
   },
   {
     "institution": "London Stock Exchange Group (LSEG)",
@@ -2320,7 +2427,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "ytklm2"
   },
   {
     "institution": "Deutsche Börse Group / Clearstream",
@@ -2340,7 +2448,8 @@
       "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "yp983r"
   },
   {
     "institution": "Deutsche Börse Group / Clearstream",
@@ -2359,7 +2468,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "2obnat"
   },
   {
     "institution": "Deutsche Börse Group",
@@ -2381,7 +2491,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "93rr3u"
   },
   {
     "institution": "Hong Kong Exchanges and Clearing (HKEX)",
@@ -2401,7 +2512,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2023"
+    "year": "2023",
+    "id": "qchuks"
   },
   {
     "institution": "Hong Kong Exchanges and Clearing (HKEX)",
@@ -2420,7 +2532,8 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "o8a0pz"
   },
   {
     "institution": "Singapore Exchange (SGX)",
@@ -2438,7 +2551,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "6g4z8m"
   },
   {
     "institution": "Monetary Authority of Singapore (MAS) / SGX ecosystem",
@@ -2459,7 +2573,8 @@
       "Tokenized Securities / RWA",
       "CBDC"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "ajyxm1"
   },
   {
     "institution": "Monetary Authority of Singapore (MAS) / SGX ecosystem",
@@ -2483,7 +2598,8 @@
       "DeFi",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "x53iq"
   },
   {
     "institution": "SIX Group / SIX Digital Exchange (SDX)",
@@ -2507,7 +2623,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "hrbv1a"
   },
   {
     "institution": "SIX Group",
@@ -2525,7 +2642,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "lf2zxn"
   },
   {
     "institution": "SIX Group",
@@ -2546,7 +2664,8 @@
       "Tokenized Securities / RWA",
       "Payment Infrastructure"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "f0ho1h"
   },
   {
     "institution": "Australian Securities Exchange (ASX)",
@@ -2565,7 +2684,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "3zeybt"
   },
   {
     "institution": "DTCC (Depository Trust & Clearing Corporation)",
@@ -2585,7 +2705,8 @@
       "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "4nqnqt"
   },
   {
     "institution": "DTCC (Depository Trust & Clearing Corporation)",
@@ -2606,7 +2727,8 @@
       "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "7w5nr7"
   },
   {
     "institution": "DTCC (Depository Trust & Clearing Corporation)",
@@ -2628,7 +2750,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "a1it75"
   },
   {
     "institution": "DTCC (Depository Trust & Clearing Corporation)",
@@ -2648,7 +2771,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2022"
+    "year": "2022",
+    "id": "klhs66"
   },
   {
     "institution": "DTCC (Depository Trust & Clearing Corporation)",
@@ -2669,7 +2793,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2020"
+    "year": "2020",
+    "id": "jxyqn0"
   },
   {
     "institution": "DTCC, Euroclear, and Clearstream (Joint)",
@@ -2688,7 +2813,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "ln0nrl"
   },
   {
     "institution": "Euroclear",
@@ -2708,7 +2834,8 @@
       "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "p0i1a0"
   },
   {
     "institution": "Euroclear and Clearstream (Joint)",
@@ -2726,7 +2853,8 @@
       "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "tom6xe"
   },
   {
     "institution": "SWIFT",
@@ -2747,7 +2875,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "hpfkzs"
   },
   {
     "institution": "SWIFT",
@@ -2773,7 +2902,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "t4blnn"
   },
   {
     "institution": "SWIFT",
@@ -2797,7 +2927,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "cv1q2w"
   },
   {
     "institution": "OCC (Office of the Comptroller of the Currency)",
@@ -2819,7 +2950,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "e8a3nz"
   },
   {
     "institution": "OCC (Office of the Comptroller of the Currency)",
@@ -2843,7 +2975,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "l8v23w"
   },
   {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
@@ -2864,7 +2997,8 @@
       "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "519kkf"
   },
   {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
@@ -2886,7 +3020,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "3ktram"
   },
   {
     "institution": "SEC (U.S. Securities and Exchange Commission)",
@@ -2904,7 +3039,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "n51uss"
   },
   {
     "institution": "CFTC (Commodity Futures Trading Commission)",
@@ -2929,7 +3065,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "vbgsfn"
   },
   {
     "institution": "CFTC (Commodity Futures Trading Commission)",
@@ -2948,7 +3085,8 @@
       "DeFi",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "7ewmll"
   },
   {
     "institution": "OCC (Office of the Comptroller of the Currency)",
@@ -2966,7 +3104,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "hdt7d2"
   },
   {
     "institution": "OCC (Office of the Comptroller of the Currency)",
@@ -2993,7 +3132,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "l0i55"
   },
   {
     "institution": "Federal Reserve (Board of Governors)",
@@ -3013,7 +3153,8 @@
       "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "qdbqad"
   },
   {
     "institution": "FDIC (Federal Deposit Insurance Corporation)",
@@ -3036,7 +3177,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "gbwnew"
   },
   {
     "institution": "FDIC (Federal Deposit Insurance Corporation)",
@@ -3056,7 +3198,8 @@
       "Stablecoins & Deposit Tokens",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "ib1f9l"
   },
   {
     "institution": "FinCEN (Financial Crimes Enforcement Network)",
@@ -3078,7 +3221,8 @@
       "Stablecoins & Deposit Tokens",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "l91jdk"
   },
   {
     "institution": "U.S. Treasury Department",
@@ -3099,7 +3243,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "7gnrnt"
   },
   {
     "institution": "U.S. Treasury Department",
@@ -3116,7 +3261,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "l37i5s"
   },
   {
     "institution": "U.S. Congress / Treasury (GENIUS Act)",
@@ -3138,7 +3284,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "qvkolv"
   },
   {
     "institution": "European Commission / EU",
@@ -3159,7 +3306,8 @@
       "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "x5glfr"
   },
   {
     "institution": "ESMA (European Securities and Markets Authority)",
@@ -3180,7 +3328,8 @@
       "DeFi",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "z3v7z4"
   },
   {
     "institution": "EBA (European Banking Authority)",
@@ -3202,7 +3351,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "6rc0pi"
   },
   {
     "institution": "ECB (European Central Bank)",
@@ -3220,7 +3370,8 @@
     "initiative_types": [
       "CBDC"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "htbdo"
   },
   {
     "institution": "ECB (European Central Bank)",
@@ -3240,7 +3391,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "eo3jtl"
   },
   {
     "institution": "FCA (Financial Conduct Authority, UK)",
@@ -3260,7 +3412,8 @@
       "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "jh3eap"
   },
   {
     "institution": "FCA (Financial Conduct Authority, UK)",
@@ -3279,7 +3432,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "59qb4p"
   },
   {
     "institution": "Bank of England",
@@ -3302,7 +3456,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "d32j80"
   },
   {
     "institution": "MAS (Monetary Authority of Singapore)",
@@ -3322,7 +3477,8 @@
       "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "148nmh"
   },
   {
     "institution": "MAS (Monetary Authority of Singapore)",
@@ -3345,7 +3501,8 @@
       "Tokenized Securities / RWA",
       "CBDC"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "ptscp1"
   },
   {
     "institution": "HKMA (Hong Kong Monetary Authority)",
@@ -3364,7 +3521,8 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "pf8gnj"
   },
   {
     "institution": "HKMA (Hong Kong Monetary Authority)",
@@ -3387,7 +3545,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "jpdbcp"
   },
   {
     "institution": "SFC (Securities and Futures Commission, Hong Kong)",
@@ -3411,7 +3570,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "1ykmvv"
   },
   {
     "institution": "SFC (Securities and Futures Commission, Hong Kong)",
@@ -3432,7 +3592,8 @@
     "initiative_types": [
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "kes0u6"
   },
   {
     "institution": "JFSA (Japan Financial Services Agency)",
@@ -3453,7 +3614,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "v1vy23"
   },
   {
     "institution": "JFSA (Japan Financial Services Agency)",
@@ -3473,7 +3635,8 @@
       "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "laasi8"
   },
   {
     "institution": "SEBI (Securities and Exchange Board of India)",
@@ -3494,7 +3657,8 @@
       "CBDC",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "l240zq"
   },
   {
     "institution": "BIS (Bank for International Settlements)",
@@ -3521,7 +3685,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "7ga7fh"
   },
   {
     "institution": "IOSCO (International Organization of Securities Commissions)",
@@ -3543,7 +3708,8 @@
       "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "ntg2an"
   },
   {
     "institution": "IOSCO (International Organization of Securities Commissions)",
@@ -3562,7 +3728,8 @@
       "DeFi",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "74zyr5"
   },
   {
     "institution": "FSB (Financial Stability Board)",
@@ -3584,7 +3751,8 @@
       "Stablecoins & Deposit Tokens",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "tuimrw"
   },
   {
     "institution": "FINMA (Swiss Financial Market Supervisory Authority)",
@@ -3604,7 +3772,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "hnrhu7"
   },
   {
     "institution": "Swiss Federal Council / FINMA",
@@ -3629,7 +3798,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "89tyiw"
   },
   {
     "institution": "Dubai VARA (Virtual Assets Regulatory Authority)",
@@ -3645,7 +3815,8 @@
       "Regulation & Compliance"
     ],
     "initiative_types": [],
-    "year": "2025"
+    "year": "2025",
+    "id": "qposhr"
   },
   {
     "institution": "Dubai VARA (Virtual Assets Regulatory Authority) / UAE Federal",
@@ -3665,7 +3836,8 @@
       "DeFi",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "72pijw"
   },
   {
     "institution": "BNY Mellon",
@@ -3689,7 +3861,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "ns4e4c"
   },
   {
     "institution": "BNY Mellon",
@@ -3708,7 +3881,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "3p75oz"
   },
   {
     "institution": "State Street",
@@ -3729,7 +3903,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "6d38d5"
   },
   {
     "institution": "Northern Trust Asset Management",
@@ -3749,7 +3924,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "limvk9"
   },
   {
     "institution": "Fireblocks",
@@ -3770,7 +3946,8 @@
       "Stablecoins & Deposit Tokens",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "5asvvg"
   },
   {
     "institution": "Fireblocks",
@@ -3787,7 +3964,8 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "zgkwui"
   },
   {
     "institution": "Anchorage Digital",
@@ -3808,7 +3986,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "18z2zm"
   },
   {
     "institution": "Anchorage Digital",
@@ -3826,7 +4005,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "409qzf"
   },
   {
     "institution": "Anchorage Digital",
@@ -3848,7 +4028,8 @@
       "Stablecoins & Deposit Tokens",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "n9bt8h"
   },
   {
     "institution": "BitGo",
@@ -3865,7 +4046,8 @@
     "initiative_types": [
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "8fig8h"
   },
   {
     "institution": "BitGo",
@@ -3885,7 +4067,8 @@
     "initiative_types": [
       "Stablecoins & Deposit Tokens"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "jyrtfr"
   },
   {
     "institution": "Copper",
@@ -3905,7 +4088,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "9uf9y"
   },
   {
     "institution": "Komainu",
@@ -3927,7 +4111,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "k3r3kd"
   },
   {
     "institution": "R3 (Corda)",
@@ -3946,7 +4131,8 @@
       "DLT / Blockchain Infrastructure",
       "DeFi"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "e2y1u5"
   },
   {
     "institution": "R3 (Corda)",
@@ -3964,7 +4150,8 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "ldttus"
   },
   {
     "institution": "Digital Asset Holdings",
@@ -3984,7 +4171,8 @@
       "Tokenized Securities / RWA",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "omc9o0"
   },
   {
     "institution": "Digital Asset Holdings",
@@ -4004,7 +4192,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "xhxyxp"
   },
   {
     "institution": "Securitize",
@@ -4022,7 +4211,8 @@
       "Tokenized Securities / RWA",
       "DeFi"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "errz7e"
   },
   {
     "institution": "Polymath",
@@ -4042,7 +4232,8 @@
       "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "tn22ea"
   },
   {
     "institution": "Chainlink",
@@ -4065,7 +4256,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "uvpdw8"
   },
   {
     "institution": "Chainlink",
@@ -4085,7 +4277,8 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "rzzigp"
   },
   {
     "institution": "Ownera",
@@ -4106,7 +4299,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "g4gfl5"
   },
   {
     "institution": "Linux Foundation / LF Decentralized Trust",
@@ -4124,7 +4318,8 @@
     "initiative_types": [
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "b2brdj"
   },
   {
     "institution": "Broadridge Financial Solutions",
@@ -4146,7 +4341,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "b5ika5"
   },
   {
     "institution": "IBM",
@@ -4165,7 +4361,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "didv62"
   },
   {
     "institution": "FIS",
@@ -4187,7 +4384,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "yq7v4m"
   },
   {
     "institution": "Google Cloud",
@@ -4210,7 +4408,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "z9r6lv"
   },
   {
     "institution": "Project Guardian (MAS)",
@@ -4236,7 +4435,8 @@
       "Crypto / Digital Assets",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "zg0wqo"
   },
   {
     "institution": "Project Guardian (MAS)",
@@ -4259,7 +4459,8 @@
       "Tokenized Securities / RWA",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "ebtvcx"
   },
   {
     "institution": "Project Agora (BIS)",
@@ -4282,7 +4483,8 @@
       "CBDC",
       "Payment Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "perxue"
   },
   {
     "institution": "Regulated Liability Network (RLN)",
@@ -4303,7 +4505,8 @@
       "DeFi",
       "Payment Infrastructure"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "g08awn"
   },
   {
     "institution": "Fnality",
@@ -4325,7 +4528,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "oevubu"
   },
   {
     "institution": "Fnality",
@@ -4347,7 +4551,8 @@
       "DeFi",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "dxyk74"
   },
   {
     "institution": "Canton Network",
@@ -4368,7 +4573,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "o8ftvh"
   },
   {
     "institution": "HQLAx",
@@ -4388,7 +4594,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "nluf65"
   },
   {
     "institution": "HQLAx",
@@ -4407,7 +4614,8 @@
       "DLT / Blockchain Infrastructure",
       "Payment Infrastructure"
     ],
-    "year": "2024"
+    "year": "2024",
+    "id": "tzk1p5"
   },
   {
     "institution": "Consensys",
@@ -4427,7 +4635,8 @@
       "DLT / Blockchain Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2025"
+    "year": "2025",
+    "id": "pph22d"
   },
   {
     "institution": "Moody's Ratings",
@@ -4446,7 +4655,8 @@
       "Regulatory / Compliance",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "7oebx7"
   },
   {
     "institution": "Federal Reserve Bank of Atlanta",
@@ -4467,7 +4677,8 @@
       "CBDC",
       "Regulatory / Compliance"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "og4ufr"
   },
   {
     "institution": "Superstate (Aurus)",
@@ -4487,7 +4698,8 @@
       "Tokenized Securities / RWA",
       "DLT / Blockchain Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "s9qcct"
   },
   {
     "institution": "BVNK (Alchemy Pay Partnership)",
@@ -4507,7 +4719,8 @@
       "Payment Infrastructure",
       "Tokenized Securities / RWA"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "bjgcqg"
   },
   {
     "institution": "M0 Technologies",
@@ -4528,7 +4741,8 @@
       "Payment Infrastructure",
       "Cross-Border Payments"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "lo64ci"
   },
   {
     "institution": "Nasdaq",
@@ -4548,7 +4762,8 @@
       "Tokenized Securities / RWA",
       "Settlement Infrastructure"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "7qpspu"
   },
   {
     "institution": "Mastercard",
@@ -4568,7 +4783,8 @@
       "Payment Infrastructure",
       "Crypto / Digital Assets"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "jc82ie"
   },
   {
     "institution": "SWIFT",
@@ -4589,6 +4805,7 @@
       "Payment Infrastructure",
       "Interoperability & Standards"
     ],
-    "year": "2026"
+    "year": "2026",
+    "id": "nfrtt1"
   }
 ]
