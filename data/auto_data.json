@@ -1,5 +1,84 @@
 [
   {
+    "id": "w5496d",
+    "institution": "SpaceX",
+    "initiative": "Saylor to Musk: Thanks to you, 25% of 'Mag8' firms now hold bitcoin",
+    "description": "Following SpaceX's Nasdaq debut — described as the largest IPO in history at a $1.75 trillion valuation — Strategy chairman Michael Saylor publicly credited Elon Musk with pushing two of what Saylor terms the \"Mag8\" cohort, his expanded version of the Magnificent Seven that adds SpaceX as an eighth member, into bitcoin treasury holders. SpaceX entered public markets already ranking as the eighth-largest corporate bitcoin holder with approximately 18,712 BTC on its balance sheet, alongside Tesla's 11,509 BTC, while Strategy itself holds 845,256 BTC worth over $54 billion.",
+    "date": "2026-06-13",
+    "source_url": "https://www.coindesk.com/markets/2026/06/13/saylor-to-musk-thanks-to-you-25-of-mag8-firms-now-hold-bitcoin",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "SpaceX's Nasdaq debut — the largest IPO in history at $1.75 trillion — instantly makes it the world's eighth-largest public bitcoin holder, and that arithmetic now places two of the eight most systemically important technology companies in the U.S. equity market in the bitcoin treasury category. This is no longer a fringe treasury strategy: it is becoming a benchmark behavior among the largest balance sheets in the world, which resets the due diligence burden for every institutional investor, board, and fiduciary that has deferred the bitcoin allocation question. The window for treating corporate bitcoin treasury exposure as an edge case — rather than a standard line item in equity analysis and portfolio risk modeling — is closing.",
+      "banks_fmis": "When two Mag8 companies with a combined market capitalization in the multi-trillion dollar range carry bitcoin on their balance sheets, custody, collateral management, and credit exposure frameworks at major banks and clearing institutions can no longer treat digital asset holdings as non-standard. Prime brokerage desks and custodians that have not built operationally durable infrastructure for corporate bitcoin exposure are now behind the curve on a risk category embedded in their largest clients.",
+      "asset_managers": "Index-tracking and large-cap equity mandates now have structural bitcoin exposure through SpaceX and Tesla without any explicit digital asset allocation decision — a compliance and disclosure reality that forces asset managers to quantify and communicate that indirect exposure to clients and regulators. Managers running thematic or concentrated tech strategies face a more immediate question: whether to treat corporate bitcoin treasury holdings as a differentiating factor in security selection and weighting.",
+      "policy_risk": "The normalization of bitcoin treasury holdings across the Mag8 tier creates a policy pressure point — regulators who have deferred clear accounting, disclosure, and prudential guidance on corporate digital asset holdings now face a constituency that includes the most politically and economically visible companies in the U.S. market, making further ambiguity increasingly untenable and accelerating the timeline for formal SEC and FASB framework completion."
+    }
+  },
+  {
+    "id": "xgnxey",
+    "institution": "BlackRock",
+    "initiative": "Spot bitcoin ETFs snap five-day outflow streak with $85.8 million Friday inflow as ether funds keep sliding",
+    "description": "U.S. spot bitcoin ETFs recorded $85.8 million in net inflows on Friday, ending five consecutive sessions of outflows, though the funds still closed the week approximately $315.8 million in the red, per SoSoValue data. BlackRock's IBIT and Fidelity's FBTC accounted for the bulk of Friday's buying at $57.7 million and $18.0 million respectively, with no individual fund posting a net redemption on the day. The one-day reversal follows an accelerating multi-week exodus that pulled roughly $1.7 billion the prior week and $1.4 billion the week before, underscoring that a single positive session has not reversed the broader trend.",
+    "date": "2026-06-13",
+    "source_url": "https://www.theblock.co/post/404682/spot-bitcoin-etfs-snap-five-day-outflow-streak-with-85-8-million-friday-inflow-as-ether-funds-keep-sliding",
+    "category": "asset_management",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Asset & Investment Management",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "A single-day reversal after five consecutive sessions of outflows does not reset the structural pressure on bitcoin ETF positioning — IBIT's net assets now sit $13.4 billion below cumulative inflows, a gap that has nearly quadrupled since May, and ether ETFs have moved from a $223 million surplus to a $2 billion mark-to-market deficit in weeks. What this signals to institutional allocators is not a sentiment inflection but a repricing stress test: the wrapper worked, the liquidity held, and the redemption mechanism functioned under sustained pressure, which is precisely the operational data risk and compliance teams needed before expanding mandates. The divergence between bitcoin and ether flow behavior is now a durable allocation signal, not a transient preference.",
+      "asset_managers": "With bitcoin ETFs approaching $2 trillion in cumulative trading volume and demonstrating orderly redemption mechanics through nearly $4 billion in consecutive weekly outflows, the infrastructure credibility question is effectively closed — what remains open is the mandate question, specifically whether ether's persistent outflow pattern and deepening mark-to-market deficit disqualifies it from multi-asset crypto sleeves or triggers rebalancing protocols that further amplify selling pressure.",
+      "banks_fmis": "Custodians and prime brokers servicing the bitcoin ETF complex now have a live stress-period dataset showing how $727 million in five-session outflows settled operationally — that record becomes a baseline for collateral modeling, credit line calibration, and custody SLA negotiations as institutional clients revisit digital asset exposure limits under current price conditions.",
+      "policy_risk": "Regulators monitoring the spot bitcoin ETF complex will note that the product absorbed multi-week, multi-billion dollar redemption pressure without a structural break, which materially strengthens the industry's argument against additional ETF-specific oversight — but the ether ETF's deteriorating net asset position relative to cumulative inflows will invite scrutiny of whether retail investors in the second-largest digital asset wrapper are adequately informed of mark-to-market risk in a declining price environment."
+    }
+  },
+  {
+    "id": "onva0q",
+    "institution": "Coinbase",
+    "initiative": "Coinbase unveils 24/7 gold and silver futures for U.S. traders",
+    "description": "Coinbase Derivatives Exchange launched regulated gold and silver futures for eligible U.S. traders on June 13, 2026, offering continuous trading across weekends and holidays — a structural departure from traditional commodity market hours. Contracts are sized at one troy ounce of gold and 50 troy ounces of silver, accessible through participating brokers including Interactive Brokers and NinjaTrader. The products sit within Coinbase's broader push to extend its always-on crypto infrastructure into traditional asset classes, following earlier launches of perpetual futures and stock-linked products for non-U.S. users.",
+    "date": "2026-06-13",
+    "source_url": "https://crypto.news/coinbase-unveils-24-7-gold-and-silver-futures-for-u-s-traders/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "Coinbase's launch of 24/7 CFTC-regulated gold and silver futures resets the competitive baseline for commodity market access — not by tokenizing the asset, but by importing crypto's always-on session structure into a regulated derivatives wrapper. This forces traditional commodity venues and FCMs to defend a trading-hours constraint that no longer has a technological justification, only a structural one. The benchmark being set here is infrastructure parity: the question for every incumbent is whether session-limited markets are a feature or a liability when a regulated alternative trades around the clock.",
+      "banks_fmis": "For FCMs, prime brokers, and commodity clearing intermediaries, the arrival of a CFTC-registered venue offering continuous metals futures through retail-accessible brokers like Interactive Brokers and NinjaTrader compresses the captive value of traditional brokerage relationships built around session-managed order flow. Custodians with commodity exposure programs need to assess whether their operational and margining infrastructure can meet a 24/7 settlement cadence or whether that gap becomes a client retention issue.",
+      "asset_managers": "Portfolio managers running tactical commodity overlays — particularly those using metals as geopolitical or inflation hedges — now have a regulated instrument that allows position adjustment during weekend events and off-hours macro releases without waiting for CME Globex windows to reopen. The operational question is whether existing mandates and counterparty agreements accommodate a Coinbase Derivatives Exchange-cleared contract, and how quickly investment policy statements need to be updated to reflect the expanded venue set.",
+      "policy_risk": "This launch is a stress test for the CFTC's product approval framework: a crypto-native exchange has achieved regulatory parity with legacy commodity venues on a flagship asset class, and done so within the existing derivatives rulebook rather than seeking a carve-out. Policymakers watching the CLARITY Act debate should note that Coinbase's 'Everything Exchange' strategy is advancing faster than jurisdictional perimeters are being drawn, making venue-neutral regulatory standards for commodity derivatives an increasingly urgent gap to close."
+    }
+  },
+  {
     "id": "alk6u2",
     "institution": "Ripple",
     "initiative": "Ripple wants AI agents to pay in XRP and RLUSD. The market is still mostly USDC",
@@ -11748,65 +11827,5 @@
     "initiative_types": [],
     "year": "2025",
     "id": "8rmhre"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Basel Committee publishes principles for the sound management of third-party risk",
-    "description": "The Basel Committee on Banking Supervision released a new set of principles on 10 December 2025 governing how banks and their supervisors should manage risks arising from third-party service provider relationships, replacing the previous baseline set by the 2005 Joint Forum paper on outsourcing in financial services. The update reflects the significant growth in banks' operational dependency on external providers driven by the digitalisation of finance, including fintech and cloud-based services that banks had not historically sourced from outside. The principles are designed to establish a common international baseline while preserving enough flexibility to accommodate divergent national regulatory frameworks and rapidly evolving industry practices.",
-    "date": "2025-12-10",
-    "source_url": "https://www.bis.org/press/p251210.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2025",
-    "id": "cl011p"
-  },
-  {
-    "institution": "State Street",
-    "initiative": "State Street Investment Management, Galaxy Digital, and Ondo Finance Announce Plans to Launch Private Tokenized Money Market Fund",
-    "description": "State Street Investment Management, Galaxy Digital, and Ondo Finance have jointly announced plans to create a privately placed money market fund whose shares will be tokenized and distributed on-chain. The structure is designed to function as a yield-bearing cash-management vehicle for institutional participants operating within digital asset ecosystems, allowing idle capital to earn money market returns while remaining accessible in tokenized form. Ondo Finance will handle the on-chain infrastructure and distribution layer, Galaxy Digital will provide market connectivity and institutional reach, and State Street will serve in asset management and fund administration capacities.",
-    "date": "2025-12-10",
-    "source_url": "https://ondo.finance/blog/state-street-galaxy-ondo-tokenized-sweep-fund",
-    "category": "asset_management",
-    "source_name": "Ondo — Blog",
-    "auto_generated": true,
-    "institution_type": "Asset & Investment Management",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure",
-      "Crypto / Digital Assets"
-    ],
-    "year": "2025",
-    "id": "m236nx"
-  },
-  {
-    "institution": "Ondo Finance",
-    "initiative": "Case Closed: Clearing the Way for Tokenization",
-    "description": "I was unable to access the full article content from the source URL provided. Only the headline and page title are available in the source text — no substantive article body was included. To write an accurate \"What happened\" description, could you please paste the full text of the article directly into the conversation? Once you share the content, I can extract the key development, parties involved, regulatory or market context, and institutional relevance into a concise 2–4 sentence description.",
-    "date": "2025-12-09",
-    "source_url": "https://ondo.finance/blog/tokenized-securities-step-forward",
-    "category": "ecosystem",
-    "source_name": "Ondo — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Settlement & Clearing",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "Payment Infrastructure"
-    ],
-    "year": "2025",
-    "id": "vnmmqs"
   }
 ]
