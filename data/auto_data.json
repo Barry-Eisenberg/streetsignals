@@ -1,5 +1,62 @@
 [
   {
+    "id": "s3js92",
+    "institution": "SpaceX",
+    "initiative": "Here's what SpaceX's IPO means for its $1.3 billion bitcoin reserve",
+    "description": "SpaceX's S-1 filing ahead of its Nasdaq debut disclosed 18,712 bitcoin acquired at an average cost of roughly $35,000 per coin — a position now valued at approximately $1.29 billion and described in the filing as a strategic reserve for excess cash, not a core business activity. Unlike Strategy or dedicated crypto treasury vehicles, SpaceX carries this holding against a valuation exceeding $1.8 trillion, meaning the stake is too small to drive the stock yet large enough to set a meaningful precedent for how blue-chip corporates account for digital assets on public balance sheets.",
+    "date": "2026-06-13",
+    "source_url": "https://www.coindesk.com/business/2026/06/13/here-s-what-spacex-s-ipo-means-for-its-usd1-3-billion-bitcoin-reserve",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "SpaceX's IPO resets the benchmark for what 'normal' corporate treasury looks like at scale: a $1.8 trillion company carrying $1.3 billion in bitcoin as a non-core reserve asset forces every Fortune 500 CFO and board audit committee to revisit their own treasury policy framework — not as a crypto question, but as a capital allocation question. The next two to three earnings cycles will determine whether fair-value volatility is absorbed without institutional consequence, and if it is, the policy window for dismissing bitcoin as a treasury asset closes permanently. This is no longer a MicroStrategy story; it is a balance sheet governance story.",
+      "banks_fmis": "Prime brokerage desks and custody providers need to anticipate a materially different client demand profile: if OpenAI, Anthropic, and the next wave of mega-cap IPOs arrive with bitcoin reserves modeled on the SpaceX framing, the operational and custody infrastructure required to service those positions at institutional scale must be ready before the listings, not after. Banks that have not resolved their digital asset custody and collateral management capabilities are now working against a visible, ticking timeline.",
+      "asset_managers": "Equity analysts covering large-cap technology and infrastructure issuers now have a live, publicly marked precedent for modeling bitcoin as a balance sheet line item rather than an exotic disclosure risk — which means fund investment policy statements and proxy voting frameworks that treat corporate bitcoin holdings as automatic ESG or governance red flags are increasingly exposed to client scrutiny as the SpaceX position seasons without incident.",
+      "fintech": "For fintech infrastructure providers building treasury management tools, reporting infrastructure, or FP&A platforms, the SpaceX disclosure confirms that fair-value bitcoin accounting under ASC 820 is no longer an edge case — it is a recurring line item for the largest issuers in the market, and any platform that cannot natively model, flag, or report digital asset mark-to-market within standard quarterly close workflows is structurally behind the demand curve.",
+      "policy_risk": "Securities disclosure requirements just produced the most consequential forced transparency event in corporate bitcoin history — the gap between onchain estimates of 8,300 BTC and the S-1-disclosed 18,712 BTC confirms that public company reporting obligations are doing material work in this asset class, an argument regulators and legislators pushing for clearer digital asset disclosure rules can now cite with a concrete, high-profile data point."
+    }
+  },
+  {
+    "id": "w1ha4f",
+    "institution": "Coinbase",
+    "initiative": "Coinbase quantum report flags exchange cold wallets among millions of bitcoin exposed by address reuse",
+    "description": "Coinbase's Independent Advisory Board on Quantum Computing and Blockchain released a report estimating that approximately 7 million bitcoin are vulnerable to a future quantum computing attack, with the larger portion—around 5 million BTC—tied to address reuse rather than presumed-lost early coins, and explicitly noting that this group includes cold wallets held by known exchanges and accounts showing recent activity. The distinction matters because it frames the exposure as an active custodial and operational risk rather than a dormant legacy problem, directly implicating institutional holders.",
+    "date": "2026-06-13",
+    "source_url": "https://www.theblock.co/post/404685/coinbase-quantum-report-flags-exchange-cold-wallets-among-millions-of-bitcoin-exposed-by-address-reuse",
+    "category": "exchanges_intermediaries",
+    "source_name": "The Block",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Custody & Safekeeping",
+      "Collateral & Lending",
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "Quantum risk is no longer an abstract cryptographic concern — Coinbase's advisory board has quantified it as an active custody governance problem, with roughly 5 million bitcoin in reused-key addresses attributed largely to active holders including exchange cold wallets, forcing every institution holding or custodying digital assets to treat post-quantum migration as an operational priority, not a research horizon. The governance deadlock the report documents — freeze vulnerable coins or preserve owner rights — will produce a contested, multi-year protocol debate that itself introduces policy and market risk independent of any actual quantum breakthrough. Institutions that wait for technical consensus before acting on internal key hygiene and custody architecture will find themselves behind both the regulatory curve and their own fiduciary obligations.",
+      "banks_fmis": "For custodians and FMIs, the exchange cold wallet exposure identified in this report reframes quantum risk as a near-term audit and counterparty due diligence issue: any institution holding, clearing, or settling against digital asset balances now needs to assess whether those assets sit in address-reuse-exposed wallets, because a future protocol-level freeze of non-migrated coins would impair collateral valuations and settlement finality in ways existing risk frameworks do not account for. The absence of a clear migration timeline from the bitcoin community does not relieve custodians of the obligation to establish one internally — regulators will not accept 'the network hasn't decided yet' as a custody risk management answer.",
+      "asset_managers": "Asset managers with bitcoin exposure — whether direct, through ETF structures, or via counterparty relationships — need to incorporate quantum migration status into their digital asset due diligence frameworks now, because the scenario in which 5 million BTC are either frozen by protocol consensus or seized by a state-level quantum actor is a tail risk with material NAV implications that is no longer purely speculative. The Jefferies precedent of removing bitcoin from a model portfolio over quantum concerns establishes that institutional peer benchmarks are already moving; remaining silent on this risk in client-facing documentation is becoming a disclosure question, not just a portfolio question.",
+      "fintech": "Digital asset infrastructure providers — wallet vendors, key management platforms, and custody-as-a-service firms — face an accelerating product mandate: post-quantum signature support and address migration tooling need to move from roadmap items to shippable capabilities, because institutional clients will begin requiring demonstrable quantum-resistant key management as a vendor qualification criterion before any protocol-level deadline is set. The BIP-361 and PACT proposals outlined in the report provide enough technical specificity that engineering teams can begin implementation work now without waiting for governance resolution.",
+      "policy_risk": "The governance dilemma at the center of this report — whether to freeze quantum-vulnerable bitcoin or preserve owner rights — is precisely the kind of question that will not be resolved by the bitcoin developer community alone once nation-state actors, financial regulators, and sanctioned-entity watchdogs recognize that exchange cold wallets and potentially state-linked hoards sit in the exposed bucket. Regulators overseeing digital asset custodians should be engaging now on what post-quantum migration compliance looks like for licensed entities, because the alternative is being handed a crisis-driven policy question after a cryptographically relevant quantum event, at which point the options narrow considerably."
+    }
+  },
+  {
     "id": "w5496d",
     "institution": "SpaceX",
     "initiative": "Saylor to Musk: Thanks to you, 25% of 'Mag8' firms now hold bitcoin",
@@ -11788,44 +11845,5 @@
     "initiative_types": [],
     "year": "2026",
     "id": "qysop7"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "FCA launches investigation into second motor finance claims management company",
-    "description": "The FCA has opened a formal enforcement investigation into Consultation Claims Limited (CCL), a claims management company handling motor finance complaints, over conduct between April and December 2025. The regulator is examining allegations that consumers were enrolled without their consent and that signatures on contracts may have been forged, with scrutiny extending to customer contact practices, disclosures made at sign-up, and the firm's exit fee terms. This is the second such CMC investigation the FCA has publicly announced, following an earlier case in January 2026, and sits within a broader regulatory crackdown that includes a joint FCA–SRA–ICO–ASA taskforce and a wider review of the claims management market launched in May 2026.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/press-releases/fca-launches-investigation-second-motor-finance-claims-management-company",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026",
-    "id": "5paha8"
-  },
-  {
-    "institution": "IOSCO (International Organization of Securities Commissions)",
-    "initiative": "Global standard-setting bodies publish assessment of margin requirements for non-centrally cleared derivatives",
-    "description": "The BCBS and IOSCO jointly released a formal review of the margin framework for non-centrally cleared derivatives, originally mandated by the G20 in 2011 and finalised in 2013, following the completion of its last implementation phase in September 2022. Drawing on a 2024 quantitative impact study and a survey of member authorities, the WGMR concluded that the framework is functioning as intended, with no material deficiencies identified and a measurable increase in margin exchanged since 2012. The two bodies are not proposing any amendments to the existing rules, signalling regulatory stability for firms managing bilateral derivatives portfolios.",
-    "date": "2025-12-12",
-    "source_url": "https://www.bis.org/press/p251212.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Trading & Exchange",
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2025",
-    "id": "8rmhre"
   }
 ]
