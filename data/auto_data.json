@@ -1,5 +1,128 @@
 [
   {
+    "id": "alk6u2",
+    "institution": "Ripple",
+    "initiative": "Ripple wants AI agents to pay in XRP and RLUSD. The market is still mostly USDC",
+    "description": "Ripple launched its XRPL AI Starter Kit, a developer toolkit designed to enable AI agents to execute machine-to-machine payments using XRP and its RLUSD dollar-backed stablecoin over the XRP Ledger. The move targets the nascent x402 protocol market — an HTTP-based payment standard originally created by Coinbase and now overseen by the Linux Foundation — which has already logged over 120 million cumulative transactions but remains heavily concentrated in USDC on Base and Solana.",
+    "date": "2026-06-13",
+    "source_url": "https://www.coindesk.com/tech/2026/06/11/ripple-wants-ai-agents-to-pay-in-xrp-and-rlusd-the-market-is-still-mostly-usdc",
+    "category": "payments",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026"
+  },
+  {
+    "id": "2m7kqx",
+    "institution": "Ripple",
+    "initiative": "Ripple targets AI agents with XRP as USDC dominates payments",
+    "description": "Ripple released the XRPL AI Starter Kit, a developer toolkit enabling autonomous software agents to send and receive payments in XRP and its RLUSD stablecoin via the x402 protocol, an HTTP-based machine-payment standard originally developed by Coinbase and now governed by the Linux Foundation. The move puts Ripple in direct competition with USDC, which currently dominates x402 activity with over 120 million cumulative transactions and more than $41 million in settled volume across Base and Solana, dwarfing any disclosed XRP or RLUSD usage.",
+    "date": "2026-06-13",
+    "source_url": "https://crypto.news/ripple-targets-ai-agents-with-xrp-as-usdc-dominates-payments/",
+    "category": "payments",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Strategic Initiative",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "Machine-to-machine payments are establishing settlement standards before most financial institutions have a payment strategy for autonomous AI agents — and the data already shows a dominant incumbent: USDC on Base and Solana has processed over 120 million transactions and $41 million in settled volume at roughly five cents per payment, while XRP and RLUSD are still at the developer-toolkit stage. The competitive window is not about which asset wins; it is about which institutions are embedded in the settlement layer when agentic workflows move from experimentation to enterprise scale. Firms without a defined position on programmable settlement rails for AI-driven operations are not watching a trend — they are watching infrastructure decisions get made without them.",
+      "banks_fmis": "The x402 protocol's integration into the Linux Foundation signals that machine-payment standards are being set through open governance structures, not bilateral bank agreements — a pattern that historically compresses the window for incumbents to shape interoperability rules. Banks and FMIs building correspondent or custody infrastructure need to assess now whether their settlement architectures can interface with HTTP-native payment flows, or whether they will require costly middleware layers when enterprise clients begin deploying agentic treasury and procurement systems.",
+      "payments": "With USDC commanding roughly 70% of x402 volume on Base alone, payments providers face a concrete benchmark: the de facto standard for machine-payment settlement is already forming around stablecoins on public blockchains, not legacy rails. Ripple's RLUSD expansion through Mastercard's network and the U.S.-Mexico corridor with Bitso's MXNB represents a credible second-mover strategy, but the absence of disclosed production volumes or named enterprise customers means the institutional adoption case remains unproven — providers evaluating stablecoin settlement partnerships should weight that gap accordingly.",
+      "fintech": "Developer toolkits like the XRPL AI Starter Kit signal that the battle for agentic payment infrastructure is being fought at the SDK and MCP server layer — the firms that embed their settlement rails into Claude, Cursor, and custom agent frameworks earliest will inherit the default payment path for enterprise AI workflows. Fintech infrastructure providers need to evaluate whether their APIs are positioned for machine-to-machine invocation patterns, where latency, deterministic pricing, and automated proof-of-payment are table-stakes requirements rather than differentiators.",
+      "policy_risk": "The x402 protocol enables AI agents to autonomously initiate, authorize, and settle on-chain payments within a single HTTP request cycle — a workflow that sits in an unresolved gap between existing e-money, payment services, and AML authorization frameworks in most jurisdictions. Regulators have not yet addressed whether machine-initiated payments require the same authorization controls as human-initiated ones, and the academic literature already flags synchronization and proof-validation risks; institutions building agentic payment capabilities should treat the regulatory perimeter as unsettled and document their compliance logic now, before enforcement precedents are set."
+    }
+  },
+  {
+    "id": "otagwn",
+    "institution": "SpaceX",
+    "initiative": "Michael Saylor says SpaceX IPO pushes Bitcoin into 25% of Mag 8",
+    "description": "Following SpaceX's public market debut on June 13, Strategy chairman Michael Saylor argued that the listing — combined with Tesla's existing holdings — means two of Elon Musk's companies now hold Bitcoin on their balance sheets, representing 25% of the so-called \"Mag 8\" cohort of dominant technology firms. SpaceX holds approximately 18,712 BTC and Tesla holds 11,509 BTC, according to BitcoinTreasuries data, placing SpaceX eighth among all publicly listed corporate Bitcoin holders. The development is notable for institutional allocators because it broadens Bitcoin's footprint beyond dedicated treasury-strategy vehicles like Strategy, embedding the asset into the balance sheets of large-cap industrial and consumer technology companies that appear in mainstream equity indices and benchmarks.",
+    "date": "2026-06-13",
+    "source_url": "https://crypto.news/michael-saylor-says-spacex-ipo-pushes-bitcoin-into-25-of-mag-8/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "SpaceX's IPO transforms Bitcoin treasury holdings from a fringe corporate experiment into a disclosed, publicly audited line item inside two of the eight most systemically watched technology companies on earth — representing a combined 30,221 BTC carried on audited balance sheets. With 199 public companies now holding 1.26 million BTC worth approximately $80 billion, this is no longer an asset class institutional allocators can classify as pre-institutional; it is one they must have a documented position on. The benchmark has moved: the question is no longer whether Bitcoin belongs on corporate balance sheets, but what your institution's framework is for advising clients who now hold it, custody it, or are evaluating it.",
+      "banks_fmis": "As Bitcoin migrates from privately held to publicly disclosed on the balance sheets of IPO-grade companies, custody, collateral management, and reporting infrastructure face immediate demand — banks without a credible digital asset custody offering are now visibly absent from a service category their largest corporate clients are actively using. Clearing and settlement infrastructure must anticipate Bitcoin-collateralized products and corporate treasury flows as a near-term operational reality, not a future planning scenario.",
+      "asset_managers": "With Tesla and SpaceX anchoring Bitcoin exposure inside equity index-eligible Mag 8 constituents, asset managers running large-cap technology mandates now carry indirect Bitcoin exposure whether or not they have a stated digital asset policy — that gap between mandate language and actual portfolio composition demands immediate attention. Clients will ask; the answer needs to be ready before the next quarterly review cycle.",
+      "policy_risk": "SpaceX's public listing with disclosed BTC holdings creates a new regulatory reference point: Bitcoin is now a disclosed treasury asset inside a company subject to SEC reporting obligations, aerospace export controls, and government contracting scrutiny, simultaneously — a configuration that will force regulators to address the intersection of digital asset accounting standards and corporate disclosure requirements with greater urgency than existing SAB 121 reform timelines suggest."
+    }
+  },
+  {
+    "id": "o5gw0a",
+    "institution": "Standard Chartered",
+    "initiative": "Bitcoin selloff tests Standard Chartered’s $100K forecast: is Geoffrey Kendrick’s call on track?",
+    "description": "Bitcoin pulled back sharply to around $59,000 before rebounding near $63,500, prompting scrutiny of Standard Chartered's standing year-end price targets of $100,000 for Bitcoin and $4,000 for Ethereum. Geoffrey Kendrick, the bank's head of digital-assets research, characterized the $59,000 level as the likely cycle low and attributed the selling pressure to forced liquidations, weak spot ETF flows, and broader liquidity stress tied in part to cash demand surrounding the SpaceX IPO. Kendrick's recovery thesis hinges on a measurable return of institutional inflows into U.S. spot Bitcoin ETFs, stabilization of demand from Strategy, and Ethereum regaining relative strength against Bitcoin — none of which had been confirmed at the time of his note.",
+    "date": "2026-06-13",
+    "source_url": "https://crypto.news/bitcoin-selloff-tests-standard-chartereds-100k-foreca/",
+    "category": "global_banks",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Global Banks",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "When a Tier 1 global bank's digital assets research desk maintains a $100K Bitcoin target through a 36% drawdown — anchoring that call to ETF flows, institutional treasury demand, and onchain settlement utility rather than sentiment — it resets the analytical baseline for how institutional capital frames crypto allocation decisions. This is no longer a speculative overlay; Standard Chartered is treating Bitcoin and Ethereum as assets with identifiable demand drivers subject to rigorous flow analysis, the same framework applied to any other liquid market. Institutions that lack an internal methodology for tracking these same variables — spot ETF redemptions, corporate treasury absorption, ETH/BTC ratio dynamics — are operating blind in a market that is rapidly professionalizing around them.",
+      "banks_fmis": "For banks and custodians, Kendrick's explicit linkage of Ethereum's thesis to stablecoins, tokenized assets, and onchain settlement is the more consequential signal: Standard Chartered is treating ETH demand as a derivative of institutional settlement infrastructure adoption, which means the collateral and interoperability decisions banks are making today are already being priced into forward asset models at competing institutions. Custodians who have deferred digital asset collateral frameworks are not waiting out volatility — they are ceding the analytical and operational ground that will define custody and lending terms in the next cycle.",
+      "asset_managers": "The analytical structure Kendrick deploys — ETF flow thresholds, corporate demand stabilization, relative ETH/BTC strength — constitutes an emerging institutional benchmark for crypto position management that asset managers can no longer treat as proprietary edge. Funds that cannot replicate this flow-based monitoring framework in their own risk and allocation processes are exposed to the same kind of information asymmetry that defined early institutional adoption of any emerging asset class.",
+      "policy_risk": "A Tier 1 regulated bank publicly anchoring crypto price targets to ETF flows and institutional settlement adoption — not retail sentiment or speculative cycles — signals to regulators that digital asset markets are being analyzed and risk-managed with the same rigor as traditional markets, which strengthens the case for asset-specific capital treatment frameworks rather than blanket crypto risk haircuts. Regulatory bodies that continue to apply undifferentiated risk weights to Bitcoin versus utility-bearing settlement assets like Ethereum will increasingly find their frameworks in tension with how the institutions they supervise are actually modeling and managing these exposures."
+    }
+  },
+  {
+    "id": "17jnob",
+    "institution": "SpaceX",
+    "initiative": "Cathie Wood’s ARK adds $444M in SpaceX while cutting AMD stake",
+    "description": "ARK Invest deployed approximately $444 million into SpaceX on June 12, acquiring 3.29 million shares spread across four of its ETFs — ARKK, ARKQ, ARKW, and ARKX — on the company's first day of public trading, when shares closed nearly 19% above the $135 IPO price to give SpaceX a market capitalization exceeding $2.1 trillion. Simultaneously, ARK trimmed roughly $39.3 million worth of Advanced Micro Devices shares across three of those same funds, continuing a gradual reduction in semiconductor exposure.",
+    "date": "2026-06-13",
+    "source_url": "https://crypto.news/cathie-woods-ark-adds-444m-in-spacex-while-cutting-amd-stake/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "id": "kx9yx9",
     "institution": "Coinbase",
     "initiative": "Top cryptographers can't agree on Bitcoin's biggest quantum question",
@@ -10359,6 +10482,31 @@
     "id": "s0ulud"
   },
   {
+    "id": "l73y36",
+    "institution": "Chainalysis",
+    "initiative": "U.K. Sanctions 18 Entities and Persons for Evading Russian Trade Blockades",
+    "description": "The UK's Foreign, Commonwealth and Development Office designated 18 cryptocurrency exchanges, payment processors, banks, and individuals on 26 May 2026 for facilitating Russia's evasion of international trade blockades through digital asset infrastructure. Central to the action is the so-called A7 Network, an interconnected group of entities operating around the A7A5 ruble-backed stablecoin — issued in Kyrgyzstan and reportedly responsible for $93 billion in trading volume in its first year — which has been used to move funds into the Russian economy at scale.",
+    "date": "2026-05-27",
+    "source_url": "https://www.chainalysis.com/blog/uk-sanctions-crypto-entities-russian-trade-blockade-evasion-may-2026/",
+    "category": "ecosystem",
+    "source_name": "Chainalysis — Blog",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Bank of England",
     "initiative": "Project Agorá shows how tokenisation can improve wholesale cross-border payments; work will advance to real-value testing",
     "description": "Project Agorá, a public-private initiative convened by the Bank for International Settlements and the Institute of International Finance, has published prototype findings showing that tokenised central bank reserves and tokenised commercial bank deposits can support atomic, multi-currency settlement of wholesale cross-border transactions with finality across seven jurisdictions. The collaboration — spanning seven central banks including the Federal Reserve Bank of New York, the Bank of England, and the Bank of Japan, alongside more than 40 private sector institutions — found that a layered, modular architecture can preserve central bank autonomy while enabling interoperability, and that settlement finality is legally achievable across all participating jurisdictions.",
@@ -11660,124 +11808,5 @@
     ],
     "year": "2025",
     "id": "vnmmqs"
-  },
-  {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
-    "initiative": "A Letter to the SEC: Roadmap for Tokenized Securities",
-    "description": "Ondo Finance submitted a formal letter to the U.S. Securities and Exchange Commission outlining a proposed regulatory framework for tokenized securities, marking one of the more detailed industry submissions on the topic from a blockchain-native asset manager. The letter addresses how existing securities law could accommodate on-chain representations of traditional financial instruments, including questions around transfer agents, broker-dealer obligations, and custody arrangements. For institutional practitioners, the submission is notable because it attempts to translate operational realities of tokenized markets into the SEC's existing regulatory vocabulary, rather than arguing for a wholesale new regime. It adds to a growing body of industry engagement with U.S.",
-    "date": "2025-12-05",
-    "source_url": "https://ondo.finance/blog/tokenized-securities-roadmap",
-    "category": "regulators",
-    "source_name": "Ondo — Blog",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Custody & Safekeeping",
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [
-      "DLT / Blockchain Infrastructure"
-    ],
-    "year": "2025",
-    "id": "jhdxrg"
-  },
-  {
-    "institution": "BIS (Bank for International Settlements)",
-    "initiative": "Tommaso Mancini-Griffoli appointed as Head of the BIS Innovation Hub",
-    "description": "The Bank for International Settlements has named Tommaso Mancini-Griffoli, currently Assistant Director for Payments, Currencies, and Infrastructure at the IMF's Monetary and Capital Markets Department, to lead the BIS Innovation Hub, effective 1 March 2026 on a five-year term. He will oversee a network spanning seven global centres and a strategic partnership with the Federal Reserve System, coordinating central bank collaboration on financial technology including digital money and payment infrastructure. Mancini-Griffoli brings direct institutional-policy experience from the IMF, where he chairs the coordination group on digital money, as well as earlier central banking work at the Swiss National Bank.",
-    "date": "2025-11-25",
-    "source_url": "https://www.bis.org/press/p251125.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2025",
-    "id": "f6tmyx"
-  },
-  {
-    "institution": "BIS",
-    "initiative": "Basel Committee continues to prioritise Basel III implementation, approves final principles on third-party risks and agrees to expedite targeted review of cryptoasset standard",
-    "description": "The Basel Committee on Banking Supervision convened in Mexico City on 18–19 November 2025, reaffirming full and consistent Basel III implementation as its top priority, as endorsed by its oversight body, the Group of Governors and Heads of Supervision. The Committee approved final principles for managing third-party risk in banking — following a prior consultation — with publication due in December, and agreed to expedite a targeted review of its prudential standard for banks' cryptoasset exposures in response to recent market developments in that asset class. It also discussed the rapid growth of synthetic risk transfer markets, noting that while post-GFC reforms have simplified such structures, residual risks warrant continued supervisory attention.",
-    "date": "2025-11-19",
-    "source_url": "https://www.bis.org/press/p251119.htm",
-    "category": "regulators",
-    "source_name": "BIS — Press Releases",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Research / Report",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [
-      "Crypto / Digital Assets"
-    ],
-    "year": "2025",
-    "id": "lo3k1c"
-  },
-  {
-    "institution": "Ondo Finance",
-    "initiative": "Ondo Secures EU Regulatory Approval for Tokenized Stocks and ETFs",
-    "description": "I was unable to retrieve the substantive article content from the source URL provided — the text supplied appears to contain only the page title rather than the body of the article. To write an accurate 'What happened' description, I would need the full article text. Please paste the article body directly and I will produce the signal card description.",
-    "date": "2025-11-18",
-    "source_url": "https://ondo.finance/blog/ondo-eu-regulatory-approval",
-    "category": "ecosystem",
-    "source_name": "Ondo — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Strategic Initiative",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2025",
-    "id": "5jdmd6"
-  },
-  {
-    "institution": "Ondo Finance",
-    "initiative": "BX Digital and Ondo Finance Partner to Launch Regulated Trading of Tokenized Products in Europe",
-    "description": "I was unable to retrieve the substantive article content from the source URL provided — the text supplied contains only the page title repeated, with no article body to extract meaningful detail from. To write an accurate signal card description, please paste the full article text directly into your message and I will produce the description immediately.",
-    "date": "2025-11-03",
-    "source_url": "https://ondo.finance/blog/ondo-partners-with-bx-digital",
-    "category": "ecosystem",
-    "source_name": "Ondo — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2025",
-    "id": "y6pgsc"
-  },
-  {
-    "institution": "Ondo Finance",
-    "initiative": "Ondo Finance Completes Acquisition of Oasis Pro to Accelerate U.S. Tokenized Securities Innovation",
-    "description": "Ondo Finance has completed its acquisition of Oasis Pro, a firm holding multiple U.S. regulatory licenses including an ATS (Alternative Trading System) registration, a broker-dealer license, and an SEC-registered transfer agent status. These licenses give Ondo a regulated infrastructure stack to issue, trade, and settle tokenized securities within existing U.S. legal frameworks, rather than operating in regulatory grey areas. The deal is significant for institutional participants because it represents one of the first moves by a major tokenization platform to bring the full securities lifecycle — issuance through secondary trading — under a single, domestically licensed entity.",
-    "date": "2025-10-07",
-    "source_url": "https://ondo.finance/blog/ondo-acquires-oasis-pro",
-    "category": "ecosystem",
-    "source_name": "Ondo — Blog",
-    "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2025",
-    "id": "c220yc"
   }
 ]
