@@ -1,5 +1,274 @@
 [
   {
+    "institution": "SpaceX",
+    "initiative": "Live updates: SpaceX rallies nearly 20% in first session, while bitcoin trades shy of $64,000",
+    "description": "SpaceX completed what is described as the largest equity listing in U.S. market history on June 12, 2026, raising $75 billion by pricing 555.6 million shares at $135 each on the Nasdaq under ticker SPCX, with Goldman Sachs and Morgan Stanley each underwriting approximately $15 billion of the deal. Shares opened sharply higher and briefly reached $176 before closing at $160.95, a gain of roughly 19% on the first session, implying a market capitalization of approximately $2.1 trillion. Bitcoin, which had rallied in anticipation of the listing, gave back early gains as the IPO-driven demand catalyst faded, settling near $63,500 and roughly flat on a 24-hour basis.",
+    "date": "2026-06-12",
+    "source_url": "https://www.coindesk.com/tech/2026/06/12/live-updates-bitcoin-in-volatile-trading-above-usd63-000-doge-unchanged",
+    "category": "ecosystem",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SpaceX",
+    "initiative": "SpaceX IPO: UK retail investors boost account funding by 27%, TrueLayer data shows",
+    "description": "TrueLayer has recorded a sharp rise in Pay by Bank transactions into trading and investment accounts ahead of the SpaceX listing, expected to be one of the largest public offerings and notably includes a significant retail allocation.",
+    "date": "2026-06-12",
+    "source_url": "https://www.finextra.com/newsarticle/47908/spacex-ipo-uk-retail-investors-boost-account-funding-by-27-truelayer-data-shows",
+    "category": "ecosystem",
+    "source_name": "Finextra",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "SEC plans to scrap two NMS rules that hinder tokenized stock trading via DeFi AMMs",
+    "description": "The SEC voted on June 11 to propose eliminating two long-standing Regulation NMS provisions — Rule 611 (the trade-through rule) and Rule 610(e) — opening a 60-day comment period. Rule 611 currently requires trading venues to honor the National Best Bid and Offer displayed at any other protected venue, a constraint the Commission argues has driven market fragmentation across 17 national exchanges, accelerated high-frequency trading, and ultimately worked against the institutional order flow it was designed to protect.",
+    "date": "2026-06-12",
+    "source_url": "https://www.ledgerinsights.com/sec-plans-to-scrap-two-nms-rules-that-hinder-tokenized-stock-trading-via-defi-amms/",
+    "category": "regulators",
+    "source_name": "Ledger Insights",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DeFi"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "Scrapping Rule 611 and 610(e) doesn't just simplify equity market structure — it removes the regulatory architecture that made AMM-based execution of tokenized equities structurally impermissible, forcing institutions to reassess whether their current venue strategy and order routing logic are built for a market that is about to look fundamentally different. The NBBO as an organizing principle of best execution is being contested at the source, which resets the compliance baseline every broker-dealer, exchange, and trading venue has engineered around for two decades. Institutions that treat this as a deregulatory footnote will be late to the venues, products, and liquidity models that fill the vacuum.",
+      "banks_fmis": "For broker-dealers and exchange operators, the dismantling of protected quote obligations removes the connective tissue that forced universal venue participation — the competitive moat built on NBBO connectivity and SIP infrastructure is now contestable in ways it hasn't been since 2005. Custodians and clearing firms need to begin mapping what tokenized equity settlement looks like when AMMs are a legitimate execution venue, because the operational and counterparty risk frameworks don't yet exist at scale.",
+      "asset_managers": "Best execution policies written around NBBO-derived benchmarks will require substantive revision if the protected quote regime is eliminated, and asset managers who wait for final rules to begin that work will be defending legacy methodology to clients and regulators simultaneously. The more immediate strategic question is whether tokenized equity exposure via AMMs — now a plausible regulatory pathway — belongs in product development pipelines before competitors define the category.",
+      "fintech": "For trading infrastructure and connectivity providers whose revenue model depends on the fragmented, 17-venue ecosystem that Rule 611 produced, this is an existential restructuring signal — consolidation pressure on exchange connectivity and market data services accelerates materially if protected quote obligations disappear. Conversely, firms building AMM execution, on-chain order routing, or tokenized equity infrastructure now have a credible regulatory tailwind that makes institutional partnership conversations substantively different than they were 90 days ago.",
+      "policy_risk": "The SEC's 60-day comment period opens a narrow but consequential window: this proposal carries two decades of Chairman Atkins' documented dissent, which means its ideological foundation is unusually durable, but its crypto-adjacent implications will draw scrutiny that a pure market structure reform would not. Institutions engaging in the comment process should treat the DeFi AMM dimension and the fragmentation dimension as legally and politically separable arguments — conflating them in filings risks undermining both."
+    }
+  },
+  {
+    "institution": "Nasdaq",
+    "initiative": "Canaan breaks efficiency record while one-third of capacity sits idle",
+    "description": "Canaan, the Nasdaq-listed Bitcoin miner and ASIC manufacturer, reported that its North American self-mining fleet achieved a record efficiency of 17.9 J/TH in May 2026, an 11% year-over-year improvement, yet only 6.47 EH/s of its 10.05 EH/s installed capacity was operational at month-end following the expiration of a hosting agreement. The operational shortfall compounds an already strained financial position: the company posted an $88.7 million net loss in Q1 2026 on revenue of $62.7 million, down sharply from $196.3 million the prior quarter, and has guided Q2 revenue at $35–$45 million against analyst expectations of roughly $96 million. Canaan is also contending with a second Nasdaq non-compliance notice over its sub-$1 share price, with a compliance deadline of July 13, 2026.",
+    "date": "2026-06-12",
+    "source_url": "https://crypto.news/canaan-breaks-efficiency-record-while-one-third-of-capacity-sits-idle/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "Canaan's simultaneous efficiency record and 36% capacity idle rate illustrates the core structural tension now defining proof-of-work mining as an institutional asset class: operational optimization is outpacing the economic conditions required to deploy that capacity profitably. With Q2 revenue guidance running at less than half analyst consensus and a Nasdaq compliance clock expiring July 13, the line between infrastructure investment and stranded asset is narrowing fast — forcing institutional counterparties to reassess how they underwrite hashrate-backed collateral and compute-infrastructure exposure.",
+      "banks_fmis": "For lenders and custodians with exposure to mining-backed credit facilities, Canaan's $88.7M Q1 net loss combined with a 36% capacity utilization gap resets the collateral valuation framework — hashrate capacity and operational hashrate are not interchangeable inputs, and credit structures that conflate the two are carrying unpriced basis risk.",
+      "asset_managers": "The Canaan data reinforces a bifurcation thesis for digital infrastructure allocators: efficiency metrics at the hardware layer are improving structurally, but revenue realization is hostage to hashprice compression and hosting contract stability — meaning asset managers benchmarking on installed capacity rather than effective operating rate are systematically overstating income potential in portfolio models.",
+      "policy_risk": "Canaan's Nasdaq non-compliance notice — now on a July 13 deadline — demonstrates that exchange listing standards are functioning as a real-time governance stress test for crypto-adjacent public companies, a dynamic that regulators and SROs should factor into ongoing disclosure and minimum standards reviews for digital asset infrastructure issuers."
+    }
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "Coinbase eyes financial super app in next phase of expansion",
+    "description": "Coinbase outlined plans to consolidate trading, lending, payments, derivatives, stablecoin yield products, and AI-powered execution tools into a single unified account, with further details scheduled for a June 16 presentation under the banner of its \"Everything Exchange\" initiative. The expansion builds on recently launched products including a High Yield USDC vault running on Morpho's DeFi infrastructure, managed by Steakhouse Financial, and Coinbase for Agents, which connects large language models such as ChatGPT and Claude directly to user accounts to autonomously execute trades and manage positions.",
+    "date": "2026-06-12",
+    "source_url": "https://crypto.news/coinbase-eyes-financial-super-app-in-next-phase-of-expansion/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "DeFi"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "Coinbase's 'Everything Exchange' pivot resets the competitive benchmark for financial services aggregation — not by building a better exchange, but by collapsing the boundary between exchange, custodian, lender, payments provider, and AI execution layer into a single account architecture. The operational logic is direct: 24/7 programmable settlement eliminates the structural inefficiencies that have kept these functions siloed across institutions, and once a regulated, scaled platform demonstrates that integration at consumer level, institutional clients begin asking why their infrastructure cannot do the same. This forces every financial institution with product ambitions across these verticals to confront a build-versus-partner decision on a shorter timeline than most strategic plans anticipated.",
+      "banks_fmis": "The High Yield USDC vault — distributing DeFi yield through Morpho and managed by Steakhouse Financial inside a regulated exchange wrapper — is the specific product architecture that should concern custodians and deposit-taking institutions: it routes yield-seeking capital away from bank balance sheets without requiring users to leave a familiar, compliant interface. FMIs watching Coinbase's settlement infrastructure expand across equities, derivatives, and stablecoins simultaneously face a credible challenge to the multi-rail, multi-custodian model that has defined institutional market structure for decades.",
+      "asset_managers": "The Coinbase for Agents framework — connecting LLMs like ChatGPT and Claude directly to trading, rebalancing, and payment execution — establishes a live precedent for AI-delegated portfolio management operating outside traditional OMS and EMS infrastructure. Asset managers whose operational workflows depend on legacy order management architecture need to assess whether their technology stack can accommodate agent-driven execution before client expectations, set by consumer-grade platforms, migrate upmarket.",
+      "payments": "Coinbase embedding payments alongside lending, derivatives, and AI execution in a unified account is not a payments product announcement — it is a structural repositioning that treats payment rails as a feature of a broader financial operating system rather than a standalone service. Payments providers whose value proposition rests on network access or FX conversion margins face compression as programmable stablecoin settlement, already live on Coinbase's platform, removes the friction that justified those margins.",
+      "policy_risk": "Regulators are now tracking a regulated U.S. entity simultaneously offering spot crypto, equities, commodities derivatives, prediction markets, DeFi lending, and AI-executed trades under one account — a combination that spans SEC, CFTC, banking, and emerging AI governance perimeters that have not been designed to operate in coordination. The June 16 'Everything Exchange' presentation will function as a de facto regulatory stress test of whether existing U.S. framework boundaries can accommodate integrated financial platforms, and the answer will have direct bearing on how the CLARITY Act and any forthcoming AI-in-finance guidance are scoped."
+    }
+  },
+  {
+    "institution": "CFTC (Commodity Futures Trading Commission)",
+    "initiative": "CFTC sues New Mexico as prediction market jurisdiction fight expands",
+    "description": "The CFTC filed suit in federal court against New Mexico Governor Michelle Lujan Grisham, Attorney General Raúl Torrez, and other state officials, seeking to block New Mexico from applying state gaming laws to event contracts offered by federally regulated prediction market platform Kalshi. The action follows New Mexico's move against Kalshi on allegations of unlicensed sports betting operations and underage access, with state officials asserting authority under tribal-state gaming compacts and state statutes that set the minimum gaming age at 21. The CFTC argues the Commodity Exchange Act grants the agency exclusive jurisdiction over designated contract markets and their derivatives products, making state enforcement actions a direct interference with federal regulatory authority.",
+    "date": "2026-06-12",
+    "source_url": "https://crypto.news/cftc-sues-new-mexico-as-prediction-market-jurisdictio/",
+    "category": "regulators",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "The CFTC's decision to sue New Mexico — following similar actions against Wisconsin, Illinois, Arizona, Connecticut, and New York — establishes that federal preemption of state gaming law over designated contract markets is now an enforcement posture, not just a legal theory. For financial institutions evaluating event-driven derivatives and prediction market infrastructure, the jurisdictional perimeter is being drawn in federal court, which means the compliance framework for these products is consolidating under a single regulator. Institutions that deferred strategic decisions on prediction market exposure pending regulatory clarity now have a clearer — if still contested — federal authority anchoring the space.",
+      "banks_fmis": "Clearing, custody, and prime brokerage decisions around event contract platforms like Kalshi require a federal compliance lens, not a state-by-state patchwork assessment. As the CFTC asserts exclusive jurisdiction under the Commodity Exchange Act and advances concurrent rulemaking, FMIs should be pressure-testing their onboarding criteria and legal frameworks for designated contract markets against a federal standard that is actively being litigated and solidified.",
+      "asset_managers": "Prediction markets are moving from novelty to regulated asset class infrastructure, and the CFTC's aggressive jurisdictional defense signals that institutional-grade event contracts will carry federal derivatives treatment — not gaming-law treatment. Asset managers building out alternative risk transfer or information-driven strategies need to reassess how event contracts fit into their derivative governance frameworks before the rulemaking cycle closes the definitional window.",
+      "fintech": "Fintech platforms and infrastructure providers that power or white-label prediction market functionality face a bifurcating compliance environment: state gaming authorities are asserting parallel jurisdiction even as the CFTC moves to preempt them through litigation and rulemaking. Building for federal CFTC compliance is no longer just the prudent path — it is the operationally durable one, provided the courts affirm preemption, which the current trajectory strongly suggests.",
+      "policy_risk": "The CFTC's multi-state litigation campaign, paired with active rulemaking, represents a deliberate regulatory consolidation strategy under Chair Selig — and sets a precedent for how federal agencies can use concurrent enforcement and rulemaking to preempt state regulatory incursion into emerging digital asset-adjacent markets. Institutions and their government affairs teams should treat this as a signal that the federal regulatory perimeter around derivatives-adjacent fintech products is being defended aggressively, with implications well beyond prediction markets."
+    }
+  },
+  {
+    "institution": "Coinbase",
+    "initiative": "GameStop caps Bitcoin upside again as Coinbase deal rolls over",
+    "description": "GameStop disclosed in a quarterly SEC filing that it rolled over its covered-call Bitcoin options with Coinbase after the previous contracts expired unexercised on May 29, collecting $5.8 million in new premium income in the process. The retailer reset the strike price to $80,000—materially below the prior $105,000–$110,000 range—with nearly all of its 4,710 BTC remaining pledged under the arrangement, giving Coinbase the right to acquire the coins if Bitcoin exceeds that level before expiration. Under applicable accounting rules, the pledged holdings no longer appear as a direct digital asset on GameStop's balance sheet; instead, the company records a $369.6 million receivable from Coinbase, roughly $58 million below original cost.",
+    "date": "2026-06-12",
+    "source_url": "https://crypto.news/gamestop-caps-bitcoin-upside-again-as-coinbase-deal-rolls-over/",
+    "category": "exchanges_intermediaries",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "GameStop's rolling covered-call structure with Coinbase — now reset at an $80,000 strike against Bitcoin trading near $63,500 — demonstrates that corporate Bitcoin treasury strategies are evolving from simple accumulation into active yield-generation frameworks, but at the cost of capped upside and significant balance sheet reclassification. The arrangement forces institutional observers to confront a harder question: when pledged digital assets disappear from the balance sheet and reappear as a counterparty receivable, what are the real custody, credit, and disclosure standards being applied? This is not a Bitcoin story — it is a stress test of how TradFi accounting and risk conventions absorb non-standard digital asset arrangements under existing SEC reporting frameworks.",
+      "banks_fmis": "Coinbase's role here is functionally that of a prime broker — holding collateral, retaining rehypothecation rights, and settling structured derivatives — which is precisely the activity set that regulated custodians and clearing institutions are building toward. Banks and FMIs watching this arrangement should recognize that the custody-plus-derivatives bundle Coinbase is providing to a public company is setting an operational and contractual template that regulators will eventually require to be licensed, ring-fenced, and capital-adequate.",
+      "asset_managers": "For asset managers evaluating Bitcoin as a treasury or portfolio asset, GameStop's experience quantifies the yield-versus-upside tradeoff in covered-call structures with precision: $5.8 million in collected premiums against a position that is now $43,000 per coin underwater relative to cost basis and 34% below yearly highs. The signal here is not that the strategy is wrong — it is that institutional-grade Bitcoin yield strategies require disciplined strike selection, rolling discipline, and transparent counterparty risk disclosure that most corporate treasury functions are not yet equipped to manage rigorously.",
+      "policy_risk": "The balance sheet reclassification embedded in this filing — pledged Bitcoin converted into a $369.6 million receivable from Coinbase — raises immediate questions about whether current SEC disclosure requirements adequately capture counterparty credit exposure, rehypothecation risk, and the effective loss of direct asset control in these arrangements. Regulators developing digital asset accounting and custody standards should treat this filing as a live case study in the gap between economic substance and reported form."
+    }
+  },
+  {
+    "institution": "SpaceX",
+    "initiative": "Binance cancels SpaceX IPO campaign as allocation chaos hits",
+    "description": "Binance terminated its SpaceX IPO subscription campaign and committed to full USDC refunds after the exchange was unable to secure allocations tied to the offering, with rival exchange Bybit separately confirming that infrastructure provider xStocks failed to deliver the underlying assets entirely. The disruption is notable given the scale of retail and institutional crypto demand: Binance Wallet alone attracted roughly $557 million in subscriptions, while total investor orders across markets exceeded $350 billion before SpaceX began trading on Nasdaq.",
+    "date": "2026-06-12",
+    "source_url": "https://crypto.news/binance-cancels-spacex-ipo-campaign-as-allocation-chaos-hits/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SpaceX",
+    "initiative": "Solana price surges 3% as bulls challenge bears after SPCX token debut",
+    "description": "Backpack and Sunrise launched SPCX, a tokenized asset backed by SpaceX shares, on the Solana network, coinciding with SpaceX's Nasdaq debut and allowing eligible holders to redeem tokens for actual shares through regulated brokerage partners. The product positions Solana as infrastructure for tokenized private equity, enabling trading, self-custody, and redemption through compatible on-chain applications. SOL rose approximately 3.4% to around $67.73 in the 24 hours following the launch, extending weekly gains above 4%. For institutional practitioners, the development is notable as it represents a regulated real-world asset framework linking traditional securities ownership with on-chain settlement on a major proof-of-stake network.",
+    "date": "2026-06-12",
+    "source_url": "https://crypto.news/solana-price-surges-3-as-bulls-challenge-bears-after/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Custody & Safekeeping",
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure",
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "institution": "SpaceX",
+    "initiative": "Morningstar sounds alarm on SpaceX as bulls target $190",
+    "description": "Morningstar issued a fair value estimate of $63 per share for SpaceX — less than half the company's $135 IPO price — warning that investor enthusiasm has pushed the stock well above its fundamental worth following the company's Nasdaq debut. SpaceX shares opened at $150 and traded up to approximately $161.68, implying a market capitalisation of roughly $1.96 trillion, while some sell-side analysts have set price targets as high as $190. The offering reportedly drew over $350 billion in total demand, with Morningstar acknowledging that limited share supply and sustained institutional and retail interest could keep prices elevated in the near term despite the valuation gap.",
+    "date": "2026-06-12",
+    "source_url": "https://crypto.news/morningstar-sounds-alarm-on-spacex-as-bulls-target-190/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "Collateral & Lending"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "SpaceX",
+    "initiative": "Can Hyperliquid price rally past $75 as SpaceX hype fuels a falling wedge breakout?",
+    "description": "Hyperliquid's HYPE token traded near $60 on June 12 after futures open interest rose 6.3% in 24 hours to $2.56 billion, surpassing XRP's $2.48 billion and marking a continuation of the platform's rising share of derivatives activity. A key driver has been Hyperliquid's synthetic SPCX perpetual market, which allows traders to gain leveraged exposure to SpaceX ahead of its traditional-market debut, drawing speculative volume and pushing implied valuations above IPO pricing. Earlier in the week, Kalshi launched CFTC-regulated HYPE perpetual contracts, broadening the addressable trader base and adding a regulated onramp for institutional participants.",
+    "date": "2026-06-12",
+    "source_url": "https://crypto.news/can-hyperliquid-price-rally-past-75-as-spacex-hype-fuels-a-falling-wedge-breakout/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "institution": "SpaceX",
+    "initiative": "Can Velvet price reach $2 as SpaceX IPO hype drives demand?",
+    "description": "Velvet (VELVET), a decentralized on-chain trading platform, surged more than 1,400% over the past week after launching synthetic pre-IPO markets offering leveraged exposure to SpaceX, OpenAI, and Anthropic — positioning the token as a speculative proxy on anticipated public listings by high-profile private companies. The rally was amplified by a June 3 integration with Trade.xyz and a sharp liquidity squeeze, with open interest in VELVET futures climbing to nearly $94 million and short liquidations adding further upward pressure. Notably, the token's market capitalization reached approximately $745 million despite the protocol holding less than $1 million in total value locked, a divergence that underscores the speculative rather than fundamental nature of the move.",
+    "date": "2026-06-12",
+    "source_url": "https://crypto.news/can-velvet-price-reach-2-as-spacex-ipo-hype-drives-demand/",
+    "category": "ecosystem",
+    "source_name": "crypto.news",
+    "auto_generated": true,
+    "institution_type": "Infrastructure & Technology",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Trading & Exchange",
+      "Interoperability & Standards"
+    ],
+    "initiative_types": [
+      "DLT / Blockchain Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
     "institution": "Standard Chartered",
     "initiative": "Bitcoin hit bottom at $59,000 marking end to the crypto winter, says Standard Chartered analyst",
     "description": "Standard Chartered senior analyst Geoffrey Kendrick published a note on June 12 arguing that bitcoin established its cycle trough at approximately $59,000 on June 5—a 53% drawdown from its October 2025 all-time high of $126,000—and that the downturn has now ended. Kendrick attributed much of the recent selling pressure to spot bitcoin ETF redemptions exceeding $5.72 billion since early May, which he linked anecdotally to investors liquidating crypto positions to fund participation in SpaceX's Nasdaq IPO, a demand dynamic he expects to dissipate now that the listing has commenced. He identified a potential U.S.-Iran peace deal as a second catalyst, arguing that capped oil prices would ease U.S. Treasury yield pressure and reduce the macro headwinds that have weighed on digital assets.",
@@ -75,15 +344,15 @@
     }
   },
   {
-    "institution": "SpaceX",
+    "institution": "Nasdaq",
     "initiative": "SpaceX debut turns tokenized stocks into crypto’s hottest sector",
     "description": "SpaceX priced its IPO at $135 per share before opening at $150 and trading as high as $173.22 on Nasdaq, raising approximately $75 billion in what became the largest IPO on record and pushing the company’s market capitalization above $2 trillion. Rather than pulling liquidity from digital assets — a concern flagged by GSR’s head of OTC trading and others given the scale of capital required — crypto markets rose alongside the listing, with Bitcoin, Ethereum, and Solana all advancing on the day.",
     "date": "2026-06-12",
     "source_url": "https://crypto.news/spacex-debut-turns-tokenized-stocks-into-cryptos-hottest-sector/",
-    "category": "ecosystem",
+    "category": "exchanges_intermediaries",
     "source_name": "crypto.news",
     "auto_generated": true,
-    "institution_type": "Infrastructure & Technology",
+    "institution_type": "Exchanges & Central Intermediaries",
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Collateral & Lending",
@@ -196,15 +465,15 @@
     }
   },
   {
-    "institution": "Digital Asset Exchange",
+    "institution": "SpaceX",
     "initiative": "Bybit, Binance, Bitget cancel tokenized SpaceX IPO allocations after share shortage",
     "description": "Three major crypto exchanges — Bybit, Binance, and Bitget — were forced to cancel their tokenized SpaceX IPO allocations on June 12, 2026, after xStocks, the tokenization infrastructure provider acquired by Kraken, failed to secure sufficient underlying shares to fulfill customer subscriptions. All three platforms are issuing full refunds, with Bybit offering an additional 10% consolation payment, Bitget returning fees alongside future whitelist privileges, and Binance directing affected users toward a $1 million airdrop of its own forthcoming bStocks SpaceX token.",
     "date": "2026-06-12",
     "source_url": "https://www.theblock.co/post/404644/bybit-binance-bitget-cancel-tokenized-spacex-ipo-allocations-share-shortage",
-    "category": "exchanges_intermediaries",
+    "category": "ecosystem",
     "source_name": "The Block",
     "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
+    "institution_type": "Infrastructure & Technology",
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Payments & Transfers",
@@ -876,15 +1145,15 @@
     "year": "2026"
   },
   {
-    "institution": "Circle",
+    "institution": "SpaceX",
     "initiative": "Binance unveils SpaceX teaser as tokenized stock push expands",
     "description": "Binance, through its BTech Holdings Limited affiliate, listed five new tokenized stock certificates — tied to Circle, Nvidia, Tesla, Micron, and Sandisk — on its spot market on June 11, 2026, while simultaneously signaling an upcoming SpaceX-linked token under the ticker SPCXB ahead of the company's anticipated $1.75 trillion IPO. The instruments, structured as certificates linked to underlying stock holdings rather than direct share ownership, carry no voting rights and are part of the exchange's expanding real-world asset program targeting crypto traders seeking traditional equity exposure.",
     "date": "2026-06-11",
     "source_url": "https://crypto.news/binance-unveils-spacex-teaser-as-tokenized-stock-push-expands/",
-    "category": "payments",
+    "category": "ecosystem",
     "source_name": "crypto.news",
     "auto_generated": true,
-    "institution_type": "Payments Providers",
+    "institution_type": "Infrastructure & Technology",
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Trading & Exchange"
@@ -1393,15 +1662,15 @@
     }
   },
   {
-    "institution": "ECB (European Central Bank)",
+    "institution": "SpaceX",
     "initiative": "Live updates: Bitcoin nears $63,000 ahead of highly anticipated SpaceX IPO",
     "description": "Fresh U.S. inflation data on Thursday was mixed, and the ECB hiked rates for the first time in nearly three years.",
     "date": "2026-06-11",
     "source_url": "https://www.coindesk.com/markets/2026/06/11/live-updates-soft-core-inflation-gave-crypto-a-bounce-but-only-bitcoin-held-up-on-the-week",
-    "category": "regulators",
+    "category": "ecosystem",
     "source_name": "CoinDesk",
     "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
+    "institution_type": "Infrastructure & Technology",
     "signal_type": "Product Launch",
     "fmi_areas": [
       "Data & Reporting"
@@ -2288,15 +2557,15 @@
     }
   },
   {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "institution": "SpaceX",
     "initiative": "Elizabeth Warren urges SEC to halt record SpaceX IPO",
     "description": "Senator Elizabeth Warren has called on the SEC to delay SpaceX’s $75 billion IPO, citing concerns over investor protections, governance risks, and the company’s $1.8 trillion valuation. According to a letter sent by Senator Elizabeth Warren to SEC Chair Paul… Elizabeth Warren urges SEC to halt record SpaceX IPO",
     "date": "2026-06-10",
     "source_url": "https://crypto.news/elizabeth-warren-urges-sec-to-halt-record-spacex-ipo/",
-    "category": "regulators",
+    "category": "ecosystem",
     "source_name": "crypto.news",
     "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
+    "institution_type": "Infrastructure & Technology",
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Regulation & Compliance"
@@ -4039,15 +4308,15 @@
     }
   },
   {
-    "institution": "Digital Asset Exchange",
+    "institution": "SpaceX",
     "initiative": "SpaceX to be first public offering on Bybit's IPO Express",
     "description": "Bybit, the world’s second-largest cryptocurrency exchange by trading volume, today announced the launch of Bybit IPO Express, becoming one of the first centralized crypto exchanges globally to offer tokenized IPO (initial public offerings) at the offering price.",
     "date": "2026-06-08",
     "source_url": "https://www.finextra.com/pressarticle/110053/spacex-to-be-first-public-offering-on-bybits-ipo-express",
-    "category": "exchanges_intermediaries",
+    "category": "ecosystem",
     "source_name": "Finextra",
     "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
+    "institution_type": "Infrastructure & Technology",
     "signal_type": "Product Launch",
     "fmi_areas": [
       "Trading & Exchange"
@@ -4248,15 +4517,15 @@
     }
   },
   {
-    "institution": "Digital Asset Exchange",
+    "institution": "SpaceX",
     "initiative": "Bybit follows Kraken in offering tokenized SpaceX IPO access via xStocks",
     "description": "The product is built on Payward's xStocks framework, the tokenized equities platform Kraken acquired through its purchase of Backed Finance in late 2025.",
     "date": "2026-06-07",
     "source_url": "https://www.theblock.co/post/403893/bybit-follows-kraken-in-offering-tokenized-spacex-ipo-access-via-xstocks",
-    "category": "exchanges_intermediaries",
+    "category": "ecosystem",
     "source_name": "The Block",
     "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
+    "institution_type": "Infrastructure & Technology",
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Regulation & Compliance"
@@ -4290,15 +4559,15 @@
     "year": "2026"
   },
   {
-    "institution": "Digital Asset Exchange",
+    "institution": "SpaceX",
     "initiative": "Bybit opens tokenized SpaceX access through IPO Express",
     "description": "Bybit launched IPO Express and introduced tokenized SpaceX exposure through xStocks with 1:1 equity backing.",
     "date": "2026-06-07",
     "source_url": "https://crypto.news/bybit-opens-tokenized-spacex-access-through-ipo-express/",
-    "category": "exchanges_intermediaries",
+    "category": "ecosystem",
     "source_name": "crypto.news",
     "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
+    "institution_type": "Infrastructure & Technology",
     "signal_type": "Product Launch",
     "fmi_areas": [
       "General Infrastructure"
@@ -4386,15 +4655,15 @@
     }
   },
   {
-    "institution": "Coinbase",
+    "institution": "SpaceX",
     "initiative": "Are retail traders selling their bitcoin to buy the SpaceX IPO?",
     "description": "Exchange flows and stablecoin movements through this week's sell-off show no wall of money leaving crypto for cash. Exchanges such as Robinhood and Coinbase will not publicly reporting their figures until July.",
     "date": "2026-06-06",
     "source_url": "https://www.coindesk.com/markets/2026/06/06/are-retail-traders-selling-their-bitcoin-to-buy-the-spacex-ipo",
-    "category": "exchanges_intermediaries",
+    "category": "ecosystem",
     "source_name": "CoinDesk",
     "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
+    "institution_type": "Infrastructure & Technology",
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Collateral & Lending",
@@ -4494,15 +4763,15 @@
     }
   },
   {
-    "institution": "Nasdaq",
+    "institution": "SpaceX",
     "initiative": "SpaceX lands Google GPU deal as record IPO countdown begins",
     "description": "A regulatory filing by SpaceX said Google will pay the company $920 million per month from… SpaceX has secured a major compute agreement withGoogle ahead of its planned Nasdaq listing, adding another large customer to its expanding AI infrastructure business. SpaceX lands Google GPU deal as record IPO countdown begins",
     "date": "2026-06-05",
     "source_url": "https://crypto.news/spacex-lands-google-gpu-deal-as-record-ipo-countdown-begins/",
-    "category": "exchanges_intermediaries",
+    "category": "ecosystem",
     "source_name": "crypto.news",
     "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
+    "institution_type": "Infrastructure & Technology",
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Trading & Exchange",
@@ -5152,15 +5421,15 @@
     }
   },
   {
-    "institution": "Coinbase",
+    "institution": "SpaceX",
     "initiative": "Coinbase Debuts Pre-IPO Perpetual Futures on International Exchange, Starting With SpaceX Ahead of June 12 Listing",
     "description": "Coinbase launched SpaceX pre-IPO perpetual futures on its International Exchange with 5x leverage and a valuation-based index that converts to a standard equity perp post-IPO.",
     "date": "2026-06-05",
     "source_url": "https://unchainedcrypto.com/coinbase-debuts-pre-ipo-perpetual-futures-on-international-exchange-starting-with-spacex-ahead-of-june-12-listing/",
-    "category": "exchanges_intermediaries",
+    "category": "ecosystem",
     "source_name": "Unchained Crypto",
     "auto_generated": true,
-    "institution_type": "Exchanges & Central Intermediaries",
+    "institution_type": "Infrastructure & Technology",
     "signal_type": "Product Launch",
     "fmi_areas": [
       "Trading & Exchange",
@@ -6428,15 +6697,15 @@
     "year": "2026"
   },
   {
-    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "institution": "SpaceX",
     "initiative": "SpaceX IPO sets up Bitcoin exposure test as liquidity fears grow",
     "description": "SpaceX has outlined plans for a record $75 billion stock market debut that would value Elon Musk’s space and AI company at about $1.77 trillion. Securities and Exchange Commission, SpaceX plans to sell… SpaceX IPO sets up Bitcoin exposure test as liquidity fears grow",
     "date": "2026-06-03",
     "source_url": "https://crypto.news/spacex-ipo-sets-up-bitcoin-exposure-test-as-liquidity-fears-grow/",
-    "category": "regulators",
+    "category": "ecosystem",
     "source_name": "crypto.news",
     "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
+    "institution_type": "Infrastructure & Technology",
     "signal_type": "Investment / M&A",
     "fmi_areas": [
       "Collateral & Lending",
