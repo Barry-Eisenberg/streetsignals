@@ -11510,6 +11510,24 @@
     "id": "el1v9f"
   },
   {
+    "id": "7jzks4",
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "FCA launches investigation into second motor finance claims management company",
+    "description": "The Financial Conduct Authority has opened a formal enforcement investigation into Consultation Claims Limited (CCL), a claims management company handling motor finance cases, over conduct between April and December 2025. The investigation centres on allegations that consumers were enrolled without their knowledge or consent, with some cases involving apparent signature forgery on contracts — concerns serious enough for the FCA to invoke its exceptional-circumstances test to justify publicly disclosing an active investigation.",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/press-releases/fca-launches-investigation-second-motor-finance-claims-management-company",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "institution": "FCA (Financial Conduct Authority, UK)",
     "initiative": "Football clubs warned about questionable sponsorship deals with unauthorised financial firms",
     "description": "The UK Financial Conduct Authority has written directly to Premier League clubs and other football organisations warning them against entering sponsorship arrangements with financial firms that lack FCA authorisation, including crypto businesses and trading platforms. Such firms may be breaching UK financial services law by promoting or providing regulated products without the necessary permissions, leaving fans with no recourse if they suffer losses. The FCA has flagged that clubs themselves face exposure to legal liability, money laundering risk, and reputational harm if they fail to conduct adequate due diligence on financial services sponsors before and after signing.",
@@ -11825,25 +11843,5 @@
     "initiative_types": [],
     "year": "2026",
     "id": "irnbm0"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "Simpler climate reporting rules could save firms £20m annually",
-    "description": "The FCA has published a consultation paper (CP26/17) proposing to replace detailed product-level climate reporting obligations — currently based on the TCFD framework introduced in 2021 — with simpler, more targeted disclosures for retail investors, in line with Consumer Duty requirements. Under the proposals, retail clients would receive focused information on how material climate risks could affect investment performance, while institutional clients could request key emissions data on demand rather than receiving full published reports. The regulator estimates the changes would reduce compliance costs for asset managers and FCA-regulated asset owners by approximately £20 million per year, based on industry feedback and a voluntary firm survey.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/press-releases/simpler-climate-reporting-rules-could-save-firms-20m-annually",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026",
-    "id": "qysop7"
   }
 ]
