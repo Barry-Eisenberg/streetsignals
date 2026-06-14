@@ -1,5 +1,58 @@
 [
   {
+    "id": "ppdp3a",
+    "institution": "SEC (U.S. Securities and Exchange Commission)",
+    "initiative": "SEC's big swing to clear tokenization path isn't likely to get resilience of full rule",
+    "description": "The SEC under Chairman Paul Atkins is moving toward an \"innovation exemption\" for tokenized securities rather than pursuing formal notice-and-comment rulemaking, a choice that carries meaningful implications for the durability of any resulting policy framework. Former SEC lawyers consulted by CoinDesk broadly agree that commission-level exemptive authority sits above staff guidance in the agency's hierarchy but below a codified rule, meaning a future administration with different priorities could reverse course more readily, albeit still with difficulty once economic value has accumulated around the new products.",
+    "date": "2026-06-14",
+    "source_url": "https://www.coindesk.com/news-analysis/2026/06/12/sec-s-big-swing-to-clear-tokenization-path-isn-t-likely-to-get-resilience-of-full-rule",
+    "category": "regulators",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "The SEC's choice of exemptive authority over formal rulemaking forces institutions to make a binary strategic decision now: treat a time-limited, commission-level exemption as sufficient runway to build tokenized securities infrastructure, or hold capital and talent in reserve until Congressional legislation provides the permanence that some risk frameworks require. This is not a regulatory green light — it is a conditional yellow, and how each institution calibrates that distinction will determine who captures first-mover positioning and who cedes it on procedural grounds. The window is real, but its durability is explicitly contested.",
+      "banks_fmis": "Custodians and clearing firms face a build-versus-wait decision with asymmetric consequences: early infrastructure investment under an exemption regime captures network effects in tokenized settlement workflows, but remaining exposure to reversal risk on anything less than statute-backed rules demands that architecture be designed with modularity and reversibility baked in from day one. The operationally durable answer is not to wait for the Clarity Act — it is to build in a way that survives without it.",
+      "asset_managers": "For asset managers evaluating tokenized fund structures or secondary market exposure to tokenized securities, the exemption framework narrows the field to those with risk tolerance for sub-statutory regulatory footing — Atkins himself has acknowledged the SEC's legal backbone is 1930s statute. Managers whose investment committee frameworks require legislative permanence before product launch are effectively sidelined until Congressional action materializes, which former SEC counsel describe as still a long way off.",
+      "policy_risk": "The layered hierarchy the SEC is creating — staff statements at the base, exemptive orders in the middle, formal rules above, and statute at the apex — means that each tokenization initiative approved under the forthcoming exemption carries a specific and quantifiable reversal risk profile tied to electoral cycles. Institutions engaging with SEC counsel now to structure their participation within the exemption's narrow and time-limited scope are doing the right work; those waiting for the Clarity Act to set parameters before engaging are ceding the rulemaking comment process to competitors who will be further along."
+    }
+  },
+  {
+    "id": "inrap3",
+    "institution": "Nasdaq",
+    "initiative": "Wall Street and crypto are crashing into each other as tokenized treasury markets hit $14.6 billion",
+    "description": "Major crypto exchanges — including OKX, Kraken, Hyperliquid, and Binance — are aggressively adding perpetual futures and tokenized markets for equities, commodities, and index funds such as the S&P 500 ETF (SPY) and Nasdaq-100 ETF (QQQ), responding to an 11%-plus decline in centralized exchange trading volumes to $4.61 trillion, their lowest since late 2024. The strategic logic is capital retention: by allowing traders to rotate from crypto into synthetic U.S. equities or stablecoins within a single platform, exchanges aim to prevent outflows to traditional brokerages during crypto drawdowns. This development sits within a broader two-way convergence, as tokenized U.S.",
+    "date": "2026-06-14",
+    "source_url": "https://www.coindesk.com/markets/2026/06/11/wall-street-and-crypto-are-crashing-into-each-other-as-tokenized-treasury-markets-hit-usd14-6-billion",
+    "category": "exchanges_intermediaries",
+    "source_name": "CoinDesk",
+    "auto_generated": true,
+    "institution_type": "Exchanges & Central Intermediaries",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Digital Currency & Stablecoins"
+    ],
+    "initiative_types": [
+      "Stablecoins & Deposit Tokens",
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "The tokenized treasury market crossing $14.6 billion while centralized crypto exchange volumes fall 11% signals that asset class boundaries are dissolving faster than institutional compliance and product frameworks can track — this is no longer a crypto story, it is a market structure story. Crypto-native platforms are now competing directly for the same capital pools, trading hours, and fee revenue that traditional exchanges and brokerages have long considered structurally protected. Every financial institution that treats this as a peripheral development is ceding competitive ground to platforms built to move in months, not years.",
+      "banks_fmis": "Exchanges and central intermediaries face a direct challenge to their core value proposition: clearing, settlement, and custody of equities and fixed income instruments are being replicated — imperfectly but rapidly — on programmable infrastructure that operates without their participation. The question is no longer whether to engage with tokenized asset markets, but whether the engagement model is defensive partnership or proactive market structure redesign.",
+      "asset_managers": "The 589% growth in tokenized RWA markets from early 2025 to mid-2026 is generating distribution channels and investor access patterns that bypass traditional fund structures entirely — asset managers who have not mapped their product lineup against this infrastructure shift risk watching capital rotate into functionally equivalent exposures held outside their platform. The BlackRock and Franklin Templeton tokenized treasury programs are the benchmark; the competitive pressure now extends to equities, commodities, and index exposure.",
+      "fintech": "The infrastructure gap identified in this signal — 24/7 access, multi-asset exposure, stablecoin-denominated rotation — is a product specification, not a market wish list, and platforms that can close it are already capturing fee revenue and user retention that legacy infrastructure cannot match. Fintech providers building connectivity between programmable settlement rails and traditional asset registries are positioned at the highest-value seam in this convergence, provided they can deliver regulator-ready compliance architecture alongside the speed advantage.",
+      "policy_risk": "Synthetic equity exposure, perpetual futures on public company securities, and tokenized instruments operating outside standard market hours are being distributed globally to retail investors at scale — without the voting rights, insurance protections, or legal recourse that regulated exchanges mandate. Regulators have a narrowing window to establish consistent cross-border standards before market structure is effectively set by platform growth rather than policy design."
+    }
+  },
+  {
     "id": "6p2x2n",
     "institution": "T. Rowe Price",
     "initiative": "SEC approves T. Rowe Price crypto ETF with BTC, ETH and XRP exposure",
@@ -11600,6 +11653,78 @@
     "id": "el1v9f"
   },
   {
+    "id": "bdgpuu",
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "FCA secures confiscation order against Ponzi scheme fraudster",
+    "description": "At a Southwark Crown Court hearing on 5 June 2026, Daniel Pugh — already serving a seven-and-a-half-year prison sentence for defrauding investors of £1.3 million through a Ponzi scheme — was ordered by the FCA to surrender £452,286.80 under the Proceeds of Crime Act 2002, representing the full value of assets the court found available for recovery. Pugh had solicited retail investors via Facebook, falsely claiming their money would be traded across financial markets, when in fact only 19% of collected funds were ever traded. The confiscation proceeds will be distributed as compensation to victims, with the FCA still actively seeking any remaining claimants ahead of a 30 June 2026 deadline.",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/press-releases/fca-secures-confiscation-order-against-ponzi-scheme-fraudster",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "id": "dides9",
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "Consumers warned about misleading car finance 'money tips' claims ads",
+    "description": "The FCA, acting through a joint regulatory taskforce established in March, has identified a surge in deceptive social media advertising by claims management companies and law firms seeking to recruit clients for motor finance compensation claims. These promotions have been disguised as impartial personal finance tips, misappropriated logos and media personalities — including unauthorised edited clips of Martin Lewis — and failed to disclose that consumers can pursue claims independently at no cost. The regulator has already secured the removal of over 1,000 misleading adverts since January 2024, extracted free contract exits for more than 28,000 consumers, and opened formal enforcement investigations into two CMCs.",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/press-releases/consumers-warned-about-misleading-car-finance-money-tips-claims-ads",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Strategic Partnership",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "id": "78xdos",
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "AI in financial services: shaping our approach through industry engagement",
+    "description": "The UK Financial Conduct Authority has outlined its evolving approach to artificial intelligence in financial services, confirming it will not introduce standalone AI-specific regulation but will instead apply existing frameworks — including Consumer Duty, SM&CR, and governance expectations — to AI-related risks and practices. The regulator is actively engaging firms through its AI Lab, which encompasses live testing environments, a supercharged sandbox, and an AI Input Zone survey open until 19 June 2026, to gather industry evidence on what is working, where challenges exist, and where regulatory clarity is needed.",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/blogs/ai-financial-services-approach",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "id": "4764of",
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "FCA imposes requirements on Euro Exchange Securities UK Limited and interim managers appointed by the Court",
+    "description": "The FCA moved on 4 June 2026 to halt all regulated electronic money and payment services activity at Euro Exchange Securities UK Limited (EES), citing systemic failures in the firm's financial crime controls, safeguarding arrangements, and governance structure that posed material risks to both consumers and market integrity. Acting on the FCA's application, the Court appointed Duncan Perring and James Bennett of Teneo Financial Advisory Limited as interim managers under the Payment and Electronic Money Institution Insolvency Regulations 2021, giving them temporary oversight of EES's affairs as officers of the Court.",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/press-releases/fca-imposes-requirements-euro-exchange-securities-uk-limited-and-interim-managers-appointed-court",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
     "id": "w86u9m",
     "institution": "FCA (Financial Conduct Authority, UK)",
     "initiative": "Solvenza Limited in administration",
@@ -11771,119 +11896,5 @@
     "initiative_types": [],
     "year": "2026",
     "id": "5il243"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "Court orders appointment of special administrators for Euro Exchange Securities UK Limited",
-    "description": "The High Court confirmed the permanent appointment of Duncan Perring and James Bennett of Teneo Financial Advisory Limited as joint special administrators for Euro Exchange Securities UK Limited (EES), a regulated electronic money and payments institution, under the Payment and Electronic Money Institution Insolvency Regulations 2021. The FCA had already required EES to cease all regulated activity on 4 June 2026 following serious concerns about systemic weaknesses in its financial crime controls, safeguarding arrangements, and governance, with the firm declining to challenge the initial court order.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/press-releases/court-orders-appointment-special-administrators-euro-exchange-securities-uk-limited",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Payments & Transfers",
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026",
-    "id": "di8rd0"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "Amplifi Capital (U.K.) Limited enters administration",
-    "description": "On 9 June 2026, Amplifi Capital (U.K.) Limited — an FCA-authorised consumer credit firm operating under the Reevo Money and My Community Finance brands — entered administration, with Robert Spence and Gareth Slater of Interpath Advisory appointed as joint administrators. Reevo Money had provided personal loans directly to consumers, while My Community Finance acted as a credit broker connecting customers with credit unions My Community Bank and Castle Community Bank. Existing loan agreements remain in force and borrowers are expected to continue repayments, but the firm can no longer originate new credit.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/news-stories/amplifi-capital-uk-limited-enters-administration",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2026",
-    "id": "cvue35"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "Opening the door to mortgages: rules focused on better outcomes for people",
-    "description": "The UK Financial Conduct Authority has published a consultation proposing significant reforms to mortgage affordability rules, with the stated aim of broadening access for underserved borrower groups including the self-employed, first-time buyers, and older borrowers. Under the proposed changes, lenders would be granted greater flexibility to assess affordability holistically — accounting for variable incomes, current financial circumstances, and offering interest-only products where appropriate — rather than applying standardised templates that can exclude creditworthy applicants.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/blogs/opening-door-mortgages-rules-focused-better-outcomes-people",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance",
-      "Interoperability & Standards"
-    ],
-    "initiative_types": [],
-    "year": "2026",
-    "id": "xic7n7"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "FCA proposes changes to help more people access mortgages",
-    "description": "The Financial Conduct Authority has published Consultation Paper CP26/18, proposing a suite of amendments to existing mortgage rules intended to broaden access for borrowers who are currently underserved by the market, including first-time buyers, the self-employed, older homeowners, and those receiving income in foreign currencies. The proposals would give lenders greater flexibility to assess affordability on the basis of individual circumstances rather than applying blanket exclusions tied to minor credit history issues, and would update guidance on retirement interest-only and part interest-only products.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/press-releases/fca-proposals-help-more-access-mortgages",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026",
-    "id": "osarbm"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "FCA takes action against Neil Woodford and W4.0 for operating without authorisation",
-    "description": "The FCA has initiated civil proceedings against Neil Woodford and his UAE-registered venture W4.0 (trading name of W Four Point Zero FZE LLC), alleging that both are providing regulated investment advice and distributing financial promotions through a subscription platform without FCA authorisation. The regulator contends the conduct breaches the general prohibition and the financial promotion restriction under sections 19 and 21 of FSMA 2000. The FCA is seeking an injunction to halt the activity, marking a significant escalation against one of the UK's most high-profile former fund managers following the collapse of Woodford Investment Management in 2019.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/statements/fca-takes-action-against-neil-woodford-and-w40-operating-without-authorisation",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026",
-    "id": "z8pzjv"
-  },
-  {
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "FCA update on reforms to the UK Money Market Fund Regulation",
-    "description": "The FCA has updated its reform proposals for UK Money Market Funds following a government announcement on 15 May 2026 that legislation will be introduced to replace the existing UK MMF Regulation before year-end. Drawing on new analysis — including data from the Bank of England's system-wide exploratory scenario exercise — the regulator has moderated its previously proposed liquidity requirements, moving away from the sharp increase in daily and weekly liquid asset thresholds consulted on in CP23/28, and instead plans to set supervisory expectations of 40% weekly liquid assets for stable NAV funds and 20% for variable NAV funds through guidance rather than hard rules.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/statements/reforms-uk-money-market-fund-regulation",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance",
-      "Data & Reporting"
-    ],
-    "initiative_types": [],
-    "year": "2026",
-    "id": "r6suvy"
   }
 ]
