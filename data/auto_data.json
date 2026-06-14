@@ -11510,6 +11510,26 @@
     "id": "el1v9f"
   },
   {
+    "id": "7swghl",
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "Simpler climate reporting rules could save firms £20m annually",
+    "description": "The FCA has published a consultation paper (CP26/17) proposing to replace existing product-level climate reporting requirements — introduced in 2021 under the TCFD framework — with a simplified disclosure regime for investment products. Under the proposals, retail investors would receive targeted information on how material climate risks could affect financial performance, while institutional clients could request key emissions data on demand rather than receiving full published reports. The regulator estimates the changes could reduce compliance costs for asset managers and FCA-regulated asset owners by approximately £20 million annually, based on industry feedback and a voluntary firm survey.",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/press-releases/simpler-climate-reporting-rules-could-save-firms-20m-annually",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "id": "7jzks4",
     "institution": "FCA (Financial Conduct Authority, UK)",
     "initiative": "FCA launches investigation into second motor finance claims management company",
@@ -11825,23 +11845,5 @@
     ],
     "year": "2026",
     "id": "gaa3te"
-  },
-  {
-    "institution": "Bank of England",
-    "initiative": "Bank of England and FCA MoU on supervision of market infrastructure: 2025/26 review",
-    "description": "The Bank of England and the FCA completed their annual review of the Memorandum of Understanding governing coordinated supervision of financial market infrastructure, concluding that existing cooperation arrangements remain effective with no material duplication of effort. The two authorities conducted the assessment by consulting directly with FMIs over the preceding twelve months to gauge how well the bilateral framework is functioning in practice. For institutional participants—including central counterparties, central securities depositories, and other systemically significant FMIs—the finding is relevant because it confirms regulatory oversight responsibilities remain clearly delineated between the prudential and conduct authorities.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/statements/bank-england-fca-mou-supervision-market-infrastructure-review-2025-26",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026",
-    "id": "irnbm0"
   }
 ]
