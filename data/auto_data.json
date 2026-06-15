@@ -1713,6 +1713,31 @@
     "id": "sv5yli"
   },
   {
+    "id": "fabs45",
+    "institution": "Mastercard",
+    "initiative": "Wero Takes Another Step Toward Becoming Europe’s Payment Network",
+    "description": "BoursoBank, France's largest online bank with approximately 9 million customers, has announced plans to integrate Wero into its payments offering by end of 2026, extending the pan-European account-to-account payment network's reach to a significant new user base. The move adds to Wero's existing 55 million users and marks a notable step in the network's consolidation across French retail banking. Wero is built on instant payment rails and is positioned as a domestically controlled alternative to Visa, Mastercard, and other international card schemes, making its distribution through major retail banks strategically significant for European payment sovereignty initiatives.",
+    "date": "2026-06-11",
+    "source_url": "https://www.connectingthedotsinpayments.com/wero-takes-another-step-toward-becoming-europes-payment-network/",
+    "category": "payments",
+    "source_name": "Connecting the Dots in Payments",
+    "auto_generated": true,
+    "institution_type": "Payments Providers",
+    "signal_type": "Platform / Infrastructure",
+    "fmi_areas": [
+      "Payments & Transfers"
+    ],
+    "initiative_types": [],
+    "year": "2026",
+    "why_this_matters_override": {
+      "default": "Wero crossing 55 million users and pulling BoursoBank's 9 million customers into its network signals that Europe's account-to-account payment infrastructure is transitioning from pilot to permanent — compressing the addressable market for card-scheme-dependent revenue faster than most institutional strategists have modeled. The extension to users aged 10–17 is not a marketing gesture; it is a deliberate capture of behavioral defaults before card habits form, which resets the competitive baseline for any institution still treating A2A as a secondary rail. Financial institutions operating in eurozone markets now face a narrowing window to decide whether they participate in Wero's network economics or defend against them.",
+      "banks_fmis": "For European retail and transaction banks, Wero's trajectory turns what was a sovereign-policy aspiration into a deposit-relationship and fee-income question — institutions that delay integration risk ceding the primary payment interaction layer to a network they do not control. The BoursoBank model, offering Wero as a fee-free complement to an already low-cost account structure, raises the floor on what customers will accept from incumbents and compresses interchange-dependent revenue assumptions.",
+      "payments": "Wero's momentum directly challenges the volume assumptions underlying card scheme partnerships across continental Europe — any payments provider whose merchant acquiring or issuer processing economics depend on interchange generated from French, German, or Belgian consumer card spend should be stress-testing those revenue lines against accelerating A2A substitution rates now. Mastercard's simultaneous launch of Agent Pay signals that the firm is repositioning up the value chain toward programmable and agentic commerce precisely because the consumer rails competition in Europe is becoming structurally unfavorable.",
+      "fintech": "The combination of Wero's network scale and Mastercard's Agent Pay infrastructure — backed by Stripe, Coinbase, and Checkout.com — illustrates a bifurcating landscape where the winning infrastructure position is either deep local A2A integration or programmable agentic payment rails; middleware players without a clear alignment to one of these vectors face accelerating commoditization pressure.",
+      "policy_risk": "Wero's expansion is the most visible operational expression of the EU's payment sovereignty agenda, and its growth trajectory will intensify regulatory scrutiny of Visa and Mastercard's market position in European consumer payments — institutions should anticipate that interoperability mandates and open-banking payment initiation requirements will be calibrated to accelerate A2A adoption, making compliance posture on PSD3 and the Instant Payments Regulation a near-term strategic variable rather than a back-office matter."
+    }
+  },
+  {
     "institution": "SpaceX",
     "initiative": "Bitcoin and Crypto Bounce as Inflation Hits 3-Year High, but CryptoQuant Says the Bottom Isn’t In and SpaceX IPO Looms",
     "description": "Bitcoin staged a modest recovery to approximately $62,000 on June 11 even as the Bureau of Labor Statistics reported May CPI accelerating to 4.2% year-over-year — the third consecutive monthly acceleration and the highest reading since 2023 — driven primarily by energy costs linked to the renewed US-Iran conflict. The data, the first inflation print under new Fed Chair Kevin Warsh, has shifted rate expectations toward at least one hike before year-end, reversing earlier consensus for three cuts and capping the rate-sensitive liquidity conditions on which risk assets depend.",
@@ -11680,6 +11705,142 @@
     "id": "el1v9f"
   },
   {
+    "id": "kha3pn",
+    "institution": "Bank of England",
+    "initiative": "Bank of England and FCA MoU on supervision of market infrastructure: 2025/26 review",
+    "description": "The Bank of England and the FCA completed their annual review of the Memorandum of Understanding governing how the two authorities coordinate oversight of financial market infrastructures, including central counterparties, payment systems, and securities settlement systems. Following consultation with supervised FMIs, both regulators concluded that existing cooperation arrangements remain effective, with adequate coordination and no material duplication of supervisory effort. The review is a routine but meaningful checkpoint for institutions subject to dual oversight, as it shapes how regulatory interactions and information-sharing between the two authorities are conducted in practice.",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/statements/bank-england-fca-mou-supervision-market-infrastructure-review-2025-26",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Settlement & Clearing",
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Payment Infrastructure"
+    ],
+    "year": "2026"
+  },
+  {
+    "id": "7swghl",
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "Simpler climate reporting rules could save firms £20m annually",
+    "description": "The FCA has published a consultation paper (CP26/17) proposing to replace the existing product-level climate reporting framework — originally introduced under TCFD requirements in 2021 — with a simplified disclosure regime for asset managers and FCA-regulated asset owners. Under the proposals, retail investors would receive streamlined information on how material climate risks could affect investment performance, while institutional clients could request key emissions data on demand rather than receiving full published reports. The regulator estimates the changes would reduce compliance costs for firms by approximately £20 million annually, based on industry feedback and a voluntary survey of firms.",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/press-releases/simpler-climate-reporting-rules-could-save-firms-20m-annually",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Collateral & Lending",
+      "Regulation & Compliance",
+      "Data & Reporting"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "id": "7jzks4",
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "FCA launches investigation into second motor finance claims management company",
+    "description": "The Financial Conduct Authority has opened a formal enforcement investigation into Consultation Claims Limited (CCL), a claims management company operating in the motor finance space, over conduct between April and December 2025. The regulator is examining allegations that consumers were enrolled without their consent and that signatures on contracts may have been forged, with the probe covering the full customer acquisition and onboarding process, including disclosures around exit fees. This is the second such CMC investigation the FCA has publicly announced, following an earlier case in January 2026, and sits within a broader regulatory push that includes a cross-agency taskforce with the SRA, ICO, and ASA, as well as a wider review of the claims management market launched in May 2026.",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/press-releases/fca-launches-investigation-second-motor-finance-claims-management-company",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "id": "vmn5su",
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "Football clubs warned about questionable sponsorship deals with unauthorised financial firms",
+    "description": "The UK Financial Conduct Authority has written directly to Premier League clubs and other English football clubs warning them against entering sponsorship arrangements with financial firms — including crypto businesses and trading platforms — that are not authorised to provide financial services in the UK. The regulator's concern is that these firms exploit the trust and visibility that club branding confers to market potentially harmful or unregulated financial products to large retail fan bases, with consumers left without recourse if those firms fail. The FCA has flagged that such arrangements may expose clubs themselves to legal liability and money-laundering risk, in addition to harming consumers.",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/press-releases/football-clubs-warned-questionable-sponsorship-deals-unauthorised-firms",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Regulatory Action",
+    "fmi_areas": [
+      "Trading & Exchange",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [
+      "Crypto / Digital Assets"
+    ],
+    "year": "2026"
+  },
+  {
+    "id": "vzrj3q",
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "Open banking takes next step forward with launch of UK Payments Initiative scheme",
+    "description": "The UK Payments Initiative (UKPI), an industry-led scheme, has formally launched to provide a commercial framework for variable recurring payments (cVRPs) under the open banking infrastructure, marking a significant structural step beyond the foundational phase overseen by the Joint Regulatory Oversight Committee. The scheme is designed to enable consumers and businesses to authorise flexible, recurring payments directly from bank accounts, introducing competitive pressure on card networks and existing payment rails. The FCA has indicated it expects UKPI's launch to act as a catalyst for additional competing schemes to emerge, and has committed to consulting on a long-term regulatory framework by end-2026, contingent on forthcoming legislation granting the regulator new powers.",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/statements/open-banking-launch-uk-payments-initiative-scheme",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Product Launch",
+    "fmi_areas": [
+      "Payments & Transfers",
+      "Regulation & Compliance"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
+    "id": "5scfgo",
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "Halo Financial Limited enters administration",
+    "description": "Halo Financial Limited, an FCA-authorised payment services firm regulated under the Payment Services Regulations 2017, entered special administration on 29 May 2026, with Louise Longley and Bai Cham of BTG Begbies Traynor appointed as joint special administrators. The firm had already been operating under a voluntary undertaking since 30 April 2026 that restricted it from conducting payment services or accepting new funds. The special administration regime, introduced under the Payment and Electronic Money Institution Insolvency Regulations 2021, imposes an additional objective beyond ordinary administration: returning safeguarded customer funds as soon as reasonably practicable.",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/news-stories/halo-financial-limited-enters-administration",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Leadership & Governance",
+    "fmi_areas": [],
+    "initiative_types": [
+      "Leadership & Governance"
+    ],
+    "year": "2026"
+  },
+  {
+    "id": "t13m5d",
+    "institution": "FCA (Financial Conduct Authority, UK)",
+    "initiative": "Court approves distribution of money recovered from Argento Wealth",
+    "description": "The High Court issued a judgment on 19 May 2026 approving a pro rata distribution of funds that the FCA had recovered from Argento Wealth Limited, an unauthorised business. The distribution covers investors who participated in either the AWL Loan Scheme or the EMB Fund Limited scheme where that investment was arranged through AWL or its sub-distributors. The FCA is administering the payout process directly, with a hard deadline of 1 August 2026 for eligible investors to submit bank account details — those who miss the deadline or have not yet made themselves known to the FCA will forfeit their entitlement.",
+    "date": "2026-01-01",
+    "source_url": "https://www.fca.org.uk/news/news-stories/court-approves-distribution-money-recovered-argento-wealth",
+    "category": "regulators",
+    "source_name": "FCA — News",
+    "auto_generated": true,
+    "institution_type": "Regulatory Agencies",
+    "signal_type": "Investment / M&A",
+    "fmi_areas": [
+      "General Infrastructure"
+    ],
+    "initiative_types": [],
+    "year": "2026"
+  },
+  {
     "id": "qccsco",
     "institution": "FCA (Financial Conduct Authority, UK)",
     "initiative": "Court orders appointment of special administrators for Euro Exchange Securities UK Limited",
@@ -11756,152 +11917,6 @@
       "Interoperability & Standards"
     ],
     "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "id": "9xpdvt",
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "FCA takes action against Neil Woodford and W4.0 for operating without authorisation",
-    "description": "The Financial Conduct Authority has launched civil proceedings against Neil Woodford — the former high-profile fund manager whose Equity Income Fund collapsed in 2019 — and his UAE-registered venture W4.0 (trading as W Four Point Zero FZE LLC), alleging they have been providing regulated investment advice and issuing financial promotions through a subscription platform without FCA authorisation. The regulator contends this activity breaches the general prohibition and financial promotion restriction under sections 19 and 21 of FSMA 2000. The FCA is seeking an injunction to halt the conduct immediately.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/statements/fca-takes-action-against-neil-woodford-and-w40-operating-without-authorisation",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Trading & Exchange",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "id": "w88kir",
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "FCA update on reforms to the UK Money Market Fund Regulation",
-    "description": "The Financial Conduct Authority has published updated proposals for reforming the UK Money Market Fund Regulation, following a government announcement in May 2026 that legislation will be introduced to replace the existing MMFR framework before year-end. Drawing on new analysis informed by the Bank of England's system-wide exploratory scenario exercise — which suggested MMF outflows under stress may be lower than previously modelled — the FCA has scaled back its originally proposed liquidity increases, opting instead to retain current minimum weekly liquid asset requirements in rules while setting supervisory expectations of 40% WLA for stable NAV funds and 20% for variable NAV funds through guidance.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/statements/reforms-uk-money-market-fund-regulation",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Regulatory Action",
-    "fmi_areas": [
-      "Collateral & Lending",
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "id": "bdgpuu",
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "FCA secures confiscation order against Ponzi scheme fraudster",
-    "description": "At a Southwark Crown Court hearing on 5 June 2026, Daniel Pugh — already serving a seven-and-a-half-year prison sentence for defrauding investors of £1.3 million through a Ponzi scheme — was ordered by the FCA to surrender £452,286.80 under the Proceeds of Crime Act 2002, representing the full value of assets the court found available for recovery. Pugh had solicited retail investors via Facebook, falsely claiming their money would be traded across financial markets, when in fact only 19% of collected funds were ever traded. The confiscation proceeds will be distributed as compensation to victims, with the FCA still actively seeking any remaining claimants ahead of a 30 June 2026 deadline.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/press-releases/fca-secures-confiscation-order-against-ponzi-scheme-fraudster",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Investment / M&A",
-    "fmi_areas": [
-      "General Infrastructure"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "id": "dides9",
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "Consumers warned about misleading car finance 'money tips' claims ads",
-    "description": "The FCA, acting through a joint regulatory taskforce established in March, has identified a surge in deceptive social media advertising by claims management companies and law firms seeking to recruit clients for motor finance compensation claims. These promotions have been disguised as impartial personal finance tips, misappropriated logos and media personalities — including unauthorised edited clips of Martin Lewis — and failed to disclose that consumers can pursue claims independently at no cost. The regulator has already secured the removal of over 1,000 misleading adverts since January 2024, extracted free contract exits for more than 28,000 consumers, and opened formal enforcement investigations into two CMCs.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/press-releases/consumers-warned-about-misleading-car-finance-money-tips-claims-ads",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Strategic Partnership",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "id": "78xdos",
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "AI in financial services: shaping our approach through industry engagement",
-    "description": "The UK Financial Conduct Authority has outlined its evolving approach to artificial intelligence in financial services, confirming it will not introduce standalone AI-specific regulation but will instead apply existing frameworks — including Consumer Duty, SM&CR, and governance expectations — to AI-related risks and practices. The regulator is actively engaging firms through its AI Lab, which encompasses live testing environments, a supercharged sandbox, and an AI Input Zone survey open until 19 June 2026, to gather industry evidence on what is working, where challenges exist, and where regulatory clarity is needed.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/blogs/ai-financial-services-approach",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Product Launch",
-    "fmi_areas": [
-      "Regulation & Compliance"
-    ],
-    "initiative_types": [],
-    "year": "2026"
-  },
-  {
-    "id": "4764of",
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "FCA imposes requirements on Euro Exchange Securities UK Limited and interim managers appointed by the Court",
-    "description": "The FCA moved on 4 June 2026 to halt all regulated electronic money and payment services activity at Euro Exchange Securities UK Limited (EES), citing systemic failures in the firm's financial crime controls, safeguarding arrangements, and governance structure that posed material risks to both consumers and market integrity. Acting on the FCA's application, the Court appointed Duncan Perring and James Bennett of Teneo Financial Advisory Limited as interim managers under the Payment and Electronic Money Institution Insolvency Regulations 2021, giving them temporary oversight of EES's affairs as officers of the Court.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/press-releases/fca-imposes-requirements-euro-exchange-securities-uk-limited-and-interim-managers-appointed-court",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2026"
-  },
-  {
-    "id": "w86u9m",
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "Solvenza Limited in administration",
-    "description": "Solvenza Limited, an FCA-authorised debt purchaser and debt collector (FRN 718517), entered administration on 28 April 2026, with Louise Longley and Julian Pitts of BTG Begbies Traynor appointed as joint administrators. Debt Collection Services UK Limited has been engaged by the administrators to continue collecting debts on Solvenza's behalf during the process, and existing loan agreements remain in force with repayment obligations unchanged. The FCA has confirmed that the Financial Services Compensation Scheme does not apply to debt resolution activities, meaning consumer claims for compensation will be handled solely through the administration process without guarantee of recovery.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/news-stories/solvenza-limited-administration",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
-    "year": "2026"
-  },
-  {
-    "id": "xftujg",
-    "institution": "FCA (Financial Conduct Authority, UK)",
-    "initiative": "Silicon Marketing Limited in administration",
-    "description": "Silicon Marketing Limited, an FCA-authorised debt purchaser and debt collector (FRN: 674008), entered administration on 21 May 2026, with Carrie James and Nick Parsk of Oury Clark appointed as joint administrators. The firm operated in the consumer debt resolution space, a segment subject to FCA oversight given its direct impact on financially vulnerable individuals. Notably, the administration does not affect existing loan agreements, which remain in force, and the firm's activities fall outside the scope of FSCS protection, meaning consumer compensation is not guaranteed and will be handled through the administration process.",
-    "date": "2026-01-01",
-    "source_url": "https://www.fca.org.uk/news/news-stories/silicon-marketing-limited-administration",
-    "category": "regulators",
-    "source_name": "FCA — News",
-    "auto_generated": true,
-    "institution_type": "Regulatory Agencies",
-    "signal_type": "Leadership & Governance",
-    "fmi_areas": [],
-    "initiative_types": [
-      "Leadership & Governance"
-    ],
     "year": "2026"
   }
 ]
